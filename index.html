@@ -667,27 +667,34 @@ function buildTimeline() {
   const longestLabel = Math.max(...lanes.map(l => (l.label || l.id).length));
   const LW = Math.min(220, Math.max(120, longestLabel * 7));
   const GAP = 2;
+  const TPAD = (MAX - MIN) * 0.02;
+  const px = yr => LW + Math.max(0, Math.min(1, (yr-(MIN-TPAD))/((MAX+TPAD)-(MIN-TPAD)))) * (W-LW);
+  const DOT_R = 4, DOT_GAP = 4;   // collision footprint for dots, in px
 
-  function layoutSpans(events) {
-    const rows = [];
-    return events.map(ev => {
-      const start = ev.y, end = (ev.y2 && ev.y2 > ev.y+1) ? ev.y2 : ev.y;
+  // Greedy row-packing so nothing overlaps horizontally: dots that land on
+  // (nearly) the same year stack into separate sub-rows; span bars stack when
+  // their time ranges overlap. Events are placed oldest-first.
+  function layoutEvents(events) {
+    const sorted = events.map((ev, i) => ({ ev, i }))
+      .sort((a, b) => (a.ev.y - b.ev.y) || (a.i - b.i));
+    const rowRight = [];   // rightmost used x-pixel per row
+    const out = [];
+    sorted.forEach(({ ev }) => {
+      const isSpan = ev.y2 && ev.y2 > ev.y + 1;
+      const x1 = px(Math.max(MIN, ev.y));
+      const left  = isSpan ? x1 : x1 - DOT_R;
+      const right = (isSpan ? px(Math.min(MAX, ev.y2)) : x1 + DOT_R) + DOT_GAP;
       let r = 0;
-      while (rows[r] !== undefined && rows[r] > start) r++;
-      rows[r] = end;
-      return { ev, row: r };
+      while (rowRight[r] !== undefined && rowRight[r] > left) r++;
+      rowRight[r] = right;
+      out.push({ ev, row: r });
     });
+    return { rows: Math.max(1, rowRight.length), layout: out };
   }
 
-  const laneLayouts = lanes.map(lane => {
-    const spanned = lane.events.filter(ev => ev.y2 && ev.y2 > ev.y+1);
-    if (spanned.length === 0) return { rows: 1, layout: lane.events.map(ev => ({ev, row:0})) };
-    const layout = layoutSpans(lane.events);
-    const rows = Math.max(...layout.map(l => l.row)) + 1;
-    return { rows, layout };
-  });
+  const laneLayouts = lanes.map(lane => layoutEvents(lane.events));
 
-  const ROW_H = 18, LANE_PAD = 4;
+  const ROW_H = 14, LANE_PAD = 6;
   let laneOffsets = [], y = 0;
   laneLayouts.forEach(ll => { laneOffsets.push(y); y += ll.rows * ROW_H + LANE_PAD * 2 + GAP; });
   const H = y + 22;
@@ -696,9 +703,6 @@ function buildTimeline() {
   svg.setAttribute('preserveAspectRatio', 'xMinYMin meet');
   svg.removeAttribute('width'); svg.removeAttribute('height');
   svg.innerHTML = '';
-
-  const TPAD = (MAX - MIN) * 0.02;
-  const px = yr => LW + Math.max(0, Math.min(1, (yr-(MIN-TPAD))/((MAX+TPAD)-(MIN-TPAD)))) * (W-LW);
 
   const step = (MAX - MIN) > 160 ? 20 : 10;
   const TICKS = [];
@@ -748,9 +752,9 @@ function buildTimeline() {
 
       if (isSpan) {
         const x2 = px(Math.min(MAX, ev.y2));
-        const barH = ROW_H - 4;
+        const barH = ROW_H - 3;
         const r = document.createElementNS('http://www.w3.org/2000/svg','rect');
-        r.setAttribute('x', x1); r.setAttribute('y', rowY + 2);
+        r.setAttribute('x', x1); r.setAttribute('y', rowY + 1);
         r.setAttribute('width', Math.max(2, x2-x1)); r.setAttribute('height', barH);
         r.setAttribute('fill', lane.accent+'50'); r.setAttribute('rx','2');
         r.setAttribute('stroke', lane.accent+'90'); r.setAttribute('stroke-width','0.8');
@@ -760,6 +764,8 @@ function buildTimeline() {
         if (clickFn) r.addEventListener('click', clickFn);
         svg.appendChild(r);
       } else {
+        // Dots only — hover shows the discovery name + year (see lane caption).
+        // Labelling every dot was unreadable once discoveries clustered.
         const cx = x1, cy = rowY + ROW_H/2;
         const c = document.createElementNS('http://www.w3.org/2000/svg','circle');
         c.setAttribute('cx', cx); c.setAttribute('cy', cy);
@@ -770,13 +776,6 @@ function buildTimeline() {
         c.addEventListener('mouseleave', hideTip);
         if (clickFn) c.addEventListener('click', clickFn);
         svg.appendChild(c);
-        const lblText = ev.l.length > 26 ? ev.l.slice(0,25)+'…' : ev.l;
-        const rt = document.createElementNS('http://www.w3.org/2000/svg','text');
-        rt.setAttribute('x', cx + 7); rt.setAttribute('y', cy + 3);
-        rt.setAttribute('font-size','7.5'); rt.setAttribute('fill', '#6a7896');
-        rt.setAttribute('font-family',"'Courier New',monospace");
-        rt.textContent = lblText; rt.style.pointerEvents = 'none';
-        svg.appendChild(rt);
       }
     });
   });
