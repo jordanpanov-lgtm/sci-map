@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <link href="https://fonts.googleapis.com/css2?family=Spectral:ital@0;1&display=swap" rel="stylesheet">
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://unpkg.com/cytoscape@3.30.2/dist/cytoscape.min.js"></script>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:#eef1f6;font-family:Georgia,serif;color:#1a2230;min-height:100vh}
@@ -144,6 +145,14 @@ body{background:#eef1f6;font-family:Georgia,serif;color:#1a2230;min-height:100vh
 .leg-label{font-size:10px;color:#8c9bb5;font-style:italic}
 #map-note{margin-top:6px;font-size:10px;color:#aab8d0;font-family:'Courier New',monospace}
 
+/* ── GRAPH ── */
+#graph-view{display:none}
+#graph-area{padding:14px 20px 20px}
+#graph-toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:10px}
+#graph-legend{display:flex;flex-wrap:wrap;gap:10px;align-items:center;flex:1}
+#cy{width:100%;height:calc(100vh - 230px);min-height:420px;border:1px solid #dde5f1;border-radius:6px;background:#f7f9fd}
+#graph-note{margin-top:6px;font-size:10px;color:#aab8d0;font-family:'Courier New',monospace}
+
 /* ── MODAL ── */
 #modal-overlay{display:none;position:fixed;inset:0;background:rgba(13,23,48,.4);z-index:2000;align-items:center;justify-content:center;padding:20px}
 #modal-overlay.open{display:flex}
@@ -184,6 +193,7 @@ body{background:#eef1f6;font-family:Georgia,serif;color:#1a2230;min-height:100vh
     <button class="tab-btn active" id="btn-list"     onclick="setView('list')">☰ List</button>
     <button class="tab-btn"        id="btn-timeline" onclick="setView('timeline')">◫ Timeline</button>
     <button class="tab-btn"        id="btn-map"      onclick="setView('map')">◎ Map</button>
+    <button class="tab-btn"        id="btn-graph"    onclick="setView('graph')">◈ Graph</button>
     <div id="search-wrap"><input id="search-input" placeholder="Search this field…" oninput="filterList()"></div>
   </div>
 </div>
@@ -230,6 +240,17 @@ body{background:#eef1f6;font-family:Georgia,serif;color:#1a2230;min-height:100vh
     <div id="map-container"><div id="the-map"></div></div>
     <div id="map-legend"></div>
     <div id="map-note">Tiles © OpenStreetMap contributors · Pins = the institution where the work was done · Click a multi-pin to list entries · Click any pin to open detail</div>
+  </div>
+</div>
+
+<div id="graph-view">
+  <div id="graph-area">
+    <div id="graph-toolbar">
+      <div id="graph-legend"></div>
+      <button id="graph-toggle" class="filter-pill" onclick="toggleUnlinked()">＋ Show unlinked</button>
+    </div>
+    <div id="cy"></div>
+    <div id="graph-note">Nodes = entries (colour = category) · lines = cross-links · a coloured ring shows replicability 🟢🟡🔴 · click a node to open it · drag to rearrange · scroll to zoom</div>
   </div>
 </div>
 
@@ -309,6 +330,8 @@ let leafMap = null;
 let markerLayer = null;
 let activeCatIds = new Set();
 let currentView = 'list';
+let cyGraph = null;
+let graphShowUnlinked = false;
 const _domCollapsed = {};
 DOMAINS.forEach(d => { _domCollapsed[d.id] = false; });
 
@@ -377,11 +400,14 @@ function setView(v) {
   document.getElementById('list-view').style.display      = v==='list'     ? 'block' : 'none';
   document.getElementById('timeline-view').style.display  = v==='timeline' ? 'block' : 'none';
   document.getElementById('map-view').style.display       = v==='map'      ? 'block' : 'none';
+  document.getElementById('graph-view').style.display     = v==='graph'    ? 'block' : 'none';
   document.getElementById('btn-list').classList.toggle('active',     v==='list');
   document.getElementById('btn-timeline').classList.toggle('active', v==='timeline');
   document.getElementById('btn-map').classList.toggle('active',      v==='map');
+  document.getElementById('btn-graph').classList.toggle('active',    v==='graph');
   if (v==='map' && !leafMap) initMap();
   if (v==='timeline') setTimeout(buildTimeline, 40);
+  if (v==='graph') setTimeout(buildGraph, 40);
 }
 
 // ── FIELD PICKER — DOMAIN → FIELD CARDS ─────────────────────────────────────────
@@ -933,6 +959,87 @@ function renderPins() {
       marker.on('click', () => openModal(items[0], items[0].accent));
     }
   });
+}
+
+// ── GRAPH (cross-link network) ──────────────────────────────────────────────────
+const REPL_RING = { robust:'#2E7D52', mixed:'#B7770D', failed:'#C0392B' };
+
+function toggleUnlinked() {
+  graphShowUnlinked = !graphShowUnlinked;
+  document.getElementById('graph-toggle').innerHTML =
+    (graphShowUnlinked ? '－ Hide unlinked' : '＋ Show unlinked');
+  document.getElementById('graph-toggle').classList.toggle('on', graphShowUnlinked);
+  buildGraph();
+}
+
+function buildGraphLegend() {
+  const wrap = document.getElementById('graph-legend');
+  wrap.innerHTML = '';
+  MOD.categories.forEach(cat => {
+    const d = document.createElement('div'); d.className = 'leg-item';
+    d.innerHTML = `<div class="leg-dot" style="background:${cat.accent}"></div><span class="leg-label">${catIcon(cat)} ${cat.label}</span>`;
+    wrap.appendChild(d);
+  });
+}
+
+function buildGraph() {
+  if (!MOD) return;
+  if (typeof cytoscape === 'undefined') {
+    document.getElementById('cy').innerHTML =
+      '<div style="padding:20px;font-family:Courier New,monospace;font-size:12px;color:#9bafd4">Graph library failed to load — check your connection.</div>';
+    return;
+  }
+  const entries = allEntries();
+  const byId = {}; entries.forEach(e => byId[e.id] = e);
+
+  // Build de-duplicated undirected edges from links[]
+  const seen = new Set(); const edges = [];
+  entries.forEach(e => (e.links || []).forEach(t => {
+    if (!byId[t] || t === e.id) return;
+    const key = [e.id, t].sort().join('~');
+    if (seen.has(key)) return; seen.add(key);
+    edges.push({ data: { id: 'e_' + key, source: e.id, target: t } });
+  }));
+
+  const linked = new Set();
+  edges.forEach(ed => { linked.add(ed.data.source); linked.add(ed.data.target); });
+  // If a folio has no links yet, show everything so the view isn't blank
+  const showAll = graphShowUnlinked || linked.size === 0;
+
+  const nodes = entries
+    .filter(e => showAll || linked.has(e.id))
+    .map(e => ({ data: {
+      id: e.id, label: e.label, accent: e.accent,
+      ring: REPL_RING[e.repl] || '#ffffff',
+      bw: e.repl ? 3 : 1
+    }}));
+
+  buildGraphLegend();
+  if (cyGraph) { cyGraph.destroy(); cyGraph = null; }
+
+  cyGraph = cytoscape({
+    container: document.getElementById('cy'),
+    elements: [...nodes, ...edges],
+    style: [
+      { selector: 'node', style: {
+        'background-color': 'data(accent)',
+        'border-color': 'data(ring)', 'border-width': 'data(bw)',
+        'label': 'data(label)', 'font-size': '7px', 'font-family': 'Georgia, serif',
+        'color': '#39435c', 'text-wrap': 'wrap', 'text-max-width': '92px',
+        'text-valign': 'bottom', 'text-margin-y': 2,
+        'width': 15, 'height': 15
+      }},
+      { selector: 'edge', style: {
+        'line-color': '#b8c6df', 'width': 1.2, 'curve-style': 'bezier', 'opacity': 0.65
+      }},
+      { selector: 'node:selected', style: { 'border-color': '#0d1730', 'border-width': 3 }}
+    ],
+    layout: { name: 'cose', animate: false, padding: 30,
+              nodeRepulsion: 9000, idealEdgeLength: 80, nodeOverlap: 14, gravity: 0.3 },
+    minZoom: 0.2, maxZoom: 3, wheelSensitivity: 0.3
+  });
+
+  cyGraph.on('tap', 'node', evt => { const e = byId[evt.target.id()]; if (e) openModal(e, e.accent); });
 }
 
 // ── INIT ───────────────────────────────────────────────────────────────────────
