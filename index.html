@@ -306,8 +306,8 @@ body{background:#eef1f6;font-family:Georgia,serif;color:#1a2230;min-height:100vh
 // status:"planned" renders a greyed, non-clickable card (no JSON needed yet).
 const FIELDS = [
   // ── HUMAN BIOLOGY & MEDICINE ─────────────────────────────────────────────────
-  { id:"anatomy-physiology",         domain:"human-biology",     label:"Anatomy, Physiology & Endocrinology",       sub:"Body systems — structure, function & hormonal regulation",              status:"planned" },
   { id:"genetics-reproduction",      domain:"human-biology",     label:"Genetics & Reproduction",                   sub:"Heredity, DNA, the gene & human development",                          status:"planned" },
+  { id:"anatomy-physiology",         domain:"human-biology",     label:"Anatomy, Physiology & Endocrinology",       sub:"Body systems — structure, function & hormonal regulation",              status:"planned" },
   { id:"immunology-disease",         domain:"human-biology",     label:"Immunology, Infection & Disease",           sub:"Pathogens, immune defence & the biology of illness",                    status:"planned" },
   // ── LIFE & ECOLOGICAL SCIENCES ───────────────────────────────────────────────
   { id:"cell-molecular-bio",         domain:"life-sciences",     label:"Cellular & Molecular Biology",              sub:"Cell structure, biochemistry & the molecular basis of life",            status:"planned" },
@@ -315,11 +315,11 @@ const FIELDS = [
   { id:"botany",                     domain:"life-sciences",     label:"Botany & Plant Sciences",                   sub:"Plant structure, physiology, diversity & ecology",                      status:"planned" },
   { id:"zoology-animal-behavior",    domain:"life-sciences",     label:"Zoology & Animal Behavior",                 sub:"Animal diversity, ecology & the evolution of behaviour",                status:"planned" },
   // ── PHYSICAL SCIENCES & CHEMISTRY ────────────────────────────────────────────
-  { id:"organic-polymer-chem",       domain:"physical-sciences", label:"Chemistry: Organic & Polymer",              sub:"Carbon chemistry, reactions & macromolecular structures",               status:"planned" },
-  { id:"inorganic-analytical-chem",  domain:"physical-sciences", label:"Chemistry: Inorganic & Analytical",         sub:"Elements, compounds & the methods of chemical measurement",             status:"planned" },
   { id:"classical-physics",          domain:"physical-sciences", label:"Physics: Classical Mechanics & Thermodynamics", sub:"Force, motion, energy & heat",                                   status:"planned" },
   { id:"em-optics",                  domain:"physical-sciences", label:"Physics: Electromagnetism & Optics",        sub:"Fields, waves, light & the electromagnetic spectrum",                   status:"planned" },
   { id:"quantum-nuclear-relativity", domain:"physical-sciences", label:"Physics: Quantum, Nuclear & Relativity",    sub:"The very small, the very fast & the structure of spacetime",            status:"planned" },
+  { id:"inorganic-analytical-chem",  domain:"physical-sciences", label:"Chemistry: Inorganic & Analytical",         sub:"Elements, compounds & the methods of chemical measurement",             status:"planned" },
+  { id:"organic-polymer-chem",       domain:"physical-sciences", label:"Chemistry: Organic & Polymer",              sub:"Carbon chemistry, reactions & macromolecular structures",               status:"planned" },
   // ── EARTH, SPACE & ENVIRONMENTAL ─────────────────────────────────────────────
   { id:"astronomy-cosmology",        domain:"earth-space",       label:"Astronomy, Astrophysics & Cosmology",       sub:"Stars, galaxies & the origin and fate of the universe",                 status:"planned" },
   { id:"geology",                    domain:"earth-space",       label:"Geology & Solid Earth Systems",             sub:"Rocks, tectonics, deep time & Earth's interior",                        status:"planned" },
@@ -365,11 +365,11 @@ const TRUNKS = [
 ];
 
 const DOMAINS = [
-  { id:"human-biology",     trunk:"science", label:"Human Biology & Medicine",        detail:"body systems · anatomy · genetics · immunity" },
-  { id:"life-sciences",     trunk:"science", label:"Life & Ecological Sciences",       detail:"cell to ecosystem · molecular biology · zoology" },
+  { id:"formal-computing",  trunk:"science", label:"Formal Sciences & Computing",      detail:"abstract systems · math · logic · algorithms" },
   { id:"physical-sciences", trunk:"science", label:"Physical Sciences & Chemistry",    detail:"matter, energy & chemical bonds" },
   { id:"earth-space",       trunk:"science", label:"Earth, Space & Environmental",     detail:"planet, cosmos & climate systems" },
-  { id:"formal-computing",  trunk:"science", label:"Formal Sciences & Computing",      detail:"abstract systems · math · logic · algorithms" },
+  { id:"life-sciences",     trunk:"science", label:"Life & Ecological Sciences",       detail:"cell to ecosystem · molecular biology · zoology" },
+  { id:"human-biology",     trunk:"science", label:"Human Biology & Medicine",        detail:"body systems · anatomy · genetics · immunity" },
   { id:"psychology",        trunk:"social",  label:"Psychology & The Mind",            detail:"mind & behaviour · cognition · emotion · social" },
   { id:"language",          trunk:"social",  label:"Language & Communication",         detail:"linguistics · meaning · cognitive language · media" },
   { id:"society",           trunk:"social",  label:"Society & Culture",                detail:"human collectives · sociology · anthropology" },
