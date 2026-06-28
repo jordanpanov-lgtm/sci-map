@@ -158,10 +158,18 @@ body{background:#eef1f6;font-family:Georgia,serif;color:#1a2230;min-height:100vh
 #study-plan-area{padding:14px 20px 40px}
 .sp-meta{font-size:11px;font-family:'Courier New',monospace;color:#5e76a6;line-height:1.7;background:#eef2f9;border-left:3px solid #3a5da8;padding:10px 14px;border-radius:0 4px 4px 0;margin-bottom:16px}
 .sp-module{margin-bottom:10px;border:1px solid #d8e0ee;border-radius:6px;overflow:clip;background:#f7f9fd}
-.sp-module-head{padding:11px 16px 10px;background:#fff;border-bottom:1px solid #edf1f9}
+.sp-toolbar{display:flex;align-items:center;justify-content:flex-end;margin-bottom:10px}
+#sp-expand-btn{font-size:10px;font-family:'Courier New',monospace;padding:4px 10px;border:1px solid #b8c6df;border-radius:3px;background:#f7f9fd;color:#566;cursor:pointer;letter-spacing:.05em;transition:all .15s}
+#sp-expand-btn:hover{background:#e8eefb;border-color:#7d93bd;color:#13234a}
+.sp-module-head{padding:11px 16px 10px;background:#fff;border-bottom:1px solid #edf1f9;cursor:pointer;display:flex;align-items:flex-start;gap:10px;user-select:none;transition:background .12s}
+.sp-module-head:hover{background:#fafcff}
+.sp-module-head-text{flex:1}
 .sp-module-title{font-family:'Spectral',serif;font-size:15px;color:#13234a;margin-bottom:3px}
 .sp-module-rationale{font-size:11px;color:#5e76a6;font-style:italic;line-height:1.6}
-.sp-list{padding:4px 0}
+.sp-module-toggle{width:20px;height:20px;border-radius:50%;border:1px solid #c4cfe2;display:flex;align-items:center;justify-content:center;font-size:13px;color:#9bafd4;flex-shrink:0;margin-top:2px;transition:all .2s}
+.sp-module.open .sp-module-toggle{border-color:#3a5da8;color:#3a5da8}
+.sp-list{display:none;padding:4px 0}
+.sp-module.open .sp-list{display:block}
 .sp-entry{display:grid;grid-template-columns:30px 1fr auto;gap:8px;align-items:start;padding:7px 14px 7px 10px;border-left:3px solid transparent;cursor:pointer;transition:border-color .12s,background .12s}
 .sp-entry:hover{border-left-color:var(--accent);background:var(--accent-faint)}
 .sp-entry-num{font-size:10px;font-family:'Courier New',monospace;color:#c4cfe2;padding-top:2px;text-align:right}
@@ -706,6 +714,18 @@ function allEntries() {
 function entryById(id) { return allEntries().find(e => e.id === id); }
 
 // ── LIST ──────────────────────────────────────────────────────────────────────
+function toggleAllSpModules() {
+  const sections = document.querySelectorAll('.sp-module');
+  const btn = document.getElementById('sp-expand-btn');
+  const anyCollapsed = Array.from(sections).some(s => !s.classList.contains('open'));
+  sections.forEach(s => {
+    s.classList.toggle('open', anyCollapsed);
+    const t = s.querySelector('.sp-module-toggle');
+    if (t) t.textContent = anyCollapsed ? '−' : '+';
+  });
+  if (btn) btn.textContent = anyCollapsed ? '− Collapse all' : '+ Expand all';
+}
+
 function toggleAllPanels() {
   const panels = document.querySelectorAll('.cat-panel');
   const btn = document.getElementById('expand-all-btn');
@@ -1135,6 +1155,11 @@ function buildStudyPlan() {
     return;
   }
 
+  const toolbar = document.createElement('div');
+  toolbar.className = 'sp-toolbar';
+  toolbar.innerHTML = '<button id="sp-expand-btn" onclick="toggleAllSpModules()">− Collapse all</button>';
+  area.appendChild(toolbar);
+
   const metaEl = document.createElement('div');
   metaEl.className = 'sp-meta';
   metaEl.textContent = plan.meta;
@@ -1162,11 +1187,17 @@ function buildStudyPlan() {
     if (!modEntries.length) return;
 
     const section = document.createElement('div');
-    section.className = 'sp-module';
+    section.className = 'sp-module open';
 
     const head = document.createElement('div');
     head.className = 'sp-module-head';
-    head.innerHTML = `<div class="sp-module-title">${mod.title}</div><div class="sp-module-rationale">${mod.rationale}</div>`;
+    head.innerHTML = `<div class="sp-module-head-text"><div class="sp-module-title">${mod.title}</div><div class="sp-module-rationale">${mod.rationale}</div></div><div class="sp-module-toggle">−</div>`;
+    head.onclick = () => {
+      section.classList.toggle('open');
+      head.querySelector('.sp-module-toggle').textContent = section.classList.contains('open') ? '−' : '+';
+      const btn = document.getElementById('sp-expand-btn');
+      if (btn) { const anyCollapsed = Array.from(document.querySelectorAll('.sp-module')).some(s => !s.classList.contains('open')); btn.textContent = anyCollapsed ? '+ Expand all' : '− Collapse all'; }
+    };
     section.appendChild(head);
 
     const list = document.createElement('div');
