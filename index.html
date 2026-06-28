@@ -24,7 +24,9 @@ body{background:#eef1f6;font-family:Georgia,serif;color:#1a2230;min-height:100vh
 #header-top{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;padding-bottom:10px}
 #module-title{font-family:'Spectral',serif;font-size:22px;color:#13234a}
 #module-subtitle{font-size:11px;font-family:'Courier New',monospace;color:#3a5da8;letter-spacing:.13em}
-#module-cats{font-size:10px;color:#7088b8;font-family:'Courier New',monospace;letter-spacing:.06em;padding-bottom:10px}
+#module-cats{display:flex;flex-wrap:wrap;gap:4px;padding:0 0 8px;align-items:center}
+.cat-pill{padding:2px 8px;border-radius:20px;border:1px solid #c4cfe2;background:#fff;color:#9bafd4;font-size:9px;font-family:'Courier New',monospace;letter-spacing:.06em;cursor:pointer;transition:all .15s;display:inline-flex;align-items:center;gap:3px;user-select:none;white-space:nowrap}
+.cat-pill.on{border-color:var(--accent);background:var(--faint,#eef2f9);color:var(--accent)}
 
 /* ── TABS ── */
 #tabs{display:flex;gap:0;border-top:1px solid #cdd8ec}
@@ -236,18 +238,13 @@ body{background:#eef1f6;font-family:Georgia,serif;color:#1a2230;min-height:100vh
 
 <div id="map-view">
   <div id="map-area">
-    <div id="map-filters"></div>
     <div id="map-container"><div id="the-map"></div></div>
-    <div id="map-legend"></div>
     <div id="map-note">Tiles © OpenStreetMap contributors · Pins = the institution where the work was done · Click a multi-pin to list entries · Click any pin to open detail</div>
   </div>
 </div>
 
 <div id="graph-view">
   <div id="graph-area">
-    <div id="graph-toolbar">
-      <div id="graph-legend"></div>
-    </div>
     <div id="cy"></div>
     <div id="graph-note">Nodes = entries (colour = category, ring = replicability 🟢🟡🔴) · lines = cross-links (all 64 nodes connected) · hover to see labels · click to open · drag to pan · scroll to zoom</div>
   </div>
@@ -375,9 +372,72 @@ function renderHeader() {
   document.title = 'Science Atlas | ' + MOD.title;
   document.getElementById('module-title').textContent = MOD.title;
   document.getElementById('module-subtitle').textContent = MOD.subtitle;
-  document.getElementById('module-cats').textContent = MOD.categories.map(c => (CAT_ICONS[c.id]||c.icon) + ' ' + c.label.toUpperCase()).join('  ·  ');
   document.getElementById('module-name-top').textContent = MOD.title;
   document.getElementById('picker-close').style.visibility = 'visible';
+  const catsEl = document.getElementById('module-cats');
+  catsEl.innerHTML = '';
+  MOD.categories.forEach(cat => {
+    const btn = document.createElement('button');
+    btn.className = 'cat-pill on';
+    btn.dataset.catid = cat.id;
+    btn.style.setProperty('--accent', cat.accent);
+    btn.style.setProperty('--faint', cat.accent + '22');
+    btn.innerHTML = (CAT_ICONS[cat.id] || cat.icon || '•') + ' ' + cat.label.toUpperCase();
+    btn.onclick = () => toggleCat(cat.id);
+    catsEl.appendChild(btn);
+  });
+  const reset = document.createElement('button');
+  reset.className = 'cat-pill';
+  reset.style.opacity = '0.4';
+  reset.textContent = '↺ ALL';
+  reset.onclick = resetCats;
+  catsEl.appendChild(reset);
+}
+
+// ── CATEGORY FILTER ──────────────────────────────────────────────────────────────
+function toggleCat(id) {
+  if (!MOD) return;
+  const allIds = new Set(MOD.categories.map(c => c.id));
+  const isAllOn = activeCatIds.size === allIds.size;
+  if (isAllOn) {
+    activeCatIds = new Set([id]);
+  } else if (activeCatIds.has(id) && activeCatIds.size === 1) {
+    activeCatIds = new Set(allIds);
+  } else {
+    activeCatIds.has(id) ? activeCatIds.delete(id) : activeCatIds.add(id);
+  }
+  applyFilter();
+}
+
+function resetCats() {
+  if (!MOD) return;
+  activeCatIds = new Set(MOD.categories.map(c => c.id));
+  applyFilter();
+}
+
+function applyFilter() {
+  // Sync pill states
+  const allOn = MOD && activeCatIds.size === MOD.categories.length;
+  document.querySelectorAll('#module-cats .cat-pill[data-catid]').forEach(btn => {
+    btn.classList.toggle('on', activeCatIds.has(btn.dataset.catid));
+  });
+  const resetBtn = document.querySelector('#module-cats .cat-pill:not([data-catid])');
+  if (resetBtn) resetBtn.style.opacity = allOn ? '0.4' : '1';
+  // Dispatch to current view
+  if (currentView === 'list') filterList();
+  else if (currentView === 'timeline') buildTimeline();
+  else if (currentView === 'map') renderPins();
+  else if (currentView === 'graph') applyGraphFilter();
+}
+
+function applyGraphFilter() {
+  if (!cyGraph) return;
+  const byId = {};
+  allEntries().forEach(e => byId[e.id] = e);
+  cyGraph.nodes().forEach(node => {
+    const e = byId[node.id()];
+    if (e) node.style('opacity', activeCatIds.has(e.catId) ? 0.85 : 0.12);
+  });
 }
 
 // ── REPLICABILITY BADGES ────────────────────────────────────────────────────────
@@ -645,6 +705,7 @@ function buildList() {
     const icon = catIcon(cat);
     const panel = document.createElement('div');
     panel.className = 'cat-panel';
+    panel.dataset.catid = cat.id;
     panel.style.setProperty('--accent', cat.accent);
     panel.style.setProperty('--color', cat.color);
     panel.innerHTML = `
@@ -670,6 +731,7 @@ function buildList() {
   meth.className = 'methodology';
   meth.textContent = MOD.methodology || 'METHODOLOGY · Every entry anchors to a landmark study, paper or dataset. The hint explains the finding in plain language; the evidence field names the primary source and notes replication status where relevant.';
   area.appendChild(meth);
+  filterList();
 }
 
 function makeEntry(e, accent) {
@@ -701,6 +763,11 @@ function togglePanel(head) {
 function filterList() {
   const q = document.getElementById('search-input').value.toLowerCase().trim();
   document.querySelectorAll('.cat-panel').forEach(panel => {
+    if (panel.dataset.catid && !activeCatIds.has(panel.dataset.catid)) {
+      panel.style.display = 'none';
+      return;
+    }
+    panel.style.display = '';
     let anyVisible = false;
     panel.querySelectorAll('.entry').forEach(div => {
       const matches = !q || div.textContent.toLowerCase().includes(q);
@@ -725,7 +792,8 @@ function buildTimeline() {
   if (!MOD || !MOD.timeline) return;
   const svg  = document.getElementById('tl-svg');
   const W = 1200;
-  const lanes = MOD.timeline;
+  const lanes = MOD.timeline.filter(l => activeCatIds.has(l.id));
+  if (!lanes.length) { document.getElementById('tl-svg').innerHTML = ''; return; }
   const MIN = MOD.period.start, MAX = MOD.period.end;
   const longestLabel = Math.max(...lanes.map(l => (l.label || l.id).length));
   const LW = Math.min(220, Math.max(120, longestLabel * 7));
@@ -858,57 +926,9 @@ function initMap() {
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution:'© OpenStreetMap contributors', maxZoom:19
   }).addTo(leafMap);
-  buildMapFilters();
-  buildLegend();
   renderPins();
 }
 
-function buildMapFilters() {
-  const wrap = document.getElementById('map-filters');
-  wrap.innerHTML = '';
-  const allIds = new Set(MOD.categories.map(c => c.id));
-  function refreshButtons() {
-    const allOn = allIds.size === activeCatIds.size;
-    wrap.querySelectorAll('.filter-pill[data-catid]').forEach(btn => {
-      btn.classList.toggle('on', activeCatIds.has(btn.dataset.catid));
-    });
-    const resetBtn = wrap.querySelector('.filter-reset');
-    if (resetBtn) resetBtn.style.opacity = allOn ? '0.4' : '1';
-  }
-  MOD.categories.forEach(cat => {
-    const icon = catIcon(cat);
-    const btn = document.createElement('button');
-    btn.className = 'filter-pill on';
-    btn.dataset.catid = cat.id;
-    btn.style.setProperty('--accent', cat.accent);
-    btn.style.setProperty('--faint', cat.accent+'18');
-    btn.innerHTML = icon + ' ' + cat.label.toUpperCase();
-    btn.onclick = () => {
-      const isAllOn = activeCatIds.size === allIds.size;
-      if (isAllOn) activeCatIds = new Set([cat.id]);
-      else if (activeCatIds.has(cat.id) && activeCatIds.size === 1) activeCatIds = new Set(allIds);
-      else activeCatIds.has(cat.id) ? activeCatIds.delete(cat.id) : activeCatIds.add(cat.id);
-      refreshButtons(); renderPins();
-    };
-    wrap.appendChild(btn);
-  });
-  const reset = document.createElement('button');
-  reset.className = 'filter-pill filter-reset';
-  reset.style.cssText = 'border-color:#c4cfe2;color:#9bafd4;opacity:0.4';
-  reset.innerHTML = '↺ ALL';
-  reset.onclick = () => { activeCatIds = new Set(allIds); refreshButtons(); renderPins(); };
-  wrap.appendChild(reset);
-}
-
-function buildLegend() {
-  const wrap = document.getElementById('map-legend');
-  wrap.innerHTML = '';
-  MOD.categories.forEach(cat => {
-    const d = document.createElement('div'); d.className='leg-item';
-    d.innerHTML = `<div class="leg-dot" style="background:${cat.accent}"></div><span class="leg-label">${catIcon(cat)} ${cat.label}</span>`;
-    wrap.appendChild(d);
-  });
-}
 
 window._mapEntries = {};
 
@@ -962,16 +982,6 @@ function renderPins() {
 // ── GRAPH (cross-link network) ──────────────────────────────────────────────────
 const REPL_RING = { robust:'#2E7D52', mixed:'#B7770D', failed:'#C0392B' };
 
-function buildGraphLegend() {
-  const wrap = document.getElementById('graph-legend');
-  wrap.innerHTML = '';
-  MOD.categories.forEach(cat => {
-    const d = document.createElement('div'); d.className = 'leg-item';
-    d.innerHTML = `<div class="leg-dot" style="background:${cat.accent}"></div><span class="leg-label">${catIcon(cat)} ${cat.label}</span>`;
-    wrap.appendChild(d);
-  });
-}
-
 function buildGraph() {
   if (!MOD) return;
   if (typeof cytoscape === 'undefined') {
@@ -997,7 +1007,6 @@ function buildGraph() {
     bw: e.repl ? 3 : 1
   } }));
 
-  buildGraphLegend();
   if (cyGraph) { cyGraph.destroy(); cyGraph = null; }
 
   cyGraph = cytoscape({
@@ -1025,6 +1034,7 @@ function buildGraph() {
   });
 
   cyGraph.on('tap', 'node', evt => { const e = byId[evt.target.id()]; if (e) openModal(e, e.accent); });
+  applyGraphFilter();
 }
 
 // ── INIT ───────────────────────────────────────────────────────────────────────
