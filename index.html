@@ -1086,11 +1086,11 @@ function buildGraph() {
 // so each entry appears exactly once).
 const STUDY_PLANS = {
   'social-psychology': {
-    meta: 'Follows the standard arc of introductory social psychology courses: establish the scientific toolkit first, then move from the individual self outward through social perception, attitudes, influence, group dynamics, and intergroup relations, finishing with prosocial/antisocial behaviour. Debates close the arc so they can be evaluated against the full empirical base rather than encountered cold.',
+    meta: 'Follows the standard arc of introductory social psychology courses: establish the scientific toolkit first, then move from the individual self outward through social perception, attitudes, influence, group dynamics, intergroup relations, and close relationships, finishing with prosocial/antisocial behaviour. Debates close the arc so they can be evaluated against the full empirical base rather than encountered cold.',
     modules: [
       {
-        title: '1 — Scientific Toolkit',
-        rationale: 'Know how the evidence was gathered before you trust it. Research paradigms, measurement scales, and the key figures who built the field inoculate against naive acceptance of any single headline finding — and prepare you to weigh the replication debate fairly later.',
+        title: '1 — Scientific Toolkit & Hall of Fame',
+        rationale: 'Know how the evidence was gathered before you trust it. Research paradigms and measurement scales inoculate against naive acceptance of any single finding. The key figures are front-loaded here as a reference Hall of Fame — each entry links to their defining work, so you can return to them in context as the modules unfold.',
         cats: ['method', 'figure']
       },
       {
@@ -1100,18 +1100,18 @@ const STUDY_PLANS = {
       },
       {
         title: '3 — Perceiving Others',
-        rationale: 'We construct mental models of people through attribution, impression formation, and stereotyping. The fundamental attribution error — overweighting disposition, underweighting situation — is a prerequisite concept for everything from prejudice to bystander effects.',
-        groups: ['Perceiving Others']
+        rationale: 'We construct mental models of people through attribution, impression formation, and stereotyping. The fundamental attribution error — overweighting disposition, underweighting situation — is a prerequisite concept for everything from prejudice to bystander effects. Heuristics and biases sit here too: they explain the specific mechanics of how the cognitive miser actually errs.',
+        groups: ['Perceiving Others', 'Judgment & Decision']
       },
       {
         title: '4 — Attitudes & Persuasion',
-        rationale: 'Attitudes are the connective tissue between belief and behaviour. Cognitive dissonance, elaboration likelihood, and dual-process models explain when and why people change their minds — foundational for understanding both influence and intervention design.',
-        groups: ['Attitudes & Persuasion']
+        rationale: 'Begin with the definition of attitude itself before tackling how attitudes change. Cognitive dissonance, elaboration likelihood, and dual-process models explain when and why people change their minds — foundational for understanding both influence and intervention design.',
+        groups: ['Attitudes & Persuasion', 'Attitudes']
       },
       {
         title: '5 — Social Influence',
-        rationale: 'The classical heart of the field. Conformity (Asch), obedience (Milgram), and compliance principles (Cialdini) demonstrate how powerfully the social situation overrides individual judgment. These findings motivated the situationist turn and remain its strongest evidence.',
-        groups: ['Conformity & Obedience', 'Learning & Influence']
+        rationale: 'The classical heart of the field. Conformity (Asch), obedience (Milgram), compliance principles (Cialdini), and the SPE demonstrate how powerfully the social situation overrides individual judgment. The definitional framework for conformity, compliance and obedience is placed at the top of this module so the classic experiments can be read against it immediately.',
+        groups: ['Conformity & Obedience', 'Learning & Influence', 'Roles & Situations', 'Influence']
       },
       {
         title: '6 — Group Dynamics',
@@ -1124,17 +1124,22 @@ const STUDY_PLANS = {
         groups: ['Intergroup Relations']
       },
       {
-        title: '8 — Prosocial & Antisocial Behaviour',
-        rationale: 'When do people help, and when do they harm? Bystander diffusion, the arousal-cost-reward model, and social determinants of aggression complete the behavioural picture. This module is placed late because it draws on attribution, norms, and group concepts from earlier.',
+        title: '8 — Interpersonal Attraction & Close Relationships',
+        rationale: 'A chapter missing from the first draft but present in virtually every introductory course. Proximity, the love triangle, and adult attachment bring the field back to its most personally relevant territory — and show that the same situational forces shaping prejudice and influence also shape who we fall in love with.',
+        groups: ['Interpersonal Attraction']
+      },
+      {
+        title: '9 — Prosocial & Antisocial Behaviour',
+        rationale: 'When do people help, and when do they harm? Bystander diffusion and the Good Samaritan study cover the prosocial half; the Frustration-Aggression hypothesis and Bobo Doll cover the antisocial half. Both require attribution, norm, and role concepts from earlier modules — which is why this section comes late.',
         groups: ['Helping & Harm']
       },
       {
-        title: '9 — Debates & Open Questions',
+        title: '10 — Debates & Open Questions',
         rationale: 'Audit what you have learned. The replication crisis has substantially revised the field: ego depletion is contested, priming effects have shrunk or disappeared, and classic demonstrations relied on deceptive WEIRD samples. Finishing here, rather than opening with doubt, gives you something to evaluate critically rather than a void to fill.',
         cats: ['debate']
       },
       {
-        title: '10 — Applications',
+        title: '11 — Applications',
         rationale: 'Consolidate by seeing where the science is deployed: law and eyewitness testimony, health communication, education, and technology design. Applications reveal both the power and the limits of translating laboratory findings to the world outside the experiment.',
         cats: ['application']
       }
