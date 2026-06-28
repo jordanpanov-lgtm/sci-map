@@ -120,7 +120,12 @@ body{background:#eef1f6;font-family:Georgia,serif;color:#1a2230;min-height:100vh
 .entry:hover{border-left-color:var(--accent);background:var(--accent-faint)}
 .entry-name{font-size:13px;color:#16203a;font-family:'Spectral',serif}
 .entry-date{font-size:10px;font-family:'Courier New',monospace;opacity:.85;white-space:nowrap}
+.repl-badge{font-size:10px;cursor:help;white-space:nowrap;line-height:1}
 .entry-hint{font-size:11px;color:#5a6685;font-style:italic;margin-top:2px;line-height:1.45}
+#modal-links{margin-top:14px;display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.ml-label{font-size:9px;color:#9bafd4;font-family:'Courier New',monospace;letter-spacing:.1em;width:100%;margin-bottom:2px}
+.ml-chip{font-size:11px;font-family:'Spectral',serif;color:#13234a;background:#eef2f9;border:1px solid #d6e0f0;border-radius:12px;padding:3px 10px;cursor:pointer;transition:all .12s}
+.ml-chip:hover{background:#e0e8f7;border-color:#9bafd4}
 .entry-loc{font-size:10px;color:#9bafd4;margin-top:2px}
 .entry-arrow{font-size:10px;color:#c4cfe2;padding-top:2px}
 .methodology{margin-top:24px;border-top:1px solid #dde5f1;padding-top:12px;font-size:10px;color:#aab8d0;font-family:'Courier New',monospace;line-height:1.8}
@@ -236,10 +241,12 @@ body{background:#eef1f6;font-family:Georgia,serif;color:#1a2230;min-height:100vh
     <div id="modal-meta">
       <div class="meta-g"><span class="meta-k">WHEN</span><span class="meta-v" id="modal-date"></span></div>
       <div class="meta-g"><span class="meta-k">WHERE</span><span class="meta-vl" id="modal-loc"></span></div>
+      <div class="meta-g" id="modal-repl-wrap" style="display:none"><span class="meta-k">REPLICATES</span><span class="meta-v" id="modal-repl"></span></div>
     </div>
     <div id="modal-hint"></div>
     <span id="modal-ev-label">KEY EVIDENCE</span>
     <div id="modal-note"></div>
+    <div id="modal-links" style="display:none"></div>
     <button id="modal-close" onclick="closeModal()">CLOSE</button>
   </div>
 </div>
@@ -350,6 +357,18 @@ function renderHeader() {
   document.getElementById('module-cats').textContent = MOD.categories.map(c => (CAT_ICONS[c.id]||c.icon) + ' ' + c.label.toUpperCase()).join('  ·  ');
   document.getElementById('module-name-top').textContent = MOD.title;
   document.getElementById('picker-close').style.visibility = 'visible';
+}
+
+// ── REPLICABILITY BADGES ────────────────────────────────────────────────────────
+// Traffic-light status for empirical claims (studies & effects). See FIELD_GUIDE.
+const REPL_META = {
+  robust: { dot:'🟢', label:'Robustly replicated' },
+  mixed:  { dot:'🟡', label:'Nuanced / reduced'   },
+  failed: { dot:'🔴', label:'Failed / contested'  },
+};
+function replDot(repl) {
+  const m = REPL_META[repl];
+  return m ? `<span class="repl-badge" title="${m.label}">${m.dot}</span>` : '';
 }
 
 // ── VIEW SWITCHING ────────────────────────────────────────────────────────────
@@ -545,6 +564,25 @@ function openModal(entry, accent) {
   document.getElementById('modal-hint').textContent = entry.hint || '';
   document.getElementById('modal-hint').style.borderLeftColor = ac;
   document.getElementById('modal-note').textContent = entry.note || '';
+
+  // Replicability badge
+  const replWrap = document.getElementById('modal-repl-wrap');
+  const m = REPL_META[entry.repl];
+  if (m) { replWrap.style.display = ''; document.getElementById('modal-repl').textContent = m.dot + ' ' + m.label; }
+  else { replWrap.style.display = 'none'; }
+
+  // Cross-links to related entries
+  const linksEl = document.getElementById('modal-links');
+  const links = (entry.links || []).map(id => allEntries().find(e => e.id === id)).filter(Boolean);
+  if (links.length) {
+    linksEl.style.display = 'flex';
+    linksEl.innerHTML = '<span class="ml-label">RELATED</span>' +
+      links.map(l => `<span class="ml-chip" data-id="${l.id}">${l.label}</span>`).join('');
+    linksEl.querySelectorAll('.ml-chip').forEach(chip => {
+      chip.onclick = () => { const t = allEntries().find(e => e.id === chip.dataset.id); if (t) openModal(t, t.accent); };
+    });
+  } else { linksEl.style.display = 'none'; linksEl.innerHTML = ''; }
+
   document.getElementById('modal-overlay').classList.add('open');
 }
 function closeModal() { document.getElementById('modal-overlay').classList.remove('open'); }
@@ -620,6 +658,7 @@ function makeEntry(e, accent) {
       <div style="display:flex;align-items:baseline;gap:8px;flex-wrap:wrap">
         <span class="entry-name">${e.label}</span>
         ${e.date?`<span class="entry-date" style="color:${accent}">${e.date}</span>`:''}
+        ${replDot(e.repl)}
         ${e.dynasty?`<span style="font-size:9px;font-family:'Courier New',monospace;color:#9bafd4;padding:1px 6px;border:1px solid #d6e0f0;border-radius:2px;white-space:nowrap">${e.dynasty}</span>`:''}
       </div>
       ${e.hint?`<div class="entry-hint">${e.hint}</div>`:''}

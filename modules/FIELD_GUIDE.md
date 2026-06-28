@@ -73,9 +73,36 @@ application  color #14502E  accent #2E7D52   (emerald)
   "coords": [41.31, -72.93],           // institution lat/lng for the map (null = no pin)
   "hint": "Plain-language explanation of the finding in 1–3 sentences.",
   "tag": "EXPERIMENT",                 // see tag vocabulary below
-  "note": "Full citation + replication status + caveats."
+  "note": "Full citation + replication status + caveats.",
+  "repl": "robust",                    // OPTIONAL replicability badge (studies/effects)
+  "links": ["db3", "ef8"]              // OPTIONAL ids of related entries (cross-links)
 }
 ```
+
+### `repl` — the replicability badge (🟢🟡🔴)
+
+Set `repl` on **empirical findings** — entries in the `study` and `effect` categories
+(and any other entry making a concrete empirical claim). It renders a traffic-light dot in
+the list and a labelled line in the modal. Do **not** badge theories, concepts, methods,
+figures or applications — the badge means "does this specific finding still hold?"
+
+| Value | Dot | Rubric — assign by the strongest available evidence |
+|---|---|---|
+| `robust` | 🟢 | Confirmed by meta-analysis or multiple independent/registered replications |
+| `mixed`  | 🟡 | Real but smaller than first reported, conditional, or culturally moderated; or replication record is contested |
+| `failed` | 🔴 | Failed a large pre-registered replication, or the original causal claim is severely undermined |
+
+Be conservative and honest: a famous effect with a contested record is `mixed`, not
+`robust`. Whatever badge you assign, justify it in the `note` with the replication
+citation. The badge is the headline; the note carries the nuance.
+
+### `links` — cross-references
+
+`links` is an array of **entry ids in the same folio**. They render as clickable chips in
+the modal under a "RELATED" heading; clicking one opens that entry. Use them to connect a
+study to its critique (`st3` → `db2`), an effect to its sibling (`ef1` → `ef8`), or a
+theory to the study that tests it (`th1` → `st7`). Links are one-directional as authored —
+add the reciprocal id on both entries if you want the connection to work both ways.
 
 `coords` point at the **institution**, not a historical place. A field's map becomes a
 geography of where its knowledge was produced — a genuinely interesting view in itself.
