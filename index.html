@@ -332,7 +332,7 @@ const FIELDS = [
   { id:"statistics",                 domain:"formal-computing",  label:"Applied Math: Probability & Statistics",    sub:"Inference, probability & the science of data",                          status:"planned" },
   { id:"computer-science",           domain:"formal-computing",  label:"Computer & Information Sciences",           sub:"Computation, algorithms, data structures & AI",                         status:"planned" },
   // ── PSYCHOLOGY & THE MIND ─────────────────────────────────────────────────────
-  { id:"general-cognitive-psych",    domain:"psychology",        label:"General & Cognitive Psychology",            sub:"Attention, memory, reasoning & the architecture of mind",               status:"planned" },
+  { id:"general-cognitive-psych",    domain:"psychology",        label:"General & Cognitive Psychology",            sub:"Attention, memory, reasoning & the architecture of mind",               status:"ready", file:"modules/general-cognitive-psych.json" },
   { id:"social-psychology",          domain:"psychology",        label:"Social Psychology",                         sub:"How people think about, influence & relate to others",                  status:"ready", file:"modules/social-psychology.json" },
   { id:"developmental-psych",        domain:"psychology",        label:"Developmental & Educational Psychology",    sub:"How the mind grows across the lifespan & how we learn",                 status:"planned" },
   { id:"clinical-psych",             domain:"psychology",        label:"Clinical & Abnormal Psychology",            sub:"Mental disorder, diagnosis, therapy & the limits of the normal",        status:"planned" },
@@ -1191,6 +1191,61 @@ const STUDY_PLANS = {
       {
         title: '11 — Applications',
         rationale: 'Consolidate by seeing where the science is deployed: law and eyewitness testimony, health communication, education, and technology design. Applications reveal both the power and the limits of translating laboratory findings to the world outside the experiment.',
+        cats: ['application']
+      }
+    ]
+  },
+  'general-cognitive-psych': {
+    meta: 'Follows the arc of introductory cognitive psychology courses: found the field and its methods first, then work through each core domain in the order most courses use — perception before memory, models before phenomena — before closing with higher-order processes, replication debates, and real-world applications.',
+    modules: [
+      {
+        title: '1 — Founding the Field',
+        rationale: 'Start with the three figures who created the scientific study of mind: James who gave it its questions, Ebbinghaus who gave it experimental method, and Neisser who named the discipline and then challenged it.',
+        groups: ['Founders']
+      },
+      {
+        title: '2 — Research Methods',
+        rationale: 'Before studying what cognitive psychology found, understand how it found it: the logic of mental chronometry, verbal protocols, eye-tracking, priming, neuroimaging, and the neuropsychological case study — including where each method can mislead.',
+        cats: ['method']
+      },
+      {
+        title: '3 — Attention & Perception',
+        rationale: 'Attention is the gateway to all higher cognition. Establish selective attention, feature binding, and the limits of awareness (inattentional and change blindness) before approaching memory, which depends on attentive encoding.',
+        groups: ['Attention & Perception']
+      },
+      {
+        title: '4 — Memory: Systems & Models',
+        rationale: 'The largest module because memory is the largest subdomain. Move from structural models (multi-store, working memory) through encoding (levels of processing, reconstructive memory) to landmark studies that each reveal a different way memory fails or succeeds.',
+        groups: ['Memory Systems']
+      },
+      {
+        title: '5 — Encoding, Forgetting & Learning',
+        rationale: 'The applied science of memory: how spacing, testing, and generating content produce durable learning — and how cognitive load determines whether instruction builds knowledge or wastes working memory.',
+        groups: ['Memory & Learning']
+      },
+      {
+        title: '6 — Thinking, Reasoning & Decision',
+        rationale: 'Logical failure (Wason task), the two-speed architecture of thought (dual-process theory), mental simulation (mental models), confirmation bias, and the automaticity that makes skilled thought effortless but irrepressible.',
+        groups: ['Thinking & Reasoning']
+      },
+      {
+        title: '7 — Language, Concepts & Representation',
+        rationale: 'How the mind organises meaning: semantic networks, prototype categories, and the conceptual structure that makes words, objects and ideas recognisable. The bridge between cognition and communication.',
+        groups: ['Language & Concepts']
+      },
+      {
+        title: '8 — Consciousness, Metacognition & Intelligence',
+        rationale: 'Higher-order topics best understood after the core domains: when does processing reach awareness (global workspace), how do we monitor our own knowledge (metacognition, tip-of-the-tongue, executive function), and what does it mean to be intelligent?',
+        groups: ['Consciousness & Metacognition']
+      },
+      {
+        title: '9 — Debates & Open Questions',
+        rationale: 'The replication landscape, the repressed-memory wars, the limits of brain imaging, the hard problem of consciousness, and the g-factor debate — best confronted once the empirical foundation is in place to evaluate them.',
+        cats: ['debate']
+      },
+      {
+        title: '10 — Applications',
+        rationale: 'Close by seeing the science at work: eyewitness reform, evidence-based study strategies, CBT, ergonomic design, cognitive rehabilitation, and multimedia learning — each a direct translation of a theory or effect from earlier modules.',
         cats: ['application']
       }
     ]
