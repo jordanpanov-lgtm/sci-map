@@ -67,6 +67,11 @@ body{background:#eef1f6;font-family:Georgia,serif;color:#1a2230;min-height:100vh
 /* Picker scroll area — domain sections + field cards */
 #matrix-wrap{flex:1;overflow-y:auto;overflow-x:hidden;padding:0 28px 28px;min-height:0}
 
+.trunk-block{margin-bottom:4px}
+.trunk-head{padding:16px 2px 6px;display:flex;align-items:baseline;gap:10px;border-bottom:2px solid #c4d2ea;margin-bottom:6px}
+.trunk-icon{font-size:15px}
+.trunk-label{font-family:'Spectral',serif;font-size:15px;color:#13234a}
+.trunk-detail{font-size:10px;color:#5e76a6;font-family:'Courier New',monospace;font-style:italic}
 .domain-block{margin-bottom:4px}
 .domain-head{background:#13234a;cursor:pointer;padding:9px 14px;user-select:none;transition:background .12s;border-radius:4px;display:flex;align-items:center;gap:10px;margin-top:10px}
 .domain-head:hover{background:#1d3565}
@@ -300,38 +305,76 @@ body{background:#eef1f6;font-family:Georgia,serif;color:#1a2230;min-height:100vh
 // To add a field: { id, file, label, sub, domain, status:"ready" }
 // status:"planned" renders a greyed, non-clickable card (no JSON needed yet).
 const FIELDS = [
-  // ── FORMAL SCIENCES ──────────────────────────────────────────────────────────
-  { id:"mathematics",        domain:"Formal",   label:"Mathematics",            sub:"Number, structure, space & change",        status:"planned" },
-  { id:"computer-science",   domain:"Formal",   label:"Computer Science",       sub:"Computation, algorithms & information",     status:"planned" },
-  { id:"statistics",         domain:"Formal",   label:"Statistics",             sub:"Inference, probability & data",             status:"planned" },
-  // ── PHYSICAL SCIENCES ────────────────────────────────────────────────────────
-  { id:"physics",            domain:"Physical", label:"Physics",                sub:"Matter, energy, force & spacetime",         status:"planned" },
-  { id:"chemistry",          domain:"Physical", label:"Chemistry",              sub:"Atoms, bonds & reactions",                  status:"planned" },
-  { id:"astronomy",          domain:"Physical", label:"Astronomy & Cosmology",  sub:"Stars, galaxies & the universe",            status:"planned" },
-  { id:"earth-science",      domain:"Physical", label:"Earth Science",          sub:"Geology, oceans & atmosphere",              status:"planned" },
-  // ── LIFE SCIENCES ────────────────────────────────────────────────────────────
-  { id:"evolution",          domain:"Life",     label:"Evolutionary Biology",   sub:"Variation, selection & descent",            status:"planned" },
-  { id:"genetics",           domain:"Life",     label:"Genetics",               sub:"Heredity, DNA & the gene",                  status:"planned" },
-  { id:"neuroscience",       domain:"Life",     label:"Neuroscience",           sub:"Brain, neuron & behaviour",                 status:"planned" },
-  { id:"ecology",            domain:"Life",     label:"Ecology",                sub:"Organisms, populations & ecosystems",       status:"planned" },
-  // ── MIND & BEHAVIOUR ─────────────────────────────────────────────────────────
-  { id:"social-psychology",  domain:"Mind",     label:"Social Psychology",      sub:"How people think about, influence & relate to others", status:"ready", file:"modules/social-psychology.json" },
-  { id:"cognitive-psychology",domain:"Mind",    label:"Cognitive Psychology",   sub:"Attention, memory & reasoning",             status:"planned" },
-  { id:"developmental-psychology",domain:"Mind",label:"Developmental Psychology",sub:"How the mind grows across the lifespan",    status:"planned" },
-  // ── SOCIAL SCIENCES ──────────────────────────────────────────────────────────
-  { id:"economics",          domain:"Social",   label:"Economics",              sub:"Production, exchange & choice",              status:"planned" },
-  { id:"sociology",          domain:"Social",   label:"Sociology",              sub:"Structure, institutions & collective life", status:"planned" },
-  { id:"linguistics",        domain:"Social",   label:"Linguistics",            sub:"Language, grammar & meaning",               status:"planned" },
-  { id:"anthropology",       domain:"Social",   label:"Anthropology",           sub:"Culture, kinship & the human story",        status:"planned" },
+  // ── HUMAN BIOLOGY & MEDICINE ─────────────────────────────────────────────────
+  { id:"anatomy-physiology",         domain:"human-biology",     label:"Anatomy, Physiology & Endocrinology",       sub:"Body systems — structure, function & hormonal regulation",              status:"planned" },
+  { id:"genetics-reproduction",      domain:"human-biology",     label:"Genetics & Reproduction",                   sub:"Heredity, DNA, the gene & human development",                          status:"planned" },
+  { id:"immunology-disease",         domain:"human-biology",     label:"Immunology, Infection & Disease",           sub:"Pathogens, immune defence & the biology of illness",                    status:"planned" },
+  // ── LIFE & ECOLOGICAL SCIENCES ───────────────────────────────────────────────
+  { id:"cell-molecular-bio",         domain:"life-sciences",     label:"Cellular & Molecular Biology",              sub:"Cell structure, biochemistry & the molecular basis of life",            status:"planned" },
+  { id:"microbiology-virology",      domain:"life-sciences",     label:"Microbiology & Virology",                   sub:"Bacteria, viruses & the microbial world",                               status:"planned" },
+  { id:"botany",                     domain:"life-sciences",     label:"Botany & Plant Sciences",                   sub:"Plant structure, physiology, diversity & ecology",                      status:"planned" },
+  { id:"zoology-animal-behavior",    domain:"life-sciences",     label:"Zoology & Animal Behavior",                 sub:"Animal diversity, ecology & the evolution of behaviour",                status:"planned" },
+  // ── PHYSICAL SCIENCES & CHEMISTRY ────────────────────────────────────────────
+  { id:"organic-polymer-chem",       domain:"physical-sciences", label:"Chemistry: Organic & Polymer",              sub:"Carbon chemistry, reactions & macromolecular structures",               status:"planned" },
+  { id:"inorganic-analytical-chem",  domain:"physical-sciences", label:"Chemistry: Inorganic & Analytical",         sub:"Elements, compounds & the methods of chemical measurement",             status:"planned" },
+  { id:"classical-physics",          domain:"physical-sciences", label:"Physics: Classical Mechanics & Thermodynamics", sub:"Force, motion, energy & heat",                                   status:"planned" },
+  { id:"em-optics",                  domain:"physical-sciences", label:"Physics: Electromagnetism & Optics",        sub:"Fields, waves, light & the electromagnetic spectrum",                   status:"planned" },
+  { id:"quantum-nuclear-relativity", domain:"physical-sciences", label:"Physics: Quantum, Nuclear & Relativity",    sub:"The very small, the very fast & the structure of spacetime",            status:"planned" },
+  // ── EARTH, SPACE & ENVIRONMENTAL ─────────────────────────────────────────────
+  { id:"astronomy-cosmology",        domain:"earth-space",       label:"Astronomy, Astrophysics & Cosmology",       sub:"Stars, galaxies & the origin and fate of the universe",                 status:"planned" },
+  { id:"geology",                    domain:"earth-space",       label:"Geology & Solid Earth Systems",             sub:"Rocks, tectonics, deep time & Earth's interior",                        status:"planned" },
+  { id:"meteorology",                domain:"earth-space",       label:"Meteorology & Atmospheric Sciences",        sub:"Weather, climate & the physics of the atmosphere",                      status:"planned" },
+  { id:"oceanography",               domain:"earth-space",       label:"Oceanography & Marine Sciences",            sub:"Ocean circulation, marine ecosystems & the deep sea",                   status:"planned" },
+  { id:"environmental-science",      domain:"earth-space",       label:"Environmental Science & Sustainability",    sub:"Earth systems under human pressure — ecology & climate change",          status:"planned" },
+  // ── FORMAL SCIENCES & COMPUTING ──────────────────────────────────────────────
+  { id:"logic-math-foundations",     domain:"formal-computing",  label:"Logic & Foundations of Mathematics",        sub:"Proof, sets, axioms & the philosophy of mathematical truth",             status:"planned" },
+  { id:"pure-mathematics",           domain:"formal-computing",  label:"Pure Math: Algebra, Geometry & Calculus",   sub:"Structure, space & continuous change",                                  status:"planned" },
+  { id:"statistics",                 domain:"formal-computing",  label:"Applied Math: Probability & Statistics",    sub:"Inference, probability & the science of data",                          status:"planned" },
+  { id:"computer-science",           domain:"formal-computing",  label:"Computer & Information Sciences",           sub:"Computation, algorithms, data structures & AI",                         status:"planned" },
+  // ── PSYCHOLOGY & THE MIND ─────────────────────────────────────────────────────
+  { id:"general-cognitive-psych",    domain:"psychology",        label:"General & Cognitive Psychology",            sub:"Attention, memory, reasoning & the architecture of mind",               status:"planned" },
+  { id:"social-psychology",          domain:"psychology",        label:"Social Psychology",                         sub:"How people think about, influence & relate to others",                  status:"ready", file:"modules/social-psychology.json" },
+  { id:"developmental-psych",        domain:"psychology",        label:"Developmental & Educational Psychology",    sub:"How the mind grows across the lifespan & how we learn",                 status:"planned" },
+  { id:"clinical-psych",             domain:"psychology",        label:"Clinical & Abnormal Psychology",            sub:"Mental disorder, diagnosis, therapy & the limits of the normal",        status:"planned" },
+  { id:"neuroscience",               domain:"psychology",        label:"Neuroscience & Behavior",                   sub:"Brain, neuron, circuit & the biological basis of mind",                 status:"planned" },
+  // ── SOCIETY & CULTURE ────────────────────────────────────────────────────────
+  { id:"sociology",                  domain:"society",           label:"Sociology & Social Structures",             sub:"Institutions, stratification & collective life",                        status:"planned" },
+  { id:"cultural-anthropology",      domain:"society",           label:"Cultural & Social Anthropology",            sub:"Kinship, ritual, meaning & the diversity of human cultures",            status:"planned" },
+  { id:"biological-anthropology",    domain:"society",           label:"Biological & Evolutionary Anthropology",    sub:"Human origins, fossil record & comparative primatology",                status:"planned" },
+  { id:"demography",                 domain:"society",           label:"Demography & Population Studies",           sub:"Birth, death, migration & the structure of human populations",          status:"planned" },
+  // ── CIVICS, SYSTEMS & GOVERNANCE ─────────────────────────────────────────────
+  { id:"economics",                  domain:"civics",            label:"Economics (Micro & Macro)",                 sub:"Production, exchange, markets & the allocation of resources",           status:"planned" },
+  { id:"political-science",          domain:"civics",            label:"Political Science & Government",            sub:"Power, institutions, democracy & comparative politics",                 status:"planned" },
+  { id:"law-jurisprudence",          domain:"civics",            label:"Law & Jurisprudence",                       sub:"Legal theory, rights, obligation & the foundations of justice",         status:"planned" },
+  { id:"international-relations",    domain:"civics",            label:"International Relations & Geopolitics",     sub:"States, conflict, cooperation & global order",                          status:"planned" },
+  // ── PHILOSOPHY ────────────────────────────────────────────────────────────────
+  { id:"epistemology",               domain:"philosophy",        label:"Epistemology & Theory of Knowledge",        sub:"What we can know, how we know it & the limits of certainty",            status:"planned" },
+  { id:"ethics",                     domain:"philosophy",        label:"Ethics & Moral Philosophy",                 sub:"Value, obligation, virtue & how to reason about right action",          status:"planned" },
+  { id:"political-economic-philosophy",domain:"philosophy",      label:"Political & Economic Philosophy",           sub:"Justice, liberty, equality & the foundations of social order",          status:"planned" },
+  { id:"philosophy-of-science",      domain:"philosophy",        label:"Philosophy of Science & Logic",             sub:"Explanation, causation, reduction & what science actually does",        status:"planned" },
+  // ── LANGUAGE & COMMUNICATION ──────────────────────────────────────────────────
+  { id:"linguistics",                domain:"language",          label:"Linguistics: Phonetics, Syntax & Semantics",sub:"Structure, meaning & the grammar of human language",                   status:"planned" },
+  { id:"cognitive-linguistics",      domain:"language",          label:"Cognitive Linguistics & Psycholinguistics", sub:"How the mind represents and processes language",                        status:"planned" },
+  { id:"communication-theory",       domain:"language",          label:"Communication Theory & Media Studies",      sub:"Information, persuasion, media & communication systems",                status:"planned" },
 ];
 
-// ── DOMAIN TAXONOMY (picker tier 1) ────────────────────────────────────────────
+// ── TRUNK & DOMAIN TAXONOMY (picker tiers 1–2) ─────────────────────────────────
+const TRUNKS = [
+  { id:'science', icon:'🧬', label:'Science',  detail:'Natural & Formal Sciences' },
+  { id:'social',  icon:'🏛️', label:'Social',   detail:'Social & Behavioural Sciences' },
+];
+
 const DOMAINS = [
-  { id:"Formal",   label:"Formal Sciences",  detail:"abstract systems — math, logic, computation" },
-  { id:"Physical", label:"Physical Sciences",detail:"matter & energy — physics, chemistry, cosmos" },
-  { id:"Life",     label:"Life Sciences",    detail:"living systems — biology, genes, brain" },
-  { id:"Mind",     label:"Mind & Behaviour", detail:"the human mind — psychology & cognition" },
-  { id:"Social",   label:"Social Sciences",  detail:"human collectives — society, economy, language" },
+  { id:"human-biology",     trunk:"science", label:"Human Biology & Medicine",        detail:"body systems · anatomy · genetics · immunity" },
+  { id:"life-sciences",     trunk:"science", label:"Life & Ecological Sciences",       detail:"cell to ecosystem · molecular biology · zoology" },
+  { id:"physical-sciences", trunk:"science", label:"Physical Sciences & Chemistry",    detail:"matter, energy & chemical bonds" },
+  { id:"earth-space",       trunk:"science", label:"Earth, Space & Environmental",     detail:"planet, cosmos & climate systems" },
+  { id:"formal-computing",  trunk:"science", label:"Formal Sciences & Computing",      detail:"abstract systems · math · logic · algorithms" },
+  { id:"psychology",        trunk:"social",  label:"Psychology & The Mind",            detail:"mind & behaviour · cognition · emotion · social" },
+  { id:"society",           trunk:"social",  label:"Society & Culture",                detail:"human collectives · sociology · anthropology" },
+  { id:"civics",            trunk:"social",  label:"Civics, Systems & Governance",     detail:"institutions · economics · politics · law" },
+  { id:"philosophy",        trunk:"social",  label:"Philosophy: Foundations",          detail:"knowledge · ethics · philosophy of science" },
+  { id:"language",          trunk:"social",  label:"Language & Communication",         detail:"linguistics · meaning · cognitive language · media" },
 ];
 
 // ── CATEGORY SPINE — uniform lenses across every field ──────────────────────────
@@ -499,46 +542,53 @@ function setView(v) {
   if (v==='study') setTimeout(buildStudyPlan, 40);
 }
 
-// ── FIELD PICKER — DOMAIN → FIELD CARDS ─────────────────────────────────────────
+// ── FIELD PICKER — TRUNK → DOMAIN → FIELD CARDS ──────────────────────────────────
 function buildPicker() {
   const body = document.getElementById('picker-body');
   body.innerHTML = '';
 
-  DOMAINS.forEach(dom => {
-    const fields = FIELDS.filter(f => f.domain === dom.id);
-    const ready = fields.filter(f => f.status === 'ready').length;
-    const collapsed = _domCollapsed[dom.id];
+  TRUNKS.forEach(trunk => {
+    const trunkEl = document.createElement('div');
+    trunkEl.className = 'trunk-block';
+    trunkEl.innerHTML = `<div class="trunk-head"><span class="trunk-icon">${trunk.icon}</span><span class="trunk-label">${trunk.label.toUpperCase()}</span><span class="trunk-detail">${trunk.detail}</span></div>`;
 
-    const block = document.createElement('div');
-    block.className = 'domain-block';
+    DOMAINS.filter(d => d.trunk === trunk.id).forEach(dom => {
+      const fields = FIELDS.filter(f => f.domain === dom.id);
+      const ready = fields.filter(f => f.status === 'ready').length;
+      const collapsed = _domCollapsed[dom.id];
 
-    const head = document.createElement('div');
-    head.className = 'domain-head';
-    head.innerHTML = `
-      <span class="dh-toggle">${collapsed ? '▶' : '▼'}</span>
-      <span class="dh-label">${dom.label}</span>
-      <span class="dh-detail">${dom.detail}</span>
-      <span class="dh-count">${ready}/${fields.length} ready</span>`;
-    head.onclick = () => { _domCollapsed[dom.id] = !_domCollapsed[dom.id]; buildPicker(); };
-    block.appendChild(head);
+      const block = document.createElement('div');
+      block.className = 'domain-block';
 
-    if (!collapsed) {
-      const grid = document.createElement('div');
-      grid.className = 'field-grid';
-      fields.forEach(f => {
-        const card = document.createElement('div');
-        const isReady = f.status === 'ready';
-        card.className = 'field-card' + (isReady ? '' : ' planned') + (MOD && MOD.id === f.id ? ' active' : '');
-        card.innerHTML = `
-          <div class="fc-title">${f.label}</div>
-          <div class="fc-sub">${f.sub}</div>
-          <div class="fc-meta">${isReady ? '✓ OPEN FIELD' : '<span class="fc-badge">PLANNED</span>'}</div>`;
-        if (isReady) card.onclick = () => { closePicker(true); loadModule(f.file); };
-        grid.appendChild(card);
-      });
-      block.appendChild(grid);
-    }
-    body.appendChild(block);
+      const head = document.createElement('div');
+      head.className = 'domain-head';
+      head.innerHTML = `
+        <span class="dh-toggle">${collapsed ? '▶' : '▼'}</span>
+        <span class="dh-label">${dom.label}</span>
+        <span class="dh-detail">${dom.detail}</span>
+        <span class="dh-count">${ready}/${fields.length} ready</span>`;
+      head.onclick = () => { _domCollapsed[dom.id] = !_domCollapsed[dom.id]; buildPicker(); };
+      block.appendChild(head);
+
+      if (!collapsed) {
+        const grid = document.createElement('div');
+        grid.className = 'field-grid';
+        fields.forEach(f => {
+          const card = document.createElement('div');
+          const isReady = f.status === 'ready';
+          card.className = 'field-card' + (isReady ? '' : ' planned') + (MOD && MOD.id === f.id ? ' active' : '');
+          card.innerHTML = `
+            <div class="fc-title">${f.label}</div>
+            <div class="fc-sub">${f.sub}</div>
+            <div class="fc-meta">${isReady ? '✓ OPEN FIELD' : '<span class="fc-badge">PLANNED</span>'}</div>`;
+          if (isReady) card.onclick = () => { closePicker(true); loadModule(f.file); };
+          grid.appendChild(card);
+        });
+        block.appendChild(grid);
+      }
+      trunkEl.appendChild(block);
+    });
+    body.appendChild(trunkEl);
   });
 
   document.getElementById('picker-note').innerHTML =
