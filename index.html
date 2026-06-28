@@ -995,7 +995,7 @@ function buildGraph() {
     id: e.id, label: e.label, accent: e.accent,
     ring: REPL_RING[e.repl] || '#ffffff',
     bw: e.repl ? 3 : 1
-  } })));
+  } }));
 
   buildGraphLegend();
   if (cyGraph) { cyGraph.destroy(); cyGraph = null; }
