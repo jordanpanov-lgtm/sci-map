@@ -247,10 +247,9 @@ body{background:#eef1f6;font-family:Georgia,serif;color:#1a2230;min-height:100vh
   <div id="graph-area">
     <div id="graph-toolbar">
       <div id="graph-legend"></div>
-      <button id="graph-toggle" class="filter-pill" onclick="toggleUnlinked()">＋ Show unlinked</button>
     </div>
     <div id="cy"></div>
-    <div id="graph-note">Nodes = entries (colour = category) · lines = cross-links · a coloured ring shows replicability 🟢🟡🔴 · click a node to open it · drag to rearrange · scroll to zoom</div>
+    <div id="graph-note">Nodes = entries (colour = category, ring = replicability 🟢🟡🔴) · lines = cross-links (all 64 nodes connected) · hover to see labels · click to open · drag to pan · scroll to zoom</div>
   </div>
 </div>
 
@@ -331,7 +330,6 @@ let markerLayer = null;
 let activeCatIds = new Set();
 let currentView = 'list';
 let cyGraph = null;
-let graphShowUnlinked = false;
 const _domCollapsed = {};
 DOMAINS.forEach(d => { _domCollapsed[d.id] = false; });
 
@@ -964,14 +962,6 @@ function renderPins() {
 // ── GRAPH (cross-link network) ──────────────────────────────────────────────────
 const REPL_RING = { robust:'#2E7D52', mixed:'#B7770D', failed:'#C0392B' };
 
-function toggleUnlinked() {
-  graphShowUnlinked = !graphShowUnlinked;
-  document.getElementById('graph-toggle').innerHTML =
-    (graphShowUnlinked ? '－ Hide unlinked' : '＋ Show unlinked');
-  document.getElementById('graph-toggle').classList.toggle('on', graphShowUnlinked);
-  buildGraph();
-}
-
 function buildGraphLegend() {
   const wrap = document.getElementById('graph-legend');
   wrap.innerHTML = '';
@@ -1001,18 +991,11 @@ function buildGraph() {
     edges.push({ data: { id: 'e_' + key, source: e.id, target: t } });
   }));
 
-  const linked = new Set();
-  edges.forEach(ed => { linked.add(ed.data.source); linked.add(ed.data.target); });
-  // If a folio has no links yet, show everything so the view isn't blank
-  const showAll = graphShowUnlinked || linked.size === 0;
-
-  const nodes = entries
-    .filter(e => showAll || linked.has(e.id))
-    .map(e => ({ data: {
-      id: e.id, label: e.label, accent: e.accent,
-      ring: REPL_RING[e.repl] || '#ffffff',
-      bw: e.repl ? 3 : 1
-    }}));
+  const nodes = entries.map(e => ({ data: {
+    id: e.id, label: e.label, accent: e.accent,
+    ring: REPL_RING[e.repl] || '#ffffff',
+    bw: e.repl ? 3 : 1
+  } })));
 
   buildGraphLegend();
   if (cyGraph) { cyGraph.destroy(); cyGraph = null; }
@@ -1024,19 +1007,21 @@ function buildGraph() {
       { selector: 'node', style: {
         'background-color': 'data(accent)',
         'border-color': 'data(ring)', 'border-width': 'data(bw)',
-        'label': 'data(label)', 'font-size': '7px', 'font-family': 'Georgia, serif',
-        'color': '#39435c', 'text-wrap': 'wrap', 'text-max-width': '92px',
-        'text-valign': 'bottom', 'text-margin-y': 2,
-        'width': 15, 'height': 15
+        'label': 'data(label)', 'font-size': '9px', 'font-family': 'Georgia, serif',
+        'color': '#39435c', 'text-wrap': 'wrap', 'text-max-width': '110px',
+        'text-valign': 'bottom', 'text-margin-y': 3,
+        'width': 22, 'height': 22, 'opacity': 0.85,
+        'text-opacity': 0                    // hide labels by default
       }},
+      { selector: 'node:hover', style: { 'text-opacity': 1 } },    // show on hover
+      { selector: 'node:selected', style: { 'text-opacity': 1, 'border-color': '#0d1730', 'border-width': 3 } },
       { selector: 'edge', style: {
         'line-color': '#b8c6df', 'width': 1.2, 'curve-style': 'bezier', 'opacity': 0.65
-      }},
-      { selector: 'node:selected', style: { 'border-color': '#0d1730', 'border-width': 3 }}
+      }}
     ],
-    layout: { name: 'cose', animate: false, padding: 30,
-              nodeRepulsion: 9000, idealEdgeLength: 80, nodeOverlap: 14, gravity: 0.3 },
-    minZoom: 0.2, maxZoom: 3, wheelSensitivity: 0.3
+    layout: { name: 'cose', animate: false, padding: 40,
+              nodeRepulsion: 5000, idealEdgeLength: 70, nodeOverlap: 16, gravity: 0.25 },
+    minZoom: 0.5, maxZoom: 4, wheelSensitivity: 0.2, autounselectify: false
   });
 
   cyGraph.on('tap', 'node', evt => { const e = byId[evt.target.id()]; if (e) openModal(e, e.accent); });
