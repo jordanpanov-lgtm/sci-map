@@ -48,7 +48,7 @@
           "links": ["co5", "ef6", "fg10", "th8"],
           "hint": "Cognition runs on two tracks: System 1 is fast, automatic and intuitive; System 2 is slow, effortful and analytical. Most errors arise when System 1's shortcut is wrong and System 2 fails to intervene. The organising framework of modern reasoning research and behavioural economics.",
           "tag": "FRAMEWORK",
-          "note": "Evans, J. St. B. T. (1984) distinguished heuristic vs analytic processing; Stanovich, K. E. & West, R. F. (2000). 'Individual differences in reasoning: Implications for the rationality debate.' Behavioral and Brain Sciences, 23, 645–665 — coined System 1 / System 2. Popularised in Kahneman's Thinking, Fast and Slow (2011). Critics (Melnikoff & Bargh 2018) challenge whether the two systems are genuinely distinct."
+          "note": "Roots in the 1970s: Wason, P. C. & Evans, J. St. B. T. (1974). 'Dual processes in reasoning.' Cognition, 3, 141–154 — first described two response modes; Schneider & Shiffrin (1977) formalised controlled vs automatic processing. Evans (1984) named heuristic vs analytic processing; Stanovich, K. E. & West, R. F. (2000). 'Individual differences in reasoning.' Behavioral and Brain Sciences, 23, 645–665 — coined System 1 / System 2. Popularised widely by Kahneman's Thinking, Fast and Slow (2011). Critics (Melnikoff & Bargh 2018) challenge whether the two systems are genuinely distinct rather than a continuum."
         },
         {
           "id": "th5", "group": "Attention & Perception",
@@ -112,6 +112,24 @@
           "hint": "Memory is not a recording played back but an active reconstruction — each retrieval rebuilds the event from fragments and schemas, importing knowledge and expectations. Every act of remembering slightly changes what is stored. The deepest challenge to common intuitions about memory.",
           "tag": "FRAMEWORK",
           "note": "Bartlett, F. C. (1932). Remembering: A Study in Experimental and Social Psychology. Cambridge University Press. The 'War of the Ghosts' study demonstrated systematic schematic distortion. Largely ignored for three decades; rediscovered in the 1970s as false memory research grew. Neisser (1967) called Bartlett 'a prophet without honour'."
+        },
+        {
+          "id": "th12", "group": "Attention & Perception",
+          "label": "Signal Detection Theory",
+          "date": "1954", "loc": "University of Michigan, Ann Arbor", "coords": [42.28, -83.74],
+          "links": ["co2", "me1", "th5"],
+          "hint": "Detecting a signal is not a simple sensory threshold but a decision under uncertainty — every response involves a trade-off between 'hits' and 'false alarms' depending on the observer's criterion. The same stimulus can be detected or missed depending on expectations, motivation and the cost of errors. Replaced classical threshold theory and became the mathematical bedrock of perception, memory recognition tests and medical diagnostics.",
+          "tag": "THEORY",
+          "note": "Tanner, W. P. Jr. & Swets, J. A. (1954). 'A decision-making theory of visual detection.' Psychological Review, 61, 401–409 — first applied statistical decision theory to perception. Systematised in: Green, D. M. & Swets, J. A. (1966). Signal Detection Theory and Psychophysics. Wiley. SDT's d′ (sensitivity) and β (criterion) are now standard in memory recognition research (distinguishing true recollection from liberal guessing), clinical diagnostics, and AI evaluation (precision-recall trade-offs)."
+        },
+        {
+          "id": "th13", "group": "Thinking & Reasoning",
+          "label": "Computational Theory of Mind / General Problem Solver",
+          "date": "1959", "loc": "Carnegie Mellon University, Pittsburgh, Pennsylvania", "coords": [40.44, -79.94],
+          "links": ["co4", "co5", "fg7"],
+          "hint": "The human mind is an information-processing system that manipulates symbols according to rules — just as a computer does. The General Problem Solver (GPS) was the first program to separate a general problem-solving strategy (means–ends analysis) from domain knowledge, and served as both a cognitive model and a proof of concept for artificial intelligence.",
+          "tag": "FRAMEWORK",
+          "note": "Newell, A., Shaw, J. C. & Simon, H. A. (1959). 'Report on a general problem-solving program.' Proceedings of the International Conference on Information Processing, 256–264. Culminated in: Newell, A. & Simon, H. A. (1972). Human Problem Solving. Prentice-Hall — the most thorough implementation of the computational metaphor in cognitive psychology. The framework underpins ACT-R (Anderson 1983) and remains the dominant metatheory of the field, even as connectionist and embodied alternatives have grown."
         }
       ]
     },
@@ -326,6 +344,16 @@
           "hint": "Surprisingly large changes to a scene — a different person's face, a colour shift, an object appearing — go unnoticed when the change coincides with a brief interruption (a blink, a cut, a mudsplash). People do not maintain a detailed visual representation of the world between fixations.",
           "tag": "PHENOMENON",
           "note": "Rensink, R. A., O'Regan, J. K. & Clark, J. J. (1997). 'To see or not to see: The need for attention to perceive changes in scenes.' Psychological Science, 8, 368–373. Simons, D. J. & Levin, D. T. (1998). 'Failure to detect changes to people during a real-world interaction.' Psychonomic Bulletin & Review, 5, 644–649 (the 'door study'). Highly robust; magnitude depends on whether attention was directed to the changing element."
+        },
+        {
+          "id": "ef11", "group": "Memory Systems",
+          "label": "Forgetting Curve",
+          "date": "1885", "loc": "University of Berlin, Germany", "coords": [52.52, 13.39],
+          "repl": "robust",
+          "links": ["ef3", "fg2", "th3"],
+          "hint": "Memory for newly learned material drops steeply in the first hour, then more slowly over days and weeks, eventually levelling to a stable asymptote. Ebbinghaus established this precise exponential decay function using nonsense syllables and himself as sole subject — the shape of forgetting is universal across materials and individuals.",
+          "tag": "EFFECT",
+          "note": "Ebbinghaus, H. (1885). Über das Gedächtnis. Translated as Memory: A Contribution to Experimental Psychology (1913). Distinct from the spacing effect (ef3), which describes how distributed practice counters the curve — the two together are the most practically significant findings in the science of memory. The quantitative shape of the forgetting function (best fit by a power function, not simple exponential: Wixted & Ebbesen 1991) is among the most replicated quantitative findings in psychology."
         }
       ]
     },
@@ -405,7 +433,7 @@
       "subtitle": "How cognitive psychologists measure processes invisible to the naked eye",
       "entries": [
         {
-          "id": "me1", "group": "Reaction Time",
+          "id": "me1", "group": "Experimental Paradigms",
           "label": "Mental Chronometry (Donders)",
           "date": "1868", "loc": "Utrecht University, Netherlands", "coords": [52.09, 5.12],
           "links": ["ef1", "st5"],
@@ -466,7 +494,7 @@
       "subtitle": "The researchers who built the cognitive science of mind",
       "entries": [
         {
-          "id": "fg1", "group": "Founders",
+          "id": "fg1", "group": "Pioneers & Theorists",
           "label": "William James",
           "date": "1842–1910", "loc": "Harvard University, Cambridge, Massachusetts", "coords": [42.37, -71.12],
           "links": ["co2", "co3"],
@@ -475,7 +503,7 @@
           "note": "James, W. (1890). The Principles of Psychology. Holt. The most influential psychology text of the 19th century. His chapter on 'The Stream of Consciousness' and 'Habit' remain required reading. The James–Lange theory of emotion (1884) still generates debate."
         },
         {
-          "id": "fg2", "group": "Founders",
+          "id": "fg2", "group": "Pioneers & Theorists",
           "label": "Hermann Ebbinghaus",
           "date": "1850–1909", "loc": "University of Berlin, Germany", "coords": [52.52, 13.39],
           "links": ["ef3"],
@@ -520,7 +548,7 @@
           "note": "Treisman, A. (1960). 'Contextual cues in selective listening.' Quarterly Journal of Experimental Psychology, 12, 242–248 (the attenuation model). Treisman, A. M. & Gelade, G. (1980). Cognitive Psychology, 12, 97–136 (feature integration). Received the National Medal of Science (2013) and the Grawemeyer Award in Psychology (2009)."
         },
         {
-          "id": "fg7", "group": "Founders",
+          "id": "fg7", "group": "Pioneers & Theorists",
           "label": "Ulric Neisser",
           "date": "1928–2012", "loc": "Cornell University, Ithaca, New York", "coords": [42.45, -76.48],
           "links": ["co2", "ef7"],
@@ -554,6 +582,33 @@
           "hint": "Proposed mental model theory: people reason by building small working simulations of situations and inspecting them, not by applying syntactic rules. His work on the Wason task, syllogistic reasoning and text comprehension provided a rigorous alternative to formal logic in cognitive science.",
           "tag": "FIGURE",
           "note": "Johnson-Laird, P. N. (1983). Mental Models. Harvard University Press. Johnson-Laird, P. N. & Wason, P. C. (1970). 'A theoretical analysis of insight into a reasoning task.' Cognitive Psychology, 1, 134–148. Received the Cognitive Science Society's Lifetime Achievement Award (2005)."
+        },
+        {
+          "id": "fg11", "group": "Pioneers & Theorists",
+          "label": "Donald Broadbent",
+          "date": "1926–1993", "loc": "Applied Psychology Research Unit, Cambridge, UK", "coords": [52.20, 0.12],
+          "links": ["co2", "th5"],
+          "hint": "Introduced the information-processing metaphor to psychology: the mind as a channel with a limited capacity filter, selecting one input stream at a time. Perception and Communication (1958) launched cognitive psychology as a discipline distinct from behaviourism, predating Neisser's coinage of the name by nine years.",
+          "tag": "FIGURE",
+          "note": "Broadbent, D. E. (1958). Perception and Communication. Pergamon — the founding text of information-processing psychology. Proposed the early-selection (filter) model of attention, later challenged by Deutsch & Deutsch (1963) and refined by Treisman's attenuation model (1964). Trained at Cambridge under Frederic Bartlett; spent his career at the MRC Applied Psychology Unit, Cambridge."
+        },
+        {
+          "id": "fg12", "group": "Pioneers & Theorists",
+          "label": "Noam Chomsky",
+          "date": "1928–", "loc": "Massachusetts Institute of Technology, Cambridge, Massachusetts", "coords": [42.36, -71.09],
+          "links": ["co7", "db8", "th13"],
+          "hint": "His 1959 demolition of Skinner's Verbal Behavior is widely credited as the single most influential paper in the cognitive revolution: if language cannot be explained by stimulus–response reinforcement, the entire behaviourist programme fails. His transformational generative grammar proposed that humans have an innate language faculty — a biologically specified 'universal grammar'.",
+          "tag": "FIGURE",
+          "note": "Chomsky, N. (1959). 'A review of B. F. Skinner's Verbal Behavior.' Language, 35, 26–58. Chomsky, N. (1965). Aspects of the Theory of Syntax. MIT Press — formal statement of transformational generative grammar. Strictly a linguist, not a cognitive psychologist, but his influence on the field rivals any psychologist's. His nativist account of language acquisition (the 'poverty of the stimulus' argument) remains debated (Pullum & Scholz 2002)."
+        },
+        {
+          "id": "fg13", "group": "Thinking & Reasoning",
+          "label": "Daniel Kahneman & Amos Tversky",
+          "date": "1974", "loc": "Hebrew University of Jerusalem", "coords": [31.79, 35.24],
+          "links": ["ef6", "th4"],
+          "hint": "Their heuristics-and-biases programme mapped systematic, predictable errors in human judgement — availability, representativeness, anchoring, framing — by treating cognitive shortcuts as the default rather than as aberrations. Kahneman won the 2002 Nobel in Economics; Tversky died in 1996. The most cited collaboration in the history of cognitive and social psychology.",
+          "tag": "FIGURE",
+          "note": "Tversky, A. & Kahneman, D. (1974). 'Judgment under uncertainty: Heuristics and biases.' Science, 185, 1124–1131. Kahneman, D. & Tversky, A. (1979). 'Prospect theory: An analysis of decision under risk.' Econometrica, 47, 263–292. Kahneman, D. (2011). Thinking, Fast and Slow. Their social-psychology and behavioural economics contributions are also covered in the Social Psychology folio (fg10); the entry here focuses on their foundational cognitive contributions to judgement research."
         }
       ]
     },
@@ -624,6 +679,15 @@
           "hint": "A dead Atlantic salmon placed in an fMRI scanner, shown social photographs and asked to infer emotions, produced 'significant' brain activations — because uncorrected analyses across 130,000 voxels will yield false positives. The study dramatised a multiple-comparisons problem affecting thousands of published neuroimaging papers.",
           "tag": "DEBATE",
           "note": "Bennett, C. M., Miller, M. B. & Wolford, G. L. (2009). HBM 2009 poster; published in Journal of Serendipitous and Unexpected Results (2010). Eklund, A., Nichols, T. E. & Knutsson, H. (2016). PNAS, 113, 7900–7905 found common fMRI cluster-inference methods had up to 70% false-positive rates. Accelerated adoption of family-wise error correction and pre-registration in neuroimaging."
+        },
+        {
+          "id": "db8", "group": "Language & Concepts",
+          "label": "Chomsky's Demolition of Skinner (1959)",
+          "date": "1959", "loc": "Massachusetts Institute of Technology, Cambridge, Massachusetts", "coords": [42.36, -71.09],
+          "links": ["co7", "fg12", "fg7"],
+          "hint": "Chomsky's review of Skinner's Verbal Behavior argued that no reinforcement account could explain how children acquire language — they produce and understand sentences they have never heard, using rules no one taught them. The 'poverty of the stimulus' argument made the case for innate mental structure and effectively ended behaviourism's dominance in American psychology.",
+          "tag": "DEBATE",
+          "note": "Chomsky, N. (1959). 'A review of B. F. Skinner's Verbal Behavior.' Language, 35, 26–58. Often called the most influential book review in the history of psychology. It did not single-handedly kill behaviourism — the movement was already weakening — but it provided the decisive theoretical argument. The specific poverty-of-the-stimulus argument has been challenged on empirical grounds (Pullum & Scholz 2002, The Linguistic Review, 19, 9–50): children may receive more structured input than Chomsky assumed. The broader conclusion — that language requires an innate cognitive component beyond general learning — remains broadly accepted."
         }
       ]
     },
@@ -704,6 +768,8 @@
     ]},
     { "id":"theory", "icon":"📐", "accent":"#2471A3", "label":"Theories & Models", "events":[
       { "y":1932, "l":"Reconstructive memory", "entryId":"th11" },
+      { "y":1954, "l":"Signal detection theory", "entryId":"th12" },
+      { "y":1959, "l":"Computational theory of mind / GPS", "entryId":"th13" },
       { "y":1968, "l":"Multi-store model", "entryId":"th1" },
       { "y":1972, "l":"Levels of processing", "entryId":"th3" },
       { "y":1973, "l":"Prototype theory", "entryId":"th10" },
@@ -716,6 +782,7 @@
       { "y":1999, "l":"Embodied cognition", "entryId":"th8" }
     ]},
     { "id":"effect", "icon":"📊", "accent":"#117A65", "label":"Effects & Phenomena", "events":[
+      { "y":1885, "l":"Forgetting curve", "entryId":"ef11" },
       { "y":1885, "l":"Spacing effect", "entryId":"ef3" },
       { "y":1909, "l":"Testing effect", "entryId":"ef9" },
       { "y":1935, "l":"Stroop effect", "entryId":"ef1" },
@@ -740,6 +807,7 @@
       { "y":1993, "l":"Repressed memory controversy", "entryId":"db2" },
       { "y":1995, "l":"Hard problem of consciousness", "entryId":"db5" },
       { "y":2008, "l":"Working memory training contested", "entryId":"db3" },
+      { "y":1959, "l":"Chomsky demolishes behaviourism", "entryId":"db8" },
       { "y":2009, "l":"Dead-salmon fMRI", "entryId":"db7" },
       { "y":2014, "l":"Many Labs replications", "entryId":"db1" },
       { "y":2020, "l":"Dunning-Kruger artefact", "entryId":"db6" }
