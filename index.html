@@ -150,10 +150,24 @@ body{background:#eef1f6;font-family:Georgia,serif;color:#1a2230;min-height:100vh
 /* ── GRAPH ── */
 #graph-view{display:none}
 #graph-area{padding:14px 20px 20px}
-#graph-toolbar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:10px}
-#graph-legend{display:flex;flex-wrap:wrap;gap:10px;align-items:center;flex:1}
-#cy{width:100%;height:calc(100vh - 230px);min-height:420px;border:1px solid #dde5f1;border-radius:6px;background:#f7f9fd}
+#cy{width:100%;height:calc(100vh - 210px);min-height:420px;border:1px solid #dde5f1;border-radius:6px;background:#f7f9fd}
 #graph-note{margin-top:6px;font-size:10px;color:#aab8d0;font-family:'Courier New',monospace}
+
+/* ── STUDY PLAN ── */
+#study-plan-view{display:none}
+#study-plan-area{padding:14px 20px 40px}
+.sp-meta{font-size:11px;font-family:'Courier New',monospace;color:#5e76a6;line-height:1.7;background:#eef2f9;border-left:3px solid #3a5da8;padding:10px 14px;border-radius:0 4px 4px 0;margin-bottom:16px}
+.sp-module{margin-bottom:10px;border:1px solid #d8e0ee;border-radius:6px;overflow:clip;background:#f7f9fd}
+.sp-module-head{padding:11px 16px 10px;background:#fff;border-bottom:1px solid #edf1f9}
+.sp-module-title{font-family:'Spectral',serif;font-size:15px;color:#13234a;margin-bottom:3px}
+.sp-module-rationale{font-size:11px;color:#5e76a6;font-style:italic;line-height:1.6}
+.sp-list{padding:4px 0}
+.sp-entry{display:grid;grid-template-columns:30px 1fr auto;gap:8px;align-items:start;padding:7px 14px 7px 10px;border-left:3px solid transparent;cursor:pointer;transition:border-color .12s,background .12s}
+.sp-entry:hover{border-left-color:var(--accent);background:var(--accent-faint)}
+.sp-entry-num{font-size:10px;font-family:'Courier New',monospace;color:#c4cfe2;padding-top:2px;text-align:right}
+.sp-entry-name{font-size:13px;color:#16203a;font-family:'Spectral',serif}
+.sp-entry-hint{font-size:11px;color:#5a6685;font-style:italic;margin-top:2px;line-height:1.45}
+.sp-cat-pill{font-size:8px;font-family:'Courier New',monospace;letter-spacing:.05em;border:1px solid;border-radius:10px;padding:2px 7px;white-space:nowrap;margin-top:2px;display:inline-block}
 
 /* ── MODAL ── */
 #modal-overlay{display:none;position:fixed;inset:0;background:rgba(13,23,48,.4);z-index:2000;align-items:center;justify-content:center;padding:20px}
@@ -196,6 +210,7 @@ body{background:#eef1f6;font-family:Georgia,serif;color:#1a2230;min-height:100vh
     <button class="tab-btn"        id="btn-timeline" onclick="setView('timeline')">◫ Timeline</button>
     <button class="tab-btn"        id="btn-map"      onclick="setView('map')">◎ Map</button>
     <button class="tab-btn"        id="btn-graph"    onclick="setView('graph')">◈ Graph</button>
+    <button class="tab-btn"        id="btn-study"    onclick="setView('study')">◉ Study Plan</button>
     <div id="search-wrap"><input id="search-input" placeholder="Search this field…" oninput="filterList()"></div>
   </div>
 </div>
@@ -246,8 +261,12 @@ body{background:#eef1f6;font-family:Georgia,serif;color:#1a2230;min-height:100vh
 <div id="graph-view">
   <div id="graph-area">
     <div id="cy"></div>
-    <div id="graph-note">Nodes = entries (colour = category, ring = replicability 🟢🟡🔴) · lines = cross-links (all 64 nodes connected) · hover to see labels · click to open · drag to pan · scroll to zoom</div>
+    <div id="graph-note">Nodes = entries (colour = category, ring = replicability 🟢🟡🔴) · lines = cross-links · hover to see labels · click to open · drag to pan · scroll to zoom</div>
   </div>
+</div>
+
+<div id="study-plan-view">
+  <div id="study-plan-area"></div>
 </div>
 
 <!-- MODAL -->
@@ -428,6 +447,7 @@ function applyFilter() {
   else if (currentView === 'timeline') buildTimeline();
   else if (currentView === 'map') renderPins();
   else if (currentView === 'graph') applyGraphFilter();
+  else if (currentView === 'study') buildStudyPlan();
 }
 
 function applyGraphFilter() {
@@ -457,15 +477,18 @@ function setView(v) {
   currentView = v;
   document.getElementById('list-view').style.display      = v==='list'     ? 'block' : 'none';
   document.getElementById('timeline-view').style.display  = v==='timeline' ? 'block' : 'none';
-  document.getElementById('map-view').style.display       = v==='map'      ? 'block' : 'none';
-  document.getElementById('graph-view').style.display     = v==='graph'    ? 'block' : 'none';
+  document.getElementById('map-view').style.display            = v==='map'      ? 'block' : 'none';
+  document.getElementById('graph-view').style.display          = v==='graph'    ? 'block' : 'none';
+  document.getElementById('study-plan-view').style.display     = v==='study'    ? 'block' : 'none';
   document.getElementById('btn-list').classList.toggle('active',     v==='list');
   document.getElementById('btn-timeline').classList.toggle('active', v==='timeline');
   document.getElementById('btn-map').classList.toggle('active',      v==='map');
   document.getElementById('btn-graph').classList.toggle('active',    v==='graph');
+  document.getElementById('btn-study').classList.toggle('active',    v==='study');
   if (v==='map' && !leafMap) initMap();
   if (v==='timeline') setTimeout(buildTimeline, 40);
   if (v==='graph') setTimeout(buildGraph, 40);
+  if (v==='study') setTimeout(buildStudyPlan, 40);
 }
 
 // ── FIELD PICKER — DOMAIN → FIELD CARDS ─────────────────────────────────────────
@@ -1035,6 +1058,169 @@ function buildGraph() {
 
   cyGraph.on('tap', 'node', evt => { const e = byId[evt.target.id()]; if (e) openModal(e, e.accent); });
   applyGraphFilter();
+}
+
+// ── STUDY PLAN ────────────────────────────────────────────────────────────────
+// Pedagogical orderings are field-specific; keyed by MOD.id.
+// Each module pulls entries by group name and/or category id (first-match wins,
+// so each entry appears exactly once).
+const STUDY_PLANS = {
+  'social-psychology': {
+    meta: 'Follows the standard arc of introductory social psychology courses: establish the scientific toolkit first, then move from the individual self outward through social perception, attitudes, influence, group dynamics, and intergroup relations, finishing with prosocial/antisocial behaviour. Debates close the arc so they can be evaluated against the full empirical base rather than encountered cold.',
+    modules: [
+      {
+        title: '1 — Scientific Toolkit',
+        rationale: 'Know how the evidence was gathered before you trust it. Research paradigms, measurement scales, and the key figures who built the field inoculate against naive acceptance of any single headline finding — and prepare you to weigh the replication debate fairly later.',
+        cats: ['method', 'figure']
+      },
+      {
+        title: '2 — The Social Self',
+        rationale: 'Social psychology begins with the individual in context. Self-concept, social comparison, and self-serving bias are the perceptual ground on which every subsequent phenomenon rests. Students who skip this section often misread influence effects as purely situational.',
+        groups: ['The Self & Cognition']
+      },
+      {
+        title: '3 — Perceiving Others',
+        rationale: 'We construct mental models of people through attribution, impression formation, and stereotyping. The fundamental attribution error — overweighting disposition, underweighting situation — is a prerequisite concept for everything from prejudice to bystander effects.',
+        groups: ['Perceiving Others']
+      },
+      {
+        title: '4 — Attitudes & Persuasion',
+        rationale: 'Attitudes are the connective tissue between belief and behaviour. Cognitive dissonance, elaboration likelihood, and dual-process models explain when and why people change their minds — foundational for understanding both influence and intervention design.',
+        groups: ['Attitudes & Persuasion']
+      },
+      {
+        title: '5 — Social Influence',
+        rationale: 'The classical heart of the field. Conformity (Asch), obedience (Milgram), and compliance principles (Cialdini) demonstrate how powerfully the social situation overrides individual judgment. These findings motivated the situationist turn and remain its strongest evidence.',
+        groups: ['Conformity & Obedience', 'Learning & Influence']
+      },
+      {
+        title: '6 — Group Dynamics',
+        rationale: 'Individuals embedded in groups behave differently than alone. Social facilitation, loafing, groupthink, and deindividuation show how group membership shapes performance and decision-making — essential for applied settings from organisations to juries.',
+        groups: ['Groups & Performance']
+      },
+      {
+        title: '7 — Intergroup Relations',
+        rationale: 'Stereotyping, prejudice, and discrimination are not character flaws — they emerge predictably from normal cognitive and motivational systems. Social identity theory, realistic conflict, and contact theory provide the main explanatory and remedial frameworks.',
+        groups: ['Intergroup Relations']
+      },
+      {
+        title: '8 — Prosocial & Antisocial Behaviour',
+        rationale: 'When do people help, and when do they harm? Bystander diffusion, the arousal-cost-reward model, and social determinants of aggression complete the behavioural picture. This module is placed late because it draws on attribution, norms, and group concepts from earlier.',
+        groups: ['Helping & Harm']
+      },
+      {
+        title: '9 — Debates & Open Questions',
+        rationale: 'Audit what you have learned. The replication crisis has substantially revised the field: ego depletion is contested, priming effects have shrunk or disappeared, and classic demonstrations relied on deceptive WEIRD samples. Finishing here, rather than opening with doubt, gives you something to evaluate critically rather than a void to fill.',
+        cats: ['debate']
+      },
+      {
+        title: '10 — Applications',
+        rationale: 'Consolidate by seeing where the science is deployed: law and eyewitness testimony, health communication, education, and technology design. Applications reveal both the power and the limits of translating laboratory findings to the world outside the experiment.',
+        cats: ['application']
+      }
+    ]
+  }
+};
+
+const SP_CAT_ORDER = ['concept','theory','method','study','effect','figure','debate','application'];
+
+function buildStudyPlan() {
+  if (!MOD) return;
+  const plan = STUDY_PLANS[MOD.id];
+  const area = document.getElementById('study-plan-area');
+  area.innerHTML = '';
+
+  if (!plan) {
+    area.innerHTML = '<div style="padding:30px 20px;font-size:12px;font-family:\'Courier New\',monospace;color:#9bafd4">No study plan defined for this field yet.</div>';
+    return;
+  }
+
+  const metaEl = document.createElement('div');
+  metaEl.className = 'sp-meta';
+  metaEl.textContent = plan.meta;
+  area.appendChild(metaEl);
+
+  const entries = allEntries().filter(e => activeCatIds.has(e.catId));
+  const assigned = new Set();
+  let globalIdx = 1;
+
+  plan.modules.forEach(mod => {
+    const modEntries = entries.filter(e => {
+      if (assigned.has(e.id)) return false;
+      if (mod.cats && mod.cats.includes(e.catId)) return true;
+      if (mod.groups && mod.groups.includes(e.group)) return true;
+      return false;
+    });
+    modEntries.forEach(e => assigned.add(e.id));
+
+    modEntries.sort((a, b) => {
+      const ai = SP_CAT_ORDER.indexOf(a.catId), bi = SP_CAT_ORDER.indexOf(b.catId);
+      if (ai !== bi) return ai - bi;
+      return (parseInt(a.date) || 9999) - (parseInt(b.date) || 9999);
+    });
+
+    if (!modEntries.length) return;
+
+    const section = document.createElement('div');
+    section.className = 'sp-module';
+
+    const head = document.createElement('div');
+    head.className = 'sp-module-head';
+    head.innerHTML = `<div class="sp-module-title">${mod.title}</div><div class="sp-module-rationale">${mod.rationale}</div>`;
+    section.appendChild(head);
+
+    const list = document.createElement('div');
+    list.className = 'sp-list';
+    modEntries.forEach(e => {
+      const cat = MOD.categories.find(c => c.id === e.catId);
+      const div = document.createElement('div');
+      div.className = 'sp-entry';
+      div.style.setProperty('--accent', e.accent);
+      div.style.setProperty('--accent-faint', e.accent + '18');
+      div.innerHTML = `
+        <div class="sp-entry-num">${globalIdx++}</div>
+        <div>
+          <div style="display:flex;align-items:baseline;gap:7px;flex-wrap:wrap">
+            <span class="sp-entry-name">${e.label}</span>
+            ${e.date ? `<span style="font-size:10px;font-family:'Courier New',monospace;color:${e.accent}">${e.date}</span>` : ''}
+            ${replDot(e.repl)}
+          </div>
+          ${e.hint ? `<div class="sp-entry-hint">${e.hint}</div>` : ''}
+        </div>
+        <div style="text-align:right">
+          <span class="sp-cat-pill" style="border-color:${e.accent};color:${e.accent}">${catIcon(cat||{id:e.catId})} ${(cat ? cat.label : e.catId).toUpperCase()}</span>
+        </div>`;
+      div.onclick = () => openModal(e, e.accent);
+      list.appendChild(div);
+    });
+    section.appendChild(list);
+    area.appendChild(section);
+  });
+
+  // Safety net: any entries not matched by any module
+  const leftover = entries.filter(e => !assigned.has(e.id));
+  if (leftover.length) {
+    const section = document.createElement('div');
+    section.className = 'sp-module';
+    section.innerHTML = '<div class="sp-module-head"><div class="sp-module-title">Other</div></div>';
+    const list = document.createElement('div');
+    list.className = 'sp-list';
+    leftover.forEach(e => {
+      const cat = MOD.categories.find(c => c.id === e.catId);
+      const div = document.createElement('div');
+      div.className = 'sp-entry';
+      div.style.setProperty('--accent', e.accent);
+      div.style.setProperty('--accent-faint', e.accent + '18');
+      div.innerHTML = `
+        <div class="sp-entry-num">${globalIdx++}</div>
+        <div><div style="display:flex;align-items:baseline;gap:7px"><span class="sp-entry-name">${e.label}</span>${e.date ? `<span style="font-size:10px;font-family:'Courier New',monospace;color:${e.accent}">${e.date}</span>` : ''}${replDot(e.repl)}</div>${e.hint ? `<div class="sp-entry-hint">${e.hint}</div>` : ''}</div>
+        <div><span class="sp-cat-pill" style="border-color:${e.accent};color:${e.accent}">${catIcon(cat||{id:e.catId})} ${(cat ? cat.label : e.catId).toUpperCase()}</span></div>`;
+      div.onclick = () => openModal(e, e.accent);
+      list.appendChild(div);
+    });
+    section.appendChild(list);
+    area.appendChild(section);
+  }
 }
 
 // ── INIT ───────────────────────────────────────────────────────────────────────
