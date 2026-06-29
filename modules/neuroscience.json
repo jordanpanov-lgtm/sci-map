@@ -258,10 +258,10 @@
           "label": "Long-Term Potentiation (LTP)",
           "date": "1973", "loc": "University of Oslo, Oslo, Norway", "coords": [59.94, 10.72],
           "links": ["co4", "st4", "th2", "th10"],
-          "hint": "High-frequency synaptic activity triggers a long-lasting increase in the strength of that synapse, mediated by NMDA-receptor activation, calcium influx and AMPA-receptor trafficking to the membrane. The most widely studied candidate mechanism for the synaptic changes underlying learning and memory; pharmacological blockade of NMDA receptors impairs spatial learning in rodents.",
+          "hint": "Blocking NMDA receptors with AP5 in rats prevents new spatial learning in the Morris water maze without affecting existing memories — demonstrating that LTP is required for acquisition, not just recall. Conversely, overexpressing NMDA receptor subunit NR2B produced 'Doogie mice' with enhanced LTP and superior spatial and fear memory. These pharmacological and genetic dissections translate the cellular mechanism into a behavioural claim: LTP is the primary substrate of declarative memory formation.",
           "tag": "PHENOMENON",
           "repl": "robust",
-          "note": "Bliss & Lømo (1973) — original discovery (st4). Mechanism: Malenka, R. C. & Bear, M. F. (2004). 'LTP and LTD: An embarrassment of riches.' Neuron, 44, 5–21 — comprehensive review. LTD (long-term depression) is the reverse process: low-frequency stimulation reduces synaptic strength. Both are now targets of cognitive enhancers and Alzheimer's research."
+          "note": "Morris, R. G. M. et al. (1986). 'Selective impairment of learning and blockade of long-term potentiation by an N-methyl-D-aspartate receptor antagonist, AP5.' Nature, 319, 774–776. Tang, Y.-P. et al. (1999). 'Genetic enhancement of learning and memory in mice.' Nature, 401, 63–69 — Doogie NR2B-overexpressing mice show enhanced LTP and learning. For the molecular mechanism see co4; for the original 1973 discovery see st4. LTD (low-frequency stimulation reduces synaptic strength) is the reverse process and may underlie forgetting and synaptic homeostasis; both LTP and LTD are now targets of cognitive-enhancer and Alzheimer's drug development."
         },
         {
           "id": "ef4", "group": "Emotion & Motivation",
@@ -328,10 +328,10 @@
           "label": "Default Mode Network Deactivation",
           "date": "1997", "loc": "Washington University in St. Louis, St. Louis, Missouri", "coords": [38.65, -90.31],
           "links": ["co3", "st9"],
-          "hint": "A consistent set of brain regions — medial prefrontal cortex, posterior cingulate, precuneus and angular gyrus — systematically deactivate during externally focused tasks and reactivate during rest, mind-wandering and self-referential thought. The degree of task-induced suppression predicts cognitive performance; failure to suppress DMN activity correlates with disorders including ADHD and Alzheimer's.",
+          "hint": "The degree to which the DMN suppresses during externally directed tasks predicts individual cognitive performance: strong suppressors show better attention, working memory and executive function. Failure to suppress is a marker of mind-wandering and ADHD. In Alzheimer's disease, amyloid-β preferentially deposits in default-network nodes — the same regions most active at rest — and DMN dysconnectivity predicts cognitive decline years before clinical onset. The network thus links a resting-state property to clinical vulnerability at both ends of the lifespan.",
           "tag": "PHENOMENON",
           "repl": "robust",
-          "note": "Shulman, G. L. et al. (1997). 'Common blood flow changes across visual tasks.' Journal of Cognitive Neuroscience, 9, 648–663 — original PET observation. Raichle et al. (2001) named the network (st9). DMN and Alzheimer's: Buckner et al. (2005) Journal of Neuroscience — default network regions overlap with amyloid deposition sites."
+          "note": "Task-suppression and performance: Anticevic, A. et al. (2012). 'The role of default network deactivation in cognition and disease.' Trends in Cognitive Sciences, 16, 584–592. ADHD: Castellanos, F. X. & Proal, E. (2012) Trends in Cognitive Sciences, 16, 183–189. Alzheimer's: Buckner, R. L. et al. (2005). 'Molecular, structural and functional characterization of Alzheimer's disease.' Journal of Neuroscience, 25, 7709–7717 — amyloid preferentially deposits in default-network nodes. For the discovery of the network itself, see st9."
         }
       ]
     },
@@ -346,7 +346,7 @@
           "id": "co1", "group": "Neurons & Synapses",
           "label": "Action Potential & Ion Channels",
           "date": "1952", "loc": "Marine Biological Laboratory, Plymouth, UK", "coords": [50.37, -4.14],
-          "links": ["ef6", "me7", "st1", "th1"],
+          "links": ["co8", "ef6", "me7", "st1", "th1"],
           "hint": "The action potential is a self-regenerating wave of membrane depolarisation — triggered when sodium channels open above threshold, producing a rapid inward Na⁺ current, followed by delayed K⁺ efflux for repolarisation. Voltage-gated ion channels (selective pores sensitive to membrane potential) implement the logic; the absolute and relative refractory periods set maximum firing rate.",
           "tag": "CONCEPT",
           "note": "Hodgkin & Huxley (1952) provided the first quantitative account (st1). Voltage-gated Na⁺ channel crystal structure: Payandeh et al. (2011) Nature. Ion channels are targets of local anaesthetics (lidocaine blocks Nav), antiepileptics (phenytoin) and toxins (tetrodotoxin). The spike threshold (~−55 mV) and all-or-nothing firing are the basic units of neural code."
@@ -355,10 +355,37 @@
           "id": "co2", "group": "Neurons & Synapses",
           "label": "Synapse & Chemical Neurotransmission",
           "date": "1921", "loc": "University of Graz, Graz, Austria", "coords": [47.07, 15.45],
-          "links": ["co1", "fg2", "th1"],
+          "links": ["co1", "co9", "co10", "fg2", "th1"],
           "hint": "Information crosses the gap between neurons chemically: an action potential triggers Ca²⁺-mediated vesicle fusion, releasing neurotransmitter into the synaptic cleft, which binds postsynaptic receptors and opens ion channels (ionotropic) or activates G-proteins (metabotropic). Each synapse is excitatory (EPSP) or inhibitory (IPSP); the postsynaptic neuron integrates thousands of inputs.",
           "tag": "CONCEPT",
           "note": "Loewi, O. (1921) demonstrated chemical (not electrical) transmission by transferring frog heart perfusate. Nobel Prize 1936 (with Dale). Eccles demonstrated EPSP and IPSP with intracellular recording in spinal motoneurons; Nobel Prize 1963. Key transmitters: glutamate (excitatory), GABA (inhibitory), dopamine, serotonin, acetylcholine, noradrenaline."
+        },
+        {
+          "id": "co8", "group": "Neurons & Synapses",
+          "label": "Glia, Myelin & Saltatory Conduction",
+          "date": "1878", "loc": "Collège de France, Paris, France", "coords": [48.85, 2.35],
+          "links": ["co1", "co2"],
+          "hint": "Neurons are outnumbered roughly 1-to-1 by glial cells — oligodendrocytes wrap axons in myelin sheaths that force the action potential to jump between exposed nodes of Ranvier (saltatory conduction), boosting propagation speed from ~1 m/s to over 100 m/s. Astrocytes provide metabolic support and regulate extracellular ion concentrations; microglia are the brain's resident immune cells and synaptic pruners. Without myelin, conduction fails — as in multiple sclerosis, where demyelination disrupts the precise signal timing that cognition requires.",
+          "tag": "CONCEPT",
+          "note": "Nodes of Ranvier: Ranvier, L.-A. (1878). Schwann cells myelinate PNS axons; oligodendrocytes myelinate CNS axons. Na⁺ channel clustering at nodes: Rasband, M. N. (2011). 'Na⁺ channels get anchored.' Nature Reviews Neuroscience, 12, 196–197. Neuron-to-glia ratio: von Bartheld, C. S. et al. (2016). Journal of Comparative Neurology — roughly equal numbers in human brain, not the 10:1 ratio long cited. MS pathology: McDonald, W. I. et al. (2001) — demyelinating lesions directly impair conduction velocity and timing."
+        },
+        {
+          "id": "co9", "group": "Neurons & Synapses",
+          "label": "Glutamate, GABA & the Excitation–Inhibition Balance",
+          "date": "1950", "loc": "Tulane University School of Medicine, New Orleans, Louisiana", "coords": [29.94, -90.12],
+          "links": ["co1", "co2", "co4"],
+          "hint": "The brain's default currency is two amino acids: glutamate (the principal excitatory transmitter, acting at AMPA and NMDA receptors) and GABA (the principal inhibitory transmitter, opening Cl⁻ channels via GABA_A receptors). The ratio of excitatory to inhibitory drive — the E/I balance — determines whether a network fires, saturates or stays silent. Epilepsy (excess glutamate), schizophrenia (reduced cortical inhibition) and anxiety (GABA_A modulation by benzodiazepines) all reflect disruptions of this balance.",
+          "tag": "CONCEPT",
+          "note": "GABA identified: Roberts, E. & Frankel, S. (1950). Journal of Biological Chemistry — GABA in brain tissue. Glutamate as excitatory transmitter: Curtis, D. R. & Watkins, J. C. (1960) Journal of Neurochemistry. GABA_A and benzodiazepines: Mohler, H. & Okada, T. (1977) Science. E/I balance in autism spectrum disorder: Rubenstein, J. L. R. & Merzenich, M. M. (2003) Genes, Brain and Behavior — excess excitation hypothesis. NMDA-receptor hypofunction in psychosis: Javitt, D. C. & Zukin, S. R. (1991) — PCP produces psychosis-like symptoms by blocking NMDA receptors, directly implicating glutamate in schizophrenia."
+        },
+        {
+          "id": "co10", "group": "Neurons & Synapses",
+          "label": "Astrocytes, Microglia & the Tripartite Synapse",
+          "date": "1999", "loc": "Consejo Superior de Investigaciones Científicas, Madrid, Spain", "coords": [40.43, -3.69],
+          "links": ["co2", "co4", "co9"],
+          "hint": "The 'tripartite synapse' — pre-synaptic terminal, post-synaptic density, and the enveloping astrocyte process — reveals that glia actively shape transmission: astrocytes take up released glutamate and recycle it into glutamine (preventing excitotoxicity), release gliotransmitters that modulate synaptic strength, and regulate local blood flow. Microglia survey the parenchyma continuously and prune weak synapses during development via complement tagging; excess pruning in schizophrenia and insufficient pruning in certain neurodevelopmental conditions reflect microglia as active sculptors of connectivity.",
+          "tag": "CONCEPT",
+          "note": "Tripartite synapse: Araque, A. et al. (1999). 'Tripartite synapses: Glia, the unacknowledged partner.' Trends in Neurosciences, 22, 208–215. Microglial synaptic pruning: Schafer, D. P. et al. (2012). 'Microglia sculpt postnatal neural circuits.' Neuron, 74, 691–705 — complement C1q/C3 tagging of weak synapses. Excess pruning in schizophrenia: Sekar, A. et al. (2016). Nature, 530, 177–183 — C4A gene copy number and synaptic pruning. Astrocyte glutamate transporter loss in ALS: Rothstein, J. D. et al. (1995) Annals of Neurology — loss of GLT-1 causes excitotoxicity."
         },
         {
           "id": "co3", "group": "Brain Architecture",
@@ -613,7 +640,7 @@
           "note": "Libet, B. et al. (1983). 'Time of conscious intention to act in relation to onset of cerebral activity.' Brain, 106, 623–642. Critiques: Schurger et al. (2012) PNAS — the RP may reflect random neural fluctuations crossing a threshold, not a genuine 'decision' signal. Haggard, P. (2019) 'The neurocognitive bases of human volition.' Annual Review of Psychology — balanced review. The debate involves deep questions about the timing of consciousness and the nature of will."
         },
         {
-          "id": "db2", "group": "Debates & Open Questions",
+          "id": "db2", "group": "Sensory & Motor Systems",
           "label": "Mirror Neurons in Humans: Discovery or Hype?",
           "date": "2000", "loc": "University of Parma, Parma, Italy", "coords": [44.80, 10.33],
           "links": ["st8"],
@@ -631,7 +658,7 @@
           "note": "Eriksson, P. S. et al. (1998). 'Neurogenesis in the adult human hippocampus.' Nature Medicine, 4, 1313–1317 — initial BrdU evidence. Sorrells, S. F. et al. (2018). 'Human hippocampal neurogenesis drops sharply in children to undetectable levels in adults.' Nature, 555, 377–381. Boldrini, M. et al. (2018). 'Human hippocampal neurogenesis persists throughout aging.' Cell Stem Cell, 22, 589–599. A methodological controversy as much as a biological one."
         },
         {
-          "id": "db4", "group": "Debates & Open Questions",
+          "id": "db4", "group": "Brain Architecture",
           "label": "The Triune Brain as Neuromyth",
           "date": "1990", "loc": "National Institute of Mental Health, Bethesda, Maryland", "coords": [38.98, -77.10],
           "links": ["co5", "th6"],
