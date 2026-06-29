@@ -736,7 +736,8 @@ function openModal(entry, accent) {
   document.getElementById('modal-note').textContent = entry.note || '';
   const diagEl = document.getElementById('modal-diagram');
   if (entry.diagram) {
-    fetch(entry.diagram).then(r => r.text()).then(svg => { diagEl.innerHTML = svg; diagEl.style.display = ''; }).catch(() => { diagEl.innerHTML = ''; diagEl.style.display = 'none'; });
+    diagEl.innerHTML = `<img src="${entry.diagram}" alt="${entry.label}" style="width:100%;height:auto;display:block;border-radius:4px">`;
+    diagEl.style.display = 'block';
   } else { diagEl.innerHTML = ''; diagEl.style.display = 'none'; }
 
   // Replicability badge
