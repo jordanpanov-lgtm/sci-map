@@ -334,7 +334,7 @@ const FIELDS = [
   { id:"statistics",                 domain:"formal-computing",  label:"Applied Math: Probability & Statistics",    sub:"Inference, probability & the science of data",                          status:"planned" },
   { id:"computer-science",           domain:"formal-computing",  label:"Computer & Information Sciences",           sub:"Computation, algorithms, data structures & AI",                         status:"planned" },
   // ── PSYCHOLOGY & THE MIND ─────────────────────────────────────────────────────
-  { id:"neuroscience",               domain:"psychology",        label:"Neuroscience & Behavior",                   sub:"Brain, neuron, circuit & the biological basis of mind",                 status:"planned" },
+  { id:"neuroscience",               domain:"psychology",        label:"Neuroscience & Behavior",                   sub:"Brain, neuron, circuit & the biological basis of mind",                 status:"ready", file:"modules/neuroscience.json" },
   { id:"general-cognitive-psych",    domain:"psychology",        label:"General & Cognitive Psychology",            sub:"Attention, memory, reasoning & the architecture of mind",               status:"ready", file:"modules/general-cognitive-psych.json" },
   { id:"developmental-psych",        domain:"psychology",        label:"Developmental & Educational Psychology",    sub:"How the mind grows across the lifespan & how we learn",                 status:"planned" },
   { id:"social-psychology",          domain:"psychology",        label:"Social Psychology",                         sub:"How people think about, influence & relate to others",                  status:"ready", file:"modules/social-psychology.json" },
@@ -1248,6 +1248,61 @@ const STUDY_PLANS = {
       {
         title: '10 — Applications',
         rationale: 'Close by seeing the science at work: eyewitness reform, evidence-based study strategies, CBT, ergonomic design, cognitive rehabilitation, and multimedia learning — each a direct translation of a theory or effect from earlier modules.',
+        cats: ['application']
+      }
+    ]
+  },
+  'neuroscience': {
+    meta: 'Builds from the cell up to the system: start with the pioneers and the tools that made neuroscience possible, then progress from neurons and synapses through circuits and architecture, sensory/motor systems, memory and plasticity, sleep and rhythms, and emotion and motivation — before closing with active debates and clinical applications.',
+    modules: [
+      {
+        title: '1 — Pioneers & Theorists',
+        rationale: 'Ground the field in the people who built it. Cajal, Sherrington, Hebb, Penfield, Sperry and the others each represent a methodological era; knowing their landmark contributions makes every later entry legible.',
+        groups: ['Pioneers & Theorists']
+      },
+      {
+        title: '2 — Methods & Tools',
+        rationale: 'Neuroscience is shaped by its instruments. Lesion studies, electrophysiology, EEG, fMRI, patch-clamp, TMS and optogenetics each reveal a different aspect of brain function — and each carries specific limitations that determine how confidently we can interpret what follows.',
+        cats: ['method']
+      },
+      {
+        title: '3 — Neurons & Synapses',
+        rationale: 'The action potential and synaptic transmission are the alphabet of the brain. Every higher-level finding rests on this cellular foundation: lateral inhibition, ion channels, chemical neurotransmission, and the Hodgkin–Huxley model.',
+        groups: ['Neurons & Synapses']
+      },
+      {
+        title: '4 — Brain Architecture',
+        rationale: 'From the cortical homunculus to the default mode network, this module covers how the brain is spatially organised: neural circuits, the connectome, cortical maps, predictive coding, and the distributed-vs-localised debate that has animated the field since Broca.',
+        groups: ['Brain Architecture']
+      },
+      {
+        title: '5 — Sensory & Motor Systems',
+        rationale: 'The visual system is the best-understood cortical pathway. Simple and complex cells, critical periods, opponent-process colour, and the contested mirror neuron story illustrate both the power of the systems approach and where it can overreach.',
+        groups: ['Sensory & Motor Systems']
+      },
+      {
+        title: '6 — Memory & Plasticity',
+        rationale: 'H.M., LTP, place cells, synaptic tagging and adult neuroplasticity form a coherent story about how experience modifies the brain at the cellular, circuit and structural level — from Hebb\'s prediction in 1949 to the taxi-driver\'s expanding hippocampus in 2000.',
+        groups: ['Memory & Plasticity']
+      },
+      {
+        title: '7 — Sleep & Rhythms',
+        rationale: 'Sleep is not downtime but an active consolidation state. Neural oscillations, EEG sleep stages, memory replay and the cumulative cost of sleep debt together show why sleep hygiene is a neuroscience issue, not merely a lifestyle one.',
+        groups: ['Sleep & Rhythms']
+      },
+      {
+        title: '8 — Emotion & Motivation',
+        rationale: 'The limbic system, stress and the HPA axis, reward prediction error, allostasis and the somatic marker hypothesis reveal how the brain balances survival demands against hedonic goals — and why stress, addiction and depression are, at root, disorders of this system.',
+        groups: ['Emotion & Motivation']
+      },
+      {
+        title: '9 — Debates & Open Questions',
+        rationale: 'Adult neurogenesis, the free-will question, mirror-neuron hype, the triune brain myth, fMRI cluster failure, and polyvagal theory are best evaluated now, against the full empirical base built in modules 3–8.',
+        cats: ['debate']
+      },
+      {
+        title: '10 — Clinical & Educational Applications',
+        rationale: 'Close by seeing the neuroscience at work: deep brain stimulation, SSRIs and neuroplasticity, cognitive rehabilitation, neurofeedback, sleep hygiene in schools, and the first optogenetic vision-restoration trial in a human patient.',
         cats: ['application']
       }
     ]
