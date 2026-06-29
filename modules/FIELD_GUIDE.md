@@ -229,15 +229,35 @@ Each event: `{ "y": 1963, "l": "Short label ≤ 40 chars", "entryId": "st2" }`
 
 ### Category palette (copy verbatim)
 
+The `id` prefix for entry ids, the canonical `label`, and the full visual spec:
+
 ```
-theory       color #1A3A5C  accent #2471A3  bg #F0F7FF   subtitle: "The frameworks that organise [field-specific phrase]"
-study        color #4A235A  accent #7D3C98  bg #FAF5FF   subtitle: "The defining experiments — and exactly what they found"
-effect       color #0B4F2E  accent #117A65  bg #F0FFF6   subtitle: "Named, replicable patterns in [behaviour/nature/etc.]"
-concept      color #2C3E50  accent #566573  bg #F5F6FA   subtitle: "The building blocks and vocabulary every student must command"
-method       color #5D4037  accent #8B5E00  bg #FFF8F0   subtitle: "The tools and paradigms that generate the field's evidence"
-figure       color #7D6608  accent #B7770D  bg #FEFDE7   subtitle: "The researchers who shaped the discipline"
-debate       color #6E2C00  accent #CA6F1E  bg #FDF5EC   subtitle: "Live controversies — where the field is actively contesting the evidence"
-application  color #1A5276  accent #2E86C1  bg #EBF5FB   subtitle: "Where the science leaves the lab"
+id           prefix  label                        color    accent   bg
+───────────────────────────────────────────────────────────────────────────────
+theory       th      "Theories & Models"          #1A3A5C  #2471A3  #F0F7FF
+study        st      "Landmark Studies"           #4A235A  #7D3C98  #FAF5FF
+effect       ef      "Effects & Phenomena"        #0B4F2E  #117A65  #F0FFF6
+concept      co      "Key Concepts"               #2C3E50  #566573  #F5F6FA
+method       me      "Methods & Approaches"       #5D4037  #8B5E00  #FFF8F0
+figure       fg      "Pioneers & Theorists"       #7D6608  #B7770D  #FEFDE7
+debate       db      "Debates & Open Questions"   #6E2C00  #CA6F1E  #FDF5EC
+application  ap      "Applications"               #1A5276  #2E86C1  #EBF5FB
+```
+
+Entry ids are `<prefix><number>` — e.g. `th1`, `st2`, `ef3`. Numbers are sequential within
+each category and unique within the folio. Cross-folio links are not supported.
+
+Category subtitles — customise the bracketed part, keep the structure:
+
+```
+theory      "The frameworks that organise [how the brain / social behaviour / chemical reactions / etc.]"
+study       "The defining experiments — and exactly what they found"         ← keep verbatim
+effect      "Named, replicable patterns in [neural and behavioural / social / etc.] organisation"
+concept     "The building blocks and vocabulary every student must command"  ← keep verbatim
+method      "The tools and paradigms that generate the field's evidence"     ← keep verbatim
+figure      "The researchers who shaped the discipline"                      ← keep verbatim
+debate      "Live controversies — where the field is actively contesting the evidence"  ← keep verbatim
+application "Where the science leaves the lab"                               ← keep verbatim
 ```
 
 ### Tag vocabulary
