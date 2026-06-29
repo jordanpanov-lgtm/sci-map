@@ -121,7 +121,7 @@
           "links": ["co1", "me7"],
           "hint": "Using voltage-clamp recordings from the squid giant axon, Hodgkin and Huxley measured the sodium and potassium conductance changes underlying the action potential and wrote a set of four differential equations that predicted its shape, propagation velocity and refractory period with extraordinary precision — the first complete quantitative model of neural signalling.",
           "tag": "EXPERIMENT",
-          "repl": "🟢 robust",
+          "repl": "robust",
           "note": "Hodgkin, A. L. & Huxley, A. F. (1952). 'A quantitative description of membrane current and its application to conduction and excitation in nerve.' Journal of Physiology, 117, 500–544. Nobel Prize in Physiology or Medicine 1963 (with Eccles). The Hodgkin–Huxley model remains the gold standard for computational neuroscience; replicated across species from invertebrates to mammals."
         },
         {
@@ -131,7 +131,7 @@
           "links": ["co4", "fg12", "me1"],
           "hint": "After bilateral medial temporal-lobe resection for epilepsy, Henry Molaison (H.M.) could no longer form new declarative memories (anterograde amnesia) while retaining procedural learning and remote long-term memories. This dissociation proved the hippocampus is essential for encoding new episodic and semantic memories but not for other forms of learning.",
           "tag": "CASE STUDY",
-          "repl": "🟢 robust",
+          "repl": "robust",
           "note": "Scoville, W. B. & Milner, B. (1957). 'Loss of recent memory after bilateral hippocampal lesions.' Journal of Neurology, Neurosurgery and Psychiatry, 20, 11–21. H.M. studied until his death in 2008; his brain was sectioned and digitised (Annese et al., 2014, Nature Communications). Among the most influential cases in the history of neuroscience. Milner's continuing work extended the findings to skill learning (fg12)."
         },
         {
@@ -141,7 +141,7 @@
           "links": ["ef2", "fg6", "me2"],
           "hint": "Single-unit recordings from cat primary visual cortex revealed neurons selective for oriented edges and bars at specific locations (simple cells) and for edges moving in particular directions regardless of exact position (complex cells). This hierarchical selectivity — from photoreceptor to edge-detector to motion-detector — became the template for understanding cortical feature extraction.",
           "tag": "EXPERIMENT",
-          "repl": "🟢 robust",
+          "repl": "robust",
           "note": "Hubel, D. H. & Wiesel, T. N. (1959). 'Receptive fields of single neurones in the cat's striate cortex.' Journal of Physiology, 148, 574–591. Nobel Prize in Physiology or Medicine 1981 (with Sperry). The hierarchical model inspired convolutional neural networks in deep learning. Critical periods discovered in subsequent work (ef2)."
         },
         {
@@ -151,7 +151,7 @@
           "links": ["co4", "ef3", "th2", "th10"],
           "hint": "Brief high-frequency stimulation of the perforant path produced a long-lasting increase in synaptic efficacy in rabbit hippocampus — the first demonstration of LTP. The magnitude and persistence of this strengthening made LTP the leading candidate cellular substrate for learning and memory, fulfilling Hebb's prediction from 1949.",
           "tag": "EXPERIMENT",
-          "repl": "🟢 robust",
+          "repl": "robust",
           "note": "Bliss, T. V. P. & Lømo, T. (1973). 'Long-lasting potentiation of synaptic transmission in the dentate area of the anaesthetised rabbit.' Journal of Physiology, 232, 331–356. Follow-up in vitro: Bliss, T. V. P. & Gardner-Medwin, A. R. (1973). Thousands of subsequent studies characterised NMDA-receptor dependence, AMPA-receptor trafficking and the link to spatial memory."
         },
         {
@@ -161,7 +161,7 @@
           "links": ["db5", "db6", "fg5", "me1"],
           "hint": "After corpus callosotomy for epilepsy, information presented to the left visual field (right hemisphere) and right visual field (left hemisphere) was processed independently: the left hand could select the right object but the verbal left hemisphere could not name what the right hemisphere had seen. Demonstrated functional lateralisation and the divided nature of the two hemispheres.",
           "tag": "EXPERIMENT",
-          "repl": "🟢 robust",
+          "repl": "robust",
           "note": "Gazzaniga, M. S., Bogen, J. E. & Sperry, R. W. (1962). 'Some functional effects of sectioning the cerebral commissures in man.' Proceedings of the National Academy of Sciences, 48, 1765–1769. Nobel Prize in Physiology or Medicine 1981 (with Hubel & Wiesel). Popularised as evidence of 'two brains'; the left-brain/right-brain personality dichotomy is a neuromyth (db6)."
         },
         {
@@ -171,7 +171,7 @@
           "links": ["co4", "fg7", "me2"],
           "hint": "Single-unit recordings from freely moving rats revealed hippocampal pyramidal cells ('place cells') that fire specifically when the animal occupies a particular location in space. The hippocampus does not merely store memories but constructs a 'cognitive map' of the environment — a spatial framework for all episodic experience.",
           "tag": "EXPERIMENT",
-          "repl": "🟢 robust",
+          "repl": "robust",
           "note": "O'Keefe, J. & Dostrovsky, J. (1971). 'The hippocampus as a spatial map.' Brain Research, 34, 171–175. Developed in O'Keefe, J. & Nadel, L. (1978). The Hippocampus as a Cognitive Map. Oxford University Press. Nobel Prize in Physiology or Medicine 2014 (shared with May-Britt and Edvard Moser, who discovered grid cells in entorhinal cortex)."
         },
         {
@@ -181,7 +181,7 @@
           "links": ["co3", "ef9", "fg4"],
           "hint": "Direct electrical stimulation of the cortex in awake patients undergoing neurosurgery elicited sensory experiences and movements from specific body regions. Mapping these responses yielded the 'homunculus' — a distorted body map in primary somatosensory and motor cortex, with disproportionately large areas for the hands, face and lips reflecting density of innervation.",
           "tag": "EXPERIMENT",
-          "repl": "🟢 robust",
+          "repl": "robust",
           "note": "Penfield, W. & Rasmussen, T. (1950). The Cerebral Cortex of Man. Macmillan. Original evoked-response mapping. The homunculus is one of the most reproduced images in neuroscience. Penfield also discovered that cortical maps can reorganise after injury or amputation, a precursor to the cortical remapping work of Merzenich and Ramachandran (ef9)."
         },
         {
@@ -191,7 +191,7 @@
           "links": ["db2", "me2"],
           "hint": "Neurons in macaque premotor area F5 discharged both when the monkey performed a grasping action and when it observed the experimenter perform the same action — dubbed 'mirror neurons'. Proposed to underlie action understanding, imitation learning and — controversially — empathy and language evolution in humans.",
           "tag": "EXPERIMENT",
-          "repl": "🟡 mixed",
+          "repl": "mixed",
           "note": "di Pellegrino, G. et al. (1992). 'Understanding motor events: A neurophysiological study.' Experimental Brain Research, 91, 176–180. Elaborated by Rizzolatti & Craighero (2004) Annual Review of Neuroscience. Evidence for a human 'mirror system' from fMRI and TMS is indirect and contested; no study has recorded single mirror neurons in humans (db2). Hickok (2009) The Myth of Mirror Neurons offers a critical review."
         },
         {
@@ -201,7 +201,7 @@
           "links": ["co3", "ef10", "me4"],
           "hint": "Comparing PET blood-flow across many tasks revealed a consistent set of cortical regions — medial prefrontal, posterior cingulate, angular gyrus — that deactivate during focused tasks but are active at rest. This 'default mode network' is now linked to self-referential thought, mind-wandering, autobiographical memory and social cognition.",
           "tag": "EXPERIMENT",
-          "repl": "🟢 robust",
+          "repl": "robust",
           "note": "Raichle, M. E. et al. (2001). 'A default mode of brain function.' Proceedings of the National Academy of Sciences, 98, 676–682. Preceded by Shulman et al. (1997). The DMN is one of the most replicated findings in neuroimaging and is implicated in depression, Alzheimer's disease and schizophrenia. Defined early precursor: Binder et al. (1999) Cerebral Cortex."
         },
         {
@@ -211,7 +211,7 @@
           "links": ["co4", "ef1", "fg7"],
           "hint": "Structural MRI showed that London taxi drivers, who undergo years of intensive spatial navigation training ('The Knowledge'), have larger posterior hippocampi than matched controls, and that volume correlated with years of experience. The first VBM evidence of macroscopic experience-dependent plasticity in the adult human brain.",
           "tag": "EXPERIMENT",
-          "repl": "🟢 robust",
+          "repl": "robust",
           "note": "Maguire, E. A. et al. (2000). 'Navigation-related structural change in the hippocampi of taxi drivers.' Proceedings of the National Academy of Sciences, 97, 4398–4403. VBM in taxi vs. bus drivers: Maguire et al. (2006) Hippocampus. Replication in train drivers and orienteers. Critiques concern selection effects (only spatially gifted individuals become taxi drivers); addressed partly by Woollett & Maguire (2011) prospective study during training."
         },
         {
@@ -221,7 +221,7 @@
           "links": ["co7", "ef7"],
           "hint": "Overnight sleep, but not equivalent waking rest, improved performance on a visual discrimination task; the benefit required both slow-wave and REM sleep and depended on time asleep, not time awake. Established sleep as an active consolidation window, not mere offline storage, and sparked the modern sleep-and-memory field.",
           "tag": "EXPERIMENT",
-          "repl": "🟢 robust",
+          "repl": "robust",
           "note": "Stickgold, R. et al. (2000). 'Visual discrimination learning requires sleep after training.' Nature Neuroscience, 3, 1237–1238. See also Walker, M. P. et al. (2002) Neuron. Sleep spindles and hippocampal–cortical replay during NREM implicated in consolidation: Diekelmann & Born (2010) Nature Reviews Neuroscience. The field is robust though effect sizes vary across task types."
         }
       ]
@@ -240,7 +240,7 @@
           "links": ["co4", "st10"],
           "hint": "The adult brain retains substantial capacity to reorganise synaptic connections, expand cortical representations and — in certain regions — generate new neurons in response to learning, environmental enrichment and injury. Overturned decades of dogma that the adult brain was structurally fixed after development.",
           "tag": "PHENOMENON",
-          "repl": "🟢 robust",
+          "repl": "robust",
           "note": "Key evidence: Merzenich et al. (1984) reorganisation of somatosensory maps after digit amputation. Maguire et al. (2000) taxi-driver hippocampal enlargement (st10). Draganski et al. (2004) Nature — juggling training increases grey matter. Debate continues about adult neurogenesis specifically in the human hippocampus (db3). Plasticity is now the basis of cognitive rehabilitation (ap3)."
         },
         {
@@ -250,7 +250,7 @@
           "links": ["st3", "fg6"],
           "hint": "If one eye is deprived of normal visual input during a specific post-natal window — the critical period — the deprived eye's cortical representation permanently shrinks and the open eye expands. After the critical period closes, the same deprivation produces no lasting change. Demonstrated that early sensory experience is necessary to wire cortical circuits correctly.",
           "tag": "EFFECT",
-          "repl": "🟢 robust",
+          "repl": "robust",
           "note": "Wiesel, T. N. & Hubel, D. H. (1963). 'Single-cell responses in striate cortex of kittens deprived of vision in one eye.' Journal of Neurophysiology, 26, 1003–1017. Nobel Prize in Physiology or Medicine 1981. Clinical application: amblyopia ('lazy eye') must be treated by patching the dominant eye during the critical period. Plasticity can be partially re-opened in adults by raising BDNF or reducing inhibitory tone (Hensch 2005)."
         },
         {
@@ -260,7 +260,7 @@
           "links": ["co4", "st4", "th2", "th10"],
           "hint": "High-frequency synaptic activity triggers a long-lasting increase in the strength of that synapse, mediated by NMDA-receptor activation, calcium influx and AMPA-receptor trafficking to the membrane. The most widely studied candidate mechanism for the synaptic changes underlying learning and memory; pharmacological blockade of NMDA receptors impairs spatial learning in rodents.",
           "tag": "PHENOMENON",
-          "repl": "🟢 robust",
+          "repl": "robust",
           "note": "Bliss & Lømo (1973) — original discovery (st4). Mechanism: Malenka, R. C. & Bear, M. F. (2004). 'LTP and LTD: An embarrassment of riches.' Neuron, 44, 5–21 — comprehensive review. LTD (long-term depression) is the reverse process: low-frequency stimulation reduces synaptic strength. Both are now targets of cognitive enhancers and Alzheimer's research."
         },
         {
@@ -270,7 +270,7 @@
           "links": ["co5", "co6", "fg9", "th8"],
           "hint": "Chronic stress elevates glucocorticoids (cortisol), which retract dendritic arbours and reduce neurogenesis in the hippocampus — measurably shrinking the structure. The effect is seen in stressed rodents, socially subordinate primates and humans with PTSD or major depression. Hippocampal atrophy predicts memory deficits and is partly reversible with antidepressants.",
           "tag": "EFFECT",
-          "repl": "🟢 robust",
+          "repl": "robust",
           "note": "Watanabe, Y., Gould, E. & McEwen, B. S. (1992). Stress-induced dendritic retraction in CA3. Magarinos, A. M. & McEwen, B. S. (1995). Neuroscience 69, 89–98. Human neuroimaging: Bremner, J. D. et al. (1995) American Journal of Psychiatry — PTSD hippocampal volume reductions. Antidepressant reversal: Santarelli et al. (2003) Science. Effect mediated via GR receptors and BDNF downregulation."
         },
         {
@@ -280,7 +280,7 @@
           "links": ["ef8", "th7"],
           "hint": "Repeated drug exposure strengthens the aversive opponent process (withdrawal, craving) while the pleasurable primary process diminishes — producing tolerance and negative-reinforcement-driven use. The user is no longer chasing pleasure but avoiding the opponent-state dysphoria. Explains why addiction escalates and why abstinence-induced negative affect drives relapse.",
           "tag": "PHENOMENON",
-          "repl": "🟢 robust",
+          "repl": "robust",
           "note": "Solomon, R. L. & Corbit, J. D. (1974) — original theory (th7). Neurobiological elaboration: Koob, G. F. & Le Moal, M. (1997). 'Drug abuse: Hedonic homeostatic dysregulation.' Science, 278, 52–58. Modern update: Koob, G. F. & Volkow, N. D. (2016). 'Neurobiology of addiction: A neurocircuitry analysis.' Lancet Psychiatry, 3, 760–773."
         },
         {
@@ -290,7 +290,7 @@
           "links": ["co1", "th5"],
           "hint": "Neurons inhibit their neighbours, creating a 'winner-take-more' competition that sharpens contrast and edges in sensory representations. In the retina, centre-surround receptive fields arise from lateral inhibition via horizontal and amacrine cells; in the Limulus (horseshoe crab) compound eye, Hartline and Ratliff measured inhibitory interactions between ommatidia directly. The Mach band illusion is a perceptual consequence.",
           "tag": "EFFECT",
-          "repl": "🟢 robust",
+          "repl": "robust",
           "note": "Hartline, H. K. & Ratliff, F. (1957). 'Inhibitory interaction of receptor units in the eye of Limulus.' Journal of General Physiology, 40, 357–376. Nobel Prize to Hartline in 1967. Centre-surround receptive fields in mammals: Kuffler, S. W. (1953) Journal of Neurophysiology. Lateral inhibition is a general circuit motif across sensory systems and brain regions."
         },
         {
@@ -300,7 +300,7 @@
           "links": ["co7", "st11"],
           "hint": "Chronic restriction to 6 hours of sleep per night accumulates deficits in psychomotor vigilance, working memory and mood that escalate over days and are not fully reversed by one recovery night. Critically, participants on 6-hour schedules rated themselves as only slightly sleepy — demonstrating that subjective sleepiness underestimates objective performance impairment.",
           "tag": "EFFECT",
-          "repl": "🟢 robust",
+          "repl": "robust",
           "note": "Van Dongen, H. P. A. et al. (2003). 'The cumulative cost of additional wakefulness.' Sleep, 26, 117–126. Earlier evidence: Harrison & Horne (2000). Replication across many labs. Metabolic consequences: Spiegel et al. (1999) Lancet — two nights of partial sleep deprivation altered leptin and ghrelin. Sleep inertia limits post-deprivation self-assessment accuracy."
         },
         {
@@ -310,7 +310,7 @@
           "links": ["co5", "ef5", "th3", "th7"],
           "hint": "Midbrain dopamine neurons fire to unexpected rewards, reduce firing to punishments, and — after conditioning — shift their response to the predictive cue rather than the reward itself. The signal matches the prediction error term in reinforcement learning algorithms: it broadcasts 'better-than-expected' or 'worse-than-expected' to guide future choices.",
           "tag": "EFFECT",
-          "repl": "🟢 robust",
+          "repl": "robust",
           "note": "Schultz, W., Dayan, P. & Montague, P. R. (1997). 'A neural substrate of prediction and reward.' Science, 275, 1593–1599. Temporal difference learning applied to dopamine: Montague et al. (1996) Journal of Neuroscience. Human fMRI evidence: O'Doherty et al. (2003) Neuron. The dopamine-RPE signal is one of the most replicated findings in computational neuroscience and grounds most models of addiction and psychiatric disorders of motivation."
         },
         {
@@ -320,7 +320,7 @@
           "links": ["co3", "co4", "fg4", "st7"],
           "hint": "Following limb amputation, neurons in somatosensory cortex previously representing the lost limb are 'captured' by adjacent representations (face, upper arm), so touching the face or stump evokes referred sensations felt as if from the phantom limb. The remapping occurs within weeks and is proportional to phantom pain intensity — demonstrating use-dependent plasticity in adult cortex.",
           "tag": "PHENOMENON",
-          "repl": "🟢 robust",
+          "repl": "robust",
           "note": "Ramachandran, V. S., Rogers-Ramachandran, D. & Stewart, M. (1992). 'Perceptual correlates of massive cortical reorganization.' Science, 258, 1159–1160. MEG confirmation: Flor, H. et al. (1995) Nature. Mirror therapy for phantom pain: Ramachandran & Rogers-Ramachandran (1996). Merzenich et al. earlier documented map reorganisation in monkeys after digit amputation (1984)."
         },
         {
@@ -330,7 +330,7 @@
           "links": ["co3", "st9"],
           "hint": "A consistent set of brain regions — medial prefrontal cortex, posterior cingulate, precuneus and angular gyrus — systematically deactivate during externally focused tasks and reactivate during rest, mind-wandering and self-referential thought. The degree of task-induced suppression predicts cognitive performance; failure to suppress DMN activity correlates with disorders including ADHD and Alzheimer's.",
           "tag": "PHENOMENON",
-          "repl": "🟢 robust",
+          "repl": "robust",
           "note": "Shulman, G. L. et al. (1997). 'Common blood flow changes across visual tasks.' Journal of Cognitive Neuroscience, 9, 648–663 — original PET observation. Raichle et al. (2001) named the network (st9). DMN and Alzheimer's: Buckner et al. (2005) Journal of Neuroscience — default network regions overlap with amyloid deposition sites."
         }
       ]
