@@ -1,215 +1,368 @@
-# Sci-Map — Field Authoring Guide
+# Sci-Map — Folio Authoring Guide
 
-This is the science counterpart to histomap's `GROUPING_GUIDE.md`. Where histomap
-organises folios by **region × period**, sci-map organises them by **scientific field**.
-Each field is one folio (one JSON file in `modules/`), registered in the `FIELDS`
-array in `index.html`.
+A folio is one JSON file in `modules/` that covers a single scientific field. Every folio
+surfaces the same eight category lenses; the `group` field carries the field's own internal
+structure. This is what makes the whole thing an *atlas* rather than a pile of unrelated pages.
 
-The core design principle is inherited from histomap: **categories are uniform lenses
-that apply to every field; the `group` field carries the field-specific subtopic.**
-This is what makes the whole thing an *atlas* rather than a pile of unrelated pages.
+---
+
+## Quick-reference targets
+
+| Category | Target entry count | `repl` badge? |
+|---|---|---|
+| `theory` | 8–12 | No |
+| `study` | 9–13 | Yes — every entry |
+| `effect` | 8–12 | Yes — every entry |
+| `concept` | 6–9 | No |
+| `method` | 5–8 | No |
+| `figure` | 10–14 | No |
+| `debate` | 7–10 | No |
+| `application` | 5–8 | No |
+| **Total** | **~65–80** | |
+
+A folio below 60 entries will feel thin; above 90 entries will feel exhausting.
+
+Groups per folio: **6–9**. If a group has fewer than 3 entries across all categories, merge it.
 
 ---
 
 ## The evidence principle
 
-Every entry must anchor to a **landmark study, paper, dataset or scale** — the scientific
-analog of histomap's "datable primary source". The `note` field names that source and,
-crucially, flags:
+Every entry must anchor to a **landmark study, paper, dataset, scale or theoretical text** —
+a specific datable source. The `note` field carries that citation and must flag:
 
-- **Replication status** — replicated, failed to replicate, never directly tested
-- **Effect-size revisions** — where a famous effect turned out smaller than first reported
-- **Known controversies** — disputed methods, archival re-readings, ethical issues
-- **Cultural scope** — whether the finding is WEIRD-bound or cross-culturally robust
+- **Replication status** — replicated, failed, contested, never directly tested
+- **Effect-size revisions** — where the famous number turned out to be inflated
+- **Known controversies** — disputed methods, ethical issues, archival re-readings
+- **Cultural scope** — WEIRD-bound or cross-culturally robust?
 
-A folio that presents 1950s textbook findings as settled fact, with no mention of the
-replication crisis, is doing the reader a disservice. Honesty about the strength of the
-evidence is the whole point.
+A folio that presents 1960s textbook findings as settled fact is doing the reader a
+disservice. Honesty about the strength of the evidence is the whole point.
 
 ---
 
-## The 8 canonical categories (always in this order)
+## Step 1 — Design the groups first
 
-Every folio MUST contain all 8 categories in this exact sequence. If a field genuinely
-has little content for one, include it as a short stub so the category bar renders evenly.
+Groups are the chapters of the field's internal syllabus. They drive both the List view
+(entries cluster under a subheading) and the Study Plan routing (one module per group).
 
-| # | id | icon | Use for |
-|---|---|---|---|
-| 1 | `theory` | 📐 | Explanatory frameworks and formal models — the field's big ideas |
-| 2 | `study` | 🧪 | The defining experiments/observations and *what they actually found* |
-| 3 | `effect` | 📊 | Named, replicable phenomena, effects and biases |
-| 4 | `concept` | 🧩 | Core constructs, definitions and the distinctions that matter |
-| 5 | `method` | 🔬 | Paradigms, instruments, scales and techniques |
-| 6 | `figure` | 👤 | The researchers who shaped the field |
-| 7 | `debate` | ⚖️ | Controversies, failed replications, revisions, open questions |
-| 8 | `application` | 🔗 | Where the science is put to work in the real world |
+**Design rules:**
+1. Name them by content, not by category — "Memory Systems" not "Memory Studies".
+2. Target 6–9 groups covering the field's canonical subtopics.
+3. Order them inside-out or bottom-up: foundations → mechanisms → applications.
+4. Every group should contain entries from multiple categories (at minimum: a theory or
+   concept, a study or effect, and at least one figure).
+5. Reserve `group: "Pioneers & Theorists"` on every `figure` entry — it maps to Module 1
+   of the study plan. Other entries that belong in Module 1 (founding debates, seminal
+   early papers) can also use this group.
 
-Each category object carries: `id`, `label`, `icon`, `color` (dark, for active text),
-`accent` (mid, for highlights/pins), `bg` (pale, reserved), `subtitle`, and `entries[]`.
+**Example group sets:**
 
-### Standard category palette (reuse across all fields for consistency)
-```
-theory       color #1A3A5C  accent #2471A3   (blue)
-study        color #4A235A  accent #7D3C98   (purple)
-effect       color #0B4F2E  accent #117A65   (green)
-concept      color #2C3E50  accent #566573   (slate)
-method       color #4A3200  accent #8B5E00   (gold)
-figure       color #3E2723  accent #6D4C41   (brown)
-debate       color #6E4A00  accent #B7770D   (amber)
-application  color #14502E  accent #2E7D52   (emerald)
-```
+*Neuroscience:*
+Neurons & Synapses → Brain Architecture → Sensory & Motor Systems → Memory & Plasticity
+→ Sleep & Rhythms → Emotion & Motivation → Disorders & Lesions → [Pioneers & Theorists]
+
+*Social Psychology:*
+Conformity & Obedience → Intergroup Relations → The Self & Cognition → Attitudes & Persuasion
+→ Perceiving Others → Helping & Harm → Groups & Performance → [Pioneers & Theorists]
 
 ---
 
-## Entry schema
+## Step 2 — Write the entries
+
+### Entry schema
 
 ```jsonc
 {
-  "id": "st2",                         // unique within the folio (cat-prefix + number)
-  "group": "Conformity & Obedience",   // field-specific subtopic (see below)
+  "id": "st2",                          // cat-prefix + number; unique within folio
+  "group": "Conformity & Obedience",    // field-specific subtopic designed in Step 1
   "label": "Milgram Obedience Experiments",
-  "date": "1961–63",                   // year(s) of the key study; first 4-digit year sorts
-  "loc": "Yale University, New Haven, Connecticut",  // where the work was done
-  "coords": [41.31, -72.93],           // institution lat/lng for the map (null = no pin)
-  "hint": "Plain-language explanation of the finding in 1–3 sentences.",
-  "tag": "EXPERIMENT",                 // see tag vocabulary below
-  "note": "Full citation + replication status + caveats.",
-  "repl": "robust",                    // OPTIONAL replicability badge (studies/effects)
-  "links": ["db3", "ef8"]              // OPTIONAL ids of related entries (cross-links)
+  "date": "1961–63",                    // year(s) of the key work; first 4 digits sort
+  "loc": "Yale University, New Haven, Connecticut",  // institution where work was done
+  "coords": [41.31, -72.93],            // institution lat/lng; null = no map pin
+  "hint": "Plain-language explanation in 2–4 sentences.",
+  "tag": "EXPERIMENT",                  // see tag vocabulary below
+  "note": "Citation + replication status + caveats + what changed since.",
+  "repl": "robust",                     // study/effect only — see rubric below
+  "links": ["db3", "fg4"]              // ids of related entries in this folio
 }
 ```
 
-### `repl` — the replicability badge (🟢🟡🔴)
+### Hint quality spec
 
-Set `repl` on **empirical findings** — entries in the `study` and `effect` categories
-(and any other entry making a concrete empirical claim). It renders a traffic-light dot in
-the list and a labelled line in the modal. Do **not** badge theories, concepts, methods,
-figures or applications — the badge means "does this specific finding still hold?"
+The hint is for an intelligent non-specialist. It must:
 
-| Value | Dot | Rubric — assign by the strongest available evidence |
+- State the **specific claim, finding or idea** — not a vague restatement of the label
+- Explain **why it matters** in one sentence
+- Use plain language; define jargon if it appears
+- Be 2–4 sentences; 3 is the sweet spot
+
+**Bad hint:** "The Milgram experiments studied obedience to authority and found surprising
+results that changed how psychologists think about human behaviour."
+
+**Good hint:** "Ordinary participants, instructed by an experimenter, delivered what they
+believed were increasingly dangerous electric shocks to a stranger. 65% continued to the
+maximum 450 volts. The most famous — and most contested — finding in all of social
+psychology: ordinary people, not monsters, obey destructive authority when given a
+legitimate-seeming institutional frame."
+
+### Note quality spec
+
+The note is for someone who wants the source and the caveats. It must contain:
+
+1. **Primary citation** — Author(s), year, exact title, journal/publisher, volume, pages.
+   No partial citations. No "et al." if there are ≤ 3 authors.
+2. **Replication or revision note** — what the strongest subsequent evidence says. Name
+   the study, year and what it found.
+3. **Caveat or context** — one sentence on a limitation, cultural boundary or
+   methodological issue. Omit only if there are genuinely none of note.
+
+**Bad note:** "Milgram, S. (1963). Classic obedience study. Widely cited."
+
+**Good note:** "Milgram, S. (1963). 'Behavioral study of obedience.' Journal of Abnormal
+and Social Psychology, 67, 371–378. A partial ethical replication (Burger 2009) reproduced
+comparable obedience rates. Archival work (Perry 2013; Gibson 2013) shows the script was
+applied unevenly across conditions and the '65%' figure comes from just one of two dozen
+variations — the headline number is a selective summary."
+
+### `repl` — the replicability badge
+
+Set on **every** `study` and `effect` entry; never on theories, concepts, methods, figures,
+debates or applications.
+
+| Value | Dot | Assign when |
 |---|---|---|
 | `robust` | 🟢 | Confirmed by meta-analysis or multiple independent/registered replications |
-| `mixed`  | 🟡 | Real but smaller than first reported, conditional, or culturally moderated; or replication record is contested |
+| `mixed` | 🟡 | Real but smaller than first reported; conditional; culturally moderated; or replication record is contested |
 | `failed` | 🔴 | Failed a large pre-registered replication, or the original causal claim is severely undermined |
 
-Be conservative and honest: a famous effect with a contested record is `mixed`, not
-`robust`. Whatever badge you assign, justify it in the `note` with the replication
-citation. The badge is the headline; the note carries the nuance.
+Be conservative. A famous effect with a contested record is `mixed`, not `robust`.
+Justify the badge in the `note` with the replication citation.
 
 ### `links` — cross-references
 
-`links` is an array of **entry ids in the same folio**. They render as clickable chips in
-the modal under a "RELATED" heading; clicking one opens that entry. Use them to connect a
-study to its critique (`st3` → `db2`), an effect to its sibling (`ef1` → `ef8`), or a
-theory to the study that tests it (`th1` → `st7`). Links are one-directional as authored —
-add the reciprocal id on both entries if you want the connection to work both ways.
+`links` is an array of **entry ids in the same folio**. Each link renders as a clickable
+chip in the modal under "RELATED". Aim for 2–5 links per entry. Always add the reciprocal
+id on both entries so the connection works in both directions.
 
-`coords` point at the **institution**, not a historical place. A field's map becomes a
-geography of where its knowledge was produced — a genuinely interesting view in itself.
-Use `null` for entries with no meaningful location (e.g. a pure concept).
+Good link patterns:
+- Study → its figure author: `st2` links `fg4`
+- Effect → the study that established it: `ef3` links `st4`
+- Debate → the original study being contested: `db2` links `st8`
+- Theory → the study that tests it: `th2` links `st4`
+- Concept → entries that instantiate it: `co4` links `ef3`, `st4`, `th2`, `th10`
 
-The `dynasty` field from histomap is unused here but still renders as a small pill if
-present — handy for, e.g., a Nobel year or a school of thought.
+### Figures — what to write
 
----
+Figure entries document scientific contribution, not biography. The `hint` should answer:
+*what specifically did this person establish, and why does it still matter?* The `note`
+should give the key paper(s) and one sentence on legacy or controversy.
 
-## The `group` field — field-specific subtopics
-
-`group` is where each field expresses its own internal structure. Entries with the same
-`group` are clustered together under a subheading in the List view. Keep groups
-consistent *within* a folio; they differ *between* folios.
-
-**Example — Social Psychology groups:** Conformity & Obedience · Intergroup Relations ·
-The Self & Cognition · Attitudes & Persuasion · Perceiving Others · Helping & Harm ·
-Groups & Performance · Learning & Influence.
-
-**Example — what Physics groups might be:** Classical Mechanics · Thermodynamics ·
-Electromagnetism · Relativity · Quantum Mechanics · Particle Physics · Condensed Matter.
-
-For the `figure` category, a good universal group scheme is the subfield the person is
-associated with (or "Founders" for field-definers).
+All figure entries use `group: "Pioneers & Theorists"` — this routes them to Module 1 of
+the study plan automatically.
 
 ---
 
-## Tag vocabulary (drives the modal colour)
+## Step 3 — Write the study plan (goes in `index.html`)
 
-Defined in `TAG_COLORS` in `index.html`. Extend there if a field needs new ones.
+The study plan is a JS constant in `index.html` inside `STUDY_PLANS`, keyed by the folio's
+`id`. It does **not** live in the JSON file.
 
-| Tag | For |
+### Standard 10-module template
+
+```js
+'<field-id>': {
+  meta: 'One sentence describing the pedagogical arc of this plan.',
+  modules: [
+    { title: '1 — Founders & the Field',
+      rationale: 'Why start here: the 3–5 people and moments that made this discipline.',
+      groups: ['Pioneers & Theorists'] },
+    { title: '2 — Research Methods',   cats: ['method'] },
+    { title: '3 — <Group 1 name>',     groups: ['<Group 1>'] },
+    { title: '4 — <Group 2 name>',     groups: ['<Group 2>'] },
+    { title: '5 — <Group 3 name>',     groups: ['<Group 3>'] },
+    { title: '6 — <Group 4 name>',     groups: ['<Group 4>'] },
+    { title: '7 — <Group 5 name>',     groups: ['<Group 5>'] },
+    { title: '8 — <Group 6 name>',     groups: ['<Group 6>'] },
+    { title: '9 — Debates & Open Questions', cats: ['debate'] },
+    { title: '10 — Applications',      cats: ['application'] }
+  ]
+}
+```
+
+**Routing rules:**
+- A module with `groups: [...]` captures every entry whose `group` matches.
+- A module with `cats: [...]` captures every entry whose category `id` matches.
+- If a folio has 7+ content groups, split one module into two or merge minor groups.
+- Within each module, entries are ordered by `SP_CAT_ORDER`:
+  `['concept','theory','method','study','effect','figure','debate','application']`
+- Every entry in the folio must be reachable by exactly one module. Check this before
+  committing: if you added a group name that appears in no module, those entries are orphaned.
+
+---
+
+## Step 4 — Write the timeline
+
+The `timeline` array in the JSON holds **6 lanes** (omit `concept` and `figure` which are
+rarely dateable as discrete events):
+
+```jsonc
+[
+  { "id":"study",       "icon":"🧪", "accent":"#7D3C98", "label":"Landmark Studies",    "events":[...] },
+  { "id":"theory",      "icon":"📐", "accent":"#2471A3", "label":"Theories & Models",   "events":[...] },
+  { "id":"effect",      "icon":"📊", "accent":"#117A65", "label":"Effects & Phenomena", "events":[...] },
+  { "id":"method",      "icon":"🔬", "accent":"#8B5E00", "label":"Methods",             "events":[...] },
+  { "id":"debate",      "icon":"⚖️", "accent":"#B7770D", "label":"Debates & Revisions", "events":[...] },
+  { "id":"application", "icon":"🔗", "accent":"#2E86C1", "label":"Applications",        "events":[...] }
+]
+```
+
+Each event: `{ "y": 1963, "l": "Short label ≤ 40 chars", "entryId": "st2" }`
+
+- Include **all** entries from each category — the timeline should be a complete map.
+- `y` is the year of the key study/publication; use the same year as the entry's `date`.
+- `entryId` must match a real entry `id`. Run the validation script to check.
+
+---
+
+## The 8 categories — full specification
+
+### Category palette (copy verbatim)
+
+```
+theory       color #1A3A5C  accent #2471A3  bg #F0F7FF   subtitle: "The frameworks that organise [field-specific phrase]"
+study        color #4A235A  accent #7D3C98  bg #FAF5FF   subtitle: "The defining experiments — and exactly what they found"
+effect       color #0B4F2E  accent #117A65  bg #F0FFF6   subtitle: "Named, replicable patterns in [behaviour/nature/etc.]"
+concept      color #2C3E50  accent #566573  bg #F5F6FA   subtitle: "The building blocks and vocabulary every student must command"
+method       color #5D4037  accent #8B5E00  bg #FFF8F0   subtitle: "The tools and paradigms that generate the field's evidence"
+figure       color #7D6608  accent #B7770D  bg #FEFDE7   subtitle: "The researchers who shaped the discipline"
+debate       color #6E2C00  accent #CA6F1E  bg #FDF5EC   subtitle: "Live controversies — where the field is actively contesting the evidence"
+application  color #1A5276  accent #2E86C1  bg #EBF5FB   subtitle: "Where the science leaves the lab"
+```
+
+### Tag vocabulary
+
+| Tag | Use for |
 |---|---|
 | `THEORY` / `MODEL` / `FRAMEWORK` | theoretical entries |
-| `EXPERIMENT` / `FIELD STUDY` / `NATURAL EXPERIMENT` | empirical studies |
+| `EXPERIMENT` / `FIELD STUDY` / `CASE STUDY` / `NATURAL EXPERIMENT` | empirical studies |
+| `NEUROIMAGING` / `NEUROPSYCHOLOGY` | brain-specific study types |
 | `EFFECT` / `PHENOMENON` / `BIAS` | named findings |
-| `META-ANALYSIS` / `REPLICATION` / `FAILED REPLICATION` | cumulative evidence |
+| `META-ANALYSIS` / `REPLICATION` / `FAILED REPLICATION` | cumulative evidence entries |
 | `CONCEPT` / `CONSTRUCT` / `SCALE` / `MEASURE` | concepts and instruments |
-| `LAW` / `PRINCIPLE` | formal laws (physics, chemistry) |
+| `LAW` / `PRINCIPLE` / `DISCOVERY` | formal laws, milestones |
+| `METHOD` | method entries |
 | `FIGURE` | people |
-| `DISCOVERY` | dated discoveries/milestones |
-| `APPLICATION` | real-world uses |
+| `CLINICAL APPLICATION` / `APPLICATION` | real-world uses |
 | `DEBATE` / `REVISION` | contested or revised claims |
 
 ---
 
-## Timeline
-
-The `timeline` array holds one lane per category that has dateable events (you don't need
-all 8 — `concept` and `figure` are often omitted). Lane order should mirror category order.
+## Folio-level fields
 
 ```jsonc
-{ "id":"study", "icon":"🧪", "accent":"#7D3C98", "label":"Landmark Studies", "events":[
-  { "y":1963, "l":"Milgram obedience", "entryId":"st2" }   // entryId links to the entry
-]}
+{
+  "id": "neuroscience",                     // must match FIELDS[].id in index.html
+  "title": "Neuroscience & Behavior",
+  "subtitle": "From neuron to mind: the biological basis of thought, emotion and action",
+  "period": { "start": 1906, "end": 2025 }, // first landmark to present
+  "domain": "psychology",                   // must match FIELDS[].domain in index.html
+  "mapCenter": [45, -10],                   // lat/lng — centre the map on where the work is
+  "mapZoom": 3,
+  "methodology": "METHODOLOGY · Every entry anchors to a landmark study, paper, clinical case or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags replication status, effect-size revisions and known controversies. Studies and effects carry a replicability badge — 🟢 robust · 🟡 nuanced or reduced · 🔴 failed or severely contested. Map pins mark the institution where the work was carried out.",
+  "categories": [...],
+  "timeline": [...]
+}
 ```
 
-- `y` is the year (negative for BC, as in histomap — rarely needed for science).
-- `entryId` links the dot to its entry so clicking it opens the modal. Always set it.
-- Use a span bar (`y2`) only for genuine durations (a person's lifespan in a `figure`
-  lane, a research programme's active years). Discoveries are point events — dots only.
+The `methodology` string is the same boilerplate on every folio — copy it verbatim, changing
+"clinical case" to something field-appropriate if needed (e.g. "field observation" for ecology).
+
+Valid `domain` values — must match one of the `DOMAINS[].id` constants in `index.html`:
+
+| Domain id | Branch label |
+|---|---|
+| `formal-computing` | Formal Sciences & Computing |
+| `physical-sciences` | Physical Sciences & Chemistry |
+| `earth-space` | Earth, Space & Environmental |
+| `life-sciences` | Life & Ecological Sciences |
+| `human-biology` | Human Biology & Medicine |
+| `psychology` | Psychology & The Mind |
+| `language` | Language & Communication |
+| `society` | Society & Culture |
+| `civics` | Civics, Systems & Governance |
+| `philosophy` | Philosophy: Foundations |
 
 ---
 
-## Adding a new field
+## Registering the folio in `index.html`
 
-1. **Create** `modules/<field-id>.json` following the schema above.
-2. **Register** it in the `FIELDS` array in `index.html`:
+1. In `FIELDS`, flip the entry from `status:"planned"` to `status:"ready"` and add `file`:
    ```js
-   { id:"physics", domain:"Physical", label:"Physics",
-     sub:"Matter, energy, force & spacetime", status:"ready", file:"modules/physics.json" },
+   { id:"neuroscience", domain:"psychology", label:"Neuroscience & Behavior",
+     sub:"Brain, neuron, circuit & the biological basis of mind",
+     status:"ready", file:"modules/neuroscience.json" },
    ```
-3. Flip `status` from `"planned"` to `"ready"` and add the `file` path. Planned fields
-   show as greyed, non-clickable cards — a visible roadmap.
-4. The `domain` must match one of the `DOMAINS` ids: `Formal`, `Physical`, `Life`,
-   `Mind`, `Social`. Add a new domain to `DOMAINS` if needed.
+2. Add the study plan to `STUDY_PLANS` following the template in Step 3.
 
 ---
 
-## Validation checklist before committing a folio
+## Validation checklist before committing
 
 - [ ] All 8 categories present in canonical order?
-- [ ] Every entry has a real citation in `note` (not just a restatement of the hint)?
-- [ ] Replication status / caveats noted for any contested effect?
-- [ ] Entries sorted sensibly within each `group` (usually by date ascending)?
-- [ ] `coords` point at the institution (or `null`), and are roughly correct?
-- [ ] No duplicate entry `id`s?
-- [ ] Every timeline `entryId` resolves to a real entry?
+- [ ] Every entry has a real, complete citation in `note`?
+- [ ] `repl` set on every `study` and `effect` entry; absent from all others?
+- [ ] Every contested finding has a `debate` entry or a note flagging the controversy?
+- [ ] Every `group` name used in entries appears in at least one study plan module?
+- [ ] Every timeline `entryId` resolves to a real entry id?
+- [ ] `links` are reciprocated on both ends?
+- [ ] `coords` point at the institution (not a city centre), or `null`?
+- [ ] No duplicate entry ids?
 - [ ] Field registered in `FIELDS` with `status:"ready"` and a `file` path?
+- [ ] Study plan added to `STUDY_PLANS` in `index.html`?
 
-Run a quick check with Node:
+Run the JSON validation script:
 ```bash
-node -e "const d=require('./modules/<field>.json');const ids=new Set();let dup=0,bad=0;d.categories.forEach(c=>c.entries.forEach(e=>{if(ids.has(e.id))dup++;ids.add(e.id)}));(d.timeline||[]).forEach(l=>l.events.forEach(e=>{if(e.entryId&&!ids.has(e.entryId))bad++}));console.log('entries',[...ids].length,'dups',dup,'brokenRefs',bad)"
+node -e "
+const d=require('./modules/<field>.json');
+const ids=new Set();
+let dup=0,bad=0,orphan=0;
+d.categories.forEach(c=>c.entries.forEach(e=>{
+  if(ids.has(e.id)){dup++;console.log('DUP',e.id)}
+  ids.add(e.id);
+}));
+(d.timeline||[]).forEach(l=>l.events.forEach(e=>{
+  if(e.entryId&&!ids.has(e.entryId)){bad++;console.log('BAD REF',e.entryId)}
+}));
+console.log('entries',[...ids].length,'dups',dup,'brokenTimelineRefs',bad);
+"
 ```
 
 ---
 
-## Editorial guidance
+## Editorial principles
 
-1. **State findings at the right altitude.** The `hint` is for an intelligent
-   non-specialist. The `note` is for someone who wants the citation and the caveats.
-2. **Don't launder uncertainty.** If an effect failed to replicate, the entry should say
-   so — ideally with a dedicated `debate` entry as well as a flag on the original.
-3. **Name people fairly.** Credit is contested in science; where a finding has a disputed
-   or shared origin, say so rather than picking one name.
-4. **Avoid triumphalism.** Science is revision. The `debate` category is not an
-   afterthought — for many modern fields it is the most important lens.
-5. **Watch the WEIRD problem** (Henrich et al. 2010) for behavioural fields: flag where a
+1. **Specific beats general.** A hint that says "this changed how we think about X" is
+   useless. A hint that says "the brain decides ~500 ms before the conscious self reports
+   intending to move" is useful.
+
+2. **The note is not a restatement of the hint.** The hint explains what the idea is. The
+   note says where it came from and whether it held up.
+
+3. **Do not launder uncertainty.** If an effect failed to replicate, the entry should say
+   so in both the `note` and the `repl` badge. Add a `debate` entry if the controversy
+   is substantial.
+
+4. **Debate entries need both sides.** A debate entry without a citation for the critical
+   position is just a complaint. Name the critic, year and argument.
+
+5. **Figures are not biographical.** Every figure `hint` should be answerable as:
+   "What specifically did this person establish, and why does it still matter scientifically?"
+   Dates and prizes go in the `note`.
+
+6. **Watch the WEIRD problem** (Henrich et al. 2010) for behavioural fields: flag where a
    "universal" claim rests only on Western university subjects.
+
+7. **Avoid triumphalism.** The `debate` category is not an afterthought — for many modern
+   fields it is the most important lens. Aim for 7–10 debate entries covering failed
+   replications, contested methods, neuromyths and open questions.
