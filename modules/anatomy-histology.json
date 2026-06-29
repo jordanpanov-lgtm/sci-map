@@ -394,7 +394,71 @@
       "icon": "🔬",
       "color": "#8B5E00", "accent": "#B7770D", "bg": "#FEF9E7",
       "subtitle": "Technologies and techniques for visualising and investigating anatomical structure",
-      "entries": []
+      "entries": [
+        {
+          "id": "me1", "group": "Gross Anatomy",
+          "label": "Cadaveric Dissection",
+          "date": "1543", "loc": "University of Padua, Padua, Italy", "coords": [45.41, 11.88],
+          "links": ["st1", "st10", "th7", "fg1", "me7"],
+          "tag": "METHOD",
+          "hint": "Systematic dissection of human cadavers — dorsal to ventral, superficial to deep, regional — remains the primary method of gross anatomy education. Vesalius standardised the approach in 1543. Modern anatomy dissection uses formalin-fixed cadavers (paraformaldehyde crosslinks proteins, preventing decomposition) or plastinated specimens (von Hagens, 1977). Dissection develops three-dimensional spatial reasoning that imaging-based instruction only partially replicates: appreciation of fascial planes, anatomical variation, and tissue consistency.",
+          "note": "Vesalius (1543) — performed dissections himself rather than delegating to barber-surgeons. Formalin fixation: Blum, F. (1893) Zeitschrift für wissenschaftliche Mikroskopie — formaldehyde as preservative. Plastination: Hagens, G. von (1979) Anatomia, Histologia, Embryologia — polymer replacement of tissue water. The Anatomy Act (UK, 1832) and the National Organ Transplant Act (US, 1984) regulate body donation; many countries require written informed consent."
+        },
+        {
+          "id": "me2", "group": "Histology & Cells",
+          "label": "Histological Staining — H&E & Special Stains",
+          "date": "1876", "loc": "University of Leipzig, Leipzig, Germany", "coords": [51.34, 12.37],
+          "links": ["co1", "co9", "st3", "st11", "ap2"],
+          "tag": "METHOD",
+          "hint": "Haematoxylin (basic dye) stains acidic structures blue-purple: nuclei, ribosomes, rough ER. Eosin (acidic dye) stains basic/eosinophilic structures pink: cytoplasm, collagen, muscle fibres. H&E is the universal screening stain in histopathology — it distinguishes cell type, architecture, mitotic activity, and most pathological changes. Special stains target specific structures: PAS (glycogen and fungi, magenta), Masson's trichrome (collagen blue/green), Prussian blue (iron, blue), Ziehl-Neelsen (acid-fast mycobacteria, red), Congo red (amyloid; green birefringence under polarised light).",
+          "note": "Böhmer, F. (1865) — first haematoxylin stain. H&E combination standardised: ~1876. Ehrlich, P. (1879) — eosin as a cytoplasmic counterstain. Gram stain (1884): crystal violet + iodine mordant → differentiate gram-positive (purple) from gram-negative (pink) bacteria in tissue. Congo red + polarised light for amyloid: Divry, P. & Florkin, M. (1927). WHO tumour classification (5th ed., 2022) is built entirely on H&E morphology plus IHC and molecular markers."
+        },
+        {
+          "id": "me3", "group": "Musculoskeletal",
+          "label": "Radiographic Imaging — X-ray & Fluoroscopy",
+          "date": "1895", "loc": "University of Würzburg, Würzburg, Germany", "coords": [49.80, 9.94],
+          "links": ["co3", "co4", "st6", "me5"],
+          "tag": "METHOD",
+          "hint": "Plain radiographs use differential X-ray attenuation to image anatomy by density. Five radiodensities: gas (black), fat (dark grey), water/soft tissue (grey), bone/calcium (white), metal (bright white). The Ottawa Rules (1992) — validated clinical decision rules — safely reduce ankle and knee X-rays by 35% without missing fractures. Fluoroscopy provides real-time X-ray: essential for cardiac catheterisation, GI contrast studies, and intraoperative orthopaedic guidance. DR (digital radiography) has replaced film; PACS archives and distributes images electronically.",
+          "note": "Röntgen, W. C. (1895) — discovery; Nobel Prize 1901. Ottawa Ankle Rules: Stiell, I. G. et al. (1992) JAMA — point tenderness at malleoli or inability to weight-bear indicates X-ray need. Effective radiation dose: chest X-ray ~0.02mSv; pelvis X-ray ~0.7mSv; chest CT ~7mSv (cf. background ~3mSv/year). Lead shielding protects gonads and thyroid from scatter. Digital subtraction angiography (DSA): iodinated contrast with fluoroscopy images vascular anatomy."
+        },
+        {
+          "id": "me4", "group": "Histology & Cells",
+          "label": "Electron Microscopy — TEM & SEM",
+          "date": "1932", "loc": "Technical University of Berlin, Berlin, Germany", "coords": [52.51, 13.33],
+          "links": ["co1", "co5", "co10"],
+          "tag": "METHOD",
+          "hint": "Transmission EM (TEM) fires electrons through ultrathin sections (50–100nm) stained with heavy metals (osmium tetroxide, uranyl acetate) for contrast. Resolution ~0.2nm — 1000× better than light microscopy. Revealed sarcomere ultrastructure, synaptic vesicles, nuclear pore complex, tight junctions, and basement membrane laminae. Scanning EM (SEM) scans gold-coated surfaces, producing 3D topographic images. Cryo-EM vitrifies hydrated specimens and resolves protein structures at near-atomic resolution (Nobel Chemistry 2017: Dubochet, Frank, Henderson).",
+          "note": "Ruska, E. & Knoll, M. (1932) — first TEM prototype; Nobel Physics 1986 (Ruska). Sarcomere structure: Huxley, H. E. (1953) Acta Crystallographica. Synaptic vesicles: De Robertis, E. D. P. & Bennett, H. S. (1955) Journal of Biophysical and Biochemical Cytology — first EM of synapse. Cryo-EM revolution: structures of ribosomes, GPCR complexes, and ion channels resolved at 2–3Å without crystallisation. FIB-SEM and serial block-face SEM enable 3D volume reconstruction of neural circuits (connectomics)."
+        },
+        {
+          "id": "me5", "group": "Gross Anatomy",
+          "label": "Cross-Sectional Imaging — CT & MRI",
+          "date": "1972", "loc": "Atkinson Morley Hospital, London, England", "coords": [51.41, -0.21],
+          "links": ["co2", "co6", "st9", "ap4"],
+          "tag": "METHOD",
+          "hint": "CT (Hounsfield & Cormack, 1972) reconstructs cross-sectional images from multiple X-ray projections; Hounsfield units (HU) quantify tissue density: air (−1000), water (0), bone (+700 to +1000). Multi-detector CT enables isovolumetric reconstruction in any plane and CT angiography with contrast bolus timing. MRI (Lauterbur & Mansfield, 1973) uses proton resonance: T1-weighted images show anatomy (fat bright, fluid dark); T2-weighted images highlight pathology (fluid bright, hence 'water is white on T2'). No ionising radiation in MRI.",
+          "note": "Hounsfield, G. N. & Cormack, A. M. — Nobel Prize in Physiology or Medicine 1979. First clinical CT: atkinson Morley Hospital, 1972 — brain tumour in a 41-year-old woman. Lauterbur, P. C. & Mansfield, P. — Nobel Prize in Physiology or Medicine 2003. MRI contraindications: pacemakers, ferromagnetic implants, cochlear implants (most modern are MRI-conditional). PET-CT combines functional metabolic imaging (18F-FDG) with CT anatomy for cancer staging."
+        },
+        {
+          "id": "me6", "group": "Histology & Cells",
+          "label": "Immunohistochemistry (IHC)",
+          "date": "1941", "loc": "Harvard Medical School, Boston, Massachusetts", "coords": [42.33, -71.10],
+          "links": ["co1", "co9", "st11", "ap2"],
+          "tag": "METHOD",
+          "hint": "A primary antibody specific to the target antigen is applied to a tissue section; a secondary antibody conjugated to a chromogen (DAB, brown; AEC, red) or fluorophore detects the primary. IHC enables identification of cell type (cytokeratins → carcinoma; CD20 → B-cell lymphoma; CD3 → T-cell), proliferation (Ki-67), hormone receptors (ER/PR in breast cancer), and infectious agents (CMV inclusion bodies) in routine pathological tissue. Antigen retrieval (heat-induced epitope retrieval, HIER) is required after formalin fixation to unmask cross-linked epitopes.",
+          "note": "Coons, A. H. et al. (1941). 'Immunological properties of an antibody containing a fluorescent group.' Proceedings of the Society for Experimental Biology and Medicine, 47, 200–202 — first fluorescent antibody labelling. Enzyme-linked IHC (DAB chromogen): Nakane, P. K. & Pierce, G. B. (1966). Multiplex IHC (mIHC): simultaneous detection of 5–8 markers on a single section using tyramide signal amplification. Digital pathology with IHC: FDA-cleared AI-assisted PD-L1 scoring, Ki-67 quantification."
+        },
+        {
+          "id": "me7", "group": "Gross Anatomy",
+          "label": "Plastination (von Hagens, 1977)",
+          "date": "1977", "loc": "University of Heidelberg, Heidelberg, Germany", "coords": [49.40, 8.69],
+          "links": ["co1", "me1", "ap5"],
+          "tag": "METHOD",
+          "hint": "Tissue water and lipids are replaced with curable polymers under vacuum: silicone rubber for opaque slices, epoxy resin for transparent sections, polyester for brain. The result is a dry, odourless, flexible specimen retaining colour, texture and three-dimensional architecture indefinitely without refrigeration or chemical storage. Plastinated specimens can be handled repeatedly — transforming anatomy education beyond the dissection room and enabling the BODY WORLDS public exhibitions seen by >50 million people worldwide.",
+          "note": "Hagens, G. von (1979). 'Impregnation of soft biological specimens with thermosetting resins and elastomers.' Anatomia, Histologia, Embryologia, 8, 263–270. BODY WORLDS exhibitions: first public display 1995, Mannheim; now permanent in numerous cities. Forensic application: plastinated cross-sections in forensic pathology for medicolegal teaching. Controversy: ethics of informed consent for public display of plastinated cadavers; legal cases in Germany (1997), Australia (2009)."
+        }
+      ]
     },
     {
       "id": "figure",
@@ -402,7 +466,116 @@
       "icon": "👤",
       "color": "#1F618D", "accent": "#2980B9", "bg": "#EAF2FB",
       "subtitle": "Anatomists, histologists and physicians who established the discipline",
-      "entries": []
+      "entries": [
+        {
+          "id": "fg1", "group": "Pioneers & Anatomists",
+          "label": "Andreas Vesalius (1514–1564)",
+          "date": "1543", "loc": "University of Padua, Padua, Italy", "coords": [45.41, 11.88],
+          "links": ["st1", "me1", "th7"],
+          "tag": "PIONEER",
+          "hint": "Belgian anatomist who performed human dissections himself — radical in an era when professors read Galen aloud while barber-surgeons dissected below. De Humani Corporis Fabrica (1543) corrected ~200 Galenic errors and established anatomy as empirical science. Appointed imperial physician to Charles V and Philip II of Spain. Died on the return from a pilgrimage to Jerusalem, aged 49.",
+          "note": "Born André Wytinck van Wesel in Brussels. Studied in Louvain, Paris, and Padua. Published the Fabrica and Epitome simultaneously. His public dissections at Padua drew large audiences. The Padua anatomy theatre (built 1594) remains the world's oldest surviving anatomy theatre. Modern Vesalius scholarship: Vesalius, A. (2014). The Fabric of the Human Body — annotated English translation (Northwestern)."
+        },
+        {
+          "id": "fg2", "group": "Pioneers & Anatomists",
+          "label": "William Harvey (1578–1657)",
+          "date": "1628", "loc": "St Bartholomew's Hospital, London, England", "coords": [51.52, -0.10],
+          "links": ["st2", "th4", "co6"],
+          "tag": "PIONEER",
+          "hint": "English physician who quantitatively proved blood circulates rather than ebbs and flows. Physician Extraordinary to James I and Charles I — his royalist sympathies damaged his later career. Besides circulation, published an embryology text (1651) arguing all animals arise from eggs: 'ex ovo omnia.' The quantitative logic of his argument was the first mathematical proof in physiology.",
+          "note": "Harvey studied under Fabricius ab Aquapendente in Padua, who had described venous valves (1603) without understanding their implication. Harvey presented his circulation theory to the College of Physicians in London in 1616 — 12 years before publication. Elected Lumleian Lecturer (anatomy) at the College. His library was destroyed in the Great Fire of London (1666). The Harvey circulation claim went from heresy to consensus within his lifetime."
+        },
+        {
+          "id": "fg3", "group": "Pioneers & Anatomists",
+          "label": "Giovanni Battista Morgagni (1682–1771)",
+          "date": "1761", "loc": "University of Padua, Padua, Italy", "coords": [45.41, 11.88],
+          "links": ["me1"],
+          "tag": "PIONEER",
+          "hint": "Italian anatomist considered the father of anatomical pathology. De Sedibus et Causis Morborum per Anatomen Indagatis (1761) — published at age 79 — correlated clinical histories of 700 patients with post-mortem findings, establishing that disease has anatomical seats and symptoms map to organ pathology. Founded the idea of clinico-pathological correlation, which remains the core structure of pathology.",
+          "note": "Morgagni held the chair of anatomy at Padua for 56 years (1715–1771). De Sedibus: five books covering head, thorax, abdomen, surgical disorders, and universal diseases — 700 cases, each with clinical history and post-mortem correlation. Multiple eponyms: Morgagni's hernia (diaphragmatic), Morgagni's columns (anal), Morgagni's hydatid (appendix testis). Died at age 89 — one of the oldest major figures in medical history."
+        },
+        {
+          "id": "fg4", "group": "Pioneers & Anatomists",
+          "label": "Xavier Bichat (1771–1802)",
+          "date": "1800", "loc": "Hôtel-Dieu, Paris, France", "coords": [48.85, 2.35],
+          "links": ["co1", "co9"],
+          "tag": "PIONEER",
+          "hint": "French anatomist who described 21 tissue types from macroscopic dissection — without a microscope — anticipating histology. Traité des membranes (1800) and Anatomie générale (1801) founded general anatomy as a discipline: the body is organised at the tissue level, between the organ and the chemical. Performed ~600 post-mortems in a single year. Died of tuberculosis aged 30; his bust is in the Panthéon, Paris.",
+          "note": "Bichat's Traité identified tissues as having characteristic properties (extensibility, sensibility, contractility) regardless of which organ they appeared in — a conceptual step beyond organ-based anatomy. Napoleon called him 'the most difficult to replace among those who have been lost to France.' The Hôpital Lariboisière and Hôpital Bichat in Paris bear his name. His work preceded cell theory by 38 years, making it conceptually independent of cellular biology."
+        },
+        {
+          "id": "fg5", "group": "Pioneers & Anatomists",
+          "label": "Rudolf Virchow (1821–1902)",
+          "date": "1858", "loc": "Charité Hospital, Berlin, Germany", "coords": [52.53, 13.38],
+          "links": ["st3", "th1", "co1"],
+          "tag": "PIONEER",
+          "hint": "German pathologist who completed cell theory with 'omnis cellula e cellula' and founded cellular pathology. Named leukaemia, thrombosis, embolism, and amyloid degeneration in the same decade. Also a liberal politician (Reichstag), public health reformer who engineered Berlin's sewer system, and founder of physical anthropology. Bismarck once challenged him to a duel — Virchow reportedly chose pork sausages as his weapons.",
+          "note": "Virchow's political activities cost him his Berlin professorship in 1849 (after agitating for reform following the 1848 Revolution); he was reinstated in 1856. The Virchow triad (stasis, hypercoagulability, endothelial injury) remains the framework for understanding venous thromboembolism. He opposed Lister's antiseptic theory and Semmelweis's handwashing argument — errors that tempered his extraordinary legacy."
+        },
+        {
+          "id": "fg6", "group": "Pioneers & Anatomists",
+          "label": "Santiago Ramón y Cajal (1852–1934)",
+          "date": "1899", "loc": "Universidad de Madrid, Madrid, Spain", "coords": [40.45, -3.73],
+          "links": ["st7", "co7", "db2"],
+          "tag": "PIONEER",
+          "hint": "Spanish histologist who established the neuron doctrine through meticulous Golgi silver-stain preparations of spinal cord, cerebellum, and retina. Nobel Prize 1906 (shared with Golgi). An amateur artist before medicine; his neuroanatomical drawings remain scientifically accurate today. Described the axon growth cone, dendritic spines, and directionality of nerve impulse. Also published foundational work on CNS degeneration and the limits of neural regeneration.",
+          "note": "Cajal was also a photographer, body-builder, and chess player. He learned Golgi's technique from a demonstration slide in 1887 and within 2 years had produced hundreds of landmark preparations. His archive of slides and drawings is held in the Cajal Institute, Madrid. Degeneration/regeneration: Cajal, S. R. y (1928) Degeneration and Regeneration of the Nervous System — still cited. He correctly predicted that CNS axons cannot regenerate because of environmental inhibition, not intrinsic incapacity."
+        },
+        {
+          "id": "fg7", "group": "Pioneers & Anatomists",
+          "label": "Henry Gray (1827–1861)",
+          "date": "1858", "loc": "St George's Hospital, London, England", "coords": [51.50, -0.15],
+          "links": ["st10", "me1", "fg10"],
+          "tag": "PIONEER",
+          "hint": "English anatomist who produced the definitive anatomical text — Gray's Anatomy (1858) — with Henry Vandyke Carter as illustrator. A Fellow of the Royal Society at 25 (for work on the development of the optic vesicle and retina). Gray died of confluent smallpox in 1861, aged ~34, having contracted it from a nephew he was nursing. His book outlived him by 165+ years and remains in continuous print.",
+          "note": "Gray was demonstrator of anatomy at St George's Hospital, London. The 1858 first edition had 750 pages and 363 illustrations. The book was dedicated to Sir Benjamin Collins Brodie, his surgical mentor. The current edition (42nd, 2020) has over 1,600 pages. Gray's early death — and Carter's long obscurity — make theirs one of the most poignant stories in medical publishing history."
+        },
+        {
+          "id": "fg8", "group": "Pioneers & Anatomists",
+          "label": "Walther Flemming (1843–1905)",
+          "date": "1882", "loc": "University of Kiel, Kiel, Germany", "coords": [54.32, 10.13],
+          "links": ["st4", "th1"],
+          "tag": "PIONEER",
+          "hint": "German anatomist who named chromatin, mitosis, and the phases of cell division. Zellsubstanz, Kern und Zelltheilung (1882) — the definitive account of mitosis — described chromosome behaviour in dividing salamander cells stained with aniline dyes. His work on chromatin structure laid the groundwork for chromosome theory and ultimately for the understanding of DNA as genetic material.",
+          "note": "Flemming coined the terms 'chromatin' (1879) and 'mitosis' (1882). He described the equatorial plate (metaphase plate), chromosome splitting, and polar movement — all confirmed by later electron microscopy. He did not realise chromosomes were constant in number per species — this was established by van Beneden (1883) and Boveri (1888). Flemming did not connect chromatin to heredity; this synthesis came from Boveri, Sutton, and ultimately Morgan."
+        },
+        {
+          "id": "fg9", "group": "Pioneers & Anatomists",
+          "label": "Marcello Malpighi (1628–1694)",
+          "date": "1661", "loc": "University of Bologna, Bologna, Italy", "coords": [44.50, 11.34],
+          "links": ["st5", "th4"],
+          "tag": "PIONEER",
+          "hint": "Italian microscopist who discovered capillaries, the renal glomerulus, splenic white pulp, taste buds on the tongue, and the deep layers of the epidermis (stratum Malpighii). Physician to Pope Innocent XII (1691). Used early microscopy to transform gross anatomy into microscopic anatomy — bridging the macroscopic structure of Harvey's circulation and the invisible cellular world. Elected Fellow of the Royal Society (1668).",
+          "note": "Malpighi's capillary discovery (1661) completed Harvey's circulatory circuit 33 years after De Motu Cordis. His De Formatione Pulli in Ovo (1672) — on chick embryo development — was the first detailed account of embryogenesis. He also described insect anatomy (silkworm) and plant anatomy (De Anatomia Plantarum). Multiple eponyms: Malpighian layer (epidermis), Malpighian body (renal corpuscle), Malpighian body (splenic white pulp), Malpighian tubule (insect excretory organ)."
+        },
+        {
+          "id": "fg10", "group": "Pioneers & Anatomists",
+          "label": "Henry Vandyke Carter (1831–1897)",
+          "date": "1858", "loc": "St George's Hospital, London, England", "coords": [51.50, -0.15],
+          "links": ["st10", "fg7"],
+          "tag": "PIONEER",
+          "hint": "English artist-physician who created 363 original woodcut illustrations for Gray's Anatomy (1858) — the visual grammar of anatomy for 165+ years. Received no royalties and no co-authorship on the title page; acknowledged only in the introduction. Spent his career as an Indian Medical Service officer in Bombay, where he contributed landmark research on leprosy and mycetoma (Madura foot). His precise, instructional illustration style set the standard for medical art.",
+          "note": "Carter was a skilled artist before studying medicine; he drew specimens at St George's Hospital under Gray's direction, making preparations and drawing them the same day. His later career in India was distinguished: he was one of the first to distinguish leprosy's two forms (tuberculoid vs. lepromatous) and to identify the fungal cause of mycetoma. He was promoted to Deputy Surgeon-General. His contribution to Gray's was formally acknowledged only after his death. A biography: Richardson, R. (2008) The Making of Mr Gray's Anatomy. Oxford University Press."
+        },
+        {
+          "id": "fg11", "group": "Pioneers & Anatomists",
+          "label": "Galen of Pergamon (129–216 AD)",
+          "date": "180", "loc": "Rome, Roman Empire", "coords": [41.90, 12.49],
+          "links": ["th4", "db1"],
+          "tag": "PIONEER",
+          "hint": "Roman physician (Greek origin) whose anatomical system — derived from dissections of Barbary apes, pigs, and gladiators' wounds, not intact human cadavers — dominated Western medicine for 1,400 years. Described four humours, two blood systems (venous from liver, arterial from heart), and pores in the interventricular septum. Vesalius's systematic refutation in 1543 ended this dominance. Galen's errors endured because human dissection was prohibited by Roman law and social taboo.",
+          "note": "Galen served as physician to gladiators in Pergamon (157–162 AD) — giving him experience of wounds — and later as physician to Marcus Aurelius. He wrote >500 treatises; ~300 survive. His four humours (blood/phlegm/yellow bile/black bile) mapped onto Hippocratic qualities (hot/cold/wet/dry). Galen's teleological view — every anatomical structure exists for a purpose — was compatible with Christian theology, which partly explains the long dominance of Galenism. Modern revaluation: Nutton, V. (2004) Ancient Medicine. Routledge."
+        },
+        {
+          "id": "fg12", "group": "Pioneers & Anatomists",
+          "label": "Frank Netter (1906–1991)",
+          "date": "1989", "loc": "New York, New York", "coords": [40.71, -74.01],
+          "links": ["st10", "me1"],
+          "tag": "PIONEER",
+          "hint": "American physician-artist who produced the Atlas of Human Anatomy (1989) and the 8-volume CIBA Collection of Medical Illustrations — the most widely used anatomical illustrations in 20th-century clinical practice. Trained as a surgeon but abandoned clinical medicine for art during the Depression. His combination of artistic precision, clinical context, and clear colour coding transformed medical communication and set the standard for all subsequent medical illustration.",
+          "note": "Netter trained at NYU College of Medicine and interned at Bellevue Hospital. His first commercial medical illustration was for Novartis (then CIBA) in 1936; he produced illustrations for them exclusively for decades. The CIBA Collection of Medical Illustrations (8 volumes, 1948–1993) covers the complete human body. Netter's Atlas of Human Anatomy (1989, first edition) is now in its 8th edition (2022) and remains the standard supplementary atlas in medical education worldwide."
+        }
+      ]
     },
     {
       "id": "debate",
