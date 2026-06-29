@@ -54,7 +54,7 @@
           "id": "th5", "group": "Attention & Perception",
           "label": "Feature Integration Theory",
           "date": "1980", "loc": "University of British Columbia, Vancouver", "coords": [49.26, -123.25],
-          "links": ["co2", "ef1", "fg6", "st2"],
+          "links": ["co2", "db9", "ef1", "fg6", "st2"],
           "hint": "Attention acts as a 'glue' binding separately analysed visual features (colour, shape, orientation) into coherent objects. Simple features pop out automatically; conjunctions of features require focused, serial attention — explaining why finding a red circle among red squares is hard.",
           "tag": "THEORY",
           "note": "Treisman, A. M. & Gelade, G. (1980). 'A feature-integration theory of attention.' Cognitive Psychology, 12, 97–136. Substantiated by illusory conjunctions — perceiving wrong feature pairings under divided attention. Competitors include Guided Search (Wolfe 1994). Treisman received the National Medal of Science (2013) for this work."
@@ -183,7 +183,7 @@
           "label": "Shepard & Metzler — Mental Rotation",
           "date": "1971", "loc": "Stanford University, California", "coords": [37.43, -122.17],
           "repl": "robust",
-          "links": ["co1", "th5"],
+          "links": ["co1", "db9", "th5"],
           "hint": "Deciding whether two 3-D shapes are the same object at different orientations takes proportionally longer the more they must be mentally rotated — at about 60° per second. The mind rotates images just as the body would rotate objects, at a regular speed.",
           "tag": "EXPERIMENT",
           "note": "Shepard, R. N. & Metzler, J. (1971). 'Mental rotation of three-dimensional objects.' Science, 171, 701–703. One of the most elegant paradigms in cognitive psychology; the linear reaction-time–angle relationship is highly replicable. Established mental imagery as a legitimate cognitive phenomenon."
@@ -237,6 +237,16 @@
           "hint": "Those who scored lowest on tests of logical reasoning not only performed worst but grossly overestimated their own performance — unable to recognise their incompetence because the same skills needed to perform are needed to evaluate performance.",
           "tag": "EXPERIMENT",
           "note": "Kruger, J. & Dunning, D. (1999). 'Unskilled and unaware of it.' Journal of Personality and Social Psychology, 77, 1121–1134. The metacognitive deficit is real, but the iconic pattern partly reflects a statistical artefact (regression to the mean and scale effects): Gignac & Zajenkowski (2020), Intelligence, 79, 101444. The narrative in popular culture exaggerates the empirical claim."
+        },
+        {
+          "id": "st11", "group": "Thinking & Reasoning",
+          "label": "Duncker — Candle Problem & Functional Fixedness",
+          "date": "1935", "loc": "Psychological Institute, University of Berlin, Germany", "coords": [52.52, 13.39],
+          "repl": "robust",
+          "links": ["co4", "co5", "th4", "th13"],
+          "hint": "Given a candle, a box of tacks and matches and asked to fix the candle to a wall, most people try tacking it directly or melting it on — and fail. The solution (empty the box, tack it to the wall as a shelf) requires overcoming 'functional fixedness': seeing an object only as its conventional function. A clean window into how mental sets block creative problem solving and what breaks them.",
+          "tag": "EXPERIMENT",
+          "note": "Duncker, K. (1945). 'On problem-solving.' Psychological Monographs, 58(5), 1–113. (Translation of 1935 Habilitation thesis, University of Berlin.) The candle problem is among the most cited paradigms for studying insight and functional fixedness. Original N was small; Glucksberg & Weisberg (1966), Journal of Experimental Psychology, showed that labelling the box's contents eliminated fixedness, confirming the phenomenon is conceptual rather than perceptual. The insight tradition continued through Metcalfe & Wiebe (1987) on the phenomenology of 'Aha!' experiences."
         }
       ]
     },
@@ -351,9 +361,9 @@
           "date": "1885", "loc": "University of Berlin, Germany", "coords": [52.52, 13.39],
           "repl": "robust",
           "links": ["ef3", "fg2", "th3"],
-          "hint": "Memory for newly learned material drops steeply in the first hour, then more slowly over days and weeks, eventually levelling to a stable asymptote. Ebbinghaus established this precise exponential decay function using nonsense syllables and himself as sole subject — the shape of forgetting is universal across materials and individuals.",
+          "hint": "Memory for newly learned material drops steeply in the first hour, then more slowly over days and weeks, eventually levelling to a stable asymptote. Ebbinghaus established this precise exponential decay function using nonsense syllables and himself as sole subject — a notable N=1 design, though the curve's shape has since been replicated across large and varied populations.",
           "tag": "EFFECT",
-          "note": "Ebbinghaus, H. (1885). Über das Gedächtnis. Translated as Memory: A Contribution to Experimental Psychology (1913). Distinct from the spacing effect (ef3), which describes how distributed practice counters the curve — the two together are the most practically significant findings in the science of memory. The quantitative shape of the forgetting function (best fit by a power function, not simple exponential: Wixted & Ebbesen 1991) is among the most replicated quantitative findings in psychology."
+          "note": "Ebbinghaus, H. (1885). Über das Gedächtnis. Translated as Memory: A Contribution to Experimental Psychology (1913). The original data come from a single participant (Ebbinghaus himself), which in principle limits generalisability. However, the exponential-decay shape has been extensively replicated across large and diverse samples: Rubin & Wenzel (1996, Psychological Review, 103, 734–760) fitted 210 data sets from the literature and found power and exponential functions both provide excellent fits; Murre & Dros (2015, PLOS ONE) replicated the curve with N=1 again but with modern controls, and a 2015 large-sample study confirmed the qualitative pattern. The quantitative shape is best described as a power function rather than a pure exponential (Wixted & Ebbesen 1991). Distinct from the spacing effect (ef3), which describes how distributed practice counters the curve — the two together are the most practically significant findings in the science of memory."
         }
       ]
     },
@@ -681,13 +691,22 @@
           "note": "Bennett, C. M., Miller, M. B. & Wolford, G. L. (2009). HBM 2009 poster; published in Journal of Serendipitous and Unexpected Results (2010). Eklund, A., Nichols, T. E. & Knutsson, H. (2016). PNAS, 113, 7900–7905 found common fMRI cluster-inference methods had up to 70% false-positive rates. Accelerated adoption of family-wise error correction and pre-registration in neuroimaging."
         },
         {
-          "id": "db8", "group": "Language & Concepts",
+          "id": "db8", "group": "Pioneers & Theorists",
           "label": "Chomsky's Demolition of Skinner (1959)",
           "date": "1959", "loc": "Massachusetts Institute of Technology, Cambridge, Massachusetts", "coords": [42.36, -71.09],
           "links": ["co7", "fg12", "fg7"],
           "hint": "Chomsky's review of Skinner's Verbal Behavior argued that no reinforcement account could explain how children acquire language — they produce and understand sentences they have never heard, using rules no one taught them. The 'poverty of the stimulus' argument made the case for innate mental structure and effectively ended behaviourism's dominance in American psychology.",
           "tag": "DEBATE",
           "note": "Chomsky, N. (1959). 'A review of B. F. Skinner's Verbal Behavior.' Language, 35, 26–58. Often called the most influential book review in the history of psychology. It did not single-handedly kill behaviourism — the movement was already weakening — but it provided the decisive theoretical argument. The specific poverty-of-the-stimulus argument has been challenged on empirical grounds (Pullum & Scholz 2002, The Linguistic Review, 19, 9–50): children may receive more structured input than Chomsky assumed. The broader conclusion — that language requires an innate cognitive component beyond general learning — remains broadly accepted."
+        },
+        {
+          "id": "db9", "group": "Attention & Perception",
+          "label": "The Mental Imagery Debate: Kosslyn vs. Pylyshyn",
+          "date": "1973", "loc": "Harvard University, Cambridge, Massachusetts", "coords": [42.37, -71.12],
+          "links": ["st5", "th5", "me4"],
+          "hint": "Are mental images genuinely picture-like — depictive representations that preserve spatial layout and can be 'scanned' at measurable speed? Or are they abstract propositional descriptions, the imagery experience being merely an epiphenomenon? Kosslyn argued the former; Pylyshyn argued the latter, dismissing scanning results as 'tacit knowledge' artefacts. Neuroimaging eventually provided the resolution: visual imagery activates retinotopically organised visual cortex.",
+          "tag": "DEBATE",
+          "note": "Pylyshyn, Z. W. (1973). 'What the mind's eye tells the mind's brain.' Psychological Bulletin, 80, 1–24 — the propositional challenge. Kosslyn, S. M. (1980). Image and Brain. MIT Press — the depictive/analog position. Resolution: Kosslyn, S. M. et al. (1995). 'Visual mental imagery activates topographically organized visual cortex.' Journal of Cognitive Neuroscience, 7, 1021–1034 — fMRI showing retinotopic activation during imagery. The debate shaped the broader argument about the format of mental representations and the limits of purely behavioural methodology (since the same response times can be predicted by either model)."
         }
       ]
     },
@@ -755,6 +774,7 @@
   ],
   "timeline": [
     { "id":"study", "icon":"🧪", "accent":"#7D3C98", "label":"Landmark Studies", "events":[
+      { "y":1935, "l":"Duncker — candle problem", "entryId":"st11" },
       { "y":1956, "l":"Miller — magic number 7", "entryId":"st1" },
       { "y":1959, "l":"Peterson & Peterson — STM decay", "entryId":"st3" },
       { "y":1960, "l":"Sperling — iconic memory", "entryId":"st2" },
@@ -808,6 +828,7 @@
       { "y":1995, "l":"Hard problem of consciousness", "entryId":"db5" },
       { "y":2008, "l":"Working memory training contested", "entryId":"db3" },
       { "y":1959, "l":"Chomsky demolishes behaviourism", "entryId":"db8" },
+      { "y":1973, "l":"Mental imagery debate: Kosslyn vs Pylyshyn", "entryId":"db9" },
       { "y":2009, "l":"Dead-salmon fMRI", "entryId":"db7" },
       { "y":2014, "l":"Many Labs replications", "entryId":"db1" },
       { "y":2020, "l":"Dunning-Kruger artefact", "entryId":"db6" }
