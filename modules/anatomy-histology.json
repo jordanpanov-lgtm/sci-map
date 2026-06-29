@@ -214,7 +214,80 @@
       "icon": "📊",
       "color": "#117A65", "accent": "#148F77", "bg": "#E8F8F5",
       "subtitle": "Named anatomical and histological phenomena with diagnostic or functional significance",
-      "entries": []
+      "entries": [
+        {
+          "id": "ef1", "group": "Musculoskeletal",
+          "label": "Bone Adaptive Remodelling (Wolff's Law In Vivo)",
+          "date": "1892", "loc": "Charité Hospital, Berlin, Germany", "coords": [52.53, 13.38],
+          "links": ["th3", "co3", "ef8"],
+          "hint": "Removal of one ulna in an animal causes the radius to hypertrophy and remodel into a load-bearing configuration indistinguishable from a normal ulna. Immobilisation (casting) causes trabecular thinning measurable by radiograph within 6 weeks. Tennis players have 20–30% greater cortical thickness in the dominant arm. Astronauts lose 0.5–1% bone mineral density per month in microgravity — and recover it within months of return. Ilizarov's distraction osteogenesis grows new bone by applying controlled tension across an osteotomy gap.",
+          "tag": "PHENOMENON",
+          "note": "Wolff, J. (1892) quantified the observational record. X-ray quantification: Meunier, P. J. et al. (1973) — trabecular density changes in immobilisation. Spaceflight: Leblanc, A. et al. (2000) Journal of Bone and Mineral Research — 1–2% BMD loss/month in weight-bearing bones. Distraction osteogenesis: Ilizarov, G. A. (1989) Clinical Orthopaedics — the Ilizarov fixator applies 1mm/day tension, generating bone from callus."
+        },
+        {
+          "id": "ef2", "group": "Histology & Cells",
+          "label": "Contact Inhibition of Proliferation",
+          "date": "1954", "loc": "University College London, London, England", "coords": [51.52, -0.13],
+          "links": ["co1", "th5", "db3"],
+          "hint": "Normal cells in culture cease dividing when they contact neighbouring cells and form a monolayer — they 'sense' local density and halt the cell cycle. Cancer cells lose this constraint and pile up into disordered multilayers. The mechanism involves the cadherin–Hippo signalling pathway (YAP/TAZ nuclear exclusion upon crowding) and contact-activated receptor inactivation. Loss of contact inhibition is one of Hanahan & Weinberg's Hallmarks of Cancer (2000, 2011).",
+          "tag": "PHENOMENON",
+          "note": "Abercrombie, M. & Heaysman, J. E. M. (1954). 'Observations on the social behaviour of cells in tissue culture.' Experimental Cell Research, 6, 293–306. Molecular mechanism: Zhao, B. et al. (2007) Genes & Development — Hippo pathway connects cell contact to YAP/TAZ nuclear exclusion. Hanahan, D. & Weinberg, R. A. (2000) Cell; updated (2011) Cell — six (then ten) hallmarks of cancer, including evasion of contact inhibition. Loss of contact inhibition is a defining property of all malignant cell lines."
+        },
+        {
+          "id": "ef3", "group": "Histology & Cells",
+          "label": "Apoptosis — Programmed Cell Death",
+          "date": "1972", "loc": "University of Queensland, Brisbane, Australia", "coords": [-27.50, 153.01],
+          "links": ["co1", "co9", "ef6"],
+          "hint": "Kerr, Wyllie and Currie named and described a morphologically distinct form of cell death: nuclear condensation, chromatin margination, cytoplasmic shrinkage, membrane blebbing, and fragmentation into apoptotic bodies that are phagocytosed without inflammation — in contrast to necrosis, which causes lysis and inflammatory response. Apoptosis is genetically controlled: caspase proteases execute the programme; Bcl-2 family proteins regulate it. Essential for digit separation, neural pruning, and immune selection.",
+          "tag": "PHENOMENON",
+          "note": "Kerr, J. F. R., Wyllie, A. H. & Currie, A. R. (1972). 'Apoptosis: a basic biological phenomenon with wide-ranging implications in tissue kinetics.' British Journal of Cancer, 26, 239–257. Nobel Prize in Physiology or Medicine 2002 (Brenner, Horvitz, Sulston) for the genetic programme of apoptosis in C. elegans. Bcl-2: Vaux, D. L. et al. (1988) Nature — first anti-apoptotic protein from follicular lymphoma translocation t(14;18). Caspase cascade: Salvesen & Dixit (1997) Science."
+        },
+        {
+          "id": "ef4", "group": "Nervous System & Senses",
+          "label": "Referred Pain & Dermatomal Pattern",
+          "date": "1893", "loc": "National Hospital for Paralysis, London, England", "coords": [51.52, -0.12],
+          "links": ["th6", "co7", "db7"],
+          "hint": "Pain originating in a visceral organ is perceived in the somatic skin or muscle territory sharing the same spinal segment — because both converge on a common second-order neuron in the dorsal horn. Classic examples: myocardial ischemia → left arm and jaw (C8–T1); appendicitis → periumbilical then right iliac fossa (T10, then T12–L1); diaphragm irritation → shoulder tip (C3–C5 phrenic nerve). Referred pain localises the organ's embryological segmental origin.",
+          "tag": "PHENOMENON",
+          "note": "Head, H. (1893) Brain — first systematic mapping of referred pain from herpes zoster and visceral disease. Convergence-projection theory: Ruch, T. C. (1946) — visceral and somatic afferents converge on the same dorsal horn neuron, causing the brain to misattribute visceral pain to the somatic territory. Clinical application: referred shoulder pain after laparoscopy (diaphragmatic irritation from CO₂); Kehr's sign (left shoulder pain from splenic haematoma) — C3–C5."
+        },
+        {
+          "id": "ef5", "group": "Musculoskeletal",
+          "label": "Disuse Muscle Atrophy",
+          "date": "1976", "loc": "Karolinska Institute, Stockholm, Sweden", "coords": [59.35, 18.03],
+          "links": ["co5", "th3", "ef8"],
+          "hint": "Skeletal muscle loses 0.5–1% of cross-sectional area per day of complete unloading. After 2 weeks of bed rest, quadriceps CSA falls ~10%; after 6 weeks of casting, up to 30%. The mechanism: FoxO transcription factors activate atrogin-1 and MuRF-1 E3 ubiquitin ligases that target myosin heavy chain for proteasomal degradation. Spaceflight causes equivalent loss in postural muscles (soleus, vastus lateralis) within days. Resistance exercise prevents and reverses atrophy through IGF-1/PI3K/Akt/mTOR signalling.",
+          "tag": "PHENOMENON",
+          "note": "Henriksson, J. & Reitman, J. S. (1976) Acta Physiologica Scandinavica — early quantitative data on disuse atrophy. UPS pathway: Bodine, S. C. et al. (2001) Science — atrogin-1/MAFbx as atrophy-specific ubiquitin ligase. Spaceflight: Narici, M. V. & Maganaris, C. N. (2007) Physiological Reviews — comprehensive review of unloading effects. Clinical relevance: intensive care unit patients lose ~2% muscle mass/day; early physiotherapy is prescribed to combat this."
+        },
+        {
+          "id": "ef6", "group": "Histology & Cells",
+          "label": "Regenerative Capacity Gradient",
+          "date": "1998", "loc": "Multiple sites", "coords": [0, 0],
+          "links": ["co1", "ef3", "st8", "ap6"],
+          "hint": "Tissues differ profoundly in regenerative potential. Intestinal epithelium renews completely every 4–5 days; liver regenerates 75% mass after partial hepatectomy within weeks; skeletal muscle regenerates from satellite cells but with some scar; cardiac muscle has negligible regenerative capacity after infarction; CNS neurons do not regenerate axons (myelin-associated inhibitory factors: Nogo-A, MAG, OMgp). The gradient correlates with mitotic activity and predicts clinical strategy: cardiac damage is permanent; hepatotoxicity is reversible; intestinal irradiation is rapidly fatal.",
+          "tag": "PHENOMENON",
+          "note": "Liver regeneration: Fausto, N. (2004) Hepatology — mechanisms of compensatory hypertrophy after hepatectomy. CNS regeneration failure: Schwab, M. E. & Bartholdi, D. (1996) — Nogo-A and myelin-associated inhibitors. Satellite cells: Mauro, A. (1961) Journal of Biophysical and Biochemical Cytology — discovery of satellite cells in skeletal muscle. Heart C14 dating: Bergmann, O. et al. (2009) Science — ~1% cardiomyocyte renewal/year, declining with age."
+        },
+        {
+          "id": "ef7", "group": "Histology & Cells",
+          "label": "Haematopoietic Hierarchy & Lineage Commitment",
+          "date": "1961", "loc": "Ontario Cancer Institute, Toronto, Ontario, Canada", "coords": [43.66, -79.39],
+          "links": ["co1", "st8", "ap6"],
+          "hint": "All blood cell types — erythrocytes, platelets, granulocytes, monocytes, B and T lymphocytes, NK cells — derive from a single multipotent haematopoietic stem cell (HSC) through progressive lineage restriction. Common myeloid progenitors give rise to erythrocytes and myeloid cells; common lymphoid progenitors to lymphocytes. Each commitment step is driven by a transcription factor cascade (GATA-1 for erythroid; C/EBPα for myeloid; Ikaros for lymphoid). The hierarchy explains leukaemia subtypes and bone marrow transplantation.",
+          "tag": "PHENOMENON",
+          "note": "McCulloch & Till (1961) demonstrated multipotency; Weissman, I. L. et al. (1988) PNAS — HSC isolation (Lin-Sca-1+). Transcription factor control: Orkin, S. H. & Zon, L. I. (2008) Cell — seminal review of haematopoietic transcription factors. The hierarchy is used clinically to classify leukaemia (AML vs. CLL vs. ALL), plan transplant conditioning, and guide CAR-T cell engineering. Single-cell RNA sequencing has refined the hierarchy from a branching tree to a continuous landscape."
+        },
+        {
+          "id": "ef8", "group": "Musculoskeletal",
+          "label": "Osteoclast–Osteoblast Coupling (RANK/RANKL/OPG Axis)",
+          "date": "1997", "loc": "Amgen Research, Thousand Oaks, California", "coords": [34.19, -118.86],
+          "links": ["th3", "co3", "ef1", "ap3"],
+          "hint": "Bone remodelling is orchestrated through a molecular dialogue: osteoblasts express RANKL (receptor activator of NF-κB ligand), which binds RANK on osteoclast precursors, driving osteoclast differentiation and bone resorption. Osteoblasts also secrete OPG (osteoprotegerin), a decoy receptor that inhibits RANKL — the OPG/RANKL ratio determines the balance of formation and resorption. Targeted RANKL inhibition (denosumab) reduces fracture risk; unbalanced osteoclast activity underlies bone metastasis and post-menopausal osteoporosis.",
+          "tag": "PHENOMENON",
+          "note": "Simonet, W. S. et al. (1997) Cell — OPG discovery. Lacey, D. L. et al. (1998) Cell — RANKL identified as OPG ligand. Yasuda, H. et al. (1998) PNAS — RANK/RANKL receptor-ligand pair. Clinical translation: denosumab (RANK-Fc fusion) approved 2010 for osteoporosis and bone metastasis prevention. The RANK/RANKL/OPG axis also regulates lymph node development, body temperature, and mammary gland development."
+        }
+      ]
     },
     {
       "id": "concept",
@@ -222,7 +295,98 @@
       "icon": "🧩",
       "color": "#6E2C00", "accent": "#A04000", "bg": "#FEF5E7",
       "subtitle": "Fundamental anatomical and histological constructs and structural frameworks",
-      "entries": []
+      "entries": [
+        {
+          "id": "co1", "group": "Histology & Cells",
+          "label": "The Four Tissue Types",
+          "date": "1802", "loc": "Hôtel-Dieu, Paris, France", "coords": [48.85, 2.35],
+          "links": ["th1", "co9", "co10", "st3"],
+          "hint": "All organs are combinations of four fundamental tissue classes. Epithelium: covering and lining membranes and glands; classified by layer count (simple/stratified) and cell shape (squamous/cuboidal/columnar/transitional/pseudostratified). Connective tissue: support, protection, and transport; includes loose, dense, cartilage, bone, blood, and adipose. Muscle: skeletal (voluntary, striated), cardiac (involuntary, striated, intercalated discs), smooth (involuntary, non-striated). Nervous tissue: excitability and conduction via neurons and supporting glia.",
+          "tag": "CONCEPT",
+          "note": "Bichat, X. (1800). Traité des membranes — described 21 membrane types from macroscopic dissection without a microscope, anticipating tissue histology. Bichat, X. (1801). Anatomie générale — 'tissue' as the level of organisation between organ and chemistry. Schwann's cell theory (1839) reduced Bichat's 21 types to four families. Bichat died aged 30 (tuberculosis); his bust is in the Paris Panthéon."
+        },
+        {
+          "id": "co2", "group": "Gross Anatomy",
+          "label": "Anatomical Planes, Regions & Directional Terminology",
+          "date": "1895", "loc": "University of Basel, Basel, Switzerland", "coords": [47.56, 7.59],
+          "links": ["th7", "st1", "st9"],
+          "hint": "Anatomical position (standing erect, arms supinated, palms forward, feet flat) is the universal reference frame. Three orthogonal planes: sagittal (divides left/right), coronal/frontal (divides anterior/posterior), transverse/horizontal (divides superior/inferior). Directional pairs: superior/inferior, anterior/posterior, medial/lateral, proximal/distal (limbs), superficial/deep, ipsilateral/contralateral. Nine abdominal regions (or four quadrants) provide clinical localisation shorthand for organ position.",
+          "tag": "CONCEPT",
+          "note": "Basle Nomina Anatomica (1895) — standardised directional terminology. Nine abdominal regions: right/left hypochondriac, right/left lumbar, right/left iliac (inguinal), epigastric, umbilical, pubic (hypogastric). Clinical usage: McBurney's point (5cm from ASIS on ASIS-umbilicus line) for appendix; Murphy's sign in right hypochondrium for gallbladder. Four-quadrant division: RUQ, LUQ, RLQ, LLQ — used in surgical and emergency contexts."
+        },
+        {
+          "id": "co3", "group": "Musculoskeletal",
+          "label": "Bone Structure — Compact, Cancellous & the Osteon",
+          "date": "1691", "loc": "London, England", "coords": [51.51, -0.13],
+          "links": ["th3", "ef1", "ef8", "st6"],
+          "hint": "Cortical (compact) bone consists of osteons (Haversian systems): 4–20 concentric lamellae around a central Haversian canal containing blood vessels and nerves; interconnected by Volkmann's canals. Osteocytes occupy lacunae within lamellae and communicate via canaliculi (mechanosensing network). Cancellous (trabecular) bone fills metaphyses and flat bones: a lattice of plates and rods whose orientation follows principal stress trajectories. Bone is ~70% mineral (hydroxyapatite), ~30% organic matrix (type I collagen, osteocalcin, osteopontin).",
+          "tag": "CONCEPT",
+          "note": "Havers, C. (1691). Osteologia Nova — first description of the Haversian canal system. 206 bones in the adult human skeleton; growth plates (epiphyseal cartilage) fuse at 16–25 years. Bone cell types: osteoblasts (formation), osteocytes (maintenance, mechanosensing), osteoclasts (resorption, multinucleated, RANK-expressing). Dual-energy X-ray absorptiometry (DEXA) measures bone mineral density; T-score ≤−2.5 defines osteoporosis."
+        },
+        {
+          "id": "co4", "group": "Musculoskeletal",
+          "label": "Joint Types & Synovial Architecture",
+          "date": "1743", "loc": "St George's Hospital, London, England", "coords": [51.50, -0.15],
+          "links": ["co3", "ef1", "ef5", "ap3"],
+          "hint": "Joints are classified by movement (synarthrosis = immovable, amphiarthrosis = slightly movable, diarthrosis = freely movable) and connective tissue type (fibrous/cartilaginous/synovial). Synovial joints have: a fibrous capsule lined by the synovial membrane (type A macrophage-like; type B fibroblast-like synoviocytes secreting hyaluronic acid and lubricin), articular hyaline cartilage (collagen II, aggrecan; avascular, no perichondrium), synovial fluid (plasma dialysate + lubricin + HA). Cyclical loading is required for cartilage nutrition by diffusion.",
+          "tag": "CONCEPT",
+          "note": "Hunter, W. (1743). 'Of the structure and diseases of articulating cartilages.' Philosophical Transactions of the Royal Society — first systematic description of cartilage nutrition and joint disease. Six synovial joint subtypes: ball-and-socket (hip, shoulder), hinge (elbow, knee), pivot (atlantoaxial), condyloid (wrist), saddle (1st carpometacarpal), plane/gliding (acromioclavicular). The knee is the largest synovial joint; the stapes joint in the ear is the smallest."
+        },
+        {
+          "id": "co5", "group": "Musculoskeletal",
+          "label": "Sarcomere & Sliding Filament Mechanism",
+          "date": "1954", "loc": "MRC Laboratory of Molecular Biology, Cambridge, England", "coords": [52.21, 0.11],
+          "links": ["ef5", "co3", "co4"],
+          "hint": "The sarcomere (Z-disk to Z-disk, ~2.2µm at rest) is the contractile unit of skeletal muscle. Thick filaments (myosin II) overlap with thin filaments (actin + tropomyosin + troponin). During contraction, myosin heads undergo ATP-dependent power strokes, pulling actin toward the M-line; filaments slide past each other — neither shortens. The H-zone and I-band narrow; the A-band length stays constant. This predicts that force and shortening velocity are inversely related (force–velocity relationship).",
+          "tag": "CONCEPT",
+          "note": "Huxley, A. F. & Niedergerke, R. (1954). 'Structural changes in muscle during contraction.' Nature, 173, 971–973. Huxley, H. E. & Hanson, J. (1954). 'Changes in the cross-striations of muscle during contraction.' Nature, 173, 973–976 — two simultaneous papers establishing sliding filament theory. Cross-bridge cycle characterised by Lymn & Taylor (1971) Journal of Biochemistry. Calcium release from SR via ryanodine receptor 1 (RyR1) triggers tropomyosin shift, unblocking actin binding sites."
+        },
+        {
+          "id": "co6", "group": "Cardiovascular & Viscera",
+          "label": "Heart Chambers, Valves & Coronary Circulation",
+          "date": "1669", "loc": "Leiden, Netherlands", "coords": [52.16, 4.50],
+          "links": ["th4", "co8", "st2", "st5"],
+          "hint": "The heart has four chambers in series: right atrium (systemic venous return via SVC/IVC) → tricuspid valve → right ventricle → pulmonary valve → pulmonary arteries → lungs → pulmonary veins → left atrium → mitral valve → left ventricle → aortic valve → aorta. Coronary arteries arise from the aortic sinuses: left main bifurcates into LAD (anterior LV, septum) and LCx (lateral LV); RCA supplies the right heart and (in 70%) the posterior descending artery. The SA node sets heart rate; the AV node delays conduction to allow ventricular filling.",
+          "tag": "CONCEPT",
+          "note": "Lower, R. (1669). Tractatus de Corde — first systematic cardiac anatomy including coronary vessels. Stensen, N. (1669) independently described the cardiac muscle. The fibrous cardiac skeleton separates atria from ventricles and anchors the four valve annuli. Left ventricular wall thickness ~10–11mm; right ventricular ~3–4mm — reflecting the pressure differential (systemic ~120mmHg vs. pulmonary ~25mmHg). Ejection fraction (EF) >55% is normal; EF <40% defines heart failure."
+        },
+        {
+          "id": "co7", "group": "Nervous System & Senses",
+          "label": "Peripheral Nervous System — Spinal Nerves & Plexuses",
+          "date": "1811", "loc": "University of Edinburgh, Edinburgh, Scotland", "coords": [55.95, -3.19],
+          "links": ["th6", "ef4", "st7"],
+          "hint": "31 pairs of spinal nerves exit via intervertebral foramina: 8 cervical, 12 thoracic, 5 lumbar, 5 sacral, 1 coccygeal. Each has a dorsal root (sensory, with dorsal root ganglion) and ventral root (motor) — the Bell-Magendie Law (1811). Cervical ventral rami (C5–T1) form the brachial plexus (roots → trunks → divisions → cords → branches: musculocutaneous, median, ulnar, radial, axillary). L2–S3 form the lumbosacral plexus (femoral, obturator, sciatic, pudendal). 12 cranial nerves supply the head and neck; CN X (vagus) reaches the thorax and abdomen.",
+          "tag": "CONCEPT",
+          "note": "Bell, C. (1811). Idea of a New Anatomy of the Brain — ventral roots are motor. Magendie, F. (1822) Journal de Physiologie — sensory/motor root distinction confirmed experimentally. Brachial plexus mnemonic: 'Randy Travis Drinks Cold Beer' (Roots, Trunks, Divisions, Cords, Branches). Saturday Night Palsy: radial nerve compression at spiral groove → wrist drop. Carpal tunnel syndrome: median nerve entrapment → thenar wasting + lateral 3½ digit numbness."
+        },
+        {
+          "id": "co8", "group": "Cardiovascular & Viscera",
+          "label": "Lymphatic Anatomy & Lymph Node Architecture",
+          "date": "1651", "loc": "Uppsala University, Uppsala, Sweden", "coords": [59.86, 17.64],
+          "links": ["co6", "ef7", "st5"],
+          "hint": "The lymphatic system returns ~2–4L of interstitial fluid daily to the bloodstream: left-sided and lower-body lymph drains via the thoracic duct to the left subclavian vein; right head/arm via the right lymphatic duct to the right subclavian. Lymph nodes are bean-shaped organs containing a cortex (B-cell follicles with germinal centres), paracortex (T-cell zone), and medullary cords (plasma cells). Afferent lymphatics bring antigen; efferent lymphatics carry the response. Lymphadenopathy localises infection or metastasis to a drainage territory.",
+          "tag": "CONCEPT",
+          "note": "Rudbeck, O. (1651) and Bartholin, T. (1652) independently described the lymphatic system and thoracic duct. Cisterna chyli (L1–L2): collects lymph from lower limbs and intestinal lacteals (fat absorption). Sentinel lymph node biopsy (Morton, 1992): the first draining node from a tumour predicts regional nodal spread — if negative, dissection is avoided. Virchow's node: left supraclavicular lymphadenopathy from abdominal malignancy (Troisier's sign)."
+        },
+        {
+          "id": "co9", "group": "Histology & Cells",
+          "label": "Skin Layers & Epidermal Renewal",
+          "date": "1838", "loc": "University of Berlin, Berlin, Germany", "coords": [52.52, 13.39],
+          "links": ["co1", "co10", "th1", "ef3"],
+          "hint": "Skin has three principal layers. Epidermis (stratified squamous keratinised epithelium): basal layer (stratum basale, mitotically active, anchored to basement membrane) → spinous (stratum spinosum, desmosomes, keratin tonofilaments) → granular (lamellar bodies, filaggrin, cornified envelope) → corneum (dead corneocytes, lipid-rich, the true barrier). Dermis: dense irregular connective tissue with collagen I/III, elastin, fibroblasts, hair follicles, sweat glands, Meissner and Pacinian corpuscles. Hypodermis: loose connective tissue and adipocytes. Full epidermal turnover: ~28 days.",
+          "tag": "CONCEPT",
+          "note": "Purkinjeˇ, J. E. (1833) and Remak, R. (1838) — cell layers of the skin. Skin is the body's largest organ (~1.8m², ~4kg). Melanocytes (1:10 ratio to basal keratinocytes) in stratum basale produce melanin transferred to keratinocytes via melanosomes. Langerhans cells (bone marrow-derived APCs) reside in stratum spinosum. Merkel cells at dermal-epidermal junction are mechanoreceptors (slowly adapting type 1). Psoriasis: epidermal turnover accelerated to ~7 days by IL-17/IL-23 signalling."
+        },
+        {
+          "id": "co10", "group": "Histology & Cells",
+          "label": "Extracellular Matrix — Collagen, Elastin & Proteoglycans",
+          "date": "1981", "loc": "Harvard Medical School, Boston, Massachusetts", "coords": [42.33, -71.10],
+          "links": ["co1", "co3", "th5", "th8"],
+          "hint": "The ECM is a non-cellular meshwork of fibrous proteins and ground substance that provides structural support, tissue architecture signals, and a force-transmission medium. Collagen (~30% of total body protein): type I (bone, tendon, skin), type II (cartilage), type III (early wound healing, gut), type IV (basement membranes). Elastin (aorta, lung, skin): allows recoil after stretch (cross-linked tropoelastin). Proteoglycans (aggrecan, perlecan, versican): protein cores with long glycosaminoglycan chains that bind water and provide compressive resistance.",
+          "tag": "CONCEPT",
+          "note": "Hay, E. D. (ed.) (1981). Cell Biology of Extracellular Matrix. Plenum Press — definitive synthesis. 28 collagen types identified to date; type I is the most abundant protein in the body. Marfan syndrome: fibrillin-1 mutation → aortic dissection and lens dislocation (ECM scaffold failure). Osteogenesis imperfecta: collagen I mutation → brittle bones. Ehlers-Danlos syndrome: multiple collagen/enzyme mutations → hyperelastic skin and hypermobile joints. MMP (matrix metalloproteinases) remodel ECM during development, wound healing, and tumour invasion."
+        }
+      ]
     },
     {
       "id": "method",
