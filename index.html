@@ -307,7 +307,7 @@ body{background:#eef1f6;font-family:Georgia,serif;color:#1a2230;min-height:100vh
 const FIELDS = [
   // ── HUMAN BIOLOGY & MEDICINE ─────────────────────────────────────────────────
   { id:"genetics-development",       domain:"human-biology",     label:"Genetics, Development & Embryology",        sub:"Heredity, molecular genetics, development & human embryology",          status:"planned" },
-  { id:"anatomy-histology",          domain:"human-biology",     label:"Human Anatomy & Histology",                 sub:"Gross anatomy, tissue structures, musculoskeletal geography & histology", status:"planned" },
+  { id:"anatomy-histology",          domain:"human-biology",     label:"Human Anatomy & Histology",                 sub:"Gross anatomy, tissue structures, musculoskeletal geography & histology", status:"ready", file:"modules/anatomy-histology.json" },
   { id:"physiology-organ-systems",   domain:"human-biology",     label:"Physiology & Organ Systems",                sub:"Systemic physiology, cardiovascular, renal, respiratory & endocrine",    status:"planned" },
   { id:"pathology-immunology",       domain:"human-biology",     label:"Pathology, Immunology & Infectious Disease",sub:"Pathology, immune defence, infectious agents & mechanisms of disease",   status:"planned" },
   { id:"pharmacology-therapeutics",  domain:"human-biology",     label:"Pharmacology & Clinical Therapeutics",      sub:"Drug mechanisms, pharmacokinetics, clinical interventions & healing",    status:"planned" },
@@ -1303,6 +1303,61 @@ const STUDY_PLANS = {
       {
         title: '10 — Clinical & Educational Applications',
         rationale: 'Close by seeing the neuroscience at work: deep brain stimulation, SSRIs and neuroplasticity, cognitive rehabilitation, neurofeedback, sleep hygiene in schools, and the first optogenetic vision-restoration trial in a human patient.',
+        cats: ['application']
+      }
+    ]
+  },
+  'anatomy-histology': {
+    meta: 'Follows the classic medical-school anatomy sequence: begin with the pioneers and tools that made the discipline, establish the common language (nomenclature, planes), then work organ system by organ system from the smallest scale (histology) outward through musculoskeletal, cardiovascular, nervous system, and embryonic origins. Debates and applications close the arc so they can be evaluated against the full structural knowledge base.',
+    modules: [
+      {
+        title: '1 — Pioneers & Anatomists',
+        rationale: 'Vesalius, Harvey, Malpighi, Virchow, Cajal, Gray, and Netter founded the discipline and its visual language. Meet them first — their historical debates and methods frame everything that follows.',
+        groups: ['Pioneers & Anatomists']
+      },
+      {
+        title: '2 — Methods & Imaging',
+        rationale: 'Cadaveric dissection, H&E staining, X-ray, electron microscopy, CT/MRI, IHC, and plastination are the instruments through which anatomical knowledge is produced and applied. Understanding the method clarifies the evidence.',
+        cats: ['method']
+      },
+      {
+        title: '3 — Gross Anatomy & Nomenclature',
+        rationale: 'Anatomical position, body planes, regional terminology, and the Terminologia Anatomica provide the shared coordinate system. Vesalius\'s Fabrica, Gray\'s Anatomy, and the Visible Human Project are the landmark texts that codified gross anatomy.',
+        groups: ['Gross Anatomy']
+      },
+      {
+        title: '4 — Histology & Cells',
+        rationale: 'Cell theory, the four tissue types, mitosis, apoptosis, skin layers, extracellular matrix, and the Human Protein Atlas operate at the microscale. This module establishes the cellular foundation for all organ-system anatomy.',
+        groups: ['Histology & Cells']
+      },
+      {
+        title: '5 — Musculoskeletal System',
+        rationale: 'Bone structure, Wolff\'s law, joint types, sarcomere mechanics, disuse atrophy, and the RANK/RANKL axis — the body\'s load-bearing architecture and its capacity to adapt, degenerate, and be repaired.',
+        groups: ['Musculoskeletal']
+      },
+      {
+        title: '6 — Cardiovascular & Viscera',
+        rationale: 'Harvey\'s circulation, capillaries, heart chambers and valves, coronary anatomy, and the lymphatic system form the transport infrastructure that every other organ depends on.',
+        groups: ['Cardiovascular & Viscera']
+      },
+      {
+        title: '7 — Nervous System Anatomy',
+        rationale: 'Cajal\'s neuroanatomy, spinal nerve organisation, the Bell-Magendie Law, dermatomes and myotomes, and referred pain patterns. The structural substrate of sensation, movement, and autonomic control.',
+        groups: ['Nervous System & Senses']
+      },
+      {
+        title: '8 — Development & Embryology',
+        rationale: 'Germ layer theory explains where every organ comes from and predicts patterns of congenital malformation. The developmental origin of a structure predicts its adult innervation, vascular supply, and surgical relationships.',
+        groups: ['Development & Embryology']
+      },
+      {
+        title: '9 — Debates & Open Questions',
+        rationale: 'Galenic vs Harvey, neuron doctrine vs reticular theory, cardiac regeneration fraud, fascia classification, atlas variation, the glymphatic system, dermatome map disagreements, and the mesentery-as-organ controversy — best evaluated after the full structural knowledge base is in place.',
+        cats: ['debate']
+      },
+      {
+        title: '10 — Clinical & Educational Applications',
+        rationale: 'Surgical anatomy, histopathology, joint replacement biomechanics, radiological anatomy, plastination-based education, and tissue engineering show how structural knowledge translates directly into diagnosis, operative planning, and regenerative medicine.',
         cats: ['application']
       }
     ]

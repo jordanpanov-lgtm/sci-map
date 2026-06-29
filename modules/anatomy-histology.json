@@ -583,7 +583,88 @@
       "icon": "⚖️",
       "color": "#CA6F1E", "accent": "#E67E22", "bg": "#FEF0E7",
       "subtitle": "Controversies, contested claims and unresolved questions in anatomy and histology",
-      "entries": []
+      "entries": [
+        {
+          "id": "db1", "group": "Cardiovascular & Viscera",
+          "label": "Galenic Circulation vs. Harvey's Closed Circuit",
+          "date": "1628",
+          "loc": "London, England", "coords": [51.51, -0.13],
+          "links": ["th4", "st2", "fg2", "fg11"],
+          "tag": "DISPUTE",
+          "hint": "For 1,400 years, Galen's model held that the liver produces venous blood, consumed by tissues; the heart generates pneuma in arterial blood; and the interventricular septum has pores allowing venous blood to seep into the arterial system. Harvey's De Motu Cordis (1628) contradicted each claim quantitatively, but faced fierce opposition from Galenic physicians throughout the 1630s–50s. The debate illustrates how quantitative anatomical argument can be resisted when it conflicts with theological and institutional authority.",
+          "note": "Principal opponents of Harvey: James Primrose (1630) Exercitationes; Jean Riolan the Younger (1649) — argued that only a small portion of blood circulates. Harvey's final rebuttal: De Circulatione Sanguinis (1649). Resolution came not through a single experiment but through accumulation of confirmations: Malpighi's capillaries (1661), Lower's heart-lung experiments (1669), Haller's quantitative physiology (1757). The debate is a case study in the sociology of scientific revolution."
+        },
+        {
+          "id": "db2", "group": "Nervous System & Senses",
+          "label": "Neuron Doctrine vs. Reticular Theory",
+          "date": "1906",
+          "loc": "Stockholm, Sweden", "coords": [59.33, 18.07],
+          "links": ["st7", "fg6"],
+          "tag": "DISPUTE",
+          "hint": "Cajal (neuron doctrine) and Golgi (reticular theory) shared the 1906 Nobel Prize while fundamentally disagreeing about nervous system structure. Golgi maintained the nerve network was a continuous protoplasmic syncytium; Cajal demonstrated discrete cellular units separated by junctions. Golgi used his Nobel lecture to attack the neuron doctrine. Electron microscopy (De Robertis & Bennett; Palade & Palay, 1954–1955) definitively showed synaptic clefts between cells — resolving the debate in Cajal's favour.",
+          "note": "A rare case of two Nobel laureates publicly disagreeing in the same ceremony. Golgi's reticulum theory was not entirely wrong — it anticipated the concept of gap junctions (electrical synapses), where cells are electrically coupled. The neuron doctrine debate also presaged the later debate between the 'labelled line' and 'across-fibre pattern' theories of sensory coding. Shepherd, G. M. (2016). Foundations of the Neuron Doctrine. Oxford University Press — history of the debate."
+        },
+        {
+          "id": "db3", "group": "Cardiovascular & Viscera",
+          "label": "Cardiac Muscle Regeneration — Can the Heart Repair Itself?",
+          "date": "2001",
+          "loc": "New York Medical College, New York, New York", "coords": [40.71, -74.01],
+          "links": ["ef6", "ef3"],
+          "tag": "DISPUTE",
+          "hint": "Beltrami et al. (2001) Science reported resident cardiac stem cells (c-Kit+) capable of generating new cardiomyocytes after myocardial infarction — challenging the dogma that the adult heart cannot regenerate. This spawned the SCIPIO clinical trial programme. Anversa's lab produced multiple high-profile papers; most were retracted 2018–2021 following evidence of data fabrication. The correct answer: the adult heart renews ~1% of cardiomyocytes/year (Bergmann et al. 2009, C14 dating), insufficient for meaningful repair.",
+          "note": "Beltrami, A. P. et al. (2001). 'Evidence that human cardiac myocytes divide after myocardial infarction.' New England Journal of Medicine, 344, 1750–1757. Anversa, P. et al. (2003) — c-Kit+ CSCs claim (later retracted). SCIPIO trial: Bolli, R. et al. (2011) Lancet — results could not be reproduced; paper was subsequently corrected and disputed. Bergmann, O. et al. (2009). 'Evidence for cardiomyocyte renewal in humans.' Science, 324, 98–102 — C14 dating from atomic bomb fallout. The controversy caused long-term damage to the cardiac regeneration field."
+        },
+        {
+          "id": "db4", "group": "Musculoskeletal",
+          "label": "Fascia Classification — What Is Fascia?",
+          "date": "2007",
+          "loc": "Boston, Massachusetts", "coords": [42.36, -71.06],
+          "links": ["th8", "co10"],
+          "tag": "DISPUTE",
+          "hint": "The 2007 and 2012 International Fascia Research Congresses exposed profound definitional disagreement: 'fascia' variously refers to discrete fibrous sheets (superficial fascia, deep fascia, epimysium), all fibrous connective tissue in the body, or any tissue that transmits mechanical force. Radiologists, surgeons, physiotherapists, and anatomists use the term differently. The Fascia Nomenclature Committee (2013) attempted standardisation: fascia = 'sheath, sheet, or dissectible aggregation of connective tissue forming beneath the skin to attach, enclose, and separate muscles and internal organs.' Force transmission significance remains unresolved.",
+          "note": "Schleip, R. et al. (2012). Fascia Research Congress — proceedings. Stecco, C. et al. (2011) Clinical Anatomy — histological definition controversy. Huijing, P. A. & Baan, G. C. (2001) Archives of Physiology and Biochemistry — epimysial force transmission. The debate has practical consequences: surgical planes differ depending on whether 'fascia' is treated as a distinct layer or as part of continuous connective tissue. The concept of the 'fascial system' in manual therapy (Rolfing, osteopathy) has outrun the anatomical evidence."
+        },
+        {
+          "id": "db5", "group": "Gross Anatomy",
+          "label": "The 'Normal' Anatomy Atlas — Misleading Standard?",
+          "date": "2006",
+          "loc": "Multiple sites", "coords": [0, 0],
+          "links": ["st10", "co2", "co7"],
+          "tag": "DISPUTE",
+          "hint": "Standard anatomy atlases depict a young, male, European body in average proportions — a 'Netter man.' Anatomical variation is pervasive: the Circle of Willis is complete in only ~20–25% of individuals; the palmaris longus is absent in ~14%; the number of lumbar vertebrae varies from 4 to 6; the hepatic artery follows the 'textbook' course in only ~55%. Students trained on atlases develop inaccurate expectations of real patients. Diversity of reference bodies and explicit coverage of variation are active areas of anatomy curriculum reform.",
+          "note": "Hartkamp, M. J. et al. (1999) Stroke — Circle of Willis completeness in 1,149 patients (MRA). Sanudo, J. R. et al. (2003) — palmaris longus absence rates by population. Bergman, R. A. et al. (1988). Compendium of Human Anatomical Variation — catalogued >10,000 documented anatomical variants. Turney, B. W. (2007) Journal of the Royal Society of Medicine — 'what can surgeons learn from anatomists?' The female body is systematically underrepresented in anatomy education, which contributes to diagnostic delays in women presenting with atypical symptoms."
+        },
+        {
+          "id": "db6", "group": "Nervous System & Senses",
+          "label": "Glymphatic System — Does the Brain Have a Lymph Pathway?",
+          "date": "2013",
+          "loc": "University of Rochester, Rochester, New York", "coords": [43.13, -77.63],
+          "links": ["co7", "co8"],
+          "tag": "DISPUTE",
+          "hint": "Iliff et al. (2013) Science proposed that CSF enters the brain along paravascular spaces driven by arterial pulsations, exchanges with interstitial fluid via AQP4 water channels on astrocytic endfeet, and drains waste (including amyloid-β) along venous paravascular spaces to cervical lymph nodes. Sleep enhances glymphatic clearance ~60%. The system has been contested: some groups cannot reproduce directional flow or AQP4 dependence; the hydraulic driving force is debated. If real, glymphatic dysfunction could explain amyloid accumulation in Alzheimer's disease.",
+          "note": "Iliff, J. J. et al. (2013). 'A paravascular pathway facilitates CSF flow through the brain parenchyma.' Science Translational Medicine, 5, 111ra119. AQP4 challenge: Hladky, S. B. & Barrand, M. A. (2018) Fluids and Barriers of the CNS — bulk flow via AQP4 energetically implausible. Sleep enhancement: Xie, L. et al. (2013) Science. Cerebral lymphatics: Louveau, A. et al. (2015) Nature — dural lymphatic vessels confirmed in mice and humans. The 'glymphatic' term was coined by Maiken Nedergaard's group (combining 'glial' and 'lymphatic')."
+        },
+        {
+          "id": "db7", "group": "Nervous System & Senses",
+          "label": "Dermatome Maps — Which Atlas Is Correct?",
+          "date": "1993",
+          "loc": "Multiple sites", "coords": [0, 0],
+          "links": ["th6", "ef4"],
+          "tag": "DISPUTE",
+          "hint": "Dermatome boundaries in major anatomical atlases (Keegan & Garrett 1948; Foerster 1933; Hansen & Schliack 1962) disagree by up to two spinal segments for many regions. A systematic comparison of 11 dermatome maps by Downs & Laporte (2011) found significant inter-map disagreement in 90% of tested regions. Sources of disagreement: herpes zoster distribution vs. posterior root section vs. nerve block studies; extent of adjacent segment overlap; and individual anatomical variation. Clinical implication: dermatomal maps are guides, not precise boundaries.",
+          "note": "Downs, M. B. & Laporte, C. (2011). 'Conflicting dermatome maps: educational and clinical implications.' Journal of Orthopaedic & Sports Physical Therapy, 41, 427–434. Keegan, J. J. & Garrett, F. D. (1948) Anatomical Record — mapping from posterior column lesions. Foerster, O. (1933) Brain — posterior root section. The L4 dermatome illustrates the problem: mapped to medial shin (Keegan-Garrett), anterior shin (Foerster), or lateral shin (Head). A consensus map remains elusive."
+        },
+        {
+          "id": "db8", "group": "Gross Anatomy",
+          "label": "Is the Mesentery a New Organ?",
+          "date": "2016",
+          "loc": "University of Limerick, Limerick, Ireland", "coords": [52.67, -8.57],
+          "links": ["co2", "st9"],
+          "tag": "DISPUTE",
+          "hint": "Coffey & O'Leary (2016) Lancet Gastroenterology & Hepatology proposed that the mesentery is a single continuous organ — a fold of peritoneum connecting all intestinal segments to the posterior abdominal wall — rather than a fragmented series of ligaments. The claim was widely reported as the 'discovery of a new organ.' Critics noted that mesenteric continuity was anatomically well known since Treitz (1853) and that the designation 'organ' was definitional reframing, not anatomical discovery.",
+          "note": "Coffey, J. C. & O'Leary, D. P. (2016). 'The mesentery: structure, function, and role in disease.' Lancet Gastroenterology & Hepatology, 1, 238–247. Treitz, W. (1853) — described the mesentery as a continuous fold. The controversy highlights the lack of consensus on what constitutes an 'organ': is it a structure with a distinct boundary, a distinct function, or a distinct clinical relevance? The mesentery does have surgical relevance — 'complete mesocolic excision' in colon cancer surgery is guided by mesenteric anatomy."
+        }
+      ]
     },
     {
       "id": "application",
@@ -591,15 +672,124 @@
       "icon": "🔗",
       "color": "#2E86C1", "accent": "#2874A6", "bg": "#EBF5FB",
       "subtitle": "How anatomical and histological knowledge translates to clinical practice and education",
-      "entries": []
+      "entries": [
+        {
+          "id": "ap1", "group": "Gross Anatomy",
+          "label": "Surgical Anatomy & Operative Planning",
+          "date": "1895", "loc": "Multiple sites", "coords": [0, 0],
+          "links": ["co2", "co6", "me1", "me5", "th7"],
+          "tag": "APPLICATION",
+          "hint": "Pre-operative CT/MRI cross-sectional anatomy defines safe dissection planes, vessel relationships, and anomalies before every major operation. Image-guided surgery (IGS) uses registered imaging to navigate instruments in real time. Laparoscopic anatomy has forced re-conceptualisation of traditional open-surgery anatomy: views are rotated 90°, fascial planes are identified visually rather than by touch. Key anatomical landmarks guide safe dissection: McBurney's point (appendix), Hesselbach's triangle (direct inguinal hernia), Calot's triangle (cholecystectomy — cystic artery and cystic duct).",
+          "note": "Image-guided neurosurgery: Galloway, R. L. (2001) Annual Review of Biomedical Engineering. Laparoscopic anatomy teaching: Fried, G. M. et al. (1994) American Journal of Surgery — cadaveric laparoscopic training model. Safe cholecystectomy: Strasberg, S. M. (1995) Journal of the American College of Surgeons — 'critical view of safety' technique. Robotic surgery (da Vinci, approved 2000) uses 3D magnified anatomical views; the surgeon must translate anatomical knowledge from flat atlas views to high-resolution endoscopic perspective."
+        },
+        {
+          "id": "ap2", "group": "Histology & Cells",
+          "label": "Histopathology & Tissue Diagnosis",
+          "date": "1858", "loc": "Multiple sites", "coords": [0, 0],
+          "links": ["co1", "me2", "me6", "st11"],
+          "tag": "APPLICATION",
+          "hint": "Tissue diagnosis by H&E microscopy and IHC is the gold standard for cancer diagnosis, staging, and subtyping: tumour type (adenocarcinoma vs. squamous cell), grade (differentiation), margin status, invasion depth, vascular and perineural invasion, receptor status (ER/PR/HER2 in breast cancer), and PD-L1 expression for immunotherapy eligibility. Frozen section intraoperative biopsy takes ~20 minutes and guides the extent of surgical resection in real time. Digital pathology (whole-slide imaging) and AI-assisted scoring are transforming throughput and reproducibility.",
+          "note": "Virchow (1858) — cellular pathology as foundation of histopathology. Frozen section: Cullen, T. S. (1895) — first intraoperative frozen section for gynaecological tumour. HER2 IHC/ISH: Wolff, A. C. et al. (2007) ASCO/CAP guidelines — critical for trastuzumab eligibility. FDA-cleared AI pathology: Paige Prostate (2021) for prostate cancer detection. Whole-slide imaging platforms: Aperio (Leica), Ventana, Hamamatsu. WHO Classification of Tumours (5th ed.) standardises histological diagnostic criteria globally."
+        },
+        {
+          "id": "ap3", "group": "Musculoskeletal",
+          "label": "Orthopaedic Biomechanics & Joint Replacement",
+          "date": "1962", "loc": "Wrightington Hospital, Lancashire, England", "coords": [53.59, -2.63],
+          "links": ["co3", "co4", "co5", "ef8", "th3"],
+          "tag": "APPLICATION",
+          "hint": "Total hip replacement (Charnley 1962) and total knee replacement (Gunston 1971) are among the most successful surgical operations by functional outcome and quality-adjusted life years gained. Implant design is governed by anatomical geometry (femoral neck-shaft angle, acetabular anteversion 15–20°), biomechanical loading (5–10× body weight at the hip during stair climbing), and material science (UHMWPE, cobalt-chromium, ceramics). Failure modes — aseptic loosening, polyethylene wear, fracture, dislocation, periprosthetic infection — all require anatomical knowledge for prevention and revision.",
+          "note": "Charnley, J. (1960). 'Arthroplasty of the hip: a new operation.' Lancet, 1, 1129–1132. Charnley's low-friction arthroplasty: 22mm femoral head, UHMWPE socket, acrylic cement fixation. Annual implantations: >400,000 THR and >700,000 TKR in the US (2020). Registry data: National Joint Registry (UK, 2003–present) — 10-year implant survival ~95% for primary THR. Computer-assisted surgery and patient-specific cutting guides (PSI) use CT-derived 3D anatomy models to plan implant positioning."
+        },
+        {
+          "id": "ap4", "group": "Gross Anatomy",
+          "label": "Radiological Anatomy & Medical Imaging",
+          "date": "1972", "loc": "Multiple sites", "coords": [0, 0],
+          "links": ["co2", "co6", "me3", "me5", "st9"],
+          "tag": "APPLICATION",
+          "hint": "Radiological anatomy — interpreting body structures in CT/MRI/ultrasound/PET — is the dominant applied branch of anatomy in clinical practice. The radiologist maps disease by relating imaging features to anatomical position, tissue density, and signal characteristics. Key applications: CT angiography for aortic dissection (timing the contrast bolus sweep), MRI for soft tissue characterisation (disc herniation at L4/5 compressing L5 nerve root), ultrasound for real-time procedural guidance (central venous line, joint injection, nerve block), PET-CT for metabolically active lesions. Patient-specific 3D-printed anatomy models are emerging for surgical planning.",
+          "note": "First diagnostic CT: Hounsfield & Ambrose (1973) British Journal of Radiology — first clinical brain scan published. Diagnostic ultrasound: Wild & Reid (1952) — first B-mode ultrasound images of soft tissue. PET imaging: Ter-Pogossian (1975). CT pulmonary angiography (CTPA): Remy-Jardin et al. (1992) Radiology — now gold standard for pulmonary embolism diagnosis. The Royal College of Radiologists (UK) and ACR (US) publish guidance on appropriate use and radiation dose optimisation (ALARA principle)."
+        },
+        {
+          "id": "ap5", "group": "Gross Anatomy",
+          "label": "Anatomical Education — Plastination & Virtual Anatomy",
+          "date": "1977", "loc": "University of Heidelberg, Heidelberg, Germany", "coords": [49.40, 8.69],
+          "links": ["me1", "me7", "co2"],
+          "tag": "APPLICATION",
+          "hint": "Anatomical education is undergoing its most significant reform since Vesalius. Plastinated specimens have made dissection-quality anatomy accessible without cadaveric constraints. Virtual anatomy tables (Anatomage, zSpace) allow full-body virtual dissection at CT-grade resolution. The net direction: from cadaveric memorisation toward clinical imaging and functional anatomy. A key controversy: do students trained without cadaveric dissection develop adequate three-dimensional spatial reasoning and the professional attitudes (respect for the body, acceptance of mortality) that traditional dissection uniquely fosters?",
+          "note": "von Hagens plastination (1977) — me7. Anatomage Table: introduced 2006 (Stanford University Medical Center); now in >300 medical schools. Augmented reality anatomy: HoloAnatomy (Case Western, 2016) using Microsoft HoloLens. Competency study: McLachlan, J. C. et al. (2004) Medical Education — students taught anatomy without dissection performed equally in clinical assessments. Counter-evidence: Older, J. (2004) ANZ Journal of Surgery — reduced surgical competence correlates with reduced dissection hours."
+        },
+        {
+          "id": "ap6", "group": "Histology & Cells",
+          "label": "Tissue Engineering & Regenerative Medicine",
+          "date": "2006", "loc": "Wake Forest Institute, Winston-Salem, North Carolina", "coords": [36.10, -80.24],
+          "links": ["co1", "co10", "ef6", "st8"],
+          "tag": "APPLICATION",
+          "hint": "Tissue engineering constructs living tissues ex vivo by seeding cells onto biomimetic scaffolds (decellularised ECM, hydrogels, 3D-bioprinted structures) that provide structural and biochemical cues. Landmarks: first tissue-engineered bladder implanted in a patient (Atala 2006), organoid cultures reproducing intestinal crypts, liver ducts, and kidney tubules for disease modelling. The field bridges histology, materials science, and surgery. Most organ-scale applications remain preclinical; skin grafts and tracheal patches are approved for clinical use.",
+          "note": "Atala, A. et al. (2006). 'Tissue-engineered autologous bladders for patients needing cystoplasty.' Lancet, 367, 1241–1246 — first implanted tissue-engineered organ. Intestinal organoids: Sato, T. et al. (2009) Nature — Lgr5+ stem cells form self-organising intestinal crypts in Matrigel. 3D bioprinting: Kang, H.-W. et al. (2016) Nature Biotechnology — ITOP printer fabricates cartilage, bone, and muscle constructs with embedded vasculature. Trachea controversy: Macchiarini (2008–2014) tracheal transplant programme — multiple patient deaths and fraud investigation."
+        }
+      ]
     }
   ],
   "timeline": [
-    { "id": "study",       "icon": "🧪", "accent": "#7D3C98", "label": "Landmark Studies",                "events": [] },
-    { "id": "theory",      "icon": "📐", "accent": "#2471A3", "label": "Theories & Models",               "events": [] },
-    { "id": "effect",      "icon": "📊", "accent": "#148F77", "label": "Effects & Phenomena",             "events": [] },
-    { "id": "method",      "icon": "🔬", "accent": "#B7770D", "label": "Methods & Techniques",            "events": [] },
-    { "id": "debate",      "icon": "⚖️", "accent": "#E67E22", "label": "Debates & Open Questions",       "events": [] },
-    { "id": "application", "icon": "🔗", "accent": "#2874A6", "label": "Clinical Applications",           "events": [] }
+    { "id": "study", "icon": "🧪", "accent": "#7D3C98", "label": "Landmark Studies", "events": [
+      { "y": 1543, "l": "Vesalius — De Humani Corporis Fabrica", "entryId": "st1" },
+      { "y": 1628, "l": "Harvey — De Motu Cordis", "entryId": "st2" },
+      { "y": 1661, "l": "Malpighi — capillaries discovered", "entryId": "st5" },
+      { "y": 1858, "l": "Virchow — cellular pathology", "entryId": "st3" },
+      { "y": 1858, "l": "Gray & Carter — Gray's Anatomy", "entryId": "st10" },
+      { "y": 1882, "l": "Flemming — mitosis described", "entryId": "st4" },
+      { "y": 1895, "l": "Röntgen — first diagnostic X-ray", "entryId": "st6" },
+      { "y": 1899, "l": "Cajal — histology of nervous system", "entryId": "st7" },
+      { "y": 1961, "l": "McCulloch & Till — bone marrow stem cells", "entryId": "st8" },
+      { "y": 1994, "l": "Visible Human Project", "entryId": "st9" },
+      { "y": 2003, "l": "Uhlén — Human Protein Atlas", "entryId": "st11" }
+    ]},
+    { "id": "theory", "icon": "📐", "accent": "#2471A3", "label": "Theories & Models", "events": [
+      { "y": 1628, "l": "Harvey — closed-circuit circulation", "entryId": "th4" },
+      { "y": 1828, "l": "von Baer — germ layer theory", "entryId": "th2" },
+      { "y": 1855, "l": "Virchow — cell theory completed", "entryId": "th1" },
+      { "y": 1892, "l": "Wolff — bone remodelling law", "entryId": "th3" },
+      { "y": 1893, "l": "Head — dermatome map", "entryId": "th6" },
+      { "y": 1895, "l": "Basel — anatomical nomenclature (BNA)", "entryId": "th7" },
+      { "y": 1993, "l": "Ingber — tensegrity cell mechanics", "entryId": "th5" },
+      { "y": 2001, "l": "Myers — fascia as tensional network", "entryId": "th8" }
+    ]},
+    { "id": "effect", "icon": "📊", "accent": "#148F77", "label": "Effects & Phenomena", "events": [
+      { "y": 1892, "l": "Wolff — bone adaptive remodelling", "entryId": "ef1" },
+      { "y": 1893, "l": "Head — referred pain & dermatomal pattern", "entryId": "ef4" },
+      { "y": 1954, "l": "Abercrombie — contact inhibition", "entryId": "ef2" },
+      { "y": 1961, "l": "McCulloch & Till — haematopoietic hierarchy", "entryId": "ef7" },
+      { "y": 1972, "l": "Kerr — apoptosis described", "entryId": "ef3" },
+      { "y": 1976, "l": "Henriksson — disuse muscle atrophy", "entryId": "ef5" },
+      { "y": 1997, "l": "Simonet — RANK/RANKL/OPG axis", "entryId": "ef8" },
+      { "y": 1998, "l": "Fausto — regenerative capacity gradient", "entryId": "ef6" }
+    ]},
+    { "id": "method", "icon": "🔬", "accent": "#B7770D", "label": "Methods & Techniques", "events": [
+      { "y": 1543, "l": "Vesalius — cadaveric dissection standardised", "entryId": "me1" },
+      { "y": 1876, "l": "Böhmer — H&E staining", "entryId": "me2" },
+      { "y": 1895, "l": "Röntgen — X-ray imaging", "entryId": "me3" },
+      { "y": 1932, "l": "Ruska & Knoll — electron microscopy", "entryId": "me4" },
+      { "y": 1941, "l": "Coons — immunohistochemistry", "entryId": "me6" },
+      { "y": 1972, "l": "Hounsfield — CT scanning", "entryId": "me5" },
+      { "y": 1977, "l": "von Hagens — plastination", "entryId": "me7" }
+    ]},
+    { "id": "debate", "icon": "⚖️", "accent": "#E67E22", "label": "Debates & Open Questions", "events": [
+      { "y": 1628, "l": "Galenic vs Harvey circulation debate", "entryId": "db1" },
+      { "y": 1906, "l": "Cajal vs Golgi — neuron doctrine", "entryId": "db2" },
+      { "y": 1993, "l": "Dermatome maps — atlas disagreements", "entryId": "db7" },
+      { "y": 2001, "l": "Cardiac regeneration claim & retraction", "entryId": "db3" },
+      { "y": 2006, "l": "Normal anatomy atlas problem", "entryId": "db5" },
+      { "y": 2007, "l": "Fascia classification controversy", "entryId": "db4" },
+      { "y": 2013, "l": "Glymphatic system proposed", "entryId": "db6" },
+      { "y": 2016, "l": "Mesentery — new organ claim", "entryId": "db8" }
+    ]},
+    { "id": "application", "icon": "🔗", "accent": "#2874A6", "label": "Clinical Applications", "events": [
+      { "y": 1858, "l": "Virchow — histopathology founded", "entryId": "ap2" },
+      { "y": 1895, "l": "Röntgen — surgical anatomy via X-ray", "entryId": "ap1" },
+      { "y": 1962, "l": "Charnley — total hip replacement", "entryId": "ap3" },
+      { "y": 1972, "l": "Hounsfield — CT for radiological anatomy", "entryId": "ap4" },
+      { "y": 1977, "l": "von Hagens — plastination for education", "entryId": "ap5" },
+      { "y": 2006, "l": "Atala — tissue-engineered bladder", "entryId": "ap6" }
+    ]}
   ]
 }
