@@ -196,6 +196,8 @@ body{background:#eef1f6;font-family:Georgia,serif;color:#1a2230;min-height:100vh
 #modal-hint{font-size:13px;color:#39435c;margin-top:12px;line-height:1.65;font-style:italic;border-left:3px solid #ccc;padding-left:12px}
 #modal-ev-label{font-size:9px;color:#9bafd4;font-family:'Courier New',monospace;letter-spacing:.1em;margin-top:14px;display:block}
 #modal-note{font-size:12px;color:#566;line-height:1.75;margin-top:4px}
+#modal-diagram{margin-top:14px;border-radius:4px;overflow:hidden;display:none}
+#modal-diagram svg{width:100%;height:auto;display:block}
 #modal-close{margin-top:18px;background:transparent;border:1px solid #c4cfe2;color:#8c9bb5;padding:5px 16px;cursor:pointer;font-size:11px;letter-spacing:.1em;font-family:'Courier New',monospace;border-radius:3px}
 
 /* ── LOADING ── */
@@ -293,6 +295,7 @@ body{background:#eef1f6;font-family:Georgia,serif;color:#1a2230;min-height:100vh
       <div class="meta-g" id="modal-repl-wrap" style="display:none"><span class="meta-k">REPLICATES</span><span class="meta-v" id="modal-repl"></span></div>
     </div>
     <div id="modal-hint"></div>
+    <div id="modal-diagram"></div>
     <span id="modal-ev-label">KEY EVIDENCE</span>
     <div id="modal-note"></div>
     <div id="modal-links" style="display:none"></div>
@@ -731,6 +734,10 @@ function openModal(entry, accent) {
   document.getElementById('modal-hint').textContent = entry.hint || '';
   document.getElementById('modal-hint').style.borderLeftColor = ac;
   document.getElementById('modal-note').textContent = entry.note || '';
+  const diagEl = document.getElementById('modal-diagram');
+  if (entry.diagram) {
+    fetch(entry.diagram).then(r => r.text()).then(svg => { diagEl.innerHTML = svg; diagEl.style.display = ''; }).catch(() => { diagEl.innerHTML = ''; diagEl.style.display = 'none'; });
+  } else { diagEl.innerHTML = ''; diagEl.style.display = 'none'; }
 
   // Replicability badge
   const replWrap = document.getElementById('modal-repl-wrap');
