@@ -47,7 +47,7 @@
           "label": "Harvey's Closed-Circuit Circulation",
           "date": "1628", "loc": "St Bartholomew's Hospital, London, England", "coords": [51.52, -0.10],
           "links": ["co6", "st2", "st5", "fg2"],
-          "hint": "Blood does not ebb and flow from the liver but circulates continuously in a closed loop driven by the heart as a pump. Harvey's crucial argument was quantitative: at ~2 oz per beat × 72 beats/min = ~144 oz/min — far more than the body could manufacture from food. Therefore blood must recirculate. He demonstrated venous valves enforce one-way flow and that blood exits via arteries and returns via veins.",
+          "hint": "Blood does not ebb and flow from the liver but circulates continuously in a closed loop driven by the heart as a mechanical pump. The conceptual shift: the same blood recirculates — it is not continuously manufactured and consumed — and the circuit is anatomically closed, with venous valves enforcing directional flow from periphery back to heart. Capillaries completing the arteriovenous connection were confirmed by Malpighi (1661) four years after Harvey's death.",
           "tag": "THEORY",
           "note": "Harvey, W. (1628). Exercitatio Anatomica de Motu Cordis et Sanguinis in Animalibus. Fitzeri, Frankfurt. Capillaries confirming the circuit were discovered by Malpighi (1661). Refuted Galen's model of blood produced in liver, consumed by tissues, and a pneuma-enriched arterial stream. Opposition from Galenic physicians persisted into the 1650s but was overcome as Harvey's ligature experiments were reproduced across Europe."
         },
@@ -82,10 +82,10 @@
           "id": "th8", "group": "Musculoskeletal",
           "label": "Fascia as a Bodywide Tensional Network",
           "date": "2001", "loc": "Cambridge, Massachusetts", "coords": [42.37, -71.11],
-          "links": ["co3", "co10", "th3", "ef5"],
+          "links": ["co3", "co10", "th3", "ef5", "db4"],
           "hint": "Myers' Anatomy Trains model (2001) proposes that myofascial continuities transmit tensile force across multiple joints and body segments — superseding the view of muscles as isolated force-generators between fixed origin and insertion. 'Myofascial meridians' (e.g., Superficial Back Line: plantar fascia → Achilles → hamstrings → thoracolumbar fascia → erector spinae → epicranial aponeurosis) transmit tension from heel to scalp. Schleip et al. (2012) provided histological evidence: fascia is innervated, contractile, and proprioceptive.",
           "tag": "FRAMEWORK",
-          "note": "Myers, T. W. (2001). Anatomy Trains: Myofascial Meridians for Manual and Movement Therapists. Churchill Livingstone. Schleip, R. et al. (2012). Fascia: The Tensional Network of the Human Body. Churchill Livingstone. Huijing, P. A. (1999) Journal of Biomechanics — myofascial force transmission demonstrated in rat muscle. Clinical relevance: explains why plantar fasciitis may respond to hamstring stretching; surgical fascia release cascades. Classification controversy: db4."
+          "note": "Myers, T. W. (2001). Anatomy Trains: Myofascial Meridians for Manual and Movement Therapists. Churchill Livingstone. Schleip, R. et al. (2012). Fascia: The Tensional Network of the Human Body. Churchill Livingstone. Huijing, P. A. (1999) Journal of Biomechanics — myofascial force transmission demonstrated in rat muscle. Evidence status: cross-body myofascial force transmission in intact humans remains contested. In vitro and cadaveric studies support mechanical continuity; controlled clinical trials demonstrating force transmission across the proposed meridians in living subjects are limited and methodologically heterogeneous (Wilke, J. et al. 2016 JOSPT; van der Wal 2009 Cells Tissues Organs). The model's clinical applications — plantar fasciitis responding to hamstring stretching, distal effects of local fascial release — are widely practised but lack the mechanistic proof the model implies. Classification controversy: see db4."
         }
       ]
     },
@@ -385,6 +385,33 @@
           "hint": "The ECM is a non-cellular meshwork of fibrous proteins and ground substance that provides structural support, tissue architecture signals, and a force-transmission medium. Collagen (~30% of total body protein): type I (bone, tendon, skin), type II (cartilage), type III (early wound healing, gut), type IV (basement membranes). Elastin (aorta, lung, skin): allows recoil after stretch (cross-linked tropoelastin). Proteoglycans (aggrecan, perlecan, versican): protein cores with long glycosaminoglycan chains that bind water and provide compressive resistance.",
           "tag": "CONCEPT",
           "note": "Hay, E. D. (ed.) (1981). Cell Biology of Extracellular Matrix. Plenum Press — definitive synthesis. 28 collagen types identified to date; type I is the most abundant protein in the body. Marfan syndrome: fibrillin-1 mutation → aortic dissection and lens dislocation (ECM scaffold failure). Osteogenesis imperfecta: collagen I mutation → brittle bones. Ehlers-Danlos syndrome: multiple collagen/enzyme mutations → hyperelastic skin and hypermobile joints. MMP (matrix metalloproteinases) remodel ECM during development, wound healing, and tumour invasion."
+        },
+        {
+          "id": "co11", "group": "Cardiovascular & Viscera",
+          "label": "GI Histology & Gut Wall Architecture",
+          "date": "1745", "loc": "University of Frankfurt an der Oder, Frankfurt an der Oder, Germany", "coords": [52.34, 14.55],
+          "links": ["co1", "co8", "co10"],
+          "hint": "The GI tract wall shares a universal four-layer architecture from oesophagus to rectum. (1) Mucosa: an inner epithelial lining adapted to local function, with a lamina propria and a muscularis mucosae. (2) Submucosa: dense connective tissue housing Meissner's (submucosal) nerve plexus and Brunner's glands in the duodenum. (3) Muscularis externa: inner circular and outer longitudinal smooth muscle with Auerbach's (myenteric) plexus between them. (4) Serosa (peritoneum-covered) or adventitia (retroperitoneal). The small intestine multiplies absorptive surface area ~600-fold over a flat tube via: plicae circulares (folds), villi (finger projections with a central lacteal and capillary network), and microvilli (brush border of enterocytes).",
+          "tag": "CONCEPT",
+          "note": "Lieberkühn, J. N. (1745). Dissertatio de Fabrica et Actione Villorum Intestinorum Tenuium — crypts of Lieberkühn (intestinal glands) and villi described. Brunner, J. C. (1688) — Brunner's glands in duodenum. Intestinal cell types: absorptive enterocytes (~80%), goblet cells (mucus secretion), Paneth cells (crypts base, antimicrobial peptides: defensins, lysozyme), enteroendocrine cells (serotonin, GIP, GLP-1), stem cells (Lgr5+ at crypt base: Sato, T. et al. 2009 Nature). The enteric nervous system (ENS) contains ~500 million neurons in Meissner's and Auerbach's plexuses — more than the spinal cord — controlling peristalsis, secretion, and local blood flow independently of the CNS."
+        },
+        {
+          "id": "co12", "group": "Cardiovascular & Viscera",
+          "label": "Pulmonary Alveoli & the Blood-Air Barrier",
+          "date": "1952", "loc": "Rockefeller Institute, New York, New York", "coords": [40.76, -73.96],
+          "links": ["co1", "co6", "co10", "co11"],
+          "hint": "The functional respiratory unit is the acinus: terminal bronchiole → respiratory bronchioles → alveolar ducts → alveolar sacs → alveoli (~300 million per lung; total gas-exchange surface area ~70m²). The blood-air barrier is <0.5µm thick, consisting of three fused layers: (1) Type I pneumocytes (squamous, covering 95% of alveolar surface, gas exchange); (2) a fused basement membrane shared between epithelium and endothelium; (3) fenestrated capillary endothelial cells. Type II pneumocytes (granular, 5% of surface area but 60% of alveolar cell count) produce surfactant (primarily dipalmitoyl phosphatidylcholine) that reduces surface tension, preventing alveolar collapse on expiration, and serve as progenitor cells for type I regeneration.",
+          "tag": "CONCEPT",
+          "note": "Malpighi (1661) first described alveolar structure under early microscopy. Type I/II pneumocyte distinction: Low, F. N. (1952–1953) using electron microscopy. Surfactant discovery: Pattle, R. E. (1955) Nature; Avery, M. E. & Mead, J. (1959) American Journal of Diseases of Children — surfactant deficiency causes infant respiratory distress syndrome (IRDS/hyaline membrane disease). Exogenous surfactant therapy (beractant, poractant alfa) is a cornerstone of neonatal intensive care. In adult ARDS, diffuse alveolar damage destroys type II cells and depletes surfactant, causing widespread atelectasis and refractory hypoxaemia. The Clara (club) cells of bronchioles are the secretory equivalent of type II cells in the conducting zone."
+        },
+        {
+          "id": "co13", "group": "Cardiovascular & Viscera",
+          "label": "Nephron & the Renal Filtration Barrier",
+          "date": "1842", "loc": "King's College London, London, England", "coords": [51.51, -0.12],
+          "links": ["co1", "co6", "co10"],
+          "hint": "Each kidney contains ~1 million nephrons. The nephron: renal corpuscle (glomerulus + Bowman's capsule) → proximal convoluted tubule (PCT: ~65% Na+/water, all glucose/amino acids reabsorbed) → loop of Henle (countercurrent multiplication creating medullary osmotic gradient) → distal convoluted tubule (fine Na+/Ca2+ regulation under aldosterone/PTH) → collecting duct (ADH-regulated water reabsorption; acid-base). The glomerular filtration barrier has three layers acting as a size- and charge-selective sieve: (1) fenestrated capillary endothelium with negatively charged glycocalyx repelling albumin; (2) glomerular basement membrane (type IV collagen, laminin, heparan sulphate, 250–350nm thick); (3) visceral epithelial cells (podocytes) with interdigitating foot processes bridged by slit diaphragms (nephrin, podocin proteins).",
+          "tag": "CONCEPT",
+          "note": "Bowman, W. (1842). 'On the structure and use of the Malpighian bodies of the kidney.' Philosophical Transactions of the Royal Society, 132, 57–80 — described the glomerulus, Bowman's capsule, and proposed filtration. Malpighi (1666) first described the glomerulus as a 'Malpighian body.' Nephrin gene (NPHS1): Kestilä, M. et al. (1998) Molecular Cell — mutations cause congenital nephrotic syndrome (Finnish type). Podocin (NPHS2): Boute, N. et al. (2000) Nature Genetics. Clinical: glomerulonephritis damages the filtration barrier; dipstick proteinuria + haematuria localises pathology to the glomerulus. GFR estimated by CKD-EPI formula. In diabetic nephropathy, GBM thickening and podocyte loss precede clinical proteinuria by years."
         }
       ]
     },
@@ -473,7 +500,7 @@
           "date": "1543", "loc": "University of Padua, Padua, Italy", "coords": [45.41, 11.88],
           "links": ["st1", "me1", "th7"],
           "tag": "PIONEER",
-          "hint": "Belgian anatomist who performed human dissections himself — radical in an era when professors read Galen aloud while barber-surgeons dissected below. De Humani Corporis Fabrica (1543) corrected ~200 Galenic errors and established anatomy as empirical science. Appointed imperial physician to Charles V and Philip II of Spain. Died on the return from a pilgrimage to Jerusalem, aged 49.",
+          "hint": "Belgian anatomist who performed human dissections himself — radical in an era when professors read Galen aloud while barber-surgeons dissected below. De Humani Corporis Fabrica (1543) replaced textual authority with direct empirical observation, transforming anatomy into an evidence-based discipline. Appointed imperial physician to Charles V and Philip II of Spain. Died on the return from a pilgrimage to Jerusalem, aged 49.",
           "note": "Born André Wytinck van Wesel in Brussels. Studied in Louvain, Paris, and Padua. Published the Fabrica and Epitome simultaneously. His public dissections at Padua drew large audiences. The Padua anatomy theatre (built 1594) remains the world's oldest surviving anatomy theatre. Modern Vesalius scholarship: Vesalius, A. (2014). The Fabric of the Human Body — annotated English translation (Northwestern)."
         },
         {
@@ -536,7 +563,7 @@
           "date": "1882", "loc": "University of Kiel, Kiel, Germany", "coords": [54.32, 10.13],
           "links": ["st4", "th1"],
           "tag": "PIONEER",
-          "hint": "German anatomist who named chromatin, mitosis, and the phases of cell division. Zellsubstanz, Kern und Zelltheilung (1882) — the definitive account of mitosis — described chromosome behaviour in dividing salamander cells stained with aniline dyes. His work on chromatin structure laid the groundwork for chromosome theory and ultimately for the understanding of DNA as genetic material.",
+          "hint": "German anatomist and cell biologist who pioneered aniline-dye staining of dividing salamander cells, producing the first clear visual record of chromosomes in motion. His meticulous illustrations made the mechanics of cell division observable for the first time, directly enabling the chromosome theory of heredity that followed in the next generation. His two-volume Zellsubstanz, Kern und Zelltheilung (1882) set the visual and descriptive standard for all subsequent cytology.",
           "note": "Flemming coined the terms 'chromatin' (1879) and 'mitosis' (1882). He described the equatorial plate (metaphase plate), chromosome splitting, and polar movement — all confirmed by later electron microscopy. He did not realise chromosomes were constant in number per species — this was established by van Beneden (1883) and Boveri (1888). Flemming did not connect chromatin to heredity; this synthesis came from Boveri, Sutton, and ultimately Morgan."
         },
         {
