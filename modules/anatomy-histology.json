@@ -1,0 +1,268 @@
+{
+  "id": "anatomy-histology",
+  "title": "Human Anatomy & Histology",
+  "subtitle": "Gross anatomy, tissue structures, musculoskeletal geography & histology",
+  "period": { "start": 1543, "end": 2025 },
+  "domain": "human-biology",
+  "mapCenter": [48, 10],
+  "mapZoom": 3,
+  "methodology": "METHODOLOGY · Every entry anchors to a landmark study, paper or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags replication status, major revisions and ongoing debates. Studies and effects carry a replicability badge — 🟢 robust · 🟡 nuanced or reduced · 🔴 failed or severely contested. Map pins mark the institution where the work was carried out.",
+  "categories": [
+    {
+      "id": "theory",
+      "label": "Theories & Models",
+      "icon": "📐",
+      "color": "#1A3A5C", "accent": "#2471A3", "bg": "#F0F7FF",
+      "subtitle": "Conceptual frameworks that organised anatomical and histological knowledge",
+      "entries": [
+        {
+          "id": "th1", "group": "Histology & Cells",
+          "label": "Cell Theory",
+          "date": "1855", "loc": "Charité Hospital, Berlin, Germany", "coords": [52.53, 13.38],
+          "links": ["co1", "co9", "co10", "st3", "st4"],
+          "hint": "All living organisms consist of one or more cells; the cell is the basic structural and functional unit of life; and all cells arise from pre-existing cells. Schleiden (1838) applied this to plants, Schwann (1839) to animals, and Virchow (1855) supplied the third tenet — 'omnis cellula e cellula' — completing the framework that redirected biology from organs to cells as the primary level of organisation.",
+          "tag": "THEORY",
+          "note": "Schleiden, M. J. (1838). 'Beiträge zur Phytogenesis.' Archiv für Anatomie. Schwann, T. (1839). Microscopical Researches into the Accordance in the Structure and Growth of Animals and Plants. Sydenham Society. Virchow, R. (1855). 'Cellular-Pathologie.' Archiv für pathologische Anatomie, 8, 3–39. The theory resolved the debate between humoral and solidist medicine in favour of cells as the locus of pathology."
+        },
+        {
+          "id": "th2", "group": "Development & Embryology",
+          "label": "Germ Layer Theory",
+          "date": "1828", "loc": "University of Königsberg, Königsberg, Prussia", "coords": [54.71, 20.51],
+          "links": ["st1"],
+          "hint": "The vertebrate embryo is organised from three primary tissue layers: ectoderm (outer), mesoderm (middle), and endoderm (inner). Each layer gives rise to specific organs and tissues with near-perfect fidelity: ectoderm → epidermis and nervous system; mesoderm → muscle, bone, cardiovascular and urogenital systems; endoderm → gut epithelium, liver, lungs and pancreas. The theory predicts organ derivation and explains why teratomas contain tissue from multiple layers.",
+          "tag": "THEORY",
+          "note": "Pander, H. C. (1817). Beiträge zur Entwickelungsgeschichte des Hühnchens im Eye — first description of three layers in chick embryo. von Baer, K. E. (1828). Über Entwickelungsgeschichte der Thiere — generalised to all vertebrates and named the layers. Remak, R. (1855) named and defined the three layers definitively. The germ layer framework is the conceptual anchor of both embryology and developmental biology."
+        },
+        {
+          "id": "th3", "group": "Musculoskeletal",
+          "label": "Wolff's Law of Bone Remodelling",
+          "date": "1892", "loc": "Charité Hospital, Berlin, Germany", "coords": [52.53, 13.38],
+          "links": ["co3", "ef1", "ef8", "st6"],
+          "hint": "Bone adapts its internal architecture and external form to the magnitude and direction of the habitual mechanical forces it experiences. Regions under compression develop denser trabeculae; unstressed regions lose bone. Wolff derived the mathematical prediction — that trabecular alignment mirrors principal stress trajectories — from Culmann's graphical statics of a crane and Fairbairn's tests on wrought iron.",
+          "tag": "THEORY",
+          "note": "Wolff, J. (1892). Das Gesetz der Transformation der Knochen. August Hirschwald, Berlin. Piezoelectric basis: Fukada, E. & Yasuda, I. (1957) Journal of the Physical Society of Japan — mechanical stress generates electrical potentials directing osteoblast activity. The law explains osteoporotic trabecular thinning, athlete bone density, and distraction osteogenesis (Ilizarov). Precursors: Roux (1881); explicit engineering analogy by Culmann."
+        },
+        {
+          "id": "th4", "group": "Cardiovascular & Viscera",
+          "label": "Harvey's Closed-Circuit Circulation",
+          "date": "1628", "loc": "St Bartholomew's Hospital, London, England", "coords": [51.52, -0.10],
+          "links": ["co6", "st2", "st5", "fg2"],
+          "hint": "Blood does not ebb and flow from the liver but circulates continuously in a closed loop driven by the heart as a pump. Harvey's crucial argument was quantitative: at ~2 oz per beat × 72 beats/min = ~144 oz/min — far more than the body could manufacture from food. Therefore blood must recirculate. He demonstrated venous valves enforce one-way flow and that blood exits via arteries and returns via veins.",
+          "tag": "THEORY",
+          "note": "Harvey, W. (1628). Exercitatio Anatomica de Motu Cordis et Sanguinis in Animalibus. Fitzeri, Frankfurt. Capillaries confirming the circuit were discovered by Malpighi (1661). Refuted Galen's model of blood produced in liver, consumed by tissues, and a pneuma-enriched arterial stream. Opposition from Galenic physicians persisted into the 1650s but was overcome as Harvey's ligature experiments were reproduced across Europe."
+        },
+        {
+          "id": "th5", "group": "Histology & Cells",
+          "label": "Tensegrity Model of Cell Mechanics",
+          "date": "1993", "loc": "Harvard Medical School, Boston, Massachusetts", "coords": [42.33, -71.10],
+          "links": ["co1", "co10", "ef2"],
+          "hint": "The cell maintains its shape through tensional integrity: actin microfilaments carry continuous tensile prestress while microtubules and crosslinked ECM bear discrete compression. External mechanical forces are transmitted through this lattice directly to the nucleus and chromatin, altering gene expression — the cellular basis of mechanotransduction. Disrupting tension collapses cell form; adding external compression stiffens it, exactly as a geodesic dome behaves.",
+          "tag": "THEORY",
+          "note": "Ingber, D. E. (1993). 'Cellular tensegrity: defining new rules of biological design that govern the cytoskeleton.' Journal of Cell Science, 104, 613–627. Mechanotransduction: Wang, N. et al. (1993) Science — integrins as mechanosensors. Clinical relevance: cancer cells have altered cytoskeletal tension; tumour stiffness (AFM) predicts invasiveness. The tensegrity model unified ECM, cytoskeleton, and nuclear mechanics into a single force-transmission hierarchy."
+        },
+        {
+          "id": "th6", "group": "Nervous System & Senses",
+          "label": "Dermatome Map & Segmental Innervation",
+          "date": "1893", "loc": "University College London, London, England", "coords": [51.52, -0.13],
+          "links": ["co7", "ef4", "fg6"],
+          "hint": "Each dorsal root ganglion and its spinal segment innervates a predictable band of skin (dermatome) and a group of muscles (myotome). The map predicts sensory loss after spinal nerve injury and the sites of referred pain from visceral disease: cardiac ischemia refers to C8–T1 territory (left arm, jaw); appendicitis initially refers to T10 (periumbilical). Adjacent dermatomal overlap means single-root lesions produce incomplete, not total, sensory loss.",
+          "tag": "THEORY",
+          "note": "Head, H. (1893). 'On disturbances of sensation with especial reference to the pain of visceral disease.' Brain, 16, 1–133 — first systematic dermatomal map derived from herpes zoster lesion boundaries. Foerster, O. (1933) Brain — definitive map from posterior root section in humans. Modern maps still disagree by up to 2 segments: Lee, M. W. et al. (2008); Downs, M. B. (2011) Spine. Clinical pearl: L4 → medial shin; L5 → dorsum foot; S1 → lateral foot and sole."
+        },
+        {
+          "id": "th7", "group": "Gross Anatomy",
+          "label": "Anatomical Nomenclature & Terminologia Anatomica",
+          "date": "1895", "loc": "University of Basel, Basel, Switzerland", "coords": [47.56, 7.59],
+          "links": ["co2", "me1", "st10"],
+          "hint": "The 1895 Basle Nomina Anatomica (BNA) replaced ~30,000 eponymous and vernacular terms with a single Latin vocabulary — the first international consensus in medicine. Anatomical position (standing, arms supinated), directional terms (anterior/posterior, medial/lateral, proximal/distal, superior/inferior), and body plane definitions (sagittal, coronal, transverse) are its lasting contribution. The current standard, Terminologia Anatomica (1998), lists ~7,500 terms.",
+          "tag": "FRAMEWORK",
+          "note": "His, W. (1895) — BNA published by the German Anatomical Society in Basel. Revisions: BNA → JNA (1936) → PNA (1955) → FCAT Terminologia Anatomica (1998). Eponymic terms persist clinically (Fallopian tube, Eustachian tube, Circle of Willis) and cause diagnostic ambiguity; standardisation is ongoing. The BNA reduced four competing nomenclatures to one, enabling international anatomical communication."
+        },
+        {
+          "id": "th8", "group": "Musculoskeletal",
+          "label": "Fascia as a Bodywide Tensional Network",
+          "date": "2001", "loc": "Cambridge, Massachusetts", "coords": [42.37, -71.11],
+          "links": ["co3", "co10", "th3", "ef5"],
+          "hint": "Myers' Anatomy Trains model (2001) proposes that myofascial continuities transmit tensile force across multiple joints and body segments — superseding the view of muscles as isolated force-generators between fixed origin and insertion. 'Myofascial meridians' (e.g., Superficial Back Line: plantar fascia → Achilles → hamstrings → thoracolumbar fascia → erector spinae → epicranial aponeurosis) transmit tension from heel to scalp. Schleip et al. (2012) provided histological evidence: fascia is innervated, contractile, and proprioceptive.",
+          "tag": "FRAMEWORK",
+          "note": "Myers, T. W. (2001). Anatomy Trains: Myofascial Meridians for Manual and Movement Therapists. Churchill Livingstone. Schleip, R. et al. (2012). Fascia: The Tensional Network of the Human Body. Churchill Livingstone. Huijing, P. A. (1999) Journal of Biomechanics — myofascial force transmission demonstrated in rat muscle. Clinical relevance: explains why plantar fasciitis may respond to hamstring stretching; surgical fascia release cascades. Classification controversy: db4."
+        }
+      ]
+    },
+    {
+      "id": "study",
+      "label": "Landmark Studies",
+      "icon": "🧪",
+      "color": "#4A235A", "accent": "#7D3C98", "bg": "#FAF5FF",
+      "subtitle": "Experiments, observations and atlases that established the structure of the human body",
+      "entries": [
+        {
+          "id": "st1", "group": "Gross Anatomy",
+          "label": "Vesalius — De Humani Corporis Fabrica",
+          "date": "1543", "loc": "University of Padua, Padua, Italy", "coords": [45.41, 11.88],
+          "links": ["co2", "me1", "fg1", "th7"],
+          "hint": "Seven books of systematic cadaveric dissection, illustrated by Jan van Calcar (Titian's studio), corrected ~200 Galenic errors made from animal dissection. Vesalius demonstrated that the human sternum has three segments (not seven), the jaw is a single bone, and the interventricular septum has no pores. The Fabrica established anatomy as an empirical observational science practised by the physician-dissector, not delegated to a barber-surgeon reading aloud from Galen.",
+          "tag": "OBSERVATION",
+          "repl": "robust",
+          "note": "Vesalius, A. (1543). De Humani Corporis Fabrica Libri Septem. Oporinus, Basel. Simultaneously published the Epitome — an abridged student edition. The Fabrica's seven books: bones and ligaments, muscles, vasculature, nervous system, abdominal organs, thoracic organs, brain and cranial nerves. Vesalius's self-portrait dissecting a female forearm symbolically displaced Galen as the authority. The book was reprinted in 1555 with revisions."
+        },
+        {
+          "id": "st2", "group": "Cardiovascular & Viscera",
+          "label": "Harvey — De Motu Cordis",
+          "date": "1628", "loc": "St Bartholomew's Hospital, London, England", "coords": [51.52, -0.10],
+          "links": ["co6", "th4", "fg2", "st5"],
+          "hint": "Harvey tied ligatures around the arm at different tightnesses to demonstrate venous valves enforcing one-way flow, then calculated the volume pumped per hour to be far more than the body contains — requiring recirculation. Vivisections on snakes (slow enough to observe cardiac cycles) showed the apex contracts inward during systole. The experiments were reproducible, quantitative, and anatomically falsifiable — a model of experimental anatomy.",
+          "tag": "EXPERIMENT",
+          "repl": "robust",
+          "note": "Harvey, W. (1628). Exercitatio Anatomica de Motu Cordis et Sanguinis in Animalibus. W. Fitzer, Frankfurt. Malpighi confirmed capillaries in frog lung in 1661 (st5), completing the anatomical circuit. Opposition from Galenic physicians (James Primrose, Emilio Parisano) was eventually overcome as ligature experiments were reproduced across Europe. Harvey also wrote an embryology text (1651): 'ex ovo omnia' — all animals arise from eggs."
+        },
+        {
+          "id": "st3", "group": "Histology & Cells",
+          "label": "Virchow — Cellular Pathology",
+          "date": "1858", "loc": "Charité Hospital, Berlin, Germany", "coords": [52.53, 13.38],
+          "links": ["co1", "th1", "fg5", "ef6"],
+          "hint": "'Omnis cellula e cellula' — every cell arises from a pre-existing cell. Virchow used histological sections to demonstrate that pathological tissue (tumours, inflamed tissue, necrotic areas) consists of abnormal cells derived from normal ones, not from spontaneous generation. This reoriented medicine from humoral to cellular: disease is the life of cells under altered conditions — a framework that directly created the discipline of histopathology.",
+          "tag": "OBSERVATION",
+          "repl": "robust",
+          "note": "Virchow, R. (1858). Die Cellularpathologie in ihrer Begründung auf physiologische und pathologische Gewebelehre. August Hirschwald, Berlin. Virchow also named leukaemia, thrombosis, embolism, and amyloid degeneration in the same decade. His political engagement (Reichstag, public health reform) made him a model of physician-scientist-citizen. Translation: Cellular Pathology (1860, Frank Chance)."
+        },
+        {
+          "id": "st4", "group": "Histology & Cells",
+          "label": "Flemming — Discovery of Mitosis",
+          "date": "1882", "loc": "University of Kiel, Kiel, Germany", "coords": [54.32, 10.13],
+          "links": ["co1", "th1", "fg8", "ef7"],
+          "hint": "Using aniline dyes to stain salamander fin cells with a high-resolution oil-immersion microscope, Flemming described and named chromatin (the dye-accepting nuclear substance) and mitosis (from Greek mitos, thread). He identified and named prophase, metaphase, and anaphase; described chromosome splitting and the equatorial plate; and demonstrated that new nuclei arise exclusively from pre-existing nuclei — completing Virchow's rule at the subcellular level.",
+          "tag": "OBSERVATION",
+          "repl": "robust",
+          "note": "Flemming, W. (1882). Zellsubstanz, Kern und Zelltheilung. F. C. W. Vogel, Leipzig. Flemming did not discover chromosomes (described by Schneider in 1873) but provided the definitive cytological account of their behaviour during division. Meiosis was described by van Beneden (1883) in Ascaris. The term 'mitosis' and its visual framework — threads separating to poles — enabled all subsequent chromosome theory and Mendel reintegration."
+        },
+        {
+          "id": "st5", "group": "Cardiovascular & Viscera",
+          "label": "Malpighi — Discovery of Capillaries",
+          "date": "1661", "loc": "University of Bologna, Bologna, Italy", "coords": [44.50, 11.34],
+          "links": ["co6", "co8", "th4", "fg9"],
+          "hint": "Using a rudimentary compound microscope with 30–50× magnification, Malpighi observed blood passing through a fine network of vessels in the dried and inflated lung of a frog — the capillaries Harvey had predicted but could not see. This closed Harvey's circulatory loop anatomically and confirmed that arteries and veins are connected by a third vessel class. Malpighi also demonstrated capillary exchange in the bladder, intestine, and skin.",
+          "tag": "OBSERVATION",
+          "repl": "robust",
+          "note": "Malpighi, M. (1661). De Pulmonibus Observationes Anatomicae. Letters to Borelli. Bologna. Malpighi's subsequent histological discoveries include the renal glomerulus (Malpighian corpuscle), splenic white pulp (Malpighian body), taste buds, and deep epidermal layers (stratum Malpighii / stratum spinosum). He established microscopic anatomy as a discipline and was elected Fellow of the Royal Society."
+        },
+        {
+          "id": "st6", "group": "Musculoskeletal",
+          "label": "Röntgen — First Diagnostic X-ray",
+          "date": "1895", "loc": "University of Würzburg, Würzburg, Germany", "coords": [49.80, 9.94],
+          "links": ["co3", "co4", "me3", "fg3"],
+          "hint": "On 8 November 1895, Röntgen noticed a barium platinocyanide screen glowing across the room when a cathode-ray tube was energised — even though the tube was shielded. The X-ray penetrated matter in proportion to density: soft tissue was translucent; bone, opaque. The first medical image was an X-ray of his wife Anna's hand showing bones and her wedding ring. Within six weeks X-rays were being used clinically to locate bullets and fractures.",
+          "tag": "EXPERIMENT",
+          "repl": "robust",
+          "note": "Röntgen, W. C. (1895). 'Über eine neue Art von Strahlen.' Sitzungsberichte der Physikalisch-medizinischen Gesellschaft zu Würzburg, 9, 132–141. Nobel Prize in Physics 1901 — the first Nobel Prize awarded. Clinical adoption was immediate: X-ray units deployed in the Balkan War by 1897. Long-term radiation risks were not appreciated for decades; many early radiologists, including Marie Curie, died of aplastic anaemia or radiation-induced cancers."
+        },
+        {
+          "id": "st7", "group": "Nervous System & Senses",
+          "label": "Cajal — Histología del Sistema Nervioso",
+          "date": "1899", "loc": "Universidad de Madrid, Madrid, Spain", "coords": [40.45, -3.73],
+          "links": ["co7", "fg6", "db2"],
+          "hint": "Using Golgi's silver chromate stain (which paradoxically stains only 1–5% of neurons, making the rest transparent), Cajal demonstrated that neurons are individual discrete cells — not a continuous reticulum as Golgi believed. He described axon growth cones in chick embryos, dendritic spines, the direction of impulse flow (axon out, dendrites in), and mapped visual and cerebellar cortex pathways with extraordinary precision that electron microscopy later confirmed.",
+          "tag": "OBSERVATION",
+          "repl": "robust",
+          "note": "Cajal, S. R. y (1899–1904). Histología del Sistema Nervioso del Hombre y de los Vertebrados (2 vols). Moya, Madrid. Nobel Prize 1906, shared with Golgi — despite their fundamental disagreement about the neuron doctrine (Golgi maintained the reticular theory in his own Nobel lecture). Cajal's drawings remain anatomically accurate; many were not bettered by electron microscopy until the 1950s. He is considered the father of modern neuroscience."
+        },
+        {
+          "id": "st8", "group": "Histology & Cells",
+          "label": "McCulloch & Till — Bone Marrow Stem Cells",
+          "date": "1961", "loc": "Ontario Cancer Institute, Toronto, Ontario, Canada", "coords": [43.66, -79.39],
+          "links": ["co1", "ef7", "ap6"],
+          "hint": "Lethally irradiated mice given intravenous bone marrow cells from healthy donors developed discrete spleen nodules after 10–14 days — each colony derived from a single transplanted progenitor. By varying dose and re-transplanting colonies, McCulloch and Till demonstrated a self-renewing, multipotent progenitor capable of producing all blood cell lineages — the first experimental demonstration of a stem cell. The colony-forming unit assay they developed remains in use.",
+          "tag": "EXPERIMENT",
+          "repl": "robust",
+          "note": "Till, J. E. & McCulloch, E. A. (1961). 'A direct measurement of the radiation sensitivity of normal mouse bone marrow cells.' Radiation Research, 14, 213–222. Becker, A. J. et al. (1963) Nature — proved colonies are clonal. Haematopoietic stem cell isolation: Weissman, I. L. et al. (1988) PNAS — Lin-Sca-1+ cells. Foundation of bone marrow transplantation, CAR-T therapy, and all subsequent stem cell biology."
+        },
+        {
+          "id": "st9", "group": "Gross Anatomy",
+          "label": "Visible Human Project",
+          "date": "1994", "loc": "National Library of Medicine, Bethesda, Maryland", "coords": [38.99, -77.10],
+          "links": ["co2", "me5", "ap4"],
+          "hint": "A male cadaver and female cadaver were each CT and MRI-scanned before being embedded in gelatin, frozen, and serially sectioned. Male (1994): 1,871 transverse cryosections at 1mm; female (1995): 5,189 sections at 0.33mm. Each section was colour-photographed. The freely available dataset established the standard for digital anatomical atlases, surgical simulation software, and 3D anatomical reconstruction — making gross anatomy accessible beyond the dissection room.",
+          "tag": "DATASET",
+          "repl": "robust",
+          "note": "Ackerman, M. J. (1998). 'The Visible Human Project.' Proceedings of the IEEE, 86, 504–511. The male cadaver was Joseph Paul Jernigan, an executed prisoner (1993). Dataset available at nlm.nih.gov/research/visible. Used as basis for Anatomage, BioDigital Human, and multiple surgical planning platforms. The project raised ethical debate about cadaveric consent and use of executed prisoners' remains."
+        },
+        {
+          "id": "st10", "group": "Gross Anatomy",
+          "label": "Gray & Carter — Gray's Anatomy",
+          "date": "1858", "loc": "St George's Hospital, London, England", "coords": [51.50, -0.15],
+          "links": ["co2", "co3", "co6", "fg7", "me1"],
+          "hint": "Henry Gray wrote the text; Henry Vandyke Carter produced 363 original woodcut illustrations using a camera lucida. The organisation — by region and system — and the clarity of Carter's drawings set the template for anatomical education. Two years of dissection at St George's produced the most influential anatomical textbook in history, now in its 42nd edition (2020). Gray's systemic-regional structure has never been superseded.",
+          "tag": "SYNTHESIS",
+          "repl": "robust",
+          "note": "Gray, H. (1858). Anatomy: Descriptive and Surgical. John W. Parker and Son, London. Carter received no royalties and no co-authorship on the title page — acknowledged only in the introduction. An American edition appeared in 1859. Gray died of confluent smallpox in 1861, aged ~34. The 41st edition (Churchill Livingstone, 2016): 1,562 pages, 2,100 illustrations. The book remains in continuous print — one of the longest-lived medical texts."
+        },
+        {
+          "id": "st11", "group": "Histology & Cells",
+          "label": "Uhlén et al. — Human Protein Atlas",
+          "date": "2003", "loc": "KTH Royal Institute of Technology, Stockholm, Sweden", "coords": [59.35, 18.07],
+          "links": ["co1", "co9", "me6", "ap2"],
+          "hint": "Systematic immunohistochemical staining of tissue microarrays with antibodies against every human protein, providing a spatial expression map of the human proteome at single-cell resolution across 44 normal tissue types. Annotated images at proteinatlas.org. The atlas enabled identification of tissue-specific proteins, novel cancer biomarkers, and tissue-selective drug targets — turning histology from a morphological to a molecular discipline.",
+          "tag": "DATASET",
+          "repl": "robust",
+          "note": "Uhlén, M. et al. (2005). 'A human protein atlas for normal and cancer tissues based on antibody proteomics.' Molecular & Cellular Proteomics, 4, 1920–1932. As of 2023: antibodies for >24,000 proteins; subcellular localisation atlas; single-cell RNA atlas. Nature Methods 2022 Method of the Year. The atlas revealed that ~70% of human proteins are expressed in the testis — the most transcriptionally active human tissue."
+        }
+      ]
+    },
+    {
+      "id": "effect",
+      "label": "Effects & Phenomena",
+      "icon": "📊",
+      "color": "#117A65", "accent": "#148F77", "bg": "#E8F8F5",
+      "subtitle": "Named anatomical and histological phenomena with diagnostic or functional significance",
+      "entries": []
+    },
+    {
+      "id": "concept",
+      "label": "Core Concepts",
+      "icon": "🧩",
+      "color": "#6E2C00", "accent": "#A04000", "bg": "#FEF5E7",
+      "subtitle": "Fundamental anatomical and histological constructs and structural frameworks",
+      "entries": []
+    },
+    {
+      "id": "method",
+      "label": "Methods & Techniques",
+      "icon": "🔬",
+      "color": "#8B5E00", "accent": "#B7770D", "bg": "#FEF9E7",
+      "subtitle": "Technologies and techniques for visualising and investigating anatomical structure",
+      "entries": []
+    },
+    {
+      "id": "figure",
+      "label": "Key Figures",
+      "icon": "👤",
+      "color": "#1F618D", "accent": "#2980B9", "bg": "#EAF2FB",
+      "subtitle": "Anatomists, histologists and physicians who established the discipline",
+      "entries": []
+    },
+    {
+      "id": "debate",
+      "label": "Debates & Open Questions",
+      "icon": "⚖️",
+      "color": "#CA6F1E", "accent": "#E67E22", "bg": "#FEF0E7",
+      "subtitle": "Controversies, contested claims and unresolved questions in anatomy and histology",
+      "entries": []
+    },
+    {
+      "id": "application",
+      "label": "Clinical & Educational Applications",
+      "icon": "🔗",
+      "color": "#2E86C1", "accent": "#2874A6", "bg": "#EBF5FB",
+      "subtitle": "How anatomical and histological knowledge translates to clinical practice and education",
+      "entries": []
+    }
+  ],
+  "timeline": [
+    { "id": "study",       "icon": "🧪", "accent": "#7D3C98", "label": "Landmark Studies",                "events": [] },
+    { "id": "theory",      "icon": "📐", "accent": "#2471A3", "label": "Theories & Models",               "events": [] },
+    { "id": "effect",      "icon": "📊", "accent": "#148F77", "label": "Effects & Phenomena",             "events": [] },
+    { "id": "method",      "icon": "🔬", "accent": "#B7770D", "label": "Methods & Techniques",            "events": [] },
+    { "id": "debate",      "icon": "⚖️", "accent": "#E67E22", "label": "Debates & Open Questions",       "events": [] },
+    { "id": "application", "icon": "🔗", "accent": "#2874A6", "label": "Clinical Applications",           "events": [] }
+  ]
+}
