@@ -318,7 +318,7 @@ const FIELDS = [
   { id:"cell-molecular-bio",         domain:"life-sciences",     label:"Cellular & Molecular Biology",              sub:"Cell structure, biochemistry & the molecular basis of life",            status:"planned" },
   { id:"microbiology-virology",      domain:"life-sciences",     label:"Microbiology & Virology",                   sub:"Bacteria, viruses & the microbial world",                               status:"planned" },
   { id:"botany",                     domain:"life-sciences",     label:"Botany & Plant Sciences",                   sub:"Plant structure, physiology, diversity & ecology",                      status:"planned" },
-  { id:"zoology-animal-behavior",    domain:"life-sciences",     label:"Zoology & Animal Behavior",                 sub:"Animal diversity, ecology & the evolution of behaviour",                status:"planned" },
+  { id:"zoology-animal-behavior",    domain:"life-sciences",     label:"Zoology & Animal Behavior",                 sub:"Animal diversity, ecology & the evolution of behaviour",                status:"ready",   file:"modules/zoology-animal-behavior.json" },
   // ── PHYSICAL SCIENCES & CHEMISTRY ────────────────────────────────────────────
   { id:"classical-physics",          domain:"physical-sciences", label:"Physics: Classical Mechanics & Thermodynamics", sub:"Force, motion, energy & heat",                                   status:"planned" },
   { id:"em-optics",                  domain:"physical-sciences", label:"Physics: Electromagnetism & Optics",        sub:"Fields, waves, light & the electromagnetic spectrum",                   status:"planned" },
@@ -1366,6 +1366,61 @@ const STUDY_PLANS = {
       {
         title: '10 — Clinical & Educational Applications',
         rationale: 'Surgical anatomy, histopathology, joint replacement biomechanics, radiological anatomy, plastination-based education, and tissue engineering show how structural knowledge translates directly into diagnosis, operative planning, and regenerative medicine.',
+        cats: ['application']
+      }
+    ]
+  },
+  'zoology-animal-behavior': {
+    meta: 'From Tinbergen\'s four questions to Hamilton\'s rule: the ethological and evolutionary foundations of animal behaviour. Begins with the founders and their methods, builds through evolutionary theory and animal diversity, then works outward through communication, social behaviour, reproduction and foraging, closing with live debates and real-world applications.',
+    modules: [
+      {
+        title: '1 — Founders of Ethology',
+        rationale: 'Lorenz, Tinbergen, von Frisch, Goodall, and Griffin defined the field\'s questions, methods and vocabulary. Meeting them first frames every subsequent concept against the historical context in which it was contested.',
+        groups: ['Pioneers & Theorists']
+      },
+      {
+        title: '2 — Methods in Field Behaviour',
+        rationale: 'Ethograms, focal sampling, radio telemetry, playback experiments, mark-recapture, phylogenetic comparative methods and game-theoretic modelling are the instruments through which behavioural knowledge is produced. Understanding the method clarifies what claims are actually supported.',
+        cats: ['method']
+      },
+      {
+        title: '3 — Evolutionary Foundations',
+        rationale: 'Natural selection, kin selection, reciprocal altruism, Tinbergen\'s four questions, the Red Queen, and ESS theory supply the theoretical skeleton that every subsequent module hangs on. These are the ideas that transformed observation of animal behaviour into an evolutionary science.',
+        groups: ['Evolutionary Foundations']
+      },
+      {
+        title: '4 — Animal Diversity & Phylogeny',
+        rationale: 'The species-area relationship, Müllerian and Batesian mimicry, and phylogenetic comparative methods reveal how diversity is generated, measured and structured. These entries provide the macroecological context for behavioural variation across taxa.',
+        groups: ['Animal Diversity & Phylogeny']
+      },
+      {
+        title: '5 — Communication & Signalling',
+        rationale: 'The waggle dance, vervet alarm calls, the handicap principle, the dear enemy effect and the honest-vs-conventional debate reveal the logic of information exchange between animals. This module builds the vocabulary for evaluating signal reliability and evolution.',
+        groups: ['Communication & Signalling']
+      },
+      {
+        title: '6 — Social Behaviour & Cooperation',
+        rationale: 'Kin discrimination, alarm calling in ground squirrels, tit-for-tat and eusociality show how cooperation is maintained by natural selection — through relatedness, reciprocity or mutualism. Hamilton\'s rule is applied to real populations here.',
+        groups: ['Social Behaviour & Cooperation']
+      },
+      {
+        title: '7 — Reproduction & Sexual Selection',
+        rationale: 'Sexual selection theory, parental investment, Bateman\'s principle, the Bruce effect and Endler\'s guppy experiment trace the evolutionary logic of mating systems from first principles to contested empirical claims. Sexual dimorphism and mate choice are explained.',
+        groups: ['Reproduction & Sexual Selection']
+      },
+      {
+        title: '8 — Foraging, Ecology & Cognition',
+        rationale: 'Optimal foraging theory, the marginal value theorem, crow tool manufacture, the star compass and GPS migratory tracking connect energetics, ecology and cognitive sophistication. These entries show behaviour operating across multiple timescales — within a patch, across a season, across a lifetime.',
+        groups: ['Foraging & Ecology', 'Migration & Cognition']
+      },
+      {
+        title: '9 — Debates & Open Questions',
+        rationale: 'Group selection, the sociobiology controversy, units of selection, animal consciousness, Bateman\'s replication failure, cultural transmission and the instinct-vs-learning debate are best evaluated now, against the full empirical base built in modules 3–8.',
+        cats: ['debate']
+      },
+      {
+        title: '10 — Applications',
+        rationale: 'Conservation genetics, biological pest control, pollinator conservation, animal-assisted interventions, GPS tracking for migratory conservation, and invasive species management show where the evolutionary science of behaviour translates into real-world decision-making.',
         cats: ['application']
       }
     ]
