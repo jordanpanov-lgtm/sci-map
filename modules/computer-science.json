@@ -161,7 +161,8 @@
             "co5",
             "db6",
             "ap6",
-            "ap1"
+            "ap1",
+            "st14"
           ],
           "hint": "Brewer conjectured — and Gilbert & Lynch later proved — that a distributed data system can simultaneously guarantee at most two of three properties: Consistency (every read reflects the most recent write), Availability (every request receives a response), and Partition tolerance (the system continues operating despite network splits). Real distributed databases must choose which two to prioritise — Cassandra (AP) vs HBase (CP) — a choice that drives distributed systems architecture.",
           "tag": "THEORY",
@@ -181,7 +182,8 @@
             "st1",
             "st8",
             "db2",
-            "fg2"
+            "fg2",
+            "st13"
           ],
           "hint": "Newell and Simon proposed that a physical symbol system — any device that manipulates symbols according to rules — has the necessary and sufficient conditions for general intelligent action. This underpinned Good Old-Fashioned AI (GOFAI): expert systems, logic programming, and automated theorem proving. It remains the foundational claim contested in AI philosophy: does intelligence require symbol manipulation, or is something more (embodiment, statistical pattern-matching) necessary?",
           "tag": "THEORY",
@@ -201,7 +203,8 @@
             "ef6",
             "fg12",
             "co6",
-            "me5"
+            "me5",
+            "st13"
           ],
           "hint": "Valiant asked: under what conditions can a learning algorithm generalise from training examples to new cases? He defined a Probably Approximately Correct (PAC) learner as one that, given enough examples, outputs a hypothesis correct on all but an ε fraction of instances with probability at least 1-δ. PAC learning theory gave machine learning its first rigorous mathematical foundation, bounding how many training examples are needed for a given hypothesis class.",
           "tag": "THEORY",
@@ -224,7 +227,8 @@
             "co7",
             "me6",
             "db4",
-            "th3"
+            "th3",
+            "st14"
           ],
           "hint": "Diffie and Hellman showed that two parties can establish a shared secret over an insecure channel with no prior contact — using a mathematical trapdoor function that is easy to compute forward but practically impossible to reverse. This solved the key distribution problem that had stymied cryptography for millennia, and enabled the entire architecture of internet security: HTTPS, TLS, SSH, and digital signatures all depend on this principle.",
           "tag": "THEORY",
@@ -382,7 +386,8 @@
             "fg10",
             "ap4",
             "ef4",
-            "st9"
+            "st9",
+            "st12"
           ],
           "hint": "Tim Berners-Lee, a physicist at CERN, combined three existing ideas — hypertext, the internet, and a domain name system — to propose a distributed information system in which documents link to each other via URLs over HTTP. The first website went live on 20 December 1990. CERN made the web technology royalty-free in 1993, enabling explosive growth: from one website in 1991 to over 1 billion by 2014.",
           "tag": "DISCOVERY",
@@ -472,6 +477,66 @@
           "tag": "DISCOVERY",
           "repl": "mixed",
           "note": "Brown, T. et al. (2020). 'Language Models are Few-Shot Learners.' Advances in Neural Information Processing Systems, 33, 1877–1901. Scaling laws: Kaplan, J. et al. (2020). 'Scaling Laws for Neural Language Models.' arXiv:2001.08361. GPT-3 was accessed via API only; GPT-4 (2023) and subsequent models have made capabilities more accessible. Limitations documented: factual hallucination, inconsistency, sensitivity to prompt phrasing, and demographic bias from training data. Repl: mixed — few-shot capabilities are real and robust, but reports of emergent reasoning are contested (Schaeffer et al. 2023)."
+        },
+        {
+          "id": "st12",
+          "group": "AI: Symbolic & HCI",
+          "label": "The Mother of All Demos (Engelbart)",
+          "date": "1968",
+          "loc": "Stanford Research Institute, Menlo Park, California",
+          "coords": [
+            37.45,
+            -122.18
+          ],
+          "links": [
+            "ef5",
+            "me4",
+            "st7",
+            "fg10"
+          ],
+          "hint": "In a single 90-minute presentation at the Fall Joint Computer Conference in 1968, Douglas Engelbart live-demonstrated a computer with a mouse, editable documents, hyperlinks, real-time collaborative editing between remote users, and video conferencing — none of which any audience member had seen before. The demo is the bridge between ENIAC-era batch computing and the personal, interactive, networked computing we use today. Every graphic interface, every wiki, every video call traces a direct lineage to this room.",
+          "tag": "EXPERIMENT",
+          "repl": "robust",
+          "note": "Engelbart, D. C. (1968). 'A Research Center for Augmenting Human Intellect.' Proceedings of the AFIPS Fall Joint Computer Conference, 33, 395-410. The full 100-minute footage is archived at the Doug Engelbart Institute (engelbart.org). Engelbart's NLS (oN-Line System) at SRI's Augmentation Research Center originated every concept demonstrated; commercial products followed 10-20 years later — the mouse with the Xerox Star (1981), hypertext with the WWW (1991). Engelbart received the Turing Award in 1997. The demo is widely considered the most consequential single presentation in the history of computing."
+        },
+        {
+          "id": "st13",
+          "group": "Machine Learning & Neural Networks",
+          "label": "Perceptron & the First AI Winter (Minsky-Papert)",
+          "date": "1969",
+          "loc": "MIT, Cambridge, Massachusetts",
+          "coords": [
+            42.36,
+            -71.09
+          ],
+          "links": [
+            "co6",
+            "fg12",
+            "th8",
+            "th9"
+          ],
+          "hint": "Frank Rosenblatt's Perceptron (1957) was the first learning neural model, triggering sweeping predictions that machine intelligence was years away. Minsky and Papert's 1969 mathematical proof showed that a single-layer perceptron cannot compute the XOR function — a fatal limitation ruling out most interesting tasks — and that Rosenblatt had no method for training multi-layer networks that would overcome it. Research funding collapsed, beginning the first AI Winter. The problem lay dormant until backpropagation (1986) demonstrated that multi-layer networks could learn XOR and far harder functions.",
+          "tag": "EXPERIMENT",
+          "repl": "robust",
+          "note": "Rosenblatt, F. (1958). 'The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain.' Psychological Review, 65(6), 386-408. Minsky, M. L. & Papert, S. A. (1969). Perceptrons: An Introduction to Computational Geometry. MIT Press. The XOR limitation is mathematically definitive: no linear classifier can separate XOR-distributed data. Rumelhart, D. E., Hinton, G. E. & Williams, R. J. (1986). 'Learning Representations by Back-propagating Errors.' Nature, 323, 533-536 — solved the multi-layer training problem. A second AI winter followed in the late 1980s after expert systems underdelivered; the current deep learning era is the third wave, sparked by AlexNet (2012)."
+        },
+        {
+          "id": "st14",
+          "group": "Cryptography & Security",
+          "label": "Nakamoto Consensus & the Blockchain (Bitcoin)",
+          "date": "2008",
+          "loc": "Unknown (published pseudonymously as Satoshi Nakamoto)",
+          "coords": null,
+          "links": [
+            "co7",
+            "th10",
+            "db4",
+            "th7"
+          ],
+          "hint": "Satoshi Nakamoto's 2008 whitepaper proposed the first solution to the Byzantine Generals Problem in a permissionless, adversarial network: proof-of-work allows anonymous participants to agree on a canonical transaction history with no trusted authority. The blockchain — a cryptographically chained sequence of transaction blocks — makes rewriting history computationally prohibitive. Whether understood as distributed systems breakthrough, monetary experiment, or environmental liability, the paper is the most cited CS preprint of the 21st century.",
+          "tag": "DISCOVERY",
+          "repl": "mixed",
+          "note": "Nakamoto, S. (2008). 'Bitcoin: A Peer-to-Peer Electronic Cash System.' bitcoin.org/bitcoin.pdf. The identity of Satoshi Nakamoto remains unknown. The theoretical foundation is: Lamport, L., Shostak, R. & Pease, M. (1982). 'The Byzantine Generals Problem.' ACM Transactions on Programming Languages and Systems, 4(3), 382-401. Paxos (Lamport 1989) solved Byzantine consensus in trusted networks; Nakamoto solved it without trust. Repl: mixed — the consensus mechanism works as described, but Bitcoin's energy use (~100 TWh/year, comparable to a mid-sized country), 7 transactions/second throughput ceiling, and use in ransomware are well-documented. Ethereum (2015) extended the model with programmable smart contracts; its shift to proof-of-stake (2022) reduced energy use by ~99.95%."
         }
       ]
     },
@@ -579,7 +644,8 @@
           "links": [
             "me4",
             "db2",
-            "ap3"
+            "ap3",
+            "st12"
           ],
           "hint": "Fitts showed that the time to move a pointing device to a target is a logarithmic function of the ratio of target distance to target width: T = a + b log₂(2D/W). A distant, small target takes longer to hit than a nearby, large one — a quantitative law governing human motor control. Fitts's Law is the bedrock of HCI design: it explains why desktop taskbars belong at screen edges (infinite width) and why small touch targets are slow to tap.",
           "tag": "LAW",
@@ -698,7 +764,8 @@
             "me2",
             "ap4",
             "fg6",
-            "db1"
+            "db1",
+            "co8"
           ],
           "hint": "Big-O notation, introduced in mathematics by Bachmann (1894) and formalised for computer science by Knuth (1968), expresses the growth rate of an algorithm's resource consumption (time or space) as a function of input size, ignoring constant factors. O(n²) means the algorithm's cost grows quadratically. This vocabulary allows developers to reason about performance at scale without running code — distinguishing algorithms that will work in production from those that will not.",
           "tag": "CONCEPT",
@@ -737,7 +804,8 @@
             "th6",
             "me3",
             "co4",
-            "fg8"
+            "fg8",
+            "co8"
           ],
           "hint": "An abstract data type defines a data structure by its operations and their specified behaviour, hiding the implementation details. A Stack is defined by push, pop, and peek — whether it is implemented as an array or linked list is irrelevant to the user. ADTs are the conceptual foundation of encapsulation in object-oriented programming and of interface-based design in software engineering — the principle that code should depend on abstractions, not concretions.",
           "tag": "CONCEPT",
@@ -803,7 +871,8 @@
             "ef6",
             "ap3",
             "fg12",
-            "ap5"
+            "ap5",
+            "st13"
           ],
           "hint": "Backpropagation applies the chain rule of calculus to compute the gradient of a loss function with respect to every weight in a neural network in a single backward pass. Gradient descent then adjusts each weight proportionally to its gradient, iteratively reducing prediction error. Together, they make training deep neural networks tractable. Virtually every deep learning model — CNNs, RNNs, transformers — is trained by some variant of gradient descent with backpropagation.",
           "tag": "CONCEPT",
@@ -825,11 +894,32 @@
             "st6",
             "ef9",
             "me6",
-            "db4"
+            "db4",
+            "st14"
           ],
           "hint": "A zero-knowledge proof is a protocol by which a prover can convince a verifier that a statement is true — e.g., 'I know the password' — without revealing any information beyond the statement's truth. The prover demonstrates knowledge without disclosure. ZKPs are foundational to privacy-preserving authentication, anonymous credentials, and blockchain privacy protocols (Zcash, Ethereum scaling). The concept formalized a precise mathematical notion of what it means to 'prove without revealing'.",
           "tag": "CONCEPT",
           "note": "Goldwasser, S., Micali, S. & Rackoff, C. (1985). 'The Knowledge Complexity of Interactive Proof Systems.' Proceedings of the 17th Annual ACM Symposium on Theory of Computing, 291–304. Turing Award 2012 (Goldwasser and Micali). The 'Ali Baba cave' thought experiment by Quisquater et al. (1990) is the canonical intuitive explanation. Practical variants: zk-SNARKs (succinct non-interactive arguments of knowledge) are now deployed in Zcash and Ethereum rollups; they allow proofs of computational integrity that are fast to verify even if slow to generate."
+        },
+        {
+          "id": "co8",
+          "group": "Algorithms & Data Structures",
+          "label": "Hash Tables",
+          "date": "1953",
+          "loc": "IBM, New York, New York",
+          "coords": [
+            40.71,
+            -74
+          ],
+          "links": [
+            "co1",
+            "co3",
+            "me2",
+            "ap4"
+          ],
+          "hint": "A hash table maps keys to values by passing the key through a hash function to produce an array index. Lookup, insertion, and deletion all run in O(1) average time — faster than any comparison-based or tree-based structure. Python dictionaries, JavaScript objects, database indexes, network routing tables, and virtually every caching system use hash tables internally. An algorithm that needs O(1) lookup with arbitrary keys is almost always a hash table.",
+          "tag": "CONCEPT",
+          "note": "Luhn, H. P. (1953). 'A New Method of Recording and Searching Information.' IBM internal memorandum — the earliest documented use. Morris, R. (1968). 'Scatter Storage Techniques.' Communications of the ACM, 11(1), 38-44 — popularised the term 'hash'. Knuth, D. E. (1998). The Art of Computer Programming, Vol. 3, Section 6.4. The Art of Hashing — the definitive analysis. Collision resolution: chaining (each slot holds a linked list) and open addressing (probe a sequence of slots on collision) are the two main strategies. Worst case is O(n) if all keys map to one bucket; load factor management and a good hash function are critical. Cryptographic hash functions (SHA-256, bcrypt) are a separate family designed for non-invertibility, not speed."
         }
       ]
     },
@@ -876,7 +966,8 @@
           "links": [
             "co1",
             "co2",
-            "st5"
+            "st5",
+            "co8"
           ],
           "hint": "Knuth's Art of Computer Programming systematised the analysis of algorithms: count the number of operations as a function of input size, express it in Big-O notation, and use probability theory for average-case analysis. Algorithm analysis allows comparison of approaches before implementation and identification of bottlenecks. It is the core methodology of theoretical computer science, underlying the design of every efficient data structure and sorting algorithm.",
           "tag": "METHOD",
@@ -918,7 +1009,8 @@
           "links": [
             "ef5",
             "db2",
-            "ap3"
+            "ap3",
+            "st12"
           ],
           "hint": "The cognitive walkthrough (Lewis et al. 1990) is a usability evaluation technique in which evaluators step through a task sequence, asking at each step whether a user would know what to do, recognise the correct action, and interpret feedback correctly. It requires no user testing — just interface inspection against a user-task model. Combined with empirical usability testing (Nielsen & Molich 1990), these methods provide systematic evidence about interface quality before deployment.",
           "tag": "METHOD",
@@ -1163,7 +1255,8 @@
             "st7",
             "co5",
             "ap4",
-            "st3"
+            "st3",
+            "st12"
           ],
           "hint": "Berners-Lee invented the World Wide Web at CERN as a tool for sharing particle physics documentation — and then made it royalty-free. His three key inventions — HTTP (the transfer protocol), HTML (the markup language), and URLs (the addressing scheme) — created the web by combining hypertext with the internet. His decision not to patent the web technologies and CERN's release of them into the public domain in 1993 were decisive in enabling its adoption across the world.",
           "tag": "FIGURE",
@@ -1205,7 +1298,8 @@
             "co6",
             "th9",
             "db3",
-            "ap3"
+            "ap3",
+            "st13"
           ],
           "hint": "Hinton championed neural networks through decades of scepticism, co-developing backpropagation (1986), Boltzmann machines (1985), and dropout regularisation (2012). The AlexNet paper (Krizhevsky, Sutskever, Hinton 2012) won the ImageNet challenge by a margin so large it triggered the deep learning revolution. More than any other researcher, Hinton is responsible for the return of neural networks as the dominant approach in AI — and has since become a prominent voice warning about existential risks from AI systems.",
           "tag": "FIGURE",
@@ -1299,7 +1393,8 @@
             "st6",
             "co7",
             "me6",
-            "fg11"
+            "fg11",
+            "st14"
           ],
           "hint": "The Crypto Wars debate asks how much the state can or should limit strong encryption. The US government proposed the Clipper Chip (1993) — a hardware key-escrow system that would give law enforcement a backdoor to encrypted communications — triggering fierce opposition from technologists and civil liberties groups. The debate recurs: each generation of end-to-end encrypted messaging (PGP, Signal, iMessage) prompts law enforcement demands for backdoors, which cryptographers argue would weaken security for everyone.",
           "tag": "DEBATE",
@@ -1467,7 +1562,8 @@
             "st7",
             "st9",
             "co1",
-            "fg10"
+            "fg10",
+            "co8"
           ],
           "hint": "Web search requires indexing billions of documents (inverted index), ranking them by relevance (PageRank and hundreds of other signals), and returning results in under 100 milliseconds. Google's early breakthrough was link-based ranking (PageRank) combined with anchor-text analysis; modern search layers machine learning (BERT, MUM) to understand query intent rather than just match keywords. Search engines have become the primary interface between humans and organised knowledge.",
           "tag": "APPLICATION",
@@ -1538,6 +1634,11 @@
           "entryId": "st5"
         },
         {
+          "y": 1968,
+          "l": "Engelbart: Mother of All Demos",
+          "entryId": "st12"
+        },
+        {
           "y": 1969,
           "l": "ARPANET: first host-to-host message",
           "entryId": "st3"
@@ -1546,6 +1647,11 @@
           "y": 1969,
           "l": "Thompson & Ritchie: Unix & C language",
           "entryId": "st4"
+        },
+        {
+          "y": 1969,
+          "l": "Minsky-Papert: Perceptrons & AI Winter",
+          "entryId": "st13"
         },
         {
           "y": 1977,
@@ -1566,6 +1672,11 @@
           "y": 1998,
           "l": "PageRank: algorithmic web search",
           "entryId": "st9"
+        },
+        {
+          "y": 2008,
+          "l": "Nakamoto: Bitcoin blockchain consensus",
+          "entryId": "st14"
         },
         {
           "y": 2016,
