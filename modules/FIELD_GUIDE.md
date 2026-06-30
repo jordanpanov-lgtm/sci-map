@@ -389,6 +389,25 @@ For debates and concepts, point to the institution of the key paper's first auth
 Only use `null` when the concept has no single origin (e.g. emerged simultaneously from multiple
 groups) — this should be rare.
 
+### JSON string escaping — the `note` field trap
+
+`note` is the field most likely to contain characters that break JSON strings:
+
+| Content in note | Correct JSON | Wrong |
+|---|---|---|
+| Paper title in `"double quotes"` | `\"double quotes\"` | `"double quotes"` (breaks string) |
+| Single quotes / apostrophes | `'like this'` | fine as-is |
+| Em-dashes, accented chars | fine as-is | — |
+
+The failure mode is silent: the JSON file *looks* fine in a text editor but `JSON.parse`
+throws a SyntaxError, which the app catches and shows as "Error loading field — check file path."
+The real cause is in the console: `SyntaxError: Expected ',' or '}'`.
+
+Always validate the JSON before committing:
+```
+node -e "JSON.parse(require('fs').readFileSync('modules/<id>.json','utf8')); console.log('OK')"
+```
+
 ### Fields that do NOT exist on entries
 
 Do not add these — they silently corrupt the entry or are ignored:
@@ -415,7 +434,16 @@ Do not add these — they silently corrupt the entry or are ignored:
 
 ## Validation checklist before committing
 
+**Run this first — catches syntax errors before anything else**
+```
+node -e "JSON.parse(require('fs').readFileSync('modules/<id>.json','utf8')); console.log('OK')"
+```
+If it errors with `SyntaxError: Expected ',' or '}'`, look for unescaped `"` characters inside
+string values — most commonly in `note` fields that quote paper titles.
+
 **Schema structure**
+- [ ] JSON is syntactically valid (run node validation above)?
+- [ ] All `"` characters inside string values are escaped as `\"`?
 - [ ] Entries are nested inside `categories[n].entries[]` — not at the top level of the JSON?
 - [ ] All 8 categories present in canonical order (`theory → study → effect → concept → method → figure → debate → application`)?
 - [ ] No forbidden entry fields (`fig`, `cat`, `groups`) present?
