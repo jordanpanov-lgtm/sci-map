@@ -290,13 +290,25 @@ application "Where the science leaves the lab"                               ←
   "mapCenter": [45, -10],                   // lat/lng — centre the map on where the work is
   "mapZoom": 3,
   "methodology": "METHODOLOGY · Every entry anchors to a landmark study, paper, clinical case or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags replication status, effect-size revisions and known controversies. Studies and effects carry a replicability badge — 🟢 robust · 🟡 nuanced or reduced · 🔴 failed or severely contested. Map pins mark the institution where the work was carried out.",
-  "categories": [...],
-  "timeline": [...]
+  "categories": [...],   // see structure below — entries are NESTED here, never at top level
+  "timeline": [...]      // see Step 4 — array of 6 lane objects, each with an events array
 }
 ```
 
 The `methodology` string is the same boilerplate on every folio — copy it verbatim, changing
 "clinical case" to something field-appropriate if needed (e.g. "field observation" for ecology).
+
+### JSON field names vs `index.html` field names
+
+The JSON file and the `FIELDS` array entry in `index.html` use **different names** for the same folio:
+
+| In JSON file | In `index.html` FIELDS array |
+|---|---|
+| `"title"` | `"label"` |
+| `"subtitle"` | `"sub"` |
+
+Do not put `"label"` or `"sub"` in the JSON file, and do not put `"title"` or `"subtitle"` in
+the `FIELDS` array.
 
 Valid `domain` values — must match one of the `DOMAINS[].id` constants in `index.html`:
 
@@ -312,6 +324,80 @@ Valid `domain` values — must match one of the `DOMAINS[].id` constants in `ind
 | `society` | Society & Culture |
 | `civics` | Civics, Systems & Governance |
 | `philosophy` | Philosophy: Foundations |
+
+### `categories` array — full nested structure
+
+Each element of `categories` is a category object. All entries for that category live inside its
+`entries` array. **Never place category arrays (`"theory": [...]`, `"study": [...]`, etc.) at the
+top level of the JSON — that is the single most common authoring mistake.**
+
+The eight categories must appear in this canonical order:
+`theory → study → effect → concept → method → figure → debate → application`
+
+```jsonc
+"categories": [
+  {
+    "id": "theory",
+    "label": "Theories & Models",
+    "icon": "📐",
+    "color": "#1A3A5C", "accent": "#2471A3", "bg": "#F0F7FF",
+    "subtitle": "The frameworks that organise [field-specific phrase]",
+    "entries": [
+      {
+        "id": "th1",
+        "group": "Memory Systems",
+        "label": "Hebb's Rule",
+        "date": "1949",
+        "loc": "McGill University, Montreal, Quebec",
+        "coords": [45.50, -73.58],
+        "links": ["th2", "ef3"],
+        "hint": "2–4 sentences explaining the idea in plain language.",
+        "tag": "THEORY",
+        "note": "Full citation + replication status + caveats."
+        // NO "fig", NO "cat", NO "groups", NO "repl" on theory entries
+      }
+      // ... more theory entries
+    ]
+  },
+  { "id": "study",  /* ... */ "entries": [ /* ... */ ] },
+  { "id": "effect", /* ... */ "entries": [ /* ... */ ] },
+  { "id": "concept","/* ... */ "entries": [ /* ... */ ] },
+  { "id": "method", /* ... */ "entries": [ /* ... */ ] },
+  { "id": "figure", /* ... */ "entries": [ /* ... */ ] },
+  { "id": "debate", /* ... */ "entries": [ /* ... */ ] },
+  { "id": "application", /* ... */ "entries": [ /* ... */ ] }
+]
+```
+
+### `date` field — what it means per entry type
+
+| Category | What `date` represents |
+|---|---|
+| `theory` | Year of the defining paper or book |
+| `study` | Year the experiment was run or reported |
+| `effect` | Year the effect was first named or measured |
+| `concept` | Year of the paper that introduced or formalised it |
+| `method` | Year of the first published use |
+| `figure` | **Year of their most important single contribution** — not their birth year |
+| `debate` | Year the controversy became explicit in the literature |
+| `application` | Year of first working implementation |
+
+### `coords` — required on every entry, including debates and concepts
+
+Provide a real `[lat, lng]` pair pointing to the institution where the key work was done.
+For debates and concepts, point to the institution of the key paper's first author.
+Only use `null` when the concept has no single origin (e.g. emerged simultaneously from multiple
+groups) — this should be rare.
+
+### Fields that do NOT exist on entries
+
+Do not add these — they silently corrupt the entry or are ignored:
+
+| Field | Why it's wrong |
+|---|---|
+| `fig` | No such field; person links go in `links` |
+| `cat` | Category is implicit from which `entries` array the entry lives in |
+| `groups` | Not an entry field; only used in the study plan in `index.html` |
 
 ---
 
@@ -329,14 +415,30 @@ Valid `domain` values — must match one of the `DOMAINS[].id` constants in `ind
 
 ## Validation checklist before committing
 
-- [ ] All 8 categories present in canonical order?
+**Schema structure**
+- [ ] Entries are nested inside `categories[n].entries[]` — not at the top level of the JSON?
+- [ ] All 8 categories present in canonical order (`theory → study → effect → concept → method → figure → debate → application`)?
+- [ ] No forbidden entry fields (`fig`, `cat`, `groups`) present?
+- [ ] JSON uses `"title"` and `"subtitle"` (not `"label"` / `"sub"`)?
+- [ ] `index.html` FIELDS entry uses `"label"` and `"sub"` (not `"title"` / `"subtitle"`)?
+
+**Entry content**
+- [ ] Every entry has `id`, `group`, `label`, `date`, `loc`, `coords`, `links`, `hint`, `tag`, `note`?
 - [ ] Every entry has a real, complete citation in `note`?
 - [ ] `repl` set on every `study` and `effect` entry; absent from all others?
+- [ ] `date` for figure entries is the year of their key contribution, not their birth year?
+- [ ] `coords` provided on every entry (debates and concepts included) — `null` only as last resort?
 - [ ] Every contested finding has a `debate` entry or a note flagging the controversy?
+
+**Routing and cross-references**
 - [ ] Every `group` name used in entries appears in at least one study plan module?
-- [ ] Every timeline `entryId` resolves to a real entry id?
+- [ ] Every timeline `entryId` resolves to a real entry `id`?
 - [ ] `links` are reciprocated on both ends?
-- [ ] `coords` point at the institution (not a city centre), or `null`?
+
+**index.html**
+- [ ] FIELDS entry flipped to `status:"ready"` with `file:` path added?
+- [ ] Study plan added to `STUDY_PLANS` with `meta` and `modules` array?
+- [ ] Every group name in entries appears in at least one study plan module `groups:` array?
 - [ ] No duplicate entry ids?
 - [ ] Field registered in `FIELDS` with `status:"ready"` and a `file` path?
 - [ ] Study plan added to `STUDY_PLANS` in `index.html`?
