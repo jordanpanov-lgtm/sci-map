@@ -322,7 +322,7 @@ const FIELDS = [
   // ── PHYSICAL SCIENCES & CHEMISTRY ────────────────────────────────────────────
   { id:"classical-physics",          domain:"physical-sciences", label:"Physics: Classical Mechanics & Thermodynamics", sub:"Force, motion, energy & heat",                                   status:"planned" },
   { id:"em-optics",                  domain:"physical-sciences", label:"Physics: Electromagnetism & Optics",        sub:"Fields, waves, light & the electromagnetic spectrum",                   status:"planned" },
-  { id:"quantum-nuclear-relativity", domain:"physical-sciences", label:"Physics: Quantum, Nuclear & Relativity",    sub:"The very small, the very fast & the structure of spacetime",            status:"planned" },
+  { id:"quantum-nuclear-relativity", domain:"physical-sciences", label:"Physics: Quantum, Nuclear & Relativity",    sub:"The very small, the very fast & the structure of spacetime",            status:"ready",   file:"modules/quantum-nuclear-relativity.json" },
   { id:"inorganic-analytical-chem",  domain:"physical-sciences", label:"Chemistry: Inorganic & Analytical",         sub:"Elements, compounds & the methods of chemical measurement",             status:"planned" },
   { id:"organic-polymer-chem",       domain:"physical-sciences", label:"Chemistry: Organic & Polymer",              sub:"Carbon chemistry, reactions & macromolecular structures",               status:"planned" },
   // ── EARTH, SPACE & ENVIRONMENTAL ─────────────────────────────────────────────
@@ -1421,6 +1421,62 @@ const STUDY_PLANS = {
       {
         title: '10 — Applications',
         rationale: 'Conservation genetics, biological pest control, pollinator conservation, animal-assisted interventions, GPS tracking for migratory conservation, and invasive species management show where the evolutionary science of behaviour translates into real-world decision-making.',
+        cats: ['application']
+      }
+    ]
+  },
+
+  'quantum-nuclear-relativity': {
+    meta: 'From Planck\'s quantum hypothesis to LIGO\'s gravitational waves: the physics of the very small, the very fast, and the structure of spacetime. Begins with the founding figures and instruments, then works through quantum origins, wave mechanics, nuclear physics and relativity, before tackling particle physics, cosmological frontiers, and the live debates that define the field\'s open questions.',
+    modules: [
+      {
+        title: '1 — Pioneers of Modern Physics',
+        rationale: 'Planck, Einstein, Bohr, Heisenberg, Schrödinger, Curie, Rutherford, Feynman, Dirac, Fermi, Meitner and Chadwick — meeting the architects first provides human anchors for every subsequent concept and experiment.',
+        groups: ['Pioneers & Theorists']
+      },
+      {
+        title: '2 — Methods & Instruments',
+        rationale: 'Spectroscopy, particle detectors, accelerators, NMR, Feynman diagrams and radiocarbon dating are the instruments that made modern physics legible. Understanding what the tools can and cannot measure clarifies what experimental claims actually assert.',
+        cats: ['method']
+      },
+      {
+        title: '3 — Quantum Origins',
+        rationale: 'Blackbody radiation, the photoelectric effect, Compton scattering, the Bohr model, wave-particle duality and quantisation mark the transition from classical to quantum physics. These are the founding phenomena that forced a new framework.',
+        groups: ['Quantum Origins']
+      },
+      {
+        title: '4 — Wave Mechanics & Uncertainty',
+        rationale: 'The Schrödinger equation, matrix mechanics, the uncertainty principle, superposition, entanglement, tunnelling and the Aspect Bell test form the mathematical and experimental core of quantum mechanics — from its formulation to its strangest confirmed predictions.',
+        groups: ['Wave Mechanics & Uncertainty']
+      },
+      {
+        title: '5 — Nuclear Physics',
+        rationale: 'Radioactive decay, nuclear binding energy, neutron discovery, fission, the shell model, particle detectors and radiocarbon dating constitute the physics of the nucleus — connecting to both fundamental structure and applied technology.',
+        groups: ['Nuclear Physics']
+      },
+      {
+        title: '6 — Relativity & Spacetime',
+        rationale: 'Special and General Relativity, E=mc², gravitational time dilation and lensing, the Pound-Rebka test and LIGO\'s gravitational wave detection trace the geometry of spacetime from postulate to precision measurement.',
+        groups: ['Relativity & Spacetime']
+      },
+      {
+        title: '7 — Particle Physics & QFT',
+        rationale: 'QED, QCD, the Standard Model, the Lamb Shift, antimatter, Wu\'s parity violation and Feynman diagrams reveal the quantum field-theoretic structure underlying all matter and three of the four forces.',
+        groups: ['Particle Physics & QFT']
+      },
+      {
+        title: '8 — Cosmological Frontiers',
+        rationale: 'Big Bang cosmology, gravitational lensing, LIGO and the open questions of dark matter, dark energy, black hole information and quantum gravity connect particle physics to the largest scales in the universe.',
+        groups: ['Cosmological Frontiers']
+      },
+      {
+        title: '9 — Interpretations & Debates',
+        rationale: 'Copenhagen vs hidden variables, many-worlds, the measurement problem, beyond the Standard Model, nuclear ethics and the quantum gravity problem are best evaluated now, with the full empirical base of the previous eight modules in view.',
+        cats: ['debate']
+      },
+      {
+        title: '10 — Applications',
+        rationale: 'Nuclear reactors, MRI, lasers, transistors, nuclear medicine, GPS corrections — the technologies that emerged from quantum and relativistic physics now underpin modern civilisation. Understanding the physics clarifies both their power and their limits.',
         cats: ['application']
       }
     ]
