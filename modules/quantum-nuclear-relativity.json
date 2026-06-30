@@ -38,7 +38,8 @@
             "ef9",
             "co6",
             "fg2",
-            "st1"
+            "st1",
+            "st17"
           ],
           "hint": "Physics is the same in all inertial frames and the speed of light is constant in vacuo — from these two postulates Einstein derived time dilation, length contraction, the relativity of simultaneity, and the equivalence of mass and energy. The theory demolished the concept of absolute time and the luminiferous aether in a single stroke.",
           "tag": "THEORY",
@@ -63,7 +64,8 @@
             "ef6",
             "ef7",
             "db3",
-            "db4"
+            "db4",
+            "st17"
           ],
           "hint": "Gravity is not a force but the curvature of spacetime caused by mass and energy, described by the Einstein field equations. General Relativity predicted gravitational lensing, black holes, gravitational waves, and the expanding universe — all confirmed a century after publication.",
           "tag": "THEORY",
@@ -220,7 +222,8 @@
             "db6",
             "th2",
             "db3",
-            "st13"
+            "st13",
+            "th11"
           ],
           "hint": "The universe began in an extremely hot, dense state and has expanded and cooled since — this model predicts the cosmic microwave background (the afterglow of the hot early universe), the abundance ratios of hydrogen and helium, and the large-scale structure of the cosmos, all subsequently confirmed.",
           "tag": "THEORY",
@@ -245,6 +248,26 @@
           "hint": "The gauge theory of the strong force: quarks carry colour charge (red, green, blue) and interact by exchanging gluons. Asymptotic freedom — quarks behave like free particles at high energies but are permanently confined at low energies — is the key feature; it explains why isolated quarks are never observed and why protons and neutrons are stable.",
           "tag": "THEORY",
           "note": "Gross, D. J. & Wilczek, F. (1973). 'Ultraviolet Behavior of Non-Abelian Gauge Theories.' Physical Review Letters, 30, 1343–1346. Politzer, H. D. (1973) independently derived asymptotic freedom. Nobel Prize in Physics 2004. Confinement — the impossibility of isolating a single quark — is mathematically unproven (it is one of the seven Clay Millennium Prize problems) but experimentally incontrovertible: no isolated colour charge has ever been detected."
+        },
+        {
+          "id": "th11",
+          "group": "Cosmological Frontiers",
+          "label": "Cosmic Inflation",
+          "date": "1980",
+          "loc": "Stanford Linear Accelerator Center, Stanford, California",
+          "coords": [
+            37.42,
+            -122.21
+          ],
+          "links": [
+            "th9",
+            "db3",
+            "db6",
+            "st13"
+          ],
+          "hint": "The standard Big Bang cannot explain why the CMB is uniform to 1 in 100,000 across regions that were never in causal contact, why the universe is so geometrically flat, or why no magnetic monopoles are observed. Guth proposed that a false vacuum energy (the inflaton field) drove exponential expansion in the first ~10⁻³² seconds — stretching a causally connected patch into the entire observable universe, flattening spacetime, and diluting away monopoles. Quantum fluctuations during inflation seeded the density perturbations that became galaxies.",
+          "tag": "THEORY",
+          "note": "Guth, A. H. (1981). 'Inflationary universe: A possible solution to the horizon and flatness problems.' Physical Review D, 23, 347–356. Guth's original model (old inflation) had a graceful-exit problem. New inflation: Linde, A. D. (1982). Physics Letters B, 108, 389; Albrecht, A. & Steinhardt, P. J. (1982). Physical Review Letters, 48, 1220. Chaotic inflation: Linde (1983). Observational test: inflation predicts near-scale-invariant primordial fluctuations — confirmed by COBE (Nobel 2006), WMAP, and Planck 2018. BICEP2's claimed B-mode polarisation signal (2014) was later attributed to Galactic dust. The inflaton field's identity and the energy scale of inflation remain unknown."
         }
       ]
     },
@@ -466,7 +489,8 @@
           "links": [
             "th2",
             "ef6",
-            "co6"
+            "co6",
+            "st17"
           ],
           "hint": "Using the Mössbauer effect to achieve the necessary frequency precision, Pound and Rebka measured the tiny frequency shift of gamma rays climbing 22.6 m against Earth's gravity — the first laboratory test of General Relativity's prediction that time runs slower in stronger gravitational fields.",
           "tag": "EXPERIMENT",
@@ -527,7 +551,8 @@
           ],
           "links": [
             "th9",
-            "db6"
+            "db6",
+            "th11"
           ],
           "hint": "Arno Penzias and Robert Wilson, attempting to calibrate a large horn antenna for satellite communications, found a persistent 3.5 K microwave hiss that was uniform across the sky at all times of day and could not be attributed to equipment noise. This was the cosmic microwave background — the cooled afterglow of the hot early universe, first predicted by Alpher and Herman in 1948. The accidental discovery transformed cosmology from a largely theoretical enterprise into a precision observational science.",
           "tag": "DISCOVERY",
@@ -592,6 +617,28 @@
           "tag": "DISCOVERY",
           "repl": "robust",
           "note": "ATLAS Collaboration (2012). ‘Observation of a new boson at a mass of 125 GeV with the ATLAS detector at the LHC.’ Physics Letters B, 716, 1–29. CMS Collaboration (2012). Physics Letters B, 716, 30–61. Nobel Prize in Physics 2013 (Higgs and Englert). The boson’s spin-0, CP-even character and coupling strengths are all consistent with the Standard Model Higgs to within current precision. Deviations in Higgs couplings remain the most sensitive probe of beyond-Standard-Model physics at the LHC."
+        },
+        {
+          "id": "st17",
+          "group": "Relativity & Spacetime",
+          "label": "Hafele-Keating Flying Clock Experiment",
+          "date": "1971",
+          "loc": "US Naval Observatory, Washington, D.C.",
+          "coords": [
+            38.92,
+            -77.07
+          ],
+          "links": [
+            "th1",
+            "th2",
+            "ef6",
+            "ap6",
+            "st10"
+          ],
+          "hint": "Hafele and Keating flew caesium atomic clocks on commercial airliners eastbound and westbound around the world, then compared them against a reference clock at the US Naval Observatory. The flying clocks disagreed with the ground clock by exactly the amounts Special and General Relativity predict: eastbound clocks lost ~59 ns (SR time dilation from speed dominates), westbound clocks gained ~273 ns (GR gravitational blueshift at altitude plus slower ground speed). It was the first macroscopic demonstration that you can put a clock on a plane and return with genuinely less time elapsed.",
+          "tag": "EXPERIMENT",
+          "repl": "robust",
+          "note": "Hafele, J. C. & Keating, R. E. (1972). 'Around-the-World Atomic Clocks: Predicted Relativistic Time Gains.' Science, 177, 166–168; 'Observed Relativistic Time Gains.' Science, 177, 168–170. Eastbound observed: −59 ± 10 ns vs predicted −40 ± 23 ns. Westbound observed: +273 ± 7 ns vs predicted +275 ± 21 ns. The experiment has been criticised for imprecise raw data, but its conclusions are fully confirmed by GPS clock corrections (Ashby, N. 2003, Living Reviews in Relativity, 6, 1) and by optical atomic clock comparisons at centimetre height differences (Chou, C. W. et al. 2010, Science, 329, 1630)."
         }
       ]
     },
@@ -726,7 +773,8 @@
             "th2",
             "st10",
             "co6",
-            "ap6"
+            "ap6",
+            "st17"
           ],
           "hint": "Clocks run slower in stronger gravitational fields — a direct consequence of General Relativity. GPS satellites experience both Special Relativistic time dilation (their speed slows their clocks by 7 μs/day) and gravitational time dilation (weaker gravity speeds their clocks by 45 μs/day), requiring a net correction of +38 μs/day or position errors would accumulate at ~10 km/day.",
           "tag": "EFFECT",
@@ -1450,7 +1498,8 @@
             "th10",
             "db4",
             "th9",
-            "db6"
+            "db6",
+            "th11"
           ],
           "hint": "General Relativity and quantum mechanics are individually the most successful physical theories ever devised, but they are mutually incompatible at the Planck scale. String theory unifies all forces in extra dimensions; loop quantum gravity quantises spacetime itself into discrete chunks. Neither has produced an experimentally testable prediction accessible to current technology.",
           "tag": "DEBATE",
@@ -1513,7 +1562,8 @@
             "db3",
             "db4",
             "st13",
-            "fg13"
+            "fg13",
+            "th11"
           ],
           "hint": "Dark matter evidence built from Zwicky’s cluster mass anomaly (1933) through Rubin and Ford’s galactic rotation curves (1970s): stars orbit far too fast at galactic edges given the visible mass alone, demanding ~27% of the universe be non-luminous, non-baryonic matter. In 1998, two independent supernova teams found the universe’s expansion is accelerating, implying ~68% dark energy. No particle candidate for either has been directly detected despite decades of searches, including null WIMP results from LUX-ZEPLIN (2022).",
           "tag": "DEBATE",
@@ -1689,7 +1739,8 @@
             "th1",
             "th2",
             "ef6",
-            "co6"
+            "co6",
+            "st17"
           ],
           "hint": "GPS satellites carry atomic clocks whose ticking rate is affected by both Special Relativity (velocity slows their clocks by 7 μs/day) and General Relativity (weaker gravity speeds their clocks by 45 μs/day). The net +38 μs/day correction is applied continuously; without it, GPS position errors would accumulate at ~10 km/day, making the system useless within hours.",
           "tag": "APPLICATION",
@@ -1759,6 +1810,11 @@
           "y": 1964,
           "l": "Penzias & Wilson: CMB discovered",
           "entryId": "st13"
+        },
+        {
+          "y": 1971,
+          "l": "Hafele & Keating: clocks flown around the world",
+          "entryId": "st17"
         },
         {
           "y": 1982,
@@ -1842,6 +1898,11 @@
           "y": 1973,
           "l": "Gross, Politzer, Wilczek: QCD",
           "entryId": "th10"
+        },
+        {
+          "y": 1980,
+          "l": "Guth: cosmic inflation theory",
+          "entryId": "th11"
         }
       ]
     },
