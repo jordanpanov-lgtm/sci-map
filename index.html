@@ -335,7 +335,7 @@ const FIELDS = [
   { id:"logic-math-foundations",     domain:"formal-computing",  label:"Logic & Foundations of Mathematics",        sub:"Proof, sets, axioms & the philosophy of mathematical truth",             status:"planned" },
   { id:"pure-mathematics",           domain:"formal-computing",  label:"Pure Math: Algebra, Geometry & Calculus",   sub:"Structure, space & continuous change",                                  status:"planned" },
   { id:"statistics",                 domain:"formal-computing",  label:"Applied Math: Probability & Statistics",    sub:"Inference, probability & the science of data",                          status:"planned" },
-  { id:"computer-science",           domain:"formal-computing",  label:"Computer & Information Sciences",           sub:"Computation, algorithms, data structures & AI",                         status:"planned" },
+  { id:"computer-science",           domain:"formal-computing",  label:"Computer & Information Sciences",           sub:"Computation, algorithms, data structures & AI",                         status:"ready", file:"modules/computer-science.json" },
   // ── PSYCHOLOGY & THE MIND ─────────────────────────────────────────────────────
   { id:"neuroscience",               domain:"psychology",        label:"Neuroscience & Behavior",                   sub:"Brain, neuron, circuit & the biological basis of mind",                 status:"ready", file:"modules/neuroscience.json" },
   { id:"general-cognitive-psych",    domain:"psychology",        label:"General & Cognitive Psychology",            sub:"Attention, memory, reasoning & the architecture of mind",               status:"ready", file:"modules/general-cognitive-psych.json" },
@@ -1477,6 +1477,67 @@ const STUDY_PLANS = {
       {
         title: '10 — Applications',
         rationale: 'Nuclear reactors, MRI, lasers, transistors, nuclear medicine, GPS corrections — the technologies that emerged from quantum and relativistic physics now underpin modern civilisation. Understanding the physics clarifies both their power and their limits.',
+        cats: ['application']
+      }
+    ]
+  }
+  ,
+  'computer-science': {
+    meta: 'Opens with the pioneers and the foundational mathematical results that define what computation is and is not, then moves through algorithms, systems, networks, AI, and cryptography before closing with live debates and real-world applications.',
+    modules: [
+      {
+        title: '1 — Founders & the Field',
+        rationale: 'Lovelace, Turing, Shannon, von Neumann, Hopper, Dijkstra, Thompson & Ritchie, Codd, Hamilton, Berners-Lee, Goldwasser, and Hinton together span every major branch: computability, information theory, hardware design, programming languages, software engineering, networking, databases, HCI, and AI. Meeting the people first gives subsequent technical material a human anchor.',
+        groups: ['Pioneers & Theorists']
+      },
+      {
+        title: '2 — Methods & Paradigms',
+        rationale: 'Formal verification, algorithm analysis, object-oriented programming, usability testing, cross-validation, and penetration testing are the methodological toolkit the field uses to generate and validate results — establishing these before diving into content makes the evidence in later modules interpretable.',
+        cats: ['method']
+      },
+      {
+        title: '3 — Foundations & Computability',
+        rationale: 'The Church-Turing thesis, von Neumann architecture, Shannon information theory, ENIAC, and the undecidability/completeness results define the mathematical and physical ground on which all computing rests. Without these, the limits and possibilities of everything else are mysterious.',
+        groups: ['Foundations & Computability']
+      },
+      {
+        title: '4 — Algorithms & Data Structures',
+        rationale: 'Big-O complexity, Cook\'s theorem, Quicksort, PageRank, and the P vs NP debate form the core of algorithmic thinking. This module answers: how do we measure efficiency, what are the hard limits, and how do landmark algorithms work?',
+        groups: ['Algorithms & Data Structures']
+      },
+      {
+        title: '5 — Systems & Software Engineering',
+        rationale: 'Structured programming, the relational model, Unix/C, ADTs, semaphores, Brooks\'s Law, OOP, and the software crisis debate are the building blocks of large-scale software — the layer between theory and deployed product.',
+        groups: ['Systems & Software Engineering']
+      },
+      {
+        title: '6 — Networks & Distributed Computing',
+        rationale: 'ARPANET, TCP/IP, the WWW, CAP theorem, Metcalfe\'s Law, GPS, cloud computing, and net neutrality trace the internet from a research curiosity to global infrastructure and the governance questions it raises.',
+        groups: ['Networks & Distributed Computing']
+      },
+      {
+        title: '7 — AI: Symbolic & HCI',
+        rationale: 'The Turing Test, the Physical Symbol System Hypothesis, Deep Blue, Fitts\'s Law, usability testing, and the Chinese Room debate map the symbolic/classical AI tradition and its HCI applications — the foundation for understanding what the deep learning revolution changed.',
+        groups: ['AI: Symbolic & HCI']
+      },
+      {
+        title: '8 — Machine Learning & Neural Networks',
+        rationale: 'PAC learning, backpropagation, the No Free Lunch theorem, AlphaGo, GPT-3, cross-validation, the reproducibility crisis, and AI safety are the landscape of contemporary ML — its theoretical foundations, landmark demonstrations, and open problems.',
+        groups: ['Machine Learning & Neural Networks']
+      },
+      {
+        title: '9 — Cryptography & Security',
+        rationale: 'Public-key cryptography, RSA, zero-knowledge proofs, perfect secrecy, penetration testing, secure e-commerce, and the Crypto Wars debate form the security layer that makes digital commerce and private communication possible — and contested.',
+        groups: ['Cryptography & Security']
+      },
+      {
+        title: '10 — Debates & Open Questions',
+        rationale: 'P vs NP, AI safety, the Chinese Room, Crypto Wars, open vs proprietary software, net neutrality, the software crisis, and ML reproducibility are the live controversies where the field has not yet reached consensus — the most important lens for a critical reader.',
+        cats: ['debate']
+      },
+      {
+        title: '11 — Applications',
+        rationale: 'GPS, SSL/e-commerce, recommendation systems, search engines, cloud computing, and LLMs in production show where the theory left the lab and entered daily life — and what new questions that created.',
         cats: ['application']
       }
     ]

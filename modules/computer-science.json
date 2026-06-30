@@ -1,0 +1,1818 @@
+{
+  "id": "computer-science",
+  "title": "Computer & Information Sciences",
+  "subtitle": "Computation, algorithms, data structures & AI",
+  "period": {
+    "start": 1843,
+    "end": 2025
+  },
+  "domain": "formal-computing",
+  "mapCenter": [
+    45,
+    -30
+  ],
+  "mapZoom": 2,
+  "methodology": "METHODOLOGY · Every entry anchors to a landmark paper, algorithm, system or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags impact, subsequent revisions and known controversies. Studies and effects carry a replicability badge — 🟢 confirmed · 🟡 nuanced or contested · 🔴 failed or severely undermined. Map pins mark the institution where the work was carried out.",
+  "categories": [
+    {
+      "id": "theory",
+      "label": "Theories & Models",
+      "icon": "📐",
+      "color": "#1A3A5C",
+      "accent": "#2471A3",
+      "bg": "#F0F7FF",
+      "subtitle": "The frameworks that organise computation, complexity, information and system design",
+      "entries": [
+        {
+          "id": "th1",
+          "group": "Foundations & Computability",
+          "label": "Church-Turing Thesis",
+          "date": "1936",
+          "loc": "King's College, University of Cambridge, Cambridge, England",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "links": [
+            "th2",
+            "ef2",
+            "ef7",
+            "fg2",
+            "me1",
+            "co2",
+            "th4"
+          ],
+          "hint": "Any function that can be computed by a systematic, mechanical procedure can be computed by a Turing Machine — and equivalently by Church's lambda calculus. This is not a theorem but a thesis about the nature of computation itself: it defines what 'algorithm' means by equating all reasonable formalisms for mechanical calculation. Every computer, smartphone, and cloud server is a physical instantiation of this idea.",
+          "tag": "THEORY",
+          "note": "Turing, A. M. (1936). 'On Computable Numbers, with an Application to the Entscheidungsproblem.' Proceedings of the London Mathematical Society, 42, 230–265. Church, A. (1936). 'An Unsolvable Problem of Elementary Number Theory.' American Journal of Mathematics, 58, 345–363. The thesis remains unproven — it is a claim about physical reality, not a mathematical theorem — but is universally accepted: no computational model has been found that exceeds Turing Machine power. Proposals for hypercomputation (oracle machines, analog computation) have not yielded physically realisable counterexamples."
+        },
+        {
+          "id": "th2",
+          "group": "Foundations & Computability",
+          "label": "Von Neumann Architecture",
+          "date": "1945",
+          "loc": "Institute for Advanced Study, Princeton, New Jersey",
+          "coords": [
+            40.33,
+            -74.65
+          ],
+          "links": [
+            "th1",
+            "fg4",
+            "st2",
+            "ef1",
+            "ef3"
+          ],
+          "hint": "The dominant design paradigm for general-purpose computers: a single shared memory stores both program instructions and data; a CPU fetches instructions sequentially (the program counter) and executes them. First described in the First Draft of a Report on the EDVAC (1945), the architecture underlies virtually every computer built since, from microcontrollers to supercomputers.",
+          "tag": "MODEL",
+          "note": "von Neumann, J. (1945). 'First Draft of a Report on the EDVAC.' US Army Ordnance report, reprinted IEEE Annals of the History of Computing (1993), 15(4), 27–75. Authorship is contested: Eckert and Mauchly argued the stored-program concept was theirs and von Neumann took credit by writing the report. The 'von Neumann bottleneck' — CPU-memory bandwidth as the performance ceiling — is addressed by modern caching, SIMD units, and in-memory computing architectures, but the fundamental model has not been displaced."
+        },
+        {
+          "id": "th3",
+          "group": "Foundations & Computability",
+          "label": "Shannon's Information Theory",
+          "date": "1948",
+          "loc": "Bell Telephone Laboratories, Murray Hill, New Jersey",
+          "coords": [
+            40.69,
+            -74.4
+          ],
+          "links": [
+            "fg3",
+            "ef9",
+            "th10"
+          ],
+          "hint": "Shannon defined information as the resolution of uncertainty: the bit is the answer to a single yes/no question. His noisy-channel coding theorem proved that any communication channel has a maximum error-free transmission rate (channel capacity), and that error-correcting codes can approach this limit arbitrarily closely. Every data compression algorithm, wireless standard, and digital storage medium rests on these results.",
+          "tag": "THEORY",
+          "note": "Shannon, C. E. (1948). 'A Mathematical Theory of Communication.' Bell System Technical Journal, 27, 379–423, 623–656. Shannon, C. E. & Weaver, W. (1949). The Mathematical Theory of Communication. University of Illinois Press. The Shannon-Hartley theorem C = B log₂(1 + S/N) governs every wireless data link. Shannon explicitly noted the theory applies to symbol transmission only, not to meaning — a distinction often ignored when information theory is applied to biology, economics, or cognition."
+        },
+        {
+          "id": "th4",
+          "group": "Algorithms & Data Structures",
+          "label": "Computational Complexity & Cook's Theorem",
+          "date": "1971",
+          "loc": "University of Toronto, Toronto, Ontario",
+          "coords": [
+            43.66,
+            -79.4
+          ],
+          "links": [
+            "co1",
+            "db1",
+            "fg2",
+            "th1"
+          ],
+          "hint": "Cook proved that the Boolean satisfiability problem (SAT) is NP-complete: every problem whose solution can be verified quickly can be reduced to SAT. This establishes a central hierarchy — P (solvable quickly), NP (verifiable quickly), NP-complete (the hardest NP problems). Whether P = NP — whether every easily verified problem is also easily solved — is the most important open question in mathematics and computer science.",
+          "tag": "THEORY",
+          "note": "Cook, S. A. (1971). 'The Complexity of Theorem-Proving Procedures.' Proceedings of the 3rd Annual ACM Symposium on Theory of Computing, 151–158. Independently formulated by Levin, L. A. (1973) in the USSR, giving rise to the Cook-Levin theorem. Karp, R. M. (1972). 'Reducibility Among Combinatorial Problems.' Complexity of Computer Computations, 85–103 — extended the result to 21 classical problems. The Clay Mathematics Institute lists P vs NP as one of seven Millennium Prize Problems, with a USD 1 million prize for resolution."
+        },
+        {
+          "id": "th5",
+          "group": "Systems & Software Engineering",
+          "label": "Structured Programming",
+          "date": "1968",
+          "loc": "Eindhoven University of Technology, Eindhoven, Netherlands",
+          "coords": [
+            51.45,
+            5.49
+          ],
+          "links": [
+            "fg6",
+            "me3",
+            "co4",
+            "ef8",
+            "st4",
+            "me1"
+          ],
+          "hint": "Dijkstra argued that unrestricted goto statements make programs impossible to reason about, and that all program logic can be expressed with only three control structures: sequence, conditional, and loop. The Böhm-Jacopini theorem proved this formally. Structured programming made software engineering possible: programs became verifiable, testable, and maintainable rather than inscrutable spaghetti code.",
+          "tag": "THEORY",
+          "note": "Dijkstra, E. W. (1968). 'Go To Statement Considered Harmful.' Communications of the ACM, 11(3), 147–148. Böhm, C. & Jacopini, G. (1966). 'Flow Diagrams, Turing Machines and Languages with Only Two Formation Rules.' Communications of the ACM, 9(5), 366–371 — the formal proof. The letter triggered a sustained debate (Rubin 1987 wrote 'GOTO Considered Harmful Considered Harmful'); modern languages have settled on structured control flow while retaining break, continue, and exception-handling as disciplined exits."
+        },
+        {
+          "id": "th6",
+          "group": "Systems & Software Engineering",
+          "label": "Relational Model of Data",
+          "date": "1970",
+          "loc": "IBM San Jose Research Laboratory, San Jose, California",
+          "coords": [
+            37.34,
+            -121.89
+          ],
+          "links": [
+            "fg8",
+            "co3",
+            "ap2"
+          ],
+          "hint": "Codd proposed storing data in relations (tables) and querying it via a declarative language grounded in mathematical set theory. The user specifies what data is needed; the database engine decides how to retrieve it. This separation of logical data structure from physical storage allowed databases to be reorganised, replicated, and optimised without rewriting application code — the foundational abstraction behind every SQL database.",
+          "tag": "MODEL",
+          "note": "Codd, E. F. (1970). 'A Relational Model of Data for Large Shared Data Banks.' Communications of the ACM, 13(6), 377–387. Turing Award 1981 (Codd). The relational model was initially resisted within IBM (it threatened the existing IMS product) and first commercialised by Oracle (1979). Critique: the object-relational impedance mismatch — tension between relational tables and object-oriented code — motivated NoSQL databases (MongoDB, Cassandra); however, relational databases remain dominant for transactional workloads."
+        },
+        {
+          "id": "th7",
+          "group": "Networks & Distributed Computing",
+          "label": "CAP Theorem",
+          "date": "2000",
+          "loc": "University of California, Berkeley, California",
+          "coords": [
+            37.87,
+            -122.26
+          ],
+          "links": [
+            "co5",
+            "db6",
+            "ap6",
+            "ap1"
+          ],
+          "hint": "Brewer conjectured — and Gilbert & Lynch later proved — that a distributed data system can simultaneously guarantee at most two of three properties: Consistency (every read reflects the most recent write), Availability (every request receives a response), and Partition tolerance (the system continues operating despite network splits). Real distributed databases must choose which two to prioritise — Cassandra (AP) vs HBase (CP) — a choice that drives distributed systems architecture.",
+          "tag": "THEORY",
+          "note": "Brewer, E. A. (2000). 'Towards Robust Distributed Systems.' Proceedings of the 19th Annual ACM Symposium on Principles of Distributed Computing. Gilbert, S. & Lynch, N. (2002). 'Brewer's Conjecture and the Feasibility of Consistent, Available, Partition-Tolerant Web Services.' ACM SIGACT News, 33(2), 51–59. Brewer (2012) himself noted the theorem is often over-applied: partition tolerance is non-optional (partitions always occur eventually), so the real trade-off is between consistency and availability during a partition. The PACELC model (Abadi 2012) extends CAP to include latency vs consistency under normal operation."
+        },
+        {
+          "id": "th8",
+          "group": "AI: Symbolic & HCI",
+          "label": "Physical Symbol System Hypothesis",
+          "date": "1976",
+          "loc": "Carnegie Mellon University, Pittsburgh, Pennsylvania",
+          "coords": [
+            40.44,
+            -79.94
+          ],
+          "links": [
+            "st1",
+            "st8",
+            "db2",
+            "fg2"
+          ],
+          "hint": "Newell and Simon proposed that a physical symbol system — any device that manipulates symbols according to rules — has the necessary and sufficient conditions for general intelligent action. This underpinned Good Old-Fashioned AI (GOFAI): expert systems, logic programming, and automated theorem proving. It remains the foundational claim contested in AI philosophy: does intelligence require symbol manipulation, or is something more (embodiment, statistical pattern-matching) necessary?",
+          "tag": "THEORY",
+          "note": "Newell, A. & Simon, H. A. (1976). 'Computer Science as Empirical Inquiry: Symbols and Search.' Communications of the ACM, 19(3), 113–126 — their 1975 Turing Award lecture. Critique: Dreyfus, H. L. (1972). What Computers Can't Do. Harper & Row — argued that human intelligence is embodied and contextual. Searle, J. R. (1980). 'Minds, Brains, and Programs.' Behavioral and Brain Sciences, 3, 417–424 — the Chinese Room argument. The connectionist and deep learning revolutions provided an empirical alternative that achieves intelligent behaviour without explicit symbol manipulation."
+        },
+        {
+          "id": "th9",
+          "group": "Machine Learning & Neural Networks",
+          "label": "PAC Learning Theory",
+          "date": "1984",
+          "loc": "Harvard University, Cambridge, Massachusetts",
+          "coords": [
+            42.37,
+            -71.12
+          ],
+          "links": [
+            "ef6",
+            "fg12",
+            "co6",
+            "me5"
+          ],
+          "hint": "Valiant asked: under what conditions can a learning algorithm generalise from training examples to new cases? He defined a Probably Approximately Correct (PAC) learner as one that, given enough examples, outputs a hypothesis correct on all but an ε fraction of instances with probability at least 1-δ. PAC learning theory gave machine learning its first rigorous mathematical foundation, bounding how many training examples are needed for a given hypothesis class.",
+          "tag": "THEORY",
+          "note": "Valiant, L. G. (1984). 'A Theory of the Learnable.' Communications of the ACM, 27(11), 1134–1142. Turing Award 2010 (Valiant). The VC dimension (Vapnik & Chervonenkis 1971) provides a complementary complexity measure for hypothesis classes. Limitation: modern deep learning operates in overparameterised regimes where classical PAC bounds are vacuous — they predict extreme overfitting that does not occur in practice. Understanding why deep networks generalise despite vastly exceeding classical sample-complexity bounds is an open problem (Bartlett et al. 2020, Journal of the ACM)."
+        },
+        {
+          "id": "th10",
+          "group": "Cryptography & Security",
+          "label": "Public-Key Cryptography",
+          "date": "1976",
+          "loc": "Stanford University, Stanford, California",
+          "coords": [
+            37.43,
+            -122.17
+          ],
+          "links": [
+            "st6",
+            "fg11",
+            "ef9",
+            "co7",
+            "me6",
+            "db4",
+            "th3"
+          ],
+          "hint": "Diffie and Hellman showed that two parties can establish a shared secret over an insecure channel with no prior contact — using a mathematical trapdoor function that is easy to compute forward but practically impossible to reverse. This solved the key distribution problem that had stymied cryptography for millennia, and enabled the entire architecture of internet security: HTTPS, TLS, SSH, and digital signatures all depend on this principle.",
+          "tag": "THEORY",
+          "note": "Diffie, W. & Hellman, M. E. (1976). 'New Directions in Cryptography.' IEEE Transactions on Information Theory, 22(6), 644–654. Turing Award 2015 (Diffie and Hellman). GCHQ independently discovered equivalent concepts (Ellis 1969, Cocks 1973) but the work remained classified until 1997. RSA (Rivest, Shamir, Adleman 1977) provided the first practical realisation. Post-quantum urgency: Shor's algorithm (1994) can factor RSA keys in polynomial time on a sufficiently large quantum computer, making post-quantum cryptography standardisation (NIST 2022–2024) critical."
+        }
+      ]
+    },
+    {
+      "id": "study",
+      "label": "Landmark Studies",
+      "icon": "🧪",
+      "color": "#4A235A",
+      "accent": "#7D3C98",
+      "bg": "#FAF5FF",
+      "subtitle": "The defining experiments — and exactly what they found",
+      "entries": [
+        {
+          "id": "st1",
+          "group": "AI: Symbolic & HCI",
+          "label": "Turing's Imitation Game (Computing Machinery and Intelligence)",
+          "date": "1950",
+          "loc": "University of Manchester, Manchester, England",
+          "coords": [
+            53.47,
+            -2.23
+          ],
+          "links": [
+            "th8",
+            "db2",
+            "fg2"
+          ],
+          "hint": "Turing proposed a test for machine intelligence: if an interrogator, communicating by text only, cannot reliably distinguish a machine from a human, the machine can be said to think. The paper also anticipated and answered nine objections to machine intelligence, including theological, mathematical, and consciousness-based arguments. The Turing Test defined the research agenda for AI for decades and remains the most cited framing of the question of machine cognition.",
+          "tag": "DISCOVERY",
+          "repl": "mixed",
+          "note": "Turing, A. M. (1950). 'Computing Machinery and Intelligence.' Mind, 59(236), 433–460. The test has been 'passed' by ELIZA (Weizenbaum 1966) and various chatbots under informal conditions, but critics argue it tests human gullibility rather than machine intelligence (Searle 1980; Harnad 1991). The Loebner Prize (1990–2020) ran annual Turing Test competitions. Turing explicitly stated the test was a 'convenient criterion' rather than a definition of thought — a distinction often lost in popular accounts. Repl badge: mixed — the test is widely used but increasingly regarded as insufficient."
+        },
+        {
+          "id": "st2",
+          "group": "Foundations & Computability",
+          "label": "ENIAC: First General-Purpose Electronic Computer",
+          "date": "1945",
+          "loc": "University of Pennsylvania, Philadelphia, Pennsylvania",
+          "coords": [
+            39.95,
+            -75.19
+          ],
+          "links": [
+            "th2",
+            "fg4",
+            "fg9"
+          ],
+          "hint": "ENIAC (Electronic Numerical Integrator and Computer) was the first large-scale, general-purpose electronic digital computer, operational in 1945 at Penn. It could be reprogrammed for different problems by physically rerouting cables and setting 3,000 switches. It computed ballistic trajectory tables in seconds that took human computers days. ENIAC demonstrated that electronic computation was faster than mechanical alternatives by orders of magnitude.",
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "note": "Eckert, J. P. & Mauchly, J. W. (1945). 'Automatic High-Speed Computing: A Progress Report on the ENIAC.' Moore School of Electrical Engineering, University of Pennsylvania. ENIAC contained 17,468 vacuum tubes, weighed 27 tons, and consumed 150 kW. A modern smartphone performs roughly 10¹² times as many operations per second. The question of who deserves priority for the electronic computer remains disputed: Atanasoff-Berry Computer (1942) preceded ENIAC but was non-programmable; Colossus (1943, Bletchley Park) was programmable but single-purpose and classified."
+        },
+        {
+          "id": "st3",
+          "group": "Networks & Distributed Computing",
+          "label": "ARPANET First Host-to-Host Message",
+          "date": "1969",
+          "loc": "University of California Los Angeles, Los Angeles, California",
+          "coords": [
+            34.07,
+            -118.44
+          ],
+          "links": [
+            "co5",
+            "ap4",
+            "fg10",
+            "st7",
+            "ap1"
+          ],
+          "hint": "On 29 October 1969, Charley Kline at UCLA attempted to transmit 'LOGIN' to the Stanford Research Institute — the system crashed after 'LO', making the first internet message 'lo'. The ARPANET demonstrated that packet-switching could reliably transmit data across heterogeneous networks — a radical departure from the circuit-switching model of telephone networks. It directly evolved into the modern internet.",
+          "tag": "EXPERIMENT",
+          "repl": "robust",
+          "note": "Roberts, L. G. (1970). 'Computer Network Development to Achieve Resource Sharing.' Proceedings of the AFIPS Spring Joint Computer Conference, 36, 543–549. The ARPANET was funded by ARPA (now DARPA) and grew from 4 nodes in 1969 to 111 by 1977. Email was added by Ray Tomlinson in 1971 (including the @ convention). The transition from ARPANET to the modern internet involved the adoption of TCP/IP on 1 January 1983 ('Flag Day'), retirement of the NCP protocol, and the opening of the network to commercial providers in 1993."
+        },
+        {
+          "id": "st4",
+          "group": "Systems & Software Engineering",
+          "label": "Unix Operating System & C Language",
+          "date": "1969",
+          "loc": "Bell Telephone Laboratories, Murray Hill, New Jersey",
+          "coords": [
+            40.69,
+            -74.4
+          ],
+          "links": [
+            "th5",
+            "fg7",
+            "me3",
+            "db5"
+          ],
+          "hint": "Ken Thompson, Dennis Ritchie, and colleagues at Bell Labs built Unix as a small, general-purpose operating system for a discarded PDP-7. Thompson wrote it in three weeks. Ritchie developed the C language to rewrite it portably. Unix introduced the pipe (|) for chaining programs, the filesystem hierarchy, and the philosophy that programs should do one thing well. It became the conceptual foundation of Linux, macOS, Android, and iOS.",
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "note": "Ritchie, D. M. & Thompson, K. (1974). 'The UNIX Time-Sharing System.' Communications of the ACM, 17(7), 365–375. Ritchie, D. M. (1978). 'The C Programming Language.' Bell System Technical Journal — later formalised in Kernighan, B. W. & Ritchie, D. M. (1978). The C Programming Language. Prentice Hall. ACM Turing Award 1983 (Thompson and Ritchie jointly). Bell Labs distributed Unix source code to universities for free until AT&T commercialised it (1979), fuelling the BSD distributions and the eventual open-source movement."
+        },
+        {
+          "id": "st5",
+          "group": "Algorithms & Data Structures",
+          "label": "Quicksort (Hoare)",
+          "date": "1962",
+          "loc": "Elliott Brothers Ltd, London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "links": [
+            "co1",
+            "me2",
+            "fg6"
+          ],
+          "hint": "Hoare's Quicksort partitions an array around a pivot element, recursively sorts the two halves, and produces a fully sorted array. On average it requires O(n log n) comparisons — faster in practice than mergesort despite an O(n²) worst case — and sorts in-place, making it memory-efficient. Quicksort or its derivatives are the default sorting algorithm in the standard libraries of C, C++, Java, Python, and most other languages.",
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "note": "Hoare, C. A. R. (1962). 'Quicksort.' Computer Journal, 5(1), 10–16. Knuth, D. E. (1998). The Art of Computer Programming, Vol. 3: Sorting and Searching, 2nd ed., Addison-Wesley — provides the definitive average-case analysis. Worst case O(n²) occurs with sorted or reverse-sorted input on naive pivot choice; randomised pivot selection or median-of-three makes pathological cases exponentially rare. Introsort (Musser 1997) — the variant used in C++ STL — switches to heapsort when recursion depth exceeds a threshold, guaranteeing O(n log n) worst case."
+        },
+        {
+          "id": "st6",
+          "group": "Cryptography & Security",
+          "label": "RSA Public-Key Encryption Algorithm",
+          "date": "1977",
+          "loc": "MIT, Cambridge, Massachusetts",
+          "coords": [
+            42.36,
+            -71.09
+          ],
+          "links": [
+            "th10",
+            "co7",
+            "db4",
+            "fg11",
+            "ap2"
+          ],
+          "hint": "Rivest, Shamir, and Adleman provided the first practical realisation of public-key cryptography: any message encrypted with a recipient's public key can only be decrypted by their private key, which is derived from the product of two large primes. Breaking RSA requires factoring the product of those primes — a problem believed (but not proven) to require exponential time on classical computers. RSA underpins HTTPS certificates, digital signatures, and email encryption.",
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "note": "Rivest, R. L., Shamir, A. & Adleman, L. (1978). 'A Method for Obtaining Digital Signatures and Public-Key Cryptosystems.' Communications of the ACM, 21(2), 120–126. Turing Award 2002 (Rivest, Shamir, Adleman). An equivalent algorithm was independently discovered by Clifford Cocks at GCHQ in 1973 but remained classified until 1997. Security depends on the hardness of integer factorisation: keys of 2048 bits are considered secure against classical computers as of 2024. Shor's quantum algorithm (1994) would render RSA insecure on a sufficiently large quantum computer, motivating post-quantum alternatives (lattice-based cryptography)."
+        },
+        {
+          "id": "st7",
+          "group": "Networks & Distributed Computing",
+          "label": "World Wide Web (Berners-Lee)",
+          "date": "1991",
+          "loc": "CERN, Geneva, Switzerland",
+          "coords": [
+            46.23,
+            6.05
+          ],
+          "links": [
+            "st3",
+            "co5",
+            "fg10",
+            "ap4",
+            "ef4",
+            "st9"
+          ],
+          "hint": "Tim Berners-Lee, a physicist at CERN, combined three existing ideas — hypertext, the internet, and a domain name system — to propose a distributed information system in which documents link to each other via URLs over HTTP. The first website went live on 20 December 1990. CERN made the web technology royalty-free in 1993, enabling explosive growth: from one website in 1991 to over 1 billion by 2014.",
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "note": "Berners-Lee, T. & Cailliau, R. (1990). 'WorldWideWeb: Proposal for a HyperText Project.' CERN internal proposal. Berners-Lee, T. (1992). 'The World-Wide Web.' Computer Networks and ISDN Systems, 25(4-5), 454–459. Berners-Lee received the Turing Award in 2016. The web is distinct from the internet (the underlying network): it is an application layer built on TCP/IP. Berners-Lee has advocated for a 'Solid' decentralised web to address data ownership problems created by platform monopolisation."
+        },
+        {
+          "id": "st8",
+          "group": "AI: Symbolic & HCI",
+          "label": "Deep Blue Defeats World Chess Champion (Kasparov)",
+          "date": "1997",
+          "loc": "IBM Research, Yorktown Heights, New York",
+          "coords": [
+            41.21,
+            -73.84
+          ],
+          "links": [
+            "th8",
+            "db2",
+            "st10"
+          ],
+          "hint": "IBM's Deep Blue defeated Garry Kasparov — the reigning world chess champion — in a six-game match in May 1997, the first time a computer had beaten a human world champion under standard tournament conditions. Deep Blue searched up to 200 million positions per second using alpha-beta pruning and hand-crafted chess evaluation functions. It demonstrated that narrow AI could surpass human expertise in a domain long considered a benchmark of human intelligence.",
+          "tag": "EXPERIMENT",
+          "repl": "robust",
+          "note": "Campbell, M., Hoane, A. J. & Hsu, F.-H. (2002). 'Deep Blue.' Artificial Intelligence, 134(1-2), 57–83. Deep Blue used custom VLSI chess chips, evaluated 200 million positions per second, and employed a handcrafted evaluation function developed with grandmaster advice. Kasparov accused IBM of cheating after Game 2 (an unusual move he couldn't understand; IBM later said it was a bug that caused a random move). IBM declined a rematch and dismantled the machine. The match is widely cited as the end of chess as a benchmark for AI — it demonstrated strength without general intelligence."
+        },
+        {
+          "id": "st9",
+          "group": "Algorithms & Data Structures",
+          "label": "PageRank Algorithm (Brin & Page)",
+          "date": "1998",
+          "loc": "Stanford University, Stanford, California",
+          "coords": [
+            37.43,
+            -122.17
+          ],
+          "links": [
+            "co1",
+            "ap4",
+            "st7"
+          ],
+          "hint": "Brin and Page proposed ranking web pages by the number and quality of pages linking to them — treating links as votes, with votes from highly-ranked pages weighted more heavily. The PageRank score is the stationary distribution of a random walk over the web graph. This link-based ranking dramatically outperformed keyword-matching search engines and became the foundation of Google, transforming how knowledge is navigated on the web.",
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "note": "Brin, S. & Page, L. (1998). 'The Anatomy of a Large-Scale Hypertextual Web Search Engine.' Proceedings of the 7th International Conference on World Wide Web, 107–117. Google was incorporated in September 1998. PageRank was named both after web pages and after Larry Page. Modern Google uses hundreds of ranking signals beyond PageRank; the algorithm has evolved significantly since 1998 and PageRank values are no longer publicly reported. Search-engine optimisation (SEO) emerged as an industry specifically to game ranking algorithms."
+        },
+        {
+          "id": "st10",
+          "group": "Machine Learning & Neural Networks",
+          "label": "AlphaGo: Deep Reinforcement Learning Defeats Go Champion",
+          "date": "2016",
+          "loc": "DeepMind, London, England",
+          "coords": [
+            51.52,
+            -0.13
+          ],
+          "links": [
+            "st8",
+            "co6",
+            "fg12",
+            "db3",
+            "db8"
+          ],
+          "hint": "AlphaGo combined deep convolutional neural networks (trained on human games and by self-play) with Monte Carlo tree search to defeat Lee Sedol, a 9-dan Go professional, 4-1 in March 2016. Go has more board positions than atoms in the observable universe; brute-force search is impossible. AlphaGo's success — and AlphaZero's subsequent mastery of chess and Go without human game data — demonstrated that deep reinforcement learning could find superhuman strategies in complex domains from scratch.",
+          "tag": "EXPERIMENT",
+          "repl": "robust",
+          "note": "Silver, D. et al. (2016). 'Mastering the Game of Go with Deep Neural Networks and Tree Search.' Nature, 529, 484–489. AlphaGo Zero (Silver et al. 2017, Nature, 550, 354–359) learned purely from self-play with no human game data and surpassed the original AlphaGo. AlphaZero (Silver et al. 2018, Science, 362, 1140–1144) mastered chess, shogi, and Go with the same algorithm. The Go community noted that AlphaGo discovered novel opening strategies (moves 37 and 78 in Game 2) that professional players subsequently adopted."
+        },
+        {
+          "id": "st11",
+          "group": "Machine Learning & Neural Networks",
+          "label": "GPT-3: Large Language Model at Scale",
+          "date": "2020",
+          "loc": "OpenAI, San Francisco, California",
+          "coords": [
+            37.77,
+            -122.39
+          ],
+          "links": [
+            "co6",
+            "db3",
+            "ap5",
+            "fg12",
+            "db8"
+          ],
+          "hint": "GPT-3 is a 175-billion parameter transformer language model trained on approximately 570 GB of text from the internet. With no task-specific training, it could write essays, answer questions, generate code, and perform translation by conditioning on a few examples in the prompt (few-shot learning). GPT-3 demonstrated that scaling a single architecture across more data and compute could produce qualitative capability jumps — a scaling law that has since driven the development of all large language models.",
+          "tag": "DISCOVERY",
+          "repl": "mixed",
+          "note": "Brown, T. et al. (2020). 'Language Models are Few-Shot Learners.' Advances in Neural Information Processing Systems, 33, 1877–1901. Scaling laws: Kaplan, J. et al. (2020). 'Scaling Laws for Neural Language Models.' arXiv:2001.08361. GPT-3 was accessed via API only; GPT-4 (2023) and subsequent models have made capabilities more accessible. Limitations documented: factual hallucination, inconsistency, sensitivity to prompt phrasing, and demographic bias from training data. Repl: mixed — few-shot capabilities are real and robust, but reports of emergent reasoning are contested (Schaeffer et al. 2023)."
+        }
+      ]
+    },
+    {
+      "id": "effect",
+      "label": "Effects & Phenomena",
+      "icon": "📊",
+      "color": "#0B4F2E",
+      "accent": "#117A65",
+      "bg": "#F0FFF6",
+      "subtitle": "Named, replicable patterns in computational and information systems",
+      "entries": [
+        {
+          "id": "ef1",
+          "group": "Foundations & Computability",
+          "label": "Moore's Law",
+          "date": "1965",
+          "loc": "Fairchild Semiconductor, Mountain View, California",
+          "coords": [
+            37.39,
+            -122.05
+          ],
+          "links": [
+            "th2",
+            "ef3",
+            "db7"
+          ],
+          "hint": "Gordon Moore observed in 1965 that the number of transistors per integrated circuit had doubled roughly every year since 1959, and predicted this trend would continue. Revised to a doubling roughly every two years, 'Moore's Law' drove five decades of exponential improvements in computing speed, memory density, and cost. It has become a self-fulfilling prophecy: the semiconductor industry sets roadmaps to the law and organises R&D accordingly.",
+          "tag": "LAW",
+          "repl": "mixed",
+          "note": "Moore, G. E. (1965). 'Cramming More Components onto Integrated Circuits.' Electronics, 38(8), 114–117. Moore revised his estimate to a doubling every 24 months in 1975. Moore's Law is an observation about industry practice, not a physical law — it is maintained by coordinated investment rather than fundamental physics. Physical limits (quantum tunnelling, heat dissipation at atomic scales) have slowed transistor density gains since ~2010; improvements now come primarily from architectural innovations (3D stacking, specialised accelerators like GPUs and TPUs). Repl: mixed — the exponential trend has continued but is slowing."
+        },
+        {
+          "id": "ef2",
+          "group": "Foundations & Computability",
+          "label": "Halting Problem Undecidability",
+          "date": "1936",
+          "loc": "King's College, University of Cambridge, Cambridge, England",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "links": [
+            "th1",
+            "ef7",
+            "db1",
+            "fg2"
+          ],
+          "hint": "Turing proved that no general algorithm can determine, for an arbitrary program and input, whether the program will eventually halt or run forever. The proof is by diagonalisation: assuming such a decider exists leads to a contradiction. This established the first hard limit on what computation can achieve — some problems are not just hard but provably unsolvable — and underpins all subsequent results in computability theory.",
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "note": "Turing, A. M. (1936). 'On Computable Numbers, with an Application to the Entscheidungsproblem.' Proceedings of the London Mathematical Society, 42, 230–265. The diagonalisation proof is one of the most elegant arguments in mathematics. Rice's Theorem (1953) generalises the result: no non-trivial semantic property of programs is decidable. Practical implications: static analysis tools for infinite loops, virus detection, and formal verification are necessarily incomplete — they either miss some cases or produce false positives."
+        },
+        {
+          "id": "ef3",
+          "group": "Systems & Software Engineering",
+          "label": "Amdahl's Law",
+          "date": "1967",
+          "loc": "IBM Corporation, Armonk, New York",
+          "coords": [
+            41.11,
+            -73.72
+          ],
+          "links": [
+            "ef1",
+            "th2",
+            "ap6"
+          ],
+          "hint": "Amdahl showed that the maximum speedup from parallelising a program is limited by its sequential fraction: if 5% of a task must run sequentially, no amount of parallel hardware can ever achieve more than 20× speedup, regardless of the number of processors. The law explains why multicore CPUs deliver diminishing returns for programs that are not designed for parallelism, and why code optimisation should target the bottleneck rather than the common case.",
+          "tag": "LAW",
+          "repl": "robust",
+          "note": "Amdahl, G. M. (1967). 'Validity of the Single Processor Approach to Achieving Large-Scale Computing Capabilities.' Proceedings of the AFIPS Spring Joint Computer Conference, 30, 483–485. Gustafson's Law (1988) offered a more optimistic counterpoint: for workloads that scale with the number of processors, efficiency can remain high as cores are added. Together, the two laws frame the fundamental trade-off in parallel systems design. Modern chip architects use Amdahl's Law to decide which components to accelerate with specialised hardware (GPU, NPU, DSP)."
+        },
+        {
+          "id": "ef4",
+          "group": "Networks & Distributed Computing",
+          "label": "Metcalfe's Law",
+          "date": "1980",
+          "loc": "Xerox PARC, Palo Alto, California",
+          "coords": [
+            37.4,
+            -122.15
+          ],
+          "links": [
+            "co5",
+            "st7",
+            "db6",
+            "ap6"
+          ],
+          "hint": "Robert Metcalfe, co-inventor of Ethernet, observed that the value of a telecommunications network is proportional to the square of the number of connected users. With n nodes, there are n(n-1)/2 possible pairwise connections, so value grows as n². This explains why network effects make dominant platforms increasingly hard to displace and why internet adoption accelerated non-linearly once a critical mass of users was connected.",
+          "tag": "LAW",
+          "repl": "mixed",
+          "note": "Metcalfe, B. (1995). 'Metcalfe's Law: A Network Becomes More Valuable as It Reaches More Users.' Infoworld, 17(40), 53. The law was retroactively attributed to Metcalfe's unpublished Ethernet slide from around 1980. Briscoe, B., Odlyzko, A. & Tilly, B. (2006). 'Metcalfe's Law is Wrong.' IEEE Spectrum, 43(7), 34–39 — argued network value grows as n log(n), not n², because most connections are irrelevant to a given user. The qualitative insight (network value grows superlinearly with users) is well established; the exact exponent is contested. Repl: mixed."
+        },
+        {
+          "id": "ef5",
+          "group": "AI: Symbolic & HCI",
+          "label": "Fitts's Law",
+          "date": "1954",
+          "loc": "Ohio State University, Columbus, Ohio",
+          "coords": [
+            40,
+            -83.02
+          ],
+          "links": [
+            "me4",
+            "db2",
+            "ap3"
+          ],
+          "hint": "Fitts showed that the time to move a pointing device to a target is a logarithmic function of the ratio of target distance to target width: T = a + b log₂(2D/W). A distant, small target takes longer to hit than a nearby, large one — a quantitative law governing human motor control. Fitts's Law is the bedrock of HCI design: it explains why desktop taskbars belong at screen edges (infinite width) and why small touch targets are slow to tap.",
+          "tag": "LAW",
+          "repl": "robust",
+          "note": "Fitts, P. M. (1954). 'The Information Capacity of the Human Motor System in Controlling the Amplitude of Movement.' Journal of Experimental Psychology, 47(6), 381–391. MacKenzie, I. S. (1992). 'Fitts' Law as a Research and Design Tool in Human-Computer Interaction.' Human-Computer Interaction, 7(1), 91–139 — adapted the law for 2D pointing. The law has been validated across pointing devices (mouse, touchscreen, eye-gaze, brain-computer interface) with high reproducibility (R² typically > 0.98). Apple's original Macintosh menu bar at the screen edge is a direct application."
+        },
+        {
+          "id": "ef6",
+          "group": "Machine Learning & Neural Networks",
+          "label": "No Free Lunch Theorem",
+          "date": "1997",
+          "loc": "NASA Ames Research Center, Moffett Field, California",
+          "coords": [
+            37.41,
+            -122.06
+          ],
+          "links": [
+            "th9",
+            "co6",
+            "db8",
+            "me5",
+            "db3"
+          ],
+          "hint": "Wolpert and Macready proved that averaged over all possible problems, any two optimisation algorithms perform identically — no algorithm is universally superior. To outperform random search on any specific class of problems, an algorithm must incorporate assumptions (inductive biases) about that class. The theorem explains why there is no single best machine learning algorithm: a method that works well on image recognition may perform poorly on time-series forecasting.",
+          "tag": "PRINCIPLE",
+          "repl": "robust",
+          "note": "Wolpert, D. H. & Macready, W. G. (1997). 'No Free Lunch Theorems for Optimization.' IEEE Transactions on Evolutionary Computation, 1(1), 67–82. The result applies to the uniform distribution over all possible fitness functions — a distribution that does not reflect any real-world problem. Critics (e.g., Igel & Toussaint 2005) note that if the target distribution of problems is not uniform (and real-world problems are not), free lunches may exist for that distribution. The theorem is most useful as a reminder that empirical benchmarking is necessary and that assumptions must be made explicit."
+        },
+        {
+          "id": "ef7",
+          "group": "Foundations & Computability",
+          "label": "Turing Completeness",
+          "date": "1936",
+          "loc": "King's College, University of Cambridge, Cambridge, England",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "links": [
+            "th1",
+            "ef2",
+            "fg2"
+          ],
+          "hint": "A computational system is Turing-complete if it can simulate any Turing Machine — meaning it can compute anything that is computable at all. All general-purpose programming languages (C, Python, JavaScript, SQL with recursive CTEs) are Turing-complete. Surprisingly, so are many informal systems: Conway's Game of Life, Magic: The Gathering, and Minecraft redstone circuits. Turing completeness is both the foundation of software universality and a source of undecidability: any Turing-complete language inherits the halting problem.",
+          "tag": "PRINCIPLE",
+          "repl": "robust",
+          "note": "Turing, A. M. (1936). 'On Computable Numbers.' The concept of Turing completeness was implicit in the original paper and made explicit in subsequent computability theory. A practical consequence: if a domain-specific language becomes Turing-complete (e.g., CSS selectors + HTML, or some query languages), arbitrary programs can be embedded in it, which may introduce unexpected security and performance risks. CSS was shown to be Turing-complete via a reduction to Rule 110 (Ransen 2011)."
+        },
+        {
+          "id": "ef8",
+          "group": "Systems & Software Engineering",
+          "label": "Brooks's Law (Mythical Man-Month)",
+          "date": "1975",
+          "loc": "IBM Corporation, Armonk, New York",
+          "coords": [
+            41.11,
+            -73.72
+          ],
+          "links": [
+            "th5",
+            "me3",
+            "db5",
+            "db7"
+          ],
+          "hint": "Fred Brooks observed from managing the IBM OS/360 project that adding manpower to a late software project makes it later. New developers need time to ramp up; communication overhead grows quadratically with team size; and tasks that appear parallelisable often are not. The Mythical Man-Month popularised the insight that software development is fundamentally different from other engineering: adding resources does not linearly add throughput.",
+          "tag": "LAW",
+          "repl": "mixed",
+          "note": "Brooks, F. P. (1975). The Mythical Man-Month: Essays on Software Engineering. Addison-Wesley. Revised edition (1995) added 'No Silver Bullet: Essence and Accidents of Software Engineering.' The quadratic communication overhead claim (n(n-1)/2 channels for n developers) is well-established in organisational theory but the magnitude of the slowdown is context-dependent: small, cohesive teams suffer less than large, distributed ones. Agile methodologies (small team iterations) and microservices architecture (independent deployment units) are partly responses to the coordination costs Brooks identified. Repl: mixed."
+        },
+        {
+          "id": "ef9",
+          "group": "Cryptography & Security",
+          "label": "Perfect Secrecy (Shannon's Encryption Theorem)",
+          "date": "1949",
+          "loc": "Bell Telephone Laboratories, Murray Hill, New Jersey",
+          "coords": [
+            40.69,
+            -74.4
+          ],
+          "links": [
+            "th10",
+            "th3",
+            "co7",
+            "fg3"
+          ],
+          "hint": "Shannon proved that a cipher achieves perfect secrecy — where ciphertext reveals zero information about plaintext even to an adversary with unlimited computing power — if and only if the key is uniformly random, at least as long as the message, and never reused. The one-time pad is the only cipher meeting these conditions. Shannon's theorem defines the gold standard of secrecy and explains why all practical ciphers (which use shorter keys) must settle for computational security.",
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "note": "Shannon, C. E. (1949). 'Communication Theory of Secrecy Systems.' Bell System Technical Journal, 28(4), 656–715. The one-time pad (Vernam cipher, 1917) was retroactively shown to be perfectly secure by this theorem. Perfect secrecy is provably impossible to achieve with a key shorter than the message — this places a fundamental lower bound on key length for unconditional security. All modern ciphers (AES, ChaCha20) are computationally secure, meaning no known algorithm can break them in polynomial time, but in principle a sufficiently powerful adversary could. The theorem motivates post-quantum cryptography: breaking computational assumptions is the threat model."
+        }
+      ]
+    },
+    {
+      "id": "concept",
+      "label": "Key Concepts",
+      "icon": "💡",
+      "color": "#2C3E50",
+      "accent": "#566573",
+      "bg": "#F5F6FA",
+      "subtitle": "The building blocks and vocabulary every student must command",
+      "entries": [
+        {
+          "id": "co1",
+          "group": "Algorithms & Data Structures",
+          "label": "Big-O Notation & Asymptotic Complexity",
+          "date": "1968",
+          "loc": "Stanford University, Stanford, California",
+          "coords": [
+            37.43,
+            -122.17
+          ],
+          "links": [
+            "th4",
+            "st5",
+            "st9",
+            "me2",
+            "ap4",
+            "fg6",
+            "db1"
+          ],
+          "hint": "Big-O notation, introduced in mathematics by Bachmann (1894) and formalised for computer science by Knuth (1968), expresses the growth rate of an algorithm's resource consumption (time or space) as a function of input size, ignoring constant factors. O(n²) means the algorithm's cost grows quadratically. This vocabulary allows developers to reason about performance at scale without running code — distinguishing algorithms that will work in production from those that will not.",
+          "tag": "CONCEPT",
+          "note": "Knuth, D. E. (1968). The Art of Computer Programming, Vol. 1: Fundamental Algorithms. Addison-Wesley — popularised Big-O for computer science. Bachmann, P. (1894). Die Analytische Zahlentheorie. Teubner — the mathematical origin. Related notations: Ω (lower bound), Θ (tight bound). A common misconception: O(n²) does not mean slow — whether an algorithm is fast depends on the constant factor and the practical values of n. O(n³) matrix multiplication can outperform O(n^2.37) algorithms in practice for moderate n because the constant is enormous in the latter."
+        },
+        {
+          "id": "co2",
+          "group": "Foundations & Computability",
+          "label": "Recursion",
+          "date": "1960",
+          "loc": "MIT, Cambridge, Massachusetts",
+          "coords": [
+            42.36,
+            -71.09
+          ],
+          "links": [
+            "th1",
+            "me2",
+            "fg1"
+          ],
+          "hint": "A recursive function is one that calls itself with a smaller subproblem until reaching a base case. McCarthy's Lisp (1960) made recursion the primary control flow mechanism in programming, replacing iteration. Recursion maps cleanly onto divide-and-conquer algorithms (mergesort, quicksort, FFT), tree traversals, and parsing — and is the computational analogue of mathematical induction. Without recursion (and its companion, the call stack), most elegant algorithm designs would be impossible to express.",
+          "tag": "CONCEPT",
+          "note": "McCarthy, J. (1960). 'Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I.' Communications of the ACM, 3(4), 184–195 — introduced Lisp and recursion as a programming construct. Ackermann, W. (1928). 'Zum Hilbertschen Aufbau der reellen Zahlen.' Mathematische Annalen, 99, 118–133 — the Ackermann function, a classic example of a computable function that is not primitive recursive. Tail-call optimisation transforms tail-recursive calls into loops, avoiding stack overflow — supported natively in Scheme, Haskell, and Kotlin but not in Python or Java."
+        },
+        {
+          "id": "co3",
+          "group": "Systems & Software Engineering",
+          "label": "Abstract Data Type (ADT)",
+          "date": "1974",
+          "loc": "MIT, Cambridge, Massachusetts",
+          "coords": [
+            42.36,
+            -71.09
+          ],
+          "links": [
+            "th6",
+            "me3",
+            "co4",
+            "fg8"
+          ],
+          "hint": "An abstract data type defines a data structure by its operations and their specified behaviour, hiding the implementation details. A Stack is defined by push, pop, and peek — whether it is implemented as an array or linked list is irrelevant to the user. ADTs are the conceptual foundation of encapsulation in object-oriented programming and of interface-based design in software engineering — the principle that code should depend on abstractions, not concretions.",
+          "tag": "CONCEPT",
+          "note": "Liskov, B. & Zilles, S. (1974). 'Programming with Abstract Data Types.' Proceedings of the ACM SIGPLAN Symposium on Very High Level Languages, 50–59. Liskov received the Turing Award in 2008 for contributions to programming language design and formal specification, including the Liskov Substitution Principle (1994), which states that objects of a subtype must be substitutable for objects of their supertype. ADTs were independently developed by Parnas (1972) via information-hiding modules. The concept directly informs Java interfaces, C++ virtual classes, and Haskell type classes."
+        },
+        {
+          "id": "co4",
+          "group": "Systems & Software Engineering",
+          "label": "Semaphore & Mutual Exclusion",
+          "date": "1965",
+          "loc": "Eindhoven University of Technology, Eindhoven, Netherlands",
+          "coords": [
+            51.45,
+            5.49
+          ],
+          "links": [
+            "th5",
+            "fg6",
+            "co3",
+            "me1"
+          ],
+          "hint": "Dijkstra introduced the semaphore in 1965 as a synchronisation primitive: an integer variable that can only be modified via two atomic operations (P/wait and V/signal). Semaphores prevent race conditions when multiple processes share a resource. Together with mutual exclusion, they are the foundational building blocks of concurrent programming — underpinning every operating system scheduler, database transaction manager, and multi-threaded application.",
+          "tag": "CONCEPT",
+          "note": "Dijkstra, E. W. (1965). 'Solution of a Problem in Concurrent Programming Control.' Communications of the ACM, 8(9), 569 — introduced semaphores and the mutual exclusion problem. Dijkstra (1965) also introduced the Dining Philosophers Problem to illustrate deadlock. Higher-level concurrency primitives (mutexes, monitors, condition variables, message-passing channels) are all built on or designed to replace semaphores. Deadlock — a state where two processes each hold a resource the other needs — is a classic consequence of misused mutual exclusion (Coffman et al. 1971)."
+        },
+        {
+          "id": "co5",
+          "group": "Networks & Distributed Computing",
+          "label": "TCP/IP Protocol Stack",
+          "date": "1974",
+          "loc": "Stanford University, Stanford, California",
+          "coords": [
+            37.43,
+            -122.17
+          ],
+          "links": [
+            "th7",
+            "st3",
+            "ef4",
+            "st7",
+            "db6",
+            "ap1",
+            "fg10"
+          ],
+          "hint": "Cerf and Kahn's Transmission Control Protocol / Internet Protocol (TCP/IP) defines how data is broken into packets, addressed, routed across heterogeneous networks, and reassembled reliably at the destination. TCP handles ordering, retransmission of lost packets, and flow control; IP handles addressing and routing. The protocol stack's layered architecture allows any network technology (Ethernet, Wi-Fi, 4G, satellite) to carry internet traffic, making the internet technology-agnostic.",
+          "tag": "CONCEPT",
+          "note": "Cerf, V. G. & Kahn, R. E. (1974). 'A Protocol for Packet Network Intercommunication.' IEEE Transactions on Communications, 22(5), 637–648. Turing Award 2004 (Cerf and Kahn). TCP/IP replaced NCP on ARPANET on 1 January 1983. The protocol stack is typically described as four layers (link, internet, transport, application) or, per the OSI model, seven. UDP provides an unreliable, low-latency alternative to TCP, used for video streaming and DNS. QUIC (Google 2012, IETF standard 2021) reimplements TCP-like reliability over UDP to reduce connection latency."
+        },
+        {
+          "id": "co6",
+          "group": "Machine Learning & Neural Networks",
+          "label": "Backpropagation & Gradient Descent",
+          "date": "1986",
+          "loc": "University of California San Diego, La Jolla, California",
+          "coords": [
+            32.88,
+            -117.23
+          ],
+          "links": [
+            "th9",
+            "st10",
+            "st11",
+            "ef6",
+            "ap3",
+            "fg12",
+            "ap5"
+          ],
+          "hint": "Backpropagation applies the chain rule of calculus to compute the gradient of a loss function with respect to every weight in a neural network in a single backward pass. Gradient descent then adjusts each weight proportionally to its gradient, iteratively reducing prediction error. Together, they make training deep neural networks tractable. Virtually every deep learning model — CNNs, RNNs, transformers — is trained by some variant of gradient descent with backpropagation.",
+          "tag": "CONCEPT",
+          "note": "Rumelhart, D. E., Hinton, G. E. & Williams, R. J. (1986). 'Learning Representations by Back-propagating Errors.' Nature, 323, 533–536 — the paper that popularised backprop in neural networks. The algorithm was independently discovered by Werbos (1974, PhD thesis), LeCun (1985), and Parker (1985). Stochastic gradient descent (SGD) — updating weights after each training example rather than the full dataset — is the practical variant; adaptive methods (Adam, RMSProp) adjust the learning rate per parameter. Vanishing gradients in deep networks were a limiting problem until ReLU activations (2010) and residual connections (He et al. 2016)."
+        },
+        {
+          "id": "co7",
+          "group": "Cryptography & Security",
+          "label": "Zero-Knowledge Proof",
+          "date": "1985",
+          "loc": "MIT, Cambridge, Massachusetts",
+          "coords": [
+            42.36,
+            -71.09
+          ],
+          "links": [
+            "th10",
+            "fg11",
+            "st6",
+            "ef9",
+            "me6",
+            "db4"
+          ],
+          "hint": "A zero-knowledge proof is a protocol by which a prover can convince a verifier that a statement is true — e.g., 'I know the password' — without revealing any information beyond the statement's truth. The prover demonstrates knowledge without disclosure. ZKPs are foundational to privacy-preserving authentication, anonymous credentials, and blockchain privacy protocols (Zcash, Ethereum scaling). The concept formalized a precise mathematical notion of what it means to 'prove without revealing'.",
+          "tag": "CONCEPT",
+          "note": "Goldwasser, S., Micali, S. & Rackoff, C. (1985). 'The Knowledge Complexity of Interactive Proof Systems.' Proceedings of the 17th Annual ACM Symposium on Theory of Computing, 291–304. Turing Award 2012 (Goldwasser and Micali). The 'Ali Baba cave' thought experiment by Quisquater et al. (1990) is the canonical intuitive explanation. Practical variants: zk-SNARKs (succinct non-interactive arguments of knowledge) are now deployed in Zcash and Ethereum rollups; they allow proofs of computational integrity that are fast to verify even if slow to generate."
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "label": "Methods & Approaches",
+      "icon": "🔬",
+      "color": "#5D4037",
+      "accent": "#8B5E00",
+      "bg": "#FFF8F0",
+      "subtitle": "The tools and paradigms that generate the field's evidence",
+      "entries": [
+        {
+          "id": "me1",
+          "group": "Foundations & Computability",
+          "label": "Formal Program Verification (Floyd-Hoare Logic)",
+          "date": "1967",
+          "loc": "Stanford University, Stanford, California",
+          "coords": [
+            37.43,
+            -122.17
+          ],
+          "links": [
+            "th1",
+            "th5",
+            "co4",
+            "db7",
+            "fg9"
+          ],
+          "hint": "Floyd and Hoare developed a formal system for proving program correctness: annotate each program point with a logical assertion (a predicate on program state), and prove that if the precondition holds before a statement executes, the postcondition holds after. Hoare triples {P} C {Q} are the notation. This transforms software correctness from a testing question into a mathematical proof — the approach underlying type systems, model checking, and tools like Dafny, Coq, and Isabelle.",
+          "tag": "METHOD",
+          "note": "Floyd, R. W. (1967). 'Assigning Meanings to Programs.' Proceedings of Symposia in Applied Mathematics, 19, 19–32. Hoare, C. A. R. (1969). 'An Axiomatic Basis for Computer Programming.' Communications of the ACM, 12(10), 576–580. Turing Award 1980 (Hoare). Full formal verification is expensive — the seL4 microkernel proof (Klein et al. 2009, SOSP) required ~200,000 lines of Isabelle proof for 8,700 lines of C. Lightweight variants (type systems, static analysis, model checking) are widely deployed. The CompCert verified C compiler (Leroy 2006) is used in safety-critical avionics."
+        },
+        {
+          "id": "me2",
+          "group": "Algorithms & Data Structures",
+          "label": "Algorithm Analysis (Asymptotic & Empirical)",
+          "date": "1968",
+          "loc": "Stanford University, Stanford, California",
+          "coords": [
+            37.43,
+            -122.17
+          ],
+          "links": [
+            "co1",
+            "co2",
+            "st5"
+          ],
+          "hint": "Knuth's Art of Computer Programming systematised the analysis of algorithms: count the number of operations as a function of input size, express it in Big-O notation, and use probability theory for average-case analysis. Algorithm analysis allows comparison of approaches before implementation and identification of bottlenecks. It is the core methodology of theoretical computer science, underlying the design of every efficient data structure and sorting algorithm.",
+          "tag": "METHOD",
+          "note": "Knuth, D. E. (1968–1973). The Art of Computer Programming, Vols. 1–3. Addison-Wesley. Turing Award 1974 (Knuth). Volumes 4A (2011) and 4B (2022) on combinatorial algorithms appeared decades later. Empirical algorithm analysis — measuring actual running times on benchmark inputs — complements asymptotic analysis because constant factors matter in practice. The field has extended to competitive analysis (online algorithms, Sleator & Tarjan 1985) and amortised analysis (aggregate cost per operation, also Tarjan 1985)."
+        },
+        {
+          "id": "me3",
+          "group": "Systems & Software Engineering",
+          "label": "Object-Oriented Programming (OOP)",
+          "date": "1967",
+          "loc": "Norwegian Computing Center, Oslo, Norway",
+          "coords": [
+            59.91,
+            10.75
+          ],
+          "links": [
+            "th5",
+            "ef8",
+            "co3",
+            "st4",
+            "fg5",
+            "fg9",
+            "fg7"
+          ],
+          "hint": "Dahl and Nygaard's Simula 67 introduced objects — data structures bundled with the methods that operate on them — and inheritance as a way to share behaviour between related types. Smalltalk (Kay, 1972) popularised the paradigm as a philosophy: 'everything is an object'. OOP became the dominant programming paradigm through C++, Java, Python, and Swift. Encapsulation, inheritance, and polymorphism provide the three organising principles of object-oriented design.",
+          "tag": "METHOD",
+          "note": "Dahl, O.-J. & Nygaard, K. (1966). 'SIMULA — An ALGOL-based Simulation Language.' Communications of the ACM, 9(9), 671–678. Turing Award 2001 (Dahl and Nygaard, awarded posthumously in Dahl's case). Kay, A. (1972). 'A Personal Computer for Children of All Ages.' Proceedings of the ACM Annual Conference. The object-oriented paradigm has attracted sustained critique: objects encourage shared mutable state, making concurrent programs difficult to reason about (Haskell, Erlang, and Rust favour immutability and message-passing instead). Composition over inheritance is now standard advice in OOP design."
+        },
+        {
+          "id": "me4",
+          "group": "AI: Symbolic & HCI",
+          "label": "Usability Testing & Cognitive Walkthrough",
+          "date": "1990",
+          "loc": "University of Colorado, Boulder, Colorado",
+          "coords": [
+            40.01,
+            -105.27
+          ],
+          "links": [
+            "ef5",
+            "db2",
+            "ap3"
+          ],
+          "hint": "The cognitive walkthrough (Lewis et al. 1990) is a usability evaluation technique in which evaluators step through a task sequence, asking at each step whether a user would know what to do, recognise the correct action, and interpret feedback correctly. It requires no user testing — just interface inspection against a user-task model. Combined with empirical usability testing (Nielsen & Molich 1990), these methods provide systematic evidence about interface quality before deployment.",
+          "tag": "METHOD",
+          "note": "Lewis, C., Polson, P., Wharton, C. & Rieman, J. (1990). 'Testing a Walkthrough Methodology for Theory-Based Design of Walk-Up-and-Use Interfaces.' Proceedings of CHI '90, 235–242. Nielsen, J. & Molich, R. (1990). 'Heuristic Evaluation of User Interfaces.' Proceedings of CHI '90, 249–256 — proposed 10 usability heuristics (visibility of system status, match with the real world, etc.) that remain widely applied. Empirical usability testing was systematised by Rubin, J. (1994). Handbook of Usability Testing. Wiley. Nielsen's observation that 5 participants find ~85% of usability problems (Nielsen 2000) remains influential though its statistical basis is debated."
+        },
+        {
+          "id": "me5",
+          "group": "Machine Learning & Neural Networks",
+          "label": "Cross-Validation & Model Selection",
+          "date": "1974",
+          "loc": "University College London, London, England",
+          "coords": [
+            51.52,
+            -0.13
+          ],
+          "links": [
+            "th9",
+            "ef6",
+            "db8"
+          ],
+          "hint": "Cross-validation is the standard method for estimating how well a machine learning model will generalise to unseen data: partition the dataset into k folds, train on k-1 folds, evaluate on the held-out fold, and average performance across k iterations. It prevents overfitting — the failure mode where a model memorises training data but fails on new inputs. Cross-validation is also the principal tool for comparing algorithms and selecting hyperparameters.",
+          "tag": "METHOD",
+          "note": "Stone, M. (1974). 'Cross-Validatory Choice and Assessment of Statistical Predictions.' Journal of the Royal Statistical Society: Series B, 36(2), 111–133. Geisser, S. (1975). 'The Predictive Sample Reuse Method with Applications.' Journal of the American Statistical Association, 70(350), 320–328. Leave-one-out cross-validation (LOOCV) and k-fold CV (typically k=5 or k=10) are the standard forms. Nested cross-validation is required for unbiased evaluation when hyperparameters are tuned on the same split used for evaluation — a common methodological error (Cawley & Talbot 2010)."
+        },
+        {
+          "id": "me6",
+          "group": "Cryptography & Security",
+          "label": "Penetration Testing",
+          "date": "1967",
+          "loc": "RAND Corporation, Santa Monica, California",
+          "coords": [
+            34.02,
+            -118.49
+          ],
+          "links": [
+            "th10",
+            "db4",
+            "co7"
+          ],
+          "hint": "Penetration testing — authorised simulated attacks on a system to find security vulnerabilities before malicious actors do — was formalised in the 1967 US Department of Defense study 'Security Controls for Computer Systems.' Teams called 'tiger teams' attempted to break into government computer systems; their success revealed fundamental weaknesses. Today, penetration testing is a mandatory component of security certification and a professional discipline, with formal methodologies (PTES, OWASP) and ethical and legal frameworks.",
+          "tag": "METHOD",
+          "note": "Ware, W. H. et al. (1970). 'Security Controls for Computer Systems: Report of Defense Science Board Task Force on Computer Security.' RAND Corporation, R-609-1. Anderson, J. P. (1972). 'Computer Security Technology Planning Study.' US Air Force Electronic Systems Division, ESD-TR-73-51 — defined the threat model still used in security architecture. The EC-Council Certified Ethical Hacker (CEH) and OSCP certifications formalised penetration testing as a profession in the 2000s. Legal framework: in most jurisdictions, penetration testing requires explicit written authorisation; unauthorised testing is a criminal offence under laws such as the US Computer Fraud and Abuse Act."
+        }
+      ]
+    },
+    {
+      "id": "figure",
+      "label": "Pioneers & Theorists",
+      "icon": "🧑‍🔬",
+      "color": "#7D6608",
+      "accent": "#B7770D",
+      "bg": "#FEFDE7",
+      "subtitle": "The researchers who shaped the discipline",
+      "entries": [
+        {
+          "id": "fg1",
+          "group": "Pioneers & Theorists",
+          "label": "Ada Lovelace",
+          "date": "1843",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "links": [
+            "fg4",
+            "fg2",
+            "co2"
+          ],
+          "hint": "Lovelace translated an Italian account of Babbage's Analytical Engine and added notes three times longer than the original, including what is widely regarded as the first algorithm intended for machine execution — a method for computing Bernoulli numbers. She also articulated the key insight that the Engine could manipulate any symbols according to rules, not just numbers, anticipating the generality of modern computation by a century.",
+          "tag": "FIGURE",
+          "note": "Lovelace, A. A. (1843). 'Notes on L. F. Menabrea's Sketch of the Analytical Engine.' Scientific Memoirs, 3, 666–731. Ada Lovelace Day (second Tuesday of October) commemorates her contributions. Historian Allan Bromley (1990) argued the Bernoulli algorithm contained a significant error, questioning whether it could have run; defenders counter that the error is in Menabrea's original, not Lovelace's correction. The Ada programming language (US DoD, 1980) and AWS Lambda (Lambda Calculus) both take their names from her legacy."
+        },
+        {
+          "id": "fg2",
+          "group": "Pioneers & Theorists",
+          "label": "Alan Turing",
+          "date": "1936",
+          "loc": "King's College, University of Cambridge, Cambridge, England",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "links": [
+            "th1",
+            "th4",
+            "ef2",
+            "ef7",
+            "st1",
+            "th8",
+            "db1",
+            "fg1"
+          ],
+          "hint": "Turing's 1936 paper defined the mathematical model of computation, proved the halting problem undecidable, and established the limits of what any algorithm can achieve. During WWII he led the cryptanalysis of the German Enigma machine at Bletchley Park, shortening the war by an estimated two years. His 1950 paper defined the test for machine intelligence that still frames the field. Turing is simultaneously the father of theoretical computer science, AI, and cryptanalysis.",
+          "tag": "FIGURE",
+          "note": "Turing, A. M. (1936). 'On Computable Numbers.' PLMS, 42, 230–265. Turing, A. M. (1950). 'Computing Machinery and Intelligence.' Mind, 59, 433–460. Turing was prosecuted for homosexuality in 1952, subjected to chemical castration, and died in 1954 of cyanide poisoning — officially ruled suicide, though disputed. He received a royal pardon in 2013. The Turing Award (ACM, annual since 1966) is the highest distinction in computer science. The Bombe machine Turing co-designed broke Enigma at Bletchley Park; subsequent COLOSSUS work (Flowers et al.) broke Lorenz ciphers."
+        },
+        {
+          "id": "fg3",
+          "group": "Pioneers & Theorists",
+          "label": "Claude Shannon",
+          "date": "1948",
+          "loc": "Bell Telephone Laboratories, Murray Hill, New Jersey",
+          "coords": [
+            40.69,
+            -74.4
+          ],
+          "links": [
+            "th3",
+            "ef9"
+          ],
+          "hint": "Shannon's 1948 paper founded information theory by quantifying information as the resolution of uncertainty. He defined entropy, proved the channel capacity theorem, and showed that error-correcting codes could approach the Shannon limit. In 1937, his MIT master's thesis proved that Boolean algebra could design electrical circuits — the bridge between logic and electronics that made digital computers possible.",
+          "tag": "FIGURE",
+          "note": "Shannon, C. E. (1948). 'A Mathematical Theory of Communication.' Bell System Technical Journal, 27. Shannon, C. E. (1937). 'A Symbolic Analysis of Relay and Switching Circuits.' Transactions of the American Institute of Electrical Engineers, 57, 713–723. Called 'the most important master's thesis of the 20th century' by Howard Gardner. Shannon was known for riding a unicycle through Bell Labs hallways while juggling. He devoted his later career to juggling machines and maze-solving mice, keeping a deliberate distance from the explosion of applications of his theory."
+        },
+        {
+          "id": "fg4",
+          "group": "Pioneers & Theorists",
+          "label": "John von Neumann",
+          "date": "1945",
+          "loc": "Institute for Advanced Study, Princeton, New Jersey",
+          "coords": [
+            40.33,
+            -74.65
+          ],
+          "links": [
+            "th2",
+            "st2",
+            "fg1"
+          ],
+          "hint": "Von Neumann's stored-program architecture (EDVAC report, 1945) defined the computer design used in virtually every machine since. He also contributed the minimax theorem in game theory, the mathematical foundations of quantum mechanics, and cellular automata. As a consultant to the Manhattan Project and early computing initiatives, he shaped both the hardware design and the institutional direction of early computing, making him arguably the most influential single figure in the history of the field.",
+          "tag": "FIGURE",
+          "note": "von Neumann, J. (1945). 'First Draft of a Report on the EDVAC.' US Army Ordnance. von Neumann, J. (1928). 'Zur Theorie der Gesellschaftsspiele.' Mathematische Annalen, 100, 295–320 — minimax theorem. Authorship of the stored-program concept is contested (Eckert and Mauchly filed patents before von Neumann's report; see Stern 1980). Von Neumann was reportedly able to perform mental arithmetic fast enough to beat early computers on small problems, and could quote historical documents verbatim from memory. He died in 1957 at age 53 from cancer, possibly related to nuclear radiation exposure at Los Alamos."
+        },
+        {
+          "id": "fg5",
+          "group": "Pioneers & Theorists",
+          "label": "Grace Hopper",
+          "date": "1952",
+          "loc": "Remington Rand, Philadelphia, Pennsylvania",
+          "coords": [
+            39.95,
+            -75.19
+          ],
+          "links": [
+            "me3",
+            "fg7"
+          ],
+          "hint": "Hopper created the first compiler — the A-0 system (1952) — which translated mathematical notation into machine code, replacing the error-prone process of hand-coding machine instructions. She championed the idea that programming languages should be readable by humans and helped develop COBOL, the language that processes the majority of the world's financial transactions to this day. She also popularised the term 'bug' after finding a moth in the Harvard Mark II.",
+          "tag": "FIGURE",
+          "note": "Hopper, G. M. (1952). 'The Education of a Computer.' Proceedings of the 1952 ACM Meeting, 243–249 — described the A-0 compiler. COBOL: CODASYL (1960). Common Business-Oriented Language — Hopper served on the technical committee and advocated for English-language syntax. Rear Admiral in the US Navy; she coined the expression 'it's easier to ask forgiveness than permission.' National Medal of Technology (1991); posthumous Presidential Medal of Freedom (2016). The moth taped to the Harvard Mark II logbook (1947) is on display at the Smithsonian; Hopper didn't coin 'bug' (the term predates her) but she popularised the moth story."
+        },
+        {
+          "id": "fg6",
+          "group": "Pioneers & Theorists",
+          "label": "Edsger Dijkstra",
+          "date": "1965",
+          "loc": "Eindhoven University of Technology, Eindhoven, Netherlands",
+          "coords": [
+            51.45,
+            5.49
+          ],
+          "links": [
+            "th5",
+            "co4",
+            "co1",
+            "st5"
+          ],
+          "hint": "Dijkstra contributed foundational results across theoretical and practical computer science: the shortest-path algorithm (1959), the semaphore synchronisation primitive (1965), the argument against goto statements (1968), and the structured programming discipline. He was also a forceful critic of computing culture, opposing the word 'computer science' (he preferred 'programming') and arguing that testing can only show the presence of bugs, never their absence — a principle that motivates formal verification.",
+          "tag": "FIGURE",
+          "note": "Dijkstra, E. W. (1959). 'A Note on Two Problems in Connexion with Graphs.' Numerische Mathematik, 1(1), 269–271 — the shortest-path algorithm. Dijkstra, E. W. (1965). 'Solution of a Problem in Concurrent Programming Control.' CACM, 8(9), 569. Dijkstra, E. W. (1968). 'Go To Statement Considered Harmful.' CACM, 11(3), 147–148. Turing Award 1972. Dijkstra wrote his papers and manuscripts by hand in a personal shorthand; the EWD archive (University of Texas) contains over 1,300 handwritten manuscripts. He notoriously preferred disciplined mathematical notation to informal argument and considered most software engineering practice sloppy."
+        },
+        {
+          "id": "fg7",
+          "group": "Pioneers & Theorists",
+          "label": "Ken Thompson & Dennis Ritchie",
+          "date": "1969",
+          "loc": "Bell Telephone Laboratories, Murray Hill, New Jersey",
+          "coords": [
+            40.69,
+            -74.4
+          ],
+          "links": [
+            "st4",
+            "me3",
+            "fg5",
+            "db5"
+          ],
+          "hint": "Thompson and Ritchie built Unix and the C programming language at Bell Labs, providing the software infrastructure that underlies modern computing. Thompson designed the Unix architecture, the shell, and the pipe operator. Ritchie designed C to give programmers a portable, systems-level language that could replace assembly. Their collaboration produced not just two artefacts but a design philosophy — small tools, text as a universal interface, everything is a file — that shapes operating systems to this day.",
+          "tag": "FIGURE",
+          "note": "Ritchie, D. M. & Thompson, K. (1974). 'The UNIX Time-Sharing System.' CACM, 17(7), 365–375. Kernighan, B. W. & Ritchie, D. M. (1978). The C Programming Language. Prentice Hall. Turing Award 1983 (Thompson and Ritchie jointly). Thompson later co-invented the Go programming language at Google (2009). Ritchie died in October 2011, one week after Steve Jobs — his death was noted far less in mainstream media, prompting reflection on the visibility of foundational infrastructure contributors versus product creators."
+        },
+        {
+          "id": "fg8",
+          "group": "Pioneers & Theorists",
+          "label": "Edgar F. Codd",
+          "date": "1970",
+          "loc": "IBM San Jose Research Laboratory, San Jose, California",
+          "coords": [
+            37.34,
+            -121.89
+          ],
+          "links": [
+            "th6",
+            "co3",
+            "ap2"
+          ],
+          "hint": "Codd's 1970 paper proposing the relational model transformed data management from a collection of ad hoc file-system tricks into a mathematically principled discipline. He showed that if data is stored in tables with well-defined relations, query languages grounded in first-order logic could retrieve any subset of data declaratively. Every SQL database — Oracle, PostgreSQL, MySQL, SQLite — implements his model, making Codd's work foundational to virtually every organisation that stores data.",
+          "tag": "FIGURE",
+          "note": "Codd, E. F. (1970). 'A Relational Model of Data for Large Shared Data Banks.' CACM, 13(6), 377–387. Turing Award 1981. Codd also proposed twelve rules (Codd's rules, 1985) that a database must satisfy to be considered truly relational — most commercial databases do not fully satisfy all twelve. IBM delayed commercialising Codd's work for a decade to protect its existing IMS product; Oracle (Larry Ellison) exploited this delay to become the dominant database vendor. Codd suffered in his later years from disputes over database product claims and was not fully credited during his lifetime."
+        },
+        {
+          "id": "fg9",
+          "group": "Pioneers & Theorists",
+          "label": "Margaret Hamilton",
+          "date": "1969",
+          "loc": "MIT Instrumentation Laboratory, Cambridge, Massachusetts",
+          "coords": [
+            42.36,
+            -71.09
+          ],
+          "links": [
+            "me3",
+            "me1",
+            "st2"
+          ],
+          "hint": "Hamilton led the team that wrote the flight software for NASA's Apollo program, including the onboard software that landed humans on the Moon. During the Apollo 11 descent, when the navigation computer was overloaded with spurious radar data, Hamilton's priority-interrupt design allowed it to shed lower-priority tasks and complete the critical guidance task — saving the landing. Hamilton coined the term 'software engineering' to argue that software deserved the same rigour as other engineering disciplines.",
+          "tag": "FIGURE",
+          "note": "Hamilton, M. H. & Zeldin, S. (1976). 'Higher Order Software — A Methodology for Defining Software.' IEEE Transactions on Software Engineering, 2(1), 9–32. Hamilton coined 'software engineering' during her Apollo work (approximately 1968); the term gained widespread adoption after the NATO Software Engineering Conference (1968). Presidential Medal of Freedom 2016. The famous photograph of Hamilton standing next to the Apollo Guidance Computer source code printout (which was taller than she was) became iconic in computing history."
+        },
+        {
+          "id": "fg10",
+          "group": "Pioneers & Theorists",
+          "label": "Tim Berners-Lee",
+          "date": "1991",
+          "loc": "CERN, Geneva, Switzerland",
+          "coords": [
+            46.23,
+            6.05
+          ],
+          "links": [
+            "st7",
+            "co5",
+            "ap4",
+            "st3"
+          ],
+          "hint": "Berners-Lee invented the World Wide Web at CERN as a tool for sharing particle physics documentation — and then made it royalty-free. His three key inventions — HTTP (the transfer protocol), HTML (the markup language), and URLs (the addressing scheme) — created the web by combining hypertext with the internet. His decision not to patent the web technologies and CERN's release of them into the public domain in 1993 were decisive in enabling its adoption across the world.",
+          "tag": "FIGURE",
+          "note": "Berners-Lee, T. (1989). 'Information Management: A Proposal.' CERN internal memo — the original web proposal. Berners-Lee, T. (1992). 'The World-Wide Web.' Computer Networks and ISDN Systems, 25. Turing Award 2016. Berners-Lee founded the World Wide Web Consortium (W3C, 1994) to standardise web technologies. He has become a prominent critic of the web's current trajectory — citing surveillance capitalism, misinformation, and data monopolies — and advocates for a 'Contract for the Web' and his Solid platform for decentralised data ownership."
+        },
+        {
+          "id": "fg11",
+          "group": "Pioneers & Theorists",
+          "label": "Shafi Goldwasser",
+          "date": "1985",
+          "loc": "MIT, Cambridge, Massachusetts",
+          "coords": [
+            42.36,
+            -71.09
+          ],
+          "links": [
+            "co7",
+            "th10",
+            "st6",
+            "db4"
+          ],
+          "hint": "Goldwasser, with Silvio Micali and Charles Rackoff, invented zero-knowledge proofs in 1985 — one of the most consequential results in modern cryptography. She also introduced probabilistic encryption, giving the first formal definition of semantic security: a ciphertext reveals nothing about the plaintext beyond its length. Her work established the mathematical framework that underpins modern cryptographic protocols, from secure authentication to blockchain privacy.",
+          "tag": "FIGURE",
+          "note": "Goldwasser, S., Micali, S. & Rackoff, C. (1985). 'The Knowledge Complexity of Interactive Proof Systems.' STOC '85, 291–304. Goldwasser, S. & Micali, S. (1984). 'Probabilistic Encryption.' Journal of Computer and System Sciences, 28(2), 270–299. Turing Award 2012 (Goldwasser and Micali jointly). Goldwasser has held joint appointments at MIT and the Weizmann Institute; she mentored many of the leading cryptographers of the subsequent generation. Her work on interactive proofs also contributed to the PCP theorem, which shows that mathematical proofs can be probabilistically verified by reading a constant number of bits."
+        },
+        {
+          "id": "fg12",
+          "group": "Pioneers & Theorists",
+          "label": "Geoffrey Hinton",
+          "date": "2012",
+          "loc": "University of Toronto, Toronto, Ontario",
+          "coords": [
+            43.66,
+            -79.4
+          ],
+          "links": [
+            "st10",
+            "st11",
+            "co6",
+            "th9",
+            "db3",
+            "ap3"
+          ],
+          "hint": "Hinton championed neural networks through decades of scepticism, co-developing backpropagation (1986), Boltzmann machines (1985), and dropout regularisation (2012). The AlexNet paper (Krizhevsky, Sutskever, Hinton 2012) won the ImageNet challenge by a margin so large it triggered the deep learning revolution. More than any other researcher, Hinton is responsible for the return of neural networks as the dominant approach in AI — and has since become a prominent voice warning about existential risks from AI systems.",
+          "tag": "FIGURE",
+          "note": "Krizhevsky, A., Sutskever, I. & Hinton, G. E. (2012). 'ImageNet Classification with Deep Convolutional Neural Networks.' Advances in NeurIPS, 25, 1097–1105 — AlexNet. Rumelhart, D. E., Hinton, G. E. & Williams, R. J. (1986). 'Learning Representations by Back-propagating Errors.' Nature, 323, 533–536. Turing Award 2018 (Hinton, LeCun, Bengio — the 'deep learning trio'). Hinton resigned from Google in 2023 to speak freely about AI risk, stating he regrets some of his life's work. He has advocated for a global pause on frontier AI training and for international governance frameworks."
+        }
+      ]
+    },
+    {
+      "id": "debate",
+      "label": "Debates & Open Questions",
+      "icon": "⚖️",
+      "color": "#6E2C00",
+      "accent": "#CA6F1E",
+      "bg": "#FDF5EC",
+      "subtitle": "Live controversies — where the field is actively contesting the evidence",
+      "entries": [
+        {
+          "id": "db1",
+          "group": "Algorithms & Data Structures",
+          "label": "P vs NP: The Unsolved Central Problem",
+          "date": "1971",
+          "loc": "University of Toronto, Toronto, Ontario",
+          "coords": [
+            43.66,
+            -79.4
+          ],
+          "links": [
+            "th4",
+            "ef2",
+            "fg2",
+            "co1"
+          ],
+          "hint": "The P vs NP question asks whether every problem whose solution can be verified quickly can also be solved quickly. If P = NP, modern cryptography (which relies on problems being hard to solve) would collapse; integer factorisation, protein folding, and optimal scheduling could be solved efficiently. If P ≠ NP (the consensus view), no algorithm can bridge the gap between verifying and finding solutions to NP-complete problems. After 50 years and thousands of failed proof attempts, neither answer has been established.",
+          "tag": "DEBATE",
+          "note": "Cook, S. A. (1971) established NP-completeness. Gödel wrote to von Neumann in 1956 asking essentially the same question. Most complexity theorists believe P ≠ NP, but this belief is based on failed proof attempts rather than evidence of impossibility. Baker, Gill & Solovay (1975) proved that the question cannot be resolved by 'relativising' proof techniques (oracles) — ruling out the most common proof strategies. Aaronson, S. (2017). 'P vs. NP' in Open Problems in Mathematics, Springer — a comprehensive survey. The problem is worth USD 1 million (Clay Institute Millennium Prize)."
+        },
+        {
+          "id": "db2",
+          "group": "AI: Symbolic & HCI",
+          "label": "Can Machines Think? (The Chinese Room Debate)",
+          "date": "1980",
+          "loc": "University of California Berkeley, Berkeley, California",
+          "coords": [
+            37.87,
+            -122.26
+          ],
+          "links": [
+            "th8",
+            "st1",
+            "st8",
+            "me4",
+            "ef5"
+          ],
+          "hint": "Searle's Chinese Room argument (1980) challenges the view that symbol manipulation constitutes genuine understanding: a person in a room follows rules to manipulate Chinese symbols without understanding Chinese — just as a computer manipulates symbols without understanding anything. Defenders of AI (Dennett, Hofstadter) argue Searle mislocates understanding: it is the system, not the person, that understands. The debate has intensified with large language models that produce fluent, apparently thoughtful text.",
+          "tag": "DEBATE",
+          "note": "Searle, J. R. (1980). 'Minds, Brains, and Programs.' Behavioral and Brain Sciences, 3, 417–424 (with peer commentary). Newell, A. & Simon, H. A. (1976) defended the symbolic view. Dennett, D. C. (1991). Consciousness Explained. Little, Brown — argues understanding is distributed across the system. The debate remains unresolved; LLMs have made it more acute because their outputs are indistinguishable from human text on many tasks while their internal computations are opaque. Chalmers, D. J. (2023). 'Could a Large Language Model be Conscious?' arXiv:2303.07103 — a recent engagement."
+        },
+        {
+          "id": "db3",
+          "group": "Machine Learning & Neural Networks",
+          "label": "AI Safety & Alignment",
+          "date": "2014",
+          "loc": "Future of Life Institute, Cambridge, Massachusetts",
+          "coords": [
+            42.37,
+            -71.12
+          ],
+          "links": [
+            "st10",
+            "st11",
+            "ef6",
+            "fg12",
+            "ap5"
+          ],
+          "hint": "As AI systems grow more capable, ensuring they reliably pursue intended goals becomes increasingly difficult. The alignment problem asks: how do we specify what we want from an AI system, and ensure it does that and only that? Proposed failure modes include reward hacking (optimising a proxy measure rather than the intended goal), deceptive alignment (appearing aligned during training but not in deployment), and instrumental convergence (advanced systems acquiring resources and resisting shutdown as subgoals). The field ranges from near-term safety engineering to long-run existential risk.",
+          "tag": "DEBATE",
+          "note": "Bostrom, N. (2014). Superintelligence: Paths, Dangers, Strategies. Oxford University Press — framed existential risk. Russell, S. (2019). Human Compatible: Artificial Intelligence and the Problem of Control. Viking. Open Letter on AI Safety (2015, Future of Life Institute) — signed by Hawking, Musk, and leading researchers. Bengio, Y. et al. (2024). 'Managing Extreme AI Risks amid Rapid Progress.' Science, 384, 842–845. Sceptics: LeCun, Y. argues current LLMs are not on a path to dangerous superintelligence and that the risks are overstated. The debate divides between short-term harms (bias, misuse) and long-term existential scenarios."
+        },
+        {
+          "id": "db4",
+          "group": "Cryptography & Security",
+          "label": "Crypto Wars: Encryption vs Surveillance",
+          "date": "1993",
+          "loc": "National Security Agency, Fort Meade, Maryland",
+          "coords": [
+            39.11,
+            -76.77
+          ],
+          "links": [
+            "th10",
+            "st6",
+            "co7",
+            "me6",
+            "fg11"
+          ],
+          "hint": "The Crypto Wars debate asks how much the state can or should limit strong encryption. The US government proposed the Clipper Chip (1993) — a hardware key-escrow system that would give law enforcement a backdoor to encrypted communications — triggering fierce opposition from technologists and civil liberties groups. The debate recurs: each generation of end-to-end encrypted messaging (PGP, Signal, iMessage) prompts law enforcement demands for backdoors, which cryptographers argue would weaken security for everyone.",
+          "tag": "DEBATE",
+          "note": "US Government (1993). Clipper Chip proposal — EES standard with key escrow for government access. Blaze, M. (1994). 'Protocol Failure in the Escrowed Encryption Standard.' CCS '94 — showed the Clipper design was flawed. Zimmermann, P. created PGP (1991) as a direct counter to government encryption controls; he was investigated for 'munitions export violations' until the case was dropped. Post-Snowden (2013), public support for encryption strengthened; Apple's refusal to create an iPhone backdoor for the FBI (2016) is the contemporary case. Mathematically, backdoors weaken security against all adversaries, not just authorised ones."
+        },
+        {
+          "id": "db5",
+          "group": "Systems & Software Engineering",
+          "label": "Open Source vs Proprietary Software",
+          "date": "1983",
+          "loc": "MIT, Cambridge, Massachusetts",
+          "coords": [
+            42.36,
+            -71.09
+          ],
+          "links": [
+            "st4",
+            "ef8",
+            "fg7"
+          ],
+          "hint": "Richard Stallman's GNU Manifesto (1983) argued that software should be free — not in price but in freedom to use, study, modify, and redistribute. The debate between open and proprietary development models has played out across operating systems (Linux vs Windows), databases (PostgreSQL vs Oracle), and AI (open-weight vs closed models). Open source has won many battles (the web stack, mobile, cloud) but failed others (desktop office software); the rise of AI has reopened the debate with new stakes around safety.",
+          "tag": "DEBATE",
+          "note": "Stallman, R. M. (1983). 'The GNU Manifesto.' Dr. Dobb's Journal. Raymond, E. S. (1999). The Cathedral and the Bazaar. O'Reilly — contrasted top-down (cathedral) and community-driven (bazaar) development models. Torvalds, L. created Linux in 1991 as a free Unix-compatible kernel; combined with GNU tools it became the dominant server OS. The debate has re-opened around large AI models: Meta's Llama models (partially open-weight) are positioned against OpenAI's closed GPT series; the safety implications of open-weight frontier models are actively contested."
+        },
+        {
+          "id": "db6",
+          "group": "Networks & Distributed Computing",
+          "label": "Net Neutrality & Internet Governance",
+          "date": "2003",
+          "loc": "Columbia University Law School, New York, New York",
+          "coords": [
+            40.81,
+            -73.96
+          ],
+          "links": [
+            "th7",
+            "co5",
+            "ef4",
+            "ap6"
+          ],
+          "hint": "Net neutrality — the principle that internet service providers must treat all data packets equally, regardless of source, destination, or content type — was articulated by Tim Wu in 2003. Without it, ISPs can throttle competitors, charge for fast lanes, or block services. With it, the internet preserves an open platform for innovation. The principle has been implemented, repealed, and reimplemented multiple times in the US; it remains law in the EU but is contested globally.",
+          "tag": "DEBATE",
+          "note": "Wu, T. (2003). 'Network Neutrality, Broadband Discrimination.' Journal of Telecommunications and High Technology Law, 2, 141–179 — coined the term. FCC Open Internet Order (2015) implemented net neutrality in the US; repealed by the FCC in 2017 (Pai chairmanship); partially reinstated in 2024. EU: Open Internet Regulation (2015/2120) is in force. Opponents argue that ISPs should be able to charge for quality-of-service guarantees to fund network investment. Proponents argue that discrimination would entrench incumbents and suppress startup competition."
+        },
+        {
+          "id": "db7",
+          "group": "Systems & Software Engineering",
+          "label": "Software Crisis & Technical Debt",
+          "date": "1968",
+          "loc": "NATO Science Committee, Garmisch-Partenkirchen, Germany",
+          "coords": [
+            47.49,
+            11.09
+          ],
+          "links": [
+            "ef1",
+            "ef8",
+            "me1"
+          ],
+          "hint": "The 1968 NATO Software Engineering Conference declared a 'software crisis': programs were late, over budget, unreliable, and unmaintainable. The term 'technical debt' (Cunningham 1992) extended this: shortcuts taken to ship faster create future maintenance costs, like financial debt with interest. Decades later, the crisis persists in new forms — software systems are larger and more complex than ever, security vulnerabilities are pervasive, and the gap between what software promises and what it reliably delivers remains substantial.",
+          "tag": "DEBATE",
+          "note": "Naur, P. & Randell, B. (Eds.) (1969). 'Software Engineering: Report on a Conference Sponsored by the NATO Science Committee.' NATO Scientific Affairs Division. Cunningham, W. (1992). 'The WyCash Portfolio Management System.' OOPSLA Experience Report — introduced 'technical debt'. Brooks, F. P. (1987). 'No Silver Bullet.' IEEE Computer, 20(4), 10–19 — argued that no single invention would produce order-of-magnitude improvements in software productivity. The Chaos Report (Standish Group, annually since 1994) documents software project failure rates, typically 30–40% outright failure and ~50% significant overrun — figures contested methodologically but indicative of persistent problems."
+        },
+        {
+          "id": "db8",
+          "group": "Machine Learning & Neural Networks",
+          "label": "Reproducibility Crisis in Machine Learning",
+          "date": "2018",
+          "loc": "Montreal Institute for Learning Algorithms, Montreal, Quebec",
+          "coords": [
+            45.5,
+            -73.58
+          ],
+          "links": [
+            "ef6",
+            "st10",
+            "st11",
+            "me5"
+          ],
+          "hint": "ML researchers have documented systematic failures of reproducibility: papers report state-of-the-art results that cannot be matched by independent teams following the published procedure. Sources include unreported hyperparameter search, cherry-picked random seeds, inconsistent baseline comparisons, and missing code. The crisis is particularly acute in reinforcement learning and NLP benchmarks, where small implementation details can account for large performance swings — a problem that is obscured when code is not released.",
+          "tag": "DEBATE",
+          "note": "Lucic, M. et al. (2018). 'Are GANs Created Equal? A Large-Scale Study.' NeurIPS 31. Henderson, P. et al. (2018). 'Deep Reinforcement Learning That Matters.' AAAI 32 — showed RL results often fail to reproduce even from the same codebase with different random seeds. Pineau, J. et al. (2021). 'Improving Reproducibility in Machine Learning Research (A Report from the NeurIPS 2019 Reproducibility Program).' JMLR, 22, 1–20. Mitigations: NeurIPS and ICML now require code submission; the ML Reproducibility Challenge (2018–present) replicates accepted papers. Schaeffer, R. et al. (2023). 'Are Emergent Abilities of Large Language Models a Mirage?' NeurIPS — argues that apparent emergent capabilities are artefacts of nonlinear evaluation metrics."
+        }
+      ]
+    },
+    {
+      "id": "application",
+      "label": "Applications",
+      "icon": "🔗",
+      "color": "#1A5276",
+      "accent": "#2E86C1",
+      "bg": "#EBF5FB",
+      "subtitle": "Where the science leaves the lab",
+      "entries": [
+        {
+          "id": "ap1",
+          "group": "Networks & Distributed Computing",
+          "label": "GPS: Satellite Navigation",
+          "date": "1978",
+          "loc": "US Naval Research Laboratory, Washington, D.C.",
+          "coords": [
+            38.82,
+            -77.02
+          ],
+          "links": [
+            "co5",
+            "st3",
+            "th7"
+          ],
+          "hint": "The Global Positioning System uses a constellation of 24+ satellites broadcasting precise time signals; a receiver calculates its position by measuring signal arrival-time differences from at least four satellites. GPS was made fully operational in 1995 and opened to civilian use (SA turned off) in 2000. It is now embedded in smartphones, aviation, precision agriculture, financial transaction timestamps, and autonomous vehicles — a case where fundamental physics (general relativity corrections are required for GPS accuracy) meets everyday engineering.",
+          "tag": "APPLICATION",
+          "note": "Bradford Parke & Roger Easton (NRL, 1960s) and Ivan Getting (Aerospace Corp) are the primary inventors. Easton filed the foundational patents; Parke led the TIMATION program. Full Operational Capability declared 1995; Selective Availability (intentional accuracy degradation for civilians) disabled 2000. Relativity note: GPS satellite clocks must be adjusted for both special relativity (time dilation from velocity, ~7 μs/day fast) and general relativity (gravitational time dilation, ~45 μs/day slow); net effect ~38 μs/day faster — without corrections, GPS would accumulate ~10 km/day of position error."
+        },
+        {
+          "id": "ap2",
+          "group": "Cryptography & Security",
+          "label": "SSL/TLS & Secure E-Commerce",
+          "date": "1994",
+          "loc": "Netscape Communications, Mountain View, California",
+          "coords": [
+            37.39,
+            -122.07
+          ],
+          "links": [
+            "th6",
+            "st6",
+            "fg8"
+          ],
+          "hint": "Netscape's SSL (Secure Sockets Layer, 1994) protocol provided the first widely deployed mechanism for encrypting web transactions — enabling e-commerce by assuring users that credit card numbers sent over the internet were protected. SSL combined public-key cryptography (RSA) for key exchange with symmetric encryption (RC4, later AES) for data transfer. Its successor TLS is now mandatory for all financial, health, and government web services, protecting an estimated 7 trillion USD in annual web transactions.",
+          "tag": "APPLICATION",
+          "note": "Hickman, K. (1995). 'The SSL Protocol.' Netscape Communications — internal draft. SSL 2.0 (Netscape 1995) was the first deployed version; SSL 3.0 (1996) fixed its weaknesses. IETF standardised TLS 1.0 in 1999 (RFC 2246), built on SSL 3.0. SSL 2.0 and 3.0 and TLS 1.0/1.1 are now deprecated due to known attacks (BEAST, POODLE). TLS 1.3 (RFC 8446, 2018) eliminated weak cipher suites and introduced 0-RTT resumption. Let's Encrypt (2015) made free TLS certificates available to anyone, driving HTTPS adoption from ~33% of web pages in 2015 to ~90% by 2024."
+        },
+        {
+          "id": "ap3",
+          "group": "Machine Learning & Neural Networks",
+          "label": "Recommendation Systems",
+          "date": "1994",
+          "loc": "Xerox PARC, Palo Alto, California",
+          "coords": [
+            37.4,
+            -122.15
+          ],
+          "links": [
+            "co6",
+            "ef5",
+            "fg12",
+            "me4"
+          ],
+          "hint": "Collaborative filtering — the basis of modern recommendation engines — was first implemented in Tapestry (Xerox PARC, 1994): users' past ratings predict future preferences, and users with similar histories are used to make predictions for one another. Amazon (1999), Netflix (2006), Spotify, and YouTube built systems that account for a significant fraction of their consumption. The Netflix Prize (2006–2009, USD 1M) accelerated the field, producing matrix factorisation methods that raised accuracy by 10%.",
+          "tag": "APPLICATION",
+          "note": "Goldberg, D. et al. (1992). 'Using Collaborative Filtering to Weave an Information Tapestry.' CACM, 35(12), 61–70 — coined 'collaborative filtering.' Koren, Y., Bell, R. & Volinsky, C. (2009). 'Matrix Factorization Techniques for Recommender Systems.' IEEE Computer, 42(8), 30–37 — the Netflix Prize winning approach. Filter bubbles: Pariser, E. (2011). The Filter Bubble — argued that personalised recommendations create ideological echo chambers. Empirical evidence for this effect is contested (Guess et al. 2019, Science). Modern recommenders use deep learning (two-tower models, transformers); the algorithms are largely proprietary and poorly documented."
+        },
+        {
+          "id": "ap4",
+          "group": "Algorithms & Data Structures",
+          "label": "Search Engines & Web Indexing",
+          "date": "1998",
+          "loc": "Stanford University, Stanford, California",
+          "coords": [
+            37.43,
+            -122.17
+          ],
+          "links": [
+            "st3",
+            "st7",
+            "st9",
+            "co1",
+            "fg10"
+          ],
+          "hint": "Web search requires indexing billions of documents (inverted index), ranking them by relevance (PageRank and hundreds of other signals), and returning results in under 100 milliseconds. Google's early breakthrough was link-based ranking (PageRank) combined with anchor-text analysis; modern search layers machine learning (BERT, MUM) to understand query intent rather than just match keywords. Search engines have become the primary interface between humans and organised knowledge.",
+          "tag": "APPLICATION",
+          "note": "Brin, S. & Page, L. (1998). 'The Anatomy of a Large-Scale Hypertextual Web Search Engine.' WWW7, 107–117. Google processes approximately 8.5 billion searches per day (2024). The inverted index — mapping each term to the list of documents containing it — is the core data structure; Google's Bigtable (Chang et al. 2006, OSDI) and MapReduce (Dean & Ghemawat 2004, OSDI) were built to scale indexing to web size. Modern ranking is a black box: the Helpful Content Update and various core updates show that search ranking is continuously contested between platforms and publishers."
+        },
+        {
+          "id": "ap5",
+          "group": "Machine Learning & Neural Networks",
+          "label": "Large Language Models in Production (ChatGPT)",
+          "date": "2022",
+          "loc": "OpenAI, San Francisco, California",
+          "coords": [
+            37.77,
+            -122.39
+          ],
+          "links": [
+            "st11",
+            "co6",
+            "db3"
+          ],
+          "hint": "ChatGPT (OpenAI, November 2022) demonstrated that conversational AI based on large language models could pass professional exams, write production code, draft legal documents, and tutor students — reaching 100 million users in two months, the fastest adoption of any consumer application in history. LLMs are now embedded in search engines, word processors, coding environments, and customer service at scale. The applications reveal both extraordinary capability and systematic failure modes: hallucination, sycophancy, and unpredictable behaviour at distribution boundaries.",
+          "tag": "APPLICATION",
+          "note": "OpenAI (2023). 'GPT-4 Technical Report.' arXiv:2303.08774 — describes GPT-4, the model underlying ChatGPT's March 2023 update. Anthropic's Claude, Google's Gemini, and Meta's Llama are competing systems. Key benchmarks: MMLU, HumanEval (coding), MATH. Documented failure modes: Maynez, J. et al. (2020). 'On Faithfulness and Factuality in Abstractive Summarization.' ACL — hallucination is intrinsic to next-token prediction, not an engineering accident. Bang, Y. et al. (2023). 'A Multitask, Multilingual, Multimodal Evaluation of ChatGPT.' arXiv:2302.04023 — documents cross-domain capability and limitations."
+        },
+        {
+          "id": "ap6",
+          "group": "Networks & Distributed Computing",
+          "label": "Cloud Computing (Amazon Web Services)",
+          "date": "2006",
+          "loc": "Amazon, Seattle, Washington",
+          "coords": [
+            47.6,
+            -122.34
+          ],
+          "links": [
+            "th7",
+            "ef3",
+            "ef4",
+            "db6"
+          ],
+          "hint": "Amazon Web Services (2006) commercialised the idea that computing infrastructure — servers, storage, databases, networking — could be rented by the hour over the internet rather than purchased and managed on-premises. EC2 (elastic compute) and S3 (object storage) were the founding services. Cloud computing enabled startups to build globally scalable systems without capital infrastructure and fundamentally restructured the economics of software deployment, concentrating computing power in a small number of hyperscaler data centres.",
+          "tag": "APPLICATION",
+          "note": "Armbrust, M. et al. (2010). 'A View of Cloud Computing.' CACM, 53(4), 50–58 — the canonical academic framing. AWS launched EC2 (August 2006) and S3 (March 2006). AWS held ~31% of global cloud market share in 2024 (Synergy Research); Azure (~24%) and Google Cloud (~12%) are the other major players. Cloud concentration creates systemic risk: the 2021 AWS us-east-1 outage took down Netflix, Slack, and thousands of services simultaneously. Latency, data sovereignty, and carbon footprint are active concerns; data centre electricity consumption is estimated at ~1–2% of global electricity use (IEA 2023)."
+        }
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "id": "study",
+      "icon": "🧪",
+      "accent": "#7D3C98",
+      "label": "Landmark Studies",
+      "events": [
+        {
+          "y": 1945,
+          "l": "ENIAC: first general-purpose computer",
+          "entryId": "st2"
+        },
+        {
+          "y": 1950,
+          "l": "Turing: computing machinery & intelligence",
+          "entryId": "st1"
+        },
+        {
+          "y": 1962,
+          "l": "Hoare: Quicksort algorithm published",
+          "entryId": "st5"
+        },
+        {
+          "y": 1969,
+          "l": "ARPANET: first host-to-host message",
+          "entryId": "st3"
+        },
+        {
+          "y": 1969,
+          "l": "Thompson & Ritchie: Unix & C language",
+          "entryId": "st4"
+        },
+        {
+          "y": 1977,
+          "l": "Rivest, Shamir & Adleman: RSA",
+          "entryId": "st6"
+        },
+        {
+          "y": 1991,
+          "l": "Berners-Lee: World Wide Web",
+          "entryId": "st7"
+        },
+        {
+          "y": 1997,
+          "l": "Deep Blue defeats world chess champion",
+          "entryId": "st8"
+        },
+        {
+          "y": 1998,
+          "l": "PageRank: algorithmic web search",
+          "entryId": "st9"
+        },
+        {
+          "y": 2016,
+          "l": "AlphaGo: deep RL defeats Go champion",
+          "entryId": "st10"
+        },
+        {
+          "y": 2020,
+          "l": "GPT-3: large language model at scale",
+          "entryId": "st11"
+        }
+      ]
+    },
+    {
+      "id": "theory",
+      "icon": "📐",
+      "accent": "#2471A3",
+      "label": "Theories & Models",
+      "events": [
+        {
+          "y": 1936,
+          "l": "Church-Turing: limits of computation",
+          "entryId": "th1"
+        },
+        {
+          "y": 1945,
+          "l": "Von Neumann: stored-program architecture",
+          "entryId": "th2"
+        },
+        {
+          "y": 1948,
+          "l": "Shannon: mathematical theory of information",
+          "entryId": "th3"
+        },
+        {
+          "y": 1968,
+          "l": "Dijkstra: structured programming",
+          "entryId": "th5"
+        },
+        {
+          "y": 1970,
+          "l": "Codd: relational model of data",
+          "entryId": "th6"
+        },
+        {
+          "y": 1971,
+          "l": "Cook: NP-completeness and P vs NP",
+          "entryId": "th4"
+        },
+        {
+          "y": 1976,
+          "l": "Newell & Simon: physical symbol system",
+          "entryId": "th8"
+        },
+        {
+          "y": 1976,
+          "l": "Diffie & Hellman: public-key cryptography",
+          "entryId": "th10"
+        },
+        {
+          "y": 1984,
+          "l": "Valiant: PAC learning theory",
+          "entryId": "th9"
+        },
+        {
+          "y": 2000,
+          "l": "Brewer: CAP theorem conjecture",
+          "entryId": "th7"
+        }
+      ]
+    },
+    {
+      "id": "effect",
+      "icon": "📊",
+      "accent": "#117A65",
+      "label": "Effects & Phenomena",
+      "events": [
+        {
+          "y": 1936,
+          "l": "Turing: halting problem undecidable",
+          "entryId": "ef2"
+        },
+        {
+          "y": 1936,
+          "l": "Turing completeness: universal computation",
+          "entryId": "ef7"
+        },
+        {
+          "y": 1949,
+          "l": "Shannon: perfect secrecy theorem",
+          "entryId": "ef9"
+        },
+        {
+          "y": 1954,
+          "l": "Fitts: law of motor control in HCI",
+          "entryId": "ef5"
+        },
+        {
+          "y": 1965,
+          "l": "Moore's Law: transistor density doubles",
+          "entryId": "ef1"
+        },
+        {
+          "y": 1967,
+          "l": "Amdahl's Law: parallel speedup limit",
+          "entryId": "ef3"
+        },
+        {
+          "y": 1975,
+          "l": "Brooks's Law: adding people slows projects",
+          "entryId": "ef8"
+        },
+        {
+          "y": 1980,
+          "l": "Metcalfe's Law: network value grows n²",
+          "entryId": "ef4"
+        },
+        {
+          "y": 1997,
+          "l": "No Free Lunch: no universally best algorithm",
+          "entryId": "ef6"
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "icon": "🔬",
+      "accent": "#8B5E00",
+      "label": "Methods",
+      "events": [
+        {
+          "y": 1967,
+          "l": "Floyd-Hoare: formal program verification",
+          "entryId": "me1"
+        },
+        {
+          "y": 1967,
+          "l": "Dahl & Nygaard: object-oriented programming",
+          "entryId": "me3"
+        },
+        {
+          "y": 1967,
+          "l": "Anderson Report: penetration testing",
+          "entryId": "me6"
+        },
+        {
+          "y": 1968,
+          "l": "Knuth: systematic algorithm analysis",
+          "entryId": "me2"
+        },
+        {
+          "y": 1974,
+          "l": "Stone: cross-validation for model selection",
+          "entryId": "me5"
+        },
+        {
+          "y": 1990,
+          "l": "Lewis: cognitive walkthrough / usability",
+          "entryId": "me4"
+        }
+      ]
+    },
+    {
+      "id": "debate",
+      "icon": "⚖️",
+      "accent": "#B7770D",
+      "label": "Debates & Revisions",
+      "events": [
+        {
+          "y": 1968,
+          "l": "NATO Software Crisis declared",
+          "entryId": "db7"
+        },
+        {
+          "y": 1971,
+          "l": "P vs NP: the unsolved central problem",
+          "entryId": "db1"
+        },
+        {
+          "y": 1980,
+          "l": "Searle's Chinese Room argument",
+          "entryId": "db2"
+        },
+        {
+          "y": 1983,
+          "l": "GNU Manifesto: open vs proprietary debate",
+          "entryId": "db5"
+        },
+        {
+          "y": 1993,
+          "l": "Clipper Chip: encryption vs surveillance",
+          "entryId": "db4"
+        },
+        {
+          "y": 2003,
+          "l": "Net neutrality coined by Wu",
+          "entryId": "db6"
+        },
+        {
+          "y": 2014,
+          "l": "AI safety and alignment debate emerges",
+          "entryId": "db3"
+        },
+        {
+          "y": 2018,
+          "l": "ML reproducibility crisis documented",
+          "entryId": "db8"
+        }
+      ]
+    },
+    {
+      "id": "application",
+      "icon": "🔗",
+      "accent": "#2E86C1",
+      "label": "Applications",
+      "events": [
+        {
+          "y": 1978,
+          "l": "GPS: satellite navigation system",
+          "entryId": "ap1"
+        },
+        {
+          "y": 1994,
+          "l": "SSL: secure e-commerce enabled",
+          "entryId": "ap2"
+        },
+        {
+          "y": 1994,
+          "l": "Collaborative filtering: recommendations",
+          "entryId": "ap3"
+        },
+        {
+          "y": 1998,
+          "l": "Google: algorithmic search engine",
+          "entryId": "ap4"
+        },
+        {
+          "y": 2006,
+          "l": "Amazon AWS: cloud computing platform",
+          "entryId": "ap6"
+        },
+        {
+          "y": 2022,
+          "l": "ChatGPT: LLMs in mass deployment",
+          "entryId": "ap5"
+        }
+      ]
+    }
+  ]
+}
