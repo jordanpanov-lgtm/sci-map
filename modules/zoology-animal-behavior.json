@@ -92,7 +92,7 @@
           "label": "Tinbergen's Four Questions",
           "date": "1963", "loc": "University of Oxford, Oxford, England", "coords": [51.76, -1.26],
           "links": ["fg2", "co1", "st3", "me1"],
-          "hint": "Any complete explanation of a behaviour must address four distinct but complementary questions: (1) mechanism — what stimuli and neural processes cause it now?; (2) ontogeny — how did it develop across the individual's lifetime?; (3) function — how does it contribute to survival and reproduction?; (4) phylogeny — how did it evolve across lineages? Confusing levels of explanation accounts for most unproductive debates in animal behaviour and beyond.",
+          "hint": "Any complete explanation of a behaviour must address four distinct but complementary questions: (1) mechanism — what stimuli and neural processes cause it now?; (2) ontogeny — how did it develop across the individual's lifetime?; (3) function — how does it contribute to survival and reproduction?; (4) phylogeny — how did it evolve across lineages? Confusing levels of explanation account for most unproductive debates in animal behaviour and beyond.",
           "tag": "FRAMEWORK",
           "note": "Tinbergen, N. (1963). 'On aims and methods of ethology.' Zeitschrift für Tierpsychologie, 20, 410–433. Anticipated by Huxley (1914) and formalised from Lorenz-Tinbergen tradition. The framework was extended to human psychology by Scott et al. (2017) Frontiers in Psychology. Critiqued as falsely implying independence among levels — mechanistic and evolutionary questions in fact constrain each other."
         },
@@ -104,6 +104,15 @@
           "hint": "Species must continuously evolve just to maintain their fitness relative to co-evolving adversaries — parasites, pathogens, competitors and prey. Van Valen noted that extinction risk appears roughly constant over geological time regardless of how long a lineage has existed, suggesting evolution never achieves a permanent advantage. The hypothesis explains the persistence of sex (recombination generates parasite-resistant genotypes faster than asexual clones) and the arms-race dynamics between hosts and parasites.",
           "tag": "THEORY",
           "note": "Van Valen, L. (1973). 'A new evolutionary law.' Evolutionary Theory, 1, 1–30. Extended to host-parasite arms races: Hamilton, W. D., Axelrod, R. & Tanese, R. (1990) PNAS. Empirical support for the sex hypothesis: Lively, C. M. (1987) Nature — New Zealand snail populations more sexual where parasites are common. Contested: extinction rates do not show the constant pattern Van Valen claimed in all datasets."
+        },
+        {
+          "id": "th11", "group": "Evolutionary Foundations",
+          "label": "Life History Theory",
+          "date": "1977", "loc": "University of Michigan, Ann Arbor, Michigan", "coords": [42.28, -83.74],
+          "links": ["th1", "th7", "th4", "th5", "ef2"],
+          "hint": "Organisms face a fundamental trade-off: every unit of energy or time invested in one life-history trait (growth, maintenance, current reproduction, offspring quality, parental care) is unavailable for others. Life history theory predicts how natural selection resolves these trade-offs given ecological constraints — fast-living species (high predation, short lifespan) are predicted to mature early, produce many cheap offspring and invest little per offspring; slow-living species (low predation, long lifespan) are predicted to mature late, reproduce rarely and invest heavily. r/K selection, the Stearns trade-off framework, and pace-of-life syndromes are all applications of this core logic.",
+          "tag": "THEORY",
+          "note": "Stearns, S. C. (1977). 'The evolution of life history traits: a critique of the theory and a review of the data.' Annual Review of Ecology and Systematics, 8, 145–171. Full treatment: Stearns, S. C. (1992). The Evolution of Life Histories. Oxford University Press; Roff, D. A. (1992). The Evolution of Life Histories. Chapman & Hall. r/K selection: MacArthur & Wilson (1967) — though largely replaced by Stearns' trade-off framework. Pace-of-life syndromes integrating behaviour and physiology: Réale et al. (2010) Philosophical Transactions B. Empirical tests: guppy life history in high vs low predation streams (Reznick et al. 1990 Science) provide clean experimental evidence."
         }
       ]
     },
@@ -374,7 +383,7 @@
           "label": "Honest vs Arbitrary Signalling",
           "date": "1975", "loc": "Hebrew University of Jerusalem, Jerusalem, Israel", "coords": [31.77, 35.20],
           "links": ["th6", "st2", "ef9", "db6"],
-          "hint": "Animal signals can be honest (reliably reflecting the signaller's quality because the signal is costly or structurally constrained) or arbitrary (conventionally associated with a meaning by learning or evolutionary co-convention, with low inherent cost). Most animal communication involves honest signals because arbitrary cheap signals invite deception; but where sender and receiver interests align (e.g., mates of the same pair), cheaper arbitrary signals can be maintained by mutual benefit rather than cost.",
+          "hint": "Honest signals fall into two types: handicaps (energetically costly, so only high-quality individuals can afford them without net loss — peacock tails, elaborate birdsong) and index signals (structurally constrained, physically impossible to fake — a deep frog croak that directly reflects body size). A third type — conventional signals — carries meaning by shared agreement rather than cost, and persists through social enforcement rather than physical constraint. Arbitrary cheap signals cannot spread where signaller and receiver interests conflict, because low-quality signalers would invade; where interests align (coordinating mates within a pair), cheap convention can be stable.",
           "tag": "CONCEPT",
           "note": "Zahavi, A. (1975) introduced the honest signalling via cost argument. Formal models: Grafen, A. (1990) Journal of Theoretical Biology; Maynard Smith & Harper (2003) Animal Signals — distinguished index signals (morphological, cannot be faked), handicaps (energetically costly), and conventional signals. Empirical test of convention: Tibbetts & Dale (2004) Nature — wasp facial patterns maintain convention by mutual non-escalation, not cost. Review: Searcy & Nowicki (2005) The Evolution of Animal Communication. Princeton University Press."
         },
@@ -404,6 +413,15 @@
           "hint": "The coefficient of relatedness (r) is the probability that an allele in one individual is identical by descent to an allele at the same locus in another individual. Full siblings and parent-offspring pairs share r = 0.5; half-siblings r = 0.25; first cousins r = 0.125. Hamilton's rule rB > C uses r to weight how much an actor should value a relative's welfare versus its own — r is the genetic currency of altruism, predicting which family relationships should elicit help and how much.",
           "tag": "CONCEPT",
           "note": "Hamilton, W. D. (1964). Journal of Theoretical Biology, 7, 1–52. Wright, S. (1922) developed the coefficient of kinship as a population genetics concept; Hamilton adapted it to social evolution. Measurement in the field: microsatellite genotyping now allows empirical r estimation in wild populations (Queller & Goodnight 1989 Evolution). Key nuance: r must be measured relative to the population average (regression r), not just pedigree expectation — this was long confused in the literature."
+        },
+        {
+          "id": "co8", "group": "Evolutionary Foundations",
+          "label": "Behavioural Syndromes & Animal Personality",
+          "date": "2004", "loc": "University of California, Davis, California", "coords": [38.54, -121.75],
+          "links": ["th1", "db7", "co2"],
+          "hint": "Individuals within a species consistently differ in suites of correlated behaviours across contexts — a bold individual tends to be more aggressive, more exploratory and more active across situations, not just in one. These correlated behaviour packages are called behavioural syndromes (the population-level pattern) or animal personalities (the individual-level description). The correlations mean that selection on one trait (boldness in predator escape) carries along others (aggressiveness in competition), constraining how independently each behaviour can evolve and explaining why seemingly maladaptive trait combinations persist within populations.",
+          "tag": "CONCEPT",
+          "note": "Sih, A., Bell, A. M., Johnson, J. C. & Ziemba, R. E. (2004). 'Behavioral syndromes: an integrative overview.' Quarterly Review of Biology, 79, 241–277. Individual consistency: Réale, D. et al. (2007) Philosophical Transactions B — defined five personality axes (bold/shy, exploration, activity, sociability, aggressiveness) with cross-taxa evidence. Genetic basis: narrow-sense heritabilities for boldness typically 0.2–0.5 (Dingemanse & Réale 2005 Behavioral Ecology). Critique: Bell (2007) Animal Behaviour — many studies confound true cross-context correlations with measurement artefacts; repeatability estimates vary widely by method. Fitness consequences: bold great tits have higher reproductive success in novel environments but higher predation risk (Quinn et al. 2011 Proceedings of the Royal Society B)."
         }
       ]
     },
@@ -419,7 +437,7 @@
           "label": "Ethogram & Focal Animal Sampling",
           "date": "1963", "loc": "University of Oxford, Oxford, England", "coords": [51.76, -1.26],
           "links": ["th9", "co1", "fg2"],
-          "hint": "An ethogram is an exhaustive catalogue of all distinct behaviours in a species' repertoire, each defined operationally so that independent observers agree on when each behaviour occurs. Focal animal sampling records all behaviours of a single individual for a fixed period before switching to another — generating unbiased time budgets. Together, these are the foundational method of field ethology: they prevent selective observation, enable cross-study comparison, and can reveal the full behavioural complexity of a species.",
+          "hint": "An ethogram is an exhaustive catalogue of all distinct behaviours in a species' repertoire, each defined operationally so that independent observers agree on when each behaviour occurs. Focal animal sampling records all behaviours of a single individual for a fixed period before switching to another — generating unbiased time budgets. Together, these are the foundational methods of field ethology: they prevent selective observation, enable cross-study comparison, and can reveal the full behavioural complexity of a species.",
           "tag": "METHOD",
           "note": "Formalised by Tinbergen, N. (1963) and Altmann, J. (1974). 'Observational study of behavior: sampling methods.' Behaviour, 49, 227–267. Altmann's paper established the sampling method hierarchy (ad libitum → focal animal → scan) and documented the biases of each. Now standardised in the ETHOSYS framework. Ethograms are an entry-point for computational behaviour analysis — automatic ethogram scoring from video using machine learning (DeepLabCut; SLEAP) is a rapidly growing area."
         },
@@ -665,6 +683,15 @@
           "hint": "Whiten et al. (1999) documented 39 behaviours that varied between chimpanzee communities in ways that could not be explained by ecology or genetics alone — defining them as cultural traditions. The finding was controversial: critics argued that social learning, imitation, and 'culture' require definitions clarifying what distinguishes animal traditions from human culture. Subsequent evidence for cultural transmission has accumulated in cetaceans (song dialects in humpback whales) and corvids (tool design variation), but the mechanisms and cognitive requirements remain debated.",
           "tag": "DEBATE",
           "note": "Whiten, A. et al. (1999). 'Cultures in chimpanzees.' Nature, 399, 682–685. Critics: Laland, K. N. & Janik, V. M. (2006). 'The animal cultures debate.' Trends in Ecology & Evolution, 21, 542–547 — argued evidence for true imitation (vs stimulus enhancement or local enhancement) is thin. Whale song culture: Garland et al. (2011) Current Biology — revolutionary songs spread across populations. Crow tool culture: Hunt & Gray (2003) Animal Cognition. Review: Whiten, A. (2021) Science — multi-species evidence now strong for behavioural traditions; the debate has shifted to whether cultural evolution in animals requires high-fidelity copying."
+        },
+        {
+          "id": "db9", "group": "Reproduction & Sexual Selection",
+          "label": "Sexual Conflict",
+          "date": "1979", "loc": "University of Sussex, Brighton, England", "coords": [50.87, -0.09],
+          "links": ["th5", "th7", "ef2", "db5", "fg7"],
+          "hint": "Sexual conflict arises when the evolutionary interests of males and females diverge — what maximises male fitness imposes costs on females, and vice versa. Intralocus conflict: the same allele has different optimal values in males and females (e.g., a gene that increases testosterone boosts male fitness but reduces female fitness when inherited by daughters). Interlocus conflict: male and female genes at different loci co-evolve antagonistically — male seminal proteins that manipulate female re-mating rate, female resistance proteins that counteract them, and the resulting arms race between the sexes. Sexual conflict predicts harmful mating interactions, sex-specific gene expression, and rapid co-evolution of male and female reproductive proteins.",
+          "tag": "DEBATE",
+          "note": "Parker, G. A. (1979). 'Sexual selection and sexual conflict.' In Blum, M. S. & Blum, N. A. (Eds.), Sexual Selection and Reproductive Competition in Insects. Academic Press, 123–166. Seminal fluid arms race in Drosophila: Rice, W. R. (1996). 'Sexually antagonistic male adaptation triggered by experimental arrest of female evolution.' Nature, 381, 232–234 — experimental evolution confirmed rapid antagonistic co-evolution. Review: Chapman, T., Arnqvist, G., Bangham, J. & Rowe, L. (2003). 'Sexual conflict.' Trends in Ecology & Evolution, 18, 41–47. Book: Arnqvist, G. & Rowe, L. (2005). Sexual Conflict. Princeton University Press. Debate: whether sexual conflict is a dominant force in evolution or a minor modifier of selection — Roughgarden et al. (2006) Science proposed cooperative 'social selection' as an alternative framework."
         }
       ]
     },
@@ -762,7 +789,8 @@
         { "y": 1972, "l": "Trivers: parental investment", "entryId": "th7" },
         { "y": 1973, "l": "Maynard Smith: ESS", "entryId": "th3" },
         { "y": 1973, "l": "Van Valen: Red Queen", "entryId": "th10" },
-        { "y": 1975, "l": "Zahavi: handicap principle", "entryId": "th6" }
+        { "y": 1975, "l": "Zahavi: handicap principle", "entryId": "th6" },
+        { "y": 1977, "l": "Stearns: life history theory", "entryId": "th11" }
       ]
     },
     {
@@ -800,7 +828,8 @@
         { "y": 1990, "l": "Honest vs conventional signals", "entryId": "db6" },
         { "y": 1999, "l": "Culture in chimpanzees debate", "entryId": "db8" },
         { "y": 2010, "l": "Units of selection revisited", "entryId": "db3" },
-        { "y": 2012, "l": "Bateman's principle contested", "entryId": "db5" }
+        { "y": 2012, "l": "Bateman's principle contested", "entryId": "db5" },
+        { "y": 1979, "l": "Parker: sexual conflict theory", "entryId": "db9" }
       ]
     },
     {
