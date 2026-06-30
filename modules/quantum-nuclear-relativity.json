@@ -1,817 +1,819 @@
 {
   "id": "quantum-nuclear-relativity",
-  "domain": "physical-sciences",
-  "label": "Physics: Quantum, Nuclear & Relativity",
-  "sub": "The very small, the very fast & the structure of spacetime",
+  "title": "Physics: Quantum, Nuclear & Relativity",
+  "subtitle": "The very small, the very fast & the structure of spacetime",
   "period": { "start": 1887, "end": 2025 },
+  "domain": "physical-sciences",
   "mapCenter": [50, 10],
   "mapZoom": 3,
-
-  "groups": [
-    "Pioneers & Theorists",
-    "Quantum Origins",
-    "Wave Mechanics & Uncertainty",
-    "Nuclear Physics",
-    "Relativity & Spacetime",
-    "Particle Physics & QFT",
-    "Cosmological Frontiers"
-  ],
-
-  "timeline": {
-    "lanes": ["study", "theory", "effect", "method", "debate", "application"],
-    "events": [
-      { "lane": "study",  "id": "st1",  "year": 1887, "label": "Michelson-Morley" },
-      { "lane": "study",  "id": "st2",  "year": 1900, "label": "Planck Blackbody" },
-      { "lane": "method", "id": "me2",  "year": 1859, "label": "Spectroscopy" },
-      { "lane": "method", "id": "me1",  "year": 1911, "label": "Particle Detectors" },
-      { "lane": "method", "id": "me3",  "year": 1932, "label": "Accelerators" },
-      { "lane": "method", "id": "me4",  "year": 1945, "label": "NMR" },
-      { "lane": "method", "id": "me6",  "year": 1948, "label": "Feynman Diagrams" },
-      { "lane": "method", "id": "me5",  "year": 1949, "label": "Radiocarbon Dating" },
-      { "lane": "study",  "id": "st3",  "year": 1905, "label": "Photoelectric Effect" },
-      { "lane": "theory", "id": "th1",  "year": 1905, "label": "Special Relativity" },
-      { "lane": "effect", "id": "ef9",  "year": 1905, "label": "E=mc²" },
-      { "lane": "study",  "id": "st4",  "year": 1911, "label": "Rutherford Scattering" },
-      { "lane": "theory", "id": "th2",  "year": 1915, "label": "General Relativity" },
-      { "lane": "effect", "id": "ef7",  "year": 1919, "label": "Gravitational Lensing" },
-      { "lane": "effect", "id": "ef2",  "year": 1923, "label": "Compton Scattering" },
-      { "lane": "effect", "id": "ef4",  "year": 1902, "label": "Radioactive Decay" },
-      { "lane": "theory", "id": "th3",  "year": 1925, "label": "Matrix Mechanics" },
-      { "lane": "theory", "id": "th4",  "year": 1926, "label": "Wave Mechanics" },
-      { "lane": "theory", "id": "th5",  "year": 1927, "label": "Copenhagen Interpretation" },
-      { "lane": "study",  "id": "st6",  "year": 1927, "label": "Davisson-Germer" },
-      { "lane": "debate", "id": "db1",  "year": 1927, "label": "Copenhagen vs Hidden Variables" },
-      { "lane": "effect", "id": "ef1",  "year": 1928, "label": "Quantum Tunnelling" },
-      { "lane": "study",  "id": "st7",  "year": 1932, "label": "Neutron Discovery" },
-      { "lane": "effect", "id": "ef5",  "year": 1935, "label": "Nuclear Binding Energy" },
-      { "lane": "debate", "id": "db5",  "year": 1935, "label": "Measurement Problem" },
-      { "lane": "study",  "id": "st8",  "year": 1938, "label": "Nuclear Fission" },
-      { "lane": "application", "id": "ap1", "year": 1942, "label": "Nuclear Reactors" },
-      { "lane": "application", "id": "ap4", "year": 1947, "label": "Transistors" },
-      { "lane": "effect", "id": "ef3",  "year": 1947, "label": "Lamb Shift" },
-      { "lane": "theory", "id": "th6",  "year": 1948, "label": "QED" },
-      { "lane": "theory", "id": "th9",  "year": 1948, "label": "Big Bang Cosmology" },
-      { "lane": "theory", "id": "th7",  "year": 1949, "label": "Nuclear Shell Model" },
-      { "lane": "study",  "id": "st9",  "year": 1957, "label": "Wu Parity Violation" },
-      { "lane": "debate", "id": "db2",  "year": 1957, "label": "Many-Worlds" },
-      { "lane": "study",  "id": "st10", "year": 1959, "label": "Gravitational Redshift" },
-      { "lane": "effect", "id": "ef6",  "year": 1959, "label": "Gravitational Time Dilation" },
-      { "lane": "application", "id": "ap3", "year": 1960, "label": "Lasers" },
-      { "lane": "theory", "id": "th8",  "year": 1967, "label": "Standard Model" },
-      { "lane": "application", "id": "ap2", "year": 1973, "label": "MRI" },
-      { "lane": "application", "id": "ap5", "year": 1973, "label": "Nuclear Medicine" },
-      { "lane": "theory", "id": "th10", "year": 1973, "label": "QCD" },
-      { "lane": "debate", "id": "db4",  "year": 1974, "label": "Black Hole Information" },
-      { "lane": "application", "id": "ap6", "year": 1978, "label": "GPS Corrections" },
-      { "lane": "study",  "id": "st11", "year": 1982, "label": "Aspect Bell Test" },
-      { "lane": "effect", "id": "ef8",  "year": 1982, "label": "Bell Inequality Violation" },
-      { "lane": "debate", "id": "db3",  "year": 1984, "label": "Quantum Gravity" },
-      { "lane": "debate", "id": "db8",  "year": 1984, "label": "Beyond Standard Model" },
-      { "lane": "debate", "id": "db6",  "year": 1998, "label": "Dark Matter & Dark Energy" },
-      { "lane": "study",  "id": "st12", "year": 2015, "label": "LIGO Gravitational Waves" },
-      { "lane": "debate", "id": "db7",  "year": 1945, "label": "Nuclear Ethics" },
-      { "lane": "study",  "id": "st5",  "year": 1913, "label": "Bohr Hydrogen Model" }
-    ]
-  },
-
-  "theory": [
+  "methodology": "METHODOLOGY · Every entry anchors to a landmark paper, experiment or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags replication status, theoretical revisions and known controversies. Studies and effects carry a replicability badge — 🟢 robust · 🟡 nuanced or reduced · 🔴 failed or severely contested. Map pins mark the institution where the work was carried out.",
+  "categories": [
     {
-      "id": "th1",
-      "cat": "theory",
-      "group": "Relativity & Spacetime",
-      "label": "Special Relativity",
-      "year": 1905,
-      "loc": "Bern Patent Office, Switzerland",
-      "fig": "fg2",
-      "hint": "Physics is the same in all inertial frames and the speed of light is constant — from these two postulates, Einstein derived time dilation, length contraction, and the equivalence of mass and energy.",
-      "links": ["th2", "ef9", "co6", "fg2", "st1"]
+      "id": "theory",
+      "label": "Theories & Models",
+      "icon": "📐",
+      "color": "#1A3A5C", "accent": "#2471A3", "bg": "#F0F7FF",
+      "subtitle": "The frameworks that organise quantum mechanics, nuclear structure, and the geometry of spacetime",
+      "entries": [
+        {
+          "id": "th1", "group": "Relativity & Spacetime",
+          "label": "Special Relativity",
+          "date": "1905", "loc": "Bern Patent Office, Bern, Switzerland", "coords": [46.95, 7.45],
+          "links": ["th2", "ef9", "co6", "fg2", "st1"],
+          "hint": "Physics is the same in all inertial frames and the speed of light is constant in vacuo — from these two postulates Einstein derived time dilation, length contraction, the relativity of simultaneity, and the equivalence of mass and energy. The theory demolished the concept of absolute time and the luminiferous aether in a single stroke.",
+          "tag": "THEORY",
+          "note": "Einstein, A. (1905). 'Zur Elektrodynamik bewegter Körper.' Annalen der Physik, 17, 891–921. Confirmed by thousands of experiments including relativistic mass measurements in particle accelerators, muon lifetime extension at cosmic-ray energies, and GPS clock corrections. The Michelson-Morley experiment (1887) removed the empirical support for absolute space; Special Relativity gave the theoretical resolution."
+        },
+        {
+          "id": "th2", "group": "Relativity & Spacetime",
+          "label": "General Relativity",
+          "date": "1915", "loc": "Prussian Academy of Sciences, Berlin, Germany", "coords": [52.52, 13.41],
+          "links": ["th1", "st10", "st12", "fg2", "co6", "ef6", "ef7", "db3", "db4"],
+          "hint": "Gravity is not a force but the curvature of spacetime caused by mass and energy, described by the Einstein field equations. General Relativity predicted gravitational lensing, black holes, gravitational waves, and the expanding universe — all confirmed a century after publication.",
+          "tag": "THEORY",
+          "note": "Einstein, A. (1915). 'Die Feldgleichungen der Gravitation.' Sitzungsberichte der Preußischen Akademie der Wissenschaften, 844–847. Confirmed by Eddington's eclipse expedition (1919), Pound-Rebka gravitational redshift (1959), Hulse-Taylor binary pulsar orbital decay (Nobel 1993), and LIGO gravitational waves (2015, Nobel 2017). The cosmological constant, which Einstein introduced to allow a static universe and later called his 'greatest blunder', now models dark energy."
+        },
+        {
+          "id": "th3", "group": "Wave Mechanics & Uncertainty",
+          "label": "Matrix Mechanics",
+          "date": "1925", "loc": "University of Göttingen, Göttingen, Germany", "coords": [51.54, 9.95],
+          "links": ["th4", "th5", "co2", "fg4"],
+          "hint": "Heisenberg's first complete formulation of quantum mechanics replaced classical trajectories with arrays of numbers — matrices — representing the probabilities of transitions between energy states. It was the first internally consistent quantum theory, though its physical meaning was deeply opaque even to its creator.",
+          "tag": "THEORY",
+          "note": "Heisenberg, W. (1925). 'Über quantentheoretische Umdeutung kinematischer und mechanischer Beziehungen.' Zeitschrift für Physik, 33, 879–893. Formalised as matrix mechanics by Born, M. & Jordan, P. (1925). Zeitschrift für Physik, 34, 858–888. Shown to be mathematically equivalent to Schrödinger's wave mechanics by Schrödinger (1926) Annalen der Physik, 79, 734 and by Dirac (1930) who developed the unifying transformation theory."
+        },
+        {
+          "id": "th4", "group": "Wave Mechanics & Uncertainty",
+          "label": "Wave Mechanics / Schrödinger Equation",
+          "date": "1926", "loc": "University of Zurich, Zurich, Switzerland", "coords": [47.37, 8.54],
+          "links": ["th3", "th5", "co1", "co2", "co3", "ef1", "fg5", "st6"],
+          "hint": "The Schrödinger equation describes how a quantum system's wavefunction evolves in time — the square of the wavefunction at each point gives the probability of finding the particle there. It correctly predicts atomic energy levels, molecular structure, and quantum tunnelling, making it the workhorse of quantum chemistry and condensed matter physics.",
+          "tag": "THEORY",
+          "note": "Schrödinger, E. (1926). 'Quantisierung als Eigenwertproblem.' Annalen der Physik, 79, 361–376 (Part I of four). Proved equivalent to matrix mechanics in Part IV (1926). The time-dependent form iℏ ∂ψ/∂t = Ĥψ is universal; the time-independent form Ĥψ = Eψ generates the atomic orbital solutions. Born's probability interpretation (1926) gave the wavefunction its physical meaning and earned him the 1954 Nobel Prize."
+        },
+        {
+          "id": "th5", "group": "Wave Mechanics & Uncertainty",
+          "label": "Copenhagen Interpretation",
+          "date": "1927", "loc": "Niels Bohr Institute, Copenhagen, Denmark", "coords": [55.70, 12.56],
+          "links": ["fg3", "fg4", "co3", "db1", "db2", "db5", "th4", "th3"],
+          "hint": "The dominant interpretation of quantum mechanics: wavefunctions represent probability amplitudes, measurement causes the wavefunction to collapse to a definite outcome, and it is meaningless to ask what properties a system has before measurement. Championed by Bohr and Heisenberg, it was resisted by Einstein, Schrödinger and de Broglie throughout their careers.",
+          "tag": "FRAMEWORK",
+          "note": "The interpretation was never written as a single paper; it crystallised at the 1927 Solvay conference. Bohr, N. (1928). 'The Quantum Postulate and the Recent Development of Atomic Theory.' Nature, 121, 580–590. Challenged empirically by Bell's theorem (1964) which ruled out local hidden variables. De Broglie-Bohm pilot wave theory (Bohm 1952, Physical Review, 85, 166) provides a working deterministic alternative at the cost of explicit nonlocality. Copenhagen remains the dominant working interpretation among physicists."
+        },
+        {
+          "id": "th6", "group": "Particle Physics & QFT",
+          "label": "Quantum Electrodynamics (QED)",
+          "date": "1948", "loc": "Cornell University, Ithaca, New York", "coords": [42.44, -76.49],
+          "links": ["fg8", "fg9", "ef3", "th8", "me6"],
+          "hint": "The quantum field theory of the electromagnetic interaction — Feynman, Schwinger, and Tomonaga independently renormalised the infinities that had plagued quantum field theory, producing a framework whose prediction of the electron's anomalous magnetic moment agrees with experiment to 12 decimal places, the most precisely tested prediction in science.",
+          "tag": "THEORY",
+          "note": "Feynman, R. P. (1949). 'Space-Time Approach to Quantum Electrodynamics.' Physical Review, 76, 769–789. Schwinger, J. (1948). Physical Review, 73, 416. Tomonaga, S. (1946). Progress of Theoretical Physics, 1, 27. Dyson, F. J. (1949) Physical Review, 75, 486 proved the three formulations equivalent. Nobel Prize 1965 (Feynman, Schwinger, Tomonaga). The electron magnetic moment: g/2 = 1.00115965218073 (theory) vs 1.00115965218059 ± 0.00000000000013 (experiment)."
+        },
+        {
+          "id": "th7", "group": "Nuclear Physics",
+          "label": "Nuclear Shell Model",
+          "date": "1949", "loc": "University of Chicago, Chicago, Illinois", "coords": [41.79, -87.60],
+          "links": ["ef4", "ef5", "co4", "st7"],
+          "hint": "Protons and neutrons fill discrete energy shells inside the nucleus, analogous to electron shells in atoms — magic numbers (2, 8, 20, 28, 50, 82, 126) mark nuclei with filled shells that are exceptionally stable, explaining unusual nuclear binding energies and the elements produced in stellar nucleosynthesis.",
+          "tag": "MODEL",
+          "note": "Goeppert Mayer, M. (1949). 'On Closed Shells in Nuclei.' Physical Review, 75, 1969–1970. Jensen, J. H. D., Suess, H. E. & Haxel, O. (1949) independently arrived at the same model. The critical insight was spin-orbit coupling, which splits the energy levels and produces the observed magic numbers. Nobel Prize in Physics 1963 (Goeppert Mayer and Jensen — Goeppert Mayer was the second woman to win the Physics Nobel, after Marie Curie)."
+        },
+        {
+          "id": "th8", "group": "Particle Physics & QFT",
+          "label": "The Standard Model",
+          "date": "1967", "loc": "Massachusetts Institute of Technology, Cambridge, Massachusetts", "coords": [42.36, -71.09],
+          "links": ["th6", "th10", "st9", "fg8", "fg9", "db8", "co5", "me3"],
+          "hint": "The Standard Model unifies the electromagnetic, weak, and strong forces via gauge symmetry, describing quarks, leptons and the force-carrying bosons within a single mathematical framework. It accounts for virtually every particle physics result obtained at accelerators, from proton structure to W and Z boson masses to the Higgs field.",
+          "tag": "FRAMEWORK",
+          "note": "Weinberg, S. (1967). 'A Model of Leptons.' Physical Review Letters, 19, 1264–1266 (electroweak unification). Glashow, S. L. (1961) provided the gauge structure; Salam, A. (1968) independently constructed the same model. QCD completed by Fritzsch, Gell-Mann & Leutwyler (1973) Physics Letters B, 47, 365. Nobel Prizes: Glashow, Salam, Weinberg 1979; Gross, Politzer, Wilczek 2004. Higgs boson discovered at CERN in 2012 (ATLAS & CMS Collaborations, Science, 338, 1569)."
+        },
+        {
+          "id": "th9", "group": "Cosmological Frontiers",
+          "label": "Big Bang Cosmology",
+          "date": "1948", "loc": "George Washington University, Washington, D.C.", "coords": [38.90, -77.05],
+          "links": ["ef7", "db6", "th2", "db3"],
+          "hint": "The universe began in an extremely hot, dense state and has expanded and cooled since — this model predicts the cosmic microwave background (the afterglow of the hot early universe), the abundance ratios of hydrogen and helium, and the large-scale structure of the cosmos, all subsequently confirmed.",
+          "tag": "THEORY",
+          "note": "Alpher, R. A., Bethe, H. & Gamow, G. (1948). 'The Origin of the Chemical Elements.' Physical Review, 73, 803–804. Alpher & Herman (1948) predicted the CMB at ~5 K. CMB discovered: Penzias, A. A. & Wilson, R. W. (1965) Astrophysical Journal, 142, 419 (Nobel 1978). CMB mapped: COBE (Nobel 2006), WMAP, Planck satellite. Inflation (Guth 1981, Physical Review D) extended the model to explain CMB uniformity and flatness."
+        },
+        {
+          "id": "th10", "group": "Particle Physics & QFT",
+          "label": "Quantum Chromodynamics (QCD)",
+          "date": "1973", "loc": "Princeton University, Princeton, New Jersey", "coords": [40.34, -74.65],
+          "links": ["th8", "th6", "db8", "me3"],
+          "hint": "The gauge theory of the strong force: quarks carry colour charge (red, green, blue) and interact by exchanging gluons. Asymptotic freedom — quarks behave like free particles at high energies but are permanently confined at low energies — is the key feature; it explains why isolated quarks are never observed and why protons and neutrons are stable.",
+          "tag": "THEORY",
+          "note": "Gross, D. J. & Wilczek, F. (1973). 'Ultraviolet Behavior of Non-Abelian Gauge Theories.' Physical Review Letters, 30, 1343–1346. Politzer, H. D. (1973) independently derived asymptotic freedom. Nobel Prize in Physics 2004. Confinement — the impossibility of isolating a single quark — is mathematically unproven (it is one of the seven Clay Millennium Prize problems) but experimentally incontrovertible: no isolated colour charge has ever been detected."
+        }
+      ]
     },
     {
-      "id": "th2",
-      "cat": "theory",
-      "group": "Relativity & Spacetime",
-      "label": "General Relativity",
-      "year": 1915,
-      "loc": "Berlin, Germany",
-      "fig": "fg2",
-      "hint": "Gravity is not a force but the curvature of spacetime caused by mass and energy — described by the Einstein field equations, predicting black holes, gravitational waves, and the expanding universe.",
-      "links": ["th1", "st10", "st12", "fg2", "co6", "ef6", "ef7", "db3", "db4"]
+      "id": "study",
+      "label": "Landmark Studies",
+      "icon": "🧪",
+      "color": "#4A235A", "accent": "#7D3C98", "bg": "#FAF5FF",
+      "subtitle": "The defining experiments — and exactly what they found",
+      "entries": [
+        {
+          "id": "st1", "group": "Relativity & Spacetime",
+          "label": "Michelson-Morley Experiment",
+          "date": "1887", "loc": "Case School of Applied Science, Cleveland, Ohio", "coords": [41.50, -81.69],
+          "links": ["th1", "fg2", "ef9"],
+          "hint": "Using a split-beam interferometer, Michelson and Morley looked for the speed difference between light travelling with and against Earth's motion through the supposed luminiferous aether. They found no difference — a null result that demolished the aether concept and directly motivated Special Relativity.",
+          "tag": "EXPERIMENT",
+          "repl": "robust",
+          "note": "Michelson, A. A. & Morley, E. W. (1887). 'On the Relative Motion of the Earth and the Luminiferous Ether.' American Journal of Science, 34, 333–345. Confirmed to parts in 10¹⁷ by modern laser interferometry (Herrmann, S. et al. 2009, Physical Review Letters, 103, 090401). Often called the most important null result in physics; it established that the speed of light is a fundamental constant independent of the observer's motion."
+        },
+        {
+          "id": "st2", "group": "Quantum Origins",
+          "label": "Planck's Blackbody Law",
+          "date": "1900", "loc": "University of Berlin, Berlin, Germany", "coords": [52.52, 13.39],
+          "links": ["fg1", "co7", "st3"],
+          "hint": "Classical physics predicted that a hot object radiates infinite energy at short wavelengths — the 'ultraviolet catastrophe'. To fit the observed spectrum, Planck proposed that energy is emitted only in discrete packets of size hν. It was a mathematical fix he initially regarded as unphysical that turned out to be the founding act of quantum theory.",
+          "tag": "EXPERIMENT",
+          "repl": "robust",
+          "note": "Planck, M. (1900). 'Über eine Verbesserung der Wien'schen Spektralgleichung.' Verhandlungen der Deutschen Physikalischen Gesellschaft, 2, 202–204. Planck's law has been confirmed with extraordinary precision; the CMB spectrum measured by COBE (Mather et al. 1994, Astrophysical Journal Letters, Nobel 2006) is a perfect Planck blackbody to one part in 10⁴. Planck's constant h = 6.62607 × 10⁻³⁴ J·s now exactly defines the SI unit of mass."
+        },
+        {
+          "id": "st3", "group": "Quantum Origins",
+          "label": "Einstein's Photoelectric Effect",
+          "date": "1905", "loc": "Bern Patent Office, Bern, Switzerland", "coords": [46.95, 7.45],
+          "links": ["fg2", "co1", "co7", "st2", "ef2"],
+          "hint": "Light ejects electrons from a metal surface only when its frequency exceeds a threshold — not when its intensity exceeds a threshold. Einstein explained this by proposing that light consists of discrete photons of energy hν; below the threshold frequency, no single photon has enough energy to liberate an electron regardless of how bright the light is.",
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "note": "Einstein, A. (1905). 'Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt.' Annalen der Physik, 17, 132–148. Confirmed by Millikan, R. A. (1916). Physical Review, 7, 355–388 — Millikan initially hoped to disprove it. Einstein received the 1921 Nobel Prize for this paper, not for relativity. The photon concept was initially met with scepticism even after the experimental confirmation."
+        },
+        {
+          "id": "st4", "group": "Nuclear Physics",
+          "label": "Rutherford Scattering",
+          "date": "1911", "loc": "University of Manchester, Manchester, England", "coords": [53.47, -2.23],
+          "links": ["fg7", "fg12", "co7", "st5", "st7"],
+          "hint": "Alpha particles fired at a thin gold foil were occasionally deflected through large angles — even backwards — which is impossible if atomic mass is spread evenly. Rutherford concluded that virtually all an atom's mass and positive charge is concentrated in a tiny central nucleus, founding nuclear physics.",
+          "tag": "EXPERIMENT",
+          "repl": "robust",
+          "note": "Geiger, H. & Marsden, E. (1909). 'On a Diffuse Reflection of the α-Particles.' Proceedings of the Royal Society A, 82, 495–500 (the observations). Rutherford, E. (1911). 'The Scattering of α and β Particles by Matter and the Structure of the Atom.' Philosophical Magazine, 21, 669–688 (the nuclear model). The nuclear atom remains the basis of all subsequent nuclear and particle physics; quantum mechanics later explained why the orbiting electrons don't spiral in."
+        },
+        {
+          "id": "st5", "group": "Quantum Origins",
+          "label": "Bohr Hydrogen Model",
+          "date": "1913", "loc": "University of Copenhagen, Copenhagen, Denmark", "coords": [55.68, 12.57],
+          "links": ["fg3", "co7", "me2", "st4", "co1"],
+          "hint": "Bohr quantised the electron's orbital angular momentum to derive the discrete energy levels of hydrogen, correctly predicting the wavelengths of every hydrogen spectral line. The model was a hybrid of classical orbits and quantum rules that was later superseded but established quantisation as physical reality rather than mathematical artifice.",
+          "tag": "MODEL",
+          "repl": "robust",
+          "note": "Bohr, N. (1913). 'On the Constitution of Atoms and Molecules.' Philosophical Magazine, 26, 1–25 (Part I of three). The model correctly predicts hydrogen spectra but fails for multi-electron atoms. Superseded by the Schrödinger equation (1926), which gives the hydrogen orbitals as probability distributions rather than definite orbits. The Bohr model's quantisation condition was later justified by de Broglie's matter-wave wavelength fitting the orbital circumference."
+        },
+        {
+          "id": "st6", "group": "Wave Mechanics & Uncertainty",
+          "label": "Davisson-Germer Electron Diffraction",
+          "date": "1927", "loc": "Bell Telephone Laboratories, Murray Hill, New Jersey", "coords": [40.72, -74.18],
+          "links": ["co1", "th4", "ef1"],
+          "hint": "Slow electrons scattered from a nickel crystal produced diffraction rings identical to X-rays — the first direct experimental proof that electrons behave as waves. The wavelength matched de Broglie's prediction exactly, confirming that matter has wave properties and providing the empirical foundation for wave mechanics.",
+          "tag": "EXPERIMENT",
+          "repl": "robust",
+          "note": "Davisson, C. J. & Germer, L. H. (1927). 'Diffraction of Electrons by a Crystal of Nickel.' Physical Review, 30, 705–740. G. P. Thomson independently confirmed electron diffraction the same year using thin films. Nobel Prize 1937 (Davisson and Thomson — father J. J. Thomson won the Nobel for discovering the electron as a particle; son G. P. Thomson for demonstrating it is a wave). De Broglie received the 1929 Nobel for the theoretical prediction."
+        },
+        {
+          "id": "st7", "group": "Nuclear Physics",
+          "label": "Chadwick's Neutron Discovery",
+          "date": "1932", "loc": "Cavendish Laboratory, Cambridge, England", "coords": [52.21, 0.12],
+          "links": ["fg12", "fg7", "ef4", "co4", "st4", "th7", "st8"],
+          "hint": "Chadwick identified a penetrating, uncharged radiation from beryllium as a new particle with roughly the same mass as a proton — the neutron. Its existence completed the proton-neutron model of the nucleus and provided a neutral probe that could initiate uranium fission without being repelled by the nucleus's positive charge.",
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "note": "Chadwick, J. (1932). 'Possible Existence of a Neutron.' Nature, 129, 312. Extended in Chadwick, J. (1932). 'The Existence of a Neutron.' Proceedings of the Royal Society A, 136, 692–708. Nobel Prize in Physics 1935. The neutron's mass is 1.67493 × 10⁻²⁷ kg, slightly greater than the proton; a free neutron decays to a proton, electron and antineutrino with a half-life of ~879 seconds."
+        },
+        {
+          "id": "st8", "group": "Nuclear Physics",
+          "label": "Hahn & Strassmann Nuclear Fission",
+          "date": "1938", "loc": "Kaiser Wilhelm Institute for Chemistry, Berlin, Germany", "coords": [52.52, 13.41],
+          "links": ["fg11", "fg10", "co4", "ef5", "ap1", "db7", "st7", "ef9"],
+          "hint": "Hahn and Strassmann bombarded uranium with neutrons and identified barium among the products — an element far too light to be a simple chipping off of uranium. Meitner and Frisch, working separately in Sweden, realised the nucleus had split in two, releasing energy consistent with Einstein's E=mc², opening the path to both nuclear power and nuclear weapons.",
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "note": "Hahn, O. & Strassmann, F. (1939). 'Über den Nachweis und das Verhalten der bei der Bestrahlung des Urans mittels Neutronen entstehenden Erdalkalimetalle.' Die Naturwissenschaften, 27, 11–15. Meitner, L. & Frisch, O. R. (1939). 'Disintegration of Uranium by Neutrons.' Nature, 143, 239–240 (theoretical explanation). The 1944 Nobel Prize in Chemistry went to Hahn alone; Meitner's exclusion is widely regarded as the most unjust Nobel omission. Strassmann was also not awarded."
+        },
+        {
+          "id": "st9", "group": "Particle Physics & QFT",
+          "label": "Wu Parity Violation",
+          "date": "1957", "loc": "Columbia University, New York, New York", "coords": [40.81, -73.96],
+          "links": ["db8", "th8", "me3", "me1"],
+          "hint": "Chien-Shiung Wu cooled cobalt-60 nuclei to near absolute zero and aligned their spins with a magnetic field. Beta decay electrons were emitted preferentially in the direction opposite the nuclear spin — a result that is impossible if nature is mirror-symmetric. The weak force violates parity, overturning a conservation law that physicists had assumed to be fundamental.",
+          "tag": "EXPERIMENT",
+          "repl": "robust",
+          "note": "Wu, C. S., Ambler, E., Hayward, R. W., Hoppes, D. D. & Hudson, R. P. (1957). 'Experimental Test of Parity Conservation in Beta Decay.' Physical Review, 105, 1413–1415. Confirmed the theoretical prediction of Lee, T. D. & Yang, C. N. (1956) Physical Review, 104, 254, who received the 1957 Nobel Prize within the year. Wu did not receive the Nobel Prize; her exclusion is widely regarded as unjust."
+        },
+        {
+          "id": "st10", "group": "Relativity & Spacetime",
+          "label": "Pound-Rebka Gravitational Redshift",
+          "date": "1959", "loc": "Jefferson Laboratory, Harvard University, Cambridge, Massachusetts", "coords": [42.37, -71.12],
+          "links": ["th2", "ef6", "co6"],
+          "hint": "Using the Mössbauer effect to achieve the necessary frequency precision, Pound and Rebka measured the tiny frequency shift of gamma rays climbing 22.6 m against Earth's gravity — the first laboratory test of General Relativity's prediction that time runs slower in stronger gravitational fields.",
+          "tag": "EXPERIMENT",
+          "repl": "robust",
+          "note": "Pound, R. V. & Rebka, G. A. (1959). 'Gravitational Red-Shift in Nuclear Resonance.' Physical Review Letters, 3, 439–441. Agreed with GR to within 10%; remeasured by Pound & Snider (1964) Physical Review, 140, B788 to within 1%. Gravitational time dilation at centimetre scales later confirmed by Chou, C. W. et al. (2010). 'Optical Clocks and Relativity.' Science, 329, 1630–1633. The GPS system applies the same correction continuously."
+        },
+        {
+          "id": "st11", "group": "Wave Mechanics & Uncertainty",
+          "label": "Aspect Bell Test",
+          "date": "1982", "loc": "Institut d'Optique, Orsay, France", "coords": [48.70, 2.17],
+          "links": ["co3", "db1", "db2", "ef8"],
+          "hint": "Alain Aspect generated pairs of entangled photons and measured their polarisations through randomly switched analysers, closing the major loophole in earlier Bell tests. The correlations exceeded the limit imposed by any local hidden-variable theory, demonstrating that quantum entanglement is real and nonlocal in a sense incompatible with classical realism.",
+          "tag": "EXPERIMENT",
+          "repl": "robust",
+          "note": "Aspect, A., Dalibard, J. & Roger, G. (1982). 'Experimental Test of Bell's Inequalities Using Time-Varying Analyzers.' Physical Review Letters, 49, 1804–1807. Loophole-free Bell tests: Hensen, B. et al. (2015). Nature, 526, 682–686; Giustina, M. et al. (2015). Physical Review Letters, 115, 250401. Nobel Prize in Physics 2022 (Aspect, Clauser, Zeilinger). The violation rules out all local hidden-variable theories and has been exploited in quantum key distribution protocols."
+        },
+        {
+          "id": "st12", "group": "Cosmological Frontiers",
+          "label": "LIGO Gravitational Wave Detection",
+          "date": "2015", "loc": "LIGO Hanford Observatory, Hanford, Washington", "coords": [46.46, -119.41],
+          "links": ["th2", "co6", "ef7", "db4"],
+          "hint": "A chirp signal lasting 0.2 seconds was detected simultaneously at LIGO's Hanford and Livingston observatories — produced by two black holes of roughly 30 solar masses each spiralling together 1.3 billion light-years away. It was the first direct detection of gravitational waves, confirming the last major unverified prediction of General Relativity.",
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "note": "Abbott, B. P. et al. (LIGO Scientific Collaboration & Virgo Collaboration) (2016). 'Observation of Gravitational Waves from a Binary Black Hole Merger.' Physical Review Letters, 116, 061102. Nobel Prize in Physics 2017 (Weiss, Barish, Thorne). The strain amplitude was Δl/l ≈ 10⁻²¹ — a displacement smaller than 1/1000 the diameter of a proton across a 4 km arm. As of 2023 the network has detected over 90 compact-object merger events."
+        }
+      ]
     },
     {
-      "id": "th3",
-      "cat": "theory",
-      "group": "Wave Mechanics & Uncertainty",
-      "label": "Matrix Mechanics",
-      "year": 1925,
-      "loc": "Göttingen, Germany",
-      "fig": "fg4",
-      "hint": "Heisenberg's first complete formulation of quantum mechanics, representing observables as matrices rather than classical trajectories — mathematically equivalent to Schrödinger's wave mechanics but conceptually distinct.",
-      "links": ["th4", "th5", "co2", "fg4"]
+      "id": "effect",
+      "label": "Effects & Phenomena",
+      "icon": "📊",
+      "color": "#0B4F2E", "accent": "#117A65", "bg": "#F0FFF6",
+      "subtitle": "Named, replicable phenomena in quantum, nuclear and relativistic physics",
+      "entries": [
+        {
+          "id": "ef1", "group": "Wave Mechanics & Uncertainty",
+          "label": "Quantum Tunnelling",
+          "date": "1928", "loc": "University of Göttingen, Göttingen, Germany", "coords": [51.54, 9.95],
+          "links": ["th4", "co2", "ef5", "ap4", "st6"],
+          "hint": "A quantum particle can penetrate a potential energy barrier it classically lacks the energy to cross — because the wavefunction is nonzero inside the barrier, giving a finite probability of emerging on the other side. Tunnelling explains alpha decay, enables nuclear fusion inside stars at temperatures far below the classical threshold, and is exploited in tunnel diodes and the scanning tunnelling microscope.",
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "note": "Gamow, G. (1928). 'Zur Quantentheorie des Atomkernes.' Zeitschrift für Physik, 51, 204–212. Gurney, R. W. & Condon, E. U. (1929) independently explained alpha decay by tunnelling. The tunnel diode (Esaki 1958, Nobel 1973) and scanning tunnelling microscope (Binnig & Rohrer 1981, Nobel 1986) are direct applications; STM achieves atomic-scale surface imaging by measuring tunnelling current as a function of tip position."
+        },
+        {
+          "id": "ef2", "group": "Quantum Origins",
+          "label": "Compton Scattering",
+          "date": "1923", "loc": "Washington University, St Louis, Missouri", "coords": [38.65, -90.31],
+          "links": ["st3", "co1", "fg2"],
+          "hint": "When X-rays scatter off electrons, their wavelength increases by an amount that depends only on the scattering angle — not on the wavelength of the incident light. Compton showed this follows directly from treating the photon as a particle with momentum hν/c that collides elastically with the electron, providing definitive proof that photons carry momentum.",
+          "tag": "EFFECT",
+          "repl": "robust",
+          "note": "Compton, A. H. (1923). 'A Quantum Theory of the Scattering of X-rays by Light Elements.' Physical Review, 21, 483–502. Nobel Prize in Physics 1927. The Compton wavelength shift Δλ = (h/mₑc)(1−cosθ) = 0.00243(1−cosθ) nm depends only on scattering angle. The effect is distinct from the photoelectric effect: Compton scattering involves partial energy transfer (the photon survives); the photoelectric effect involves complete absorption."
+        },
+        {
+          "id": "ef3", "group": "Particle Physics & QFT",
+          "label": "Lamb Shift",
+          "date": "1947", "loc": "Columbia University, New York, New York", "coords": [40.81, -73.96],
+          "links": ["th6", "fg8"],
+          "hint": "Dirac's equation predicted that two hydrogen energy levels (2S½ and 2P½) should be exactly degenerate. Lamb and Retherford measured a tiny splitting between them using microwave techniques. This splitting — caused by fluctuations of the quantum vacuum — could not be explained without QED and became the key motivation for developing renormalisation.",
+          "tag": "EFFECT",
+          "repl": "robust",
+          "note": "Lamb, W. E. & Retherford, R. C. (1947). 'Fine Structure of the Hydrogen Atom by a Microwave Method.' Physical Review, 72, 241–243. Nobel Prize in Physics 1955 (to Lamb). The shift was first computed by Bethe, H. A. (1947) Physical Review, 72, 339, using a non-relativistic renormalisation. Feynman and Schwinger subsequently derived the full QED result. The measured Lamb shift (1057.8 MHz) agrees with QED to better than 1 part per million."
+        },
+        {
+          "id": "ef4", "group": "Nuclear Physics",
+          "label": "Radioactive Decay & Half-Life",
+          "date": "1902", "loc": "McGill University, Montreal, Quebec", "coords": [45.50, -73.58],
+          "links": ["fg6", "fg7", "ef5", "co4", "me5", "ap5"],
+          "hint": "Radioactive elements spontaneously transmute into other elements at a constant fractional rate — the probability per unit time of any given nucleus decaying is fixed. This gives exponential decay characterised by a half-life, and means atoms are not immutable. The exponential decay law follows directly from quantum mechanical transition probabilities.",
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "note": "Rutherford, E. & Soddy, F. (1902). 'The Cause and Nature of Radioactivity.' Philosophical Magazine, 4, 370–396 & 569–585. The exponential decay law emerges from a constant transition probability per unit time — a consequence of quantum mechanics. Half-lives span 26 orders of magnitude: polonium-212 (0.3 μs) to tellurium-128 (2.2 × 10²⁴ years). Nobel Prize to Rutherford in Chemistry 1908; to Soddy in Chemistry 1921."
+        },
+        {
+          "id": "ef5", "group": "Nuclear Physics",
+          "label": "Nuclear Binding Energy & Mass Defect",
+          "date": "1920", "loc": "Cavendish Laboratory, Cambridge, England", "coords": [52.21, 0.12],
+          "links": ["ef9", "th7", "co4", "ef4", "st8", "st7", "ef1"],
+          "hint": "A nucleus weighs slightly less than the sum of its constituent protons and neutrons — the missing mass is the binding energy holding it together (via E=mc²). The binding energy per nucleon peaks at iron-56, which means fission releases energy for heavy nuclei and fusion releases energy for light ones, explaining both stellar energy generation and nuclear weapons.",
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "note": "Mass defect first measured by Aston, F. W. (1920) using mass spectrometry; Nobel Prize in Chemistry 1922. Semi-empirical mass formula (Bethe-Weizsäcker formula): von Weizsäcker, C. F. (1935). Zeitschrift für Physik, 96, 431. The iron-56 binding energy peak (8.79 MeV/nucleon) is why supernova iron cores collapse; endothermic fusion beyond iron triggers core collapse. Nuclear binding energies are measured to 10 keV precision using Penning traps."
+        },
+        {
+          "id": "ef6", "group": "Relativity & Spacetime",
+          "label": "Gravitational Time Dilation",
+          "date": "1959", "loc": "Jefferson Laboratory, Harvard University, Cambridge, Massachusetts", "coords": [42.37, -71.12],
+          "links": ["th2", "st10", "co6", "ap6"],
+          "hint": "Clocks run slower in stronger gravitational fields — a direct consequence of General Relativity. GPS satellites experience both Special Relativistic time dilation (their speed slows their clocks by 7 μs/day) and gravitational time dilation (weaker gravity speeds their clocks by 45 μs/day), requiring a net correction of +38 μs/day or position errors would accumulate at ~10 km/day.",
+          "tag": "EFFECT",
+          "repl": "robust",
+          "note": "First confirmed: Pound, R. V. & Rebka, G. A. (1959). Physical Review Letters, 3, 439. Confirmed at centimetre scales: Chou, C. W. et al. (2010). Science, 329, 1630 using optical atomic clocks. Gravitational time dilation has also been confirmed by the Hafele-Keating experiment (1971, Science, 177, 166) flying atomic clocks on aircraft. GPS relativistic corrections: Ashby, N. (2003). Living Reviews in Relativity, 6, 1."
+        },
+        {
+          "id": "ef7", "group": "Cosmological Frontiers",
+          "label": "Gravitational Lensing",
+          "date": "1919", "loc": "Príncipe Island, Gulf of Guinea", "coords": [1.65, 7.41],
+          "links": ["th2", "st12", "th9", "db6"],
+          "hint": "Light bends as it passes a massive object because spacetime is curved — Eddington's 1919 solar eclipse expedition measured the apparent displacement of stars near the sun's limb and confirmed General Relativity's prediction, which is twice the Newtonian value. Gravitational lensing is now a precision cosmological tool for mapping dark matter and measuring the Hubble constant.",
+          "tag": "EFFECT",
+          "repl": "robust",
+          "note": "Dyson, F. W., Eddington, A. S. & Davidson, C. (1920). 'A Determination of the Deflection of Light by the Sun's Gravitational Field.' Philosophical Transactions of the Royal Society A, 220, 291–333. Eddington's 1919 measurement had large uncertainties and the analysis was imperfect; confirmed to better than 0.1% by radio-interferometry (Shapiro, I. I. et al. 2004, Physical Review Letters, 92, 121101). Strong gravitational lensing of distant galaxies is now used to constrain dark matter distribution (Clowe et al. 2006, Astrophysical Journal Letters, 648, L109)."
+        },
+        {
+          "id": "ef8", "group": "Wave Mechanics & Uncertainty",
+          "label": "Bell Inequality Violation",
+          "date": "1982", "loc": "Institut d'Optique, Orsay, France", "coords": [48.70, 2.17],
+          "links": ["st11", "co3", "db1", "db2"],
+          "hint": "Bell's theorem proved that any local hidden-variable theory must satisfy certain statistical inequalities on the correlations between distant measurements. Quantum entangled particle pairs violate these inequalities — a result that rules out local realism as an explanation of quantum correlations and implies that nature is fundamentally nonlocal in the quantum sense.",
+          "tag": "EFFECT",
+          "repl": "robust",
+          "note": "Bell, J. S. (1964). 'On the Einstein Podolsky Rosen Paradox.' Physics, 1, 195–200 (theoretical). Experimental violation: Aspect, A. et al. (1982). Physical Review Letters, 49, 1804. Loophole-free: Hensen, B. et al. (2015). Nature, 526, 682 (detection loophole and locality loophole both closed simultaneously). Nobel Prize 2022. The violation has been used to certify quantum cryptography keys and to generate certified randomness from quantum devices."
+        },
+        {
+          "id": "ef9", "group": "Relativity & Spacetime",
+          "label": "Mass-Energy Equivalence E=mc²",
+          "date": "1905", "loc": "Bern Patent Office, Bern, Switzerland", "coords": [46.95, 7.45],
+          "links": ["th1", "fg2", "ef5", "st8", "ap1", "db7"],
+          "hint": "A direct consequence of Special Relativity: mass and energy are interconvertible, with the conversion factor c² ≈ 9 × 10¹⁶ J/kg. A tiny amount of mass converts to an enormous quantity of energy, explaining why the sun shines (fusion converts ~0.7% of hydrogen mass to energy), why nuclear fission releases megajoules per gram, and why matter-antimatter annihilation is perfectly efficient.",
+          "tag": "LAW",
+          "repl": "robust",
+          "note": "Einstein, A. (1905). 'Ist die Trägheit eines Körpers von seinem Energieinhalt abhängig?' Annalen der Physik, 18, 639–641. The relation is exact and applies to rest mass and rest energy; the full relativistic expression is E² = (pc)² + (m₀c²)². Directly confirmed by nuclear mass measurements (Aston 1920) and by the energy yield of fission reactions (St8). The mass-energy equivalence underpins every nuclear energy calculation."
+        }
+      ]
     },
     {
-      "id": "th4",
-      "cat": "theory",
-      "group": "Wave Mechanics & Uncertainty",
-      "label": "Wave Mechanics / Schrödinger Equation",
-      "year": 1926,
-      "loc": "University of Zurich, Switzerland",
-      "fig": "fg5",
-      "hint": "The Schrödinger equation describes how quantum wavefunctions evolve in time — the square of the wavefunction gives probability density, providing a continuous, wave-based picture of quantum dynamics.",
-      "links": ["th3", "th5", "co1", "co2", "co3", "ef1", "fg5", "st6"]
+      "id": "concept",
+      "label": "Key Concepts",
+      "icon": "💡",
+      "color": "#2C3E50", "accent": "#566573", "bg": "#F5F6FA",
+      "subtitle": "The building blocks and vocabulary every student must command",
+      "entries": [
+        {
+          "id": "co1", "group": "Quantum Origins",
+          "label": "Wave-Particle Duality",
+          "date": "1924", "loc": "University of Paris, Paris, France", "coords": [48.85, 2.35],
+          "links": ["st3", "st6", "ef2", "th4", "co2", "st5"],
+          "hint": "Quantum objects exhibit wave properties (interference, diffraction) or particle properties (discrete impacts, definite detection events) depending on the experimental context — neither description is complete alone. de Broglie proposed that all matter has a wavelength λ = h/p; Davisson and Germer confirmed this for electrons; the double-slit experiment with individual electrons or photons makes the duality vivid.",
+          "tag": "CONCEPT",
+          "note": "de Broglie, L. (1924). 'Recherches sur la théorie des quanta.' Annales de Physique, 3, 22–128. Nobel Prize 1929. Born's probability interpretation (1926) gave the wavefunction its physical meaning: the wave is a probability amplitude, the particle is what is detected. Duality is not a paradox but a feature of quantum formalism; Bohr called the two aspects 'complementary'. It is exploited in electron microscopy (resolution λ ≈ pm for 100 keV electrons)."
+        },
+        {
+          "id": "co2", "group": "Wave Mechanics & Uncertainty",
+          "label": "Heisenberg Uncertainty Principle",
+          "date": "1927", "loc": "Niels Bohr Institute, Copenhagen, Denmark", "coords": [55.70, 12.56],
+          "links": ["th3", "th4", "th5", "co3", "ef1"],
+          "hint": "Conjugate variables such as position and momentum, or energy and time, cannot both be precisely specified simultaneously: ΔxΔp ≥ ℏ/2. This is not about measurement disturbance but about the impossibility of preparing a quantum state with definite values for both — a fundamental feature of waves. It sets the minimum size of atomic orbitals and makes the zero-point energy of quantum systems nonzero.",
+          "tag": "PRINCIPLE",
+          "note": "Heisenberg, W. (1927). 'Über den anschaulichen Inhalt der quantentheoretischen Kinematik und Mechanik.' Zeitschrift für Physik, 43, 172–198. Generalised by Robertson, H. P. (1929) Physical Review, 34, 163 to all conjugate pairs. The popular 'observer disturbs the system' explanation is misleading: the Robertson derivation involves no measurement at all. Time-energy uncertainty (ΔEΔt ≥ ℏ/2) underlies the natural linewidth of atomic transitions and the virtual particle picture of QFT."
+        },
+        {
+          "id": "co3", "group": "Wave Mechanics & Uncertainty",
+          "label": "Quantum Superposition & Entanglement",
+          "date": "1935", "loc": "University of Oxford, Oxford, England", "coords": [51.76, -1.26],
+          "links": ["th4", "th5", "db2", "db5", "ef8", "co2"],
+          "hint": "Quantum systems can exist in a superposition of multiple distinct states simultaneously; when two particles interact, their wavefunctions can become entangled — measuring one particle instantly determines the correlated outcome of measuring the other, regardless of the distance between them. These resources are now exploited in quantum computing, quantum cryptography, and quantum teleportation.",
+          "tag": "CONCEPT",
+          "note": "Superposition follows from the linearity of the Schrödinger equation. Entanglement named and analysed by Schrödinger, E. (1935). 'Discussion of Probability Relations between Separated Systems.' Mathematical Proceedings of the Cambridge Philosophical Society, 31, 555–563. EPR paradox: Einstein, A., Podolsky, B. & Rosen, N. (1935). Physical Review, 47, 777. Quantum computing exploits superposition and entanglement: Shor's factoring algorithm (1994) and Grover's search algorithm (1996). Quantum teleportation: Bennett, C. H. et al. (1993). Physical Review Letters, 70, 1895."
+        },
+        {
+          "id": "co4", "group": "Nuclear Physics",
+          "label": "Nuclear Fission vs Fusion",
+          "date": "1939", "loc": "University of Chicago, Chicago, Illinois", "coords": [41.79, -87.60],
+          "links": ["ef5", "ef9", "ap1", "ap5", "st8", "db7", "th7"],
+          "hint": "Fission splits a heavy nucleus (uranium-235, plutonium-239) releasing ~200 MeV per event by moving down the binding energy curve from a less-stable heavy nucleus to more-stable mid-weight products. Fusion joins light nuclei (deuterium, tritium) releasing even more energy per kilogram — but requires extreme temperatures (~100 million K) to overcome electrostatic repulsion, making controlled fusion the grand engineering challenge of the 21st century.",
+          "tag": "CONCEPT",
+          "note": "Systematic comparison of fission and fusion energetics follows from the nuclear binding energy curve (Aston 1920; Bethe-Weizsäcker formula 1935). Stellar fusion: Bethe, H. A. (1939). 'Energy Production in Stars.' Physical Review, 55, 434–456 (Nobel 1967). Controlled fusion: ITER project (target: 500 MW from 50 MW input). NIF achieved ignition in December 2022 (Abu-Shawareb, O. A. et al. 2024, Physical Review Letters, 132, 065102) — net energy gain from the laser capsule, not the full driver system."
+        },
+        {
+          "id": "co5", "group": "Particle Physics & QFT",
+          "label": "Antimatter",
+          "date": "1928", "loc": "University of Cambridge, Cambridge, England", "coords": [52.21, 0.12],
+          "links": ["fg9", "th6", "th8", "db8"],
+          "hint": "Dirac's relativistic quantum equation for the electron had two solutions — one for the electron and one for a particle of equal mass but opposite charge. Anderson discovered this positron in cosmic rays in 1932. Every fundamental particle has an antiparticle; particle-antiparticle annihilation converts mass entirely to energy. The matter-antimatter asymmetry of the universe — why matter survived — is one of the deepest unsolved problems in physics.",
+          "tag": "CONCEPT",
+          "note": "Dirac, P. A. M. (1928). 'The Quantum Theory of the Electron.' Proceedings of the Royal Society A, 117, 610–624. Anderson, C. D. (1933). 'The Positive Electron.' Physical Review, 43, 491–494 (Nobel 1936). CP violation (matter-antimatter asymmetry): Christenson, J. H. et al. (1964). Physical Review Letters, 13, 138. Current LHCb measurements continue to constrain baryogenesis models (LHCb Collaboration, 2019, Nature Physics, 15, 917). The Standard Model's CP violation is insufficient to explain the observed matter dominance."
+        },
+        {
+          "id": "co6", "group": "Relativity & Spacetime",
+          "label": "Spacetime & Curvature",
+          "date": "1908", "loc": "University of Cologne, Cologne, Germany", "coords": [50.93, 6.93],
+          "links": ["th1", "th2", "ef6", "ef7", "st10", "st12"],
+          "hint": "Space and time are not separate but unified into a four-dimensional manifold whose geometry is curved by mass and energy. Free-falling objects follow geodesics — the straightest possible paths in curved spacetime — and what we call gravity is the geometry of this manifold. The curvature of spacetime also slows time, bends light, and generates gravitational waves.",
+          "tag": "CONCEPT",
+          "note": "Minkowski, H. (1908). 'Raum und Zeit.' Physikalische Zeitschrift, 10, 104–111 — unified space and time for Special Relativity. The full Riemannian geometry of curved spacetime was applied by Einstein (1915). The geodesic deviation equation (Jacobi field) quantifies how curvature causes initially parallel free-fall trajectories to converge or diverge — the tidal forces of gravity. Spacetime curvature is measured via metric tensor components gᵤᵥ satisfying the Einstein field equations Gᵤᵥ = 8πGTᵤᵥ/c⁴."
+        },
+        {
+          "id": "co7", "group": "Quantum Origins",
+          "label": "Quantisation",
+          "date": "1900", "loc": "University of Berlin, Berlin, Germany", "coords": [52.52, 13.39],
+          "links": ["st2", "st3", "st5", "fg1", "co4", "th7", "me2"],
+          "hint": "Physical quantities that are continuous in classical physics — energy, angular momentum, charge, magnetic flux — take only discrete (quantised) values at the atomic scale. Planck's energy quanta (1900), Bohr's orbital shells (1913), and the nuclear shell model (1949) are successive applications of the same principle; quantum field theory extends it to fields themselves, so even the electromagnetic field is made of discrete photons.",
+          "tag": "CONCEPT",
+          "note": "Planck's energy quantisation (1900) was the first instance. Angular momentum quantisation: Bohr (1913). Magnetic flux quantisation in superconductors: Deaver & Fairbank (1961) Physical Review Letters, 7, 43. Charge quantisation (quarks have e/3, 2e/3): confirmed by SLAC deep inelastic scattering (1968). Second quantisation (Dirac 1927) formalised the quantisation of fields — photons, phonons and all bosonic excitations emerge as quanta of their respective quantum fields."
+        }
+      ]
     },
     {
-      "id": "th5",
-      "cat": "theory",
-      "group": "Wave Mechanics & Uncertainty",
-      "label": "Copenhagen Interpretation",
-      "year": 1927,
-      "loc": "Copenhagen, Denmark",
-      "fig": "fg3",
-      "hint": "The dominant interpretation of quantum mechanics: wavefunctions represent probabilities, measurement causes collapse to a definite state, and it is meaningless to ask about properties before measurement — championed by Bohr and Heisenberg against Einstein's realism.",
-      "links": ["fg3", "fg4", "co3", "db1", "db2", "db5", "th4", "th3"]
+      "id": "method",
+      "label": "Methods & Approaches",
+      "icon": "🔬",
+      "color": "#5D4037", "accent": "#8B5E00", "bg": "#FFF8F0",
+      "subtitle": "The tools and paradigms that generate the field's evidence",
+      "entries": [
+        {
+          "id": "me1", "group": "Nuclear Physics",
+          "label": "Particle Detectors",
+          "date": "1911", "loc": "Cavendish Laboratory, Cambridge, England", "coords": [52.21, 0.12],
+          "links": ["fg6", "fg12", "st9", "fg7", "me3"],
+          "hint": "From Wilson's cloud chamber (1911) to bubble chambers, Geiger-Müller counters, and modern silicon pixel trackers, particle detectors make subatomic interactions legible by recording the tracks, energies and momenta of particles. Each generation enabled a new layer of discovery — the positron, muon, and kaon all appeared first in detector records.",
+          "tag": "METHOD",
+          "note": "Wilson, C. T. R. (1911). 'On a Method of Making Visible the Paths of Ionising Particles.' Proceedings of the Royal Society A, 85, 285–288 (Nobel 1927). Bubble chamber: Glaser, D. A. (1952) Physical Review, 87, 665 (Nobel 1960). Silicon pixel detectors (1980s): now standard at LHC (CMS inner tracker: 75 million silicon pixels). Each LHC proton-proton collision generates ~1 MB of raw data; real-time triggers filter ~40 MHz collision rate down to ~1 kHz for storage."
+        },
+        {
+          "id": "me2", "group": "Quantum Origins",
+          "label": "Spectroscopy",
+          "date": "1859", "loc": "University of Heidelberg, Heidelberg, Germany", "coords": [49.40, 8.69],
+          "links": ["st5", "co7", "fg3", "ap5"],
+          "hint": "Each element emits and absorbs light at a unique set of wavelengths — its spectral fingerprint. Kirchhoff and Bunsen established spectroscopy as a tool of chemical analysis; Bohr's model of the atom explained why spectral lines exist; quantum mechanics gave exact predictions for every line. Spectroscopy remains the primary tool for probing atomic structure, from laboratory plasmas to the spectra of distant galaxies.",
+          "tag": "METHOD",
+          "note": "Kirchhoff, G. R. & Bunsen, R. W. (1860). 'Chemische Analyse durch Spectralbeobachtungen.' Annalen der Physik und Chemie, 110, 161–189. Modern spectroscopy spans 25 orders of magnitude in frequency, from radio (NMR) to gamma-ray. NMR spectroscopy (Bloch & Purcell 1946, Nobel 1952) determines molecular structure; mass spectrometry (Aston, Nobel 1922) measures atomic masses; Fourier-transform infrared (FTIR) is standard for molecular identification."
+        },
+        {
+          "id": "me3", "group": "Particle Physics & QFT",
+          "label": "Particle Accelerators & Colliders",
+          "date": "1932", "loc": "University of California, Berkeley, California", "coords": [37.87, -122.26],
+          "links": ["th8", "th10", "st9", "db8", "me1"],
+          "hint": "Lawrence's cyclotron (1932) accelerated ions using oscillating electric fields within a magnetic spiral. Subsequent synchrotrons, linear accelerators, and storage-ring colliders have reached TeV energies, enabling the direct production and study of quarks, W and Z bosons, and the Higgs. Every major discovery in particle physics since 1950 has depended on accelerator technology.",
+          "tag": "METHOD",
+          "note": "Lawrence, E. O. (1932). 'The Production of High Speed Light Ions Without the Use of High Voltages.' Physical Review, 40, 19–35 (Nobel 1939). CERN LHC (operational 2008): 27 km ring, protons at 6.8 TeV per beam; discovered the Higgs boson in 2012. Stored beam energy: ~360 MJ per beam — equivalent to a 200 tonne aircraft at 300 km/h. The proposed Future Circular Collider (FCC) would be 100 km in circumference with 100 TeV centre-of-mass energy."
+        },
+        {
+          "id": "me4", "group": "Wave Mechanics & Uncertainty",
+          "label": "Nuclear Magnetic Resonance (NMR)",
+          "date": "1945", "loc": "Harvard University, Cambridge, Massachusetts", "coords": [42.37, -71.12],
+          "links": ["co7", "co3", "ap2"],
+          "hint": "Atomic nuclei with non-zero spin absorb and re-emit radiofrequency radiation at a resonant frequency determined by the local magnetic environment — giving a distinctive signal for each chemical group. NMR spectroscopy determines the three-dimensional structure of molecules in solution; Lauterbur's addition of field gradients turned NMR into MRI.",
+          "tag": "METHOD",
+          "note": "Purcell, E. M., Torrey, H. C. & Pound, R. V. (1946). 'Resonance Absorption by Nuclear Magnetic Moments in a Solid.' Physical Review, 69, 37. Bloch, F. et al. (1946). 'Nuclear Induction.' Physical Review, 70, 460. Nobel Prize 1952 (Bloch & Purcell). Two-dimensional NMR (Ernst 1991 Nobel) enabled full protein structure determination. Modern cryo-EM (Nobel 2017) complements NMR for very large molecular complexes."
+        },
+        {
+          "id": "me5", "group": "Nuclear Physics",
+          "label": "Radiocarbon Dating",
+          "date": "1949", "loc": "University of Chicago, Chicago, Illinois", "coords": [41.79, -87.60],
+          "links": ["ef4", "co4", "ap5"],
+          "hint": "Atmospheric carbon-14 is incorporated into living tissue and begins decaying (half-life 5,730 years) after death, allowing organic materials to be dated up to ~50,000 years old by measuring the remaining ¹⁴C fraction. Calibrated against tree rings and ice cores, it transformed archaeology, palaeoclimatology, and our understanding of human prehistory.",
+          "tag": "METHOD",
+          "note": "Libby, W. F., Anderson, E. C. & Arnold, J. R. (1949). 'Age Determination by Radiocarbon Content: World-Wide Assay of Natural Radiocarbon.' Science, 109, 227–228. Nobel Prize in Chemistry 1960. Calibration curve (IntCal): updated every few years by the IntCal Working Group; IntCal20 (Reimer et al. 2020, Radiocarbon) uses 9,000 individual data points. Accelerator mass spectrometry (AMS) reduces sample requirements from grams to milligrams and extends dating range."
+        },
+        {
+          "id": "me6", "group": "Particle Physics & QFT",
+          "label": "Feynman Diagrams",
+          "date": "1948", "loc": "Cornell University, Ithaca, New York", "coords": [42.44, -76.49],
+          "links": ["th6", "fg8", "th8"],
+          "hint": "Feynman's pictorial notation represents each term in the perturbative expansion of a quantum field theory — lines for propagating particles, vertices for interactions. Each diagram corresponds to a definite mathematical expression for a scattering amplitude, making systematic calculation of cross-sections and decay rates tractable and providing an intuitive picture of virtual particle exchange.",
+          "tag": "METHOD",
+          "note": "Feynman, R. P. (1949). 'Space-Time Approach to Quantum Electrodynamics.' Physical Review, 76, 769–789. Dyson, F. J. (1949) Physical Review, 75, 486 proved Feynman's rules produce the same results as Schwinger and Tomonaga's operator methods. Feynman diagrams are used in QED, QCD, the electroweak theory and effective field theories. At high loop orders (5+ loops), computer algebra systems are needed; the electron g-2 calculation uses ~13,000 diagrams at four-loop order."
+        }
+      ]
     },
     {
-      "id": "th6",
-      "cat": "theory",
-      "group": "Particle Physics & QFT",
-      "label": "Quantum Electrodynamics (QED)",
-      "year": 1948,
-      "loc": "United States",
-      "fig": "fg8",
-      "hint": "The quantum field theory of electromagnetism — Feynman, Schwinger, and Tomonaga independently showed how to renormalise infinities, yielding the most precisely tested theory in physics, matching experiment to 12 decimal places.",
-      "links": ["fg8", "fg9", "ef3", "th8", "me6"]
+      "id": "figure",
+      "label": "Pioneers & Theorists",
+      "icon": "🧑‍🔬",
+      "color": "#7D6608", "accent": "#B7770D", "bg": "#FEFDE7",
+      "subtitle": "The researchers who shaped the discipline",
+      "entries": [
+        {
+          "id": "fg1", "group": "Pioneers & Theorists",
+          "label": "Max Planck",
+          "date": "1900", "loc": "University of Berlin, Berlin, Germany", "coords": [52.52, 13.39],
+          "links": ["st2", "co7", "fg2"],
+          "hint": "Planck introduced the quantum of action h in 1900 to explain blackbody radiation — an act he initially considered a mathematical device rather than a physical reality. He spent the following years trying to derive the quantum hypothesis from classical physics, and only reluctantly accepted that it represented a fundamental break. He is the reluctant revolutionary at the origin of quantum theory.",
+          "tag": "FIGURE",
+          "note": "Nobel Prize in Physics 1918. Key paper: Planck, M. (1900). 'Zur Theorie des Gesetzes der Energieverteilung im Normalspektrum.' Verhandlungen der Deutschen Physikalischen Gesellschaft, 2, 237–245. Planck's constant h = 6.62607 × 10⁻³⁴ J·s now exactly defines the SI kilogram. Planck remained in Germany during the Nazi period; his son Erwin was executed for involvement in the 1944 assassination attempt on Hitler. Planck lobbied on behalf of Jewish colleagues, including Lisa Meitner."
+        },
+        {
+          "id": "fg2", "group": "Pioneers & Theorists",
+          "label": "Albert Einstein",
+          "date": "1905", "loc": "Bern Patent Office, Bern, Switzerland", "coords": [46.95, 7.45],
+          "links": ["th1", "th2", "st1", "st3", "ef9", "co6", "fg1", "db1", "ef2", "ap3"],
+          "hint": "Einstein's 1905 annus mirabilis produced four papers that each founded a field: the photoelectric effect (quantum of light), Brownian motion (proof of atoms), Special Relativity, and mass-energy equivalence. His 1915 General Relativity remains the most elegant physical theory ever constructed — and his lifelong opposition to Copenhagen quantum mechanics kept the foundations debate alive.",
+          "tag": "FIGURE",
+          "note": "Nobel Prize in Physics 1921 (photoelectric effect, not relativity — the committee was still uncertain about relativity). Key papers: Annalen der Physik, 17 & 18, 1905; Annalen der Physik, 49, 1916. EPR paper: Einstein, A., Podolsky, B. & Rosen, N. (1935). Physical Review, 47, 777 — argued quantum mechanics is incomplete; this paper ultimately led to Bell's theorem and quantum information theory. Einstein held the first permanent faculty position at the Institute for Advanced Study, Princeton (from 1933)."
+        },
+        {
+          "id": "fg3", "group": "Pioneers & Theorists",
+          "label": "Niels Bohr",
+          "date": "1913", "loc": "University of Copenhagen, Copenhagen, Denmark", "coords": [55.68, 12.57],
+          "links": ["th5", "st5", "fg2", "fg4", "db1", "db2", "me2"],
+          "hint": "Bohr quantised the hydrogen atom in 1913 and later articulated the Copenhagen Interpretation — his Institute for Theoretical Physics became the world centre of quantum mechanics in the 1920s and 1930s, attracting Heisenberg, Pauli, Dirac, and Gamow. His concept of complementarity held that wave and particle pictures are mutually exclusive but jointly necessary.",
+          "tag": "FIGURE",
+          "note": "Nobel Prize in Physics 1922. Key papers: Bohr, N. (1913). Philosophical Magazine, 26, 1–25 (hydrogen model). Complementarity: Bohr, N. (1928). Nature, 121, 580. Bohr escaped from Denmark in 1943 on a fishing boat after the German occupation, eventually contributing to the Manhattan Project at Los Alamos under the alias 'Nicholas Baker'. His Institute (now the Niels Bohr Institute) remains one of the leading theoretical physics centres in Europe."
+        },
+        {
+          "id": "fg4", "group": "Pioneers & Theorists",
+          "label": "Werner Heisenberg",
+          "date": "1925", "loc": "University of Göttingen, Göttingen, Germany", "coords": [51.54, 9.95],
+          "links": ["th3", "th5", "co2", "fg3", "fg5", "db1"],
+          "hint": "Heisenberg created matrix mechanics in 1925 and derived the uncertainty principle in 1927 — the two cornerstones of quantum mechanics as a complete theory. He led the German nuclear programme (Uranverein) during World War II; whether he deliberately obstructed its progress or simply failed to achieve a working reactor remains a contested historical question.",
+          "tag": "FIGURE",
+          "note": "Nobel Prize in Physics 1932. Key papers: Heisenberg (1925) Zeitschrift für Physik, 33, 879; (1927) Zeitschrift für Physik, 43, 172. Farm Hall transcripts (1945, declassified 1992): Heisenberg and nine other German physicists were secretly recorded after hearing of Hiroshima — the transcripts show Heisenberg initially calculated the critical mass incorrectly. Analysis: Rose, P. L. (1998) Heisenberg and the Nazi Atomic Bomb Project. University of California Press."
+        },
+        {
+          "id": "fg5", "group": "Pioneers & Theorists",
+          "label": "Erwin Schrödinger",
+          "date": "1926", "loc": "University of Zurich, Zurich, Switzerland", "coords": [47.37, 8.54],
+          "links": ["th4", "co3", "db5", "fg4", "db2"],
+          "hint": "Schrödinger formulated wave mechanics in 1926, giving the wavefunction equation that became the workhorse of quantum chemistry and condensed matter physics — and was deeply uncomfortable with the probabilistic Born interpretation of his own equation. His 1935 cat thought experiment remains the canonical statement of the measurement problem.",
+          "tag": "FIGURE",
+          "note": "Nobel Prize in Physics 1933 (shared with Dirac). Key papers: Schrödinger (1926) Annalen der Physik, 79, 361 (four-part series). Cat paper: Schrödinger, E. (1935). 'Die gegenwärtige Situation in der Quantenmechanik.' Naturwissenschaften, 23, 807–812. Schrödinger (1944). What is Life? (Cambridge University Press) — influence on Crick and Watson's pursuit of the structure of DNA is documented in Watson, J. D. (1968). The Double Helix."
+        },
+        {
+          "id": "fg6", "group": "Pioneers & Theorists",
+          "label": "Marie Curie",
+          "date": "1898", "loc": "École de Physique et de Chimie, Paris, France", "coords": [48.85, 2.34],
+          "links": ["ef4", "st4", "me1", "ap5"],
+          "hint": "Curie coined the term 'radioactivity', discovered polonium and radium, and was the first person to win two Nobel Prizes. Her systematic measurement of radioactive emissions as an intrinsic atomic property overturned the view that atoms are immutable, and her purification of radium laid the groundwork for nuclear medicine and radiation therapy.",
+          "tag": "FIGURE",
+          "note": "Nobel Prize in Physics 1903 (with Pierre Curie and Henri Becquerel). Nobel Prize in Chemistry 1911 (solo, for discovery of polonium and radium). Key papers: Curie, M. & Curie, P. (1898). Comptes Rendus, 127, 1215–1217 (polonium); 1215–1217 & 127, 175 (radium). Curie was denied membership in the French Académie des Sciences in 1911 despite her two Nobel Prizes; the Académie did not admit women until 1962. Her working notebooks remain radioactive and are stored in lead-lined boxes."
+        },
+        {
+          "id": "fg7", "group": "Pioneers & Theorists",
+          "label": "Ernest Rutherford",
+          "date": "1911", "loc": "University of Manchester, Manchester, England", "coords": [53.47, -2.23],
+          "links": ["st4", "st7", "fg6", "fg12", "me1"],
+          "hint": "Rutherford discovered the nuclear atom (1911), demonstrated radioactive transmutation of elements (with Soddy, 1902), and first split the atom artificially by bombarding nitrogen with alpha particles (1917). His Cavendish Laboratory as director produced more Nobel laureates in physics than any other institution in the early 20th century.",
+          "tag": "FIGURE",
+          "note": "Nobel Prize in Chemistry 1908. Key papers: Rutherford & Soddy (1902) Philosophical Magazine, 4, 370; Geiger & Marsden (1909) Proceedings of the Royal Society A, 82, 495; Rutherford (1911) Philosophical Magazine, 21, 669. Rutherford famously told a reporter: 'All science is either physics or stamp collecting.' Students and associates who won Nobel Prizes include Bohr, Chadwick, Cockcroft, Walton, Blackett, and Kapitza."
+        },
+        {
+          "id": "fg8", "group": "Pioneers & Theorists",
+          "label": "Richard Feynman",
+          "date": "1948", "loc": "Cornell University, Ithaca, New York", "coords": [42.44, -76.49],
+          "links": ["th6", "me6", "ef3", "fg9", "th8"],
+          "hint": "Feynman developed the path-integral formulation of quantum mechanics, a key renormalisation procedure for QED, and the Feynman diagram notation — becoming physics' most effective communicator in the process. His Lectures on Physics (1964) remain the canonical physics education text; his 1986 diagnosis of the Challenger O-ring failure exemplified the same physical intuition.",
+          "tag": "FIGURE",
+          "note": "Nobel Prize in Physics 1965 (shared with Schwinger and Tomonaga). Key papers: Feynman, R. P. (1948). Physical Review, 74, 939 (path integral); (1949) Physical Review, 76, 769 (QED). The Feynman Lectures on Physics (Feynman, Leighton & Sands, 1964, Addison-Wesley) have sold over 1.5 million copies and are available freely online. Feynman's bongo drumming and his bongo drum story, along with the O-ring demonstration, remain cultural touchstones of scientific communication."
+        },
+        {
+          "id": "fg9", "group": "Pioneers & Theorists",
+          "label": "Paul Dirac",
+          "date": "1928", "loc": "University of Cambridge, Cambridge, England", "coords": [52.21, 0.12],
+          "links": ["th6", "co5", "fg8", "th8"],
+          "hint": "Dirac unified Special Relativity with quantum mechanics in the Dirac equation (1928), predicting that the electron has an antiparticle before it was discovered. He developed the foundations of quantum field theory, invented the bra-ket notation, and is widely regarded as the most mathematically precise physicist of the 20th century — combining abstract beauty with physical reality.",
+          "tag": "FIGURE",
+          "note": "Nobel Prize in Physics 1933 (shared with Schrödinger). Key papers: Dirac, P. A. M. (1928). Proceedings of the Royal Society A, 117, 610 (relativistic electron equation); (1931) Proceedings of the Royal Society A, 133, 60 (magnetic monopole and positron prediction). Dirac was notoriously taciturn; the 'Dirac' (a unit of one word per hour) was reportedly coined by Bohr. His Principles of Quantum Mechanics (1930, Oxford) remains a foundational text."
+        },
+        {
+          "id": "fg10", "group": "Pioneers & Theorists",
+          "label": "Enrico Fermi",
+          "date": "1942", "loc": "University of Chicago, Chicago, Illinois", "coords": [41.79, -87.60],
+          "links": ["st8", "ap1", "db7"],
+          "hint": "Fermi developed the quantum statistical mechanics of fermions (Fermi-Dirac statistics, 1926), the first quantitative theory of beta decay (1934), and built the first nuclear reactor (Chicago Pile-1, 1942). He was equally brilliant as theorist and experimentalist — a combination so rare that his colleagues called it 'the Fermi touch'.",
+          "tag": "FIGURE",
+          "note": "Nobel Prize in Physics 1938 (for neutron bombardment experiments in Rome). Key papers: Fermi, E. (1934). 'Versuch einer Theorie der β-Strahlen.' Zeitschrift für Physik, 88, 161–177 (beta decay). Chicago Pile-1 first chain reaction: 2 December 1942. Fermi fled Fascist Italy in 1938, going directly from the Nobel ceremony in Stockholm to the United States. The Fermi paradox ('Where is everybody?') was coined at a Los Alamos lunch discussion in 1950."
+        },
+        {
+          "id": "fg11", "group": "Pioneers & Theorists",
+          "label": "Lise Meitner",
+          "date": "1939", "loc": "Nobel Institute, Stockholm, Sweden", "coords": [59.33, 18.07],
+          "links": ["st8", "ef5", "ef9", "db7"],
+          "hint": "Meitner co-led the Berlin nuclear physics programme with Otto Hahn for 30 years, co-discovered protactinium, and provided the theoretical explanation of nuclear fission using the liquid-drop model and E=mc² after fleeing Nazi Germany to Sweden in 1938. Her exclusion from the 1944 Nobel Prize is widely regarded as the most unjust omission in Nobel history.",
+          "tag": "FIGURE",
+          "note": "Key paper: Meitner, L. & Frisch, O. R. (1939). 'Disintegration of Uranium by Neutrons: a New Type of Nuclear Reaction.' Nature, 143, 239–240. Meitner was nominated 48 times for the Nobel Prize and never awarded it. She refused to participate in the Manhattan Project, reportedly saying 'I will have nothing to do with a bomb.' Element 109, Meitnerium (Mt), was named in her honour in 1997. Ruth Lewin Sime (1996). Lise Meitner: A Life in Physics. University of California Press."
+        },
+        {
+          "id": "fg12", "group": "Pioneers & Theorists",
+          "label": "James Chadwick",
+          "date": "1932", "loc": "Cavendish Laboratory, Cambridge, England", "coords": [52.21, 0.12],
+          "links": ["st7", "fg7", "ef4", "me1"],
+          "hint": "Chadwick's discovery of the neutron in 1932 completed the proton-neutron model of the nucleus and provided the neutral projectile that made nuclear fission possible. He later led the British contingent of the Manhattan Project at Los Alamos, reportedly the only person Oppenheimer trusted to adjudicate technical disputes between American and British scientists.",
+          "tag": "FIGURE",
+          "note": "Nobel Prize in Physics 1935. Key papers: Chadwick, J. (1932). Nature, 129, 312; (1932). Proceedings of the Royal Society A, 136, 692. Chadwick was interned in Germany during World War I (as a student in Geiger's lab when war broke out) and witnessed his mentor Rutherford's death in 1937. His role in the Manhattan Project is documented in Brown, A. (1997). The Neutron and the Bomb. Oxford University Press."
+        }
+      ]
     },
     {
-      "id": "th7",
-      "cat": "theory",
-      "group": "Nuclear Physics",
-      "label": "Nuclear Shell Model",
-      "year": 1949,
-      "loc": "University of Chicago, USA",
-      "fig": "fg10",
-      "hint": "Goeppert Mayer and Jensen showed nuclear protons and neutrons occupy discrete energy shells analogous to atomic electrons — magic numbers (2, 8, 20, 28, 50, 82, 126) mark exceptionally stable nuclei.",
-      "links": ["ef4", "ef5", "co4", "st7"]
+      "id": "debate",
+      "label": "Debates & Open Questions",
+      "icon": "⚖️",
+      "color": "#6E2C00", "accent": "#CA6F1E", "bg": "#FDF5EC",
+      "subtitle": "Live controversies — where the field is actively contesting the evidence",
+      "entries": [
+        {
+          "id": "db1", "group": "Wave Mechanics & Uncertainty",
+          "label": "Copenhagen vs Hidden Variables",
+          "date": "1927", "loc": "Solvay Conference, Brussels, Belgium", "coords": [50.85, 4.35],
+          "links": ["th5", "fg2", "fg3", "fg4", "co3", "db2", "db5", "st11", "ef8"],
+          "hint": "The Bohr-Einstein debates set the terms: is the wavefunction a complete description of reality (Copenhagen), or does it mask deeper deterministic hidden variables (Einstein, Bell, de Broglie)? Bell's theorem (1964) and subsequent experiments ruled out local hidden variables. Non-local hidden-variable theories (de Broglie-Bohm pilot waves) remain viable but have found no experimental signature beyond standard QM.",
+          "tag": "DEBATE",
+          "note": "The debates are documented in Bohr, N. (1949). In P. A. Schilpp (Ed.) Albert Einstein: Philosopher-Scientist. Library of Living Philosophers. Bell, J. S. (1964). Physics, 1, 195–200. De Broglie-Bohm pilot wave: Bohm, D. (1952). Physical Review, 85, 166–179 & 180–193 — a working deterministic hidden-variable theory, fully nonlocal. Review: Goldstein, S. (2021). 'Bohmian Mechanics.' Stanford Encyclopedia of Philosophy. Loophole-free experiments (2015) rule out local hidden variables but not Bohmian mechanics."
+        },
+        {
+          "id": "db2", "group": "Wave Mechanics & Uncertainty",
+          "label": "Many-Worlds Interpretation",
+          "date": "1957", "loc": "Princeton University, Princeton, New Jersey", "coords": [40.34, -74.65],
+          "links": ["th5", "co3", "db1", "db5", "fg5", "ef8", "st11"],
+          "hint": "Everett proposed that the wavefunction never collapses — instead, every measurement outcome occurs in a branching universal wavefunction, and observers find themselves in definite branches by virtue of decoherence. The interpretation avoids the measurement problem but requires an unimaginably large ontology, and deriving the Born probability rule from branching structure alone is mathematically contested.",
+          "tag": "DEBATE",
+          "note": "Everett, H. (1957). '"Relative State" Formulation of Quantum Mechanics.' Reviews of Modern Physics, 29, 454–462. Popularised by DeWitt, B. S. (1970) Physics Today. Deutsch, D. (1999). Proceedings of the Royal Society A, 455, 3129 — decision-theoretic derivation of the Born rule; contested by Albert (2010) and others. Carroll, S. (2019). Something Deeply Hidden. Dutton — modern defence. The 'quantum suicide' argument and 'quantum immortality' are popular philosophical extrapolations not endorsed by most physicists."
+        },
+        {
+          "id": "db3", "group": "Cosmological Frontiers",
+          "label": "Quantum Gravity: String Theory vs Loop QG",
+          "date": "1984", "loc": "University of Cambridge, Cambridge, England", "coords": [52.21, 0.12],
+          "links": ["th2", "th8", "th10", "db4", "th9", "db6"],
+          "hint": "General Relativity and quantum mechanics are individually the most successful physical theories ever devised, but they are mutually incompatible at the Planck scale. String theory unifies all forces in extra dimensions; loop quantum gravity quantises spacetime itself into discrete chunks. Neither has produced an experimentally testable prediction accessible to current technology.",
+          "tag": "DEBATE",
+          "note": "Superstring revolution: Green, M. B. & Schwarz, J. H. (1984). Physics Letters B, 149, 117–122; Witten, E. (1995) announced M-theory unifying five string theories. Loop quantum gravity: Rovelli, C. & Smolin, L. (1988). Nuclear Physics B, 331, 80–152. Penrose, R. (2004). The Road to Reality. Jonathan Cape — critical survey of both programmes. Both approaches predict different phenomena near the Planck scale (10⁻³⁵ m, 10¹⁹ GeV) — currently ~15 orders of magnitude beyond LHC energies."
+        },
+        {
+          "id": "db4", "group": "Cosmological Frontiers",
+          "label": "Black Hole Information Paradox",
+          "date": "1974", "loc": "University of Cambridge, Cambridge, England", "coords": [52.21, 0.12],
+          "links": ["th2", "st12", "db3", "db6"],
+          "hint": "Hawking showed black holes radiate thermally and eventually evaporate — but thermal radiation is featureless and carries no information about what fell in. If information is truly lost, quantum mechanical unitarity is violated. String theory suggests information is preserved on the horizon; recent holographic calculations suggest it is encoded in late-time Hawking radiation.",
+          "tag": "DEBATE",
+          "note": "Hawking, S. W. (1975). 'Particle Creation by Black Holes.' Communications in Mathematical Physics, 43, 199–220. Hawking temperature: T = ℏc³/(8πGMkB). Firewall argument: Almheiri, A., Marolf, D., Polchinski, J. & Sully, J. (2013). JHEP, 2013, 62. Island formula (holographic resolution): Penington, G. (2020). JHEP, 2020, 2; Almheiri, A. et al. (2020). JHEP, 2020, 13. Hawking recanted information loss at the 2004 Dublin GR conference but the consensus resolution remains unsettled."
+        },
+        {
+          "id": "db5", "group": "Wave Mechanics & Uncertainty",
+          "label": "The Measurement Problem / Schrödinger's Cat",
+          "date": "1935", "loc": "University of Oxford, Oxford, England", "coords": [51.76, -1.26],
+          "links": ["co3", "th5", "fg5", "db1", "db2"],
+          "hint": "Quantum mechanics predicts that macroscopic systems can be in superpositions of distinct outcomes — Schrödinger's cat is both alive and dead until observed. The measurement problem asks what physical process singles out one outcome, and whether there is an objective physical collapse or merely the appearance of one. Decoherence explains why superpositions are unobservable in practice but does not select a single outcome.",
+          "tag": "DEBATE",
+          "note": "Schrödinger, E. (1935). 'Die gegenwärtige Situation in der Quantenmechanik.' Naturwissenschaften, 23, 807–812. Objective collapse: Ghirardi, G. C., Rimini, A. & Weber, T. (1986). Physical Review D, 34, 470 (GRW theory). Decoherence: Zeh, H. D. (1970). Foundations of Physics, 1, 69; Zurek, W. H. (1981) Physical Review D, 24, 1516. Review: Schlosshauer, M. (2005). Reviews of Modern Physics, 76, 1267. Decoherence solves the practical measurement problem (macroscopic outcomes appear definite) but does not solve the conceptual problem (why this outcome rather than that)."
+        },
+        {
+          "id": "db6", "group": "Cosmological Frontiers",
+          "label": "Dark Matter & Dark Energy",
+          "date": "1998", "loc": "Lawrence Berkeley National Laboratory, Berkeley, California", "coords": [37.88, -122.25],
+          "links": ["th9", "ef7", "db3", "db4"],
+          "hint": "Rotation curves, gravitational lensing and CMB anisotropies all require ~27% of the universe's energy to be dark matter — non-luminous, non-baryonic, and undetected by any particle physics experiment. The 1998 supernova measurements found the universe's expansion is accelerating, implying ~68% dark energy. No particle candidate for dark matter has been directly detected despite decades of searches.",
+          "tag": "DEBATE",
+          "note": "Dark energy: Perlmutter, S. et al. (1999). 'Measurements of Ω and Λ from 42 High-Redshift Supernovae.' Astrophysical Journal, 517, 565–586. Riess, A. G. et al. (1998). Astronomical Journal, 116, 1009. Nobel Prize 2011 (Perlmutter, Riess, Schmidt). Dark matter rotation curves: Rubin, V. C. & Ford, W. K. (1970). Astrophysical Journal, 159, 379. LUX-ZEPLIN (2022): no WIMP signal to 9.2 × 10⁻⁴⁸ cm² for 40 GeV. Alternative: MOND (Milgrom 1983) accounts for rotation curves without dark matter but struggles with cluster-scale observations."
+        },
+        {
+          "id": "db7", "group": "Nuclear Physics",
+          "label": "Manhattan Project & Nuclear Ethics",
+          "date": "1945", "loc": "Trinity Test Site, New Mexico", "coords": [33.68, -106.48],
+          "links": ["ap1", "co4", "st8", "fg10", "fg11", "ef9"],
+          "hint": "The development and use of atomic bombs on Hiroshima and Nagasaki (August 1945, killing ~200,000 people) raised questions that persist: when is it ethical for scientists to build weapons of mass destruction? Meitner refused to participate; Szilard circulated a petition against use on cities; Oppenheimer later lobbied against thermonuclear development, leading to the loss of his security clearance.",
+          "tag": "DEBATE",
+          "note": "Szilard, L. et al. (1945). 'Petition to the President of the United States.' Declassified 1961. Oppenheimer security hearing: In the Matter of J. Robert Oppenheimer (1954). Oppenheimer's rehabilitation: the U.S. Department of Energy rescinded the 1954 decision in 2022. Meitner's refusal documented in Sime (1996). The Non-Proliferation Treaty (1968) and subsequent arms-control frameworks are the institutional legacy; nine states currently hold nuclear weapons. The Bulletin of the Atomic Scientists' Doomsday Clock has stood at 90 seconds to midnight since 2023."
+        },
+        {
+          "id": "db8", "group": "Particle Physics & QFT",
+          "label": "Beyond the Standard Model",
+          "date": "1984", "loc": "CERN, Geneva, Switzerland", "coords": [46.23, 6.05],
+          "links": ["th8", "th10", "co5", "db3", "me3", "st9"],
+          "hint": "The Standard Model cannot account for gravity, dark matter, the matter-antimatter asymmetry, or neutrino masses. Supersymmetry predicted superpartner particles accessible at LHC energies; none have been found. The Fermilab muon g-2 measurement (2021–2023) shows a ~5σ discrepancy from Standard Model predictions — the strongest current hint of new physics, though the theoretical value is disputed.",
+          "tag": "DEBATE",
+          "note": "LHC null results for supersymmetry: ATLAS Collaboration (2018); CMS Collaboration (2018) — no superpartners found up to ~2 TeV. Muon g-2: Abi, B. et al. (Muon g-2 Collaboration) (2021). Physical Review Letters, 126, 141801 (4.2σ); updated to 5.1σ combining with earlier BNL result (2023). Hierarchy problem: the Higgs mass (125 GeV) requires fine-tuning of 34 orders of magnitude against quantum corrections unless new physics intervenes below ~1 TeV. The problem is unsolved."
+        }
+      ]
     },
     {
-      "id": "th8",
-      "cat": "theory",
-      "group": "Particle Physics & QFT",
-      "label": "The Standard Model",
-      "year": 1967,
-      "loc": "Multiple institutions, USA & Europe",
-      "hint": "The unified description of quarks, leptons, and the electromagnetic, weak, and strong forces via gauge symmetry — completed between 1967 and 1973, it accounts for virtually all particle physics observed at accelerators.",
-      "links": ["th6", "th10", "st9", "fg8", "fg9", "db8", "co5", "me3"]
-    },
-    {
-      "id": "th9",
-      "cat": "theory",
-      "group": "Cosmological Frontiers",
-      "label": "Big Bang Cosmology",
-      "year": 1948,
-      "loc": "George Washington University, USA",
-      "hint": "Gamow, Alpher, and Herman proposed that the universe began in an extremely hot, dense state and expanded — predicting the cosmic microwave background and primordial nucleosynthesis ratios, both subsequently confirmed.",
-      "links": ["ef7", "db6", "th2", "db3"]
-    },
-    {
-      "id": "th10",
-      "cat": "theory",
-      "group": "Particle Physics & QFT",
-      "label": "Quantum Chromodynamics (QCD)",
-      "year": 1973,
-      "loc": "Princeton University, USA",
-      "hint": "The gauge theory of the strong force: quarks carry colour charge and interact by exchanging gluons — asymptotic freedom (Gross, Politzer, Wilczek) means quarks behave as free particles at high energies but are permanently confined at low energies.",
-      "links": ["th8", "th6", "db8", "me3"]
+      "id": "application",
+      "label": "Applications",
+      "icon": "🔗",
+      "color": "#1A5276", "accent": "#2E86C1", "bg": "#EBF5FB",
+      "subtitle": "Where the science leaves the lab",
+      "entries": [
+        {
+          "id": "ap1", "group": "Nuclear Physics",
+          "label": "Nuclear Power Reactors",
+          "date": "1942", "loc": "University of Chicago, Chicago, Illinois", "coords": [41.79, -87.60],
+          "links": ["st8", "fg10", "co4", "ef5", "ef9", "db7"],
+          "hint": "Chicago Pile-1, built under Fermi's direction beneath a squash court, achieved the first controlled fission chain reaction in December 1942. Modern power reactors use controlled neutron moderation to sustain fission of U-235 or Pu-239, converting the heat to electricity. Nuclear power generates ~10% of global electricity with negligible greenhouse gas emissions but produces long-lived radioactive waste.",
+          "tag": "APPLICATION",
+          "note": "Fermi, E. et al. (1942). Chicago Pile-1 first chain reaction, 2 December 1942. First commercial power reactor: Calder Hall, UK, 1956. As of 2024, ~440 nuclear reactors operate worldwide. Safety incidents: Three Mile Island (1979, no deaths), Chernobyl (1986, 31 direct deaths, long-term cancer burden disputed), Fukushima (2011, 1 radiation death). Next generation: small modular reactors (SMRs) and Generation IV designs aim for inherent safety and reduced waste volume."
+        },
+        {
+          "id": "ap2", "group": "Wave Mechanics & Uncertainty",
+          "label": "Magnetic Resonance Imaging (MRI)",
+          "date": "1973", "loc": "State University of New York, Stony Brook, New York", "coords": [40.92, -73.12],
+          "links": ["me4", "co7", "co3"],
+          "hint": "Lauterbur showed that adding a gradient magnetic field to NMR allows spatial reconstruction of the resonance signal, creating cross-sectional images of soft tissue without ionising radiation. MRI transformed diagnostic medicine by providing high-contrast anatomical images of the brain, joints and organs — and functional MRI now maps neural activity in real time.",
+          "tag": "APPLICATION",
+          "note": "Lauterbur, P. C. (1973). 'Image Formation by Induced Local Interactions.' Nature, 242, 190–191. Mansfield, P. & Grannell, P. K. (1973) Journal of Physics C independently showed k-space sampling. Nobel Prize in Physiology or Medicine 2003 (Lauterbur & Mansfield). ~100 million MRI scans performed annually worldwide. Functional MRI (fMRI): Ogawa, S. et al. (1990). Proceedings of the National Academy of Sciences, 87, 9868 — BOLD signal (blood-oxygenation-level-dependent) reflects neural activity through neurovascular coupling."
+        },
+        {
+          "id": "ap3", "group": "Quantum Origins",
+          "label": "Lasers",
+          "date": "1960", "loc": "Hughes Research Laboratories, Malibu, California", "coords": [34.02, -118.47],
+          "links": ["fg2", "co7"],
+          "hint": "Maiman's ruby laser exploited stimulated emission — Einstein's 1917 prediction that a photon can trigger an excited atom to emit an identical photon in phase and direction — to produce coherent, monochromatic, collimated light. Lasers now span 25 orders of magnitude in power and underpin fibre-optic communications, surgical tools, manufacturing, gravitational-wave detection, and semiconductor lithography.",
+          "tag": "APPLICATION",
+          "note": "Maiman, T. H. (1960). 'Stimulated Optical Radiation in Ruby.' Nature, 187, 493–494. Theoretical basis: Einstein, A. (1917). Physikalische Zeitschrift, 18, 121 (stimulated emission). Laser acronym coined by Gordon Gould (1957), whose patent claim was disputed for 28 years. LIGO uses 200 W continuous-wave Nd:YAG lasers; EUV lasers at 13.5 nm enable 3 nm lithography (ASML NXE:3400). Ultra-short pulse lasers (Nobel 2018, CPA technique) achieve 10²³ W/cm² intensities in the lab."
+        },
+        {
+          "id": "ap4", "group": "Wave Mechanics & Uncertainty",
+          "label": "Semiconductors & Transistors",
+          "date": "1947", "loc": "Bell Telephone Laboratories, Murray Hill, New Jersey", "coords": [40.72, -74.18],
+          "links": ["th4", "co7", "ef1"],
+          "hint": "Shockley, Bardeen, and Brattain's transistor exploited quantum mechanical band theory — electrons in semiconductors occupy discrete energy bands, doping creates controllable charge carriers, and the junction controls current by quantum tunnelling and barrier modulation. The transistor made digital computing possible; modern chips contain billions on a fingernail-sized die.",
+          "tag": "APPLICATION",
+          "note": "Bardeen, J. & Brattain, W. H. (1948). 'The Transistor, A Semi-Conductor Triode.' Physical Review, 74, 230–231. Nobel Prize 1956 (Bardeen, Brattain, Shockley). The MOSFET (Kahng & Atalla 1960, Bell Labs) became the dominant transistor type. Moore, G. E. (1965). Electronics, 38, 114 predicted transistor density would double every ~2 years — this held for ~60 years. TSMC N2 (2025): ~2 billion transistors/mm². Quantum tunnelling through thin gate oxides is now a limiting factor at sub-2 nm gate lengths."
+        },
+        {
+          "id": "ap5", "group": "Nuclear Physics",
+          "label": "Nuclear Medicine: PET, SPECT & Radiotherapy",
+          "date": "1975", "loc": "Washington University, St Louis, Missouri", "coords": [38.65, -90.31],
+          "links": ["ef4", "fg6", "me5", "co4", "me2"],
+          "hint": "PET scanners detect the back-to-back 511 keV gamma rays from positron annihilation to image metabolic activity with millimetre resolution; SPECT uses gamma-emitting isotopes for functional organ imaging; radiotherapy delivers targeted ionising radiation to destroy tumours. All depend on controlled production of specific radionuclides in cyclotrons and reactors.",
+          "tag": "APPLICATION",
+          "note": "First PET scanner: Ter-Pogossian, M. M. et al. (1975). Radiology, 114, 89–98 (Washington University). Radiotherapy history: Röntgen discovered X-rays in 1895; radiation therapy began in 1896 (Grubbe). ~1.5 million cancer patients receive radiotherapy annually worldwide. PET-CT is the standard staging tool for most solid tumours. Proton therapy (Bragg peak targeting) delivers dose more precisely than photons; ~100 proton therapy centres operate globally as of 2024."
+        },
+        {
+          "id": "ap6", "group": "Relativity & Spacetime",
+          "label": "GPS & Relativistic Corrections",
+          "date": "1978", "loc": "Department of Defense, Washington, D.C.", "coords": [38.87, -77.06],
+          "links": ["th1", "th2", "ef6", "co6"],
+          "hint": "GPS satellites carry atomic clocks whose ticking rate is affected by both Special Relativity (velocity slows their clocks by 7 μs/day) and General Relativity (weaker gravity speeds their clocks by 45 μs/day). The net +38 μs/day correction is applied continuously; without it, GPS position errors would accumulate at ~10 km/day, making the system useless within hours.",
+          "tag": "APPLICATION",
+          "note": "Relativistic corrections first calculated: Ashby, N. & Allan, D. W. (1979). Radio Science, 14, 649–669. Verified by GPS Block I satellite experiment (van Flandern, T. C. & Pulkkinen, K. F. 1985, Astrophysical Journal Supplement, 57, 279). Full treatment: Ashby, N. (2003). 'Relativity in the Global Positioning System.' Living Reviews in Relativity, 6, 1. The same corrections apply to Galileo (EU), GLONASS (Russia) and BeiDou (China). Relativistic corrections are also required for atomic clock comparisons used in international timekeeping (TAI)."
+        }
+      ]
     }
   ],
 
-  "study": [
+  "timeline": [
     {
-      "id": "st1",
-      "cat": "study",
-      "group": "Relativity & Spacetime",
-      "label": "Michelson-Morley Experiment",
-      "year": 1887,
-      "loc": "Case School of Applied Science, Cleveland, USA",
-      "fig": "fg2",
-      "repl": "robust",
-      "hint": "The null result — light's speed is the same in all directions regardless of Earth's motion through the supposed luminiferous aether — removed the last classical support for absolute space and directly motivated Special Relativity.",
-      "links": ["th1", "fg2", "ef9"]
+      "id": "study", "icon": "🧪", "accent": "#7D3C98", "label": "Landmark Studies",
+      "events": [
+        { "y": 1887, "l": "Michelson-Morley: null aether result", "entryId": "st1" },
+        { "y": 1900, "l": "Planck: blackbody quanta", "entryId": "st2" },
+        { "y": 1905, "l": "Einstein: photoelectric effect", "entryId": "st3" },
+        { "y": 1911, "l": "Rutherford: nuclear atom", "entryId": "st4" },
+        { "y": 1913, "l": "Bohr: hydrogen model", "entryId": "st5" },
+        { "y": 1927, "l": "Davisson-Germer: electron diffraction", "entryId": "st6" },
+        { "y": 1932, "l": "Chadwick: neutron discovered", "entryId": "st7" },
+        { "y": 1938, "l": "Hahn & Strassmann: nuclear fission", "entryId": "st8" },
+        { "y": 1957, "l": "Wu: parity violation in beta decay", "entryId": "st9" },
+        { "y": 1959, "l": "Pound-Rebka: gravitational redshift", "entryId": "st10" },
+        { "y": 1982, "l": "Aspect: Bell inequality violated", "entryId": "st11" },
+        { "y": 2015, "l": "LIGO: gravitational waves detected", "entryId": "st12" }
+      ]
     },
     {
-      "id": "st2",
-      "cat": "study",
-      "group": "Quantum Origins",
-      "label": "Planck's Blackbody Law",
-      "year": 1900,
-      "loc": "Berlin, Germany",
-      "fig": "fg1",
-      "repl": "robust",
-      "hint": "To fit the observed spectrum of thermal radiation Planck proposed energy is emitted in discrete packets (quanta) of size hν — a mathematical fix he initially regarded as unphysical that became the founding act of quantum theory.",
-      "links": ["fg1", "co7", "st3"]
+      "id": "theory", "icon": "📐", "accent": "#2471A3", "label": "Theories & Models",
+      "events": [
+        { "y": 1905, "l": "Einstein: Special Relativity", "entryId": "th1" },
+        { "y": 1915, "l": "Einstein: General Relativity", "entryId": "th2" },
+        { "y": 1925, "l": "Heisenberg: matrix mechanics", "entryId": "th3" },
+        { "y": 1926, "l": "Schrödinger: wave mechanics", "entryId": "th4" },
+        { "y": 1927, "l": "Bohr & Heisenberg: Copenhagen interpretation", "entryId": "th5" },
+        { "y": 1948, "l": "Gamow: Big Bang nucleosynthesis", "entryId": "th9" },
+        { "y": 1948, "l": "Feynman, Schwinger, Tomonaga: QED", "entryId": "th6" },
+        { "y": 1949, "l": "Goeppert Mayer: nuclear shell model", "entryId": "th7" },
+        { "y": 1967, "l": "Weinberg: Standard Model electroweak", "entryId": "th8" },
+        { "y": 1973, "l": "Gross, Politzer, Wilczek: QCD", "entryId": "th10" }
+      ]
     },
     {
-      "id": "st3",
-      "cat": "study",
-      "group": "Quantum Origins",
-      "label": "Einstein's Photoelectric Effect",
-      "year": 1905,
-      "loc": "Bern Patent Office, Switzerland",
-      "fig": "fg2",
-      "repl": "robust",
-      "hint": "Einstein explained why light ejects electrons from metal only above a threshold frequency — not intensity — by positing that light consists of discrete photons of energy hν, the work that won him the Nobel Prize.",
-      "links": ["fg2", "co1", "co7", "st2", "ef2", "st5"]
+      "id": "effect", "icon": "📊", "accent": "#117A65", "label": "Effects & Phenomena",
+      "events": [
+        { "y": 1902, "l": "Rutherford & Soddy: radioactive decay law", "entryId": "ef4" },
+        { "y": 1905, "l": "Einstein: E=mc²", "entryId": "ef9" },
+        { "y": 1919, "l": "Eddington: gravitational lensing", "entryId": "ef7" },
+        { "y": 1923, "l": "Compton: photon momentum confirmed", "entryId": "ef2" },
+        { "y": 1928, "l": "Gamow: quantum tunnelling", "entryId": "ef1" },
+        { "y": 1935, "l": "Bethe-Weizsäcker: nuclear binding curve", "entryId": "ef5" },
+        { "y": 1947, "l": "Lamb & Retherford: Lamb shift", "entryId": "ef3" },
+        { "y": 1959, "l": "Pound-Rebka: gravitational time dilation", "entryId": "ef6" },
+        { "y": 1982, "l": "Aspect: Bell inequality violation", "entryId": "ef8" }
+      ]
     },
     {
-      "id": "st4",
-      "cat": "study",
-      "group": "Nuclear Physics",
-      "label": "Rutherford Scattering",
-      "year": 1911,
-      "loc": "University of Manchester, UK",
-      "fig": "fg7",
-      "repl": "robust",
-      "hint": "Alpha particles fired at gold foil were occasionally deflected back — Rutherford concluded the atom has a tiny, massive, positively charged nucleus, overthrowing Thomson's plum-pudding model.",
-      "links": ["fg7", "fg12", "co7", "st5", "st7", "st4"]
+      "id": "method", "icon": "🔬", "accent": "#8B5E00", "label": "Methods",
+      "events": [
+        { "y": 1859, "l": "Kirchhoff & Bunsen: spectroscopy", "entryId": "me2" },
+        { "y": 1911, "l": "Wilson: cloud chamber", "entryId": "me1" },
+        { "y": 1932, "l": "Lawrence: cyclotron accelerator", "entryId": "me3" },
+        { "y": 1945, "l": "Purcell & Bloch: NMR", "entryId": "me4" },
+        { "y": 1948, "l": "Feynman: Feynman diagrams", "entryId": "me6" },
+        { "y": 1949, "l": "Libby: radiocarbon dating", "entryId": "me5" }
+      ]
     },
     {
-      "id": "st5",
-      "cat": "study",
-      "group": "Quantum Origins",
-      "label": "Bohr Hydrogen Model",
-      "year": 1913,
-      "loc": "University of Copenhagen, Denmark",
-      "fig": "fg3",
-      "repl": "robust",
-      "hint": "Bohr quantised the electron's orbital angular momentum to explain hydrogen's discrete emission lines — a hybrid of classical orbits and quantum rules that was superseded by wave mechanics but established quantisation as physical fact.",
-      "links": ["fg3", "co7", "me2", "st4", "co1"]
+      "id": "debate", "icon": "⚖️", "accent": "#CA6F1E", "label": "Debates & Revisions",
+      "events": [
+        { "y": 1927, "l": "Solvay: Copenhagen vs hidden variables", "entryId": "db1" },
+        { "y": 1935, "l": "Schrödinger's cat: measurement problem", "entryId": "db5" },
+        { "y": 1945, "l": "Trinity test: nuclear ethics", "entryId": "db7" },
+        { "y": 1957, "l": "Everett: many-worlds interpretation", "entryId": "db2" },
+        { "y": 1974, "l": "Hawking: black hole information paradox", "entryId": "db4" },
+        { "y": 1984, "l": "String theory vs loop quantum gravity", "entryId": "db3" },
+        { "y": 1984, "l": "Beyond the Standard Model debate", "entryId": "db8" },
+        { "y": 1998, "l": "Dark energy & dark matter crisis", "entryId": "db6" }
+      ]
     },
     {
-      "id": "st6",
-      "cat": "study",
-      "group": "Wave Mechanics & Uncertainty",
-      "label": "Davisson-Germer Electron Diffraction",
-      "year": 1927,
-      "loc": "Bell Telephone Laboratories, New York, USA",
-      "repl": "robust",
-      "hint": "Slow electrons scattered from a nickel crystal produced diffraction rings identical to X-rays — the first direct experimental confirmation that de Broglie's matter waves are real and that particles exhibit wave interference.",
-      "links": ["co1", "th4", "ef1"]
-    },
-    {
-      "id": "st7",
-      "cat": "study",
-      "group": "Nuclear Physics",
-      "label": "Chadwick's Neutron Discovery",
-      "year": 1932,
-      "loc": "Cavendish Laboratory, Cambridge, UK",
-      "fig": "fg12",
-      "repl": "robust",
-      "hint": "Chadwick identified a penetrating neutral radiation from beryllium as a new particle — the neutron — completing the proton-neutron model of the nucleus and opening the path to nuclear fission.",
-      "links": ["fg12", "fg7", "ef4", "co4", "st4", "th7", "st8"]
-    },
-    {
-      "id": "st8",
-      "cat": "study",
-      "group": "Nuclear Physics",
-      "label": "Hahn & Strassmann Nuclear Fission",
-      "year": 1938,
-      "loc": "Kaiser Wilhelm Institute, Berlin, Germany",
-      "fig": "fg10",
-      "repl": "robust",
-      "hint": "Bombarding uranium with neutrons produced barium — Meitner and Frisch realised the nucleus had split, releasing energy consistent with E=mc²; the discovery that would lead directly to both nuclear power and atomic weapons.",
-      "links": ["fg11", "fg10", "co4", "ef5", "ap1", "db7", "st7", "ef9"]
-    },
-    {
-      "id": "st9",
-      "cat": "study",
-      "group": "Particle Physics & QFT",
-      "label": "Wu Parity Violation",
-      "year": 1957,
-      "loc": "Columbia University & NBS, USA",
-      "repl": "robust",
-      "hint": "Chien-Shiung Wu showed beta decay from cobalt-60 emits electrons preferentially opposite the nuclear spin — proving the weak force violates mirror symmetry (parity), overturning a cherished conservation law.",
-      "links": ["db8", "th8", "me3", "me1"]
-    },
-    {
-      "id": "st10",
-      "cat": "study",
-      "group": "Relativity & Spacetime",
-      "label": "Pound-Rebka Gravitational Redshift",
-      "year": 1959,
-      "loc": "Jefferson Laboratory, Harvard University, USA",
-      "repl": "robust",
-      "hint": "Using the Mössbauer effect, Pound and Rebka detected the tiny frequency shift of gamma rays climbing 22.6 m against Earth's gravity — the first precise laboratory test of General Relativity's gravitational time dilation.",
-      "links": ["th2", "ef6", "co6"]
-    },
-    {
-      "id": "st11",
-      "cat": "study",
-      "group": "Wave Mechanics & Uncertainty",
-      "label": "Aspect Bell Test",
-      "year": 1982,
-      "loc": "Institut d'Optique, Orsay, France",
-      "repl": "robust",
-      "hint": "Alain Aspect's photon-pair experiments closed major loopholes in earlier Bell tests, showing correlations too strong for any local hidden-variable theory — quantum entanglement is nonlocal in a sense incompatible with classical realism.",
-      "links": ["co3", "db1", "db2", "ef8"]
-    },
-    {
-      "id": "st12",
-      "cat": "study",
-      "group": "Cosmological Frontiers",
-      "label": "LIGO Gravitational Wave Detection",
-      "year": 2015,
-      "loc": "Hanford, WA & Livingston, LA, USA",
-      "repl": "robust",
-      "hint": "LIGO detected a chirp signal lasting 0.2 seconds from two merging black holes 1.3 billion light-years away — the first direct observation of gravitational waves, confirming a key prediction of General Relativity made a century earlier.",
-      "links": ["th2", "co6", "ef7", "db4"]
-    }
-  ],
-
-  "effect": [
-    {
-      "id": "ef1",
-      "cat": "effect",
-      "group": "Wave Mechanics & Uncertainty",
-      "label": "Quantum Tunnelling",
-      "year": 1928,
-      "loc": "Göttingen, Germany",
-      "fig": "fg5",
-      "repl": "robust",
-      "hint": "A quantum particle can penetrate a potential energy barrier it classically lacks the energy to cross — because the wavefunction is nonzero inside the barrier. Gamow used this to explain alpha decay; it underlies nuclear fusion in stars and the tunnel diode.",
-      "links": ["th4", "co2", "ef5", "ap4", "st6"]
-    },
-    {
-      "id": "ef2",
-      "cat": "effect",
-      "group": "Quantum Origins",
-      "label": "Compton Scattering",
-      "year": 1923,
-      "loc": "Washington University, St Louis, USA",
-      "repl": "robust",
-      "hint": "When X-rays scatter off electrons the wavelength increases by an amount depending only on the scattering angle — Compton showed this follows from treating photons as particles with momentum hν/c, confirming the photon concept.",
-      "links": ["st3", "co1", "fg2"]
-    },
-    {
-      "id": "ef3",
-      "cat": "effect",
-      "group": "Particle Physics & QFT",
-      "label": "Lamb Shift",
-      "year": 1947,
-      "loc": "Columbia University, USA",
-      "repl": "robust",
-      "hint": "A tiny splitting between the 2S½ and 2P½ hydrogen levels — predicted by Dirac's equation to be zero — was measured by Lamb and Retherford, and explained by QED as a vacuum fluctuation effect, motivating the renormalisation programme.",
-      "links": ["th6", "fg8"]
-    },
-    {
-      "id": "ef4",
-      "cat": "effect",
-      "group": "Nuclear Physics",
-      "label": "Radioactive Decay & Half-Life",
-      "year": 1902,
-      "loc": "McGill University, Montreal, Canada",
-      "fig": "fg7",
-      "repl": "robust",
-      "hint": "Rutherford and Soddy showed radioactive elements spontaneously transmute into other elements at a fixed exponential rate characterised by a half-life — the first evidence that atoms are not immutable and the foundation of nuclear dating methods.",
-      "links": ["fg6", "fg7", "ef5", "co4", "me5", "ap5"]
-    },
-    {
-      "id": "ef5",
-      "cat": "effect",
-      "group": "Nuclear Physics",
-      "label": "Nuclear Binding Energy & Mass Defect",
-      "year": 1935,
-      "loc": "Multiple institutions",
-      "repl": "robust",
-      "hint": "A nucleus weighs slightly less than its constituent nucleons — the missing mass is the binding energy that holds it together (via E=mc²). The binding energy per nucleon peaks at iron-56, explaining why fission releases energy for heavy nuclei and fusion releases energy for light ones.",
-      "links": ["ef9", "th7", "co4", "ef4", "st8", "st7", "ef1"]
-    },
-    {
-      "id": "ef6",
-      "cat": "effect",
-      "group": "Relativity & Spacetime",
-      "label": "Gravitational Time Dilation",
-      "year": 1959,
-      "loc": "Harvard University, USA",
-      "repl": "robust",
-      "hint": "Clocks run slower in stronger gravitational fields — a direct consequence of General Relativity confirmed by the Pound-Rebka experiment. The effect is large enough that GPS satellites require relativistic corrections or navigation errors accumulate at kilometres per day.",
-      "links": ["th2", "st10", "co6", "ap6"]
-    },
-    {
-      "id": "ef7",
-      "cat": "effect",
-      "group": "Cosmological Frontiers",
-      "label": "Gravitational Lensing",
-      "year": 1919,
-      "loc": "Príncipe Island (Eddington expedition)",
-      "repl": "robust",
-      "hint": "Light bends as it passes massive objects because spacetime is curved — Eddington's 1919 solar eclipse observation of displaced star positions provided the first confirmation of General Relativity and made Einstein world-famous.",
-      "links": ["th2", "st12", "th9", "db6"]
-    },
-    {
-      "id": "ef8",
-      "cat": "effect",
-      "group": "Wave Mechanics & Uncertainty",
-      "label": "Bell Inequality Violation",
-      "year": 1982,
-      "loc": "Orsay, France",
-      "repl": "robust",
-      "hint": "Bell's theorem (1964) proved that any local hidden-variable theory must satisfy certain statistical inequalities — Aspect's experiments showed quantum entangled pairs violate these inequalities, ruling out local realism as an explanation of quantum correlations.",
-      "links": ["st11", "co3", "db1", "db2"]
-    },
-    {
-      "id": "ef9",
-      "cat": "effect",
-      "group": "Relativity & Spacetime",
-      "label": "Mass-Energy Equivalence E=mc²",
-      "year": 1905,
-      "loc": "Bern Patent Office, Switzerland",
-      "fig": "fg2",
-      "repl": "robust",
-      "hint": "Einstein's Special Relativity implies that mass and energy are interconvertible — a tiny mass converts to an enormous energy because c² is large. The relation underpins both nuclear weapons and nuclear power, and explains why the sun shines.",
-      "links": ["th1", "fg2", "ef5", "st8", "ap1", "db7"]
-    }
-  ],
-
-  "concept": [
-    {
-      "id": "co1",
-      "cat": "concept",
-      "group": "Quantum Origins",
-      "label": "Wave-Particle Duality",
-      "hint": "Quantum objects exhibit wave properties (interference, diffraction) and particle properties (discrete impacts, definite position at detection) depending on the experimental context — neither description alone is complete.",
-      "links": ["st3", "st6", "ef2", "th4", "co2", "st5"]
-    },
-    {
-      "id": "co2",
-      "cat": "concept",
-      "group": "Wave Mechanics & Uncertainty",
-      "label": "Heisenberg Uncertainty Principle",
-      "hint": "Conjugate variables such as position and momentum, or energy and time, cannot both be precisely determined simultaneously — ΔxΔp ≥ ℏ/2 is not a measurement disturbance but a fundamental feature of quantum states, following from wave mechanics.",
-      "links": ["th3", "th4", "th5", "co3", "ef1"]
-    },
-    {
-      "id": "co3",
-      "cat": "concept",
-      "group": "Wave Mechanics & Uncertainty",
-      "label": "Quantum Superposition & Entanglement",
-      "hint": "A quantum system can exist in a superposition of multiple states simultaneously; when two particles interact their wavefunctions can become entangled so that measuring one instantly determines the other's state regardless of distance — exploited in quantum computing and cryptography.",
-      "links": ["th4", "th5", "db2", "db5", "ef8", "co2"]
-    },
-    {
-      "id": "co4",
-      "cat": "concept",
-      "group": "Nuclear Physics",
-      "label": "Nuclear Fission vs Fusion",
-      "hint": "Fission splits heavy nuclei (uranium, plutonium) releasing energy stored in the strong force; fusion joins light nuclei (hydrogen isotopes) and releases even more energy per kilogram — both derive from the binding energy curve, but fusion requires extreme temperatures to overcome electrostatic repulsion.",
-      "links": ["ef5", "ef9", "ap1", "ap5", "st8", "db7", "th7"]
-    },
-    {
-      "id": "co5",
-      "cat": "concept",
-      "group": "Particle Physics & QFT",
-      "label": "Antimatter",
-      "hint": "Dirac's relativistic quantum equation predicted particles with equal mass but opposite charge — the positron was discovered in 1932, confirming that every particle has an antiparticle. Matter-antimatter asymmetry in the early universe is one of physics' deepest unsolved problems.",
-      "links": ["fg9", "th6", "th8", "db8"]
-    },
-    {
-      "id": "co6",
-      "cat": "concept",
-      "group": "Relativity & Spacetime",
-      "label": "Spacetime & Curvature",
-      "hint": "Space and time are unified into a four-dimensional manifold whose geometry is curved by mass-energy — the geodesics of this curved spacetime are the paths of free-falling objects, replacing the Newtonian concept of gravitational force.",
-      "links": ["th1", "th2", "ef6", "ef7", "st10", "st12"]
-    },
-    {
-      "id": "co7",
-      "cat": "concept",
-      "group": "Quantum Origins",
-      "label": "Quantisation",
-      "hint": "Physical quantities that are continuous in classical physics — energy, angular momentum, charge — take only discrete values at the quantum scale. Planck's energy quanta, Bohr's orbital shells, and the nuclear shell model are successive applications of the same principle.",
-      "links": ["st2", "st3", "st5", "fg1", "co4", "th7", "me2"]
-    }
-  ],
-
-  "method": [
-    {
-      "id": "me1",
-      "cat": "method",
-      "group": "Nuclear Physics",
-      "label": "Particle Detectors",
-      "year": 1911,
-      "loc": "Cavendish Laboratory, Cambridge, UK",
-      "hint": "From Wilson's cloud chamber (1911) to bubble chambers, Geiger counters, and modern silicon pixel trackers — particle detectors visualise the tracks and energies of subatomic particles, making invisible interactions legible. Each generation enabled a new layer of particle physics discoveries.",
-      "links": ["fg6", "fg12", "st9", "fg7", "me3"]
-    },
-    {
-      "id": "me2",
-      "cat": "method",
-      "group": "Quantum Origins",
-      "label": "Spectroscopy",
-      "year": 1859,
-      "loc": "Heidelberg, Germany",
-      "hint": "Kirchhoff and Bunsen showed each element emits a unique line spectrum — the fingerprint that Bohr's model first explained and which remains the primary tool for probing atomic and molecular structure, from laboratory flames to distant galaxies.",
-      "links": ["st5", "co7", "fg3", "ap5", "me2"]
-    },
-    {
-      "id": "me3",
-      "cat": "method",
-      "group": "Particle Physics & QFT",
-      "label": "Particle Accelerators & Colliders",
-      "year": 1932,
-      "loc": "University of California, Berkeley, USA",
-      "hint": "Lawrence's cyclotron (1932) accelerated ions using oscillating electric fields in a magnetic spiral; later linear accelerators, synchrotrons, and colliders (Tevatron, LHC) achieve TeV energies, enabling direct production and study of quarks, bosons, and the Higgs.",
-      "links": ["th8", "th10", "st9", "db8", "me1"]
-    },
-    {
-      "id": "me4",
-      "cat": "method",
-      "group": "Wave Mechanics & Uncertainty",
-      "label": "Nuclear Magnetic Resonance (NMR)",
-      "year": 1945,
-      "loc": "MIT & Stanford, USA",
-      "hint": "Atomic nuclei with spin absorb and re-emit radiofrequency radiation when placed in a magnetic field at a resonant frequency determined by the chemical environment — the basis of NMR spectroscopy in chemistry and MRI in medicine.",
-      "links": ["co7", "co3", "ap2"]
-    },
-    {
-      "id": "me5",
-      "cat": "method",
-      "group": "Nuclear Physics",
-      "label": "Radiocarbon Dating",
-      "year": 1949,
-      "loc": "University of Chicago, USA",
-      "hint": "Libby used the known half-life of carbon-14 (5,730 years) to date organic material — atmospheric ¹⁴C is incorporated into living tissue and decays after death at a predictable rate, allowing dating up to ~50,000 years with calibration against dendrochronology.",
-      "links": ["ef4", "co4", "ap5"]
-    },
-    {
-      "id": "me6",
-      "cat": "method",
-      "group": "Particle Physics & QFT",
-      "label": "Feynman Diagrams",
-      "year": 1948,
-      "loc": "Cornell University, USA",
-      "fig": "fg8",
-      "hint": "Feynman's pictorial notation represents terms in the perturbative expansion of QED and other quantum field theories — each diagram corresponds to a specific interaction amplitude, making systematic calculation of scattering and decay rates tractable.",
-      "links": ["th6", "fg8", "th8"]
-    }
-  ],
-
-  "figure": [
-    {
-      "id": "fg1",
-      "cat": "figure",
-      "group": "Pioneers & Theorists",
-      "label": "Max Planck",
-      "year": 1858,
-      "loc": "Kiel, Germany",
-      "hint": "Planck introduced the quantum of action h in 1900 to explain blackbody radiation — an act he initially considered a mathematical device rather than a physical reality. Nobel Prize in Physics 1918.",
-      "links": ["st2", "co7", "fg2"]
-    },
-    {
-      "id": "fg2",
-      "cat": "figure",
-      "group": "Pioneers & Theorists",
-      "label": "Albert Einstein",
-      "year": 1879,
-      "loc": "Ulm, Germany",
-      "hint": "Einstein gave physics both Special and General Relativity, the photon concept, E=mc², and foundational work on statistical mechanics — while remaining a lifelong opponent of the Copenhagen interpretation's completeness. Nobel Prize 1921 (photoelectric effect).",
-      "links": ["th1", "th2", "st1", "st3", "ef9", "co6", "fg1", "db1", "ef2", "ap3"]
-    },
-    {
-      "id": "fg3",
-      "cat": "figure",
-      "group": "Pioneers & Theorists",
-      "label": "Niels Bohr",
-      "year": 1885,
-      "loc": "Copenhagen, Denmark",
-      "hint": "Bohr quantised the hydrogen atom in 1913 and later articulated the Copenhagen Interpretation — his Institute for Theoretical Physics became the world centre of quantum mechanics through the 1920s and 30s. Nobel Prize 1922.",
-      "links": ["th5", "st5", "fg2", "fg4", "db1", "db2", "me2"]
-    },
-    {
-      "id": "fg4",
-      "cat": "figure",
-      "group": "Pioneers & Theorists",
-      "label": "Werner Heisenberg",
-      "year": 1901,
-      "loc": "Würzburg, Germany",
-      "hint": "Heisenberg created matrix mechanics in 1925 and derived the uncertainty principle in 1927 — the two cornerstones of quantum mechanics. His wartime leadership of the German nuclear programme remains historically contested. Nobel Prize 1932.",
-      "links": ["th3", "th5", "co2", "fg3", "fg5", "db1"]
-    },
-    {
-      "id": "fg5",
-      "cat": "figure",
-      "group": "Pioneers & Theorists",
-      "label": "Erwin Schrödinger",
-      "year": 1887,
-      "loc": "Vienna, Austria",
-      "hint": "Schrödinger formulated wave mechanics in 1926 and devised his famous cat thought experiment in 1935 to expose the measurement problem — he was deeply uncomfortable with the probabilistic interpretation of his own equation. Nobel Prize 1933 (shared with Dirac).",
-      "links": ["th4", "co3", "db5", "fg4", "db2"]
-    },
-    {
-      "id": "fg6",
-      "cat": "figure",
-      "group": "Pioneers & Theorists",
-      "label": "Marie Curie",
-      "year": 1867,
-      "loc": "Warsaw, Poland",
-      "hint": "Curie coined the term 'radioactivity', discovered polonium and radium, and was the first person to win two Nobel Prizes (Physics 1903, Chemistry 1911) — and the first woman to win either. Her research laid the groundwork for nuclear medicine.",
-      "links": ["ef4", "st4", "me1", "ap5"]
-    },
-    {
-      "id": "fg7",
-      "cat": "figure",
-      "group": "Pioneers & Theorists",
-      "label": "Ernest Rutherford",
-      "year": 1871,
-      "loc": "Nelson, New Zealand",
-      "hint": "Rutherford discovered the nuclear atom (1911), demonstrated transmutation of elements, and first split the atom artificially (1917) — effectively founding nuclear physics. Nobel Prize in Chemistry 1908.",
-      "links": ["st4", "st7", "fg6", "fg12", "me1"]
-    },
-    {
-      "id": "fg8",
-      "cat": "figure",
-      "group": "Pioneers & Theorists",
-      "label": "Richard Feynman",
-      "year": 1918,
-      "loc": "New York City, USA",
-      "hint": "Feynman developed the path-integral formulation of quantum mechanics and QED's renormalisation procedure, introduced Feynman diagrams, and became physics' greatest public communicator. Nobel Prize 1965 (shared with Schwinger and Tomonaga).",
-      "links": ["th6", "me6", "ef3", "fg9", "th8"]
-    },
-    {
-      "id": "fg9",
-      "cat": "figure",
-      "group": "Pioneers & Theorists",
-      "label": "Paul Dirac",
-      "year": 1902,
-      "loc": "Bristol, UK",
-      "hint": "Dirac unified Special Relativity with quantum mechanics in the Dirac equation (1928), predicted the positron before its discovery, and developed the foundations of quantum field theory. Nobel Prize 1933 (shared with Schrödinger).",
-      "links": ["th6", "co5", "fg8", "th8"]
-    },
-    {
-      "id": "fg10",
-      "cat": "figure",
-      "group": "Pioneers & Theorists",
-      "label": "Enrico Fermi",
-      "year": 1901,
-      "loc": "Rome, Italy",
-      "hint": "Fermi developed the theory of beta decay, created the first nuclear reactor (Chicago Pile-1, 1942), and pioneered neutron bombardment experiments — making him central to both fundamental particle physics and applied nuclear technology. Nobel Prize 1938.",
-      "links": ["st8", "ap1", "db7"]
-    },
-    {
-      "id": "fg11",
-      "cat": "figure",
-      "group": "Pioneers & Theorists",
-      "label": "Lise Meitner",
-      "year": 1878,
-      "loc": "Vienna, Austria",
-      "hint": "Meitner co-discovered nuclear fission with Hahn and Strassmann and provided the theoretical explanation using the liquid-drop model and E=mc² — yet the 1944 Nobel Prize went to Hahn alone, widely regarded as one of the most unjust omissions in Nobel history.",
-      "links": ["st8", "ef5", "ef9", "db7"]
-    },
-    {
-      "id": "fg12",
-      "cat": "figure",
-      "group": "Pioneers & Theorists",
-      "label": "James Chadwick",
-      "year": 1891,
-      "loc": "Bollington, UK",
-      "hint": "Chadwick's discovery of the neutron in 1932 completed the proton-neutron model of the nucleus and provided the neutral projectile needed to initiate uranium fission — making him an inadvertent but essential figure in the path to nuclear weapons and power. Nobel Prize 1935.",
-      "links": ["st7", "fg7", "ef4", "me1"]
-    }
-  ],
-
-  "debate": [
-    {
-      "id": "db1",
-      "cat": "debate",
-      "group": "Wave Mechanics & Uncertainty",
-      "label": "Copenhagen vs Hidden Variables",
-      "year": 1927,
-      "hint": "The Bohr-Einstein debates (Solvay 1927, 1930) set the terms: is the wavefunction a complete description of reality (Copenhagen) or does it mask deeper deterministic variables (Einstein, Bell, de Broglie)? Bell's theorem (1964) and subsequent experiments have ruled out local hidden variables, but non-local and retrocausal variants remain alive.",
-      "links": ["th5", "fg2", "fg3", "fg4", "co3", "db2", "db5", "st11", "ef8"]
-    },
-    {
-      "id": "db2",
-      "cat": "debate",
-      "group": "Wave Mechanics & Uncertainty",
-      "label": "Many-Worlds Interpretation",
-      "year": 1957,
-      "hint": "Everett proposed that the wavefunction never collapses — instead every measurement outcome occurs in a branching universal wavefunction. The interpretation avoids the measurement problem but requires an unimaginably large ontology; the probability rule (Born rule) is difficult to derive from branching alone.",
-      "links": ["th5", "co3", "db1", "db5", "fg5", "ef8", "st11"]
-    },
-    {
-      "id": "db3",
-      "cat": "debate",
-      "group": "Cosmological Frontiers",
-      "label": "Quantum Gravity: String Theory vs Loop QG",
-      "year": 1984,
-      "hint": "General Relativity and quantum mechanics are individually successful but mutually incompatible at the Planck scale. String theory unifies forces in extra dimensions; loop quantum gravity quantises spacetime itself. Neither yet has experimental confirmation, and the theories make different predictions about black hole evaporation and cosmological observations.",
-      "links": ["th2", "th8", "th10", "db4", "th9", "db6"]
-    },
-    {
-      "id": "db4",
-      "cat": "debate",
-      "group": "Cosmological Frontiers",
-      "label": "Black Hole Information Paradox",
-      "year": 1974,
-      "hint": "Hawking showed black holes radiate thermally and eventually evaporate — if information about infalling matter is lost, unitarity is violated. String theory suggests information is preserved on the horizon (holographic principle); recent firewall arguments suggest the interior may not exist as classical spacetime.",
-      "links": ["th2", "st12", "db3", "db6"]
-    },
-    {
-      "id": "db5",
-      "cat": "debate",
-      "group": "Wave Mechanics & Uncertainty",
-      "label": "The Measurement Problem / Schrödinger's Cat",
-      "year": 1935,
-      "hint": "Quantum mechanics predicts superpositions of macroscopic outcomes — Schrödinger's cat is both alive and dead until observed. The measurement problem asks what physical process collapses the wavefunction to a definite outcome. Proposed solutions include Copenhagen (observer collapse), decoherence, many-worlds, and objective-collapse theories like GRW.",
-      "links": ["co3", "th5", "fg5", "db1", "db2"]
-    },
-    {
-      "id": "db6",
-      "cat": "debate",
-      "group": "Cosmological Frontiers",
-      "label": "Dark Matter & Dark Energy",
-      "year": 1998,
-      "hint": "Rotation curves, gravitational lensing, and the CMB all indicate ~27% of the universe's energy density is non-luminous matter; supernova observations (1998) showed expansion is accelerating, implying ~68% is 'dark energy'. No particle candidate for dark matter has been directly detected, and the cosmological constant problem remains the worst fine-tuning problem in physics.",
-      "links": ["th9", "ef7", "db3", "db4"]
-    },
-    {
-      "id": "db7",
-      "cat": "debate",
-      "group": "Nuclear Physics",
-      "label": "Manhattan Project & Nuclear Ethics",
-      "year": 1945,
-      "hint": "The Trinity test (July 1945) and the bombings of Hiroshima and Nagasaki raised questions that persist: when is it ethical for scientists to build weapons of mass destruction? Oppenheimer's famous quote, Szilard's petition, Meitner's refusal to participate, and subsequent arms-control debates have made this a central case study in science and responsibility.",
-      "links": ["ap1", "co4", "st8", "fg10", "fg11", "ef9"]
-    },
-    {
-      "id": "db8",
-      "cat": "debate",
-      "group": "Particle Physics & QFT",
-      "label": "Beyond the Standard Model",
-      "year": 1984,
-      "hint": "The Standard Model cannot account for gravity, dark matter, the matter-antimatter asymmetry, or neutrino masses. Supersymmetry, extra dimensions, and grand unified theories have all been proposed — but LHC data at 13 TeV have found no superpartners, placing severe constraints on the simplest extensions and leaving the hierarchy problem unresolved.",
-      "links": ["th8", "th10", "co5", "db3", "me3", "st9"]
-    }
-  ],
-
-  "application": [
-    {
-      "id": "ap1",
-      "cat": "application",
-      "group": "Nuclear Physics",
-      "label": "Nuclear Power Reactors",
-      "year": 1942,
-      "loc": "University of Chicago, USA",
-      "hint": "Chicago Pile-1, built under Fermi's direction in a squash court, achieved the first controlled fission chain reaction in 1942. Modern reactors use controlled neutron moderation to sustain fission of U-235 or Pu-239, providing ~10% of global electricity with minimal greenhouse gas emissions but long-lived radioactive waste.",
-      "links": ["st8", "fg10", "co4", "ef5", "ef9", "db7"]
-    },
-    {
-      "id": "ap2",
-      "cat": "application",
-      "group": "Wave Mechanics & Uncertainty",
-      "label": "Magnetic Resonance Imaging (MRI)",
-      "year": 1973,
-      "loc": "State University of New York, USA",
-      "hint": "Lauterbur showed that adding a gradient magnetic field to NMR allows spatial reconstruction of the resonance signal — creating cross-sectional images of soft tissue without ionising radiation. MRI revolutionised diagnostic medicine and now performs ~100 million scans annually worldwide.",
-      "links": ["me4", "co7", "co3"]
-    },
-    {
-      "id": "ap3",
-      "cat": "application",
-      "group": "Quantum Origins",
-      "label": "Lasers",
-      "year": 1960,
-      "loc": "Hughes Research Laboratories, California, USA",
-      "hint": "Maiman's ruby laser (1960) exploited stimulated emission — Einstein's 1917 prediction that a photon can trigger an excited atom to emit an identical photon — to produce coherent, monochromatic, collimated light. Lasers now span fibre-optic communications, surgery, manufacturing, spectroscopy, and gravitational-wave detection.",
-      "links": ["fg2", "co7"]
-    },
-    {
-      "id": "ap4",
-      "cat": "application",
-      "group": "Wave Mechanics & Uncertainty",
-      "label": "Semiconductors & Transistors",
-      "year": 1947,
-      "loc": "Bell Telephone Laboratories, New Jersey, USA",
-      "hint": "Shockley, Bardeen, and Brattain's transistor (1947) exploited quantum mechanical band theory — electrons in semiconductors occupy discrete energy bands, and doping creates controllable charge carriers. The transistor made modern computing possible; today's chips contain billions on a fingernail.",
-      "links": ["th4", "co7", "ef1"]
-    },
-    {
-      "id": "ap5",
-      "cat": "application",
-      "group": "Nuclear Physics",
-      "label": "Nuclear Medicine: PET, SPECT & Radiotherapy",
-      "year": 1973,
-      "loc": "Multiple institutions, USA",
-      "hint": "PET scanners detect the back-to-back gamma rays from positron annihilation to image metabolic activity; SPECT uses gamma-emitting isotopes for functional imaging; radiotherapy uses targeted radiation to destroy tumours. All depend on controlled production of specific radionuclides in cyclotrons and reactors.",
-      "links": ["ef4", "fg6", "me5", "co4", "me2"]
-    },
-    {
-      "id": "ap6",
-      "cat": "application",
-      "group": "Relativity & Spacetime",
-      "label": "GPS & Relativistic Corrections",
-      "year": 1978,
-      "loc": "Department of Defense, USA",
-      "hint": "GPS satellites experience both Special Relativistic time dilation (clocks run slow due to speed, −7 μs/day) and General Relativistic gravitational time dilation (clocks run fast due to weaker gravity, +45 μs/day). Without the net +38 μs/day correction, GPS positions would drift by ~10 km/day.",
-      "links": ["th1", "th2", "ef6", "co6"]
+      "id": "application", "icon": "🔗", "accent": "#2E86C1", "label": "Applications",
+      "events": [
+        { "y": 1942, "l": "Fermi: first nuclear reactor (CP-1)", "entryId": "ap1" },
+        { "y": 1947, "l": "Bardeen & Brattain: transistor", "entryId": "ap4" },
+        { "y": 1960, "l": "Maiman: first laser", "entryId": "ap3" },
+        { "y": 1973, "l": "Lauterbur: MRI from NMR", "entryId": "ap2" },
+        { "y": 1975, "l": "First PET scanner", "entryId": "ap5" },
+        { "y": 1978, "l": "GPS with relativistic corrections", "entryId": "ap6" }
+      ]
     }
   ]
 }
