@@ -353,7 +353,7 @@ const FIELDS = [
   { id:"law-jurisprudence",          domain:"civics",            label:"Law & Jurisprudence",                       sub:"Legal theory, rights, obligation & the foundations of justice",         status:"planned" },
   { id:"international-relations",    domain:"civics",            label:"International Relations & Geopolitics",     sub:"States, conflict, cooperation & global order",                          status:"planned" },
   // ── PHILOSOPHY ────────────────────────────────────────────────────────────────
-  { id:"epistemology",               domain:"philosophy",        label:"Epistemology & Theory of Knowledge",        sub:"What we can know, how we know it & the limits of certainty",            status:"planned" },
+  { id:"epistemology",               domain:"philosophy",        label:"Epistemology & Theory of Knowledge",        sub:"What we can know, how we know it & the limits of certainty",            status:"ready", file:"modules/epistemology.json" },
   { id:"ethics",                     domain:"philosophy",        label:"Ethics & Moral Philosophy",                 sub:"Value, obligation, virtue & how to reason about right action",          status:"planned" },
   { id:"political-economic-philosophy",domain:"philosophy",      label:"Political & Economic Philosophy",           sub:"Justice, liberty, equality & the foundations of social order",          status:"planned" },
   { id:"philosophy-of-science",      domain:"philosophy",        label:"Philosophy of Science & Logic",             sub:"Explanation, causation, reduction & what science actually does",        status:"planned" },
@@ -1584,6 +1584,41 @@ const STUDY_PLANS = {
         title: '11 — Applications',
         rationale: 'GPS, SSL/e-commerce, recommendation systems, search engines, cloud computing, and LLMs in production show where the theory left the lab and entered daily life — and what new questions that created.',
         cats: ['application']
+      }
+    ]
+  },
+  'epistemology': {
+    meta: 'Begins with the twelve figures who shaped the field — from Plato to Williamson, Al-Ghazālī to Nāgārjuna — so that every subsequent theory has a human face. Module 2 takes the central question head-on: what is knowledge, and can the JTB analysis survive Gettier? Module 3 addresses justification in its four main forms (foundationalist, coherentist, reliabilist, virtue-theoretic). Module 4 follows the sceptical tradition from Descartes through the brain-in-a-vat and examines the sources of knowledge — a priori, a posteriori, and the pramāṇa tradition. Module 5 turns to science as epistemology\'s hardest test case: paradigm shifts, naturalisation, underdetermination, and the realism debate. Modules 6 and 7 complete the arc by socialising epistemology — showing that knowledge is not a solitary achievement but a communal one, and that who is believed, whose concepts count, and who owns knowledge are irreducibly political questions.',
+    modules: [
+      {
+        title: '1 — Pioneers & Theorists',
+        rationale: 'Twelve figures from Plato and Nāgārjuna to Gettier and Fricker are front-loaded so their names anchor every theory and debate that follows. Return to this module at any point — each entry links directly to the landmark work or counterexample that made the figure historically significant.',
+        cats: ['figure']
+      },
+      {
+        title: '2 — What Is Knowledge?',
+        rationale: 'The JTB analysis — justified true belief — organised epistemology for two millennia; Gettier\'s three-page paper (1963) demolished it. This module covers the six main theories of truth that compete for the T-slot, the analysis project itself, and the post-Gettier landscape: epistemic luck, the knowledge-first inversion, the extended-mind challenge, and the philosophical methods (thought experiment, conceptual analysis, experimental philosophy) that generate and test these accounts.',
+        groups: ['The Nature of Knowledge & Truth']
+      },
+      {
+        title: '3 — Justification, Foundationalism & Virtue',
+        rationale: 'Four architectures for epistemic justification: foundationalism anchors belief in incorrigible basic beliefs; coherentism weaves a web in which beliefs support each other; reliabilism evaluates processes by their truth-tracking record; virtue epistemology locates justification in stable intellectual character. The internalism/externalism fault line runs through all four — and is the deepest unresolved debate in the theory of justification. Agrippa\'s trilemma (regress, circularity, dogmatism) is the pressure that forces the choice between them.',
+        groups: ['Justification & Rationality']
+      },
+      {
+        title: '4 — Scepticism, Doubt & the Sources of Knowledge',
+        rationale: 'From Descartes\'s method of doubt to Putnam\'s brain in a vat, sceptical thought experiments expose the gap between appearance and reality. Hume\'s problem of induction and the problem of epistemic circularity show that the gap cannot be closed by reason alone. Contextualism deflates sceptical conclusions by relativising knowledge-attributions to context. The sources of knowledge — a priori vs. a posteriori, the pramāṇa tradition of valid epistemic instruments, and the problem of the criterion — complete the picture: how much can we know, and about what?',
+        groups: ['Scepticism & The External World', 'Sources of Knowledge']
+      },
+      {
+        title: '5 — Science, Inference & Formal Epistemology',
+        rationale: 'Science is the most institutionalised form of knowledge production, and philosophy of science is applied epistemology. Kuhn\'s paradigm shifts challenge the cumulative image of science; Quine\'s naturalisation programme dissolves the boundary between epistemology and cognitive science; Bayesian epistemology provides a formal calculus for updating beliefs on evidence. Underdetermination (Duhem-Quine), the preface paradox, and the scientific realism vs. anti-realism debate are the three sharpest challenges to the idea that science gives us knowledge of an observer-independent world.',
+        groups: ['Science, Inference & Formal Epistemology']
+      },
+      {
+        title: '6 — Social Epistemology & Epistemic Justice',
+        rationale: 'The final module socialises epistemology: knowledge is not assembled in solitary minds but produced, transmitted, and certified through communities, institutions, and power structures. Testimony, peer disagreement, and echo chambers show how social facts shape individual belief. Fricker\'s epistemic injustice reveals that the same credibility-assessment processes that generate knowledge can simultaneously constitute a wrong done to a person as a knower. Epistemic relativism, and the global questions of who owns knowledge, close the arc — returning to the field\'s starting questions with an awareness of whose voices have historically counted.',
+        groups: ['Social Epistemology', 'Epistemic Justice & Situated Knowledge']
       }
     ]
   }
