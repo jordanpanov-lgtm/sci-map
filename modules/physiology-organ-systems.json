@@ -33,7 +33,14 @@
             50.37,
             -4.14
           ],
-          "links": [],
+          "links": [
+            "st1",
+            "co1",
+            "co2",
+            "fg4",
+            "fg5",
+            "ap5"
+          ],
           "hint": "The Hodgkin-Huxley model describes the ionic basis of the action potential using a system of differential equations derived from voltage-clamp experiments on the squid giant axon. It identifies separate voltage-gated sodium and potassium conductances whose time- and voltage-dependent behaviour generates the characteristic spike, overshoot, and refractory period. The model predicts conduction velocity, threshold, and refractoriness with quantitative accuracy and remains the foundation of computational physiology.",
           "tag": "MODEL",
           "note": "Hodgkin, A. L. & Huxley, A. F. (1952). 'A quantitative description of membrane current and its application to conduction and excitation in nerve.' Journal of Physiology, 117(4), 500–544 — synthesis of a four-paper series. Nobel Prize in Physiology or Medicine, 1963, shared with Eccles. The macroscopic conductance formalism aggregates the behaviour of many ion channels; Neher & Sakmann's patch clamp (1976) revealed individual channel stochasticity that the H-H equations describe only in ensemble average. The m³h formalism does not capture all gating kinetics across every channel subtype but remains the standard teaching model."
@@ -48,7 +55,10 @@
             41.5,
             -81.61
           ],
-          "links": [],
+          "links": [
+            "fg11",
+            "ap5"
+          ],
           "hint": "Sutherland's second messenger theory holds that extracellular signals (hormones, neurotransmitters) bind surface receptors that activate intracellular messengers — chiefly cyclic AMP (cAMP) — which relay and amplify the signal to downstream effectors without entering the cell. This cascade framework explains how a tiny concentration of hormone at the cell surface triggers a massive intracellular biochemical response. It was later extended to include the IP₃/DAG and calcium second messenger pathways.",
           "tag": "THEORY",
           "note": "Sutherland, E. W. & Rall, T. W. (1958). 'Fractionation and characterization of a cyclic adenine ribonucleotide formed by tissue particles.' Journal of Biological Chemistry, 232(2), 1077–1091. Nobel Prize in Physiology or Medicine, 1971. Berridge, M. J. (1984). 'Inositol trisphosphate and diacylglycerol as second messengers.' Biochemical Journal, 220(2), 345–360 — extended the framework to IP₃/DAG. G-protein coupling of receptors to adenylyl cyclase was characterised by Rodbell & Gilman (Nobel Prize 1994). Cross-talk between cAMP, IP₃/DAG, and Ca²⁺ pathways means that second-messenger 'switches' rarely operate in isolation — the concept is accurate but the signalling reality is one of dense, overlapping networks."
@@ -63,7 +73,10 @@
             52.2,
             0.12
           ],
-          "links": [],
+          "links": [
+            "st2",
+            "ef6"
+          ],
           "hint": "The sliding filament theory holds that muscle contraction occurs not by folding or shortening of individual protein filaments but by the sliding of thin actin filaments past thick myosin filaments, driven by repeated formation and detachment of cross-bridges powered by ATP hydrolysis. Sarcomere length decreases while filament lengths remain constant. This was established simultaneously by Hugh Huxley & Hanson using electron microscopy and by A.F. Huxley & Niedergerke using interference microscopy.",
           "tag": "THEORY",
           "note": "Huxley, H. E. & Hanson, J. (1954). 'Changes in the cross-striations of muscle during contraction and stretch.' Nature, 173, 973–976. Huxley, A. F. & Niedergerke, R. (1954). 'Structural changes in muscle during contraction.' Nature, 173, 971–973. The cross-bridge cycle was elaborated by Huxley, A. F. (1957). 'Muscle structure and theories of contraction.' Progress in Biophysics, 7, 255–318. Lymn, R. W. & Taylor, E. W. (1971). 'Mechanism of adenosine triphosphate hydrolysis by actomyosin.' Biochemistry, 10(25), 4617–4624 — the biochemical sequence. Single-molecule confirmation: Finer, J. T., Simmons, R. M. & Spudich, J. A. (1994). 'Single myosin molecule mechanics.' Nature, 368, 113–119 — optical tweezers resolved the ~4 nm power stroke."
@@ -78,7 +91,11 @@
             51.52,
             -0.13
           ],
-          "links": [],
+          "links": [
+            "st4",
+            "co3",
+            "fg3"
+          ],
           "hint": "The Frank-Starling law states that stroke volume increases as a function of end-diastolic volume: the more the ventricle is stretched before contraction, the more forcefully it contracts and the more blood it ejects. The mechanism is that greater sarcomere stretch optimises actin-myosin overlap and increases myofilament calcium sensitivity. This intrinsic property allows the heart to match its output beat-by-beat to whatever volume returns from the periphery, without requiring nervous or hormonal regulation.",
           "tag": "LAW",
           "note": "Patterson, S. W., Piper, H. & Starling, E. H. (1914). 'The regulation of the heart beat.' Journal of Physiology, 48(5), 465–513. Starling, E. H. (1918). 'The Linacre Lecture on the Law of the Heart.' Macmillan. Otto Frank had earlier documented the same length-tension relationship in frog hearts: Frank, O. (1895). 'Zur Dynamik des Herzmuskels.' Zeitschrift für Biologie, 32, 370–447. Mechanistic basis: Gordon, A. M., Huxley, A. F. & Julian, F. J. (1966). 'The variation in isometric tension with sarcomere length in vertebrate muscle fibres.' Journal of Physiology, 184(1), 170–192. Clinical note: the Frank-Starling curve shifts rightward and flattens in heart failure; stroke volume may plateau or fall with further filling, reversing the therapeutic logic of volume loading."
@@ -93,7 +110,10 @@
             48.86,
             2.33
           ],
-          "links": [],
+          "links": [
+            "ef7",
+            "co4"
+          ],
           "hint": "Poiseuille's law states that flow through a cylindrical tube is proportional to the fourth power of the tube radius and the pressure gradient, and inversely proportional to fluid viscosity and tube length (Q = πr⁴ΔP / 8ηL). Applied to the vasculature, it explains why small changes in arteriolar radius produce dramatic changes in resistance: halving vessel radius increases resistance 16-fold. Smooth muscle tone in arterioles is therefore the primary regulator of blood flow distribution.",
           "tag": "LAW",
           "note": "Poiseuille, J. L. M. (1840). 'Recherches expérimentales sur le mouvement des liquides dans les tubes de très petits diamètres.' Comptes Rendus de l'Académie des Sciences, 11, 961–967. Also independently derived by Hagen, G. H. L. (1839); sometimes called the Hagen-Poiseuille law. Limitations in vascular physiology: blood vessels are not rigid cylinders; blood is a non-Newtonian fluid, especially in small vessels where the Fåhraeus-Lindqvist effect reduces apparent viscosity; pulsatile flow introduces Womersley-number corrections. Fåhraeus, R. & Lindqvist, T. (1931). 'The viscosity of the blood in narrow capillary tubes.' American Journal of Physiology, 96(3), 562–568 — red cells migrate to the axial stream, reducing apparent viscosity in vessels < 0.3 mm."
@@ -108,7 +128,13 @@
             32.3,
             -90.18
           ],
-          "links": [],
+          "links": [
+            "co3",
+            "ef5",
+            "db3",
+            "fg7",
+            "ap2"
+          ],
           "hint": "Guyton's model proposes that cardiac output and venous return are equal at their equilibrium point, determined by the intersection of the cardiac function curve and the venous return curve. The central insight is that the heart pumps whatever volume the tissues return to it; peripheral metabolic demand and blood volume govern venous return, not cardiac strength alone. Long-term blood pressure is therefore controlled primarily by the kidneys regulating blood volume rather than by vascular tone.",
           "tag": "MODEL",
           "note": "Guyton, A. C. (1955). 'Determination of cardiac output by equating venous return curves with cardiac response curves.' Physiological Reviews, 35(1), 123–129. Guyton, A. C., Lindsey, A. W., Abernathy, B. & Richardson, T. (1957). 'Venous return at various right atrial pressures.' American Journal of Physiology, 189(3), 609–615. Guyton, A. C. (1991). 'Blood pressure control — special role of the kidneys and body fluids.' Science, 252(5014), 1813–1816 — the long-term BP synthesis. The model was initially resisted by cardiologists trained to regard the heart as the primary driver of output. Modern critical appraisal: Magder, S. (2006). Journal of Applied Physiology, 101(5), 1523–1525 — the venous return framing is correct but mean systemic pressure is difficult to measure in vivo; the model is analytically powerful but not easily mapped to bedside parameters."
@@ -123,7 +149,10 @@
             51.76,
             -1.26
           ],
-          "links": [],
+          "links": [
+            "st6",
+            "co9"
+          ],
           "hint": "The chemoreceptor theory holds that arterial blood gas composition — principally CO₂ and pH rather than O₂ — is the primary signal regulating ventilation. Central chemoreceptors on the ventral medullary surface respond to changes in cerebrospinal fluid pH driven by CO₂ diffusion; peripheral chemoreceptors in the carotid and aortic bodies respond to PaO₂, PaCO₂ and pH. Rising PaCO₂ is the dominant normal stimulus; hypoxic drive from peripheral receptors dominates only when PaO₂ falls below approximately 60 mmHg.",
           "tag": "THEORY",
           "note": "Haldane, J. S. & Priestley, J. G. (1905). 'The regulation of the lung-ventilation.' Journal of Physiology, 32(3–4), 225–266 — established CO₂ primacy. Peripheral chemoreceptors: Heymans, C. J. F. (1938 Nobel Prize) identified the carotid body; Heymans, C. J. F. & Heymans, J. J. (1927). Archives Internationales de Pharmacodynamie et de Thérapie, 33, 273–372. Central chemoreceptors: Mitchell, R. A. et al. (1963). 'Respiratory responses mediated through superficial chemosensitive areas on the medulla.' Journal of Applied Physiology, 18, 523–533. Clinical caveat: in chronic CO₂ retention, central receptors are reset and peripheral O₂ drive gains clinical importance; supplemental O₂ in severe COPD can suppress ventilation — an effect often overstated in clinical teaching."
@@ -138,7 +167,11 @@
             47.37,
             8.55
           ],
-          "links": [],
+          "links": [
+            "co6",
+            "me6",
+            "db5"
+          ],
           "hint": "The countercurrent multiplier hypothesis explains how the renal medulla generates a hyperosmotic gradient that concentrates urine far beyond what any single nephron segment could achieve alone. Tubular fluid descending in the loop of Henle (permeable to water) equilibrates with a concentrated interstitium; fluid in the ascending limb (which pumps NaCl but is impermeable to water) both dilutes itself and maintains the interstitial gradient. The opposing flows multiply a modest single-segment gradient into a large axial osmolality difference from cortex to papilla.",
           "tag": "MODEL",
           "note": "Kuhn, W. & Ryffel, K. (1942). 'Herstellung konzentrierter Lösungen aus verdünnten durch bloße Membranwirkung.' Hoppe-Seyler's Zeitschrift für Physiologische Chemie, 276(3–4), 145–178 — the theoretical proposal. Wirz, H., Hargitay, B. & Kuhn, W. (1951). 'Lokalisation des Konzentrationsprozesses in der Niere durch direkte Kryoskopie.' Helvetica Physiologica et Pharmacologica Acta, 9(2), 196–207 — direct micro-cryoscopy confirmed increasing medullary osmolality in vivo. Inner medullary mechanism: Kokko, J. P. & Rector, F. C. (1972). Kidney International, 2(4), 214–223 — proposed a passive model relying on urea recycling; this remains debated because the active NaCl pump is absent from the thin ascending limb."
@@ -153,7 +186,11 @@
             52.2,
             0.12
           ],
-          "links": [],
+          "links": [
+            "co7",
+            "fg14",
+            "ap6"
+          ],
           "hint": "Geoffrey Harris's neuroendocrine hypothesis proposed that the hypothalamus controls anterior pituitary secretion not via direct nerve connections but through chemical messenger molecules released into a portal blood system connecting the two structures. Neural information from higher brain centres, stress responses, and circadian inputs is thereby transduced into hormonal signals — integrating the nervous and endocrine systems into a unified neuroendocrine axis. This framework explains how psychological states produce measurable hormonal changes.",
           "tag": "THEORY",
           "note": "Harris, G. W. (1955). Neural Control of the Pituitary Gland. Edward Arnold — the monograph synthesising two decades of evidence. Anatomical demonstration: Green, J. D. & Harris, G. W. (1947). 'The neurovascular link between the neurohypophysis and adenohypophysis.' Journal of Endocrinology, 5(2), 136–146. Chemical confirmation: Guillemin, R. & Schally, A. V. independently isolated TRH (1969), GnRH (1971), and somatostatin (1973), sharing the Nobel Prize in Physiology or Medicine, 1977. Harris, who conceived the hypothesis and spent 30 years proving it, died in 1971 — before the chemical validation was complete and before Nobel eligibility could apply retroactively to deceased scientists."
@@ -168,7 +205,14 @@
             48.85,
             2.34
           ],
-          "links": [],
+          "links": [
+            "st11",
+            "st10",
+            "ef9",
+            "fg12",
+            "fg13",
+            "db1"
+          ],
           "hint": "Claude Bernard's concept of the milieu intérieur holds that complex organisms maintain life by preserving a stable internal environment — blood and extracellular fluid — against fluctuations in the external world. Walter Cannon later named this property 'homeostasis' and described the physiological mechanisms achieving it: negative feedback, antagonistic hormones, and coordinated autonomic responses. Every organ system covered in this folio is ultimately a homeostatic device serving this principle.",
           "tag": "THEORY",
           "note": "Bernard, C. (1865). Introduction à l'étude de la médecine expérimentale. J.-B. Baillière, Paris — the foundational philosophical statement. Bernard, C. (1878). Leçons sur les phénomènes de la vie communs aux animaux et aux végétaux. J.-B. Baillière — the developed account. Cannon, W. B. (1929). 'Organization for physiological homeostasis.' Physiological Reviews, 9(3), 399–431 — coined 'homeostasis.' Cannon, W. B. (1932). The Wisdom of the Body. W. W. Norton. Modern extension: Sterling, P. & Eyer, J. (1988). 'Allostasis: A new paradigm to explain arousal pathology.' In Fisher, S. & Reason, J. (Eds.), Handbook of Life Stress, Cognition and Health. Wiley, 629–649 — 'allostasis' as a dynamic, predictive form of homeostasis that challenges the static set-point model; the homeostasis vs. allostasis distinction remains actively debated."
@@ -194,7 +238,12 @@
             50.37,
             -4.14
           ],
-          "links": [],
+          "links": [
+            "th1",
+            "me1",
+            "fg4",
+            "fg5"
+          ],
           "repl": "robust",
           "hint": "Using voltage-clamp technique on the squid giant axon, Hodgkin and Huxley resolved the separate time courses of sodium influx and potassium efflux during an action potential. They derived a set of differential equations that quantitatively reproduced the shape, conduction velocity, and refractory period of the action potential. Published as a four-paper series, this was the first complete biophysical model of an electrical signal in a living cell.",
           "tag": "EXPERIMENT",
@@ -210,7 +259,10 @@
             52.2,
             0.12
           ],
-          "links": [],
+          "links": [
+            "th3",
+            "fg5"
+          ],
           "repl": "robust",
           "hint": "Using electron microscopy on glycerol-extracted muscle fibres, Hugh Huxley and Jean Hanson showed that the A-band width (myosin) remains constant during both contraction and stretch while the I-band narrows or widens — directly refuting the folding-filament model and demonstrating that shortening occurs by filaments sliding past each other. Published simultaneously with A.F. Huxley & Niedergerke's interference-microscopy study in the same issue of Nature, both papers appeared on the same day in April 1954.",
           "tag": "EXPERIMENT",
@@ -226,7 +278,10 @@
             51.52,
             -0.1
           ],
-          "links": [],
+          "links": [
+            "co3",
+            "fg1"
+          ],
           "repl": "robust",
           "hint": "Harvey's treatise demonstrated by quantitative argument and animal dissection that blood circulates continuously in a closed loop rather than being perpetually produced and consumed. He calculated that the heart ejects more blood per hour than the body contains — making Galenic 'consumption' physically impossible — and showed by arterial ligation and venous valve dissection that blood can only travel from heart to periphery to veins and back. This was the first quantitative argument in physiology and the founding text of cardiovascular science.",
           "tag": "EXPERIMENT",
@@ -242,7 +297,10 @@
             51.52,
             -0.13
           ],
-          "links": [],
+          "links": [
+            "th4",
+            "fg3"
+          ],
           "repl": "robust",
           "hint": "Starling's isolated heart-lung preparation allowed independent control of venous filling pressure, arterial outflow resistance, and coronary perfusion in an intact mammalian heart with the nervous system excluded. Using it, Patterson, Piper and Starling demonstrated that stroke volume increases as venous filling pressure rises, even with heart rate held constant — providing definitive proof of the intrinsic length-tension relationship of cardiac muscle that now bears Starling's name.",
           "tag": "EXPERIMENT",
@@ -258,7 +316,10 @@
             55.68,
             12.57
           ],
-          "links": [],
+          "links": [
+            "ef1",
+            "fg2"
+          ],
           "repl": "robust",
           "hint": "August Krogh showed that the majority of capillaries in resting skeletal muscle are collapsed and that capillary recruitment — opening of previously closed capillaries — is the primary mechanism by which muscle perfusion rises during exercise, not merely increased velocity in already-open vessels. He also derived the 'Krogh cylinder model' of tissue oxygenation, describing the geometry of O₂ delivery from a single capillary to surrounding muscle, and quantifying the relationship between capillary density and maximal O₂ consumption.",
           "tag": "EXPERIMENT",
@@ -274,7 +335,11 @@
             51.76,
             -1.26
           ],
-          "links": [],
+          "links": [
+            "th7",
+            "fg6",
+            "db4"
+          ],
           "repl": "robust",
           "hint": "By measuring alveolar gas composition in subjects breathing air with systematically varied CO₂ and O₂ concentrations, Haldane and Priestley showed that small rises in alveolar CO₂ produce proportionally large increases in minute ventilation, while reduction in O₂ has little effect until it becomes severe. This directly refuted the prevailing view that oxygen lack was the primary respiratory stimulus and established the CO₂/pH framework underlying all modern ventilatory control physiology.",
           "tag": "EXPERIMENT",
@@ -290,7 +355,9 @@
             59.35,
             18.02
           ],
-          "links": [],
+          "links": [
+            "fg8"
+          ],
           "repl": "robust",
           "hint": "Von Euler and Liljestrand discovered that pulmonary arteries — uniquely in the body — constrict in response to local alveolar hypoxia rather than dilating. In a poorly ventilated lung region this hypoxic pulmonary vasoconstriction (HPV) diverts blood flow away from under-ventilated alveoli toward better-ventilated ones, optimising the ventilation-perfusion ratio and preventing blood from bypassing gas exchange. The response is the opposite of every other tissue vascular bed in the body.",
           "tag": "EXPERIMENT",
@@ -306,7 +373,11 @@
             40.74,
             -73.97
           ],
-          "links": [],
+          "links": [
+            "co6",
+            "me4",
+            "fg9"
+          ],
           "repl": "robust",
           "hint": "Homer Smith established inulin — a fructose polysaccharide freely filtered at the glomerulus but neither reabsorbed nor secreted by the tubules — as the gold-standard marker for measuring the glomerular filtration rate. By simultaneously measuring inulin clearance and para-aminohippurate clearance (which is completely secreted and measures renal plasma flow), Smith derived the full framework of filtered load, tubular reabsorption, secretion, and net excretion that underlies all of clinical nephrology.",
           "tag": "EXPERIMENT",
@@ -322,7 +393,11 @@
             43.66,
             -79.4
           ],
-          "links": [],
+          "links": [
+            "fg10",
+            "ap4",
+            "db6"
+          ],
           "repl": "robust",
           "hint": "Frederick Banting and Charles Best extracted a pancreatic secretion from dogs with ligated ducts and demonstrated that it reversed the coma and hyperglycaemia of experimental diabetes mellitus. On 11 January 1922 they administered the purified extract to Leonard Thompson, a 14-year-old diabetic boy, producing the first successful treatment of human diabetes. This established beta cells of the islets of Langerhans as the source of a blood-glucose-lowering hormone and created the entire framework of pancreatic endocrinology.",
           "tag": "EXPERIMENT",
@@ -338,7 +413,11 @@
             45.51,
             -73.58
           ],
-          "links": [],
+          "links": [
+            "th10",
+            "db8",
+            "db1"
+          ],
           "repl": "mixed",
           "hint": "Hans Selye proposed that the body responds to any physical stressor — cold, infection, injury, toxins — with a stereotyped three-phase response: an alarm reaction (acute cortisol and adrenaline surge), a resistance phase (sustained cortisol-driven adaptation), and exhaustion (collapse of adaptive capacity). The GAS concept established that chronic stress has measurable physiological costs and that different stressors share a common hormonal pathway, founding the field of stress physiology.",
           "tag": "EXPERIMENT",
@@ -354,7 +433,12 @@
             42.34,
             -71.1
           ],
-          "links": [],
+          "links": [
+            "th10",
+            "fg13",
+            "db8",
+            "db1"
+          ],
           "repl": "mixed",
           "hint": "Cannon demonstrated that threatening stimuli trigger a coordinated sympathetic-adrenal response — elevated heart rate, blood pressure, glucose mobilisation, bronchodilation, and blood flow redirection from gut to muscle — preparing the organism for vigorous physical action. He named this the 'fight-or-flight' response and identified adrenaline released from the adrenal medulla as the primary mediator, establishing that the autonomic nervous system uses hormones as well as nerve signals.",
           "tag": "EXPERIMENT",
@@ -381,7 +465,11 @@
             51.52,
             -0.13
           ],
-          "links": [],
+          "links": [
+            "st5",
+            "db2",
+            "fg3"
+          ],
           "repl": "robust",
           "hint": "The Starling-Landis principle states that fluid movement across the capillary wall is governed by the balance between hydrostatic pressure (pushing fluid out) and oncotic pressure (drawing fluid in) on each side of the wall. Under normal conditions, net filtration slightly exceeds reabsorption and the excess is returned by the lymphatics. Oedema results when the balance is disrupted by elevated venous hydrostatic pressure, reduced plasma oncotic pressure (hypoalbuminaemia), or lymphatic obstruction. The net filtration equation — Kf × [(Pc − Pi) − σ(πc − πi)] — encodes all four of these variables, which must each be considered in diagnosing oedematous states.",
           "tag": "EFFECT",
@@ -397,7 +485,10 @@
             55.68,
             12.57
           ],
-          "links": [],
+          "links": [
+            "ef3",
+            "co9"
+          ],
           "repl": "robust",
           "hint": "The Bohr effect is the rightward shift of the oxyhaemoglobin dissociation curve when CO₂ rises or pH falls. At the systemic capillaries, tissues produce CO₂ and metabolic acid; the resulting pH fall reduces haemoglobin's affinity for O₂, releasing more O₂ precisely where it is needed most. In the pulmonary capillaries, CO₂ is exhaled and pH rises, causing haemoglobin to recapture O₂ avidly. The Bohr effect therefore ensures that O₂ delivery automatically increases in proportion to local metabolic activity — a form of built-in, passive demand sensing.",
           "tag": "EFFECT",
@@ -413,7 +504,10 @@
             51.76,
             -1.26
           ],
-          "links": [],
+          "links": [
+            "ef2",
+            "fg6"
+          ],
           "repl": "robust",
           "hint": "The Haldane effect states that deoxygenated haemoglobin carries more CO₂ than oxygenated haemoglobin at the same CO₂ partial pressure. When haemoglobin releases O₂ at the tissues, it becomes a better buffer (accepting H⁺, shifting the bicarbonate equilibrium toward CO₂ uptake) and forms more carbamino-CO₂ (binding CO₂ at terminal amines). This amplifies CO₂ removal: venous blood picks up substantially more CO₂ per unit of CO₂ partial pressure than arterial blood would. The Haldane and Bohr effects are physiological mirrors of the same allosteric mechanism seen from opposite directions.",
           "tag": "EFFECT",
@@ -429,7 +523,10 @@
             51.52,
             -0.13
           ],
-          "links": [],
+          "links": [
+            "co2",
+            "ap3"
+          ],
           "repl": "robust",
           "hint": "The Gibbs-Donnan equilibrium describes the unequal distribution of diffusible ions across a semipermeable membrane when one side contains non-diffusible charged molecules (proteins, polyanionic glycosaminoglycans). Protein anions attract cations and repel anions on the same side, so the total ion concentration is higher on the protein-containing side, creating an osmotic pressure (oncotic pressure) and a stable membrane voltage (Donnan potential). In physiology, the Donnan effect contributes to the resting membrane potential, governs red-cell ion balance, and drives the Hamburger chloride shift during CO₂ loading.",
           "tag": "EFFECT",
@@ -445,7 +542,11 @@
             51.52,
             -0.13
           ],
-          "links": [],
+          "links": [
+            "th6",
+            "ap2",
+            "db3"
+          ],
           "repl": "robust",
           "hint": "The Bayliss myogenic response is the intrinsic tendency of vascular smooth muscle to contract when intraluminal pressure rises and to relax when pressure falls, independent of nerves, endothelium, or circulating hormones. It is the primary mechanism of cerebral and renal autoregulation: when arterial pressure rises, afferent arterioles constrict to maintain constant tissue blood flow across a wide range of pressures (approximately 60–150 mmHg in the cerebral circulation). This intrinsic property means that organ blood flow is buffered against systemic pressure swings without requiring any reflex arc.",
           "tag": "EFFECT",
@@ -461,7 +562,10 @@
             42.34,
             -71.1
           ],
-          "links": [],
+          "links": [
+            "th3",
+            "co8"
+          ],
           "repl": "robust",
           "hint": "The Bowditch staircase (Treppe) describes the progressive increase in cardiac muscle contraction force with repetitive stimulation at constant rate after a period of rest — each successive beat is stronger than the last until a plateau is reached. The mechanism is calcium-dependent: at higher frequencies less Ca²⁺ is expelled between beats, leading to progressive sarcoplasmic reticulum calcium loading and stronger releases with each action potential. This frequency-dependent potentiation is distinct from the Frank-Starling effect (which responds to filling volume) and from sympathetic inotropism.",
           "tag": "EFFECT",
@@ -477,7 +581,11 @@
             59.85,
             17.64
           ],
-          "links": [],
+          "links": [
+            "th5",
+            "fg2",
+            "db2"
+          ],
           "repl": "robust",
           "hint": "The Fåhraeus-Lindqvist effect is the fall in apparent blood viscosity as vessel diameter decreases below approximately 0.3 mm. In arterioles and capillaries, red blood cells migrate toward the axial stream, creating a cell-poor plasma sleeve at the vessel wall. Since viscosity depends on local red-cell concentration, the apparent viscosity measured from the pressure-flow relationship progressively decreases. Poiseuille's law therefore overestimates microvascular resistance when applied using whole-blood viscosity values derived from large vessels.",
           "tag": "EFFECT",
@@ -493,7 +601,9 @@
             48.21,
             16.37
           ],
-          "links": [],
+          "links": [
+            "db4"
+          ],
           "repl": "robust",
           "hint": "The Hering-Breuer inflation reflex is the slowing or arrest of inspiration triggered by pulmonary stretch receptors (slowly adapting mechanoreceptors in airway smooth muscle) that fire proportionally to lung volume. Afferent signals travel via the vagus nerve to the medullary inspiratory centre, inhibiting further inspiratory neuron firing and terminating the breath. The reflex prevents overinflation. In anaesthetised animals and sleeping neonates the reflex governs tidal volume; in awake adult humans it is active only at large tidal volumes above approximately 1 litre, and does not normally pace the breathing rhythm.",
           "tag": "EFFECT",
@@ -509,7 +619,10 @@
             39.3,
             -76.59
           ],
-          "links": [],
+          "links": [
+            "th10",
+            "db1"
+          ],
           "repl": "robust",
           "hint": "The Cushing reflex is the cardiovascular response to severely raised intracranial pressure: systemic hypertension, bradycardia, and irregular breathing (Cushing's triad). When ICP approaches mean arterial pressure and cerebral perfusion pressure falls critically, ischaemia of the medullary vasomotor centre triggers maximal sympathetic outflow — acutely raising arterial pressure above ICP to restore perfusion. The resulting hypertension activates baroreceptors, producing reflex bradycardia. Clinically, Cushing's triad signals impending transtentorial herniation — the brain's emergency mechanism for self-rescue — and demands immediate action.",
           "tag": "EFFECT",
@@ -525,7 +638,10 @@
             44.49,
             11.34
           ],
-          "links": [],
+          "links": [
+            "co3",
+            "me2"
+          ],
           "repl": "robust",
           "hint": "The Valsalva manoeuvre — forced expiration against a closed glottis — produces a stereotyped four-phase cardiovascular response that stress-tests autonomic and baroreflex function. Phase I: raised intrathoracic pressure transiently squeezes blood from the thorax → brief BP rise. Phase II early: impeded venous return reduces stroke volume → falling BP and reflex tachycardia. Phase II late: sympathetic arteriolar constriction partially restores BP. Phase III: on release, the pulmonary vasculature re-expands → brief further BP dip. Phase IV: venous return floods back → BP overshoot above baseline, triggering baroreceptor-mediated bradycardia. Absent Phase IV overshoot and bradycardia indicates autonomic failure.",
           "tag": "EFFECT",
@@ -552,7 +668,11 @@
             51.52,
             -0.13
           ],
-          "links": [],
+          "links": [
+            "th1",
+            "me1",
+            "ap5"
+          ],
           "hint": "The action potential is the all-or-none, self-propagating electrical signal that underlies rapid communication in nerve and muscle. Its phases — resting potential, depolarisation (Na⁺ influx through voltage-gated channels), overshoot, repolarisation (K⁺ efflux), afterhyperpolarisation, and return to rest — arise from the precise voltage-dependent kinetics described by the Hodgkin-Huxley model. Key properties: threshold (below which no action potential fires), absolute and relative refractory periods (enforcing unidirectional propagation and setting a maximum firing rate), and conduction velocity (faster in larger-diameter, myelinated axons because saltatory conduction jumps between nodes of Ranvier).",
           "tag": "CONCEPT",
           "note": "Bernstein, J. (1902). 'Untersuchungen zur Thermodynamik der bioelektrischen Ströme.' Pflügers Archiv, 92, 521–562 — the membrane hypothesis: bioelectric potentials arise from selective ion permeability. Overton, E. (1902) independently proposed ionic theory of excitability. Full ionic characterisation: Hodgkin, A. L. & Katz, B. (1949). 'The effect of sodium ions on the electrical activity of the giant axon of the squid.' Journal of Physiology, 108(1), 37–77. Comprehensive model: Hodgkin, A. L. & Huxley, A. F. (1952). Journal of Physiology, 117, 500–544 — four-paper series. Myelin and saltatory conduction: Lillie, R. S. (1925); Tasaki, I. (1939) demonstrated saltatory conduction in myelinated fibres. Channel proteins cloned: Noda, M. et al. (1984). Nature, 312, 121–127 — Nav1 sodium channel; Timpe, L. C. et al. (1988). Nature, 331, 143–145 — Shaker potassium channel."
@@ -567,7 +687,11 @@
             50.37,
             -4.14
           ],
-          "links": [],
+          "links": [
+            "th1",
+            "ef4",
+            "ap5"
+          ],
           "hint": "The resting membrane potential (approximately −70 mV in neurons, −90 mV in skeletal muscle, −85 mV in ventricular cardiomyocytes) arises from unequal ion distributions across the plasma membrane and selective resting permeability. The Goldman-Hodgkin-Katz equation predicts the equilibrium potential from relative permeabilities and concentrations of Na⁺, K⁺, and Cl⁻. At rest, K⁺ permeability dominates and pulls the potential toward the K⁺ equilibrium potential (approximately −94 mV); Na⁺ leak conductance and the electrogenic Na⁺/K⁺-ATPase (exporting 3 Na⁺ for 2 K⁺) hold the actual resting value slightly depolarised relative to equilibrium. The Na⁺/K⁺-ATPase also continuously replenishes the ion gradients, consuming approximately 30% of the cell's total ATP.",
           "tag": "CONCEPT",
           "note": "Nernst, W. (1888). 'Zur Kinetik der in Lösung befindlichen Körper.' Zeitschrift für Physikalische Chemie, 2, 613–637 — the Nernst equation for single-ion equilibrium potentials. Goldman, D. E. (1943). 'Potential, impedance, and rectification in membranes.' Journal of General Physiology, 27(1), 37–60. Hodgkin, A. L. & Katz, B. (1949). Journal of Physiology, 108(1), 37–77 — derived the GHK equation and tested it in squid axon. Na⁺/K⁺-ATPase: Skou, J. C. (1957). Biochimica et Biophysica Acta, 23(2), 394–401 — Nobel Prize in Chemistry, 1997. Cardiac pacemaker adaptation: the resting membrane potential concept must be modified for sino-atrial node cells, which have no stable resting potential but instead undergo spontaneous diastolic depolarisation (the 'funny current', If) — a second messenger-gated Na⁺/K⁺ channel (HCN4). Brown, H. F., DiFrancesco, D. & Noble, S. J. (1979). Nature, 280, 235–236."
@@ -582,7 +706,15 @@
             51.52,
             -0.1
           ],
-          "links": [],
+          "links": [
+            "th4",
+            "th6",
+            "ef10",
+            "st3",
+            "fg1",
+            "me2",
+            "db3"
+          ],
           "hint": "Cardiac output (CO = heart rate × stroke volume, normally ~5 L/min at rest) is the volume of blood pumped per minute. Stroke volume is determined by three independent variables: preload (end-diastolic volume — the degree of ventricular filling, governed by venous return and the Frank-Starling law), afterload (the arterial resistance the ventricle must overcome during ejection), and contractility (the intrinsic force-generating capacity of the myocardium, augmented by sympathetic stimulation and calcium-sensitising agents). Understanding these four determinants (HR, preload, afterload, contractility) is the framework for all cardiovascular pharmacology, critical care haemodynamics, and echocardiographic assessment.",
           "tag": "CONCEPT",
           "note": "Harvey, W. (1628). De Motu Cordis — first quantified cardiac output by estimating stroke volume × rate. The determinant framework was synthesised by Starling, E. H. (1918). 'The Linacre Lecture on the Law of the Heart.' Macmillan; and by Guyton, A. C. (1963). 'Venous return.' In: Hamilton, W. F. (Ed.), Handbook of Physiology: Circulation. American Physiological Society, vol. 2, 1099–1133. Contractility operationally defined by end-systolic elastance (Ees) — the slope of the end-systolic pressure-volume relationship: Suga, H., Sagawa, K. & Shoukas, A. A. (1973). 'Load independence of the instantaneous pressure-volume ratio of the canine left ventricle.' Circulation Research, 32(3), 314–322. Clinical note: 'contractility' is often loosely used to mean both intrinsic myocardial performance and measured ejection fraction; these diverge significantly in conditions with altered loading (e.g., severe aortic regurgitation where EF is high despite impaired myocardium)."
@@ -597,7 +729,12 @@
             47.37,
             8.55
           ],
-          "links": [],
+          "links": [
+            "th5",
+            "me3",
+            "db7",
+            "ap1"
+          ],
           "hint": "Lung compliance is the change in volume per unit change in transmural pressure (ΔV/ΔP); a highly compliant lung inflates easily (emphysema) while a stiff lung (pulmonary fibrosis, ARDS, pulmonary oedema) requires more pressure per breath. Airway resistance is opposition to airflow determined by calibre and length of conducting airways (Poiseuille's law); resistance is dramatically elevated in asthma and COPD. Work of breathing against elastic and resistive forces determines the O₂ cost of ventilation, which in respiratory failure can exceed 30% of total O₂ consumption, precipitating muscle fatigue and ventilatory failure. Optimum tidal volume and rate minimise total work.",
           "tag": "CONCEPT",
           "note": "Rohrer, F. (1915). 'Der Strömungswiderstand in den menschlichen Atemwegen und der Einfluss der unregelmässigen Verzweigung des Bronchialsystems.' Pflügers Archiv, 162, 225–299 — first mathematical model of airway resistance. Surface tension contribution to compliance: von Neergaard, K. (1929). 'Neue Auffassungen über einen Grundbegriff der Atemmechanik.' Zeitschrift für die gesamte experimentelle Medizin, 66(1), 373–394 — demonstrated that surface tension accounts for ~70% of lung elastic recoil. Pulmonary surfactant: Pattle, R. E. (1955). Nature, 175, 1125–1126; Clements, J. A. (1957). Proceedings of the Society for Experimental Biology and Medicine, 95(1), 170–172 — characterised the surface-active alveolar lining. Clinical application: Webb, H. H. & Tierney, D. F. (1974). 'Experimental pulmonary edema due to intermittent positive pressure ventilation.' American Review of Respiratory Disease, 110(5), 556–565 — established volutrauma as the mechanism of ventilator-induced lung injury; led to lung-protective ventilation strategies (ARDSNet, 2000)."
@@ -627,7 +764,15 @@
             39.95,
             -75.19
           ],
-          "links": [],
+          "links": [
+            "th8",
+            "st8",
+            "me4",
+            "me6",
+            "db5",
+            "ap2",
+            "ap3"
+          ],
           "hint": "The nephron achieves urine formation through three sequential processes: glomerular filtration (producing ~125 mL/min of protein-free ultrafiltrate, governed by Starling forces across the fenestrated glomerular capillary and podocyte filtration barrier), tubular reabsorption (reclaiming ~99% of filtered water, Na⁺, glucose, and amino acids), and tubular secretion (adding organic acids, drugs, and K⁺ from peritubular capillaries to tubular fluid). Clearance — the volume of plasma completely cleared of a substance per minute — is the conceptual tool: clearance equal to GFR means neither reabsorption nor secretion; below GFR means net reabsorption; above GFR means net secretion.",
           "tag": "CONCEPT",
           "note": "Richards, A. N. (1924). 'Methods and results of direct investigations of the function of the kidney.' Harvey Lecture, Harvey Society, New York — founded the micropuncture approach to nephron physiology. Smith, H. W. (1951). The Kidney: Structure and Function in Health and Disease. Oxford University Press — the synthesis of clearance-based renal physiology. Koeppen, B. M. & Stanton, B. A. (Eds.) (2019). Renal Physiology, 6th ed. Elsevier. Glomerular filtration barrier structure: Rodewald, R. & Karnovsky, M. J. (1974). 'Porous substructure of the glomerular slit diaphragm in the rat and mouse.' Journal of Cell Biology, 60(2), 423–433. Podocin and nephrin as key barrier proteins: Ruotsalainen, V. et al. (1999). Science, 286(5438), 312–315. Clinical note: eGFR formulas (MDRD, CKD-EPI) estimate GFR from creatinine, age, sex, and race; CKD-EPI 2021 removed the race coefficient after evidence that it systematically underestimated GFR in Black patients."
@@ -642,7 +787,14 @@
             52.2,
             0.12
           ],
-          "links": [],
+          "links": [
+            "th9",
+            "fg14",
+            "me5",
+            "db6",
+            "db8",
+            "ap6"
+          ],
           "hint": "Endocrine regulation operates through three-tier hypothalamic-pituitary-target-organ axes: a releasing hormone from the hypothalamus stimulates a trophic hormone from the anterior pituitary, which stimulates the target organ. Negative feedback from the target hormone closes the loop at both hypothalamus and pituitary, maintaining set-point concentrations. The HPA (stress), HPT (thyroid), and HPG (gonadal) axes each follow this blueprint. Disruption of negative feedback produces predictable failure patterns: primary failure (target organ) elevates trophic hormones; secondary failure (pituitary) reduces both trophic and target hormones; tertiary failure (hypothalamus) reduces all three — enabling anatomical diagnosis from blood tests alone.",
           "tag": "CONCEPT",
           "note": "Harris, G. W. (1955). Neural Control of the Pituitary Gland. Edward Arnold — established that hypothalamic releasing hormones control anterior pituitary function. Chemical characterisation: Guillemin, R. & Schally, A. V. independently isolated TRH (1969), GnRH (1971), and somatostatin (1973), Nobel Prize 1977. Negative feedback confirmed for the HPA axis: Yates, F. E. & Urquhart, J. (1962). 'Control of plasma concentrations of adrenocortical hormones.' Physiological Reviews, 42(3), 359–443. Cortisol diurnal rhythm driven by CRH pulse frequency: Veldhuis, J. D. et al. (1989). Journal of Clinical Endocrinology and Metabolism, 68(6), 1231–1240. Clinical translation: the 'secondary vs. primary' distinction is the foundation of endocrine diagnostics; failure to recognise secondary adrenal insufficiency (low cortisol + low ACTH) from tertiary (low cortisol + low ACTH + known pituitary/hypothalamic disease) has serious therapeutic implications."
@@ -657,7 +809,9 @@
             55.95,
             -3.19
           ],
-          "links": [],
+          "links": [
+            "ef6"
+          ],
           "hint": "The neuromuscular junction is the chemical synapse between the motor neuron terminal and the motor endplate of a skeletal muscle fibre. A motor neuron action potential triggers Ca²⁺ influx through presynaptic voltage-gated Ca²⁺ channels (Cav2.1), causing quantal acetylcholine release into the synaptic cleft. ACh binds nicotinic AChRs (AChR-n), generating an endplate potential reliably large enough (~50 mV) to fire a muscle action potential — the NMJ safety factor is high, typically 3–5. Acetylcholinesterase hydrolyses ACh within milliseconds. The high safety factor means that NMJ diseases must eliminate a majority of receptors before neuromuscular transmission fails clinically.",
           "tag": "CONCEPT",
           "note": "ACh as NMJ transmitter: Dale, H. H., Feldberg, W. & Vogt, M. (1936). 'Release of acetylcholine at voluntary motor nerve endings.' Journal of Physiology, 86(4), 353–380 — Nobel Prize shared with Loewi, 1936. Quantal release: Fatt, P. & Katz, B. (1952). 'Spontaneous subthreshold activity at motor nerve endings.' Journal of Physiology, 117(1), 109–128; Katz, B. & Miledi, R. (1967). 'The timing of calcium action during neuromuscular transmission.' Journal of Physiology, 189(3), 535–544. AChR structure: Noda, M. et al. (1982). Nature, 299, 793–797 — cloned the nicotinic AChR subunits. Clinical diseases: myasthenia gravis (autoantibodies to AChRs or MuSK, impairs transmission) versus Lambert-Eaton syndrome (autoantibodies to Cav2.1, impairs ACh release) — the distinction between pre- and postsynaptic NMJ failure is diagnostically and therapeutically critical. Curariform drugs (rocuronium, vecuronium) compete with ACh at the postsynaptic receptor."
@@ -672,7 +826,12 @@
             40.81,
             -73.96
           ],
-          "links": [],
+          "links": [
+            "th7",
+            "ef2",
+            "fg8",
+            "db4"
+          ],
           "hint": "Gas exchange efficiency depends not just on total ventilation and perfusion but on how well they are matched in individual alveolar units. The V̇/Q̇ ratio determines the O₂ and CO₂ composition of blood leaving each unit. Dead space (V̇/Q̇ → ∞, ventilated but not perfused) wastes ventilation; shunt (V̇/Q̇ = 0, perfused but not ventilated) wastes perfusion and cannot be rescued by supplemental O₂ alone because shunted blood bypasses alveoli entirely. In the upright lung, gravity increases both ventilation and perfusion from apex to base, but perfusion increases more steeply, so V̇/Q̇ falls from apex (~3) to base (~0.6). Hypoxic pulmonary vasoconstriction is the key mechanism minimising V̇/Q̇ mismatch.",
           "tag": "CONCEPT",
           "note": "Riley, R. L. & Cournand, A. (1951). 'Analysis of factors affecting partial pressures of oxygen and carbon dioxide in gas and blood of lungs.' Journal of Applied Physiology, 4(2), 77–101 — the mathematical treatment of V/Q inequality. Multiple inert gas elimination technique (MIGET): Wagner, P. D., Saltzman, H. A. & West, J. B. (1974). Journal of Applied Physiology, 36(5), 588–599 — resolves the full V/Q distribution across hundreds of lung units in vivo. West, J. B. (2012). Respiratory Physiology: The Essentials, 9th ed. Lippincott Williams & Wilkins. Clinical relevance: the PaO₂-FiO₂ ratio (P/F ratio) used in ARDS severity grading is a crude index of V̇/Q̇ mismatch and shunt; a P/F < 300 with bilateral infiltrates and no cardiogenic explanation defines ARDS (Berlin Definition, 2012, JAMA, 307(23), 2526–2533). Shunt does not respond to supplemental O₂ because 100% O₂ cannot oxygenate blood flowing through unventilated units."
@@ -698,7 +857,10 @@
             50.37,
             -4.14
           ],
-          "links": [],
+          "links": [
+            "st1",
+            "co1"
+          ],
           "hint": "The voltage clamp holds the membrane potential constant by injecting an equal and opposite current to whatever the membrane conducts, allowing isolation and measurement of individual ion currents. Hodgkin and Huxley used it (1952) to separate Na⁺ and K⁺ conductances during the action potential. The patch clamp (Neher & Sakmann, 1976) extends this to single ion channels: a fire-polished pipette forms a gigaohm seal with the membrane, and current through individual channels is resolved in real time. Four patch-clamp configurations (cell-attached, whole-cell, inside-out, outside-out) allow study of single-channel and whole-cell currents under controlled intracellular and extracellular ionic conditions.",
           "tag": "TECHNIQUE",
           "note": "Voltage clamp: Cole, K. S. (1949). 'Dynamic electrical characteristics of the squid axon membrane.' Archives des Sciences Physiologiques, 3, 253–258 — the technical invention. Marmont, G. (1949). 'Studies on the axon membrane.' Journal of Cellular and Comparative Physiology, 34(3), 351–382 — further development. Hodgkin & Huxley applied it in their four-paper series (1952). Patch clamp: Neher, E. & Sakmann, B. (1976). 'Single-channel currents recorded from membrane of denervated frog muscle fibres.' Nature, 260, 799–802. Nobel Prize in Physiology or Medicine, 1991 (Neher & Sakmann). Gigaohm seal: Hamill, O. P. et al. (1981). 'Improved patch-clamp techniques for high-resolution current recording from cells and cell-free membrane patches.' Pflügers Archiv, 391(2), 85–100 — the technical paper establishing the standard configurations. Automated patch clamp: Milligan, C. J. et al. (2009). Nature Protocols, 4, 244–255 — high-throughput robotic patch platforms for ion channel pharmacology."
@@ -713,7 +875,10 @@
             52.83,
             13.82
           ],
-          "links": [],
+          "links": [
+            "ef10",
+            "co3"
+          ],
           "hint": "Cardiac catheterisation inserts a pressure-transducing catheter into heart chambers via peripheral vessels, enabling direct measurement of pressures in each chamber and across valves, and calculation of cardiac output by the Fick principle (CO = O₂ consumption ÷ arteriovenous O₂ difference) or thermodilution. Pressure-volume (PV) loops — plotting ventricular pressure against instantaneous volume through one cardiac cycle — are the gold standard for quantifying preload-independent contractility (end-systolic PV relationship, ESPVR), diastolic compliance (EDPVR), and external mechanical work (area of the PV loop). Measurement requires a conductance catheter (electrical admittance-based volume) combined with high-fidelity pressure transduction.",
           "tag": "METHOD",
           "note": "Self-catheterisation: Forssmann, W. (1929). 'Die Sondierung des rechten Herzens.' Klinische Wochenschrift, 8(45), 2085–2087 — Nobel Prize in Physiology or Medicine, 1956 (shared with Cournand and Richards). Cournand, A. & Ranges, H. A. (1941). 'Catheterization of the right auricle in man.' Proceedings of the Society for Experimental Biology and Medicine, 46(3), 462–466 — established right-heart catheterisation as a clinical tool. PV loops: Suga, H. & Sagawa, K. (1974). 'Instantaneous pressure-volume relationships and their ratio in the excised, supported canine left ventricle.' Circulation Research, 35(1), 117–126 — defined ESPVR and pressure-volume area. Swan, H. J. C. et al. (1970). 'Catheterization of the heart in man with use of a flow-directed balloon-tipped catheter.' New England Journal of Medicine, 283(9), 447–451 — the pulmonary artery (Swan-Ganz) catheter for bedside haemodynamic monitoring; clinical use has declined since RCTs showed no benefit and potential harm in general ICU patients (Sandham, J. D. et al. 2003. NEJM, 348, 5–14)."
@@ -728,7 +893,11 @@
             51.52,
             -0.1
           ],
-          "links": [],
+          "links": [
+            "co4",
+            "db7",
+            "ap1"
+          ],
           "hint": "Spirometry measures volumes and flow rates of air during defined breathing manoeuvres. Key indices: FVC (forced vital capacity), FEV₁ (forced expired volume in 1 second), and FEV₁/FVC — below 0.70 indicating obstruction (asthma, COPD) and preserved but with proportionally reduced FVC indicating restriction. The flow-volume loop shape (concave expiratory limb in obstruction, symmetric but small loop in restriction) adds pattern recognition. Body plethysmography encloses the subject in an airtight box and applies Boyle's law to measure functional residual capacity, residual volume, and total lung capacity — volumes spirometry cannot access.",
           "tag": "METHOD",
           "note": "Hutchinson, J. (1846). 'On the capacity of the lungs, and on the respiratory functions, with a view of establishing a precise and easy method of detecting disease by the spirometer.' Medico-Chirurgical Transactions, 29, 137–252 — invented the spirometer and measured vital capacity in 2,000 men, noting its decline with disease. FEV₁: Tiffeneau, R. & Pinelli, A. (1947). 'Air circulant et air captif dans l'exploration de la fonction ventilatoire pulmonaire.' Paris Médicale, 133, 624–628 — the FEV₁ concept. Body plethysmography: DuBois, A. B. et al. (1956). 'A rapid plethysmographic method for measuring thoracic gas volume.' Journal of Clinical Investigation, 35(3), 322–326. ATS/ERS standardisation: Miller, M. R. et al. (2005). European Respiratory Journal, 26(2), 319–338. Limitation: spirometry requires effort-dependent manoeuvres; reference values carry systematic biases from the populations used to derive them — the most widely used GLI-2012 equations (European cohorts) may not apply equally across all ethnicities."
@@ -743,7 +912,12 @@
             40.74,
             -73.97
           ],
-          "links": [],
+          "links": [
+            "st8",
+            "fg9",
+            "co6",
+            "ap3"
+          ],
           "hint": "Renal clearance (C = U × V̇ / P, where U is urinary concentration, V̇ is urine flow, and P is plasma concentration) is the volume of plasma completely cleared of a substance per minute. Inulin clearance equals GFR because inulin is freely filtered and neither secreted nor reabsorbed. Para-aminohippurate (PAH) clearance at low plasma concentrations equals effective renal plasma flow because it is almost completely extracted in one pass. Together, inulin and PAH clearance define the filtered fraction and allow calculation of net tubular secretion or reabsorption for any other substance by comparing its clearance to inulin clearance.",
           "tag": "METHOD",
           "note": "Smith, H. W., Goldring, W. & Chasis, H. (1938). 'The measurement of the tubular excretory mass, effective blood flow and filtration rate in the normal human kidney.' Journal of Clinical Investigation, 17(3), 263–278 — standardised inulin and PAH clearance methods in humans. Smith, H. W. (1956). Principles of Renal Physiology. Oxford University Press. Clinical approximations: creatinine clearance slightly overestimates GFR because creatinine is secreted by the proximal tubule; in advanced CKD this secretory fraction can represent 40–50% of urinary creatinine, causing serious overestimation. CKD-EPI eGFR equations (Levey, A. S. et al. 2009. Annals of Internal Medicine, 150(9), 604–612) correct for demographic factors. Cystatin C-based eGFR equations (Inker, L. A. et al. 2012. NEJM, 367, 20–29) are less affected by muscle mass variations and are increasingly recommended for diagnostic clarity."
@@ -758,7 +932,9 @@
             40.84,
             -73.88
           ],
-          "links": [],
+          "links": [
+            "co7"
+          ],
           "hint": "Radioimmunoassay (RIA) uses competitive binding between radiolabelled antigen and unlabelled sample antigen for a fixed supply of antibody. As unlabelled hormone concentration rises, it displaces labelled antigen, reducing the radioactive signal — allowing quantification at femtomolar concentrations. RIA made it possible to measure circulating insulin, thyroid hormones, and cortisol for the first time, transforming endocrinology from a discipline of clinical inference into one of direct biochemical measurement. Modern enzyme-linked immunosorbent assay (ELISA) and chemiluminescent immunoassay (CLIA) replace radioactivity with enzyme-linked or fluorescent reporters, achieving comparable sensitivity without radiation.",
           "tag": "TECHNIQUE",
           "note": "Yalow, R. S. & Berson, S. A. (1959). 'Assay of plasma insulin in human subjects by immunological methods.' Nature, 184, 1648–1649 — the founding paper. Nobel Prize in Physiology or Medicine, 1977 (Yalow; Berson died 1972 and was ineligible posthumously). Impact: the ability to measure plasma insulin concentrations revolutionised understanding of type 2 diabetes, hypoglycaemia, and insulinoma. ELISA: Engvall, E. & Perlmann, P. (1971). Immunochemistry, 8(9), 871–874; Van Weemen, B. K. & Schuurs, A. H. W. M. (1971). FEBS Letters, 15(3), 232–236 — independent co-inventions. Modern clinical immunoassay is automated, uses sandwich formats (two antibodies recognising different epitopes), and achieves attomolar sensitivity for some analytes. Cross-reactivity between related hormones (e.g., LH and FSH in older RIA formats) was an important early limitation; modern monoclonal-antibody-based assays are more specific."
@@ -773,7 +949,11 @@
             39.95,
             -75.19
           ],
-          "links": [],
+          "links": [
+            "th8",
+            "co6",
+            "ap4"
+          ],
           "hint": "Direct micropuncture of individual nephron tubules — using a glass micropipette visible through a stereomicroscope in a surgically exposed kidney — allows collection of nanolitre volumes of tubular fluid at defined nephron segments. Comparison with filtered plasma establishes fractional reabsorption and secretion of specific solutes at each site. In vitro microperfusion of isolated tubule segments adds controlled luminal and peritubular composition, defining transporter kinetics and regulation. Together these techniques established the distinct transport functions of the proximal tubule, loop of Henle, distal convoluted tubule, and collecting duct that underlie all modern nephron physiology.",
           "tag": "TECHNIQUE",
           "note": "Richards, A. N. (1924). Harvey Lectures — demonstrated that glomerular filtrate contains no protein and is isosmotic with plasma. Richards, A. N. (1938). 'Processes of urine formation.' Croonian Lecture, Proceedings of the Royal Society B, 126(843), 398–432 — comprehensive micropuncture characterisation. In vitro microperfusion: Burg, M., Grantham, J., Abramow, M. & Orloff, J. (1966). 'Preparation and study of fragments of single rabbit nephron segments in vitro.' American Journal of Physiology, 210(6), 1293–1298 — founded the isolated perfused tubule technique. Transporter identification enabled by these methods: SGLT2 (glucose): Koepsell, H., Lips, K. & Volk, C. (2007). Pharmaceutical Research, 24(7), 1227–1251; NHE3 (Na⁺/H⁺ exchanger), NKCC2 (Henle limb Na⁺-K⁺-Cl⁻ cotransporter), ENaC (collecting duct Na⁺ channel). Clinical translation: SGLT2 inhibitors (gliflozins) are a direct pharmaceutical offspring of micropuncture-defined glucose reabsorption kinetics."
@@ -788,7 +968,260 @@
       "accent": "#B7770D",
       "bg": "#FEFDE7",
       "subtitle": "The researchers who shaped the discipline",
-      "entries": []
+      "entries": [
+        {
+          "id": "fg1",
+          "group": "Cardiovascular & Blood Physiology",
+          "label": "William Harvey",
+          "date": "1628",
+          "loc": "St Bartholomew's Hospital, London, England",
+          "coords": [
+            51.52,
+            -0.1
+          ],
+          "links": [
+            "st3",
+            "co3"
+          ],
+          "hint": "Harvey (1578–1657) revolutionised medicine by proving, through quantitative argument and systematic animal dissection, that blood circulates continuously in a closed loop rather than being perpetually produced by the liver and consumed by tissues. His quantitative estimate that the heart ejects more blood per hour than the body contains made perpetual production physically impossible, and his ligature and valve dissection experiments demonstrated the directionality of flow. De Motu Cordis (1628) is the founding document of cardiovascular physiology and the first great achievement of experimental physiology as a discipline.",
+          "tag": "FIGURE",
+          "note": "Harvey, W. (1628). Exercitatio Anatomica de Motu Cordis et Sanguinis in Animalibus. W. Fitzer, Frankfurt. Harvey studied at Padua under Hieronymus Fabricius, who had described venous valves (without understanding their circulatory significance). Harvey was physician to King James I and Charles I. The capillary connection he postulated but could not visualise was confirmed by Marcello Malpighi (1661) using early microscopy. Harvey's willingness to contradict Galen — the unquestioned authority of 1,400 years — through empirical argument defined the experimental method for the scientific revolution in biology. Keynes, G. (1966). The Life of William Harvey. Oxford University Press — definitive biography."
+        },
+        {
+          "id": "fg2",
+          "group": "Cardiovascular & Blood Physiology",
+          "label": "August Krogh",
+          "date": "1920",
+          "loc": "University of Copenhagen, Copenhagen, Denmark",
+          "coords": [
+            55.68,
+            12.57
+          ],
+          "links": [
+            "ef7",
+            "st5"
+          ],
+          "hint": "Krogh (1874–1949) demonstrated that capillary recruitment — opening of previously closed capillaries — is the primary mechanism by which skeletal muscle perfusion rises during exercise, not merely increased velocity in existing channels. His 'Krogh cylinder' model of tissue oxygenation provided the first quantitative geometry of O₂ delivery from capillary to surrounding tissue and established the relationship between capillary density and maximal O₂ uptake. He also designed the Krogh spirometer for measuring respiratory gases and contributed to the quantitative description of gas exchange in the lung.",
+          "tag": "FIGURE",
+          "note": "Nobel Prize in Physiology or Medicine, 1920. Krogh, A. (1922). The Anatomy and Physiology of Capillaries. Yale University Press. Krogh's career companion and wife Marie Krogh also contributed important work on CO₂ diffusion in the lung and was nominated for the Nobel Prize in her own right. The Krogh cylinder model was the dominant tool for tissue oxygenation calculations throughout the 20th century; it is now extended by computational microvascular network models (Secomb, T. W. 2017. Annual Review of Fluid Mechanics, 49, 443–461) that account for network topology and transit-time heterogeneity. Krogh's insight that microvascular architecture limits maximal O₂ uptake is foundational to exercise physiology and the training science of endurance athletes."
+        },
+        {
+          "id": "fg3",
+          "group": "Cardiovascular & Blood Physiology",
+          "label": "Ernest Henry Starling",
+          "date": "1896",
+          "loc": "University College London, London, England",
+          "coords": [
+            51.52,
+            -0.13
+          ],
+          "links": [
+            "st4",
+            "th4",
+            "ef1"
+          ],
+          "hint": "Starling (1866–1927) made two of the most clinically important discoveries in cardiovascular physiology. His 1896 paper established the Starling-Landis forces governing fluid movement between capillaries and tissues — the framework for understanding oedema, lymphatic function, and fluid therapy. His 1914 heart-lung preparation, conducted with Patterson and Piper, gave quantitative demonstration of the Frank-Starling law, showing that stroke volume is intrinsically regulated by ventricular filling. Starling also named and described the concept of 'hormones' in 1905 following Bayliss and Starling's discovery of secretin.",
+          "tag": "FIGURE",
+          "note": "Starling, E. H. (1896). 'On the absorption of fluids from the connective tissue spaces.' Journal of Physiology, 19(4), 312–326. Starling, E. H. (1918). 'The Linacre Lecture on the Law of the Heart.' Macmillan. Bayliss, W. M. & Starling, E. H. (1902). 'The mechanism of pancreatic secretion.' Journal of Physiology, 28(3), 325–353 — discovery of secretin, the first hormone. Starling coined the term 'hormone' (from Greek ὁρμάω, to set in motion) in his 1905 Croonian Lecture. Henderson, Y. & Prince, A. L. (1914). American Journal of Physiology, 35(1), 106–116 — Starling's influence on understanding circulatory shock. Starling's breadth — capillary physiology, cardiac mechanics, and endocrine physiology — was exceptional; he is one of the most influential British physiologists of the 20th century."
+        },
+        {
+          "id": "fg4",
+          "group": "Cell & Membrane Physiology",
+          "label": "Alan Lloyd Hodgkin",
+          "date": "1952",
+          "loc": "Marine Biological Association, Plymouth, England",
+          "coords": [
+            50.37,
+            -4.14
+          ],
+          "links": [
+            "st1",
+            "th1"
+          ],
+          "hint": "Hodgkin (1914–1998) developed the voltage-clamp technique and, with Andrew Huxley, produced the quantitative model of the action potential that bears their names. Working on the squid giant axon at Plymouth in 1939 and in the 1948–1952 series of experiments, they separated the ionic currents underlying the action potential into sodium and potassium components and encoded their dynamics in a set of differential equations that accurately predict every measured property of neural excitation. The Hodgkin-Huxley model remains the cornerstone of computational neuroscience and membrane biophysics.",
+          "tag": "FIGURE",
+          "note": "Nobel Prize in Physiology or Medicine, 1963 (shared with Huxley and Eccles). Hodgkin, A. L. (1964). The Conduction of the Nervous Impulse. Liverpool University Press — the Nobel Lecture and surrounding synthesis. Hodgkin, A. L. (1977). Chance and Design: Reminiscences of Science in Peace and War. Cambridge University Press — autobiography. Before the war, Hodgkin had already demonstrated that the extracellular ionic concentration changed the action potential amplitude, pointing toward an ionic basis: Hodgkin, A. L. & Huxley, A. F. (1939). 'Action potentials recorded from inside a nerve fibre.' Nature, 144, 710–711 — first intracellular recording. Post-war collaboration with Huxley produced the five-paper 1952 series. Hodgkin later served as President of the Royal Society (1970–1975) and Master of Trinity College Cambridge."
+        },
+        {
+          "id": "fg5",
+          "group": "Neuromuscular Physiology",
+          "label": "Andrew Fielding Huxley",
+          "date": "1954",
+          "loc": "Cavendish Laboratory, Cambridge, England",
+          "coords": [
+            52.2,
+            0.12
+          ],
+          "links": [
+            "st1",
+            "st2",
+            "th1"
+          ],
+          "hint": "Andrew Huxley (1917–2012) made foundational contributions to two of the most important discoveries in 20th-century physiology. With Hodgkin he co-developed the voltage-clamp technique and the Hodgkin-Huxley model of the action potential (1952). With Jean Hanson he simultaneously demonstrated the sliding filament mechanism of muscle contraction (1954), using interference microscopy to show that filament lengths remain constant during shortening. He later developed the cross-bridge cycle theory (1957) and built a differential analyser to numerically integrate the Hodgkin-Huxley equations — by hand, before computers were available.",
+          "tag": "FIGURE",
+          "note": "Nobel Prize in Physiology or Medicine, 1963 (shared with Hodgkin and Eccles). Huxley, A. F. & Niedergerke, R. (1954). 'Structural changes in muscle during contraction.' Nature, 173, 971–973 — simultaneous with Huxley & Hanson (1954) in the same issue. Huxley, A. F. (1957). 'Muscle structure and theories of contraction.' Progress in Biophysics and Biophysical Chemistry, 7, 255–318 — the cross-bridge cycle formalism. Huxley, A. F. & Simmons, R. M. (1971). 'Proposed mechanism of force generation in striated muscle.' Nature, 233, 533–538 — quick-release experiments constraining the power stroke geometry. Andrew Huxley was the grandson of biologist Thomas Henry Huxley (Darwin's bulldog) and half-brother of novelist Aldous Huxley. Nobel Biography: Huxley, A. F. (1963). 'Nobel Lecture: The quantitative analysis of excitation and conduction in nerve.' Nobel Foundation."
+        },
+        {
+          "id": "fg6",
+          "group": "Respiratory Physiology",
+          "label": "John Scott Haldane",
+          "date": "1905",
+          "loc": "University of Oxford, Oxford, England",
+          "coords": [
+            51.76,
+            -1.26
+          ],
+          "links": [
+            "ef3",
+            "st6"
+          ],
+          "hint": "J. S. Haldane (1860–1936) established CO₂ as the primary stimulus to ventilation, quantified the chemical composition of alveolar air, described the Haldane effect of deoxygenation on CO₂ carriage, and studied adaptations to high altitude, carbon monoxide poisoning, and decompression sickness. He developed the first practical gas analysis methods for measuring O₂ and CO₂ in expired air, personally volunteered for physiologically dangerous experiments (breathing CO-enriched air to characterise poisoning), and wrote Respiration (1922), the standard textbook for a generation.",
+          "tag": "FIGURE",
+          "note": "Haldane, J. S. & Priestley, J. G. (1905). 'The regulation of the lung-ventilation.' Journal of Physiology, 32(3–4), 225–266. Christiansen, J., Douglas, C. G. & Haldane, J. S. (1914). Journal of Physiology, 48(4), 244–271 — Haldane effect on CO₂ carriage. High altitude: Haldane, J. S., Kellas, A. M. & Kennaway, E. L. (1919). 'Experiments on acclimatisation to reduced atmospheric pressure.' Journal of Physiology, 53(3–4), 181–206. Haldane, J. S. & Priestley, J. G. (1935). Respiration, 2nd ed. Clarendon Press, Oxford. Haldane was the father of J. B. S. Haldane (the geneticist), a persistent source of confusion. He held no professorship at Oxford (never pursued an academic salary, working instead from a private laboratory at his home) and received no Nobel Prize, despite work that shaped the field for 50 years."
+        },
+        {
+          "id": "fg7",
+          "group": "Cardiovascular & Blood Physiology",
+          "label": "Arthur Clifton Guyton",
+          "date": "1955",
+          "loc": "University of Mississippi Medical Center, Jackson, Mississippi",
+          "coords": [
+            32.3,
+            -90.18
+          ],
+          "links": [
+            "th6"
+          ],
+          "hint": "Guyton (1919–2003) constructed the first comprehensive mathematical model of the cardiovascular-renal system, asserting that long-term blood pressure is controlled primarily by the kidney's capacity to regulate blood volume rather than by vascular tone alone. His venous return / cardiac function curve framework showed that cardiac output is ultimately determined by the periphery (venous return) rather than the heart, reversing the traditional cardiocentric view. His textbook — Medical Physiology — became the world's best-selling physiology textbook, translated into over 13 languages.",
+          "tag": "FIGURE",
+          "note": "Guyton, A. C. (1955). 'Determination of cardiac output by equating venous return curves with cardiac response curves.' Physiological Reviews, 35(1), 123–129. Guyton, A. C. (1991). 'Blood pressure control — special role of the kidneys and body fluids.' Science, 252(5014), 1813–1816. Guyton, A. C. & Hall, J. E. (2015). Textbook of Medical Physiology, 13th ed. Elsevier — the current edition of the world's most widely used physiology textbook. Guyton suffered severe polio in 1946, was partially paralysed, and used a wheelchair for the rest of his career; he continued to conduct research and mentor students productively for five decades from Jackson, Mississippi. His renal-pressure natriuresis hypothesis — that the kidney has an infinite-gain feedback loop making it the obligatory long-term blood pressure regulator — remains the dominant framework in hypertension research, though challenged by models emphasising central neural contributions."
+        },
+        {
+          "id": "fg8",
+          "group": "Respiratory Physiology",
+          "label": "John Burnham West",
+          "date": "1966",
+          "loc": "University of California San Diego, La Jolla, California",
+          "coords": [
+            32.87,
+            -117.23
+          ],
+          "links": [
+            "st7",
+            "co9"
+          ],
+          "hint": "West (1928–2021) provided the definitive quantitative description of ventilation-perfusion inequality in the lung, developed the multiple inert gas elimination technique (MIGET) to resolve the full V̇/Q̇ distribution non-invasively, and systematically characterised the physiology of the lung at altitude — including leading a physiological expedition to the Himalayas in 1981 and measuring alveolar gas on the summit of Everest. His textbooks Respiratory Physiology and Pulmonary Pathophysiology have trained generations of clinicians and researchers worldwide.",
+          "tag": "FIGURE",
+          "note": "Riley, R. L. & Cournand, A. (1951). — West trained under Cournand in New York. Wagner, P. D., Saltzman, H. A. & West, J. B. (1974). 'Measurement of continuous distributions of ventilation-perfusion ratios.' Journal of Applied Physiology, 36(5), 588–599 — MIGET development. West, J. B. et al. (1983). 'Pulmonary gas exchange on the summit of Mt. Everest.' Journal of Applied Physiology, 55(3), 678–687. West, J. B. (2012). Respiratory Physiology: The Essentials, 9th ed. Lippincott Williams & Wilkins. West, J. B. (2016). Pulmonary Pathophysiology: The Essentials, 9th ed. Lippincott Williams & Wilkins. West was born in Adelaide, Australia, trained in London, and spent most of his career at UCSD. He received the Physiology or Medicine Prize from the International Society for Breathlessness (2017) and continued publishing until shortly before his death at 92."
+        },
+        {
+          "id": "fg9",
+          "group": "Renal & Acid-Base Physiology",
+          "label": "Homer William Smith",
+          "date": "1951",
+          "loc": "New York University School of Medicine, New York City, New York",
+          "coords": [
+            40.74,
+            -73.97
+          ],
+          "links": [
+            "st8",
+            "me4"
+          ],
+          "hint": "Smith (1895–1962) created the conceptual and experimental framework of renal clearance physiology, establishing inulin clearance as the measure of glomerular filtration rate and para-aminohippurate clearance as the measure of renal plasma flow, allowing calculation of filtration fraction and tubular secretion for any substance. His monograph The Kidney (1951) synthesised half a century of renal physiology into a coherent quantitative framework that is still used. Smith was also a lifelong student of natural history and philosophy and wrote Kamongo (1932) — a popular novel about lungfish and evolution.",
+          "tag": "FIGURE",
+          "note": "Smith, H. W. (1951). The Kidney: Structure and Function in Health and Disease. Oxford University Press. Smith, H. W. (1956). Principles of Renal Physiology. Oxford University Press. Smith, H. W., Goldring, W. & Chasis, H. (1938). Journal of Clinical Investigation, 17(3), 263–278 — the landmark clearance paper. Smith narrowly missed a Nobel Prize; his work provided the experimental basis for renal pharmacology. Smith's evolutionary perspective — he traced the history of the vertebrate kidney from freshwater fish through terrestrial animals — gave him an integrative view of renal function that shaped his approach to experimental design. Shannon, J. A. (colleague, personal tribute, 1962): 'He was possessed of an unusual capacity for synthesis, for the reduction of a mass of experimental data to a simple, coherent whole.'"
+        },
+        {
+          "id": "fg10",
+          "group": "Endocrine & Reproductive Physiology",
+          "label": "Frederick Grant Banting",
+          "date": "1922",
+          "loc": "University of Toronto, Toronto, Ontario",
+          "coords": [
+            43.66,
+            -79.4
+          ],
+          "links": [
+            "st9",
+            "db6"
+          ],
+          "hint": "Banting (1891–1941) conceived and led the 1921–1922 experiments that extracted, purified, and demonstrated the therapeutic efficacy of insulin, transforming type 1 diabetes from a rapidly fatal disease into a manageable chronic condition. Working with Charles Best in J.J.R. Macleod's laboratory, Banting devised the pancreatic duct ligation strategy to suppress exocrine cells while preserving islet tissue, enabling extraction of adequate quantities of insulin for the first human trial in January 1922. The Nobel Prize awarded to Banting and Macleod (not Best or Collip) triggered a fierce credit dispute that has continued ever since.",
+          "tag": "FIGURE",
+          "note": "Nobel Prize in Physiology or Medicine, 1923 (Banting and Macleod). Banting, F. G. & Best, C. H. (1922). 'The internal secretion of the pancreas.' Journal of Laboratory and Clinical Medicine, 7(5), 251–266. Banting shared his prize money with Best; Macleod shared with Collip. Bliss, M. (1982). The Discovery of Insulin. University of Chicago Press — the definitive historical account, based on diaries and lab notebooks that reveal the bitter priority disputes. Banting was killed in a plane crash in Newfoundland in 1941 while on a wartime mission. Insulin structure: Sanger, F. (Nobel 1958) determined the full amino acid sequence of insulin — the first protein to be sequenced. Synthetic human insulin produced using recombinant DNA: Johnson, I. S. (1983). Science, 219(4585), 632–637 (Genentech/Eli Lilly)."
+        },
+        {
+          "id": "fg11",
+          "group": "Cell & Membrane Physiology",
+          "label": "Earl Wilbur Sutherland Jr.",
+          "date": "1971",
+          "loc": "Case Western Reserve University, Cleveland, Ohio",
+          "coords": [
+            41.5,
+            -81.61
+          ],
+          "links": [
+            "th2"
+          ],
+          "hint": "Sutherland (1915–1974) discovered cyclic AMP and established the second messenger concept — the principle that extracellular hormones bind surface receptors that generate an intracellular signal (the second messenger) which relays and amplifies the hormonal message without the hormone entering the cell. Working on adrenaline's activation of hepatic glycogen phosphorylase, he demonstrated that the hormonally stimulated intracellular factor was a heat-stable, acid-labile nucleotide he identified as cAMP. This framework transformed endocrinology from descriptive to mechanistic and created the basis for understanding G-protein coupled receptor signalling.",
+          "tag": "FIGURE",
+          "note": "Nobel Prize in Physiology or Medicine, 1971. Sutherland, E. W. & Rall, T. W. (1958). 'Fractionation and characterization of a cyclic adenine ribonucleotide formed by tissue particles.' Journal of Biological Chemistry, 232(2), 1077–1091. Sutherland, E. W. (1972). 'Studies on the mechanism of hormone action.' Science, 177(4047), 401–408 — Nobel Lecture. G-protein coupling of receptors to adenylyl cyclase was characterised by Rodbell, M. & Gilman, A. G. (Nobel 1994). Sutherland worked in Carl Cori's laboratory at Washington University before establishing his own group, and thus had firsthand knowledge of the biochemistry of glycogen metabolism. The second messenger framework was extended by Berridge and Irvine (IP₃/DAG pathway, 1984) and by Rasmussen (Ca²⁺ as second messenger), creating an integrated network of intracellular signalling cascades."
+        },
+        {
+          "id": "fg12",
+          "group": "Homeostasis & Integration",
+          "label": "Claude Bernard",
+          "date": "1865",
+          "loc": "Collège de France, Paris, France",
+          "coords": [
+            48.85,
+            2.34
+          ],
+          "links": [
+            "th10"
+          ],
+          "hint": "Bernard (1813–1878) was the founder of modern experimental physiology and the originator of the concept of the milieu intérieur — the stable internal environment that higher animals maintain to free themselves from direct dependence on the external world. Working at the Collège de France and the Sorbonne, he discovered glycogen synthesis in the liver, demonstrated the vasomotor function of the sympathetic nervous system, identified the role of the pancreatic secretion in fat digestion, and showed that curare acts at the neuromuscular junction. Introduction à l'étude de la médecine expérimentale (1865) defined the experimental method in biology.",
+          "tag": "FIGURE",
+          "note": "Bernard, C. (1865). Introduction à l'étude de la médecine expérimentale. J.-B. Baillière, Paris — the philosophical and methodological manifesto. Bernard, C. (1878). Leçons sur les phénomènes de la vie communs aux animaux et aux végétaux. J.-B. Baillière — the developed account of milieu intérieur. Holmes, F. L. (1974). Claude Bernard and Animal Chemistry. Harvard University Press — detailed analysis of his laboratory practice. Bernard suffered serious domestic difficulties: his wife and daughters were militant anti-vivisectionists who opposed his experimental work and eventually separated from him. He was elected to both the Académie des sciences and the Académie française (unusually, as a scientist). On his death in 1878 he received a state funeral — the first French scientist to be honoured this way."
+        },
+        {
+          "id": "fg13",
+          "group": "Homeostasis & Integration",
+          "label": "Walter Bradford Cannon",
+          "date": "1932",
+          "loc": "Harvard Medical School, Boston, Massachusetts",
+          "coords": [
+            42.34,
+            -71.1
+          ],
+          "links": [
+            "th10",
+            "st11"
+          ],
+          "hint": "Cannon (1871–1945) coined the term 'homeostasis', articulated its physiological mechanisms (negative feedback, antagonistic hormones, coordinated autonomic responses), described the fight-or-flight response and identified adrenaline as its primary humoral mediator, and championed the concept that the sympathetic nervous system acts as an emergency response system. The Wisdom of the Body (1932) translated Bernard's milieu intérieur into a coherent mechanistic account that shaped all subsequent integrative physiology. He also developed the X-ray fluoroscopy method for studying GI motility.",
+          "tag": "FIGURE",
+          "note": "Cannon, W. B. (1929). 'Organization for physiological homeostasis.' Physiological Reviews, 9(3), 399–431 — coined 'homeostasis.' Cannon, W. B. (1932). The Wisdom of the Body. W. W. Norton. Cannon, W. B. (1915). Bodily Changes in Pain, Hunger, Fear and Rage. D. Appleton & Co — fight-or-flight. Cannon, W. B. & de la Paz, D. (1911). 'Emotional stimulation of adrenal secretion.' American Journal of Physiology, 28(1), 64–70. Benison, S., Barger, A. C. & Wolfe, E. L. (1987). Walter B. Cannon: The Life and Times of a Young Scientist. Harvard University Press. Cannon was a lifelong activist: he served as a military physician in WWI, opposed McCarthyism, and supported Republican Spain. His wife Cornelia James Cannon was a novelist and social activist. His concept of homeostasis was the starting point for cybernetics (Wiener, N. 1948. Cybernetics) and systems biology."
+        },
+        {
+          "id": "fg14",
+          "group": "Endocrine & Reproductive Physiology",
+          "label": "Geoffrey Wingfield Harris",
+          "date": "1955",
+          "loc": "University of Oxford, Oxford, England",
+          "coords": [
+            51.76,
+            -1.26
+          ],
+          "links": [
+            "th9",
+            "co7",
+            "ap6"
+          ],
+          "hint": "Harris (1913–1971) established the neuroendocrine hypothesis: that the hypothalamus controls anterior pituitary function not by direct nerve connections but through releasing hormones secreted into the hypothalamo-pituitary portal blood. This proposed that neural signals (from higher brain centres, stress, circadian clocks) are transduced into hormonal signals at the portal capillaries, integrating the nervous and endocrine systems. Harris spent over two decades building the evidence for this hypothesis before Guillemin and Schally chemically isolated TRH and GnRH, confirming it — but he died in 1971, the year before the Nobel was awarded.",
+          "tag": "FIGURE",
+          "note": "Harris, G. W. (1955). Neural Control of the Pituitary Gland. Edward Arnold — the definitive monograph. Green, J. D. & Harris, G. W. (1947). 'The neurovascular link between the neurohypophysis and adenohypophysis.' Journal of Endocrinology, 5(2), 136–146 — anatomical demonstration of the portal system. Guillemin, R. & Schally, A. V. shared the Nobel Prize in Physiology or Medicine, 1977 — awarded for isolating the releasing hormones Harris had predicted. Harris died in 1971, aged 57, before the chemical confirmation was complete. The Nobel Prize is not awarded posthumously; this case is frequently cited in discussions of priority and recognition in science. Donovan, B. T. (1988). Hormones and Human Behaviour. Cambridge University Press — contextualises Harris's influence on neuroendocrinology."
+        }
+      ]
     },
     {
       "id": "debate",
@@ -798,7 +1231,160 @@
       "accent": "#CA6F1E",
       "bg": "#FDF5EC",
       "subtitle": "Live controversies — where the field is actively contesting the evidence",
-      "entries": []
+      "entries": [
+        {
+          "id": "db1",
+          "group": "Homeostasis & Integration",
+          "label": "Homeostasis vs. Allostasis: Set-Points or Predictive Regulation?",
+          "date": "1988",
+          "loc": "University of California San Francisco, San Francisco, California",
+          "coords": [
+            37.76,
+            -122.46
+          ],
+          "links": [
+            "th10",
+            "ef9",
+            "st10",
+            "st11"
+          ],
+          "hint": "Classical homeostasis holds that physiological variables (blood pressure, core temperature, blood glucose) are regulated around fixed set-points by negative feedback. Allostasis — proposed by Sterling and Eyer in 1988 — argues that the regulated state is not fixed: it shifts continuously in anticipation of demand, driven by central neural predictive models rather than passive reactive feedback. The brain models the body's needs and proactively adjusts physiology before deviation occurs. McEwen extended allostasis to argue that chronic stress causes allostatic load — cumulative biological wear that is measurable and predicts disease. Critics respond that allostasis is homeostasis by another name, or that it conflates regulation with behaviour.",
+          "tag": "DEBATE",
+          "note": "Sterling, P. & Eyer, J. (1988). 'Allostasis: A new paradigm to explain arousal pathology.' In Fisher, S. & Reason, J. (Eds.), Handbook of Life Stress, Cognition and Health. Wiley, 629–649 — the founding paper, framing allostasis as a challenge to setpoint models. McEwen, B. S. & Stellar, E. (1993). 'Stress and the individual.' Archives of Internal Medicine, 153(18), 2093–2101 — allostatic load as predictive disease marker. McEwen, B. S. (1998). 'Stress, adaptation, and disease.' Annals of the New York Academy of Sciences, 840, 33–44 — quantifiable biomarkers of allostatic load. Critiques: Carpenter, R. H. S. (2004). 'Homeostasis: A plea for a unified approach.' Advances in Physiology Education, 28(4), 180–187 — argues allostasis is conceptually unnecessary. Ramsay, D. S. & Woods, S. C. (2014). 'Clarifying the roles of homeostasis and allostasis in physiological regulation.' Psychological Review, 121(2), 225–247 — proposes that homeostasis is error-correcting (after the fact) while allostasis is error-predicting (anticipatory), and both are operative."
+        },
+        {
+          "id": "db2",
+          "group": "Cardiovascular & Blood Physiology",
+          "label": "Glycocalyx Revision of Starling Forces: Does Reabsorption Occur?",
+          "date": "2007",
+          "loc": "Rutgers University, New Brunswick, New Jersey",
+          "coords": [
+            40.49,
+            -74.44
+          ],
+          "links": [
+            "ef1",
+            "ef7"
+          ],
+          "hint": "The classical Starling-Landis model predicts that capillaries both filter (at the arteriolar end, where hydrostatic pressure exceeds oncotic) and reabsorb (at the venular end, where oncotic pressure exceeds hydrostatic). The glycocalyx revision — developed by Weinbaum, Tarbell, and Adamson from the 2000s — proposes that the primary oncotic barrier is not the capillary wall itself but the thin endothelial glycocalyx layer covering it, meaning that oncotic pressure acts across a sub-glycocalyx space rather than across the full lumen-to-interstitium gradient. In this revised model, there is no net reabsorption in venular capillaries under normal conditions; all filtered fluid returns via lymphatics.",
+          "tag": "DEBATE",
+          "note": "Classic model: Landis, E. M. (1927). American Journal of Physiology, 82, 217–238. Glycocalyx challenge: Weinbaum, S., Tarbell, J. M. & Damiano, E. R. (2007). 'The structure and function of the endothelial glycocalyx layer.' Annual Review of Biomedical Engineering, 9, 121–167. Adamson, R. H. et al. (2004). 'Oncotic pressures opposing filtration across non-fenestrated rat microvessels.' Journal of Physiology, 557(3), 889–907 — experimental evidence in support of the revised Starling principle. Status: The glycocalyx model is increasingly accepted in specialist microvascular biology but has not fully displaced the classic Starling model in most clinical and teaching contexts. Practical implication: if the classic model overstated capillary reabsorption, the lymphatic system's role in tissue fluid homeostasis is greater than traditionally taught. Woodcock, T. E. & Woodcock, T. M. (2012). British Journal of Anaesthesia, 108(3), 384–394 — clinical implications for fluid therapy."
+        },
+        {
+          "id": "db3",
+          "group": "Cardiovascular & Blood Physiology",
+          "label": "Cardiac Output: Heart-Driven or Periphery-Driven?",
+          "date": "2003",
+          "loc": "McGill University Health Centre, Montreal, Quebec",
+          "coords": [
+            45.47,
+            -73.6
+          ],
+          "links": [
+            "th6",
+            "co3",
+            "ef5"
+          ],
+          "hint": "Guyton's venous return model holds that cardiac output is ultimately determined by the periphery — by mean systemic filling pressure and the resistance to venous return — not by the intrinsic pumping capacity of the heart. The heart simply pumps whatever the periphery returns to it; cardiac output equals venous return at equilibrium. Critics argue that mean systemic filling pressure is an artificial construct difficult to measure in vivo, and that the venous return formalism misleadingly implies the heart is a passive participant. The empirical question is whether peripheral vascular changes independently drive cardiac output changes or whether cardiac performance is the independent variable.",
+          "tag": "DEBATE",
+          "note": "Guyton, A. C. (1955). Physiological Reviews, 35(1), 123–129. Critical appraisal: Magder, S. (2006). 'Point: The classical Guyton view that mean systemic pressure, right atrial pressure, and venous resistance govern venous return is/is not correct.' Journal of Applied Physiology, 101(5), 1523–1525. Levy, M. N. (1979). 'The cardiac and vascular factors that determine systemic blood flow.' Circulation Research, 44(6), 739–747. Defence: Hall, J. E. (2004). 'The pioneering use of systems analysis to study cardiac output regulation.' American Journal of Physiology — Regulatory, Integrative and Comparative Physiology, 287(5), R1074–R1077. Current status: most physiologists accept the Guyton equilibrium point as a useful analytical tool while acknowledging that mean systemic filling pressure is difficult to isolate experimentally in the intact circulation; some argue that the heart and periphery co-determine output simultaneously, and the Guyton model implicitly assumes separation of timescales that may not hold."
+        },
+        {
+          "id": "db4",
+          "group": "Respiratory Physiology",
+          "label": "Hypoxic Drive in COPD: Clinical Risk vs. Physiological Myth?",
+          "date": "1980",
+          "loc": "McMaster University, Hamilton, Ontario",
+          "coords": [
+            43.26,
+            -79.92
+          ],
+          "links": [
+            "ef8",
+            "st6",
+            "co9"
+          ],
+          "hint": "A longstanding clinical teaching holds that patients with severe COPD rely on peripheral hypoxic drive (because CO₂ receptors are 'blunted' by chronic hypercapnia), and that giving high-flow supplemental O₂ removes this drive, causing dangerous hypoventilation. This view recommends 'controlled O₂ therapy' with target saturations of 88–92%. The opposite view is that withholding O₂ from a hypoxaemic patient causes more harm than good, and that the Haldane effect (O₂ displacing CO₂ from haemoglobin) not ventilatory suppression accounts for most O₂-induced hypercapnia.",
+          "tag": "DEBATE",
+          "note": "Classic hypoxic drive teaching: Flenley, D. C. (1978). 'Clinical hypoxia: Causes, consequences and correction.' Lancet, 1(8063), 542–546. Primary evidence for O₂-induced hypercapnia via Haldane effect: Aubier, M. et al. (1980). 'Effects of the administration of O₂ on ventilation and blood gases in patients with chronic obstructive pulmonary disease during acute respiratory failure.' American Review of Respiratory Disease, 122(5), 747–754 — found O₂ increased dead space (via HPV reversal + Haldane) more than suppressed ventilation. Robinson, T. D. et al. (2000). 'The role of hypoventilation and ventilation-perfusion redistribution in oxygen-induced hypercapnia during acute exacerbations of COPD.' American Journal of Respiratory and Critical Care Medicine, 161(5), 1524–1529 — confirmed Haldane + HPV reversal as primary mechanisms. O'Driscoll, B. R. et al. (2017). 'BTS guideline for oxygen use in adults in healthcare and ambulatory settings.' Thorax, 72(Suppl 1), ii1–ii90 — current BTS guidance: target SpO₂ 88–92% remains recommended for at-risk COPD to prevent hypercapnia, regardless of mechanism."
+        },
+        {
+          "id": "db5",
+          "group": "Renal & Acid-Base Physiology",
+          "label": "Inner Medullary Urine Concentration: Active or Passive?",
+          "date": "1972",
+          "loc": "University of Texas Southwestern, Dallas, Texas",
+          "coords": [
+            32.81,
+            -96.84
+          ],
+          "links": [
+            "th8",
+            "co6"
+          ],
+          "hint": "Kuhn's countercurrent multiplier model (1942) explained urinary concentration in the outer medulla by active NaCl pumping in the thick ascending limb of Henle. The inner medulla — where urine reaches its maximum concentration (up to 1,200 mOsm/kg) — lacks a thick ascending limb with active transport. Kokko and Rector (1972) proposed a 'passive mechanism': urea and NaCl gradients from the outer medulla sufficiently concentrate tubular fluid by osmosis in the thin descending limb, and urea recycling from the collecting duct sustains the inner medullary gradient passively. However, measurements have repeatedly found the proposed gradients insufficient to account for the observed concentrating ability, and the controversy remains open.",
+          "tag": "DEBATE",
+          "note": "Kuhn, W. & Ryffel, K. (1942). Hoppe-Seyler's Zeitschrift für Physiologische Chemie, 276, 145–178 — outer medullary mechanism. Passive model: Kokko, J. P. & Rector, F. C. (1972). 'Countercurrent multiplication system without active transport in inner medulla.' Kidney International, 2(4), 214–223; Stephenson, J. L. (1972). 'Concentration of urine in a central core model of the renal counterflow system.' Kidney International, 2(2), 85–94. Experimental challenge: Layton, A. T. et al. (2004). 'Permeability criteria for the functioning of the passive concentrating mechanism.' American Journal of Physiology — Renal Physiology, 286(4), F791–F800 — mathematical modelling shows the passive mechanism cannot account for maximal concentrating ability at physiologically measured permeabilities. Alternative models: Pannabecker, T. L. & Dantzler, W. H. (2007). 'Three-dimensional functional reconstruction of inner medullary thin limbs of Henle's loop.' American Journal of Physiology — Renal Physiology, 292(1), F545–F552 — anatomically detailed 3D models of the inner medullary architecture. The mechanism remains one of the unresolved problems in renal physiology."
+        },
+        {
+          "id": "db6",
+          "group": "Endocrine & Reproductive Physiology",
+          "label": "Insulin Resistance: Signal Defect or Lipid Overload?",
+          "date": "1996",
+          "loc": "Yale University, New Haven, Connecticut",
+          "coords": [
+            41.3,
+            -72.93
+          ],
+          "links": [
+            "fg10",
+            "st9",
+            "co7",
+            "ap4"
+          ],
+          "hint": "Two competing mechanistic accounts of skeletal muscle insulin resistance dominate the field. The classical model (Shulman, Dresner) holds that intramyocellular lipid accumulation and diacylglycerol activate PKCθ and other serine kinases that phosphorylate IRS-1, impairing downstream insulin receptor signalling, GLUT4 translocation, and glucose uptake. The mitochondrial dysfunction model proposes that impaired mitochondrial fatty acid oxidation causes lipid accumulation upstream, making lipotoxicity the consequence rather than the primary cause of mitochondrial impairment. A third model implicates ceramides rather than diacylglycerol as the proximate effector.",
+          "tag": "DEBATE",
+          "note": "Shulman, G. I. (2000). 'Cellular mechanisms of insulin resistance.' Journal of Clinical Investigation, 106(2), 171–176 — the DAG/PKCθ hypothesis. Dresner, A. et al. (1999). 'Effects of free fatty acids on glucose transport and IRS-1-associated phosphatidylinositol 3-kinase activity.' Journal of Clinical Investigation, 103(2), 253–259. Mitochondrial model: Petersen, K. F. et al. (2004). 'Impaired mitochondrial activity in the insulin-resistant offspring of patients with type 2 diabetes.' New England Journal of Medicine, 350(7), 664–671 — ³¹P MRS evidence of mitochondrial dysfunction. Ceramide model: Chavez, J. A. & Summers, S. A. (2012). 'A ceramide-centric view of insulin resistance.' Cell Metabolism, 15(5), 585–594. Hotamisligil, G. S. (2006). 'Inflammation and metabolic disorders.' Nature, 444, 860–867 — inflammatory cytokines as an additional upstream driver. Status: All three mechanisms (DAG/PKCθ, ceramide, mitochondrial) likely contribute in different cell types and disease contexts; the debate about primary driver vs. downstream effector is ongoing."
+        },
+        {
+          "id": "db7",
+          "group": "Respiratory Physiology",
+          "label": "Volutrauma vs. Barotrauma: What Injures the Ventilated Lung?",
+          "date": "1988",
+          "loc": "University of California San Francisco, San Francisco, California",
+          "coords": [
+            37.76,
+            -122.46
+          ],
+          "links": [
+            "co4",
+            "ap1",
+            "me3"
+          ],
+          "hint": "Traditional ventilator practice prioritised preventing barotrauma — injury from excessive airway pressure. Dreyfuss and Saumon (1988) demonstrated in animal models that it is overdistension of the alveolus (high tidal volume, 'volutrauma') — not high pressure per se — that causes ventilator-induced lung injury (VILI): the same high airway pressure in a chest-strapped animal that limited lung volume caused no injury. The landmark ARDSNet RCT (2000) translated this into clinical practice with a 6 mL/kg ideal body weight lung-protective protocol that reduced ARDS mortality by 22% compared to 12 mL/kg, firmly establishing volutrauma as the primary injurious mechanism.",
+          "tag": "DEBATE",
+          "note": "Dreyfuss, D., Soler, P., Basset, G. & Saumon, G. (1988). 'High inflation pressure pulmonary edema: Respective effects of high airway pressure, high tidal volume, and positive end-expiratory pressure.' American Review of Respiratory Disease, 137(5), 1159–1164. Slutsky, A. S. (1993). 'Barotrauma and volutrauma during mechanical ventilation.' American Review of Respiratory Disease, 147(4), 1048–1049 — framed the conceptual distinction. ARDSNet (2000). 'Ventilation with lower tidal volumes as compared with traditional tidal volumes for acute lung injury and the acute respiratory distress syndrome.' New England Journal of Medicine, 342(18), 1301–1308 — the definitive RCT. Current frontier: Gattinoni, L. et al. (2010). 'Lung stress and strain during mechanical ventilation.' Intensive Care Medicine, 36(8), 1267–1274 — proposed that it is stress (transpulmonary pressure) and strain (ΔV/FRC) rather than tidal volume per se that determines injury; plateau pressure of ≤ 30 cmH₂O may be safer than a fixed tidal volume target."
+        },
+        {
+          "id": "db8",
+          "group": "Homeostasis & Integration",
+          "label": "Sex and Gender in Physiology: How Deep Do Biological Differences Run?",
+          "date": "2000",
+          "loc": "University of California Los Angeles, Los Angeles, California",
+          "coords": [
+            34.07,
+            -118.44
+          ],
+          "links": [
+            "st10",
+            "st11",
+            "co7"
+          ],
+          "hint": "Physiology textbooks historically described organ function from male-default experimental data, and many physiological parameters — drug pharmacokinetics, cardiovascular risk thresholds, exercise capacity, respiratory reference values — have since been shown to differ systematically between biological sexes. Taylor (2000) proposed that the female stress response is qualitatively different from fight-or-flight: a 'tend-and-befriend' pattern driven by oxytocin and social affiliation rather than adrenaline and aggression. The deeper debate is whether sex-based differences reflect biological sex (chromosomal, gonadal, hormonal) or gender (sociocultural), and how to handle both in research design and clinical translation without essentialising or ignoring them.",
+          "tag": "DEBATE",
+          "note": "Taylor, S. E. et al. (2000). 'Biobehavioral responses to stress in females: Tend-and-befriend, not fight-or-flight.' Psychological Review, 107(3), 411–429. Institute of Medicine (2001). Exploring the Biological Contributions to Human Health: Does Sex Matter? National Academies Press — the comprehensive review that documented systematic exclusion of female subjects from biomedical research. NIH policy (2016): Hankenson, F. C. D. et al. (2018). 'Inclusion of sex as a biological variable.' ILAR Journal, 58(3), 371–377 — NIH now requires sex as a biological variable in preclinical grant applications. Zamponi, G. W. (2016). 'Sex differences in pain and analgesia.' Pain, 157(6), 1229–1230. Critique of overstating binary differences: Hyde, J. S. et al. (2019). 'The future of sex and gender in psychology: Five challenges to the gender binary.' American Psychologist, 74(2), 171–193 — argues that sex and gender exist on continua and that binary models obscure as much as they reveal."
+        }
+      ]
     },
     {
       "id": "application",
@@ -808,7 +1394,123 @@
       "accent": "#2E86C1",
       "bg": "#EBF5FB",
       "subtitle": "Where the science leaves the lab",
-      "entries": []
+      "entries": [
+        {
+          "id": "ap1",
+          "group": "Respiratory Physiology",
+          "label": "Mechanical Ventilation and Lung-Protective Strategies",
+          "date": "2000",
+          "loc": "ARDS Clinical Trials Network (Multi-site), United States",
+          "coords": [
+            42.34,
+            -71.1
+          ],
+          "links": [
+            "db7",
+            "co4",
+            "me3"
+          ],
+          "hint": "Mechanical ventilation replaces or augments the work of breathing by applying positive pressure to the airway. Contemporary lung-protective ventilation — motivated by the volutrauma debate — limits tidal volume to 6 mL/kg ideal body weight and plateau pressure to ≤ 30 cmH₂O, accepting 'permissive hypercapnia' rather than using larger tidal volumes to normalise PaCO₂. Additional strategies include prone positioning (redistributes perfusion, improves V̇/Q̇ matching in ARDS), recruitment manoeuvres, and optimised PEEP to prevent cyclical alveolar derecruitment. The ARDSNet trial (2000) reduced ARDS mortality from ~40% to ~31% with the 6 mL/kg protocol.",
+          "tag": "APPLICATION",
+          "note": "ARDSNet (2000). New England Journal of Medicine, 342(18), 1301–1308. PROSEVA trial: Guérin, C. et al. (2013). 'Prone positioning in severe acute respiratory distress syndrome.' New England Journal of Medicine, 368(23), 2159–2168 — prone positioning reduced 28-day mortality from 32.8% to 16.0% in severe ARDS. CPAP/NIV: Sullivan, C. E. et al. (1981). 'Reversal of obstructive sleep apnoea by continuous positive airway pressure applied through the nares.' Lancet, 1(8225), 862–865 — invention of CPAP. COVID-19 experience (2020–2022) confirmed lung-protective ventilation principles across millions of patients and renewed debate about prone positioning thresholds and non-invasive ventilation in hypoxaemic respiratory failure. Diaphragm protective ventilation: Goligher, E. C. et al. (2018). 'Evolution of diaphragm thickness during mechanical ventilation.' American Journal of Respiratory and Critical Care Medicine, 197(9), 1–10 — optimising patient effort to prevent ventilator-induced diaphragm dysfunction."
+        },
+        {
+          "id": "ap2",
+          "group": "Cardiovascular & Blood Physiology",
+          "label": "RAAS Inhibition in Hypertension and Heart Failure",
+          "date": "1975",
+          "loc": "Squibb Institute for Medical Research, Princeton, New Jersey",
+          "coords": [
+            40.36,
+            -74.66
+          ],
+          "links": [
+            "ef5",
+            "th6",
+            "co6"
+          ],
+          "hint": "The renin-angiotensin-aldosterone system (RAAS) is the primary endocrine axis for long-term blood pressure regulation: renin (from juxtaglomerular cells in response to reduced renal perfusion or low Na⁺) cleaves angiotensinogen to angiotensin I, which ACE converts to angiotensin II — a potent vasoconstrictor and aldosterone secretagogue. ACE inhibitors (captopril, enalapril) block this final step; ARBs block angiotensin II receptors; MRAs block aldosterone at the kidney. RAAS inhibition is the cornerstone of treating hypertension, heart failure with reduced ejection fraction, diabetic nephropathy, and post-myocardial infarction management.",
+          "tag": "APPLICATION",
+          "note": "Discovery of renin: Tigerstedt, R. & Bergman, P. G. (1898). 'Niere und Kreislauf.' Skandinavisches Archiv für Physiologie, 8, 223–271. Captopril: Cushman, D. W. & Ondetti, M. A. (1978). Biochemical Pharmacology, 27(6), 843–851. CONSENSUS trial: CONSENSUS Trial Study Group (1987). 'Effects of enalapril on mortality in severe congestive heart failure.' New England Journal of Medicine, 316(23), 1429–1435 — first major heart failure mortality trial, 40% reduction in 6-month mortality. SOLVD: SOLVD Investigators (1991). NEJM, 325(5), 293–302. ARBs: CHARM (Granger, C. B. et al. 2003. NEJM, 349, 2657–2667). MRAs: RALES (Pitt, B. et al. 1999. NEJM, 341, 709–717) — spironolactone reduced mortality 30% in severe heart failure. Finerenone (non-steroidal MRA) added cardiorenal endpoint benefits in CKD: FIDELIO-DKD (Bakris, G. et al. 2020. NEJM, 383, 2219–2229)."
+        },
+        {
+          "id": "ap3",
+          "group": "Renal & Acid-Base Physiology",
+          "label": "Renal Replacement Therapy and Dialysis",
+          "date": "1943",
+          "loc": "Kampen Municipal Hospital, Kampen, Netherlands",
+          "coords": [
+            52.55,
+            5.91
+          ],
+          "links": [
+            "ef4",
+            "co6",
+            "me4"
+          ],
+          "hint": "Dialysis replaces the glomerular filtration and solute-removal functions of the kidney by exposing blood (or peritoneal fluid) to a semipermeable membrane across which solutes diffuse down concentration gradients (haemodialysis, peritoneal dialysis) or are removed by convection (haemofiltration). The driving principles are the Gibbs-Donnan equilibrium and Fick diffusion: small solutes (urea, creatinine, K⁺) are removed efficiently, while larger molecules and protein-bound toxins are less effectively cleared. Timing, dose (Kt/V), and modality (intermittent vs. continuous) profoundly affect outcomes in acute kidney injury and end-stage renal disease.",
+          "tag": "APPLICATION",
+          "note": "Kolff, W. J. & Berk, H. T. (1944). 'The artificial kidney: A dialyser with a great area.' Acta Medica Scandinavica, 117(2), 121–134 — first rotating drum artificial kidney; first successful human dialysis in 1943 during WWII in occupied Netherlands. Peritoneal dialysis: Ganter, G. (1923). Münchener Medizinische Wochenschrift, 70, 1478–1480 — first clinical peritoneal dialysis. Continuous renal replacement therapy (CRRT): Kramer, P. et al. (1977). Klinische Wochenschrift, 55(22), 1121–1122. KDIGO AKI guidelines (2012). Kidney International Supplements, 2(1), 1–138. IDEAL-ICU RCT (Barbar, S. M. et al. 2018. NEJM, 379, 1431–1442): delaying dialysis until a clear indication emerges did not increase mortality — timing is a major ongoing controversy. Home haemodialysis and incremental dialysis prescriptions aim to maintain residual kidney function as long as possible."
+        },
+        {
+          "id": "ap4",
+          "group": "Renal & Acid-Base Physiology",
+          "label": "SGLT2 Inhibitors: From Tubular Physiology to Cardiovascular Outcomes",
+          "date": "2015",
+          "loc": "Charité — Universitätsmedizin Berlin, Berlin, Germany",
+          "coords": [
+            52.52,
+            13.38
+          ],
+          "links": [
+            "st9",
+            "me6",
+            "db6"
+          ],
+          "hint": "Sodium-glucose cotransporter 2 (SGLT2) in the early proximal tubule reabsorbs approximately 90% of filtered glucose, a function first characterised by micropuncture and isolated tubule perfusion. SGLT2 inhibitors (gliflozins: empagliflozin, dapagliflozin, canagliflozin) block this transport, causing glycosuria. The 2015 EMPA-REG OUTCOME trial revealed unexpectedly large reductions in cardiovascular mortality and heart failure hospitalisation — independent of glycaemic effects — surprising the field and establishing gliflozins as the first diabetes drug to reduce cardiovascular events. Subsequent trials confirmed similar benefits in heart failure and chronic kidney disease even in patients without diabetes.",
+          "tag": "APPLICATION",
+          "note": "SGLT2 characterisation: Koepsell, H. (2020). 'Glucose transporters in the small intestine in health and disease.' Pflügers Archiv, 472(9), 1207–1248. EMPA-REG OUTCOME: Zinman, B. et al. (2015). 'Empagliflozin, cardiovascular outcomes, and mortality in type 2 diabetes.' New England Journal of Medicine, 373(22), 2117–2128 — 14% reduction in MACE, 38% reduction in hospitalisation for heart failure. DAPA-HF: McMurray, J. J. V. et al. (2019). 'Dapagliflozin in patients with heart failure and reduced ejection fraction.' NEJM, 381(21), 1995–2008 — benefit in heart failure regardless of diabetic status. DAPA-CKD: Heerspink, H. J. L. et al. (2020). NEJM, 383(15), 1436–1446 — CKD benefit. Proposed mechanisms: osmotic natriuresis → volume unloading; ketone body shift improving myocardial fuel efficiency; direct tubular and cardiomyocyte cytoprotective effects."
+        },
+        {
+          "id": "ap5",
+          "group": "Cell & Membrane Physiology",
+          "label": "Cardiac Pacemakers and Defibrillators",
+          "date": "1960",
+          "loc": "Montefiore Medical Center, New York City, New York",
+          "coords": [
+            40.88,
+            -73.88
+          ],
+          "links": [
+            "th2",
+            "co1",
+            "co2",
+            "th1"
+          ],
+          "hint": "The cardiac pacemaker exploits the action potential physiology of cardiac myocytes: by delivering a suprathreshold electrical stimulus at the myocardium, it reliably initiates a propagated action potential and coordinated contraction. Modern pacing devices programme rate, atrioventricular delay, and sense-pace logic to mimic normal conduction. The implantable cardioverter-defibrillator (ICD) continuously monitors cardiac rhythm and delivers a high-energy shock (typically 30–40 joules) to terminate ventricular fibrillation, exploiting the principle that simultaneous depolarisation of the entire myocardium abolishes re-entrant circuits and allows spontaneous recovery of organised rhythm from the sino-atrial node.",
+          "tag": "APPLICATION",
+          "note": "First implantable pacemaker: Elmqvist, R. & Senning, A. (1960). 'An implantable pacemaker for the heart.' In: Smyth, C. N. (Ed.), Medical Electronics: Proceedings of the 2nd International Conference on Medical Electronics. Iliffe & Sons, London, 253–254. Transvenous pacing: Furman, S. & Robinson, G. (1958). 'The use of an intracardiac pacemaker in the correction of total heart block.' Surgical Forum, 9, 245–248 — Montefiore Hospital. ICD: Mirowski, M. et al. (1980). 'Termination of malignant ventricular arrhythmias with an implanted automatic defibrillator in human beings.' New England Journal of Medicine, 303(6), 322–324. MADIT II: Moss, A. J. et al. (2002). 'Prophylactic implantation of a defibrillator in patients with myocardial infarction and reduced ejection fraction.' NEJM, 346(12), 877–883 — established ICD for primary prevention of SCD. Biventricular/CRT pacing: CARE-HF (2005) — cardiac resynchronisation therapy improved survival and quality of life in heart failure with bundle branch block."
+        },
+        {
+          "id": "ap6",
+          "group": "Endocrine & Reproductive Physiology",
+          "label": "Hormonal Contraception and Reproductive Endocrinology",
+          "date": "1960",
+          "loc": "G. D. Searle & Company, Skokie, Illinois",
+          "coords": [
+            42.03,
+            -87.73
+          ],
+          "links": [
+            "th9",
+            "fg14",
+            "co7"
+          ],
+          "hint": "Combined oral contraceptives containing synthetic oestrogen and progestogen suppress the hypothalamic-pituitary-ovarian axis by providing sustained exogenous sex hormone levels that inhibit GnRH pulsatility, suppressing FSH and LH surges and preventing follicular development and ovulation. This is a direct pharmaceutical application of Harris's neuroendocrine hypothesis and the negative feedback architecture of the HPG axis. Modern formulations use lower oestrogen doses and diverse progestogens to minimise thrombotic and metabolic side effects while preserving efficacy. Progestogen-only methods and non-hormonal IUDs exploit different mechanisms.",
+          "tag": "APPLICATION",
+          "note": "Pincus, G., Garcia, C. R. & Rock, J. (1959). 'Effects of certain 19-nor steroids on reproductive processes in normal women.' Science, 130(3371), 81–82. FDA approval of Enovid (norethynodrel + mestranol): June 23, 1960. Rock, J., Garcia, C. R. & Pincus, G. (1957). 'Synthetic progestins in the normal human menstrual cycle.' Recent Progress in Hormone Research, 13, 323–346. Margaret Sanger's influence: Pincus was approached by Sanger (via Katharine McCormick) who funded the research; the political and feminist context of the Pill's development is inseparable from its scientific history. GnRH agonists and antagonists as therapeutic tools: Knobil, E. (1980). 'The neuroendocrine control of the menstrual cycle.' Recent Progress in Hormone Research, 36, 53–88 — GnRH pulse frequency determines FSH vs. LH secretion, explaining how GnRH agonist downregulation is used in IVF protocols and prostate cancer treatment."
+        }
+      ]
     }
   ],
   "timeline": [
@@ -817,42 +1519,228 @@
       "icon": "🧪",
       "accent": "#7D3C98",
       "label": "Landmark Studies",
-      "events": []
+      "events": [
+        {
+          "y": 1628,
+          "l": "Harvey: De Motu Cordis",
+          "entryId": "st3"
+        },
+        {
+          "y": 1905,
+          "l": "Haldane: CO₂ as primary ventilatory stimulus",
+          "entryId": "st6"
+        },
+        {
+          "y": 1922,
+          "l": "Banting & Best: Insulin discovery",
+          "entryId": "st9"
+        },
+        {
+          "y": 1938,
+          "l": "Smith: Inulin clearance and GFR",
+          "entryId": "st8"
+        },
+        {
+          "y": 1952,
+          "l": "Hodgkin & Huxley: Voltage clamp",
+          "entryId": "st1"
+        },
+        {
+          "y": 1954,
+          "l": "Huxley & Hanson: Sliding filament",
+          "entryId": "st2"
+        }
+      ]
     },
     {
       "id": "theory",
       "icon": "📐",
       "accent": "#2471A3",
       "label": "Theories & Models",
-      "events": []
+      "events": [
+        {
+          "y": 1854,
+          "l": "Bernard: Milieu intérieur concept",
+          "entryId": "th10"
+        },
+        {
+          "y": 1914,
+          "l": "Frank-Starling Law formalised",
+          "entryId": "th4"
+        },
+        {
+          "y": 1942,
+          "l": "Countercurrent multiplier hypothesis",
+          "entryId": "th8"
+        },
+        {
+          "y": 1952,
+          "l": "Hodgkin-Huxley action potential model",
+          "entryId": "th1"
+        },
+        {
+          "y": 1955,
+          "l": "Guyton: Cardiovascular-renal model",
+          "entryId": "th6"
+        },
+        {
+          "y": 1958,
+          "l": "Sutherland: cAMP second messenger theory",
+          "entryId": "th2"
+        }
+      ]
     },
     {
       "id": "effect",
       "icon": "📊",
       "accent": "#117A65",
       "label": "Effects & Phenomena",
-      "events": []
+      "events": [
+        {
+          "y": 1868,
+          "l": "Hering-Breuer inflation reflex",
+          "entryId": "ef8"
+        },
+        {
+          "y": 1871,
+          "l": "Bowditch staircase (Treppe)",
+          "entryId": "ef6"
+        },
+        {
+          "y": 1896,
+          "l": "Starling-Landis capillary forces",
+          "entryId": "ef1"
+        },
+        {
+          "y": 1902,
+          "l": "Bayliss myogenic response",
+          "entryId": "ef5"
+        },
+        {
+          "y": 1904,
+          "l": "Bohr Effect described",
+          "entryId": "ef2"
+        },
+        {
+          "y": 1931,
+          "l": "Fåhraeus-Lindqvist effect",
+          "entryId": "ef7"
+        }
+      ]
     },
     {
       "id": "method",
       "icon": "🔬",
       "accent": "#8B5E00",
       "label": "Methods",
-      "events": []
+      "events": [
+        {
+          "y": 1846,
+          "l": "Hutchinson: Spirometer invented",
+          "entryId": "me3"
+        },
+        {
+          "y": 1924,
+          "l": "Richards: Renal micropuncture",
+          "entryId": "me6"
+        },
+        {
+          "y": 1929,
+          "l": "Forssmann: Cardiac catheterisation",
+          "entryId": "me2"
+        },
+        {
+          "y": 1938,
+          "l": "Smith: Inulin clearance standardised",
+          "entryId": "me4"
+        },
+        {
+          "y": 1949,
+          "l": "Voltage clamp technique (Cole/Hodgkin)",
+          "entryId": "me1"
+        },
+        {
+          "y": 1959,
+          "l": "Yalow & Berson: Radioimmunoassay",
+          "entryId": "me5"
+        }
+      ]
     },
     {
       "id": "debate",
       "icon": "⚖️",
       "accent": "#B7770D",
       "label": "Debates & Revisions",
-      "events": []
+      "events": [
+        {
+          "y": 1972,
+          "l": "Passive inner medullary model proposed (Kokko-Rector)",
+          "entryId": "db5"
+        },
+        {
+          "y": 1980,
+          "l": "O₂ therapy in COPD: Haldane effect vs. drive suppression",
+          "entryId": "db4"
+        },
+        {
+          "y": 1988,
+          "l": "Volutrauma: tidal volume, not pressure, injures lung",
+          "entryId": "db7"
+        },
+        {
+          "y": 1988,
+          "l": "Sterling & Eyer: Allostasis challenges homeostasis",
+          "entryId": "db1"
+        },
+        {
+          "y": 1996,
+          "l": "Insulin resistance: DAG/PKCθ signalling defect proposed",
+          "entryId": "db6"
+        },
+        {
+          "y": 2007,
+          "l": "Glycocalyx revises Starling-Landis reabsorption",
+          "entryId": "db2"
+        }
+      ]
     },
     {
       "id": "application",
       "icon": "🔗",
       "accent": "#2E86C1",
       "label": "Applications",
-      "events": []
+      "events": [
+        {
+          "y": 1922,
+          "l": "Insulin: First human treatment of diabetes",
+          "entryId": "ap4"
+        },
+        {
+          "y": 1943,
+          "l": "Kolff: First dialysis machine",
+          "entryId": "ap3"
+        },
+        {
+          "y": 1960,
+          "l": "Implantable pacemaker (Elmqvist & Senning)",
+          "entryId": "ap5"
+        },
+        {
+          "y": 1975,
+          "l": "Captopril: First ACE inhibitor",
+          "entryId": "ap2"
+        },
+        {
+          "y": 2000,
+          "l": "ARDSNet: Lung-protective ventilation",
+          "entryId": "ap1"
+        },
+        {
+          "y": 2015,
+          "l": "EMPA-REG: SGLT2 inhibitors cut CV mortality",
+          "entryId": "ap4"
+        }
+      ]
     }
   ]
 }
