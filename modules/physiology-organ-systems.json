@@ -39,7 +39,8 @@
             "co2",
             "fg4",
             "fg5",
-            "ap5"
+            "ap5",
+            "co17"
           ],
           "hint": "The Hodgkin-Huxley model describes the ionic basis of the action potential using a system of differential equations derived from voltage-clamp experiments on the squid giant axon. It identifies separate voltage-gated sodium and potassium conductances whose time- and voltage-dependent behaviour generates the characteristic spike, overshoot, and refractory period. The model predicts conduction velocity, threshold, and refractoriness with quantitative accuracy and remains the foundation of computational physiology.",
           "tag": "MODEL",
@@ -57,7 +58,9 @@
           ],
           "links": [
             "fg11",
-            "ap5"
+            "ap5",
+            "co11",
+            "co17"
           ],
           "hint": "Sutherland's second messenger theory holds that extracellular signals (hormones, neurotransmitters) bind surface receptors that activate intracellular messengers — chiefly cyclic AMP (cAMP) — which relay and amplify the signal to downstream effectors without entering the cell. This cascade framework explains how a tiny concentration of hormone at the cell surface triggers a massive intracellular biochemical response. It was later extended to include the IP₃/DAG and calcium second messenger pathways.",
           "tag": "THEORY",
@@ -75,7 +78,8 @@
           ],
           "links": [
             "st2",
-            "ef6"
+            "ef6",
+            "co17"
           ],
           "hint": "The sliding filament theory holds that muscle contraction occurs not by folding or shortening of individual protein filaments but by the sliding of thin actin filaments past thick myosin filaments, driven by repeated formation and detachment of cross-bridges powered by ATP hydrolysis. Sarcomere length decreases while filament lengths remain constant. This was established simultaneously by Hugh Huxley & Hanson using electron microscopy and by A.F. Huxley & Niedergerke using interference microscopy.",
           "tag": "THEORY",
@@ -151,7 +155,8 @@
           ],
           "links": [
             "st6",
-            "co9"
+            "co9",
+            "co13"
           ],
           "hint": "The chemoreceptor theory holds that arterial blood gas composition — principally CO₂ and pH rather than O₂ — is the primary signal regulating ventilation. Central chemoreceptors on the ventral medullary surface respond to changes in cerebrospinal fluid pH driven by CO₂ diffusion; peripheral chemoreceptors in the carotid and aortic bodies respond to PaO₂, PaCO₂ and pH. Rising PaCO₂ is the dominant normal stimulus; hypoxic drive from peripheral receptors dominates only when PaO₂ falls below approximately 60 mmHg.",
           "tag": "THEORY",
@@ -189,7 +194,9 @@
           "links": [
             "co7",
             "fg14",
-            "ap6"
+            "ap6",
+            "co10",
+            "co14"
           ],
           "hint": "Geoffrey Harris's neuroendocrine hypothesis proposed that the hypothalamus controls anterior pituitary secretion not via direct nerve connections but through chemical messenger molecules released into a portal blood system connecting the two structures. Neural information from higher brain centres, stress responses, and circadian inputs is thereby transduced into hormonal signals — integrating the nervous and endocrine systems into a unified neuroendocrine axis. This framework explains how psychological states produce measurable hormonal changes.",
           "tag": "THEORY",
@@ -280,7 +287,8 @@
           ],
           "links": [
             "co3",
-            "fg1"
+            "fg1",
+            "co15"
           ],
           "repl": "robust",
           "hint": "Harvey's treatise demonstrated by quantitative argument and animal dissection that blood circulates continuously in a closed loop rather than being perpetually produced and consumed. He calculated that the heart ejects more blood per hour than the body contains — making Galenic 'consumption' physically impossible — and showed by arterial ligation and venous valve dissection that blood can only travel from heart to periphery to veins and back. This was the first quantitative argument in physiology and the founding text of cardiovascular science.",
@@ -356,7 +364,8 @@
             18.02
           ],
           "links": [
-            "fg8"
+            "fg8",
+            "co13"
           ],
           "repl": "robust",
           "hint": "Von Euler and Liljestrand discovered that pulmonary arteries — uniquely in the body — constrict in response to local alveolar hypoxia rather than dilating. In a poorly ventilated lung region this hypoxic pulmonary vasoconstriction (HPV) diverts blood flow away from under-ventilated alveoli toward better-ventilated ones, optimising the ventilation-perfusion ratio and preventing blood from bypassing gas exchange. The response is the opposite of every other tissue vascular bed in the body.",
@@ -443,6 +452,27 @@
           "hint": "Cannon demonstrated that threatening stimuli trigger a coordinated sympathetic-adrenal response — elevated heart rate, blood pressure, glucose mobilisation, bronchodilation, and blood flow redirection from gut to muscle — preparing the organism for vigorous physical action. He named this the 'fight-or-flight' response and identified adrenaline released from the adrenal medulla as the primary mediator, establishing that the autonomic nervous system uses hormones as well as nerve signals.",
           "tag": "EXPERIMENT",
           "note": "Cannon, W. B. (1915). Bodily Changes in Pain, Hunger, Fear and Rage. D. Appleton & Co. Cannon, W. B. & de la Paz, D. (1911). 'Emotional stimulation of adrenal secretion.' American Journal of Physiology, 28(1), 64–70 — the original demonstration. Replication status: Mixed — sympathoadrenal activation under acute threat is robustly confirmed. Challenge to universality: Taylor, S. E. et al. (2000). 'Biobehavioral responses to stress in females: Tend-and-befriend, not fight-or-flight.' Psychological Review, 107(3), 411–429 — proposed that females exhibit a qualitatively different stress response driven by oxytocin rather than adrenaline; this neuroendocrine sex difference has since been confirmed but its magnitude and universality remain active research questions."
+        },
+        {
+          "id": "st12",
+          "group": "Gastrointestinal Physiology",
+          "label": "Pavlov's Three-Phase Model of Gastric Secretion",
+          "date": "1897",
+          "loc": "Institute of Experimental Medicine, St Petersburg, Russia",
+          "coords": [
+            59.94,
+            30.32
+          ],
+          "links": [
+            "fg15",
+            "co10",
+            "co11",
+            "ap7"
+          ],
+          "repl": "robust",
+          "hint": "Pavlov's systematic studies of gastric secretion using chronic fistula preparations in dogs established the three-phase model that remains canonical. The cephalic phase (triggered by sight, smell, taste, or thought of food via vagal stimulation) accounts for ~30% of total acid output. The gastric phase (triggered by distension and protein digestion products in the stomach, via local enteric reflexes and gastrin release) accounts for ~60%. The intestinal phase (triggered by chyme entering the duodenum) accounts for ~10% and transitions to inhibition as fat and acid slow gastric emptying. Pavlov's 'sham feeding' experiment — where food was chewed and swallowed but bypassed the stomach via an oesophageal fistula — elegantly isolated the cephalic phase as a purely neural (vagal) response independent of any food reaching the stomach.",
+          "tag": "STUDY",
+          "note": "Pavlov, I. P. (1897). Lektsii o rabote glavnykh pishchevaritelnykh zhelez [Lectures on the Work of the Principal Digestive Glands]. St Petersburg — Russian original; translated as The Work of the Digestive Glands, Griffin, London, 1902. Nobel Prize in Physiology or Medicine, 1904 — the only Nobel awarded specifically for digestive physiology. Replication status: Robust — the three-phase model has been confirmed in humans using sham feeding with modified Hollander/modified Pavlov pouches. Refinement: Edkins, J. S. (1906). 'The chemical mechanism of gastric secretion.' Journal of Physiology, 34(1–2), 133–144 — discovered gastrin, identifying the humoral mediator of the gastric phase. Gregory, R. A. & Tracy, H. J. (1964). 'The constitution and properties of two gastrins extracted from hog antral mucosa.' Gut, 5(2), 103–117 — isolated and sequenced gastrin. The inhibitory intestinal phase involves secretin, CCK, GIP, and somatostatin, all discovered after Pavlov."
         }
       ]
     },
@@ -468,7 +498,9 @@
           "links": [
             "st5",
             "db2",
-            "fg3"
+            "fg3",
+            "co12",
+            "co16"
           ],
           "repl": "robust",
           "hint": "The Starling-Landis principle states that fluid movement across the capillary wall is governed by the balance between hydrostatic pressure (pushing fluid out) and oncotic pressure (drawing fluid in) on each side of the wall. Under normal conditions, net filtration slightly exceeds reabsorption and the excess is returned by the lymphatics. Oedema results when the balance is disrupted by elevated venous hydrostatic pressure, reduced plasma oncotic pressure (hypoalbuminaemia), or lymphatic obstruction. The net filtration equation — Kf × [(Pc − Pi) − σ(πc − πi)] — encodes all four of these variables, which must each be considered in diagnosing oedematous states.",
@@ -525,7 +557,8 @@
           ],
           "links": [
             "co2",
-            "ap3"
+            "ap3",
+            "co16"
           ],
           "repl": "robust",
           "hint": "The Gibbs-Donnan equilibrium describes the unequal distribution of diffusible ions across a semipermeable membrane when one side contains non-diffusible charged molecules (proteins, polyanionic glycosaminoglycans). Protein anions attract cations and repel anions on the same side, so the total ion concentration is higher on the protein-containing side, creating an osmotic pressure (oncotic pressure) and a stable membrane voltage (Donnan potential). In physiology, the Donnan effect contributes to the resting membrane potential, governs red-cell ion balance, and drives the Hamburger chloride shift during CO₂ loading.",
@@ -564,7 +597,8 @@
           ],
           "links": [
             "th3",
-            "co8"
+            "co8",
+            "co17"
           ],
           "repl": "robust",
           "hint": "The Bowditch staircase (Treppe) describes the progressive increase in cardiac muscle contraction force with repetitive stimulation at constant rate after a period of rest — each successive beat is stronger than the last until a plateau is reached. The mechanism is calcium-dependent: at higher frequencies less Ca²⁺ is expelled between beats, leading to progressive sarcoplasmic reticulum calcium loading and stronger releases with each action potential. This frequency-dependent potentiation is distinct from the Frank-Starling effect (which responds to filling volume) and from sympathetic inotropism.",
@@ -602,7 +636,8 @@
             16.37
           ],
           "links": [
-            "db4"
+            "db4",
+            "co15"
           ],
           "repl": "robust",
           "hint": "The Hering-Breuer inflation reflex is the slowing or arrest of inspiration triggered by pulmonary stretch receptors (slowly adapting mechanoreceptors in airway smooth muscle) that fire proportionally to lung volume. Afferent signals travel via the vagus nerve to the medullary inspiratory centre, inhibiting further inspiratory neuron firing and terminating the breath. The reflex prevents overinflation. In anaesthetised animals and sleeping neonates the reflex governs tidal volume; in awake adult humans it is active only at large tidal volumes above approximately 1 litre, and does not normally pace the breathing rhythm.",
@@ -690,7 +725,8 @@
           "links": [
             "th1",
             "ef4",
-            "ap5"
+            "ap5",
+            "co16"
           ],
           "hint": "The resting membrane potential (approximately −70 mV in neurons, −90 mV in skeletal muscle, −85 mV in ventricular cardiomyocytes) arises from unequal ion distributions across the plasma membrane and selective resting permeability. The Goldman-Hodgkin-Katz equation predicts the equilibrium potential from relative permeabilities and concentrations of Na⁺, K⁺, and Cl⁻. At rest, K⁺ permeability dominates and pulls the potential toward the K⁺ equilibrium potential (approximately −94 mV); Na⁺ leak conductance and the electrogenic Na⁺/K⁺-ATPase (exporting 3 Na⁺ for 2 K⁺) hold the actual resting value slightly depolarised relative to equilibrium. The Na⁺/K⁺-ATPase also continuously replenishes the ion gradients, consuming approximately 30% of the cell's total ATP.",
           "tag": "CONCEPT",
@@ -713,7 +749,10 @@
             "st3",
             "fg1",
             "me2",
-            "db3"
+            "db3",
+            "co12",
+            "co15",
+            "co17"
           ],
           "hint": "Cardiac output (CO = heart rate × stroke volume, normally ~5 L/min at rest) is the volume of blood pumped per minute. Stroke volume is determined by three independent variables: preload (end-diastolic volume — the degree of ventricular filling, governed by venous return and the Frank-Starling law), afterload (the arterial resistance the ventricle must overcome during ejection), and contractility (the intrinsic force-generating capacity of the myocardium, augmented by sympathetic stimulation and calcium-sensitising agents). Understanding these four determinants (HR, preload, afterload, contractility) is the framework for all cardiovascular pharmacology, critical care haemodynamics, and echocardiographic assessment.",
           "tag": "CONCEPT",
@@ -771,7 +810,8 @@
             "me6",
             "db5",
             "ap2",
-            "ap3"
+            "ap3",
+            "co16"
           ],
           "hint": "The nephron achieves urine formation through three sequential processes: glomerular filtration (producing ~125 mL/min of protein-free ultrafiltrate, governed by Starling forces across the fenestrated glomerular capillary and podocyte filtration barrier), tubular reabsorption (reclaiming ~99% of filtered water, Na⁺, glucose, and amino acids), and tubular secretion (adding organic acids, drugs, and K⁺ from peritubular capillaries to tubular fluid). Clearance — the volume of plasma completely cleared of a substance per minute — is the conceptual tool: clearance equal to GFR means neither reabsorption nor secretion; below GFR means net reabsorption; above GFR means net secretion.",
           "tag": "CONCEPT",
@@ -793,7 +833,9 @@
             "me5",
             "db6",
             "db8",
-            "ap6"
+            "ap6",
+            "co10",
+            "co14"
           ],
           "hint": "Endocrine regulation operates through three-tier hypothalamic-pituitary-target-organ axes: a releasing hormone from the hypothalamus stimulates a trophic hormone from the anterior pituitary, which stimulates the target organ. Negative feedback from the target hormone closes the loop at both hypothalamus and pituitary, maintaining set-point concentrations. The HPA (stress), HPT (thyroid), and HPG (gonadal) axes each follow this blueprint. Disruption of negative feedback produces predictable failure patterns: primary failure (target organ) elevates trophic hormones; secondary failure (pituitary) reduces both trophic and target hormones; tertiary failure (hypothalamus) reduces all three — enabling anatomical diagnosis from blood tests alone.",
           "tag": "CONCEPT",
@@ -810,7 +852,8 @@
             -3.19
           ],
           "links": [
-            "ef6"
+            "ef6",
+            "co17"
           ],
           "hint": "The neuromuscular junction is the chemical synapse between the motor neuron terminal and the motor endplate of a skeletal muscle fibre. A motor neuron action potential triggers Ca²⁺ influx through presynaptic voltage-gated Ca²⁺ channels (Cav2.1), causing quantal acetylcholine release into the synaptic cleft. ACh binds nicotinic AChRs (AChR-n), generating an endplate potential reliably large enough (~50 mV) to fire a muscle action potential — the NMJ safety factor is high, typically 3–5. Acetylcholinesterase hydrolyses ACh within milliseconds. The high safety factor means that NMJ diseases must eliminate a majority of receptors before neuromuscular transmission fails clinically.",
           "tag": "CONCEPT",
@@ -830,11 +873,173 @@
             "th7",
             "ef2",
             "fg8",
-            "db4"
+            "db4",
+            "co13"
           ],
           "hint": "Gas exchange efficiency depends not just on total ventilation and perfusion but on how well they are matched in individual alveolar units. The V̇/Q̇ ratio determines the O₂ and CO₂ composition of blood leaving each unit. Dead space (V̇/Q̇ → ∞, ventilated but not perfused) wastes ventilation; shunt (V̇/Q̇ = 0, perfused but not ventilated) wastes perfusion and cannot be rescued by supplemental O₂ alone because shunted blood bypasses alveoli entirely. In the upright lung, gravity increases both ventilation and perfusion from apex to base, but perfusion increases more steeply, so V̇/Q̇ falls from apex (~3) to base (~0.6). Hypoxic pulmonary vasoconstriction is the key mechanism minimising V̇/Q̇ mismatch.",
           "tag": "CONCEPT",
           "note": "Riley, R. L. & Cournand, A. (1951). 'Analysis of factors affecting partial pressures of oxygen and carbon dioxide in gas and blood of lungs.' Journal of Applied Physiology, 4(2), 77–101 — the mathematical treatment of V/Q inequality. Multiple inert gas elimination technique (MIGET): Wagner, P. D., Saltzman, H. A. & West, J. B. (1974). Journal of Applied Physiology, 36(5), 588–599 — resolves the full V/Q distribution across hundreds of lung units in vivo. West, J. B. (2012). Respiratory Physiology: The Essentials, 9th ed. Lippincott Williams & Wilkins. Clinical relevance: the PaO₂-FiO₂ ratio (P/F ratio) used in ARDS severity grading is a crude index of V̇/Q̇ mismatch and shunt; a P/F < 300 with bilateral infiltrates and no cardiogenic explanation defines ARDS (Berlin Definition, 2012, JAMA, 307(23), 2526–2533). Shunt does not respond to supplemental O₂ because 100% O₂ cannot oxygenate blood flowing through unventilated units."
+        },
+        {
+          "id": "co10",
+          "group": "Gastrointestinal Physiology",
+          "label": "Enteric Nervous System",
+          "date": "1921",
+          "loc": "University of Cambridge, Cambridge, England",
+          "coords": [
+            52.2,
+            0.12
+          ],
+          "links": [
+            "st12",
+            "co11",
+            "fg15",
+            "co7",
+            "th9"
+          ],
+          "hint": "The enteric nervous system (ENS) — embedded within the gut wall from oesophagus to anus — contains 200–600 million neurons, comparable in number to the spinal cord, and can coordinate all major gastrointestinal functions (peristalsis, secretion, blood flow, immune modulation) entirely independently of the central nervous system. Organised into the myenteric (Auerbach's) plexus (between circular and longitudinal muscle layers, governing motility) and the submucosal (Meissner's) plexus (governing secretion and blood flow), the ENS uses more than 30 neurotransmitters including ACh, VIP, NO, and substance P. Approximately 95% of the body's serotonin (5-HT) is stored in enterochromaffin cells of the gut mucosa, where it initiates peristaltic reflexes via 5-HT4 receptors on intrinsic sensory neurons.",
+          "tag": "CONCEPT",
+          "note": "Auerbach, L. (1864). 'Ueber einen Plexus gangliosus myogastricus.' Breslauer ärztliche Zeitschrift — description of the myenteric plexus. Meissner, G. (1857). 'Ueber die Nerven der Darmwand.' Zeitschrift für rationelle Medizin, 8, 364–366. Langley, J. N. (1921). The Autonomic Nervous System, Part 1. W. Heffer, Cambridge — coined 'enteric nervous system' as the third division of the autonomic nervous system alongside sympathetic and parasympathetic. 'Second brain' framing: Gershon, M. D. (1998). The Second Brain. HarperCollins — popular account by the scientist who revived interest in ENS autonomy. Functional serotonin: Bulbring, E. & Crema, A. (1959). Journal of Physiology, 146(1), 29–53 — 5-HT initiation of peristaltic reflex. Clinical relevance: Hirschsprung disease (congenital absence of ENS neurons in distal colon), irritable bowel syndrome (ENS hypersensitivity), and gastroparesis all arise from ENS dysfunction. 5-HT4 agonists (prucalopride, metoclopramide) and 5-HT3 antagonists (ondansetron) act directly on enteric circuitry."
+        },
+        {
+          "id": "co11",
+          "group": "Gastrointestinal Physiology",
+          "label": "Gastric Acid Secretion and Proton Pump Physiology",
+          "date": "1906",
+          "loc": "St Bartholomew's Hospital Medical College, London, England",
+          "coords": [
+            51.52,
+            -0.1
+          ],
+          "links": [
+            "st12",
+            "co10",
+            "ap7",
+            "fg15",
+            "th2"
+          ],
+          "hint": "Gastric acid (HCl) secretion by parietal cells is driven by the H⁺/K⁺-ATPase (proton pump) on the apical membrane, which creates the steepest transmembrane ion gradient in the human body — approximately a 10⁶-fold H⁺ concentration difference between the parietal cell cytoplasm (pH 7.2) and gastric lumen (pH 1.0–2.0). Three major secretagogues stimulate acid via distinct receptors: histamine (H₂ receptor → Gₛ/cAMP/PKA), acetylcholine (M₃ receptor → Gₚ/IP₃/Ca²⁺), and gastrin (CCKᴅ receptor → Gₚ). All three pathways converge on translocation of H⁺/K⁺-ATPase-containing tubulovesicles to the apical membrane. Inhibition is mediated by somatostatin, prostaglandins, secretin, and GIP. The peptic ulcer revolution: most peptic ulcers are caused by Helicobacter pylori or NSAIDs, not by excess acid per se — acid enables bacterial virulence and impairs mucosal healing.",
+          "tag": "CONCEPT",
+          "note": "Edkins, J. S. (1906). 'The chemical mechanism of gastric secretion.' Journal of Physiology, 34(1–2), 133–144 — discovery of gastrin. Proton pump characterisation: Sachs, G. et al. (1976). 'A nonelectrogenic H⁺ pump in plasma membranes of hog stomach.' Journal of Clinical Investigation, 58(1), 255–262. Black, J. W. et al. (1972). 'Definition and antagonism of histamine H₂-receptors.' Nature, 236, 385–390 — Nobel Prize 1988 (Black); H₂ blockers (cimetidine, ranitidine) were the first effective medical ulcer treatment. H. pylori: Marshall, B. J. & Warren, J. R. (1984). Lancet, 1(8390), 1311–1315 — Nobel Prize 2005; eradication of H. pylori cures the underlying cause of most peptic ulcers. PPIs: Lindberg, P. et al. (1986). Trends in Pharmacological Sciences, 8(7), 399–416 — the benzimidazole class mechanism (covalent, irreversible H⁺/K⁺-ATPase inhibition after acid activation of the prodrug). Soll, A. H. (1990). 'Pathogenesis of peptic ulcer and implications for therapy.' New England Journal of Medicine, 322(13), 909–916."
+        },
+        {
+          "id": "co12",
+          "group": "Cardiovascular & Blood Physiology",
+          "label": "Hemostasis and the Coagulation Cascade",
+          "date": "1964",
+          "loc": "Radcliffe Infirmary, University of Oxford, Oxford, England",
+          "coords": [
+            51.76,
+            -1.26
+          ],
+          "links": [
+            "fg16",
+            "co3",
+            "ef1"
+          ],
+          "hint": "Hemostasis proceeds in three overlapping phases. Primary hemostasis: platelet adhesion to exposed subendothelial collagen (mediated by von Willebrand factor bridging to GPIb), platelet activation (shape change, degranulation releasing ADP/TXA₂), and aggregation (GPIIb/IIIa cross-linking fibrinogen). Secondary hemostasis (coagulation cascade): the extrinsic pathway (tissue factor + VIIa) and intrinsic pathway (XIIa → XIa → IXa) converge on factor X activation; Xa with Va generates thrombin from prothrombin; thrombin cleaves fibrinogen to fibrin and activates factor XIII to cross-link the clot. Fibrinolysis (tertiary): plasmin (from plasminogen activated by t-PA) dissolves the clot. Virchow's triad — endothelial injury, stasis, hypercoagulability — describes the three prerequisites for pathological thrombosis.",
+          "tag": "CONCEPT",
+          "note": "Cascade model: MacFarlane, R. G. (1964). 'An enzyme cascade in the blood clotting mechanism, and its function as a biochemical amplifier.' Nature, 202, 498–499. Davie, E. W. & Ratnoff, O. D. (1964). 'Waterfall sequence for intrinsic blood clotting.' Science, 145(3638), 1310–1312 — independent simultaneous description. Modern cell-based model (supersedes cascade): Hoffman, M. & Monroe, D. M. (2001). 'A cell-based model of hemostasis.' Thrombosis and Haemostasis, 85(6), 958–965 — emphasises tissue factor-bearing cell surfaces rather than sequential plasma-phase enzyme activation. von Willebrand factor: Ruggeri, Z. M. (1997). 'von Willebrand factor.' Journal of Clinical Investigation, 99(4), 559–564. Anticoagulants: heparin potentiates antithrombin III; warfarin blocks vitamin K-dependent carboxylation of factors II, VII, IX, X; DOACs (rivaroxaban, apixaban) directly inhibit Xa or thrombin. Virchow, R. (1856). 'Thrombose und Embolie.' Gesammelte Abhandlungen, 219–732 — Virchow's triad was never explicitly stated in a single paper; historians have reconstructed it from his broader work."
+        },
+        {
+          "id": "co13",
+          "group": "Cardiovascular & Blood Physiology",
+          "label": "Erythropoiesis and Oxygen-Sensing",
+          "date": "1985",
+          "loc": "University of Oxford, Oxford, England",
+          "coords": [
+            51.76,
+            -1.26
+          ],
+          "links": [
+            "st7",
+            "th7",
+            "co9"
+          ],
+          "hint": "Erythropoietin (EPO), a glycoprotein hormone produced by peritubular fibroblasts in the renal cortex, drives erythropoiesis by preventing apoptosis of BFU-E and CFU-E progenitors in bone marrow and promoting their terminal differentiation into red blood cells. The oxygen-sensing mechanism operates through hypoxia-inducible factor (HIF): in normoxia, prolyl hydroxylase domain proteins (PHD1–3) hydroxylate proline residues on HIF-1α, targeting it for VHL-mediated ubiquitylation and proteasomal degradation. When O₂ falls, PHD activity falls (as O₂ is a PHD co-substrate), HIF-1α accumulates, dimerises with HIF-1β, and transcriptionally activates EPO and >200 other hypoxia-response genes including VEGF and glycolytic enzymes.",
+          "tag": "CONCEPT",
+          "note": "EPO hypothesis: Carnot, P. & Deflandre, C. (1906). 'Sur l’activité hémopoïétique du sérum au cours de la régénération du sang.' Comptes Rendus de l’Académie des Sciences, 143, 384–386 — proposed a humoral factor stimulating red cell production. EPO cDNA cloning: Lin, F. K. et al. (1985). 'Cloning and expression of the human erythropoietin gene.' Proceedings of the National Academy of Sciences, 82(22), 7580–7584. HIF discovery: Semenza, G. L. & Wang, G. L. (1992). 'A nuclear factor induced by hypoxia via de novo protein synthesis binds to the human erythropoietin gene enhancer at a site required for transcriptional activation.' Molecular and Cellular Biology, 12(12), 5447–5454. Nobel Prize in Physiology or Medicine, 2019 — Kaelin, Ratcliffe, and Semenza for HIF/PHD oxygen-sensing mechanism. Clinical: recombinant EPO (epoetin alfa, 1989) transformed anaemia treatment in CKD and cancer; it became notorious as a doping agent in endurance sports (Tour de France). PHD inhibitors (roxadustat) stabilise HIF-1α pharmacologically, an oral alternative to injected EPO."
+        },
+        {
+          "id": "co14",
+          "group": "Endocrine & Reproductive Physiology",
+          "label": "Menstrual Cycle and HPG Axis Dynamics",
+          "date": "1974",
+          "loc": "University of Pittsburgh, Pittsburgh, Pennsylvania",
+          "coords": [
+            40.44,
+            -79.96
+          ],
+          "links": [
+            "co7",
+            "th9",
+            "fg14",
+            "ap6"
+          ],
+          "hint": "The menstrual cycle is a ~28-day hormonal programme coordinated by the hypothalamic-pituitary-ovarian (HPG) axis. Follicular phase: FSH (driven by low E₂ and P₄, high GnRH pulse frequency) promotes follicular growth; the dominant follicle secretes rising oestradiol. At peak E₂ (~day 12–13), negative feedback switches to positive: a LH surge occurs over 24–48 hours, triggering ovulation (~day 14). Luteal phase: the corpus luteum secretes progesterone and oestradiol, suppressing further folliculogenesis (negative feedback). If no implantation, corpus luteum involutes (luteolysis), progesterone falls, the endometrium sheds, and the cycle restarts. GnRH pulse frequency is the master controller: slow pulses (≥1 per 2 h) favour FSH; fast pulses (1 per 30–60 min) favour LH.",
+          "tag": "CONCEPT",
+          "note": "Knobil, E. et al. (1974). 'Control of the rhesus monkey menstrual cycle: Permissive role of the hypothalamic gonadotropin-releasing hormone.' Science, 185(4148), 468–470 — showed that GnRH must be pulsatile, not continuous, to sustain LH/FSH secretion. Knobil, E. (1980). 'The neuroendocrine control of the menstrual cycle.' Recent Progress in Hormone Research, 36, 53–88 — pulse frequency governs FSH/LH ratio. LH surge mechanism: Karsch, F. J. et al. (1992). 'Neuroendocrine basis of seasonal reproduction.' Recent Progress in Hormone Research, 47, 193–238. Positive E₂ feedback site: Moenter, S. M. et al. (1991). 'Dynamics of gonadotropin-releasing hormone release during a pulse.' Endocrinology, 130(1), 503–510. Kisspeptin neurons as the mediator of positive feedback: Herbison, A. E. & Pape, J. R. (2001). Endocrinology, 142(7), 3244–3247; Herbison, A. E. (2016). 'Control of puberty onset and fertility by gonadotropin-releasing hormone neurons.' Nature Reviews Endocrinology, 12(8), 452–466. Clinical: polycystic ovary syndrome (PCOS) involves accelerated GnRH pulse frequency driving LH dominance over FSH, impairing follicular maturation; slowing GnRH pulse frequency (e.g. with progesterone or kisspeptin antagonists) restores FSH-dominant secretion."
+        },
+        {
+          "id": "co15",
+          "group": "Cardiovascular & Blood Physiology",
+          "label": "Fetal Circulation and Neonatal Cardiovascular Transition",
+          "date": "1958",
+          "loc": "Nuffield Institute for Medical Research, Oxford, England",
+          "coords": [
+            51.76,
+            -1.26
+          ],
+          "links": [
+            "co3",
+            "ef8",
+            "st3"
+          ],
+          "hint": "The fetal circulation bypasses the fluid-filled, gas-exchanging lungs via three anatomical shunts. (1) Ductus venosus: umbilical vein blood (oxygenated from placenta) bypasses hepatic sinusoids → inferior vena cava. (2) Foramen ovale: oxygen-rich blood from the IVC streams across the interatrial septum into the left atrium, bypassing the pulmonary circulation. (3) Ductus arteriosus: deoxygenated right ventricular output bypasses the high-resistance fetal lungs → aorta. At the first breath: lung expansion drops pulmonary vascular resistance; the resulting surge in pulmonary blood flow raises left atrial pressure above right atrial pressure, functionally closing the foramen ovale flap. Rising PaO₂ and falling prostaglandin E₂ (which had kept the ductus arteriosus open) cause it to constrict within hours to days, producing the adult two-pump circulation.",
+          "tag": "CONCEPT",
+          "note": "Harvey, W. (1628). De Motu Cordis, Ch. 16 — described fetal circulation including the foramen ovale and ductus arteriosus; Harvey correctly inferred their circulatory roles. Dawes, G. S. (1968). Foetal and Neonatal Physiology. Year Book Medical, Chicago — the definitive synthesis; Dawes worked at the Nuffield Institute from 1948, characterising fetal cardiovascular physiology in sheep. Rudolph, A. M. & Heymann, M. A. (1967). 'The circulation of the fetus in utero.' Circulation Research, 21(2), 163–184 — quantitative distribution of fetal cardiac output using radioactive microspheres. Ductus arteriosus closure: Coceani, F. & Olley, P. M. (1973). 'The response of the ductus arteriosus to prostaglandins.' Canadian Journal of Physiology and Pharmacology, 51(3), 220–225 — identified PGE₂ as the key dilator. Clinical: premature infants have a patent ductus arteriosus (PDA) that can be closed pharmacologically with indomethacin (COX inhibitor, reduces PGE₂) or surgically; congenital heart disease with cyanosis (e.g. transposition of the great arteries) depends on a PDA staying open — maintained with IV prostaglandins E₁ until surgical repair."
+        },
+        {
+          "id": "co16",
+          "group": "Homeostasis & Integration",
+          "label": "Body Fluid Compartments and Indicator Dilution",
+          "date": "1932",
+          "loc": "Yale University, New Haven, Connecticut",
+          "coords": [
+            41.3,
+            -72.93
+          ],
+          "links": [
+            "ef1",
+            "ef4",
+            "co6",
+            "co2"
+          ],
+          "hint": "Total body water (~42 L, or ~60% of body weight) is partitioned into intracellular fluid (ICF, ~28 L; K⁺-rich, ~140 mEq/L K⁺, ~12 mEq/L Na⁺) and extracellular fluid (ECF, ~14 L; Na⁺-rich, ~140 mEq/L Na⁺, ~4 mEq/L K⁺). The ECF is subdivided into plasma (~3.5 L, maintained by Starling forces and albumin oncotic pressure), interstitial fluid (~10.5 L), and transcellular fluid (~1 L: CSF, synovial, pleural, peritoneal). Compartment volumes are measured by indicator dilution: a known amount of tracer equilibrated throughout a compartment allows calculation of its volume from the steady-state plasma concentration. ICF volume cannot be measured directly; it is estimated as total body water minus ECF. The ICF/ECF partition is governed by the Gibbs-Donnan equilibrium and maintained by the Na⁺/K⁺-ATPase.",
+          "tag": "CONCEPT",
+          "note": "Lavietes, P. H., D’Adamo, A. F. & Peters, J. P. (1932). 'The volume and composition of body fluids.' Journal of Clinical Investigation, 11(2), 329–343 — first systematic measurement of body water compartments. Wynn, V. (1957). 'The osmotic behaviour of the body fluids.' Lancet, 2(6994), 536–542. Peters, J. P. (1935). Body Water. Charles C. Thomas, Springfield — foundational text. Indicator choice by compartment: D₂O or antipyrine (total body water); inulin or mannitol (ECF); Evans blue or radiolabelled albumin (plasma volume); ICF = TBW − ECF. Clinical relevance: understanding fluid compartments is essential for prescribing IV fluids correctly. Normal saline (0.9% NaCl) distributes into ECF only (Na⁺-containing fluid stays outside cells); D5W (5% dextrose) rapidly equilibrates into TBW as glucose is metabolised to CO₂ and H₂O, making it effectively free water. Oedema, heart failure, nephrotic syndrome, and cirrhosis all represent disordered compartment partitioning with excess interstitial or transcellular fluid accumulation at the expense of plasma volume."
+        },
+        {
+          "id": "co17",
+          "group": "Neuromuscular Physiology",
+          "label": "Cardiac and Smooth Muscle Excitation-Contraction Coupling",
+          "date": "1955",
+          "loc": "Columbia University, New York City, New York",
+          "coords": [
+            40.81,
+            -73.96
+          ],
+          "links": [
+            "th1",
+            "th3",
+            "ef6",
+            "co8",
+            "th2",
+            "co3"
+          ],
+          "hint": "Cardiac and smooth muscle use fundamentally different excitation-contraction (EC) coupling pathways from skeletal muscle. Cardiac EC coupling: the action potential triggers L-type voltage-gated Ca²⁺ channel (Cav1.2) opening in T-tubules; a small Ca²⁺ influx triggers massive Ca²⁺-induced Ca²⁺ release (CICR) from the sarcoplasmic reticulum via ryanodine receptors (RyR2). The resulting cytosolic Ca²⁺ transient activates troponin C, enabling cross-bridge cycling. Relaxation requires SERCA2a (SR reuptake) and NCX (sarcolemmal extrusion). In vascular smooth muscle, there is no T-tubule system and no troponin. EC coupling operates via Gq receptor → IP₃ → SR Ca²⁺ release, supplemented by Cav1.2 influx. Calmodulin binds free Ca²⁺ → activates MLCK → phosphorylates myosin regulatory light chain → cross-bridge cycling. Smooth muscle maintains sustained contractions at low ATP cost through the 'latch bridge' state (dephosphorylated myosin that remains attached to actin).",
+          "tag": "CONCEPT",
+          "note": "EC coupling term: Sandow, A. (1952). 'Excitation-contraction coupling in muscular response.' Yale Journal of Biology and Medicine, 25(3), 176–201. CICR in cardiac muscle: Fabiato, A. & Fabiato, F. (1975). 'Contractions induced by a calcium-triggered release of calcium from the sarcoplasmic reticulum of single skinned cardiac cells.' Journal of Physiology, 249(3), 469–495. RyR2 characterisation: Fleischer, S. et al. (1985). Proceedings of the National Academy of Sciences, 82(21), 7256–7259. SERCA2a: Bhatt, D. et al. (2001). AICA riboside increases SERCA2a expression. Smooth muscle MLCK: Adelstein, R. S. & Eisenberg, E. (1980). 'Regulation and kinetics of the actin–myosin–ATP interaction.' Annual Review of Biochemistry, 49, 921–956. Latch bridge state: Dillon, P. F. et al. (1981). 'Myosin phosphorylation and the cross-bridge cycle in arterial smooth muscle.' Science, 211(4481), 495–497. Clinical: L-type Ca²⁺ channel blockers (amlodipine, diltiazem) target Cav1.2 in both cardiac and vascular smooth muscle, reducing cardiac contractility and causing vasodilation; negative inotropy is minimised with the dihydropyridine subclass (amlodipine) because of slower Ca²⁺ channel kinetics."
         }
       ]
     },
@@ -1215,11 +1420,49 @@
           "links": [
             "th9",
             "co7",
-            "ap6"
+            "ap6",
+            "co14"
           ],
           "hint": "Harris (1913–1971) established the neuroendocrine hypothesis: that the hypothalamus controls anterior pituitary function not by direct nerve connections but through releasing hormones secreted into the hypothalamo-pituitary portal blood. This proposed that neural signals (from higher brain centres, stress, circadian clocks) are transduced into hormonal signals at the portal capillaries, integrating the nervous and endocrine systems. Harris spent over two decades building the evidence for this hypothesis before Guillemin and Schally chemically isolated TRH and GnRH, confirming it — but he died in 1971, the year before the Nobel was awarded.",
           "tag": "FIGURE",
           "note": "Harris, G. W. (1955). Neural Control of the Pituitary Gland. Edward Arnold — the definitive monograph. Green, J. D. & Harris, G. W. (1947). 'The neurovascular link between the neurohypophysis and adenohypophysis.' Journal of Endocrinology, 5(2), 136–146 — anatomical demonstration of the portal system. Guillemin, R. & Schally, A. V. shared the Nobel Prize in Physiology or Medicine, 1977 — awarded for isolating the releasing hormones Harris had predicted. Harris died in 1971, aged 57, before the chemical confirmation was complete. The Nobel Prize is not awarded posthumously; this case is frequently cited in discussions of priority and recognition in science. Donovan, B. T. (1988). Hormones and Human Behaviour. Cambridge University Press — contextualises Harris's influence on neuroendocrinology."
+        },
+        {
+          "id": "fg15",
+          "group": "Gastrointestinal Physiology",
+          "label": "Ivan Petrovich Pavlov",
+          "date": "1897",
+          "loc": "Institute of Experimental Medicine, St Petersburg, Russia",
+          "coords": [
+            59.94,
+            30.32
+          ],
+          "links": [
+            "st12",
+            "co10",
+            "co11",
+            "ap7"
+          ],
+          "hint": "Pavlov (1849–1936) received the 1904 Nobel Prize for his systematic investigation of the digestive glands — the first Nobel awarded to a physiologist in the strict sense. His chronic fistula preparations and 'sham feeding' experiments in dogs established the cephalic, gastric, and intestinal phases of gastric acid secretion, and the coordinating roles of the vagus nerve and humoral factors. He subsequently applied the same rigorous experimental approach to show that salivary and gastric reflexes could be transferred to arbitrary neutral stimuli through association, founding the science of classical conditioning and influencing all subsequent learning theory.",
+          "tag": "FIGURE",
+          "note": "Nobel Prize in Physiology or Medicine, 1904. Pavlov, I. P. (1902). The Work of the Digestive Glands. Griffin, London. Pavlov, I. P. (1927). Conditioned Reflexes: An Investigation of the Physiological Activity of the Cerebral Cortex. Oxford University Press — the conditioning synthesis. Babkin, B. P. (1949). Pavlov: A Biography. University of Chicago Press. Pavlov worked at the Institute of Experimental Medicine for 45 years, constructing elaborate laboratories and a dedicated animal colony. During the Russian Revolution and subsequent Soviet period, he was allowed to continue research unimpeded, though he openly criticised the Soviet government. His laboratory trained many prominent physiologists. The conditioning reflex arc — stimulus → cortical association → reflex response — became the foundation of behaviourism (Watson) and operant conditioning (Skinner), and remains influential in computational models of reinforcement learning."
+        },
+        {
+          "id": "fg16",
+          "group": "Cardiovascular & Blood Physiology",
+          "label": "Karl Landsteiner",
+          "date": "1901",
+          "loc": "University of Vienna, Vienna, Austria",
+          "coords": [
+            48.21,
+            16.37
+          ],
+          "links": [
+            "co12"
+          ],
+          "hint": "Landsteiner (1868–1943) discovered the ABO blood group system in 1901, demonstrating that mixing blood from individuals with incompatible types caused agglutination, and correctly inferring the existence of antigens on red blood cells and complementary antibodies in plasma. This discovery made safe blood transfusion possible and transformed surgery and emergency medicine. He subsequently co-discovered the Rh factor (1937, with Wiener), isolated the poliovirus (1908, with Popper), and established the hapten concept in immunology, showing that small organic molecules become antigenic when conjugated to proteins.",
+          "tag": "FIGURE",
+          "note": "Nobel Prize in Physiology or Medicine, 1930. Landsteiner, K. (1901). 'Ueber Agglutinationserscheinungen normalen menschlichen Blutes.' Wiener Klinische Wochenschrift, 14, 1132–1134 — ABO discovery. AB group: von Decastello, A. & Stürli, A. (1902). Münchener Medizinische Wochenschrift, 49, 1090–1095. Rh factor: Landsteiner, K. & Wiener, A. S. (1940). 'An agglutinable factor in human blood recognizable by immune sera for Rhesus blood.' Proceedings of the Society for Experimental Biology and Medicine, 43(1), 223. Rh incompatibility and haemolytic disease of the newborn: Levine, P. et al. (1941). American Journal of Obstetrics and Gynecology, 42(5), 925–937. Landsteiner moved to the Rockefeller Institute, New York in 1923, where he remained until his death; he died at his laboratory bench after a myocardial infarction at age 75. His work is the direct basis of pre-transfusion blood-bank compatibility testing, organ transplant crossmatching, and forensic blood-typing."
         }
       ]
     },
@@ -1266,7 +1509,7 @@
             "ef1",
             "ef7"
           ],
-          "hint": "The classical Starling-Landis model predicts that capillaries both filter (at the arteriolar end, where hydrostatic pressure exceeds oncotic) and reabsorb (at the venular end, where oncotic pressure exceeds hydrostatic). The glycocalyx revision — developed by Weinbaum, Tarbell, and Adamson from the 2000s — proposes that the primary oncotic barrier is not the capillary wall itself but the thin endothelial glycocalyx layer covering it, meaning that oncotic pressure acts across a sub-glycocalyx space rather than across the full lumen-to-interstitium gradient. In this revised model, there is no net reabsorption in venular capillaries under normal conditions; all filtered fluid returns via lymphatics.",
+          "hint": "The classical Starling-Landis model predicts that capillaries both filter (at the arteriolar end, where hydrostatic pressure exceeds oncotic) and reabsorb (at the venular end, where oncotic pressure exceeds hydrostatic). The glycocalyx revision — developed by Weinbaum, Tarbell, and Adamson from the 2000s — proposes that the primary oncotic barrier is not the capillary wall itself but the thin endothelial glycocalyx layer covering it, meaning that oncotic pressure acts across a sub-glycocalyx space rather than across the full lumen-to-interstitium gradient. In this revised model, there is no net reabsorption in venular capillaries under normal conditions; all filtered fluid returns via lymphatics. Crucially, because the glycocalyx acts as the primary oncotic barrier, the oncotic pressure of the bulk interstitial fluid has negligible influence on net filtration under steady-state conditions — interstitial oncotic pressure cannot ‘see across’ the glycocalyx to affect the sub-glycocalyx gradient. This explains why continuous, low-level filtration proceeds along the entire capillary length rather than being reversed at the venular end.",
           "tag": "DEBATE",
           "note": "Classic model: Landis, E. M. (1927). American Journal of Physiology, 82, 217–238. Glycocalyx challenge: Weinbaum, S., Tarbell, J. M. & Damiano, E. R. (2007). 'The structure and function of the endothelial glycocalyx layer.' Annual Review of Biomedical Engineering, 9, 121–167. Adamson, R. H. et al. (2004). 'Oncotic pressures opposing filtration across non-fenestrated rat microvessels.' Journal of Physiology, 557(3), 889–907 — experimental evidence in support of the revised Starling principle. Status: The glycocalyx model is increasingly accepted in specialist microvascular biology but has not fully displaced the classic Starling model in most clinical and teaching contexts. Practical implication: if the classic model overstated capillary reabsorption, the lymphatic system's role in tissue fluid homeostasis is greater than traditionally taught. Woodcock, T. E. & Woodcock, T. M. (2012). British Journal of Anaesthesia, 108(3), 384–394 — clinical implications for fluid therapy."
         },
@@ -1504,11 +1747,31 @@
           "links": [
             "th9",
             "fg14",
-            "co7"
+            "co7",
+            "co14"
           ],
           "hint": "Combined oral contraceptives containing synthetic oestrogen and progestogen suppress the hypothalamic-pituitary-ovarian axis by providing sustained exogenous sex hormone levels that inhibit GnRH pulsatility, suppressing FSH and LH surges and preventing follicular development and ovulation. This is a direct pharmaceutical application of Harris's neuroendocrine hypothesis and the negative feedback architecture of the HPG axis. Modern formulations use lower oestrogen doses and diverse progestogens to minimise thrombotic and metabolic side effects while preserving efficacy. Progestogen-only methods and non-hormonal IUDs exploit different mechanisms.",
           "tag": "APPLICATION",
           "note": "Pincus, G., Garcia, C. R. & Rock, J. (1959). 'Effects of certain 19-nor steroids on reproductive processes in normal women.' Science, 130(3371), 81–82. FDA approval of Enovid (norethynodrel + mestranol): June 23, 1960. Rock, J., Garcia, C. R. & Pincus, G. (1957). 'Synthetic progestins in the normal human menstrual cycle.' Recent Progress in Hormone Research, 13, 323–346. Margaret Sanger's influence: Pincus was approached by Sanger (via Katharine McCormick) who funded the research; the political and feminist context of the Pill's development is inseparable from its scientific history. GnRH agonists and antagonists as therapeutic tools: Knobil, E. (1980). 'The neuroendocrine control of the menstrual cycle.' Recent Progress in Hormone Research, 36, 53–88 — GnRH pulse frequency determines FSH vs. LH secretion, explaining how GnRH agonist downregulation is used in IVF protocols and prostate cancer treatment."
+        },
+        {
+          "id": "ap7",
+          "group": "Gastrointestinal Physiology",
+          "label": "Proton Pump Inhibitors (PPIs)",
+          "date": "1979",
+          "loc": "Hässle Research Laboratory (AstraZeneca), Mölndal, Sweden",
+          "coords": [
+            57.66,
+            12.01
+          ],
+          "links": [
+            "st12",
+            "co11",
+            "fg15"
+          ],
+          "hint": "Proton pump inhibitors (omeprazole, lansoprazole, pantoprazole, esomeprazole) irreversibly inhibit the gastric H⁺/K⁺-ATPase by forming a covalent disulphide bond with cysteine residues (Cys813, Cys822) after acid-catalysed activation of the benzimidazole prodrug in the acidic environment of parietal cell secretory canaliculi. This irreversible mechanism means acid suppression outlasts the drug's plasma half-life (~1–2 h) by 18–36 hours — recovery requires de novo pump synthesis. PPIs are among the most widely prescribed drugs worldwide, used for peptic ulcer disease, gastro-oesophageal reflux disease (GERD), Zollinger-Ellison syndrome, and (combined with antibiotics) H. pylori eradication. Long-term concerns include increased risk of Clostridioides difficile infection, hypomagnesaemia (chronic Mg²⁺ malabsorption in the small intestine), and fractures (reduced Ca²⁺ absorption at low luminal pH).",
+          "tag": "APPLICATION",
+          "note": "Synthesis: Berglindh, T. et al. (1979). 'H+/K+-ATPase in secreting oxyntic cells.' Acta Physiologica Scandinavica Supplementum, 473, 15–26 — first characterisation of the target. Omeprazole: Fellenius, E. et al. (1981). 'Substituted benzimidazoles inhibit gastric acid secretion by blocking (H⁺+K⁺)-ATPase.' Nature, 290, 159–161 — discovery paper. Lindberg, P. et al. (1990). 'Omeprazole: The first proton pump inhibitor.' Medicinal Research Reviews, 10(1), 1–54 — drug class review. FDA approval: 1989 (omeprazole/Prilosec). H. pylori eradication: Maastricht V/Florence Consensus (2017) recommends PPI-based triple or quadruple therapy for H. pylori eradication. Overuse controversy: Katz, M. H. (2010). 'Failing the acid test.' Archives of Internal Medicine, 170(9), 747–748 — approximately 40–70% of PPI prescriptions are without appropriate indication. Dementia association: observational data suggested a link; subsequent Mendelian randomisation studies found no causal effect (Gomm, W. et al. 2016 versus Lochhead, P. et al. 2021)."
         }
       ]
     }
@@ -1524,6 +1787,11 @@
           "y": 1628,
           "l": "Harvey: De Motu Cordis",
           "entryId": "st3"
+        },
+        {
+          "y": 1897,
+          "l": "Pavlov: Three-phase gastric secretion model",
+          "entryId": "st12"
         },
         {
           "y": 1905,
@@ -1729,6 +1997,11 @@
           "y": 1975,
           "l": "Captopril: First ACE inhibitor",
           "entryId": "ap2"
+        },
+        {
+          "y": 1989,
+          "l": "PPIs approved: irreversible gastric acid suppression",
+          "entryId": "ap7"
         },
         {
           "y": 2000,
