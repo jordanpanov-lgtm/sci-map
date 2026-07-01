@@ -1,0 +1,568 @@
+{
+  "id": "epistemology",
+  "title": "Epistemology & Theory of Knowledge",
+  "subtitle": "What we can know, how we know it, and the limits of certainty",
+  "period": {
+    "start": 380,
+    "end": 2025
+  },
+  "domain": "philosophy",
+  "mapCenter": [
+    38,
+    18
+  ],
+  "mapZoom": 3,
+  "methodology": "METHODOLOGY · Every entry anchors to a landmark argument, thought experiment, paper or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags reception, major objections, and ongoing debates. Studies and effects carry a replicability badge — 🟢 the argument or finding is widely accepted as establishing its conclusion · 🟡 contested or substantially qualified · 🔴 the argument is generally considered to fail. Map pins mark the institution where the key work was produced.",
+  "categories": [
+    {
+      "id": "theory",
+      "label": "Theories & Models",
+      "icon": "📐",
+      "color": "#1A3A5C",
+      "accent": "#2471A3",
+      "bg": "#F0F7FF",
+      "subtitle": "The frameworks that organise what knowledge is, how it is justified, and what truth requires",
+      "entries": [
+        {
+          "id": "th1",
+          "group": "The Nature of Knowledge & Truth",
+          "label": "Justified True Belief (JTB)",
+          "date": "369 BCE",
+          "loc": "Plato's Academy, Athens, Greece",
+          "coords": [
+            37.97,
+            23.73
+          ],
+          "links": [
+            "th2",
+            "th3",
+            "th7",
+            "st1",
+            "st9"
+          ],
+          "hint": "The classical analysis holds that a person knows that P if and only if P is true, the person believes P, and the person is justified in believing P. This tripartite definition — True + Believed + Justified — organised epistemology for more than two millennia, from Plato's Theaetetus through twentieth-century analytic philosophy. Edmund Gettier's 1963 paper showed in three pages that all three conditions can be satisfied while knowledge is absent.",
+          "tag": "THEORY",
+          "note": "Plato. Theaetetus (~369 BCE), 200d-210b, where Socrates explores knowledge as 'true belief with a logos.' The tripartite formulation became explicit in twentieth-century analytic epistemology: Ayer, A. J. (1956). The Problem of Knowledge. Macmillan; Chisholm, R. (1966). Theory of Knowledge. Prentice-Hall. The formulation was the working consensus when Gettier, E. L. (1963). 'Is Justified True Belief Knowledge?' Analysis, 23(6), 121-123, published three counterexamples in three pages. No fully satisfactory fourth condition has been agreed since; the knowledge-first programme (th2) argues the analysis project is misguided in principle."
+        },
+        {
+          "id": "th2",
+          "group": "The Nature of Knowledge & Truth",
+          "label": "Knowledge-First Epistemology",
+          "date": "2000",
+          "loc": "University of Oxford, Oxford, England",
+          "coords": [
+            51.76,
+            -1.26
+          ],
+          "links": [
+            "th1",
+            "th9",
+            "th10",
+            "st1"
+          ],
+          "hint": "Timothy Williamson's Knowledge and Its Limits (2000) inverted the traditional project. Rather than analysing knowledge as JTB-plus-something, Williamson argues that knowledge is the most fundamental factive mental state — irreducible and therefore the right starting point for epistemology, not its conclusion. On this view asking 'what must be added to belief to get knowledge?' is the wrong question. Evidence is what you know (E=K), and knowledge is the norm of assertion.",
+          "tag": "THEORY",
+          "note": "Williamson, T. (2000). Knowledge and Its Limits. Oxford University Press. E=K thesis: your total evidence is precisely what you know. Knowledge as the norm of assertion: assert P only if you know P. Main opponents: Conee, E. & Feldman, R. (2004). Evidentialism. Oxford University Press — belief-based analysis is viable. Ichikawa, J. J. & Steup, M. (2018). 'The Analysis of Knowledge.' Stanford Encyclopedia of Philosophy surveys responses. The programme has generated substantial literature on safe belief, sensitive conditionals, and the relationship between knowledge and action."
+        },
+        {
+          "id": "th3",
+          "group": "The Nature of Knowledge & Truth",
+          "label": "Correspondence Theory of Truth",
+          "date": "1912",
+          "loc": "Trinity College, University of Cambridge, Cambridge, England",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "links": [
+            "th1",
+            "th4",
+            "th5",
+            "th6"
+          ],
+          "hint": "A proposition is true if and only if it corresponds to a fact about the world. Aristotle's formulation — 'to say of what is that it is, and of what is not that it is not, is true' — underpins the commonsense view; Russell and Wittgenstein gave it modern logical form. It is the default assumption behind the T in the JTB analysis. The main challenges are specifying what 'correspondence' and 'fact' mean precisely enough to do philosophical work without circularity.",
+          "tag": "THEORY",
+          "note": "Aristotle. Metaphysics, 1011b25. Russell, B. (1912). The Problems of Philosophy. Williams & Norgate, ch. 12 — the modern analytic formulation. Wittgenstein, L. (1921). Tractatus Logico-Philosophicus — the picture theory as a correspondence account. Austin-Strawson debate: Austin, J. L. & Strawson, P. F. (1950). 'Symposium: Truth.' Proceedings of the Aristotelian Society, Supp. 24, 111-172 — challenged whether correspondence is a genuine relation. Armstrong, D. M. (2004). Truth and Truthmakers. Cambridge University Press is the contemporary successor specifying correspondence relata as truthmakers."
+        },
+        {
+          "id": "th4",
+          "group": "The Nature of Knowledge & Truth",
+          "label": "Coherence Theory of Truth",
+          "date": "1893",
+          "loc": "Merton College, University of Oxford, Oxford, England",
+          "coords": [
+            51.75,
+            -1.25
+          ],
+          "links": [
+            "th3",
+            "th5",
+            "th6",
+            "th8"
+          ],
+          "hint": "A proposition is true in virtue of cohering with a system of other propositions — not because it corresponds to a mind-independent reality. Truth is a property of whole systems of belief, not individual sentences. Developed in the idealist tradition by Bradley and Blanshard. The isolation objection is its principal weakness: any internally consistent fiction would qualify as true. Important note: coherence as a theory of truth is distinct from coherentism as a theory of justification (th8), though both trade on the same intuition.",
+          "tag": "THEORY",
+          "note": "Bradley, F. H. (1893). Appearance and Reality. Swan Sonnenschein — the foundational idealist statement. Blanshard, B. (1939). The Nature of Thought. Allen & Unwin, vol. 2, chs 25-27 — most systematic development. The isolation objection: Russell, B. (1906) and Rescher, N. (1973). The Coherence Theory of Truth. Oxford University Press. The theory survives in anti-realist philosophy of science and constructivist accounts of mathematical truth; as a general theory of truth it is largely abandoned outside neo-idealist circles. Do not conflate with th8 (coherentism about justification), which is a theory about a different question entirely."
+        },
+        {
+          "id": "th5",
+          "group": "The Nature of Knowledge & Truth",
+          "label": "Pragmatic Theory of Truth",
+          "date": "1907",
+          "loc": "Harvard University, Cambridge, Massachusetts",
+          "coords": [
+            42.37,
+            -71.12
+          ],
+          "links": [
+            "th3",
+            "th4",
+            "th6"
+          ],
+          "hint": "A proposition is true if believing it 'works' — if it leads to successful action and proves itself in experience. William James proposed that truth is not a static relation between sentence and fact but a process: an idea becomes true insofar as it helps us get into satisfactory relations with experience. Pragmatist truth collapses the gap between 'is true' and 'is warranted to assert,' which critics take to be a fatal confusion — a useful belief may still be false.",
+          "tag": "THEORY",
+          "note": "James, W. (1907). Pragmatism: A New Name for Some Old Ways of Thinking. Longmans, Green, Lecture VI. Peirce, C. S. (1877). 'The Fixation of Belief.' Popular Science Monthly — earlier version: truth is the limit of ideal scientific inquiry. Dewey, J. (1938). Logic: The Theory of Inquiry — extends pragmatism to formal logic. Russell's objection: 'will to believe' problem — a belief can be useful and false simultaneously, so utility cannot constitute truth. Putnam, H. (1981). Reason, Truth and History develops 'internal realism,' a neo-pragmatist position attempting to avoid relativism. Rorty's (1979) eliminative pragmatism (truth is merely a compliment paid to well-warranted assertions) is the most radical contemporary descendant."
+        },
+        {
+          "id": "th6",
+          "group": "The Nature of Knowledge & Truth",
+          "label": "Deflationary Theory of Truth",
+          "date": "1927",
+          "loc": "King's College, University of Cambridge, Cambridge, England",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "links": [
+            "th3",
+            "th4",
+            "th5"
+          ],
+          "hint": "Saying 'Snow is white is true' adds nothing to saying 'Snow is white.' Truth is not a substantive property but a logical device for disquotation and generalisation. Ramsey proposed this in 1927; later variants include Quine's disquotational theory, the prosentential theory (Grover), and Horwich's minimalism. Deflationism avoids all the problems of correspondence and coherence theories by denying there is a deep metaphysical property for them to describe.",
+          "tag": "THEORY",
+          "note": "Ramsey, F. P. (1927). 'Facts and Propositions.' Proceedings of the Aristotelian Society, Supp. Vol. 7, 153-170 — the founding statement. Quine, W. V. O. (1970). Philosophy of Logic. Harvard University Press, ch. 1 — disquotational formulation. Horwich, P. (1990). Truth. Blackwell — minimalism: the whole theory of truth is the set of instances of the schema 'P is true iff P.' Main challenge: deflationism struggles to explain why truth is the goal of inquiry or the norm of assertion if it is merely a logical device. Stoljar, D. & Damnjanovic, N. (2014). 'The Deflationary Theory of Truth.' Stanford Encyclopedia of Philosophy surveys the variants and objections."
+        },
+        {
+          "id": "th7",
+          "group": "Justification & Rationality",
+          "label": "Foundationalism",
+          "date": "1641",
+          "loc": "Amsterdam, Dutch Republic (now Netherlands)",
+          "coords": [
+            52.37,
+            4.9
+          ],
+          "links": [
+            "th1",
+            "th8",
+            "th9",
+            "th10",
+            "st2",
+            "st8"
+          ],
+          "hint": "Epistemic justification has a foundation: some beliefs are basic — justified without deriving justification from other beliefs — and all non-basic beliefs are justified by inference from these. Descartes sought incorrigible foundations (the cogito); modern fallibilist foundationalism accepts that basic beliefs can be defeasible. The position is motivated by Agrippa's regress: if every belief requires justification by a prior belief, either the chain is infinite, circular, or stops at some basic belief. Foundationalism takes the third option.",
+          "tag": "THEORY",
+          "note": "Descartes, R. (1641). Meditationes de Prima Philosophia — the Cartesian programme with incorrigible foundations. Contemporary statements: Chisholm, R. (1966). Theory of Knowledge. Prentice-Hall; Alston, W. P. (1989). Epistemic Justification. Cornell University Press. Fallibilist foundationalism (the dominant contemporary form): Pryor, J. (2000). 'The Sceptic and the Dogmatist.' Nous, 34, 517-549. The regress argument originates in Aristotle, Posterior Analytics I.3, and is formalised as Agrippa's Trilemma (see ef1). Main competitor: th8 (coherentism), which accepts circularity as benign provided the circle is large and comprehensive enough."
+        },
+        {
+          "id": "th8",
+          "group": "Justification & Rationality",
+          "label": "Coherentism about Justification",
+          "date": "1931",
+          "loc": "University of Vienna, Vienna, Austria",
+          "coords": [
+            48.21,
+            16.37
+          ],
+          "links": [
+            "th4",
+            "th7",
+            "st4"
+          ],
+          "hint": "A belief is justified if it coheres well with the rest of one's belief system — there is no privileged foundation; every belief is in principle revisable in light of the others. Neurath's image: we are sailors repairing a ship while at sea, replacing planks one at a time without ever putting it in dry dock. A belief's justification comes from mutual support with neighbouring beliefs, not derivation from a secure base. The isolation objection — that any consistent fiction would be internally coherent — is the main challenge.",
+          "tag": "THEORY",
+          "note": "Neurath, O. (1932/33). 'Protokollsatze.' Erkenntnis, 3, 204-214 — the boat metaphor. BonJour, L. (1985). The Structure of Empirical Knowledge. Harvard University Press — the fullest defence. Isolation objection: Rescher, N. (1973). The Coherence Theory of Truth. Oxford University Press. BonJour later abandoned coherentism: BonJour, L. (1998). In Defense of Pure Reason. Cambridge University Press — an unusually public recantation. Quine's web-of-belief holism (Two Dogmas, 1951 — st4) is a coherentist-adjacent picture: statements face the tribunal of experience collectively, not individually. Distinct from th4 (coherence theory of truth), which is about what truth consists in, not about what justifies belief."
+        },
+        {
+          "id": "th9",
+          "group": "Justification & Rationality",
+          "label": "Reliabilism",
+          "date": "1979",
+          "loc": "University of Michigan, Ann Arbor, Michigan",
+          "coords": [
+            42.28,
+            -83.74
+          ],
+          "links": [
+            "th2",
+            "th7",
+            "th10",
+            "st8",
+            "st1"
+          ],
+          "hint": "A belief is justified if it was produced by a reliable cognitive process — one that tends to produce true beliefs. Goldman's process reliabilism shifts focus from the internal reasons a believer can access (internalism) to the external fact of whether the process works. Perception, memory, and careful inference are reliable; wishful thinking and astrology are not. This makes justification an objective, external matter rather than a function of the agent's internal perspective on their own reasons.",
+          "tag": "THEORY",
+          "note": "Goldman, A. I. (1979). 'What Is Justified Belief?' In Pappas, G. (Ed.), Justification and Knowledge. Reidel, 1-23 — the founding paper. Extended in Goldman, A. I. (1986). Epistemology and Cognition. Harvard University Press. The generality problem: which process type determines reliability? Conee, E. & Feldman, R. (1998). 'The Generality Problem for Reliabilism.' Philosophical Studies, 89, 1-29. BonJour's clairvoyant case (st8) is the most discussed counterexample. Virtue reliabilism (th10) is a descendant that individuates processes through intellectual virtues, partially addressing the generality problem."
+        },
+        {
+          "id": "th10",
+          "group": "Justification & Rationality",
+          "label": "Virtue Epistemology",
+          "date": "1980",
+          "loc": "Brown University, Providence, Rhode Island",
+          "coords": [
+            41.83,
+            -71.4
+          ],
+          "links": [
+            "th9",
+            "th7",
+            "th2",
+            "st8",
+            "st1"
+          ],
+          "hint": "Epistemological evaluation should centre on the intellectual virtues of the believer, not just the properties of individual beliefs. Sosa distinguishes animal knowledge (belief that manifests a reliable faculty) from reflective knowledge (the believer can also account for why the faculty is reliable). Zagzebski stresses character virtues: open-mindedness, intellectual humility, thoroughness. The approach resolves Gettier cases by requiring that knowledge be a cognitive achievement that is properly creditable to the agent's competence — lucky true belief does not qualify.",
+          "tag": "THEORY",
+          "note": "Sosa, E. (1980). 'The Raft and the Pyramid.' Midwest Studies in Philosophy, 5, 3-25 — founding paper. Sosa, E. (1991). Knowledge in Perspective. Cambridge University Press. Zagzebski, L. (1996). Virtues of the Mind. Cambridge University Press — the responsibilist programme centred on character virtues. Greco, J. (2010). Achieving Knowledge. Cambridge University Press — resolves Gettier: knowledge = true belief that is a manifestation of intellectual virtue. Challenge: Lackey, J. (2007). 'Why We Don't Deserve Credit for Everything We Know.' Synthese, 158, 345-361 — testimonial knowledge can be justified even when the agent deserves little credit for it, straining the achievement model."
+        }
+      ]
+    },
+    {
+      "id": "study",
+      "label": "Landmark Studies",
+      "icon": "🧪",
+      "color": "#4A235A",
+      "accent": "#7D3C98",
+      "bg": "#FAF5FF",
+      "subtitle": "The defining arguments — and exactly what they established",
+      "entries": [
+        {
+          "id": "st1",
+          "group": "The Nature of Knowledge & Truth",
+          "label": "Gettier Counterexamples",
+          "date": "1963",
+          "loc": "Wayne State University, Detroit, Michigan",
+          "coords": [
+            42.36,
+            -83.07
+          ],
+          "links": [
+            "th1",
+            "th2",
+            "th9",
+            "th10",
+            "st8"
+          ],
+          "hint": "In three pages Edmund Gettier demolished the JTB analysis that had organised epistemology for two millennia. His counterexamples show that justified true belief is insufficient for knowledge: Smith has good reason to believe Jones will get the job, and infers 'the person who gets the job has ten coins in their pocket.' Smith himself gets the job and happens to have ten coins — the belief is justified and true, but the source of justification is disconnected from what makes it true. The paper triggered fifty years of analysis without consensus.",
+          "tag": "EXPERIMENT",
+          "repl": "robust",
+          "note": "Gettier, E. L. (1963). 'Is Justified True Belief Knowledge?' Analysis, 23(6), 121-123. Two and a half pages; the most-cited short paper in the history of philosophy. Responses fall into four families: (1) add a fourth condition — defeasibility (Lehrer & Paxson 1969), no false lemmas (Clark 1963), sensitivity (Nozick 1981); (2) replace JTB with a different analysis — reliabilism (th9), virtue epistemology (th10); (3) abandon the analysis project — knowledge-first (th2); (4) refine justification. No consensus fourth condition has survived. Zagzebski, L. (1994). 'The Inescapability of Gettier Problems.' Philosophical Quarterly, 44, 65-73 argues any JTB+X analysis is vulnerable to Gettier-style construction."
+        },
+        {
+          "id": "st2",
+          "group": "Scepticism & The External World",
+          "label": "Descartes' Meditations on First Philosophy",
+          "date": "1641",
+          "loc": "Amsterdam, Dutch Republic (now Netherlands)",
+          "coords": [
+            52.37,
+            4.9
+          ],
+          "links": [
+            "th7",
+            "st3",
+            "st7",
+            "st9",
+            "st10"
+          ],
+          "hint": "The founding text of modern epistemology. Descartes employs methodological doubt: set aside whatever can be doubted, however improbable the doubt. He doubts the senses (they sometimes deceive), then all perception (the dream argument — perhaps all experience is a dream), then mathematics (an omnipotent evil demon might induce systematic error even in clear-and-distinct reasoning). From this abyss he extracts the cogito — 'I think, therefore I am' — as the one incorrigible certainty, then rebuilds knowledge on it via God's non-deception.",
+          "tag": "EXPERIMENT",
+          "repl": "robust",
+          "note": "Descartes, R. (1641). Meditationes de Prima Philosophia. Michel Soly, Paris. Standard translation: Cottingham, J., Stoothoff, R. & Murdoch, D. (Eds.) (1984). The Philosophical Writings of Descartes, vol. 2. Cambridge University Press. The evil demon (Meditatio I) is the template for all subsequent sceptical scenarios including BIV (st7). The Cartesian Circle controversy: the cogito's certainty appears to depend on God's veracity, but God's existence is proved by reasoning whose reliability presupposes certainty. Wilson, M. D. (1978). Descartes. Routledge is the standard secondary reference."
+        },
+        {
+          "id": "st3",
+          "group": "Scepticism & The External World",
+          "label": "Hume's Problem of Induction",
+          "date": "1739",
+          "loc": "Edinburgh, Scotland",
+          "coords": [
+            55.95,
+            -3.19
+          ],
+          "links": [
+            "st2",
+            "st4",
+            "st5",
+            "st10"
+          ],
+          "hint": "We cannot rationally justify inferring from past observations to future events. All inductive inference assumes the uniformity of nature — that the future resembles the past — but this principle cannot itself be justified without circularity (using induction to justify induction) or a priori reasoning (it is not a logical necessity). Hume's problem is not a sceptical curiosity: it strikes at the foundations of all empirical science. He concluded that induction is a habit of mind, not a rational inference — the most deflationary possible resolution.",
+          "tag": "EXPERIMENT",
+          "repl": "robust",
+          "note": "Hume, D. (1739). A Treatise of Human Nature, Book I, Part III — first statement. Hume, D. (1748). An Enquiry Concerning Human Understanding, Section IV — the canonical formulation. Goodman, N. (1955). Fact, Fiction, and Forecast. Harvard University Press — the 'new riddle of induction' (grue paradox): even granting the uniformity of nature, we cannot determine which predicates project correctly. Popper, K. (1934/1959). The Logic of Scientific Discovery proposes falsificationism as an escape: science avoids induction by conjecture and refutation. Bayesian epistemology offers probabilistic confirmation theory as a partial answer; the problem of the prior remains."
+        },
+        {
+          "id": "st4",
+          "group": "Science, Inference & Formal Epistemology",
+          "label": "Quine's \"Two Dogmas of Empiricism\"",
+          "date": "1951",
+          "loc": "Harvard University, Cambridge, Massachusetts",
+          "coords": [
+            42.37,
+            -71.12
+          ],
+          "links": [
+            "st3",
+            "st5",
+            "th8",
+            "st6"
+          ],
+          "hint": "Quine attacked the two central dogmas of logical empiricism: (1) the analytic/synthetic distinction — that some truths hold purely in virtue of meaning — and (2) reductionism — that each statement can be individually confirmed by experience. He argued that the whole web of belief faces the tribunal of experience together; any statement can be held true by adjusting others, including logic and mathematics. This holism dissolved the sharp boundary between empirical science and philosophy, and demolished logical positivism as a programme.",
+          "tag": "EXPERIMENT",
+          "repl": "mixed",
+          "note": "Quine, W. V. O. (1951). 'Two Dogmas of Empiricism.' Philosophical Review, 60(1), 20-43. One of the most influential papers in 20th-century philosophy. Responses: Grice, H. P. & Strawson, P. F. (1956). 'In Defense of a Dogma.' Philosophical Review, 65, 141-158 — defended the analytic/synthetic distinction. Boghossian, P. (1996). 'Analyticity Reconsidered.' Nous, 30, 360-391 — revived the distinction. Repl mixed: the holism is widely accepted; the rejection of analyticity remains contested. The web-of-belief picture anticipates coherentism (th8); the paper led directly to naturalised epistemology (st5)."
+        },
+        {
+          "id": "st5",
+          "group": "Science, Inference & Formal Epistemology",
+          "label": "Quine's \"Epistemology Naturalized\"",
+          "date": "1969",
+          "loc": "Harvard University, Cambridge, Massachusetts",
+          "coords": [
+            42.37,
+            -71.12
+          ],
+          "links": [
+            "st3",
+            "st4",
+            "st6"
+          ],
+          "hint": "Quine proposed abandoning the traditional project of rational reconstruction — the attempt to validate science from a prior, foundational standpoint. Since Carnap's programme failed, epistemology should become a chapter of cognitive psychology: we study empirically how humans form beliefs from sensory input rather than trying to justify those processes from the outside. The normative ambitions of traditional epistemology are to be replaced by descriptive natural science. This generated one of the most sustained debates in contemporary philosophy: can naturalism preserve normativity, or does it explain it away?",
+          "tag": "EXPERIMENT",
+          "repl": "mixed",
+          "note": "Quine, W. V. O. (1969). 'Epistemology Naturalized.' In Ontological Relativity and Other Essays. Columbia University Press, 69-90. Circularity objection: natural science cannot validate the cognitive processes that generate science without vicious circularity. Kim, J. (1988). 'What Is Naturalized Epistemology?' Philosophical Perspectives, 2, 381-405 — the canonical objection: naturalism cannot replace normative epistemology. Responses: Goldman's reliabilism (th9) is a naturalised programme that preserves normativity through the notion of a reliable process. Kornblith, H. (2002). Knowledge and Its Place in Nature. Oxford University Press — thoroughgoing naturalist response."
+        },
+        {
+          "id": "st6",
+          "group": "Science, Inference & Formal Epistemology",
+          "label": "Kuhn's Structure of Scientific Revolutions",
+          "date": "1962",
+          "loc": "University of California, Berkeley, California",
+          "coords": [
+            37.87,
+            -122.26
+          ],
+          "links": [
+            "st4",
+            "st5"
+          ],
+          "hint": "Science does not progress by the gradual accumulation of truths; it moves through 'paradigm shifts' — revolutionary episodes in which one framework is replaced by another. In normal science, researchers solve puzzles within a paradigm without questioning its foundations. Anomalies accumulate until crisis triggers a revolution. Kuhn's concept of incommensurability — that scientists in rival paradigms cannot straightforwardly compare theories because they perceive the world differently — threatened the standard picture of science as rational and objective, generating enormous controversy.",
+          "tag": "DISCOVERY",
+          "repl": "mixed",
+          "note": "Kuhn, T. S. (1962). The Structure of Scientific Revolutions. University of Chicago Press. Second edition (1970) adds a Postscript defending incommensurability. Cited over one million times by 2012 — one of the most influential academic books of the 20th century. Lakatos, I. (1970). 'Falsification and the Methodology of Scientific Research Programmes' develops a rival rational-reconstruction account without incommensurability. Feyerabend, P. (1975). Against Method radicalises Kuhn's relativistic implications. Kuhn resisted relativist readings; Bird, A. (2000). Thomas Kuhn. Princeton University Press reconstructs a realist-compatible interpretation."
+        },
+        {
+          "id": "st7",
+          "group": "Scepticism & The External World",
+          "label": "Putnam's Brain-in-a-Vat Argument",
+          "date": "1981",
+          "loc": "Harvard University, Cambridge, Massachusetts",
+          "coords": [
+            42.37,
+            -71.12
+          ],
+          "links": [
+            "st2",
+            "st9",
+            "st10"
+          ],
+          "hint": "Imagine your brain has been removed and connected to a supercomputer that feeds it exactly the sensory inputs you would normally receive. You would believe you had a body, lived in a world — but all your beliefs would be false. Putnam argues this scenario is self-refuting: if 'brain in a vat' were true, the phrase 'brain in a vat' would refer to computer-simulation inputs, not actual brains and vats, because meaning is partly constituted by causal relations to the environment. The sceptical hypothesis undermines itself through semantic externalism.",
+          "tag": "EXPERIMENT",
+          "repl": "mixed",
+          "note": "Putnam, H. (1981). Reason, Truth and History. Cambridge University Press, ch. 1. The argument exploits semantic externalism from Putnam, H. (1975). 'The Meaning of Meaning.' Minnesota Studies in the Philosophy of Science, 7, 131-193 — meanings are not in the head; they depend on causal-environmental relations. The self-refutation response is contested: Brueckner, A. (1986). 'Brains in a Vat.' Journal of Philosophy, 83, 148-167 argues it depends on controversial semantic assumptions. Contextualism (st9) offers an alternative response that avoids the semantic machinery. The BIV scenario remains the standard formulation of Cartesian scepticism in contemporary analytic epistemology."
+        },
+        {
+          "id": "st8",
+          "group": "Justification & Rationality",
+          "label": "BonJour's Clairvoyant Case",
+          "date": "1980",
+          "loc": "University of Washington, Seattle, Washington",
+          "coords": [
+            47.66,
+            -122.31
+          ],
+          "links": [
+            "th9",
+            "th7",
+            "th10",
+            "st1"
+          ],
+          "hint": "Norman is a reliable clairvoyant: his faculty produces true beliefs about the President's location without any evidence accessible to Norman himself. Process reliabilism (th9) says Norman's belief is justified because the process is reliable. BonJour argues it obviously is not — Norman has no reason to trust his faculty and has not exercised any epistemic responsibility. The case motivates internalism (justification requires accessible reasons) and virtue epistemology's requirement that knowledge be a recognisable achievement traceable to the agent.",
+          "tag": "EXPERIMENT",
+          "repl": "mixed",
+          "note": "BonJour, L. (1980). 'Externalist Theories of Empirical Knowledge.' Midwest Studies in Philosophy, 5, 53-73. The canonical counterexample to process reliabilism. Goldman, A. I. (1986). Epistemology and Cognition responds by tightening the specification of process types. Sosa, E. (1991) reframes the debate: animal knowledge (reliable process) vs. reflective knowledge (the believer understands why the faculty is reliable) — the latter addresses BonJour's worry. BonJour later abandoned his coherentist alternative: BonJour, L. (1998). In Defense of Pure Reason. Cambridge University Press — one of the more public theoretical reversals in contemporary epistemology."
+        },
+        {
+          "id": "st9",
+          "group": "Scepticism & The External World",
+          "label": "DeRose's Contextualism",
+          "date": "1992",
+          "loc": "Yale University, New Haven, Connecticut",
+          "coords": [
+            41.31,
+            -72.93
+          ],
+          "links": [
+            "st2",
+            "st7",
+            "th1"
+          ],
+          "hint": "The truth conditions of knowledge attributions vary with the conversational context of the attributer. In ordinary contexts, 'I know there is a hand before me' is true because sceptical alternatives are not salient. In a philosophical discussion where brain-in-a-vat scenarios are raised, the same sentence becomes false — not because my epistemic position has changed, but because 'know' has raised its standards in the high-stakes context. Contextualism thereby validates both everyday knowledge claims and the sceptic's conclusions without contradiction.",
+          "tag": "DISCOVERY",
+          "repl": "mixed",
+          "note": "DeRose, K. (1992). 'Contextualism and Knowledge Attributions.' Philosophy and Phenomenological Research, 52(4), 913-929. Lewis, D. (1996). 'Elusive Knowledge.' Australasian Journal of Philosophy, 74, 549-567 — parallel development: 'know' is context-sensitive like 'flat' or 'empty.' Main opponent: Stanley, J. (2005). Knowledge and Practical Interests. Oxford University Press — subject-sensitive invariantism: standards vary with the subject's stakes, not the attributer's context. Hawthorne, J. (2004). Knowledge and Lotteries argues contextualism has unacceptable semantic consequences. DeRose, K. (2009). The Case for Contextualism. Oxford University Press is the book-length defence."
+        },
+        {
+          "id": "st10",
+          "group": "Scepticism & The External World",
+          "label": "Al-Ghazali's Deliverance from Error",
+          "date": "1095",
+          "loc": "Nizamiyya of Baghdad, Baghdad, Iraq",
+          "coords": [
+            33.34,
+            44.4
+          ],
+          "links": [
+            "st2",
+            "st3",
+            "st7"
+          ],
+          "hint": "Five centuries before Descartes, al-Ghazali underwent systematic methodological doubt at the height of his career. He doubted the senses (stars appear small; they are larger than the earth), then doubted reason itself (perhaps a higher state would reveal rational certainties to be as illusory as dream certainties). He arrived at complete epistemological collapse before recovering certainty through divine illumination. His parallel critique of Aristotelian causality — fire does not cause burning; God creates the conjunction — anticipates Hume's analysis by six hundred years.",
+          "tag": "EXPERIMENT",
+          "repl": "robust",
+          "note": "Al-Ghazali (c. 1095). Deliverance from Error (Al-Munqidh min al-Dalal). Translation: McCarthy, R. J. (1980). Freedom and Fulfillment. Twayne Publishers. The critique of causality: Al-Ghazali (1095). The Incoherence of the Philosophers (Tahafut al-Falasifa), 17th discussion. Ibn Rushd responded in The Incoherence of the Incoherence (Tahafut al-Tahafut, c. 1180). Griffel, F. (2009). Al-Ghazali's Philosophical Theology. Oxford University Press reconstructs the epistemological argument. Leaman, O. (2002) notes the structural parallel with Descartes and Hume but cautions against over-assimilation: al-Ghazali's resolution through divine illumination (nur) has no secular Cartesian analogue."
+        },
+        {
+          "id": "st11",
+          "group": "Epistemic Justice & Situated Knowledge",
+          "label": "Fricker's Epistemic Injustice",
+          "date": "2007",
+          "loc": "Birkbeck, University of London, London, England",
+          "coords": [
+            51.52,
+            -0.13
+          ],
+          "links": [],
+          "hint": "Miranda Fricker identified two forms of epistemic injustice — wrongs done to someone specifically in their capacity as a knower. Testimonial injustice: a speaker receives less credibility than deserved because of prejudice about their social identity. Hermeneutical injustice: a speaker lacks the conceptual resources to understand their own experience because marginalised groups are excluded from the collective meaning-making process (the absence of a word like 'sexual harassment' before it was coined). Epistemic injustice is simultaneously an epistemic failure and an ethical wrong.",
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "note": "Fricker, M. (2007). Epistemic Injustice: Power and the Ethical Life of Knowledge. Oxford University Press. One of the fastest-growing literatures in contemporary philosophy. Extensions: Dotson, K. (2011). 'Tracking Epistemic Violence, Tracking Practices of Silencing.' Hypatia, 26(2), 236-257 — epistemic violence. Medina, J. (2013). The Epistemology of Resistance. Oxford University Press. Critique: Kotzee, B. (2011) argues testimonial injustice conflates credibility deficits with moral injustice. Hookway, C. (2010). 'Some Varieties of Epistemic Injustice.' Proceedings of the Aristotelian Society, 110, 247-264 proposes a three-part taxonomy. The concept has influenced law, medicine, and clinical epistemology."
+        }
+      ]
+    },
+    {
+      "id": "effect",
+      "label": "Effects & Phenomena",
+      "icon": "📊",
+      "color": "#0B4F2E",
+      "accent": "#117A65",
+      "bg": "#F0FFF6",
+      "subtitle": "Named, replicable problems and phenomena in epistemological inquiry",
+      "entries": []
+    },
+    {
+      "id": "concept",
+      "label": "Key Concepts",
+      "icon": "💡",
+      "color": "#2C3E50",
+      "accent": "#566573",
+      "bg": "#F5F6FA",
+      "subtitle": "The building blocks and vocabulary every student must command",
+      "entries": []
+    },
+    {
+      "id": "method",
+      "label": "Methods & Approaches",
+      "icon": "🔬",
+      "color": "#5D4037",
+      "accent": "#8B5E00",
+      "bg": "#FFF8F0",
+      "subtitle": "The tools and paradigms that generate the field's evidence",
+      "entries": []
+    },
+    {
+      "id": "figure",
+      "label": "Pioneers & Theorists",
+      "icon": "🧑‍🔬",
+      "color": "#7D6608",
+      "accent": "#B7770D",
+      "bg": "#FEFDE7",
+      "subtitle": "The researchers who shaped the discipline",
+      "entries": []
+    },
+    {
+      "id": "debate",
+      "label": "Debates & Open Questions",
+      "icon": "⚖️",
+      "color": "#6E2C00",
+      "accent": "#CA6F1E",
+      "bg": "#FDF5EC",
+      "subtitle": "Live controversies — where the field is actively contesting the evidence",
+      "entries": []
+    },
+    {
+      "id": "application",
+      "label": "Applications",
+      "icon": "🔗",
+      "color": "#1A5276",
+      "accent": "#2E86C1",
+      "bg": "#EBF5FB",
+      "subtitle": "Where the science leaves the lab",
+      "entries": []
+    }
+  ],
+  "timeline": [
+    {
+      "id": "study",
+      "icon": "🧪",
+      "accent": "#7D3C98",
+      "label": "Landmark Studies",
+      "events": []
+    },
+    {
+      "id": "theory",
+      "icon": "📐",
+      "accent": "#2471A3",
+      "label": "Theories & Models",
+      "events": []
+    },
+    {
+      "id": "effect",
+      "icon": "📊",
+      "accent": "#117A65",
+      "label": "Effects & Phenomena",
+      "events": []
+    },
+    {
+      "id": "method",
+      "icon": "🔬",
+      "accent": "#8B5E00",
+      "label": "Methods",
+      "events": []
+    },
+    {
+      "id": "debate",
+      "icon": "⚖️",
+      "accent": "#CA6F1E",
+      "label": "Debates & Revisions",
+      "events": []
+    },
+    {
+      "id": "application",
+      "icon": "🔗",
+      "accent": "#2E86C1",
+      "label": "Applications",
+      "events": []
+    }
+  ]
+}
