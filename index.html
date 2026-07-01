@@ -311,7 +311,7 @@ const FIELDS = [
   // ── HUMAN BIOLOGY & MEDICINE ─────────────────────────────────────────────────
   { id:"genetics-development",       domain:"human-biology",     label:"Genetics, Development & Embryology",        sub:"Heredity, molecular genetics, development & human embryology",          status:"planned" },
   { id:"anatomy-histology",          domain:"human-biology",     label:"Human Anatomy & Histology",                 sub:"Gross anatomy, tissue structures, musculoskeletal geography & histology", status:"ready", file:"modules/anatomy-histology.json" },
-  { id:"physiology-organ-systems",   domain:"human-biology",     label:"Physiology & Organ Systems",                sub:"Systemic physiology, cardiovascular, renal, respiratory & endocrine",    status:"planned" },
+  { id:"physiology-organ-systems",   domain:"human-biology",     label:"Physiology & Organ Systems",                sub:"Systemic physiology, cardiovascular, renal, respiratory & endocrine",    status:"ready", file:"modules/physiology-organ-systems.json" },
   { id:"pathology-immunology",       domain:"human-biology",     label:"Pathology, Immunology & Infectious Disease",sub:"Pathology, immune defence, infectious agents & mechanisms of disease",   status:"planned" },
   { id:"pharmacology-therapeutics",  domain:"human-biology",     label:"Pharmacology & Clinical Therapeutics",      sub:"Drug mechanisms, pharmacokinetics, clinical interventions & healing",    status:"planned" },
   // ── LIFE & ECOLOGICAL SCIENCES ───────────────────────────────────────────────
@@ -1411,6 +1411,61 @@ const STUDY_PLANS = {
       {
         title: '10 — Clinical & Educational Applications',
         rationale: 'Surgical anatomy, histopathology, joint replacement biomechanics, radiological anatomy, plastination-based education, and tissue engineering show how structural knowledge translates directly into diagnosis, operative planning, and regenerative medicine.',
+        cats: ['application']
+      }
+    ]
+  },
+  'physiology-organ-systems': {
+    meta: 'Builds from the smallest physiological unit outward: establish the cellular machinery of electrical signalling first, then progress through neuromuscular, cardiovascular, respiratory, renal, and endocrine systems before converging on the overarching principle of homeostasis. Pioneers and methods are front-loaded so the landmark experiments are fully legible when the systems modules arrive. Debates and applications close the arc, so they can be evaluated against the complete functional picture rather than encountered before the mechanisms are understood.',
+    modules: [
+      {
+        title: '1 — Pioneers & Methods',
+        rationale: 'Physiology is one of the most historically rich of the sciences: Harvey proved circulation in 1628, Banting extracted insulin in 1922, Hodgkin and Huxley cracked the action potential in 1952. Meeting the pioneers before the content makes every subsequent entry legible as part of a human story. The methods module placed here establishes the experimental tools — voltage clamp, cardiac catheterisation, spirometry, clearance studies, RIA, micropuncture — so the landmark studies are not black boxes.',
+        cats: ['figure', 'method']
+      },
+      {
+        title: '2 — The Cell Membrane: Electricity & Signalling',
+        rationale: 'Every organ-system discovery rests on membrane biophysics. The resting potential, action potential, Hodgkin-Huxley model, Gibbs-Donnan equilibrium, and second messenger cascade are the molecular vocabulary of all physiology. Starting here means that when you encounter the sliding filament, the pacemaker cell, or the adrenal cortex later, you already understand the ionic and signalling machinery driving them.',
+        groups: ['Cell & Membrane Physiology']
+      },
+      {
+        title: '3 — Neuromuscular Physiology',
+        rationale: 'From action potential to power stroke: sliding filament theory, cross-bridge cycling, and the neuromuscular junction translate electrical excitation into mechanical force. The Bowditch staircase (frequency-dependent potentiation) and the NMJ safety factor connect directly to the cardiac and clinical pharmacology content that follows.',
+        groups: ['Neuromuscular Physiology']
+      },
+      {
+        title: '4 — Cardiovascular & Blood Physiology',
+        rationale: 'The largest module — Harvey to Guyton — covering circulation of blood, cardiac output and its determinants, Frank-Starling law, Starling-Landis capillary forces, vascular resistance (Poiseuille), autoregulation (Bayliss), and the Fåhraeus-Lindqvist microvascular correction. The Guyton cardiovascular-renal model is the conceptual payoff: it shows how cardiac output, venous return, and renal volume regulation are one integrated system.',
+        groups: ['Cardiovascular & Blood Physiology']
+      },
+      {
+        title: '5 — Respiratory Physiology',
+        rationale: 'Gas exchange from lung to capillary: the chemoreceptor theory of ventilatory control (Haldane), the Bohr and Haldane effects on haemoglobin, lung compliance and resistance, ventilation-perfusion matching, and hypoxic pulmonary vasoconstriction. The Hering-Breuer reflex and Valsalva manoeuvre introduce reflex and autonomic links to the cardiovascular module.',
+        groups: ['Respiratory Physiology']
+      },
+      {
+        title: '6 — Renal & Acid-Base Physiology',
+        rationale: 'The kidney as quantitative filter: glomerular filtration, tubular reabsorption and secretion, renal clearance (Smith), and the countercurrent multiplier for urine concentration. The Henderson-Hasselbalch framework for acid-base regulation provides a clinical diagnostic tool and links back to the bicarbonate buffer explored in respiratory physiology.',
+        groups: ['Renal & Acid-Base Physiology']
+      },
+      {
+        title: '7 — Endocrine & Reproductive Physiology',
+        rationale: 'Chemical signalling from hormone to cell: the neuroendocrine hypothesis (Harris), second messenger cascades (Sutherland), hypothalamic-pituitary-organ axes and their negative feedback logic, insulin and the discovery that transformed diabetes, and the stress HPA axis (Selye). The hormonal feedback framework introduced here is the template for diagnosing primary, secondary, and tertiary endocrine failure clinically.',
+        groups: ['Endocrine & Reproductive Physiology']
+      },
+      {
+        title: '8 — Homeostasis & Integration',
+        rationale: 'The grand synthesis: Bernard\'s milieu intérieur, Cannon\'s homeostasis, the fight-or-flight response, the Cushing reflex, and the allostasis debate. This module revisits concepts from every previous module — the autonomic nervous system driving cardiovascular, respiratory, and endocrine responses; the kidney enforcing long-term blood pressure; the brain as the predictive integrator of all systems. It is most rewarding after all seven organ-system modules.',
+        groups: ['Homeostasis & Integration']
+      },
+      {
+        title: '9 — Debates & Open Questions',
+        rationale: 'Audit your certainties: the glycocalyx revision of Starling forces, the homeostasis/allostasis controversy, the periphery-vs-heart debate in cardiac output, the inner medullary concentration mystery, O₂ therapy in COPD, insulin resistance mechanisms, volutrauma vs barotrauma, and biological sex differences in physiology. These debates make most sense after you can evaluate them against the full mechanistic base.',
+        cats: ['debate']
+      },
+      {
+        title: '10 — Clinical Applications',
+        rationale: 'Where the physiology leaves the lab: lung-protective mechanical ventilation (ARDSNet), RAAS inhibition in hypertension and heart failure, dialysis and renal replacement, SGLT2 inhibitors (from micropuncture to EMPA-REG), cardiac pacemakers and defibrillators, and hormonal contraception. Each application is a direct translation of a mechanism from the preceding modules.',
         cats: ['application']
       }
     ]
