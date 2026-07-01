@@ -40,7 +40,8 @@
             "fg2",
             "me1",
             "co2",
-            "th4"
+            "th4",
+            "ef10"
           ],
           "hint": "Any function that can be computed by a systematic, mechanical procedure can be computed by a Turing Machine — and equivalently by Church's lambda calculus. This is not a theorem but a thesis about the nature of computation itself: it defines what 'algorithm' means by equating all reasonable formalisms for mechanical calculation. Every computer, smartphone, and cloud server is a physical instantiation of this idea.",
           "tag": "THEORY",
@@ -80,7 +81,8 @@
           "links": [
             "fg3",
             "ef9",
-            "th10"
+            "th10",
+            "ef10"
           ],
           "hint": "Shannon defined information as the resolution of uncertainty: the bit is the answer to a single yes/no question. His noisy-channel coding theorem proved that any communication channel has a maximum error-free transmission rate (channel capacity), and that error-correcting codes can approach this limit arbitrarily closely. Every data compression algorithm, wireless standard, and digital storage medium rests on these results.",
           "tag": "THEORY",
@@ -183,7 +185,8 @@
             "st8",
             "db2",
             "fg2",
-            "st13"
+            "st13",
+            "st17"
           ],
           "hint": "Newell and Simon proposed that a physical symbol system — any device that manipulates symbols according to rules — has the necessary and sufficient conditions for general intelligent action. This underpinned Good Old-Fashioned AI (GOFAI): expert systems, logic programming, and automated theorem proving. It remains the foundational claim contested in AI philosophy: does intelligence require symbol manipulation, or is something more (embodiment, statistical pattern-matching) necessary?",
           "tag": "THEORY",
@@ -228,11 +231,31 @@
             "me6",
             "db4",
             "th3",
-            "st14"
+            "st14",
+            "st16",
+            "ap7"
           ],
           "hint": "Diffie and Hellman showed that two parties can establish a shared secret over an insecure channel with no prior contact — using a mathematical trapdoor function that is easy to compute forward but practically impossible to reverse. This solved the key distribution problem that had stymied cryptography for millennia, and enabled the entire architecture of internet security: HTTPS, TLS, SSH, and digital signatures all depend on this principle.",
           "tag": "THEORY",
           "note": "Diffie, W. & Hellman, M. E. (1976). 'New Directions in Cryptography.' IEEE Transactions on Information Theory, 22(6), 644–654. Turing Award 2015 (Diffie and Hellman). GCHQ independently discovered equivalent concepts (Ellis 1969, Cocks 1973) but the work remained classified until 1997. RSA (Rivest, Shamir, Adleman 1977) provided the first practical realisation. Post-quantum urgency: Shor's algorithm (1994) can factor RSA keys in polynomial time on a sufficiently large quantum computer, making post-quantum cryptography standardisation (NIST 2022–2024) critical."
+        },
+        {
+          "id": "th11",
+          "group": "Networks & Distributed Computing",
+          "label": "Packet Switching Theory",
+          "date": "1964",
+          "loc": "RAND Corporation, Santa Monica, California",
+          "coords": [
+            34.02,
+            -118.49
+          ],
+          "links": [
+            "st3",
+            "co5"
+          ],
+          "hint": "Baran proposed dividing messages into fixed-size blocks independently routed through a distributed network and reassembled at the destination — a radical departure from circuit-switching, where a dedicated line is held open for the entire call. If any node is destroyed, blocks reroute automatically via other paths. Davies independently reached the same idea in the UK and coined the term \"packet.\" ARPANET adopted packet switching in 1969, making this the conceptual foundation of the internet.",
+          "tag": "THEORY",
+          "note": "Baran, P. (1964). \"On Distributed Communications.\" RAND Corporation Technical Reports RM-3103-PR through RM-3420-PR (11 volumes). Davies, D. W. (1966). \"Proposal for a Digital Communication Network.\" NPL internal report — coined the term \"packet.\" Baran and Davies worked independently and only met after publishing. AT&T engineers considered packet switching technically inferior and commercially uninteresting. Leonard Kleinrock (UCLA, 1961) published queuing-theory foundations before either, though his early models used a different topology. ARPANET's implementation by BBN (1969) was the first large-scale realisation and is cited directly in Davies's later survey work."
         }
       ]
     },
@@ -300,7 +323,8 @@
             "ap4",
             "fg10",
             "st7",
-            "ap1"
+            "ap1",
+            "th11"
           ],
           "hint": "On 29 October 1969, Charley Kline at UCLA attempted to transmit 'LOGIN' to the Stanford Research Institute — the system crashed after 'LO', making the first internet message 'lo'. The ARPANET demonstrated that packet-switching could reliably transmit data across heterogeneous networks — a radical departure from the circuit-switching model of telephone networks. It directly evolved into the modern internet.",
           "tag": "EXPERIMENT",
@@ -407,7 +431,8 @@
           "links": [
             "th8",
             "db2",
-            "st10"
+            "st10",
+            "st17"
           ],
           "hint": "IBM's Deep Blue defeated Garry Kasparov — the reigning world chess champion — in a six-game match in May 1997, the first time a computer had beaten a human world champion under standard tournament conditions. Deep Blue searched up to 200 million positions per second using alpha-beta pruning and hand-crafted chess evaluation functions. It demonstrated that narrow AI could surpass human expertise in a domain long considered a benchmark of human intelligence.",
           "tag": "EXPERIMENT",
@@ -449,7 +474,8 @@
             "co6",
             "fg12",
             "db3",
-            "db8"
+            "db8",
+            "db9"
           ],
           "hint": "AlphaGo combined deep convolutional neural networks (trained on human games and by self-play) with Monte Carlo tree search to defeat Lee Sedol, a 9-dan Go professional, 4-1 in March 2016. Go has more board positions than atoms in the observable universe; brute-force search is impossible. AlphaGo's success — and AlphaZero's subsequent mastery of chess and Go without human game data — demonstrated that deep reinforcement learning could find superhuman strategies in complex domains from scratch.",
           "tag": "EXPERIMENT",
@@ -471,7 +497,9 @@
             "db3",
             "ap5",
             "fg12",
-            "db8"
+            "db8",
+            "st15",
+            "db9"
           ],
           "hint": "GPT-3 is a 175-billion parameter transformer language model trained on approximately 570 GB of text from the internet. With no task-specific training, it could write essays, answer questions, generate code, and perform translation by conditioning on a few examples in the prompt (few-shot learning). GPT-3 demonstrated that scaling a single architecture across more data and compute could produce qualitative capability jumps — a scaling law that has since driven the development of all large language models.",
           "tag": "DISCOVERY",
@@ -531,12 +559,79 @@
             "co7",
             "th10",
             "db4",
-            "th7"
+            "th7",
+            "st16",
+            "ap7"
           ],
           "hint": "Satoshi Nakamoto's 2008 whitepaper proposed the first solution to the Byzantine Generals Problem in a permissionless, adversarial network: proof-of-work allows anonymous participants to agree on a canonical transaction history with no trusted authority. The blockchain — a cryptographically chained sequence of transaction blocks — makes rewriting history computationally prohibitive. Whether understood as distributed systems breakthrough, monetary experiment, or environmental liability, the paper is the most cited CS preprint of the 21st century.",
           "tag": "DISCOVERY",
           "repl": "mixed",
           "note": "Nakamoto, S. (2008). 'Bitcoin: A Peer-to-Peer Electronic Cash System.' bitcoin.org/bitcoin.pdf. The identity of Satoshi Nakamoto remains unknown. The theoretical foundation is: Lamport, L., Shostak, R. & Pease, M. (1982). 'The Byzantine Generals Problem.' ACM Transactions on Programming Languages and Systems, 4(3), 382-401. Paxos (Lamport 1989) solved Byzantine consensus in trusted networks; Nakamoto solved it without trust. Repl: mixed — the consensus mechanism works as described, but Bitcoin's energy use (~100 TWh/year, comparable to a mid-sized country), 7 transactions/second throughput ceiling, and use in ransomware are well-documented. Ethereum (2015) extended the model with programmable smart contracts; its shift to proof-of-stake (2022) reduced energy use by ~99.95%."
+        },
+        {
+          "id": "st15",
+          "group": "Machine Learning & Neural Networks",
+          "label": "\"Attention Is All You Need\" — Transformer Architecture",
+          "date": "2017",
+          "loc": "Google Brain, Mountain View, California",
+          "coords": [
+            37.39,
+            -122.07
+          ],
+          "links": [
+            "co6",
+            "st11",
+            "ap5",
+            "fg12",
+            "db3",
+            "db9"
+          ],
+          "hint": "Vaswani et al. replaced recurrent neural networks with a purely attention-based architecture: self-attention lets every position in a sequence attend to every other position in parallel, eliminating the sequential bottleneck of RNNs and enabling training on far larger datasets. The transformer became the universal backbone of NLP (BERT, GPT, T5), computer vision (ViT), and protein folding (AlphaFold 2) — the most consequential single architecture shift in deep learning history, generating over 100,000 citations within eight years.",
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "note": "Vaswani, A. et al. (2017). \"Attention Is All You Need.\" Advances in Neural Information Processing Systems, 30 (NeurIPS). BERT (Devlin et al. 2018) applied transformers to language understanding; GPT-2/3/4 to generation; ViT (Dosovitskiy et al. 2020) to images; AlphaFold 2 (Jumper et al. 2021, Nature) to protein structure. Limitations: standard attention has O(n²) complexity in sequence length, constraining context windows; addressed by sparse attention (Longformer, BigBird) and linear approximations. The architecture introduced no new mathematical primitive — the key insight was that recurrence was unnecessary and that attention alone sufficed. Repl: robust — the performance advantage over RNNs is definitively established across virtually every sequence modelling benchmark."
+        },
+        {
+          "id": "st16",
+          "group": "Cryptography & Security",
+          "label": "Haber & Stornetta: Cryptographic Chain of Blocks",
+          "date": "1991",
+          "loc": "Bellcore, Morristown, New Jersey",
+          "coords": [
+            40.8,
+            -74.49
+          ],
+          "links": [
+            "st14",
+            "co7",
+            "th10",
+            "ap7"
+          ],
+          "hint": "Haber and Stornetta published the first protocol for cryptographically tamper-evident timestamping: each document's timestamp incorporates the hash of the previous one, forming a chain where any retroactive alteration is immediately detectable. A later refinement added Merkle trees to batch thousands of documents into a single hash anchor. Satoshi Nakamoto cited three Haber-Stornetta papers in the Bitcoin whitepaper — this chain-of-hashes structure is the direct intellectual precursor to the blockchain.",
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "note": "Haber, S. & Stornetta, W. S. (1991). \"How to Time-Stamp a Digital Document.\" Journal of Cryptology, 3(2), 99–111. Bayer, D., Haber, S. & Stornetta, W. S. (1993). \"Improving the Efficiency and Reliability of Digital Time-Stamping.\" In Sequences II: Methods in Communication, Security, and Computer Science, 329–334 — introduced Merkle trees. Satoshi Nakamoto's Bitcoin whitepaper (2008) cites three Haber-Stornetta papers in its eight-entry reference list, making this the most directly acknowledged intellectual lineage in cryptocurrency. The commercial product Surety began publishing weekly SHA-256 hash anchors in The New York Times classifieds in 1995 — arguably the first operational blockchain, predating Bitcoin by 13 years. Repl: robust — the cryptographic integrity properties are mathematically established."
+        },
+        {
+          "id": "st17",
+          "group": "AI: Symbolic & HCI",
+          "label": "MYCIN Expert System",
+          "date": "1975",
+          "loc": "Stanford University, Stanford, California",
+          "coords": [
+            37.43,
+            -122.17
+          ],
+          "links": [
+            "th8",
+            "st8",
+            "db2",
+            "db3"
+          ],
+          "hint": "MYCIN was the first expert system to demonstrably match specialist clinical performance: it diagnosed bacterial blood infections and recommended antibiotics via roughly 600 IF-THEN production rules encoded from interviews with infectious-disease physicians. In controlled evaluation MYCIN outperformed medical residents and equalled attending physicians. It demonstrated that structured domain knowledge could be codified and applied computationally — and simultaneously raised questions about transparency, liability, and the brittleness of rule-based systems that remain live today.",
+          "tag": "EXPERIMENT",
+          "repl": "mixed",
+          "note": "Shortliffe, E. H. (1976). Computer-Based Medical Consultations: MYCIN. American Elsevier. Controlled evaluation: Yu, V. L. et al. (1979). \"Antimicrobial selection by a computer.\" JAMA, 242(12), 1279–1282 — MYCIN outperformed four infectious-disease faculty, five residents, and ten medical students on bacteraemia cases. MYCIN was never deployed clinically; legal liability for machine-assisted medical decisions was uncharted territory. Its knowledge-acquisition methodology became the template for the 1980s expert-system industry (XCON, CADUCEUS, PROSPECTOR). Limitation: each new domain required a complete re-engineering effort; systems could not learn from cases or generalise across domains. The failure of this scaling model contributed to the second AI winter. Repl: mixed — clinical effectiveness demonstrated in one controlled setting; generalisability and deployment-readiness were never achieved."
         }
       ]
     },
@@ -562,7 +657,8 @@
           "links": [
             "th2",
             "ef3",
-            "db7"
+            "db7",
+            "ef10"
           ],
           "hint": "Gordon Moore observed in 1965 that the number of transistors per integrated circuit had doubled roughly every year since 1959, and predicted this trend would continue. Revised to a doubling roughly every two years, 'Moore's Law' drove five decades of exponential improvements in computing speed, memory density, and cost. It has become a self-fulfilling prophecy: the semiconductor industry sets roadmaps to the law and organises R&D accordingly.",
           "tag": "LAW",
@@ -583,7 +679,8 @@
             "th1",
             "ef7",
             "db1",
-            "fg2"
+            "fg2",
+            "ef10"
           ],
           "hint": "Turing proved that no general algorithm can determine, for an arbitrary program and input, whether the program will eventually halt or run forever. The proof is by diagonalisation: assuming such a decider exists leads to a contradiction. This established the first hard limit on what computation can achieve — some problems are not just hard but provably unsolvable — and underpins all subsequent results in computability theory.",
           "tag": "DISCOVERY",
@@ -735,6 +832,27 @@
           "tag": "DISCOVERY",
           "repl": "robust",
           "note": "Shannon, C. E. (1949). 'Communication Theory of Secrecy Systems.' Bell System Technical Journal, 28(4), 656–715. The one-time pad (Vernam cipher, 1917) was retroactively shown to be perfectly secure by this theorem. Perfect secrecy is provably impossible to achieve with a key shorter than the message — this places a fundamental lower bound on key length for unconditional security. All modern ciphers (AES, ChaCha20) are computationally secure, meaning no known algorithm can break them in polynomial time, but in principle a sufficiently powerful adversary could. The theorem motivates post-quantum cryptography: breaking computational assumptions is the threat model."
+        },
+        {
+          "id": "ef10",
+          "group": "Foundations & Computability",
+          "label": "Landauer's Principle",
+          "date": "1961",
+          "loc": "IBM Thomas J. Watson Research Center, Yorktown Heights, New York",
+          "coords": [
+            41.21,
+            -73.84
+          ],
+          "links": [
+            "th1",
+            "ef1",
+            "ef2",
+            "th3"
+          ],
+          "hint": "Landauer proved that erasing one bit of information must dissipate at minimum kT ln2 of energy — roughly 3 × 10⁻²¹ joules at room temperature — as heat. Logical irreversibility (overwriting a register, clearing memory) has an unavoidable thermodynamic cost. The principle links information theory and the second law of thermodynamics and sets an absolute floor on computing energy efficiency — one that current chips exceed by roughly a million-fold, but which becomes relevant as transistors approach atomic scales.",
+          "tag": "PRINCIPLE",
+          "repl": "robust",
+          "note": "Landauer, R. (1961). \"Irreversibility and Heat Generation in the Computing Process.\" IBM Journal of Research and Development, 5(3), 183–191. Experimentally verified: Bérut, A. et al. (2012). \"Experimental verification of Landauer's principle linking information and thermodynamics.\" Nature, 483, 187–189 — colloidal particles used to erase individual bits; heat dissipation measured at the kT ln2 floor. Bennett, C. H. (1973) showed logically reversible computing is theoretically possible, avoiding the Landauer cost, laying foundations for reversible and quantum computing. The gap between current chip energy per operation (~10⁶ kT) and the Landauer limit (~1 kT) implies substantial efficiency headroom; as devices shrink toward atomic scale the gap narrows significantly."
         }
       ]
     },
@@ -848,7 +966,8 @@
             "st7",
             "db6",
             "ap1",
-            "fg10"
+            "fg10",
+            "th11"
           ],
           "hint": "Cerf and Kahn's Transmission Control Protocol / Internet Protocol (TCP/IP) defines how data is broken into packets, addressed, routed across heterogeneous networks, and reassembled reliably at the destination. TCP handles ordering, retransmission of lost packets, and flow control; IP handles addressing and routing. The protocol stack's layered architecture allows any network technology (Ethernet, Wi-Fi, 4G, satellite) to carry internet traffic, making the internet technology-agnostic.",
           "tag": "CONCEPT",
@@ -872,7 +991,8 @@
             "ap3",
             "fg12",
             "ap5",
-            "st13"
+            "st13",
+            "st15"
           ],
           "hint": "Backpropagation applies the chain rule of calculus to compute the gradient of a loss function with respect to every weight in a neural network in a single backward pass. Gradient descent then adjusts each weight proportionally to its gradient, iteratively reducing prediction error. Together, they make training deep neural networks tractable. Virtually every deep learning model — CNNs, RNNs, transformers — is trained by some variant of gradient descent with backpropagation.",
           "tag": "CONCEPT",
@@ -895,7 +1015,9 @@
             "ef9",
             "me6",
             "db4",
-            "st14"
+            "st14",
+            "st16",
+            "ap7"
           ],
           "hint": "A zero-knowledge proof is a protocol by which a prover can convince a verifier that a statement is true — e.g., 'I know the password' — without revealing any information beyond the statement's truth. The prover demonstrates knowledge without disclosure. ZKPs are foundational to privacy-preserving authentication, anonymous credentials, and blockchain privacy protocols (Zcash, Ethereum scaling). The concept formalized a precise mathematical notion of what it means to 'prove without revealing'.",
           "tag": "CONCEPT",
@@ -1299,7 +1421,9 @@
             "th9",
             "db3",
             "ap3",
-            "st13"
+            "st13",
+            "st15",
+            "db9"
           ],
           "hint": "Hinton championed neural networks through decades of scepticism, co-developing backpropagation (1986), Boltzmann machines (1985), and dropout regularisation (2012). The AlexNet paper (Krizhevsky, Sutskever, Hinton 2012) won the ImageNet challenge by a margin so large it triggered the deep learning revolution. More than any other researcher, Hinton is responsible for the return of neural networks as the dominant approach in AI — and has since become a prominent voice warning about existential risks from AI systems.",
           "tag": "FIGURE",
@@ -1351,7 +1475,8 @@
             "st1",
             "st8",
             "me4",
-            "ef5"
+            "ef5",
+            "st17"
           ],
           "hint": "Searle's Chinese Room argument (1980) challenges the view that symbol manipulation constitutes genuine understanding: a person in a room follows rules to manipulate Chinese symbols without understanding Chinese — just as a computer manipulates symbols without understanding anything. Defenders of AI (Dennett, Hofstadter) argue Searle mislocates understanding: it is the system, not the person, that understands. The debate has intensified with large language models that produce fluent, apparently thoughtful text.",
           "tag": "DEBATE",
@@ -1372,7 +1497,10 @@
             "st11",
             "ef6",
             "fg12",
-            "ap5"
+            "ap5",
+            "st15",
+            "st17",
+            "db9"
           ],
           "hint": "As AI systems grow more capable, ensuring they reliably pursue intended goals becomes increasingly difficult. The alignment problem asks: how do we specify what we want from an AI system, and ensure it does that and only that? Proposed failure modes include reward hacking (optimising a proxy measure rather than the intended goal), deceptive alignment (appearing aligned during training but not in deployment), and instrumental convergence (advanced systems acquiring resources and resisting shutdown as subgoals). The field ranges from near-term safety engineering to long-run existential risk.",
           "tag": "DEBATE",
@@ -1477,6 +1605,28 @@
           "hint": "ML researchers have documented systematic failures of reproducibility: papers report state-of-the-art results that cannot be matched by independent teams following the published procedure. Sources include unreported hyperparameter search, cherry-picked random seeds, inconsistent baseline comparisons, and missing code. The crisis is particularly acute in reinforcement learning and NLP benchmarks, where small implementation details can account for large performance swings — a problem that is obscured when code is not released.",
           "tag": "DEBATE",
           "note": "Lucic, M. et al. (2018). 'Are GANs Created Equal? A Large-Scale Study.' NeurIPS 31. Henderson, P. et al. (2018). 'Deep Reinforcement Learning That Matters.' AAAI 32 — showed RL results often fail to reproduce even from the same codebase with different random seeds. Pineau, J. et al. (2021). 'Improving Reproducibility in Machine Learning Research (A Report from the NeurIPS 2019 Reproducibility Program).' JMLR, 22, 1–20. Mitigations: NeurIPS and ICML now require code submission; the ML Reproducibility Challenge (2018–present) replicates accepted papers. Schaeffer, R. et al. (2023). 'Are Emergent Abilities of Large Language Models a Mirage?' NeurIPS — argues that apparent emergent capabilities are artefacts of nonlinear evaluation metrics."
+        },
+        {
+          "id": "db9",
+          "group": "Machine Learning & Neural Networks",
+          "label": "Reasoning Models and Agentic AI: The 2024–25 Inflection",
+          "date": "2024",
+          "loc": "OpenAI, San Francisco, California",
+          "coords": [
+            37.77,
+            -122.39
+          ],
+          "links": [
+            "st15",
+            "ap5",
+            "db3",
+            "fg12",
+            "st10",
+            "st11"
+          ],
+          "hint": "The 2024 release of OpenAI o1 — trained via reinforcement learning to produce explicit chain-of-thought reasoning before answering — marked a claimed qualitative shift from fluent generation to deliberate, \"System 2\" reasoning. DeepSeek-R1 (January 2025) reproduced comparable performance at a fraction of the training cost, raising questions about model efficiency and geopolitical AI competition. Simultaneously, agentic frameworks enabled AI systems to take multi-step autonomous actions over extended time horizons. Whether these developments constitute a new computational paradigm or are incremental scaling is actively contested among researchers.",
+          "tag": "DEBATE",
+          "note": "OpenAI (2024). \"Learning to Reason with LLMs.\" openai.com — describes o1. Guo, D. et al. (2025). \"DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning.\" arXiv:2501.12948. Three key contested claims: (1) Whether chain-of-thought training instils genuine reasoning or sophisticated pattern-matching on reasoning-shaped text — Kambhampati et al. (2024) argue the latter; (2) Whether current architectures can sustain reliable multi-step autonomous action without compounding errors across long horizons; (3) Whether open-weight reasoning models (DeepSeek-R1, Llama reasoning variants) create unacceptable proliferation risks versus democratising capability. Benchmark saturation: models exceeding 90% on AIME, MATH, and GPQA signals that existing evaluations are insufficient for frontier tracking (Chollet 2024, ARC-AGI-2 challenge). Regulatory responses — EU AI Act risk tiers, US executive orders on frontier AI — are still being calibrated to this generation of systems."
         }
       ]
     },
@@ -1582,7 +1732,9 @@
           "links": [
             "st11",
             "co6",
-            "db3"
+            "db3",
+            "st15",
+            "db9"
           ],
           "hint": "ChatGPT (OpenAI, November 2022) demonstrated that conversational AI based on large language models could pass professional exams, write production code, draft legal documents, and tutor students — reaching 100 million users in two months, the fastest adoption of any consumer application in history. LLMs are now embedded in search engines, word processors, coding environments, and customer service at scale. The applications reveal both extraordinary capability and systematic failure modes: hallucination, sycophancy, and unpredictable behaviour at distribution boundaries.",
           "tag": "APPLICATION",
@@ -1607,6 +1759,26 @@
           "hint": "Amazon Web Services (2006) commercialised the idea that computing infrastructure — servers, storage, databases, networking — could be rented by the hour over the internet rather than purchased and managed on-premises. EC2 (elastic compute) and S3 (object storage) were the founding services. Cloud computing enabled startups to build globally scalable systems without capital infrastructure and fundamentally restructured the economics of software deployment, concentrating computing power in a small number of hyperscaler data centres.",
           "tag": "APPLICATION",
           "note": "Armbrust, M. et al. (2010). 'A View of Cloud Computing.' CACM, 53(4), 50–58 — the canonical academic framing. AWS launched EC2 (August 2006) and S3 (March 2006). AWS held ~31% of global cloud market share in 2024 (Synergy Research); Azure (~24%) and Google Cloud (~12%) are the other major players. Cloud concentration creates systemic risk: the 2021 AWS us-east-1 outage took down Netflix, Slack, and thousands of services simultaneously. Latency, data sovereignty, and carbon footprint are active concerns; data centre electricity consumption is estimated at ~1–2% of global electricity use (IEA 2023)."
+        },
+        {
+          "id": "ap7",
+          "group": "Cryptography & Security",
+          "label": "Ethereum and Programmable Blockchain",
+          "date": "2015",
+          "loc": "Ethereum Foundation, Zug, Switzerland",
+          "coords": [
+            47.17,
+            8.52
+          ],
+          "links": [
+            "st14",
+            "co7",
+            "th10",
+            "st16"
+          ],
+          "hint": "Vitalik Buterin extended the Bitcoin blockchain with a Turing-complete scripting language, enabling arbitrary programs — smart contracts — to execute on-chain and self-enforce their terms with no trusted intermediary. A loan, insurance policy, or voting procedure encoded as a smart contract runs deterministically across thousands of nodes simultaneously. Ethereum became the platform for decentralised finance (DeFi), non-fungible tokens (NFTs), and layer-2 scaling — demonstrating that blockchain is programmable infrastructure, not merely digital currency.",
+          "tag": "APPLICATION",
+          "note": "Buterin, V. (2014). \"Ethereum: A Next-Generation Smart Contract and Decentralised Application Platform.\" ethereum.org white paper. Wood, G. (2014). \"Ethereum: A Secure Decentralised Generalised Transaction Ledger.\" Yellow Paper — the technical specification. Ethereum's transition from proof-of-work to proof-of-stake (\"The Merge,\" September 2022) reduced energy consumption by ~99.95%. Critiques: smart contracts are immutable once deployed, making bugs catastrophic — the DAO hack (2016, ~USD 60M drained via a reentrancy vulnerability) forced a controversial hard fork. Solidity, the dominant smart-contract language, has accumulated a taxonomy of well-known security pitfalls (reentrancy, integer overflow, front-running). Regulatory status of DeFi tokens and smart-contract enforceability remain legally contested globally. As of 2025, Ethereum processes over 1 million transactions per day across layer-1 and major layer-2 networks (Arbitrum, Optimism, Base)."
         }
       ]
     }
@@ -1654,6 +1826,11 @@
           "entryId": "st13"
         },
         {
+          "y": 1975,
+          "l": "MYCIN: first successful medical expert system",
+          "entryId": "st17"
+        },
+        {
           "y": 1977,
           "l": "Rivest, Shamir & Adleman: RSA",
           "entryId": "st6"
@@ -1662,6 +1839,11 @@
           "y": 1991,
           "l": "Berners-Lee: World Wide Web",
           "entryId": "st7"
+        },
+        {
+          "y": 1991,
+          "l": "Haber & Stornetta: cryptographic chain of blocks",
+          "entryId": "st16"
         },
         {
           "y": 1997,
@@ -1682,6 +1864,11 @@
           "y": 2016,
           "l": "AlphaGo: deep RL defeats Go champion",
           "entryId": "st10"
+        },
+        {
+          "y": 2017,
+          "l": "Vaswani et al.: Attention Is All You Need — transformer",
+          "entryId": "st15"
         },
         {
           "y": 2020,
@@ -1710,6 +1897,11 @@
           "y": 1948,
           "l": "Shannon: mathematical theory of information",
           "entryId": "th3"
+        },
+        {
+          "y": 1964,
+          "l": "Baran & Davies: packet switching theory",
+          "entryId": "th11"
         },
         {
           "y": 1968,
@@ -1773,6 +1965,11 @@
           "y": 1954,
           "l": "Fitts: law of motor control in HCI",
           "entryId": "ef5"
+        },
+        {
+          "y": 1961,
+          "l": "Landauer's Principle: erasing bits costs energy",
+          "entryId": "ef10"
         },
         {
           "y": 1965,
@@ -1884,6 +2081,11 @@
           "y": 2018,
           "l": "ML reproducibility crisis documented",
           "entryId": "db8"
+        },
+        {
+          "y": 2024,
+          "l": "Reasoning models and agentic AI: the 2024-25 inflection",
+          "entryId": "db9"
         }
       ]
     },
@@ -1917,6 +2119,11 @@
           "y": 2006,
           "l": "Amazon AWS: cloud computing platform",
           "entryId": "ap6"
+        },
+        {
+          "y": 2015,
+          "l": "Ethereum: programmable blockchain and smart contracts",
+          "entryId": "ap7"
         },
         {
           "y": 2022,
