@@ -370,7 +370,168 @@
       "accent": "#117A65",
       "bg": "#F0FFF6",
       "subtitle": "Named, replicable patterns in physiological regulation and organ function",
-      "entries": []
+      "entries": [
+        {
+          "id": "ef1",
+          "group": "Cardiovascular & Blood Physiology",
+          "label": "Starling-Landis Capillary Forces",
+          "date": "1896",
+          "loc": "University College London, London, England",
+          "coords": [
+            51.52,
+            -0.13
+          ],
+          "links": [],
+          "repl": "robust",
+          "hint": "The Starling-Landis principle states that fluid movement across the capillary wall is governed by the balance between hydrostatic pressure (pushing fluid out) and oncotic pressure (drawing fluid in) on each side of the wall. Under normal conditions, net filtration slightly exceeds reabsorption and the excess is returned by the lymphatics. Oedema results when the balance is disrupted by elevated venous hydrostatic pressure, reduced plasma oncotic pressure (hypoalbuminaemia), or lymphatic obstruction. The net filtration equation — Kf × [(Pc − Pi) − σ(πc − πi)] — encodes all four of these variables, which must each be considered in diagnosing oedematous states.",
+          "tag": "EFFECT",
+          "note": "Starling, E. H. (1896). 'On the absorption of fluids from the connective tissue spaces.' Journal of Physiology, 19(4), 312–326 — the classical formulation. Landis, E. M. (1927). 'Micro-injection studies of capillary permeability.' American Journal of Physiology, 82(2), 217–238 — direct measurement of capillary filtration in individual frog mesenteric capillaries. Replication status: Robust for the principle of pressure-driven fluid exchange. Major revision: Weinbaum, S., Tarbell, J. M. & Damiano, E. R. (2007). 'The structure and function of the endothelial glycocalyx layer.' Annual Review of Biomedical Engineering, 9, 121–167 — the glycocalyx layer is the primary oncotic barrier; plasma protein oncotic pressure acts across the sub-glycocalyx space, not across the entire capillary wall. The classical Starling-Landis prediction of net reabsorption in venular capillaries is now considered incorrect for most tissues; most fluid is returned via lymphatics rather than reabsorbed. This glycocalyx revision is not yet consistently reflected in clinical teaching."
+        },
+        {
+          "id": "ef2",
+          "group": "Respiratory Physiology",
+          "label": "Bohr Effect",
+          "date": "1904",
+          "loc": "University of Copenhagen, Copenhagen, Denmark",
+          "coords": [
+            55.68,
+            12.57
+          ],
+          "links": [],
+          "repl": "robust",
+          "hint": "The Bohr effect is the rightward shift of the oxyhaemoglobin dissociation curve when CO₂ rises or pH falls. At the systemic capillaries, tissues produce CO₂ and metabolic acid; the resulting pH fall reduces haemoglobin's affinity for O₂, releasing more O₂ precisely where it is needed most. In the pulmonary capillaries, CO₂ is exhaled and pH rises, causing haemoglobin to recapture O₂ avidly. The Bohr effect therefore ensures that O₂ delivery automatically increases in proportion to local metabolic activity — a form of built-in, passive demand sensing.",
+          "tag": "EFFECT",
+          "note": "Bohr, C., Hasselbalch, K. A. & Krogh, A. (1904). 'Ueber einen in biologischer Beziehung wichtigen Einfluss, den die Kohlensäurespannung des Blutes auf dessen Sauerstoffbindung übt.' Skandinavisches Archiv für Physiologie, 16, 402–412 — Krogh performed most of the experimental work. Replication status: Robust — the pH-dependence of haemoglobin-O₂ affinity is a fundamental biochemical property. Molecular basis: Perutz, M. F. (1970). 'Stereochemistry of cooperative effects in haemoglobin.' Nature, 228, 726–739 — the allosteric T→R state transition and salt bridge formation with terminal α-NH₂ groups of β-chains mediate the Bohr effect. 2,3-bisphosphoglycerate (2,3-BPG) produces an additional, independent rightward shift that is physiologically important at altitude and in chronic hypoxia. Temperature also shifts the curve rightward; fever augments O₂ delivery."
+        },
+        {
+          "id": "ef3",
+          "group": "Respiratory Physiology",
+          "label": "Haldane Effect",
+          "date": "1914",
+          "loc": "University of Oxford, Oxford, England",
+          "coords": [
+            51.76,
+            -1.26
+          ],
+          "links": [],
+          "repl": "robust",
+          "hint": "The Haldane effect states that deoxygenated haemoglobin carries more CO₂ than oxygenated haemoglobin at the same CO₂ partial pressure. When haemoglobin releases O₂ at the tissues, it becomes a better buffer (accepting H⁺, shifting the bicarbonate equilibrium toward CO₂ uptake) and forms more carbamino-CO₂ (binding CO₂ at terminal amines). This amplifies CO₂ removal: venous blood picks up substantially more CO₂ per unit of CO₂ partial pressure than arterial blood would. The Haldane and Bohr effects are physiological mirrors of the same allosteric mechanism seen from opposite directions.",
+          "tag": "EFFECT",
+          "note": "Christiansen, J., Douglas, C. G. & Haldane, J. S. (1914). 'The absorption and dissociation of carbon dioxide by human blood.' Journal of Physiology, 48(4), 244–271 — the original quantitative description of deoxygenation-dependent CO₂ carriage. Replication status: Robust — the Haldane effect accounts for approximately 60–70% of the CO₂ loading difference between venous and arterial blood in resting humans; the remainder is dissolved CO₂ and bicarbonate formation. Hlastala, M. P. & Berger, A. J. (2001). Physiology of Respiration, 2nd ed. Oxford University Press. Historical disambiguation: the Haldane effect is named for John Scott Haldane, not J. B. S. Haldane (his son), a common confusion. The effect was mathematically described by Douglas, C. G. et al. (1912) and confirmed quantitatively in the 1914 paper."
+        },
+        {
+          "id": "ef4",
+          "group": "Cell & Membrane Physiology",
+          "label": "Gibbs-Donnan Equilibrium",
+          "date": "1911",
+          "loc": "University College London, London, England",
+          "coords": [
+            51.52,
+            -0.13
+          ],
+          "links": [],
+          "repl": "robust",
+          "hint": "The Gibbs-Donnan equilibrium describes the unequal distribution of diffusible ions across a semipermeable membrane when one side contains non-diffusible charged molecules (proteins, polyanionic glycosaminoglycans). Protein anions attract cations and repel anions on the same side, so the total ion concentration is higher on the protein-containing side, creating an osmotic pressure (oncotic pressure) and a stable membrane voltage (Donnan potential). In physiology, the Donnan effect contributes to the resting membrane potential, governs red-cell ion balance, and drives the Hamburger chloride shift during CO₂ loading.",
+          "tag": "EFFECT",
+          "note": "Donnan, F. G. (1911). 'Theorie der Membrangleichgewichte und Membranpotentiale bei Vorhandensein von nicht dialysierenden Elektrolyten.' Zeitschrift für Elektrochemie, 17(14), 572–581. The thermodynamic foundations were laid by Gibbs, J. W. (1875–1878). 'On the equilibrium of heterogeneous substances.' Transactions of the Connecticut Academy of Arts and Sciences, 3, 108–248; 343–524. Replication status: Robust — the Donnan equilibrium is a mathematical consequence of thermodynamic principles and has been directly measured across biological membranes and model systems. Clinical relevance: the Gibbs-Donnan effect is a correction factor in calculating true plasma osmolality from measured electrolytes; the 'osmolar gap' concept implicitly accounts for non-diffusible solutes. In dialysis, Donnan effects across the dialysis membrane affect ion exchange calculations."
+        },
+        {
+          "id": "ef5",
+          "group": "Cardiovascular & Blood Physiology",
+          "label": "Bayliss Myogenic Response",
+          "date": "1902",
+          "loc": "University College London, London, England",
+          "coords": [
+            51.52,
+            -0.13
+          ],
+          "links": [],
+          "repl": "robust",
+          "hint": "The Bayliss myogenic response is the intrinsic tendency of vascular smooth muscle to contract when intraluminal pressure rises and to relax when pressure falls, independent of nerves, endothelium, or circulating hormones. It is the primary mechanism of cerebral and renal autoregulation: when arterial pressure rises, afferent arterioles constrict to maintain constant tissue blood flow across a wide range of pressures (approximately 60–150 mmHg in the cerebral circulation). This intrinsic property means that organ blood flow is buffered against systemic pressure swings without requiring any reflex arc.",
+          "tag": "EFFECT",
+          "note": "Bayliss, W. M. (1902). 'On the local reactions of the arterial wall to changes of internal pressure.' Journal of Physiology, 28(3), 220–231 — isolated the response in denervated, perfused hindlimb vessels. Replication status: Robust — confirmed across species and in isolated arteriole preparations. Molecular mechanism: Davis, M. J. & Hill, M. A. (1999). 'Signaling mechanisms underlying the vascular myogenic response.' Physiological Reviews, 79(2), 387–423 — stretch-activated cation channels, integrin mechanosensing, and PKC activation. Channel identity: transient receptor potential (TRP) channels (particularly TrpC6 and TrpM4) are proposed as stretch sensors; this remains an active area of research (Earley, S. & Brayden, J. E. 2015. Physiological Reviews, 95, 645–690). Failure of autoregulation at the extremes of blood pressure is a key mechanism of hypertensive encephalopathy and cerebral hypoperfusion."
+        },
+        {
+          "id": "ef6",
+          "group": "Neuromuscular Physiology",
+          "label": "Bowditch Staircase (Treppe Effect)",
+          "date": "1871",
+          "loc": "Harvard Medical School, Boston, Massachusetts",
+          "coords": [
+            42.34,
+            -71.1
+          ],
+          "links": [],
+          "repl": "robust",
+          "hint": "The Bowditch staircase (Treppe) describes the progressive increase in cardiac muscle contraction force with repetitive stimulation at constant rate after a period of rest — each successive beat is stronger than the last until a plateau is reached. The mechanism is calcium-dependent: at higher frequencies less Ca²⁺ is expelled between beats, leading to progressive sarcoplasmic reticulum calcium loading and stronger releases with each action potential. This frequency-dependent potentiation is distinct from the Frank-Starling effect (which responds to filling volume) and from sympathetic inotropism.",
+          "tag": "EFFECT",
+          "note": "Bowditch, H. P. (1871). 'Ueber die Eigenthümlichkeiten der Reizbarkeit, welche die Muskelfasern des Herzens zeigen.' Berichte über die Verhandlungen der Königlichen Sächsischen Gesellschaft der Wissenschaften zu Leipzig. Mathematisch-Physische Klasse, 23, 652–689 — the original staircase observations. Replication status: Robust — the positive force-frequency relationship in mammalian cardiac muscle is well established and is a core property distinguishing cardiac from skeletal muscle. Molecular basis: Bers, D. M. (2002). 'Cardiac excitation-contraction coupling.' Nature, 415, 198–205 — frequency-dependent activation of CaMKII phosphorylates phospholamban, increasing SERCA2a activity and SR Ca²⁺ load. Clinical note: in end-stage heart failure the force-frequency relationship often inverts; increasing heart rate worsens contractile function because the failing cell cannot handle the elevated Ca²⁺ load."
+        },
+        {
+          "id": "ef7",
+          "group": "Cardiovascular & Blood Physiology",
+          "label": "Fåhraeus-Lindqvist Effect",
+          "date": "1931",
+          "loc": "University of Uppsala, Uppsala, Sweden",
+          "coords": [
+            59.85,
+            17.64
+          ],
+          "links": [],
+          "repl": "robust",
+          "hint": "The Fåhraeus-Lindqvist effect is the fall in apparent blood viscosity as vessel diameter decreases below approximately 0.3 mm. In arterioles and capillaries, red blood cells migrate toward the axial stream, creating a cell-poor plasma sleeve at the vessel wall. Since viscosity depends on local red-cell concentration, the apparent viscosity measured from the pressure-flow relationship progressively decreases. Poiseuille's law therefore overestimates microvascular resistance when applied using whole-blood viscosity values derived from large vessels.",
+          "tag": "EFFECT",
+          "note": "Fåhraeus, R. & Lindqvist, T. (1931). 'The viscosity of the blood in narrow capillary tubes.' American Journal of Physiology, 96(3), 562–568 — measured apparent viscosity across glass tubes from 40 μm to several mm diameter. Replication status: Robust — confirmed in vivo with intravital microscopy. Companion effect: the Fåhraeus effect (distinct from FLQ) describes the reduction in microvessel haematocrit relative to large-vessel haematocrit that arises from the same axial migration of red cells. Pries, A. R., Secomb, T. W. & Gaehtgens, P. (1996). 'Biophysical aspects of blood flow in the microvasculature.' Cardiovascular Research, 32(4), 654–667 — in vivo microvascular resistance exceeds predictions from the FLQ model because the glycocalyx reduces effective lumen diameter; the FLQ model systematically underestimates resistance in the narrowest segments."
+        },
+        {
+          "id": "ef8",
+          "group": "Respiratory Physiology",
+          "label": "Hering-Breuer Inflation Reflex",
+          "date": "1868",
+          "loc": "University of Vienna, Vienna, Austria",
+          "coords": [
+            48.21,
+            16.37
+          ],
+          "links": [],
+          "repl": "robust",
+          "hint": "The Hering-Breuer inflation reflex is the slowing or arrest of inspiration triggered by pulmonary stretch receptors (slowly adapting mechanoreceptors in airway smooth muscle) that fire proportionally to lung volume. Afferent signals travel via the vagus nerve to the medullary inspiratory centre, inhibiting further inspiratory neuron firing and terminating the breath. The reflex prevents overinflation. In anaesthetised animals and sleeping neonates the reflex governs tidal volume; in awake adult humans it is active only at large tidal volumes above approximately 1 litre, and does not normally pace the breathing rhythm.",
+          "tag": "EFFECT",
+          "note": "Hering, E. & Breuer, J. (1868). 'Die Selbststeuerung der Athmung durch den Nervus Vagus.' Sitzungsberichte der Kaiserlichen Akademie der Wissenschaften in Wien. Mathematisch-Naturwissenschaftliche Klasse, 57, 672–677 — simultaneously and independently discovered; Breuer performed the experimental work. Replication status: Robust in anaesthetised preparations; more limited in conscious adult humans. Clark, F. J. & von Euler, C. (1972). 'On the regulation of depth and rate of breathing.' Journal of Physiology, 222(2), 267–295 — dissected Hering-Breuer inflation inhibition from expiratory facilitation. Clinical relevance: prolonged Breuer vagal afferents may mediate some CPAP benefit in apnoea of prematurity; slow adapting receptor stimulation via inhaled aerosols contributes to reflexive cough and bronchoconstriction."
+        },
+        {
+          "id": "ef9",
+          "group": "Homeostasis & Integration",
+          "label": "Cushing Reflex",
+          "date": "1901",
+          "loc": "Johns Hopkins Hospital, Baltimore, Maryland",
+          "coords": [
+            39.3,
+            -76.59
+          ],
+          "links": [],
+          "repl": "robust",
+          "hint": "The Cushing reflex is the cardiovascular response to severely raised intracranial pressure: systemic hypertension, bradycardia, and irregular breathing (Cushing's triad). When ICP approaches mean arterial pressure and cerebral perfusion pressure falls critically, ischaemia of the medullary vasomotor centre triggers maximal sympathetic outflow — acutely raising arterial pressure above ICP to restore perfusion. The resulting hypertension activates baroreceptors, producing reflex bradycardia. Clinically, Cushing's triad signals impending transtentorial herniation — the brain's emergency mechanism for self-rescue — and demands immediate action.",
+          "tag": "EFFECT",
+          "note": "Cushing, H. W. (1901). 'Concerning a definite regulatory mechanism of the vasomotor centre which controls blood pressure during cerebral compression.' Bulletin of the Johns Hopkins Hospital, 12, 290–292. Replication status: Robust — the brainstem ischaemic pressor response is reproducibly elicited in animal preparations and observed clinically in raised ICP emergencies. Clinical caveat: Rohlwink, U. K. & Figaji, A. A. (2010). 'Signs of brain herniation in children.' Pediatric Neurology, 43(1), 1–12 — the full triad is present in fewer than 30% of herniation events; its absence must not reassure the clinician. The ischaemic pressor response saturates the baroreflex: baroreceptor activation (producing bradycardia) operates simultaneously with intense sympathetic output (raising BP), hence the triad of hypertension plus bradycardia."
+        },
+        {
+          "id": "ef10",
+          "group": "Cardiovascular & Blood Physiology",
+          "label": "Valsalva Manoeuvre Phases",
+          "date": "1704",
+          "loc": "University of Bologna, Bologna, Italy",
+          "coords": [
+            44.49,
+            11.34
+          ],
+          "links": [],
+          "repl": "robust",
+          "hint": "The Valsalva manoeuvre — forced expiration against a closed glottis — produces a stereotyped four-phase cardiovascular response that stress-tests autonomic and baroreflex function. Phase I: raised intrathoracic pressure transiently squeezes blood from the thorax → brief BP rise. Phase II early: impeded venous return reduces stroke volume → falling BP and reflex tachycardia. Phase II late: sympathetic arteriolar constriction partially restores BP. Phase III: on release, the pulmonary vasculature re-expands → brief further BP dip. Phase IV: venous return floods back → BP overshoot above baseline, triggering baroreceptor-mediated bradycardia. Absent Phase IV overshoot and bradycardia indicates autonomic failure.",
+          "tag": "EFFECT",
+          "note": "Valsalva, A. M. (1704). De Aure Humana Tractatus. Pisari, Bologna — originally described to expel pus from the middle ear; the cardiovascular effects were consequences he noted. Hamilton, W. F., Woodbury, R. A. & Harper, H. T. (1943). 'Arterial, cerebrospinal and venous pressures in man during cough and strain.' American Journal of Physiology, 141(1), 42–50 — first quantitative cardiovascular characterisation. Replication status: Robust — four-phase response is reproducible in healthy subjects. Ewing, D. J., Martyn, C. N., Young, R. J. & Clarke, B. F. (1985). 'The value of cardiovascular autonomic function tests: 10 years experience in diabetes.' Diabetes Care, 8(5), 491–498 — validated Valsalva ratio (max/min RR-interval) as a clinical autonomic test. Absent phase IV bradycardia marks parasympathetic failure (e.g., diabetic autonomic neuropathy); loss of phase II secondary rise marks sympathetic vasomotor failure."
+        }
+      ]
     },
     {
       "id": "concept",
@@ -380,7 +541,143 @@
       "accent": "#566573",
       "bg": "#F5F6FA",
       "subtitle": "The building blocks and vocabulary every student must command",
-      "entries": []
+      "entries": [
+        {
+          "id": "co1",
+          "group": "Cell & Membrane Physiology",
+          "label": "Action Potential",
+          "date": "1902",
+          "loc": "University College London, London, England",
+          "coords": [
+            51.52,
+            -0.13
+          ],
+          "links": [],
+          "hint": "The action potential is the all-or-none, self-propagating electrical signal that underlies rapid communication in nerve and muscle. Its phases — resting potential, depolarisation (Na⁺ influx through voltage-gated channels), overshoot, repolarisation (K⁺ efflux), afterhyperpolarisation, and return to rest — arise from the precise voltage-dependent kinetics described by the Hodgkin-Huxley model. Key properties: threshold (below which no action potential fires), absolute and relative refractory periods (enforcing unidirectional propagation and setting a maximum firing rate), and conduction velocity (faster in larger-diameter, myelinated axons because saltatory conduction jumps between nodes of Ranvier).",
+          "tag": "CONCEPT",
+          "note": "Bernstein, J. (1902). 'Untersuchungen zur Thermodynamik der bioelektrischen Ströme.' Pflügers Archiv, 92, 521–562 — the membrane hypothesis: bioelectric potentials arise from selective ion permeability. Overton, E. (1902) independently proposed ionic theory of excitability. Full ionic characterisation: Hodgkin, A. L. & Katz, B. (1949). 'The effect of sodium ions on the electrical activity of the giant axon of the squid.' Journal of Physiology, 108(1), 37–77. Comprehensive model: Hodgkin, A. L. & Huxley, A. F. (1952). Journal of Physiology, 117, 500–544 — four-paper series. Myelin and saltatory conduction: Lillie, R. S. (1925); Tasaki, I. (1939) demonstrated saltatory conduction in myelinated fibres. Channel proteins cloned: Noda, M. et al. (1984). Nature, 312, 121–127 — Nav1 sodium channel; Timpe, L. C. et al. (1988). Nature, 331, 143–145 — Shaker potassium channel."
+        },
+        {
+          "id": "co2",
+          "group": "Cell & Membrane Physiology",
+          "label": "Resting Membrane Potential",
+          "date": "1949",
+          "loc": "Marine Biological Association, Plymouth, England",
+          "coords": [
+            50.37,
+            -4.14
+          ],
+          "links": [],
+          "hint": "The resting membrane potential (approximately −70 mV in neurons, −90 mV in skeletal muscle, −85 mV in ventricular cardiomyocytes) arises from unequal ion distributions across the plasma membrane and selective resting permeability. The Goldman-Hodgkin-Katz equation predicts the equilibrium potential from relative permeabilities and concentrations of Na⁺, K⁺, and Cl⁻. At rest, K⁺ permeability dominates and pulls the potential toward the K⁺ equilibrium potential (approximately −94 mV); Na⁺ leak conductance and the electrogenic Na⁺/K⁺-ATPase (exporting 3 Na⁺ for 2 K⁺) hold the actual resting value slightly depolarised relative to equilibrium. The Na⁺/K⁺-ATPase also continuously replenishes the ion gradients, consuming approximately 30% of the cell's total ATP.",
+          "tag": "CONCEPT",
+          "note": "Nernst, W. (1888). 'Zur Kinetik der in Lösung befindlichen Körper.' Zeitschrift für Physikalische Chemie, 2, 613–637 — the Nernst equation for single-ion equilibrium potentials. Goldman, D. E. (1943). 'Potential, impedance, and rectification in membranes.' Journal of General Physiology, 27(1), 37–60. Hodgkin, A. L. & Katz, B. (1949). Journal of Physiology, 108(1), 37–77 — derived the GHK equation and tested it in squid axon. Na⁺/K⁺-ATPase: Skou, J. C. (1957). Biochimica et Biophysica Acta, 23(2), 394–401 — Nobel Prize in Chemistry, 1997. Cardiac pacemaker adaptation: the resting membrane potential concept must be modified for sino-atrial node cells, which have no stable resting potential but instead undergo spontaneous diastolic depolarisation (the 'funny current', If) — a second messenger-gated Na⁺/K⁺ channel (HCN4). Brown, H. F., DiFrancesco, D. & Noble, S. J. (1979). Nature, 280, 235–236."
+        },
+        {
+          "id": "co3",
+          "group": "Cardiovascular & Blood Physiology",
+          "label": "Cardiac Output and Its Determinants",
+          "date": "1628",
+          "loc": "St Bartholomew's Hospital, London, England",
+          "coords": [
+            51.52,
+            -0.1
+          ],
+          "links": [],
+          "hint": "Cardiac output (CO = heart rate × stroke volume, normally ~5 L/min at rest) is the volume of blood pumped per minute. Stroke volume is determined by three independent variables: preload (end-diastolic volume — the degree of ventricular filling, governed by venous return and the Frank-Starling law), afterload (the arterial resistance the ventricle must overcome during ejection), and contractility (the intrinsic force-generating capacity of the myocardium, augmented by sympathetic stimulation and calcium-sensitising agents). Understanding these four determinants (HR, preload, afterload, contractility) is the framework for all cardiovascular pharmacology, critical care haemodynamics, and echocardiographic assessment.",
+          "tag": "CONCEPT",
+          "note": "Harvey, W. (1628). De Motu Cordis — first quantified cardiac output by estimating stroke volume × rate. The determinant framework was synthesised by Starling, E. H. (1918). 'The Linacre Lecture on the Law of the Heart.' Macmillan; and by Guyton, A. C. (1963). 'Venous return.' In: Hamilton, W. F. (Ed.), Handbook of Physiology: Circulation. American Physiological Society, vol. 2, 1099–1133. Contractility operationally defined by end-systolic elastance (Ees) — the slope of the end-systolic pressure-volume relationship: Suga, H., Sagawa, K. & Shoukas, A. A. (1973). 'Load independence of the instantaneous pressure-volume ratio of the canine left ventricle.' Circulation Research, 32(3), 314–322. Clinical note: 'contractility' is often loosely used to mean both intrinsic myocardial performance and measured ejection fraction; these diverge significantly in conditions with altered loading (e.g., severe aortic regurgitation where EF is high despite impaired myocardium)."
+        },
+        {
+          "id": "co4",
+          "group": "Respiratory Physiology",
+          "label": "Lung Compliance, Resistance, and Work of Breathing",
+          "date": "1929",
+          "loc": "University of Zurich, Zurich, Switzerland",
+          "coords": [
+            47.37,
+            8.55
+          ],
+          "links": [],
+          "hint": "Lung compliance is the change in volume per unit change in transmural pressure (ΔV/ΔP); a highly compliant lung inflates easily (emphysema) while a stiff lung (pulmonary fibrosis, ARDS, pulmonary oedema) requires more pressure per breath. Airway resistance is opposition to airflow determined by calibre and length of conducting airways (Poiseuille's law); resistance is dramatically elevated in asthma and COPD. Work of breathing against elastic and resistive forces determines the O₂ cost of ventilation, which in respiratory failure can exceed 30% of total O₂ consumption, precipitating muscle fatigue and ventilatory failure. Optimum tidal volume and rate minimise total work.",
+          "tag": "CONCEPT",
+          "note": "Rohrer, F. (1915). 'Der Strömungswiderstand in den menschlichen Atemwegen und der Einfluss der unregelmässigen Verzweigung des Bronchialsystems.' Pflügers Archiv, 162, 225–299 — first mathematical model of airway resistance. Surface tension contribution to compliance: von Neergaard, K. (1929). 'Neue Auffassungen über einen Grundbegriff der Atemmechanik.' Zeitschrift für die gesamte experimentelle Medizin, 66(1), 373–394 — demonstrated that surface tension accounts for ~70% of lung elastic recoil. Pulmonary surfactant: Pattle, R. E. (1955). Nature, 175, 1125–1126; Clements, J. A. (1957). Proceedings of the Society for Experimental Biology and Medicine, 95(1), 170–172 — characterised the surface-active alveolar lining. Clinical application: Webb, H. H. & Tierney, D. F. (1974). 'Experimental pulmonary edema due to intermittent positive pressure ventilation.' American Review of Respiratory Disease, 110(5), 556–565 — established volutrauma as the mechanism of ventilator-induced lung injury; led to lung-protective ventilation strategies (ARDSNet, 2000)."
+        },
+        {
+          "id": "co5",
+          "group": "Renal & Acid-Base Physiology",
+          "label": "Acid-Base Balance: Henderson-Hasselbalch Framework",
+          "date": "1908",
+          "loc": "Harvard Medical School, Boston, Massachusetts",
+          "coords": [
+            42.34,
+            -71.1
+          ],
+          "links": [],
+          "hint": "The Henderson-Hasselbalch equation (pH = pKa + log[HCO₃⁻]/[CO₂]) describes the carbonate buffer system — the primary extracellular buffer. pH is determined by the ratio of bicarbonate (regulated by the kidneys over hours to days) to dissolved CO₂ (regulated by the lungs in seconds to minutes). The four primary disturbances — respiratory acidosis and alkalosis, metabolic acidosis and alkalosis — each disturb this ratio in predictable ways; compensation by the other system partially restores pH. The base excess concept (Singer & Hastings, 1948) and the Stewart strong-ion difference approach (1981) offer alternative quantitative frameworks better suited to complex mixed disorders.",
+          "tag": "CONCEPT",
+          "note": "Henderson, L. J. (1908). 'Concerning the relationship between the strength of acids and their capacity to preserve neutrality.' American Journal of Physiology, 21(2), 173–179. Hasselbalch, K. A. (1916). 'Die Berechnung der Wasserstoffzahl des Blutes aus der freien und gebundenen Kohlensäure desselben.' Biochemische Zeitschrift, 78, 112–144 — converted Henderson's equation into logarithmic (pH) form. Base excess: Singer, R. B. & Hastings, A. B. (1948). Medicine, 27(2), 223–242. Stewart physicochemical approach: Stewart, P. A. (1981). How to Understand Acid-Base. Elsevier — uses strong ion difference (SID), total weak acid (Atot), and PCO₂ as independent variables; correctly identifies that bicarbonate is a dependent variable, not an independent regulator of pH. Peters, M. J. et al. (2002). British Journal of Anaesthesia, 88(2), 153–161 — the H-H and Stewart approaches are mathematically equivalent but the Stewart approach is conceptually cleaner for complex mixed disorders."
+        },
+        {
+          "id": "co6",
+          "group": "Renal & Acid-Base Physiology",
+          "label": "Glomerular Filtration, Tubular Function, and Clearance",
+          "date": "1924",
+          "loc": "University of Pennsylvania, Philadelphia, Pennsylvania",
+          "coords": [
+            39.95,
+            -75.19
+          ],
+          "links": [],
+          "hint": "The nephron achieves urine formation through three sequential processes: glomerular filtration (producing ~125 mL/min of protein-free ultrafiltrate, governed by Starling forces across the fenestrated glomerular capillary and podocyte filtration barrier), tubular reabsorption (reclaiming ~99% of filtered water, Na⁺, glucose, and amino acids), and tubular secretion (adding organic acids, drugs, and K⁺ from peritubular capillaries to tubular fluid). Clearance — the volume of plasma completely cleared of a substance per minute — is the conceptual tool: clearance equal to GFR means neither reabsorption nor secretion; below GFR means net reabsorption; above GFR means net secretion.",
+          "tag": "CONCEPT",
+          "note": "Richards, A. N. (1924). 'Methods and results of direct investigations of the function of the kidney.' Harvey Lecture, Harvey Society, New York — founded the micropuncture approach to nephron physiology. Smith, H. W. (1951). The Kidney: Structure and Function in Health and Disease. Oxford University Press — the synthesis of clearance-based renal physiology. Koeppen, B. M. & Stanton, B. A. (Eds.) (2019). Renal Physiology, 6th ed. Elsevier. Glomerular filtration barrier structure: Rodewald, R. & Karnovsky, M. J. (1974). 'Porous substructure of the glomerular slit diaphragm in the rat and mouse.' Journal of Cell Biology, 60(2), 423–433. Podocin and nephrin as key barrier proteins: Ruotsalainen, V. et al. (1999). Science, 286(5438), 312–315. Clinical note: eGFR formulas (MDRD, CKD-EPI) estimate GFR from creatinine, age, sex, and race; CKD-EPI 2021 removed the race coefficient after evidence that it systematically underestimated GFR in Black patients."
+        },
+        {
+          "id": "co7",
+          "group": "Endocrine & Reproductive Physiology",
+          "label": "Hormonal Feedback Loops and Axes",
+          "date": "1955",
+          "loc": "University of Cambridge, Cambridge, England",
+          "coords": [
+            52.2,
+            0.12
+          ],
+          "links": [],
+          "hint": "Endocrine regulation operates through three-tier hypothalamic-pituitary-target-organ axes: a releasing hormone from the hypothalamus stimulates a trophic hormone from the anterior pituitary, which stimulates the target organ. Negative feedback from the target hormone closes the loop at both hypothalamus and pituitary, maintaining set-point concentrations. The HPA (stress), HPT (thyroid), and HPG (gonadal) axes each follow this blueprint. Disruption of negative feedback produces predictable failure patterns: primary failure (target organ) elevates trophic hormones; secondary failure (pituitary) reduces both trophic and target hormones; tertiary failure (hypothalamus) reduces all three — enabling anatomical diagnosis from blood tests alone.",
+          "tag": "CONCEPT",
+          "note": "Harris, G. W. (1955). Neural Control of the Pituitary Gland. Edward Arnold — established that hypothalamic releasing hormones control anterior pituitary function. Chemical characterisation: Guillemin, R. & Schally, A. V. independently isolated TRH (1969), GnRH (1971), and somatostatin (1973), Nobel Prize 1977. Negative feedback confirmed for the HPA axis: Yates, F. E. & Urquhart, J. (1962). 'Control of plasma concentrations of adrenocortical hormones.' Physiological Reviews, 42(3), 359–443. Cortisol diurnal rhythm driven by CRH pulse frequency: Veldhuis, J. D. et al. (1989). Journal of Clinical Endocrinology and Metabolism, 68(6), 1231–1240. Clinical translation: the 'secondary vs. primary' distinction is the foundation of endocrine diagnostics; failure to recognise secondary adrenal insufficiency (low cortisol + low ACTH) from tertiary (low cortisol + low ACTH + known pituitary/hypothalamic disease) has serious therapeutic implications."
+        },
+        {
+          "id": "co8",
+          "group": "Neuromuscular Physiology",
+          "label": "Neuromuscular Junction",
+          "date": "1936",
+          "loc": "University of Edinburgh, Edinburgh, Scotland",
+          "coords": [
+            55.95,
+            -3.19
+          ],
+          "links": [],
+          "hint": "The neuromuscular junction is the chemical synapse between the motor neuron terminal and the motor endplate of a skeletal muscle fibre. A motor neuron action potential triggers Ca²⁺ influx through presynaptic voltage-gated Ca²⁺ channels (Cav2.1), causing quantal acetylcholine release into the synaptic cleft. ACh binds nicotinic AChRs (AChR-n), generating an endplate potential reliably large enough (~50 mV) to fire a muscle action potential — the NMJ safety factor is high, typically 3–5. Acetylcholinesterase hydrolyses ACh within milliseconds. The high safety factor means that NMJ diseases must eliminate a majority of receptors before neuromuscular transmission fails clinically.",
+          "tag": "CONCEPT",
+          "note": "ACh as NMJ transmitter: Dale, H. H., Feldberg, W. & Vogt, M. (1936). 'Release of acetylcholine at voluntary motor nerve endings.' Journal of Physiology, 86(4), 353–380 — Nobel Prize shared with Loewi, 1936. Quantal release: Fatt, P. & Katz, B. (1952). 'Spontaneous subthreshold activity at motor nerve endings.' Journal of Physiology, 117(1), 109–128; Katz, B. & Miledi, R. (1967). 'The timing of calcium action during neuromuscular transmission.' Journal of Physiology, 189(3), 535–544. AChR structure: Noda, M. et al. (1982). Nature, 299, 793–797 — cloned the nicotinic AChR subunits. Clinical diseases: myasthenia gravis (autoantibodies to AChRs or MuSK, impairs transmission) versus Lambert-Eaton syndrome (autoantibodies to Cav2.1, impairs ACh release) — the distinction between pre- and postsynaptic NMJ failure is diagnostically and therapeutically critical. Curariform drugs (rocuronium, vecuronium) compete with ACh at the postsynaptic receptor."
+        },
+        {
+          "id": "co9",
+          "group": "Respiratory Physiology",
+          "label": "Ventilation-Perfusion Matching",
+          "date": "1951",
+          "loc": "Columbia University, New York City, New York",
+          "coords": [
+            40.81,
+            -73.96
+          ],
+          "links": [],
+          "hint": "Gas exchange efficiency depends not just on total ventilation and perfusion but on how well they are matched in individual alveolar units. The V̇/Q̇ ratio determines the O₂ and CO₂ composition of blood leaving each unit. Dead space (V̇/Q̇ → ∞, ventilated but not perfused) wastes ventilation; shunt (V̇/Q̇ = 0, perfused but not ventilated) wastes perfusion and cannot be rescued by supplemental O₂ alone because shunted blood bypasses alveoli entirely. In the upright lung, gravity increases both ventilation and perfusion from apex to base, but perfusion increases more steeply, so V̇/Q̇ falls from apex (~3) to base (~0.6). Hypoxic pulmonary vasoconstriction is the key mechanism minimising V̇/Q̇ mismatch.",
+          "tag": "CONCEPT",
+          "note": "Riley, R. L. & Cournand, A. (1951). 'Analysis of factors affecting partial pressures of oxygen and carbon dioxide in gas and blood of lungs.' Journal of Applied Physiology, 4(2), 77–101 — the mathematical treatment of V/Q inequality. Multiple inert gas elimination technique (MIGET): Wagner, P. D., Saltzman, H. A. & West, J. B. (1974). Journal of Applied Physiology, 36(5), 588–599 — resolves the full V/Q distribution across hundreds of lung units in vivo. West, J. B. (2012). Respiratory Physiology: The Essentials, 9th ed. Lippincott Williams & Wilkins. Clinical relevance: the PaO₂-FiO₂ ratio (P/F ratio) used in ARDS severity grading is a crude index of V̇/Q̇ mismatch and shunt; a P/F < 300 with bilateral infiltrates and no cardiogenic explanation defines ARDS (Berlin Definition, 2012, JAMA, 307(23), 2526–2533). Shunt does not respond to supplemental O₂ because 100% O₂ cannot oxygenate blood flowing through unventilated units."
+        }
+      ]
     },
     {
       "id": "method",
@@ -390,7 +687,98 @@
       "accent": "#8B5E00",
       "bg": "#FFF8F0",
       "subtitle": "The tools and paradigms that generate the field's evidence",
-      "entries": []
+      "entries": [
+        {
+          "id": "me1",
+          "group": "Cell & Membrane Physiology",
+          "label": "Voltage Clamp and Patch Clamp",
+          "date": "1949",
+          "loc": "Marine Biological Association, Plymouth, England",
+          "coords": [
+            50.37,
+            -4.14
+          ],
+          "links": [],
+          "hint": "The voltage clamp holds the membrane potential constant by injecting an equal and opposite current to whatever the membrane conducts, allowing isolation and measurement of individual ion currents. Hodgkin and Huxley used it (1952) to separate Na⁺ and K⁺ conductances during the action potential. The patch clamp (Neher & Sakmann, 1976) extends this to single ion channels: a fire-polished pipette forms a gigaohm seal with the membrane, and current through individual channels is resolved in real time. Four patch-clamp configurations (cell-attached, whole-cell, inside-out, outside-out) allow study of single-channel and whole-cell currents under controlled intracellular and extracellular ionic conditions.",
+          "tag": "TECHNIQUE",
+          "note": "Voltage clamp: Cole, K. S. (1949). 'Dynamic electrical characteristics of the squid axon membrane.' Archives des Sciences Physiologiques, 3, 253–258 — the technical invention. Marmont, G. (1949). 'Studies on the axon membrane.' Journal of Cellular and Comparative Physiology, 34(3), 351–382 — further development. Hodgkin & Huxley applied it in their four-paper series (1952). Patch clamp: Neher, E. & Sakmann, B. (1976). 'Single-channel currents recorded from membrane of denervated frog muscle fibres.' Nature, 260, 799–802. Nobel Prize in Physiology or Medicine, 1991 (Neher & Sakmann). Gigaohm seal: Hamill, O. P. et al. (1981). 'Improved patch-clamp techniques for high-resolution current recording from cells and cell-free membrane patches.' Pflügers Archiv, 391(2), 85–100 — the technical paper establishing the standard configurations. Automated patch clamp: Milligan, C. J. et al. (2009). Nature Protocols, 4, 244–255 — high-throughput robotic patch platforms for ion channel pharmacology."
+        },
+        {
+          "id": "me2",
+          "group": "Cardiovascular & Blood Physiology",
+          "label": "Cardiac Catheterisation and Pressure-Volume Analysis",
+          "date": "1929",
+          "loc": "Auguste-Viktoria Hospital, Eberswalde, Germany",
+          "coords": [
+            52.83,
+            13.82
+          ],
+          "links": [],
+          "hint": "Cardiac catheterisation inserts a pressure-transducing catheter into heart chambers via peripheral vessels, enabling direct measurement of pressures in each chamber and across valves, and calculation of cardiac output by the Fick principle (CO = O₂ consumption ÷ arteriovenous O₂ difference) or thermodilution. Pressure-volume (PV) loops — plotting ventricular pressure against instantaneous volume through one cardiac cycle — are the gold standard for quantifying preload-independent contractility (end-systolic PV relationship, ESPVR), diastolic compliance (EDPVR), and external mechanical work (area of the PV loop). Measurement requires a conductance catheter (electrical admittance-based volume) combined with high-fidelity pressure transduction.",
+          "tag": "METHOD",
+          "note": "Self-catheterisation: Forssmann, W. (1929). 'Die Sondierung des rechten Herzens.' Klinische Wochenschrift, 8(45), 2085–2087 — Nobel Prize in Physiology or Medicine, 1956 (shared with Cournand and Richards). Cournand, A. & Ranges, H. A. (1941). 'Catheterization of the right auricle in man.' Proceedings of the Society for Experimental Biology and Medicine, 46(3), 462–466 — established right-heart catheterisation as a clinical tool. PV loops: Suga, H. & Sagawa, K. (1974). 'Instantaneous pressure-volume relationships and their ratio in the excised, supported canine left ventricle.' Circulation Research, 35(1), 117–126 — defined ESPVR and pressure-volume area. Swan, H. J. C. et al. (1970). 'Catheterization of the heart in man with use of a flow-directed balloon-tipped catheter.' New England Journal of Medicine, 283(9), 447–451 — the pulmonary artery (Swan-Ganz) catheter for bedside haemodynamic monitoring; clinical use has declined since RCTs showed no benefit and potential harm in general ICU patients (Sandham, J. D. et al. 2003. NEJM, 348, 5–14)."
+        },
+        {
+          "id": "me3",
+          "group": "Respiratory Physiology",
+          "label": "Spirometry and Body Plethysmography",
+          "date": "1846",
+          "loc": "St Bartholomew's Hospital, London, England",
+          "coords": [
+            51.52,
+            -0.1
+          ],
+          "links": [],
+          "hint": "Spirometry measures volumes and flow rates of air during defined breathing manoeuvres. Key indices: FVC (forced vital capacity), FEV₁ (forced expired volume in 1 second), and FEV₁/FVC — below 0.70 indicating obstruction (asthma, COPD) and preserved but with proportionally reduced FVC indicating restriction. The flow-volume loop shape (concave expiratory limb in obstruction, symmetric but small loop in restriction) adds pattern recognition. Body plethysmography encloses the subject in an airtight box and applies Boyle's law to measure functional residual capacity, residual volume, and total lung capacity — volumes spirometry cannot access.",
+          "tag": "METHOD",
+          "note": "Hutchinson, J. (1846). 'On the capacity of the lungs, and on the respiratory functions, with a view of establishing a precise and easy method of detecting disease by the spirometer.' Medico-Chirurgical Transactions, 29, 137–252 — invented the spirometer and measured vital capacity in 2,000 men, noting its decline with disease. FEV₁: Tiffeneau, R. & Pinelli, A. (1947). 'Air circulant et air captif dans l'exploration de la fonction ventilatoire pulmonaire.' Paris Médicale, 133, 624–628 — the FEV₁ concept. Body plethysmography: DuBois, A. B. et al. (1956). 'A rapid plethysmographic method for measuring thoracic gas volume.' Journal of Clinical Investigation, 35(3), 322–326. ATS/ERS standardisation: Miller, M. R. et al. (2005). European Respiratory Journal, 26(2), 319–338. Limitation: spirometry requires effort-dependent manoeuvres; reference values carry systematic biases from the populations used to derive them — the most widely used GLI-2012 equations (European cohorts) may not apply equally across all ethnicities."
+        },
+        {
+          "id": "me4",
+          "group": "Renal & Acid-Base Physiology",
+          "label": "Renal Clearance Methods",
+          "date": "1938",
+          "loc": "New York University School of Medicine, New York City, New York",
+          "coords": [
+            40.74,
+            -73.97
+          ],
+          "links": [],
+          "hint": "Renal clearance (C = U × V̇ / P, where U is urinary concentration, V̇ is urine flow, and P is plasma concentration) is the volume of plasma completely cleared of a substance per minute. Inulin clearance equals GFR because inulin is freely filtered and neither secreted nor reabsorbed. Para-aminohippurate (PAH) clearance at low plasma concentrations equals effective renal plasma flow because it is almost completely extracted in one pass. Together, inulin and PAH clearance define the filtered fraction and allow calculation of net tubular secretion or reabsorption for any other substance by comparing its clearance to inulin clearance.",
+          "tag": "METHOD",
+          "note": "Smith, H. W., Goldring, W. & Chasis, H. (1938). 'The measurement of the tubular excretory mass, effective blood flow and filtration rate in the normal human kidney.' Journal of Clinical Investigation, 17(3), 263–278 — standardised inulin and PAH clearance methods in humans. Smith, H. W. (1956). Principles of Renal Physiology. Oxford University Press. Clinical approximations: creatinine clearance slightly overestimates GFR because creatinine is secreted by the proximal tubule; in advanced CKD this secretory fraction can represent 40–50% of urinary creatinine, causing serious overestimation. CKD-EPI eGFR equations (Levey, A. S. et al. 2009. Annals of Internal Medicine, 150(9), 604–612) correct for demographic factors. Cystatin C-based eGFR equations (Inker, L. A. et al. 2012. NEJM, 367, 20–29) are less affected by muscle mass variations and are increasingly recommended for diagnostic clarity."
+        },
+        {
+          "id": "me5",
+          "group": "Endocrine & Reproductive Physiology",
+          "label": "Radioimmunoassay and Immunoassay",
+          "date": "1959",
+          "loc": "Veterans Administration Hospital, Bronx, New York",
+          "coords": [
+            40.84,
+            -73.88
+          ],
+          "links": [],
+          "hint": "Radioimmunoassay (RIA) uses competitive binding between radiolabelled antigen and unlabelled sample antigen for a fixed supply of antibody. As unlabelled hormone concentration rises, it displaces labelled antigen, reducing the radioactive signal — allowing quantification at femtomolar concentrations. RIA made it possible to measure circulating insulin, thyroid hormones, and cortisol for the first time, transforming endocrinology from a discipline of clinical inference into one of direct biochemical measurement. Modern enzyme-linked immunosorbent assay (ELISA) and chemiluminescent immunoassay (CLIA) replace radioactivity with enzyme-linked or fluorescent reporters, achieving comparable sensitivity without radiation.",
+          "tag": "TECHNIQUE",
+          "note": "Yalow, R. S. & Berson, S. A. (1959). 'Assay of plasma insulin in human subjects by immunological methods.' Nature, 184, 1648–1649 — the founding paper. Nobel Prize in Physiology or Medicine, 1977 (Yalow; Berson died 1972 and was ineligible posthumously). Impact: the ability to measure plasma insulin concentrations revolutionised understanding of type 2 diabetes, hypoglycaemia, and insulinoma. ELISA: Engvall, E. & Perlmann, P. (1971). Immunochemistry, 8(9), 871–874; Van Weemen, B. K. & Schuurs, A. H. W. M. (1971). FEBS Letters, 15(3), 232–236 — independent co-inventions. Modern clinical immunoassay is automated, uses sandwich formats (two antibodies recognising different epitopes), and achieves attomolar sensitivity for some analytes. Cross-reactivity between related hormones (e.g., LH and FSH in older RIA formats) was an important early limitation; modern monoclonal-antibody-based assays are more specific."
+        },
+        {
+          "id": "me6",
+          "group": "Renal & Acid-Base Physiology",
+          "label": "Micropuncture and Isolated Tubule Perfusion",
+          "date": "1924",
+          "loc": "University of Pennsylvania, Philadelphia, Pennsylvania",
+          "coords": [
+            39.95,
+            -75.19
+          ],
+          "links": [],
+          "hint": "Direct micropuncture of individual nephron tubules — using a glass micropipette visible through a stereomicroscope in a surgically exposed kidney — allows collection of nanolitre volumes of tubular fluid at defined nephron segments. Comparison with filtered plasma establishes fractional reabsorption and secretion of specific solutes at each site. In vitro microperfusion of isolated tubule segments adds controlled luminal and peritubular composition, defining transporter kinetics and regulation. Together these techniques established the distinct transport functions of the proximal tubule, loop of Henle, distal convoluted tubule, and collecting duct that underlie all modern nephron physiology.",
+          "tag": "TECHNIQUE",
+          "note": "Richards, A. N. (1924). Harvey Lectures — demonstrated that glomerular filtrate contains no protein and is isosmotic with plasma. Richards, A. N. (1938). 'Processes of urine formation.' Croonian Lecture, Proceedings of the Royal Society B, 126(843), 398–432 — comprehensive micropuncture characterisation. In vitro microperfusion: Burg, M., Grantham, J., Abramow, M. & Orloff, J. (1966). 'Preparation and study of fragments of single rabbit nephron segments in vitro.' American Journal of Physiology, 210(6), 1293–1298 — founded the isolated perfused tubule technique. Transporter identification enabled by these methods: SGLT2 (glucose): Koepsell, H., Lips, K. & Volk, C. (2007). Pharmaceutical Research, 24(7), 1227–1251; NHE3 (Na⁺/H⁺ exchanger), NKCC2 (Henle limb Na⁺-K⁺-Cl⁻ cotransporter), ENaC (collecting duct Na⁺ channel). Clinical translation: SGLT2 inhibitors (gliflozins) are a direct pharmaceutical offspring of micropuncture-defined glucose reabsorption kinetics."
+        }
+      ]
     },
     {
       "id": "figure",
