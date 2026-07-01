@@ -226,7 +226,7 @@ body{background:#eef1f6;font-family:Georgia,serif;color:#1a2230;min-height:100vh
     <button class="tab-btn"        id="btn-study"    onclick="setView('study')">◉ Study Plan</button>
     <button class="tab-btn"        id="btn-timeline" onclick="setView('timeline')">◫ Timeline</button>
     <button class="tab-btn"        id="btn-map"      onclick="setView('map')">◎ Map</button>
-    <div id="search-wrap"><input id="search-input" placeholder="Search this field…" oninput="filterList()"></div>
+    <div id="search-wrap"><input id="search-input" placeholder="Search this field…" oninput="onSearchInput()"></div>
   </div>
 </div>
 
@@ -508,11 +508,15 @@ function applyFilter() {
 
 function applyGraphFilter() {
   if (!cyGraph) return;
+  const q = getSearchQ();
   const byId = {};
   allEntries().forEach(e => byId[e.id] = e);
   cyGraph.nodes().forEach(node => {
     const e = byId[node.id()];
-    if (e) node.style('opacity', activeCatIds.has(e.catId) ? 0.85 : 0.12);
+    if (!e) return;
+    const catMatch    = activeCatIds.has(e.catId);
+    const searchMatch = !q || [e.label, e.hint||'', e.date||'', e.loc||'', e.group||''].join(' ').toLowerCase().includes(q);
+    node.style('opacity', catMatch && searchMatch ? 0.85 : 0.12);
   });
 }
 
@@ -890,6 +894,30 @@ function filterList() {
   }
 }
 
+function getSearchQ() {
+  return document.getElementById('search-input').value.toLowerCase().trim();
+}
+function onSearchInput() {
+  if      (currentView === 'list')     filterList();
+  else if (currentView === 'timeline') buildTimeline();
+  else if (currentView === 'map')      renderPins();
+  else if (currentView === 'graph')    applyGraphFilter();
+  else if (currentView === 'study')    filterStudyPlan();
+}
+function filterStudyPlan() {
+  const q = getSearchQ();
+  document.querySelectorAll('#study-plan-area .sp-module').forEach(section => {
+    let anyVisible = false;
+    section.querySelectorAll('.sp-entry').forEach(div => {
+      const matches = !q || div.textContent.toLowerCase().includes(q);
+      div.style.display = matches ? '' : 'none';
+      if (matches) anyVisible = true;
+    });
+    const list = section.querySelector('.sp-list');
+    if (list) list.style.display = anyVisible || !q ? '' : 'none';
+  });
+}
+
 // ── TIMELINE ──────────────────────────────────────────────────────────────────
 function buildTimeline() {
   if (!MOD || !MOD.timeline) return;
@@ -926,7 +954,20 @@ function buildTimeline() {
     return { rows: Math.max(1, rowRight.length), layout: out };
   }
 
-  const laneLayouts = lanes.map(lane => layoutEvents(lane.events));
+  const q_tl = getSearchQ();
+  const allE_tl = allEntries();
+  const laneLayouts = lanes.map(lane => {
+    const evts = q_tl
+      ? lane.events.filter(ev => {
+          if (ev.entryId) {
+            const ent = allE_tl.find(e => e.id === ev.entryId);
+            if (ent) return [ent.label, ent.hint||'', ent.loc||'', ent.group||''].join(' ').toLowerCase().includes(q_tl);
+          }
+          return ev.l.toLowerCase().includes(q_tl);
+        })
+      : lane.events;
+    return layoutEvents(evts);
+  });
 
   const ROW_H = 14, LANE_PAD = 6;
   let laneOffsets = [], y = 0;
@@ -978,10 +1019,9 @@ function buildTimeline() {
       const x1 = px(Math.max(MIN, ev.y));
       const rowY = ty + LANE_PAD + row * ROW_H;
       const tip = ev.l + (ev.y2 && ev.y2!==ev.y ? ` (${ev.y}–${ev.y2})` : ` (${ev.y})`);
-      const allE = allEntries();
       const matchEntry = ev.entryId
-        ? allE.find(e => e.id === ev.entryId)
-        : allE.find(e => e.label === ev.l) || allE.find(e => e.label.toLowerCase().includes(ev.l.toLowerCase()));
+        ? allE_tl.find(e => e.id === ev.entryId)
+        : allE_tl.find(e => e.label === ev.l) || allE_tl.find(e => e.label.toLowerCase().includes(ev.l.toLowerCase()));
       const clickFn = matchEntry ? () => openModal(matchEntry, matchEntry.accent) : null;
 
       if (isSpan) {
@@ -1039,7 +1079,12 @@ function renderPins() {
   if (!leafMap) return;
   if (markerLayer) markerLayer.clearLayers();
   markerLayer = L.layerGroup().addTo(leafMap);
-  const entries = allEntries().filter(e => e.coords && activeCatIds.has(e.catId));
+  const _q = getSearchQ();
+  const entries = allEntries().filter(e => {
+    if (!e.coords || !activeCatIds.has(e.catId)) return false;
+    if (!_q) return true;
+    return [e.label, e.hint||'', e.date||'', e.loc||'', e.group||''].join(' ').toLowerCase().includes(_q);
+  });
   const groups = {};
   entries.forEach(e => {
     const key = e.coords[0].toFixed(1)+','+e.coords[1].toFixed(1);
@@ -1654,6 +1699,7 @@ function buildStudyPlan() {
     section.appendChild(list);
     area.appendChild(section);
   }
+  filterStudyPlan();
 }
 
 // ── INIT ───────────────────────────────────────────────────────────────────────
