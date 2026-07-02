@@ -134,6 +134,10 @@ body{background:#eef1f6;font-family:Georgia,serif;color:#1a2230;min-height:100vh
 .ml-label{font-size:9px;color:#9bafd4;font-family:'Courier New',monospace;letter-spacing:.1em;width:100%;margin-bottom:2px}
 .ml-chip{font-size:11px;font-family:'Spectral',serif;color:#13234a;background:#eef2f9;border:1px solid #d6e0f0;border-radius:12px;padding:3px 10px;cursor:pointer;transition:all .12s}
 .ml-chip:hover{background:#e0e8f7;border-color:#9bafd4}
+#modal-xlinks{margin-top:8px;display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.ml-chip-x{font-size:11px;font-family:'Spectral',serif;color:#4a235a;background:#f5eeff;border:1px solid #c9b3e8;border-radius:12px;padding:3px 10px;cursor:pointer;transition:all .12s}
+.ml-chip-x:hover{background:#ecdeff;border-color:#9b74d4}
+.ml-chip-x-folio{font-size:9px;font-family:'Courier New',monospace;opacity:.65;margin-right:3px}
 .entry-loc{font-size:10px;color:#9bafd4;margin-top:2px}
 .entry-arrow{font-size:10px;color:#c4cfe2;padding-top:2px}
 .methodology{margin-top:24px;border-top:1px solid #dde5f1;padding-top:12px;font-size:10px;color:#aab8d0;font-family:'Courier New',monospace;line-height:1.8}
@@ -299,6 +303,7 @@ body{background:#eef1f6;font-family:Georgia,serif;color:#1a2230;min-height:100vh
     <span id="modal-ev-label">KEY EVIDENCE</span>
     <div id="modal-note"></div>
     <div id="modal-links" style="display:none"></div>
+    <div id="modal-xlinks" style="display:none"></div>
     <button id="modal-close" onclick="closeModal()">CLOSE</button>
   </div>
 </div>
@@ -398,11 +403,13 @@ const CAT_ICONS = {
 
 // ── STATE ──────────────────────────────────────────────────────────────────────
 let MOD = null;
+let GIDX = null;
 let leafMap = null;
 let markerLayer = null;
 let activeCatIds = new Set();
 let currentView = 'list';
 let cyGraph = null;
+fetch('modules/_global_index.json').then(r => r.json()).then(d => { GIDX = d; }).catch(() => {});
 const _domCollapsed = {};
 DOMAINS.forEach(d => { _domCollapsed[d.id] = false; });
 
@@ -762,6 +769,33 @@ function openModal(entry, accent) {
       chip.onclick = () => { const t = allEntries().find(e => e.id === chip.dataset.id); if (t) openModal(t, t.accent); };
     });
   } else { linksEl.style.display = 'none'; linksEl.innerHTML = ''; }
+
+  // Cross-folio xlinks
+  const xlinksEl = document.getElementById('modal-xlinks');
+  const xls = entry.xlinks || [];
+  if (xls.length && GIDX) {
+    const chips = xls.map(key => {
+      const [folioId] = key.split('::');
+      const label = GIDX.index[key] || key;
+      const folioMeta = (GIDX._meta.folios || []).find(f => f.id === folioId);
+      const folioTitle = folioMeta ? folioMeta.title : folioId.replace(/-/g,' ');
+      return `<span class="ml-chip-x" data-xkey="${key}"><span class="ml-chip-x-folio">${folioTitle} ›</span>${label}</span>`;
+    }).join('');
+    xlinksEl.style.display = 'flex';
+    xlinksEl.innerHTML = '<span class="ml-label">IN OTHER FIELDS</span>' + chips;
+    xlinksEl.querySelectorAll('.ml-chip-x').forEach(chip => {
+      chip.onclick = () => {
+        const [folioId, entryId] = chip.dataset.xkey.split('::');
+        const field = FIELDS.find(f => f.id === folioId);
+        if (!field || field.status !== 'ready') return;
+        closeModal();
+        loadModule(field.file).then(() => {
+          const target = allEntries().find(e => e.id === entryId);
+          if (target) openModal(target, target.accent);
+        });
+      };
+    });
+  } else { xlinksEl.style.display = 'none'; xlinksEl.innerHTML = ''; }
 
   document.getElementById('modal-overlay').classList.add('open');
 }

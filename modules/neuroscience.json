@@ -1583,6 +1583,7 @@
             "fg11",
             "st9"
           ],
+          "xlinks": ["general-cognitive-psych::me4"],
           "hint": "fMRI detects regional changes in blood oxygenation (BOLD — blood-oxygen-level-dependent) as a proxy for neural activity. Activated neurons increase local blood flow, raising the ratio of oxyhaemoglobin to deoxyhaemoglobin and producing a detectable MRI signal change. Allows whole-brain imaging at 2–3 mm resolution without ionising radiation; temporal resolution ~1–2 seconds.",
           "tag": "METHOD",
           "note": "Ogawa, S. et al. (1992). 'Intrinsic signal changes accompanying sensory stimulation: Functional brain mapping with magnetic resonance imaging.' Proceedings of the National Academy of Sciences, 89, 5951–5955. First task-based fMRI: Kwong et al. (1992) PNAS; Bandettini et al. (1992) MRM. Limitation: BOLD is an indirect neural measure; cluster-based inference had serious false-positive inflation (db8). Resting-state fMRI reveals functional networks (st9).",
@@ -2171,6 +2172,7 @@
           "links": [
             "me4"
           ],
+          "xlinks": ["general-cognitive-psych::db7"],
           "hint": "Eklund et al. re-analysed 15 years of resting-state fMRI data and found that widely used cluster-inference algorithms (in FSL, SPM, AFNI) produced false-positive rates up to 70% rather than the nominal 5%. Inflated false-positive rates mean many published activation maps may reflect noise, calling into question a large fraction of the neuroimaging literature.",
           "tag": "DEBATE",
           "note": "Eklund, A., Nichols, T. E. & Knutsson, H. (2016). 'Cluster failure: Why fMRI inferences for spatial extent have inflated false-positive rates.' Proceedings of the National Academy of Sciences, 113, 7900–7905. Response: FSL, SPM and AFNI released software patches. Cox, R. W. et al. (2017) Neuroimage — investigation of underlying causes. The field has since shifted toward pre-registration, larger samples and multiverse analysis.",

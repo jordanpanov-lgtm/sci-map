@@ -2,7 +2,7 @@
   "_meta": {
     "total_entries": 836,
     "folio_count": 11,
-    "xlink_pairs": 0,
+    "xlink_pairs": 2,
     "keyword_terms": 676,
     "folios": [
       {
@@ -901,7 +901,20 @@
     "zoology-animal-behavior::ap5": "application · Migration & Cognition · GPS Tracking for Migratory Conservation (2006)",
     "zoology-animal-behavior::ap6": "application · Foraging & Ecology · Invasive Species Management Using Behavioural Ecology (1990)"
   },
-  "xlinks": {},
+  "xlinks": {
+    "general-cognitive-psych::me4": [
+      "neuroscience::me4"
+    ],
+    "neuroscience::me4": [
+      "general-cognitive-psych::me4"
+    ],
+    "general-cognitive-psych::db7": [
+      "neuroscience::db8"
+    ],
+    "neuroscience::db8": [
+      "general-cognitive-psych::db7"
+    ]
+  },
   "entry_keywords": {
     "general-cognitive-psych::th1": [
       "multi-store memory model",
