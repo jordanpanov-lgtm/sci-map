@@ -776,7 +776,8 @@ function openModal(entry, accent) {
   if (xls.length && GIDX) {
     const chips = xls.map(key => {
       const [folioId] = key.split('::');
-      const label = GIDX.index[key] || key;
+      const raw = GIDX.index[key] || key;
+      const label = raw.includes(' · ') ? raw.split(' · ').slice(2).join(' · ') : raw;
       const folioMeta = (GIDX._meta.folios || []).find(f => f.id === folioId);
       const folioTitle = folioMeta ? folioMeta.title : folioId.replace(/-/g,' ');
       return `<span class="ml-chip-x" data-xkey="${key}"><span class="ml-chip-x-folio">${folioTitle} ›</span>${label}</span>`;
