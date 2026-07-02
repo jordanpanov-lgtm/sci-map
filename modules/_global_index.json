@@ -2,8 +2,8 @@
   "_meta": {
     "total_entries": 836,
     "folio_count": 11,
-    "xlink_pairs": 16,
-    "keyword_terms": 3107,
+    "xlink_pairs": 17,
+    "keyword_terms": 3406,
     "folios": [
       {
         "id": "anatomy-histology",
@@ -995,6 +995,12 @@
     ],
     "physiology-organ-systems::me1": [
       "neuroscience::me7"
+    ],
+    "systems-and-complexity::st4": [
+      "zoology-animal-behavior::st6"
+    ],
+    "zoology-animal-behavior::st6": [
+      "systems-and-complexity::st4"
     ]
   },
   "entry_keywords": {
@@ -5715,6 +5721,462 @@
       "critical infrastructure system",
       "cascading failure protection",
       "systemic resilience design"
+    ],
+    "zoology-animal-behavior::th1": [
+      "natural selection adaptation",
+      "Darwinian fitness",
+      "heritable variation selection",
+      "adaptive evolution"
+    ],
+    "zoology-animal-behavior::th2": [
+      "inclusive fitness Hamilton",
+      "kin selection coefficient",
+      "altruism relatedness",
+      "Hamilton rule rb > c"
+    ],
+    "zoology-animal-behavior::th3": [
+      "evolutionarily stable strategy",
+      "ESS game theory",
+      "Nash equilibrium evolution",
+      "invasion resistant strategy"
+    ],
+    "zoology-animal-behavior::th4": [
+      "optimal foraging patch",
+      "marginal value foraging",
+      "energy intake maximisation",
+      "prey profitability model"
+    ],
+    "zoology-animal-behavior::th5": [
+      "intersexual intrasexual selection",
+      "mate choice preference",
+      "sexual ornament evolution",
+      "Darwin sexual selection"
+    ],
+    "zoology-animal-behavior::th6": [
+      "handicap honest signal",
+      "Zahavian handicap",
+      "costly ornament signal",
+      "quality indicator signal"
+    ],
+    "zoology-animal-behavior::th7": [
+      "parental investment Trivers",
+      "mating system investment",
+      "gamete anisogamy",
+      "reproductive investment"
+    ],
+    "zoology-animal-behavior::th8": [
+      "reciprocal altruism Trivers",
+      "future payoff cooperation",
+      "cheater detection reciprocal",
+      "delayed reciprocation"
+    ],
+    "zoology-animal-behavior::th9": [
+      "Tinbergen four questions",
+      "causation ontogeny phylogeny function",
+      "ultimate proximate cause",
+      "ethology framework"
+    ],
+    "zoology-animal-behavior::th10": [
+      "Red Queen coevolution",
+      "host parasite arms race",
+      "coevolutionary antagonism",
+      "parasite host resistance"
+    ],
+    "zoology-animal-behavior::th11": [
+      "life history trade-off",
+      "r K selection",
+      "pace-of-life syndrome",
+      "reproductive timing trade-off"
+    ],
+    "zoology-animal-behavior::st1": [
+      "imprinting critical period",
+      "Lorenz greylag imprint",
+      "filial imprinting geese",
+      "sensitive period bonding"
+    ],
+    "zoology-animal-behavior::st2": [
+      "waggle dance decoding",
+      "von Frisch bee dance",
+      "bee symbolic communication",
+      "dance direction distance"
+    ],
+    "zoology-animal-behavior::st3": [
+      "releaser stimulus stickleback",
+      "Tinbergen releaser",
+      "red belly aggression fish",
+      "sign stimulus innate"
+    ],
+    "zoology-animal-behavior::st4": [
+      "vervet predator alarm call",
+      "semantic alarm referential",
+      "snake eagle leopard call",
+      "monkey alarm signal"
+    ],
+    "zoology-animal-behavior::st5": [
+      "ground squirrel alarm kin",
+      "Sherman kin alarm call",
+      "kin nepotism warning",
+      "belding squirrel alarm"
+    ],
+    "zoology-animal-behavior::st6": [
+      "iterated prisoner dilemma",
+      "tit-for-tat cooperation",
+      "Axelrod Hamilton cooperation",
+      "evolution cooperation game"
+    ],
+    "zoology-animal-behavior::st7": [
+      "guppy colour predation",
+      "Endler sexual predation trade-off",
+      "sexual selection predation",
+      "guppy Poecilia selection"
+    ],
+    "zoology-animal-behavior::st8": [
+      "cuckoo host egg recognition",
+      "brood parasite arms race",
+      "Davies Brooke cuckoo",
+      "egg mimicry arms race"
+    ],
+    "zoology-animal-behavior::st9": [
+      "crow tool manufacture",
+      "New Caledonian crow tool",
+      "non-primate tool use",
+      "corvid tool innovation"
+    ],
+    "zoology-animal-behavior::st10": [
+      "star compass migration",
+      "Emlen indigo bunting",
+      "celestial compass bird",
+      "nocturnal star navigation"
+    ],
+    "zoology-animal-behavior::st11": [
+      "Darwin finch beak drought",
+      "Grant Galapagos selection",
+      "beak morphology selection",
+      "finch microevolution"
+    ],
+    "zoology-animal-behavior::st12": [
+      "Bateman mating variance",
+      "Drosophila male female variance",
+      "reproductive success variance",
+      "Bateman gradient"
+    ],
+    "zoology-animal-behavior::st13": [
+      "silver fox domestication",
+      "Belyayev tame fox",
+      "domestication tameness selection",
+      "domestication syndrome fox"
+    ],
+    "zoology-animal-behavior::ef1": [
+      "kin recognition phenotype",
+      "self-referent kin match",
+      "genetic relatedness recognition",
+      "nepotism kin"
+    ],
+    "zoology-animal-behavior::ef2": [
+      "anisogamy male female variance",
+      "gamete size investment",
+      "sperm egg anisogamy",
+      "Bateman reproductive skew"
+    ],
+    "zoology-animal-behavior::ef3": [
+      "patch depletion rule",
+      "marginal value patch",
+      "patch leaving threshold",
+      "Charnov MVT"
+    ],
+    "zoology-animal-behavior::ef4": [
+      "island species area",
+      "MacArthur Wilson area",
+      "area diversity curve",
+      "fragmentation species loss"
+    ],
+    "zoology-animal-behavior::ef5": [
+      "Müllerian co-mimicry",
+      "shared warning coloration",
+      "aposematic convergence",
+      "unprofitable prey mimicry"
+    ],
+    "zoology-animal-behavior::ef6": [
+      "Batesian palatable mimic",
+      "predator learned avoidance",
+      "mimicry deception palatable",
+      "palatable mimic model"
+    ],
+    "zoology-animal-behavior::ef7": [
+      "cuckoo mafia hypothesis",
+      "brood parasite retaliation",
+      "host rejection cost",
+      "cuckoo escalation"
+    ],
+    "zoology-animal-behavior::ef8": [
+      "Bruce effect pregnancy block",
+      "male odour abortion",
+      "olfactory pregnancy loss",
+      "pheromone pregnancy"
+    ],
+    "zoology-animal-behavior::ef9": [
+      "dear enemy territory",
+      "neighbour stranger effect",
+      "territory resident recognition",
+      "reduced aggression neighbour"
+    ],
+    "zoology-animal-behavior::co1": [
+      "fixed action pattern innate",
+      "modal action pattern",
+      "sign stimulus release",
+      "innate releasing mechanism"
+    ],
+    "zoology-animal-behavior::co2": [
+      "filial imprinting period",
+      "sensitive critical period",
+      "learning window imprint",
+      "Lorenz imprinting"
+    ],
+    "zoology-animal-behavior::co3": [
+      "eusociality altruism colony",
+      "worker sterility reproductive",
+      "eusocial insect colony",
+      "hymenoptera eusocial"
+    ],
+    "zoology-animal-behavior::co4": [
+      "honest signal cost",
+      "arbitrary conventional signal",
+      "Zahavi handicap signal",
+      "signal reliability"
+    ],
+    "zoology-animal-behavior::co5": [
+      "ecological niche Hutchinson",
+      "n-dimensional hypervolume",
+      "resource niche overlap",
+      "niche breadth specialisation"
+    ],
+    "zoology-animal-behavior::co6": [
+      "referential call signal",
+      "affective state signal",
+      "semantic animal call",
+      "symbolic referential"
+    ],
+    "zoology-animal-behavior::co7": [
+      "coefficient relatedness r",
+      "Hamilton r calculation",
+      "pedigree relatedness",
+      "gene sharing kin"
+    ],
+    "zoology-animal-behavior::co8": [
+      "animal personality syndrome",
+      "consistent individual behaviour",
+      "bold shy syndrome",
+      "behavioural syndrome"
+    ],
+    "zoology-animal-behavior::co9": [
+      "domestication syndrome trait",
+      "tameness juvenile retention",
+      "neoteny domestication",
+      "domestication correlated traits"
+    ],
+    "zoology-animal-behavior::me1": [
+      "ethogram behaviour catalogue",
+      "focal animal sampling",
+      "instantaneous scan sampling",
+      "behavioural coding"
+    ],
+    "zoology-animal-behavior::me2": [
+      "GPS animal tracking",
+      "satellite telemetry wildlife",
+      "radio collar tracking",
+      "animal movement path"
+    ],
+    "zoology-animal-behavior::me3": [
+      "playback experiment stimulus",
+      "recorded signal playback",
+      "territorial playback",
+      "call response experiment"
+    ],
+    "zoology-animal-behavior::me4": [
+      "mark recapture Lincoln Petersen",
+      "population size estimate",
+      "capture recapture method",
+      "wildlife census"
+    ],
+    "zoology-animal-behavior::me5": [
+      "phylogenetic comparative method",
+      "independent contrasts",
+      "ancestral state reconstruction",
+      "PGLS phylogeny"
+    ],
+    "zoology-animal-behavior::me6": [
+      "evolutionary game theory model",
+      "ESS stability analysis",
+      "payoff matrix fitness",
+      "hawk dove model"
+    ],
+    "zoology-animal-behavior::fg1": [
+      "imprinting ethology Lorenz",
+      "innate releasing mechanism",
+      "greylag goose study",
+      "Nobel Prize ethology"
+    ],
+    "zoology-animal-behavior::fg2": [
+      "Tinbergen ethology Nobel",
+      "sign stimulus stickleback",
+      "four questions framework",
+      "Oxford ethology"
+    ],
+    "zoology-animal-behavior::fg3": [
+      "bee dance Nobel von Frisch",
+      "chemical communication",
+      "honeybee language",
+      "Nobel Prize 1973"
+    ],
+    "zoology-animal-behavior::fg4": [
+      "sociobiology Wilson",
+      "The Insect Societies",
+      "gene-culture coevolution",
+      "On Human Nature Wilson"
+    ],
+    "zoology-animal-behavior::fg5": [
+      "inclusive fitness Hamilton",
+      "altruism genetic basis",
+      "kin selection theory",
+      "Hamilton rule"
+    ],
+    "zoology-animal-behavior::fg6": [
+      "reciprocal altruism Trivers",
+      "parental investment theory",
+      "parent offspring conflict",
+      "Trivers kin"
+    ],
+    "zoology-animal-behavior::fg7": [
+      "ESS Maynard Smith",
+      "evolutionary game theory",
+      "hawk-dove game",
+      "Evolution and Theory of Games"
+    ],
+    "zoology-animal-behavior::fg8": [
+      "Goodall chimpanzee tool",
+      "Gombe chimpanzee",
+      "primate social learning",
+      "chimp culture observation"
+    ],
+    "zoology-animal-behavior::fg9": [
+      "selfish gene Dawkins",
+      "gene-centred evolution",
+      "meme concept Dawkins",
+      "extended phenotype"
+    ],
+    "zoology-animal-behavior::fg10": [
+      "Ernst Mayr speciation",
+      "biological species concept",
+      "allopatric speciation",
+      "geographic speciation"
+    ],
+    "zoology-animal-behavior::fg11": [
+      "cognitive ethology Griffin",
+      "animal mind consciousness",
+      "bird navigation cognition",
+      "ethology cognition"
+    ],
+    "zoology-animal-behavior::fg12": [
+      "primate empathy de Waal",
+      "chimpanzee reconciliation",
+      "primate morality",
+      "Frans de Waal"
+    ],
+    "zoology-animal-behavior::fg13": [
+      "domestication experiment Belyayev",
+      "silver fox tameness",
+      "domestication genetics",
+      "Trut fox tame"
+    ],
+    "zoology-animal-behavior::db1": [
+      "group selection controversy",
+      "multilevel selection debate",
+      "Wynne-Edwards group",
+      "kin vs group selection"
+    ],
+    "zoology-animal-behavior::db2": [
+      "sociobiology human nature",
+      "Wilson E.O. controversy",
+      "genetic determinism debate",
+      "evolutionary psychology"
+    ],
+    "zoology-animal-behavior::db3": [
+      "gene organism group selection",
+      "replicator vehicle debate",
+      "Dawkins gene unit",
+      "unit of selection"
+    ],
+    "zoology-animal-behavior::db4": [
+      "animal consciousness sentience",
+      "Griffin cognitive ethology",
+      "non-human mind",
+      "sentience criteria animal"
+    ],
+    "zoology-animal-behavior::db5": [
+      "Bateman's principle critique",
+      "female mate competition",
+      "sex difference mating variance",
+      "Bateman replication"
+    ],
+    "zoology-animal-behavior::db6": [
+      "honest vs conventional signal",
+      "signal equilibrium",
+      "cheap talk model",
+      "signal reliability debate"
+    ],
+    "zoology-animal-behavior::db7": [
+      "nativism blank slate instinct",
+      "instinct learning divide",
+      "nature nurture behaviour",
+      "ethology behaviourism"
+    ],
+    "zoology-animal-behavior::db8": [
+      "non-human animal culture",
+      "social transmission tradition",
+      "culture criteria animal",
+      "chimpanzee cultural"
+    ],
+    "zoology-animal-behavior::db9": [
+      "sexual conflict coevolution",
+      "chase-away selection",
+      "sexually antagonistic coevolution",
+      "male female conflict"
+    ],
+    "zoology-animal-behavior::ap1": [
+      "conservation genetics population",
+      "captive breeding genetics",
+      "minimum viable population",
+      "genetic diversity conservation"
+    ],
+    "zoology-animal-behavior::ap2": [
+      "biocontrol predator prey",
+      "natural enemy pest",
+      "parasitoid biological control",
+      "integrated pest management"
+    ],
+    "zoology-animal-behavior::ap3": [
+      "pollinator decline honeybee",
+      "managed bee colony",
+      "habitat pollinator",
+      "native bee conservation"
+    ],
+    "zoology-animal-behavior::ap4": [
+      "therapy animal interaction",
+      "AAI wellbeing",
+      "animal-assisted therapy",
+      "human animal bond therapy"
+    ],
+    "zoology-animal-behavior::ap5": [
+      "GPS migration conservation",
+      "satellite track migration route",
+      "migratory route protection",
+      "tracking flyway"
+    ],
+    "zoology-animal-behavior::ap6": [
+      "invasive species behaviour",
+      "competitor suppression invasive",
+      "behavioural control invasive",
+      "enemy release hypothesis"
     ]
   },
   "keyword_index": {
@@ -14464,10 +14926,12 @@
       "systems-and-complexity::st3"
     ],
     "iterated prisoner dilemma": [
-      "systems-and-complexity::st4"
+      "systems-and-complexity::st4",
+      "zoology-animal-behavior::st6"
     ],
     "tit-for-tat cooperation": [
-      "systems-and-complexity::st4"
+      "systems-and-complexity::st4",
+      "zoology-animal-behavior::st6"
     ],
     "Axelrod cooperation tournament": [
       "systems-and-complexity::st4"
@@ -15129,6 +15593,906 @@
     ],
     "systemic resilience design": [
       "systems-and-complexity::ap6"
+    ],
+    "natural selection adaptation": [
+      "zoology-animal-behavior::th1"
+    ],
+    "Darwinian fitness": [
+      "zoology-animal-behavior::th1"
+    ],
+    "heritable variation selection": [
+      "zoology-animal-behavior::th1"
+    ],
+    "adaptive evolution": [
+      "zoology-animal-behavior::th1"
+    ],
+    "inclusive fitness Hamilton": [
+      "zoology-animal-behavior::th2",
+      "zoology-animal-behavior::fg5"
+    ],
+    "kin selection coefficient": [
+      "zoology-animal-behavior::th2"
+    ],
+    "altruism relatedness": [
+      "zoology-animal-behavior::th2"
+    ],
+    "Hamilton rule rb > c": [
+      "zoology-animal-behavior::th2"
+    ],
+    "evolutionarily stable strategy": [
+      "zoology-animal-behavior::th3"
+    ],
+    "ESS game theory": [
+      "zoology-animal-behavior::th3"
+    ],
+    "Nash equilibrium evolution": [
+      "zoology-animal-behavior::th3"
+    ],
+    "invasion resistant strategy": [
+      "zoology-animal-behavior::th3"
+    ],
+    "optimal foraging patch": [
+      "zoology-animal-behavior::th4"
+    ],
+    "marginal value foraging": [
+      "zoology-animal-behavior::th4"
+    ],
+    "energy intake maximisation": [
+      "zoology-animal-behavior::th4"
+    ],
+    "prey profitability model": [
+      "zoology-animal-behavior::th4"
+    ],
+    "intersexual intrasexual selection": [
+      "zoology-animal-behavior::th5"
+    ],
+    "mate choice preference": [
+      "zoology-animal-behavior::th5"
+    ],
+    "sexual ornament evolution": [
+      "zoology-animal-behavior::th5"
+    ],
+    "Darwin sexual selection": [
+      "zoology-animal-behavior::th5"
+    ],
+    "handicap honest signal": [
+      "zoology-animal-behavior::th6"
+    ],
+    "Zahavian handicap": [
+      "zoology-animal-behavior::th6"
+    ],
+    "costly ornament signal": [
+      "zoology-animal-behavior::th6"
+    ],
+    "quality indicator signal": [
+      "zoology-animal-behavior::th6"
+    ],
+    "parental investment Trivers": [
+      "zoology-animal-behavior::th7"
+    ],
+    "mating system investment": [
+      "zoology-animal-behavior::th7"
+    ],
+    "gamete anisogamy": [
+      "zoology-animal-behavior::th7"
+    ],
+    "reproductive investment": [
+      "zoology-animal-behavior::th7"
+    ],
+    "reciprocal altruism Trivers": [
+      "zoology-animal-behavior::th8",
+      "zoology-animal-behavior::fg6"
+    ],
+    "future payoff cooperation": [
+      "zoology-animal-behavior::th8"
+    ],
+    "cheater detection reciprocal": [
+      "zoology-animal-behavior::th8"
+    ],
+    "delayed reciprocation": [
+      "zoology-animal-behavior::th8"
+    ],
+    "Tinbergen four questions": [
+      "zoology-animal-behavior::th9"
+    ],
+    "causation ontogeny phylogeny function": [
+      "zoology-animal-behavior::th9"
+    ],
+    "ultimate proximate cause": [
+      "zoology-animal-behavior::th9"
+    ],
+    "ethology framework": [
+      "zoology-animal-behavior::th9"
+    ],
+    "Red Queen coevolution": [
+      "zoology-animal-behavior::th10"
+    ],
+    "host parasite arms race": [
+      "zoology-animal-behavior::th10"
+    ],
+    "coevolutionary antagonism": [
+      "zoology-animal-behavior::th10"
+    ],
+    "parasite host resistance": [
+      "zoology-animal-behavior::th10"
+    ],
+    "life history trade-off": [
+      "zoology-animal-behavior::th11"
+    ],
+    "r K selection": [
+      "zoology-animal-behavior::th11"
+    ],
+    "pace-of-life syndrome": [
+      "zoology-animal-behavior::th11"
+    ],
+    "reproductive timing trade-off": [
+      "zoology-animal-behavior::th11"
+    ],
+    "imprinting critical period": [
+      "zoology-animal-behavior::st1"
+    ],
+    "Lorenz greylag imprint": [
+      "zoology-animal-behavior::st1"
+    ],
+    "filial imprinting geese": [
+      "zoology-animal-behavior::st1"
+    ],
+    "sensitive period bonding": [
+      "zoology-animal-behavior::st1"
+    ],
+    "waggle dance decoding": [
+      "zoology-animal-behavior::st2"
+    ],
+    "von Frisch bee dance": [
+      "zoology-animal-behavior::st2"
+    ],
+    "bee symbolic communication": [
+      "zoology-animal-behavior::st2"
+    ],
+    "dance direction distance": [
+      "zoology-animal-behavior::st2"
+    ],
+    "releaser stimulus stickleback": [
+      "zoology-animal-behavior::st3"
+    ],
+    "Tinbergen releaser": [
+      "zoology-animal-behavior::st3"
+    ],
+    "red belly aggression fish": [
+      "zoology-animal-behavior::st3"
+    ],
+    "sign stimulus innate": [
+      "zoology-animal-behavior::st3"
+    ],
+    "vervet predator alarm call": [
+      "zoology-animal-behavior::st4"
+    ],
+    "semantic alarm referential": [
+      "zoology-animal-behavior::st4"
+    ],
+    "snake eagle leopard call": [
+      "zoology-animal-behavior::st4"
+    ],
+    "monkey alarm signal": [
+      "zoology-animal-behavior::st4"
+    ],
+    "ground squirrel alarm kin": [
+      "zoology-animal-behavior::st5"
+    ],
+    "Sherman kin alarm call": [
+      "zoology-animal-behavior::st5"
+    ],
+    "kin nepotism warning": [
+      "zoology-animal-behavior::st5"
+    ],
+    "belding squirrel alarm": [
+      "zoology-animal-behavior::st5"
+    ],
+    "Axelrod Hamilton cooperation": [
+      "zoology-animal-behavior::st6"
+    ],
+    "evolution cooperation game": [
+      "zoology-animal-behavior::st6"
+    ],
+    "guppy colour predation": [
+      "zoology-animal-behavior::st7"
+    ],
+    "Endler sexual predation trade-off": [
+      "zoology-animal-behavior::st7"
+    ],
+    "sexual selection predation": [
+      "zoology-animal-behavior::st7"
+    ],
+    "guppy Poecilia selection": [
+      "zoology-animal-behavior::st7"
+    ],
+    "cuckoo host egg recognition": [
+      "zoology-animal-behavior::st8"
+    ],
+    "brood parasite arms race": [
+      "zoology-animal-behavior::st8"
+    ],
+    "Davies Brooke cuckoo": [
+      "zoology-animal-behavior::st8"
+    ],
+    "egg mimicry arms race": [
+      "zoology-animal-behavior::st8"
+    ],
+    "crow tool manufacture": [
+      "zoology-animal-behavior::st9"
+    ],
+    "New Caledonian crow tool": [
+      "zoology-animal-behavior::st9"
+    ],
+    "non-primate tool use": [
+      "zoology-animal-behavior::st9"
+    ],
+    "corvid tool innovation": [
+      "zoology-animal-behavior::st9"
+    ],
+    "star compass migration": [
+      "zoology-animal-behavior::st10"
+    ],
+    "Emlen indigo bunting": [
+      "zoology-animal-behavior::st10"
+    ],
+    "celestial compass bird": [
+      "zoology-animal-behavior::st10"
+    ],
+    "nocturnal star navigation": [
+      "zoology-animal-behavior::st10"
+    ],
+    "Darwin finch beak drought": [
+      "zoology-animal-behavior::st11"
+    ],
+    "Grant Galapagos selection": [
+      "zoology-animal-behavior::st11"
+    ],
+    "beak morphology selection": [
+      "zoology-animal-behavior::st11"
+    ],
+    "finch microevolution": [
+      "zoology-animal-behavior::st11"
+    ],
+    "Bateman mating variance": [
+      "zoology-animal-behavior::st12"
+    ],
+    "Drosophila male female variance": [
+      "zoology-animal-behavior::st12"
+    ],
+    "reproductive success variance": [
+      "zoology-animal-behavior::st12"
+    ],
+    "Bateman gradient": [
+      "zoology-animal-behavior::st12"
+    ],
+    "silver fox domestication": [
+      "zoology-animal-behavior::st13"
+    ],
+    "Belyayev tame fox": [
+      "zoology-animal-behavior::st13"
+    ],
+    "domestication tameness selection": [
+      "zoology-animal-behavior::st13"
+    ],
+    "domestication syndrome fox": [
+      "zoology-animal-behavior::st13"
+    ],
+    "kin recognition phenotype": [
+      "zoology-animal-behavior::ef1"
+    ],
+    "self-referent kin match": [
+      "zoology-animal-behavior::ef1"
+    ],
+    "genetic relatedness recognition": [
+      "zoology-animal-behavior::ef1"
+    ],
+    "nepotism kin": [
+      "zoology-animal-behavior::ef1"
+    ],
+    "anisogamy male female variance": [
+      "zoology-animal-behavior::ef2"
+    ],
+    "gamete size investment": [
+      "zoology-animal-behavior::ef2"
+    ],
+    "sperm egg anisogamy": [
+      "zoology-animal-behavior::ef2"
+    ],
+    "Bateman reproductive skew": [
+      "zoology-animal-behavior::ef2"
+    ],
+    "patch depletion rule": [
+      "zoology-animal-behavior::ef3"
+    ],
+    "marginal value patch": [
+      "zoology-animal-behavior::ef3"
+    ],
+    "patch leaving threshold": [
+      "zoology-animal-behavior::ef3"
+    ],
+    "Charnov MVT": [
+      "zoology-animal-behavior::ef3"
+    ],
+    "island species area": [
+      "zoology-animal-behavior::ef4"
+    ],
+    "MacArthur Wilson area": [
+      "zoology-animal-behavior::ef4"
+    ],
+    "area diversity curve": [
+      "zoology-animal-behavior::ef4"
+    ],
+    "fragmentation species loss": [
+      "zoology-animal-behavior::ef4"
+    ],
+    "Müllerian co-mimicry": [
+      "zoology-animal-behavior::ef5"
+    ],
+    "shared warning coloration": [
+      "zoology-animal-behavior::ef5"
+    ],
+    "aposematic convergence": [
+      "zoology-animal-behavior::ef5"
+    ],
+    "unprofitable prey mimicry": [
+      "zoology-animal-behavior::ef5"
+    ],
+    "Batesian palatable mimic": [
+      "zoology-animal-behavior::ef6"
+    ],
+    "predator learned avoidance": [
+      "zoology-animal-behavior::ef6"
+    ],
+    "mimicry deception palatable": [
+      "zoology-animal-behavior::ef6"
+    ],
+    "palatable mimic model": [
+      "zoology-animal-behavior::ef6"
+    ],
+    "cuckoo mafia hypothesis": [
+      "zoology-animal-behavior::ef7"
+    ],
+    "brood parasite retaliation": [
+      "zoology-animal-behavior::ef7"
+    ],
+    "host rejection cost": [
+      "zoology-animal-behavior::ef7"
+    ],
+    "cuckoo escalation": [
+      "zoology-animal-behavior::ef7"
+    ],
+    "Bruce effect pregnancy block": [
+      "zoology-animal-behavior::ef8"
+    ],
+    "male odour abortion": [
+      "zoology-animal-behavior::ef8"
+    ],
+    "olfactory pregnancy loss": [
+      "zoology-animal-behavior::ef8"
+    ],
+    "pheromone pregnancy": [
+      "zoology-animal-behavior::ef8"
+    ],
+    "dear enemy territory": [
+      "zoology-animal-behavior::ef9"
+    ],
+    "neighbour stranger effect": [
+      "zoology-animal-behavior::ef9"
+    ],
+    "territory resident recognition": [
+      "zoology-animal-behavior::ef9"
+    ],
+    "reduced aggression neighbour": [
+      "zoology-animal-behavior::ef9"
+    ],
+    "fixed action pattern innate": [
+      "zoology-animal-behavior::co1"
+    ],
+    "modal action pattern": [
+      "zoology-animal-behavior::co1"
+    ],
+    "sign stimulus release": [
+      "zoology-animal-behavior::co1"
+    ],
+    "innate releasing mechanism": [
+      "zoology-animal-behavior::co1",
+      "zoology-animal-behavior::fg1"
+    ],
+    "filial imprinting period": [
+      "zoology-animal-behavior::co2"
+    ],
+    "sensitive critical period": [
+      "zoology-animal-behavior::co2"
+    ],
+    "learning window imprint": [
+      "zoology-animal-behavior::co2"
+    ],
+    "Lorenz imprinting": [
+      "zoology-animal-behavior::co2"
+    ],
+    "eusociality altruism colony": [
+      "zoology-animal-behavior::co3"
+    ],
+    "worker sterility reproductive": [
+      "zoology-animal-behavior::co3"
+    ],
+    "eusocial insect colony": [
+      "zoology-animal-behavior::co3"
+    ],
+    "hymenoptera eusocial": [
+      "zoology-animal-behavior::co3"
+    ],
+    "honest signal cost": [
+      "zoology-animal-behavior::co4"
+    ],
+    "arbitrary conventional signal": [
+      "zoology-animal-behavior::co4"
+    ],
+    "Zahavi handicap signal": [
+      "zoology-animal-behavior::co4"
+    ],
+    "signal reliability": [
+      "zoology-animal-behavior::co4"
+    ],
+    "ecological niche Hutchinson": [
+      "zoology-animal-behavior::co5"
+    ],
+    "n-dimensional hypervolume": [
+      "zoology-animal-behavior::co5"
+    ],
+    "resource niche overlap": [
+      "zoology-animal-behavior::co5"
+    ],
+    "niche breadth specialisation": [
+      "zoology-animal-behavior::co5"
+    ],
+    "referential call signal": [
+      "zoology-animal-behavior::co6"
+    ],
+    "affective state signal": [
+      "zoology-animal-behavior::co6"
+    ],
+    "semantic animal call": [
+      "zoology-animal-behavior::co6"
+    ],
+    "symbolic referential": [
+      "zoology-animal-behavior::co6"
+    ],
+    "coefficient relatedness r": [
+      "zoology-animal-behavior::co7"
+    ],
+    "Hamilton r calculation": [
+      "zoology-animal-behavior::co7"
+    ],
+    "pedigree relatedness": [
+      "zoology-animal-behavior::co7"
+    ],
+    "gene sharing kin": [
+      "zoology-animal-behavior::co7"
+    ],
+    "animal personality syndrome": [
+      "zoology-animal-behavior::co8"
+    ],
+    "consistent individual behaviour": [
+      "zoology-animal-behavior::co8"
+    ],
+    "bold shy syndrome": [
+      "zoology-animal-behavior::co8"
+    ],
+    "behavioural syndrome": [
+      "zoology-animal-behavior::co8"
+    ],
+    "domestication syndrome trait": [
+      "zoology-animal-behavior::co9"
+    ],
+    "tameness juvenile retention": [
+      "zoology-animal-behavior::co9"
+    ],
+    "neoteny domestication": [
+      "zoology-animal-behavior::co9"
+    ],
+    "domestication correlated traits": [
+      "zoology-animal-behavior::co9"
+    ],
+    "ethogram behaviour catalogue": [
+      "zoology-animal-behavior::me1"
+    ],
+    "focal animal sampling": [
+      "zoology-animal-behavior::me1"
+    ],
+    "instantaneous scan sampling": [
+      "zoology-animal-behavior::me1"
+    ],
+    "behavioural coding": [
+      "zoology-animal-behavior::me1"
+    ],
+    "GPS animal tracking": [
+      "zoology-animal-behavior::me2"
+    ],
+    "satellite telemetry wildlife": [
+      "zoology-animal-behavior::me2"
+    ],
+    "radio collar tracking": [
+      "zoology-animal-behavior::me2"
+    ],
+    "animal movement path": [
+      "zoology-animal-behavior::me2"
+    ],
+    "playback experiment stimulus": [
+      "zoology-animal-behavior::me3"
+    ],
+    "recorded signal playback": [
+      "zoology-animal-behavior::me3"
+    ],
+    "territorial playback": [
+      "zoology-animal-behavior::me3"
+    ],
+    "call response experiment": [
+      "zoology-animal-behavior::me3"
+    ],
+    "mark recapture Lincoln Petersen": [
+      "zoology-animal-behavior::me4"
+    ],
+    "population size estimate": [
+      "zoology-animal-behavior::me4"
+    ],
+    "capture recapture method": [
+      "zoology-animal-behavior::me4"
+    ],
+    "wildlife census": [
+      "zoology-animal-behavior::me4"
+    ],
+    "phylogenetic comparative method": [
+      "zoology-animal-behavior::me5"
+    ],
+    "independent contrasts": [
+      "zoology-animal-behavior::me5"
+    ],
+    "ancestral state reconstruction": [
+      "zoology-animal-behavior::me5"
+    ],
+    "PGLS phylogeny": [
+      "zoology-animal-behavior::me5"
+    ],
+    "evolutionary game theory model": [
+      "zoology-animal-behavior::me6"
+    ],
+    "ESS stability analysis": [
+      "zoology-animal-behavior::me6"
+    ],
+    "payoff matrix fitness": [
+      "zoology-animal-behavior::me6"
+    ],
+    "hawk dove model": [
+      "zoology-animal-behavior::me6"
+    ],
+    "imprinting ethology Lorenz": [
+      "zoology-animal-behavior::fg1"
+    ],
+    "greylag goose study": [
+      "zoology-animal-behavior::fg1"
+    ],
+    "Nobel Prize ethology": [
+      "zoology-animal-behavior::fg1"
+    ],
+    "Tinbergen ethology Nobel": [
+      "zoology-animal-behavior::fg2"
+    ],
+    "sign stimulus stickleback": [
+      "zoology-animal-behavior::fg2"
+    ],
+    "four questions framework": [
+      "zoology-animal-behavior::fg2"
+    ],
+    "Oxford ethology": [
+      "zoology-animal-behavior::fg2"
+    ],
+    "bee dance Nobel von Frisch": [
+      "zoology-animal-behavior::fg3"
+    ],
+    "chemical communication": [
+      "zoology-animal-behavior::fg3"
+    ],
+    "honeybee language": [
+      "zoology-animal-behavior::fg3"
+    ],
+    "Nobel Prize 1973": [
+      "zoology-animal-behavior::fg3"
+    ],
+    "sociobiology Wilson": [
+      "zoology-animal-behavior::fg4"
+    ],
+    "The Insect Societies": [
+      "zoology-animal-behavior::fg4"
+    ],
+    "gene-culture coevolution": [
+      "zoology-animal-behavior::fg4"
+    ],
+    "On Human Nature Wilson": [
+      "zoology-animal-behavior::fg4"
+    ],
+    "altruism genetic basis": [
+      "zoology-animal-behavior::fg5"
+    ],
+    "kin selection theory": [
+      "zoology-animal-behavior::fg5"
+    ],
+    "Hamilton rule": [
+      "zoology-animal-behavior::fg5"
+    ],
+    "parental investment theory": [
+      "zoology-animal-behavior::fg6"
+    ],
+    "parent offspring conflict": [
+      "zoology-animal-behavior::fg6"
+    ],
+    "Trivers kin": [
+      "zoology-animal-behavior::fg6"
+    ],
+    "ESS Maynard Smith": [
+      "zoology-animal-behavior::fg7"
+    ],
+    "evolutionary game theory": [
+      "zoology-animal-behavior::fg7"
+    ],
+    "hawk-dove game": [
+      "zoology-animal-behavior::fg7"
+    ],
+    "Evolution and Theory of Games": [
+      "zoology-animal-behavior::fg7"
+    ],
+    "Goodall chimpanzee tool": [
+      "zoology-animal-behavior::fg8"
+    ],
+    "Gombe chimpanzee": [
+      "zoology-animal-behavior::fg8"
+    ],
+    "primate social learning": [
+      "zoology-animal-behavior::fg8"
+    ],
+    "chimp culture observation": [
+      "zoology-animal-behavior::fg8"
+    ],
+    "selfish gene Dawkins": [
+      "zoology-animal-behavior::fg9"
+    ],
+    "gene-centred evolution": [
+      "zoology-animal-behavior::fg9"
+    ],
+    "meme concept Dawkins": [
+      "zoology-animal-behavior::fg9"
+    ],
+    "extended phenotype": [
+      "zoology-animal-behavior::fg9"
+    ],
+    "Ernst Mayr speciation": [
+      "zoology-animal-behavior::fg10"
+    ],
+    "biological species concept": [
+      "zoology-animal-behavior::fg10"
+    ],
+    "allopatric speciation": [
+      "zoology-animal-behavior::fg10"
+    ],
+    "geographic speciation": [
+      "zoology-animal-behavior::fg10"
+    ],
+    "cognitive ethology Griffin": [
+      "zoology-animal-behavior::fg11"
+    ],
+    "animal mind consciousness": [
+      "zoology-animal-behavior::fg11"
+    ],
+    "bird navigation cognition": [
+      "zoology-animal-behavior::fg11"
+    ],
+    "ethology cognition": [
+      "zoology-animal-behavior::fg11"
+    ],
+    "primate empathy de Waal": [
+      "zoology-animal-behavior::fg12"
+    ],
+    "chimpanzee reconciliation": [
+      "zoology-animal-behavior::fg12"
+    ],
+    "primate morality": [
+      "zoology-animal-behavior::fg12"
+    ],
+    "Frans de Waal": [
+      "zoology-animal-behavior::fg12"
+    ],
+    "domestication experiment Belyayev": [
+      "zoology-animal-behavior::fg13"
+    ],
+    "silver fox tameness": [
+      "zoology-animal-behavior::fg13"
+    ],
+    "domestication genetics": [
+      "zoology-animal-behavior::fg13"
+    ],
+    "Trut fox tame": [
+      "zoology-animal-behavior::fg13"
+    ],
+    "group selection controversy": [
+      "zoology-animal-behavior::db1"
+    ],
+    "multilevel selection debate": [
+      "zoology-animal-behavior::db1"
+    ],
+    "Wynne-Edwards group": [
+      "zoology-animal-behavior::db1"
+    ],
+    "kin vs group selection": [
+      "zoology-animal-behavior::db1"
+    ],
+    "sociobiology human nature": [
+      "zoology-animal-behavior::db2"
+    ],
+    "Wilson E.O. controversy": [
+      "zoology-animal-behavior::db2"
+    ],
+    "genetic determinism debate": [
+      "zoology-animal-behavior::db2"
+    ],
+    "evolutionary psychology": [
+      "zoology-animal-behavior::db2"
+    ],
+    "gene organism group selection": [
+      "zoology-animal-behavior::db3"
+    ],
+    "replicator vehicle debate": [
+      "zoology-animal-behavior::db3"
+    ],
+    "Dawkins gene unit": [
+      "zoology-animal-behavior::db3"
+    ],
+    "unit of selection": [
+      "zoology-animal-behavior::db3"
+    ],
+    "animal consciousness sentience": [
+      "zoology-animal-behavior::db4"
+    ],
+    "Griffin cognitive ethology": [
+      "zoology-animal-behavior::db4"
+    ],
+    "non-human mind": [
+      "zoology-animal-behavior::db4"
+    ],
+    "sentience criteria animal": [
+      "zoology-animal-behavior::db4"
+    ],
+    "Bateman's principle critique": [
+      "zoology-animal-behavior::db5"
+    ],
+    "female mate competition": [
+      "zoology-animal-behavior::db5"
+    ],
+    "sex difference mating variance": [
+      "zoology-animal-behavior::db5"
+    ],
+    "Bateman replication": [
+      "zoology-animal-behavior::db5"
+    ],
+    "honest vs conventional signal": [
+      "zoology-animal-behavior::db6"
+    ],
+    "signal equilibrium": [
+      "zoology-animal-behavior::db6"
+    ],
+    "cheap talk model": [
+      "zoology-animal-behavior::db6"
+    ],
+    "signal reliability debate": [
+      "zoology-animal-behavior::db6"
+    ],
+    "nativism blank slate instinct": [
+      "zoology-animal-behavior::db7"
+    ],
+    "instinct learning divide": [
+      "zoology-animal-behavior::db7"
+    ],
+    "nature nurture behaviour": [
+      "zoology-animal-behavior::db7"
+    ],
+    "ethology behaviourism": [
+      "zoology-animal-behavior::db7"
+    ],
+    "non-human animal culture": [
+      "zoology-animal-behavior::db8"
+    ],
+    "social transmission tradition": [
+      "zoology-animal-behavior::db8"
+    ],
+    "culture criteria animal": [
+      "zoology-animal-behavior::db8"
+    ],
+    "chimpanzee cultural": [
+      "zoology-animal-behavior::db8"
+    ],
+    "sexual conflict coevolution": [
+      "zoology-animal-behavior::db9"
+    ],
+    "chase-away selection": [
+      "zoology-animal-behavior::db9"
+    ],
+    "sexually antagonistic coevolution": [
+      "zoology-animal-behavior::db9"
+    ],
+    "male female conflict": [
+      "zoology-animal-behavior::db9"
+    ],
+    "conservation genetics population": [
+      "zoology-animal-behavior::ap1"
+    ],
+    "captive breeding genetics": [
+      "zoology-animal-behavior::ap1"
+    ],
+    "minimum viable population": [
+      "zoology-animal-behavior::ap1"
+    ],
+    "genetic diversity conservation": [
+      "zoology-animal-behavior::ap1"
+    ],
+    "biocontrol predator prey": [
+      "zoology-animal-behavior::ap2"
+    ],
+    "natural enemy pest": [
+      "zoology-animal-behavior::ap2"
+    ],
+    "parasitoid biological control": [
+      "zoology-animal-behavior::ap2"
+    ],
+    "integrated pest management": [
+      "zoology-animal-behavior::ap2"
+    ],
+    "pollinator decline honeybee": [
+      "zoology-animal-behavior::ap3"
+    ],
+    "managed bee colony": [
+      "zoology-animal-behavior::ap3"
+    ],
+    "habitat pollinator": [
+      "zoology-animal-behavior::ap3"
+    ],
+    "native bee conservation": [
+      "zoology-animal-behavior::ap3"
+    ],
+    "therapy animal interaction": [
+      "zoology-animal-behavior::ap4"
+    ],
+    "AAI wellbeing": [
+      "zoology-animal-behavior::ap4"
+    ],
+    "animal-assisted therapy": [
+      "zoology-animal-behavior::ap4"
+    ],
+    "human animal bond therapy": [
+      "zoology-animal-behavior::ap4"
+    ],
+    "GPS migration conservation": [
+      "zoology-animal-behavior::ap5"
+    ],
+    "satellite track migration route": [
+      "zoology-animal-behavior::ap5"
+    ],
+    "migratory route protection": [
+      "zoology-animal-behavior::ap5"
+    ],
+    "tracking flyway": [
+      "zoology-animal-behavior::ap5"
+    ],
+    "invasive species behaviour": [
+      "zoology-animal-behavior::ap6"
+    ],
+    "competitor suppression invasive": [
+      "zoology-animal-behavior::ap6"
+    ],
+    "behavioural control invasive": [
+      "zoology-animal-behavior::ap6"
+    ],
+    "enemy release hypothesis": [
+      "zoology-animal-behavior::ap6"
     ]
   }
 }
