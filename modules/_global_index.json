@@ -2,8 +2,8 @@
   "_meta": {
     "total_entries": 836,
     "folio_count": 11,
-    "xlink_pairs": 11,
-    "keyword_terms": 2262,
+    "xlink_pairs": 13,
+    "keyword_terms": 2570,
     "folios": [
       {
         "id": "anatomy-histology",
@@ -908,6 +908,12 @@
     "physiology-organ-systems::st3": [
       "anatomy-histology::st2"
     ],
+    "anatomy-histology::me5": [
+      "quantum-nuclear-relativity::ap2"
+    ],
+    "quantum-nuclear-relativity::ap2": [
+      "anatomy-histology::me5"
+    ],
     "anatomy-histology::fg2": [
       "physiology-organ-systems::fg1"
     ],
@@ -919,6 +925,12 @@
     ],
     "general-cognitive-psych::th13": [
       "computer-science::th8"
+    ],
+    "computer-science::ap1": [
+      "quantum-nuclear-relativity::ap6"
+    ],
+    "quantum-nuclear-relativity::ap6": [
+      "computer-science::ap1"
     ],
     "general-cognitive-psych::me4": [
       "neuroscience::me4"
@@ -4403,6 +4415,468 @@
       "gastric acid suppression",
       "peptic ulcer treatment",
       "omeprazole"
+    ],
+    "quantum-nuclear-relativity::th1": [
+      "time dilation length contraction",
+      "Lorentz transformation",
+      "light speed invariant",
+      "relative simultaneity"
+    ],
+    "quantum-nuclear-relativity::th2": [
+      "spacetime curvature gravity",
+      "Einstein field equation",
+      "equivalence principle",
+      "curved spacetime geodesic"
+    ],
+    "quantum-nuclear-relativity::th3": [
+      "non-commuting observable matrix",
+      "matrix quantisation",
+      "Born Heisenberg Jordan",
+      "observable operator algebra"
+    ],
+    "quantum-nuclear-relativity::th4": [
+      "Schrödinger wave equation",
+      "wavefunction time evolution",
+      "Hamiltonian wavefunction",
+      "matter wave differential"
+    ],
+    "quantum-nuclear-relativity::th5": [
+      "wavefunction collapse measurement",
+      "Born probability rule",
+      "complementarity Bohr",
+      "measurement observer role"
+    ],
+    "quantum-nuclear-relativity::th6": [
+      "photon electron interaction QED",
+      "renormalisation QED",
+      "Feynman path integral QED",
+      "electromagnetic quantum field"
+    ],
+    "quantum-nuclear-relativity::th7": [
+      "magic number nucleus",
+      "nuclear shell structure",
+      "spin-orbit nuclear coupling",
+      "Mayer Jensen shell"
+    ],
+    "quantum-nuclear-relativity::th8": [
+      "electroweak unification",
+      "quark lepton generation",
+      "gauge boson SU2 U1",
+      "fermion boson standard"
+    ],
+    "quantum-nuclear-relativity::th9": [
+      "cosmic expansion Hubble",
+      "Big Bang nucleosynthesis",
+      "Friedmann equation",
+      "primordial plasma universe"
+    ],
+    "quantum-nuclear-relativity::th10": [
+      "quark confinement gluon",
+      "asymptotic freedom QCD",
+      "colour charge strong force",
+      "QCD SU3 lattice"
+    ],
+    "quantum-nuclear-relativity::th11": [
+      "exponential early universe inflation",
+      "inflaton scalar field",
+      "flatness horizon inflation",
+      "inflationary cosmology"
+    ],
+    "quantum-nuclear-relativity::st1": [
+      "aether null result",
+      "Michelson Morley interferometer",
+      "light speed constant experiment",
+      "aether detection failure"
+    ],
+    "quantum-nuclear-relativity::st2": [
+      "blackbody radiation law",
+      "ultraviolet catastrophe",
+      "Planck energy quantum",
+      "quantum hypothesis 1900"
+    ],
+    "quantum-nuclear-relativity::st3": [
+      "photon electron emission",
+      "photoelectric work function",
+      "Einstein photoelectric Nobel",
+      "light quantum packet"
+    ],
+    "quantum-nuclear-relativity::st4": [
+      "gold foil alpha scatter",
+      "nuclear atom Rutherford",
+      "Geiger Marsden scatter",
+      "nuclear charge discovery"
+    ],
+    "quantum-nuclear-relativity::st5": [
+      "quantised orbit hydrogen",
+      "Bohr hydrogen spectrum",
+      "Rydberg spectral line",
+      "Bohr angular momentum"
+    ],
+    "quantum-nuclear-relativity::st6": [
+      "electron diffraction crystal",
+      "de Broglie wavelength confirmation",
+      "wave nature electron",
+      "Davisson Germer lattice"
+    ],
+    "quantum-nuclear-relativity::st7": [
+      "neutral nucleon discovery",
+      "Chadwick 1932 neutron",
+      "beryllium neutron source",
+      "mass neutral nucleus"
+    ],
+    "quantum-nuclear-relativity::st8": [
+      "uranium nucleus fission",
+      "Hahn Strassmann barium",
+      "Meitner fission interpretation",
+      "fission chain reaction discovery"
+    ],
+    "quantum-nuclear-relativity::st9": [
+      "parity non-conservation",
+      "cobalt-60 beta decay",
+      "weak force symmetry break",
+      "Lee Yang Wu parity"
+    ],
+    "quantum-nuclear-relativity::st10": [
+      "gravitational redshift lab",
+      "Mossbauer photon frequency",
+      "general relativity Pound Rebka",
+      "photon gravity frequency"
+    ],
+    "quantum-nuclear-relativity::st11": [
+      "Bell inequality experiment",
+      "entangled photon Aspect",
+      "quantum nonlocality test",
+      "hidden variable violation"
+    ],
+    "quantum-nuclear-relativity::st12": [
+      "gravitational wave signal",
+      "LIGO interferometer merger",
+      "binary black hole GW",
+      "spacetime ripple detection"
+    ],
+    "quantum-nuclear-relativity::st13": [
+      "cosmic microwave background",
+      "2.7 K relic radiation",
+      "Penzias Wilson CMB",
+      "Big Bang remnant radiation"
+    ],
+    "quantum-nuclear-relativity::st16": [
+      "Bose-Einstein condensate gas",
+      "Cornell Wieman 1995",
+      "bosonic ground state",
+      "ultracold atom BEC"
+    ],
+    "quantum-nuclear-relativity::st15": [
+      "neutrino oscillation mass",
+      "Super-Kamiokande SNO",
+      "solar neutrino deficit",
+      "neutrino flavour change"
+    ],
+    "quantum-nuclear-relativity::st14": [
+      "Higgs boson LHC 2012",
+      "ATLAS CMS discovery",
+      "electroweak symmetry breaking",
+      "125 GeV Higgs"
+    ],
+    "quantum-nuclear-relativity::st17": [
+      "flying atomic clock dilation",
+      "Hafele Keating 1971",
+      "gravitational kinematic dilation",
+      "clock relativity test"
+    ],
+    "quantum-nuclear-relativity::ef1": [
+      "quantum barrier penetration",
+      "wavefunction tunnelling",
+      "alpha decay tunnelling",
+      "tunnel junction effect"
+    ],
+    "quantum-nuclear-relativity::ef2": [
+      "photon momentum recoil",
+      "Compton wavelength shift",
+      "X-ray electron scatter",
+      "Compton 1923"
+    ],
+    "quantum-nuclear-relativity::ef3": [
+      "hydrogen Lamb energy shift",
+      "vacuum fluctuation level",
+      "QED radiative correction",
+      "2S-2P level shift"
+    ],
+    "quantum-nuclear-relativity::ef4": [
+      "exponential decay constant",
+      "nuclear half-life",
+      "alpha beta gamma decay",
+      "radioactive series"
+    ],
+    "quantum-nuclear-relativity::ef5": [
+      "mass defect binding",
+      "binding energy per nucleon",
+      "iron-56 stability peak",
+      "strong force nuclear binding"
+    ],
+    "quantum-nuclear-relativity::ef6": [
+      "gravitational time dilation",
+      "clock slower gravity",
+      "GPS relativistic correction",
+      "potential well time rate"
+    ],
+    "quantum-nuclear-relativity::ef7": [
+      "light bending spacetime",
+      "Einstein ring lensing",
+      "microlensing dark matter",
+      "gravitational light deflection"
+    ],
+    "quantum-nuclear-relativity::ef8": [
+      "quantum nonlocality Bell",
+      "entanglement correlation violation",
+      "EPR Bell inequality",
+      "hidden variable disproof"
+    ],
+    "quantum-nuclear-relativity::ef9": [
+      "rest mass energy",
+      "mass energy equivalence",
+      "nuclear energy E=mc2",
+      "fission fusion mass deficit"
+    ],
+    "quantum-nuclear-relativity::co1": [
+      "de Broglie matter wavelength",
+      "double slit quantum",
+      "wave particle complementarity",
+      "matter wave duality"
+    ],
+    "quantum-nuclear-relativity::co2": [
+      "position momentum uncertainty",
+      "conjugate variable limit",
+      "delta x delta p",
+      "Heisenberg measurement"
+    ],
+    "quantum-nuclear-relativity::co3": [
+      "quantum state superposition",
+      "entangled pair correlation",
+      "Bell state entanglement",
+      "quantum coherence"
+    ],
+    "quantum-nuclear-relativity::co4": [
+      "fission chain reaction",
+      "fusion plasma confinement",
+      "fissile nuclear material",
+      "nuclear energy release"
+    ],
+    "quantum-nuclear-relativity::co5": [
+      "positron antiparticle",
+      "matter antimatter asymmetry",
+      "Dirac antimatter prediction",
+      "particle annihilation"
+    ],
+    "quantum-nuclear-relativity::co6": [
+      "metric tensor geodesic",
+      "equivalence principle spacetime",
+      "spacetime manifold curvature",
+      "gravitational geometry"
+    ],
+    "quantum-nuclear-relativity::co7": [
+      "discrete energy level",
+      "Planck quantum action",
+      "angular momentum quantised",
+      "quantum number state"
+    ],
+    "quantum-nuclear-relativity::me1": [
+      "cloud chamber track",
+      "silicon vertex detector",
+      "scintillator calorimeter",
+      "pixel detector LHC"
+    ],
+    "quantum-nuclear-relativity::me2": [
+      "emission absorption spectral line",
+      "atomic emission spectrum",
+      "spectrometer wavelength",
+      "spectroscopy identification"
+    ],
+    "quantum-nuclear-relativity::me3": [
+      "LHC CERN proton beam",
+      "synchrotron particle collider",
+      "hadron collider beam",
+      "cyclotron accelerator"
+    ],
+    "quantum-nuclear-relativity::me4": [
+      "nuclear spin NMR",
+      "spin relaxation chemical shift",
+      "RF pulse NMR",
+      "NMR spectroscopy structure"
+    ],
+    "quantum-nuclear-relativity::me5": [
+      "carbon-14 decay dating",
+      "radiocarbon Libby",
+      "atmospheric C-14 calibration",
+      "radiocarbon archaeology"
+    ],
+    "quantum-nuclear-relativity::me6": [
+      "perturbation Feynman diagram",
+      "vertex amplitude propagator",
+      "scattering amplitude loop",
+      "QED loop correction"
+    ],
+    "quantum-nuclear-relativity::fg6": [
+      "radioactivity discovery Curie",
+      "polonium radium isolation",
+      "first woman Nobel physics",
+      "radioactive element"
+    ],
+    "quantum-nuclear-relativity::fg1": [
+      "quantum hypothesis founder",
+      "blackbody radiation Planck",
+      "energy quantum constant h",
+      "Planck 1900"
+    ],
+    "quantum-nuclear-relativity::fg2": [
+      "special general relativity",
+      "photoelectric Nobel Einstein",
+      "E=mc2 author",
+      "Einstein Brownian motion"
+    ],
+    "quantum-nuclear-relativity::fg7": [
+      "nuclear model Rutherford",
+      "alpha gold foil scattering",
+      "proton discovery",
+      "nuclear physics founder"
+    ],
+    "quantum-nuclear-relativity::fg3": [
+      "Copenhagen founder Bohr",
+      "hydrogen atom energy level",
+      "complementarity principle",
+      "Bohr Rutherford model"
+    ],
+    "quantum-nuclear-relativity::fg4": [
+      "uncertainty principle Heisenberg",
+      "matrix mechanics quantum",
+      "non-commuting observable",
+      "Heisenberg Nobel 1932"
+    ],
+    "quantum-nuclear-relativity::fg5": [
+      "wave equation quantum Schrödinger",
+      "cat paradox measurement",
+      "wavefunction Nobel 1933",
+      "Schrödinger cat"
+    ],
+    "quantum-nuclear-relativity::fg9": [
+      "Dirac equation relativistic",
+      "antimatter prediction Dirac",
+      "bra-ket formalism",
+      "positron Dirac"
+    ],
+    "quantum-nuclear-relativity::fg12": [
+      "neutron discovery Chadwick",
+      "nuclear neutron particle",
+      "Chadwick Nobel 1935",
+      "beryllium radiation"
+    ],
+    "quantum-nuclear-relativity::fg11": [
+      "fission interpretation Meitner",
+      "Meitner Hahn fission",
+      "radioactivity pioneer Meitner",
+      "Nobel denied"
+    ],
+    "quantum-nuclear-relativity::fg10": [
+      "nuclear reactor first Chicago",
+      "beta decay theory Fermi",
+      "Fermi-Dirac statistics",
+      "neutron capture"
+    ],
+    "quantum-nuclear-relativity::fg8": [
+      "Feynman diagrams QED",
+      "path integral formulation",
+      "QED Nobel 1965 Feynman",
+      "Feynman lectures"
+    ],
+    "quantum-nuclear-relativity::fg13": [
+      "galaxy rotation curve dark",
+      "dark matter evidence Rubin",
+      "flat rotation curve",
+      "galactic dark matter"
+    ],
+    "quantum-nuclear-relativity::db1": [
+      "Einstein Bohr debate",
+      "hidden variable Bohm",
+      "determinism quantum physics",
+      "EPR paradox debate"
+    ],
+    "quantum-nuclear-relativity::db2": [
+      "Everett branching universe",
+      "many-worlds no collapse",
+      "quantum branch interpretation",
+      "wavefunction universal"
+    ],
+    "quantum-nuclear-relativity::db3": [
+      "string theory loop quantum gravity",
+      "Planck scale quantum",
+      "M-theory compactification",
+      "quantum spacetime gravity"
+    ],
+    "quantum-nuclear-relativity::db4": [
+      "Hawking radiation information",
+      "black hole unitarity",
+      "information loss paradox",
+      "holographic principle black hole"
+    ],
+    "quantum-nuclear-relativity::db5": [
+      "Schrödinger cat paradox",
+      "wavefunction collapse problem",
+      "measurement observer problem",
+      "decoherence measurement"
+    ],
+    "quantum-nuclear-relativity::db6": [
+      "dark matter WIMP candidate",
+      "dark energy cosmological constant",
+      "cosmic acceleration dark",
+      "dark matter detection"
+    ],
+    "quantum-nuclear-relativity::db7": [
+      "atomic bomb ethical",
+      "Manhattan Project moral",
+      "nuclear physicist responsibility",
+      "Hiroshima physics ethics"
+    ],
+    "quantum-nuclear-relativity::db8": [
+      "supersymmetry SUSY search",
+      "grand unified theory",
+      "beyond standard model LHC",
+      "BSM particle hunt"
+    ],
+    "quantum-nuclear-relativity::ap1": [
+      "fission chain reactor",
+      "uranium fuel reactor",
+      "neutron moderation control rod",
+      "nuclear power station"
+    ],
+    "quantum-nuclear-relativity::ap2": [
+      "proton spin MRI",
+      "T1 T2 relaxation MRI",
+      "nuclear spin tissue imaging",
+      "magnetic resonance clinical"
+    ],
+    "quantum-nuclear-relativity::ap3": [
+      "stimulated emission laser",
+      "population inversion light",
+      "coherent light LASER",
+      "laser amplification"
+    ],
+    "quantum-nuclear-relativity::ap4": [
+      "p-n junction semiconductor",
+      "transistor quantum band gap",
+      "silicon doping semiconductor",
+      "quantum well device"
+    ],
+    "quantum-nuclear-relativity::ap5": [
+      "PET positron scan",
+      "SPECT gamma camera imaging",
+      "radiotherapy isotope cancer",
+      "radiopharmaceutical nuclear"
+    ],
+    "quantum-nuclear-relativity::ap6": [
+      "GPS atomic clock relativistic",
+      "relativistic GPS correction",
+      "gravitational kinematic GPS",
+      "atomic clock time rate"
     ]
   },
   "keyword_index": {
@@ -11271,6 +11745,930 @@
     ],
     "omeprazole": [
       "physiology-organ-systems::ap7"
+    ],
+    "time dilation length contraction": [
+      "quantum-nuclear-relativity::th1"
+    ],
+    "Lorentz transformation": [
+      "quantum-nuclear-relativity::th1"
+    ],
+    "light speed invariant": [
+      "quantum-nuclear-relativity::th1"
+    ],
+    "relative simultaneity": [
+      "quantum-nuclear-relativity::th1"
+    ],
+    "spacetime curvature gravity": [
+      "quantum-nuclear-relativity::th2"
+    ],
+    "Einstein field equation": [
+      "quantum-nuclear-relativity::th2"
+    ],
+    "equivalence principle": [
+      "quantum-nuclear-relativity::th2"
+    ],
+    "curved spacetime geodesic": [
+      "quantum-nuclear-relativity::th2"
+    ],
+    "non-commuting observable matrix": [
+      "quantum-nuclear-relativity::th3"
+    ],
+    "matrix quantisation": [
+      "quantum-nuclear-relativity::th3"
+    ],
+    "Born Heisenberg Jordan": [
+      "quantum-nuclear-relativity::th3"
+    ],
+    "observable operator algebra": [
+      "quantum-nuclear-relativity::th3"
+    ],
+    "Schrödinger wave equation": [
+      "quantum-nuclear-relativity::th4"
+    ],
+    "wavefunction time evolution": [
+      "quantum-nuclear-relativity::th4"
+    ],
+    "Hamiltonian wavefunction": [
+      "quantum-nuclear-relativity::th4"
+    ],
+    "matter wave differential": [
+      "quantum-nuclear-relativity::th4"
+    ],
+    "wavefunction collapse measurement": [
+      "quantum-nuclear-relativity::th5"
+    ],
+    "Born probability rule": [
+      "quantum-nuclear-relativity::th5"
+    ],
+    "complementarity Bohr": [
+      "quantum-nuclear-relativity::th5"
+    ],
+    "measurement observer role": [
+      "quantum-nuclear-relativity::th5"
+    ],
+    "photon electron interaction QED": [
+      "quantum-nuclear-relativity::th6"
+    ],
+    "renormalisation QED": [
+      "quantum-nuclear-relativity::th6"
+    ],
+    "Feynman path integral QED": [
+      "quantum-nuclear-relativity::th6"
+    ],
+    "electromagnetic quantum field": [
+      "quantum-nuclear-relativity::th6"
+    ],
+    "magic number nucleus": [
+      "quantum-nuclear-relativity::th7"
+    ],
+    "nuclear shell structure": [
+      "quantum-nuclear-relativity::th7"
+    ],
+    "spin-orbit nuclear coupling": [
+      "quantum-nuclear-relativity::th7"
+    ],
+    "Mayer Jensen shell": [
+      "quantum-nuclear-relativity::th7"
+    ],
+    "electroweak unification": [
+      "quantum-nuclear-relativity::th8"
+    ],
+    "quark lepton generation": [
+      "quantum-nuclear-relativity::th8"
+    ],
+    "gauge boson SU2 U1": [
+      "quantum-nuclear-relativity::th8"
+    ],
+    "fermion boson standard": [
+      "quantum-nuclear-relativity::th8"
+    ],
+    "cosmic expansion Hubble": [
+      "quantum-nuclear-relativity::th9"
+    ],
+    "Big Bang nucleosynthesis": [
+      "quantum-nuclear-relativity::th9"
+    ],
+    "Friedmann equation": [
+      "quantum-nuclear-relativity::th9"
+    ],
+    "primordial plasma universe": [
+      "quantum-nuclear-relativity::th9"
+    ],
+    "quark confinement gluon": [
+      "quantum-nuclear-relativity::th10"
+    ],
+    "asymptotic freedom QCD": [
+      "quantum-nuclear-relativity::th10"
+    ],
+    "colour charge strong force": [
+      "quantum-nuclear-relativity::th10"
+    ],
+    "QCD SU3 lattice": [
+      "quantum-nuclear-relativity::th10"
+    ],
+    "exponential early universe inflation": [
+      "quantum-nuclear-relativity::th11"
+    ],
+    "inflaton scalar field": [
+      "quantum-nuclear-relativity::th11"
+    ],
+    "flatness horizon inflation": [
+      "quantum-nuclear-relativity::th11"
+    ],
+    "inflationary cosmology": [
+      "quantum-nuclear-relativity::th11"
+    ],
+    "aether null result": [
+      "quantum-nuclear-relativity::st1"
+    ],
+    "Michelson Morley interferometer": [
+      "quantum-nuclear-relativity::st1"
+    ],
+    "light speed constant experiment": [
+      "quantum-nuclear-relativity::st1"
+    ],
+    "aether detection failure": [
+      "quantum-nuclear-relativity::st1"
+    ],
+    "blackbody radiation law": [
+      "quantum-nuclear-relativity::st2"
+    ],
+    "ultraviolet catastrophe": [
+      "quantum-nuclear-relativity::st2"
+    ],
+    "Planck energy quantum": [
+      "quantum-nuclear-relativity::st2"
+    ],
+    "quantum hypothesis 1900": [
+      "quantum-nuclear-relativity::st2"
+    ],
+    "photon electron emission": [
+      "quantum-nuclear-relativity::st3"
+    ],
+    "photoelectric work function": [
+      "quantum-nuclear-relativity::st3"
+    ],
+    "Einstein photoelectric Nobel": [
+      "quantum-nuclear-relativity::st3"
+    ],
+    "light quantum packet": [
+      "quantum-nuclear-relativity::st3"
+    ],
+    "gold foil alpha scatter": [
+      "quantum-nuclear-relativity::st4"
+    ],
+    "nuclear atom Rutherford": [
+      "quantum-nuclear-relativity::st4"
+    ],
+    "Geiger Marsden scatter": [
+      "quantum-nuclear-relativity::st4"
+    ],
+    "nuclear charge discovery": [
+      "quantum-nuclear-relativity::st4"
+    ],
+    "quantised orbit hydrogen": [
+      "quantum-nuclear-relativity::st5"
+    ],
+    "Bohr hydrogen spectrum": [
+      "quantum-nuclear-relativity::st5"
+    ],
+    "Rydberg spectral line": [
+      "quantum-nuclear-relativity::st5"
+    ],
+    "Bohr angular momentum": [
+      "quantum-nuclear-relativity::st5"
+    ],
+    "electron diffraction crystal": [
+      "quantum-nuclear-relativity::st6"
+    ],
+    "de Broglie wavelength confirmation": [
+      "quantum-nuclear-relativity::st6"
+    ],
+    "wave nature electron": [
+      "quantum-nuclear-relativity::st6"
+    ],
+    "Davisson Germer lattice": [
+      "quantum-nuclear-relativity::st6"
+    ],
+    "neutral nucleon discovery": [
+      "quantum-nuclear-relativity::st7"
+    ],
+    "Chadwick 1932 neutron": [
+      "quantum-nuclear-relativity::st7"
+    ],
+    "beryllium neutron source": [
+      "quantum-nuclear-relativity::st7"
+    ],
+    "mass neutral nucleus": [
+      "quantum-nuclear-relativity::st7"
+    ],
+    "uranium nucleus fission": [
+      "quantum-nuclear-relativity::st8"
+    ],
+    "Hahn Strassmann barium": [
+      "quantum-nuclear-relativity::st8"
+    ],
+    "Meitner fission interpretation": [
+      "quantum-nuclear-relativity::st8"
+    ],
+    "fission chain reaction discovery": [
+      "quantum-nuclear-relativity::st8"
+    ],
+    "parity non-conservation": [
+      "quantum-nuclear-relativity::st9"
+    ],
+    "cobalt-60 beta decay": [
+      "quantum-nuclear-relativity::st9"
+    ],
+    "weak force symmetry break": [
+      "quantum-nuclear-relativity::st9"
+    ],
+    "Lee Yang Wu parity": [
+      "quantum-nuclear-relativity::st9"
+    ],
+    "gravitational redshift lab": [
+      "quantum-nuclear-relativity::st10"
+    ],
+    "Mossbauer photon frequency": [
+      "quantum-nuclear-relativity::st10"
+    ],
+    "general relativity Pound Rebka": [
+      "quantum-nuclear-relativity::st10"
+    ],
+    "photon gravity frequency": [
+      "quantum-nuclear-relativity::st10"
+    ],
+    "Bell inequality experiment": [
+      "quantum-nuclear-relativity::st11"
+    ],
+    "entangled photon Aspect": [
+      "quantum-nuclear-relativity::st11"
+    ],
+    "quantum nonlocality test": [
+      "quantum-nuclear-relativity::st11"
+    ],
+    "hidden variable violation": [
+      "quantum-nuclear-relativity::st11"
+    ],
+    "gravitational wave signal": [
+      "quantum-nuclear-relativity::st12"
+    ],
+    "LIGO interferometer merger": [
+      "quantum-nuclear-relativity::st12"
+    ],
+    "binary black hole GW": [
+      "quantum-nuclear-relativity::st12"
+    ],
+    "spacetime ripple detection": [
+      "quantum-nuclear-relativity::st12"
+    ],
+    "cosmic microwave background": [
+      "quantum-nuclear-relativity::st13"
+    ],
+    "2.7 K relic radiation": [
+      "quantum-nuclear-relativity::st13"
+    ],
+    "Penzias Wilson CMB": [
+      "quantum-nuclear-relativity::st13"
+    ],
+    "Big Bang remnant radiation": [
+      "quantum-nuclear-relativity::st13"
+    ],
+    "Bose-Einstein condensate gas": [
+      "quantum-nuclear-relativity::st16"
+    ],
+    "Cornell Wieman 1995": [
+      "quantum-nuclear-relativity::st16"
+    ],
+    "bosonic ground state": [
+      "quantum-nuclear-relativity::st16"
+    ],
+    "ultracold atom BEC": [
+      "quantum-nuclear-relativity::st16"
+    ],
+    "neutrino oscillation mass": [
+      "quantum-nuclear-relativity::st15"
+    ],
+    "Super-Kamiokande SNO": [
+      "quantum-nuclear-relativity::st15"
+    ],
+    "solar neutrino deficit": [
+      "quantum-nuclear-relativity::st15"
+    ],
+    "neutrino flavour change": [
+      "quantum-nuclear-relativity::st15"
+    ],
+    "Higgs boson LHC 2012": [
+      "quantum-nuclear-relativity::st14"
+    ],
+    "ATLAS CMS discovery": [
+      "quantum-nuclear-relativity::st14"
+    ],
+    "electroweak symmetry breaking": [
+      "quantum-nuclear-relativity::st14"
+    ],
+    "125 GeV Higgs": [
+      "quantum-nuclear-relativity::st14"
+    ],
+    "flying atomic clock dilation": [
+      "quantum-nuclear-relativity::st17"
+    ],
+    "Hafele Keating 1971": [
+      "quantum-nuclear-relativity::st17"
+    ],
+    "gravitational kinematic dilation": [
+      "quantum-nuclear-relativity::st17"
+    ],
+    "clock relativity test": [
+      "quantum-nuclear-relativity::st17"
+    ],
+    "quantum barrier penetration": [
+      "quantum-nuclear-relativity::ef1"
+    ],
+    "wavefunction tunnelling": [
+      "quantum-nuclear-relativity::ef1"
+    ],
+    "alpha decay tunnelling": [
+      "quantum-nuclear-relativity::ef1"
+    ],
+    "tunnel junction effect": [
+      "quantum-nuclear-relativity::ef1"
+    ],
+    "photon momentum recoil": [
+      "quantum-nuclear-relativity::ef2"
+    ],
+    "Compton wavelength shift": [
+      "quantum-nuclear-relativity::ef2"
+    ],
+    "X-ray electron scatter": [
+      "quantum-nuclear-relativity::ef2"
+    ],
+    "Compton 1923": [
+      "quantum-nuclear-relativity::ef2"
+    ],
+    "hydrogen Lamb energy shift": [
+      "quantum-nuclear-relativity::ef3"
+    ],
+    "vacuum fluctuation level": [
+      "quantum-nuclear-relativity::ef3"
+    ],
+    "QED radiative correction": [
+      "quantum-nuclear-relativity::ef3"
+    ],
+    "2S-2P level shift": [
+      "quantum-nuclear-relativity::ef3"
+    ],
+    "exponential decay constant": [
+      "quantum-nuclear-relativity::ef4"
+    ],
+    "nuclear half-life": [
+      "quantum-nuclear-relativity::ef4"
+    ],
+    "alpha beta gamma decay": [
+      "quantum-nuclear-relativity::ef4"
+    ],
+    "radioactive series": [
+      "quantum-nuclear-relativity::ef4"
+    ],
+    "mass defect binding": [
+      "quantum-nuclear-relativity::ef5"
+    ],
+    "binding energy per nucleon": [
+      "quantum-nuclear-relativity::ef5"
+    ],
+    "iron-56 stability peak": [
+      "quantum-nuclear-relativity::ef5"
+    ],
+    "strong force nuclear binding": [
+      "quantum-nuclear-relativity::ef5"
+    ],
+    "gravitational time dilation": [
+      "quantum-nuclear-relativity::ef6"
+    ],
+    "clock slower gravity": [
+      "quantum-nuclear-relativity::ef6"
+    ],
+    "GPS relativistic correction": [
+      "quantum-nuclear-relativity::ef6"
+    ],
+    "potential well time rate": [
+      "quantum-nuclear-relativity::ef6"
+    ],
+    "light bending spacetime": [
+      "quantum-nuclear-relativity::ef7"
+    ],
+    "Einstein ring lensing": [
+      "quantum-nuclear-relativity::ef7"
+    ],
+    "microlensing dark matter": [
+      "quantum-nuclear-relativity::ef7"
+    ],
+    "gravitational light deflection": [
+      "quantum-nuclear-relativity::ef7"
+    ],
+    "quantum nonlocality Bell": [
+      "quantum-nuclear-relativity::ef8"
+    ],
+    "entanglement correlation violation": [
+      "quantum-nuclear-relativity::ef8"
+    ],
+    "EPR Bell inequality": [
+      "quantum-nuclear-relativity::ef8"
+    ],
+    "hidden variable disproof": [
+      "quantum-nuclear-relativity::ef8"
+    ],
+    "rest mass energy": [
+      "quantum-nuclear-relativity::ef9"
+    ],
+    "mass energy equivalence": [
+      "quantum-nuclear-relativity::ef9"
+    ],
+    "nuclear energy E=mc2": [
+      "quantum-nuclear-relativity::ef9"
+    ],
+    "fission fusion mass deficit": [
+      "quantum-nuclear-relativity::ef9"
+    ],
+    "de Broglie matter wavelength": [
+      "quantum-nuclear-relativity::co1"
+    ],
+    "double slit quantum": [
+      "quantum-nuclear-relativity::co1"
+    ],
+    "wave particle complementarity": [
+      "quantum-nuclear-relativity::co1"
+    ],
+    "matter wave duality": [
+      "quantum-nuclear-relativity::co1"
+    ],
+    "position momentum uncertainty": [
+      "quantum-nuclear-relativity::co2"
+    ],
+    "conjugate variable limit": [
+      "quantum-nuclear-relativity::co2"
+    ],
+    "delta x delta p": [
+      "quantum-nuclear-relativity::co2"
+    ],
+    "Heisenberg measurement": [
+      "quantum-nuclear-relativity::co2"
+    ],
+    "quantum state superposition": [
+      "quantum-nuclear-relativity::co3"
+    ],
+    "entangled pair correlation": [
+      "quantum-nuclear-relativity::co3"
+    ],
+    "Bell state entanglement": [
+      "quantum-nuclear-relativity::co3"
+    ],
+    "quantum coherence": [
+      "quantum-nuclear-relativity::co3"
+    ],
+    "fission chain reaction": [
+      "quantum-nuclear-relativity::co4"
+    ],
+    "fusion plasma confinement": [
+      "quantum-nuclear-relativity::co4"
+    ],
+    "fissile nuclear material": [
+      "quantum-nuclear-relativity::co4"
+    ],
+    "nuclear energy release": [
+      "quantum-nuclear-relativity::co4"
+    ],
+    "positron antiparticle": [
+      "quantum-nuclear-relativity::co5"
+    ],
+    "matter antimatter asymmetry": [
+      "quantum-nuclear-relativity::co5"
+    ],
+    "Dirac antimatter prediction": [
+      "quantum-nuclear-relativity::co5"
+    ],
+    "particle annihilation": [
+      "quantum-nuclear-relativity::co5"
+    ],
+    "metric tensor geodesic": [
+      "quantum-nuclear-relativity::co6"
+    ],
+    "equivalence principle spacetime": [
+      "quantum-nuclear-relativity::co6"
+    ],
+    "spacetime manifold curvature": [
+      "quantum-nuclear-relativity::co6"
+    ],
+    "gravitational geometry": [
+      "quantum-nuclear-relativity::co6"
+    ],
+    "discrete energy level": [
+      "quantum-nuclear-relativity::co7"
+    ],
+    "Planck quantum action": [
+      "quantum-nuclear-relativity::co7"
+    ],
+    "angular momentum quantised": [
+      "quantum-nuclear-relativity::co7"
+    ],
+    "quantum number state": [
+      "quantum-nuclear-relativity::co7"
+    ],
+    "cloud chamber track": [
+      "quantum-nuclear-relativity::me1"
+    ],
+    "silicon vertex detector": [
+      "quantum-nuclear-relativity::me1"
+    ],
+    "scintillator calorimeter": [
+      "quantum-nuclear-relativity::me1"
+    ],
+    "pixel detector LHC": [
+      "quantum-nuclear-relativity::me1"
+    ],
+    "emission absorption spectral line": [
+      "quantum-nuclear-relativity::me2"
+    ],
+    "atomic emission spectrum": [
+      "quantum-nuclear-relativity::me2"
+    ],
+    "spectrometer wavelength": [
+      "quantum-nuclear-relativity::me2"
+    ],
+    "spectroscopy identification": [
+      "quantum-nuclear-relativity::me2"
+    ],
+    "LHC CERN proton beam": [
+      "quantum-nuclear-relativity::me3"
+    ],
+    "synchrotron particle collider": [
+      "quantum-nuclear-relativity::me3"
+    ],
+    "hadron collider beam": [
+      "quantum-nuclear-relativity::me3"
+    ],
+    "cyclotron accelerator": [
+      "quantum-nuclear-relativity::me3"
+    ],
+    "nuclear spin NMR": [
+      "quantum-nuclear-relativity::me4"
+    ],
+    "spin relaxation chemical shift": [
+      "quantum-nuclear-relativity::me4"
+    ],
+    "RF pulse NMR": [
+      "quantum-nuclear-relativity::me4"
+    ],
+    "NMR spectroscopy structure": [
+      "quantum-nuclear-relativity::me4"
+    ],
+    "carbon-14 decay dating": [
+      "quantum-nuclear-relativity::me5"
+    ],
+    "radiocarbon Libby": [
+      "quantum-nuclear-relativity::me5"
+    ],
+    "atmospheric C-14 calibration": [
+      "quantum-nuclear-relativity::me5"
+    ],
+    "radiocarbon archaeology": [
+      "quantum-nuclear-relativity::me5"
+    ],
+    "perturbation Feynman diagram": [
+      "quantum-nuclear-relativity::me6"
+    ],
+    "vertex amplitude propagator": [
+      "quantum-nuclear-relativity::me6"
+    ],
+    "scattering amplitude loop": [
+      "quantum-nuclear-relativity::me6"
+    ],
+    "QED loop correction": [
+      "quantum-nuclear-relativity::me6"
+    ],
+    "radioactivity discovery Curie": [
+      "quantum-nuclear-relativity::fg6"
+    ],
+    "polonium radium isolation": [
+      "quantum-nuclear-relativity::fg6"
+    ],
+    "first woman Nobel physics": [
+      "quantum-nuclear-relativity::fg6"
+    ],
+    "radioactive element": [
+      "quantum-nuclear-relativity::fg6"
+    ],
+    "quantum hypothesis founder": [
+      "quantum-nuclear-relativity::fg1"
+    ],
+    "blackbody radiation Planck": [
+      "quantum-nuclear-relativity::fg1"
+    ],
+    "energy quantum constant h": [
+      "quantum-nuclear-relativity::fg1"
+    ],
+    "Planck 1900": [
+      "quantum-nuclear-relativity::fg1"
+    ],
+    "special general relativity": [
+      "quantum-nuclear-relativity::fg2"
+    ],
+    "photoelectric Nobel Einstein": [
+      "quantum-nuclear-relativity::fg2"
+    ],
+    "E=mc2 author": [
+      "quantum-nuclear-relativity::fg2"
+    ],
+    "Einstein Brownian motion": [
+      "quantum-nuclear-relativity::fg2"
+    ],
+    "nuclear model Rutherford": [
+      "quantum-nuclear-relativity::fg7"
+    ],
+    "alpha gold foil scattering": [
+      "quantum-nuclear-relativity::fg7"
+    ],
+    "proton discovery": [
+      "quantum-nuclear-relativity::fg7"
+    ],
+    "nuclear physics founder": [
+      "quantum-nuclear-relativity::fg7"
+    ],
+    "Copenhagen founder Bohr": [
+      "quantum-nuclear-relativity::fg3"
+    ],
+    "hydrogen atom energy level": [
+      "quantum-nuclear-relativity::fg3"
+    ],
+    "complementarity principle": [
+      "quantum-nuclear-relativity::fg3"
+    ],
+    "Bohr Rutherford model": [
+      "quantum-nuclear-relativity::fg3"
+    ],
+    "uncertainty principle Heisenberg": [
+      "quantum-nuclear-relativity::fg4"
+    ],
+    "matrix mechanics quantum": [
+      "quantum-nuclear-relativity::fg4"
+    ],
+    "non-commuting observable": [
+      "quantum-nuclear-relativity::fg4"
+    ],
+    "Heisenberg Nobel 1932": [
+      "quantum-nuclear-relativity::fg4"
+    ],
+    "wave equation quantum Schrödinger": [
+      "quantum-nuclear-relativity::fg5"
+    ],
+    "cat paradox measurement": [
+      "quantum-nuclear-relativity::fg5"
+    ],
+    "wavefunction Nobel 1933": [
+      "quantum-nuclear-relativity::fg5"
+    ],
+    "Schrödinger cat": [
+      "quantum-nuclear-relativity::fg5"
+    ],
+    "Dirac equation relativistic": [
+      "quantum-nuclear-relativity::fg9"
+    ],
+    "antimatter prediction Dirac": [
+      "quantum-nuclear-relativity::fg9"
+    ],
+    "bra-ket formalism": [
+      "quantum-nuclear-relativity::fg9"
+    ],
+    "positron Dirac": [
+      "quantum-nuclear-relativity::fg9"
+    ],
+    "neutron discovery Chadwick": [
+      "quantum-nuclear-relativity::fg12"
+    ],
+    "nuclear neutron particle": [
+      "quantum-nuclear-relativity::fg12"
+    ],
+    "Chadwick Nobel 1935": [
+      "quantum-nuclear-relativity::fg12"
+    ],
+    "beryllium radiation": [
+      "quantum-nuclear-relativity::fg12"
+    ],
+    "fission interpretation Meitner": [
+      "quantum-nuclear-relativity::fg11"
+    ],
+    "Meitner Hahn fission": [
+      "quantum-nuclear-relativity::fg11"
+    ],
+    "radioactivity pioneer Meitner": [
+      "quantum-nuclear-relativity::fg11"
+    ],
+    "Nobel denied": [
+      "quantum-nuclear-relativity::fg11"
+    ],
+    "nuclear reactor first Chicago": [
+      "quantum-nuclear-relativity::fg10"
+    ],
+    "beta decay theory Fermi": [
+      "quantum-nuclear-relativity::fg10"
+    ],
+    "Fermi-Dirac statistics": [
+      "quantum-nuclear-relativity::fg10"
+    ],
+    "neutron capture": [
+      "quantum-nuclear-relativity::fg10"
+    ],
+    "Feynman diagrams QED": [
+      "quantum-nuclear-relativity::fg8"
+    ],
+    "path integral formulation": [
+      "quantum-nuclear-relativity::fg8"
+    ],
+    "QED Nobel 1965 Feynman": [
+      "quantum-nuclear-relativity::fg8"
+    ],
+    "Feynman lectures": [
+      "quantum-nuclear-relativity::fg8"
+    ],
+    "galaxy rotation curve dark": [
+      "quantum-nuclear-relativity::fg13"
+    ],
+    "dark matter evidence Rubin": [
+      "quantum-nuclear-relativity::fg13"
+    ],
+    "flat rotation curve": [
+      "quantum-nuclear-relativity::fg13"
+    ],
+    "galactic dark matter": [
+      "quantum-nuclear-relativity::fg13"
+    ],
+    "Einstein Bohr debate": [
+      "quantum-nuclear-relativity::db1"
+    ],
+    "hidden variable Bohm": [
+      "quantum-nuclear-relativity::db1"
+    ],
+    "determinism quantum physics": [
+      "quantum-nuclear-relativity::db1"
+    ],
+    "EPR paradox debate": [
+      "quantum-nuclear-relativity::db1"
+    ],
+    "Everett branching universe": [
+      "quantum-nuclear-relativity::db2"
+    ],
+    "many-worlds no collapse": [
+      "quantum-nuclear-relativity::db2"
+    ],
+    "quantum branch interpretation": [
+      "quantum-nuclear-relativity::db2"
+    ],
+    "wavefunction universal": [
+      "quantum-nuclear-relativity::db2"
+    ],
+    "string theory loop quantum gravity": [
+      "quantum-nuclear-relativity::db3"
+    ],
+    "Planck scale quantum": [
+      "quantum-nuclear-relativity::db3"
+    ],
+    "M-theory compactification": [
+      "quantum-nuclear-relativity::db3"
+    ],
+    "quantum spacetime gravity": [
+      "quantum-nuclear-relativity::db3"
+    ],
+    "Hawking radiation information": [
+      "quantum-nuclear-relativity::db4"
+    ],
+    "black hole unitarity": [
+      "quantum-nuclear-relativity::db4"
+    ],
+    "information loss paradox": [
+      "quantum-nuclear-relativity::db4"
+    ],
+    "holographic principle black hole": [
+      "quantum-nuclear-relativity::db4"
+    ],
+    "Schrödinger cat paradox": [
+      "quantum-nuclear-relativity::db5"
+    ],
+    "wavefunction collapse problem": [
+      "quantum-nuclear-relativity::db5"
+    ],
+    "measurement observer problem": [
+      "quantum-nuclear-relativity::db5"
+    ],
+    "decoherence measurement": [
+      "quantum-nuclear-relativity::db5"
+    ],
+    "dark matter WIMP candidate": [
+      "quantum-nuclear-relativity::db6"
+    ],
+    "dark energy cosmological constant": [
+      "quantum-nuclear-relativity::db6"
+    ],
+    "cosmic acceleration dark": [
+      "quantum-nuclear-relativity::db6"
+    ],
+    "dark matter detection": [
+      "quantum-nuclear-relativity::db6"
+    ],
+    "atomic bomb ethical": [
+      "quantum-nuclear-relativity::db7"
+    ],
+    "Manhattan Project moral": [
+      "quantum-nuclear-relativity::db7"
+    ],
+    "nuclear physicist responsibility": [
+      "quantum-nuclear-relativity::db7"
+    ],
+    "Hiroshima physics ethics": [
+      "quantum-nuclear-relativity::db7"
+    ],
+    "supersymmetry SUSY search": [
+      "quantum-nuclear-relativity::db8"
+    ],
+    "grand unified theory": [
+      "quantum-nuclear-relativity::db8"
+    ],
+    "beyond standard model LHC": [
+      "quantum-nuclear-relativity::db8"
+    ],
+    "BSM particle hunt": [
+      "quantum-nuclear-relativity::db8"
+    ],
+    "fission chain reactor": [
+      "quantum-nuclear-relativity::ap1"
+    ],
+    "uranium fuel reactor": [
+      "quantum-nuclear-relativity::ap1"
+    ],
+    "neutron moderation control rod": [
+      "quantum-nuclear-relativity::ap1"
+    ],
+    "nuclear power station": [
+      "quantum-nuclear-relativity::ap1"
+    ],
+    "proton spin MRI": [
+      "quantum-nuclear-relativity::ap2"
+    ],
+    "T1 T2 relaxation MRI": [
+      "quantum-nuclear-relativity::ap2"
+    ],
+    "nuclear spin tissue imaging": [
+      "quantum-nuclear-relativity::ap2"
+    ],
+    "magnetic resonance clinical": [
+      "quantum-nuclear-relativity::ap2"
+    ],
+    "stimulated emission laser": [
+      "quantum-nuclear-relativity::ap3"
+    ],
+    "population inversion light": [
+      "quantum-nuclear-relativity::ap3"
+    ],
+    "coherent light LASER": [
+      "quantum-nuclear-relativity::ap3"
+    ],
+    "laser amplification": [
+      "quantum-nuclear-relativity::ap3"
+    ],
+    "p-n junction semiconductor": [
+      "quantum-nuclear-relativity::ap4"
+    ],
+    "transistor quantum band gap": [
+      "quantum-nuclear-relativity::ap4"
+    ],
+    "silicon doping semiconductor": [
+      "quantum-nuclear-relativity::ap4"
+    ],
+    "quantum well device": [
+      "quantum-nuclear-relativity::ap4"
+    ],
+    "PET positron scan": [
+      "quantum-nuclear-relativity::ap5"
+    ],
+    "SPECT gamma camera imaging": [
+      "quantum-nuclear-relativity::ap5"
+    ],
+    "radiotherapy isotope cancer": [
+      "quantum-nuclear-relativity::ap5"
+    ],
+    "radiopharmaceutical nuclear": [
+      "quantum-nuclear-relativity::ap5"
+    ],
+    "GPS atomic clock relativistic": [
+      "quantum-nuclear-relativity::ap6"
+    ],
+    "relativistic GPS correction": [
+      "quantum-nuclear-relativity::ap6"
+    ],
+    "gravitational kinematic GPS": [
+      "quantum-nuclear-relativity::ap6"
+    ],
+    "atomic clock time rate": [
+      "quantum-nuclear-relativity::ap6"
     ]
   }
 }
