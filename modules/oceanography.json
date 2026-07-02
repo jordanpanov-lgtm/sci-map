@@ -370,7 +370,168 @@
       "accent": "#117A65",
       "bg": "#F0FFF6",
       "subtitle": "Named, replicable patterns in ocean circulation, chemistry and marine life",
-      "entries": []
+      "entries": [
+        {
+          "id": "ef1",
+          "group": "Physical Oceanography",
+          "label": "Coastal Upwelling & Eastern Boundary Productivity",
+          "date": "1938",
+          "loc": "Scripps Institution of Oceanography, La Jolla, California",
+          "coords": [
+            32.87,
+            -117.25
+          ],
+          "links": [],
+          "repl": "robust",
+          "hint": "Where persistent winds blow equatorward along the west coast of a continent, Ekman transport pushes surface water offshore. Cold, nutrient-rich water from depth wells up to replace it, producing some of the ocean's most productive environments. The Benguela, Humboldt, California and Canary upwelling systems cover < 1% of ocean area yet contribute > 20% of the world fish catch.",
+          "tag": "PHENOMENON",
+          "note": "Mechanism predicted by Ekman (1905); first synthesised for upwelling systems in Sverdrup, H. U. (1938). 'On the process of upwelling.' Journal of Marine Research, 1, 155–164. Biological importance quantified by Ryther, J. H. (1969). 'Photosynthesis and fish production in the sea.' Science, 166, 72–76. Bakun, A. (1990) predicted strengthening of upwelling winds under climate change (Science, 247, 198–201); subsequent observations suggest more nuanced regional outcomes. El Niño years suppress Peruvian upwelling dramatically, collapsing the anchoveta catch — a recurring global food-security signal."
+        },
+        {
+          "id": "ef2",
+          "group": "Marine Biology & Ecology",
+          "label": "Coral Bleaching (Thermal Stress Response)",
+          "date": "1983",
+          "loc": "Hawaii Institute of Marine Biology, Kaneohe, Hawaii",
+          "coords": [
+            21.43,
+            -157.79
+          ],
+          "links": [],
+          "repl": "robust",
+          "hint": "When sea surface temperatures exceed the threshold corals' symbiotic algae (zooxanthellae) can tolerate — roughly 1°C above the local summer maximum for 4+ weeks — the coral expels its algae, turns white and begins to starve. If temperatures remain elevated, the colony dies. First documented as a global phenomenon during the 1982–83 El Niño, mass bleaching is now an annual event on some reefs and a leading driver of reef ecosystem collapse.",
+          "tag": "PHENOMENON",
+          "note": "Experimental thermal bleaching: Coles, S. L. & Jokiel, P. L. (1977). Marine Biology, 43, 209–216. First global mass bleaching: Glynn, P. W. (1984). Environmental Conservation, 11, 133–146. The 2015–17 global bleaching event killed > 50% of shallow-water corals on the northern Great Barrier Reef (Hughes, T. P. et al. 2017. Nature, 543, 373–377). At 1.5°C global warming, 70–90% of coral reefs are projected to experience annual bleaching; at 2°C virtually all (IPCC SR1.5). Recovery of a bleached reef takes > 10 years if undisturbed; with repeated events, recovery is becoming biologically impossible."
+        },
+        {
+          "id": "ef3",
+          "group": "Chemical Oceanography",
+          "label": "Oxygen Minimum Zone (OMZ)",
+          "date": "1925",
+          "loc": "Arabian Sea / Scripps Institution of Oceanography",
+          "coords": [
+            32.87,
+            -117.25
+          ],
+          "links": [],
+          "repl": "robust",
+          "hint": "At mid-depths (roughly 200–1,000 m) in the tropics, biological decomposition of sinking organic matter consumes oxygen faster than circulation can replenish it, creating persistent low-oxygen or even anoxic layers. OMZs compress the habitable water column for aerobic organisms, alter the ocean nitrogen cycle through denitrification (converting fixed nitrogen to N₂ gas), and expand upward into fishing zones. The global OMZ volume is expanding under climate change.",
+          "tag": "PHENOMENON",
+          "note": "Early systematic mapping in the Arabian Sea and eastern Pacific upwelling zones by Kalle (1930s) and documented comprehensively in Sverdrup et al. (1942). The Oceans. Review: Karstensen, J., Stramma, L. & Visbeck, M. (2008). Progress in Oceanography, 77, 331–350. Expansion documented by Stramma, L. et al. (2008). 'Expanding oxygen-minimum zones in the tropical oceans.' Science, 320, 655–658 — OMZs grew by ~4.5 million km² between 1960–2008. Expansion results from two mechanisms: warmer water holds less O₂ (solubility) and increased stratification reduces ventilation of the interior ocean."
+        },
+        {
+          "id": "ef4",
+          "group": "Marine Biology & Ecology",
+          "label": "Harmful Algal Bloom (HAB) / Red Tide",
+          "date": "1947",
+          "loc": "Sarasota, Florida",
+          "coords": [
+            27.34,
+            -82.53
+          ],
+          "links": [],
+          "repl": "robust",
+          "hint": "Under nutrient enrichment, warm stratified water and favourable winds, certain phytoplankton species reproduce explosively to densities millions of times normal, colouring the sea red, brown or green. Some species produce potent toxins — paralytic shellfish poison, neurotoxic brevetoxins, domoic acid — that bioaccumulate up the food chain, mass-killing seabirds and marine mammals, and causing paralytic or amnesic shellfish poisoning in humans consuming contaminated bivalves. HABs are increasing in frequency, geographic range and season length.",
+          "tag": "PHENOMENON",
+          "note": "First US scientific documentation: Davis, C. C. (1948). Botanical Gazette, 109, 358–360 (Florida red tide, Gymnodinium brevis = Karenia brevis). Global review: Hallegraeff, G. M. (1993). Phycologia, 32, 79–99. Anderson, D. M. et al. (2012). Harmful Algae, 14, 82–103 documented > 400% increase in HAB reports since 1980 (partly enhanced surveillance, partly real increase driven by nutrient loading and warming). Annual US economic impact estimated at $82 million in aquaculture, fisheries, monitoring and public health costs. The 1987 North Sea phytoplankton bloom killed 2 million salmon in cages — the economic shock that drove European HAB research programmes."
+        },
+        {
+          "id": "ef5",
+          "group": "Physical Oceanography",
+          "label": "Langmuir Circulation & Wind Rows",
+          "date": "1938",
+          "loc": "Sargasso Sea, North Atlantic",
+          "coords": [
+            32,
+            -64
+          ],
+          "links": [],
+          "repl": "robust",
+          "hint": "A sustained wind blowing over the sea surface generates helical roll cells aligned with the wind — Langmuir cells — through the interaction of wind stress and the Stokes drift of surface waves. These cells organise floating material (foam, Sargassum, debris, larvae) into visible parallel streaks or 'windrows.' Langmuir circulation is now recognised as a major mechanism for mixing the upper ocean, transporting buoyant material to depth and influencing air-sea gas exchange.",
+          "tag": "PHENOMENON",
+          "note": "Langmuir, I. (1938). 'Surface motion of water induced by wind.' Science, 87, 119–123 — a Nobel laureate in chemistry observing Sargasso Sea windrows during a transatlantic crossing. Theoretical mechanism: Craik, A. D. D. & Leibovich, S. (1976). Journal of Fluid Mechanics, 73, 401–426 (Craik-Leibovich equations). Confirmed by oceanic measurements: Smith, J. A. (1992). Journal of Physical Oceanography, 22, 1403–1422. Langmuir turbulence parameterisations are now standard in ocean climate models (Li et al. 2016, Journal of Physical Oceanography). Cells can be 10–300 m wide and 50–200 m deep."
+        },
+        {
+          "id": "ef6",
+          "group": "Deep Sea & Seafloor",
+          "label": "Marine Snow & Particle Flux",
+          "date": "1977",
+          "loc": "Woods Hole Oceanographic Institution, Massachusetts",
+          "coords": [
+            41.52,
+            -70.67
+          ],
+          "links": [],
+          "repl": "robust",
+          "hint": "As organic matter produced at the surface — phytoplankton cells, fecal pellets, discarded mucus webs, detritus — aggregates and sinks through the water column, it forms centimetre-scale flakes resembling a slow-motion snowfall. This marine snow is the primary mechanism transporting carbon from the sunlit surface to the deep ocean. The flux diminishes exponentially with depth: roughly 1–10% of surface production reaches the seafloor, sustaining the entirety of deep-sea benthic communities.",
+          "tag": "PHENOMENON",
+          "note": "Term used descriptively since at least the 1950s; first quantified using sediment traps by Honjo, S. (1978). Journal of Marine Research, 36, 469–492. Flux attenuation ('Martin curve'): Martin, J. H. et al. (1987). 'VERTEX: Carbon cycling in the northeast Pacific.' Deep-Sea Research, 34, 267–285 — particle flux ~ z⁻⁰·⁸⁵. Marine snow also transports microplastics, radionuclides and toxic metals to the seafloor. Aggregate properties (composition, sinking speed, fragility) are now measured with underwater cameras and BGC-Argo sensors. The efficiency of this flux is the central uncertainty in projecting the ocean's long-term carbon uptake."
+        },
+        {
+          "id": "ef7",
+          "group": "Physical Oceanography",
+          "label": "Internal Waves & Tidal Mixing",
+          "date": "1966",
+          "loc": "Scripps Institution of Oceanography, La Jolla, California",
+          "coords": [
+            32.87,
+            -117.25
+          ],
+          "links": [],
+          "repl": "robust",
+          "hint": "Tidal currents flowing over submarine ridges, seamounts and continental slopes generate internal waves — oscillations propagating along density gradients through the ocean interior. When these waves break, they mix water across density layers. Munk and Wunsch (1998) showed that roughly 2 terawatts of tidal power must be dissipated to maintain the thermohaline circulation's overturning rate — without tidal mixing, the deep ocean would stratify and ocean circulation would stop.",
+          "tag": "PHENOMENON",
+          "note": "Garret-Munk internal wave spectrum: Munk, W. H. & Garrett, C. (1973). EOS, 54, 986–991 — the standard spectral model. Role in sustaining overturning: Munk, W. & Wunsch, C. (1998). 'Abyssal recipes II: Energetics of tidal and wind mixing.' Deep-Sea Research, 45, 1977–2010. Hotspot mixing at submarine ridges confirmed by tracer release: Ledwell, J. R. et al. (2000). Journal of Geophysical Research, 105, 8847–8868. Hawaiian Ridge generates ~20 GW of internal wave power (Egbert & Ray 2000, Science, 287, 2333–2336). Internal wave-driven mixing accounts for ~1 cm² s⁻¹ of diapycnal diffusivity in the deep ocean."
+        },
+        {
+          "id": "ef8",
+          "group": "Climate & Ocean Interaction",
+          "label": "Sea-Ice–Albedo Feedback (Arctic Amplification)",
+          "date": "1969",
+          "loc": "Main Geophysical Observatory, Leningrad, USSR",
+          "coords": [
+            59.97,
+            30.31
+          ],
+          "links": [],
+          "repl": "robust",
+          "hint": "Sea ice reflects 80–90% of incoming sunlight; open ocean absorbs 94%. As warming melts Arctic sea ice, dark ocean water is exposed, absorbing more heat and driving further warming and further ice loss — a self-amplifying positive feedback. This mechanism causes the Arctic to warm three to four times faster than the global average ('Arctic amplification'). September Arctic sea-ice extent has declined ~13% per decade since satellite records began in 1979.",
+          "tag": "PHENOMENON",
+          "note": "Formalised simultaneously by: Budyko, M. I. (1969). Tellus, 21, 611–619; Sellers, W. D. (1969). Journal of Applied Meteorology, 8, 392–400. Arctic amplification confirmed observationally: Serreze, M. C. & Barry, R. G. (2011). Global and Planetary Change, 77, 85–96. Sea ice loss trend: Stroeve, J. et al. (2007). 'Arctic sea ice decline: Faster than forecast.' Geophysical Research Letters, 34, L09501 — every IPCC assessment since AR4 has underestimated the rate of sea-ice loss. The ice-free Arctic summer may occur before 2050 under current trajectories (Notz & SIMIP Community 2020, Geophysical Research Letters)."
+        },
+        {
+          "id": "ef9",
+          "group": "Deep Sea & Seafloor",
+          "label": "Turbidity Currents & Submarine Landslides",
+          "date": "1929",
+          "loc": "Grand Banks, Newfoundland, Canada",
+          "coords": [
+            44,
+            -56
+          ],
+          "links": [],
+          "repl": "robust",
+          "hint": "Submarine landslides and sediment-laden density flows — turbidity currents — travel at speeds up to 100 km/h along the seafloor, carving canyons and depositing graded sediment layers (turbidites) thousands of kilometres from their source. The 1929 Grand Banks earthquake triggered a turbidity current that snapped transatlantic telegraph cables in sequence over 13 hours, allowing scientists to calculate its speed (19 m/s). Turbidites cover ~75% of the deep-sea floor and form major hydrocarbon reservoir rocks.",
+          "tag": "PHENOMENON",
+          "note": "Cable-snap analysis: Heezen, B. C. & Ewing, M. (1952). 'Turbidity currents and submarine slumps and the 1929 Grand Banks earthquake.' American Journal of Science, 250, 849–873. Turbidite facies model: Bouma, A. H. (1962). Sedimentology of Some Flysch Deposits. Elsevier. The Storegga Slide (Norway, ~8,150 years ago, 3,500 km³) generated a tsunami up to 20 m high that struck Scotland and Norway (Bondevik et al. 2005, Quaternary Science Reviews, 24, 1757–1775). Modern turbidity currents are monitored with acoustic releases and moored current meters on the Congo, Monterey and Nazaré canyons."
+        },
+        {
+          "id": "ef10",
+          "group": "Chemical Oceanography",
+          "label": "Ocean Deoxygenation (Expanding OMZs)",
+          "date": "2010",
+          "loc": "Scripps Institution of Oceanography, La Jolla, California",
+          "coords": [
+            32.87,
+            -117.25
+          ],
+          "links": [],
+          "repl": "robust",
+          "hint": "The ocean has lost approximately 2% of its dissolved oxygen since 1960 — a decline of roughly 77 billion tonnes. Two mechanisms drive this: warmer water holds less oxygen (solubility effect), and increased stratification reduces the ventilation of the ocean interior (circulation effect). The result is expanding and shoaling oxygen minimum zones, habitat compression for mesopelagic fish and zooplankton, enhanced nitrogen loss via denitrification, and increasingly hypoxic coastal dead zones.",
+          "tag": "PHENOMENON",
+          "note": "Key synthesis: Keeling, R. F., Körtzinger, A. & Gruber, N. (2010). 'Ocean deoxygenation in a warming world.' Annual Review of Marine Science, 2, 199–229. Global O₂ decline quantified: Schmidtko, S. et al. (2017). 'Decline in global oceanic oxygen content during the past five decades.' Nature, 542, 335–339. Tropical OMZ expansion: Stramma, L. et al. (2008). Science, 320, 655–658. The deoxygenation rate exceeds most model predictions, suggesting underestimated warming-driven stratification. Under SSP2-4.5, the IPCC AR6 projects further 3–4% decline in ocean O₂ by 2100; under SSP5-8.5 the decline reaches 6–8%."
+        }
+      ]
     },
     {
       "id": "concept",
@@ -380,7 +541,128 @@
       "accent": "#566573",
       "bg": "#F5F6FA",
       "subtitle": "The building blocks and vocabulary every student must command",
-      "entries": []
+      "entries": [
+        {
+          "id": "co1",
+          "group": "Physical Oceanography",
+          "label": "T-S Diagram & Water Mass Identification",
+          "date": "1916",
+          "loc": "Geophysical Institute, Bergen, Norway",
+          "coords": [
+            60.39,
+            5.33
+          ],
+          "links": [],
+          "hint": "Every sample of ocean water plots as a point in temperature-salinity (T-S) space. Distinct water masses — North Atlantic Deep Water, Antarctic Bottom Water, Mediterranean Outflow — each occupy characteristic T-S clusters. Mixtures of two water masses fall on the straight line connecting their end-members. This simple diagram lets oceanographers trace the origin, flow path and mixing history of water throughout the ocean using only two measurements.",
+          "tag": "CONCEPT",
+          "note": "Helland-Hansen, B. (1916). 'Nogen hydrografiske metoder.' 16th Scandinavian Naturalist Congress, Kristiania, 357–359 — the original T-S plot. Standardised and popularised by Sverdrup, H. U., Johnson, M. W. & Fleming, R. H. (1942). The Oceans. Prentice-Hall — the defining textbook of classical physical oceanography. Modern water mass analysis combines T-S characteristics with geochemical tracers (radiocarbon, oxygen isotopes, CFCs) and inverse modelling (Wunsch 1978) to constrain circulation rates. The T-S diagram remains the first tool used when interpreting new hydrographic section data."
+        },
+        {
+          "id": "co2",
+          "group": "Physical Oceanography",
+          "label": "Ocean Stratification & the Permanent Pycnocline",
+          "date": "1942",
+          "loc": "Scripps Institution of Oceanography, La Jolla, California",
+          "coords": [
+            32.87,
+            -117.25
+          ],
+          "links": [],
+          "hint": "The ocean is not a well-mixed tank. A permanent density gradient (pycnocline) at roughly 200–1,000 m separates the warm, light, wind-mixed surface layer from the cold, dense, dark deep ocean. This density barrier strongly suppresses vertical exchange of heat, oxygen and nutrients between the two realms. Understanding it is essential for explaining where blooms occur, how carbon is sequestered and how the ocean responds to climate forcing.",
+          "tag": "CONCEPT",
+          "note": "Formalised as the central organising concept of ocean structure in Sverdrup, H. U., Johnson, M. W. & Fleming, R. H. (1942). The Oceans. Prentice-Hall. The seasonal (temporary) thermocline develops each spring and collapses in autumn storms; the permanent pycnocline is maintained year-round by the deep density contrast. Climate warming is strengthening the permanent pycnocline by heating the surface, progressively isolating it from deep nutrient supply — projecting long-term decline in ocean productivity (Bopp et al. 2013, Biogeosciences, 10, 6225–6245)."
+        },
+        {
+          "id": "co3",
+          "group": "Marine Biology & Ecology",
+          "label": "Photic Zone & Marine Primary Production",
+          "date": "1953",
+          "loc": "Scripps Institution of Oceanography, La Jolla, California",
+          "coords": [
+            32.87,
+            -117.25
+          ],
+          "links": [],
+          "hint": "Photosynthesis in the ocean is confined to the photic zone — typically the upper 100–200 m where sufficient sunlight penetrates. Every calorie consumed by anything from zooplankton to blue whales ultimately derives from this thin layer. Sverdrup's 'critical depth' model (1953) explained why spring phytoplankton blooms begin when the wind-mixed layer shoals above the depth at which integrated photosynthesis exceeds respiration — a moment as precise as the flip of a switch.",
+          "tag": "CONCEPT",
+          "note": "Sverdrup, H. U. (1953). 'On conditions for the vernal blooming of phytoplankton.' ICES Journal of Marine Science, 18, 287–295 — the critical depth hypothesis, still the standard conceptual model. Global ocean primary production estimated at ~50 Gt C yr⁻¹ by Field, C. B. et al. (1998). Science, 281, 237–240 using satellite ocean-colour data (CZCS, SeaWiFS). Below the photic zone, chemosynthesis at hydrothermal vents and cold seeps sustains significant biomass independently of sunlight. Ocean primary production may decline 6–12% under climate warming by 2100 due to increased stratification (Steinacher et al. 2010, Biogeosciences, 7, 979–1005)."
+        },
+        {
+          "id": "co4",
+          "group": "Chemical Oceanography",
+          "label": "Ocean Acidification",
+          "date": "2003",
+          "loc": "Lawrence Livermore National Laboratory, California",
+          "coords": [
+            37.69,
+            -121.71
+          ],
+          "links": [],
+          "hint": "The ocean absorbs roughly 30% of all CO₂ humans emit. When CO₂ dissolves in seawater it forms carbonic acid, which releases hydrogen ions and lowers pH. Surface ocean pH has fallen from 8.20 to 8.10 since 1750 — a 26% increase in hydrogen ion concentration. Organisms that build shells or skeletons from calcium carbonate — corals, oysters, pteropods, foraminifera — face progressively corrosive chemistry. At high enough acidity, their shells dissolve faster than they can be built.",
+          "tag": "CONCEPT",
+          "note": "Term coined by Caldeira, K. & Wickett, M. E. (2003). Nature, 425, 365. Chemistry mechanised in Zeebe, R. E. & Wolf-Gladrow, D. (2001). CO₂ in Seawater: Equilibrium, Kinetics, Isotopes. Elsevier. Biological impacts: Orr, J. C. et al. (2005). Nature, 437, 681–686 — Southern Ocean aragonite undersaturation projected by 2050 under business-as-usual. Laboratory and mesocosm impacts are robust; field attribution of reef decline to acidification vs. warming vs. local stressors remains contested. Surface pH is monitored globally via the SOCAT and GLODAP databases."
+        },
+        {
+          "id": "co5",
+          "group": "Chemical Oceanography",
+          "label": "Redfield Ratio & Marine Nutrient Stoichiometry",
+          "date": "1934",
+          "loc": "Woods Hole Oceanographic Institution, Massachusetts",
+          "coords": [
+            41.52,
+            -70.67
+          ],
+          "links": [],
+          "hint": "In 1934, Alfred Redfield noticed that carbon, nitrogen and phosphorus occur in marine phytoplankton in a consistent molar ratio of approximately 106 : 16 : 1 — and that the deep ocean water dissolves these elements in the same proportions. This 'Redfield ratio' is not coincidence: biology has shaped ocean chemistry, not the other way round. The ratio implies that nitrogen and phosphorus co-limit primary production, and that the ocean's nitrogen inventory is regulated by the biosphere itself through denitrification and N₂ fixation.",
+          "tag": "CONCEPT",
+          "note": "Redfield, A. C. (1934). 'On the proportions of organic derivatives in sea water and their relation to the composition of plankton.' James Johnstone Memorial Volume, Liverpool University Press, 176–192. Mechanistic explanation for why the ratio is maintained: Tyrrell, T. (1999). Nature, 400, 525–531. Small but real variations of the ratio with temperature and light revealed by Martiny, A. C. et al. (2013). Nature Geoscience, 6, 279–283 — now incorporated into 'flexible stoichiometry' models. The Redfield ratio is one of the most cited concepts in ocean science and a cornerstone of marine biogeochemistry."
+        },
+        {
+          "id": "co6",
+          "group": "Marine Biology & Ecology",
+          "label": "Marine Life Zones (Pelagic, Benthic, Hadal)",
+          "date": "1957",
+          "loc": "University of Texas Marine Science Institute, Port Aransas, Texas",
+          "coords": [
+            27.83,
+            -97.05
+          ],
+          "links": [],
+          "hint": "Marine environments are classified by depth and distance from the seafloor: the sunlit epipelagic (0–200 m), twilight mesopelagic (200–1,000 m), midnight bathypelagic (1,000–4,000 m), abyssopelagic (4,000–6,000 m) and hadal (> 6,000 m, in trenches). The benthos — the seafloor and its organisms — spans all depths. Each zone has characteristic organisms adapted to its pressure, temperature, darkness and food regime. This zonation scheme underpins biodiversity surveys, fisheries management and deep-sea conservation.",
+          "tag": "CONCEPT",
+          "note": "Early depth-based zonation: Forbes, E. (1859). The Natural History of the European Seas. Standard modern terminology formalised in: Hedgpeth, J. W. (ed.) (1957). Treatise on Marine Ecology and Paleoecology, Vol. 1. Geological Society of America Memoir 67. Hadal zone first systematically surveyed by the Danish Galathea expedition (1950–52). Species richness of the deep sea is far higher than classical sampling suggested: Snelgrove, P. V. R. (1999). BioScience, 49, 129–138. Deep-sea biodiversity is now surveyed with ROVs, sediment cores and environmental DNA (eDNA)."
+        },
+        {
+          "id": "co7",
+          "group": "Climate & Ocean Interaction",
+          "label": "Sea Level Rise — Drivers & Measurement",
+          "date": "1993",
+          "loc": "Jet Propulsion Laboratory, Pasadena, California",
+          "coords": [
+            34.2,
+            -118.17
+          ],
+          "links": [],
+          "hint": "Global mean sea level rises from two sources: thermal expansion of warming ocean water ('thermosteric rise', ~40% of total) and the addition of meltwater from glaciers and ice sheets (~60% and growing). Satellite altimeters have measured sea level continuously since 1993 with millimetre precision. The rate has roughly doubled over the past century — from ~1.4 mm/yr (1900–1990) to ~3.7 mm/yr (2006–2018) — as ice sheet contributions accelerate.",
+          "tag": "CONCEPT",
+          "note": "TOPEX/Poseidon satellite altimeter launched 1992; first continuous global sea level record: Fu, L.-L. & Cazenave, A. (eds) (2001). Satellite Altimetry and Earth Sciences. Academic Press. Attribution of components: Gregory, J. M. et al. (2013). Journal of Climate, 26, 4476–4499. Current rate: IPCC AR6 WG1 (2021) finds 3.7 mm/yr (2006–2018). Likely range under SSP5-8.5: 0.63–1.01 m by 2100, with upper tails to 2+ m if Antarctic ice-sheet instabilities are triggered (Bamber et al. 2019, Nature). Tide gauges provide century-scale records; the longest continuous record is Amsterdam (since 1700)."
+        },
+        {
+          "id": "co8",
+          "group": "Physical Oceanography",
+          "label": "Subtropical Gyres as Convergence Zones",
+          "date": "1950",
+          "loc": "Scripps Institution of Oceanography, La Jolla, California",
+          "coords": [
+            32.87,
+            -117.25
+          ],
+          "links": [],
+          "hint": "The five subtropical gyres — North and South Pacific, North and South Atlantic, and Indian Ocean — are vast rotating current systems each spanning thousands of kilometres, driven by the global wind pattern. Their centres are convergence zones where surface water slowly sinks and upwelling of nutrients is suppressed. These 'ocean deserts' cover ~40% of the Earth's surface yet sustain specialist ecosystems — and have become accumulation zones for floating plastic, with concentrations far above background levels.",
+          "tag": "CONCEPT",
+          "note": "Gyre structure theorised by Sverdrup (1947) and Munk (1950). Oligotrophic character of gyre centres: Ryther, J. H. (1969). Science, 166, 72–76. Plastic accumulation first documented in the North Atlantic by Carpenter, E. J. & Smith, K. L. (1972). Science, 175, 1240–1241. HOTS (Hawaii Ocean Time-Series) and BATS (Bermuda Atlantic Time-Series) programmes provide decades of observational records from the two best-studied gyre centres. Gyre circulation patterns affect larval dispersal, migratory species distributions and the formation and persistence of floating plastic gyres in all five subtropical ocean basins."
+        }
+      ]
     },
     {
       "id": "method",
