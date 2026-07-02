@@ -1137,7 +1137,165 @@
       "accent": "#CA6F1E",
       "bg": "#FDF5EC",
       "subtitle": "Live controversies — where the field is actively contesting the evidence",
-      "entries": []
+      "entries": [
+        {
+          "id": "db1",
+          "group": "Chaos & Nonlinear Dynamics",
+          "label": "Chaos or Noise? Detecting Low-Dimensional Dynamics in Real Systems",
+          "date": "1992",
+          "loc": "University of California San Diego, La Jolla, California",
+          "coords": [
+            32.87,
+            -117.24
+          ],
+          "links": [
+            "th6",
+            "ef1",
+            "ef2",
+            "me2",
+            "me6"
+          ],
+          "hint": "Throughout the 1980s and 1990s, researchers applied Takens' embedding theorem to EEG signals, heart rate variability, stock prices, and climate records, claiming to find low-dimensional strange attractors — definitive evidence of deterministic chaos in biology and economics. A sustained methodological critique showed that many of these results were statistical artefacts: finite data, nonstationarity, and noise can produce apparently low fractal dimensions and falsely positive Lyapunov exponents. The debate established critical standards for distinguishing true chaos from structured stochasticity.",
+          "tag": "DEBATE",
+          "note": "Grassberger, P. & Procaccia, I. (1983, Physica D) — the correlation dimension method that was widely applied and widely misapplied. Methodological critique: Osborne, A. R. & Provenzale, A. (1989). 'Finite correlation dimension for stochastic systems with power-law spectra.' Physica D, 35, 357–381 — showed that stochastic systems with coloured noise can produce spuriously low correlation dimensions. Rapp, P. E. et al. (1994). 'Filtered noise can mimic low-dimensional chaotic attractors.' Physical Review E, 47, 2289–2297. Theiler, J. et al. (1992). 'Testing for nonlinearity in time series: The method of surrogate data.' Physica D, 58, 77–94 — the surrogate data method, now standard. Many claimed biological chaos results (EEG chaos, HRV chaos) have not survived rigorous surrogate testing. Lorenz himself cautioned that chaos in real geophysical data is hard to confirm definitively."
+        },
+        {
+          "id": "db2",
+          "group": "Network Science",
+          "label": "Are Scale-Free Networks Real? The Power-Law Debate",
+          "date": "2019",
+          "loc": "University of Colorado, Boulder, Colorado",
+          "coords": [
+            40.01,
+            -105.27
+          ],
+          "links": [
+            "st3",
+            "th8",
+            "ef9",
+            "fg12"
+          ],
+          "hint": "The claim that real-world networks follow power-law degree distributions — making them 'scale-free' — is one of the most cited findings in network science. Broido and Clauset (2019) applied rigorous statistical testing (likelihood ratios, goodness-of-fit tests) to nearly 1,000 empirical networks and found that 'strong' scale-free networks are rare; most purported power-law networks fit log-normal or other heavy-tailed distributions equally well. Barabási and colleagues responded that the scale-free property is more subtle than a strict power law. The debate concerns both the statistical methods and the definition of 'scale-free.'",
+          "tag": "DEBATE",
+          "note": "For: Barabási, A.-L. & Albert, R. (1999, Science) — scale-free networks. Against: Clauset, A., Shalizi, C. R. & Newman, M. E. J. (2009). 'Power-law distributions in empirical data.' SIAM Review, 51, 661–703 — rigorous fitting methods. Key challenge paper: Broido, A. D. & Clauset, A. (2019). 'Scale-free networks are rare.' Nature Communications, 10, 1017 — found strong scale-free behaviour in only 4% of tested networks. Response: Barabási, A.-L. (2018). 'Love is all you need: Clauset's framing of scale-free networks.' NetworkSciencebook.com/talk. The deeper dispute: even if strict power laws are rare, preferential attachment as a mechanism produces heavy-tailed distributions that are functionally scale-free in terms of hub dynamics and robustness. Neither side disputes that hubs exist and that degree distributions are heavy-tailed — the disagreement is about the precise statistical form and its theoretical implications."
+        },
+        {
+          "id": "db3",
+          "group": "Emergence & Self-Organisation",
+          "label": "Does Self-Organized Criticality Require Fine-Tuning?",
+          "date": "2000",
+          "loc": "University of Granada, Granada, Spain",
+          "coords": [
+            37.18,
+            -3.6
+          ],
+          "links": [
+            "ef3",
+            "fg10",
+            "ef9"
+          ],
+          "hint": "Self-organized criticality claims that driven dissipative systems spontaneously evolve to a critical point without any external tuning of parameters. Critics have shown that many proposed SOC models are not truly self-organised: the sandpile requires an infinitely slow driving rate relative to relaxation time (the separation of timescales condition), and when this is violated, the critical point disappears. Many biological 'SOC' systems have been proposed but few show convincing evidence of self-tuning as opposed to near-critical operation that requires some environmental tuning.",
+          "tag": "DEBATE",
+          "note": "SOC introduced: Bak, P. et al. (1987, Physical Review Letters). Critical timescale-separation requirement: the original sandpile model only produces true SOC when driving rate → 0; real systems never achieve this separation perfectly. Systematic critique: Bonachela, J. A. & Muñoz, M. A. (2009). 'Self-organization without conservation: True or just apparent scale-invariance?' Journal of Statistical Mechanics, P09009 — showed that many SOC models require parameter tuning to maintain criticality. Neural SOC debate: Beggs, J. M. & Plenz (2003, Journal of Neuroscience) found cortical avalanches; challenge: Touboul, J. & Destexhe, A. (2017). 'Power-law statistics and universal scaling in the absence of criticality.' PLoS Computational Biology, 13, e1005492 — showed that non-critical systems can produce apparent power laws. The 'critical brain' hypothesis remains active and contested; some researchers distinguish between 'self-organised quasi-criticality' (near-critical without strict SOC) as a more defensible claim."
+        },
+        {
+          "id": "db4",
+          "group": "Complex Adaptive Systems",
+          "label": "Can Agent-Based Models Be Validated? The Calibration Problem",
+          "date": "2007",
+          "loc": "University of Manchester, Manchester, England",
+          "coords": [
+            53.47,
+            -2.23
+          ],
+          "links": [
+            "me1",
+            "st5",
+            "th9"
+          ],
+          "hint": "Agent-based models typically have many free parameters — agent decision rules, interaction topologies, initial conditions — and can often be calibrated to match historical data for multiple different parameter sets. This equifinality problem means that fitting the past does not uniquely identify the model's generative mechanisms. Critics argue that most ABMs are post-hoc explanations rather than predictive theories, and that without rigorous out-of-sample testing and sensitivity analysis, ABMs tell us little about real systems and a lot about what patterns are computationally achievable.",
+          "tag": "DEBATE",
+          "note": "Defence of ABMs: Epstein, J. M. (2006). Generative Social Science. Princeton University Press — 'if you can grow it, you can explain it.' Methodological critique: Windrum, P., Fagiolo, G. & Moneta, A. (2007). 'Empirical validation of agent-based models: Alternatives and prospects.' Journal of Artificial Societies and Social Simulation, 10, 8 — comprehensive review of validation challenges. Equifinality and parameter sensitivity: Saltelli, A. et al. (2008). Global Sensitivity Analysis: The Primer. Wiley — methods for systematic sensitivity analysis. Agent-based economics critique: Gallegati, M. & Kirman, A. (Eds., 2012). Complex Economics. Routledge. Counter-example of validated ABM: Epstein et al. (2008). 'Coupled contagion dynamics of fear and disease.' PLoS ONE — the epidemic models used in COVID-19 planning are ABMs that have been extensively validated prospectively. The debate distinguishes between ABMs as explanation tools vs. prediction tools; different validation standards may apply."
+        },
+        {
+          "id": "db5",
+          "group": "Systems Theory",
+          "label": "Is Complexity Science a Unified Discipline or a Bag of Metaphors?",
+          "date": "2001",
+          "loc": "Santa Fe Institute, Santa Fe, New Mexico",
+          "coords": [
+            35.69,
+            -105.94
+          ],
+          "links": [
+            "th4",
+            "th9",
+            "co2",
+            "co6"
+          ],
+          "hint": "Complexity science claims to be a unified science of self-organisation, emergence, and adaptation across all domains — physical, biological, economic, social. Critics argue that this universality is illusory: the same words (emergence, self-organisation, complexity, edge of chaos) are used across disciplines without a shared mathematical definition, producing false analogies and unfalsifiable claims. Defenders respond that structural isomorphisms across levels and domains are real and scientifically productive, even if the unified theory is not yet fully formulated.",
+          "tag": "DEBATE",
+          "note": "Critical: Horgan, J. (1995). 'From complexity to perplexity.' Scientific American, 272, 104–109 — coined 'complexologists' as a pejorative. Horgan, J. (1996). The End of Science — Chapter 8 targets the SFI programme. Reith, G. (2004). 'Uncertain times: The notion of \"risk\" and the development of modernity.' Time & Society — on the spread of 'complexity' as a sociological metaphor. In defence: Mitchell, M. (2009). Complexity: A Guided Tour. Oxford University Press — provides a rigorous account of what complexity science has actually established. Gell-Mann, M. (1994). The Quark and the Jaguar — Murray Gell-Mann's vision of effective complexity and CAS as a genuine programme. The debate has practical stakes: funding agencies and policy institutions have imported 'complexity' language without clear criteria for what it explains, sometimes producing complexity theatre rather than complexity science."
+        },
+        {
+          "id": "db6",
+          "group": "Systems Theory",
+          "label": "The Limits to Growth — Are We Tracking the Standard Run?",
+          "date": "2008",
+          "loc": "University of Melbourne, Melbourne, Australia",
+          "coords": [
+            -37.8,
+            144.96
+          ],
+          "links": [
+            "st6",
+            "th5",
+            "fg5"
+          ],
+          "hint": "The Limits to Growth (1972) predicted that on 'standard run' assumptions, industrial civilisation would overshoot and collapse before 2100. Turner (2008) showed that observed data on population, food, industrial output, resources, and pollution tracked the standard run remarkably closely for the first 30 years. But the model excludes prices, technological substitution, and institutional adaptation — the mechanisms by which conventional economists argue market economies avoid Malthusian limits. At 50+ years, the debate about whether the model's structure or its assumptions are correct continues.",
+          "tag": "DEBATE",
+          "note": "Original model: Meadows, D. H. et al. (1972). The Limits to Growth. Universe Books. Tracking study: Turner, G. M. (2008). 'A comparison of The Limits to Growth with 30 years of reality.' Global Environmental Change, 18, 397–411. Extended tracking: Herrington, G. (2021). 'Update to limits to growth: Comparing the World3 model with empirical data.' Journal of Industrial Ecology, 25, 614–626 — found 'business as usual' scenarios tracking best, with most scenarios converging toward collapse around 2040. Economic critique: Nordhaus, W. D. (1973, American Economic Review); Beckerman, W. (1974). In Defence of Economic Growth. Critics argue the World3 model has no endogenous innovation, no prices, and no trade — omissions that matter enormously for the prediction. Defenders argue the omissions reflect real resource constraints that prices cannot substitute around indefinitely. The 50-year tracking is striking but the model's structural simplicity means coincidence cannot be ruled out."
+        },
+        {
+          "id": "db7",
+          "group": "Emergence & Self-Organisation",
+          "label": "Strong Emergence: Real Novelty or Ignorance?",
+          "date": "1997",
+          "loc": "Reed College, Portland, Oregon",
+          "coords": [
+            45.48,
+            -122.63
+          ],
+          "links": [
+            "co2",
+            "th3",
+            "th9"
+          ],
+          "hint": "Weak emergence refers to properties that can in principle be derived by simulation from lower-level rules, even if they are surprising or computationally irreducible. Strong emergence refers to properties that are genuinely irreducible — that cannot even in principle be derived from complete knowledge of the components. Most philosophers of science deny that strong emergence is coherent, arguing it collapses into a claim about our ignorance. But others argue that consciousness and certain quantum phenomena constitute genuine cases. The debate has concrete implications: strong emergence, if real, would invalidate the reductionist research programme.",
+          "tag": "DEBATE",
+          "note": "Weak/strong distinction: Bedau, M. A. (1997). 'Weak emergence.' Philosophical Perspectives, 11, 375–399. Defence of strong emergence: Chalmers, D. J. (2006). 'Strong and weak emergence.' In: P. Clayton & P. Davies (Eds.), The Re-Emergence of Emergence. Oxford University Press — argues consciousness is a case of strong emergence. Against: Kim, J. (1999). 'Making sense of emergence.' Philosophical Studies, 95, 3–36 — argues strong emergence is either incoherent or epiphenomenal. Anderson, P. W. (1972). 'More is different.' Science, 177, 393–396 — the physicist's classic argument for genuine emergence, though without endorsing 'strong' emergence in the philosophical sense. The debate remains unresolved; in practice, complexity scientists mostly operate with weak emergence as a sufficient and scientifically tractable concept."
+        },
+        {
+          "id": "db8",
+          "group": "Complex Adaptive Systems",
+          "label": "Is the Edge of Chaos a Mechanism or a Metaphor?",
+          "date": "1993",
+          "loc": "Santa Fe Institute, Santa Fe, New Mexico",
+          "coords": [
+            35.69,
+            -105.94
+          ],
+          "links": [
+            "st10",
+            "st9",
+            "th9",
+            "ef3"
+          ],
+          "hint": "Langton (1990) and Kauffman argued that living systems — and computation in general — are possible only at the edge between order and chaos, a phase transition where information can be stored (order) and transmitted (dynamics). Critics responded that the λ parameter operationalising the edge of chaos is too coarse to precisely locate the transition, that evolved cellular automata do not consistently optimise at the edge, and that biological evolution has no reason to target the precise phase boundary. The hypothesis is influential as an organising principle but lacks falsifiable predictions.",
+          "tag": "DEBATE",
+          "note": "Edge of chaos proposed: Langton, C. G. (1990, Physica D); Kauffman, S. A. (1993, Oxford University Press). Computational critique: Mitchell, M., Hraber, P. & Crutchfield, J. P. (1993). 'Revisiting the edge of chaos: Evolving cellular automata to perform computations.' Complex Systems, 7, 89–130 — evolved CA solutions do not peak at λ corresponding to the phase transition. Alternative framework: Crutchfield, J. P. & Young, K. (1990, Physica D) — computational mechanics provides a more rigorous measure of structure in CA. Biological evidence: Nykter, M. et al. (2008, PNAS) — found gene regulatory networks of several organisms consistent with criticality but not demonstrably self-organised to the edge. The neural criticality literature (Beggs & Plenz 2003) provides the most active current arena for the edge-of-chaos hypothesis, with ongoing debate about methods and interpretation. The phrase 'life at the edge of chaos' remains one of the most evocative in complexity science and one of the least precisely operationalised."
+        }
+      ]
     },
     {
       "id": "application",
@@ -1147,7 +1305,125 @@
       "accent": "#2E86C1",
       "bg": "#EBF5FB",
       "subtitle": "Where the science leaves the lab",
-      "entries": []
+      "entries": [
+        {
+          "id": "ap1",
+          "group": "Network Science",
+          "label": "Systemic Risk & Financial Contagion in Banking Networks",
+          "date": "2008",
+          "loc": "Bank of England, London, England",
+          "coords": [
+            51.51,
+            -0.09
+          ],
+          "links": [
+            "ef5",
+            "st3",
+            "ef9"
+          ],
+          "hint": "The 2008 financial crisis demonstrated that a banking system is a network — and that its topology determines whether failures cascade locally or globally. Banks connected by interbank lending, derivatives contracts, and shared asset holdings form a network in which the failure of highly connected nodes (large interconnected banks) can trigger cascades that propagate through the system far faster than supervisory reaction time. Network-based systemic risk models now inform central bank stress testing, identifying systemically important financial institutions (SIFIs) by their position in the financial network, not their individual size.",
+          "tag": "APPLICATION",
+          "note": "Network model of financial contagion: Gai, P. & Kapadia, S. (2010). 'Contagion in financial networks.' Proceedings of the Royal Society A, 466, 2401–2423 — Bank of England — the key paper. Haldane, A. G. & May, R. M. (2011). 'Systemic risk in banking ecosystems.' Nature, 469, 351–355 — applied ecological stability theory to financial networks. Interbank network topology: Allen, F. & Gale, D. (2000, Journal of Political Economy) — showed that complete networks are more robust than incomplete networks to some shocks but more fragile to others. Basel III regulatory framework (2010) and the subsequent BCBS/FSOC 'systemically important financial institution' designations use network centrality implicitly. Ongoing limitation: financial networks are not observable in real time — positions change faster than reporting allows — making real-time monitoring difficult."
+        },
+        {
+          "id": "ap2",
+          "group": "Network Science",
+          "label": "Epidemic Spread on Networks — from R₀ to Network Herd Immunity",
+          "date": "2001",
+          "loc": "Boston University, Boston, Massachusetts",
+          "coords": [
+            42.35,
+            -71.11
+          ],
+          "links": [
+            "ef5",
+            "st3",
+            "th8"
+          ],
+          "hint": "The classical SIR epidemic model assumes homogeneous mixing — every person contacts every other with equal probability. Network epidemiology replaces this with realistic contact networks (household, workplace, school). On scale-free networks, the epidemic threshold (the minimum R₀ for spread) vanishes: pathogens can always persist because hubs provide an infinite-variance super-spreading pathway. This has practical implications for vaccination: targeting hubs (super-spreaders) by degree rather than at random dramatically reduces the doses needed for herd immunity.",
+          "tag": "APPLICATION",
+          "note": "Network threshold result: Pastor-Satorras, R. & Vespignani, A. (2001). 'Epidemic spreading in scale-free networks.' Physical Review Letters, 86, 3200–3203 — showed the threshold vanishes in scale-free networks with infinite-variance degree distributions. Targeted vaccination: Cohen, R. et al. (2003). 'Efficient immunization strategies for computer networks and populations.' Physical Review Letters, 91, 247901 — acquaintance immunization (vaccine a random contact of a random person, who is statistically higher-degree than the random person). COVID-19 modelling: Kucharski, A. J. et al. (2020). 'Early dynamics of transmission and control of COVID-19.' Lancet Infectious Diseases — used network and age-contact structure. Limitation: complete contact network data for populations is never available; network models must estimate or infer topology from surveys, mobile data, or household structure, introducing substantial uncertainty."
+        },
+        {
+          "id": "ap3",
+          "group": "Systems Theory",
+          "label": "Climate System Tipping Elements — Policy Implications",
+          "date": "2008",
+          "loc": "University of Exeter, Exeter, England",
+          "coords": [
+            50.74,
+            -3.53
+          ],
+          "links": [
+            "ef7",
+            "th5",
+            "co3",
+            "co8"
+          ],
+          "hint": "Earth's climate system contains multiple 'tipping elements' — subsystems that exhibit bistability and may undergo abrupt, self-sustaining transitions if pushed past a threshold: the West Antarctic Ice Sheet, Greenland Ice Sheet, Amazon dieback, Atlantic Meridional Overturning Circulation slowdown, permafrost carbon release. Beyond individual tipping points, cascading interactions between tipping elements mean that crossing one may destabilise others — a 'tipping cascade' potentially irreversible on any human timescale and triggered by warming well below 2°C.",
+          "tag": "APPLICATION",
+          "note": "Tipping elements survey: Lenton, T. M. et al. (2008). 'Tipping elements in the Earth's climate system.' PNAS, 105, 1786–1793 — the foundational catalogue. Tipping cascade risk: Steffen, W. et al. (2018). 'Trajectories of the Earth system in the Anthropocene.' PNAS, 115, 8252–8259 — 'Hothouse Earth' trajectory. IPCC AR6 (2021) assessed 16 tipping elements, concluding that multiple tipping points can be triggered at 1.5–2°C of warming. Early warning signal research: Dakos, V. et al. (2012, PLoS ONE); Boers, N. (2021, Nature Climate Change) found early-warning signals in Atlantic circulation data. A practical limit: identifying which tipping elements are genuinely bistable (vs. exhibiting gradual change) requires data and models with uncertainties that span the range of policy-relevant outcomes, making probabilistic risk assessment challenging."
+        },
+        {
+          "id": "ap4",
+          "group": "Complex Adaptive Systems",
+          "label": "Evolutionary Computation — Genetic Algorithms in Engineering",
+          "date": "1985",
+          "loc": "University of Michigan, Ann Arbor, Michigan",
+          "coords": [
+            42.28,
+            -83.74
+          ],
+          "links": [
+            "th9",
+            "co7",
+            "fg11"
+          ],
+          "hint": "Genetic algorithms evolve a population of candidate solutions to an engineering optimisation problem by selection, crossover, and mutation — mimicking Darwinian evolution on a space of designs rather than genomes. They excel on problems where the fitness landscape is rugged, discontinuous, or high-dimensional, where gradient-based methods fail. Applications include aircraft wing profile optimisation, antenna design, scheduling, pharmaceutical molecule discovery, and neural architecture search. They are now a standard tool in computational engineering when objective functions are noisy or non-differentiable.",
+          "tag": "APPLICATION",
+          "note": "Holland, J. H. (1975). Adaptation in Natural and Artificial Systems. University of Michigan Press — the founding text. First engineering applications in the 1980s: De Jong, K. A. (1975). PhD dissertation (Michigan) — systematic study of GAs on function optimisation. Goldberg, D. E. (1988). Genetic Algorithms in Search, Optimization, and Machine Learning. Addison-Wesley — the engineering textbook. NASA applications: Lohn, J. D. et al. (2004, IEEE Antennas and Propagation) — evolved antenna designs flown on NASA ST5 mission. Pharmaceutical: Schneider, G. & Fechner, U. (2005, Nature Reviews Drug Discovery) — evolutionary algorithms for drug design. Modern evolution: deep learning largely superseded GAs for differentiable objective functions, but differential evolution and evolutionary strategies remain competitive for black-box optimisation (Hansen, N., 2006, CMA-ES). Neural architecture search using evolutionary methods: Real, E. et al. (2019, PNAS)."
+        },
+        {
+          "id": "ap5",
+          "group": "Systems Theory",
+          "label": "Urban Complexity & Smart City Design",
+          "date": "1961",
+          "loc": "Rockefeller Brothers Fund / New York City",
+          "coords": [
+            40.71,
+            -74.01
+          ],
+          "links": [
+            "th4",
+            "th5",
+            "co8",
+            "co2"
+          ],
+          "hint": "Cities are prototypical complex adaptive systems: millions of agents (residents, businesses, vehicles) interact through physical and economic networks, generating spatial patterns (land use, density, segregation) that feed back to constrain individual behaviour. Jane Jacobs' 1961 critique of urban planning showed that top-down, 'machine' conceptions of cities destroy the adaptive complexity that makes them liveable. Modern smart-city analytics use mobile phone data, sensor networks, and network analysis to measure urban flows in real time and identify resilient vs. fragile infrastructure configurations.",
+          "tag": "APPLICATION",
+          "note": "Foundational complexity argument: Jacobs, J. (1961). The Death and Life of Great American Cities. Random House — argued cities are 'problems of organized complexity' that resist planned simplification. Quantitative urban scaling laws: Bettencourt, L. M. A. et al. (2007). 'Growth, innovation, scaling, and the pace of life in cities.' PNAS, 104, 7301–7306 — showed that social outputs (patents, GDP) scale super-linearly with city population (~N^1.15), infrastructure sub-linearly (~N^0.85), consistent with network-based models. Smart city data: Gonzalez, M. C. et al. (2008, Nature) — human mobility patterns from mobile phone data. Urban resilience framework: Resilience Alliance Urban Resilience Research Programme (2007–). Critique: 'smart city' implementations often increase surveillance without delivering resilience, and the governance of urban data remains contested (Townsend, A. M., 2013, Smart Cities)."
+        },
+        {
+          "id": "ap6",
+          "group": "Systems Theory",
+          "label": "Resilience Engineering & Critical Infrastructure Protection",
+          "date": "2003",
+          "loc": "Linköping University, Linköping, Sweden",
+          "coords": [
+            58.4,
+            15.58
+          ],
+          "links": [
+            "co8",
+            "ef5",
+            "ef7",
+            "ap3"
+          ],
+          "hint": "Resilience engineering reconceives safety in complex sociotechnical systems — nuclear plants, air traffic control, hospitals, power grids — not as the absence of failure but as the capacity to adapt to unexpected conditions. Traditional safety engineering tries to prevent all failure modes; resilience engineering asks how systems can continue functioning (or gracefully degrade) when failures occur anyway. The approach identifies four system capacities: the ability to respond (knowing what to do), monitor (knowing what to look for), anticipate (knowing what to expect), and learn (knowing what has happened).",
+          "tag": "APPLICATION",
+          "note": "Founding text: Hollnagel, E., Woods, D. D. & Leveson, N. (Eds., 2006). Resilience Engineering: Concepts and Precepts. Ashgate. Normal accidents theory (precursor): Perrow, C. (1984). Normal Accidents: Living with High-Risk Technologies. Basic Books — argued that in tightly-coupled complex systems, accidents are inevitable. High-reliability organisations (HRO): Weick, K. E. & Sutcliffe, K. M. (2001). Managing the Unexpected. Jossey-Bass — organisations that operate safely despite high complexity through mindfulness and adaptive capacity. Power grid application: IEEE PES Task Force on Understanding, Prediction, Mitigation and Restoration of Cascading Failures (2012) — applied resilience metrics to grid stability. Healthcare application: Vincent, C. et al. (2017). Safety Measurement and Monitoring in Healthcare. British Medical Journal. The COVID-19 pandemic provided an unplanned stress test of healthcare system resilience globally."
+        }
+      ]
     }
   ],
   "timeline": [
