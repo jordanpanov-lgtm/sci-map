@@ -336,7 +336,7 @@ const FIELDS = [
   { id:"pure-mathematics",           domain:"formal-computing",  label:"Pure Math: Algebra, Analysis, Geometry & Topology", sub:"Algebra, number theory, topology, real & complex analysis",          status:"planned" },
   { id:"applied-math-statistics",    domain:"formal-computing",  label:"Applied Math & Statistics",                 sub:"Probability, statistics, optimisation, operations research & cryptography", status:"planned" },
   { id:"computer-science",           domain:"formal-computing",  label:"Computer & Information Sciences",           sub:"Algorithms, information theory, programming languages, distributed systems & AI", status:"ready", file:"modules/computer-science.json" },
-  { id:"systems-and-complexity",     domain:"formal-computing",  label:"Systems Theory & Complexity",               sub:"Cybernetics, chaos, dynamical systems, network theory & emergence",       status:"planned" },
+  { id:"systems-and-complexity",     domain:"formal-computing",  label:"Systems Theory & Complexity",               sub:"Cybernetics, chaos, dynamical systems, network theory & emergence",       status:"ready",   file:"modules/systems-and-complexity.json" },
   // ── PSYCHOLOGY & THE MIND ─────────────────────────────────────────────────────
   { id:"neuroscience",               domain:"psychology",        label:"Neuroscience & Behavior",                   sub:"Brain, neuron, circuit & the biological basis of mind",                 status:"ready", file:"modules/neuroscience.json" },
   { id:"general-cognitive-psych",    domain:"psychology",        label:"General & Cognitive Psychology",            sub:"Attention, memory, reasoning & the architecture of mind",               status:"ready", file:"modules/general-cognitive-psych.json" },
@@ -1726,6 +1726,52 @@ const STUDY_PLANS = {
         rationale: 'The final module takes ocean science to its social stakes: fisheries management (is MSY working?), marine protected areas and the BBNJ high-seas treaty (how much protection exists and is it effective?), and tsunami early warning (the clearest example of ocean science saving lives). The Great Pacific Garbage Patch and Gulf of Mexico dead zone surveys show what global-scale pollution looks like as data. Remaining debates and application entries are captured here as a safety net.',
         groups: ['Marine Conservation & Policy'],
         cats: ['debate', 'application']
+      }
+    ]
+  },
+  'systems-and-complexity': {
+    meta: 'Traces the lineage from cybernetics (1948) through general systems theory, chaos, network science, and complex adaptive systems to the modern science of emergence — showing how a single cluster of questions about self-organisation and feedback gave rise to five distinct research traditions, now converging on complexity as a unified but contested programme.',
+    modules: [
+      {
+        title: '1 — Founders & the Field',
+        rationale: 'Eight pioneers define the intellectual genealogy: Wiener and Ashby (cybernetics), von Foerster (second-order), Bertalanffy and Forrester (systems), Lorenz and Feigenbaum (chaos), Prigogine (dissipative structures), Kauffman and Holland (complexity), and Barabási (networks). Meeting them first gives students anchoring names and dates before the ideas become abstract.',
+        groups: ['Pioneers & Theorists']
+      },
+      {
+        title: '2 — Tools of the Trade',
+        rationale: 'Agent-based modelling, phase-space analysis, network centrality, bifurcation analysis, system dynamics, and time-series reconstruction are the six primary methods. Understanding which tool answers which question is prerequisite to evaluating any empirical claim in the field.',
+        groups: ['Methods & Modelling'],
+        cats: ['method']
+      },
+      {
+        title: '3 — Cybernetics & Control',
+        rationale: 'Cybernetics is the historical root of everything that follows. The feedback loop, the Law of Requisite Variety, and the observer-in-the-system turn are the foundational moves — without them, emergence, adaptation, and self-organisation remain intuitive metaphors rather than analysable mechanisms.',
+        groups: ['Cybernetics & Control']
+      },
+      {
+        title: '4 — Systems Theory',
+        rationale: 'General Systems Theory and system dynamics show how stocks, flows, and feedback loops generate counterintuitive behaviour in organisations, cities, and the global economy. The Limits to Growth case study demonstrates the practical stakes of getting system structure right.',
+        groups: ['Systems Theory']
+      },
+      {
+        title: '5 — Chaos & Nonlinear Dynamics',
+        rationale: 'Lorenz\'s discovery reframed prediction: not a question of computing power but of fundamental mathematical limits. Period-doubling cascades, strange attractors, and the butterfly effect are the conceptual core; the debate about chaos vs. noise in real data shows what rigorous empirical testing looks like in this field.',
+        groups: ['Chaos & Nonlinear Dynamics']
+      },
+      {
+        title: '6 — Network Science',
+        rationale: 'Small-world topology, scale-free degree distributions, and cascading failures form the structural toolkit for understanding any large network — social, biological, financial, or infrastructural. The ongoing power-law debate is an excellent case study in statistical rigour and contested universality claims.',
+        groups: ['Network Science']
+      },
+      {
+        title: '7 — Complex Adaptive Systems',
+        rationale: 'Evolution of cooperation, segregation dynamics, and the edge of chaos show how individual-level adaptation produces surprising collective outcomes. The ABM calibration debate is one of the field\'s most important open methodological questions — introduced here where students have enough context to evaluate it.',
+        groups: ['Complex Adaptive Systems']
+      },
+      {
+        title: '8 — Emergence & Self-Organisation',
+        rationale: 'Prigogine\'s dissipative structures, Kauffman\'s NK landscapes, Bak\'s self-organized criticality, Turing patterns, and the BZ reaction converge on a single claim: local rules plus energy throughput plus the right network structure generate global order without a designer. The strong-emergence debate closes the module with the deepest philosophical question in the field.',
+        groups: ['Emergence & Self-Organisation']
       }
     ]
   }
