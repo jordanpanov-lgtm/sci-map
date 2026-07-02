@@ -22,7 +22,188 @@
       "accent": "#2471A3",
       "bg": "#F0F7FF",
       "subtitle": "The frameworks that organise how systems self-regulate, adapt, and give rise to complex behaviour",
-      "entries": []
+      "entries": [
+        {
+          "id": "th1",
+          "group": "Cybernetics & Control",
+          "label": "Cybernetics — Control & Communication in Animal and Machine",
+          "date": "1948",
+          "loc": "Massachusetts Institute of Technology, Cambridge, Massachusetts",
+          "coords": [
+            42.36,
+            -71.09
+          ],
+          "links": [
+            "th2",
+            "th3"
+          ],
+          "hint": "Norbert Wiener coined cybernetics as the unified science of control and communication in machines and living systems. The core mechanism is the feedback loop: a system monitors the gap between its current state and a goal, and uses that error signal to steer its behaviour. This single idea dissolved the boundary between engineering and biology — a thermostat, a neuron, and a firm all operate on the same circular-causal logic. Cybernetics was the first discipline to treat purpose and goal-direction as scientifically tractable properties of physical systems rather than as metaphysical mysteries.",
+          "tag": "FRAMEWORK",
+          "note": "Wiener, N. (1948). Cybernetics: Or Control and Communication in the Animal and the Machine. MIT Press (2nd ed. 1961). Conceptual precursors: Maxwell, J. C. (1868) on centrifugal governor stability; Cannon, W. B. (1932) homeostasis. Shannon, C. E. (1948) developed information theory in parallel — both papers share the vocabulary of signal, noise, and channel capacity. Cybernetics peaked institutionally in the 1950s Macy Conferences (1946–1953). It fragmented into control engineering, cognitive science, and AI by the 1960s; the term itself largely disappeared from engineering, surviving in biology, management, and the social sciences."
+        },
+        {
+          "id": "th2",
+          "group": "Cybernetics & Control",
+          "label": "Law of Requisite Variety & the Homeostat",
+          "date": "1956",
+          "loc": "Burden Neurological Institute, Bristol, England",
+          "coords": [
+            51.46,
+            -2.6
+          ],
+          "links": [
+            "th1",
+            "th3"
+          ],
+          "hint": "W. Ross Ashby's Law of Requisite Variety (1956) states that a controller can only suppress the variety of disturbances to the extent that it itself has variety — a simple controller cannot regulate a complex environment. His Homeostat (1952) was an electromechanical machine of four interconnected units that could seek and maintain equilibrium even after its internal connections were randomly rewired — a physical demonstration that self-organisation and adaptation are achievable by purely mechanical means, requiring no goals programmed in from outside.",
+          "tag": "THEORY",
+          "note": "Ashby, W. R. (1952). Design for a Brain: The Origin of Adaptive Behaviour. Chapman & Hall. Ashby, W. R. (1956). An Introduction to Cybernetics. Chapman & Hall — Chapter 11 states the Law of Requisite Variety. Homeostat first described in Ashby, W. R. (1948). 'Design for a brain.' Electronic Engineering, 20, 379–383. The Good Regulator Theorem (Conant & Ashby, 1970, International Journal of Systems Science) derived from this framework: every good regulator of a system must be a model of that system. The Law of Requisite Variety became foundational in Stafford Beer's Viable System Model (Beer, 1972) and presages ideas in modern machine learning about the complexity of world models required for effective agents."
+        },
+        {
+          "id": "th3",
+          "group": "Cybernetics & Control",
+          "label": "Second-Order Cybernetics — the Observer in the System",
+          "date": "1974",
+          "loc": "University of Illinois at Urbana-Champaign, Urbana, Illinois",
+          "coords": [
+            40.11,
+            -88.21
+          ],
+          "links": [
+            "th1",
+            "th2"
+          ],
+          "hint": "First-order cybernetics studied how systems regulate themselves. Second-order cybernetics — developed by Heinz von Foerster and amplified by Maturana, Varela, and Luhmann — turned the lens on the observer. Because any observation is made by a system (a nervous system, an institution, a scientist) that is itself a system, the act of observation is not neutral. This led to autopoiesis: the property of living systems to continuously produce and regenerate themselves, which means the system's identity is constituted by its own operations, not by external definition.",
+          "tag": "FRAMEWORK",
+          "note": "von Foerster, H. (1974). 'Cybernetics of Cybernetics.' In: K. Krippendorff (Ed.), Communication and Control in Society. Gordon & Breach. Autopoiesis: Maturana, H. R. & Varela, F. J. (1972). Autopoiesis and Cognition: The Realization of the Living. D. Reidel (English translation 1980). Social systems extension: Luhmann, N. (1984). Soziale Systeme. Suhrkamp. Second-order cybernetics influenced family systems therapy (Bateson, Haley), constructivist pedagogy (von Glasersfeld), and Luhmann's systems sociology. Its methodological impact in natural science was limited — mainstream cognitive science preferred computational models with defined inputs and outputs over self-referential frameworks."
+        },
+        {
+          "id": "th4",
+          "group": "Systems Theory",
+          "label": "General Systems Theory",
+          "date": "1968",
+          "loc": "University of Alberta, Edmonton, Alberta",
+          "coords": [
+            53.52,
+            -113.53
+          ],
+          "links": [
+            "th5"
+          ],
+          "hint": "Ludwig von Bertalanffy proposed that despite vast differences between cells, ecosystems, economies, and societies, all open systems share structural principles: they exchange matter and energy with their environment, tend toward dynamic equilibrium, and exhibit properties absent from their components (emergence, equifinality — the property that different initial conditions can reach the same final state). General Systems Theory was an explicit programme for a transdisciplinary science: the same mathematical language should describe physiology, ecology, and organisations alike, enabling knowledge transfer across disciplines through shared structural isomorphisms.",
+          "tag": "FRAMEWORK",
+          "note": "Bertalanffy, L. von (1968). General System Theory: Foundations, Development, Applications. George Braziller. Key earlier paper: Bertalanffy, L. von (1950). 'An outline of general system theory.' British Journal for the Philosophy of Science, 1, 134–165. The Society for General Systems Research was founded (1954) with Boulding, Rapoport, and Gerard. Critics argued the isomorphisms were too vague to be scientifically productive (Berlinski, D., 1976, On Systems Analysis; Lilienfeld, R., 1978, The Rise of Systems Theory). GST's lasting positive legacy was methodological: enabling systems engineering (RAND Corporation), ecological systems thinking (Odum), and management systems (Beer), even where the theoretical programme remained underspecified."
+        },
+        {
+          "id": "th5",
+          "group": "Systems Theory",
+          "label": "System Dynamics — Stocks, Flows & Feedback Loops",
+          "date": "1961",
+          "loc": "MIT Sloan School of Management, Cambridge, Massachusetts",
+          "coords": [
+            42.36,
+            -71.09
+          ],
+          "links": [
+            "th4",
+            "st6"
+          ],
+          "hint": "Jay Forrester's system dynamics models complex systems as stocks (accumulations — inventories, populations, capital) connected by flows, with positive (amplifying) and negative (balancing) feedback loops driving change over time. The central insight is that counterintuitive and problematic behaviour in organisations, cities, and economies arises not from external shocks but from the structure of internal feedback loops, especially when time delays cause overshoot. A policy that appears to fix a problem can trigger an equal and opposite response elsewhere in the loop — a pattern Forrester called 'policy resistance.'",
+          "tag": "MODEL",
+          "note": "Forrester, J. W. (1961). Industrial Dynamics. MIT Press. Extended to cities: Forrester, J. W. (1969). Urban Dynamics. MIT Press — controversial for showing that urban renewal policies can worsen conditions. Global model: Forrester, J. W. (1971). World Dynamics. Wright-Allen — the direct precursor to Limits to Growth. Software implementation: DYNAMO (Forrester's group, 1959) was one of the first simulation languages; modern successors include Stella, Vensim, AnyLogic. Comprehensive textbook and critique: Sterman, J. D. (2000). Business Dynamics: Systems Thinking and Modeling for a Complex World. Irwin/McGraw-Hill — acknowledges difficulties in model calibration and validation while remaining the field's standard reference."
+        },
+        {
+          "id": "th6",
+          "group": "Chaos & Nonlinear Dynamics",
+          "label": "Lorenz Attractor & Deterministic Chaos",
+          "date": "1963",
+          "loc": "Massachusetts Institute of Technology, Cambridge, Massachusetts",
+          "coords": [
+            42.36,
+            -71.09
+          ],
+          "links": [
+            "th7",
+            "st1"
+          ],
+          "hint": "Edward Lorenz discovered chaos while running a radically simplified weather simulation: three coupled differential equations modelling convection produced trajectories that never repeated yet stayed bounded within a peculiar double-spiral — the strange attractor. Two runs differing by one part in a million diverged completely within a few integration steps, demonstrating sensitive dependence on initial conditions. The implication: a deterministic system — governed entirely by fixed equations — can produce behaviour indistinguishable from randomness, and long-range weather prediction is fundamentally impossible regardless of computing power.",
+          "tag": "MODEL",
+          "note": "Lorenz, E. N. (1963). 'Deterministic nonperiodic flow.' Journal of the Atmospheric Sciences, 20, 130–141 — the founding paper of modern chaos theory (~13,000 citations). The shape of the attractor was formalised by Ruelle, D. & Takens, F. (1971). 'On the nature of turbulence.' Communications in Mathematical Physics, 20, 167–192 — who coined the term 'strange attractor.' The paper went largely unnoticed for a decade until nonlinear dynamics revived interest in the 1970s. The 'butterfly effect' phrase: Lorenz, E. N. (1972). 'Predictability: Does the flap of a butterfly's wings in Brazil set off a tornado in Texas?' Conference talk, American Association for the Advancement of Science. Popular account: Gleick, J. (1987). Chaos: Making a New Science. Viking."
+        },
+        {
+          "id": "th7",
+          "group": "Chaos & Nonlinear Dynamics",
+          "label": "Feigenbaum Universality — Period-Doubling Route to Chaos",
+          "date": "1978",
+          "loc": "Los Alamos National Laboratory, Los Alamos, New Mexico",
+          "coords": [
+            35.88,
+            -106.28
+          ],
+          "links": [
+            "th6",
+            "st1"
+          ],
+          "hint": "Mitchell Feigenbaum showed that many different nonlinear systems — population models, fluid flows, electronic circuits — all follow the same quantitative route to chaos as a control parameter increases. Each successive period-doubling (1→2→4→8 cycles) happens at intervals shrinking by a constant ratio of approximately 4.6692..., now called the Feigenbaum constant. This universality — the constant is the same regardless of the specific system — means chaos in a dripping faucet and chaos in a laser share the same underlying mathematical structure, connecting nonlinear dynamics to the renormalisation group techniques of statistical physics.",
+          "tag": "DISCOVERY",
+          "note": "Feigenbaum, M. J. (1978). 'Quantitative universality for a class of nonlinear transformations.' Journal of Statistical Physics, 19, 25–52 — initially rejected by multiple journals. Feigenbaum, M. J. (1979). 'The universal metric properties of nonlinear transformations.' Journal of Statistical Physics, 21, 669–706. Experimental confirmation: Libchaber, A. & Maurer, J. (1982, Journal de Physique Lettres) in liquid helium convection; Testa, J., Perez, J. & Jeffries, C. (1982, Physical Review Letters) in electronic circuits — both confirmed the constant within experimental error. The Feigenbaum constant δ ≈ 4.6692 and α ≈ 2.5029 are universal irrational numbers, analogous in status to π for circles, arising wherever a system period-doubles into chaos."
+        },
+        {
+          "id": "th8",
+          "group": "Network Science",
+          "label": "Random Graph Theory — Phase Transition in Networks",
+          "date": "1960",
+          "loc": "Hungarian Academy of Sciences, Budapest, Hungary",
+          "coords": [
+            47.5,
+            19.04
+          ],
+          "links": [
+            "st2",
+            "st3"
+          ],
+          "hint": "Paul Erdős and Alfréd Rényi proved that random graphs undergo a phase transition: below a critical threshold (average degree < 1), the network consists of many small isolated components; above it, a giant connected component containing a finite fraction of all nodes abruptly emerges. This sharp threshold — where a small increase in edge density triggers a qualitative change in global connectivity — was the first mathematical proof that network structure can undergo sudden regime shifts. It provided the null model against which all real-world network topology is compared.",
+          "tag": "THEORY",
+          "note": "Erdős, P. & Rényi, A. (1959). 'On random graphs I.' Publicationes Mathematicae, 6, 290–297. Erdős, P. & Rényi, A. (1960). 'On the evolution of random graphs.' Magyar Tudományos Akadémia Matematikai Kutató Intézetének Közleményei, 5, 17–61 — the main phase-transition paper. Parallel formulation: Gilbert, E. N. (1959). 'Random graphs.' Annals of Mathematical Statistics, 30, 1141–1144. The random graph model serves as the null model for network science: real networks (social, biological, technological) almost always differ from it in structurally meaningful ways — high clustering, heavy-tailed degree distributions, community structure — which is precisely why Watts-Strogatz (1998) and Barabási-Albert (1999) attracted such attention. Erdős and Rényi did not study network growth processes, which the later models addressed."
+        },
+        {
+          "id": "th9",
+          "group": "Complex Adaptive Systems",
+          "label": "Complex Adaptive Systems (CAS) Framework",
+          "date": "1992",
+          "loc": "Santa Fe Institute, Santa Fe, New Mexico",
+          "coords": [
+            35.69,
+            -105.94
+          ],
+          "links": [
+            "st4",
+            "st5",
+            "st10"
+          ],
+          "hint": "John Holland at the Santa Fe Institute formalised complex adaptive systems as collections of agents — each following simple local rules — that interact, adapt, and co-evolve. Emergent global behaviour (an economy, an immune system, an ecosystem) cannot be deduced from any individual agent's rules; it arises from interactions across many levels. Holland's specific tools were classifier systems (agents that match-and-act using condition-action rules) and genetic algorithms (agents that evolve their rules via selection and recombination), turning CAS theory into a computational programme for studying adaptation in the absence of central control.",
+          "tag": "FRAMEWORK",
+          "note": "Holland, J. H. (1975). Adaptation in Natural and Artificial Systems. University of Michigan Press — introduced genetic algorithms. Holland, J. H. (1992). Adaptation in Natural and Artificial Systems (2nd ed.). MIT Press. Holland, J. H. (1995). Hidden Order: How Adaptation Builds Complexity. Addison-Wesley — the accessible CAS synthesis. The Santa Fe Institute (founded 1984 by Murray Gell-Mann, Kenneth Arrow, Philip Anderson, and others) was the primary institutional home. Key tension: CAS models produce compelling qualitative narratives but resist calibration to empirical data — a methodological critique levelled by conventional social scientists (e.g., Edmonds, 1999; Ormerod, 2002) that remains unresolved."
+        },
+        {
+          "id": "th10",
+          "group": "Emergence & Self-Organisation",
+          "label": "Dissipative Structures & Non-Equilibrium Self-Organisation",
+          "date": "1967",
+          "loc": "Université Libre de Bruxelles, Brussels, Belgium",
+          "coords": [
+            50.81,
+            4.38
+          ],
+          "links": [
+            "st7",
+            "st8"
+          ],
+          "hint": "Ilya Prigogine showed that thermodynamic systems driven far from equilibrium can spontaneously generate organised structures — 'dissipative structures' — maintained by a continuous throughput of energy. Unlike equilibrium crystals, which form by reducing energy, dissipative structures (convection cells, chemical oscillations, living organisms) require constant energy flux to exist and display an intrinsic arrow of time: once formed, they are historically contingent and irreversible. This resolved a paradox: how can self-organisation — local order — be consistent with the Second Law, which demands global entropy increase? The answer is that the local order is thermodynamically paid for by larger disorder in the surroundings.",
+          "tag": "THEORY",
+          "note": "Prigogine, I. (1967). 'Dissipative structures in chemical systems.' In: S. Claesson (Ed.), Fast Reactions and Primary Processes in Chemical Kinetics. Nobel Symposium — first formal presentation. Full theory: Glansdorff, P. & Prigogine, I. (1971). Thermodynamic Theory of Structure, Stability and Fluctuations. Wiley-Interscience. Mathematical treatment: Nicolis, G. & Prigogine, I. (1977). Self-Organization in Nonequilibrium Systems. Wiley. Popular account: Prigogine, I. & Stengers, I. (1984). Order Out of Chaos. Bantam. Nobel Prize in Chemistry 1977 awarded to Prigogine for non-equilibrium thermodynamics. The framework provides the thermodynamic foundation for biology: living systems are far-from-equilibrium dissipative structures, which is why they require continuous metabolic input and why death is irreversible."
+        }
+      ]
     },
     {
       "id": "study",
@@ -32,7 +213,195 @@
       "accent": "#7D3C98",
       "bg": "#FAF5FF",
       "subtitle": "The defining experiments — and exactly what they found",
-      "entries": []
+      "entries": [
+        {
+          "id": "st1",
+          "group": "Chaos & Nonlinear Dynamics",
+          "label": "May's Population Model — Period-Doubling to Chaos in Ecology",
+          "date": "1976",
+          "loc": "Princeton University, Princeton, New Jersey",
+          "coords": [
+            40.34,
+            -74.65
+          ],
+          "links": [
+            "th6",
+            "th7"
+          ],
+          "repl": "mixed",
+          "hint": "Robert May showed that the logistic map — a single-equation model of population growth — transitions from stable equilibria through period-doubling to fully chaotic dynamics as the growth rate increases. At moderate growth rates, population oscillates between 2, 4, 8... values in a cascade. Above a critical rate (~3.57), behaviour becomes aperiodic and unpredictable. This paper introduced chaos to the ecological mainstream and directly sparked Feigenbaum's subsequent discovery of the universal constant governing all period-doubling routes to chaos.",
+          "tag": "MODEL",
+          "note": "May, R. M. (1976). 'Simple mathematical models with very complicated dynamics.' Nature, 261, 459–467 — ~8,000 citations. The logistic map xₙ₊₁ = rxₙ(1−xₙ) was known mathematically; May's contribution was showing its ecological relevance and ecological community. Laboratory confirmation of period-doubling in insect populations: Hassell, M. P., Lawton, J. H. & May, R. M. (1976, Journal of Animal Ecology). However, most field population data show irregular dynamics attributable to environmental stochasticity, not deterministic chaos — separating these empirically is methodologically difficult (Ellner, S. & Turchin, P., 1995, American Naturalist, 145, 343–375). Deterministic chaos in wild populations remains rare to demonstrate convincingly."
+        },
+        {
+          "id": "st2",
+          "group": "Network Science",
+          "label": "Small-World Networks — Watts & Strogatz",
+          "date": "1998",
+          "loc": "Cornell University, Ithaca, New York",
+          "coords": [
+            42.45,
+            -76.48
+          ],
+          "links": [
+            "th8",
+            "st3"
+          ],
+          "repl": "robust",
+          "hint": "Watts and Strogatz studied networks that interpolate between regular lattices and random graphs. They showed that many real networks — C. elegans neural wiring, the western US power grid, actor collaboration — inhabit a 'small-world' regime: highly clustered (friends of friends know each other) yet with short average path lengths (everyone connected in a few steps). Remarkably, adding just a few random long-range edges to an otherwise regular lattice dramatically cuts path lengths while preserving local clustering. The result explains why 'six degrees of separation' can coexist with tight local social clusters.",
+          "tag": "FIELD STUDY",
+          "note": "Watts, D. J. & Strogatz, S. H. (1998). 'Collective dynamics of \"small-world\" networks.' Nature, 393, 440–442 — ~50,000 citations. Operationalised Milgram's six-degrees hypothesis (Milgram, S., 1967, Psychology Today). Small-world topology has since been confirmed in metabolic networks, the internet, brain connectivity (functional and structural), and gene regulatory networks. Methodological caution: the 'small-world' label has been applied loosely; many studies fail to compare properly against appropriate null models. A standardised small-world index: Humphries, M. D. & Gurney, K. (2008, PLoS ONE, 3, e0002051). The model describes network topology but not the growth process generating it — that gap motivated Barabási-Albert."
+        },
+        {
+          "id": "st3",
+          "group": "Network Science",
+          "label": "Scale-Free Networks & Preferential Attachment — Barabási & Albert",
+          "date": "1999",
+          "loc": "University of Notre Dame, Notre Dame, Indiana",
+          "coords": [
+            41.7,
+            -86.24
+          ],
+          "links": [
+            "th8",
+            "st2"
+          ],
+          "repl": "mixed",
+          "hint": "Barabási and Albert showed that the World Wide Web, scientific citations, and actor networks display a power-law degree distribution: a small number of highly-connected hubs coexist with a vast majority of weakly-connected nodes. They proposed 'preferential attachment' as the generative mechanism — new nodes entering a growing network preferentially connect to already-popular nodes (rich-get-richer). Scale-free networks have a striking property: they are robust to random node failure (hubs are unlikely to fail randomly) but fragile to targeted attack on hubs.",
+          "tag": "FIELD STUDY",
+          "note": "Barabási, A.-L. & Albert, R. (1999). 'Emergence of scaling in random networks.' Science, 286, 509–512 — ~30,000 citations. Major statistical reanalysis: Clauset, A., Shalizi, C. R. & Newman, M. E. J. (2009). 'Power-law distributions in empirical data.' SIAM Review, 51, 661–703 — showed that rigorous statistical tests rarely confirm a power law over a log-normal or stretched exponential. Broido, A. D. & Clauset, A. (2019). 'Scale-free networks are rare.' Nature Communications, 10, 1017 — found that only a small fraction of proposed scale-free networks pass stringent statistical criteria. This is one of the largest ongoing methodological controversies in network science; preferential attachment is widely accepted as a mechanism, but the universality of power-law degree distributions is not."
+        },
+        {
+          "id": "st4",
+          "group": "Complex Adaptive Systems",
+          "label": "Axelrod's Evolution of Cooperation Tournament",
+          "date": "1984",
+          "loc": "University of Michigan, Ann Arbor, Michigan",
+          "coords": [
+            42.28,
+            -83.74
+          ],
+          "links": [
+            "th9",
+            "st5"
+          ],
+          "repl": "robust",
+          "hint": "Robert Axelrod ran a computer tournament in which submitted strategies played iterated Prisoner's Dilemma against each other over 200 rounds. The winner — Tit-for-Tat, submitted by Anatol Rapoport — cooperates on the first move, then mirrors the opponent's previous move. Tit-for-Tat is the simplest possible strategy: nice (never defects first), retaliatory (immediately punishes defection), and forgiving (returns to cooperation after one retaliation). The tournament showed that mutual cooperation can evolve and stabilise without central authority, when individuals interact repeatedly and remember past interactions.",
+          "tag": "EXPERIMENT",
+          "note": "Axelrod, R. (1984). The Evolution of Cooperation. Basic Books — expanded from two journal articles: Axelrod, R. (1980). 'Effective choice in the prisoner's dilemma.' Journal of Conflict Resolution, 24, 3–25; Axelrod, R. & Hamilton, W. D. (1981). 'The evolution of cooperation.' Science, 211, 1390–1396. Tit-for-Tat results reproduced in spatial settings: Nowak, M. A. & May, R. M. (1992). 'Evolutionary games and spatial chaos.' Nature, 359, 826–829. However, TfT is not evolutionarily stable in all environments: in noisy settings, 'Generous TfT' outperforms it (Nowak, M. A. & Sigmund, K., 1992, Nature); 'Win-Stay-Lose-Shift' outperforms it against certain strategy ecologies (Nowak & Sigmund, 1993). Press & Dyson (2012, PNAS) introduced zero-determinant strategies that can set an opponent's payoff unilaterally — a theoretical challenge to TfT's optimality, though not easily achievable in practice."
+        },
+        {
+          "id": "st5",
+          "group": "Complex Adaptive Systems",
+          "label": "Schelling Segregation Model — Micromotives & Macrobehaviour",
+          "date": "1971",
+          "loc": "Harvard University, Cambridge, Massachusetts",
+          "coords": [
+            42.37,
+            -71.12
+          ],
+          "links": [
+            "th9",
+            "st4"
+          ],
+          "repl": "mixed",
+          "hint": "Thomas Schelling showed with a simple spatial model that extreme residential segregation can emerge even when every individual prefers an integrated neighbourhood. If agents simply move when fewer than 30% of neighbours are of the same type, near-complete segregation results — a pattern far more extreme than any individual's stated preference. This is one of the earliest and most striking demonstrations that aggregate social patterns can diverge radically from individual intentions, revealing a fundamental limitation of policy approaches that target only individual attitudes.",
+          "tag": "MODEL",
+          "note": "Schelling, T. C. (1971). 'Dynamic models of segregation.' Journal of Mathematical Sociology, 1, 143–186. Extended in: Schelling, T. C. (1978). Micromotives and Macrobehaviour. Norton & Company. Cited in Schelling's Nobel Memorial Prize in Economic Sciences (2005). Agent-based replications confirm the qualitative result: Fossett, M. & Waren, W. (2005, Sociological Methods & Research); Zhang, J. (2011, Journal of Public Economics). Empirical connection is contested: real residential segregation involves historical redlining, mortgage discrimination, zoning, and income sorting that the model does not represent (Bruch, E. E. & Mare, R. D., 2006, American Journal of Sociology — found thresholds in Detroit higher than Schelling assumed). The model is celebrated as a conceptual demonstration, not as an empirically calibrated account of actual segregation."
+        },
+        {
+          "id": "st6",
+          "group": "Systems Theory",
+          "label": "The Limits to Growth (Meadows et al., 1972)",
+          "date": "1972",
+          "loc": "Massachusetts Institute of Technology, Cambridge, Massachusetts",
+          "coords": [
+            42.36,
+            -71.09
+          ],
+          "links": [
+            "th5"
+          ],
+          "repl": "mixed",
+          "hint": "The Club of Rome commissioned MIT researchers to build a global system dynamics model (World3) connecting population, industrial output, food, resource depletion, and pollution. On 'standard run' assumptions — no major changes in physical or social relationships — the model predicted overshoot and collapse of industrial civilisation before 2100. Twelve scenarios showed that only a combination of deliberate limits to growth — stabilised population, reduced resource consumption, pollution control — could achieve a sustainable equilibrium. It was the first major attempt to model the entire Earth system quantitatively.",
+          "tag": "MODEL",
+          "note": "Meadows, D. H., Meadows, D. L., Randers, J. & Behrens, W. W. (1972). The Limits to Growth. Universe Books — ~9 million copies, 37 languages. 30-year update: Meadows, D. H., Randers, J. & Meadows, D. L. (2004). Limits to Growth: The 30-Year Update. Chelsea Green. Empirical comparison: Turner, G. M. (2008). 'A comparison of The Limits to Growth with 30 years of reality.' Global Environmental Change, 18, 397–411 — found the standard run broadly tracks observed data to 2000. Sustained critique: Nordhaus, W. D. (1973, American Economic Review) — the model excludes prices, technology substitution, and institutional adaptation. Cole, H. S. D. et al. (1973). Models of Doom. Universe Books — detailed technical critique. The standard run has been tracking reality for 50 years, but the model's structural simplicity means the match may be partially coincidental."
+        },
+        {
+          "id": "st7",
+          "group": "Emergence & Self-Organisation",
+          "label": "Belousov-Zhabotinsky Reaction — Chemical Oscillation",
+          "date": "1964",
+          "loc": "Institute of Biophysics, Pushchino, Russia",
+          "coords": [
+            54.83,
+            37.62
+          ],
+          "links": [
+            "th10"
+          ],
+          "repl": "robust",
+          "hint": "Boris Belousov discovered in the early 1950s that a bromate-citric acid-cerium mixture in sulfuric acid oscillates spontaneously between coloured states rather than reaching equilibrium — cycling periodically from yellow to colourless and back. Reviewers rejected his manuscript as impossible, since chemical equilibrium should be monotonic. Anatol Zhabotinsky characterised the reaction fully in 1964 and showed it also generates spatial patterns — travelling and rotating spiral waves in thin liquid layers. The BZ reaction became the canonical laboratory demonstration of chemical dissipative structures and the spatial-temporal self-organisation predicted by Prigogine.",
+          "tag": "EXPERIMENT",
+          "note": "Belousov, B. P. (1958). 'A periodic reaction and its mechanism.' Compilation of Abstracts on Radiation Medicine, 147, 145–147 — the only published paper during Belousov's lifetime; the original 1951 manuscript was rejected. Zhabotinsky, A. M. (1964). 'Periodic course of oxidation of malonic acid in solution.' Biofizika, 9, 306–311. Spiral waves in 2D: Winfree, A. T. (1972). 'Spiral waves of chemical activity.' Science, 175, 634–636. Theoretical connection to Prigogine framework: Nicolis, G. & Prigogine, I. (1977). Self-Organization in Nonequilibrium Systems. Wiley. The BZ reaction is robustly reproducible (chemistry is well-established) and is now a standard pedagogical demonstration; it has been used to study excitable media, pattern formation, and as a model for cardiac arrhythmias and neural oscillations."
+        },
+        {
+          "id": "st8",
+          "group": "Emergence & Self-Organisation",
+          "label": "Reynolds Boids — Emergent Flocking from Local Rules",
+          "date": "1987",
+          "loc": "Symbolics Inc., Los Angeles, California",
+          "coords": [
+            34.05,
+            -118.24
+          ],
+          "links": [
+            "th9",
+            "th10"
+          ],
+          "repl": "robust",
+          "hint": "Craig Reynolds created a simulation in which individual 'boids' follow three simple local rules with no knowledge of the global system: avoid collisions with nearby neighbours (separation), move toward the average position of nearby neighbours (cohesion), and match the velocity of nearby neighbours (alignment). The emergent result is realistic-looking collective motion — formations, murmurations, schooling — arising with no central coordination and no explicit flocking instruction. No agent knows the global state; the coherent flock is a purely emergent phenomenon.",
+          "tag": "MODEL",
+          "note": "Reynolds, C. W. (1987). 'Flocks, herds, and schools: A distributed behavioral model.' Proceedings of SIGGRAPH '87, Computer Graphics, 21, 25–34. Reynolds received the Academy Award for Technical Achievement (1998). The three-rule model captures qualitative features of collective motion; however, real starling murmurations use topological rules (respond to the nearest N neighbours) rather than metric rules (respond to all neighbours within distance r): Ballerini, M. et al. (2008). 'Interaction ruling animal collective behavior depends on topological rather than metric distance.' PNAS, 105, 1232–1237. This refinement does not undermine the emergence principle but shows the specific implementation matters. The boids model is widely used in computer graphics, game AI, and robotics for crowd and swarm simulation."
+        },
+        {
+          "id": "st9",
+          "group": "Emergence & Self-Organisation",
+          "label": "Kauffman NK Networks — Self-Organisation at the Edge of Chaos",
+          "date": "1969",
+          "loc": "University of Chicago, Chicago, Illinois",
+          "coords": [
+            41.79,
+            -87.6
+          ],
+          "links": [
+            "th9",
+            "th10"
+          ],
+          "repl": "mixed",
+          "hint": "Stuart Kauffman modelled gene regulatory networks as randomly wired Boolean networks with N genes and K random inputs per gene. At K=2 (sparse wiring), the network settles into ordered cycles through a small number of attractors, with cycle length scaling as √N — a quantity that roughly predicts the number of cell types in organisms (humans have ~250 cell types, ~25,000 genes). At K=N (fully random), dynamics are chaotic. K=2 sits at a boundary — the edge of chaos — where Kauffman argued evolvability is maximised: enough order for stability, enough chaos for adaptation.",
+          "tag": "MODEL",
+          "note": "Kauffman, S. A. (1969). 'Metabolic stability and epigenesis in randomly constructed genetic nets.' Journal of Theoretical Biology, 22, 437–467 — the NK model paper. Full synthesis: Kauffman, S. A. (1993). The Origins of Order: Self-Organization and Selection in Evolution. Oxford University Press. The cell-type prediction (attractor count ≈ √N) is suggestive but based on rough statistics; real gene regulatory networks are scale-free rather than random (Aldana, M. & Cluzel, P., 2003, PNAS, 100, 8710–8714), and scale-free NK networks are more robustly ordered, which may explain why the K=2 result carries over. The edge-of-chaos hypothesis is theoretically elegant but difficult to test empirically, and no definitive evidence exists that biological evolution has selected the boundary K value (Nykter, M. et al., 2008, PNAS)."
+        },
+        {
+          "id": "st10",
+          "group": "Complex Adaptive Systems",
+          "label": "Langton's Edge of Chaos — Computation at Phase Transitions",
+          "date": "1990",
+          "loc": "Los Alamos National Laboratory, Los Alamos, New Mexico",
+          "coords": [
+            35.88,
+            -106.28
+          ],
+          "links": [
+            "th9"
+          ],
+          "repl": "mixed",
+          "hint": "Christopher Langton studied cellular automata — grids where cells update based on their neighbours' states — using a single parameter λ: the fraction of non-quiescent transition rules. As λ increases, CA behaviour transitions from fixed-point through periodic to complex to chaotic. Langton found that maximum computational complexity, information transmission, and 'interesting' dynamics cluster near the phase transition between order and chaos — the 'edge of chaos.' He argued this transition region is the universal condition under which life and complex computation are possible.",
+          "tag": "EXPERIMENT",
+          "note": "Langton, C. G. (1990). 'Computation at the edge of chaos: Phase transitions and emergent computation.' Physica D, 42, 12–37. Wolfram's four CA classes that Langton extends: Wolfram, S. (1984). 'Universality and complexity in cellular automata.' Physica D, 10, 1–35. Critical responses: Crutchfield, J. P. & Young, K. (1990) developed 'computational mechanics' as an alternative, more rigorous framework for measuring CA complexity. Mitchell, M., Hraber, P. & Crutchfield, J. P. (1993). 'Revisiting the edge of chaos: Evolving cellular automata to perform computations.' Complex Systems, 7, 89–130 — found that evolved CA solutions do not consistently peak at the edge of chaos, and that λ is too coarse a parameter to operationalise the concept. The hypothesis remains deeply influential as a metaphor but lacks a precise, universally applicable definition."
+        }
+      ]
     },
     {
       "id": "effect",
