@@ -22,7 +22,158 @@
       "accent": "#2471A3",
       "bg": "#F0F7FF",
       "subtitle": "The frameworks that organise how the ocean circulates, exchanges carbon and sustains life",
-      "entries": []
+      "entries": [
+        {
+          "id": "th1",
+          "group": "Physical Oceanography",
+          "label": "Thermohaline Circulation (Great Ocean Conveyor)",
+          "date": "1961",
+          "loc": "Woods Hole Oceanographic Institution, Massachusetts",
+          "coords": [
+            41.52,
+            -70.67
+          ],
+          "links": [],
+          "hint": "The world ocean functions as a single connected conveyor: cold, salty water sinks in the North Atlantic and around Antarctica, spreads along the seafloor across all basins, and is replaced by warm surface water flowing back to fill the gap. This thermohaline (heat-and-salt-driven) overturning circulation takes roughly 1,000 years to complete one cycle and redistributes enormous quantities of heat — making northern European climates far milder than their latitude alone would suggest.",
+          "tag": "THEORY",
+          "note": "First described qualitatively by Stommel, H. (1958). The Gulf Stream. University of California Press. Formalised as a global conveyor by Broecker, W. S. (1991). 'The Great Ocean Conveyor.' Oceanography, 4, 79–89. The 'conveyor belt' metaphor is now acknowledged as an oversimplification — the real flow is far more diffuse and spatially complex (Lozier, M. S. 2010, Science, 328, 1507–1511). The strength of the Atlantic leg (AMOC) is actively monitored as a potential tipping element under climate change."
+        },
+        {
+          "id": "th2",
+          "group": "Physical Oceanography",
+          "label": "Wind-Driven Ocean Circulation & Sverdrup Balance",
+          "date": "1947",
+          "loc": "Scripps Institution of Oceanography, La Jolla, California",
+          "coords": [
+            32.87,
+            -117.25
+          ],
+          "links": [],
+          "hint": "Surface winds drive the great subtropical gyres dominating each ocean basin. Sverdrup (1947) showed that the depth-integrated north-south transport at any location equals the local wind-stress curl — an elegant equation that explains why gyres exist and where currents flow without needing detailed knowledge of the ocean interior. The east-west asymmetry of gyres — intense western boundary currents versus sluggish eastern flows — was subsequently explained by the variation of the Coriolis parameter with latitude.",
+          "tag": "THEORY",
+          "note": "Sverdrup, H. U. (1947). 'Wind-driven currents in a baroclinic ocean.' Proceedings of the National Academy of Sciences, 33, 318–326. Western boundary current intensification explained by Stommel, H. (1948). 'The westward intensification of wind-driven ocean currents.' Transactions of the American Geophysical Union, 29, 202–206. Munk, W. H. (1950). 'On the wind-driven ocean circulation.' Journal of Meteorology, 7, 79–93 added bottom friction to produce quantitatively accurate gyre structures. These three papers together constitute the foundational theory of large-scale ocean circulation."
+        },
+        {
+          "id": "th3",
+          "group": "Physical Oceanography",
+          "label": "Ekman Transport & Spiral",
+          "date": "1905",
+          "loc": "University of Stockholm, Sweden",
+          "coords": [
+            59.33,
+            18.07
+          ],
+          "links": [],
+          "hint": "Wind blowing steadily over the ocean does not push water in the same direction — the Coriolis effect deflects surface water 45° to the right in the northern hemisphere. This deflection decreases with depth, creating a rotating stack of current layers (the Ekman spiral) whose net transport is at 90° to the wind. Ekman transport drives coastal upwelling — when winds blow equatorward along a west coast, surface water is pushed offshore and cold, nutrient-rich deep water rises to replace it, sustaining some of the ocean's most productive fisheries.",
+          "tag": "THEORY",
+          "note": "Ekman, V. W. (1905). 'On the influence of the Earth's rotation on ocean currents.' Arkiv för Matematik, Astronomi och Fysik, 2, 1–53. Motivated by Nansen's observation that Arctic drift ice moved 20–40° to the right of the wind. The ideal spiral is rarely observed in full (turbulence distorts it), but net Ekman transport is among the most robustly confirmed predictions in physical oceanography: Price, J. F., Weller, R. A. & Schudlich, R. R. (1987). 'Wind-driven ocean currents and Ekman transport.' Science, 238, 1534–1538."
+        },
+        {
+          "id": "th4",
+          "group": "Climate & Ocean Interaction",
+          "label": "El Niño–Southern Oscillation (ENSO) Theory",
+          "date": "1969",
+          "loc": "University of California, Los Angeles",
+          "coords": [
+            34.07,
+            -118.44
+          ],
+          "links": [],
+          "hint": "The tropical Pacific atmosphere and ocean operate as a coupled oscillating system. In the normal state, easterly trade winds pile warm water in the western Pacific; when those winds weaken, warm water floods east — suppressing upwelling, collapsing Peruvian anchoveta fisheries and disrupting rainfall globally from Australia to the Sahel. Bjerknes (1969) identified the self-amplifying feedback that drives each El Niño event: warm sea surface → weakened trade winds → further warming in the east.",
+          "tag": "THEORY",
+          "note": "Bjerknes, J. (1969). 'Atmospheric teleconnections from the equatorial Pacific.' Monthly Weather Review, 97, 163–172. Walker's earlier 'Southern Oscillation' (Walker & Bliss 1932) described the atmospheric pressure seesaw; Bjerknes unified it with the ocean. The coupled ocean-atmosphere feedback is now modelled with coupled GCMs: Neelin, J. D. et al. (1998). 'ENSO theory.' Journal of Geophysical Research, 103, 14261–14290. ENSO is the largest source of interannual climate variability globally; its amplitude is projected to increase under warming (Cai et al. 2014, Nature Climate Change)."
+        },
+        {
+          "id": "th5",
+          "group": "Marine Biology & Ecology",
+          "label": "Darwin's Coral Atoll Subsidence Theory",
+          "date": "1842",
+          "loc": "Down House, Downe, Kent, UK",
+          "coords": [
+            51.33,
+            0.04
+          ],
+          "links": [],
+          "hint": "Darwin proposed that coral atolls — rings of reef enclosing a lagoon with no central island — form as volcanic islands slowly subside into the sea over millions of years. Fringing reefs grow upward to keep pace, becoming barrier reefs and eventually atolls. This was a brilliant inductive inference made without ever examining a coral core, purely from the observed sequence of reef morphologies across the Pacific — and it was confirmed by deep drilling a century later.",
+          "tag": "THEORY",
+          "note": "Darwin, C. R. (1842). The Structure and Distribution of Coral Reefs. Smith, Elder & Co. Confirmed by drilling at Eniwetok Atoll in 1951–52, which penetrated 1,267 m of limestone before reaching basalt — exactly as Darwin predicted. Murray's competing solution-erosion hypothesis was decisively falsified. The theory also led Darwin to predict the existence of guyots (flat-topped seamounts) before they were discovered. Regarded as one of the finest examples of deductive theorising in the history of natural science."
+        },
+        {
+          "id": "th6",
+          "group": "Chemical Oceanography",
+          "label": "Biological Pump",
+          "date": "1985",
+          "loc": "Lamont-Doherty Earth Observatory, Palisades, New York",
+          "coords": [
+            41,
+            -73.91
+          ],
+          "links": [],
+          "hint": "The ocean removes CO₂ from the atmosphere not just by physical dissolution but through life: phytoplankton fix CO₂ at the surface; when they die, their carbon-rich remains and fecal pellets sink as 'marine snow', exporting carbon to depth where it is isolated from the atmosphere for decades to millennia. This biological pump exports roughly 5–12 Gt of carbon per year and is a critical regulator of atmospheric CO₂ on timescales from years to millions of years.",
+          "tag": "MODEL",
+          "note": "Volk, T. & Hoffert, M. I. (1985). 'Ocean carbon pumps.' In Sundquist & Broecker (eds), The Carbon Cycle and Atmospheric CO₂, AGU Monograph 32, 99–110 — first explicit model. Extended by Falkowski, P. G. et al. (1998). 'Biogeochemical controls and feedbacks on ocean primary production.' Science, 281, 200–206. The pump's strength is iron-limited in the Southern Ocean — the mechanistic basis for ocean iron fertilisation proposals. The efficiency of the pump (fraction of surface carbon reaching depth) varies by region and season, and its response to warming is a major uncertainty in climate projections."
+        },
+        {
+          "id": "th7",
+          "group": "Deep Sea & Seafloor",
+          "label": "Seafloor Spreading & Ocean Basin Formation",
+          "date": "1960",
+          "loc": "Princeton University, New Jersey",
+          "coords": [
+            40.35,
+            -74.66
+          ],
+          "links": [],
+          "hint": "Mid-ocean ridges are spreading centres where new ocean floor is continuously created: magma wells up, solidifies and moves away from the ridge at a few centimetres per year, cooling, subsiding and eventually subducting at deep-sea trenches. Hess proposed this mechanism to explain why oceanic crust is geologically young everywhere, and why symmetric magnetic anomaly stripes flank mid-ocean ridges — each stripe records the direction of Earth's magnetic field when that strip of seafloor was created.",
+          "tag": "THEORY",
+          "note": "Hess, H. H. (1960). 'Evolution of ocean basins.' Naval Research report (preprint); published 1962 in Engel et al. (eds), Petrologic Studies, 599–620. Magnetic anomaly confirmation: Vine, F. J. & Matthews, D. H. (1963). 'Magnetic anomalies over oceanic ridges.' Nature, 199, 947–949. Seafloor spreading rates range from <1 cm/yr (Arctic) to >15 cm/yr (East Pacific Rise). The theory became the cornerstone of plate tectonics and explained the age distribution, bathymetry and sediment thickness of all ocean basins."
+        },
+        {
+          "id": "th8",
+          "group": "Marine Biology & Ecology",
+          "label": "Marine Trophic Cascade Theory",
+          "date": "1974",
+          "loc": "University of Washington, Seattle",
+          "coords": [
+            47.66,
+            -122.31
+          ],
+          "links": [],
+          "hint": "Removing a top predator triggers cascading changes throughout the marine food web — not just one level down but many, restructuring entire ecosystems. The founding case: where sea otters persist, they control sea urchin populations, allowing kelp forests to flourish; where otters were hunted out, urchin barrens replaced kelp forests. This cascade logic has since been documented across hundreds of marine systems and underpins arguments for protecting apex predators and large-bodied fishes.",
+          "tag": "THEORY",
+          "note": "Estes, J. A. & Palmisano, J. F. (1974). 'Sea otters: Their role in structuring nearshore communities.' Science, 185, 1058–1060. Generalised by Paine, R. T. (1980). 'Food webs: Linkage, interaction strength and community infrastructure.' Journal of Animal Ecology, 49, 667–685. Reviewed in Estes, J. A. et al. (2011). 'Trophic downgrading of planet Earth.' Science, 333, 301–306 — synthesising evidence from 23 case studies across terrestrial and marine systems. The magnitude and reversibility of cascades varies substantially; cascades are weaker in highly connected food webs with many redundant links."
+        },
+        {
+          "id": "th9",
+          "group": "Deep Sea & Seafloor",
+          "label": "Deep Scattering Layer (DSL)",
+          "date": "1948",
+          "loc": "Scripps Institution of Oceanography, La Jolla, California",
+          "coords": [
+            32.87,
+            -117.25
+          ],
+          "links": [],
+          "hint": "Wartime sonar operators discovered a phantom 'false bottom' that rose toward the surface at dusk and retreated at dawn. This deep scattering layer is in fact a dense aggregation of mesopelagic organisms — fish with swimbladders, squid, lanternfishes, copepods — performing daily vertical migrations of 200–800 m. The DSL revealed that the twilight zone (200–1,000 m depth) contains enormous but poorly quantified biomass and plays a major role in transporting carbon from surface to depth.",
+          "tag": "THEORY",
+          "note": "First systematically characterised by: Hersey, J. B. & Backus, R. H. (1962). 'Sound scattering by marine organisms.' In Hill (ed.), The Sea, Vol. 1, 498–539. Initial wartime sonar observations reported by Johnson, M. W. et al. (1947). The DSL's contribution to the biological carbon pump — the 'active transport' by migrating organisms — is now estimated at 0.4–4.4 Gt C yr⁻¹ (Irigoien, X. et al. 2014, Nature Communications, 5, 3271) but remains one of the largest uncertainties in the ocean carbon budget. Total mesopelagic fish biomass may exceed 1 billion tonnes."
+        },
+        {
+          "id": "th10",
+          "group": "Climate & Ocean Interaction",
+          "label": "Orbital Forcing & Milanković Cycles",
+          "date": "1976",
+          "loc": "Lamont-Doherty Earth Observatory, Palisades, New York",
+          "coords": [
+            41,
+            -73.91
+          ],
+          "links": [],
+          "hint": "Ice ages — and the deep shifts in ocean chemistry and circulation that accompany them — are paced by three cyclical changes in Earth's orbit: eccentricity (100,000-year cycle), axial tilt (41,000 years) and precession (23,000 years). The theory was confirmed by matching these orbital rhythms to oxygen-isotope cycles preserved in deep-sea sediment cores: ice age cycles are literally written in the shells of ancient foraminifera on the ocean floor, recording ice volume and ocean temperature over hundreds of thousands of years.",
+          "tag": "THEORY",
+          "note": "Milanković, M. (1941). Canon of Insolation and the Ice-Age Problem. Royal Serbian Academy (translated 1969). Confirmed by Hays, J. D., Imbrie, J. & Shackleton, N. J. (1976). 'Variations in the Earth's orbit: Pacemaker of the ice ages.' Science, 194, 1121–1132 — over 5,000 citations; identified by Discover as one of the 20 greatest science papers of the 20th century. The dominant 100-kyr cycle is puzzling because orbital eccentricity produces small insolation changes — amplification by ice-albedo and CO₂ feedbacks is required but the exact mechanism is still debated (Huybers 2007, Quaternary Science Reviews)."
+        }
+      ]
     },
     {
       "id": "study",
@@ -32,7 +183,184 @@
       "accent": "#7D3C98",
       "bg": "#FAF5FF",
       "subtitle": "The defining experiments — and exactly what they found",
-      "entries": []
+      "entries": [
+        {
+          "id": "st1",
+          "group": "Ocean Observation & Methods",
+          "label": "HMS Challenger Expedition",
+          "date": "1872",
+          "loc": "Portsmouth Naval Base, Hampshire, UK",
+          "coords": [
+            50.8,
+            -1.09
+          ],
+          "links": [],
+          "repl": "robust",
+          "hint": "The first purpose-built scientific voyage to study the global ocean: 68,890 nautical miles, 492 deep soundings, 133 bottom dredges, 151 open-water trawls across every major ocean basin. Challenger established that the deep sea is not a featureless abyss but teems with life, varies systematically in temperature and chemistry, and has specific sediment provinces. The resulting 50-volume scientific report is the foundation document of oceanography as a discipline.",
+          "tag": "FIELD STUDY",
+          "note": "Thomson, C. W. & Murray, J. (eds) (1885). Report on the Scientific Results of the Voyage of H.M.S. Challenger During the Years 1873–76. HMSO, 50 vols. Murray, J. & Renard, A. F. (1891). Deep-Sea Deposits (Challenger Reports) — the first systematic classification of seafloor sediments. The expedition documented 4,700 new species, discovered the Mariana Trench (sounded at 8,184 m), and recorded the first systematic deep-ocean temperature profiles. Challenger data remained the global reference baseline for decades."
+        },
+        {
+          "id": "st2",
+          "group": "Deep Sea & Seafloor",
+          "label": "Discovery of Hydrothermal Vents (Galápagos Rift)",
+          "date": "1977",
+          "loc": "Woods Hole Oceanographic Institution, Massachusetts",
+          "coords": [
+            41.52,
+            -70.67
+          ],
+          "links": [],
+          "repl": "robust",
+          "hint": "In February 1977, the submersible Alvin descended to the Galápagos Rift at 2,500 m and found warm-water vents surrounded by flourishing life — giant tube worms, clams, crabs — thriving in total darkness in hydrogen-sulphide-rich water. The discovery overturned the axiom that all life ultimately depends on solar energy and opened the possibility of life on other solar-system bodies with sub-surface liquid water.",
+          "tag": "FIELD STUDY",
+          "note": "Corliss, J. B. et al. (1979). 'Submarine thermal springs on the Galápagos Rift.' Science, 203, 1073–1083 — the discovery paper. Chemosynthetic basis confirmed by Cavanaugh, C. M. et al. (1981). Science, 213, 340–342. Black smokers (higher-temperature vents, up to 400°C) discovered at 21°N East Pacific Rise: Spiess, F. N. et al. (1980). Science, 207, 1421–1433. More than 700 endemic vent species described to date. Vent ecosystems are now considered prime candidates for analogs of life on Enceladus or Europa."
+        },
+        {
+          "id": "st3",
+          "group": "Chemical Oceanography",
+          "label": "Revelle & Suess — Ocean CO₂ Uptake Study",
+          "date": "1957",
+          "loc": "Scripps Institution of Oceanography, La Jolla, California",
+          "coords": [
+            32.87,
+            -117.25
+          ],
+          "links": [],
+          "repl": "robust",
+          "hint": "Revelle and Suess measured how readily seawater absorbs atmospheric CO₂ and found a critical limitation: the 'Revelle factor' — the carbonate chemistry of seawater means the ocean can absorb only about a tenth as much CO₂ as its size implies. They warned that humanity was conducting a large-scale geophysical experiment with uncertain outcomes. Their paper directly launched the Keeling atmospheric CO₂ monitoring programme and the field of carbon-cycle science.",
+          "tag": "EXPERIMENT",
+          "note": "Revelle, R. & Suess, H. E. (1957). 'Carbon dioxide exchange between atmosphere and ocean and the question of an increase of atmospheric CO₂ during the past decades.' Tellus, 9, 18–27. The Revelle (buffer) factor — the ratio of fractional change in pCO₂ to fractional change in dissolved inorganic carbon — has a value of ~10, critically limiting ocean uptake efficiency. Revelle commissioned C. D. Keeling to begin continuous CO₂ monitoring at Mauna Loa in 1958, producing the iconic Keeling curve. The ocean has absorbed ~25–30% of all anthropogenic CO₂ emissions since industrialisation (Friedlingstein et al. 2022, Earth System Science Data)."
+        },
+        {
+          "id": "st4",
+          "group": "Deep Sea & Seafloor",
+          "label": "Marie Tharp & Heezen — Ocean Floor Mapping",
+          "date": "1952",
+          "loc": "Lamont-Doherty Geological Observatory, Palisades, New York",
+          "coords": [
+            41,
+            -73.91
+          ],
+          "links": [],
+          "repl": "robust",
+          "hint": "Working from echo-sounding data gathered by research ships, Marie Tharp drafted the first systematic maps of the ocean floor and identified a continuous rift valley running along the Mid-Atlantic Ridge — a discovery that was smoking-gun evidence for seafloor spreading at a time when the geological establishment still resisted continental drift. Her 1977 World Ocean Floor Panorama became the defining visual representation of the submarine world.",
+          "tag": "FIELD STUDY",
+          "note": "Heezen, B. C. & Tharp, M. (1959). 'Floors of the Oceans, I: The North Atlantic.' Geological Society of America Special Paper 65 — the first systematic regional map. World Ocean Floor Panorama (1977), painted by Heinrich Berann from Tharp's data. Tharp's rift valley interpretation was initially rejected by Heezen as 'girl talk'; seismological confirmation of the rift's earthquake epicentres clinched it. The maps provided critical pre-satellite support for plate tectonics and are among the most reproduced scientific illustrations of the 20th century."
+        },
+        {
+          "id": "st5",
+          "group": "Chemical Oceanography",
+          "label": "GEOSECS — First Global Ocean Chemistry Sections",
+          "date": "1972",
+          "loc": "Lamont-Doherty Earth Observatory, Palisades, New York",
+          "coords": [
+            41,
+            -73.91
+          ],
+          "links": [],
+          "repl": "robust",
+          "hint": "The Geochemical Ocean Sections Study (1972–1978) conducted the first systematic full-depth chemical transects of the Atlantic, Pacific and Indian Oceans, measuring tracers — radiocarbon, tritium, dissolved oxygen, nutrients, helium isotopes — at hundreds of stations. GEOSECS established pre-disturbance chemical baselines, revealed the age and flow direction of deep water masses, and confirmed that deep Pacific water is centuries older than deep Atlantic water.",
+          "tag": "FIELD STUDY",
+          "note": "Broecker, W. S. & Peng, T.-H. (1982). Tracers in the Sea. Lamont-Doherty Geological Observatory — the synthesis volume. GEOSECS demonstrated that ¹⁴C ages of deep Atlantic water (~200 years) vs deep Pacific water (~800–1,000 years) are consistent with the thermohaline circulation model. The programme was succeeded by WOCE (1990–2002), CLIVAR (2004–present) and GO-SHIP (ongoing). Data publicly archived at NOAA's World Ocean Circulation Experiment repository. Foundation of modern ocean biogeochemistry."
+        },
+        {
+          "id": "st6",
+          "group": "Physical Oceanography",
+          "label": "Stommel's Gulf Stream Studies",
+          "date": "1958",
+          "loc": "Woods Hole Oceanographic Institution, Massachusetts",
+          "coords": [
+            41.52,
+            -70.67
+          ],
+          "links": [],
+          "repl": "robust",
+          "hint": "Henry Stommel produced the first dynamically consistent theory and empirical characterisation of the Gulf Stream: a narrow, intense northward jet along the western boundary of the Atlantic, returning as a broad slow drift in the east. His 5-page 1948 model showed this east-west asymmetry arises from the latitudinal variation of the Coriolis force — a result that applies to all ocean basins. The Gulf Stream is now understood as part of the Atlantic Meridional Overturning Circulation, transporting 1.3 petawatts of heat northward.",
+          "tag": "FIELD STUDY",
+          "note": "Stommel, H. (1948). 'The westward intensification of wind-driven ocean currents.' Transactions AGU, 29, 202–206. Stommel, H. (1958). The Gulf Stream: A Physical and Dynamical Description. University of California Press. Observational confirmation: Fuglister, F. C. & Worthington, L. V. (1951). Tellus, 3, 1–14. Modern transport estimates (~17 Sv at 26°N from RAPID array, Cunningham et al. 2007, Science) show decadal weakening; AMOC decline is the subject of active research and debate."
+        },
+        {
+          "id": "st7",
+          "group": "Marine Conservation & Policy",
+          "label": "Great Pacific Garbage Patch Discovery",
+          "date": "1997",
+          "loc": "Algalita Marine Research Institute, Long Beach, California",
+          "coords": [
+            33.77,
+            -118.19
+          ],
+          "links": [],
+          "repl": "robust",
+          "hint": "During a 1997 yacht race crossing the North Pacific Subtropical Gyre, Charles Moore encountered a vast, persistent field of plastic debris — fragments so dense they outnumbered zooplankton six to one in some tows. The discovery revealed that convergent gyres accumulate floating plastic indefinitely, and triggered global concern about microplastic ingestion in marine food webs, chemical leaching from plastic, and the centuries-long persistence of polymer fragments in the open ocean.",
+          "tag": "FIELD STUDY",
+          "note": "Moore, C. J., Moore, S. L., Leecaster, M. K. & Weisberg, S. B. (2001). 'A comparison of plastic and plankton in the North Pacific Central Gyre.' Marine Pollution Bulletin, 42, 1297–1300. The 'patch' is not a solid island but a high-concentration diffuse zone; total mass estimates range widely (45,000–129,000 tonnes of surface plastic: The Ocean Cleanup, 2018). Microplastics (< 5 mm) far exceed macroplastics by particle count (Thompson, R. C. et al. 2004, Science, 304, 838). Similar accumulation zones exist in all five subtropical gyres."
+        },
+        {
+          "id": "st8",
+          "group": "Climate & Ocean Interaction",
+          "label": "Pacemaker of the Ice Ages (Hays, Imbrie & Shackleton)",
+          "date": "1976",
+          "loc": "Lamont-Doherty Earth Observatory, Palisades, New York",
+          "coords": [
+            41,
+            -73.91
+          ],
+          "links": [],
+          "repl": "robust",
+          "hint": "By analysing oxygen-isotope and microfossil records in two Indian Ocean sediment cores, Hays, Imbrie and Shackleton showed that the dominant cycles in ice volume — at 100,000, 41,000 and 23,000 years — match precisely the three periodicities of Earth's orbital variations. The deep ocean floor had recorded the rhythm of the ice ages with extraordinary fidelity, finally confirming Milanković's orbital theory after decades of controversy.",
+          "tag": "FIELD STUDY",
+          "note": "Hays, J. D., Imbrie, J. & Shackleton, N. J. (1976). 'Variations in the Earth's orbit: Pacemaker of the ice ages.' Science, 194, 1121–1132 — cited >5,000 times; selected by Discover magazine as one of the 20 greatest science papers of the 20th century. Used SPECMAP spectral analysis to match sediment core cycles to orbital frequencies. The study closed the century-long debate over Milanković — but the mechanism amplifying small orbital insolation signals into large glacial cycles remains an active research question (the '100-kyr problem')."
+        },
+        {
+          "id": "st9",
+          "group": "Ocean Observation & Methods",
+          "label": "The Argo Programme — Global Ocean Profiling",
+          "date": "2000",
+          "loc": "Scripps Institution of Oceanography, La Jolla, California",
+          "coords": [
+            32.87,
+            -117.25
+          ],
+          "links": [],
+          "repl": "robust",
+          "hint": "Argo is an international array of ~4,000 autonomous floats that drift with deep currents, dive to 2,000 m every ten days while measuring temperature and salinity as they ascend, then surface to transmit data by satellite. For the first time, oceanographers have near-real-time global measurements of the upper ocean interior — transforming climate monitoring, ocean heat content estimates and weather forecasting in a way comparable to what weather satellites did for the atmosphere.",
+          "tag": "FIELD STUDY",
+          "note": "Roemmich, D. et al. (2009). 'The Argo program: Observing the global ocean with profiling floats.' Oceanography, 22, 34–43. By 2023: >4,000 active floats, >2 million profiles, 30+ contributing nations. Deep Argo (to 6,000 m) and BGC-Argo (biogeochemical sensors) extensions are operational. Argo data closed the global sea-level budget by quantifying the ocean's thermal expansion contribution (Domingues et al. 2008, Nature). The programme is the primary data source for global ocean heat content time series, which show ~700 ZJ of absorbed heat since 1955."
+        },
+        {
+          "id": "st10",
+          "group": "Marine Conservation & Policy",
+          "label": "Gulf of Mexico Dead Zone Surveys",
+          "date": "1985",
+          "loc": "Louisiana State University, Baton Rouge, Louisiana",
+          "coords": [
+            30.41,
+            -91.18
+          ],
+          "links": [],
+          "repl": "robust",
+          "hint": "Systematic surveys of the Louisiana continental shelf beginning in 1985 documented a seasonally recurring hypoxic zone — one of the world's largest, reaching up to 22,000 km² in summer — driven by Mississippi River nutrient runoff that triggers algal blooms whose decomposition strips bottom water of oxygen. The surveys established a direct link between agricultural nitrogen use in the US Midwest and the collapse of benthic communities and demersal fisheries hundreds of kilometres offshore.",
+          "tag": "FIELD STUDY",
+          "note": "Rabalais, N. N., Turner, R. E. & Wiseman, W. J. (2002). 'Gulf of Mexico hypoxia, a.k.a. \"The Dead Zone\".' Annual Review of Ecology and Systematics, 33, 235–263. The zone has grown since monitoring began, tracking increases in Mississippi nitrogen load. Diaz, R. J. & Rosenberg, R. (2008). 'Spreading dead zones and consequences for marine ecosystems.' Science, 321, 926–929 documented > 400 hypoxic zones globally, all worsened since the 1960s. The Gulf dead zone is the best-monitored example of nutrient-driven hypoxia and the primary case study driving US nitrogen policy debates."
+        },
+        {
+          "id": "st11",
+          "group": "Marine Biology & Ecology",
+          "label": "Blue Carbon — Seagrass & Mangrove Sequestration Studies",
+          "date": "2010",
+          "loc": "Institut Mediterrani d'Estudis Avançats, Mallorca, Spain",
+          "coords": [
+            39.57,
+            2.65
+          ],
+          "links": [],
+          "repl": "mixed",
+          "hint": "Seagrasses, mangroves and salt marshes store carbon in their soils at rates per unit area far exceeding tropical rainforests, and can lock it away for millennia. Their destruction releases centuries of stored carbon back to the atmosphere. Quantifying this 'blue carbon' stock created a new scientific rationale for protecting coastal ecosystems and for including them in national greenhouse gas inventories and carbon markets.",
+          "tag": "FIELD STUDY",
+          "note": "Duarte, C. M. et al. (2005). 'Major role of marine vegetation on the oceanic carbon cycle.' Biogeosciences, 2, 1–8 — first global synthesis. Mcleod, E. et al. (2011). 'A blueprint for blue carbon.' Frontiers in Ecology and the Environment, 9, 552–560 — coined the policy term and estimated mangrove/seagrass/saltmarsh stocks at 10–22 Gt C. Repl mixed: Alongi, D. M. (2014) found some mangrove soil carbon stocks lower than early estimates; global total remains uncertain within a factor of ~3. The concept is robust; the precise magnitude of sequestration per ecosystem type requires better spatial mapping."
+        }
+      ]
     },
     {
       "id": "effect",
