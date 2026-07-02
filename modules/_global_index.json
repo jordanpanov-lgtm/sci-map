@@ -2,8 +2,8 @@
   "_meta": {
     "total_entries": 836,
     "folio_count": 11,
-    "xlink_pairs": 2,
-    "keyword_terms": 676,
+    "xlink_pairs": 8,
+    "keyword_terms": 1061,
     "folios": [
       {
         "id": "anatomy-histology",
@@ -913,6 +913,42 @@
     ],
     "neuroscience::db8": [
       "general-cognitive-psych::db7"
+    ],
+    "neuroscience::th8": [
+      "physiology-organ-systems::th9"
+    ],
+    "physiology-organ-systems::th9": [
+      "neuroscience::th8"
+    ],
+    "neuroscience::th11": [
+      "physiology-organ-systems::co7"
+    ],
+    "physiology-organ-systems::co7": [
+      "neuroscience::th11"
+    ],
+    "neuroscience::st1": [
+      "physiology-organ-systems::st1"
+    ],
+    "physiology-organ-systems::st1": [
+      "neuroscience::st1"
+    ],
+    "neuroscience::co1": [
+      "physiology-organ-systems::co1"
+    ],
+    "physiology-organ-systems::co1": [
+      "neuroscience::co1"
+    ],
+    "neuroscience::co6": [
+      "physiology-organ-systems::st11"
+    ],
+    "physiology-organ-systems::st11": [
+      "neuroscience::co6"
+    ],
+    "neuroscience::me7": [
+      "physiology-organ-systems::me1"
+    ],
+    "physiology-organ-systems::me1": [
+      "neuroscience::me7"
     ]
   },
   "entry_keywords": {
@@ -1947,6 +1983,595 @@
       "AAV vector delivery",
       "vision restoration",
       "channelrhodopsin human trial"
+    ],
+    "physiology-organ-systems::th1": [
+      "action potential model",
+      "voltage-gated ion channel",
+      "sodium conductance",
+      "membrane excitability",
+      "quantitative neuroscience"
+    ],
+    "physiology-organ-systems::th2": [
+      "cyclic AMP",
+      "G-protein signalling",
+      "second messenger",
+      "signal transduction",
+      "receptor kinase"
+    ],
+    "physiology-organ-systems::th3": [
+      "actin myosin interaction",
+      "cross-bridge cycling",
+      "sarcomere shortening",
+      "muscle contraction mechanism"
+    ],
+    "physiology-organ-systems::th4": [
+      "ventricular preload",
+      "end-diastolic volume",
+      "stroke volume regulation",
+      "length-tension relationship",
+      "cardiac contractility"
+    ],
+    "physiology-organ-systems::th5": [
+      "vascular resistance",
+      "laminar flow",
+      "vessel radius",
+      "blood viscosity",
+      "Poiseuille flow"
+    ],
+    "physiology-organ-systems::th6": [
+      "mean systemic filling pressure",
+      "venous return",
+      "renal pressure natriuresis",
+      "fluid balance model",
+      "cardiovascular integration"
+    ],
+    "physiology-organ-systems::th7": [
+      "CO2 ventilatory drive",
+      "peripheral chemoreceptor",
+      "arterial pCO2",
+      "respiratory control centre",
+      "central chemoreceptor"
+    ],
+    "physiology-organ-systems::th8": [
+      "loop of Henle",
+      "medullary osmotic gradient",
+      "countercurrent exchange",
+      "urine concentration",
+      "sodium reabsorption"
+    ],
+    "physiology-organ-systems::th9": [
+      "hypothalamic releasing hormone",
+      "pituitary portal system",
+      "HPA axis",
+      "HPG axis",
+      "neuroendocrine control"
+    ],
+    "physiology-organ-systems::th10": [
+      "internal environment stability",
+      "negative feedback loop",
+      "set-point regulation",
+      "milieu intérieur",
+      "physiological equilibrium"
+    ],
+    "physiology-organ-systems::st1": [
+      "voltage clamp technique",
+      "squid giant axon",
+      "ion conductance measurement",
+      "action potential model",
+      "quantitative physiology"
+    ],
+    "physiology-organ-systems::st2": [
+      "electron microscopy muscle",
+      "sarcomere structure",
+      "myosin head",
+      "actin filament",
+      "striated muscle"
+    ],
+    "physiology-organ-systems::st3": [
+      "blood circulation proof",
+      "systemic circulation",
+      "venous valve",
+      "cardiac output measurement",
+      "De Motu Cordis"
+    ],
+    "physiology-organ-systems::st4": [
+      "Frank-Starling mechanism",
+      "isolated heart preparation",
+      "cardiac preload",
+      "stroke volume",
+      "heart-lung preparation"
+    ],
+    "physiology-organ-systems::st5": [
+      "capillary recruitment",
+      "oxygen diffusion",
+      "muscle perfusion",
+      "tissue oxygenation",
+      "exercise hyperemia"
+    ],
+    "physiology-organ-systems::st6": [
+      "alveolar CO2",
+      "rebreathing experiment",
+      "central chemoreceptor",
+      "ventilatory response CO2",
+      "respiratory drive"
+    ],
+    "physiology-organ-systems::st7": [
+      "hypoxic pulmonary vasoconstriction",
+      "V/Q matching",
+      "alveolar hypoxia",
+      "pulmonary artery pressure",
+      "ventilation perfusion"
+    ],
+    "physiology-organ-systems::st8": [
+      "inulin clearance",
+      "glomerular filtration rate",
+      "PAH clearance",
+      "renal plasma flow",
+      "tubular function"
+    ],
+    "physiology-organ-systems::st9": [
+      "insulin discovery",
+      "pancreatic extract",
+      "beta cell",
+      "blood glucose regulation",
+      "diabetes reversal"
+    ],
+    "physiology-organ-systems::st10": [
+      "stress response physiology",
+      "HPA axis activation",
+      "cortisol release",
+      "general adaptation syndrome",
+      "alarm reaction"
+    ],
+    "physiology-organ-systems::st11": [
+      "sympathoadrenal response",
+      "epinephrine release",
+      "fight or flight",
+      "autonomic nervous system",
+      "emergency reaction"
+    ],
+    "physiology-organ-systems::st12": [
+      "cephalic phase digestion",
+      "conditioned reflex digestion",
+      "gastric acid secretion",
+      "vagal stimulation",
+      "pepsin secretion"
+    ],
+    "physiology-organ-systems::ef1": [
+      "capillary hydrostatic pressure",
+      "oncotic pressure",
+      "transcapillary fluid exchange",
+      "oedema formation",
+      "Starling forces"
+    ],
+    "physiology-organ-systems::ef2": [
+      "haemoglobin oxygen affinity",
+      "oxygen dissociation curve",
+      "CO2 Bohr shift",
+      "pH effect oxygen",
+      "oxygen delivery"
+    ],
+    "physiology-organ-systems::ef3": [
+      "CO2 carriage in blood",
+      "carbaminohemoglobin",
+      "bicarbonate shift",
+      "deoxygenation CO2 release",
+      "Haldane effect"
+    ],
+    "physiology-organ-systems::ef4": [
+      "Donnan equilibrium",
+      "membrane ion distribution",
+      "charged protein osmosis",
+      "electrochemical equilibrium",
+      "osmotic pressure membrane"
+    ],
+    "physiology-organ-systems::ef5": [
+      "myogenic autoregulation",
+      "stretch-activated channel",
+      "renal autoregulation",
+      "vascular tone",
+      "autoregulation blood flow"
+    ],
+    "physiology-organ-systems::ef6": [
+      "force-frequency relationship",
+      "cardiac calcium cycling",
+      "positive staircase",
+      "inotropy",
+      "heart rate contractility"
+    ],
+    "physiology-organ-systems::ef7": [
+      "apparent viscosity",
+      "microcirculation",
+      "red cell axial migration",
+      "haematocrit small vessel",
+      "non-Newtonian blood"
+    ],
+    "physiology-organ-systems::ef8": [
+      "pulmonary stretch receptor",
+      "vagal inflation reflex",
+      "tidal volume regulation",
+      "lung inflation reflex",
+      "breathing pattern"
+    ],
+    "physiology-organ-systems::ef9": [
+      "intracranial pressure response",
+      "cerebral perfusion pressure",
+      "Cushing triad",
+      "hypertensive bradycardia",
+      "ICP physiology"
+    ],
+    "physiology-organ-systems::ef10": [
+      "intrathoracic pressure",
+      "venous return Valsalva",
+      "baroreflex response",
+      "autonomic assessment",
+      "forced expiration phases"
+    ],
+    "physiology-organ-systems::co1": [
+      "membrane depolarisation",
+      "sodium influx",
+      "refractory period",
+      "all-or-none principle",
+      "nerve impulse"
+    ],
+    "physiology-organ-systems::co2": [
+      "potassium equilibrium",
+      "Nernst equation",
+      "Goldman equation",
+      "electrochemical gradient",
+      "resting membrane potential"
+    ],
+    "physiology-organ-systems::co3": [
+      "heart rate",
+      "stroke volume",
+      "preload afterload",
+      "ejection fraction",
+      "cardiac index"
+    ],
+    "physiology-organ-systems::co4": [
+      "surfactant function",
+      "alveolar surface tension",
+      "airway resistance",
+      "elastic recoil",
+      "respiratory mechanics"
+    ],
+    "physiology-organ-systems::co5": [
+      "pH buffering",
+      "bicarbonate system",
+      "arterial blood gas",
+      "metabolic acidosis",
+      "respiratory compensation"
+    ],
+    "physiology-organ-systems::co6": [
+      "filtration fraction",
+      "renal autoregulation",
+      "tubular reabsorption",
+      "GFR estimation",
+      "renal clearance"
+    ],
+    "physiology-organ-systems::co7": [
+      "negative feedback endocrine",
+      "hypothalamic pituitary axis",
+      "steroid hormone",
+      "peptide hormone",
+      "axis regulation"
+    ],
+    "physiology-organ-systems::co8": [
+      "acetylcholine release",
+      "motor end plate",
+      "nicotinic receptor",
+      "neuromuscular transmission",
+      "myasthenia gravis"
+    ],
+    "physiology-organ-systems::co9": [
+      "V/Q ratio",
+      "alveolar dead space",
+      "physiological shunt",
+      "gas exchange efficiency",
+      "pulmonary gas exchange"
+    ],
+    "physiology-organ-systems::co10": [
+      "enteric nervous system",
+      "myenteric plexus",
+      "peristalsis reflex",
+      "intestinal motility",
+      "gut brain axis"
+    ],
+    "physiology-organ-systems::co11": [
+      "parietal cell",
+      "proton pump",
+      "histamine H2 receptor",
+      "gastrin secretion",
+      "peptic ulcer physiology"
+    ],
+    "physiology-organ-systems::co12": [
+      "platelet activation",
+      "coagulation factor",
+      "fibrin clot",
+      "thrombosis mechanism",
+      "anticoagulation"
+    ],
+    "physiology-organ-systems::co13": [
+      "hypoxia-inducible factor",
+      "erythropoietin",
+      "red cell production",
+      "HIF pathway",
+      "oxygen sensor"
+    ],
+    "physiology-organ-systems::co14": [
+      "follicular phase",
+      "LH surge",
+      "luteal phase",
+      "ovarian hormone feedback",
+      "HPG axis dynamics"
+    ],
+    "physiology-organ-systems::co15": [
+      "foramen ovale",
+      "ductus arteriosus",
+      "fetal shunt",
+      "placental circulation",
+      "neonatal cardiovascular"
+    ],
+    "physiology-organ-systems::co16": [
+      "intracellular fluid",
+      "extracellular fluid",
+      "plasma volume",
+      "indicator dilution method",
+      "body water distribution"
+    ],
+    "physiology-organ-systems::co17": [
+      "calcium-induced calcium release",
+      "sarcoplasmic reticulum",
+      "troponin activation",
+      "smooth muscle calcium",
+      "excitation-contraction coupling"
+    ],
+    "physiology-organ-systems::me1": [
+      "patch clamp technique",
+      "ion channel recording",
+      "single channel conductance",
+      "gigaohm seal",
+      "membrane current"
+    ],
+    "physiology-organ-systems::me2": [
+      "cardiac catheterisation",
+      "Fick principle",
+      "pressure-volume loop",
+      "haemodynamic measurement",
+      "cardiac output measurement"
+    ],
+    "physiology-organ-systems::me3": [
+      "spirometry",
+      "forced vital capacity",
+      "FEV1",
+      "body plethysmography",
+      "pulmonary function test"
+    ],
+    "physiology-organ-systems::me4": [
+      "inulin clearance method",
+      "creatinine clearance",
+      "GFR measurement",
+      "PAH extraction",
+      "tubular secretion assay"
+    ],
+    "physiology-organ-systems::me5": [
+      "radioimmunoassay",
+      "competitive binding assay",
+      "hormone measurement",
+      "antibody antigen tracer",
+      "endocrine assay"
+    ],
+    "physiology-organ-systems::me6": [
+      "micropuncture technique",
+      "nephron segment perfusion",
+      "tubular fluid collection",
+      "Bowman capsule sampling",
+      "renal tubule function"
+    ],
+    "physiology-organ-systems::fg1": [
+      "blood circulation discovery",
+      "De Motu Cordis",
+      "venous valve",
+      "systemic circulation",
+      "cardiac output"
+    ],
+    "physiology-organ-systems::fg2": [
+      "capillary recruitment muscle",
+      "Nobel Prize physiology 1920",
+      "muscle oxygenation",
+      "oxygen diffusion model"
+    ],
+    "physiology-organ-systems::fg3": [
+      "Starling forces capillary",
+      "Frank-Starling law",
+      "heart-lung preparation",
+      "renal physiology London"
+    ],
+    "physiology-organ-systems::fg4": [
+      "voltage clamp Nobel",
+      "action potential mechanism",
+      "ionic hypothesis nerve",
+      "squid axon",
+      "nerve membrane"
+    ],
+    "physiology-organ-systems::fg5": [
+      "sliding filament theory",
+      "cross-bridge model",
+      "muscular contraction biophysics",
+      "sarcomere mechanics"
+    ],
+    "physiology-organ-systems::fg6": [
+      "CO2 ventilatory stimulus",
+      "gas analysis respiratory",
+      "oxygen therapy mining",
+      "respiratory physiology pioneer"
+    ],
+    "physiology-organ-systems::fg7": [
+      "cardiovascular model",
+      "venous return curves",
+      "renal pressure natriuresis",
+      "mean systemic filling pressure"
+    ],
+    "physiology-organ-systems::fg8": [
+      "West zones lung",
+      "V/Q inequality",
+      "high-altitude physiology",
+      "pulmonary blood flow distribution"
+    ],
+    "physiology-organ-systems::fg9": [
+      "renal clearance pioneer",
+      "GFR measurement",
+      "comparative kidney evolution",
+      "aquatic terrestrial transition"
+    ],
+    "physiology-organ-systems::fg10": [
+      "insulin isolation Nobel",
+      "diabetes reversal",
+      "pancreatic extract",
+      "Toronto discovery 1922"
+    ],
+    "physiology-organ-systems::fg11": [
+      "cyclic AMP discovery",
+      "Nobel Prize 1971",
+      "adenylyl cyclase",
+      "hormone signal second messenger"
+    ],
+    "physiology-organ-systems::fg12": [
+      "milieu intérieur",
+      "experimental medicine",
+      "liver glycogen discovery",
+      "internal environment",
+      "physiological stability"
+    ],
+    "physiology-organ-systems::fg13": [
+      "homeostasis term",
+      "sympathoadrenal",
+      "fight or flight",
+      "autonomic physiology",
+      "bodily wisdom"
+    ],
+    "physiology-organ-systems::fg14": [
+      "hypothalamic portal system",
+      "neuroendocrine control",
+      "releasing hormone",
+      "pituitary regulation"
+    ],
+    "physiology-organ-systems::fg15": [
+      "conditioned reflex",
+      "digestive physiology Nobel",
+      "gastric secretion model",
+      "cephalic phase"
+    ],
+    "physiology-organ-systems::fg16": [
+      "ABO blood group",
+      "blood transfusion safety",
+      "agglutination discovery",
+      "Nobel Prize 1930"
+    ],
+    "physiology-organ-systems::db1": [
+      "allostasis concept",
+      "set-point model critique",
+      "predictive homeostasis",
+      "physiological regulation debate",
+      "stability vs variation"
+    ],
+    "physiology-organ-systems::db2": [
+      "endothelial glycocalyx",
+      "revised Starling principle",
+      "capillary reabsorption",
+      "oedema physiology",
+      "oncotic gradient"
+    ],
+    "physiology-organ-systems::db3": [
+      "venous return control",
+      "heart-driven output debate",
+      "Guyton model critique",
+      "peripheral resistance",
+      "filling pressure"
+    ],
+    "physiology-organ-systems::db4": [
+      "oxygen therapy COPD",
+      "hypercapnia risk",
+      "hypoxic drive COPD",
+      "high-flow oxygen",
+      "respiratory drive clinical"
+    ],
+    "physiology-organ-systems::db5": [
+      "inner medullary concentration",
+      "urea recycling",
+      "passive concentration model",
+      "inner medullary collecting duct",
+      "urine concentrating mechanism"
+    ],
+    "physiology-organ-systems::db6": [
+      "insulin signalling pathway",
+      "lipid-induced insulin resistance",
+      "diacylglycerol",
+      "ectopic fat",
+      "metabolic syndrome"
+    ],
+    "physiology-organ-systems::db7": [
+      "ventilator-induced lung injury",
+      "alveolar overdistension",
+      "plateau pressure",
+      "lung-protective ventilation",
+      "ARDS physiology"
+    ],
+    "physiology-organ-systems::db8": [
+      "sex differences physiology",
+      "female cardiac physiology",
+      "hormonal variation research",
+      "biological sex inclusion",
+      "clinical trial sex bias"
+    ],
+    "physiology-organ-systems::ap1": [
+      "low tidal volume ventilation",
+      "ARDS lung protection",
+      "plateau pressure",
+      "permissive hypercapnia",
+      "ARDSnet protocol"
+    ],
+    "physiology-organ-systems::ap2": [
+      "ACE inhibitor",
+      "angiotensin receptor blocker",
+      "renin-angiotensin-aldosterone",
+      "blood pressure control",
+      "heart failure treatment"
+    ],
+    "physiology-organ-systems::ap3": [
+      "haemodialysis",
+      "peritoneal dialysis",
+      "uraemia treatment",
+      "solute clearance",
+      "artificial kidney"
+    ],
+    "physiology-organ-systems::ap4": [
+      "sodium-glucose cotransporter",
+      "tubular glucose reabsorption",
+      "glucosuria",
+      "cardiovascular renal benefit",
+      "SGLT2 inhibitor"
+    ],
+    "physiology-organ-systems::ap5": [
+      "cardiac pacing",
+      "sinoatrial node",
+      "implantable defibrillator",
+      "arrhythmia treatment",
+      "defibrillation threshold"
+    ],
+    "physiology-organ-systems::ap6": [
+      "combined oral contraceptive",
+      "HPG axis suppression",
+      "ovulation inhibition",
+      "exogenous hormone",
+      "progesterone oestrogen"
+    ],
+    "physiology-organ-systems::ap7": [
+      "proton pump inhibitor",
+      "H+K+ ATPase inhibition",
+      "gastric acid suppression",
+      "peptic ulcer treatment",
+      "omeprazole"
     ]
   },
   "keyword_index": {
@@ -3007,7 +3632,8 @@
       "neuroscience::th8"
     ],
     "HPA axis": [
-      "neuroscience::th8"
+      "neuroscience::th8",
+      "physiology-organ-systems::th9"
     ],
     "cortisol regulation": [
       "neuroscience::th8"
@@ -3040,10 +3666,12 @@
       "neuroscience::th10"
     ],
     "steroid hormone": [
-      "neuroscience::th11"
+      "neuroscience::th11",
+      "physiology-organ-systems::co7"
     ],
     "peptide hormone": [
-      "neuroscience::th11"
+      "neuroscience::th11",
+      "physiology-organ-systems::co7"
     ],
     "gene transcription": [
       "neuroscience::th11"
@@ -3058,16 +3686,20 @@
       "neuroscience::st1"
     ],
     "squid giant axon": [
-      "neuroscience::st1"
+      "neuroscience::st1",
+      "physiology-organ-systems::st1"
     ],
     "ion conductance": [
       "neuroscience::st1"
     ],
     "action potential model": [
-      "neuroscience::st1"
+      "neuroscience::st1",
+      "physiology-organ-systems::th1",
+      "physiology-organ-systems::st1"
     ],
     "quantitative neuroscience": [
-      "neuroscience::st1"
+      "neuroscience::st1",
+      "physiology-organ-systems::th1"
     ],
     "anterograde amnesia": [
       "neuroscience::st2"
@@ -3435,16 +4067,19 @@
       "neuroscience::co1"
     ],
     "voltage-gated ion channel": [
-      "neuroscience::co1"
+      "neuroscience::co1",
+      "physiology-organ-systems::th1"
     ],
     "membrane depolarisation": [
-      "neuroscience::co1"
+      "neuroscience::co1",
+      "physiology-organ-systems::co1"
     ],
     "sodium channel": [
       "neuroscience::co1"
     ],
     "refractory period": [
-      "neuroscience::co1"
+      "neuroscience::co1",
+      "physiology-organ-systems::co1"
     ],
     "chemical synapse": [
       "neuroscience::co2"
@@ -3546,7 +4181,8 @@
       "neuroscience::co5"
     ],
     "autonomic nervous system": [
-      "neuroscience::co6"
+      "neuroscience::co6",
+      "physiology-organ-systems::st11"
     ],
     "sympathetic activation": [
       "neuroscience::co6"
@@ -3555,7 +4191,9 @@
       "neuroscience::co6"
     ],
     "fight or flight": [
-      "neuroscience::co6"
+      "neuroscience::co6",
+      "physiology-organ-systems::st11",
+      "physiology-organ-systems::fg13"
     ],
     "parasympathetic regulation": [
       "neuroscience::co6"
@@ -3688,16 +4326,19 @@
       "neuroscience::me7"
     ],
     "ion channel recording": [
-      "neuroscience::me7"
+      "neuroscience::me7",
+      "physiology-organ-systems::me1"
     ],
     "gigaohm seal": [
-      "neuroscience::me7"
+      "neuroscience::me7",
+      "physiology-organ-systems::me1"
     ],
     "ligand-gated receptor": [
       "neuroscience::me7"
     ],
     "single channel conductance": [
-      "neuroscience::me7"
+      "neuroscience::me7",
+      "physiology-organ-systems::me1"
     ],
     "golgi silver stain": [
       "neuroscience::fg1"
@@ -4017,6 +4658,1177 @@
     ],
     "channelrhodopsin human trial": [
       "neuroscience::ap6"
+    ],
+    "sodium conductance": [
+      "physiology-organ-systems::th1"
+    ],
+    "membrane excitability": [
+      "physiology-organ-systems::th1"
+    ],
+    "cyclic AMP": [
+      "physiology-organ-systems::th2"
+    ],
+    "G-protein signalling": [
+      "physiology-organ-systems::th2"
+    ],
+    "second messenger": [
+      "physiology-organ-systems::th2"
+    ],
+    "signal transduction": [
+      "physiology-organ-systems::th2"
+    ],
+    "receptor kinase": [
+      "physiology-organ-systems::th2"
+    ],
+    "actin myosin interaction": [
+      "physiology-organ-systems::th3"
+    ],
+    "cross-bridge cycling": [
+      "physiology-organ-systems::th3"
+    ],
+    "sarcomere shortening": [
+      "physiology-organ-systems::th3"
+    ],
+    "muscle contraction mechanism": [
+      "physiology-organ-systems::th3"
+    ],
+    "ventricular preload": [
+      "physiology-organ-systems::th4"
+    ],
+    "end-diastolic volume": [
+      "physiology-organ-systems::th4"
+    ],
+    "stroke volume regulation": [
+      "physiology-organ-systems::th4"
+    ],
+    "length-tension relationship": [
+      "physiology-organ-systems::th4"
+    ],
+    "cardiac contractility": [
+      "physiology-organ-systems::th4"
+    ],
+    "vascular resistance": [
+      "physiology-organ-systems::th5"
+    ],
+    "laminar flow": [
+      "physiology-organ-systems::th5"
+    ],
+    "vessel radius": [
+      "physiology-organ-systems::th5"
+    ],
+    "blood viscosity": [
+      "physiology-organ-systems::th5"
+    ],
+    "Poiseuille flow": [
+      "physiology-organ-systems::th5"
+    ],
+    "mean systemic filling pressure": [
+      "physiology-organ-systems::th6",
+      "physiology-organ-systems::fg7"
+    ],
+    "venous return": [
+      "physiology-organ-systems::th6"
+    ],
+    "renal pressure natriuresis": [
+      "physiology-organ-systems::th6",
+      "physiology-organ-systems::fg7"
+    ],
+    "fluid balance model": [
+      "physiology-organ-systems::th6"
+    ],
+    "cardiovascular integration": [
+      "physiology-organ-systems::th6"
+    ],
+    "CO2 ventilatory drive": [
+      "physiology-organ-systems::th7"
+    ],
+    "peripheral chemoreceptor": [
+      "physiology-organ-systems::th7"
+    ],
+    "arterial pCO2": [
+      "physiology-organ-systems::th7"
+    ],
+    "respiratory control centre": [
+      "physiology-organ-systems::th7"
+    ],
+    "central chemoreceptor": [
+      "physiology-organ-systems::th7",
+      "physiology-organ-systems::st6"
+    ],
+    "loop of Henle": [
+      "physiology-organ-systems::th8"
+    ],
+    "medullary osmotic gradient": [
+      "physiology-organ-systems::th8"
+    ],
+    "countercurrent exchange": [
+      "physiology-organ-systems::th8"
+    ],
+    "urine concentration": [
+      "physiology-organ-systems::th8"
+    ],
+    "sodium reabsorption": [
+      "physiology-organ-systems::th8"
+    ],
+    "hypothalamic releasing hormone": [
+      "physiology-organ-systems::th9"
+    ],
+    "pituitary portal system": [
+      "physiology-organ-systems::th9"
+    ],
+    "HPG axis": [
+      "physiology-organ-systems::th9"
+    ],
+    "neuroendocrine control": [
+      "physiology-organ-systems::th9",
+      "physiology-organ-systems::fg14"
+    ],
+    "internal environment stability": [
+      "physiology-organ-systems::th10"
+    ],
+    "negative feedback loop": [
+      "physiology-organ-systems::th10"
+    ],
+    "set-point regulation": [
+      "physiology-organ-systems::th10"
+    ],
+    "milieu intérieur": [
+      "physiology-organ-systems::th10",
+      "physiology-organ-systems::fg12"
+    ],
+    "physiological equilibrium": [
+      "physiology-organ-systems::th10"
+    ],
+    "voltage clamp technique": [
+      "physiology-organ-systems::st1"
+    ],
+    "ion conductance measurement": [
+      "physiology-organ-systems::st1"
+    ],
+    "quantitative physiology": [
+      "physiology-organ-systems::st1"
+    ],
+    "electron microscopy muscle": [
+      "physiology-organ-systems::st2"
+    ],
+    "sarcomere structure": [
+      "physiology-organ-systems::st2"
+    ],
+    "myosin head": [
+      "physiology-organ-systems::st2"
+    ],
+    "actin filament": [
+      "physiology-organ-systems::st2"
+    ],
+    "striated muscle": [
+      "physiology-organ-systems::st2"
+    ],
+    "blood circulation proof": [
+      "physiology-organ-systems::st3"
+    ],
+    "systemic circulation": [
+      "physiology-organ-systems::st3",
+      "physiology-organ-systems::fg1"
+    ],
+    "venous valve": [
+      "physiology-organ-systems::st3",
+      "physiology-organ-systems::fg1"
+    ],
+    "cardiac output measurement": [
+      "physiology-organ-systems::st3",
+      "physiology-organ-systems::me2"
+    ],
+    "De Motu Cordis": [
+      "physiology-organ-systems::st3",
+      "physiology-organ-systems::fg1"
+    ],
+    "Frank-Starling mechanism": [
+      "physiology-organ-systems::st4"
+    ],
+    "isolated heart preparation": [
+      "physiology-organ-systems::st4"
+    ],
+    "cardiac preload": [
+      "physiology-organ-systems::st4"
+    ],
+    "stroke volume": [
+      "physiology-organ-systems::st4",
+      "physiology-organ-systems::co3"
+    ],
+    "heart-lung preparation": [
+      "physiology-organ-systems::st4",
+      "physiology-organ-systems::fg3"
+    ],
+    "capillary recruitment": [
+      "physiology-organ-systems::st5"
+    ],
+    "oxygen diffusion": [
+      "physiology-organ-systems::st5"
+    ],
+    "muscle perfusion": [
+      "physiology-organ-systems::st5"
+    ],
+    "tissue oxygenation": [
+      "physiology-organ-systems::st5"
+    ],
+    "exercise hyperemia": [
+      "physiology-organ-systems::st5"
+    ],
+    "alveolar CO2": [
+      "physiology-organ-systems::st6"
+    ],
+    "rebreathing experiment": [
+      "physiology-organ-systems::st6"
+    ],
+    "ventilatory response CO2": [
+      "physiology-organ-systems::st6"
+    ],
+    "respiratory drive": [
+      "physiology-organ-systems::st6"
+    ],
+    "hypoxic pulmonary vasoconstriction": [
+      "physiology-organ-systems::st7"
+    ],
+    "V/Q matching": [
+      "physiology-organ-systems::st7"
+    ],
+    "alveolar hypoxia": [
+      "physiology-organ-systems::st7"
+    ],
+    "pulmonary artery pressure": [
+      "physiology-organ-systems::st7"
+    ],
+    "ventilation perfusion": [
+      "physiology-organ-systems::st7"
+    ],
+    "inulin clearance": [
+      "physiology-organ-systems::st8"
+    ],
+    "glomerular filtration rate": [
+      "physiology-organ-systems::st8"
+    ],
+    "PAH clearance": [
+      "physiology-organ-systems::st8"
+    ],
+    "renal plasma flow": [
+      "physiology-organ-systems::st8"
+    ],
+    "tubular function": [
+      "physiology-organ-systems::st8"
+    ],
+    "insulin discovery": [
+      "physiology-organ-systems::st9"
+    ],
+    "pancreatic extract": [
+      "physiology-organ-systems::st9",
+      "physiology-organ-systems::fg10"
+    ],
+    "beta cell": [
+      "physiology-organ-systems::st9"
+    ],
+    "blood glucose regulation": [
+      "physiology-organ-systems::st9"
+    ],
+    "diabetes reversal": [
+      "physiology-organ-systems::st9",
+      "physiology-organ-systems::fg10"
+    ],
+    "stress response physiology": [
+      "physiology-organ-systems::st10"
+    ],
+    "HPA axis activation": [
+      "physiology-organ-systems::st10"
+    ],
+    "cortisol release": [
+      "physiology-organ-systems::st10"
+    ],
+    "general adaptation syndrome": [
+      "physiology-organ-systems::st10"
+    ],
+    "alarm reaction": [
+      "physiology-organ-systems::st10"
+    ],
+    "sympathoadrenal response": [
+      "physiology-organ-systems::st11"
+    ],
+    "epinephrine release": [
+      "physiology-organ-systems::st11"
+    ],
+    "emergency reaction": [
+      "physiology-organ-systems::st11"
+    ],
+    "cephalic phase digestion": [
+      "physiology-organ-systems::st12"
+    ],
+    "conditioned reflex digestion": [
+      "physiology-organ-systems::st12"
+    ],
+    "gastric acid secretion": [
+      "physiology-organ-systems::st12"
+    ],
+    "vagal stimulation": [
+      "physiology-organ-systems::st12"
+    ],
+    "pepsin secretion": [
+      "physiology-organ-systems::st12"
+    ],
+    "capillary hydrostatic pressure": [
+      "physiology-organ-systems::ef1"
+    ],
+    "oncotic pressure": [
+      "physiology-organ-systems::ef1"
+    ],
+    "transcapillary fluid exchange": [
+      "physiology-organ-systems::ef1"
+    ],
+    "oedema formation": [
+      "physiology-organ-systems::ef1"
+    ],
+    "Starling forces": [
+      "physiology-organ-systems::ef1"
+    ],
+    "haemoglobin oxygen affinity": [
+      "physiology-organ-systems::ef2"
+    ],
+    "oxygen dissociation curve": [
+      "physiology-organ-systems::ef2"
+    ],
+    "CO2 Bohr shift": [
+      "physiology-organ-systems::ef2"
+    ],
+    "pH effect oxygen": [
+      "physiology-organ-systems::ef2"
+    ],
+    "oxygen delivery": [
+      "physiology-organ-systems::ef2"
+    ],
+    "CO2 carriage in blood": [
+      "physiology-organ-systems::ef3"
+    ],
+    "carbaminohemoglobin": [
+      "physiology-organ-systems::ef3"
+    ],
+    "bicarbonate shift": [
+      "physiology-organ-systems::ef3"
+    ],
+    "deoxygenation CO2 release": [
+      "physiology-organ-systems::ef3"
+    ],
+    "Haldane effect": [
+      "physiology-organ-systems::ef3"
+    ],
+    "Donnan equilibrium": [
+      "physiology-organ-systems::ef4"
+    ],
+    "membrane ion distribution": [
+      "physiology-organ-systems::ef4"
+    ],
+    "charged protein osmosis": [
+      "physiology-organ-systems::ef4"
+    ],
+    "electrochemical equilibrium": [
+      "physiology-organ-systems::ef4"
+    ],
+    "osmotic pressure membrane": [
+      "physiology-organ-systems::ef4"
+    ],
+    "myogenic autoregulation": [
+      "physiology-organ-systems::ef5"
+    ],
+    "stretch-activated channel": [
+      "physiology-organ-systems::ef5"
+    ],
+    "renal autoregulation": [
+      "physiology-organ-systems::ef5",
+      "physiology-organ-systems::co6"
+    ],
+    "vascular tone": [
+      "physiology-organ-systems::ef5"
+    ],
+    "autoregulation blood flow": [
+      "physiology-organ-systems::ef5"
+    ],
+    "force-frequency relationship": [
+      "physiology-organ-systems::ef6"
+    ],
+    "cardiac calcium cycling": [
+      "physiology-organ-systems::ef6"
+    ],
+    "positive staircase": [
+      "physiology-organ-systems::ef6"
+    ],
+    "inotropy": [
+      "physiology-organ-systems::ef6"
+    ],
+    "heart rate contractility": [
+      "physiology-organ-systems::ef6"
+    ],
+    "apparent viscosity": [
+      "physiology-organ-systems::ef7"
+    ],
+    "microcirculation": [
+      "physiology-organ-systems::ef7"
+    ],
+    "red cell axial migration": [
+      "physiology-organ-systems::ef7"
+    ],
+    "haematocrit small vessel": [
+      "physiology-organ-systems::ef7"
+    ],
+    "non-Newtonian blood": [
+      "physiology-organ-systems::ef7"
+    ],
+    "pulmonary stretch receptor": [
+      "physiology-organ-systems::ef8"
+    ],
+    "vagal inflation reflex": [
+      "physiology-organ-systems::ef8"
+    ],
+    "tidal volume regulation": [
+      "physiology-organ-systems::ef8"
+    ],
+    "lung inflation reflex": [
+      "physiology-organ-systems::ef8"
+    ],
+    "breathing pattern": [
+      "physiology-organ-systems::ef8"
+    ],
+    "intracranial pressure response": [
+      "physiology-organ-systems::ef9"
+    ],
+    "cerebral perfusion pressure": [
+      "physiology-organ-systems::ef9"
+    ],
+    "Cushing triad": [
+      "physiology-organ-systems::ef9"
+    ],
+    "hypertensive bradycardia": [
+      "physiology-organ-systems::ef9"
+    ],
+    "ICP physiology": [
+      "physiology-organ-systems::ef9"
+    ],
+    "intrathoracic pressure": [
+      "physiology-organ-systems::ef10"
+    ],
+    "venous return Valsalva": [
+      "physiology-organ-systems::ef10"
+    ],
+    "baroreflex response": [
+      "physiology-organ-systems::ef10"
+    ],
+    "autonomic assessment": [
+      "physiology-organ-systems::ef10"
+    ],
+    "forced expiration phases": [
+      "physiology-organ-systems::ef10"
+    ],
+    "sodium influx": [
+      "physiology-organ-systems::co1"
+    ],
+    "all-or-none principle": [
+      "physiology-organ-systems::co1"
+    ],
+    "nerve impulse": [
+      "physiology-organ-systems::co1"
+    ],
+    "potassium equilibrium": [
+      "physiology-organ-systems::co2"
+    ],
+    "Nernst equation": [
+      "physiology-organ-systems::co2"
+    ],
+    "Goldman equation": [
+      "physiology-organ-systems::co2"
+    ],
+    "electrochemical gradient": [
+      "physiology-organ-systems::co2"
+    ],
+    "resting membrane potential": [
+      "physiology-organ-systems::co2"
+    ],
+    "heart rate": [
+      "physiology-organ-systems::co3"
+    ],
+    "preload afterload": [
+      "physiology-organ-systems::co3"
+    ],
+    "ejection fraction": [
+      "physiology-organ-systems::co3"
+    ],
+    "cardiac index": [
+      "physiology-organ-systems::co3"
+    ],
+    "surfactant function": [
+      "physiology-organ-systems::co4"
+    ],
+    "alveolar surface tension": [
+      "physiology-organ-systems::co4"
+    ],
+    "airway resistance": [
+      "physiology-organ-systems::co4"
+    ],
+    "elastic recoil": [
+      "physiology-organ-systems::co4"
+    ],
+    "respiratory mechanics": [
+      "physiology-organ-systems::co4"
+    ],
+    "pH buffering": [
+      "physiology-organ-systems::co5"
+    ],
+    "bicarbonate system": [
+      "physiology-organ-systems::co5"
+    ],
+    "arterial blood gas": [
+      "physiology-organ-systems::co5"
+    ],
+    "metabolic acidosis": [
+      "physiology-organ-systems::co5"
+    ],
+    "respiratory compensation": [
+      "physiology-organ-systems::co5"
+    ],
+    "filtration fraction": [
+      "physiology-organ-systems::co6"
+    ],
+    "tubular reabsorption": [
+      "physiology-organ-systems::co6"
+    ],
+    "GFR estimation": [
+      "physiology-organ-systems::co6"
+    ],
+    "renal clearance": [
+      "physiology-organ-systems::co6"
+    ],
+    "negative feedback endocrine": [
+      "physiology-organ-systems::co7"
+    ],
+    "hypothalamic pituitary axis": [
+      "physiology-organ-systems::co7"
+    ],
+    "axis regulation": [
+      "physiology-organ-systems::co7"
+    ],
+    "acetylcholine release": [
+      "physiology-organ-systems::co8"
+    ],
+    "motor end plate": [
+      "physiology-organ-systems::co8"
+    ],
+    "nicotinic receptor": [
+      "physiology-organ-systems::co8"
+    ],
+    "neuromuscular transmission": [
+      "physiology-organ-systems::co8"
+    ],
+    "myasthenia gravis": [
+      "physiology-organ-systems::co8"
+    ],
+    "V/Q ratio": [
+      "physiology-organ-systems::co9"
+    ],
+    "alveolar dead space": [
+      "physiology-organ-systems::co9"
+    ],
+    "physiological shunt": [
+      "physiology-organ-systems::co9"
+    ],
+    "gas exchange efficiency": [
+      "physiology-organ-systems::co9"
+    ],
+    "pulmonary gas exchange": [
+      "physiology-organ-systems::co9"
+    ],
+    "enteric nervous system": [
+      "physiology-organ-systems::co10"
+    ],
+    "myenteric plexus": [
+      "physiology-organ-systems::co10"
+    ],
+    "peristalsis reflex": [
+      "physiology-organ-systems::co10"
+    ],
+    "intestinal motility": [
+      "physiology-organ-systems::co10"
+    ],
+    "gut brain axis": [
+      "physiology-organ-systems::co10"
+    ],
+    "parietal cell": [
+      "physiology-organ-systems::co11"
+    ],
+    "proton pump": [
+      "physiology-organ-systems::co11"
+    ],
+    "histamine H2 receptor": [
+      "physiology-organ-systems::co11"
+    ],
+    "gastrin secretion": [
+      "physiology-organ-systems::co11"
+    ],
+    "peptic ulcer physiology": [
+      "physiology-organ-systems::co11"
+    ],
+    "platelet activation": [
+      "physiology-organ-systems::co12"
+    ],
+    "coagulation factor": [
+      "physiology-organ-systems::co12"
+    ],
+    "fibrin clot": [
+      "physiology-organ-systems::co12"
+    ],
+    "thrombosis mechanism": [
+      "physiology-organ-systems::co12"
+    ],
+    "anticoagulation": [
+      "physiology-organ-systems::co12"
+    ],
+    "hypoxia-inducible factor": [
+      "physiology-organ-systems::co13"
+    ],
+    "erythropoietin": [
+      "physiology-organ-systems::co13"
+    ],
+    "red cell production": [
+      "physiology-organ-systems::co13"
+    ],
+    "HIF pathway": [
+      "physiology-organ-systems::co13"
+    ],
+    "oxygen sensor": [
+      "physiology-organ-systems::co13"
+    ],
+    "follicular phase": [
+      "physiology-organ-systems::co14"
+    ],
+    "LH surge": [
+      "physiology-organ-systems::co14"
+    ],
+    "luteal phase": [
+      "physiology-organ-systems::co14"
+    ],
+    "ovarian hormone feedback": [
+      "physiology-organ-systems::co14"
+    ],
+    "HPG axis dynamics": [
+      "physiology-organ-systems::co14"
+    ],
+    "foramen ovale": [
+      "physiology-organ-systems::co15"
+    ],
+    "ductus arteriosus": [
+      "physiology-organ-systems::co15"
+    ],
+    "fetal shunt": [
+      "physiology-organ-systems::co15"
+    ],
+    "placental circulation": [
+      "physiology-organ-systems::co15"
+    ],
+    "neonatal cardiovascular": [
+      "physiology-organ-systems::co15"
+    ],
+    "intracellular fluid": [
+      "physiology-organ-systems::co16"
+    ],
+    "extracellular fluid": [
+      "physiology-organ-systems::co16"
+    ],
+    "plasma volume": [
+      "physiology-organ-systems::co16"
+    ],
+    "indicator dilution method": [
+      "physiology-organ-systems::co16"
+    ],
+    "body water distribution": [
+      "physiology-organ-systems::co16"
+    ],
+    "calcium-induced calcium release": [
+      "physiology-organ-systems::co17"
+    ],
+    "sarcoplasmic reticulum": [
+      "physiology-organ-systems::co17"
+    ],
+    "troponin activation": [
+      "physiology-organ-systems::co17"
+    ],
+    "smooth muscle calcium": [
+      "physiology-organ-systems::co17"
+    ],
+    "excitation-contraction coupling": [
+      "physiology-organ-systems::co17"
+    ],
+    "patch clamp technique": [
+      "physiology-organ-systems::me1"
+    ],
+    "membrane current": [
+      "physiology-organ-systems::me1"
+    ],
+    "cardiac catheterisation": [
+      "physiology-organ-systems::me2"
+    ],
+    "Fick principle": [
+      "physiology-organ-systems::me2"
+    ],
+    "pressure-volume loop": [
+      "physiology-organ-systems::me2"
+    ],
+    "haemodynamic measurement": [
+      "physiology-organ-systems::me2"
+    ],
+    "spirometry": [
+      "physiology-organ-systems::me3"
+    ],
+    "forced vital capacity": [
+      "physiology-organ-systems::me3"
+    ],
+    "FEV1": [
+      "physiology-organ-systems::me3"
+    ],
+    "body plethysmography": [
+      "physiology-organ-systems::me3"
+    ],
+    "pulmonary function test": [
+      "physiology-organ-systems::me3"
+    ],
+    "inulin clearance method": [
+      "physiology-organ-systems::me4"
+    ],
+    "creatinine clearance": [
+      "physiology-organ-systems::me4"
+    ],
+    "GFR measurement": [
+      "physiology-organ-systems::me4",
+      "physiology-organ-systems::fg9"
+    ],
+    "PAH extraction": [
+      "physiology-organ-systems::me4"
+    ],
+    "tubular secretion assay": [
+      "physiology-organ-systems::me4"
+    ],
+    "radioimmunoassay": [
+      "physiology-organ-systems::me5"
+    ],
+    "competitive binding assay": [
+      "physiology-organ-systems::me5"
+    ],
+    "hormone measurement": [
+      "physiology-organ-systems::me5"
+    ],
+    "antibody antigen tracer": [
+      "physiology-organ-systems::me5"
+    ],
+    "endocrine assay": [
+      "physiology-organ-systems::me5"
+    ],
+    "micropuncture technique": [
+      "physiology-organ-systems::me6"
+    ],
+    "nephron segment perfusion": [
+      "physiology-organ-systems::me6"
+    ],
+    "tubular fluid collection": [
+      "physiology-organ-systems::me6"
+    ],
+    "Bowman capsule sampling": [
+      "physiology-organ-systems::me6"
+    ],
+    "renal tubule function": [
+      "physiology-organ-systems::me6"
+    ],
+    "blood circulation discovery": [
+      "physiology-organ-systems::fg1"
+    ],
+    "cardiac output": [
+      "physiology-organ-systems::fg1"
+    ],
+    "capillary recruitment muscle": [
+      "physiology-organ-systems::fg2"
+    ],
+    "Nobel Prize physiology 1920": [
+      "physiology-organ-systems::fg2"
+    ],
+    "muscle oxygenation": [
+      "physiology-organ-systems::fg2"
+    ],
+    "oxygen diffusion model": [
+      "physiology-organ-systems::fg2"
+    ],
+    "Starling forces capillary": [
+      "physiology-organ-systems::fg3"
+    ],
+    "Frank-Starling law": [
+      "physiology-organ-systems::fg3"
+    ],
+    "renal physiology London": [
+      "physiology-organ-systems::fg3"
+    ],
+    "voltage clamp Nobel": [
+      "physiology-organ-systems::fg4"
+    ],
+    "action potential mechanism": [
+      "physiology-organ-systems::fg4"
+    ],
+    "ionic hypothesis nerve": [
+      "physiology-organ-systems::fg4"
+    ],
+    "squid axon": [
+      "physiology-organ-systems::fg4"
+    ],
+    "nerve membrane": [
+      "physiology-organ-systems::fg4"
+    ],
+    "sliding filament theory": [
+      "physiology-organ-systems::fg5"
+    ],
+    "cross-bridge model": [
+      "physiology-organ-systems::fg5"
+    ],
+    "muscular contraction biophysics": [
+      "physiology-organ-systems::fg5"
+    ],
+    "sarcomere mechanics": [
+      "physiology-organ-systems::fg5"
+    ],
+    "CO2 ventilatory stimulus": [
+      "physiology-organ-systems::fg6"
+    ],
+    "gas analysis respiratory": [
+      "physiology-organ-systems::fg6"
+    ],
+    "oxygen therapy mining": [
+      "physiology-organ-systems::fg6"
+    ],
+    "respiratory physiology pioneer": [
+      "physiology-organ-systems::fg6"
+    ],
+    "cardiovascular model": [
+      "physiology-organ-systems::fg7"
+    ],
+    "venous return curves": [
+      "physiology-organ-systems::fg7"
+    ],
+    "West zones lung": [
+      "physiology-organ-systems::fg8"
+    ],
+    "V/Q inequality": [
+      "physiology-organ-systems::fg8"
+    ],
+    "high-altitude physiology": [
+      "physiology-organ-systems::fg8"
+    ],
+    "pulmonary blood flow distribution": [
+      "physiology-organ-systems::fg8"
+    ],
+    "renal clearance pioneer": [
+      "physiology-organ-systems::fg9"
+    ],
+    "comparative kidney evolution": [
+      "physiology-organ-systems::fg9"
+    ],
+    "aquatic terrestrial transition": [
+      "physiology-organ-systems::fg9"
+    ],
+    "insulin isolation Nobel": [
+      "physiology-organ-systems::fg10"
+    ],
+    "Toronto discovery 1922": [
+      "physiology-organ-systems::fg10"
+    ],
+    "cyclic AMP discovery": [
+      "physiology-organ-systems::fg11"
+    ],
+    "Nobel Prize 1971": [
+      "physiology-organ-systems::fg11"
+    ],
+    "adenylyl cyclase": [
+      "physiology-organ-systems::fg11"
+    ],
+    "hormone signal second messenger": [
+      "physiology-organ-systems::fg11"
+    ],
+    "experimental medicine": [
+      "physiology-organ-systems::fg12"
+    ],
+    "liver glycogen discovery": [
+      "physiology-organ-systems::fg12"
+    ],
+    "internal environment": [
+      "physiology-organ-systems::fg12"
+    ],
+    "physiological stability": [
+      "physiology-organ-systems::fg12"
+    ],
+    "homeostasis term": [
+      "physiology-organ-systems::fg13"
+    ],
+    "sympathoadrenal": [
+      "physiology-organ-systems::fg13"
+    ],
+    "autonomic physiology": [
+      "physiology-organ-systems::fg13"
+    ],
+    "bodily wisdom": [
+      "physiology-organ-systems::fg13"
+    ],
+    "hypothalamic portal system": [
+      "physiology-organ-systems::fg14"
+    ],
+    "releasing hormone": [
+      "physiology-organ-systems::fg14"
+    ],
+    "pituitary regulation": [
+      "physiology-organ-systems::fg14"
+    ],
+    "conditioned reflex": [
+      "physiology-organ-systems::fg15"
+    ],
+    "digestive physiology Nobel": [
+      "physiology-organ-systems::fg15"
+    ],
+    "gastric secretion model": [
+      "physiology-organ-systems::fg15"
+    ],
+    "cephalic phase": [
+      "physiology-organ-systems::fg15"
+    ],
+    "ABO blood group": [
+      "physiology-organ-systems::fg16"
+    ],
+    "blood transfusion safety": [
+      "physiology-organ-systems::fg16"
+    ],
+    "agglutination discovery": [
+      "physiology-organ-systems::fg16"
+    ],
+    "Nobel Prize 1930": [
+      "physiology-organ-systems::fg16"
+    ],
+    "allostasis concept": [
+      "physiology-organ-systems::db1"
+    ],
+    "set-point model critique": [
+      "physiology-organ-systems::db1"
+    ],
+    "predictive homeostasis": [
+      "physiology-organ-systems::db1"
+    ],
+    "physiological regulation debate": [
+      "physiology-organ-systems::db1"
+    ],
+    "stability vs variation": [
+      "physiology-organ-systems::db1"
+    ],
+    "endothelial glycocalyx": [
+      "physiology-organ-systems::db2"
+    ],
+    "revised Starling principle": [
+      "physiology-organ-systems::db2"
+    ],
+    "capillary reabsorption": [
+      "physiology-organ-systems::db2"
+    ],
+    "oedema physiology": [
+      "physiology-organ-systems::db2"
+    ],
+    "oncotic gradient": [
+      "physiology-organ-systems::db2"
+    ],
+    "venous return control": [
+      "physiology-organ-systems::db3"
+    ],
+    "heart-driven output debate": [
+      "physiology-organ-systems::db3"
+    ],
+    "Guyton model critique": [
+      "physiology-organ-systems::db3"
+    ],
+    "peripheral resistance": [
+      "physiology-organ-systems::db3"
+    ],
+    "filling pressure": [
+      "physiology-organ-systems::db3"
+    ],
+    "oxygen therapy COPD": [
+      "physiology-organ-systems::db4"
+    ],
+    "hypercapnia risk": [
+      "physiology-organ-systems::db4"
+    ],
+    "hypoxic drive COPD": [
+      "physiology-organ-systems::db4"
+    ],
+    "high-flow oxygen": [
+      "physiology-organ-systems::db4"
+    ],
+    "respiratory drive clinical": [
+      "physiology-organ-systems::db4"
+    ],
+    "inner medullary concentration": [
+      "physiology-organ-systems::db5"
+    ],
+    "urea recycling": [
+      "physiology-organ-systems::db5"
+    ],
+    "passive concentration model": [
+      "physiology-organ-systems::db5"
+    ],
+    "inner medullary collecting duct": [
+      "physiology-organ-systems::db5"
+    ],
+    "urine concentrating mechanism": [
+      "physiology-organ-systems::db5"
+    ],
+    "insulin signalling pathway": [
+      "physiology-organ-systems::db6"
+    ],
+    "lipid-induced insulin resistance": [
+      "physiology-organ-systems::db6"
+    ],
+    "diacylglycerol": [
+      "physiology-organ-systems::db6"
+    ],
+    "ectopic fat": [
+      "physiology-organ-systems::db6"
+    ],
+    "metabolic syndrome": [
+      "physiology-organ-systems::db6"
+    ],
+    "ventilator-induced lung injury": [
+      "physiology-organ-systems::db7"
+    ],
+    "alveolar overdistension": [
+      "physiology-organ-systems::db7"
+    ],
+    "plateau pressure": [
+      "physiology-organ-systems::db7",
+      "physiology-organ-systems::ap1"
+    ],
+    "lung-protective ventilation": [
+      "physiology-organ-systems::db7"
+    ],
+    "ARDS physiology": [
+      "physiology-organ-systems::db7"
+    ],
+    "sex differences physiology": [
+      "physiology-organ-systems::db8"
+    ],
+    "female cardiac physiology": [
+      "physiology-organ-systems::db8"
+    ],
+    "hormonal variation research": [
+      "physiology-organ-systems::db8"
+    ],
+    "biological sex inclusion": [
+      "physiology-organ-systems::db8"
+    ],
+    "clinical trial sex bias": [
+      "physiology-organ-systems::db8"
+    ],
+    "low tidal volume ventilation": [
+      "physiology-organ-systems::ap1"
+    ],
+    "ARDS lung protection": [
+      "physiology-organ-systems::ap1"
+    ],
+    "permissive hypercapnia": [
+      "physiology-organ-systems::ap1"
+    ],
+    "ARDSnet protocol": [
+      "physiology-organ-systems::ap1"
+    ],
+    "ACE inhibitor": [
+      "physiology-organ-systems::ap2"
+    ],
+    "angiotensin receptor blocker": [
+      "physiology-organ-systems::ap2"
+    ],
+    "renin-angiotensin-aldosterone": [
+      "physiology-organ-systems::ap2"
+    ],
+    "blood pressure control": [
+      "physiology-organ-systems::ap2"
+    ],
+    "heart failure treatment": [
+      "physiology-organ-systems::ap2"
+    ],
+    "haemodialysis": [
+      "physiology-organ-systems::ap3"
+    ],
+    "peritoneal dialysis": [
+      "physiology-organ-systems::ap3"
+    ],
+    "uraemia treatment": [
+      "physiology-organ-systems::ap3"
+    ],
+    "solute clearance": [
+      "physiology-organ-systems::ap3"
+    ],
+    "artificial kidney": [
+      "physiology-organ-systems::ap3"
+    ],
+    "sodium-glucose cotransporter": [
+      "physiology-organ-systems::ap4"
+    ],
+    "tubular glucose reabsorption": [
+      "physiology-organ-systems::ap4"
+    ],
+    "glucosuria": [
+      "physiology-organ-systems::ap4"
+    ],
+    "cardiovascular renal benefit": [
+      "physiology-organ-systems::ap4"
+    ],
+    "SGLT2 inhibitor": [
+      "physiology-organ-systems::ap4"
+    ],
+    "cardiac pacing": [
+      "physiology-organ-systems::ap5"
+    ],
+    "sinoatrial node": [
+      "physiology-organ-systems::ap5"
+    ],
+    "implantable defibrillator": [
+      "physiology-organ-systems::ap5"
+    ],
+    "arrhythmia treatment": [
+      "physiology-organ-systems::ap5"
+    ],
+    "defibrillation threshold": [
+      "physiology-organ-systems::ap5"
+    ],
+    "combined oral contraceptive": [
+      "physiology-organ-systems::ap6"
+    ],
+    "HPG axis suppression": [
+      "physiology-organ-systems::ap6"
+    ],
+    "ovulation inhibition": [
+      "physiology-organ-systems::ap6"
+    ],
+    "exogenous hormone": [
+      "physiology-organ-systems::ap6"
+    ],
+    "progesterone oestrogen": [
+      "physiology-organ-systems::ap6"
+    ],
+    "proton pump inhibitor": [
+      "physiology-organ-systems::ap7"
+    ],
+    "H+K+ ATPase inhibition": [
+      "physiology-organ-systems::ap7"
+    ],
+    "gastric acid suppression": [
+      "physiology-organ-systems::ap7"
+    ],
+    "peptic ulcer treatment": [
+      "physiology-organ-systems::ap7"
+    ],
+    "omeprazole": [
+      "physiology-organ-systems::ap7"
     ]
   }
 }
