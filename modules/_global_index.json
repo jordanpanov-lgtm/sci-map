@@ -2,8 +2,8 @@
   "_meta": {
     "total_entries": 836,
     "folio_count": 11,
-    "xlink_pairs": 8,
-    "keyword_terms": 1061,
+    "xlink_pairs": 10,
+    "keyword_terms": 1348,
     "folios": [
       {
         "id": "anatomy-histology",
@@ -902,6 +902,18 @@
     "zoology-animal-behavior::ap6": "application · Foraging & Ecology · Invasive Species Management Using Behavioural Ecology (1990)"
   },
   "xlinks": {
+    "anatomy-histology::st2": [
+      "physiology-organ-systems::st3"
+    ],
+    "physiology-organ-systems::st3": [
+      "anatomy-histology::st2"
+    ],
+    "anatomy-histology::fg2": [
+      "physiology-organ-systems::fg1"
+    ],
+    "physiology-organ-systems::fg1": [
+      "anatomy-histology::fg2"
+    ],
     "general-cognitive-psych::me4": [
       "neuroscience::me4"
     ],
@@ -952,6 +964,445 @@
     ]
   },
   "entry_keywords": {
+    "anatomy-histology::th1": [
+      "cellular unit of life",
+      "omnis cellula e cellula",
+      "microscopy cell biology",
+      "Schleiden Schwann doctrine"
+    ],
+    "anatomy-histology::th2": [
+      "ectoderm mesoderm endoderm",
+      "germ layer specification",
+      "embryonic tissue origin",
+      "trilaminar disc",
+      "organogenesis layer"
+    ],
+    "anatomy-histology::th3": [
+      "mechanical bone adaptation",
+      "trabecular orientation",
+      "bone stress response",
+      "osteocyte mechanosensing"
+    ],
+    "anatomy-histology::th4": [
+      "closed circulatory model",
+      "venous valve anatomy",
+      "systemic venous return",
+      "quantitative blood circuit"
+    ],
+    "anatomy-histology::th5": [
+      "cytoskeletal prestress",
+      "cellular tensegrity model",
+      "actin network mechanics",
+      "intracellular force balance"
+    ],
+    "anatomy-histology::th6": [
+      "spinal nerve territory",
+      "dermatomal pain pattern",
+      "segmental skin innervation",
+      "radicular anatomy"
+    ],
+    "anatomy-histology::th7": [
+      "standardised anatomy terms",
+      "international nomenclature",
+      "Latin anatomy terms",
+      "FIPAT terminology"
+    ],
+    "anatomy-histology::th8": [
+      "myofascial continuity",
+      "deep fascia network",
+      "connective tissue web",
+      "thoracolumbar fascia"
+    ],
+    "anatomy-histology::st1": [
+      "cadaveric human dissection",
+      "Renaissance anatomy atlas",
+      "anatomical woodcut illustration",
+      "De Humani Corporis Fabrica"
+    ],
+    "anatomy-histology::st2": [
+      "blood circulation proof",
+      "De Motu Cordis",
+      "venous valve function",
+      "quantitative anatomy"
+    ],
+    "anatomy-histology::st3": [
+      "cellular disease origin",
+      "pathological anatomy Virchow",
+      "tissue microscopy diagnosis",
+      "omnis cellula e cellula"
+    ],
+    "anatomy-histology::st4": [
+      "chromatin thread discovery",
+      "mitotic figure staining",
+      "chromosome condensation",
+      "nuclear division mechanism"
+    ],
+    "anatomy-histology::st5": [
+      "capillary network discovery",
+      "frog lung microcirculation",
+      "missing link circulation",
+      "Malpighi microscopy"
+    ],
+    "anatomy-histology::st6": [
+      "first diagnostic X-ray",
+      "bone visualisation radiation",
+      "radiographic anatomy",
+      "ionising imaging pioneer"
+    ],
+    "anatomy-histology::st7": [
+      "Golgi silver stain neuron",
+      "neuron doctrine histology",
+      "neural circuit anatomy",
+      "neurohistology atlas"
+    ],
+    "anatomy-histology::st8": [
+      "haematopoietic stem cell",
+      "colony forming unit",
+      "bone marrow transplant origin",
+      "clonogenic cell proof"
+    ],
+    "anatomy-histology::st9": [
+      "cryosection anatomy dataset",
+      "digital anatomy atlas",
+      "virtual dissection resource",
+      "cross-sectional body data"
+    ],
+    "anatomy-histology::st10": [
+      "anatomy textbook atlas",
+      "Gray's anatomy publication",
+      "systematic anatomy reference",
+      "medical illustration atlas"
+    ],
+    "anatomy-histology::st11": [
+      "tissue protein expression",
+      "immunohistochemistry atlas",
+      "organ proteome map",
+      "human protein distribution"
+    ],
+    "anatomy-histology::ef1": [
+      "cortical bone adaptation",
+      "load-induced remodelling",
+      "stress shielding effect",
+      "exercise bone density"
+    ],
+    "anatomy-histology::ef2": [
+      "density-dependent growth arrest",
+      "Hippo pathway signalling",
+      "cell crowding contact",
+      "YAP TAZ inhibition"
+    ],
+    "anatomy-histology::ef3": [
+      "caspase activation cascade",
+      "programmed cell death",
+      "apoptotic body formation",
+      "intrinsic apoptosis pathway"
+    ],
+    "anatomy-histology::ef4": [
+      "visceral pain referral",
+      "convergence projection theory",
+      "dermatomal pain map",
+      "Kehr sign anatomy"
+    ],
+    "anatomy-histology::ef5": [
+      "immobilisation muscle loss",
+      "ubiquitin proteasome atrophy",
+      "muscle fibre type shift",
+      "protein degradation pathway"
+    ],
+    "anatomy-histology::ef6": [
+      "tissue regeneration capacity",
+      "liver regeneration potential",
+      "neural regeneration limit",
+      "stem cell niche"
+    ],
+    "anatomy-histology::ef7": [
+      "multipotent progenitor cell",
+      "myeloid lymphoid lineage",
+      "erythroid differentiation",
+      "haematopoietic cascade"
+    ],
+    "anatomy-histology::ef8": [
+      "RANK RANKL signalling",
+      "osteoclast osteoblast coupling",
+      "osteoprotegerin axis",
+      "bone resorption formation"
+    ],
+    "anatomy-histology::co1": [
+      "epithelium connective muscle nerve",
+      "histological tissue type",
+      "embryonic tissue derivative",
+      "organ tissue composition"
+    ],
+    "anatomy-histology::co2": [
+      "sagittal coronal plane",
+      "anatomical position standard",
+      "directional anatomical term",
+      "body region designation"
+    ],
+    "anatomy-histology::co3": [
+      "Haversian canal system",
+      "compact cancellous bone",
+      "osteocyte lacuna",
+      "osteon lamella"
+    ],
+    "anatomy-histology::co4": [
+      "synovial joint capsule",
+      "articular cartilage structure",
+      "joint cavity fluid",
+      "ball socket hinge joint"
+    ],
+    "anatomy-histology::co5": [
+      "sarcomere Z-disc structure",
+      "sliding filament mechanism",
+      "actin myosin overlap",
+      "titin elastic filament"
+    ],
+    "anatomy-histology::co6": [
+      "coronary artery territory",
+      "atrioventricular valve anatomy",
+      "cardiac chamber wall",
+      "sinoatrial node location"
+    ],
+    "anatomy-histology::co7": [
+      "brachial plexus anatomy",
+      "lumbar sacral plexus",
+      "spinal nerve root",
+      "dorsal ventral ramus"
+    ],
+    "anatomy-histology::co8": [
+      "lymph node germinal centre",
+      "thoracic duct anatomy",
+      "lymphatic vessel drainage",
+      "lymph territory mapping"
+    ],
+    "anatomy-histology::co9": [
+      "keratinocyte stratification",
+      "stratum corneum barrier",
+      "epidermal basal cell",
+      "epidermal turnover rate"
+    ],
+    "anatomy-histology::co10": [
+      "collagen fibre network",
+      "elastin fibre",
+      "glycosaminoglycan proteoglycan",
+      "fibronectin laminin ECM"
+    ],
+    "anatomy-histology::co11": [
+      "mucosa submucosa muscularis",
+      "intestinal villi crypt",
+      "goblet cell function",
+      "enteric wall layers"
+    ],
+    "anatomy-histology::co12": [
+      "type I II pneumocyte",
+      "alveolar capillary membrane",
+      "blood-gas barrier anatomy",
+      "surfactant cell type"
+    ],
+    "anatomy-histology::co13": [
+      "glomerular basement membrane",
+      "podocyte filtration slit",
+      "renal corpuscle anatomy",
+      "nephron tubular epithelium"
+    ],
+    "anatomy-histology::me1": [
+      "prosection technique",
+      "formalin fixed cadaver",
+      "surgical anatomy training",
+      "anatomical layer exposure"
+    ],
+    "anatomy-histology::me2": [
+      "haematoxylin eosin stain",
+      "Masson trichrome stain",
+      "PAS histological stain",
+      "tissue section preparation"
+    ],
+    "anatomy-histology::me3": [
+      "plain film radiograph",
+      "fluoroscopic guidance",
+      "skeletal bone survey",
+      "bone density imaging"
+    ],
+    "anatomy-histology::me4": [
+      "ultrastructural cell imaging",
+      "transmission electron microscopy",
+      "scanning electron microscopy",
+      "nanometre resolution"
+    ],
+    "anatomy-histology::me5": [
+      "computed tomography anatomy",
+      "MRI soft tissue contrast",
+      "DICOM cross-section",
+      "radiological anatomy training"
+    ],
+    "anatomy-histology::me6": [
+      "antibody tissue localisation",
+      "antigen retrieval method",
+      "DAB chromogen staining",
+      "tissue biomarker detection"
+    ],
+    "anatomy-histology::me7": [
+      "polymer impregnation tissue",
+      "plastination preservation",
+      "silicone body specimen",
+      "Gunther von Hagens"
+    ],
+    "anatomy-histology::fg1": [
+      "Renaissance cadaver dissection",
+      "De Humani Corporis Fabrica",
+      "Padua anatomy theatre",
+      "anatomical woodcut"
+    ],
+    "anatomy-histology::fg2": [
+      "blood circulation proof",
+      "De Motu Cordis Harvey",
+      "venous valve demonstration",
+      "cardiac output pioneer"
+    ],
+    "anatomy-histology::fg3": [
+      "pathological anatomy founder",
+      "organ seat of disease",
+      "De Sedibus morborum",
+      "correlative pathology"
+    ],
+    "anatomy-histology::fg4": [
+      "tissue theory pre-microscope",
+      "21 tissue types",
+      "Traité des membranes",
+      "histology founder"
+    ],
+    "anatomy-histology::fg5": [
+      "cellular pathology doctrine",
+      "omnis cellula e cellula",
+      "disease at cellular level",
+      "Virchow triad"
+    ],
+    "anatomy-histology::fg6": [
+      "neuron doctrine pioneer",
+      "Golgi silver stain neuroscience",
+      "neural circuit histology",
+      "Nobel Prize anatomy neuroscience"
+    ],
+    "anatomy-histology::fg7": [
+      "Gray's anatomy atlas author",
+      "systematic anatomy text",
+      "surgical anatomy reference",
+      "Victorian anatomy"
+    ],
+    "anatomy-histology::fg8": [
+      "mitosis discovery chromatin",
+      "karyokinesis observation",
+      "cell division pioneer",
+      "chromosome staining"
+    ],
+    "anatomy-histology::fg9": [
+      "capillary discovery microscopy",
+      "lung alveoli description",
+      "renal Malpighian corpuscle",
+      "microscopic anatomy pioneer"
+    ],
+    "anatomy-histology::fg10": [
+      "Gray's anatomy illustrator",
+      "Victorian medical illustration",
+      "anatomical drawing technique",
+      "surgical plate artist"
+    ],
+    "anatomy-histology::fg11": [
+      "ancient anatomy Galen",
+      "Galenic humoral anatomy",
+      "teleological physiology",
+      "Roman physician anatomy"
+    ],
+    "anatomy-histology::fg12": [
+      "medical illustration atlas Netter",
+      "colour anatomy plates",
+      "CIBA collection",
+      "surgical anatomy plate"
+    ],
+    "anatomy-histology::db1": [
+      "Galenic pore theory blood",
+      "hepatic blood formation myth",
+      "circulation paradigm shift",
+      "Harvey Galen contrast"
+    ],
+    "anatomy-histology::db2": [
+      "neuron doctrine reticular debate",
+      "Cajal Golgi controversy",
+      "synaptic gap existence",
+      "Nobel Prize controversy"
+    ],
+    "anatomy-histology::db3": [
+      "cardiomyocyte renewal debate",
+      "adult heart muscle regeneration",
+      "cardiac stem cell controversy",
+      "myocardial repair capacity"
+    ],
+    "anatomy-histology::db4": [
+      "fascial definition controversy",
+      "deep fascia classification",
+      "epimysium fascia debate",
+      "connective tissue classification"
+    ],
+    "anatomy-histology::db5": [
+      "anatomical variation population",
+      "cadaveric sampling bias",
+      "normal anatomy definition",
+      "atlas representation bias"
+    ],
+    "anatomy-histology::db6": [
+      "perivascular CSF clearance",
+      "glymphatic brain pathway",
+      "aquaporin-4 channel brain",
+      "sleep brain waste clearance"
+    ],
+    "anatomy-histology::db7": [
+      "dermatomal variation atlas",
+      "Foerster Keegan map conflict",
+      "sensory nerve territory",
+      "dermatome atlas comparison"
+    ],
+    "anatomy-histology::db8": [
+      "mesentery organ status",
+      "Coffey mesentery paper",
+      "peritoneal fold classification",
+      "abdominal organ definition"
+    ],
+    "anatomy-histology::ap1": [
+      "surgical anatomical landmark",
+      "nerve vessel proximity",
+      "operative approach anatomy",
+      "safe zone dissection"
+    ],
+    "anatomy-histology::ap2": [
+      "tissue biopsy diagnosis",
+      "histological grading cancer",
+      "frozen section pathology",
+      "surgical pathology report"
+    ],
+    "anatomy-histology::ap3": [
+      "total hip replacement anatomy",
+      "bone implant interface",
+      "arthroplasty biomechanics",
+      "joint prosthesis design"
+    ],
+    "anatomy-histology::ap4": [
+      "cross-sectional anatomy training",
+      "radiologist anatomy teaching",
+      "CT MRI anatomy",
+      "diagnostic imaging anatomy"
+    ],
+    "anatomy-histology::ap5": [
+      "digital anatomy teaching",
+      "virtual dissection table",
+      "plastinated specimen teaching",
+      "3D anatomy model"
+    ],
+    "anatomy-histology::ap6": [
+      "scaffold biomaterial tissue",
+      "bioengineered organ",
+      "organ on chip",
+      "stem cell tissue therapy"
+    ],
     "general-cognitive-psych::th1": [
       "multi-store memory model",
       "sensory register",
@@ -2575,6 +3026,880 @@
     ]
   },
   "keyword_index": {
+    "cellular unit of life": [
+      "anatomy-histology::th1"
+    ],
+    "omnis cellula e cellula": [
+      "anatomy-histology::th1",
+      "anatomy-histology::st3",
+      "anatomy-histology::fg5"
+    ],
+    "microscopy cell biology": [
+      "anatomy-histology::th1"
+    ],
+    "Schleiden Schwann doctrine": [
+      "anatomy-histology::th1"
+    ],
+    "ectoderm mesoderm endoderm": [
+      "anatomy-histology::th2"
+    ],
+    "germ layer specification": [
+      "anatomy-histology::th2"
+    ],
+    "embryonic tissue origin": [
+      "anatomy-histology::th2"
+    ],
+    "trilaminar disc": [
+      "anatomy-histology::th2"
+    ],
+    "organogenesis layer": [
+      "anatomy-histology::th2"
+    ],
+    "mechanical bone adaptation": [
+      "anatomy-histology::th3"
+    ],
+    "trabecular orientation": [
+      "anatomy-histology::th3"
+    ],
+    "bone stress response": [
+      "anatomy-histology::th3"
+    ],
+    "osteocyte mechanosensing": [
+      "anatomy-histology::th3"
+    ],
+    "closed circulatory model": [
+      "anatomy-histology::th4"
+    ],
+    "venous valve anatomy": [
+      "anatomy-histology::th4"
+    ],
+    "systemic venous return": [
+      "anatomy-histology::th4"
+    ],
+    "quantitative blood circuit": [
+      "anatomy-histology::th4"
+    ],
+    "cytoskeletal prestress": [
+      "anatomy-histology::th5"
+    ],
+    "cellular tensegrity model": [
+      "anatomy-histology::th5"
+    ],
+    "actin network mechanics": [
+      "anatomy-histology::th5"
+    ],
+    "intracellular force balance": [
+      "anatomy-histology::th5"
+    ],
+    "spinal nerve territory": [
+      "anatomy-histology::th6"
+    ],
+    "dermatomal pain pattern": [
+      "anatomy-histology::th6"
+    ],
+    "segmental skin innervation": [
+      "anatomy-histology::th6"
+    ],
+    "radicular anatomy": [
+      "anatomy-histology::th6"
+    ],
+    "standardised anatomy terms": [
+      "anatomy-histology::th7"
+    ],
+    "international nomenclature": [
+      "anatomy-histology::th7"
+    ],
+    "Latin anatomy terms": [
+      "anatomy-histology::th7"
+    ],
+    "FIPAT terminology": [
+      "anatomy-histology::th7"
+    ],
+    "myofascial continuity": [
+      "anatomy-histology::th8"
+    ],
+    "deep fascia network": [
+      "anatomy-histology::th8"
+    ],
+    "connective tissue web": [
+      "anatomy-histology::th8"
+    ],
+    "thoracolumbar fascia": [
+      "anatomy-histology::th8"
+    ],
+    "cadaveric human dissection": [
+      "anatomy-histology::st1"
+    ],
+    "Renaissance anatomy atlas": [
+      "anatomy-histology::st1"
+    ],
+    "anatomical woodcut illustration": [
+      "anatomy-histology::st1"
+    ],
+    "De Humani Corporis Fabrica": [
+      "anatomy-histology::st1",
+      "anatomy-histology::fg1"
+    ],
+    "blood circulation proof": [
+      "anatomy-histology::st2",
+      "anatomy-histology::fg2",
+      "physiology-organ-systems::st3"
+    ],
+    "De Motu Cordis": [
+      "anatomy-histology::st2",
+      "physiology-organ-systems::st3",
+      "physiology-organ-systems::fg1"
+    ],
+    "venous valve function": [
+      "anatomy-histology::st2"
+    ],
+    "quantitative anatomy": [
+      "anatomy-histology::st2"
+    ],
+    "cellular disease origin": [
+      "anatomy-histology::st3"
+    ],
+    "pathological anatomy Virchow": [
+      "anatomy-histology::st3"
+    ],
+    "tissue microscopy diagnosis": [
+      "anatomy-histology::st3"
+    ],
+    "chromatin thread discovery": [
+      "anatomy-histology::st4"
+    ],
+    "mitotic figure staining": [
+      "anatomy-histology::st4"
+    ],
+    "chromosome condensation": [
+      "anatomy-histology::st4"
+    ],
+    "nuclear division mechanism": [
+      "anatomy-histology::st4"
+    ],
+    "capillary network discovery": [
+      "anatomy-histology::st5"
+    ],
+    "frog lung microcirculation": [
+      "anatomy-histology::st5"
+    ],
+    "missing link circulation": [
+      "anatomy-histology::st5"
+    ],
+    "Malpighi microscopy": [
+      "anatomy-histology::st5"
+    ],
+    "first diagnostic X-ray": [
+      "anatomy-histology::st6"
+    ],
+    "bone visualisation radiation": [
+      "anatomy-histology::st6"
+    ],
+    "radiographic anatomy": [
+      "anatomy-histology::st6"
+    ],
+    "ionising imaging pioneer": [
+      "anatomy-histology::st6"
+    ],
+    "Golgi silver stain neuron": [
+      "anatomy-histology::st7"
+    ],
+    "neuron doctrine histology": [
+      "anatomy-histology::st7"
+    ],
+    "neural circuit anatomy": [
+      "anatomy-histology::st7"
+    ],
+    "neurohistology atlas": [
+      "anatomy-histology::st7"
+    ],
+    "haematopoietic stem cell": [
+      "anatomy-histology::st8"
+    ],
+    "colony forming unit": [
+      "anatomy-histology::st8"
+    ],
+    "bone marrow transplant origin": [
+      "anatomy-histology::st8"
+    ],
+    "clonogenic cell proof": [
+      "anatomy-histology::st8"
+    ],
+    "cryosection anatomy dataset": [
+      "anatomy-histology::st9"
+    ],
+    "digital anatomy atlas": [
+      "anatomy-histology::st9"
+    ],
+    "virtual dissection resource": [
+      "anatomy-histology::st9"
+    ],
+    "cross-sectional body data": [
+      "anatomy-histology::st9"
+    ],
+    "anatomy textbook atlas": [
+      "anatomy-histology::st10"
+    ],
+    "Gray's anatomy publication": [
+      "anatomy-histology::st10"
+    ],
+    "systematic anatomy reference": [
+      "anatomy-histology::st10"
+    ],
+    "medical illustration atlas": [
+      "anatomy-histology::st10"
+    ],
+    "tissue protein expression": [
+      "anatomy-histology::st11"
+    ],
+    "immunohistochemistry atlas": [
+      "anatomy-histology::st11"
+    ],
+    "organ proteome map": [
+      "anatomy-histology::st11"
+    ],
+    "human protein distribution": [
+      "anatomy-histology::st11"
+    ],
+    "cortical bone adaptation": [
+      "anatomy-histology::ef1"
+    ],
+    "load-induced remodelling": [
+      "anatomy-histology::ef1"
+    ],
+    "stress shielding effect": [
+      "anatomy-histology::ef1"
+    ],
+    "exercise bone density": [
+      "anatomy-histology::ef1"
+    ],
+    "density-dependent growth arrest": [
+      "anatomy-histology::ef2"
+    ],
+    "Hippo pathway signalling": [
+      "anatomy-histology::ef2"
+    ],
+    "cell crowding contact": [
+      "anatomy-histology::ef2"
+    ],
+    "YAP TAZ inhibition": [
+      "anatomy-histology::ef2"
+    ],
+    "caspase activation cascade": [
+      "anatomy-histology::ef3"
+    ],
+    "programmed cell death": [
+      "anatomy-histology::ef3"
+    ],
+    "apoptotic body formation": [
+      "anatomy-histology::ef3"
+    ],
+    "intrinsic apoptosis pathway": [
+      "anatomy-histology::ef3"
+    ],
+    "visceral pain referral": [
+      "anatomy-histology::ef4"
+    ],
+    "convergence projection theory": [
+      "anatomy-histology::ef4"
+    ],
+    "dermatomal pain map": [
+      "anatomy-histology::ef4"
+    ],
+    "Kehr sign anatomy": [
+      "anatomy-histology::ef4"
+    ],
+    "immobilisation muscle loss": [
+      "anatomy-histology::ef5"
+    ],
+    "ubiquitin proteasome atrophy": [
+      "anatomy-histology::ef5"
+    ],
+    "muscle fibre type shift": [
+      "anatomy-histology::ef5"
+    ],
+    "protein degradation pathway": [
+      "anatomy-histology::ef5"
+    ],
+    "tissue regeneration capacity": [
+      "anatomy-histology::ef6"
+    ],
+    "liver regeneration potential": [
+      "anatomy-histology::ef6"
+    ],
+    "neural regeneration limit": [
+      "anatomy-histology::ef6"
+    ],
+    "stem cell niche": [
+      "anatomy-histology::ef6"
+    ],
+    "multipotent progenitor cell": [
+      "anatomy-histology::ef7"
+    ],
+    "myeloid lymphoid lineage": [
+      "anatomy-histology::ef7"
+    ],
+    "erythroid differentiation": [
+      "anatomy-histology::ef7"
+    ],
+    "haematopoietic cascade": [
+      "anatomy-histology::ef7"
+    ],
+    "RANK RANKL signalling": [
+      "anatomy-histology::ef8"
+    ],
+    "osteoclast osteoblast coupling": [
+      "anatomy-histology::ef8"
+    ],
+    "osteoprotegerin axis": [
+      "anatomy-histology::ef8"
+    ],
+    "bone resorption formation": [
+      "anatomy-histology::ef8"
+    ],
+    "epithelium connective muscle nerve": [
+      "anatomy-histology::co1"
+    ],
+    "histological tissue type": [
+      "anatomy-histology::co1"
+    ],
+    "embryonic tissue derivative": [
+      "anatomy-histology::co1"
+    ],
+    "organ tissue composition": [
+      "anatomy-histology::co1"
+    ],
+    "sagittal coronal plane": [
+      "anatomy-histology::co2"
+    ],
+    "anatomical position standard": [
+      "anatomy-histology::co2"
+    ],
+    "directional anatomical term": [
+      "anatomy-histology::co2"
+    ],
+    "body region designation": [
+      "anatomy-histology::co2"
+    ],
+    "Haversian canal system": [
+      "anatomy-histology::co3"
+    ],
+    "compact cancellous bone": [
+      "anatomy-histology::co3"
+    ],
+    "osteocyte lacuna": [
+      "anatomy-histology::co3"
+    ],
+    "osteon lamella": [
+      "anatomy-histology::co3"
+    ],
+    "synovial joint capsule": [
+      "anatomy-histology::co4"
+    ],
+    "articular cartilage structure": [
+      "anatomy-histology::co4"
+    ],
+    "joint cavity fluid": [
+      "anatomy-histology::co4"
+    ],
+    "ball socket hinge joint": [
+      "anatomy-histology::co4"
+    ],
+    "sarcomere Z-disc structure": [
+      "anatomy-histology::co5"
+    ],
+    "sliding filament mechanism": [
+      "anatomy-histology::co5"
+    ],
+    "actin myosin overlap": [
+      "anatomy-histology::co5"
+    ],
+    "titin elastic filament": [
+      "anatomy-histology::co5"
+    ],
+    "coronary artery territory": [
+      "anatomy-histology::co6"
+    ],
+    "atrioventricular valve anatomy": [
+      "anatomy-histology::co6"
+    ],
+    "cardiac chamber wall": [
+      "anatomy-histology::co6"
+    ],
+    "sinoatrial node location": [
+      "anatomy-histology::co6"
+    ],
+    "brachial plexus anatomy": [
+      "anatomy-histology::co7"
+    ],
+    "lumbar sacral plexus": [
+      "anatomy-histology::co7"
+    ],
+    "spinal nerve root": [
+      "anatomy-histology::co7"
+    ],
+    "dorsal ventral ramus": [
+      "anatomy-histology::co7"
+    ],
+    "lymph node germinal centre": [
+      "anatomy-histology::co8"
+    ],
+    "thoracic duct anatomy": [
+      "anatomy-histology::co8"
+    ],
+    "lymphatic vessel drainage": [
+      "anatomy-histology::co8"
+    ],
+    "lymph territory mapping": [
+      "anatomy-histology::co8"
+    ],
+    "keratinocyte stratification": [
+      "anatomy-histology::co9"
+    ],
+    "stratum corneum barrier": [
+      "anatomy-histology::co9"
+    ],
+    "epidermal basal cell": [
+      "anatomy-histology::co9"
+    ],
+    "epidermal turnover rate": [
+      "anatomy-histology::co9"
+    ],
+    "collagen fibre network": [
+      "anatomy-histology::co10"
+    ],
+    "elastin fibre": [
+      "anatomy-histology::co10"
+    ],
+    "glycosaminoglycan proteoglycan": [
+      "anatomy-histology::co10"
+    ],
+    "fibronectin laminin ECM": [
+      "anatomy-histology::co10"
+    ],
+    "mucosa submucosa muscularis": [
+      "anatomy-histology::co11"
+    ],
+    "intestinal villi crypt": [
+      "anatomy-histology::co11"
+    ],
+    "goblet cell function": [
+      "anatomy-histology::co11"
+    ],
+    "enteric wall layers": [
+      "anatomy-histology::co11"
+    ],
+    "type I II pneumocyte": [
+      "anatomy-histology::co12"
+    ],
+    "alveolar capillary membrane": [
+      "anatomy-histology::co12"
+    ],
+    "blood-gas barrier anatomy": [
+      "anatomy-histology::co12"
+    ],
+    "surfactant cell type": [
+      "anatomy-histology::co12"
+    ],
+    "glomerular basement membrane": [
+      "anatomy-histology::co13"
+    ],
+    "podocyte filtration slit": [
+      "anatomy-histology::co13"
+    ],
+    "renal corpuscle anatomy": [
+      "anatomy-histology::co13"
+    ],
+    "nephron tubular epithelium": [
+      "anatomy-histology::co13"
+    ],
+    "prosection technique": [
+      "anatomy-histology::me1"
+    ],
+    "formalin fixed cadaver": [
+      "anatomy-histology::me1"
+    ],
+    "surgical anatomy training": [
+      "anatomy-histology::me1"
+    ],
+    "anatomical layer exposure": [
+      "anatomy-histology::me1"
+    ],
+    "haematoxylin eosin stain": [
+      "anatomy-histology::me2"
+    ],
+    "Masson trichrome stain": [
+      "anatomy-histology::me2"
+    ],
+    "PAS histological stain": [
+      "anatomy-histology::me2"
+    ],
+    "tissue section preparation": [
+      "anatomy-histology::me2"
+    ],
+    "plain film radiograph": [
+      "anatomy-histology::me3"
+    ],
+    "fluoroscopic guidance": [
+      "anatomy-histology::me3"
+    ],
+    "skeletal bone survey": [
+      "anatomy-histology::me3"
+    ],
+    "bone density imaging": [
+      "anatomy-histology::me3"
+    ],
+    "ultrastructural cell imaging": [
+      "anatomy-histology::me4"
+    ],
+    "transmission electron microscopy": [
+      "anatomy-histology::me4"
+    ],
+    "scanning electron microscopy": [
+      "anatomy-histology::me4"
+    ],
+    "nanometre resolution": [
+      "anatomy-histology::me4"
+    ],
+    "computed tomography anatomy": [
+      "anatomy-histology::me5"
+    ],
+    "MRI soft tissue contrast": [
+      "anatomy-histology::me5"
+    ],
+    "DICOM cross-section": [
+      "anatomy-histology::me5"
+    ],
+    "radiological anatomy training": [
+      "anatomy-histology::me5"
+    ],
+    "antibody tissue localisation": [
+      "anatomy-histology::me6"
+    ],
+    "antigen retrieval method": [
+      "anatomy-histology::me6"
+    ],
+    "DAB chromogen staining": [
+      "anatomy-histology::me6"
+    ],
+    "tissue biomarker detection": [
+      "anatomy-histology::me6"
+    ],
+    "polymer impregnation tissue": [
+      "anatomy-histology::me7"
+    ],
+    "plastination preservation": [
+      "anatomy-histology::me7"
+    ],
+    "silicone body specimen": [
+      "anatomy-histology::me7"
+    ],
+    "Gunther von Hagens": [
+      "anatomy-histology::me7"
+    ],
+    "Renaissance cadaver dissection": [
+      "anatomy-histology::fg1"
+    ],
+    "Padua anatomy theatre": [
+      "anatomy-histology::fg1"
+    ],
+    "anatomical woodcut": [
+      "anatomy-histology::fg1"
+    ],
+    "De Motu Cordis Harvey": [
+      "anatomy-histology::fg2"
+    ],
+    "venous valve demonstration": [
+      "anatomy-histology::fg2"
+    ],
+    "cardiac output pioneer": [
+      "anatomy-histology::fg2"
+    ],
+    "pathological anatomy founder": [
+      "anatomy-histology::fg3"
+    ],
+    "organ seat of disease": [
+      "anatomy-histology::fg3"
+    ],
+    "De Sedibus morborum": [
+      "anatomy-histology::fg3"
+    ],
+    "correlative pathology": [
+      "anatomy-histology::fg3"
+    ],
+    "tissue theory pre-microscope": [
+      "anatomy-histology::fg4"
+    ],
+    "21 tissue types": [
+      "anatomy-histology::fg4"
+    ],
+    "Traité des membranes": [
+      "anatomy-histology::fg4"
+    ],
+    "histology founder": [
+      "anatomy-histology::fg4"
+    ],
+    "cellular pathology doctrine": [
+      "anatomy-histology::fg5"
+    ],
+    "disease at cellular level": [
+      "anatomy-histology::fg5"
+    ],
+    "Virchow triad": [
+      "anatomy-histology::fg5"
+    ],
+    "neuron doctrine pioneer": [
+      "anatomy-histology::fg6"
+    ],
+    "Golgi silver stain neuroscience": [
+      "anatomy-histology::fg6"
+    ],
+    "neural circuit histology": [
+      "anatomy-histology::fg6"
+    ],
+    "Nobel Prize anatomy neuroscience": [
+      "anatomy-histology::fg6"
+    ],
+    "Gray's anatomy atlas author": [
+      "anatomy-histology::fg7"
+    ],
+    "systematic anatomy text": [
+      "anatomy-histology::fg7"
+    ],
+    "surgical anatomy reference": [
+      "anatomy-histology::fg7"
+    ],
+    "Victorian anatomy": [
+      "anatomy-histology::fg7"
+    ],
+    "mitosis discovery chromatin": [
+      "anatomy-histology::fg8"
+    ],
+    "karyokinesis observation": [
+      "anatomy-histology::fg8"
+    ],
+    "cell division pioneer": [
+      "anatomy-histology::fg8"
+    ],
+    "chromosome staining": [
+      "anatomy-histology::fg8"
+    ],
+    "capillary discovery microscopy": [
+      "anatomy-histology::fg9"
+    ],
+    "lung alveoli description": [
+      "anatomy-histology::fg9"
+    ],
+    "renal Malpighian corpuscle": [
+      "anatomy-histology::fg9"
+    ],
+    "microscopic anatomy pioneer": [
+      "anatomy-histology::fg9"
+    ],
+    "Gray's anatomy illustrator": [
+      "anatomy-histology::fg10"
+    ],
+    "Victorian medical illustration": [
+      "anatomy-histology::fg10"
+    ],
+    "anatomical drawing technique": [
+      "anatomy-histology::fg10"
+    ],
+    "surgical plate artist": [
+      "anatomy-histology::fg10"
+    ],
+    "ancient anatomy Galen": [
+      "anatomy-histology::fg11"
+    ],
+    "Galenic humoral anatomy": [
+      "anatomy-histology::fg11"
+    ],
+    "teleological physiology": [
+      "anatomy-histology::fg11"
+    ],
+    "Roman physician anatomy": [
+      "anatomy-histology::fg11"
+    ],
+    "medical illustration atlas Netter": [
+      "anatomy-histology::fg12"
+    ],
+    "colour anatomy plates": [
+      "anatomy-histology::fg12"
+    ],
+    "CIBA collection": [
+      "anatomy-histology::fg12"
+    ],
+    "surgical anatomy plate": [
+      "anatomy-histology::fg12"
+    ],
+    "Galenic pore theory blood": [
+      "anatomy-histology::db1"
+    ],
+    "hepatic blood formation myth": [
+      "anatomy-histology::db1"
+    ],
+    "circulation paradigm shift": [
+      "anatomy-histology::db1"
+    ],
+    "Harvey Galen contrast": [
+      "anatomy-histology::db1"
+    ],
+    "neuron doctrine reticular debate": [
+      "anatomy-histology::db2"
+    ],
+    "Cajal Golgi controversy": [
+      "anatomy-histology::db2"
+    ],
+    "synaptic gap existence": [
+      "anatomy-histology::db2"
+    ],
+    "Nobel Prize controversy": [
+      "anatomy-histology::db2"
+    ],
+    "cardiomyocyte renewal debate": [
+      "anatomy-histology::db3"
+    ],
+    "adult heart muscle regeneration": [
+      "anatomy-histology::db3"
+    ],
+    "cardiac stem cell controversy": [
+      "anatomy-histology::db3"
+    ],
+    "myocardial repair capacity": [
+      "anatomy-histology::db3"
+    ],
+    "fascial definition controversy": [
+      "anatomy-histology::db4"
+    ],
+    "deep fascia classification": [
+      "anatomy-histology::db4"
+    ],
+    "epimysium fascia debate": [
+      "anatomy-histology::db4"
+    ],
+    "connective tissue classification": [
+      "anatomy-histology::db4"
+    ],
+    "anatomical variation population": [
+      "anatomy-histology::db5"
+    ],
+    "cadaveric sampling bias": [
+      "anatomy-histology::db5"
+    ],
+    "normal anatomy definition": [
+      "anatomy-histology::db5"
+    ],
+    "atlas representation bias": [
+      "anatomy-histology::db5"
+    ],
+    "perivascular CSF clearance": [
+      "anatomy-histology::db6"
+    ],
+    "glymphatic brain pathway": [
+      "anatomy-histology::db6"
+    ],
+    "aquaporin-4 channel brain": [
+      "anatomy-histology::db6"
+    ],
+    "sleep brain waste clearance": [
+      "anatomy-histology::db6"
+    ],
+    "dermatomal variation atlas": [
+      "anatomy-histology::db7"
+    ],
+    "Foerster Keegan map conflict": [
+      "anatomy-histology::db7"
+    ],
+    "sensory nerve territory": [
+      "anatomy-histology::db7"
+    ],
+    "dermatome atlas comparison": [
+      "anatomy-histology::db7"
+    ],
+    "mesentery organ status": [
+      "anatomy-histology::db8"
+    ],
+    "Coffey mesentery paper": [
+      "anatomy-histology::db8"
+    ],
+    "peritoneal fold classification": [
+      "anatomy-histology::db8"
+    ],
+    "abdominal organ definition": [
+      "anatomy-histology::db8"
+    ],
+    "surgical anatomical landmark": [
+      "anatomy-histology::ap1"
+    ],
+    "nerve vessel proximity": [
+      "anatomy-histology::ap1"
+    ],
+    "operative approach anatomy": [
+      "anatomy-histology::ap1"
+    ],
+    "safe zone dissection": [
+      "anatomy-histology::ap1"
+    ],
+    "tissue biopsy diagnosis": [
+      "anatomy-histology::ap2"
+    ],
+    "histological grading cancer": [
+      "anatomy-histology::ap2"
+    ],
+    "frozen section pathology": [
+      "anatomy-histology::ap2"
+    ],
+    "surgical pathology report": [
+      "anatomy-histology::ap2"
+    ],
+    "total hip replacement anatomy": [
+      "anatomy-histology::ap3"
+    ],
+    "bone implant interface": [
+      "anatomy-histology::ap3"
+    ],
+    "arthroplasty biomechanics": [
+      "anatomy-histology::ap3"
+    ],
+    "joint prosthesis design": [
+      "anatomy-histology::ap3"
+    ],
+    "cross-sectional anatomy training": [
+      "anatomy-histology::ap4"
+    ],
+    "radiologist anatomy teaching": [
+      "anatomy-histology::ap4"
+    ],
+    "CT MRI anatomy": [
+      "anatomy-histology::ap4"
+    ],
+    "diagnostic imaging anatomy": [
+      "anatomy-histology::ap4"
+    ],
+    "digital anatomy teaching": [
+      "anatomy-histology::ap5"
+    ],
+    "virtual dissection table": [
+      "anatomy-histology::ap5"
+    ],
+    "plastinated specimen teaching": [
+      "anatomy-histology::ap5"
+    ],
+    "3D anatomy model": [
+      "anatomy-histology::ap5"
+    ],
+    "scaffold biomaterial tissue": [
+      "anatomy-histology::ap6"
+    ],
+    "bioengineered organ": [
+      "anatomy-histology::ap6"
+    ],
+    "organ on chip": [
+      "anatomy-histology::ap6"
+    ],
+    "stem cell tissue therapy": [
+      "anatomy-histology::ap6"
+    ],
     "multi-store memory model": [
       "general-cognitive-psych::th1"
     ],
@@ -4823,9 +6148,6 @@
     "striated muscle": [
       "physiology-organ-systems::st2"
     ],
-    "blood circulation proof": [
-      "physiology-organ-systems::st3"
-    ],
     "systemic circulation": [
       "physiology-organ-systems::st3",
       "physiology-organ-systems::fg1"
@@ -4837,10 +6159,6 @@
     "cardiac output measurement": [
       "physiology-organ-systems::st3",
       "physiology-organ-systems::me2"
-    ],
-    "De Motu Cordis": [
-      "physiology-organ-systems::st3",
-      "physiology-organ-systems::fg1"
     ],
     "Frank-Starling mechanism": [
       "physiology-organ-systems::st4"

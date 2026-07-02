@@ -376,7 +376,9 @@
             "co10",
             "co14"
           ],
-          "xlinks": ["neuroscience::th8"],
+          "xlinks": [
+            "neuroscience::th8"
+          ],
           "hint": "Geoffrey Harris's neuroendocrine hypothesis proposed that the hypothalamus controls anterior pituitary secretion not via direct nerve connections but through chemical messenger molecules released into a portal blood system connecting the two structures. Neural information from higher brain centres, stress responses, and circadian inputs is thereby transduced into hormonal signals — integrating the nervous and endocrine systems into a unified neuroendocrine axis. This framework explains how psychological states produce measurable hormonal changes.",
           "tag": "THEORY",
           "note": "Harris, G. W. (1955). Neural Control of the Pituitary Gland. Edward Arnold — the monograph synthesising two decades of evidence. Anatomical demonstration: Green, J. D. & Harris, G. W. (1947). 'The neurovascular link between the neurohypophysis and adenohypophysis.' Journal of Endocrinology, 5(2), 136–146. Chemical confirmation: Guillemin, R. & Schally, A. V. independently isolated TRH (1969), GnRH (1971), and somatostatin (1973), sharing the Nobel Prize in Physiology or Medicine, 1977. Harris, who conceived the hypothesis and spent 30 years proving it, died in 1971 — before the chemical validation was complete and before Nobel eligibility could apply retroactively to deceased scientists.",
@@ -444,7 +446,9 @@
             "fg4",
             "fg5"
           ],
-          "xlinks": ["neuroscience::st1"],
+          "xlinks": [
+            "neuroscience::st1"
+          ],
           "repl": "robust",
           "hint": "Using voltage-clamp technique on the squid giant axon, Hodgkin and Huxley resolved the separate time courses of sodium influx and potassium efflux during an action potential. They derived a set of differential equations that quantitatively reproduced the shape, conduction velocity, and refractory period of the action potential. Published as a four-paper series, this was the first complete biophysical model of an electrical signal in a living cell.",
           "tag": "EXPERIMENT",
@@ -508,6 +512,9 @@
             "venous valve",
             "cardiac output measurement",
             "De Motu Cordis"
+          ],
+          "xlinks": [
+            "anatomy-histology::st2"
           ]
         },
         {
@@ -712,7 +719,9 @@
             "db8",
             "db1"
           ],
-          "xlinks": ["neuroscience::co6"],
+          "xlinks": [
+            "neuroscience::co6"
+          ],
           "repl": "mixed",
           "hint": "Cannon demonstrated that threatening stimuli trigger a coordinated sympathetic-adrenal response — elevated heart rate, blood pressure, glucose mobilisation, bronchodilation, and blood flow redirection from gut to muscle — preparing the organism for vigorous physical action. He named this the 'fight-or-flight' response and identified adrenaline released from the adrenal medulla as the primary mediator, establishing that the autonomic nervous system uses hormones as well as nerve signals.",
           "tag": "EXPERIMENT",
@@ -1059,7 +1068,9 @@
             "me1",
             "ap5"
           ],
-          "xlinks": ["neuroscience::co1"],
+          "xlinks": [
+            "neuroscience::co1"
+          ],
           "hint": "The action potential is the all-or-none, self-propagating electrical signal that underlies rapid communication in nerve and muscle. Its phases — resting potential, depolarisation (Na⁺ influx through voltage-gated channels), overshoot, repolarisation (K⁺ efflux), afterhyperpolarisation, and return to rest — arise from the precise voltage-dependent kinetics described by the Hodgkin-Huxley model. Key properties: threshold (below which no action potential fires), absolute and relative refractory periods (enforcing unidirectional propagation and setting a maximum firing rate), and conduction velocity (faster in larger-diameter, myelinated axons because saltatory conduction jumps between nodes of Ranvier).",
           "tag": "CONCEPT",
           "note": "Bernstein, J. (1902). 'Untersuchungen zur Thermodynamik der bioelektrischen Ströme.' Pflügers Archiv, 92, 521–562 — the membrane hypothesis: bioelectric potentials arise from selective ion permeability. Overton, E. (1902) independently proposed ionic theory of excitability. Full ionic characterisation: Hodgkin, A. L. & Katz, B. (1949). 'The effect of sodium ions on the electrical activity of the giant axon of the squid.' Journal of Physiology, 108(1), 37–77. Comprehensive model: Hodgkin, A. L. & Huxley, A. F. (1952). Journal of Physiology, 117, 500–544 — four-paper series. Myelin and saltatory conduction: Lillie, R. S. (1925); Tasaki, I. (1939) demonstrated saltatory conduction in myelinated fibres. Channel proteins cloned: Noda, M. et al. (1984). Nature, 312, 121–127 — Nav1 sodium channel; Timpe, L. C. et al. (1988). Nature, 331, 143–145 — Shaker potassium channel.",
@@ -1237,7 +1248,9 @@
             "co10",
             "co14"
           ],
-          "xlinks": ["neuroscience::th11"],
+          "xlinks": [
+            "neuroscience::th11"
+          ],
           "hint": "Endocrine regulation operates through three-tier hypothalamic-pituitary-target-organ axes: a releasing hormone from the hypothalamus stimulates a trophic hormone from the anterior pituitary, which stimulates the target organ. Negative feedback from the target hormone closes the loop at both hypothalamus and pituitary, maintaining set-point concentrations. The HPA (stress), HPT (thyroid), and HPG (gonadal) axes each follow this blueprint. Disruption of negative feedback produces predictable failure patterns: primary failure (target organ) elevates trophic hormones; secondary failure (pituitary) reduces both trophic and target hormones; tertiary failure (hypothalamus) reduces all three — enabling anatomical diagnosis from blood tests alone.",
           "tag": "CONCEPT",
           "note": "Harris, G. W. (1955). Neural Control of the Pituitary Gland. Edward Arnold — established that hypothalamic releasing hormones control anterior pituitary function. Chemical characterisation: Guillemin, R. & Schally, A. V. independently isolated TRH (1969), GnRH (1971), and somatostatin (1973), Nobel Prize 1977. Negative feedback confirmed for the HPA axis: Yates, F. E. & Urquhart, J. (1962). 'Control of plasma concentrations of adrenocortical hormones.' Physiological Reviews, 42(3), 359–443. Cortisol diurnal rhythm driven by CRH pulse frequency: Veldhuis, J. D. et al. (1989). Journal of Clinical Endocrinology and Metabolism, 68(6), 1231–1240. Clinical translation: the 'secondary vs. primary' distinction is the foundation of endocrine diagnostics; failure to recognise secondary adrenal insufficiency (low cortisol + low ACTH) from tertiary (low cortisol + low ACTH + known pituitary/hypothalamic disease) has serious therapeutic implications.",
@@ -1544,7 +1557,9 @@
             "st1",
             "co1"
           ],
-          "xlinks": ["neuroscience::me7"],
+          "xlinks": [
+            "neuroscience::me7"
+          ],
           "hint": "The voltage clamp holds the membrane potential constant by injecting an equal and opposite current to whatever the membrane conducts, allowing isolation and measurement of individual ion currents. Hodgkin and Huxley used it (1952) to separate Na⁺ and K⁺ conductances during the action potential. The patch clamp (Neher & Sakmann, 1976) extends this to single ion channels: a fire-polished pipette forms a gigaohm seal with the membrane, and current through individual channels is resolved in real time. Four patch-clamp configurations (cell-attached, whole-cell, inside-out, outside-out) allow study of single-channel and whole-cell currents under controlled intracellular and extracellular ionic conditions.",
           "tag": "TECHNIQUE",
           "note": "Voltage clamp: Cole, K. S. (1949). 'Dynamic electrical characteristics of the squid axon membrane.' Archives des Sciences Physiologiques, 3, 253–258 — the technical invention. Marmont, G. (1949). 'Studies on the axon membrane.' Journal of Cellular and Comparative Physiology, 34(3), 351–382 — further development. Hodgkin & Huxley applied it in their four-paper series (1952). Patch clamp: Neher, E. & Sakmann, B. (1976). 'Single-channel currents recorded from membrane of denervated frog muscle fibres.' Nature, 260, 799–802. Nobel Prize in Physiology or Medicine, 1991 (Neher & Sakmann). Gigaohm seal: Hamill, O. P. et al. (1981). 'Improved patch-clamp techniques for high-resolution current recording from cells and cell-free membrane patches.' Pflügers Archiv, 391(2), 85–100 — the technical paper establishing the standard configurations. Automated patch clamp: Milligan, C. J. et al. (2009). Nature Protocols, 4, 244–255 — high-throughput robotic patch platforms for ion channel pharmacology.",
@@ -1718,6 +1733,9 @@
             "venous valve",
             "systemic circulation",
             "cardiac output"
+          ],
+          "xlinks": [
+            "anatomy-histology::fg2"
           ]
         },
         {
