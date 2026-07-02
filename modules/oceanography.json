@@ -14,24 +14,24 @@
   "mapZoom": 2,
   "methodology": "METHODOLOGY · Every entry anchors to a landmark study, paper, dataset, expedition or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags replication status, effect-size revisions and known controversies. Studies and effects carry a replicability badge — 🟢 robust · 🟡 nuanced or reduced · 🔴 failed or severely contested. Map pins mark the institution or location where the work was carried out.",
   "_meta": {
-    "total_entries": 71,
+    "total_entries": 75,
     "entry_counts": {
-      "theory": 10,
-      "study": 11,
+      "theory": 11,
+      "study": 12,
       "effect": 10,
-      "concept": 8,
+      "concept": 9,
       "method": 6,
-      "figure": 12,
+      "figure": 13,
       "debate": 8,
       "application": 6
     },
     "max_ids": {
-      "th": 10,
-      "st": 11,
+      "th": 11,
+      "st": 12,
       "ef": 10,
-      "co": 8,
+      "co": 9,
       "me": 6,
-      "fg": 12,
+      "fg": 13,
       "db": 8,
       "ap": 6
     },
@@ -58,6 +58,7 @@
     "th8": "theory · Marine Biology & Ecology · Marine Trophic Cascade Theory (1974)",
     "th9": "theory · Deep Sea & Seafloor · Deep Scattering Layer (DSL) (1948)",
     "th10": "theory · Climate & Ocean Interaction · Orbital Forcing & Milanković Cycles (1976)",
+    "th11": "theory · Physical Oceanography · Rossby Waves & Kelvin Waves (Planetary Wave Theory) (1939)",
     "st1": "study · Ocean Observation & Methods · HMS Challenger Expedition (1872)",
     "st2": "study · Deep Sea & Seafloor · Discovery of Hydrothermal Vents (Galápagos Rift) (1977)",
     "st3": "study · Chemical Oceanography · Revelle & Suess — Ocean CO₂ Uptake Study (1957)",
@@ -69,6 +70,7 @@
     "st9": "study · Ocean Observation & Methods · The Argo Programme — Global Ocean Profiling (2000)",
     "st10": "study · Marine Conservation & Policy · Gulf of Mexico Dead Zone Surveys (1985)",
     "st11": "study · Marine Biology & Ecology · Blue Carbon — Seagrass & Mangrove Sequestration Studies (2010)",
+    "st12": "study · Marine Biology & Ecology · The Microbial Loop (Azam et al., 1983) (1983)",
     "ef1": "effect · Physical Oceanography · Coastal Upwelling & Eastern Boundary Productivity (1938)",
     "ef2": "effect · Marine Biology & Ecology · Coral Bleaching (Thermal Stress Response) (1983)",
     "ef3": "effect · Chemical Oceanography · Oxygen Minimum Zone (OMZ) (1925)",
@@ -87,6 +89,7 @@
     "co6": "concept · Marine Biology & Ecology · Marine Life Zones (Pelagic, Benthic, Hadal) (1957)",
     "co7": "concept · Climate & Ocean Interaction · Sea Level Rise — Drivers & Measurement (1993)",
     "co8": "concept · Physical Oceanography · Subtropical Gyres as Convergence Zones (1950)",
+    "co9": "concept · Chemical Oceanography · Carbonate Compensation Depth (CCD) (1968)",
     "me1": "method · Ocean Observation & Methods · CTD Profiler (Conductivity-Temperature-Depth) (1972)",
     "me2": "method · Deep Sea & Seafloor · Sediment Core Analysis (Paleoceanography) (1947)",
     "me3": "method · Ocean Observation & Methods · Satellite Ocean Colour & Remote Sensing (1978)",
@@ -105,6 +108,7 @@
     "fg10": "figure · Pioneers & Theorists · Fridtjof Nansen (1902)",
     "fg11": "figure · Pioneers & Theorists · Charles David Keeling (1958)",
     "fg12": "figure · Pioneers & Theorists · Nicholas Shackleton (1976)",
+    "fg13": "figure · Pioneers & Theorists · Farooq Azam (1983)",
     "db1": "debate · Climate & Ocean Interaction · Is the AMOC Approaching a Tipping Point? (2021)",
     "db2": "debate · Climate & Ocean Interaction · Marine Ice Sheet Instability & 21st-Century Sea Level (2014)",
     "db3": "debate · Chemical Oceanography · Can Ocean Iron Fertilisation Sequester Meaningful Carbon? (1990)",
@@ -153,7 +157,8 @@
             "th6",
             "ef7",
             "co1",
-            "me4"
+            "me4",
+            "th11"
           ],
           "hint": "The world ocean functions as a single connected conveyor: cold, salty water sinks in the North Atlantic and around Antarctica, spreads along the seafloor across all basins, and is replaced by warm surface water flowing back to fill the gap. This thermohaline (heat-and-salt-driven) overturning circulation takes roughly 1,000 years to complete one cycle and redistributes enormous quantities of heat — making northern European climates far milder than their latitude alone would suggest.",
           "tag": "THEORY",
@@ -181,9 +186,10 @@
             "co1",
             "fg1",
             "fg4",
-            "ap4"
+            "ap4",
+            "th11"
           ],
-          "hint": "Surface winds drive the great subtropical gyres dominating each ocean basin. Sverdrup (1947) showed that the depth-integrated north-south transport at any location equals the local wind-stress curl — an elegant equation that explains why gyres exist and where currents flow without needing detailed knowledge of the ocean interior. The east-west asymmetry of gyres — intense western boundary currents versus sluggish eastern flows — was subsequently explained by the variation of the Coriolis parameter with latitude.",
+          "hint": "Surface winds drive the great subtropical gyres dominating each ocean basin. Sverdrup (1947) showed that in the slowly-moving interior of the gyre — away from the coasts — the depth-integrated north-south transport is directly proportional to the local wind-stress curl overhead. This elegant result explains why gyres exist and predicts interior ocean flow. But it fails at the western boundaries: without friction, the Sverdrup equation cannot produce a narrow Gulf Stream or Kuroshio. Stommel (1948) added bottom friction to generate western intensification; Munk (1950) added lateral friction to produce quantitatively accurate gyre shapes. These three papers together constitute the complete theory of wind-driven ocean circulation.",
           "tag": "THEORY",
           "note": "Sverdrup, H. U. (1947). 'Wind-driven currents in a baroclinic ocean.' Proceedings of the National Academy of Sciences, 33, 318–326. Western boundary current intensification explained by Stommel, H. (1948). 'The westward intensification of wind-driven ocean currents.' Transactions of the American Geophysical Union, 29, 202–206. Munk, W. H. (1950). 'On the wind-driven ocean circulation.' Journal of Meteorology, 7, 79–93 added bottom friction to produce quantitatively accurate gyre structures. These three papers together constitute the foundational theory of large-scale ocean circulation."
         },
@@ -229,7 +235,8 @@
             "st10",
             "db1",
             "th10",
-            "ef8"
+            "ef8",
+            "th11"
           ],
           "hint": "The tropical Pacific atmosphere and ocean operate as a coupled oscillating system. In the normal state, easterly trade winds pile warm water in the western Pacific; when those winds weaken, warm water floods east — suppressing upwelling, collapsing Peruvian anchoveta fisheries and disrupting rainfall globally from Australia to the Sahel. Bjerknes (1969) identified the self-amplifying feedback that drives each El Niño event: warm sea surface → weakened trade winds → further warming in the east.",
           "tag": "THEORY",
@@ -276,7 +283,10 @@
             "ef10",
             "co3",
             "db3",
-            "ap5"
+            "ap5",
+            "st12",
+            "co9",
+            "fg13"
           ],
           "hint": "The ocean removes CO₂ from the atmosphere not just by physical dissolution but through life: phytoplankton fix CO₂ at the surface; when they die, their carbon-rich remains and fecal pellets sink as 'marine snow', exporting carbon to depth where it is isolated from the atmosphere for decades to millennia. This biological pump exports roughly 5–12 Gt of carbon per year and is a critical regulator of atmospheric CO₂ on timescales from years to millions of years.",
           "tag": "MODEL",
@@ -363,11 +373,33 @@
             "fg12",
             "ef8",
             "co7",
-            "db2"
+            "db2",
+            "co9"
           ],
           "hint": "Ice ages — and the deep shifts in ocean chemistry and circulation that accompany them — are paced by three cyclical changes in Earth's orbit: eccentricity (100,000-year cycle), axial tilt (41,000 years) and precession (23,000 years). The theory was confirmed by matching these orbital rhythms to oxygen-isotope cycles preserved in deep-sea sediment cores: ice age cycles are literally written in the shells of ancient foraminifera on the ocean floor, recording ice volume and ocean temperature over hundreds of thousands of years.",
           "tag": "THEORY",
           "note": "Milanković, M. (1941). Canon of Insolation and the Ice-Age Problem. Royal Serbian Academy (translated 1969). Confirmed by Hays, J. D., Imbrie, J. & Shackleton, N. J. (1976). 'Variations in the Earth's orbit: Pacemaker of the ice ages.' Science, 194, 1121–1132 — over 5,000 citations; identified by Discover as one of the 20 greatest science papers of the 20th century. The dominant 100-kyr cycle is puzzling because orbital eccentricity produces small insolation changes — amplification by ice-albedo and CO₂ feedbacks is required but the exact mechanism is still debated (Huybers 2007, Quaternary Science Reviews)."
+        },
+        {
+          "id": "th11",
+          "group": "Physical Oceanography",
+          "label": "Rossby Waves & Kelvin Waves (Planetary Wave Theory)",
+          "date": "1939",
+          "loc": "Massachusetts Institute of Technology, Cambridge, Massachusetts",
+          "coords": [
+            42.36,
+            -71.09
+          ],
+          "links": [
+            "th2",
+            "th4",
+            "th1",
+            "co2",
+            "db1"
+          ],
+          "hint": "The ocean adjusts to changes in forcing not instantaneously but by radiating planetary waves. Rossby waves, generated by the β-effect (the variation of the Coriolis parameter with latitude), travel slowly westward carrying information about pressure adjustments across ocean basins — a single Rossby wave can take months to years to cross the Pacific. Kelvin waves travel eastward along the equator or coastline far faster and are the physical trigger of El Niño: weakening trade winds launch a downwelling equatorial Kelvin wave that depresses the thermocline eastward, warming the eastern Pacific and initiating the El Niño event.",
+          "tag": "THEORY",
+          "note": "Rossby, C.-G. (1939). 'Relation between variations in the intensity of the zonal circulation and the displacements of the semi-permanent centers of action.' Journal of Marine Research, 2, 38–55 — foundational planetary wave paper. Equatorial wave theory: Matsuno, T. (1966). 'Quasi-geostrophic motions in the equatorial area.' Journal of the Meteorological Society of Japan, 44, 25–43 — derived the full spectrum of equatorial waves including Kelvin waves, Rossby waves and mixed Rossby-gravity waves. ENSO application: McCreary, J. P. (1976); Gill, A. E. (1982). Atmosphere-Ocean Dynamics. Academic Press. Delayed oscillator mechanism of ENSO: Battisti, D. S. & Hirst, A. C. (1989). Journal of the Atmospheric Sciences, 46, 1687–1712 — shows that westward-propagating Rossby waves reflecting off the western boundary as Kelvin waves provide the negative feedback that terminates each El Niño event. Kelvin wave pulses in the Pacific thermocline are tracked operationally in near-real-time for seasonal ENSO forecasting."
         }
       ]
     },
@@ -616,6 +648,29 @@
           "hint": "Seagrasses, mangroves and salt marshes store carbon in their soils at rates per unit area far exceeding tropical rainforests, and can lock it away for millennia. Their destruction releases centuries of stored carbon back to the atmosphere. Quantifying this 'blue carbon' stock created a new scientific rationale for protecting coastal ecosystems and for including them in national greenhouse gas inventories and carbon markets.",
           "tag": "FIELD STUDY",
           "note": "Duarte, C. M. et al. (2005). 'Major role of marine vegetation on the oceanic carbon cycle.' Biogeosciences, 2, 1–8 — first global synthesis. Mcleod, E. et al. (2011). 'A blueprint for blue carbon.' Frontiers in Ecology and the Environment, 9, 552–560 — coined the policy term and estimated mangrove/seagrass/saltmarsh stocks at 10–22 Gt C. Repl mixed: Alongi, D. M. (2014) found some mangrove soil carbon stocks lower than early estimates; global total remains uncertain within a factor of ~3. The concept is robust; the precise magnitude of sequestration per ecosystem type requires better spatial mapping."
+        },
+        {
+          "id": "st12",
+          "group": "Marine Biology & Ecology",
+          "label": "The Microbial Loop (Azam et al., 1983)",
+          "date": "1983",
+          "loc": "Scripps Institution of Oceanography, La Jolla, California",
+          "coords": [
+            32.87,
+            -117.25
+          ],
+          "links": [
+            "th6",
+            "ef6",
+            "co3",
+            "db6",
+            "db7",
+            "fg13"
+          ],
+          "repl": "robust",
+          "hint": "Before 1983, marine food web models ran in a single direction: phytoplankton → zooplankton → fish. Azam and colleagues showed that the dominant pathway for organic carbon is not upward but sideways: most phytoplankton carbon leaks out as dissolved organic carbon (DOC), which is consumed by bacteria, which are then grazed by flagellates and ciliates. This 'microbial loop' recycles carbon that would otherwise be lost, reintroducing it into the food web — but it also keeps carbon near the surface, reducing export efficiency of the biological pump.",
+          "tag": "FIELD STUDY",
+          "note": "Azam, F., Fenchel, T., Field, J. G., Gray, J. S., Meyer-Reil, L.-A. & Thingstad, F. (1983). 'The ecological role of water-column microbes in the sea.' Marine Ecology Progress Series, 10, 257–263 — 7 pages, > 5,000 citations; restructured marine ecology. Before this paper, bacteria were treated as minor decomposers at the end of the food chain. The microbial loop shows bacteria process > 50% of marine primary production. It explains why oligotrophic gyres appear blue (active bacterial respiration consumes DOC without producing visible chlorophyll) and why the biological pump is less efficient in warm, stratified waters where the microbial loop dominates over the particle-export pathway. The loop is now standard in all coupled ocean biogeochemical models."
         }
       ]
     },
@@ -761,7 +816,9 @@
             "co3",
             "db6",
             "st11",
-            "db7"
+            "db7",
+            "st12",
+            "fg13"
           ],
           "repl": "robust",
           "hint": "As organic matter produced at the surface — phytoplankton cells, fecal pellets, discarded mucus webs, detritus — aggregates and sinks through the water column, it forms centimetre-scale flakes resembling a slow-motion snowfall. This marine snow is the primary mechanism transporting carbon from the sunlit surface to the deep ocean. The flux diminishes exponentially with depth: roughly 1–10% of surface production reaches the seafloor, sustaining the entirety of deep-sea benthic communities.",
@@ -911,7 +968,8 @@
             "me1",
             "th3",
             "th10",
-            "st9"
+            "st9",
+            "th11"
           ],
           "hint": "The ocean is not a well-mixed tank. A permanent density gradient (pycnocline) at roughly 200–1,000 m separates the warm, light, wind-mixed surface layer from the cold, dense, dark deep ocean. This density barrier strongly suppresses vertical exchange of heat, oxygen and nutrients between the two realms. Understanding it is essential for explaining where blooms occur, how carbon is sequestered and how the ocean responds to climate forcing.",
           "tag": "CONCEPT",
@@ -936,11 +994,12 @@
             "th8",
             "ef4",
             "me3",
-            "db7"
+            "db7",
+            "st12"
           ],
           "hint": "Photosynthesis in the ocean is confined to the photic zone — typically the upper 100–200 m where sufficient sunlight penetrates. Every calorie consumed by anything from zooplankton to blue whales ultimately derives from this thin layer. Sverdrup's 'critical depth' model (1953) explained why spring phytoplankton blooms begin when the wind-mixed layer shoals above the depth at which integrated photosynthesis exceeds respiration — a moment as precise as the flip of a switch.",
           "tag": "CONCEPT",
-          "note": "Sverdrup, H. U. (1953). 'On conditions for the vernal blooming of phytoplankton.' ICES Journal of Marine Science, 18, 287–295 — the critical depth hypothesis, still the standard conceptual model. Global ocean primary production estimated at ~50 Gt C yr⁻¹ by Field, C. B. et al. (1998). Science, 281, 237–240 using satellite ocean-colour data (CZCS, SeaWiFS). Below the photic zone, chemosynthesis at hydrothermal vents and cold seeps sustains significant biomass independently of sunlight. Ocean primary production may decline 6–12% under climate warming by 2100 due to increased stratification (Steinacher et al. 2010, Biogeosciences, 7, 979–1005)."
+          "note": "Sverdrup, H. U. (1953). 'On conditions for the vernal blooming of phytoplankton.' ICES Journal of Marine Science, 18, 287–295 — the critical depth hypothesis, still the standard conceptual model. Global ocean primary production estimated at ~50 Gt C yr⁻¹ by Field, C. B. et al. (1998). Science, 281, 237–240 using satellite ocean-colour data (CZCS, SeaWiFS). Below the photic zone, chemosynthesis at hydrothermal vents and cold seeps sustains significant biomass independently of sunlight. Ocean primary production may decline 6–12% under climate warming by 2100 due to increased stratification (Steinacher et al. 2010, Biogeosciences, 7, 979–1005). Sverdrup's critical depth model has been challenged by the Disturbance-Recovery Hypothesis: Behrenfeld, M. J. et al. (2010). 'Abandoning Sverdrup's Critical Depth Hypothesis on phytoplankton blooms.' Ecology, 91, 977–989 — proposes that spring blooms begin in mid-winter when deep mixing dilutes zooplankton grazers, allowing phytoplankton division rates to outpace predation (predator-prey decoupling) rather than a light-threshold mechanism. This is one of the most actively debated topics in biological oceanography."
         },
         {
           "id": "co4",
@@ -961,7 +1020,8 @@
             "db5",
             "ap5",
             "fg6",
-            "fg11"
+            "fg11",
+            "co9"
           ],
           "hint": "The ocean absorbs roughly 30% of all CO₂ humans emit. When CO₂ dissolves in seawater it forms carbonic acid, which releases hydrogen ions and lowers pH. Surface ocean pH has fallen from 8.20 to 8.10 since 1750 — a 26% increase in hydrogen ion concentration. Organisms that build shells or skeletons from calcium carbonate — corals, oysters, pteropods, foraminifera — face progressively corrosive chemistry. At high enough acidity, their shells dissolve faster than they can be built.",
           "tag": "CONCEPT",
@@ -981,7 +1041,8 @@
             "th6",
             "st5",
             "ef3",
-            "db3"
+            "db3",
+            "co9"
           ],
           "hint": "In 1934, Alfred Redfield noticed that carbon, nitrogen and phosphorus occur in marine phytoplankton in a consistent molar ratio of approximately 106 : 16 : 1 — and that the deep ocean water dissolves these elements in the same proportions. This 'Redfield ratio' is not coincidence: biology has shaped ocean chemistry, not the other way round. The ratio implies that nitrogen and phosphorus co-limit primary production, and that the ocean's nitrogen inventory is regulated by the biosphere itself through denitrification and N₂ fixation.",
           "tag": "CONCEPT",
@@ -1056,6 +1117,28 @@
           "hint": "The five subtropical gyres — North and South Pacific, North and South Atlantic, and Indian Ocean — are vast rotating current systems each spanning thousands of kilometres, driven by the global wind pattern. Their centres are convergence zones where surface water slowly sinks and upwelling of nutrients is suppressed. These 'ocean deserts' cover ~40% of the Earth's surface yet sustain specialist ecosystems — and have become accumulation zones for floating plastic, with concentrations far above background levels.",
           "tag": "CONCEPT",
           "note": "Gyre structure theorised by Sverdrup (1947) and Munk (1950). Oligotrophic character of gyre centres: Ryther, J. H. (1969). Science, 166, 72–76. Plastic accumulation first documented in the North Atlantic by Carpenter, E. J. & Smith, K. L. (1972). Science, 175, 1240–1241. HOTS (Hawaii Ocean Time-Series) and BATS (Bermuda Atlantic Time-Series) programmes provide decades of observational records from the two best-studied gyre centres. Gyre circulation patterns affect larval dispersal, migratory species distributions and the formation and persistence of floating plastic gyres in all five subtropical ocean basins."
+        },
+        {
+          "id": "co9",
+          "group": "Chemical Oceanography",
+          "label": "Carbonate Compensation Depth (CCD)",
+          "date": "1968",
+          "loc": "Scripps Institution of Oceanography, La Jolla, California",
+          "coords": [
+            32.87,
+            -117.25
+          ],
+          "links": [
+            "th6",
+            "co4",
+            "co5",
+            "me2",
+            "db4",
+            "th10"
+          ],
+          "hint": "Calcium carbonate dissolves in cold, high-pressure, CO₂-rich deep water. Below a critical depth — the Carbonate Compensation Depth — carbonate dissolves faster than it rains down from the surface, so none accumulates on the seafloor. Above the CCD, the seafloor is blanketed with foram or coccolithophore ooze; below it, only red abyssal clay remains. The CCD sits at roughly 4,000–5,000 m in the Atlantic and 3,000–4,000 m in the Pacific and has varied significantly across geological time, rising and falling in step with the biological pump, ice ages, and now ocean acidification.",
+          "tag": "CONCEPT",
+          "note": "First systematic description: Murray, J. & Renard, A. F. (1891). Deep-Sea Deposits. Challenger Reports — documented the transition from carbonate ooze to red clay with depth. Modern quantification and naming: Berger, W. H. (1968). 'Planktonic foraminifera: selective solution and paleoclimatic interpretation.' Deep-Sea Research, 15, 31–43. Global mapping: van Andel, T. H. (1975). Earth and Planetary Science Letters, 26, 187–194. The CCD is shallower in the Pacific (colder, older, more CO₂-rich deep water) than the Atlantic. It shoaled dramatically during past glacial periods when the biological pump was more efficient, leaving a clear sedimentary signal. Ocean acidification is now shoaling the CCD — the modern lysocline is rising at measurable rates in the Southern Ocean and North Pacific (Feely et al. 2004, Science, 305, 362–366)."
         }
       ]
     },
@@ -1108,7 +1191,8 @@
             "ef9",
             "db4",
             "fg12",
-            "fg7"
+            "fg7",
+            "co9"
           ],
           "hint": "A piston or gravity corer driven into seafloor sediment extracts an undisturbed cylinder of material extending up to tens of metres — potentially hundreds of thousands of years of continuous climate history. Analysts measure oxygen isotopes in foraminiferal shells to reconstruct past ocean temperature and ice volume, identify volcanic ash layers as time markers, and extract pollen, organic biomarkers and geochemical proxies to reconstruct past productivity, circulation and sea surface conditions.",
           "tag": "METHOD",
@@ -1442,6 +1526,26 @@
           "hint": "Shackleton transformed the oxygen isotope analysis of foraminifera from a temperature proxy into a precise ice-volume recorder and was lead author of the 'Pacemaker' paper (1976) that confirmed Milanković orbital forcing drives ice ages. By measuring ¹⁸O/¹⁶O ratios in foram shells from deep-sea sediment cores, he showed that glacial cycles are recorded in ocean sediment with extraordinary precision at the periods predicted by orbital theory, turning paleoceanography from a descriptive enterprise into a quantitative science.",
           "tag": "PIONEER",
           "note": "Shackleton, N. J. & Opdyke, N. D. (1973). Quaternary Research, 3, 39–55 — isotope signal reflects ice volume not temperature. Hays, J. D., Imbrie, J. & Shackleton, N. J. (1976). Science, 194, 1121–1132 — the pacemaker paper. Shackleton, N. J. et al. (2000). Transactions of the Royal Society of Edinburgh, 81, 251–261 — astronomical calibration of Pliocene-Pleistocene timescale. Crafoord Prize (1995); Vetlesen Prize (2004). Professor of Earth Sciences at Cambridge until his death in 2006. The Shackleton crater on the Moon and IODP Expedition 395 are named in his honour."
+        },
+        {
+          "id": "fg13",
+          "group": "Pioneers & Theorists",
+          "label": "Farooq Azam",
+          "date": "1983",
+          "loc": "Scripps Institution of Oceanography, La Jolla, California",
+          "coords": [
+            32.87,
+            -117.25
+          ],
+          "links": [
+            "st12",
+            "th6",
+            "ef6",
+            "db6"
+          ],
+          "hint": "Microbial oceanographer Azam co-authored the 1983 paper that established the microbial loop — showing that bacteria, not zooplankton, process the majority of marine primary production, rewriting the ocean food web. His subsequent work on 'marine snow' bacteria, transparent exopolymer particles (TEPs) and the role of microbial communities in carbon cycling established microbial oceanography as a discipline and fundamentally reshaped how marine biogeochemists model the biological pump.",
+          "tag": "PIONEER",
+          "note": "Azam, F. et al. (1983). Marine Ecology Progress Series, 10, 257–263 — the microbial loop paper, > 5,000 citations. Azam, F. (1998). 'Microbial control of oceanic carbon flux: The plot thickens.' Science, 280, 694–696 — showed bacterial activity varies regionally, determining where the biological pump is efficient. Transparent exopolymer particles: Passow, U. & Alldredge, A. L. (1994). Limnology and Oceanography, 39, 1543–1558 — TEPs form the sticky matrix that aggregates marine snow; Azam's group characterised their role. Elected to the US National Academy of Sciences (2005). ASLO Hutchinson Medal (2009). Distinguished Professor of Marine Biology, Scripps Institution of Oceanography."
         }
       ]
     },
@@ -1469,7 +1573,8 @@
             "th4",
             "ef8",
             "co7",
-            "fg4"
+            "fg4",
+            "th11"
           ],
           "hint": "Statistical analysis of sea-surface temperature fingerprints suggests the Atlantic Meridional Overturning Circulation may be losing stability and approaching a tipping point that, if crossed, would shift it to a permanently weakened state — abruptly cooling northwest Europe, suppressing monsoons and raising US East Coast sea levels. But rival analyses contest the statistical methodology, and direct measurements show multi-decadal variability without a clear collapse signal. The debate hinges on whether proxy records can detect tipping-point precursors reliably.",
           "tag": "OPEN QUESTION",
@@ -1529,7 +1634,8 @@
             "th10",
             "st8",
             "me2",
-            "fg12"
+            "fg12",
+            "co9"
           ],
           "hint": "Deep-sea sediment cores reveal that ice ages have been dominated by a ~100,000-year periodicity for the past 800,000 years — yet the 100-kyr cycle of orbital eccentricity produces very small changes in total solar insolation. The 41-kyr tilt cycle, which drives much larger insolation swings, dominated before ~900,000 years ago. Why Earth's climate locks on to a faint orbital signal and what changed at the Mid-Pleistocene Transition are among the deepest unresolved questions in paleoclimatology.",
           "tag": "OPEN QUESTION",
@@ -1572,7 +1678,9 @@
             "ef6",
             "ef10",
             "st3",
-            "ef3"
+            "ef3",
+            "st12",
+            "fg13"
           ],
           "hint": "The biological pump's carbon export to the deep ocean is a critical — and poorly constrained — term in the global carbon budget. Sediment traps miss fast-sinking particles; BGC-Argo sensors suggest far more microbial respiration in the mesopelagic zone than models assume, re-mineralising exported carbon at shallower depths. If the pump is weaker than assumed, the ocean's future CO₂ uptake may be lower than climate models project, closing the gap between observed atmospheric CO₂ rise and model projections.",
           "tag": "OPEN QUESTION",
@@ -1592,7 +1700,8 @@
             "th9",
             "ef6",
             "co3",
-            "me5"
+            "me5",
+            "st12"
           ],
           "hint": "Acoustic surveys of the deep scattering layer suggest mesopelagic fish biomass — the lanternfishes, bristlemouths and hatchetfishes of the twilight zone — could be 1–10 billion tonnes, ten times more than the entire global fisheries catch. But trawl surveys return numbers an order of magnitude lower, possibly because small fish avoid nets and because their calcified otoliths dissolve before they can be counted. Resolving this uncertainty matters enormously: these organisms drive active carbon transport and are a critical food source for tuna, seabirds and whales.",
           "tag": "OPEN QUESTION",
