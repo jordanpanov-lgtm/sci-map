@@ -160,7 +160,14 @@
           ],
           "hint": "The nervous system is composed of discrete, individual cells — neurons — not a continuous reticulum. Signals travel from dendrite to axon terminal and cross junctions (synapses) between cells. Established by Cajal's Golgi-stained drawings and Sherrington's physiological evidence, the neuron doctrine remains the foundational principle of neuroscience.",
           "tag": "THEORY",
-          "note": "Cajal, S. R. y (1888–1904). Textura del Sistema Nervioso del Hombre y de los Vertebrados. Moya, Madrid — definitive anatomical evidence via Golgi staining. Waldeyer-Hartz coined 'neuron' in 1891. Nobel Prize in Physiology or Medicine 1906 (shared: Cajal and Golgi). Sherrington's The Integrative Action of the Nervous System (1906) provided the physiological complement, introducing the synapse concept."
+          "note": "Cajal, S. R. y (1888–1904). Textura del Sistema Nervioso del Hombre y de los Vertebrados. Moya, Madrid — definitive anatomical evidence via Golgi staining. Waldeyer-Hartz coined 'neuron' in 1891. Nobel Prize in Physiology or Medicine 1906 (shared: Cajal and Golgi). Sherrington's The Integrative Action of the Nervous System (1906) provided the physiological complement, introducing the synapse concept.",
+          "keywords": [
+            "neuron doctrine",
+            "synaptic junction",
+            "neural reticulum",
+            "golgi stain",
+            "axon terminal"
+          ]
         },
         {
           "id": "th2",
@@ -181,7 +188,13 @@
           ],
           "hint": "When neuron A repeatedly activates neuron B, the synaptic connection between them strengthens — the cellular basis of associative learning. The rule captures experience-dependent plasticity and predicted long-term potentiation (LTP) two decades before its experimental demonstration.",
           "tag": "THEORY",
-          "note": "Hebb, D. O. (1949). The Organization of Behavior. Wiley. The phrase 'cells that fire together wire together' is a later paraphrase by Siegrid Löwel (1992). Experimental validation came with Bliss & Lømo (1973) demonstrating LTP in the hippocampus. Hebbian learning underpins modern artificial neural network training (backpropagation shares its spirit)."
+          "note": "Hebb, D. O. (1949). The Organization of Behavior. Wiley. The phrase 'cells that fire together wire together' is a later paraphrase by Siegrid Löwel (1992). Experimental validation came with Bliss & Lømo (1973) demonstrating LTP in the hippocampus. Hebbian learning underpins modern artificial neural network training (backpropagation shares its spirit).",
+          "keywords": [
+            "synaptic plasticity",
+            "associative learning",
+            "hebbian rule",
+            "experience-dependent plasticity"
+          ]
         },
         {
           "id": "th3",
@@ -200,7 +213,13 @@
           ],
           "hint": "Bodily feeling states — somatic markers — tag options with positive or negative valence derived from prior emotional experience. Damage to the ventromedial prefrontal cortex (vmPFC) uncouples this tagging, producing the 'gambling task' deficit: patients choose high-reward/high-risk decks despite feedback, because they lack anticipatory skin-conductance responses.",
           "tag": "HYPOTHESIS",
-          "note": "Damasio, A. R. (1994). Descartes' Error: Emotion, Reason and the Human Brain. Putnam. Empirical support: Bechara, A. et al. (1994). 'Insensitivity to future consequences following damage to human prefrontal cortex.' Cognition, 50, 7–15. The Iowa Gambling Task has been widely replicated, though the somatic marker interpretation is debated; some researchers attribute vmPFC effects to disrupted reward valuation rather than body-state tagging."
+          "note": "Damasio, A. R. (1994). Descartes' Error: Emotion, Reason and the Human Brain. Putnam. Empirical support: Bechara, A. et al. (1994). 'Insensitivity to future consequences following damage to human prefrontal cortex.' Cognition, 50, 7–15. The Iowa Gambling Task has been widely replicated, though the somatic marker interpretation is debated; some researchers attribute vmPFC effects to disrupted reward valuation rather than body-state tagging.",
+          "keywords": [
+            "somatic marker",
+            "ventromedial prefrontal cortex",
+            "emotional decision-making",
+            "anticipatory skin conductance"
+          ]
         },
         {
           "id": "th4",
@@ -219,7 +238,14 @@
           ],
           "hint": "The brain is a 'prediction machine' that constantly generates hierarchical predictions about incoming sensory signals and updates only on prediction errors — the mismatch between expectation and reality. Perception, action and learning are all minimisation of free energy (surprise). Unifies anatomy, physiology and psychopathology in one framework.",
           "tag": "FRAMEWORK",
-          "note": "Friston, K. (2005). 'A theory of cortical responses.' Philosophical Transactions of the Royal Society B, 360, 815–836. The broader free energy principle: Friston, K. (2010). 'The free-energy principle: A unified brain theory?' Nature Reviews Neuroscience, 11, 127–138. Influential but contested for being near-unfalsifiable in its most general form; empirical tests focus on prediction error signals in fMRI and EEG."
+          "note": "Friston, K. (2005). 'A theory of cortical responses.' Philosophical Transactions of the Royal Society B, 360, 815–836. The broader free energy principle: Friston, K. (2010). 'The free-energy principle: A unified brain theory?' Nature Reviews Neuroscience, 11, 127–138. Influential but contested for being near-unfalsifiable in its most general form; empirical tests focus on prediction error signals in fMRI and EEG.",
+          "keywords": [
+            "predictive coding",
+            "prediction error",
+            "bayesian brain",
+            "free energy principle",
+            "active inference"
+          ]
         },
         {
           "id": "th5",
@@ -236,7 +262,13 @@
           ],
           "hint": "Colour perception is not trichromatic all the way up; post-retinal stages encode three opponent pairs — red/green, blue/yellow, black/white — which is why we can see reddish-blue (purple) but not reddish-green. Explains simultaneous contrast, afterimages and colour blindness patterns that trichromacy alone cannot account for.",
           "tag": "THEORY",
-          "note": "Hering, E. (1878). Zur Lehre vom Lichtsinne. Gerold, Vienna. Confirmed physiologically by DeValois, R. L. et al. (1966) recording spectrally opponent neurons in the macaque LGN. Now the standard account of post-receptoral colour coding; trichromacy and opponent-process operate at different stages of the visual pathway."
+          "note": "Hering, E. (1878). Zur Lehre vom Lichtsinne. Gerold, Vienna. Confirmed physiologically by DeValois, R. L. et al. (1966) recording spectrally opponent neurons in the macaque LGN. Now the standard account of post-receptoral colour coding; trichromacy and opponent-process operate at different stages of the visual pathway.",
+          "keywords": [
+            "opponent colour channels",
+            "trichromacy",
+            "colour afterimage",
+            "hering colour theory"
+          ]
         },
         {
           "id": "th6",
@@ -254,7 +286,14 @@
           ],
           "hint": "MacLean proposed the brain is three evolutionary layers nested inside each other: a reptilian complex (basal ganglia, instinct), a paleomammalian complex (limbic system, emotion) and a neomammalian complex (neocortex, reason). Influenced popular thinking about emotion versus reason — though modern neuroscience considers the model a severe oversimplification.",
           "tag": "MODEL",
-          "note": "MacLean, P. D. (1990). The Triune Brain in Evolution. Plenum Press. The model became a 'neuromyth' — widely cited in popular and educational contexts despite being contradicted by evolutionary and anatomical evidence. Critiqued by Striedter (2005) Principles of Brain Evolution (Sinauer) and flagged as misleading by Cesario et al. (2020) Perspectives on Psychological Science. Linked to db4."
+          "note": "MacLean, P. D. (1990). The Triune Brain in Evolution. Plenum Press. The model became a 'neuromyth' — widely cited in popular and educational contexts despite being contradicted by evolutionary and anatomical evidence. Critiqued by Striedter (2005) Principles of Brain Evolution (Sinauer) and flagged as misleading by Cesario et al. (2020) Perspectives on Psychological Science. Linked to db4.",
+          "keywords": [
+            "triune brain",
+            "limbic system",
+            "basal ganglia",
+            "reptilian complex",
+            "evolutionary brain layering"
+          ]
         },
         {
           "id": "th7",
@@ -272,7 +311,13 @@
           ],
           "hint": "Any emotion triggers an opposing emotional state that grows stronger with repetition: the primary 'a-process' diminishes while the opponent 'b-process' intensifies. Explains hedonic adaptation, the tolerance-and-withdrawal cycle of addiction, and why parachutists feel terror then elation. The b-process outlasts the a-process, creating the after-reaction.",
           "tag": "THEORY",
-          "note": "Solomon, R. L. & Corbit, J. D. (1974). 'An opponent-process theory of motivation.' Psychological Review, 81, 119–145. Applied to addiction by Solomon (1977) and to drug self-administration in animals. Forms the motivational basis for Koob & Le Moal's allostatic model of addiction (1997)."
+          "note": "Solomon, R. L. & Corbit, J. D. (1974). 'An opponent-process theory of motivation.' Psychological Review, 81, 119–145. Applied to addiction by Solomon (1977) and to drug self-administration in animals. Forms the motivational basis for Koob & Le Moal's allostatic model of addiction (1997).",
+          "keywords": [
+            "opponent process motivation",
+            "hedonic adaptation",
+            "withdrawal state",
+            "tolerance mechanism"
+          ]
         },
         {
           "id": "th8",
@@ -291,7 +336,13 @@
           ],
           "hint": "Homeostasis is stability through fixity; allostasis is stability through change — the brain actively anticipates demand and adjusts physiology accordingly. Chronic stress creates 'allostatic load': cumulative wear-and-tear from repeated mobilisation of stress responses, measurable as HPA-axis dysregulation, elevated cortisol and hippocampal atrophy.",
           "tag": "FRAMEWORK",
-          "note": "Sterling, P. & Eyer, J. (1988). 'Allostasis: A new paradigm to explain arousal pathology.' In S. Fisher & J. Reason (Eds.), Handbook of Life Stress, Cognition and Health (pp. 629–649). Wiley. Elaborated in McEwen, B. S. & Stellar, E. (1993). 'Stress and the individual.' Archives of Internal Medicine, 153, 2093–2101. Now a major framework in health psychology and psychoneuroimmunology."
+          "note": "Sterling, P. & Eyer, J. (1988). 'Allostasis: A new paradigm to explain arousal pathology.' In S. Fisher & J. Reason (Eds.), Handbook of Life Stress, Cognition and Health (pp. 629–649). Wiley. Elaborated in McEwen, B. S. & Stellar, E. (1993). 'Stress and the individual.' Archives of Internal Medicine, 153, 2093–2101. Now a major framework in health psychology and psychoneuroimmunology.",
+          "keywords": [
+            "allostatic load",
+            "HPA axis",
+            "cortisol regulation",
+            "chronic stress biology"
+          ]
         },
         {
           "id": "th9",
@@ -308,7 +359,13 @@
           ],
           "hint": "Cognition emerges from large networks of simple processing units with weighted connections — not from symbolic rules in a central processor. Knowledge is stored in patterns of connection strengths, not in discrete memory locations. PDP models simulate graceful degradation, prototype effects and learning by gradient descent.",
           "tag": "FRAMEWORK",
-          "note": "Rumelhart, D. E., McClelland, J. L. & the PDP Research Group (1986). Parallel Distributed Processing: Explorations in the Microstructure of Cognition (2 vols). MIT Press. Propelled neural-network research; the backpropagation algorithm described here is the ancestor of modern deep learning. Criticised by Fodor & Pylyshyn (1988) for failing to capture compositionality and systematicity."
+          "note": "Rumelhart, D. E., McClelland, J. L. & the PDP Research Group (1986). Parallel Distributed Processing: Explorations in the Microstructure of Cognition (2 vols). MIT Press. Propelled neural-network research; the backpropagation algorithm described here is the ancestor of modern deep learning. Criticised by Fodor & Pylyshyn (1988) for failing to capture compositionality and systematicity.",
+          "keywords": [
+            "connectionism",
+            "distributed representation",
+            "gradient descent",
+            "neural network model"
+          ]
         },
         {
           "id": "th10",
@@ -327,7 +384,14 @@
           ],
           "hint": "Weak stimulation that produces short-term potentiation (E-LTP) can be 'captured' and converted to long-term potentiation (L-LTP) if a strong stimulus marks the synapse with a 'tag' shortly before or after, even at a distant synapse. Explains synapse-specific late-LTP and why spaced repetition reinforces learning: the tag and the protein supply can arrive from separate events.",
           "tag": "THEORY",
-          "note": "Frey, U. & Morris, R. G. M. (1997). 'Synaptic tagging and long-term potentiation.' Nature, 385, 533–536. Follow-up: Frey, U. & Morris, R. G. M. (1998). 'Weak before strong: Dissociating synaptic tagging and plasticity-factor accounts of late-LTP.' Neuropharmacology, 37, 545–552. A key cellular mechanism bridging E-LTP and L-LTP; relevant to the cellular basis of memory consolidation."
+          "note": "Frey, U. & Morris, R. G. M. (1997). 'Synaptic tagging and long-term potentiation.' Nature, 385, 533–536. Follow-up: Frey, U. & Morris, R. G. M. (1998). 'Weak before strong: Dissociating synaptic tagging and plasticity-factor accounts of late-LTP.' Neuropharmacology, 37, 545–552. A key cellular mechanism bridging E-LTP and L-LTP; relevant to the cellular basis of memory consolidation.",
+          "keywords": [
+            "synaptic tagging",
+            "late LTP",
+            "protein synthesis",
+            "synapse-specific plasticity",
+            "spaced repetition"
+          ]
         },
         {
           "id": "th11",
@@ -348,7 +412,14 @@
           ],
           "hint": "Hormones that shape behaviour operate by two fundamentally different mechanisms. Peptide hormones (oxytocin, vasopressin, ACTH) bind membrane receptors and rapidly change the activity of existing proteins — fast, reversible, local. Steroid hormones (cortisol, testosterone, oestrogen) are lipid-soluble: they cross cell membranes, bind intracellular receptors, and translocate to the nucleus to alter gene transcription — slower, longer-lasting, and capable of physically remodelling neural architecture. The distinction predicts timescale, reversibility, and drug delivery route.",
           "tag": "THEORY",
-          "note": "McEwen, B. S. et al. (1968) — first demonstration of steroid receptors in the rat brain. Jensen, E. V. & Jacobson, H. I. (1962). 'Basic guides to the mechanism of estrogen action.' Recent Progress in Hormone Research, 18, 387–414 — nuclear receptor binding. Sapolsky, R. M. (2004). Biology and Human Behavior: The Neurological Origins of Individuality — synthesised both pathways. The steroid/peptide distinction predicts drug design: peptide hormones require injections (degraded in gut); steroids are orally active."
+          "note": "McEwen, B. S. et al. (1968) — first demonstration of steroid receptors in the rat brain. Jensen, E. V. & Jacobson, H. I. (1962). 'Basic guides to the mechanism of estrogen action.' Recent Progress in Hormone Research, 18, 387–414 — nuclear receptor binding. Sapolsky, R. M. (2004). Biology and Human Behavior: The Neurological Origins of Individuality — synthesised both pathways. The steroid/peptide distinction predicts drug design: peptide hormones require injections (degraded in gut); steroids are orally active.",
+          "keywords": [
+            "steroid hormone",
+            "peptide hormone",
+            "gene transcription",
+            "hormone-behaviour interaction",
+            "oxytocin signalling"
+          ]
         }
       ]
     },
@@ -378,7 +449,14 @@
           "hint": "Using voltage-clamp recordings from the squid giant axon, Hodgkin and Huxley measured the sodium and potassium conductance changes underlying the action potential and wrote a set of four differential equations that predicted its shape, propagation velocity and refractory period with extraordinary precision — the first complete quantitative model of neural signalling.",
           "tag": "EXPERIMENT",
           "repl": "robust",
-          "note": "Hodgkin, A. L. & Huxley, A. F. (1952). 'A quantitative description of membrane current and its application to conduction and excitation in nerve.' Journal of Physiology, 117, 500–544. Nobel Prize in Physiology or Medicine 1963 (with Eccles). The Hodgkin–Huxley model remains the gold standard for computational neuroscience; replicated across species from invertebrates to mammals."
+          "note": "Hodgkin, A. L. & Huxley, A. F. (1952). 'A quantitative description of membrane current and its application to conduction and excitation in nerve.' Journal of Physiology, 117, 500–544. Nobel Prize in Physiology or Medicine 1963 (with Eccles). The Hodgkin–Huxley model remains the gold standard for computational neuroscience; replicated across species from invertebrates to mammals.",
+          "keywords": [
+            "voltage clamp",
+            "squid giant axon",
+            "ion conductance",
+            "action potential model",
+            "quantitative neuroscience"
+          ]
         },
         {
           "id": "st2",
@@ -398,7 +476,14 @@
           "hint": "After bilateral medial temporal-lobe resection for epilepsy, Henry Molaison (H.M.) could no longer form new declarative memories (anterograde amnesia) while retaining procedural learning and remote long-term memories. This dissociation proved the hippocampus is essential for encoding new episodic and semantic memories but not for other forms of learning.",
           "tag": "CASE STUDY",
           "repl": "robust",
-          "note": "Scoville, W. B. & Milner, B. (1957). 'Loss of recent memory after bilateral hippocampal lesions.' Journal of Neurology, Neurosurgery and Psychiatry, 20, 11–21. H.M. studied until his death in 2008; his brain was sectioned and digitised (Annese et al., 2014, Nature Communications). Among the most influential cases in the history of neuroscience. Milner's continuing work extended the findings to skill learning (fg12)."
+          "note": "Scoville, W. B. & Milner, B. (1957). 'Loss of recent memory after bilateral hippocampal lesions.' Journal of Neurology, Neurosurgery and Psychiatry, 20, 11–21. H.M. studied until his death in 2008; his brain was sectioned and digitised (Annese et al., 2014, Nature Communications). Among the most influential cases in the history of neuroscience. Milner's continuing work extended the findings to skill learning (fg12).",
+          "keywords": [
+            "anterograde amnesia",
+            "hippocampus",
+            "declarative memory",
+            "medial temporal lobe",
+            "memory dissociation"
+          ]
         },
         {
           "id": "st3",
@@ -418,7 +503,14 @@
           "hint": "Single-unit recordings from cat primary visual cortex revealed neurons selective for oriented edges and bars at specific locations (simple cells) and for edges moving in particular directions regardless of exact position (complex cells). This hierarchical selectivity — from photoreceptor to edge-detector to motion-detector — became the template for understanding cortical feature extraction.",
           "tag": "EXPERIMENT",
           "repl": "robust",
-          "note": "Hubel, D. H. & Wiesel, T. N. (1959). 'Receptive fields of single neurones in the cat's striate cortex.' Journal of Physiology, 148, 574–591. Nobel Prize in Physiology or Medicine 1981 (with Sperry). The hierarchical model inspired convolutional neural networks in deep learning. Critical periods discovered in subsequent work (ef2)."
+          "note": "Hubel, D. H. & Wiesel, T. N. (1959). 'Receptive fields of single neurones in the cat's striate cortex.' Journal of Physiology, 148, 574–591. Nobel Prize in Physiology or Medicine 1981 (with Sperry). The hierarchical model inspired convolutional neural networks in deep learning. Critical periods discovered in subsequent work (ef2).",
+          "keywords": [
+            "orientation selectivity",
+            "primary visual cortex",
+            "receptive field",
+            "feature extraction",
+            "ocular dominance"
+          ]
         },
         {
           "id": "st4",
@@ -439,7 +531,14 @@
           "hint": "Brief high-frequency stimulation of the perforant path produced a long-lasting increase in synaptic efficacy in rabbit hippocampus — the first demonstration of LTP. The magnitude and persistence of this strengthening made LTP the leading candidate cellular substrate for learning and memory, fulfilling Hebb's prediction from 1949.",
           "tag": "EXPERIMENT",
           "repl": "robust",
-          "note": "Bliss, T. V. P. & Lømo, T. (1973). 'Long-lasting potentiation of synaptic transmission in the dentate area of the anaesthetised rabbit.' Journal of Physiology, 232, 331–356. Follow-up in vitro: Bliss, T. V. P. & Gardner-Medwin, A. R. (1973). Thousands of subsequent studies characterised NMDA-receptor dependence, AMPA-receptor trafficking and the link to spatial memory."
+          "note": "Bliss, T. V. P. & Lømo, T. (1973). 'Long-lasting potentiation of synaptic transmission in the dentate area of the anaesthetised rabbit.' Journal of Physiology, 232, 331–356. Follow-up in vitro: Bliss, T. V. P. & Gardner-Medwin, A. R. (1973). Thousands of subsequent studies characterised NMDA-receptor dependence, AMPA-receptor trafficking and the link to spatial memory.",
+          "keywords": [
+            "long-term potentiation",
+            "hippocampal plasticity",
+            "perforant path",
+            "synaptic efficacy",
+            "memory encoding"
+          ]
         },
         {
           "id": "st5",
@@ -460,7 +559,14 @@
           "hint": "After corpus callosotomy for epilepsy, information presented to the left visual field (right hemisphere) and right visual field (left hemisphere) was processed independently: the left hand could select the right object but the verbal left hemisphere could not name what the right hemisphere had seen. Demonstrated functional lateralisation and the divided nature of the two hemispheres.",
           "tag": "EXPERIMENT",
           "repl": "robust",
-          "note": "Gazzaniga, M. S., Bogen, J. E. & Sperry, R. W. (1962). 'Some functional effects of sectioning the cerebral commissures in man.' Proceedings of the National Academy of Sciences, 48, 1765–1769. Nobel Prize in Physiology or Medicine 1981 (with Hubel & Wiesel). Popularised as evidence of 'two brains'; the left-brain/right-brain personality dichotomy is a neuromyth (db6)."
+          "note": "Gazzaniga, M. S., Bogen, J. E. & Sperry, R. W. (1962). 'Some functional effects of sectioning the cerebral commissures in man.' Proceedings of the National Academy of Sciences, 48, 1765–1769. Nobel Prize in Physiology or Medicine 1981 (with Hubel & Wiesel). Popularised as evidence of 'two brains'; the left-brain/right-brain personality dichotomy is a neuromyth (db6).",
+          "keywords": [
+            "hemispheric lateralisation",
+            "corpus callosum",
+            "split brain",
+            "cerebral laterality",
+            "visual field segregation"
+          ]
         },
         {
           "id": "st6",
@@ -480,7 +586,14 @@
           "hint": "Single-unit recordings from freely moving rats revealed hippocampal pyramidal cells ('place cells') that fire specifically when the animal occupies a particular location in space. The hippocampus does not merely store memories but constructs a 'cognitive map' of the environment — a spatial framework for all episodic experience.",
           "tag": "EXPERIMENT",
           "repl": "robust",
-          "note": "O'Keefe, J. & Dostrovsky, J. (1971). 'The hippocampus as a spatial map.' Brain Research, 34, 171–175. Developed in O'Keefe, J. & Nadel, L. (1978). The Hippocampus as a Cognitive Map. Oxford University Press. Nobel Prize in Physiology or Medicine 2014 (shared with May-Britt and Edvard Moser, who discovered grid cells in entorhinal cortex)."
+          "note": "O'Keefe, J. & Dostrovsky, J. (1971). 'The hippocampus as a spatial map.' Brain Research, 34, 171–175. Developed in O'Keefe, J. & Nadel, L. (1978). The Hippocampus as a Cognitive Map. Oxford University Press. Nobel Prize in Physiology or Medicine 2014 (shared with May-Britt and Edvard Moser, who discovered grid cells in entorhinal cortex).",
+          "keywords": [
+            "place cell",
+            "cognitive map",
+            "hippocampal navigation",
+            "spatial encoding",
+            "episodic framework"
+          ]
         },
         {
           "id": "st7",
@@ -500,7 +613,14 @@
           "hint": "Direct electrical stimulation of the cortex in awake patients undergoing neurosurgery elicited sensory experiences and movements from specific body regions. Mapping these responses yielded the 'homunculus' — a distorted body map in primary somatosensory and motor cortex, with disproportionately large areas for the hands, face and lips reflecting density of innervation.",
           "tag": "EXPERIMENT",
           "repl": "robust",
-          "note": "Penfield, W. & Rasmussen, T. (1950). The Cerebral Cortex of Man. Macmillan. Original evoked-response mapping. The homunculus is one of the most reproduced images in neuroscience. Penfield also discovered that cortical maps can reorganise after injury or amputation, a precursor to the cortical remapping work of Merzenich and Ramachandran (ef9)."
+          "note": "Penfield, W. & Rasmussen, T. (1950). The Cerebral Cortex of Man. Macmillan. Original evoked-response mapping. The homunculus is one of the most reproduced images in neuroscience. Penfield also discovered that cortical maps can reorganise after injury or amputation, a precursor to the cortical remapping work of Merzenich and Ramachandran (ef9).",
+          "keywords": [
+            "somatosensory cortex",
+            "motor cortex",
+            "homunculus",
+            "cortical stimulation",
+            "body map"
+          ]
         },
         {
           "id": "st8",
@@ -519,7 +639,14 @@
           "hint": "Neurons in macaque premotor area F5 discharged both when the monkey performed a grasping action and when it observed the experimenter perform the same action — dubbed 'mirror neurons'. Proposed to underlie action understanding, imitation learning and — controversially — empathy and language evolution in humans.",
           "tag": "EXPERIMENT",
           "repl": "mixed",
-          "note": "di Pellegrino, G. et al. (1992). 'Understanding motor events: A neurophysiological study.' Experimental Brain Research, 91, 176–180. Elaborated by Rizzolatti & Craighero (2004) Annual Review of Neuroscience. Evidence for a human 'mirror system' from fMRI and TMS is indirect and contested; no study has recorded single mirror neurons in humans (db2). Hickok (2009) The Myth of Mirror Neurons offers a critical review."
+          "note": "di Pellegrino, G. et al. (1992). 'Understanding motor events: A neurophysiological study.' Experimental Brain Research, 91, 176–180. Elaborated by Rizzolatti & Craighero (2004) Annual Review of Neuroscience. Evidence for a human 'mirror system' from fMRI and TMS is indirect and contested; no study has recorded single mirror neurons in humans (db2). Hickok (2009) The Myth of Mirror Neurons offers a critical review.",
+          "keywords": [
+            "mirror neuron",
+            "premotor cortex",
+            "action observation",
+            "imitation learning",
+            "empathy neural basis"
+          ]
         },
         {
           "id": "st9",
@@ -539,7 +666,14 @@
           "hint": "Comparing PET blood-flow across many tasks revealed a consistent set of cortical regions — medial prefrontal, posterior cingulate, angular gyrus — that deactivate during focused tasks but are active at rest. This 'default mode network' is now linked to self-referential thought, mind-wandering, autobiographical memory and social cognition.",
           "tag": "EXPERIMENT",
           "repl": "robust",
-          "note": "Raichle, M. E. et al. (2001). 'A default mode of brain function.' Proceedings of the National Academy of Sciences, 98, 676–682. Preceded by Shulman et al. (1997). The DMN is one of the most replicated findings in neuroimaging and is implicated in depression, Alzheimer's disease and schizophrenia. Defined early precursor: Binder et al. (1999) Cerebral Cortex."
+          "note": "Raichle, M. E. et al. (2001). 'A default mode of brain function.' Proceedings of the National Academy of Sciences, 98, 676–682. Preceded by Shulman et al. (1997). The DMN is one of the most replicated findings in neuroimaging and is implicated in depression, Alzheimer's disease and schizophrenia. Defined early precursor: Binder et al. (1999) Cerebral Cortex.",
+          "keywords": [
+            "default mode network",
+            "resting state",
+            "self-referential processing",
+            "mind-wandering",
+            "task deactivation"
+          ]
         },
         {
           "id": "st10",
@@ -559,7 +693,13 @@
           "hint": "Structural MRI showed that London taxi drivers, who undergo years of intensive spatial navigation training ('The Knowledge'), have larger posterior hippocampi than matched controls, and that volume correlated with years of experience. The first VBM evidence of macroscopic experience-dependent plasticity in the adult human brain.",
           "tag": "EXPERIMENT",
           "repl": "robust",
-          "note": "Maguire, E. A. et al. (2000). 'Navigation-related structural change in the hippocampi of taxi drivers.' Proceedings of the National Academy of Sciences, 97, 4398–4403. VBM in taxi vs. bus drivers: Maguire et al. (2006) Hippocampus. Replication in train drivers and orienteers. Critiques concern selection effects (only spatially gifted individuals become taxi drivers); addressed partly by Woollett & Maguire (2011) prospective study during training."
+          "note": "Maguire, E. A. et al. (2000). 'Navigation-related structural change in the hippocampi of taxi drivers.' Proceedings of the National Academy of Sciences, 97, 4398–4403. VBM in taxi vs. bus drivers: Maguire et al. (2006) Hippocampus. Replication in train drivers and orienteers. Critiques concern selection effects (only spatially gifted individuals become taxi drivers); addressed partly by Woollett & Maguire (2011) prospective study during training.",
+          "keywords": [
+            "hippocampal volume",
+            "spatial navigation training",
+            "structural MRI",
+            "macroscopic plasticity"
+          ]
         },
         {
           "id": "st11",
@@ -578,7 +718,14 @@
           "hint": "Overnight sleep, but not equivalent waking rest, improved performance on a visual discrimination task; the benefit required both slow-wave and REM sleep and depended on time asleep, not time awake. Established sleep as an active consolidation window, not mere offline storage, and sparked the modern sleep-and-memory field.",
           "tag": "EXPERIMENT",
           "repl": "robust",
-          "note": "Stickgold, R. et al. (2000). 'Visual discrimination learning requires sleep after training.' Nature Neuroscience, 3, 1237–1238. See also Walker, M. P. et al. (2002) Neuron. Sleep spindles and hippocampal–cortical replay during NREM implicated in consolidation: Diekelmann & Born (2010) Nature Reviews Neuroscience. The field is robust though effect sizes vary across task types."
+          "note": "Stickgold, R. et al. (2000). 'Visual discrimination learning requires sleep after training.' Nature Neuroscience, 3, 1237–1238. See also Walker, M. P. et al. (2002) Neuron. Sleep spindles and hippocampal–cortical replay during NREM implicated in consolidation: Diekelmann & Born (2010) Nature Reviews Neuroscience. The field is robust though effect sizes vary across task types.",
+          "keywords": [
+            "sleep consolidation",
+            "slow-wave sleep",
+            "REM sleep",
+            "memory reconsolidation",
+            "offline replay"
+          ]
         },
         {
           "id": "st12",
@@ -599,7 +746,14 @@
           "hint": "Prairie voles form lifelong monogamous pair bonds; montane voles are promiscuous. The difference traces to receptor density: prairie voles express oxytocin and vasopressin V1a receptors densely in nucleus accumbens and ventral pallidum, so mating triggers a dopamine-mediated reward that is socially directed. Artificially increasing V1a receptor expression in promiscuous montane voles via viral vector induces partner preference — demonstrating that social bonding is a form of learned reward, not a fixed species trait.",
           "tag": "EXPERIMENT",
           "repl": "robust",
-          "note": "Insel, T. R. & Young, L. J. (2001). 'The neurobiology of attachment.' Nature Reviews Neuroscience, 2, 129–136. Lim, M. M. et al. (2004). 'Enhanced partner preference in a promiscuous species by manipulating the expression of a single gene.' Nature, 429, 754–757 — V1aR viral vector in meadow voles induces partner preference. The oxytocin system is a major therapeutic target for autism spectrum disorder; effect sizes in human clinical trials are smaller and more contested than in voles."
+          "note": "Insel, T. R. & Young, L. J. (2001). 'The neurobiology of attachment.' Nature Reviews Neuroscience, 2, 129–136. Lim, M. M. et al. (2004). 'Enhanced partner preference in a promiscuous species by manipulating the expression of a single gene.' Nature, 429, 754–757 — V1aR viral vector in meadow voles induces partner preference. The oxytocin system is a major therapeutic target for autism spectrum disorder; effect sizes in human clinical trials are smaller and more contested than in voles.",
+          "keywords": [
+            "oxytocin",
+            "vasopressin",
+            "pair bonding",
+            "nucleus accumbens",
+            "social reward circuit"
+          ]
         },
         {
           "id": "st13",
@@ -620,7 +774,14 @@
           "hint": "High-licking-and-grooming (LG) mother rats produce adult offspring with denser hippocampal glucocorticoid receptor expression, more efficient cortisol shutdown, and lower lifetime anxiety than offspring of low-LG mothers. Cross-fostering reverses the effect: a biologically low-LG pup raised by a high-LG mother acquires the high-LG phenotype. The mechanism is DNA methylation of the glucocorticoid receptor gene promoter — maternal behaviour directly writes an epigenetic mark that shapes lifelong stress reactivity.",
           "tag": "EXPERIMENT",
           "repl": "robust",
-          "note": "Weaver, I. C. G. et al. (2004). 'Epigenetic programming by maternal behavior.' Nature Neuroscience, 7, 847–854. Reversal in adults: Weaver et al. (2005) Journal of Neuroscience — methyl-donor infusion reversed the epigenetic mark. Human parallel: McGowan, P. O. et al. (2009) Nature Neuroscience — childhood abuse associated with GR gene promoter methylation in hippocampi of suicide victims. The field has expanded to intergenerational epigenetic transmission and early childhood adversity intervention."
+          "note": "Weaver, I. C. G. et al. (2004). 'Epigenetic programming by maternal behavior.' Nature Neuroscience, 7, 847–854. Reversal in adults: Weaver et al. (2005) Journal of Neuroscience — methyl-donor infusion reversed the epigenetic mark. Human parallel: McGowan, P. O. et al. (2009) Nature Neuroscience — childhood abuse associated with GR gene promoter methylation in hippocampi of suicide victims. The field has expanded to intergenerational epigenetic transmission and early childhood adversity intervention.",
+          "keywords": [
+            "epigenetic programming",
+            "DNA methylation",
+            "glucocorticoid receptor",
+            "maternal behaviour",
+            "stress reactivity"
+          ]
         },
         {
           "id": "st14",
@@ -640,7 +801,14 @@
           "hint": "Pairs of participants played an iterated Prisoner's Dilemma game during fMRI scanning. Mutual cooperation — more than successful defection — activated dopamine-rich reward circuits (caudate nucleus, nucleus accumbens, orbitofrontal cortex), suggesting the human brain treats reciprocal altruism as intrinsically rewarding. The reward signal was largest for sustained mutual cooperation, providing a neurobiological account of why cooperative norms are evolutionarily stable.",
           "tag": "EXPERIMENT",
           "repl": "mixed",
-          "note": "Rilling, J. K. et al. (2002). 'A neural basis for social cooperation.' Neuron, 35, 395–405. Extensions: Singer, T. et al. (2006) — empathy for fair vs. unfair partners; Sanfey, A. G. et al. (2003) Science — ultimatum game activates anterior insula when an unfair offer is rejected. Effect sizes are modest and replication across designs is mixed; economic game fMRI studies have been critiqued for reverse-inference. Part of the neuroeconomics and social neuroscience programme."
+          "note": "Rilling, J. K. et al. (2002). 'A neural basis for social cooperation.' Neuron, 35, 395–405. Extensions: Singer, T. et al. (2006) — empathy for fair vs. unfair partners; Sanfey, A. G. et al. (2003) Science — ultimatum game activates anterior insula when an unfair offer is rejected. Effect sizes are modest and replication across designs is mixed; economic game fMRI studies have been critiqued for reverse-inference. Part of the neuroeconomics and social neuroscience programme.",
+          "keywords": [
+            "reward circuitry",
+            "reciprocal altruism",
+            "prisoner's dilemma",
+            "caudate nucleus",
+            "social cooperation"
+          ]
         },
         {
           "id": "st15",
@@ -660,7 +828,14 @@
           "hint": "Participants judged a series of moral dilemmas during fMRI scanning. 'Impersonal' dilemmas (pulling a switch to divert a trolley) activated dorsolateral prefrontal cortex and parietal regions — executive deliberation. 'Personal' dilemmas (physically pushing someone off a bridge) selectively activated medial frontal gyrus and amygdala — emotional aversion. Response times were longer when participants chose the 'utilitarian' outcome to a personal dilemma, suggesting emotional conflict being overridden by deliberate reasoning.",
           "tag": "EXPERIMENT",
           "repl": "mixed",
-          "note": "Greene, J. D. et al. (2001). 'An fMRI investigation of emotional engagement in moral judgment.' Science, 293, 2105–2108. Extended dual-process framework: Greene, J. D. et al. (2004) Trends in Cognitive Sciences, 8, 517–522. Critiqued by Kahane, G. (2012) — the personal/impersonal distinction may reflect up-close violence rather than cognitive process. The functional neuroimaging of moral judgment is an active and contested area; results depend heavily on specific dilemma framing."
+          "note": "Greene, J. D. et al. (2001). 'An fMRI investigation of emotional engagement in moral judgment.' Science, 293, 2105–2108. Extended dual-process framework: Greene, J. D. et al. (2004) Trends in Cognitive Sciences, 8, 517–522. Critiqued by Kahane, G. (2012) — the personal/impersonal distinction may reflect up-close violence rather than cognitive process. The functional neuroimaging of moral judgment is an active and contested area; results depend heavily on specific dilemma framing.",
+          "keywords": [
+            "moral judgment",
+            "dual process",
+            "trolley problem",
+            "amygdala activation",
+            "utilitarian reasoning"
+          ]
         },
         {
           "id": "st16",
@@ -679,7 +854,14 @@
           "hint": "Infant rhesus macaques isolated from birth were given access to two surrogates — a wire frame providing milk, and a cloth-covered frame providing no milk. They overwhelmingly preferred the cloth mother for comfort and security: when frightened, infants fled to the cloth mother, not the food source. Contact comfort, not primary drive reduction, is the fundamental biological bond — refuting behaviourist accounts of attachment as conditioned secondary reward.",
           "tag": "EXPERIMENT",
           "repl": "robust",
-          "note": "Harlow, H. F. (1958). 'The nature of love.' American Psychologist, 13, 673–685. Systematic study: Harlow, H. F. & Zimmermann, R. R. (1959) Science. Long-term isolation effects: Harlow & Harlow (1965) — isolates showed severe social, sexual and maternal deficits in adulthood. The studies were ethically controversial and would not pass modern IRB review. Bowlby's Attachment Theory (1969) provided the complementary theoretical framework: secure base, separation protest, and the biological drive for caregiver proximity."
+          "note": "Harlow, H. F. (1958). 'The nature of love.' American Psychologist, 13, 673–685. Systematic study: Harlow, H. F. & Zimmermann, R. R. (1959) Science. Long-term isolation effects: Harlow & Harlow (1965) — isolates showed severe social, sexual and maternal deficits in adulthood. The studies were ethically controversial and would not pass modern IRB review. Bowlby's Attachment Theory (1969) provided the complementary theoretical framework: secure base, separation protest, and the biological drive for caregiver proximity.",
+          "keywords": [
+            "attachment theory",
+            "contact comfort",
+            "infant bonding",
+            "surrogate mother",
+            "primary drive reduction"
+          ]
         }
       ]
     },
@@ -709,7 +891,13 @@
           "hint": "The adult brain retains substantial capacity to reorganise synaptic connections, expand cortical representations and — in certain regions — generate new neurons in response to learning, environmental enrichment and injury. Overturned decades of dogma that the adult brain was structurally fixed after development.",
           "tag": "PHENOMENON",
           "repl": "robust",
-          "note": "Key evidence: Merzenich et al. (1984) reorganisation of somatosensory maps after digit amputation. Maguire et al. (2000) taxi-driver hippocampal enlargement (st10). Draganski et al. (2004) Nature — juggling training increases grey matter. Debate continues about adult neurogenesis specifically in the human hippocampus (db3). Plasticity is now the basis of cognitive rehabilitation (ap3)."
+          "note": "Key evidence: Merzenich et al. (1984) reorganisation of somatosensory maps after digit amputation. Maguire et al. (2000) taxi-driver hippocampal enlargement (st10). Draganski et al. (2004) Nature — juggling training increases grey matter. Debate continues about adult neurogenesis specifically in the human hippocampus (db3). Plasticity is now the basis of cognitive rehabilitation (ap3).",
+          "keywords": [
+            "adult neuroplasticity",
+            "cortical reorganisation",
+            "adult neurogenesis",
+            "use-dependent plasticity"
+          ]
         },
         {
           "id": "ef2",
@@ -728,7 +916,14 @@
           "hint": "If one eye is deprived of normal visual input during a specific post-natal window — the critical period — the deprived eye's cortical representation permanently shrinks and the open eye expands. After the critical period closes, the same deprivation produces no lasting change. Demonstrated that early sensory experience is necessary to wire cortical circuits correctly.",
           "tag": "EFFECT",
           "repl": "robust",
-          "note": "Wiesel, T. N. & Hubel, D. H. (1963). 'Single-cell responses in striate cortex of kittens deprived of vision in one eye.' Journal of Neurophysiology, 26, 1003–1017. Nobel Prize in Physiology or Medicine 1981. Clinical application: amblyopia ('lazy eye') must be treated by patching the dominant eye during the critical period. Plasticity can be partially re-opened in adults by raising BDNF or reducing inhibitory tone (Hensch 2005)."
+          "note": "Wiesel, T. N. & Hubel, D. H. (1963). 'Single-cell responses in striate cortex of kittens deprived of vision in one eye.' Journal of Neurophysiology, 26, 1003–1017. Nobel Prize in Physiology or Medicine 1981. Clinical application: amblyopia ('lazy eye') must be treated by patching the dominant eye during the critical period. Plasticity can be partially re-opened in adults by raising BDNF or reducing inhibitory tone (Hensch 2005).",
+          "keywords": [
+            "critical period",
+            "monocular deprivation",
+            "ocular dominance plasticity",
+            "amblyopia",
+            "visual cortex development"
+          ]
         },
         {
           "id": "ef3",
@@ -749,7 +944,14 @@
           "hint": "Blocking NMDA receptors with AP5 in rats prevents new spatial learning in the Morris water maze without affecting existing memories — demonstrating that LTP is required for acquisition, not just recall. Conversely, overexpressing NMDA receptor subunit NR2B produced 'Doogie mice' with enhanced LTP and superior spatial and fear memory. These pharmacological and genetic dissections translate the cellular mechanism into a behavioural claim: LTP is the primary substrate of declarative memory formation.",
           "tag": "PHENOMENON",
           "repl": "robust",
-          "note": "Morris, R. G. M. et al. (1986). 'Selective impairment of learning and blockade of long-term potentiation by an N-methyl-D-aspartate receptor antagonist, AP5.' Nature, 319, 774–776. Tang, Y.-P. et al. (1999). 'Genetic enhancement of learning and memory in mice.' Nature, 401, 63–69 — Doogie NR2B-overexpressing mice show enhanced LTP and learning. For the molecular mechanism see co4; for the original 1973 discovery see st4. LTD (low-frequency stimulation reduces synaptic strength) is the reverse process and may underlie forgetting and synaptic homeostasis; both LTP and LTD are now targets of cognitive-enhancer and Alzheimer's drug development."
+          "note": "Morris, R. G. M. et al. (1986). 'Selective impairment of learning and blockade of long-term potentiation by an N-methyl-D-aspartate receptor antagonist, AP5.' Nature, 319, 774–776. Tang, Y.-P. et al. (1999). 'Genetic enhancement of learning and memory in mice.' Nature, 401, 63–69 — Doogie NR2B-overexpressing mice show enhanced LTP and learning. For the molecular mechanism see co4; for the original 1973 discovery see st4. LTD (low-frequency stimulation reduces synaptic strength) is the reverse process and may underlie forgetting and synaptic homeostasis; both LTP and LTD are now targets of cognitive-enhancer and Alzheimer's drug development.",
+          "keywords": [
+            "NMDA receptor",
+            "Morris water maze",
+            "spatial learning",
+            "LTP substrate",
+            "declarative memory substrate"
+          ]
         },
         {
           "id": "ef4",
@@ -772,7 +974,14 @@
           "hint": "Chronic stress elevates glucocorticoids (cortisol), which retract dendritic arbours and reduce neurogenesis in the hippocampus — measurably shrinking the structure. The effect is seen in stressed rodents, socially subordinate primates and humans with PTSD or major depression. Hippocampal atrophy predicts memory deficits and is partly reversible with antidepressants.",
           "tag": "EFFECT",
           "repl": "robust",
-          "note": "Watanabe, Y., Gould, E. & McEwen, B. S. (1992). Stress-induced dendritic retraction in CA3. Magarinos, A. M. & McEwen, B. S. (1995). Neuroscience 69, 89–98. Human neuroimaging: Bremner, J. D. et al. (1995) American Journal of Psychiatry — PTSD hippocampal volume reductions. Antidepressant reversal: Santarelli et al. (2003) Science. Effect mediated via GR receptors and BDNF downregulation."
+          "note": "Watanabe, Y., Gould, E. & McEwen, B. S. (1992). Stress-induced dendritic retraction in CA3. Magarinos, A. M. & McEwen, B. S. (1995). Neuroscience 69, 89–98. Human neuroimaging: Bremner, J. D. et al. (1995) American Journal of Psychiatry — PTSD hippocampal volume reductions. Antidepressant reversal: Santarelli et al. (2003) Science. Effect mediated via GR receptors and BDNF downregulation.",
+          "keywords": [
+            "hippocampal atrophy",
+            "glucocorticoid toxicity",
+            "dendritic retraction",
+            "PTSD neurobiology",
+            "stress hormones"
+          ]
         },
         {
           "id": "ef5",
@@ -791,7 +1000,14 @@
           "hint": "Repeated drug exposure strengthens the aversive opponent process (withdrawal, craving) while the pleasurable primary process diminishes — producing tolerance and negative-reinforcement-driven use. The user is no longer chasing pleasure but avoiding the opponent-state dysphoria. Explains why addiction escalates and why abstinence-induced negative affect drives relapse.",
           "tag": "PHENOMENON",
           "repl": "robust",
-          "note": "Solomon, R. L. & Corbit, J. D. (1974) — original theory (th7). Neurobiological elaboration: Koob, G. F. & Le Moal, M. (1997). 'Drug abuse: Hedonic homeostatic dysregulation.' Science, 278, 52–58. Modern update: Koob, G. F. & Volkow, N. D. (2016). 'Neurobiology of addiction: A neurocircuitry analysis.' Lancet Psychiatry, 3, 760–773."
+          "note": "Solomon, R. L. & Corbit, J. D. (1974) — original theory (th7). Neurobiological elaboration: Koob, G. F. & Le Moal, M. (1997). 'Drug abuse: Hedonic homeostatic dysregulation.' Science, 278, 52–58. Modern update: Koob, G. F. & Volkow, N. D. (2016). 'Neurobiology of addiction: A neurocircuitry analysis.' Lancet Psychiatry, 3, 760–773.",
+          "keywords": [
+            "drug tolerance",
+            "withdrawal dysphoria",
+            "negative reinforcement",
+            "addiction escalation",
+            "opponent process"
+          ]
         },
         {
           "id": "ef6",
@@ -810,7 +1026,14 @@
           "hint": "Neurons inhibit their neighbours, creating a 'winner-take-more' competition that sharpens contrast and edges in sensory representations. In the retina, centre-surround receptive fields arise from lateral inhibition via horizontal and amacrine cells; in the Limulus (horseshoe crab) compound eye, Hartline and Ratliff measured inhibitory interactions between ommatidia directly. The Mach band illusion is a perceptual consequence.",
           "tag": "EFFECT",
           "repl": "robust",
-          "note": "Hartline, H. K. & Ratliff, F. (1957). 'Inhibitory interaction of receptor units in the eye of Limulus.' Journal of General Physiology, 40, 357–376. Nobel Prize to Hartline in 1967. Centre-surround receptive fields in mammals: Kuffler, S. W. (1953) Journal of Neurophysiology. Lateral inhibition is a general circuit motif across sensory systems and brain regions."
+          "note": "Hartline, H. K. & Ratliff, F. (1957). 'Inhibitory interaction of receptor units in the eye of Limulus.' Journal of General Physiology, 40, 357–376. Nobel Prize to Hartline in 1967. Centre-surround receptive fields in mammals: Kuffler, S. W. (1953) Journal of Neurophysiology. Lateral inhibition is a general circuit motif across sensory systems and brain regions.",
+          "keywords": [
+            "lateral inhibition",
+            "centre-surround receptive field",
+            "sensory contrast",
+            "mach band",
+            "retinal processing"
+          ]
         },
         {
           "id": "ef7",
@@ -829,7 +1052,13 @@
           "hint": "Chronic restriction to 6 hours of sleep per night accumulates deficits in psychomotor vigilance, working memory and mood that escalate over days and are not fully reversed by one recovery night. Critically, participants on 6-hour schedules rated themselves as only slightly sleepy — demonstrating that subjective sleepiness underestimates objective performance impairment.",
           "tag": "EFFECT",
           "repl": "robust",
-          "note": "Van Dongen, H. P. A. et al. (2003). 'The cumulative cost of additional wakefulness.' Sleep, 26, 117–126. Earlier evidence: Harrison & Horne (2000). Replication across many labs. Metabolic consequences: Spiegel et al. (1999) Lancet — two nights of partial sleep deprivation altered leptin and ghrelin. Sleep inertia limits post-deprivation self-assessment accuracy."
+          "note": "Van Dongen, H. P. A. et al. (2003). 'The cumulative cost of additional wakefulness.' Sleep, 26, 117–126. Earlier evidence: Harrison & Horne (2000). Replication across many labs. Metabolic consequences: Spiegel et al. (1999) Lancet — two nights of partial sleep deprivation altered leptin and ghrelin. Sleep inertia limits post-deprivation self-assessment accuracy.",
+          "keywords": [
+            "sleep deprivation",
+            "psychomotor vigilance",
+            "sleep debt",
+            "cognitive impairment from sleep loss"
+          ]
         },
         {
           "id": "ef8",
@@ -852,7 +1081,14 @@
           "hint": "Midbrain dopamine neurons fire to unexpected rewards, reduce firing to punishments, and — after conditioning — shift their response to the predictive cue rather than the reward itself. The signal matches the prediction error term in reinforcement learning algorithms: it broadcasts 'better-than-expected' or 'worse-than-expected' to guide future choices.",
           "tag": "EFFECT",
           "repl": "robust",
-          "note": "Schultz, W., Dayan, P. & Montague, P. R. (1997). 'A neural substrate of prediction and reward.' Science, 275, 1593–1599. Temporal difference learning applied to dopamine: Montague et al. (1996) Journal of Neuroscience. Human fMRI evidence: O'Doherty et al. (2003) Neuron. The dopamine-RPE signal is one of the most replicated findings in computational neuroscience and grounds most models of addiction and psychiatric disorders of motivation."
+          "note": "Schultz, W., Dayan, P. & Montague, P. R. (1997). 'A neural substrate of prediction and reward.' Science, 275, 1593–1599. Temporal difference learning applied to dopamine: Montague et al. (1996) Journal of Neuroscience. Human fMRI evidence: O'Doherty et al. (2003) Neuron. The dopamine-RPE signal is one of the most replicated findings in computational neuroscience and grounds most models of addiction and psychiatric disorders of motivation.",
+          "keywords": [
+            "reward prediction error",
+            "dopamine neuron",
+            "reinforcement learning",
+            "mesolimbic pathway",
+            "conditioned stimulus"
+          ]
         },
         {
           "id": "ef9",
@@ -873,7 +1109,14 @@
           "hint": "Following limb amputation, neurons in somatosensory cortex previously representing the lost limb are 'captured' by adjacent representations (face, upper arm), so touching the face or stump evokes referred sensations felt as if from the phantom limb. The remapping occurs within weeks and is proportional to phantom pain intensity — demonstrating use-dependent plasticity in adult cortex.",
           "tag": "PHENOMENON",
           "repl": "robust",
-          "note": "Ramachandran, V. S., Rogers-Ramachandran, D. & Stewart, M. (1992). 'Perceptual correlates of massive cortical reorganization.' Science, 258, 1159–1160. MEG confirmation: Flor, H. et al. (1995) Nature. Mirror therapy for phantom pain: Ramachandran & Rogers-Ramachandran (1996). Merzenich et al. earlier documented map reorganisation in monkeys after digit amputation (1984)."
+          "note": "Ramachandran, V. S., Rogers-Ramachandran, D. & Stewart, M. (1992). 'Perceptual correlates of massive cortical reorganization.' Science, 258, 1159–1160. MEG confirmation: Flor, H. et al. (1995) Nature. Mirror therapy for phantom pain: Ramachandran & Rogers-Ramachandran (1996). Merzenich et al. earlier documented map reorganisation in monkeys after digit amputation (1984).",
+          "keywords": [
+            "phantom limb",
+            "somatosensory remapping",
+            "amputation",
+            "referred sensation",
+            "cortical capture"
+          ]
         },
         {
           "id": "ef10",
@@ -892,7 +1135,14 @@
           "hint": "The degree to which the DMN suppresses during externally directed tasks predicts individual cognitive performance: strong suppressors show better attention, working memory and executive function. Failure to suppress is a marker of mind-wandering and ADHD. In Alzheimer's disease, amyloid-β preferentially deposits in default-network nodes — the same regions most active at rest — and DMN dysconnectivity predicts cognitive decline years before clinical onset. The network thus links a resting-state property to clinical vulnerability at both ends of the lifespan.",
           "tag": "PHENOMENON",
           "repl": "robust",
-          "note": "Task-suppression and performance: Anticevic, A. et al. (2012). 'The role of default network deactivation in cognition and disease.' Trends in Cognitive Sciences, 16, 584–592. ADHD: Castellanos, F. X. & Proal, E. (2012) Trends in Cognitive Sciences, 16, 183–189. Alzheimer's: Buckner, R. L. et al. (2005). 'Molecular, structural and functional characterization of Alzheimer's disease.' Journal of Neuroscience, 25, 7709–7717 — amyloid preferentially deposits in default-network nodes. For the discovery of the network itself, see st9."
+          "note": "Task-suppression and performance: Anticevic, A. et al. (2012). 'The role of default network deactivation in cognition and disease.' Trends in Cognitive Sciences, 16, 584–592. ADHD: Castellanos, F. X. & Proal, E. (2012) Trends in Cognitive Sciences, 16, 183–189. Alzheimer's: Buckner, R. L. et al. (2005). 'Molecular, structural and functional characterization of Alzheimer's disease.' Journal of Neuroscience, 25, 7709–7717 — amyloid preferentially deposits in default-network nodes. For the discovery of the network itself, see st9.",
+          "keywords": [
+            "default mode network",
+            "amyloid beta",
+            "alzheimer's vulnerability",
+            "task suppression failure",
+            "DMN dysconnectivity"
+          ]
         }
       ]
     },
@@ -924,7 +1174,14 @@
           ],
           "hint": "The action potential is a self-regenerating wave of membrane depolarisation — triggered when sodium channels open above threshold, producing a rapid inward Na⁺ current, followed by delayed K⁺ efflux for repolarisation. Voltage-gated ion channels (selective pores sensitive to membrane potential) implement the logic; the absolute and relative refractory periods set maximum firing rate.",
           "tag": "CONCEPT",
-          "note": "Hodgkin & Huxley (1952) provided the first quantitative account (st1). Voltage-gated Na⁺ channel crystal structure: Payandeh et al. (2011) Nature. Ion channels are targets of local anaesthetics (lidocaine blocks Nav), antiepileptics (phenytoin) and toxins (tetrodotoxin). The spike threshold (~−55 mV) and all-or-nothing firing are the basic units of neural code."
+          "note": "Hodgkin & Huxley (1952) provided the first quantitative account (st1). Voltage-gated Na⁺ channel crystal structure: Payandeh et al. (2011) Nature. Ion channels are targets of local anaesthetics (lidocaine blocks Nav), antiepileptics (phenytoin) and toxins (tetrodotoxin). The spike threshold (~−55 mV) and all-or-nothing firing are the basic units of neural code.",
+          "keywords": [
+            "action potential",
+            "voltage-gated ion channel",
+            "membrane depolarisation",
+            "sodium channel",
+            "refractory period"
+          ]
         },
         {
           "id": "co2",
@@ -945,7 +1202,14 @@
           ],
           "hint": "Information crosses the gap between neurons chemically: an action potential triggers Ca²⁺-mediated vesicle fusion, releasing neurotransmitter into the synaptic cleft, which binds postsynaptic receptors and opens ion channels (ionotropic) or activates G-proteins (metabotropic). Each synapse is excitatory (EPSP) or inhibitory (IPSP); the postsynaptic neuron integrates thousands of inputs.",
           "tag": "CONCEPT",
-          "note": "Loewi, O. (1921) demonstrated chemical (not electrical) transmission by transferring frog heart perfusate. Nobel Prize 1936 (with Dale). Eccles demonstrated EPSP and IPSP with intracellular recording in spinal motoneurons; Nobel Prize 1963. Key transmitters: glutamate (excitatory), GABA (inhibitory), dopamine, serotonin, acetylcholine, noradrenaline."
+          "note": "Loewi, O. (1921) demonstrated chemical (not electrical) transmission by transferring frog heart perfusate. Nobel Prize 1936 (with Dale). Eccles demonstrated EPSP and IPSP with intracellular recording in spinal motoneurons; Nobel Prize 1963. Key transmitters: glutamate (excitatory), GABA (inhibitory), dopamine, serotonin, acetylcholine, noradrenaline.",
+          "keywords": [
+            "chemical synapse",
+            "neurotransmitter",
+            "synaptic vesicle",
+            "ionotropic receptor",
+            "calcium-mediated exocytosis"
+          ]
         },
         {
           "id": "co8",
@@ -963,7 +1227,14 @@
           ],
           "hint": "Neurons are outnumbered roughly 1-to-1 by glial cells — oligodendrocytes wrap axons in myelin sheaths that force the action potential to jump between exposed nodes of Ranvier (saltatory conduction), boosting propagation speed from ~1 m/s to over 100 m/s. Astrocytes provide metabolic support and regulate extracellular ion concentrations; microglia are the brain's resident immune cells and synaptic pruners. Without myelin, conduction fails — as in multiple sclerosis, where demyelination disrupts the precise signal timing that cognition requires.",
           "tag": "CONCEPT",
-          "note": "Nodes of Ranvier: Ranvier, L.-A. (1878). Schwann cells myelinate PNS axons; oligodendrocytes myelinate CNS axons. Na⁺ channel clustering at nodes: Rasband, M. N. (2011). 'Na⁺ channels get anchored.' Nature Reviews Neuroscience, 12, 196–197. Neuron-to-glia ratio: von Bartheld, C. S. et al. (2016). Journal of Comparative Neurology — roughly equal numbers in human brain, not the 10:1 ratio long cited. MS pathology: McDonald, W. I. et al. (2001) — demyelinating lesions directly impair conduction velocity and timing."
+          "note": "Nodes of Ranvier: Ranvier, L.-A. (1878). Schwann cells myelinate PNS axons; oligodendrocytes myelinate CNS axons. Na⁺ channel clustering at nodes: Rasband, M. N. (2011). 'Na⁺ channels get anchored.' Nature Reviews Neuroscience, 12, 196–197. Neuron-to-glia ratio: von Bartheld, C. S. et al. (2016). Journal of Comparative Neurology — roughly equal numbers in human brain, not the 10:1 ratio long cited. MS pathology: McDonald, W. I. et al. (2001) — demyelinating lesions directly impair conduction velocity and timing.",
+          "keywords": [
+            "myelin sheath",
+            "saltatory conduction",
+            "oligodendrocyte",
+            "multiple sclerosis",
+            "astrocyte function"
+          ]
         },
         {
           "id": "co9",
@@ -982,7 +1253,14 @@
           ],
           "hint": "The brain's default currency is two amino acids: glutamate (the principal excitatory transmitter, acting at AMPA and NMDA receptors) and GABA (the principal inhibitory transmitter, opening Cl⁻ channels via GABA_A receptors). The ratio of excitatory to inhibitory drive — the E/I balance — determines whether a network fires, saturates or stays silent. Epilepsy (excess glutamate), schizophrenia (reduced cortical inhibition) and anxiety (GABA_A modulation by benzodiazepines) all reflect disruptions of this balance.",
           "tag": "CONCEPT",
-          "note": "GABA identified: Roberts, E. & Frankel, S. (1950). Journal of Biological Chemistry — GABA in brain tissue. Glutamate as excitatory transmitter: Curtis, D. R. & Watkins, J. C. (1960) Journal of Neurochemistry. GABA_A and benzodiazepines: Mohler, H. & Okada, T. (1977) Science. E/I balance in autism spectrum disorder: Rubenstein, J. L. R. & Merzenich, M. M. (2003) Genes, Brain and Behavior — excess excitation hypothesis. NMDA-receptor hypofunction in psychosis: Javitt, D. C. & Zukin, S. R. (1991) — PCP produces psychosis-like symptoms by blocking NMDA receptors, directly implicating glutamate in schizophrenia."
+          "note": "GABA identified: Roberts, E. & Frankel, S. (1950). Journal of Biological Chemistry — GABA in brain tissue. Glutamate as excitatory transmitter: Curtis, D. R. & Watkins, J. C. (1960) Journal of Neurochemistry. GABA_A and benzodiazepines: Mohler, H. & Okada, T. (1977) Science. E/I balance in autism spectrum disorder: Rubenstein, J. L. R. & Merzenich, M. M. (2003) Genes, Brain and Behavior — excess excitation hypothesis. NMDA-receptor hypofunction in psychosis: Javitt, D. C. & Zukin, S. R. (1991) — PCP produces psychosis-like symptoms by blocking NMDA receptors, directly implicating glutamate in schizophrenia.",
+          "keywords": [
+            "GABA inhibition",
+            "glutamate excitation",
+            "excitation-inhibition balance",
+            "epilepsy mechanism",
+            "benzodiazepine"
+          ]
         },
         {
           "id": "co10",
@@ -1001,7 +1279,14 @@
           ],
           "hint": "The 'tripartite synapse' — pre-synaptic terminal, post-synaptic density, and the enveloping astrocyte process — reveals that glia actively shape transmission: astrocytes take up released glutamate and recycle it into glutamine (preventing excitotoxicity), release gliotransmitters that modulate synaptic strength, and regulate local blood flow. Microglia survey the parenchyma continuously and prune weak synapses during development via complement tagging; excess pruning in schizophrenia and insufficient pruning in certain neurodevelopmental conditions reflect microglia as active sculptors of connectivity.",
           "tag": "CONCEPT",
-          "note": "Tripartite synapse: Araque, A. et al. (1999). 'Tripartite synapses: Glia, the unacknowledged partner.' Trends in Neurosciences, 22, 208–215. Microglial synaptic pruning: Schafer, D. P. et al. (2012). 'Microglia sculpt postnatal neural circuits.' Neuron, 74, 691–705 — complement C1q/C3 tagging of weak synapses. Excess pruning in schizophrenia: Sekar, A. et al. (2016). Nature, 530, 177–183 — C4A gene copy number and synaptic pruning. Astrocyte glutamate transporter loss in ALS: Rothstein, J. D. et al. (1995) Annals of Neurology — loss of GLT-1 causes excitotoxicity."
+          "note": "Tripartite synapse: Araque, A. et al. (1999). 'Tripartite synapses: Glia, the unacknowledged partner.' Trends in Neurosciences, 22, 208–215. Microglial synaptic pruning: Schafer, D. P. et al. (2012). 'Microglia sculpt postnatal neural circuits.' Neuron, 74, 691–705 — complement C1q/C3 tagging of weak synapses. Excess pruning in schizophrenia: Sekar, A. et al. (2016). Nature, 530, 177–183 — C4A gene copy number and synaptic pruning. Astrocyte glutamate transporter loss in ALS: Rothstein, J. D. et al. (1995) Annals of Neurology — loss of GLT-1 causes excitotoxicity.",
+          "keywords": [
+            "tripartite synapse",
+            "astrocyte",
+            "gliotransmitter",
+            "synaptic pruning",
+            "complement-mediated pruning"
+          ]
         },
         {
           "id": "co3",
@@ -1021,7 +1306,14 @@
           ],
           "hint": "Behaviour emerges from the connectivity pattern of neurons — who connects to whom, with what strength and sign. The 'connectome' is the complete wiring diagram of a nervous system. C. elegans was the first organism fully mapped (302 neurons, 1986); the human connectome involves ~86 billion neurons and ~100 trillion synapses, approachable only via diffusion MRI tractography or serial electron microscopy.",
           "tag": "CONCEPT",
-          "note": "C. elegans connectome: White, J. G. et al. (1986). 'The structure of the nervous system of the nematode Caenorhabditis elegans.' Philosophical Transactions of the Royal Society B, 314, 1–340. Human Connectome Project (HCP): Van Essen et al. (2013). Mouse connectome: Oh et al. (2014) Nature (Allen Institute). Connectomics is now a major field; see H01 dataset (2021) — 1 mm³ of human cortex reconstructed."
+          "note": "C. elegans connectome: White, J. G. et al. (1986). 'The structure of the nervous system of the nematode Caenorhabditis elegans.' Philosophical Transactions of the Royal Society B, 314, 1–340. Human Connectome Project (HCP): Van Essen et al. (2013). Mouse connectome: Oh et al. (2014) Nature (Allen Institute). Connectomics is now a major field; see H01 dataset (2021) — 1 mm³ of human cortex reconstructed.",
+          "keywords": [
+            "connectome",
+            "neural wiring diagram",
+            "diffusion MRI",
+            "electron microscopy",
+            "synaptic mapping"
+          ]
         },
         {
           "id": "co4",
@@ -1041,7 +1333,13 @@
           ],
           "hint": "Synaptic strength is not fixed: high-frequency coincident activity potentiates synapses (LTP) via NMDA-receptor activation and AMPA-receptor trafficking; low-frequency or mismatched activity depresses them (LTD). The NMDA receptor acts as a 'coincidence detector' (requiring both pre- and postsynaptic activity), implementing a form of Hebbian learning at the molecular level.",
           "tag": "CONSTRUCT",
-          "note": "Bliss & Lømo (1973) — LTP (ef3, st4). LTD: Ito & Kano (1982) in cerebellum; Lynch et al. (1983) in hippocampus. AMPA-receptor trafficking: Malinow & Malenka (2002) Annual Review of Neuroscience. Spike-timing-dependent plasticity (STDP): Markram et al. (1997) Science — millisecond precision matters. LTP and LTD are the canonical cellular correlates of Hebbian learning (th2)."
+          "note": "Bliss & Lømo (1973) — LTP (ef3, st4). LTD: Ito & Kano (1982) in cerebellum; Lynch et al. (1983) in hippocampus. AMPA-receptor trafficking: Malinow & Malenka (2002) Annual Review of Neuroscience. Spike-timing-dependent plasticity (STDP): Markram et al. (1997) Science — millisecond precision matters. LTP and LTD are the canonical cellular correlates of Hebbian learning (th2).",
+          "keywords": [
+            "NMDA receptor coincidence detection",
+            "AMPA receptor trafficking",
+            "long-term depression",
+            "hebbian plasticity"
+          ]
         },
         {
           "id": "co5",
@@ -1066,7 +1364,14 @@
           ],
           "hint": "Papez proposed a circuit linking hippocampus, hypothalamus, anterior thalamus and cingulate cortex as the substrate of emotion. MacLean added the term 'limbic system' and expanded it to include amygdala, septum and orbitofrontal cortex. The amygdala's role in fear conditioning (LeDoux) and the hippocampus's role in emotional context memory are its best-characterised components.",
           "tag": "CONSTRUCT",
-          "note": "Papez, J. W. (1937). 'A proposed mechanism of emotion.' Archives of Neurology and Psychiatry, 38, 725–743. MacLean, P. D. (1949) coined 'limbic system.' Fear conditioning: LeDoux, J. E. (1996) The Emotional Brain. Simon & Schuster. The term 'limbic system' is now considered imprecise — the structures form no unified anatomical system — but survives in clinical and educational usage."
+          "note": "Papez, J. W. (1937). 'A proposed mechanism of emotion.' Archives of Neurology and Psychiatry, 38, 725–743. MacLean, P. D. (1949) coined 'limbic system.' Fear conditioning: LeDoux, J. E. (1996) The Emotional Brain. Simon & Schuster. The term 'limbic system' is now considered imprecise — the structures form no unified anatomical system — but survives in clinical and educational usage.",
+          "keywords": [
+            "limbic system",
+            "amygdala fear conditioning",
+            "papez circuit",
+            "emotion regulation",
+            "hippocampus emotional context"
+          ]
         },
         {
           "id": "co6",
@@ -1085,7 +1390,14 @@
           ],
           "hint": "The ANS regulates visceral organs (heart, gut, glands) via the sympathetic ('fight or flight'), parasympathetic ('rest and digest') and enteric (gut) divisions. Cannon coined 'homeostasis' to describe how these systems maintain stable internal conditions; his 'fight-or-flight' framing has since been extended by the polyvagal theory and allostasis.",
           "tag": "CONCEPT",
-          "note": "Cannon, W. B. (1932). The Wisdom of the Body. Norton. Polyvagal extension: Porges, S. W. (1994, 2001) — three-circuit hierarchy of autonomic regulation (db7). ANS dysregulation underlies PTSD, anxiety disorders and cardiovascular disease. The enteric nervous system ('second brain') has ~100 million neurons — more than the spinal cord."
+          "note": "Cannon, W. B. (1932). The Wisdom of the Body. Norton. Polyvagal extension: Porges, S. W. (1994, 2001) — three-circuit hierarchy of autonomic regulation (db7). ANS dysregulation underlies PTSD, anxiety disorders and cardiovascular disease. The enteric nervous system ('second brain') has ~100 million neurons — more than the spinal cord.",
+          "keywords": [
+            "autonomic nervous system",
+            "sympathetic activation",
+            "homeostasis",
+            "fight or flight",
+            "parasympathetic regulation"
+          ]
         },
         {
           "id": "co11",
@@ -1106,7 +1418,14 @@
           ],
           "hint": "The prefrontal cortex (particularly ventromedial and orbitofrontal regions) exerts top-down inhibitory control over the amygdala's threat-response circuitry. Aggressive and fearful behaviour is predicted not by amygdala activation alone but by the ratio of PFC-to-amygdala functional connectivity: weak regulatory connectivity amplifies the 'accelerator' response. This axis is disrupted in PTSD (hyperactive threat response, impaired extinction), borderline personality disorder and conduct disorder.",
           "tag": "CONCEPT",
-          "note": "LeDoux, J. E. (2002) Synaptic Self — amygdala-PFC circuitry of emotion. Morgan, M. A. et al. (1993) Journal of Neuroscience — vmPFC lesions impair fear extinction. Anderson, S. W. et al. (1999) Nature Neuroscience — vmPFC damage acquired in childhood produces lifelong deficits in moral reasoning. PTSD: Rauch, S. L. et al. (2000) Archives of General Psychiatry — decreased medial PFC and increased amygdala activity. Prefrontal myelination continues until the mid-20s, explaining adolescent impulsivity as a developmental lag in the inhibitory brake."
+          "note": "LeDoux, J. E. (2002) Synaptic Self — amygdala-PFC circuitry of emotion. Morgan, M. A. et al. (1993) Journal of Neuroscience — vmPFC lesions impair fear extinction. Anderson, S. W. et al. (1999) Nature Neuroscience — vmPFC damage acquired in childhood produces lifelong deficits in moral reasoning. PTSD: Rauch, S. L. et al. (2000) Archives of General Psychiatry — decreased medial PFC and increased amygdala activity. Prefrontal myelination continues until the mid-20s, explaining adolescent impulsivity as a developmental lag in the inhibitory brake.",
+          "keywords": [
+            "amygdala",
+            "prefrontal inhibition",
+            "fear extinction",
+            "PTSD circuitry",
+            "top-down threat control"
+          ]
         },
         {
           "id": "co12",
@@ -1126,7 +1445,14 @@
           ],
           "hint": "Testosterone does not 'cause' aggression by switching on threat-response neurons; rather, it lowers their activation threshold — making already-excited neurons more responsive to provocation. In castration/replacement studies, testosterone restores aggressive responding to challenges but does not induce aggression in neutral contexts. The critical insight: testosterone amplifies the salience of social threats and status-relevant signals, turning up the volume on an existing affective programme rather than writing a new one.",
           "tag": "CONCEPT",
-          "note": "Beeman, E. A. (1947) Physiological Zoology — castration reduces mouse fighting; testosterone replacement restores it. Albert, D. J. et al. (1993) Neuroscience & Biobehavioral Reviews — hormonal modulation of aggression in rodents. Sapolsky, R. M. (1997). 'The trouble with testosterone.' Discover — accessible synthesis of the volume-control model. Anti-androgen studies in humans show reduced dominance-seeking, not blanket aggression reduction. The volume-control framing explains why testosterone effects are context-dependent: a high-T individual responds more intensely to challenges, not more aggressively to everything."
+          "note": "Beeman, E. A. (1947) Physiological Zoology — castration reduces mouse fighting; testosterone replacement restores it. Albert, D. J. et al. (1993) Neuroscience & Biobehavioral Reviews — hormonal modulation of aggression in rodents. Sapolsky, R. M. (1997). 'The trouble with testosterone.' Discover — accessible synthesis of the volume-control model. Anti-androgen studies in humans show reduced dominance-seeking, not blanket aggression reduction. The volume-control framing explains why testosterone effects are context-dependent: a high-T individual responds more intensely to challenges, not more aggressively to everything.",
+          "keywords": [
+            "testosterone",
+            "aggression threshold",
+            "social threat salience",
+            "neuroendocrinology",
+            "volume control model"
+          ]
         },
         {
           "id": "co7",
@@ -1145,7 +1471,14 @@
           ],
           "hint": "Populations of neurons oscillate at characteristic frequencies — delta (0.5–4 Hz, deep sleep), theta (4–8 Hz, navigation and memory encoding), alpha (8–12 Hz, relaxed wakefulness), beta (13–30 Hz, active thinking) and gamma (>30 Hz, binding and perception). Oscillations synchronise distributed circuits, gate information flow and time the replay of memories during sleep.",
           "tag": "CONCEPT",
-          "note": "Berger, H. (1929). 'Über das Elektrenkephalogramm des Menschen.' Archiv für Psychiatrie und Nervenkrankheiten, 87, 527–570 — first EEG recording. Gamma and binding: Singer & Gray (1995) Annual Review of Neuroscience. Sharp-wave ripples and memory replay: Wilson & McNaughton (1994) Science. Oscillations are disturbed in epilepsy, Parkinson's (excess beta) and schizophrenia (reduced gamma)."
+          "note": "Berger, H. (1929). 'Über das Elektrenkephalogramm des Menschen.' Archiv für Psychiatrie und Nervenkrankheiten, 87, 527–570 — first EEG recording. Gamma and binding: Singer & Gray (1995) Annual Review of Neuroscience. Sharp-wave ripples and memory replay: Wilson & McNaughton (1994) Science. Oscillations are disturbed in epilepsy, Parkinson's (excess beta) and schizophrenia (reduced gamma).",
+          "keywords": [
+            "neural oscillation",
+            "gamma synchrony",
+            "theta rhythm",
+            "EEG frequency band",
+            "sleep rhythm"
+          ]
         }
       ]
     },
@@ -1176,7 +1509,14 @@
           ],
           "hint": "Correlating specific behavioural deficits with focal brain damage — from stroke, tumour, surgery or trauma — to infer function. Broca's patient 'Tan' (1861) linked left frontal damage to expressive aphasia; Scoville's resection in H.M. linked the hippocampus to memory. Gold standard before neuroimaging, and still essential for localisation claims because lesions produce definitive function-deficit correlations.",
           "tag": "METHOD",
-          "note": "Broca, P. (1861). 'Remarques sur le siège de la faculté du langage articulé.' Bulletins et Mémoires de la Société d'Anthropologie de Paris, 6, 330–357. Neuropsychological method refined by Luria (1966) and Warrington (1970s). Limitation: lesions are rarely focal and represent a combination of lost tissue and network disruption (diaschisis). fMRI now used to map 'lesion network localisation' via resting-state connectivity (Fox et al. 2014)."
+          "note": "Broca, P. (1861). 'Remarques sur le siège de la faculté du langage articulé.' Bulletins et Mémoires de la Société d'Anthropologie de Paris, 6, 330–357. Neuropsychological method refined by Luria (1966) and Warrington (1970s). Limitation: lesions are rarely focal and represent a combination of lost tissue and network disruption (diaschisis). fMRI now used to map 'lesion network localisation' via resting-state connectivity (Fox et al. 2014).",
+          "keywords": [
+            "brain lesion",
+            "neuropsychological localisation",
+            "double dissociation",
+            "aphasia",
+            "focal brain damage"
+          ]
         },
         {
           "id": "me2",
@@ -1195,7 +1535,14 @@
           ],
           "hint": "A microelectrode positioned near or inside a single neuron records its action potentials with millisecond temporal resolution. Adrian established that spike frequency encodes stimulus intensity; Hubel & Wiesel used the technique to discover orientation tuning; O'Keefe used it to find place cells. Multi-electrode arrays (Utah, tetrode) now record hundreds of neurons simultaneously.",
           "tag": "METHOD",
-          "note": "Adrian, E. D. & Zotterman, Y. (1926). 'The impulses produced by sensory nerve endings.' Journal of Physiology, 61, 151–171. Nobel Prize 1932 (Adrian). Utah array: Nordhausen et al. (1996). Neuropixels probes: Jun et al. (2017) Nature — 960 electrodes per shank, records thousands of neurons simultaneously. The gold standard for mapping receptive fields and place fields in vivo."
+          "note": "Adrian, E. D. & Zotterman, Y. (1926). 'The impulses produced by sensory nerve endings.' Journal of Physiology, 61, 151–171. Nobel Prize 1932 (Adrian). Utah array: Nordhausen et al. (1996). Neuropixels probes: Jun et al. (2017) Nature — 960 electrodes per shank, records thousands of neurons simultaneously. The gold standard for mapping receptive fields and place fields in vivo.",
+          "keywords": [
+            "single-unit recording",
+            "microelectrode",
+            "spike rate coding",
+            "multi-electrode array",
+            "in vivo recording"
+          ]
         },
         {
           "id": "me3",
@@ -1212,7 +1559,14 @@
           ],
           "hint": "Electrodes on the scalp record summed postsynaptic potentials from large neuron populations. EEG captures oscillatory states (alpha, theta, delta) and sleep stages (NREM, REM) at millisecond resolution. ERPs — averaged responses time-locked to events — isolate cognitive processes: N2 (conflict detection), P300 (stimulus update), N400 (semantic violation), MMN (prediction error).",
           "tag": "METHOD",
-          "note": "Berger, H. (1929) — first human EEG (co7). ERPs pioneered by Walter & Dovey (1944) Contingent Negative Variation; Sutton et al. (1965) Science — P300. Modern high-density EEG (256 channels) combined with source localisation approaches fMRI spatial resolution. EEG is cheap, portable and direct — the basis of BCI (brain-computer interface) systems and neurofeedback (ap4)."
+          "note": "Berger, H. (1929) — first human EEG (co7). ERPs pioneered by Walter & Dovey (1944) Contingent Negative Variation; Sutton et al. (1965) Science — P300. Modern high-density EEG (256 channels) combined with source localisation approaches fMRI spatial resolution. EEG is cheap, portable and direct — the basis of BCI (brain-computer interface) systems and neurofeedback (ap4).",
+          "keywords": [
+            "electroencephalography",
+            "event-related potential",
+            "P300 component",
+            "N400 component",
+            "sleep staging EEG"
+          ]
         },
         {
           "id": "me4",
@@ -1231,7 +1585,14 @@
           ],
           "hint": "fMRI detects regional changes in blood oxygenation (BOLD — blood-oxygen-level-dependent) as a proxy for neural activity. Activated neurons increase local blood flow, raising the ratio of oxyhaemoglobin to deoxyhaemoglobin and producing a detectable MRI signal change. Allows whole-brain imaging at 2–3 mm resolution without ionising radiation; temporal resolution ~1–2 seconds.",
           "tag": "METHOD",
-          "note": "Ogawa, S. et al. (1992). 'Intrinsic signal changes accompanying sensory stimulation: Functional brain mapping with magnetic resonance imaging.' Proceedings of the National Academy of Sciences, 89, 5951–5955. First task-based fMRI: Kwong et al. (1992) PNAS; Bandettini et al. (1992) MRM. Limitation: BOLD is an indirect neural measure; cluster-based inference had serious false-positive inflation (db8). Resting-state fMRI reveals functional networks (st9)."
+          "note": "Ogawa, S. et al. (1992). 'Intrinsic signal changes accompanying sensory stimulation: Functional brain mapping with magnetic resonance imaging.' Proceedings of the National Academy of Sciences, 89, 5951–5955. First task-based fMRI: Kwong et al. (1992) PNAS; Bandettini et al. (1992) MRM. Limitation: BOLD is an indirect neural measure; cluster-based inference had serious false-positive inflation (db8). Resting-state fMRI reveals functional networks (st9).",
+          "keywords": [
+            "fMRI",
+            "BOLD signal",
+            "haemodynamic response",
+            "whole-brain imaging",
+            "blood oxygenation"
+          ]
         },
         {
           "id": "me5",
@@ -1249,7 +1610,14 @@
           ],
           "hint": "Viral delivery of light-sensitive channelrhodopsins (ChR2: activating, NpHR: silencing) into genetically targeted neuron types, followed by fibre-optic illumination, allows millisecond-precision activation or silencing of specific cell populations in live animals. The first tool to establish causal, cell-type-specific roles for defined circuits in behaviour.",
           "tag": "METHOD",
-          "note": "Boyden, E. S. et al. (2005). 'Millisecond-timescale, genetically targeted optical control of neural activity.' Nature Neuroscience, 8, 1263–1268. Karl Deisseroth's group extended to in vivo behaving animals. Named Method of the Year by Nature Methods (2010). Nobel Prize 2021 (Deisseroth & Boyden, Kavli Prize). First therapeutic use in humans: Sahel et al. (2021) Nature Medicine (ap6)."
+          "note": "Boyden, E. S. et al. (2005). 'Millisecond-timescale, genetically targeted optical control of neural activity.' Nature Neuroscience, 8, 1263–1268. Karl Deisseroth's group extended to in vivo behaving animals. Named Method of the Year by Nature Methods (2010). Nobel Prize 2021 (Deisseroth & Boyden, Kavli Prize). First therapeutic use in humans: Sahel et al. (2021) Nature Medicine (ap6).",
+          "keywords": [
+            "optogenetics",
+            "channelrhodopsin",
+            "viral vector",
+            "cell-type specific manipulation",
+            "causal circuit dissection"
+          ]
         },
         {
           "id": "me6",
@@ -1266,7 +1634,13 @@
           ],
           "hint": "A brief magnetic pulse induces an electric current in underlying cortex, transiently disrupting or exciting neural activity non-invasively. Single-pulse TMS measures motor cortex excitability and maps motor representations; repetitive TMS (rTMS) produces lasting modulation and is a licensed treatment for major depression (FDA 2008). Allows causal inference about cortical function in healthy humans.",
           "tag": "METHOD",
-          "note": "Barker, A. T., Jalinous, R. & Freeston, I. L. (1985). 'Non-invasive magnetic stimulation of the human motor cortex.' Lancet, 1, 1106–1107. rTMS for depression: George, M. S. et al. (1995) American Journal of Psychiatry. Theta-burst protocol: Huang et al. (2005) Neuron — five-minute protocol with durable LTD-like effects. TMS is now used clinically for OCD and migraine prevention."
+          "note": "Barker, A. T., Jalinous, R. & Freeston, I. L. (1985). 'Non-invasive magnetic stimulation of the human motor cortex.' Lancet, 1, 1106–1107. rTMS for depression: George, M. S. et al. (1995) American Journal of Psychiatry. Theta-burst protocol: Huang et al. (2005) Neuron — five-minute protocol with durable LTD-like effects. TMS is now used clinically for OCD and migraine prevention.",
+          "keywords": [
+            "transcranial magnetic stimulation",
+            "cortical excitability",
+            "non-invasive brain stimulation",
+            "rTMS depression"
+          ]
         },
         {
           "id": "me7",
@@ -1285,7 +1659,14 @@
           ],
           "hint": "A fire-polished glass micropipette forms a gigaohm seal with a neuron's membrane, allowing recording of currents through single ion channels or whole-cell recordings of summed synaptic inputs. Revealed the stochastic opening and closing of individual channels, the properties of ligand-gated receptors and the diversity of neuronal firing patterns.",
           "tag": "METHOD",
-          "note": "Neher, E. & Sakmann, B. (1976). 'Single-channel currents recorded from membrane of denervated frog muscle fibres.' Nature, 260, 799–802. Nobel Prize in Physiology or Medicine 1991. The whole-cell configuration (Hamill et al. 1981) enabled intracellular dialysis and dye filling. Now standard in every electrophysiology lab; essential for characterising channelopathies and synaptic currents."
+          "note": "Neher, E. & Sakmann, B. (1976). 'Single-channel currents recorded from membrane of denervated frog muscle fibres.' Nature, 260, 799–802. Nobel Prize in Physiology or Medicine 1991. The whole-cell configuration (Hamill et al. 1981) enabled intracellular dialysis and dye filling. Now standard in every electrophysiology lab; essential for characterising channelopathies and synaptic currents.",
+          "keywords": [
+            "patch-clamp",
+            "ion channel recording",
+            "gigaohm seal",
+            "ligand-gated receptor",
+            "single channel conductance"
+          ]
         }
       ]
     },
@@ -1315,7 +1696,14 @@
           ],
           "hint": "Spanish anatomist who used Golgi's silver-staining method to produce definitive drawings of neural architecture, establishing that neurons are discrete cells — the neuron doctrine. His illustrations of the retina, cerebellum and cerebral cortex remain masterworks of scientific illustration. Shared the 1906 Nobel Prize with Golgi despite holding opposing theoretical views on neural organisation.",
           "tag": "FIGURE",
-          "note": "Cajal, S. R. y (1888–1904). Textura del Sistema Nervioso del Hombre y de los Vertebrados. Nobel Prize in Physiology or Medicine 1906. DeFelipe, J. & Jones, E. G. (1988). Cajal on the Cerebral Cortex. Oxford University Press — translated selected works. Cajal also pioneered neuroregenerative research, writing 'Degeneration and Regeneration of the Nervous System' (1913)."
+          "note": "Cajal, S. R. y (1888–1904). Textura del Sistema Nervioso del Hombre y de los Vertebrados. Nobel Prize in Physiology or Medicine 1906. DeFelipe, J. & Jones, E. G. (1988). Cajal on the Cerebral Cortex. Oxford University Press — translated selected works. Cajal also pioneered neuroregenerative research, writing 'Degeneration and Regeneration of the Nervous System' (1913).",
+          "keywords": [
+            "golgi silver stain",
+            "neural histology",
+            "cajal drawings",
+            "retinal anatomy",
+            "cerebellar architecture"
+          ]
         },
         {
           "id": "fg2",
@@ -1334,7 +1722,14 @@
           ],
           "hint": "British physiologist who coined 'synapse' (1897) and established the principles of neural integration — inhibition, facilitation and reflex coordination. His Integrative Action of the Nervous System (1906) defined the spinal reflex arc as the basic unit of neural organisation and laid the foundations of systems neuroscience.",
           "tag": "FIGURE",
-          "note": "Sherrington, C. S. (1906). The Integrative Action of the Nervous System. Yale University Press. Nobel Prize in Physiology or Medicine 1932 (shared with Adrian). Coined 'synapse,' 'proprioceptor,' 'nociceptor,' 'EPSP,' 'IPSP.' His student Eccles later confirmed synaptic physiology with intracellular recording (Nobel 1963)."
+          "note": "Sherrington, C. S. (1906). The Integrative Action of the Nervous System. Yale University Press. Nobel Prize in Physiology or Medicine 1932 (shared with Adrian). Coined 'synapse,' 'proprioceptor,' 'nociceptor,' 'EPSP,' 'IPSP.' His student Eccles later confirmed synaptic physiology with intracellular recording (Nobel 1963).",
+          "keywords": [
+            "synapse coined",
+            "reflex arc",
+            "spinal cord physiology",
+            "neural inhibition",
+            "integrative action"
+          ]
         },
         {
           "id": "fg3",
@@ -1352,7 +1747,13 @@
           ],
           "hint": "Canadian psychologist who proposed the synaptic learning rule — 'cells that fire together wire together' — in his landmark book The Organization of Behavior (1949). Although Hebb himself had no direct electrophysiology, his rule predicted LTP and shaped computational models of learning. Founder of the McGill neuropsychology programme.",
           "tag": "FIGURE",
-          "note": "Hebb, D. O. (1949). The Organization of Behavior: A Neuropsychological Theory. Wiley. Also proposed 'cell assemblies' — reverberating circuits as the substrate of short-term memory — prefiguring working memory research. The Hebb rule underpins perceptron learning (Rosenblatt 1958) and modern artificial neural networks."
+          "note": "Hebb, D. O. (1949). The Organization of Behavior: A Neuropsychological Theory. Wiley. Also proposed 'cell assemblies' — reverberating circuits as the substrate of short-term memory — prefiguring working memory research. The Hebb rule underpins perceptron learning (Rosenblatt 1958) and modern artificial neural networks.",
+          "keywords": [
+            "hebbian learning rule",
+            "organization of behavior",
+            "connectionist theory",
+            "synaptic strengthening"
+          ]
         },
         {
           "id": "fg4",
@@ -1371,7 +1772,13 @@
           ],
           "hint": "Canadian neurosurgeon and founder of the Montreal Neurological Institute. Systematic cortical stimulation in awake epilepsy patients produced the sensory and motor homunculi — maps of the body in primary somatosensory and motor cortex — and elicited memories and hallucinations, suggesting that experiential memory is encoded in the cortex.",
           "tag": "FIGURE",
-          "note": "Penfield, W. & Rasmussen, T. (1950). The Cerebral Cortex of Man. Macmillan. Penfield, W. & Milner, B. (1958). 'Memory deficit produced by bilateral lesions in the hippocampal zone.' Archives of Neurology and Psychiatry, 79, 475–497. Established MNI as a world centre for epilepsy surgery and brain mapping."
+          "note": "Penfield, W. & Rasmussen, T. (1950). The Cerebral Cortex of Man. Macmillan. Penfield, W. & Milner, B. (1958). 'Memory deficit produced by bilateral lesions in the hippocampal zone.' Archives of Neurology and Psychiatry, 79, 475–497. Established MNI as a world centre for epilepsy surgery and brain mapping.",
+          "keywords": [
+            "cortical homunculus",
+            "somatosensory mapping",
+            "epilepsy surgery",
+            "cortical stimulation mapping"
+          ]
         },
         {
           "id": "fg5",
@@ -1390,7 +1797,13 @@
           ],
           "hint": "American neurobiologist who demonstrated hemispheric specialisation through split-brain research and the chemoaffinity hypothesis (retinal ganglion axons carry molecular labels guiding them to correct tectum targets). His callosotomy studies showed that severing the corpus callosum creates two independently functioning cognitive systems in one skull.",
           "tag": "FIGURE",
-          "note": "Nobel Prize in Physiology or Medicine 1981 (shared with Hubel and Wiesel). Sperry's chemoaffinity: Sperry, R. W. (1963) PNAS. Split-brain: Sperry, R. W. (1968) American Psychologist — Nobel Lecture. Gazzaniga, M. S. (2005) 'Forty-five years of split-brain research and still going strong.' Nature Reviews Neuroscience, 6, 653–659."
+          "note": "Nobel Prize in Physiology or Medicine 1981 (shared with Hubel and Wiesel). Sperry's chemoaffinity: Sperry, R. W. (1963) PNAS. Split-brain: Sperry, R. W. (1968) American Psychologist — Nobel Lecture. Gazzaniga, M. S. (2005) 'Forty-five years of split-brain research and still going strong.' Nature Reviews Neuroscience, 6, 653–659.",
+          "keywords": [
+            "split brain research",
+            "corpus callosotomy",
+            "chemoaffinity hypothesis",
+            "hemispheric specialisation"
+          ]
         },
         {
           "id": "fg6",
@@ -1408,7 +1821,13 @@
           ],
           "hint": "American and Swedish neurophysiologists who mapped the response properties of neurons in cat and monkey primary visual cortex, discovering orientation selectivity, ocular dominance columns and the critical period for visual development. Their hierarchical model of cortical feature extraction — simple → complex → hypercomplex cells — inspired convolutional neural networks.",
           "tag": "FIGURE",
-          "note": "Nobel Prize in Physiology or Medicine 1981. Key papers: Hubel, D. H. & Wiesel, T. N. (1959, 1962, 1968, 1977). Ferrier Lecture: Hubel, D. H. & Wiesel, T. N. (1977) Proceedings of the Royal Society B, 198, 1–59. Extended collaboration traced ocular dominance columns and binocular rivalry mechanisms in primate cortex."
+          "note": "Nobel Prize in Physiology or Medicine 1981. Key papers: Hubel, D. H. & Wiesel, T. N. (1959, 1962, 1968, 1977). Ferrier Lecture: Hubel, D. H. & Wiesel, T. N. (1977) Proceedings of the Royal Society B, 198, 1–59. Extended collaboration traced ocular dominance columns and binocular rivalry mechanisms in primate cortex.",
+          "keywords": [
+            "visual cortex orientation tuning",
+            "ocular dominance column",
+            "critical period discovery",
+            "simple complex cells"
+          ]
         },
         {
           "id": "fg7",
@@ -1426,7 +1845,14 @@
           ],
           "hint": "American-British neuroscientist who discovered place cells in the rat hippocampus — neurons that encode the animal's spatial location and collectively form a 'cognitive map.' His work transformed understanding of the hippocampus from a memory structure to a navigation and episodic framework, linking hippocampal function to both spatial and declarative memory.",
           "tag": "FIGURE",
-          "note": "Nobel Prize in Physiology or Medicine 2014 (shared with May-Britt and Edvard Moser). O'Keefe, J. & Nadel, L. (1978). The Hippocampus as a Cognitive Map. Oxford University Press. Grid cells in entorhinal cortex: Hafting et al. (2005) Nature — Moser lab, providing a coordinate system; place cells sample from this grid."
+          "note": "Nobel Prize in Physiology or Medicine 2014 (shared with May-Britt and Edvard Moser). O'Keefe, J. & Nadel, L. (1978). The Hippocampus as a Cognitive Map. Oxford University Press. Grid cells in entorhinal cortex: Hafting et al. (2005) Nature — Moser lab, providing a coordinate system; place cells sample from this grid.",
+          "keywords": [
+            "place cell discovery",
+            "hippocampal navigation",
+            "cognitive map theory",
+            "grid cell",
+            "spatial memory"
+          ]
         },
         {
           "id": "fg8",
@@ -1444,7 +1870,14 @@
           ],
           "hint": "Portuguese-American neuroscientist who proposed the somatic marker hypothesis — that emotion is essential for rational decision-making, not merely its enemy. His studies of patients with vmPFC damage (notably Phineas Gage revisited and Elliot) demonstrated that intact emotion processing is necessary for real-world judgement even when abstract reasoning is preserved.",
           "tag": "FIGURE",
-          "note": "Damasio, A. R. (1994). Descartes' Error: Emotion, Reason and the Human Brain. Putnam. Damasio, A. R. (1996). 'The somatic marker hypothesis and the possible functions of the prefrontal cortex.' Philosophical Transactions of the Royal Society B, 351, 1413–1420. Later work: The Feeling of What Happens (1999) and Self Comes to Mind (2010)."
+          "note": "Damasio, A. R. (1994). Descartes' Error: Emotion, Reason and the Human Brain. Putnam. Damasio, A. R. (1996). 'The somatic marker hypothesis and the possible functions of the prefrontal cortex.' Philosophical Transactions of the Royal Society B, 351, 1413–1420. Later work: The Feeling of What Happens (1999) and Self Comes to Mind (2010).",
+          "keywords": [
+            "somatic marker hypothesis",
+            "vmPFC lesion",
+            "emotional cognition",
+            "phineas gage",
+            "decision-making deficits"
+          ]
         },
         {
           "id": "fg9",
@@ -1462,7 +1895,13 @@
           ],
           "hint": "American neuroendocrinologist who discovered glucocorticoid receptors in the hippocampus and documented how chronic stress causes dendritic retraction and volume loss in this region. Developed the allostatic load framework with Sterling and Stellar, providing a biological account of how social adversity translates into disease through cumulative wear on stress-responsive systems.",
           "tag": "FIGURE",
-          "note": "McEwen, B. S. & Weiss, J. M. (1970). 'The uptake and action of corticosterone.' Progress in Brain Research, 32, 200–212 — first evidence of brain glucocorticoid receptors. McEwen, B. S. (2007). 'Physiology and neurobiology of stress and adaptation: Central role of the brain.' Physiological Reviews, 87, 873–904."
+          "note": "McEwen, B. S. & Weiss, J. M. (1970). 'The uptake and action of corticosterone.' Progress in Brain Research, 32, 200–212 — first evidence of brain glucocorticoid receptors. McEwen, B. S. (2007). 'Physiology and neurobiology of stress and adaptation: Central role of the brain.' Physiological Reviews, 87, 873–904.",
+          "keywords": [
+            "allostatic load framework",
+            "hippocampal glucocorticoid receptor",
+            "stress neuroscience",
+            "neuroendocrinology"
+          ]
         },
         {
           "id": "fg10",
@@ -1480,7 +1919,13 @@
           ],
           "hint": "Co-discoverer of DNA's double helix who spent his later career on the neural correlates of consciousness at the Salk Institute. With Christof Koch he proposed that 40 Hz gamma oscillations in visual cortex might be the 'neural correlate of consciousness' and that the claustrum plays a coordinating role — influential hypotheses that remain debated.",
           "tag": "FIGURE",
-          "note": "Watson, J. D. & Crick, F. H. C. (1953). 'A structure for deoxyribose nucleic acid.' Nature, 171, 737–738. Nobel Prize in Physiology or Medicine 1962. On consciousness: Crick, F. (1994). The Astonishing Hypothesis. Scribner. Crick, F. & Koch, C. (1990). 'Towards a neurobiological theory of consciousness.' Seminars in the Neurosciences, 2, 263–275."
+          "note": "Watson, J. D. & Crick, F. H. C. (1953). 'A structure for deoxyribose nucleic acid.' Nature, 171, 737–738. Nobel Prize in Physiology or Medicine 1962. On consciousness: Crick, F. (1994). The Astonishing Hypothesis. Scribner. Crick, F. & Koch, C. (1990). 'Towards a neurobiological theory of consciousness.' Seminars in the Neurosciences, 2, 263–275.",
+          "keywords": [
+            "neural correlates of consciousness",
+            "gamma oscillation consciousness",
+            "claustrum",
+            "NCC hypothesis"
+          ]
         },
         {
           "id": "fg11",
@@ -1498,7 +1943,13 @@
           ],
           "hint": "British neuroscientist who invented statistical parametric mapping (SPM) — the dominant software for fMRI analysis — and later developed the free energy principle and active inference as a unified theory of brain function. His citation count rivals any living scientist; his theoretical output spans neuroimaging methodology, Bayesian brain theory and mathematical psychiatry.",
           "tag": "FIGURE",
-          "note": "SPM: Friston, K. J. et al. (1991). 'Plastic transformation of PET images.' Journal of Computer Assisted Tomography, 15, 634–639. Free energy: Friston (2010) Nature Reviews Neuroscience. Active inference: Friston, K. et al. (2017) 'Active inference and learning.' Neuroscience and Biobehavioral Reviews, 68, 862–879. Google Scholar h-index over 300 by 2020."
+          "note": "SPM: Friston, K. J. et al. (1991). 'Plastic transformation of PET images.' Journal of Computer Assisted Tomography, 15, 634–639. Free energy: Friston (2010) Nature Reviews Neuroscience. Active inference: Friston, K. et al. (2017) 'Active inference and learning.' Neuroscience and Biobehavioral Reviews, 68, 862–879. Google Scholar h-index over 300 by 2020.",
+          "keywords": [
+            "statistical parametric mapping",
+            "free energy principle",
+            "active inference framework",
+            "bayesian brain"
+          ]
         },
         {
           "id": "fg12",
@@ -1516,7 +1967,13 @@
           ],
           "hint": "British-Canadian neuropsychologist who conducted the landmark studies of patient H.M. (with Scoville, 1957) and established that the hippocampus is essential for new declarative memory formation. Later demonstrated that procedural learning (mirror-tracing, rotor pursuit) is intact after hippocampal damage, distinguishing implicit from explicit memory systems.",
           "tag": "FIGURE",
-          "note": "Scoville, W. B. & Milner, B. (1957) — H.M. case (st2). Milner, B. (1962). 'Les troubles de la mémoire accompagnant des lésions hippocampiques bilatérales.' Physiologie de l'Hippocampe. Procedural memory: Corkin, S. (1968). Milner received the Kavli Prize in Neuroscience (2014); still active at the Montreal Neurological Institute past the age of 100."
+          "note": "Scoville, W. B. & Milner, B. (1957) — H.M. case (st2). Milner, B. (1962). 'Les troubles de la mémoire accompagnant des lésions hippocampiques bilatérales.' Physiologie de l'Hippocampe. Procedural memory: Corkin, S. (1968). Milner received the Kavli Prize in Neuroscience (2014); still active at the Montreal Neurological Institute past the age of 100.",
+          "keywords": [
+            "patient H.M.",
+            "declarative memory dissection",
+            "implicit memory discovery",
+            "procedural learning intact"
+          ]
         }
       ]
     },
@@ -1544,7 +2001,14 @@
           ],
           "hint": "Libet found that the EEG readiness potential (RP) — a slow cortical build-up preceding voluntary movement — began ~550 ms before the movement, yet participants' conscious awareness of the urge to move arrived only ~200 ms before. If neural preparation precedes intention, does the brain 'decide' before we do? The interpretation has been fiercely contested on methodological and philosophical grounds.",
           "tag": "DEBATE",
-          "note": "Libet, B. et al. (1983). 'Time of conscious intention to act in relation to onset of cerebral activity.' Brain, 106, 623–642. Critiques: Schurger et al. (2012) PNAS — the RP may reflect random neural fluctuations crossing a threshold, not a genuine 'decision' signal. Haggard, P. (2019) 'The neurocognitive bases of human volition.' Annual Review of Psychology — balanced review. The debate involves deep questions about the timing of consciousness and the nature of will."
+          "note": "Libet, B. et al. (1983). 'Time of conscious intention to act in relation to onset of cerebral activity.' Brain, 106, 623–642. Critiques: Schurger et al. (2012) PNAS — the RP may reflect random neural fluctuations crossing a threshold, not a genuine 'decision' signal. Haggard, P. (2019) 'The neurocognitive bases of human volition.' Annual Review of Psychology — balanced review. The debate involves deep questions about the timing of consciousness and the nature of will.",
+          "keywords": [
+            "readiness potential",
+            "free will neuroscience",
+            "conscious intention timing",
+            "libet experiment",
+            "neural determinism"
+          ]
         },
         {
           "id": "db2",
@@ -1561,7 +2025,13 @@
           ],
           "hint": "Following Rizzolatti's macaque discovery (st8), mirror neurons were proposed to underlie imitation, empathy, language evolution and autism — claims extrapolated far beyond the evidence. In humans, direct single-unit recordings are rare; fMRI and TMS data are consistent with but do not prove mirror neuron activity. The 'broken mirror' theory of autism is widely regarded as refuted.",
           "tag": "DEBATE",
-          "note": "Rizzolatti, G. & Craighero, L. (2004) Annual Review of Neuroscience — expansive claims. Hickok, G. (2009). 'Eight problems for the mirror neuron theory of action understanding in monkeys and humans.' Journal of Cognitive Neuroscience, 21, 1229–1243 — systematic critique. Direct human single-unit evidence: Mukamel, R. et al. (2010) Current Biology — 21 cells across MTL, not premotor cortex. The gap between macaque evidence and human claims remains large."
+          "note": "Rizzolatti, G. & Craighero, L. (2004) Annual Review of Neuroscience — expansive claims. Hickok, G. (2009). 'Eight problems for the mirror neuron theory of action understanding in monkeys and humans.' Journal of Cognitive Neuroscience, 21, 1229–1243 — systematic critique. Direct human single-unit evidence: Mukamel, R. et al. (2010) Current Biology — 21 cells across MTL, not premotor cortex. The gap between macaque evidence and human claims remains large.",
+          "keywords": [
+            "mirror neuron human evidence",
+            "broken mirror autism",
+            "imitation debate",
+            "macaque-to-human extrapolation"
+          ]
         },
         {
           "id": "db3",
@@ -1579,7 +2049,13 @@
           ],
           "hint": "Whether the adult human hippocampus generates new neurons is sharply contested. Boldrini et al. (2018) reported robust adult neurogenesis persisting into old age; Sorrells et al. (2018) found no convincing neurogenesis in post-mortem tissue from adolescents and adults. The discrepancy may reflect fixation protocols, antibody specificity or developmental timing.",
           "tag": "DEBATE",
-          "note": "Eriksson, P. S. et al. (1998). 'Neurogenesis in the adult human hippocampus.' Nature Medicine, 4, 1313–1317 — initial BrdU evidence. Sorrells, S. F. et al. (2018). 'Human hippocampal neurogenesis drops sharply in children to undetectable levels in adults.' Nature, 555, 377–381. Boldrini, M. et al. (2018). 'Human hippocampal neurogenesis persists throughout aging.' Cell Stem Cell, 22, 589–599. A methodological controversy as much as a biological one."
+          "note": "Eriksson, P. S. et al. (1998). 'Neurogenesis in the adult human hippocampus.' Nature Medicine, 4, 1313–1317 — initial BrdU evidence. Sorrells, S. F. et al. (2018). 'Human hippocampal neurogenesis drops sharply in children to undetectable levels in adults.' Nature, 555, 377–381. Boldrini, M. et al. (2018). 'Human hippocampal neurogenesis persists throughout aging.' Cell Stem Cell, 22, 589–599. A methodological controversy as much as a biological one.",
+          "keywords": [
+            "adult neurogenesis debate",
+            "hippocampal neurogenesis",
+            "doublecortin staining",
+            "post-mortem tissue artefact"
+          ]
         },
         {
           "id": "db4",
@@ -1597,7 +2073,13 @@
           ],
           "hint": "MacLean's model (th6) — that the human brain is three evolutionary 'brains' nested inside each other — is contradicted by modern evolutionary neuroscience: no non-mammalian vertebrate lacks a limbic-homologue, the proposed layers do not correspond to discrete evolutionary additions, and homologous structures exist across vertebrates. Yet the model persists in popular science, education and some therapy frameworks.",
           "tag": "DEBATE",
-          "note": "Cesario, J., Johnson, D. J. & Eisthen, H. L. (2020). 'Your brain is not an onion with a tiny reptile inside.' Current Directions in Psychological Science, 29, 255–260 — accessible critique. Striedter, G. F. (2005). Principles of Brain Evolution. Sinauer — evolutionary refutation. LeDoux, J. E. (2015). 'Missing pieces in the puzzle of fear and safety.' Current Biology, 25, R1060–R1061 — even 'limbic system' is imprecise for emotion."
+          "note": "Cesario, J., Johnson, D. J. & Eisthen, H. L. (2020). 'Your brain is not an onion with a tiny reptile inside.' Current Directions in Psychological Science, 29, 255–260 — accessible critique. Striedter, G. F. (2005). Principles of Brain Evolution. Sinauer — evolutionary refutation. LeDoux, J. E. (2015). 'Missing pieces in the puzzle of fear and safety.' Current Biology, 25, R1060–R1061 — even 'limbic system' is imprecise for emotion.",
+          "keywords": [
+            "triune brain critique",
+            "evolutionary neuroscience",
+            "neuromyth",
+            "limbic homologue vertebrates"
+          ]
         },
         {
           "id": "db5",
@@ -1618,7 +2100,14 @@
           ],
           "hint": "Broca's and Wernicke's localisation of language was challenged by Lashley's equipotentiality (memory loss proportional to lesion size, not location) and Flourens' holism. Modern evidence reconciles both: specific functions have weighted regional distributions (speech production → left IFG) but are implemented in distributed networks. No cognitive function is strictly localised — and no large lesion spares all functions.",
           "tag": "DEBATE",
-          "note": "Broca (1861) — expressive aphasia and left IFG. Wernicke, C. (1874) — receptive aphasia. Lashley, K. S. (1950). 'In search of the engram.' Symposia of the Society for Experimental Biology, 4, 454–482. Modern network perspective: Bressler, S. L. & Menon, V. (2010) Trends in Cognitive Sciences. 'Voodoo correlations' debate (Vul et al. 2009) highlighted inflated localisation claims in fMRI."
+          "note": "Broca (1861) — expressive aphasia and left IFG. Wernicke, C. (1874) — receptive aphasia. Lashley, K. S. (1950). 'In search of the engram.' Symposia of the Society for Experimental Biology, 4, 454–482. Modern network perspective: Bressler, S. L. & Menon, V. (2010) Trends in Cognitive Sciences. 'Voodoo correlations' debate (Vul et al. 2009) highlighted inflated localisation claims in fMRI.",
+          "keywords": [
+            "cortical localisation",
+            "equipotentiality",
+            "broca area",
+            "wernicke area",
+            "distributed language network"
+          ]
         },
         {
           "id": "db6",
@@ -1637,7 +2126,13 @@
           ],
           "hint": "Popular culture claims some people are 'left-brained' (logical) and others 'right-brained' (creative), implying global hemispheric dominance. A large resting-state fMRI study found no evidence of individuals preferentially using one hemisphere: connectivity is balanced and bilateral across virtually all participants. Functional lateralisation (speech in left hemisphere) does not imply personality lateralisation.",
           "tag": "DEBATE",
-          "note": "Nielsen, J. A. et al. (2013). 'An evaluation of the left-brain vs. right-brain hypothesis with resting state functional connectivity magnetic resonance imaging.' PLOS ONE, 8, e71275. Origins in split-brain research (Sperry/st5) misapplied to healthy brains. Corballis, M. C. (2014). 'Left brain, right brain: Facts and fantasies.' PLOS Biology, 12, e1001767. The neuromyth persists in learning-style education frameworks."
+          "note": "Nielsen, J. A. et al. (2013). 'An evaluation of the left-brain vs. right-brain hypothesis with resting state functional connectivity magnetic resonance imaging.' PLOS ONE, 8, e71275. Origins in split-brain research (Sperry/st5) misapplied to healthy brains. Corballis, M. C. (2014). 'Left brain, right brain: Facts and fantasies.' PLOS Biology, 12, e1001767. The neuromyth persists in learning-style education frameworks.",
+          "keywords": [
+            "left brain right brain myth",
+            "neuromyth",
+            "resting-state laterality",
+            "hemispheric personality"
+          ]
         },
         {
           "id": "db7",
@@ -1654,7 +2149,14 @@
           ],
           "hint": "Porges proposed a three-tier autonomic hierarchy (immobilisation, fight/flight, social engagement via the vagus) as the neurophysiological basis of trauma, safety and social behaviour. Widely adopted in trauma-informed care and somatic therapy, polyvagal theory makes specific anatomical claims about the myelinated vagus that critics say are unsupported or contradicted by comparative neuroanatomy.",
           "tag": "DEBATE",
-          "note": "Porges, S. W. (1994). 'Vagal tone: A physiological marker of stress vulnerability.' Pediatrics, 94, 702–706. Porges, S. W. (2001). 'The polyvagal theory: Phylogenetic substrates of a social nervous system.' International Journal of Psychophysiology, 42, 123–146. Critiques: Grossman, P. & Taylor, E. W. (2007) Biological Psychology; anatomical claims about dorsal vagal complex challenged. Clinical uptake has substantially outpaced the evidence base."
+          "note": "Porges, S. W. (1994). 'Vagal tone: A physiological marker of stress vulnerability.' Pediatrics, 94, 702–706. Porges, S. W. (2001). 'The polyvagal theory: Phylogenetic substrates of a social nervous system.' International Journal of Psychophysiology, 42, 123–146. Critiques: Grossman, P. & Taylor, E. W. (2007) Biological Psychology; anatomical claims about dorsal vagal complex challenged. Clinical uptake has substantially outpaced the evidence base.",
+          "keywords": [
+            "polyvagal theory",
+            "vagus nerve",
+            "autonomic hierarchy",
+            "trauma-informed care",
+            "myelinated vagal pathway"
+          ]
         },
         {
           "id": "db8",
@@ -1671,7 +2173,13 @@
           ],
           "hint": "Eklund et al. re-analysed 15 years of resting-state fMRI data and found that widely used cluster-inference algorithms (in FSL, SPM, AFNI) produced false-positive rates up to 70% rather than the nominal 5%. Inflated false-positive rates mean many published activation maps may reflect noise, calling into question a large fraction of the neuroimaging literature.",
           "tag": "DEBATE",
-          "note": "Eklund, A., Nichols, T. E. & Knutsson, H. (2016). 'Cluster failure: Why fMRI inferences for spatial extent have inflated false-positive rates.' Proceedings of the National Academy of Sciences, 113, 7900–7905. Response: FSL, SPM and AFNI released software patches. Cox, R. W. et al. (2017) Neuroimage — investigation of underlying causes. The field has since shifted toward pre-registration, larger samples and multiverse analysis."
+          "note": "Eklund, A., Nichols, T. E. & Knutsson, H. (2016). 'Cluster failure: Why fMRI inferences for spatial extent have inflated false-positive rates.' Proceedings of the National Academy of Sciences, 113, 7900–7905. Response: FSL, SPM and AFNI released software patches. Cox, R. W. et al. (2017) Neuroimage — investigation of underlying causes. The field has since shifted toward pre-registration, larger samples and multiverse analysis.",
+          "keywords": [
+            "fMRI false positive",
+            "cluster-inference error",
+            "replication crisis neuroimaging",
+            "neuroimaging validity"
+          ]
         }
       ]
     },
@@ -1700,7 +2208,13 @@
           ],
           "hint": "Surgically implanted electrodes deliver continuous high-frequency electrical stimulation to subcortical targets — subthalamic nucleus for Parkinson's, subgenual cingulate for depression, anterior limb of the internal capsule for OCD. DBS dramatically reduces motor symptoms in Parkinson's and provides relief for treatment-resistant psychiatric conditions; the mechanism (inhibition vs. jamming vs. circuit reset) remains debated.",
           "tag": "APPLICATION",
-          "note": "Benabid, A. L. et al. (1987). 'Combined (thalamotomy and stimulation) stereotactic surgery of the VIM thalamic nucleus for bilateral Parkinson disease.' Applied Neurophysiology, 50, 344–346. FDA approval for Parkinson's: 1997; for OCD: 2009 (Humanitarian Device Exemption). Over 160,000 patients treated worldwide by 2015. Closed-loop DBS that responds to neural biomarkers is in clinical trials."
+          "note": "Benabid, A. L. et al. (1987). 'Combined (thalamotomy and stimulation) stereotactic surgery of the VIM thalamic nucleus for bilateral Parkinson disease.' Applied Neurophysiology, 50, 344–346. FDA approval for Parkinson's: 1997; for OCD: 2009 (Humanitarian Device Exemption). Over 160,000 patients treated worldwide by 2015. Closed-loop DBS that responds to neural biomarkers is in clinical trials.",
+          "keywords": [
+            "deep brain stimulation",
+            "subthalamic nucleus",
+            "parkinson's therapy",
+            "treatment-resistant depression"
+          ]
         },
         {
           "id": "ap2",
@@ -1719,7 +2233,13 @@
           ],
           "hint": "Selective serotonin reuptake inhibitors (Prozac, FDA approved 1987) were developed as monoamine-based antidepressants, but chronic SSRI use (weeks, not hours) promotes BDNF expression, hippocampal neurogenesis and synaptic plasticity — possibly explaining their delayed clinical onset. The 'neuroplasticity hypothesis' of antidepressant action complements (and may supersede) the simple monoamine deficit model.",
           "tag": "APPLICATION",
-          "note": "Fluoxetine FDA approval: 1987. Santarelli, L. et al. (2003). 'Requirement of hippocampal neurogenesis for the behavioral effects of antidepressants.' Science, 301, 805–809. BDNF-antidepressant link: Duman & Monteggia (2006) Neuron. Network-based view: Castrén, E. (2013). 'Neuronal network plasticity and recovery from depression.' JAMA Psychiatry, 70, 983–989. Whether neurogenesis is necessary in humans remains disputed."
+          "note": "Fluoxetine FDA approval: 1987. Santarelli, L. et al. (2003). 'Requirement of hippocampal neurogenesis for the behavioral effects of antidepressants.' Science, 301, 805–809. BDNF-antidepressant link: Duman & Monteggia (2006) Neuron. Network-based view: Castrén, E. (2013). 'Neuronal network plasticity and recovery from depression.' JAMA Psychiatry, 70, 983–989. Whether neurogenesis is necessary in humans remains disputed.",
+          "keywords": [
+            "SSRI",
+            "serotonin reuptake inhibitor",
+            "BDNF expression",
+            "antidepressant neuroplasticity"
+          ]
         },
         {
           "id": "ap3",
@@ -1738,7 +2258,13 @@
           ],
           "hint": "Structured cognitive training programmes exploit activity-dependent plasticity to restore or compensate for lost function after acquired brain injury. Constraint-induced movement therapy (CIMT) forces use of a paretic limb; computerised attention training targets frontal networks. Evidence-based protocols now combine behavioural therapy with non-invasive brain stimulation (TMS, tDCS) to modulate plasticity.",
           "tag": "APPLICATION",
-          "note": "Prigatano, G. P. (1986). Neuropsychological Rehabilitation after Brain Injury. Johns Hopkins University Press. CIMT: Taub, E. et al. (1993) Journal of Nervous and Mental Disease — forced use in stroke. Cochrane reviews confirm benefit of task-specific training. TMS augmentation of rehabilitation: Khedr et al. (2005). The brain's capacity for reorganisation after injury is the neurological basis of rehabilitation (ef1)."
+          "note": "Prigatano, G. P. (1986). Neuropsychological Rehabilitation after Brain Injury. Johns Hopkins University Press. CIMT: Taub, E. et al. (1993) Journal of Nervous and Mental Disease — forced use in stroke. Cochrane reviews confirm benefit of task-specific training. TMS augmentation of rehabilitation: Khedr et al. (2005). The brain's capacity for reorganisation after injury is the neurological basis of rehabilitation (ef1).",
+          "keywords": [
+            "constraint-induced movement therapy",
+            "stroke rehabilitation",
+            "tDCS",
+            "activity-dependent plasticity"
+          ]
         },
         {
           "id": "ap4",
@@ -1756,7 +2282,14 @@
           ],
           "hint": "Participants view real-time displays of their EEG and are rewarded for shifting brain activity in a target direction — e.g., suppressing sensorimotor rhythm (SMR, 12–15 Hz) to reduce epileptic seizures, or enhancing theta/beta ratios for ADHD attention. Sterman's cat studies showed SMR training reduces seizures; clinical evidence for ADHD is promising but trial quality is variable.",
           "tag": "APPLICATION",
-          "note": "Sterman, M. B. & Friar, L. (1972). 'Suppression of seizures in an epileptic following sensorimotor EEG feedback training.' Electroencephalography and Clinical Neurophysiology, 33, 89–95. ADHD meta-analysis: Cortese, S. et al. (2016) Journal of Child Psychology and Psychiatry — specific effects upheld vs. active controls in several trials. Arns, M. et al. (2009) Clinical EEG and Neuroscience — effect sizes 0.6–0.9 for inattention."
+          "note": "Sterman, M. B. & Friar, L. (1972). 'Suppression of seizures in an epileptic following sensorimotor EEG feedback training.' Electroencephalography and Clinical Neurophysiology, 33, 89–95. ADHD meta-analysis: Cortese, S. et al. (2016) Journal of Child Psychology and Psychiatry — specific effects upheld vs. active controls in several trials. Arns, M. et al. (2009) Clinical EEG and Neuroscience — effect sizes 0.6–0.9 for inattention.",
+          "keywords": [
+            "neurofeedback",
+            "EEG biofeedback",
+            "sensorimotor rhythm",
+            "ADHD treatment",
+            "seizure reduction"
+          ]
         },
         {
           "id": "ap5",
@@ -1775,7 +2308,13 @@
           ],
           "hint": "Evidence-based sleep-hygiene recommendations — consistent schedules, dark/cool environments, avoiding screens before bed — improve sleep architecture and memory consolidation. Schools that shifted start times later (8:30 am or later) report improved attendance, grades and wellbeing. Sleep deprivation is now framed as a public-health and educational-policy issue, not merely a personal habit.",
           "tag": "APPLICATION",
-          "note": "Stickgold et al. (2000) — sleep consolidation (st11). CDC (2015) recommendation: adolescents need 8–10 hours; later school start times endorsed. Later start times and grades: Wahlstrom, K. L. (2002) NASSP Bulletin. NHS and American Academy of Sleep Medicine guidelines on sleep hygiene codify the research. Walker, M. (2017). Why We Sleep. Scribner — popular synthesis with broad policy impact."
+          "note": "Stickgold et al. (2000) — sleep consolidation (st11). CDC (2015) recommendation: adolescents need 8–10 hours; later school start times endorsed. Later start times and grades: Wahlstrom, K. L. (2002) NASSP Bulletin. NHS and American Academy of Sleep Medicine guidelines on sleep hygiene codify the research. Walker, M. (2017). Why We Sleep. Scribner — popular synthesis with broad policy impact.",
+          "keywords": [
+            "sleep hygiene",
+            "circadian rhythm",
+            "school start time",
+            "memory consolidation application"
+          ]
         },
         {
           "id": "ap6",
@@ -1794,7 +2333,14 @@
           ],
           "hint": "A patient with retinitis pigmentosa — blind for 40 years — received an intravitreal injection of a channelrhodopsin-encoding AAV vector targeting surviving retinal ganglion cells. After months of training with amber-wavelength goggles that convert visual scenes to the channelrhodopsin's activation frequency, the patient could detect and reach for objects. First published proof-of-concept of optogenetic vision restoration in humans.",
           "tag": "APPLICATION",
-          "note": "Sahel, J.-A. et al. (2021). 'Partial recovery of visual function in a blind patient after optogenetic therapy.' Nature Medicine, 27, 1223–1229. One patient; vision is limited (no colour, low acuity), but the proof of concept is landmark. GenSight Biologics conducting Phase I/II trials (PIONEER study). Optogenetics was a pure basic-science tool (me5) for 16 years before first human use."
+          "note": "Sahel, J.-A. et al. (2021). 'Partial recovery of visual function in a blind patient after optogenetic therapy.' Nature Medicine, 27, 1223–1229. One patient; vision is limited (no colour, low acuity), but the proof of concept is landmark. GenSight Biologics conducting Phase I/II trials (PIONEER study). Optogenetics was a pure basic-science tool (me5) for 16 years before first human use.",
+          "keywords": [
+            "optogenetic therapy",
+            "retinitis pigmentosa",
+            "AAV vector delivery",
+            "vision restoration",
+            "channelrhodopsin human trial"
+          ]
         }
       ]
     }

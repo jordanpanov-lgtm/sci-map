@@ -9,10 +9,12 @@ const files = fs.readdirSync(DIR)
   .filter(f => f.endsWith('.json') && !f.startsWith('_'))
   .sort();
 
-const index  = {};
-const xlinks = {};   // key → [target, ...]  (both explicit and auto-derived reverse)
-const folios = [];
-let   total  = 0;
+const index         = {};
+const xlinks        = {};   // key → [target, ...]  (both explicit and auto-derived reverse)
+const entryKeywords = {};   // key → ["term", ...]
+const keywordIndex  = {};   // term → [key, ...]  (inverted)
+const folios        = [];
+let   total         = 0;
 
 for (const file of files) {
   const data = JSON.parse(fs.readFileSync(path.join(DIR, file), 'utf8'));
@@ -29,36 +31,50 @@ for (const file of files) {
     index[`${folioId}::${entryId}`] = label;
   }
 
-  // Collect xlinks from entry data, and auto-derive the reverse direction
   if (Array.isArray(data.categories)) {
     for (const cat of data.categories) {
       for (const entry of (cat.entries || [])) {
-        if (!Array.isArray(entry.xlinks) || entry.xlinks.length === 0) continue;
-        const src = `${folioId}::${entry.id}`;
-        for (const tgt of entry.xlinks) {
-          if (!xlinks[src]) xlinks[src] = [];
-          if (!xlinks[src].includes(tgt)) xlinks[src].push(tgt);
-          // reverse
-          if (!xlinks[tgt]) xlinks[tgt] = [];
-          if (!xlinks[tgt].includes(src)) xlinks[tgt].push(src);
+        const key = `${folioId}::${entry.id}`;
+
+        // xlinks — collect explicit and derive reverse
+        if (Array.isArray(entry.xlinks) && entry.xlinks.length) {
+          for (const tgt of entry.xlinks) {
+            if (!xlinks[key]) xlinks[key] = [];
+            if (!xlinks[key].includes(tgt)) xlinks[key].push(tgt);
+            if (!xlinks[tgt]) xlinks[tgt] = [];
+            if (!xlinks[tgt].includes(key)) xlinks[tgt].push(key);
+          }
+        }
+
+        // keywords — collect per-entry and build inverted index
+        if (Array.isArray(entry.keywords) && entry.keywords.length) {
+          entryKeywords[key] = entry.keywords;
+          for (const term of entry.keywords) {
+            if (!keywordIndex[term]) keywordIndex[term] = [];
+            keywordIndex[term].push(key);
+          }
         }
       }
     }
   }
 }
 
-const xlinkCount = Object.values(xlinks).reduce((n, arr) => n + arr.length, 0) / 2;
+const xlinkCount   = Object.values(xlinks).reduce((n, arr) => n + arr.length, 0) / 2;
+const keywordCount = Object.keys(keywordIndex).length;
 
 const output = {
   _meta: {
-    total_entries: total,
-    folio_count:   folios.length,
-    xlink_pairs:   Math.round(xlinkCount),
+    total_entries:  total,
+    folio_count:    folios.length,
+    xlink_pairs:    Math.round(xlinkCount),
+    keyword_terms:  keywordCount,
     folios,
-    last_updated:  new Date().toISOString().slice(0, 10)
+    last_updated:   new Date().toISOString().slice(0, 10)
   },
   index,
-  xlinks
+  xlinks,
+  entry_keywords: entryKeywords,
+  keyword_index:  keywordIndex,
 };
 
 fs.writeFileSync(OUTPUT, JSON.stringify(output, null, 2));
