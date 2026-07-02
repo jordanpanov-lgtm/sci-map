@@ -85,7 +85,8 @@ Conformity & Obedience → Intergroup Relations → The Self & Cognition → Att
   "note": "Citation + replication status + caveats + what changed since.",
   "repl": "robust",                     // study/effect only — see rubric below
   "links": ["db3", "fg4"],             // ids of related entries in this folio
-  "xlinks": ["neuroscience::fg1"]      // OPTIONAL — cross-folio refs; see §xlinks below
+  "xlinks": ["neuroscience::fg1"],     // OPTIONAL — cross-folio refs; see §xlinks below
+  "keywords": ["compound phrase", "another term"]  // OPTIONAL — 3-5 cross-folio discriminating terms; see §keywords below
 }
 ```
 
@@ -176,6 +177,29 @@ Rules:
 
 To search for candidates, query `_global_index.json` directly, or run the standalone
 discovery script (`modules/build-xlink-candidates.js`) as a one-off research tool.
+
+### `keywords` — cross-folio discovery index
+
+`keywords` is an **optional** array of 3–5 lowercase compound phrases on every entry.
+The global index aggregates them into an inverted index (`keyword_index` in `_global_index.json`),
+so cross-folio connections surface automatically when two entries share a term.
+
+Rules:
+- Use 2–3 word phrases, not single words (`spaced repetition` not `repetition`).
+- Do **not** repeat information already captured by `tag`, `cat`, or `domain` — keywords
+  should add cross-field discriminating value beyond the category taxonomy.
+- Target specificity: a good keyword appears in 2–15 entries across the full corpus (~800
+  entries) — common enough to link, rare enough to be meaningful.
+- Aim for 3–5 terms per entry. Fewer is fine; 6+ risks diluting specificity.
+- All lowercase.
+
+Examples of good keywords: `spaced repetition`, `fMRI false positive`, `double dissociation`,
+`synaptic tagging`, `prototype effect`.
+
+Examples of bad keywords (too generic): `memory`, `brain`, `cognition`, `experiment`.
+
+`build-global-index.js` reads `keywords` from every entry and populates `entry_keywords`
+and `keyword_index` in `_global_index.json` automatically on each rebuild.
 
 ### Figures — what to write
 
@@ -443,7 +467,7 @@ Do not add these — they silently corrupt the entry or are ignored:
 | `cat` | Category is implicit from which `entries` array the entry lives in |
 | `groups` | Not an entry field; only used in the study plan in `index.html` |
 
-`xlinks` **is** a valid optional field — see §xlinks above. Do not confuse it with `links`.
+`xlinks` and `keywords` **are** valid optional fields — see §xlinks and §keywords above.
 
 ---
 
@@ -479,6 +503,7 @@ string values — most commonly in `note` fields that quote paper titles.
 
 **Entry content**
 - [ ] Every entry has `id`, `group`, `label`, `date`, `loc`, `coords`, `links`, `hint`, `tag`, `note`?
+- [ ] Every entry has `keywords` (3–5 lowercase compound phrases, cross-folio discriminating)?
 - [ ] Every entry has a real, complete citation in `note`?
 - [ ] `repl` set on every `study` and `effect` entry; absent from all others?
 - [ ] `date` for figure entries is the year of their key contribution, not their birth year?
