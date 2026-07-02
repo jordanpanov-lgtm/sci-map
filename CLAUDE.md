@@ -1,5 +1,14 @@
 # Sci-Map — Agent Instructions
 
+## This project
+
+- **Repo:** `C:\Users\josol\Downloads\04. social\sci-map` (GitHub: `jordanpanov-lgtm/sci-map`)
+- **Live site:** GitHub Pages on the `main` branch — `jordanpanov-lgtm.github.io/sci-map`
+- **Dev server:** `npx http-server -p 8131 -c-1 .` from the `sci-map/` root (port 8131)
+- **Do NOT confuse with** `knowledge-library` (a sibling project in `04. social/`) or `mydceo` — they are separate repos with separate servers.
+
+---
+
 ## For any folio work — read these two files first, every time
 
 ```
