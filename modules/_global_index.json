@@ -2,8 +2,8 @@
   "_meta": {
     "total_entries": 836,
     "folio_count": 11,
-    "xlink_pairs": 10,
-    "keyword_terms": 1348,
+    "xlink_pairs": 11,
+    "keyword_terms": 1667,
     "folios": [
       {
         "id": "anatomy-histology",
@@ -914,6 +914,12 @@
     "physiology-organ-systems::fg1": [
       "anatomy-histology::fg2"
     ],
+    "computer-science::th8": [
+      "general-cognitive-psych::th13"
+    ],
+    "general-cognitive-psych::th13": [
+      "computer-science::th8"
+    ],
     "general-cognitive-psych::me4": [
       "neuroscience::me4"
     ],
@@ -1402,6 +1408,486 @@
       "bioengineered organ",
       "organ on chip",
       "stem cell tissue therapy"
+    ],
+    "computer-science::th1": [
+      "effective computability",
+      "universal machine model",
+      "lambda calculus equivalence",
+      "computable function definition"
+    ],
+    "computer-science::th2": [
+      "stored program model",
+      "fetch-decode-execute cycle",
+      "von Neumann bottleneck",
+      "CPU memory bus"
+    ],
+    "computer-science::th3": [
+      "entropy information measure",
+      "channel capacity theorem",
+      "noise coding theorem",
+      "data compression bound"
+    ],
+    "computer-science::th4": [
+      "NP-complete problem",
+      "Cook-Levin theorem",
+      "Boolean satisfiability",
+      "polynomial time reduction"
+    ],
+    "computer-science::th5": [
+      "goto statement harmful",
+      "sequence selection iteration",
+      "modular code structure",
+      "control flow discipline"
+    ],
+    "computer-science::th6": [
+      "relational algebra",
+      "SQL query language",
+      "data independence principle",
+      "database table relation"
+    ],
+    "computer-science::th7": [
+      "consistency availability partition",
+      "distributed system trade-off",
+      "Brewer theorem",
+      "eventual consistency"
+    ],
+    "computer-science::th8": [
+      "physical symbol system",
+      "Newell Simon hypothesis",
+      "symbolic intelligence model",
+      "general problem solver"
+    ],
+    "computer-science::th9": [
+      "probably approximately correct",
+      "sample complexity bound",
+      "generalisation guarantee",
+      "computational learning theory"
+    ],
+    "computer-science::th10": [
+      "asymmetric key pair",
+      "trapdoor one-way function",
+      "key distribution problem",
+      "Diffie-Hellman exchange"
+    ],
+    "computer-science::th11": [
+      "datagram packet routing",
+      "store-and-forward network",
+      "Baran distributed network",
+      "circuit vs packet"
+    ],
+    "computer-science::st1": [
+      "imitation game thought experiment",
+      "machine intelligence test",
+      "Computing Machinery Intelligence",
+      "behavioural intelligence criterion"
+    ],
+    "computer-science::st2": [
+      "vacuum tube computer",
+      "ENIAC Eckert Mauchly",
+      "first electronic computer",
+      "ballistic trajectory calculation"
+    ],
+    "computer-science::st3": [
+      "ARPANET first message",
+      "packet network experiment",
+      "IMP interface message",
+      "1969 host-to-host"
+    ],
+    "computer-science::st4": [
+      "Unix kernel design",
+      "C language portability",
+      "Bell Labs systems",
+      "Thompson Ritchie OS"
+    ],
+    "computer-science::st5": [
+      "divide conquer sorting",
+      "Hoare pivot partition",
+      "average n log n sort",
+      "in-place sort algorithm"
+    ],
+    "computer-science::st6": [
+      "integer factorisation hardness",
+      "RSA Rivest Shamir Adleman",
+      "prime number cryptography",
+      "public key algorithm"
+    ],
+    "computer-science::st7": [
+      "HTTP HTML protocol design",
+      "CERN hypertext system",
+      "Berners-Lee web proposal",
+      "open web standard"
+    ],
+    "computer-science::st8": [
+      "chess computer Kasparov",
+      "game tree brute force",
+      "alpha-beta pruning AI",
+      "Deep Blue match"
+    ],
+    "computer-science::st9": [
+      "link graph page ranking",
+      "Brin Page eigenvector",
+      "web search ranking algorithm",
+      "hyperlink citation model"
+    ],
+    "computer-science::st10": [
+      "deep reinforcement game play",
+      "Monte Carlo tree search",
+      "AlphaGo policy network",
+      "self-play training"
+    ],
+    "computer-science::st11": [
+      "large language model scale",
+      "few-shot prompting",
+      "autoregressive text generation",
+      "GPT transformer"
+    ],
+    "computer-science::st12": [
+      "Engelbart 1968 demo",
+      "mouse hypertext invention",
+      "video conferencing pioneer",
+      "augmented human intellect"
+    ],
+    "computer-science::st13": [
+      "single layer perceptron limit",
+      "Minsky Papert XOR",
+      "linear separability neural",
+      "first AI winter"
+    ],
+    "computer-science::st14": [
+      "proof of work consensus",
+      "Nakamoto blockchain",
+      "peer-to-peer digital cash",
+      "distributed ledger"
+    ],
+    "computer-science::st15": [
+      "self-attention transformer",
+      "attention is all you need",
+      "multi-head attention",
+      "encoder decoder architecture"
+    ],
+    "computer-science::st16": [
+      "Haber Stornetta hash chain",
+      "cryptographic timestamp",
+      "document integrity chain",
+      "hash pointer link"
+    ],
+    "computer-science::st17": [
+      "rule-based expert system",
+      "MYCIN medical diagnosis",
+      "production rule inference",
+      "knowledge base reasoning"
+    ],
+    "computer-science::ef1": [
+      "transistor density doubling",
+      "integrated circuit scaling",
+      "exponential hardware growth",
+      "silicon chip performance"
+    ],
+    "computer-science::ef2": [
+      "halting undecidability proof",
+      "diagonalisation argument",
+      "self-referential program",
+      "uncomputability result"
+    ],
+    "computer-science::ef3": [
+      "parallel speedup ceiling",
+      "serial bottleneck fraction",
+      "Amdahl scaling limit",
+      "parallelism diminishing return"
+    ],
+    "computer-science::ef4": [
+      "network value quadratic",
+      "node connection value",
+      "platform network effect",
+      "Metcalfe telecommunications"
+    ],
+    "computer-science::ef5": [
+      "pointing movement time",
+      "target distance size law",
+      "motor control UI design",
+      "human interface speed"
+    ],
+    "computer-science::ef6": [
+      "no universal learner",
+      "algorithm average equivalence",
+      "Wolpert Macready theorem",
+      "optimiser trade-off"
+    ],
+    "computer-science::ef7": [
+      "universal computation equivalence",
+      "Turing complete language",
+      "minimal instruction set",
+      "programmable equivalence"
+    ],
+    "computer-science::ef8": [
+      "adding engineers delays",
+      "communication overhead scaling",
+      "mythical man-month",
+      "software team friction"
+    ],
+    "computer-science::ef9": [
+      "one-time pad security",
+      "information-theoretic secrecy",
+      "Shannon perfect encryption",
+      "key length plaintext"
+    ],
+    "computer-science::ef10": [
+      "bit erasure energy cost",
+      "thermodynamic computation bound",
+      "kT heat irreversible",
+      "Landauer erasure"
+    ],
+    "computer-science::co1": [
+      "asymptotic time complexity",
+      "worst case growth rate",
+      "Big-O notation bound",
+      "algorithm complexity class"
+    ],
+    "computer-science::co2": [
+      "self-referential function",
+      "base case induction step",
+      "call stack depth",
+      "recursive function theory"
+    ],
+    "computer-science::co3": [
+      "interface implementation separation",
+      "data encapsulation ADT",
+      "information hiding",
+      "type abstraction"
+    ],
+    "computer-science::co4": [
+      "critical section lock",
+      "Dijkstra semaphore",
+      "concurrent process synchronisation",
+      "deadlock prevention"
+    ],
+    "computer-science::co5": [
+      "internet protocol stack",
+      "end-to-end principle",
+      "TCP reliable transport",
+      "IP routing addressing"
+    ],
+    "computer-science::co6": [
+      "error gradient backpropagation",
+      "stochastic gradient descent",
+      "chain rule weight update",
+      "loss minimisation neural"
+    ],
+    "computer-science::co7": [
+      "interactive proof system",
+      "knowledge without disclosure",
+      "zero-knowledge cryptographic",
+      "completeness soundness"
+    ],
+    "computer-science::co8": [
+      "key-value hash mapping",
+      "collision resolution hashing",
+      "constant time lookup",
+      "hash function design"
+    ],
+    "computer-science::me1": [
+      "Hoare logic assertion",
+      "pre-post condition proof",
+      "formal program correctness",
+      "invariant specification"
+    ],
+    "computer-science::me2": [
+      "time space complexity analysis",
+      "recurrence relation solving",
+      "empirical algorithm benchmark",
+      "worst average case"
+    ],
+    "computer-science::me3": [
+      "class object inheritance",
+      "encapsulation polymorphism",
+      "OOP design pattern",
+      "message passing objects"
+    ],
+    "computer-science::me4": [
+      "think-aloud protocol usability",
+      "cognitive walkthrough HCI",
+      "user task performance",
+      "interface evaluation"
+    ],
+    "computer-science::me5": [
+      "k-fold cross-validation",
+      "train test split",
+      "overfitting detection model",
+      "generalisation estimation"
+    ],
+    "computer-science::me6": [
+      "ethical hacking method",
+      "vulnerability exploit testing",
+      "red team security",
+      "penetration assessment"
+    ],
+    "computer-science::fg1": [
+      "first algorithm author",
+      "Babbage analytical engine",
+      "Victorian computing pioneer",
+      "Bernoulli number program"
+    ],
+    "computer-science::fg2": [
+      "Turing machine inventor",
+      "Enigma codebreaking",
+      "computability universality",
+      "artificial intelligence founder"
+    ],
+    "computer-science::fg3": [
+      "information theory founder",
+      "entropy bit measure",
+      "channel noise capacity",
+      "Bell Labs information"
+    ],
+    "computer-science::fg4": [
+      "stored program architecture",
+      "game theory mathematics",
+      "EDVAC design contribution",
+      "mathematical physicist computing"
+    ],
+    "computer-science::fg5": [
+      "compiler language inventor",
+      "COBOL pioneer",
+      "machine-independent code",
+      "debugging first bug"
+    ],
+    "computer-science::fg6": [
+      "Dijkstra shortest path",
+      "structured programming advocate",
+      "semaphore synchronisation",
+      "formal methods pioneer"
+    ],
+    "computer-science::fg7": [
+      "Unix OS creator",
+      "C language designer",
+      "Bell Labs kernel",
+      "systems programming pioneer"
+    ],
+    "computer-science::fg8": [
+      "relational database founder",
+      "SQL normalisation theory",
+      "data independence Codd",
+      "IBM relational model"
+    ],
+    "computer-science::fg9": [
+      "Apollo flight software",
+      "software engineering coinage",
+      "NASA mission-critical code",
+      "in-flight error detection"
+    ],
+    "computer-science::fg10": [
+      "World Wide Web inventor",
+      "HTTP hyperlink protocol",
+      "CERN open web",
+      "web standards advocate"
+    ],
+    "computer-science::fg11": [
+      "zero-knowledge proof inventor",
+      "interactive proof complexity",
+      "probabilistic encryption",
+      "Turing Award cryptography"
+    ],
+    "computer-science::fg12": [
+      "deep learning pioneer",
+      "backpropagation populariser",
+      "neural network resurgence",
+      "Boltzmann machine"
+    ],
+    "computer-science::db1": [
+      "P NP unsolved problem",
+      "polynomial class separation",
+      "millennium prize complexity",
+      "NP-hard reduction debate"
+    ],
+    "computer-science::db2": [
+      "Chinese room Searle",
+      "syntax vs semantics mind",
+      "strong AI consciousness",
+      "intentionality symbol debate"
+    ],
+    "computer-science::db3": [
+      "AI alignment problem",
+      "existential risk AI",
+      "superintelligence control",
+      "value alignment AI safety"
+    ],
+    "computer-science::db4": [
+      "encryption backdoor policy",
+      "Clipper chip debate",
+      "government surveillance key",
+      "crypto war privacy"
+    ],
+    "computer-science::db5": [
+      "open source GPL copyleft",
+      "software freedom movement",
+      "proprietary vs open code",
+      "Stallman Torvalds debate"
+    ],
+    "computer-science::db6": [
+      "internet traffic neutrality",
+      "ISP bandwidth throttling",
+      "open internet regulation",
+      "network neutrality law"
+    ],
+    "computer-science::db7": [
+      "technical debt accumulation",
+      "software quality legacy",
+      "refactoring code decay",
+      "software engineering crisis"
+    ],
+    "computer-science::db8": [
+      "ML experiment reproducibility",
+      "random seed benchmark bias",
+      "dataset leakage result",
+      "benchmark overfitting"
+    ],
+    "computer-science::db9": [
+      "chain of thought reasoning",
+      "agentic AI tool use",
+      "inference time compute",
+      "reasoning model 2024"
+    ],
+    "computer-science::ap1": [
+      "satellite trilateration",
+      "atomic clock GPS",
+      "global positioning signal",
+      "satellite orbit timing"
+    ],
+    "computer-science::ap2": [
+      "transport layer security",
+      "certificate authority chain",
+      "HTTPS public key handshake",
+      "secure web protocol"
+    ],
+    "computer-science::ap3": [
+      "collaborative filtering",
+      "matrix factorisation recommendation",
+      "user item embedding",
+      "content-based filtering"
+    ],
+    "computer-science::ap4": [
+      "inverted index search",
+      "web crawl indexing",
+      "query relevance ranking",
+      "information retrieval system"
+    ],
+    "computer-science::ap5": [
+      "RLHF fine-tuning",
+      "instruction-following model",
+      "ChatGPT deployment",
+      "generative AI product"
+    ],
+    "computer-science::ap6": [
+      "virtualised compute service",
+      "infrastructure as service",
+      "elastic cloud scaling",
+      "distributed server farm"
+    ],
+    "computer-science::ap7": [
+      "smart contract platform",
+      "Ethereum virtual machine",
+      "decentralised application",
+      "DeFi programmable blockchain"
     ],
     "general-cognitive-psych::th1": [
       "multi-store memory model",
@@ -3900,6 +4386,967 @@
     "stem cell tissue therapy": [
       "anatomy-histology::ap6"
     ],
+    "effective computability": [
+      "computer-science::th1"
+    ],
+    "universal machine model": [
+      "computer-science::th1"
+    ],
+    "lambda calculus equivalence": [
+      "computer-science::th1"
+    ],
+    "computable function definition": [
+      "computer-science::th1"
+    ],
+    "stored program model": [
+      "computer-science::th2"
+    ],
+    "fetch-decode-execute cycle": [
+      "computer-science::th2"
+    ],
+    "von Neumann bottleneck": [
+      "computer-science::th2"
+    ],
+    "CPU memory bus": [
+      "computer-science::th2"
+    ],
+    "entropy information measure": [
+      "computer-science::th3"
+    ],
+    "channel capacity theorem": [
+      "computer-science::th3"
+    ],
+    "noise coding theorem": [
+      "computer-science::th3"
+    ],
+    "data compression bound": [
+      "computer-science::th3"
+    ],
+    "NP-complete problem": [
+      "computer-science::th4"
+    ],
+    "Cook-Levin theorem": [
+      "computer-science::th4"
+    ],
+    "Boolean satisfiability": [
+      "computer-science::th4"
+    ],
+    "polynomial time reduction": [
+      "computer-science::th4"
+    ],
+    "goto statement harmful": [
+      "computer-science::th5"
+    ],
+    "sequence selection iteration": [
+      "computer-science::th5"
+    ],
+    "modular code structure": [
+      "computer-science::th5"
+    ],
+    "control flow discipline": [
+      "computer-science::th5"
+    ],
+    "relational algebra": [
+      "computer-science::th6"
+    ],
+    "SQL query language": [
+      "computer-science::th6"
+    ],
+    "data independence principle": [
+      "computer-science::th6"
+    ],
+    "database table relation": [
+      "computer-science::th6"
+    ],
+    "consistency availability partition": [
+      "computer-science::th7"
+    ],
+    "distributed system trade-off": [
+      "computer-science::th7"
+    ],
+    "Brewer theorem": [
+      "computer-science::th7"
+    ],
+    "eventual consistency": [
+      "computer-science::th7"
+    ],
+    "physical symbol system": [
+      "computer-science::th8"
+    ],
+    "Newell Simon hypothesis": [
+      "computer-science::th8"
+    ],
+    "symbolic intelligence model": [
+      "computer-science::th8"
+    ],
+    "general problem solver": [
+      "computer-science::th8",
+      "general-cognitive-psych::th13"
+    ],
+    "probably approximately correct": [
+      "computer-science::th9"
+    ],
+    "sample complexity bound": [
+      "computer-science::th9"
+    ],
+    "generalisation guarantee": [
+      "computer-science::th9"
+    ],
+    "computational learning theory": [
+      "computer-science::th9"
+    ],
+    "asymmetric key pair": [
+      "computer-science::th10"
+    ],
+    "trapdoor one-way function": [
+      "computer-science::th10"
+    ],
+    "key distribution problem": [
+      "computer-science::th10"
+    ],
+    "Diffie-Hellman exchange": [
+      "computer-science::th10"
+    ],
+    "datagram packet routing": [
+      "computer-science::th11"
+    ],
+    "store-and-forward network": [
+      "computer-science::th11"
+    ],
+    "Baran distributed network": [
+      "computer-science::th11"
+    ],
+    "circuit vs packet": [
+      "computer-science::th11"
+    ],
+    "imitation game thought experiment": [
+      "computer-science::st1"
+    ],
+    "machine intelligence test": [
+      "computer-science::st1"
+    ],
+    "Computing Machinery Intelligence": [
+      "computer-science::st1"
+    ],
+    "behavioural intelligence criterion": [
+      "computer-science::st1"
+    ],
+    "vacuum tube computer": [
+      "computer-science::st2"
+    ],
+    "ENIAC Eckert Mauchly": [
+      "computer-science::st2"
+    ],
+    "first electronic computer": [
+      "computer-science::st2"
+    ],
+    "ballistic trajectory calculation": [
+      "computer-science::st2"
+    ],
+    "ARPANET first message": [
+      "computer-science::st3"
+    ],
+    "packet network experiment": [
+      "computer-science::st3"
+    ],
+    "IMP interface message": [
+      "computer-science::st3"
+    ],
+    "1969 host-to-host": [
+      "computer-science::st3"
+    ],
+    "Unix kernel design": [
+      "computer-science::st4"
+    ],
+    "C language portability": [
+      "computer-science::st4"
+    ],
+    "Bell Labs systems": [
+      "computer-science::st4"
+    ],
+    "Thompson Ritchie OS": [
+      "computer-science::st4"
+    ],
+    "divide conquer sorting": [
+      "computer-science::st5"
+    ],
+    "Hoare pivot partition": [
+      "computer-science::st5"
+    ],
+    "average n log n sort": [
+      "computer-science::st5"
+    ],
+    "in-place sort algorithm": [
+      "computer-science::st5"
+    ],
+    "integer factorisation hardness": [
+      "computer-science::st6"
+    ],
+    "RSA Rivest Shamir Adleman": [
+      "computer-science::st6"
+    ],
+    "prime number cryptography": [
+      "computer-science::st6"
+    ],
+    "public key algorithm": [
+      "computer-science::st6"
+    ],
+    "HTTP HTML protocol design": [
+      "computer-science::st7"
+    ],
+    "CERN hypertext system": [
+      "computer-science::st7"
+    ],
+    "Berners-Lee web proposal": [
+      "computer-science::st7"
+    ],
+    "open web standard": [
+      "computer-science::st7"
+    ],
+    "chess computer Kasparov": [
+      "computer-science::st8"
+    ],
+    "game tree brute force": [
+      "computer-science::st8"
+    ],
+    "alpha-beta pruning AI": [
+      "computer-science::st8"
+    ],
+    "Deep Blue match": [
+      "computer-science::st8"
+    ],
+    "link graph page ranking": [
+      "computer-science::st9"
+    ],
+    "Brin Page eigenvector": [
+      "computer-science::st9"
+    ],
+    "web search ranking algorithm": [
+      "computer-science::st9"
+    ],
+    "hyperlink citation model": [
+      "computer-science::st9"
+    ],
+    "deep reinforcement game play": [
+      "computer-science::st10"
+    ],
+    "Monte Carlo tree search": [
+      "computer-science::st10"
+    ],
+    "AlphaGo policy network": [
+      "computer-science::st10"
+    ],
+    "self-play training": [
+      "computer-science::st10"
+    ],
+    "large language model scale": [
+      "computer-science::st11"
+    ],
+    "few-shot prompting": [
+      "computer-science::st11"
+    ],
+    "autoregressive text generation": [
+      "computer-science::st11"
+    ],
+    "GPT transformer": [
+      "computer-science::st11"
+    ],
+    "Engelbart 1968 demo": [
+      "computer-science::st12"
+    ],
+    "mouse hypertext invention": [
+      "computer-science::st12"
+    ],
+    "video conferencing pioneer": [
+      "computer-science::st12"
+    ],
+    "augmented human intellect": [
+      "computer-science::st12"
+    ],
+    "single layer perceptron limit": [
+      "computer-science::st13"
+    ],
+    "Minsky Papert XOR": [
+      "computer-science::st13"
+    ],
+    "linear separability neural": [
+      "computer-science::st13"
+    ],
+    "first AI winter": [
+      "computer-science::st13"
+    ],
+    "proof of work consensus": [
+      "computer-science::st14"
+    ],
+    "Nakamoto blockchain": [
+      "computer-science::st14"
+    ],
+    "peer-to-peer digital cash": [
+      "computer-science::st14"
+    ],
+    "distributed ledger": [
+      "computer-science::st14"
+    ],
+    "self-attention transformer": [
+      "computer-science::st15"
+    ],
+    "attention is all you need": [
+      "computer-science::st15"
+    ],
+    "multi-head attention": [
+      "computer-science::st15"
+    ],
+    "encoder decoder architecture": [
+      "computer-science::st15"
+    ],
+    "Haber Stornetta hash chain": [
+      "computer-science::st16"
+    ],
+    "cryptographic timestamp": [
+      "computer-science::st16"
+    ],
+    "document integrity chain": [
+      "computer-science::st16"
+    ],
+    "hash pointer link": [
+      "computer-science::st16"
+    ],
+    "rule-based expert system": [
+      "computer-science::st17"
+    ],
+    "MYCIN medical diagnosis": [
+      "computer-science::st17"
+    ],
+    "production rule inference": [
+      "computer-science::st17"
+    ],
+    "knowledge base reasoning": [
+      "computer-science::st17"
+    ],
+    "transistor density doubling": [
+      "computer-science::ef1"
+    ],
+    "integrated circuit scaling": [
+      "computer-science::ef1"
+    ],
+    "exponential hardware growth": [
+      "computer-science::ef1"
+    ],
+    "silicon chip performance": [
+      "computer-science::ef1"
+    ],
+    "halting undecidability proof": [
+      "computer-science::ef2"
+    ],
+    "diagonalisation argument": [
+      "computer-science::ef2"
+    ],
+    "self-referential program": [
+      "computer-science::ef2"
+    ],
+    "uncomputability result": [
+      "computer-science::ef2"
+    ],
+    "parallel speedup ceiling": [
+      "computer-science::ef3"
+    ],
+    "serial bottleneck fraction": [
+      "computer-science::ef3"
+    ],
+    "Amdahl scaling limit": [
+      "computer-science::ef3"
+    ],
+    "parallelism diminishing return": [
+      "computer-science::ef3"
+    ],
+    "network value quadratic": [
+      "computer-science::ef4"
+    ],
+    "node connection value": [
+      "computer-science::ef4"
+    ],
+    "platform network effect": [
+      "computer-science::ef4"
+    ],
+    "Metcalfe telecommunications": [
+      "computer-science::ef4"
+    ],
+    "pointing movement time": [
+      "computer-science::ef5"
+    ],
+    "target distance size law": [
+      "computer-science::ef5"
+    ],
+    "motor control UI design": [
+      "computer-science::ef5"
+    ],
+    "human interface speed": [
+      "computer-science::ef5"
+    ],
+    "no universal learner": [
+      "computer-science::ef6"
+    ],
+    "algorithm average equivalence": [
+      "computer-science::ef6"
+    ],
+    "Wolpert Macready theorem": [
+      "computer-science::ef6"
+    ],
+    "optimiser trade-off": [
+      "computer-science::ef6"
+    ],
+    "universal computation equivalence": [
+      "computer-science::ef7"
+    ],
+    "Turing complete language": [
+      "computer-science::ef7"
+    ],
+    "minimal instruction set": [
+      "computer-science::ef7"
+    ],
+    "programmable equivalence": [
+      "computer-science::ef7"
+    ],
+    "adding engineers delays": [
+      "computer-science::ef8"
+    ],
+    "communication overhead scaling": [
+      "computer-science::ef8"
+    ],
+    "mythical man-month": [
+      "computer-science::ef8"
+    ],
+    "software team friction": [
+      "computer-science::ef8"
+    ],
+    "one-time pad security": [
+      "computer-science::ef9"
+    ],
+    "information-theoretic secrecy": [
+      "computer-science::ef9"
+    ],
+    "Shannon perfect encryption": [
+      "computer-science::ef9"
+    ],
+    "key length plaintext": [
+      "computer-science::ef9"
+    ],
+    "bit erasure energy cost": [
+      "computer-science::ef10"
+    ],
+    "thermodynamic computation bound": [
+      "computer-science::ef10"
+    ],
+    "kT heat irreversible": [
+      "computer-science::ef10"
+    ],
+    "Landauer erasure": [
+      "computer-science::ef10"
+    ],
+    "asymptotic time complexity": [
+      "computer-science::co1"
+    ],
+    "worst case growth rate": [
+      "computer-science::co1"
+    ],
+    "Big-O notation bound": [
+      "computer-science::co1"
+    ],
+    "algorithm complexity class": [
+      "computer-science::co1"
+    ],
+    "self-referential function": [
+      "computer-science::co2"
+    ],
+    "base case induction step": [
+      "computer-science::co2"
+    ],
+    "call stack depth": [
+      "computer-science::co2"
+    ],
+    "recursive function theory": [
+      "computer-science::co2"
+    ],
+    "interface implementation separation": [
+      "computer-science::co3"
+    ],
+    "data encapsulation ADT": [
+      "computer-science::co3"
+    ],
+    "information hiding": [
+      "computer-science::co3"
+    ],
+    "type abstraction": [
+      "computer-science::co3"
+    ],
+    "critical section lock": [
+      "computer-science::co4"
+    ],
+    "Dijkstra semaphore": [
+      "computer-science::co4"
+    ],
+    "concurrent process synchronisation": [
+      "computer-science::co4"
+    ],
+    "deadlock prevention": [
+      "computer-science::co4"
+    ],
+    "internet protocol stack": [
+      "computer-science::co5"
+    ],
+    "end-to-end principle": [
+      "computer-science::co5"
+    ],
+    "TCP reliable transport": [
+      "computer-science::co5"
+    ],
+    "IP routing addressing": [
+      "computer-science::co5"
+    ],
+    "error gradient backpropagation": [
+      "computer-science::co6"
+    ],
+    "stochastic gradient descent": [
+      "computer-science::co6"
+    ],
+    "chain rule weight update": [
+      "computer-science::co6"
+    ],
+    "loss minimisation neural": [
+      "computer-science::co6"
+    ],
+    "interactive proof system": [
+      "computer-science::co7"
+    ],
+    "knowledge without disclosure": [
+      "computer-science::co7"
+    ],
+    "zero-knowledge cryptographic": [
+      "computer-science::co7"
+    ],
+    "completeness soundness": [
+      "computer-science::co7"
+    ],
+    "key-value hash mapping": [
+      "computer-science::co8"
+    ],
+    "collision resolution hashing": [
+      "computer-science::co8"
+    ],
+    "constant time lookup": [
+      "computer-science::co8"
+    ],
+    "hash function design": [
+      "computer-science::co8"
+    ],
+    "Hoare logic assertion": [
+      "computer-science::me1"
+    ],
+    "pre-post condition proof": [
+      "computer-science::me1"
+    ],
+    "formal program correctness": [
+      "computer-science::me1"
+    ],
+    "invariant specification": [
+      "computer-science::me1"
+    ],
+    "time space complexity analysis": [
+      "computer-science::me2"
+    ],
+    "recurrence relation solving": [
+      "computer-science::me2"
+    ],
+    "empirical algorithm benchmark": [
+      "computer-science::me2"
+    ],
+    "worst average case": [
+      "computer-science::me2"
+    ],
+    "class object inheritance": [
+      "computer-science::me3"
+    ],
+    "encapsulation polymorphism": [
+      "computer-science::me3"
+    ],
+    "OOP design pattern": [
+      "computer-science::me3"
+    ],
+    "message passing objects": [
+      "computer-science::me3"
+    ],
+    "think-aloud protocol usability": [
+      "computer-science::me4"
+    ],
+    "cognitive walkthrough HCI": [
+      "computer-science::me4"
+    ],
+    "user task performance": [
+      "computer-science::me4"
+    ],
+    "interface evaluation": [
+      "computer-science::me4"
+    ],
+    "k-fold cross-validation": [
+      "computer-science::me5"
+    ],
+    "train test split": [
+      "computer-science::me5"
+    ],
+    "overfitting detection model": [
+      "computer-science::me5"
+    ],
+    "generalisation estimation": [
+      "computer-science::me5"
+    ],
+    "ethical hacking method": [
+      "computer-science::me6"
+    ],
+    "vulnerability exploit testing": [
+      "computer-science::me6"
+    ],
+    "red team security": [
+      "computer-science::me6"
+    ],
+    "penetration assessment": [
+      "computer-science::me6"
+    ],
+    "first algorithm author": [
+      "computer-science::fg1"
+    ],
+    "Babbage analytical engine": [
+      "computer-science::fg1"
+    ],
+    "Victorian computing pioneer": [
+      "computer-science::fg1"
+    ],
+    "Bernoulli number program": [
+      "computer-science::fg1"
+    ],
+    "Turing machine inventor": [
+      "computer-science::fg2"
+    ],
+    "Enigma codebreaking": [
+      "computer-science::fg2"
+    ],
+    "computability universality": [
+      "computer-science::fg2"
+    ],
+    "artificial intelligence founder": [
+      "computer-science::fg2"
+    ],
+    "information theory founder": [
+      "computer-science::fg3"
+    ],
+    "entropy bit measure": [
+      "computer-science::fg3"
+    ],
+    "channel noise capacity": [
+      "computer-science::fg3"
+    ],
+    "Bell Labs information": [
+      "computer-science::fg3"
+    ],
+    "stored program architecture": [
+      "computer-science::fg4"
+    ],
+    "game theory mathematics": [
+      "computer-science::fg4"
+    ],
+    "EDVAC design contribution": [
+      "computer-science::fg4"
+    ],
+    "mathematical physicist computing": [
+      "computer-science::fg4"
+    ],
+    "compiler language inventor": [
+      "computer-science::fg5"
+    ],
+    "COBOL pioneer": [
+      "computer-science::fg5"
+    ],
+    "machine-independent code": [
+      "computer-science::fg5"
+    ],
+    "debugging first bug": [
+      "computer-science::fg5"
+    ],
+    "Dijkstra shortest path": [
+      "computer-science::fg6"
+    ],
+    "structured programming advocate": [
+      "computer-science::fg6"
+    ],
+    "semaphore synchronisation": [
+      "computer-science::fg6"
+    ],
+    "formal methods pioneer": [
+      "computer-science::fg6"
+    ],
+    "Unix OS creator": [
+      "computer-science::fg7"
+    ],
+    "C language designer": [
+      "computer-science::fg7"
+    ],
+    "Bell Labs kernel": [
+      "computer-science::fg7"
+    ],
+    "systems programming pioneer": [
+      "computer-science::fg7"
+    ],
+    "relational database founder": [
+      "computer-science::fg8"
+    ],
+    "SQL normalisation theory": [
+      "computer-science::fg8"
+    ],
+    "data independence Codd": [
+      "computer-science::fg8"
+    ],
+    "IBM relational model": [
+      "computer-science::fg8"
+    ],
+    "Apollo flight software": [
+      "computer-science::fg9"
+    ],
+    "software engineering coinage": [
+      "computer-science::fg9"
+    ],
+    "NASA mission-critical code": [
+      "computer-science::fg9"
+    ],
+    "in-flight error detection": [
+      "computer-science::fg9"
+    ],
+    "World Wide Web inventor": [
+      "computer-science::fg10"
+    ],
+    "HTTP hyperlink protocol": [
+      "computer-science::fg10"
+    ],
+    "CERN open web": [
+      "computer-science::fg10"
+    ],
+    "web standards advocate": [
+      "computer-science::fg10"
+    ],
+    "zero-knowledge proof inventor": [
+      "computer-science::fg11"
+    ],
+    "interactive proof complexity": [
+      "computer-science::fg11"
+    ],
+    "probabilistic encryption": [
+      "computer-science::fg11"
+    ],
+    "Turing Award cryptography": [
+      "computer-science::fg11"
+    ],
+    "deep learning pioneer": [
+      "computer-science::fg12"
+    ],
+    "backpropagation populariser": [
+      "computer-science::fg12"
+    ],
+    "neural network resurgence": [
+      "computer-science::fg12"
+    ],
+    "Boltzmann machine": [
+      "computer-science::fg12"
+    ],
+    "P NP unsolved problem": [
+      "computer-science::db1"
+    ],
+    "polynomial class separation": [
+      "computer-science::db1"
+    ],
+    "millennium prize complexity": [
+      "computer-science::db1"
+    ],
+    "NP-hard reduction debate": [
+      "computer-science::db1"
+    ],
+    "Chinese room Searle": [
+      "computer-science::db2"
+    ],
+    "syntax vs semantics mind": [
+      "computer-science::db2"
+    ],
+    "strong AI consciousness": [
+      "computer-science::db2"
+    ],
+    "intentionality symbol debate": [
+      "computer-science::db2"
+    ],
+    "AI alignment problem": [
+      "computer-science::db3"
+    ],
+    "existential risk AI": [
+      "computer-science::db3"
+    ],
+    "superintelligence control": [
+      "computer-science::db3"
+    ],
+    "value alignment AI safety": [
+      "computer-science::db3"
+    ],
+    "encryption backdoor policy": [
+      "computer-science::db4"
+    ],
+    "Clipper chip debate": [
+      "computer-science::db4"
+    ],
+    "government surveillance key": [
+      "computer-science::db4"
+    ],
+    "crypto war privacy": [
+      "computer-science::db4"
+    ],
+    "open source GPL copyleft": [
+      "computer-science::db5"
+    ],
+    "software freedom movement": [
+      "computer-science::db5"
+    ],
+    "proprietary vs open code": [
+      "computer-science::db5"
+    ],
+    "Stallman Torvalds debate": [
+      "computer-science::db5"
+    ],
+    "internet traffic neutrality": [
+      "computer-science::db6"
+    ],
+    "ISP bandwidth throttling": [
+      "computer-science::db6"
+    ],
+    "open internet regulation": [
+      "computer-science::db6"
+    ],
+    "network neutrality law": [
+      "computer-science::db6"
+    ],
+    "technical debt accumulation": [
+      "computer-science::db7"
+    ],
+    "software quality legacy": [
+      "computer-science::db7"
+    ],
+    "refactoring code decay": [
+      "computer-science::db7"
+    ],
+    "software engineering crisis": [
+      "computer-science::db7"
+    ],
+    "ML experiment reproducibility": [
+      "computer-science::db8"
+    ],
+    "random seed benchmark bias": [
+      "computer-science::db8"
+    ],
+    "dataset leakage result": [
+      "computer-science::db8"
+    ],
+    "benchmark overfitting": [
+      "computer-science::db8"
+    ],
+    "chain of thought reasoning": [
+      "computer-science::db9"
+    ],
+    "agentic AI tool use": [
+      "computer-science::db9"
+    ],
+    "inference time compute": [
+      "computer-science::db9"
+    ],
+    "reasoning model 2024": [
+      "computer-science::db9"
+    ],
+    "satellite trilateration": [
+      "computer-science::ap1"
+    ],
+    "atomic clock GPS": [
+      "computer-science::ap1"
+    ],
+    "global positioning signal": [
+      "computer-science::ap1"
+    ],
+    "satellite orbit timing": [
+      "computer-science::ap1"
+    ],
+    "transport layer security": [
+      "computer-science::ap2"
+    ],
+    "certificate authority chain": [
+      "computer-science::ap2"
+    ],
+    "HTTPS public key handshake": [
+      "computer-science::ap2"
+    ],
+    "secure web protocol": [
+      "computer-science::ap2"
+    ],
+    "collaborative filtering": [
+      "computer-science::ap3"
+    ],
+    "matrix factorisation recommendation": [
+      "computer-science::ap3"
+    ],
+    "user item embedding": [
+      "computer-science::ap3"
+    ],
+    "content-based filtering": [
+      "computer-science::ap3"
+    ],
+    "inverted index search": [
+      "computer-science::ap4"
+    ],
+    "web crawl indexing": [
+      "computer-science::ap4"
+    ],
+    "query relevance ranking": [
+      "computer-science::ap4"
+    ],
+    "information retrieval system": [
+      "computer-science::ap4"
+    ],
+    "RLHF fine-tuning": [
+      "computer-science::ap5"
+    ],
+    "instruction-following model": [
+      "computer-science::ap5"
+    ],
+    "ChatGPT deployment": [
+      "computer-science::ap5"
+    ],
+    "generative AI product": [
+      "computer-science::ap5"
+    ],
+    "virtualised compute service": [
+      "computer-science::ap6"
+    ],
+    "infrastructure as service": [
+      "computer-science::ap6"
+    ],
+    "elastic cloud scaling": [
+      "computer-science::ap6"
+    ],
+    "distributed server farm": [
+      "computer-science::ap6"
+    ],
+    "smart contract platform": [
+      "computer-science::ap7"
+    ],
+    "Ethereum virtual machine": [
+      "computer-science::ap7"
+    ],
+    "decentralised application": [
+      "computer-science::ap7"
+    ],
+    "DeFi programmable blockchain": [
+      "computer-science::ap7"
+    ],
     "multi-store memory model": [
       "general-cognitive-psych::th1"
     ],
@@ -4085,9 +5532,6 @@
       "general-cognitive-psych::th13"
     ],
     "means-ends analysis": [
-      "general-cognitive-psych::th13"
-    ],
-    "general problem solver": [
       "general-cognitive-psych::th13"
     ],
     "artificial intelligence": [

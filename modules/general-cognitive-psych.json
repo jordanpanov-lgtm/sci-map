@@ -498,6 +498,9 @@
             "means-ends analysis",
             "general problem solver",
             "artificial intelligence"
+          ],
+          "xlinks": [
+            "computer-science::th8"
           ]
         }
       ]
@@ -1448,7 +1451,9 @@
             "th6",
             "db9"
           ],
-          "xlinks": ["neuroscience::me4"],
+          "xlinks": [
+            "neuroscience::me4"
+          ],
           "hint": "Measuring blood-oxygen-level-dependent (BOLD) signals to identify brain regions more active during cognitive tasks. fMRI mapped memory encoding to hippocampus, executive function to prefrontal cortex and face recognition to the fusiform face area — linking cognition to anatomy at unprecedented resolution.",
           "tag": "METHOD",
           "note": "Ogawa, S. et al. (1992). 'Intrinsic signal changes accompanying sensory stimulation.' PNAS, 89, 5951–5955 — first published fMRI. Limitations: low temporal resolution; BOLD is an indirect proxy; reverse inference (inferring function from region activated) is problematic (Poldrack 2006). The dead-salmon study (db7) dramatised the multiple-comparisons problem.",
@@ -2018,7 +2023,9 @@
             "me4",
             "th6"
           ],
-          "xlinks": ["neuroscience::db8"],
+          "xlinks": [
+            "neuroscience::db8"
+          ],
           "hint": "A dead Atlantic salmon placed in an fMRI scanner, shown social photographs and asked to infer emotions, produced 'significant' brain activations — because uncorrected analyses across 130,000 voxels will yield false positives. The study dramatised a multiple-comparisons problem affecting thousands of published neuroimaging papers.",
           "tag": "DEBATE",
           "note": "Bennett, C. M., Miller, M. B. & Wolford, G. L. (2009). HBM 2009 poster; published in Journal of Serendipitous and Unexpected Results (2010). Eklund, A., Nichols, T. E. & Knutsson, H. (2016). PNAS, 113, 7900–7905 found common fMRI cluster-inference methods had up to 70% false-positive rates. Accelerated adoption of family-wise error correction and pre-registration in neuroimaging.",
