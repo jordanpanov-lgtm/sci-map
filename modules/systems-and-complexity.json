@@ -149,7 +149,13 @@
           ],
           "hint": "Norbert Wiener coined cybernetics as the unified science of control and communication in machines and living systems. The core mechanism is the feedback loop: a system monitors the gap between its current state and a goal, and uses that error signal to steer its behaviour. This single idea dissolved the boundary between engineering and biology — a thermostat, a neuron, and a firm all operate on the same circular-causal logic. Cybernetics was the first discipline to treat purpose and goal-direction as scientifically tractable properties of physical systems rather than as metaphysical mysteries.",
           "tag": "FRAMEWORK",
-          "note": "Wiener, N. (1948). Cybernetics: Or Control and Communication in the Animal and the Machine. MIT Press (2nd ed. 1961). Conceptual precursors: Maxwell, J. C. (1868) on centrifugal governor stability; Cannon, W. B. (1932) homeostasis. Shannon, C. E. (1948) developed information theory in parallel — both papers share the vocabulary of signal, noise, and channel capacity. Cybernetics peaked institutionally in the 1950s Macy Conferences (1946–1953). It fragmented into control engineering, cognitive science, and AI by the 1960s; the term itself largely disappeared from engineering, surviving in biology, management, and the social sciences."
+          "note": "Wiener, N. (1948). Cybernetics: Or Control and Communication in the Animal and the Machine. MIT Press (2nd ed. 1961). Conceptual precursors: Maxwell, J. C. (1868) on centrifugal governor stability; Cannon, W. B. (1932) homeostasis. Shannon, C. E. (1948) developed information theory in parallel — both papers share the vocabulary of signal, noise, and channel capacity. Cybernetics peaked institutionally in the 1950s Macy Conferences (1946–1953). It fragmented into control engineering, cognitive science, and AI by the 1960s; the term itself largely disappeared from engineering, surviving in biology, management, and the social sciences.",
+          "keywords": [
+            "feedback control mechanism",
+            "Wiener cybernetics",
+            "goal-directed control",
+            "animal machine communication"
+          ]
         },
         {
           "id": "th2",
@@ -172,7 +178,13 @@
           ],
           "hint": "W. Ross Ashby's Law of Requisite Variety (1956) states that a controller can only suppress the variety of disturbances to the extent that it itself has variety — a simple controller cannot regulate a complex environment. His Homeostat (1952) was an electromechanical machine of four interconnected units that could seek and maintain equilibrium even after its internal connections were randomly rewired — a physical demonstration that self-organisation and adaptation are achievable by purely mechanical means, requiring no goals programmed in from outside.",
           "tag": "THEORY",
-          "note": "Ashby, W. R. (1952). Design for a Brain: The Origin of Adaptive Behaviour. Chapman & Hall. Ashby, W. R. (1956). An Introduction to Cybernetics. Chapman & Hall — Chapter 11 states the Law of Requisite Variety. Homeostat first described in Ashby, W. R. (1948). 'Design for a brain.' Electronic Engineering, 20, 379–383. The Good Regulator Theorem (Conant & Ashby, 1970, International Journal of Systems Science) derived from this framework: every good regulator of a system must be a model of that system. The Law of Requisite Variety became foundational in Stafford Beer's Viable System Model (Beer, 1972) and presages ideas in modern machine learning about the complexity of world models required for effective agents."
+          "note": "Ashby, W. R. (1952). Design for a Brain: The Origin of Adaptive Behaviour. Chapman & Hall. Ashby, W. R. (1956). An Introduction to Cybernetics. Chapman & Hall — Chapter 11 states the Law of Requisite Variety. Homeostat first described in Ashby, W. R. (1948). 'Design for a brain.' Electronic Engineering, 20, 379–383. The Good Regulator Theorem (Conant & Ashby, 1970, International Journal of Systems Science) derived from this framework: every good regulator of a system must be a model of that system. The Law of Requisite Variety became foundational in Stafford Beer's Viable System Model (Beer, 1972) and presages ideas in modern machine learning about the complexity of world models required for effective agents.",
+          "keywords": [
+            "requisite variety control",
+            "Ashby homeostat",
+            "law of requisite variety",
+            "regulatory variety mismatch"
+          ]
         },
         {
           "id": "th3",
@@ -195,7 +207,13 @@
           ],
           "hint": "First-order cybernetics studied how systems regulate themselves. Second-order cybernetics — developed by Heinz von Foerster and amplified by Maturana, Varela, and Luhmann — turned the lens on the observer. Because any observation is made by a system (a nervous system, an institution, a scientist) that is itself a system, the act of observation is not neutral. This led to autopoiesis: the property of living systems to continuously produce and regenerate themselves, which means the system's identity is constituted by its own operations, not by external definition.",
           "tag": "FRAMEWORK",
-          "note": "von Foerster, H. (1974). 'Cybernetics of Cybernetics.' In: K. Krippendorff (Ed.), Communication and Control in Society. Gordon & Breach. Autopoiesis: Maturana, H. R. & Varela, F. J. (1972). Autopoiesis and Cognition: The Realization of the Living. D. Reidel (English translation 1980). Social systems extension: Luhmann, N. (1984). Soziale Systeme. Suhrkamp. Second-order cybernetics influenced family systems therapy (Bateson, Haley), constructivist pedagogy (von Glasersfeld), and Luhmann's systems sociology. Its methodological impact in natural science was limited — mainstream cognitive science preferred computational models with defined inputs and outputs over self-referential frameworks."
+          "note": "von Foerster, H. (1974). 'Cybernetics of Cybernetics.' In: K. Krippendorff (Ed.), Communication and Control in Society. Gordon & Breach. Autopoiesis: Maturana, H. R. & Varela, F. J. (1972). Autopoiesis and Cognition: The Realization of the Living. D. Reidel (English translation 1980). Social systems extension: Luhmann, N. (1984). Soziale Systeme. Suhrkamp. Second-order cybernetics influenced family systems therapy (Bateson, Haley), constructivist pedagogy (von Glasersfeld), and Luhmann's systems sociology. Its methodological impact in natural science was limited — mainstream cognitive science preferred computational models with defined inputs and outputs over self-referential frameworks.",
+          "keywords": [
+            "observer in system",
+            "von Foerster second order",
+            "reflexive cybernetics",
+            "constructivist systems"
+          ]
         },
         {
           "id": "th4",
@@ -219,7 +237,13 @@
           ],
           "hint": "Ludwig von Bertalanffy proposed that despite vast differences between cells, ecosystems, economies, and societies, all open systems share structural principles: they exchange matter and energy with their environment, tend toward dynamic equilibrium, and exhibit properties absent from their components (emergence, equifinality — the property that different initial conditions can reach the same final state). General Systems Theory was an explicit programme for a transdisciplinary science: the same mathematical language should describe physiology, ecology, and organisations alike, enabling knowledge transfer across disciplines through shared structural isomorphisms.",
           "tag": "FRAMEWORK",
-          "note": "Bertalanffy, L. von (1968). General System Theory: Foundations, Development, Applications. George Braziller. Key earlier paper: Bertalanffy, L. von (1950). 'An outline of general system theory.' British Journal for the Philosophy of Science, 1, 134–165. The Society for General Systems Research was founded (1954) with Boulding, Rapoport, and Gerard. Critics argued the isomorphisms were too vague to be scientifically productive (Berlinski, D., 1976, On Systems Analysis; Lilienfeld, R., 1978, The Rise of Systems Theory). GST's lasting positive legacy was methodological: enabling systems engineering (RAND Corporation), ecological systems thinking (Odum), and management systems (Beer), even where the theoretical programme remained underspecified."
+          "note": "Bertalanffy, L. von (1968). General System Theory: Foundations, Development, Applications. George Braziller. Key earlier paper: Bertalanffy, L. von (1950). 'An outline of general system theory.' British Journal for the Philosophy of Science, 1, 134–165. The Society for General Systems Research was founded (1954) with Boulding, Rapoport, and Gerard. Critics argued the isomorphisms were too vague to be scientifically productive (Berlinski, D., 1976, On Systems Analysis; Lilienfeld, R., 1978, The Rise of Systems Theory). GST's lasting positive legacy was methodological: enabling systems engineering (RAND Corporation), ecological systems thinking (Odum), and management systems (Beer), even where the theoretical programme remained underspecified.",
+          "keywords": [
+            "von Bertalanffy systems",
+            "isomorphism across fields",
+            "open system general",
+            "general systems framework"
+          ]
         },
         {
           "id": "th5",
@@ -246,7 +270,13 @@
           ],
           "hint": "Jay Forrester's system dynamics models complex systems as stocks (accumulations — inventories, populations, capital) connected by flows, with positive (amplifying) and negative (balancing) feedback loops driving change over time. The central insight is that counterintuitive and problematic behaviour in organisations, cities, and economies arises not from external shocks but from the structure of internal feedback loops, especially when time delays cause overshoot. A policy that appears to fix a problem can trigger an equal and opposite response elsewhere in the loop — a pattern Forrester called 'policy resistance.'",
           "tag": "MODEL",
-          "note": "Forrester, J. W. (1961). Industrial Dynamics. MIT Press. Extended to cities: Forrester, J. W. (1969). Urban Dynamics. MIT Press — controversial for showing that urban renewal policies can worsen conditions. Global model: Forrester, J. W. (1971). World Dynamics. Wright-Allen — the direct precursor to Limits to Growth. Software implementation: DYNAMO (Forrester's group, 1959) was one of the first simulation languages; modern successors include Stella, Vensim, AnyLogic. Comprehensive textbook and critique: Sterman, J. D. (2000). Business Dynamics: Systems Thinking and Modeling for a Complex World. Irwin/McGraw-Hill — acknowledges difficulties in model calibration and validation while remaining the field's standard reference."
+          "note": "Forrester, J. W. (1961). Industrial Dynamics. MIT Press. Extended to cities: Forrester, J. W. (1969). Urban Dynamics. MIT Press — controversial for showing that urban renewal policies can worsen conditions. Global model: Forrester, J. W. (1971). World Dynamics. Wright-Allen — the direct precursor to Limits to Growth. Software implementation: DYNAMO (Forrester's group, 1959) was one of the first simulation languages; modern successors include Stella, Vensim, AnyLogic. Comprehensive textbook and critique: Sterman, J. D. (2000). Business Dynamics: Systems Thinking and Modeling for a Complex World. Irwin/McGraw-Hill — acknowledges difficulties in model calibration and validation while remaining the field's standard reference.",
+          "keywords": [
+            "stock flow feedback",
+            "Forrester system dynamics",
+            "causal loop diagram",
+            "accumulation rate system"
+          ]
         },
         {
           "id": "th6",
@@ -273,7 +303,13 @@
           ],
           "hint": "Edward Lorenz discovered chaos while running a radically simplified weather simulation: three coupled differential equations modelling convection produced trajectories that never repeated yet stayed bounded within a peculiar double-spiral — the strange attractor. Two runs differing by one part in a million diverged completely within a few integration steps, demonstrating sensitive dependence on initial conditions. The implication: a deterministic system — governed entirely by fixed equations — can produce behaviour indistinguishable from randomness, and long-range weather prediction is fundamentally impossible regardless of computing power.",
           "tag": "MODEL",
-          "note": "Lorenz, E. N. (1963). 'Deterministic nonperiodic flow.' Journal of the Atmospheric Sciences, 20, 130–141 — the founding paper of modern chaos theory (~13,000 citations). The shape of the attractor was formalised by Ruelle, D. & Takens, F. (1971). 'On the nature of turbulence.' Communications in Mathematical Physics, 20, 167–192 — who coined the term 'strange attractor.' The paper went largely unnoticed for a decade until nonlinear dynamics revived interest in the 1970s. The 'butterfly effect' phrase: Lorenz, E. N. (1972). 'Predictability: Does the flap of a butterfly's wings in Brazil set off a tornado in Texas?' Conference talk, American Association for the Advancement of Science. Popular account: Gleick, J. (1987). Chaos: Making a New Science. Viking."
+          "note": "Lorenz, E. N. (1963). 'Deterministic nonperiodic flow.' Journal of the Atmospheric Sciences, 20, 130–141 — the founding paper of modern chaos theory (~13,000 citations). The shape of the attractor was formalised by Ruelle, D. & Takens, F. (1971). 'On the nature of turbulence.' Communications in Mathematical Physics, 20, 167–192 — who coined the term 'strange attractor.' The paper went largely unnoticed for a decade until nonlinear dynamics revived interest in the 1970s. The 'butterfly effect' phrase: Lorenz, E. N. (1972). 'Predictability: Does the flap of a butterfly's wings in Brazil set off a tornado in Texas?' Conference talk, American Association for the Advancement of Science. Popular account: Gleick, J. (1987). Chaos: Making a New Science. Viking.",
+          "keywords": [
+            "Lorenz chaos attractor",
+            "deterministic chaos weather",
+            "sensitive initial conditions",
+            "strange attractor"
+          ]
         },
         {
           "id": "th7",
@@ -295,7 +331,13 @@
           ],
           "hint": "Mitchell Feigenbaum showed that many different nonlinear systems — population models, fluid flows, electronic circuits — all follow the same quantitative route to chaos as a control parameter increases. Each successive period-doubling (1→2→4→8 cycles) happens at intervals shrinking by a constant ratio of approximately 4.6692..., now called the Feigenbaum constant. This universality — the constant is the same regardless of the specific system — means chaos in a dripping faucet and chaos in a laser share the same underlying mathematical structure, connecting nonlinear dynamics to the renormalisation group techniques of statistical physics.",
           "tag": "DISCOVERY",
-          "note": "Feigenbaum, M. J. (1978). 'Quantitative universality for a class of nonlinear transformations.' Journal of Statistical Physics, 19, 25–52 — initially rejected by multiple journals. Feigenbaum, M. J. (1979). 'The universal metric properties of nonlinear transformations.' Journal of Statistical Physics, 21, 669–706. Experimental confirmation: Libchaber, A. & Maurer, J. (1982, Journal de Physique Lettres) in liquid helium convection; Testa, J., Perez, J. & Jeffries, C. (1982, Physical Review Letters) in electronic circuits — both confirmed the constant within experimental error. The Feigenbaum constant δ ≈ 4.6692 and α ≈ 2.5029 are universal irrational numbers, analogous in status to π for circles, arising wherever a system period-doubles into chaos."
+          "note": "Feigenbaum, M. J. (1978). 'Quantitative universality for a class of nonlinear transformations.' Journal of Statistical Physics, 19, 25–52 — initially rejected by multiple journals. Feigenbaum, M. J. (1979). 'The universal metric properties of nonlinear transformations.' Journal of Statistical Physics, 21, 669–706. Experimental confirmation: Libchaber, A. & Maurer, J. (1982, Journal de Physique Lettres) in liquid helium convection; Testa, J., Perez, J. & Jeffries, C. (1982, Physical Review Letters) in electronic circuits — both confirmed the constant within experimental error. The Feigenbaum constant δ ≈ 4.6692 and α ≈ 2.5029 are universal irrational numbers, analogous in status to π for circles, arising wherever a system period-doubles into chaos.",
+          "keywords": [
+            "period-doubling Feigenbaum",
+            "route to chaos bifurcation",
+            "logistic map universality",
+            "Feigenbaum constant"
+          ]
         },
         {
           "id": "th8",
@@ -318,7 +360,13 @@
           ],
           "hint": "Paul Erdős and Alfréd Rényi proved that random graphs undergo a phase transition: below a critical threshold (average degree < 1), the network consists of many small isolated components; above it, a giant connected component containing a finite fraction of all nodes abruptly emerges. This sharp threshold — where a small increase in edge density triggers a qualitative change in global connectivity — was the first mathematical proof that network structure can undergo sudden regime shifts. It provided the null model against which all real-world network topology is compared.",
           "tag": "THEORY",
-          "note": "Erdős, P. & Rényi, A. (1959). 'On random graphs I.' Publicationes Mathematicae, 6, 290–297. Erdős, P. & Rényi, A. (1960). 'On the evolution of random graphs.' Magyar Tudományos Akadémia Matematikai Kutató Intézetének Közleményei, 5, 17–61 — the main phase-transition paper. Parallel formulation: Gilbert, E. N. (1959). 'Random graphs.' Annals of Mathematical Statistics, 30, 1141–1144. The random graph model serves as the null model for network science: real networks (social, biological, technological) almost always differ from it in structurally meaningful ways — high clustering, heavy-tailed degree distributions, community structure — which is precisely why Watts-Strogatz (1998) and Barabási-Albert (1999) attracted such attention. Erdős and Rényi did not study network growth processes, which the later models addressed."
+          "note": "Erdős, P. & Rényi, A. (1959). 'On random graphs I.' Publicationes Mathematicae, 6, 290–297. Erdős, P. & Rényi, A. (1960). 'On the evolution of random graphs.' Magyar Tudományos Akadémia Matematikai Kutató Intézetének Közleményei, 5, 17–61 — the main phase-transition paper. Parallel formulation: Gilbert, E. N. (1959). 'Random graphs.' Annals of Mathematical Statistics, 30, 1141–1144. The random graph model serves as the null model for network science: real networks (social, biological, technological) almost always differ from it in structurally meaningful ways — high clustering, heavy-tailed degree distributions, community structure — which is precisely why Watts-Strogatz (1998) and Barabási-Albert (1999) attracted such attention. Erdős and Rényi did not study network growth processes, which the later models addressed.",
+          "keywords": [
+            "random graph phase transition",
+            "Erdos Renyi network",
+            "giant component percolation",
+            "network connectivity threshold"
+          ]
         },
         {
           "id": "th9",
@@ -351,7 +399,13 @@
           ],
           "hint": "John Holland at the Santa Fe Institute formalised complex adaptive systems as collections of agents — each following simple local rules — that interact, adapt, and co-evolve. Emergent global behaviour (an economy, an immune system, an ecosystem) cannot be deduced from any individual agent's rules; it arises from interactions across many levels. Holland's specific tools were classifier systems (agents that match-and-act using condition-action rules) and genetic algorithms (agents that evolve their rules via selection and recombination), turning CAS theory into a computational programme for studying adaptation in the absence of central control.",
           "tag": "FRAMEWORK",
-          "note": "Holland, J. H. (1975). Adaptation in Natural and Artificial Systems. University of Michigan Press — introduced genetic algorithms. Holland, J. H. (1992). Adaptation in Natural and Artificial Systems (2nd ed.). MIT Press. Holland, J. H. (1995). Hidden Order: How Adaptation Builds Complexity. Addison-Wesley — the accessible CAS synthesis. The Santa Fe Institute (founded 1984 by Murray Gell-Mann, Kenneth Arrow, Philip Anderson, and others) was the primary institutional home. Key tension: CAS models produce compelling qualitative narratives but resist calibration to empirical data — a methodological critique levelled by conventional social scientists (e.g., Edmonds, 1999; Ormerod, 2002) that remains unresolved."
+          "note": "Holland, J. H. (1975). Adaptation in Natural and Artificial Systems. University of Michigan Press — introduced genetic algorithms. Holland, J. H. (1992). Adaptation in Natural and Artificial Systems (2nd ed.). MIT Press. Holland, J. H. (1995). Hidden Order: How Adaptation Builds Complexity. Addison-Wesley — the accessible CAS synthesis. The Santa Fe Institute (founded 1984 by Murray Gell-Mann, Kenneth Arrow, Philip Anderson, and others) was the primary institutional home. Key tension: CAS models produce compelling qualitative narratives but resist calibration to empirical data — a methodological critique levelled by conventional social scientists (e.g., Edmonds, 1999; Ormerod, 2002) that remains unresolved.",
+          "keywords": [
+            "complex adaptive system",
+            "coevolution adaptation",
+            "Holland CAS framework",
+            "emergence adaptation"
+          ]
         },
         {
           "id": "th10",
@@ -377,7 +431,13 @@
           ],
           "hint": "Ilya Prigogine showed that thermodynamic systems driven far from equilibrium can spontaneously generate organised structures — 'dissipative structures' — maintained by a continuous throughput of energy. Unlike equilibrium crystals, which form by reducing energy, dissipative structures (convection cells, chemical oscillations, living organisms) require constant energy flux to exist and display an intrinsic arrow of time: once formed, they are historically contingent and irreversible. This resolved a paradox: how can self-organisation — local order — be consistent with the Second Law, which demands global entropy increase? The answer is that the local order is thermodynamically paid for by larger disorder in the surroundings.",
           "tag": "THEORY",
-          "note": "Prigogine, I. (1967). 'Dissipative structures in chemical systems.' In: S. Claesson (Ed.), Fast Reactions and Primary Processes in Chemical Kinetics. Nobel Symposium — first formal presentation. Full theory: Glansdorff, P. & Prigogine, I. (1971). Thermodynamic Theory of Structure, Stability and Fluctuations. Wiley-Interscience. Mathematical treatment: Nicolis, G. & Prigogine, I. (1977). Self-Organization in Nonequilibrium Systems. Wiley. Popular account: Prigogine, I. & Stengers, I. (1984). Order Out of Chaos. Bantam. Nobel Prize in Chemistry 1977 awarded to Prigogine for non-equilibrium thermodynamics. The framework provides the thermodynamic foundation for biology: living systems are far-from-equilibrium dissipative structures, which is why they require continuous metabolic input and why death is irreversible."
+          "note": "Prigogine, I. (1967). 'Dissipative structures in chemical systems.' In: S. Claesson (Ed.), Fast Reactions and Primary Processes in Chemical Kinetics. Nobel Symposium — first formal presentation. Full theory: Glansdorff, P. & Prigogine, I. (1971). Thermodynamic Theory of Structure, Stability and Fluctuations. Wiley-Interscience. Mathematical treatment: Nicolis, G. & Prigogine, I. (1977). Self-Organization in Nonequilibrium Systems. Wiley. Popular account: Prigogine, I. & Stengers, I. (1984). Order Out of Chaos. Bantam. Nobel Prize in Chemistry 1977 awarded to Prigogine for non-equilibrium thermodynamics. The framework provides the thermodynamic foundation for biology: living systems are far-from-equilibrium dissipative structures, which is why they require continuous metabolic input and why death is irreversible.",
+          "keywords": [
+            "dissipative structure Prigogine",
+            "non-equilibrium self-organisation",
+            "entropy export open system",
+            "far-from-equilibrium order"
+          ]
         }
       ]
     },
@@ -409,7 +469,13 @@
           "repl": "mixed",
           "hint": "Robert May showed that the logistic map — a single-equation model of population growth — transitions from stable equilibria through period-doubling to fully chaotic dynamics as the growth rate increases. At moderate growth rates, population oscillates between 2, 4, 8... values in a cascade. Above a critical rate (~3.57), behaviour becomes aperiodic and unpredictable. This paper introduced chaos to the ecological mainstream and directly sparked Feigenbaum's subsequent discovery of the universal constant governing all period-doubling routes to chaos.",
           "tag": "MODEL",
-          "note": "May, R. M. (1976). 'Simple mathematical models with very complicated dynamics.' Nature, 261, 459–467 — ~8,000 citations. The logistic map xₙ₊₁ = rxₙ(1−xₙ) was known mathematically; May's contribution was showing its ecological relevance and ecological community. Laboratory confirmation of period-doubling in insect populations: Hassell, M. P., Lawton, J. H. & May, R. M. (1976, Journal of Animal Ecology). However, most field population data show irregular dynamics attributable to environmental stochasticity, not deterministic chaos — separating these empirically is methodologically difficult (Ellner, S. & Turchin, P., 1995, American Naturalist, 145, 343–375). Deterministic chaos in wild populations remains rare to demonstrate convincingly."
+          "note": "May, R. M. (1976). 'Simple mathematical models with very complicated dynamics.' Nature, 261, 459–467 — ~8,000 citations. The logistic map xₙ₊₁ = rxₙ(1−xₙ) was known mathematically; May's contribution was showing its ecological relevance and ecological community. Laboratory confirmation of period-doubling in insect populations: Hassell, M. P., Lawton, J. H. & May, R. M. (1976, Journal of Animal Ecology). However, most field population data show irregular dynamics attributable to environmental stochasticity, not deterministic chaos — separating these empirically is methodologically difficult (Ellner, S. & Turchin, P., 1995, American Naturalist, 145, 343–375). Deterministic chaos in wild populations remains rare to demonstrate convincingly.",
+          "keywords": [
+            "logistic map ecology chaos",
+            "population density chaos",
+            "May period-doubling ecology",
+            "boom collapse population"
+          ]
         },
         {
           "id": "st2",
@@ -431,7 +497,13 @@
           "repl": "robust",
           "hint": "Watts and Strogatz studied networks that interpolate between regular lattices and random graphs. They showed that many real networks — C. elegans neural wiring, the western US power grid, actor collaboration — inhabit a 'small-world' regime: highly clustered (friends of friends know each other) yet with short average path lengths (everyone connected in a few steps). Remarkably, adding just a few random long-range edges to an otherwise regular lattice dramatically cuts path lengths while preserving local clustering. The result explains why 'six degrees of separation' can coexist with tight local social clusters.",
           "tag": "FIELD STUDY",
-          "note": "Watts, D. J. & Strogatz, S. H. (1998). 'Collective dynamics of \"small-world\" networks.' Nature, 393, 440–442 — ~50,000 citations. Operationalised Milgram's six-degrees hypothesis (Milgram, S., 1967, Psychology Today). Small-world topology has since been confirmed in metabolic networks, the internet, brain connectivity (functional and structural), and gene regulatory networks. Methodological caution: the 'small-world' label has been applied loosely; many studies fail to compare properly against appropriate null models. A standardised small-world index: Humphries, M. D. & Gurney, K. (2008, PLoS ONE, 3, e0002051). The model describes network topology but not the growth process generating it — that gap motivated Barabási-Albert."
+          "note": "Watts, D. J. & Strogatz, S. H. (1998). 'Collective dynamics of \"small-world\" networks.' Nature, 393, 440–442 — ~50,000 citations. Operationalised Milgram's six-degrees hypothesis (Milgram, S., 1967, Psychology Today). Small-world topology has since been confirmed in metabolic networks, the internet, brain connectivity (functional and structural), and gene regulatory networks. Methodological caution: the 'small-world' label has been applied loosely; many studies fail to compare properly against appropriate null models. A standardised small-world index: Humphries, M. D. & Gurney, K. (2008, PLoS ONE, 3, e0002051). The model describes network topology but not the growth process generating it — that gap motivated Barabási-Albert.",
+          "keywords": [
+            "small-world network clustering",
+            "Watts Strogatz rewiring",
+            "short path high clustering",
+            "six degrees separation"
+          ]
         },
         {
           "id": "st3",
@@ -458,7 +530,13 @@
           "repl": "mixed",
           "hint": "Barabási and Albert showed that the World Wide Web, scientific citations, and actor networks display a power-law degree distribution: a small number of highly-connected hubs coexist with a vast majority of weakly-connected nodes. They proposed 'preferential attachment' as the generative mechanism — new nodes entering a growing network preferentially connect to already-popular nodes (rich-get-richer). Scale-free networks have a striking property: they are robust to random node failure (hubs are unlikely to fail randomly) but fragile to targeted attack on hubs.",
           "tag": "FIELD STUDY",
-          "note": "Barabási, A.-L. & Albert, R. (1999). 'Emergence of scaling in random networks.' Science, 286, 509–512 — ~30,000 citations. Major statistical reanalysis: Clauset, A., Shalizi, C. R. & Newman, M. E. J. (2009). 'Power-law distributions in empirical data.' SIAM Review, 51, 661–703 — showed that rigorous statistical tests rarely confirm a power law over a log-normal or stretched exponential. Broido, A. D. & Clauset, A. (2019). 'Scale-free networks are rare.' Nature Communications, 10, 1017 — found that only a small fraction of proposed scale-free networks pass stringent statistical criteria. This is one of the largest ongoing methodological controversies in network science; preferential attachment is widely accepted as a mechanism, but the universality of power-law degree distributions is not."
+          "note": "Barabási, A.-L. & Albert, R. (1999). 'Emergence of scaling in random networks.' Science, 286, 509–512 — ~30,000 citations. Major statistical reanalysis: Clauset, A., Shalizi, C. R. & Newman, M. E. J. (2009). 'Power-law distributions in empirical data.' SIAM Review, 51, 661–703 — showed that rigorous statistical tests rarely confirm a power law over a log-normal or stretched exponential. Broido, A. D. & Clauset, A. (2019). 'Scale-free networks are rare.' Nature Communications, 10, 1017 — found that only a small fraction of proposed scale-free networks pass stringent statistical criteria. This is one of the largest ongoing methodological controversies in network science; preferential attachment is widely accepted as a mechanism, but the universality of power-law degree distributions is not.",
+          "keywords": [
+            "preferential attachment network",
+            "Barabási Albert scale-free",
+            "rich get richer network",
+            "hub formation network"
+          ]
         },
         {
           "id": "st4",
@@ -481,7 +559,13 @@
           "repl": "robust",
           "hint": "Robert Axelrod ran a computer tournament in which submitted strategies played iterated Prisoner's Dilemma against each other over 200 rounds. The winner — Tit-for-Tat, submitted by Anatol Rapoport — cooperates on the first move, then mirrors the opponent's previous move. Tit-for-Tat is the simplest possible strategy: nice (never defects first), retaliatory (immediately punishes defection), and forgiving (returns to cooperation after one retaliation). The tournament showed that mutual cooperation can evolve and stabilise without central authority, when individuals interact repeatedly and remember past interactions.",
           "tag": "EXPERIMENT",
-          "note": "Axelrod, R. (1984). The Evolution of Cooperation. Basic Books — expanded from two journal articles: Axelrod, R. (1980). 'Effective choice in the prisoner's dilemma.' Journal of Conflict Resolution, 24, 3–25; Axelrod, R. & Hamilton, W. D. (1981). 'The evolution of cooperation.' Science, 211, 1390–1396. Tit-for-Tat results reproduced in spatial settings: Nowak, M. A. & May, R. M. (1992). 'Evolutionary games and spatial chaos.' Nature, 359, 826–829. However, TfT is not evolutionarily stable in all environments: in noisy settings, 'Generous TfT' outperforms it (Nowak, M. A. & Sigmund, K., 1992, Nature); 'Win-Stay-Lose-Shift' outperforms it against certain strategy ecologies (Nowak & Sigmund, 1993). Press & Dyson (2012, PNAS) introduced zero-determinant strategies that can set an opponent's payoff unilaterally — a theoretical challenge to TfT's optimality, though not easily achievable in practice."
+          "note": "Axelrod, R. (1984). The Evolution of Cooperation. Basic Books — expanded from two journal articles: Axelrod, R. (1980). 'Effective choice in the prisoner's dilemma.' Journal of Conflict Resolution, 24, 3–25; Axelrod, R. & Hamilton, W. D. (1981). 'The evolution of cooperation.' Science, 211, 1390–1396. Tit-for-Tat results reproduced in spatial settings: Nowak, M. A. & May, R. M. (1992). 'Evolutionary games and spatial chaos.' Nature, 359, 826–829. However, TfT is not evolutionarily stable in all environments: in noisy settings, 'Generous TfT' outperforms it (Nowak, M. A. & Sigmund, K., 1992, Nature); 'Win-Stay-Lose-Shift' outperforms it against certain strategy ecologies (Nowak & Sigmund, 1993). Press & Dyson (2012, PNAS) introduced zero-determinant strategies that can set an opponent's payoff unilaterally — a theoretical challenge to TfT's optimality, though not easily achievable in practice.",
+          "keywords": [
+            "iterated prisoner dilemma",
+            "tit-for-tat cooperation",
+            "Axelrod cooperation tournament",
+            "reciprocal cooperation"
+          ]
         },
         {
           "id": "st5",
@@ -503,7 +587,13 @@
           "repl": "mixed",
           "hint": "Thomas Schelling showed with a simple spatial model that extreme residential segregation can emerge even when every individual prefers an integrated neighbourhood. If agents simply move when fewer than 30% of neighbours are of the same type, near-complete segregation results — a pattern far more extreme than any individual's stated preference. This is one of the earliest and most striking demonstrations that aggregate social patterns can diverge radically from individual intentions, revealing a fundamental limitation of policy approaches that target only individual attitudes.",
           "tag": "MODEL",
-          "note": "Schelling, T. C. (1971). 'Dynamic models of segregation.' Journal of Mathematical Sociology, 1, 143–186. Extended in: Schelling, T. C. (1978). Micromotives and Macrobehaviour. Norton & Company. Cited in Schelling's Nobel Memorial Prize in Economic Sciences (2005). Agent-based replications confirm the qualitative result: Fossett, M. & Waren, W. (2005, Sociological Methods & Research); Zhang, J. (2011, Journal of Public Economics). Empirical connection is contested: real residential segregation involves historical redlining, mortgage discrimination, zoning, and income sorting that the model does not represent (Bruch, E. E. & Mare, R. D., 2006, American Journal of Sociology — found thresholds in Detroit higher than Schelling assumed). The model is celebrated as a conceptual demonstration, not as an empirically calibrated account of actual segregation."
+          "note": "Schelling, T. C. (1971). 'Dynamic models of segregation.' Journal of Mathematical Sociology, 1, 143–186. Extended in: Schelling, T. C. (1978). Micromotives and Macrobehaviour. Norton & Company. Cited in Schelling's Nobel Memorial Prize in Economic Sciences (2005). Agent-based replications confirm the qualitative result: Fossett, M. & Waren, W. (2005, Sociological Methods & Research); Zhang, J. (2011, Journal of Public Economics). Empirical connection is contested: real residential segregation involves historical redlining, mortgage discrimination, zoning, and income sorting that the model does not represent (Bruch, E. E. & Mare, R. D., 2006, American Journal of Sociology — found thresholds in Detroit higher than Schelling assumed). The model is celebrated as a conceptual demonstration, not as an empirically calibrated account of actual segregation.",
+          "keywords": [
+            "Schelling segregation model",
+            "tipping threshold segregation",
+            "individual preference segregation",
+            "micromotives macrobehaviour"
+          ]
         },
         {
           "id": "st6",
@@ -526,7 +616,13 @@
           "repl": "mixed",
           "hint": "The Club of Rome commissioned MIT researchers to build a global system dynamics model (World3) connecting population, industrial output, food, resource depletion, and pollution. On 'standard run' assumptions — no major changes in physical or social relationships — the model predicted overshoot and collapse of industrial civilisation before 2100. Twelve scenarios showed that only a combination of deliberate limits to growth — stabilised population, reduced resource consumption, pollution control — could achieve a sustainable equilibrium. It was the first major attempt to model the entire Earth system quantitatively.",
           "tag": "MODEL",
-          "note": "Meadows, D. H., Meadows, D. L., Randers, J. & Behrens, W. W. (1972). The Limits to Growth. Universe Books — ~9 million copies, 37 languages. 30-year update: Meadows, D. H., Randers, J. & Meadows, D. L. (2004). Limits to Growth: The 30-Year Update. Chelsea Green. Empirical comparison: Turner, G. M. (2008). 'A comparison of The Limits to Growth with 30 years of reality.' Global Environmental Change, 18, 397–411 — found the standard run broadly tracks observed data to 2000. Sustained critique: Nordhaus, W. D. (1973, American Economic Review) — the model excludes prices, technology substitution, and institutional adaptation. Cole, H. S. D. et al. (1973). Models of Doom. Universe Books — detailed technical critique. The standard run has been tracking reality for 50 years, but the model's structural simplicity means the match may be partially coincidental."
+          "note": "Meadows, D. H., Meadows, D. L., Randers, J. & Behrens, W. W. (1972). The Limits to Growth. Universe Books — ~9 million copies, 37 languages. 30-year update: Meadows, D. H., Randers, J. & Meadows, D. L. (2004). Limits to Growth: The 30-Year Update. Chelsea Green. Empirical comparison: Turner, G. M. (2008). 'A comparison of The Limits to Growth with 30 years of reality.' Global Environmental Change, 18, 397–411 — found the standard run broadly tracks observed data to 2000. Sustained critique: Nordhaus, W. D. (1973, American Economic Review) — the model excludes prices, technology substitution, and institutional adaptation. Cole, H. S. D. et al. (1973). Models of Doom. Universe Books — detailed technical critique. The standard run has been tracking reality for 50 years, but the model's structural simplicity means the match may be partially coincidental.",
+          "keywords": [
+            "limits to growth model",
+            "resource overshoot collapse",
+            "Meadows world model",
+            "exponential growth finite"
+          ]
         },
         {
           "id": "st7",
@@ -546,7 +642,13 @@
           "repl": "robust",
           "hint": "Boris Belousov discovered in the early 1950s that a bromate-citric acid-cerium mixture in sulfuric acid oscillates spontaneously between coloured states rather than reaching equilibrium — cycling periodically from yellow to colourless and back. Reviewers rejected his manuscript as impossible, since chemical equilibrium should be monotonic. Anatol Zhabotinsky characterised the reaction fully in 1964 and showed it also generates spatial patterns — travelling and rotating spiral waves in thin liquid layers. The BZ reaction became the canonical laboratory demonstration of chemical dissipative structures and the spatial-temporal self-organisation predicted by Prigogine.",
           "tag": "EXPERIMENT",
-          "note": "Belousov, B. P. (1958). 'A periodic reaction and its mechanism.' Compilation of Abstracts on Radiation Medicine, 147, 145–147 — the only published paper during Belousov's lifetime; the original 1951 manuscript was rejected. Zhabotinsky, A. M. (1964). 'Periodic course of oxidation of malonic acid in solution.' Biofizika, 9, 306–311. Spiral waves in 2D: Winfree, A. T. (1972). 'Spiral waves of chemical activity.' Science, 175, 634–636. Theoretical connection to Prigogine framework: Nicolis, G. & Prigogine, I. (1977). Self-Organization in Nonequilibrium Systems. Wiley. The BZ reaction is robustly reproducible (chemistry is well-established) and is now a standard pedagogical demonstration; it has been used to study excitable media, pattern formation, and as a model for cardiac arrhythmias and neural oscillations."
+          "note": "Belousov, B. P. (1958). 'A periodic reaction and its mechanism.' Compilation of Abstracts on Radiation Medicine, 147, 145–147 — the only published paper during Belousov's lifetime; the original 1951 manuscript was rejected. Zhabotinsky, A. M. (1964). 'Periodic course of oxidation of malonic acid in solution.' Biofizika, 9, 306–311. Spiral waves in 2D: Winfree, A. T. (1972). 'Spiral waves of chemical activity.' Science, 175, 634–636. Theoretical connection to Prigogine framework: Nicolis, G. & Prigogine, I. (1977). Self-Organization in Nonequilibrium Systems. Wiley. The BZ reaction is robustly reproducible (chemistry is well-established) and is now a standard pedagogical demonstration; it has been used to study excitable media, pattern formation, and as a model for cardiac arrhythmias and neural oscillations.",
+          "keywords": [
+            "chemical oscillation reaction",
+            "Belousov Zhabotinsky pattern",
+            "oscillating chemical clock",
+            "reaction diffusion spiral"
+          ]
         },
         {
           "id": "st8",
@@ -568,7 +670,13 @@
           "repl": "robust",
           "hint": "Craig Reynolds created a simulation in which individual 'boids' follow three simple local rules with no knowledge of the global system: avoid collisions with nearby neighbours (separation), move toward the average position of nearby neighbours (cohesion), and match the velocity of nearby neighbours (alignment). The emergent result is realistic-looking collective motion — formations, murmurations, schooling — arising with no central coordination and no explicit flocking instruction. No agent knows the global state; the coherent flock is a purely emergent phenomenon.",
           "tag": "MODEL",
-          "note": "Reynolds, C. W. (1987). 'Flocks, herds, and schools: A distributed behavioral model.' Proceedings of SIGGRAPH '87, Computer Graphics, 21, 25–34. Reynolds received the Academy Award for Technical Achievement (1998). The three-rule model captures qualitative features of collective motion; however, real starling murmurations use topological rules (respond to the nearest N neighbours) rather than metric rules (respond to all neighbours within distance r): Ballerini, M. et al. (2008). 'Interaction ruling animal collective behavior depends on topological rather than metric distance.' PNAS, 105, 1232–1237. This refinement does not undermine the emergence principle but shows the specific implementation matters. The boids model is widely used in computer graphics, game AI, and robotics for crowd and swarm simulation."
+          "note": "Reynolds, C. W. (1987). 'Flocks, herds, and schools: A distributed behavioral model.' Proceedings of SIGGRAPH '87, Computer Graphics, 21, 25–34. Reynolds received the Academy Award for Technical Achievement (1998). The three-rule model captures qualitative features of collective motion; however, real starling murmurations use topological rules (respond to the nearest N neighbours) rather than metric rules (respond to all neighbours within distance r): Ballerini, M. et al. (2008). 'Interaction ruling animal collective behavior depends on topological rather than metric distance.' PNAS, 105, 1232–1237. This refinement does not undermine the emergence principle but shows the specific implementation matters. The boids model is widely used in computer graphics, game AI, and robotics for crowd and swarm simulation.",
+          "keywords": [
+            "flocking emergent rule",
+            "Reynolds Boids simulation",
+            "collective motion local rule",
+            "emergent flock behaviour"
+          ]
         },
         {
           "id": "st9",
@@ -590,7 +698,13 @@
           "repl": "mixed",
           "hint": "Stuart Kauffman modelled gene regulatory networks as randomly wired Boolean networks with N genes and K random inputs per gene. At K=2 (sparse wiring), the network settles into ordered cycles through a small number of attractors, with cycle length scaling as √N — a quantity that roughly predicts the number of cell types in organisms (humans have ~250 cell types, ~25,000 genes). At K=N (fully random), dynamics are chaotic. K=2 sits at a boundary — the edge of chaos — where Kauffman argued evolvability is maximised: enough order for stability, enough chaos for adaptation.",
           "tag": "MODEL",
-          "note": "Kauffman, S. A. (1969). 'Metabolic stability and epigenesis in randomly constructed genetic nets.' Journal of Theoretical Biology, 22, 437–467 — the NK model paper. Full synthesis: Kauffman, S. A. (1993). The Origins of Order: Self-Organization and Selection in Evolution. Oxford University Press. The cell-type prediction (attractor count ≈ √N) is suggestive but based on rough statistics; real gene regulatory networks are scale-free rather than random (Aldana, M. & Cluzel, P., 2003, PNAS, 100, 8710–8714), and scale-free NK networks are more robustly ordered, which may explain why the K=2 result carries over. The edge-of-chaos hypothesis is theoretically elegant but difficult to test empirically, and no definitive evidence exists that biological evolution has selected the boundary K value (Nykter, M. et al., 2008, PNAS)."
+          "note": "Kauffman, S. A. (1969). 'Metabolic stability and epigenesis in randomly constructed genetic nets.' Journal of Theoretical Biology, 22, 437–467 — the NK model paper. Full synthesis: Kauffman, S. A. (1993). The Origins of Order: Self-Organization and Selection in Evolution. Oxford University Press. The cell-type prediction (attractor count ≈ √N) is suggestive but based on rough statistics; real gene regulatory networks are scale-free rather than random (Aldana, M. & Cluzel, P., 2003, PNAS, 100, 8710–8714), and scale-free NK networks are more robustly ordered, which may explain why the K=2 result carries over. The edge-of-chaos hypothesis is theoretically elegant but difficult to test empirically, and no definitive evidence exists that biological evolution has selected the boundary K value (Nykter, M. et al., 2008, PNAS).",
+          "keywords": [
+            "NK fitness landscape",
+            "self-organisation edge chaos",
+            "Kauffman Boolean network",
+            "adaptive landscape rugged"
+          ]
         },
         {
           "id": "st10",
@@ -611,7 +725,13 @@
           "repl": "mixed",
           "hint": "Christopher Langton studied cellular automata — grids where cells update based on their neighbours' states — using a single parameter λ: the fraction of non-quiescent transition rules. As λ increases, CA behaviour transitions from fixed-point through periodic to complex to chaotic. Langton found that maximum computational complexity, information transmission, and 'interesting' dynamics cluster near the phase transition between order and chaos — the 'edge of chaos.' He argued this transition region is the universal condition under which life and complex computation are possible.",
           "tag": "EXPERIMENT",
-          "note": "Langton, C. G. (1990). 'Computation at the edge of chaos: Phase transitions and emergent computation.' Physica D, 42, 12–37. Wolfram's four CA classes that Langton extends: Wolfram, S. (1984). 'Universality and complexity in cellular automata.' Physica D, 10, 1–35. Critical responses: Crutchfield, J. P. & Young, K. (1990) developed 'computational mechanics' as an alternative, more rigorous framework for measuring CA complexity. Mitchell, M., Hraber, P. & Crutchfield, J. P. (1993). 'Revisiting the edge of chaos: Evolving cellular automata to perform computations.' Complex Systems, 7, 89–130 — found that evolved CA solutions do not consistently peak at the edge of chaos, and that λ is too coarse a parameter to operationalise the concept. The hypothesis remains deeply influential as a metaphor but lacks a precise, universally applicable definition."
+          "note": "Langton, C. G. (1990). 'Computation at the edge of chaos: Phase transitions and emergent computation.' Physica D, 42, 12–37. Wolfram's four CA classes that Langton extends: Wolfram, S. (1984). 'Universality and complexity in cellular automata.' Physica D, 10, 1–35. Critical responses: Crutchfield, J. P. & Young, K. (1990) developed 'computational mechanics' as an alternative, more rigorous framework for measuring CA complexity. Mitchell, M., Hraber, P. & Crutchfield, J. P. (1993). 'Revisiting the edge of chaos: Evolving cellular automata to perform computations.' Complex Systems, 7, 89–130 — found that evolved CA solutions do not consistently peak at the edge of chaos, and that λ is too coarse a parameter to operationalise the concept. The hypothesis remains deeply influential as a metaphor but lacks a precise, universally applicable definition.",
+          "keywords": [
+            "edge of chaos computation",
+            "Langton cellular automaton",
+            "phase transition computation",
+            "critical computation transition"
+          ]
         }
       ]
     },
@@ -649,7 +769,13 @@
           "repl": "robust",
           "hint": "In any chaotic system, arbitrarily small differences in initial conditions grow exponentially over time, eventually rendering long-range prediction impossible. Two identically specified systems — differing only by one part in a trillion in starting state — diverge completely after a characteristic time. This is not a failure of computing power or measurement precision but a mathematical property of the system's equations. It means that chaotic systems have a finite and fundamental prediction horizon beyond which forecasting is impossible regardless of resources.",
           "tag": "PHENOMENON",
-          "note": "Mathematically formalised by Lorenz, E. N. (1963). Journal of the Atmospheric Sciences, 20, 130–141 — sensitive dependence on initial conditions arises directly from the equations; the informal 'butterfly' phrase appeared in Lorenz's 1972 conference talk. The Lyapunov exponent quantifies the rate of divergence: a positive maximal Lyapunov exponent is the formal definition of chaos in a dynamical system (Oseledets, V. I., 1968, Transactions of the Moscow Mathematical Society). Experimentally demonstrated in fluid turbulence, chemical oscillators, and electronic circuits. In weather forecasting, operational prediction skill decays to climatological baseline within approximately 10–14 days — consistent with the theoretical prediction horizon. The effect is robust and mathematically proven; it is also the most frequently misunderstood concept in popular accounts of chaos."
+          "note": "Mathematically formalised by Lorenz, E. N. (1963). Journal of the Atmospheric Sciences, 20, 130–141 — sensitive dependence on initial conditions arises directly from the equations; the informal 'butterfly' phrase appeared in Lorenz's 1972 conference talk. The Lyapunov exponent quantifies the rate of divergence: a positive maximal Lyapunov exponent is the formal definition of chaos in a dynamical system (Oseledets, V. I., 1968, Transactions of the Moscow Mathematical Society). Experimentally demonstrated in fluid turbulence, chemical oscillators, and electronic circuits. In weather forecasting, operational prediction skill decays to climatological baseline within approximately 10–14 days — consistent with the theoretical prediction horizon. The effect is robust and mathematically proven; it is also the most frequently misunderstood concept in popular accounts of chaos.",
+          "keywords": [
+            "butterfly effect weather",
+            "sensitive dependence initial",
+            "long-range weather unpredictability",
+            "chaos initial condition"
+          ]
         },
         {
           "id": "ef2",
@@ -673,7 +799,13 @@
           "repl": "robust",
           "hint": "Many dissipative chaotic systems converge onto a bounded region of phase space called a strange attractor — a set that is neither a point, nor a curve, nor a surface, but a fractal: it has a non-integer dimension between 2 and 3. Trajectories on a strange attractor are confined to this thin fractal shell yet never repeat. The fractal geometry means the attractor has infinite detail at all scales of magnification. Strange attractors have been found in turbulent fluid flows, heart rate variability, brain dynamics, and atmospheric data — wherever a system is simultaneously bounded and non-periodic.",
           "tag": "PHENOMENON",
-          "note": "Coined by Ruelle, D. & Takens, F. (1971). 'On the nature of turbulence.' Communications in Mathematical Physics, 20, 167–192. Fractal dimension formalised by Mandelbrot, B. B. (1977). Fractals: Form, Chance and Dimension. W. H. Freeman. Correlation dimension method for estimating fractal dimension from data: Grassberger, P. & Procaccia, I. (1983). 'Measuring the strangeness of strange attractors.' Physica D, 9, 189–208 — widely applied but sensitive to noise and data length. The fractal dimension of the Lorenz attractor is approximately 2.06. In practice, detecting a genuine strange attractor from noisy finite time-series is methodologically demanding; many reported 'strange attractors' in physiological data reflect insufficient data length rather than true chaotic dynamics (Rapp, P. E. et al., 1994, Integrative Physiological and Behavioral Science)."
+          "note": "Coined by Ruelle, D. & Takens, F. (1971). 'On the nature of turbulence.' Communications in Mathematical Physics, 20, 167–192. Fractal dimension formalised by Mandelbrot, B. B. (1977). Fractals: Form, Chance and Dimension. W. H. Freeman. Correlation dimension method for estimating fractal dimension from data: Grassberger, P. & Procaccia, I. (1983). 'Measuring the strangeness of strange attractors.' Physica D, 9, 189–208 — widely applied but sensitive to noise and data length. The fractal dimension of the Lorenz attractor is approximately 2.06. In practice, detecting a genuine strange attractor from noisy finite time-series is methodologically demanding; many reported 'strange attractors' in physiological data reflect insufficient data length rather than true chaotic dynamics (Rapp, P. E. et al., 1994, Integrative Physiological and Behavioral Science).",
+          "keywords": [
+            "strange attractor fractal",
+            "phase space trajectory",
+            "fractal dimension attractor",
+            "basin of attraction"
+          ]
         },
         {
           "id": "ef3",
@@ -699,7 +831,13 @@
           "repl": "mixed",
           "hint": "Per Bak, Chao Tang, and Kurt Wiesenfeld showed that a pile of sand driven slowly to a critical slope evolves spontaneously to a critical state — without any external tuning. At this self-organised critical point, avalanches of all sizes occur, distributed as a power law: small avalanches are common, large ones are rare but not vanishingly rare. Bak argued that this mechanism — systems naturally evolving to criticality and then producing power-law event distributions — explains the ubiquity of 1/f noise and power laws in nature: earthquakes, extinction events, neural avalanches, financial crashes.",
           "tag": "PHENOMENON",
-          "note": "Bak, P., Tang, C. & Wiesenfeld, K. (1987). 'Self-organized criticality: An explanation of the 1/f noise.' Physical Review Letters, 59, 381–384 — ~8,000 citations. Extended: Bak, P. (1996). How Nature Works: The Science of Self-Organized Criticality. Copernicus Books. Controversy: many systems proposed as SOC candidates have been shown to require parameter tuning rather than self-organisation (Bonachela, J. A. & Muñoz, M. A., 2009, Journal of Statistical Mechanics). In neural systems: Beggs, J. M. & Plenz, D. (2003, Journal of Neuroscience) found neuronal avalanches consistent with SOC in cortical slices — but whether the brain operates at a self-organised critical point (vs. near-critical or critical-like) remains actively debated (Touboul, J. & Destexhe, A., 2017, PLoS Computational Biology). The SOC hypothesis is influential but the evidence for genuine self-tuning (as opposed to near-critical tuning) is contested."
+          "note": "Bak, P., Tang, C. & Wiesenfeld, K. (1987). 'Self-organized criticality: An explanation of the 1/f noise.' Physical Review Letters, 59, 381–384 — ~8,000 citations. Extended: Bak, P. (1996). How Nature Works: The Science of Self-Organized Criticality. Copernicus Books. Controversy: many systems proposed as SOC candidates have been shown to require parameter tuning rather than self-organisation (Bonachela, J. A. & Muñoz, M. A., 2009, Journal of Statistical Mechanics). In neural systems: Beggs, J. M. & Plenz, D. (2003, Journal of Neuroscience) found neuronal avalanches consistent with SOC in cortical slices — but whether the brain operates at a self-organised critical point (vs. near-critical or critical-like) remains actively debated (Touboul, J. & Destexhe, A., 2017, PLoS Computational Biology). The SOC hypothesis is influential but the evidence for genuine self-tuning (as opposed to near-critical tuning) is contested.",
+          "keywords": [
+            "self-organised criticality SOC",
+            "Per Bak sandpile",
+            "critical state power law",
+            "SOC avalanche"
+          ]
         },
         {
           "id": "ef4",
@@ -721,7 +859,13 @@
           "repl": "robust",
           "hint": "Yoshiki Kuramoto showed that a population of coupled oscillators — pendulums, neurons, fireflies, pacemaker cells — exhibits a phase transition: below a critical coupling strength, each oscillator runs at its own natural frequency and the population remains incoherent; above the threshold, a fraction of oscillators spontaneously synchronise, forming a coherent cluster that grows as coupling increases. Synchronisation emerges without any central pacemaker: it is a collective phase transition analogous to ferromagnetism. The Kuramoto model predicts the threshold analytically.",
           "tag": "PHENOMENON",
-          "note": "Kuramoto, Y. (1975). 'Self-entrainment of a population of coupled non-linear oscillators.' In: H. Araki (Ed.), International Symposium on Mathematical Problems in Theoretical Physics. Lecture Notes in Physics, 39. Springer — the foundational model paper. Full treatment: Kuramoto, Y. (1984). Chemical Oscillations, Waves, and Turbulence. Springer. Review: Strogatz, S. H. (2000). 'From Kuramoto to Crawford: Exploring the onset of synchronization in populations of coupled oscillators.' Physica D, 143, 1–20. Experimental confirmations: firefly synchronisation (Buck, J., 1988, Quarterly Review of Biology); cardiac pacemaker cells (Peskin, C. S., 1975); circadian rhythm synchronisation; power grid frequency synchronisation. Neural synchronisation (gamma oscillations) is observed robustly but its functional role in perception and cognition is debated (Merker, B., 2013, Frontiers in Integrative Neuroscience)."
+          "note": "Kuramoto, Y. (1975). 'Self-entrainment of a population of coupled non-linear oscillators.' In: H. Araki (Ed.), International Symposium on Mathematical Problems in Theoretical Physics. Lecture Notes in Physics, 39. Springer — the foundational model paper. Full treatment: Kuramoto, Y. (1984). Chemical Oscillations, Waves, and Turbulence. Springer. Review: Strogatz, S. H. (2000). 'From Kuramoto to Crawford: Exploring the onset of synchronization in populations of coupled oscillators.' Physica D, 143, 1–20. Experimental confirmations: firefly synchronisation (Buck, J., 1988, Quarterly Review of Biology); cardiac pacemaker cells (Peskin, C. S., 1975); circadian rhythm synchronisation; power grid frequency synchronisation. Neural synchronisation (gamma oscillations) is observed robustly but its functional role in perception and cognition is debated (Merker, B., 2013, Frontiers in Integrative Neuroscience).",
+          "keywords": [
+            "Kuramoto synchronisation",
+            "coupled oscillator phase lock",
+            "spontaneous synchrony",
+            "entrainment coupled system"
+          ]
         },
         {
           "id": "ef5",
@@ -745,7 +889,13 @@
           "repl": "robust",
           "hint": "A network of interdependent nodes can fail not proportionally but catastrophically: a single node failure increases load on connected nodes, some of which then fail, triggering a cascade that rapidly collapses a large fraction of the network. The 2003 Northeast North American blackout began with one software bug and one sagging line in Ohio; cascade dynamics disconnected 55 million customers within minutes. Scale-free networks are particularly vulnerable to cascading failures targeting hubs, even though they are robust to random failures.",
           "tag": "PHENOMENON",
-          "note": "Foundational model: Watts, D. J. (2002). 'A simple model of global cascades on random networks.' PNAS, 99, 5766–5771 — the cascade threshold is determined by a local stability condition. Post-mortem on 2003 North American blackout: US-Canada Power System Outage Task Force (2004) — detailed cascade sequence documented. Interdependent networks compound cascades: Buldyrev, S. V. et al. (2010). 'Catastrophic cascade of failures in interdependent networks.' Nature, 464, 1025–1028 — when network A depends on network B and vice versa (e.g. power grid depending on internet control systems), the cascade threshold is dramatically lower than for isolated networks. Financial cascade analogues: Haldane, A. G. & May, R. M. (2011). 'Systemic risk in banking ecosystems.' Nature, 469, 351–355. Cascade failures are robustly observed in power grids, the internet, financial systems, and supply chains."
+          "note": "Foundational model: Watts, D. J. (2002). 'A simple model of global cascades on random networks.' PNAS, 99, 5766–5771 — the cascade threshold is determined by a local stability condition. Post-mortem on 2003 North American blackout: US-Canada Power System Outage Task Force (2004) — detailed cascade sequence documented. Interdependent networks compound cascades: Buldyrev, S. V. et al. (2010). 'Catastrophic cascade of failures in interdependent networks.' Nature, 464, 1025–1028 — when network A depends on network B and vice versa (e.g. power grid depending on internet control systems), the cascade threshold is dramatically lower than for isolated networks. Financial cascade analogues: Haldane, A. G. & May, R. M. (2011). 'Systemic risk in banking ecosystems.' Nature, 469, 351–355. Cascade failures are robustly observed in power grids, the internet, financial systems, and supply chains.",
+          "keywords": [
+            "cascading network failure",
+            "contagion cascade",
+            "interdependent network failure",
+            "hub removal cascade"
+          ]
         },
         {
           "id": "ef6",
@@ -766,7 +916,13 @@
           "repl": "mixed",
           "hint": "W. Brian Arthur showed that when technologies compete under increasing returns to adoption — the more people use a technology, the more valuable it becomes — small early advantages can become self-reinforcing and lock in an inferior standard permanently. The QWERTY keyboard and the VHS video format became canonical examples: once one format gains enough adopters, switching costs prevent migration to superior alternatives even when they exist. This is a fundamentally different market equilibrium from the neoclassical model, where the best technology always wins.",
           "tag": "PHENOMENON",
-          "note": "Arthur, W. B. (1985). 'Competing technologies and lock-in by historical events.' IIASA Working Paper — published as Arthur, W. B. (1989). 'Competing technologies, increasing returns, and lock-in by historical events.' Economic Journal, 99, 116–131. Fuller account: Arthur, W. B. (1994). Increasing Returns and Path Dependence in the Economy. University of Michigan Press. Controversy: the QWERTY inferiority claim is contested — Liebowitz, S. J. & Margolis, S. E. (1990). 'The fable of the keys.' Journal of Law and Economics, 33, 1–25 — argued QWERTY is not demonstrably inferior and that the alternatives were never convincingly proven better. The VHS-Betamax story is more complex than pure inferiority (VHS offered longer recording time, which mattered for film rentals). Path dependence as a mechanism is widely accepted; the strength of actual lock-in in specific cases is empirically contested."
+          "note": "Arthur, W. B. (1985). 'Competing technologies and lock-in by historical events.' IIASA Working Paper — published as Arthur, W. B. (1989). 'Competing technologies, increasing returns, and lock-in by historical events.' Economic Journal, 99, 116–131. Fuller account: Arthur, W. B. (1994). Increasing Returns and Path Dependence in the Economy. University of Michigan Press. Controversy: the QWERTY inferiority claim is contested — Liebowitz, S. J. & Margolis, S. E. (1990). 'The fable of the keys.' Journal of Law and Economics, 33, 1–25 — argued QWERTY is not demonstrably inferior and that the alternatives were never convincingly proven better. The VHS-Betamax story is more complex than pure inferiority (VHS offered longer recording time, which mattered for film rentals). Path dependence as a mechanism is widely accepted; the strength of actual lock-in in specific cases is empirically contested.",
+          "keywords": [
+            "path dependence lock-in",
+            "QWERTY technology lock",
+            "increasing returns path",
+            "historical contingency lock"
+          ]
         },
         {
           "id": "ef7",
@@ -790,7 +946,13 @@
           "repl": "robust",
           "hint": "As a control parameter in a dynamical system crosses a critical value, the system's behaviour can change qualitatively and abruptly — a bifurcation. A stable equilibrium may split into two (pitchfork bifurcation), or a stable fixed point may lose stability and give birth to a limit cycle (Hopf bifurcation), or the system may jump irreversibly to a new state (fold bifurcation / tipping point). Tipping points are fold bifurcations where the system has two stable states and a region of bistability: past the tipping point, the system falls to an alternative attractor and cannot easily return — the basis of catastrophic regime shifts in climate, ecosystems, and social systems.",
           "tag": "PHENOMENON",
-          "note": "Mathematical theory: Poincaré, H. (1885, Acta Mathematica) — the foundational classification of bifurcations. Modern treatment: Strogatz, S. H. (1994). Nonlinear Dynamics and Chaos. Addison-Wesley — the standard graduate text. Ecological tipping points: May, R. M. (1977). 'Thresholds and breakpoints in ecosystems with a multiplicity of stable states.' Nature, 269, 471–477. Climate tipping elements: Lenton, T. M. et al. (2008). 'Tipping elements in the Earth's climate system.' PNAS, 105, 1786–1793. The mathematical theory of bifurcations is rigorous and well-established (robust). Identifying tipping points in real systems before they occur is an active research area: early-warning signals (critical slowing down, rising variance) are theoretically grounded but empirically challenging in noisy systems (Dakos, V. et al., 2012, PLoS ONE)."
+          "note": "Mathematical theory: Poincaré, H. (1885, Acta Mathematica) — the foundational classification of bifurcations. Modern treatment: Strogatz, S. H. (1994). Nonlinear Dynamics and Chaos. Addison-Wesley — the standard graduate text. Ecological tipping points: May, R. M. (1977). 'Thresholds and breakpoints in ecosystems with a multiplicity of stable states.' Nature, 269, 471–477. Climate tipping elements: Lenton, T. M. et al. (2008). 'Tipping elements in the Earth's climate system.' PNAS, 105, 1786–1793. The mathematical theory of bifurcations is rigorous and well-established (robust). Identifying tipping points in real systems before they occur is an active research area: early-warning signals (critical slowing down, rising variance) are theoretically grounded but empirically challenging in noisy systems (Dakos, V. et al., 2012, PLoS ONE).",
+          "keywords": [
+            "bifurcation tipping point",
+            "saddle node bifurcation",
+            "fold catastrophe",
+            "regime shift tipping"
+          ]
         },
         {
           "id": "ef8",
@@ -812,7 +974,13 @@
           "repl": "robust",
           "hint": "Alan Turing showed in 1952 that two chemical species reacting and diffusing at different rates can spontaneously generate spatial patterns from a spatially uniform initial state — a counter-intuitive result, since diffusion normally smooths out inhomogeneities. A 'fast diffusing inhibitor' and 'slow diffusing activator' produce stationary concentration patterns (spots, stripes, spirals) that resemble the pigmentation of animal coats, seashell markings, and fingerprints. Turing proposed this as the mechanism by which a homogeneous fertilised egg could develop a structured organism — a solution to the problem of embryological symmetry-breaking.",
           "tag": "PHENOMENON",
-          "note": "Turing, A. M. (1952). 'The chemical basis of morphogenesis.' Philosophical Transactions of the Royal Society B, 237, 37–72 — Turing's own model: a two-morphogen reaction-diffusion system. Mathematical analysis: Gierer, A. & Meinhardt, H. (1972). 'A theory of biological pattern formation.' Kybernetik, 12, 30–39 — activator-inhibitor version, more tractable. Experimental confirmation in animal coats: Kondo, S. & Asai, R. (1995). 'A reaction-diffusion wave on the skin of the marine angelfish Pomacanthus.' Nature, 376, 765–768 — showed that fish stripe patterns change after experimental manipulation in a way consistent with Turing dynamics. Direct chemical evidence: Castets, V. et al. (1990, Physical Review Letters) demonstrated stationary Turing patterns in the CIMA reaction. Finger ridge formation: Sick, S. et al. (2006, Science) — Turing mechanism confirmed for mouse hair follicle spacing. The mechanism is now considered firmly established in multiple biological contexts."
+          "note": "Turing, A. M. (1952). 'The chemical basis of morphogenesis.' Philosophical Transactions of the Royal Society B, 237, 37–72 — Turing's own model: a two-morphogen reaction-diffusion system. Mathematical analysis: Gierer, A. & Meinhardt, H. (1972). 'A theory of biological pattern formation.' Kybernetik, 12, 30–39 — activator-inhibitor version, more tractable. Experimental confirmation in animal coats: Kondo, S. & Asai, R. (1995). 'A reaction-diffusion wave on the skin of the marine angelfish Pomacanthus.' Nature, 376, 765–768 — showed that fish stripe patterns change after experimental manipulation in a way consistent with Turing dynamics. Direct chemical evidence: Castets, V. et al. (1990, Physical Review Letters) demonstrated stationary Turing patterns in the CIMA reaction. Finger ridge formation: Sick, S. et al. (2006, Science) — Turing mechanism confirmed for mouse hair follicle spacing. The mechanism is now considered firmly established in multiple biological contexts.",
+          "keywords": [
+            "Turing instability pattern",
+            "reaction diffusion morphogenesis",
+            "diffusion-driven instability",
+            "animal coat Turing pattern"
+          ]
         },
         {
           "id": "ef9",
@@ -837,7 +1005,13 @@
           "repl": "mixed",
           "hint": "Many quantities in complex systems — city populations, earthquake magnitudes, word frequencies, wealth, network degree — follow power-law distributions: the probability of an event of size x is proportional to x^(-α) for some exponent α. Power laws are 'scale-free' — the ratio of frequencies of events of size 2x and x is the same regardless of x. This statistical self-similarity suggests the same generative mechanism operates across scales, and implies that rare, extreme events (the 100x earthquake, the billionaire) are not negligible outliers but an intrinsic feature of the system.",
           "tag": "PHENOMENON",
-          "note": "Pareto's original observation on wealth distribution: Pareto, V. (1897). Cours d'Économie Politique. Zipf's word frequency law: Zipf, G. K. (1949). Human Behavior and the Principle of Least Effort. Addison-Wesley. Network degree power laws: Barabási, A.-L. & Albert, R. (1999, Science) — see st3. Statistical methods for fitting: Clauset, A., Shalizi, C. R. & Newman, M. E. J. (2009). 'Power-law distributions in empirical data.' SIAM Review, 51, 661–703 — showed that many claimed power-law datasets fit log-normal or other heavy-tailed distributions equally well when tested rigorously. Broido & Clauset (2019) found that 'strong' power-law degree distributions are rare when properly tested. Power laws are real and important in many systems; the extent to which they are truly universal and share a common generative mechanism (vs. being a statistical artefact of aggregation or log-normality) is contested."
+          "note": "Pareto's original observation on wealth distribution: Pareto, V. (1897). Cours d'Économie Politique. Zipf's word frequency law: Zipf, G. K. (1949). Human Behavior and the Principle of Least Effort. Addison-Wesley. Network degree power laws: Barabási, A.-L. & Albert, R. (1999, Science) — see st3. Statistical methods for fitting: Clauset, A., Shalizi, C. R. & Newman, M. E. J. (2009). 'Power-law distributions in empirical data.' SIAM Review, 51, 661–703 — showed that many claimed power-law datasets fit log-normal or other heavy-tailed distributions equally well when tested rigorously. Broido & Clauset (2019) found that 'strong' power-law degree distributions are rare when properly tested. Power laws are real and important in many systems; the extent to which they are truly universal and share a common generative mechanism (vs. being a statistical artefact of aggregation or log-normality) is contested.",
+          "keywords": [
+            "power law distribution",
+            "scale-invariant network",
+            "Zipf law frequency",
+            "heavy tail distribution"
+          ]
         }
       ]
     },
@@ -871,7 +1045,13 @@
           ],
           "hint": "A feedback loop exists when the output of a system is routed back as input, influencing future outputs. Negative (balancing) feedback opposes change and drives systems toward equilibrium — a thermostat sensing temperature and adjusting heat input. Positive (amplifying) feedback reinforces change — compound interest, viral spread, arms races, predator-prey eruptions. Most complex systems contain both types operating simultaneously; their relative strengths, time delays, and nonlinearities determine whether the system stabilises, oscillates, or collapses.",
           "tag": "CONCEPT",
-          "note": "Formalised in Wiener, N. (1948). Cybernetics. MIT Press. The distinction between positive and negative feedback was central to Macy Conference discussions (1946–1953). The terms 'positive' and 'negative' refer to the sign of the feedback signal, not its desirability — positive feedback can be stabilising in some contexts (population growth to carrying capacity, which then triggers negative feedback). In system dynamics (Forrester 1961), all system behaviour is explained by the interplay of feedback loop structures. The concept is foundational in control engineering, ecology (population regulation), economics (market equilibria vs. bubbles), and physiology (homeostasis)."
+          "note": "Formalised in Wiener, N. (1948). Cybernetics. MIT Press. The distinction between positive and negative feedback was central to Macy Conference discussions (1946–1953). The terms 'positive' and 'negative' refer to the sign of the feedback signal, not its desirability — positive feedback can be stabilising in some contexts (population growth to carrying capacity, which then triggers negative feedback). In system dynamics (Forrester 1961), all system behaviour is explained by the interplay of feedback loop structures. The concept is foundational in control engineering, ecology (population regulation), economics (market equilibria vs. bubbles), and physiology (homeostasis).",
+          "keywords": [
+            "negative positive feedback loop",
+            "balancing reinforcing loop",
+            "circular causality system",
+            "feedback regulation"
+          ]
         },
         {
           "id": "co2",
@@ -901,7 +1081,13 @@
           ],
           "hint": "Emergence refers to properties or patterns that arise from the interactions of components yet are not present in — and cannot be predicted from — any individual component. Water's wetness does not exist in hydrogen or oxygen atoms; traffic jams are not a property of any individual car; consciousness (possibly) is not a property of any individual neuron. Weak emergence refers to properties that, in principle, can be derived from component-level rules by simulation; strong emergence refers to properties that are irreducibly novel, which some philosophers argue is incoherent and others consider foundational.",
           "tag": "CONCEPT",
-          "note": "The term was coined by Lewes, G. H. (1875). Problems of Life and Mind. Trübner & Co. — distinguishing 'emergent' from 'resultant' properties. Philosophical analysis: Mill, J. S. (1843). A System of Logic introduced 'heteropathic' effects. Modern technical definition: Bedau, M. A. (1997). 'Weak emergence.' Philosophical Perspectives, 11, 375–399 — the influential weak/strong distinction. Bedau, M. A. & Humphreys, P. (Eds., 2008). Emergence: Contemporary Readings in Philosophy and Science. MIT Press. Strong emergence remains philosophically contested: Chalmers, D. J. (2006) argues it occurs in consciousness; most philosophers of science hold it is incoherent. Emergence is real and scientifically productive as a concept regardless of the philosophical debate about strong vs. weak."
+          "note": "The term was coined by Lewes, G. H. (1875). Problems of Life and Mind. Trübner & Co. — distinguishing 'emergent' from 'resultant' properties. Philosophical analysis: Mill, J. S. (1843). A System of Logic introduced 'heteropathic' effects. Modern technical definition: Bedau, M. A. (1997). 'Weak emergence.' Philosophical Perspectives, 11, 375–399 — the influential weak/strong distinction. Bedau, M. A. & Humphreys, P. (Eds., 2008). Emergence: Contemporary Readings in Philosophy and Science. MIT Press. Strong emergence remains philosophically contested: Chalmers, D. J. (2006) argues it occurs in consciousness; most philosophers of science hold it is incoherent. Emergence is real and scientifically productive as a concept regardless of the philosophical debate about strong vs. weak.",
+          "keywords": [
+            "emergence global property",
+            "downward causation",
+            "whole more than parts",
+            "emergent property collective"
+          ]
         },
         {
           "id": "co3",
@@ -929,7 +1115,13 @@
           ],
           "hint": "An attractor is the set of states a dynamical system converges to from many possible starting conditions — the long-run 'destination' of the system's trajectory in phase space. Fixed-point attractors are single stable equilibria (a pendulum at rest). Limit cycles are closed loops (the heartbeat, the business cycle). Torus attractors are periodic orbits with two independent frequencies (quasiperiodic motion). Strange attractors are fractal sets that trajectories approach but never repeat on — the signature of deterministic chaos. The basin of attraction is the set of initial conditions that lead to a given attractor.",
           "tag": "CONCEPT",
-          "note": "Fixed points and limit cycles: Poincaré, H. (1892–1899). Les Méthodes Nouvelles de la Mécanique Céleste. Gauthier-Villars. Strange attractors: Ruelle, D. & Takens, F. (1971, Communications in Mathematical Physics) — coined the term. Mathematical treatment: Strogatz, S. H. (1994). Nonlinear Dynamics and Chaos. Addison-Wesley. The concept of multiple attractors is critical for understanding bistability and tipping points: systems with multiple attractors can switch between them abruptly when perturbations push them across basin boundaries. In ecology, Holling's resilience is defined as the size of a system's basin of attraction (Holling, C. S., 1973, Annual Review of Ecology and Systematics)."
+          "note": "Fixed points and limit cycles: Poincaré, H. (1892–1899). Les Méthodes Nouvelles de la Mécanique Céleste. Gauthier-Villars. Strange attractors: Ruelle, D. & Takens, F. (1971, Communications in Mathematical Physics) — coined the term. Mathematical treatment: Strogatz, S. H. (1994). Nonlinear Dynamics and Chaos. Addison-Wesley. The concept of multiple attractors is critical for understanding bistability and tipping points: systems with multiple attractors can switch between them abruptly when perturbations push them across basin boundaries. In ecology, Holling's resilience is defined as the size of a system's basin of attraction (Holling, C. S., 1973, Annual Review of Ecology and Systematics).",
+          "keywords": [
+            "fixed point limit cycle",
+            "phase space attractor",
+            "basin attraction stability",
+            "dynamical system attractor"
+          ]
         },
         {
           "id": "co4",
@@ -951,7 +1143,13 @@
           ],
           "hint": "An agent is any entity that perceives its environment through local information and acts on it according to internal rules or goals. Complex adaptive systems consist of many interacting agents each adapting to one another and to the environment — economies (households, firms), immune systems (T-cells, B-cells), ecosystems (organisms), cities (people, institutions). The key distinction from traditional modelling is that agents are heterogeneous, have bounded rationality, and interact locally — making global behaviour irreducibly emergent rather than derivable from aggregate equations.",
           "tag": "CONCEPT",
-          "note": "Formal definition of adaptive agents: Holland, J. H. (1986). 'Escaping brittleness: The possibilities of general-purpose learning algorithms applied to parallel rule-based systems.' In: R. S. Michalski et al. (Eds.), Machine Learning II, Morgan Kaufmann. Santa Fe Institute working group papers (1986–1992) developed the CAS vocabulary. Textbook treatment: Miller, J. H. & Page, S. E. (2007). Complex Adaptive Systems: An Introduction to Computational Models of Social Life. Princeton University Press. The multi-agent simulation paradigm became an independent field: Tesfatsion, L. & Judd, K. L. (Eds., 2006). Handbook of Computational Economics Vol. 2: Agent-Based Computational Economics. Elsevier. A fundamental methodological challenge: ABMs have many free parameters and are often under-constrained by empirical data (Windrum, P., Fagiolo, G. & Moneta, A., 2007, Journal of Artificial Societies and Social Simulation)."
+          "note": "Formal definition of adaptive agents: Holland, J. H. (1986). 'Escaping brittleness: The possibilities of general-purpose learning algorithms applied to parallel rule-based systems.' In: R. S. Michalski et al. (Eds.), Machine Learning II, Morgan Kaufmann. Santa Fe Institute working group papers (1986–1992) developed the CAS vocabulary. Textbook treatment: Miller, J. H. & Page, S. E. (2007). Complex Adaptive Systems: An Introduction to Computational Models of Social Life. Princeton University Press. The multi-agent simulation paradigm became an independent field: Tesfatsion, L. & Judd, K. L. (Eds., 2006). Handbook of Computational Economics Vol. 2: Agent-Based Computational Economics. Elsevier. A fundamental methodological challenge: ABMs have many free parameters and are often under-constrained by empirical data (Windrum, P., Fagiolo, G. & Moneta, A., 2007, Journal of Artificial Societies and Social Simulation).",
+          "keywords": [
+            "agent rule interaction",
+            "adaptive agent behaviour",
+            "multi-agent interaction",
+            "heterogeneous agent"
+          ]
         },
         {
           "id": "co5",
@@ -972,7 +1170,13 @@
           ],
           "hint": "A network (graph) is a set of nodes (entities) connected by edges (relationships). The degree of a node is its number of connections. Clustering coefficient measures the fraction of a node's neighbours that are also connected to each other. Path length is the minimum number of edges between two nodes. These three statistics — degree distribution, clustering, and average path length — together characterise most of a network's large-scale structure and predict its behaviour under attack, spread of infection, and information diffusion.",
           "tag": "CONCEPT",
-          "note": "Graph theory founded by Euler, L. (1736). 'Solutio problematis ad geometriam situs pertinentis.' Commentarii Academiae Scientiarum Petropolitanae, 8, 128–140 — the seven bridges of Königsberg problem. Modern network science metrics systematised in: Watts, D. J. & Strogatz, S. H. (1998, Nature) — introduced the clustering coefficient and average path length as defining statistics. Degree distribution formalism: Barabási, A.-L. & Albert, R. (1999, Science). Comprehensive review: Newman, M. E. J. (2003). 'The structure and function of complex networks.' SIAM Review, 45, 167–256. Textbook: Newman, M. E. J. (2010). Networks: An Introduction. Oxford University Press. The network topology concepts are well-established mathematical tools; what remains contested is which topological properties are most predictive of dynamical behaviour in specific real-world systems."
+          "note": "Graph theory founded by Euler, L. (1736). 'Solutio problematis ad geometriam situs pertinentis.' Commentarii Academiae Scientiarum Petropolitanae, 8, 128–140 — the seven bridges of Königsberg problem. Modern network science metrics systematised in: Watts, D. J. & Strogatz, S. H. (1998, Nature) — introduced the clustering coefficient and average path length as defining statistics. Degree distribution formalism: Barabási, A.-L. & Albert, R. (1999, Science). Comprehensive review: Newman, M. E. J. (2003). 'The structure and function of complex networks.' SIAM Review, 45, 167–256. Textbook: Newman, M. E. J. (2010). Networks: An Introduction. Oxford University Press. The network topology concepts are well-established mathematical tools; what remains contested is which topological properties are most predictive of dynamical behaviour in specific real-world systems.",
+          "keywords": [
+            "hub node clustering coefficient",
+            "degree distribution network",
+            "network topology structure",
+            "modularity network"
+          ]
         },
         {
           "id": "co6",
@@ -994,7 +1198,13 @@
           ],
           "hint": "Shannon entropy measures the average uncertainty — and therefore information content — of a probability distribution: a uniform distribution has maximum entropy (maximum uncertainty, maximum information); a peaked distribution has low entropy. In complex systems, entropy connects three different concepts: thermodynamic entropy (disorder in physical systems), Shannon information entropy (uncertainty in communication channels), and algorithmic complexity (length of the shortest program that generates a string). Understanding which kind of complexity a system exhibits determines what kind of analysis is appropriate.",
           "tag": "CONCEPT",
-          "note": "Shannon, C. E. (1948). 'A mathematical theory of communication.' Bell System Technical Journal, 27, 379–423 and 623–656 — founded information theory. Connection to thermodynamics: Boltzmann, L. (1877); formalised by von Neumann, J. (1932). Algorithmic complexity: Kolmogorov, A. N. (1965); Solomonoff, R. J. (1964); Chaitin, G. J. (1966) — independent coinventors. Effective complexity (the description length of the regularities in a string, excluding its randomness): Gell-Mann, M. & Lloyd, S. (1996). 'Information measures, effective complexity, and total information.' Complexity, 2, 44–52. A purely random sequence has maximum Shannon entropy and maximum Kolmogorov complexity, yet is not considered 'complex' in the everyday sense — highlighting the conceptual difficulty of formalising complexity."
+          "note": "Shannon, C. E. (1948). 'A mathematical theory of communication.' Bell System Technical Journal, 27, 379–423 and 623–656 — founded information theory. Connection to thermodynamics: Boltzmann, L. (1877); formalised by von Neumann, J. (1932). Algorithmic complexity: Kolmogorov, A. N. (1965); Solomonoff, R. J. (1964); Chaitin, G. J. (1966) — independent coinventors. Effective complexity (the description length of the regularities in a string, excluding its randomness): Gell-Mann, M. & Lloyd, S. (1996). 'Information measures, effective complexity, and total information.' Complexity, 2, 44–52. A purely random sequence has maximum Shannon entropy and maximum Kolmogorov complexity, yet is not considered 'complex' in the everyday sense — highlighting the conceptual difficulty of formalising complexity.",
+          "keywords": [
+            "thermodynamic entropy system",
+            "Shannon complexity information",
+            "entropy production",
+            "information entropy"
+          ]
         },
         {
           "id": "co7",
@@ -1015,7 +1225,13 @@
           ],
           "hint": "Sewall Wright proposed representing the space of possible genotypes as a high-dimensional surface where altitude represents fitness — the 'adaptive landscape.' Evolution can be visualised as a population climbing hills on this landscape toward local maxima. In Kauffman's NK extension, the landscape ruggedness is controlled by K: low K gives smooth 'Fujiyama' landscapes with one global peak; high K gives 'rugged' landscapes with many local optima that can trap adaptation. The concept generalises beyond biology to any optimisation process: corporate strategy, neural network training, and protein folding all involve searching complex fitness landscapes.",
           "tag": "CONCEPT",
-          "note": "Wright, S. (1932). 'The roles of mutation, inbreeding, crossbreeding, and selection in evolution.' Proceedings of the 6th International Congress of Genetics, 1, 356–366 — introduced the metaphor. NK generalisation: Kauffman, S. A. & Levin, S. (1987). 'Towards a general theory of adaptive walks on rugged landscapes.' Journal of Theoretical Biology, 128, 11–45. Protein folding landscapes: Bryngelson, J. D. et al. (1995, Proteins) — applied the NK framework to protein energy landscapes. Optimisation algorithm analogy: the NK model predicts that moderately rugged landscapes (intermediate K) are best searched by local adaptive walks, while very rugged landscapes require broader exploration — directly informing evolutionary algorithm design. The metaphor is powerful but its connection to actual evolutionary dynamics in finite populations on high-dimensional genotype spaces is imprecise."
+          "note": "Wright, S. (1932). 'The roles of mutation, inbreeding, crossbreeding, and selection in evolution.' Proceedings of the 6th International Congress of Genetics, 1, 356–366 — introduced the metaphor. NK generalisation: Kauffman, S. A. & Levin, S. (1987). 'Towards a general theory of adaptive walks on rugged landscapes.' Journal of Theoretical Biology, 128, 11–45. Protein folding landscapes: Bryngelson, J. D. et al. (1995, Proteins) — applied the NK framework to protein energy landscapes. Optimisation algorithm analogy: the NK model predicts that moderately rugged landscapes (intermediate K) are best searched by local adaptive walks, while very rugged landscapes require broader exploration — directly informing evolutionary algorithm design. The metaphor is powerful but its connection to actual evolutionary dynamics in finite populations on high-dimensional genotype spaces is imprecise.",
+          "keywords": [
+            "adaptive fitness landscape",
+            "rugged fitness landscape",
+            "Wright fitness landscape",
+            "adaptive topography evolution"
+          ]
         },
         {
           "id": "co8",
@@ -1044,7 +1260,13 @@
           ],
           "hint": "Resilience is a system's capacity to absorb disturbance and reorganise while undergoing change so as to retain essentially the same function and structure. Robustness is a system's ability to maintain performance under parametric variation. These are distinct: a brittle crystal is robust to normal conditions but shatters under sufficient stress; a willow tree bends dramatically but recovers. In complex systems, resilience is often a function of diversity, redundancy, modular structure, and the proximity of the system's current state to a tipping point — properties that are often sacrificed in the pursuit of efficiency.",
           "tag": "CONCEPT",
-          "note": "Holling, C. S. (1973). 'Resilience and stability of ecological systems.' Annual Review of Ecology and Systematics, 4, 1–23 — introduced resilience formally, defining it as the size of the basin of attraction around a stable equilibrium. Distinguished from Lyapunov stability (rate of return to equilibrium after small perturbations). The 'Panarchy' framework: Gunderson, L. H. & Holling, C. S. (Eds., 2002). Panarchy: Understanding Transformations in Human and Natural Systems. Island Press — extends resilience thinking to hierarchical, multi-scale systems. Walker, B. et al. (2004). 'Resilience, adaptability and transformability in social-ecological systems.' Ecology and Society, 9, 5. Critique: resilience is sometimes applied so broadly as to become analytically empty (Brand, F. S. & Jax, K., 2007, Ecology and Society). Taleb, N. N. (2012). Antifragile. Random House — proposes 'antifragility' as a stronger property: systems that improve under stress."
+          "note": "Holling, C. S. (1973). 'Resilience and stability of ecological systems.' Annual Review of Ecology and Systematics, 4, 1–23 — introduced resilience formally, defining it as the size of the basin of attraction around a stable equilibrium. Distinguished from Lyapunov stability (rate of return to equilibrium after small perturbations). The 'Panarchy' framework: Gunderson, L. H. & Holling, C. S. (Eds., 2002). Panarchy: Understanding Transformations in Human and Natural Systems. Island Press — extends resilience thinking to hierarchical, multi-scale systems. Walker, B. et al. (2004). 'Resilience, adaptability and transformability in social-ecological systems.' Ecology and Society, 9, 5. Critique: resilience is sometimes applied so broadly as to become analytically empty (Brand, F. S. & Jax, K., 2007, Ecology and Society). Taleb, N. N. (2012). Antifragile. Random House — proposes 'antifragility' as a stronger property: systems that improve under stress.",
+          "keywords": [
+            "resilience absorb disturbance",
+            "robustness network",
+            "system stability threshold",
+            "regime shift resilience"
+          ]
         }
       ]
     },
@@ -1077,7 +1299,13 @@
           ],
           "hint": "Agent-based modelling populates a simulated environment with heterogeneous agents — each with its own rules, memory, and local interactions — and runs the simulation forward to observe what global patterns emerge. Unlike equation-based models that aggregate behaviour into stocks and flows, ABMs capture heterogeneity, spatial structure, and emergent phenomena that aggregate models miss. They are the primary tool for studying complex adaptive systems — economies, epidemics, traffic, social segregation, and ecosystem dynamics.",
           "tag": "METHOD",
-          "note": "Computational foundations: Holland, J. H. & Miller, J. H. (1991). 'Artificial adaptive agents in economic theory.' American Economic Review, 81, 365–370. First widely-used ABM platform: Swarm (Santa Fe Institute, 1994); later superseded by NetLogo (Wilensky, U., 1999, Northwestern University) and Mesa (Python, 2013). Landmark ABMs: Epstein, J. M. & Axtell, R. (1996). Growing Artificial Societies. MIT Press — Sugarscape model. Key methodological text: Railsback, S. F. & Grimm, V. (2011). Agent-Based and Individual-Based Modeling: A Practical Introduction. Princeton University Press. A fundamental challenge is validation: ABMs can produce many different outcomes for similar parameter sets, and matching aggregate statistics is insufficient for establishing model validity (Windrum, P. et al., 2007, Journal of Artificial Societies and Social Simulation). ODD protocol (Grimm, V. et al., 2006, Ecological Modelling) provides a standard description format."
+          "note": "Computational foundations: Holland, J. H. & Miller, J. H. (1991). 'Artificial adaptive agents in economic theory.' American Economic Review, 81, 365–370. First widely-used ABM platform: Swarm (Santa Fe Institute, 1994); later superseded by NetLogo (Wilensky, U., 1999, Northwestern University) and Mesa (Python, 2013). Landmark ABMs: Epstein, J. M. & Axtell, R. (1996). Growing Artificial Societies. MIT Press — Sugarscape model. Key methodological text: Railsback, S. F. & Grimm, V. (2011). Agent-Based and Individual-Based Modeling: A Practical Introduction. Princeton University Press. A fundamental challenge is validation: ABMs can produce many different outcomes for similar parameter sets, and matching aggregate statistics is insufficient for establishing model validity (Windrum, P. et al., 2007, Journal of Artificial Societies and Social Simulation). ODD protocol (Grimm, V. et al., 2006, Ecological Modelling) provides a standard description format.",
+          "keywords": [
+            "agent based simulation",
+            "NetLogo ABM",
+            "individual-based model",
+            "emergent simulation"
+          ]
         },
         {
           "id": "me2",
@@ -1101,7 +1329,13 @@
           ],
           "hint": "Phase space is the abstract multi-dimensional space in which each axis represents one variable of the system; the system's complete state at any moment is a single point in this space, and its evolution traces a trajectory. The Lyapunov exponent measures how fast nearby trajectories diverge: a positive maximal Lyapunov exponent is the mathematical definition of chaos. Phase portraits — visualisations of trajectories in phase space — reveal attractors, basins of attraction, limit cycles, and the geometry of a system's long-run behaviour without solving equations analytically.",
           "tag": "METHOD",
-          "note": "Phase space formalised by Poincaré, H. (1892–1899). Les Méthodes Nouvelles de la Mécanique Céleste. Gauthier-Villars. Lyapunov exponents rigorously defined: Oseledets, V. I. (1968). 'A multiplicative ergodic theorem.' Transactions of the Moscow Mathematical Society, 19, 197–231. Numerical computation of Lyapunov exponents: Wolf, A. et al. (1985). 'Determining Lyapunov exponents from a time series.' Physica D, 16, 285–317 — the standard algorithm. Phase space reconstruction from a scalar time series using delay-embedding: Takens, F. (1981). 'Detecting strange attractors in turbulence.' Lecture Notes in Mathematics, 898, 366–381 — Takens' embedding theorem. Software: TISEAN package (Hegger, R. et al., 1999, Chaos) is standard. Practical challenge: finite and noisy experimental data can produce spuriously positive Lyapunov estimates; rigorous statistical testing is essential."
+          "note": "Phase space formalised by Poincaré, H. (1892–1899). Les Méthodes Nouvelles de la Mécanique Céleste. Gauthier-Villars. Lyapunov exponents rigorously defined: Oseledets, V. I. (1968). 'A multiplicative ergodic theorem.' Transactions of the Moscow Mathematical Society, 19, 197–231. Numerical computation of Lyapunov exponents: Wolf, A. et al. (1985). 'Determining Lyapunov exponents from a time series.' Physica D, 16, 285–317 — the standard algorithm. Phase space reconstruction from a scalar time series using delay-embedding: Takens, F. (1981). 'Detecting strange attractors in turbulence.' Lecture Notes in Mathematics, 898, 366–381 — Takens' embedding theorem. Software: TISEAN package (Hegger, R. et al., 1999, Chaos) is standard. Practical challenge: finite and noisy experimental data can produce spuriously positive Lyapunov estimates; rigorous statistical testing is essential.",
+          "keywords": [
+            "Lyapunov exponent chaos",
+            "phase space trajectory",
+            "divergence rate nearby",
+            "chaos quantification"
+          ]
         },
         {
           "id": "me3",
@@ -1123,7 +1357,13 @@
           ],
           "hint": "Network analysis quantifies structure using a toolkit of graph-theoretic measures. Centrality measures identify influential nodes: degree centrality counts connections; betweenness centrality measures how often a node lies on the shortest path between others; eigenvector centrality (including PageRank) weights connections by the importance of neighbours. Community detection algorithms (Louvain, Girvan-Newman, Infomap) identify densely-connected clusters — modules within which information flows more easily than between them. These tools, applied to social, biological, and technological networks, extract meso-scale structure invisible to aggregate statistics.",
           "tag": "METHOD",
-          "note": "Betweenness centrality: Freeman, L. C. (1977). 'A set of measures of centrality based on betweenness.' Sociometry, 40, 35–41. Eigenvector centrality: Bonacich, P. (1972, Journal of Mathematical Sociology). PageRank: Brin, S. & Page, L. (1998). 'The anatomy of a large-scale hypertextual web search engine.' Computer Networks, 30, 107–117 — a centrality measure at the heart of Google's original algorithm. Girvan-Newman community detection: Girvan, M. & Newman, M. E. J. (2002). 'Community structure in social and biological networks.' PNAS, 99, 7821–7826. Louvain method: Blondel, V. D. et al. (2008). 'Fast unfolding of communities in large networks.' Journal of Statistical Mechanics, P10008 — widely used for large graphs. Software: igraph, NetworkX, Gephi. Challenge: most community detection algorithms are sensitive to resolution parameters and can produce different partitions of the same network."
+          "note": "Betweenness centrality: Freeman, L. C. (1977). 'A set of measures of centrality based on betweenness.' Sociometry, 40, 35–41. Eigenvector centrality: Bonacich, P. (1972, Journal of Mathematical Sociology). PageRank: Brin, S. & Page, L. (1998). 'The anatomy of a large-scale hypertextual web search engine.' Computer Networks, 30, 107–117 — a centrality measure at the heart of Google's original algorithm. Girvan-Newman community detection: Girvan, M. & Newman, M. E. J. (2002). 'Community structure in social and biological networks.' PNAS, 99, 7821–7826. Louvain method: Blondel, V. D. et al. (2008). 'Fast unfolding of communities in large networks.' Journal of Statistical Mechanics, P10008 — widely used for large graphs. Software: igraph, NetworkX, Gephi. Challenge: most community detection algorithms are sensitive to resolution parameters and can produce different partitions of the same network.",
+          "keywords": [
+            "network centrality betweenness",
+            "modularity community detection",
+            "clustering coefficient measure",
+            "graph metric analysis"
+          ]
         },
         {
           "id": "me4",
@@ -1143,7 +1383,13 @@
           ],
           "hint": "Bifurcation analysis systematically maps how the qualitative behaviour of a dynamical system changes as parameters vary. Numerical continuation software traces families of equilibria and limit cycles through parameter space, detecting bifurcation points — the values at which a qualitative change (loss of stability, birth of new attractors, period-doubling) occurs. Two-parameter bifurcation diagrams reveal the full landscape of a system's possible behaviours and identify co-dimension-2 points where multiple bifurcations interact, enabling prediction of tipping points before they are reached.",
           "tag": "METHOD",
-          "note": "Mathematical foundations: Kuznetsov, Y. A. (1995). Elements of Applied Bifurcation Theory. Springer — the standard reference. First general-purpose numerical continuation software: AUTO (Doedel, E. J., 1981, Congressus Numerantium, 30) — still used. Modern successor: MATCONT (Dhooge, A. et al., 2003, ACM Transactions on Mathematical Software). Ecological applications: Scheffer, M. (1998). Ecology of Shallow Lakes. Chapman & Hall — used bifurcation analysis to explain alternative stable states in lakes. Climate application: Lenton, T. M. et al. (2008, PNAS) — identified bifurcation points corresponding to climate tipping elements. Early-warning signals of bifurcations in data: Scheffer, M. et al. (2009). 'Early-warning signals for critical transitions.' Nature, 461, 53–59 — critical slowing down detectable before a fold bifurcation."
+          "note": "Mathematical foundations: Kuznetsov, Y. A. (1995). Elements of Applied Bifurcation Theory. Springer — the standard reference. First general-purpose numerical continuation software: AUTO (Doedel, E. J., 1981, Congressus Numerantium, 30) — still used. Modern successor: MATCONT (Dhooge, A. et al., 2003, ACM Transactions on Mathematical Software). Ecological applications: Scheffer, M. (1998). Ecology of Shallow Lakes. Chapman & Hall — used bifurcation analysis to explain alternative stable states in lakes. Climate application: Lenton, T. M. et al. (2008, PNAS) — identified bifurcation points corresponding to climate tipping elements. Early-warning signals of bifurcations in data: Scheffer, M. et al. (2009). 'Early-warning signals for critical transitions.' Nature, 461, 53–59 — critical slowing down detectable before a fold bifurcation.",
+          "keywords": [
+            "bifurcation diagram parameter",
+            "numerical continuation method",
+            "AUTO continuation",
+            "parameter sweep stability"
+          ]
         },
         {
           "id": "me5",
@@ -1165,7 +1411,13 @@
           ],
           "hint": "System dynamics modelling represents complex systems as networks of stocks (accumulations that can only change via flows), flows (rates of change), and feedback loops, drawn in causal loop diagrams (qualitative) or stock-flow diagrams (quantitative, simulated). The causal loop diagram identifies the polarity and structure of feedback loops; the stock-flow model adds equations and runs over time. Key insight: the behaviour of the system emerges from the feedback structure, not from the detailed equations — rearranging loops produces new behaviours even with the same parameters.",
           "tag": "METHOD",
-          "note": "Developed by Forrester, J. W. (1961). Industrial Dynamics. MIT Press — the foundational methodology text. DYNAMO simulation language (1959) was Forrester's original software. Modern tools: Vensim (Ventana Systems), Stella (isee Systems), Powersim, AnyLogic. Causal loop diagram standards: Richardson, G. P. & Pugh, A. L. (1981). Introduction to System Dynamics Modeling with DYNAMO. Productivity Press. Comprehensive methodology: Sterman, J. D. (2000). Business Dynamics. Irwin/McGraw-Hill. Climate application: DICE model (Nordhaus, W. D., 1992) is a stock-flow model of climate-economy interactions. Key methodological limit: system dynamics models are often validated against aggregate behaviour ('reference modes') but cannot be uniquely identified from data — many different model structures can produce the same aggregate time series."
+          "note": "Developed by Forrester, J. W. (1961). Industrial Dynamics. MIT Press — the foundational methodology text. DYNAMO simulation language (1959) was Forrester's original software. Modern tools: Vensim (Ventana Systems), Stella (isee Systems), Powersim, AnyLogic. Causal loop diagram standards: Richardson, G. P. & Pugh, A. L. (1981). Introduction to System Dynamics Modeling with DYNAMO. Productivity Press. Comprehensive methodology: Sterman, J. D. (2000). Business Dynamics. Irwin/McGraw-Hill. Climate application: DICE model (Nordhaus, W. D., 1992) is a stock-flow model of climate-economy interactions. Key methodological limit: system dynamics models are often validated against aggregate behaviour ('reference modes') but cannot be uniquely identified from data — many different model structures can produce the same aggregate time series.",
+          "keywords": [
+            "causal loop diagram",
+            "stock flow model",
+            "Vensim system dynamics",
+            "feedback diagram method"
+          ]
         },
         {
           "id": "me6",
@@ -1186,7 +1438,13 @@
           ],
           "hint": "Floris Takens proved that the full phase-space geometry of a strange attractor can be reconstructed from a single scalar time series — just one measured variable — by delay-embedding: plotting the time series against lagged copies of itself in a higher-dimensional space. The reconstructed attractor is topologically equivalent to the original. This means that measuring only one component of a complex system (say, temperature fluctuations in a turbulent fluid) is sufficient to reconstruct the entire dynamical structure and compute Lyapunov exponents, fractal dimension, and entropy.",
           "tag": "METHOD",
-          "note": "Takens, F. (1981). 'Detecting strange attractors in turbulence.' In: D. A. Rand & L.-S. Young (Eds.), Dynamical Systems and Turbulence, Warwick 1980. Lecture Notes in Mathematics, 898. Springer, 366–381. Generalised version: Sauer, T., Yorke, J. A. & Casdagli, M. (1991). 'Embedology.' Journal of Statistical Physics, 65, 579–616. Practical implementation and mutual information method for choosing delay: Fraser, A. M. & Swinney, H. L. (1986). Physical Review A, 33, 1134. False nearest neighbours method for choosing embedding dimension: Kennel, M. B. et al. (1992). Physical Review A, 45, 3403. The theorem assumes noise-free, infinite, stationary data — conditions that are never perfectly met. In practice, noise, nonstationarity, and finite data limit the method, and many claimed strange attractors in biological time series (EEG, HRV) are artefacts of insufficient data or non-stationarity (Rapp, P. E. et al., 1994)."
+          "note": "Takens, F. (1981). 'Detecting strange attractors in turbulence.' In: D. A. Rand & L.-S. Young (Eds.), Dynamical Systems and Turbulence, Warwick 1980. Lecture Notes in Mathematics, 898. Springer, 366–381. Generalised version: Sauer, T., Yorke, J. A. & Casdagli, M. (1991). 'Embedology.' Journal of Statistical Physics, 65, 579–616. Practical implementation and mutual information method for choosing delay: Fraser, A. M. & Swinney, H. L. (1986). Physical Review A, 33, 1134. False nearest neighbours method for choosing embedding dimension: Kennel, M. B. et al. (1992). Physical Review A, 45, 3403. The theorem assumes noise-free, infinite, stationary data — conditions that are never perfectly met. In practice, noise, nonstationarity, and finite data limit the method, and many claimed strange attractors in biological time series (EEG, HRV) are artefacts of insufficient data or non-stationarity (Rapp, P. E. et al., 1994).",
+          "keywords": [
+            "Takens delay embedding",
+            "time series reconstruction",
+            "delay coordinate",
+            "attractor reconstruction"
+          ]
         }
       ]
     },
@@ -1218,7 +1476,13 @@
           ],
           "hint": "Norbert Wiener founded cybernetics as the unified science of control, communication, and feedback in animals and machines. His 1948 book gave the discipline its name and its core concept — the feedback loop as the mechanism of purposive behaviour — and proposed that the same mathematics governs nervous systems, thermostats, and economies. Wiener also developed the Wiener filter (optimal linear filtering of noisy signals) during wartime anti-aircraft work, and was one of the first scientists to publicly warn about the social implications of automation.",
           "tag": "FIGURE",
-          "note": "Wiener, N. (1948). Cybernetics: Or Control and Communication in the Animal and the Machine. MIT Press (2nd ed. 1961). Key mathematical work: Wiener, N. (1949). Extrapolation, Interpolation, and Smoothing of Stationary Time Series. MIT Press — the Wiener filter. Popular account: Wiener, N. (1950). The Human Use of Human Beings: Cybernetics and Society. Houghton Mifflin. Wiener was a child prodigy who entered Tufts at 11 and earned his PhD from Harvard at 17 (1913). He was deeply concerned about automation's effects on employment and wrote prophetically about it. His wartime work on anti-aircraft prediction systems (predicting future aircraft position from past radar data) directly motivated the feedback-control mathematics in Cybernetics."
+          "note": "Wiener, N. (1948). Cybernetics: Or Control and Communication in the Animal and the Machine. MIT Press (2nd ed. 1961). Key mathematical work: Wiener, N. (1949). Extrapolation, Interpolation, and Smoothing of Stationary Time Series. MIT Press — the Wiener filter. Popular account: Wiener, N. (1950). The Human Use of Human Beings: Cybernetics and Society. Houghton Mifflin. Wiener was a child prodigy who entered Tufts at 11 and earned his PhD from Harvard at 17 (1913). He was deeply concerned about automation's effects on employment and wrote prophetically about it. His wartime work on anti-aircraft prediction systems (predicting future aircraft position from past radar data) directly motivated the feedback-control mathematics in Cybernetics.",
+          "keywords": [
+            "cybernetics founder Wiener",
+            "feedback control animal machine",
+            "Wiener Cybernetics 1948",
+            "servo mechanism theory"
+          ]
         },
         {
           "id": "fg2",
@@ -1239,7 +1503,13 @@
           ],
           "hint": "W. Ross Ashby was a British psychiatrist who became the most rigorous mathematical cybernetician of the 1950s. He built the Homeostat — an electromechanical self-organising machine — and derived the Law of Requisite Variety: a controller can only regulate a system to the degree that its own variety matches the variety of the disturbances. His Introduction to Cybernetics (1956) translated cybernetics from Wiener's informal prose into set theory and difference equations, making it teachable as a formal discipline.",
           "tag": "FIGURE",
-          "note": "Ashby, W. R. (1952). Design for a Brain. Chapman & Hall. Ashby, W. R. (1956). An Introduction to Cybernetics. Chapman & Hall — one of the most widely translated science texts of the 1950s. Ashby kept a remarkable journal for decades (the Ashby Archive is held at the British Library). He corresponded with Wiener, von Foerster, and Shannon, and his Law of Requisite Variety influenced Stafford Beer's Viable System Model and remains cited in contemporary control theory, management theory, and robotics. The Good Regulator Theorem (Conant & Ashby 1970) is his most-cited formal result. Ashby worked as a practising psychiatrist throughout his research career, which grounded his interest in brain-as-control-system problems."
+          "note": "Ashby, W. R. (1952). Design for a Brain. Chapman & Hall. Ashby, W. R. (1956). An Introduction to Cybernetics. Chapman & Hall — one of the most widely translated science texts of the 1950s. Ashby kept a remarkable journal for decades (the Ashby Archive is held at the British Library). He corresponded with Wiener, von Foerster, and Shannon, and his Law of Requisite Variety influenced Stafford Beer's Viable System Model and remains cited in contemporary control theory, management theory, and robotics. The Good Regulator Theorem (Conant & Ashby 1970) is his most-cited formal result. Ashby worked as a practising psychiatrist throughout his research career, which grounded his interest in brain-as-control-system problems.",
+          "keywords": [
+            "law requisite variety Ashby",
+            "homeostat self-regulation",
+            "regulatory system design",
+            "variety mismatch control"
+          ]
         },
         {
           "id": "fg3",
@@ -1259,7 +1529,13 @@
           ],
           "hint": "Heinz von Foerster was the organiser of the Macy Conferences (1946–1953) that defined first-order cybernetics, and later the architect of second-order cybernetics — the extension that includes the observer in the system. His Biological Computer Laboratory at Illinois was a centre for constructivist and radical cognitive science. He coined the term 'second-order cybernetics' and developed the mathematical formalism of self-referential systems, influencing Varela and Maturana (autopoiesis), Luhmann (social systems), and constructivist therapy.",
           "tag": "FIGURE",
-          "note": "von Foerster, H. (Ed., 1949–1955). Cybernetics: Circular Causal and Feedback Mechanisms in Biological and Social Systems. Macy Conference Transactions (5 volumes). von Foerster, H. (1974). 'Cybernetics of cybernetics.' Festschrift for Margaret Mead. Von Foerster, H. (1984). Observing Systems (2nd ed.). Intersystems Publications — collected papers. Personal biography: born in Vienna 1911, trained in physics (dissertation on quantum mechanics), fled Austria in 1949. His playful aphorism 'If you desire to see, learn how to act' epitomises the constructivist view: cognition is not representation but action. The Biological Computer Laboratory (BCL) at Illinois ran 1958–1976."
+          "note": "von Foerster, H. (Ed., 1949–1955). Cybernetics: Circular Causal and Feedback Mechanisms in Biological and Social Systems. Macy Conference Transactions (5 volumes). von Foerster, H. (1974). 'Cybernetics of cybernetics.' Festschrift for Margaret Mead. Von Foerster, H. (1984). Observing Systems (2nd ed.). Intersystems Publications — collected papers. Personal biography: born in Vienna 1911, trained in physics (dissertation on quantum mechanics), fled Austria in 1949. His playful aphorism 'If you desire to see, learn how to act' epitomises the constructivist view: cognition is not representation but action. The Biological Computer Laboratory (BCL) at Illinois ran 1958–1976.",
+          "keywords": [
+            "second order cybernetics",
+            "observer system Foerster",
+            "autopoiesis radical constructivism",
+            "reflexive observer"
+          ]
         },
         {
           "id": "fg4",
@@ -1284,7 +1560,13 @@
           ],
           "hint": "Ludwig von Bertalanffy was an Austrian biologist who built General Systems Theory as an explicit reaction against reductionism. He observed that biological open systems — unlike closed physical systems — maintain their organisation while exchanging matter and energy with the environment, and that the same mathematical descriptions (differential equations for open systems) apply across biology, economics, and social science. He proposed that the most useful scientific advance would not be new discoveries within existing disciplines but the discovery of structural isomorphisms across them.",
           "tag": "FIGURE",
-          "note": "Bertalanffy, L. von (1950). 'An outline of general system theory.' British Journal for the Philosophy of Science, 1, 134–165 — the key paper. Bertalanffy, L. von (1968). General System Theory. George Braziller. Bertalanffy coined the term 'open system' for biological and social systems that exchange matter and energy with their environment — in contrast to the closed systems of classical thermodynamics. He co-founded the Society for General Systems Research (1954) with Kenneth Boulding, Anatol Rapoport, and Ralph Gerard. He taught at universities in Vienna, London, Ottawa, and Edmonton (University of Alberta), where he was based at the time of his death in 1972. His ideas were heavily criticised by scientists who found the isomorphisms too vague, but influenced organisational theory, ecology, and systems engineering."
+          "note": "Bertalanffy, L. von (1950). 'An outline of general system theory.' British Journal for the Philosophy of Science, 1, 134–165 — the key paper. Bertalanffy, L. von (1968). General System Theory. George Braziller. Bertalanffy coined the term 'open system' for biological and social systems that exchange matter and energy with their environment — in contrast to the closed systems of classical thermodynamics. He co-founded the Society for General Systems Research (1954) with Kenneth Boulding, Anatol Rapoport, and Ralph Gerard. He taught at universities in Vienna, London, Ottawa, and Edmonton (University of Alberta), where he was based at the time of his death in 1972. His ideas were heavily criticised by scientists who found the isomorphisms too vague, but influenced organisational theory, ecology, and systems engineering.",
+          "keywords": [
+            "general systems theory founder",
+            "open system biology",
+            "equifinality isomorphism",
+            "systems biology pioneer"
+          ]
         },
         {
           "id": "fg5",
@@ -1308,7 +1590,13 @@
           ],
           "hint": "Jay Forrester invented system dynamics — the method of representing complex sociotechnical systems as stocks, flows, and feedback loops, then simulating them to reveal counterintuitive policy consequences. A former engineer who built the Whirlwind digital computer and invented magnetic-core memory, Forrester turned to management science and created Industrial Dynamics (1961) to explain why MIT companies had inventory and workforce oscillations. He then applied the method to cities (Urban Dynamics, 1969), predicting that urban renewal would worsen inner-city conditions — a conclusion that infuriated politicians but has been partially vindicated.",
           "tag": "FIGURE",
-          "note": "Forrester, J. W. (1961). Industrial Dynamics. MIT Press. Forrester, J. W. (1969). Urban Dynamics. MIT Press. Forrester, J. W. (1971). World Dynamics. Wright-Allen Press — the model that fed directly into Limits to Growth. He also invented random-access magnetic-core memory (US Patent 2,736,880, 1956) — a foundational hardware invention that earned MIT more patent royalties than any previous invention at the time. His system dynamics group at MIT produced Donella Meadows, John Sterman, and others who built the field into its current form. Received the IEEE Medal of Honour (1972) and the System Dynamics Society Lifetime Achievement Award. He lived to 98, remaining intellectually active."
+          "note": "Forrester, J. W. (1961). Industrial Dynamics. MIT Press. Forrester, J. W. (1969). Urban Dynamics. MIT Press. Forrester, J. W. (1971). World Dynamics. Wright-Allen Press — the model that fed directly into Limits to Growth. He also invented random-access magnetic-core memory (US Patent 2,736,880, 1956) — a foundational hardware invention that earned MIT more patent royalties than any previous invention at the time. His system dynamics group at MIT produced Donella Meadows, John Sterman, and others who built the field into its current form. Received the IEEE Medal of Honour (1972) and the System Dynamics Society Lifetime Achievement Award. He lived to 98, remaining intellectually active.",
+          "keywords": [
+            "system dynamics Forrester",
+            "world dynamics model",
+            "urban dynamics Forrester",
+            "industrial dynamics"
+          ]
         },
         {
           "id": "fg6",
@@ -1332,7 +1620,13 @@
           ],
           "hint": "Edward Lorenz discovered deterministic chaos while running a simplified weather model on a Royal McBee LGP-30 computer in 1961. When he re-ran a simulation by entering rounded intermediate values, the resulting trajectory diverged completely from the original — he traced the divergence to a printout rounding at three decimal places while the computation used six. The published 1963 paper established the mathematical framework of chaos. His 1972 conference talk introduced the phrase 'butterfly effect.' He remained a working scientist at MIT into his late eighties, publishing on climate predictability.",
           "tag": "FIGURE",
-          "note": "Lorenz, E. N. (1963). 'Deterministic nonperiodic flow.' Journal of the Atmospheric Sciences, 20, 130–141. Lorenz, E. N. (1969). 'Atmospheric predictability as revealed by naturally occurring analogues.' Journal of the Atmospheric Sciences, 26, 636–646 — formalised the prediction horizon. Lorenz, E. N. (1972). 'Predictability: Does the flap of a butterfly's wings in Brazil set off a tornado in Texas?' Conference talk, 139th Annual Meeting of the AAAS. He trained as a mathematician (Harvard), was drafted as a weather forecaster in WW2, and never left meteorology. He received the Kyoto Prize (1991) and the Crafoord Prize (1983) for his chaos work. He was described by colleagues as unusually quiet, modest, and careful — a profile that contrasts with the iconic flamboyance of his discovery."
+          "note": "Lorenz, E. N. (1963). 'Deterministic nonperiodic flow.' Journal of the Atmospheric Sciences, 20, 130–141. Lorenz, E. N. (1969). 'Atmospheric predictability as revealed by naturally occurring analogues.' Journal of the Atmospheric Sciences, 26, 636–646 — formalised the prediction horizon. Lorenz, E. N. (1972). 'Predictability: Does the flap of a butterfly's wings in Brazil set off a tornado in Texas?' Conference talk, 139th Annual Meeting of the AAAS. He trained as a mathematician (Harvard), was drafted as a weather forecaster in WW2, and never left meteorology. He received the Kyoto Prize (1991) and the Crafoord Prize (1983) for his chaos work. He was described by colleagues as unusually quiet, modest, and careful — a profile that contrasts with the iconic flamboyance of his discovery.",
+          "keywords": [
+            "Lorenz chaos discovery",
+            "weather prediction limit",
+            "deterministic chaos pioneer",
+            "Lorenz 1963"
+          ]
         },
         {
           "id": "fg7",
@@ -1354,7 +1648,13 @@
           ],
           "hint": "Mitchell Feigenbaum discovered universal constants in the period-doubling route to chaos using a pocket calculator — he noticed that the ratios between successive period-doublings converged to the same constant (~4.6692) regardless of the specific function he iterated. He immediately recognised this as universality, analogous to critical exponents in statistical mechanics, and developed a renormalisation group explanation. The two Feigenbaum constants (δ ≈ 4.6692 and α ≈ 2.5029) have been measured experimentally in fluid dynamics, electronics, and chemistry.",
           "tag": "FIGURE",
-          "note": "Feigenbaum, M. J. (1978). Journal of Statistical Physics, 19, 25–52. Feigenbaum, M. J. (1979). Journal of Statistical Physics, 21, 669–706. Both papers were initially rejected; Feigenbaum reported that the referee 'didn't believe it.' He trained as a physicist, earned his PhD at MIT (1970), and worked at Los Alamos and later Cornell before joining Rockefeller University. Gleick, J. (1987). Chaos: Making a New Science — gave Feigenbaum's discovery its popular account. He is characterised in the chaos literature as the figure who connected chaos to the deep mathematics of renormalisation, making it a respectable topic for theoretical physicists. He received the MacArthur Fellowship (1984), the Wolf Prize in Physics (1986), and the Heineman Prize."
+          "note": "Feigenbaum, M. J. (1978). Journal of Statistical Physics, 19, 25–52. Feigenbaum, M. J. (1979). Journal of Statistical Physics, 21, 669–706. Both papers were initially rejected; Feigenbaum reported that the referee 'didn't believe it.' He trained as a physicist, earned his PhD at MIT (1970), and worked at Los Alamos and later Cornell before joining Rockefeller University. Gleick, J. (1987). Chaos: Making a New Science — gave Feigenbaum's discovery its popular account. He is characterised in the chaos literature as the figure who connected chaos to the deep mathematics of renormalisation, making it a respectable topic for theoretical physicists. He received the MacArthur Fellowship (1984), the Wolf Prize in Physics (1986), and the Heineman Prize.",
+          "keywords": [
+            "Feigenbaum universality constant",
+            "period-doubling discovery",
+            "chaos universality",
+            "Feigenbaum delta"
+          ]
         },
         {
           "id": "fg8",
@@ -1377,7 +1677,13 @@
           ],
           "hint": "Ilya Prigogine resolved the deepest paradox of nineteenth-century physics: how can a universe governed by time-reversible physical laws produce the irreversible arrow of time we observe — in evolution, in history, in chemistry? He showed that systems driven far from thermodynamic equilibrium spontaneously generate ordered structures (dissipative structures) that are maintained by energy throughput and are irreversibly historical. His Nobel lecture argued that thermodynamics and evolution point to a universe that is inherently creative and historical, not simply mechanical.",
           "tag": "FIGURE",
-          "note": "Prigogine, I. (1967). Nobel Symposium — dissipative structures introduced. Nobel Prize in Chemistry 1977 'for his contributions to non-equilibrium thermodynamics, particularly the theory of dissipative structures.' Glansdorff, P. & Prigogine, I. (1971). Thermodynamic Theory of Structure, Stability and Fluctuations. Wiley. Prigogine, I. & Stengers, I. (1984). Order Out of Chaos. Bantam — widely read restatement. Born in Moscow (1917), raised in Belgium, educated at the Université Libre de Bruxelles, where he remained his entire career. He directed the International Solvay Institutes for Physics and Chemistry (Brussels) and the Ilya Prigogine Center for Studies in Statistical Mechanics and Complex Systems at UT Austin. Critics noted that 'order out of chaos' was often described in sweeping language that outpaced the mathematical specificity of the underlying results."
+          "note": "Prigogine, I. (1967). Nobel Symposium — dissipative structures introduced. Nobel Prize in Chemistry 1977 'for his contributions to non-equilibrium thermodynamics, particularly the theory of dissipative structures.' Glansdorff, P. & Prigogine, I. (1971). Thermodynamic Theory of Structure, Stability and Fluctuations. Wiley. Prigogine, I. & Stengers, I. (1984). Order Out of Chaos. Bantam — widely read restatement. Born in Moscow (1917), raised in Belgium, educated at the Université Libre de Bruxelles, where he remained his entire career. He directed the International Solvay Institutes for Physics and Chemistry (Brussels) and the Ilya Prigogine Center for Studies in Statistical Mechanics and Complex Systems at UT Austin. Critics noted that 'order out of chaos' was often described in sweeping language that outpaced the mathematical specificity of the underlying results.",
+          "keywords": [
+            "dissipative structure Nobel",
+            "non-equilibrium thermodynamics",
+            "Prigogine self-organisation",
+            "far-from-equilibrium Nobel"
+          ]
         },
         {
           "id": "fg9",
@@ -1400,7 +1706,13 @@
           ],
           "hint": "Stuart Kauffman proposed that much of biological order — particularly the organisation of gene regulatory networks and the number of distinct cell types in organisms — does not arise from natural selection alone but from the intrinsic self-organisation of networks near the edge of chaos. His NK Boolean network model showed that sparse random wiring (K=2) produces ordered dynamics with attractor cycle counts scaling as √N, matching the observed cell-type counts across organisms. He argued that life originates at phase transitions, not through the improbable assembly of specific molecules.",
           "tag": "FIGURE",
-          "note": "Kauffman, S. A. (1969). 'Metabolic stability and epigenesis in randomly constructed genetic nets.' Journal of Theoretical Biology, 22, 437–467 — the NK model. Kauffman, S. A. (1993). The Origins of Order: Self-Organization and Selection in Evolution. Oxford University Press — the comprehensive synthesis (~750 pages). Kauffman, S. A. (1995). At Home in the Universe. Oxford University Press — the accessible account. Co-founder of BioSystems and active at the Santa Fe Institute from its early years. Kauffman's work is widely cited in systems biology and complexity science, though critics argue his models are too abstract to make specific quantitative predictions and that real gene regulatory networks differ importantly from random NK networks (Aldana & Cluzel 2003)."
+          "note": "Kauffman, S. A. (1969). 'Metabolic stability and epigenesis in randomly constructed genetic nets.' Journal of Theoretical Biology, 22, 437–467 — the NK model. Kauffman, S. A. (1993). The Origins of Order: Self-Organization and Selection in Evolution. Oxford University Press — the comprehensive synthesis (~750 pages). Kauffman, S. A. (1995). At Home in the Universe. Oxford University Press — the accessible account. Co-founder of BioSystems and active at the Santa Fe Institute from its early years. Kauffman's work is widely cited in systems biology and complexity science, though critics argue his models are too abstract to make specific quantitative predictions and that real gene regulatory networks differ importantly from random NK networks (Aldana & Cluzel 2003).",
+          "keywords": [
+            "Kauffman self-organisation",
+            "edge of chaos biology",
+            "NK landscape fitness",
+            "Boolean random network"
+          ]
         },
         {
           "id": "fg10",
@@ -1423,7 +1735,13 @@
           ],
           "hint": "Per Bak co-invented self-organized criticality (SOC) — the finding that slowly driven dissipative systems evolve spontaneously to a critical state characterised by power-law avalanche distributions. His sandpile model (1987) was the archetypical SOC system: add sand grain by grain; when the slope exceeds a threshold locally, sand topples to neighbours; avalanches of all sizes ensue. Bak proposed SOC as a universal mechanism explaining the 1/f noise, power laws, and punctuated equilibrium patterns observed across physics, biology, and economics.",
           "tag": "FIGURE",
-          "note": "Bak, P., Tang, C. & Wiesenfeld, K. (1987). Physical Review Letters, 59, 381–384. Bak, P. (1996). How Nature Works: The Science of Self-Organized Criticality. Copernicus Books — the accessible account. Bak trained as a physicist in Denmark, worked at Brookhaven National Laboratory, and later Niels Bohr Institute in Copenhagen, where he died in 2002. The sandpile paper is among the 100 most-cited papers in physics. Bak's style was provocative and broad — he applied SOC to stock markets, biological evolution (punctuated equilibrium), and neuroscience. His boldness attracted criticism: many proposed SOC systems have since been shown to require fine-tuning rather than genuine self-organisation, limiting the universality of the claim (Bonachela & Muñoz, 2009)."
+          "note": "Bak, P., Tang, C. & Wiesenfeld, K. (1987). Physical Review Letters, 59, 381–384. Bak, P. (1996). How Nature Works: The Science of Self-Organized Criticality. Copernicus Books — the accessible account. Bak trained as a physicist in Denmark, worked at Brookhaven National Laboratory, and later Niels Bohr Institute in Copenhagen, where he died in 2002. The sandpile paper is among the 100 most-cited papers in physics. Bak's style was provocative and broad — he applied SOC to stock markets, biological evolution (punctuated equilibrium), and neuroscience. His boldness attracted criticism: many proposed SOC systems have since been shown to require fine-tuning rather than genuine self-organisation, limiting the universality of the claim (Bonachela & Muñoz, 2009).",
+          "keywords": [
+            "self-organised criticality founder",
+            "sandpile model Bak",
+            "SOC Per Bak",
+            "1/f noise criticality"
+          ]
         },
         {
           "id": "fg11",
@@ -1447,7 +1765,13 @@
           ],
           "hint": "John Holland invented genetic algorithms — optimisation procedures modelled on Darwinian selection that evolve populations of candidate solutions through selection, crossover, and mutation. He then generalised the insight to complex adaptive systems: any system of agents that evolve their rules through feedback from the environment exhibits CAS dynamics. Holland is the intellectual father of evolutionary computation and a co-founder of the Santa Fe Institute's CAS research programme, which linked economics, ecology, immunology, and artificial life under a common theoretical umbrella.",
           "tag": "FIGURE",
-          "note": "Holland, J. H. (1975). Adaptation in Natural and Artificial Systems. University of Michigan Press — introduced genetic algorithms (first doctoral degree in computer science at Michigan, 1959). Holland, J. H. (1992). Adaptation in Natural and Artificial Systems, 2nd ed. MIT Press. Holland, J. H. (1995). Hidden Order: How Adaptation Builds Complexity. Addison-Wesley. Holland, J. H. (1998). Emergence: From Chaos to Order. Addison-Wesley. He spent his entire career at the University of Michigan but was deeply associated with the Santa Fe Institute from its founding in 1984. Genetic algorithms spawned the broader field of evolutionary computation (genetic programming, evolution strategies, differential evolution) now used routinely in engineering optimisation, machine learning, and drug design."
+          "note": "Holland, J. H. (1975). Adaptation in Natural and Artificial Systems. University of Michigan Press — introduced genetic algorithms (first doctoral degree in computer science at Michigan, 1959). Holland, J. H. (1992). Adaptation in Natural and Artificial Systems, 2nd ed. MIT Press. Holland, J. H. (1995). Hidden Order: How Adaptation Builds Complexity. Addison-Wesley. Holland, J. H. (1998). Emergence: From Chaos to Order. Addison-Wesley. He spent his entire career at the University of Michigan but was deeply associated with the Santa Fe Institute from its founding in 1984. Genetic algorithms spawned the broader field of evolutionary computation (genetic programming, evolution strategies, differential evolution) now used routinely in engineering optimisation, machine learning, and drug design.",
+          "keywords": [
+            "Holland genetic algorithm",
+            "complex adaptive systems",
+            "classifier system Holland",
+            "genetic algorithm inventor"
+          ]
         },
         {
           "id": "fg12",
@@ -1471,7 +1795,13 @@
           ],
           "hint": "Albert-László Barabási and Réka Albert showed in 1999 that many growing networks — the web, citations, metabolic networks — develop hubs and power-law degree distributions through preferential attachment: new nodes disproportionately connect to already well-connected nodes. This 'scale-free' network model displaced the Erdős-Rényi random graph as the default model for real networks. Barabási subsequently mapped the human interactome (protein interaction network) and the human connectome, and used network medicine to identify disease modules in the interactome.",
           "tag": "FIGURE",
-          "note": "Barabási, A.-L. & Albert, R. (1999). Science, 286, 509–512 — ~30,000 citations. Barabási, A.-L. (2002). Linked: The New Science of Networks. Perseus — the popular account that made network science mainstream. Barabási, A.-L. (2016). Network Science. Cambridge University Press — the free open-access textbook at networksciencebook.com. Born in Romania, trained in physics, Barabási moved from Notre Dame to Northeastern University (2007) and then Harvard (Center for Network Science). Network medicine: Goh, K.-I. et al. (2007, PNAS) — the diseasome; Menche, J. et al. (2015, Science) — disease modules in the human interactome. His scale-free universality claims have been substantially contested (Broido & Clauset 2019, Nature Communications), a debate he has engaged with directly."
+          "note": "Barabási, A.-L. & Albert, R. (1999). Science, 286, 509–512 — ~30,000 citations. Barabási, A.-L. (2002). Linked: The New Science of Networks. Perseus — the popular account that made network science mainstream. Barabási, A.-L. (2016). Network Science. Cambridge University Press — the free open-access textbook at networksciencebook.com. Born in Romania, trained in physics, Barabási moved from Notre Dame to Northeastern University (2007) and then Harvard (Center for Network Science). Network medicine: Goh, K.-I. et al. (2007, PNAS) — the diseasome; Menche, J. et al. (2015, Science) — disease modules in the human interactome. His scale-free universality claims have been substantially contested (Broido & Clauset 2019, Nature Communications), a debate he has engaged with directly.",
+          "keywords": [
+            "scale-free network Barabási",
+            "network science pioneer",
+            "preferential attachment",
+            "hub network discovery"
+          ]
         }
       ]
     },
@@ -1505,7 +1835,13 @@
           ],
           "hint": "Throughout the 1980s and 1990s, researchers applied Takens' embedding theorem to EEG signals, heart rate variability, stock prices, and climate records, claiming to find low-dimensional strange attractors — definitive evidence of deterministic chaos in biology and economics. A sustained methodological critique showed that many of these results were statistical artefacts: finite data, nonstationarity, and noise can produce apparently low fractal dimensions and falsely positive Lyapunov exponents. The debate established critical standards for distinguishing true chaos from structured stochasticity.",
           "tag": "DEBATE",
-          "note": "Grassberger, P. & Procaccia, I. (1983, Physica D) — the correlation dimension method that was widely applied and widely misapplied. Methodological critique: Osborne, A. R. & Provenzale, A. (1989). 'Finite correlation dimension for stochastic systems with power-law spectra.' Physica D, 35, 357–381 — showed that stochastic systems with coloured noise can produce spuriously low correlation dimensions. Rapp, P. E. et al. (1994). 'Filtered noise can mimic low-dimensional chaotic attractors.' Physical Review E, 47, 2289–2297. Theiler, J. et al. (1992). 'Testing for nonlinearity in time series: The method of surrogate data.' Physica D, 58, 77–94 — the surrogate data method, now standard. Many claimed biological chaos results (EEG chaos, HRV chaos) have not survived rigorous surrogate testing. Lorenz himself cautioned that chaos in real geophysical data is hard to confirm definitively."
+          "note": "Grassberger, P. & Procaccia, I. (1983, Physica D) — the correlation dimension method that was widely applied and widely misapplied. Methodological critique: Osborne, A. R. & Provenzale, A. (1989). 'Finite correlation dimension for stochastic systems with power-law spectra.' Physica D, 35, 357–381 — showed that stochastic systems with coloured noise can produce spuriously low correlation dimensions. Rapp, P. E. et al. (1994). 'Filtered noise can mimic low-dimensional chaotic attractors.' Physical Review E, 47, 2289–2297. Theiler, J. et al. (1992). 'Testing for nonlinearity in time series: The method of surrogate data.' Physica D, 58, 77–94 — the surrogate data method, now standard. Many claimed biological chaos results (EEG chaos, HRV chaos) have not survived rigorous surrogate testing. Lorenz himself cautioned that chaos in real geophysical data is hard to confirm definitively.",
+          "keywords": [
+            "low-dimensional chaos detection",
+            "noise vs chaos real data",
+            "surrogate test chaos",
+            "chaos detection method"
+          ]
         },
         {
           "id": "db2",
@@ -1526,7 +1862,13 @@
           ],
           "hint": "The claim that real-world networks follow power-law degree distributions — making them 'scale-free' — is one of the most cited findings in network science. Broido and Clauset (2019) applied rigorous statistical testing (likelihood ratios, goodness-of-fit tests) to nearly 1,000 empirical networks and found that 'strong' scale-free networks are rare; most purported power-law networks fit log-normal or other heavy-tailed distributions equally well. Barabási and colleagues responded that the scale-free property is more subtle than a strict power law. The debate concerns both the statistical methods and the definition of 'scale-free.'",
           "tag": "DEBATE",
-          "note": "For: Barabási, A.-L. & Albert, R. (1999, Science) — scale-free networks. Against: Clauset, A., Shalizi, C. R. & Newman, M. E. J. (2009). 'Power-law distributions in empirical data.' SIAM Review, 51, 661–703 — rigorous fitting methods. Key challenge paper: Broido, A. D. & Clauset, A. (2019). 'Scale-free networks are rare.' Nature Communications, 10, 1017 — found strong scale-free behaviour in only 4% of tested networks. Response: Barabási, A.-L. (2018). 'Love is all you need: Clauset's framing of scale-free networks.' NetworkSciencebook.com/talk. The deeper dispute: even if strict power laws are rare, preferential attachment as a mechanism produces heavy-tailed distributions that are functionally scale-free in terms of hub dynamics and robustness. Neither side disputes that hubs exist and that degree distributions are heavy-tailed — the disagreement is about the precise statistical form and its theoretical implications."
+          "note": "For: Barabási, A.-L. & Albert, R. (1999, Science) — scale-free networks. Against: Clauset, A., Shalizi, C. R. & Newman, M. E. J. (2009). 'Power-law distributions in empirical data.' SIAM Review, 51, 661–703 — rigorous fitting methods. Key challenge paper: Broido, A. D. & Clauset, A. (2019). 'Scale-free networks are rare.' Nature Communications, 10, 1017 — found strong scale-free behaviour in only 4% of tested networks. Response: Barabási, A.-L. (2018). 'Love is all you need: Clauset's framing of scale-free networks.' NetworkSciencebook.com/talk. The deeper dispute: even if strict power laws are rare, preferential attachment as a mechanism produces heavy-tailed distributions that are functionally scale-free in terms of hub dynamics and robustness. Neither side disputes that hubs exist and that degree distributions are heavy-tailed — the disagreement is about the precise statistical form and its theoretical implications.",
+          "keywords": [
+            "power law real data",
+            "scale-free network critique",
+            "Clauset power law test",
+            "network distribution debate"
+          ]
         },
         {
           "id": "db3",
@@ -1546,7 +1888,13 @@
           ],
           "hint": "Self-organized criticality claims that driven dissipative systems spontaneously evolve to a critical point without any external tuning of parameters. Critics have shown that many proposed SOC models are not truly self-organised: the sandpile requires an infinitely slow driving rate relative to relaxation time (the separation of timescales condition), and when this is violated, the critical point disappears. Many biological 'SOC' systems have been proposed but few show convincing evidence of self-tuning as opposed to near-critical operation that requires some environmental tuning.",
           "tag": "DEBATE",
-          "note": "SOC introduced: Bak, P. et al. (1987, Physical Review Letters). Critical timescale-separation requirement: the original sandpile model only produces true SOC when driving rate → 0; real systems never achieve this separation perfectly. Systematic critique: Bonachela, J. A. & Muñoz, M. A. (2009). 'Self-organization without conservation: True or just apparent scale-invariance?' Journal of Statistical Mechanics, P09009 — showed that many SOC models require parameter tuning to maintain criticality. Neural SOC debate: Beggs, J. M. & Plenz (2003, Journal of Neuroscience) found cortical avalanches; challenge: Touboul, J. & Destexhe, A. (2017). 'Power-law statistics and universal scaling in the absence of criticality.' PLoS Computational Biology, 13, e1005492 — showed that non-critical systems can produce apparent power laws. The 'critical brain' hypothesis remains active and contested; some researchers distinguish between 'self-organised quasi-criticality' (near-critical without strict SOC) as a more defensible claim."
+          "note": "SOC introduced: Bak, P. et al. (1987, Physical Review Letters). Critical timescale-separation requirement: the original sandpile model only produces true SOC when driving rate → 0; real systems never achieve this separation perfectly. Systematic critique: Bonachela, J. A. & Muñoz, M. A. (2009). 'Self-organization without conservation: True or just apparent scale-invariance?' Journal of Statistical Mechanics, P09009 — showed that many SOC models require parameter tuning to maintain criticality. Neural SOC debate: Beggs, J. M. & Plenz (2003, Journal of Neuroscience) found cortical avalanches; challenge: Touboul, J. & Destexhe, A. (2017). 'Power-law statistics and universal scaling in the absence of criticality.' PLoS Computational Biology, 13, e1005492 — showed that non-critical systems can produce apparent power laws. The 'critical brain' hypothesis remains active and contested; some researchers distinguish between 'self-organised quasi-criticality' (near-critical without strict SOC) as a more defensible claim.",
+          "keywords": [
+            "SOC self-tuning",
+            "criticality fine-tuning",
+            "self-organised vs tuned critical",
+            "sandpile tuning"
+          ]
         },
         {
           "id": "db4",
@@ -1568,7 +1916,13 @@
           ],
           "hint": "Agent-based models typically have many free parameters — agent decision rules, interaction topologies, initial conditions — and can often be calibrated to match historical data for multiple different parameter sets. This equifinality problem means that fitting the past does not uniquely identify the model's generative mechanisms. Critics argue that most ABMs are post-hoc explanations rather than predictive theories, and that without rigorous out-of-sample testing and sensitivity analysis, ABMs tell us little about real systems and a lot about what patterns are computationally achievable.",
           "tag": "DEBATE",
-          "note": "Defence of ABMs: Epstein, J. M. (2006). Generative Social Science. Princeton University Press — 'if you can grow it, you can explain it.' Methodological critique: Windrum, P., Fagiolo, G. & Moneta, A. (2007). 'Empirical validation of agent-based models: Alternatives and prospects.' Journal of Artificial Societies and Social Simulation, 10, 8 — comprehensive review of validation challenges. Equifinality and parameter sensitivity: Saltelli, A. et al. (2008). Global Sensitivity Analysis: The Primer. Wiley — methods for systematic sensitivity analysis. Agent-based economics critique: Gallegati, M. & Kirman, A. (Eds., 2012). Complex Economics. Routledge. Counter-example of validated ABM: Epstein et al. (2008). 'Coupled contagion dynamics of fear and disease.' PLoS ONE — the epidemic models used in COVID-19 planning are ABMs that have been extensively validated prospectively. The debate distinguishes between ABMs as explanation tools vs. prediction tools; different validation standards may apply."
+          "note": "Defence of ABMs: Epstein, J. M. (2006). Generative Social Science. Princeton University Press — 'if you can grow it, you can explain it.' Methodological critique: Windrum, P., Fagiolo, G. & Moneta, A. (2007). 'Empirical validation of agent-based models: Alternatives and prospects.' Journal of Artificial Societies and Social Simulation, 10, 8 — comprehensive review of validation challenges. Equifinality and parameter sensitivity: Saltelli, A. et al. (2008). Global Sensitivity Analysis: The Primer. Wiley — methods for systematic sensitivity analysis. Agent-based economics critique: Gallegati, M. & Kirman, A. (Eds., 2012). Complex Economics. Routledge. Counter-example of validated ABM: Epstein et al. (2008). 'Coupled contagion dynamics of fear and disease.' PLoS ONE — the epidemic models used in COVID-19 planning are ABMs that have been extensively validated prospectively. The debate distinguishes between ABMs as explanation tools vs. prediction tools; different validation standards may apply.",
+          "keywords": [
+            "ABM validation calibration",
+            "agent model overfitting",
+            "emergent model falsifiability",
+            "ABM empirical test"
+          ]
         },
         {
           "id": "db5",
@@ -1590,7 +1944,13 @@
           ],
           "hint": "Complexity science claims to be a unified science of self-organisation, emergence, and adaptation across all domains — physical, biological, economic, social. Critics argue that this universality is illusory: the same words (emergence, self-organisation, complexity, edge of chaos) are used across disciplines without a shared mathematical definition, producing false analogies and unfalsifiable claims. Defenders respond that structural isomorphisms across levels and domains are real and scientifically productive, even if the unified theory is not yet fully formulated.",
           "tag": "DEBATE",
-          "note": "Critical: Horgan, J. (1995). 'From complexity to perplexity.' Scientific American, 272, 104–109 — coined 'complexologists' as a pejorative. Horgan, J. (1996). The End of Science — Chapter 8 targets the SFI programme. Reith, G. (2004). 'Uncertain times: The notion of \"risk\" and the development of modernity.' Time & Society — on the spread of 'complexity' as a sociological metaphor. In defence: Mitchell, M. (2009). Complexity: A Guided Tour. Oxford University Press — provides a rigorous account of what complexity science has actually established. Gell-Mann, M. (1994). The Quark and the Jaguar — Murray Gell-Mann's vision of effective complexity and CAS as a genuine programme. The debate has practical stakes: funding agencies and policy institutions have imported 'complexity' language without clear criteria for what it explains, sometimes producing complexity theatre rather than complexity science."
+          "note": "Critical: Horgan, J. (1995). 'From complexity to perplexity.' Scientific American, 272, 104–109 — coined 'complexologists' as a pejorative. Horgan, J. (1996). The End of Science — Chapter 8 targets the SFI programme. Reith, G. (2004). 'Uncertain times: The notion of \"risk\" and the development of modernity.' Time & Society — on the spread of 'complexity' as a sociological metaphor. In defence: Mitchell, M. (2009). Complexity: A Guided Tour. Oxford University Press — provides a rigorous account of what complexity science has actually established. Gell-Mann, M. (1994). The Quark and the Jaguar — Murray Gell-Mann's vision of effective complexity and CAS as a genuine programme. The debate has practical stakes: funding agencies and policy institutions have imported 'complexity' language without clear criteria for what it explains, sometimes producing complexity theatre rather than complexity science.",
+          "keywords": [
+            "complexity metaphor critique",
+            "unified complexity science",
+            "complexity discipline status",
+            "cross-field metaphor"
+          ]
         },
         {
           "id": "db6",
@@ -1611,7 +1971,13 @@
           ],
           "hint": "The Limits to Growth (1972) predicted that on 'standard run' assumptions, industrial civilisation would overshoot and collapse before 2100. Turner (2008) showed that observed data on population, food, industrial output, resources, and pollution tracked the standard run remarkably closely for the first 30 years. But the model excludes prices, technological substitution, and institutional adaptation — the mechanisms by which conventional economists argue market economies avoid Malthusian limits. At 50+ years, the debate about whether the model's structure or its assumptions are correct continues.",
           "tag": "DEBATE",
-          "note": "Original model: Meadows, D. H. et al. (1972). The Limits to Growth. Universe Books. Tracking study: Turner, G. M. (2008). 'A comparison of The Limits to Growth with 30 years of reality.' Global Environmental Change, 18, 397–411. Extended tracking: Herrington, G. (2021). 'Update to limits to growth: Comparing the World3 model with empirical data.' Journal of Industrial Ecology, 25, 614–626 — found 'business as usual' scenarios tracking best, with most scenarios converging toward collapse around 2040. Economic critique: Nordhaus, W. D. (1973, American Economic Review); Beckerman, W. (1974). In Defence of Economic Growth. Critics argue the World3 model has no endogenous innovation, no prices, and no trade — omissions that matter enormously for the prediction. Defenders argue the omissions reflect real resource constraints that prices cannot substitute around indefinitely. The 50-year tracking is striking but the model's structural simplicity means coincidence cannot be ruled out."
+          "note": "Original model: Meadows, D. H. et al. (1972). The Limits to Growth. Universe Books. Tracking study: Turner, G. M. (2008). 'A comparison of The Limits to Growth with 30 years of reality.' Global Environmental Change, 18, 397–411. Extended tracking: Herrington, G. (2021). 'Update to limits to growth: Comparing the World3 model with empirical data.' Journal of Industrial Ecology, 25, 614–626 — found 'business as usual' scenarios tracking best, with most scenarios converging toward collapse around 2040. Economic critique: Nordhaus, W. D. (1973, American Economic Review); Beckerman, W. (1974). In Defence of Economic Growth. Critics argue the World3 model has no endogenous innovation, no prices, and no trade — omissions that matter enormously for the prediction. Defenders argue the omissions reflect real resource constraints that prices cannot substitute around indefinitely. The 50-year tracking is striking but the model's structural simplicity means coincidence cannot be ruled out.",
+          "keywords": [
+            "limits to growth tracking",
+            "standard run 2020s",
+            "Meadows prediction test",
+            "resource collapse timing"
+          ]
         },
         {
           "id": "db7",
@@ -1632,7 +1998,13 @@
           ],
           "hint": "Weak emergence refers to properties that can in principle be derived by simulation from lower-level rules, even if they are surprising or computationally irreducible. Strong emergence refers to properties that are genuinely irreducible — that cannot even in principle be derived from complete knowledge of the components. Most philosophers of science deny that strong emergence is coherent, arguing it collapses into a claim about our ignorance. But others argue that consciousness and certain quantum phenomena constitute genuine cases. The debate has concrete implications: strong emergence, if real, would invalidate the reductionist research programme.",
           "tag": "DEBATE",
-          "note": "Weak/strong distinction: Bedau, M. A. (1997). 'Weak emergence.' Philosophical Perspectives, 11, 375–399. Defence of strong emergence: Chalmers, D. J. (2006). 'Strong and weak emergence.' In: P. Clayton & P. Davies (Eds.), The Re-Emergence of Emergence. Oxford University Press — argues consciousness is a case of strong emergence. Against: Kim, J. (1999). 'Making sense of emergence.' Philosophical Studies, 95, 3–36 — argues strong emergence is either incoherent or epiphenomenal. Anderson, P. W. (1972). 'More is different.' Science, 177, 393–396 — the physicist's classic argument for genuine emergence, though without endorsing 'strong' emergence in the philosophical sense. The debate remains unresolved; in practice, complexity scientists mostly operate with weak emergence as a sufficient and scientifically tractable concept."
+          "note": "Weak/strong distinction: Bedau, M. A. (1997). 'Weak emergence.' Philosophical Perspectives, 11, 375–399. Defence of strong emergence: Chalmers, D. J. (2006). 'Strong and weak emergence.' In: P. Clayton & P. Davies (Eds.), The Re-Emergence of Emergence. Oxford University Press — argues consciousness is a case of strong emergence. Against: Kim, J. (1999). 'Making sense of emergence.' Philosophical Studies, 95, 3–36 — argues strong emergence is either incoherent or epiphenomenal. Anderson, P. W. (1972). 'More is different.' Science, 177, 393–396 — the physicist's classic argument for genuine emergence, though without endorsing 'strong' emergence in the philosophical sense. The debate remains unresolved; in practice, complexity scientists mostly operate with weak emergence as a sufficient and scientifically tractable concept.",
+          "keywords": [
+            "strong emergence ontology",
+            "novel property reducible",
+            "emergence epistemic ontological",
+            "downward causation real"
+          ]
         },
         {
           "id": "db8",
@@ -1655,7 +2027,13 @@
           ],
           "hint": "Langton (1990) and Kauffman argued that living systems — and computation in general — are possible only at the edge between order and chaos, a phase transition where information can be stored (order) and transmitted (dynamics). Critics responded that the λ parameter operationalising the edge of chaos is too coarse to precisely locate the transition, that evolved cellular automata do not consistently optimise at the edge, and that biological evolution has no reason to target the precise phase boundary. The hypothesis is influential as an organising principle but lacks falsifiable predictions.",
           "tag": "DEBATE",
-          "note": "Edge of chaos proposed: Langton, C. G. (1990, Physica D); Kauffman, S. A. (1993, Oxford University Press). Computational critique: Mitchell, M., Hraber, P. & Crutchfield, J. P. (1993). 'Revisiting the edge of chaos: Evolving cellular automata to perform computations.' Complex Systems, 7, 89–130 — evolved CA solutions do not peak at λ corresponding to the phase transition. Alternative framework: Crutchfield, J. P. & Young, K. (1990, Physica D) — computational mechanics provides a more rigorous measure of structure in CA. Biological evidence: Nykter, M. et al. (2008, PNAS) — found gene regulatory networks of several organisms consistent with criticality but not demonstrably self-organised to the edge. The neural criticality literature (Beggs & Plenz 2003) provides the most active current arena for the edge-of-chaos hypothesis, with ongoing debate about methods and interpretation. The phrase 'life at the edge of chaos' remains one of the most evocative in complexity science and one of the least precisely operationalised."
+          "note": "Edge of chaos proposed: Langton, C. G. (1990, Physica D); Kauffman, S. A. (1993, Oxford University Press). Computational critique: Mitchell, M., Hraber, P. & Crutchfield, J. P. (1993). 'Revisiting the edge of chaos: Evolving cellular automata to perform computations.' Complex Systems, 7, 89–130 — evolved CA solutions do not peak at λ corresponding to the phase transition. Alternative framework: Crutchfield, J. P. & Young, K. (1990, Physica D) — computational mechanics provides a more rigorous measure of structure in CA. Biological evidence: Nykter, M. et al. (2008, PNAS) — found gene regulatory networks of several organisms consistent with criticality but not demonstrably self-organised to the edge. The neural criticality literature (Beggs & Plenz 2003) provides the most active current arena for the edge-of-chaos hypothesis, with ongoing debate about methods and interpretation. The phrase 'life at the edge of chaos' remains one of the most evocative in complexity science and one of the least precisely operationalised.",
+          "keywords": [
+            "edge of chaos mechanism",
+            "criticality functionality",
+            "computation edge metaphor",
+            "criticality empirical test"
+          ]
         }
       ]
     },
@@ -1687,7 +2065,13 @@
           ],
           "hint": "The 2008 financial crisis demonstrated that a banking system is a network — and that its topology determines whether failures cascade locally or globally. Banks connected by interbank lending, derivatives contracts, and shared asset holdings form a network in which the failure of highly connected nodes (large interconnected banks) can trigger cascades that propagate through the system far faster than supervisory reaction time. Network-based systemic risk models now inform central bank stress testing, identifying systemically important financial institutions (SIFIs) by their position in the financial network, not their individual size.",
           "tag": "APPLICATION",
-          "note": "Network model of financial contagion: Gai, P. & Kapadia, S. (2010). 'Contagion in financial networks.' Proceedings of the Royal Society A, 466, 2401–2423 — Bank of England — the key paper. Haldane, A. G. & May, R. M. (2011). 'Systemic risk in banking ecosystems.' Nature, 469, 351–355 — applied ecological stability theory to financial networks. Interbank network topology: Allen, F. & Gale, D. (2000, Journal of Political Economy) — showed that complete networks are more robust than incomplete networks to some shocks but more fragile to others. Basel III regulatory framework (2010) and the subsequent BCBS/FSOC 'systemically important financial institution' designations use network centrality implicitly. Ongoing limitation: financial networks are not observable in real time — positions change faster than reporting allows — making real-time monitoring difficult."
+          "note": "Network model of financial contagion: Gai, P. & Kapadia, S. (2010). 'Contagion in financial networks.' Proceedings of the Royal Society A, 466, 2401–2423 — Bank of England — the key paper. Haldane, A. G. & May, R. M. (2011). 'Systemic risk in banking ecosystems.' Nature, 469, 351–355 — applied ecological stability theory to financial networks. Interbank network topology: Allen, F. & Gale, D. (2000, Journal of Political Economy) — showed that complete networks are more robust than incomplete networks to some shocks but more fragile to others. Basel III regulatory framework (2010) and the subsequent BCBS/FSOC 'systemically important financial institution' designations use network centrality implicitly. Ongoing limitation: financial networks are not observable in real time — positions change faster than reporting allows — making real-time monitoring difficult.",
+          "keywords": [
+            "systemic risk banking",
+            "financial contagion network",
+            "too big to fail network",
+            "interbank contagion"
+          ]
         },
         {
           "id": "ap2",
@@ -1707,7 +2091,13 @@
           ],
           "hint": "The classical SIR epidemic model assumes homogeneous mixing — every person contacts every other with equal probability. Network epidemiology replaces this with realistic contact networks (household, workplace, school). On scale-free networks, the epidemic threshold (the minimum R₀ for spread) vanishes: pathogens can always persist because hubs provide an infinite-variance super-spreading pathway. This has practical implications for vaccination: targeting hubs (super-spreaders) by degree rather than at random dramatically reduces the doses needed for herd immunity.",
           "tag": "APPLICATION",
-          "note": "Network threshold result: Pastor-Satorras, R. & Vespignani, A. (2001). 'Epidemic spreading in scale-free networks.' Physical Review Letters, 86, 3200–3203 — showed the threshold vanishes in scale-free networks with infinite-variance degree distributions. Targeted vaccination: Cohen, R. et al. (2003). 'Efficient immunization strategies for computer networks and populations.' Physical Review Letters, 91, 247901 — acquaintance immunization (vaccine a random contact of a random person, who is statistically higher-degree than the random person). COVID-19 modelling: Kucharski, A. J. et al. (2020). 'Early dynamics of transmission and control of COVID-19.' Lancet Infectious Diseases — used network and age-contact structure. Limitation: complete contact network data for populations is never available; network models must estimate or infer topology from surveys, mobile data, or household structure, introducing substantial uncertainty."
+          "note": "Network threshold result: Pastor-Satorras, R. & Vespignani, A. (2001). 'Epidemic spreading in scale-free networks.' Physical Review Letters, 86, 3200–3203 — showed the threshold vanishes in scale-free networks with infinite-variance degree distributions. Targeted vaccination: Cohen, R. et al. (2003). 'Efficient immunization strategies for computer networks and populations.' Physical Review Letters, 91, 247901 — acquaintance immunization (vaccine a random contact of a random person, who is statistically higher-degree than the random person). COVID-19 modelling: Kucharski, A. J. et al. (2020). 'Early dynamics of transmission and control of COVID-19.' Lancet Infectious Diseases — used network and age-contact structure. Limitation: complete contact network data for populations is never available; network models must estimate or infer topology from surveys, mobile data, or household structure, introducing substantial uncertainty.",
+          "keywords": [
+            "epidemic network spread",
+            "R0 network herd immunity",
+            "SIR network model",
+            "network epidemic threshold"
+          ]
         },
         {
           "id": "ap3",
@@ -1732,7 +2122,13 @@
           ],
           "hint": "Earth's climate system contains multiple 'tipping elements' — subsystems that exhibit bistability and may undergo abrupt, self-sustaining transitions if pushed past a threshold: the West Antarctic Ice Sheet, Greenland Ice Sheet, Amazon dieback, Atlantic Meridional Overturning Circulation slowdown, permafrost carbon release. Beyond individual tipping points, cascading interactions between tipping elements mean that crossing one may destabilise others — a 'tipping cascade' potentially irreversible on any human timescale and triggered by warming well below 2°C.",
           "tag": "APPLICATION",
-          "note": "Tipping elements survey: Lenton, T. M. et al. (2008). 'Tipping elements in the Earth's climate system.' PNAS, 105, 1786–1793 — the foundational catalogue. Tipping cascade risk: Steffen, W. et al. (2018). 'Trajectories of the Earth system in the Anthropocene.' PNAS, 115, 8252–8259 — 'Hothouse Earth' trajectory. IPCC AR6 (2021) assessed 16 tipping elements, concluding that multiple tipping points can be triggered at 1.5–2°C of warming. Early warning signal research: Dakos, V. et al. (2012, PLoS ONE); Boers, N. (2021, Nature Climate Change) found early-warning signals in Atlantic circulation data. A practical limit: identifying which tipping elements are genuinely bistable (vs. exhibiting gradual change) requires data and models with uncertainties that span the range of policy-relevant outcomes, making probabilistic risk assessment challenging."
+          "note": "Tipping elements survey: Lenton, T. M. et al. (2008). 'Tipping elements in the Earth's climate system.' PNAS, 105, 1786–1793 — the foundational catalogue. Tipping cascade risk: Steffen, W. et al. (2018). 'Trajectories of the Earth system in the Anthropocene.' PNAS, 115, 8252–8259 — 'Hothouse Earth' trajectory. IPCC AR6 (2021) assessed 16 tipping elements, concluding that multiple tipping points can be triggered at 1.5–2°C of warming. Early warning signal research: Dakos, V. et al. (2012, PLoS ONE); Boers, N. (2021, Nature Climate Change) found early-warning signals in Atlantic circulation data. A practical limit: identifying which tipping elements are genuinely bistable (vs. exhibiting gradual change) requires data and models with uncertainties that span the range of policy-relevant outcomes, making probabilistic risk assessment challenging.",
+          "keywords": [
+            "climate tipping element",
+            "ice sheet tipping point",
+            "Amazon dieback tipping",
+            "planetary boundary tipping"
+          ]
         },
         {
           "id": "ap4",
@@ -1752,7 +2148,13 @@
           ],
           "hint": "Genetic algorithms evolve a population of candidate solutions to an engineering optimisation problem by selection, crossover, and mutation — mimicking Darwinian evolution on a space of designs rather than genomes. They excel on problems where the fitness landscape is rugged, discontinuous, or high-dimensional, where gradient-based methods fail. Applications include aircraft wing profile optimisation, antenna design, scheduling, pharmaceutical molecule discovery, and neural architecture search. They are now a standard tool in computational engineering when objective functions are noisy or non-differentiable.",
           "tag": "APPLICATION",
-          "note": "Holland, J. H. (1975). Adaptation in Natural and Artificial Systems. University of Michigan Press — the founding text. First engineering applications in the 1980s: De Jong, K. A. (1975). PhD dissertation (Michigan) — systematic study of GAs on function optimisation. Goldberg, D. E. (1988). Genetic Algorithms in Search, Optimization, and Machine Learning. Addison-Wesley — the engineering textbook. NASA applications: Lohn, J. D. et al. (2004, IEEE Antennas and Propagation) — evolved antenna designs flown on NASA ST5 mission. Pharmaceutical: Schneider, G. & Fechner, U. (2005, Nature Reviews Drug Discovery) — evolutionary algorithms for drug design. Modern evolution: deep learning largely superseded GAs for differentiable objective functions, but differential evolution and evolutionary strategies remain competitive for black-box optimisation (Hansen, N., 2006, CMA-ES). Neural architecture search using evolutionary methods: Real, E. et al. (2019, PNAS)."
+          "note": "Holland, J. H. (1975). Adaptation in Natural and Artificial Systems. University of Michigan Press — the founding text. First engineering applications in the 1980s: De Jong, K. A. (1975). PhD dissertation (Michigan) — systematic study of GAs on function optimisation. Goldberg, D. E. (1988). Genetic Algorithms in Search, Optimization, and Machine Learning. Addison-Wesley — the engineering textbook. NASA applications: Lohn, J. D. et al. (2004, IEEE Antennas and Propagation) — evolved antenna designs flown on NASA ST5 mission. Pharmaceutical: Schneider, G. & Fechner, U. (2005, Nature Reviews Drug Discovery) — evolutionary algorithms for drug design. Modern evolution: deep learning largely superseded GAs for differentiable objective functions, but differential evolution and evolutionary strategies remain competitive for black-box optimisation (Hansen, N., 2006, CMA-ES). Neural architecture search using evolutionary methods: Real, E. et al. (2019, PNAS).",
+          "keywords": [
+            "genetic algorithm optimisation",
+            "evolutionary computation",
+            "crossover mutation selection",
+            "fitness function GA"
+          ]
         },
         {
           "id": "ap5",
@@ -1774,7 +2176,13 @@
           ],
           "hint": "Cities are prototypical complex adaptive systems: millions of agents (residents, businesses, vehicles) interact through physical and economic networks, generating spatial patterns (land use, density, segregation) that feed back to constrain individual behaviour. Jane Jacobs' 1961 critique of urban planning showed that top-down, 'machine' conceptions of cities destroy the adaptive complexity that makes them liveable. Modern smart-city analytics use mobile phone data, sensor networks, and network analysis to measure urban flows in real time and identify resilient vs. fragile infrastructure configurations.",
           "tag": "APPLICATION",
-          "note": "Foundational complexity argument: Jacobs, J. (1961). The Death and Life of Great American Cities. Random House — argued cities are 'problems of organized complexity' that resist planned simplification. Quantitative urban scaling laws: Bettencourt, L. M. A. et al. (2007). 'Growth, innovation, scaling, and the pace of life in cities.' PNAS, 104, 7301–7306 — showed that social outputs (patents, GDP) scale super-linearly with city population (~N^1.15), infrastructure sub-linearly (~N^0.85), consistent with network-based models. Smart city data: Gonzalez, M. C. et al. (2008, Nature) — human mobility patterns from mobile phone data. Urban resilience framework: Resilience Alliance Urban Resilience Research Programme (2007–). Critique: 'smart city' implementations often increase surveillance without delivering resilience, and the governance of urban data remains contested (Townsend, A. M., 2013, Smart Cities)."
+          "note": "Foundational complexity argument: Jacobs, J. (1961). The Death and Life of Great American Cities. Random House — argued cities are 'problems of organized complexity' that resist planned simplification. Quantitative urban scaling laws: Bettencourt, L. M. A. et al. (2007). 'Growth, innovation, scaling, and the pace of life in cities.' PNAS, 104, 7301–7306 — showed that social outputs (patents, GDP) scale super-linearly with city population (~N^1.15), infrastructure sub-linearly (~N^0.85), consistent with network-based models. Smart city data: Gonzalez, M. C. et al. (2008, Nature) — human mobility patterns from mobile phone data. Urban resilience framework: Resilience Alliance Urban Resilience Research Programme (2007–). Critique: 'smart city' implementations often increase surveillance without delivering resilience, and the governance of urban data remains contested (Townsend, A. M., 2013, Smart Cities).",
+          "keywords": [
+            "urban scaling law",
+            "smart city complexity",
+            "city fractal growth",
+            "urban growth model"
+          ]
         },
         {
           "id": "ap6",
@@ -1794,7 +2202,13 @@
           ],
           "hint": "Resilience engineering reconceives safety in complex sociotechnical systems — nuclear plants, air traffic control, hospitals, power grids — not as the absence of failure but as the capacity to adapt to unexpected conditions. Traditional safety engineering tries to prevent all failure modes; resilience engineering asks how systems can continue functioning (or gracefully degrade) when failures occur anyway. The approach identifies four system capacities: the ability to respond (knowing what to do), monitor (knowing what to look for), anticipate (knowing what to expect), and learn (knowing what has happened).",
           "tag": "APPLICATION",
-          "note": "Founding text: Hollnagel, E., Woods, D. D. & Leveson, N. (Eds., 2006). Resilience Engineering: Concepts and Precepts. Ashgate. Normal accidents theory (precursor): Perrow, C. (1984). Normal Accidents: Living with High-Risk Technologies. Basic Books — argued that in tightly-coupled complex systems, accidents are inevitable. High-reliability organisations (HRO): Weick, K. E. & Sutcliffe, K. M. (2001). Managing the Unexpected. Jossey-Bass — organisations that operate safely despite high complexity through mindfulness and adaptive capacity. Power grid application: IEEE PES Task Force on Understanding, Prediction, Mitigation and Restoration of Cascading Failures (2012) — applied resilience metrics to grid stability. Healthcare application: Vincent, C. et al. (2017). Safety Measurement and Monitoring in Healthcare. British Medical Journal. The COVID-19 pandemic provided an unplanned stress test of healthcare system resilience globally."
+          "note": "Founding text: Hollnagel, E., Woods, D. D. & Leveson, N. (Eds., 2006). Resilience Engineering: Concepts and Precepts. Ashgate. Normal accidents theory (precursor): Perrow, C. (1984). Normal Accidents: Living with High-Risk Technologies. Basic Books — argued that in tightly-coupled complex systems, accidents are inevitable. High-reliability organisations (HRO): Weick, K. E. & Sutcliffe, K. M. (2001). Managing the Unexpected. Jossey-Bass — organisations that operate safely despite high complexity through mindfulness and adaptive capacity. Power grid application: IEEE PES Task Force on Understanding, Prediction, Mitigation and Restoration of Cascading Failures (2012) — applied resilience metrics to grid stability. Healthcare application: Vincent, C. et al. (2017). Safety Measurement and Monitoring in Healthcare. British Medical Journal. The COVID-19 pandemic provided an unplanned stress test of healthcare system resilience globally.",
+          "keywords": [
+            "resilience engineering",
+            "critical infrastructure system",
+            "cascading failure protection",
+            "systemic resilience design"
+          ]
         }
       ]
     }
