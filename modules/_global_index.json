@@ -2,8 +2,8 @@
   "_meta": {
     "total_entries": 836,
     "folio_count": 11,
-    "xlink_pairs": 13,
-    "keyword_terms": 2570,
+    "xlink_pairs": 16,
+    "keyword_terms": 2833,
     "folios": [
       {
         "id": "anatomy-histology",
@@ -937,6 +937,22 @@
     ],
     "neuroscience::me4": [
       "general-cognitive-psych::me4"
+    ],
+    "general-cognitive-psych::fg13": [
+      "social-psychology::fg10",
+      "social-psychology::th10"
+    ],
+    "social-psychology::fg10": [
+      "general-cognitive-psych::fg13"
+    ],
+    "social-psychology::th10": [
+      "general-cognitive-psych::fg13"
+    ],
+    "general-cognitive-psych::db1": [
+      "social-psychology::db1"
+    ],
+    "social-psychology::db1": [
+      "general-cognitive-psych::db1"
     ],
     "general-cognitive-psych::db7": [
       "neuroscience::db8"
@@ -4877,6 +4893,414 @@
       "relativistic GPS correction",
       "gravitational kinematic GPS",
       "atomic clock time rate"
+    ],
+    "social-psychology::th1": [
+      "cognitive dissonance reduction",
+      "belief-behaviour inconsistency",
+      "attitude-behaviour gap",
+      "Festinger dissonance"
+    ],
+    "social-psychology::th2": [
+      "downward upward comparison",
+      "Festinger comparison drive",
+      "social rank comparison",
+      "self-evaluation comparison"
+    ],
+    "social-psychology::th3": [
+      "ingroup outgroup identity",
+      "social categorisation identity",
+      "group membership esteem",
+      "Tajfel Turner SIT"
+    ],
+    "social-psychology::th4": [
+      "dispositional situational attribution",
+      "internal external cause",
+      "Kelley covariation model",
+      "causal attribution"
+    ],
+    "social-psychology::th5": [
+      "central peripheral route persuasion",
+      "argument quality elaboration",
+      "Petty Cacioppo ELM",
+      "persuasion processing depth"
+    ],
+    "social-psychology::th6": [
+      "self-perception behaviour attitude",
+      "Bem self-perception",
+      "behaviour-induced attitude",
+      "inference from own action"
+    ],
+    "social-psychology::th7": [
+      "observational learning Bandura",
+      "vicarious reinforcement",
+      "model imitation aggression",
+      "social cognitive learning"
+    ],
+    "social-psychology::th8": [
+      "competition resource conflict",
+      "realistic group conflict",
+      "Sherif intergroup competition",
+      "zero-sum group conflict"
+    ],
+    "social-psychology::th9": [
+      "warmth competence perception",
+      "stereotype content warmth",
+      "Fiske SCM",
+      "envy pity contempt admiration"
+    ],
+    "social-psychology::th10": [
+      "availability heuristic",
+      "representativeness heuristic",
+      "anchoring framing heuristic",
+      "heuristics and biases"
+    ],
+    "social-psychology::th11": [
+      "frustration aggression link",
+      "displaced aggression",
+      "Dollard Miller frustration",
+      "catharsis aggression"
+    ],
+    "social-psychology::th12": [
+      "intimacy passion commitment",
+      "Sternberg love triangle",
+      "companionate consummate love",
+      "attachment love type"
+    ],
+    "social-psychology::st1": [
+      "conformity pressure majority",
+      "Asch line experiment",
+      "social pressure conformity",
+      "unanimous majority"
+    ],
+    "social-psychology::st2": [
+      "obedience authority shock",
+      "Milgram 65 percent",
+      "destructive obedience",
+      "authority compliance harm"
+    ],
+    "social-psychology::st3": [
+      "situational role prison",
+      "Zimbardo guard prisoner",
+      "role demand behaviour",
+      "institutional role effect"
+    ],
+    "social-psychology::st4": [
+      "intergroup conflict resolution",
+      "superordinate goal",
+      "Robbers Cave Sherif",
+      "competition cooperation camp"
+    ],
+    "social-psychology::st5": [
+      "bystander diffusion responsibility",
+      "Kitty Genovese effect",
+      "bystander non-intervention",
+      "plural ignorance"
+    ],
+    "social-psychology::st6": [
+      "Bobo doll aggression imitation",
+      "Bandura modelled aggression",
+      "observational aggression",
+      "film model violence"
+    ],
+    "social-psychology::st7": [
+      "forced compliance cognitive dissonance",
+      "one dollar twenty dollar",
+      "insufficient justification",
+      "post-decision dissonance"
+    ],
+    "social-psychology::st8": [
+      "situational helping behaviour",
+      "Good Samaritan Darley Batson",
+      "hurry effect helping",
+      "situational prosocial"
+    ],
+    "social-psychology::st9": [
+      "minimal group paradigm",
+      "intergroup bias minimal",
+      "Tajfel categorisation bias",
+      "ingroup favouritism minimal"
+    ],
+    "social-psychology::st10": [
+      "adult attachment romantic",
+      "Hazan Shaver attachment",
+      "secure avoidant anxious adult",
+      "attachment style adult"
+    ],
+    "social-psychology::ef1": [
+      "correspondence bias dispositional",
+      "actor situation error",
+      "fundamental attribution error",
+      "dispositional overattribution"
+    ],
+    "social-psychology::ef2": [
+      "familiarity liking exposure",
+      "repeated exposure mere",
+      "Zajonc mere exposure",
+      "stimulus familiarity attitude"
+    ],
+    "social-psychology::ef3": [
+      "audience presence performance",
+      "Zajonc social facilitation",
+      "dominant response audience",
+      "coaction arousal"
+    ],
+    "social-psychology::ef4": [
+      "groupthink concurrence seeking",
+      "Janis groupthink",
+      "cohesive group bad decision",
+      "illusion unanimity group"
+    ],
+    "social-psychology::ef5": [
+      "group discussion polarisation",
+      "risky shift conservative",
+      "group extremitisation",
+      "deliberation polarisation"
+    ],
+    "social-psychology::ef6": [
+      "halo effect attractiveness",
+      "first impression generalise",
+      "global trait inference",
+      "overall evaluation halo"
+    ],
+    "social-psychology::ef7": [
+      "projection consensus overestimate",
+      "false consensus bias",
+      "consensus overestimation self",
+      "social projection"
+    ],
+    "social-psychology::ef8": [
+      "actor observer attribution",
+      "situational self attribution",
+      "role access asymmetry",
+      "observer dispositional"
+    ],
+    "social-psychology::ef9": [
+      "performance threat stereotype",
+      "stereotype threat test",
+      "identity-based performance",
+      "Steele Aronson stereotype"
+    ],
+    "social-psychology::ef10": [
+      "proximity liking propinquity",
+      "mere propinquity effect",
+      "proximity friendship formation",
+      "physical closeness attraction"
+    ],
+    "social-psychology::co1": [
+      "attitude affective cognitive",
+      "attitude-behaviour link",
+      "implicit explicit attitude",
+      "Allport attitude"
+    ],
+    "social-psychology::co2": [
+      "stereotype prejudice discrimination",
+      "prejudice reduction",
+      "intergroup bias taxonomy",
+      "implicit explicit prejudice"
+    ],
+    "social-psychology::co3": [
+      "Asch Milgram conformity obedience",
+      "informational normative influence",
+      "social norm compliance",
+      "authority obedience norm"
+    ],
+    "social-psychology::co4": [
+      "schema cognitive structure social",
+      "social schema script",
+      "person schema prototype",
+      "schema-driven impression"
+    ],
+    "social-psychology::co5": [
+      "self-concept self-esteem",
+      "Rosenberg self-esteem scale",
+      "self-worth identity",
+      "self-evaluation affective"
+    ],
+    "social-psychology::co6": [
+      "implicit attitude measure",
+      "unconscious bias IAT",
+      "Green implicit association",
+      "automatic stereotype"
+    ],
+    "social-psychology::co7": [
+      "cognitive miser heuristic",
+      "limited capacity thinker",
+      "automatic deliberate processing",
+      "social perception shortcut"
+    ],
+    "social-psychology::me1": [
+      "Likert scale item",
+      "attitude survey scale",
+      "rating scale measure",
+      "psychometric scale design"
+    ],
+    "social-psychology::me2": [
+      "implicit association test IAT",
+      "reaction time bias",
+      "automatic attitude measurement",
+      "IAT D-score"
+    ],
+    "social-psychology::me3": [
+      "lost letter helpfulness",
+      "prosocial behaviour naturalistic",
+      "field measure altruism",
+      "stamp return technique"
+    ],
+    "social-psychology::me4": [
+      "deception experiment cover",
+      "debriefing ethical",
+      "confederate social psychology",
+      "laboratory deception"
+    ],
+    "social-psychology::me5": [
+      "meta-analysis effect size",
+      "vote counting integration",
+      "systematic review effect",
+      "quantitative literature synthesis"
+    ],
+    "social-psychology::me6": [
+      "pre-registration open science",
+      "registered report",
+      "open data transparency",
+      "replication reform"
+    ],
+    "social-psychology::fg1": [
+      "field theory social",
+      "action research Lewin",
+      "group dynamics founder",
+      "force field analysis"
+    ],
+    "social-psychology::fg2": [
+      "cognitive dissonance founder",
+      "social comparison Festinger",
+      "when prophecy fails",
+      "Festinger two theories"
+    ],
+    "social-psychology::fg3": [
+      "conformity line judgement Asch",
+      "social pressure majority",
+      "Asch paradigm",
+      "independence conformity"
+    ],
+    "social-psychology::fg4": [
+      "obedience study Milgram",
+      "authority harm obedience",
+      "electric shock experiment",
+      "Milgram agentic state"
+    ],
+    "social-psychology::fg5": [
+      "social identity theory Tajfel",
+      "ingroup outgroup categorisation",
+      "minimal group paradigm",
+      "intergroup discrimination"
+    ],
+    "social-psychology::fg6": [
+      "contact hypothesis prejudice",
+      "Allport prejudice nature",
+      "authoritarian personality",
+      "prejudice reduction Allport"
+    ],
+    "social-psychology::fg7": [
+      "Robbers Cave Sherif",
+      "realistic conflict theory",
+      "superordinate goal peace",
+      "intergroup conflict field"
+    ],
+    "social-psychology::fg8": [
+      "social learning Bandura",
+      "self-efficacy theory",
+      "reciprocal determinism",
+      "Bobo doll Bandura"
+    ],
+    "social-psychology::fg9": [
+      "cognitive miser Fiske Taylor",
+      "warmth competence Fiske",
+      "social cognition shortcuts",
+      "impression formation Fiske"
+    ],
+    "social-psychology::fg10": [
+      "heuristics and biases",
+      "availability heuristic",
+      "representativeness heuristic",
+      "anchoring framing effect"
+    ],
+    "social-psychology::db1": [
+      "replication crisis psychology",
+      "open science replication",
+      "psychology replication rate",
+      "failed replication social"
+    ],
+    "social-psychology::db2": [
+      "Stanford prison experiment critique",
+      "Zimbardo demand characteristics",
+      "Blum archive reanalysis",
+      "prison study debunking"
+    ],
+    "social-psychology::db3": [
+      "Milgram archive reanalysis",
+      "Gina Perry obedience",
+      "partial probe Milgram",
+      "obedience study critique"
+    ],
+    "social-psychology::db4": [
+      "ego depletion failed",
+      "glucose willpower collapse",
+      "self-control depletion replication",
+      "Baumeister ego depletion"
+    ],
+    "social-psychology::db5": [
+      "behavioural priming collapse",
+      "Bargh social priming",
+      "money priming replication fail",
+      "automatic behaviour priming"
+    ],
+    "social-psychology::db6": [
+      "person situation debate Mischel",
+      "cross-situational consistency",
+      "trait vs situation behaviour",
+      "CAPS Mischel"
+    ],
+    "social-psychology::db7": [
+      "WEIRD sample critique",
+      "Western educated industrial rich",
+      "cultural psychology sample",
+      "cross-cultural generalisability"
+    ],
+    "social-psychology::ap1": [
+      "intergroup contact hypothesis",
+      "prejudice reduction contact",
+      "Allport contact conditions",
+      "positive intergroup contact"
+    ],
+    "social-psychology::ap2": [
+      "jigsaw classroom cooperation",
+      "Aronson cooperative learning",
+      "interdependent classroom",
+      "desegregation technique"
+    ],
+    "social-psychology::ap3": [
+      "nudge choice architecture",
+      "default option behaviour",
+      "libertarian paternalism Thaler",
+      "behavioural public policy"
+    ],
+    "social-psychology::ap4": [
+      "fear appeal health message",
+      "threat efficacy health",
+      "extended parallel process",
+      "fear arousal persuasion"
+    ],
+    "social-psychology::ap5": [
+      "dissonance attitude change",
+      "hypocrisy induction technique",
+      "cognitive dissonance applied",
+      "commitment consistency"
+    ],
+    "social-psychology::ap6": [
+      "Cialdini persuasion principle",
+      "reciprocity scarcity social proof",
+      "influence Cialdini six",
+      "commitment consistency"
     ]
   },
   "keyword_index": {
@@ -8373,13 +8797,19 @@
       "general-cognitive-psych::db8"
     ],
     "heuristics and biases": [
-      "general-cognitive-psych::fg13"
+      "general-cognitive-psych::fg13",
+      "social-psychology::th10",
+      "social-psychology::fg10"
     ],
     "availability heuristic": [
-      "general-cognitive-psych::fg13"
+      "general-cognitive-psych::fg13",
+      "social-psychology::th10",
+      "social-psychology::fg10"
     ],
     "representativeness heuristic": [
-      "general-cognitive-psych::fg13"
+      "general-cognitive-psych::fg13",
+      "social-psychology::th10",
+      "social-psychology::fg10"
     ],
     "anchoring": [
       "general-cognitive-psych::fg13"
@@ -12669,6 +13099,798 @@
     ],
     "atomic clock time rate": [
       "quantum-nuclear-relativity::ap6"
+    ],
+    "cognitive dissonance reduction": [
+      "social-psychology::th1"
+    ],
+    "belief-behaviour inconsistency": [
+      "social-psychology::th1"
+    ],
+    "attitude-behaviour gap": [
+      "social-psychology::th1"
+    ],
+    "Festinger dissonance": [
+      "social-psychology::th1"
+    ],
+    "downward upward comparison": [
+      "social-psychology::th2"
+    ],
+    "Festinger comparison drive": [
+      "social-psychology::th2"
+    ],
+    "social rank comparison": [
+      "social-psychology::th2"
+    ],
+    "self-evaluation comparison": [
+      "social-psychology::th2"
+    ],
+    "ingroup outgroup identity": [
+      "social-psychology::th3"
+    ],
+    "social categorisation identity": [
+      "social-psychology::th3"
+    ],
+    "group membership esteem": [
+      "social-psychology::th3"
+    ],
+    "Tajfel Turner SIT": [
+      "social-psychology::th3"
+    ],
+    "dispositional situational attribution": [
+      "social-psychology::th4"
+    ],
+    "internal external cause": [
+      "social-psychology::th4"
+    ],
+    "Kelley covariation model": [
+      "social-psychology::th4"
+    ],
+    "causal attribution": [
+      "social-psychology::th4"
+    ],
+    "central peripheral route persuasion": [
+      "social-psychology::th5"
+    ],
+    "argument quality elaboration": [
+      "social-psychology::th5"
+    ],
+    "Petty Cacioppo ELM": [
+      "social-psychology::th5"
+    ],
+    "persuasion processing depth": [
+      "social-psychology::th5"
+    ],
+    "self-perception behaviour attitude": [
+      "social-psychology::th6"
+    ],
+    "Bem self-perception": [
+      "social-psychology::th6"
+    ],
+    "behaviour-induced attitude": [
+      "social-psychology::th6"
+    ],
+    "inference from own action": [
+      "social-psychology::th6"
+    ],
+    "observational learning Bandura": [
+      "social-psychology::th7"
+    ],
+    "vicarious reinforcement": [
+      "social-psychology::th7"
+    ],
+    "model imitation aggression": [
+      "social-psychology::th7"
+    ],
+    "social cognitive learning": [
+      "social-psychology::th7"
+    ],
+    "competition resource conflict": [
+      "social-psychology::th8"
+    ],
+    "realistic group conflict": [
+      "social-psychology::th8"
+    ],
+    "Sherif intergroup competition": [
+      "social-psychology::th8"
+    ],
+    "zero-sum group conflict": [
+      "social-psychology::th8"
+    ],
+    "warmth competence perception": [
+      "social-psychology::th9"
+    ],
+    "stereotype content warmth": [
+      "social-psychology::th9"
+    ],
+    "Fiske SCM": [
+      "social-psychology::th9"
+    ],
+    "envy pity contempt admiration": [
+      "social-psychology::th9"
+    ],
+    "anchoring framing heuristic": [
+      "social-psychology::th10"
+    ],
+    "frustration aggression link": [
+      "social-psychology::th11"
+    ],
+    "displaced aggression": [
+      "social-psychology::th11"
+    ],
+    "Dollard Miller frustration": [
+      "social-psychology::th11"
+    ],
+    "catharsis aggression": [
+      "social-psychology::th11"
+    ],
+    "intimacy passion commitment": [
+      "social-psychology::th12"
+    ],
+    "Sternberg love triangle": [
+      "social-psychology::th12"
+    ],
+    "companionate consummate love": [
+      "social-psychology::th12"
+    ],
+    "attachment love type": [
+      "social-psychology::th12"
+    ],
+    "conformity pressure majority": [
+      "social-psychology::st1"
+    ],
+    "Asch line experiment": [
+      "social-psychology::st1"
+    ],
+    "social pressure conformity": [
+      "social-psychology::st1"
+    ],
+    "unanimous majority": [
+      "social-psychology::st1"
+    ],
+    "obedience authority shock": [
+      "social-psychology::st2"
+    ],
+    "Milgram 65 percent": [
+      "social-psychology::st2"
+    ],
+    "destructive obedience": [
+      "social-psychology::st2"
+    ],
+    "authority compliance harm": [
+      "social-psychology::st2"
+    ],
+    "situational role prison": [
+      "social-psychology::st3"
+    ],
+    "Zimbardo guard prisoner": [
+      "social-psychology::st3"
+    ],
+    "role demand behaviour": [
+      "social-psychology::st3"
+    ],
+    "institutional role effect": [
+      "social-psychology::st3"
+    ],
+    "intergroup conflict resolution": [
+      "social-psychology::st4"
+    ],
+    "superordinate goal": [
+      "social-psychology::st4"
+    ],
+    "Robbers Cave Sherif": [
+      "social-psychology::st4",
+      "social-psychology::fg7"
+    ],
+    "competition cooperation camp": [
+      "social-psychology::st4"
+    ],
+    "bystander diffusion responsibility": [
+      "social-psychology::st5"
+    ],
+    "Kitty Genovese effect": [
+      "social-psychology::st5"
+    ],
+    "bystander non-intervention": [
+      "social-psychology::st5"
+    ],
+    "plural ignorance": [
+      "social-psychology::st5"
+    ],
+    "Bobo doll aggression imitation": [
+      "social-psychology::st6"
+    ],
+    "Bandura modelled aggression": [
+      "social-psychology::st6"
+    ],
+    "observational aggression": [
+      "social-psychology::st6"
+    ],
+    "film model violence": [
+      "social-psychology::st6"
+    ],
+    "forced compliance cognitive dissonance": [
+      "social-psychology::st7"
+    ],
+    "one dollar twenty dollar": [
+      "social-psychology::st7"
+    ],
+    "insufficient justification": [
+      "social-psychology::st7"
+    ],
+    "post-decision dissonance": [
+      "social-psychology::st7"
+    ],
+    "situational helping behaviour": [
+      "social-psychology::st8"
+    ],
+    "Good Samaritan Darley Batson": [
+      "social-psychology::st8"
+    ],
+    "hurry effect helping": [
+      "social-psychology::st8"
+    ],
+    "situational prosocial": [
+      "social-psychology::st8"
+    ],
+    "minimal group paradigm": [
+      "social-psychology::st9",
+      "social-psychology::fg5"
+    ],
+    "intergroup bias minimal": [
+      "social-psychology::st9"
+    ],
+    "Tajfel categorisation bias": [
+      "social-psychology::st9"
+    ],
+    "ingroup favouritism minimal": [
+      "social-psychology::st9"
+    ],
+    "adult attachment romantic": [
+      "social-psychology::st10"
+    ],
+    "Hazan Shaver attachment": [
+      "social-psychology::st10"
+    ],
+    "secure avoidant anxious adult": [
+      "social-psychology::st10"
+    ],
+    "attachment style adult": [
+      "social-psychology::st10"
+    ],
+    "correspondence bias dispositional": [
+      "social-psychology::ef1"
+    ],
+    "actor situation error": [
+      "social-psychology::ef1"
+    ],
+    "fundamental attribution error": [
+      "social-psychology::ef1"
+    ],
+    "dispositional overattribution": [
+      "social-psychology::ef1"
+    ],
+    "familiarity liking exposure": [
+      "social-psychology::ef2"
+    ],
+    "repeated exposure mere": [
+      "social-psychology::ef2"
+    ],
+    "Zajonc mere exposure": [
+      "social-psychology::ef2"
+    ],
+    "stimulus familiarity attitude": [
+      "social-psychology::ef2"
+    ],
+    "audience presence performance": [
+      "social-psychology::ef3"
+    ],
+    "Zajonc social facilitation": [
+      "social-psychology::ef3"
+    ],
+    "dominant response audience": [
+      "social-psychology::ef3"
+    ],
+    "coaction arousal": [
+      "social-psychology::ef3"
+    ],
+    "groupthink concurrence seeking": [
+      "social-psychology::ef4"
+    ],
+    "Janis groupthink": [
+      "social-psychology::ef4"
+    ],
+    "cohesive group bad decision": [
+      "social-psychology::ef4"
+    ],
+    "illusion unanimity group": [
+      "social-psychology::ef4"
+    ],
+    "group discussion polarisation": [
+      "social-psychology::ef5"
+    ],
+    "risky shift conservative": [
+      "social-psychology::ef5"
+    ],
+    "group extremitisation": [
+      "social-psychology::ef5"
+    ],
+    "deliberation polarisation": [
+      "social-psychology::ef5"
+    ],
+    "halo effect attractiveness": [
+      "social-psychology::ef6"
+    ],
+    "first impression generalise": [
+      "social-psychology::ef6"
+    ],
+    "global trait inference": [
+      "social-psychology::ef6"
+    ],
+    "overall evaluation halo": [
+      "social-psychology::ef6"
+    ],
+    "projection consensus overestimate": [
+      "social-psychology::ef7"
+    ],
+    "false consensus bias": [
+      "social-psychology::ef7"
+    ],
+    "consensus overestimation self": [
+      "social-psychology::ef7"
+    ],
+    "social projection": [
+      "social-psychology::ef7"
+    ],
+    "actor observer attribution": [
+      "social-psychology::ef8"
+    ],
+    "situational self attribution": [
+      "social-psychology::ef8"
+    ],
+    "role access asymmetry": [
+      "social-psychology::ef8"
+    ],
+    "observer dispositional": [
+      "social-psychology::ef8"
+    ],
+    "performance threat stereotype": [
+      "social-psychology::ef9"
+    ],
+    "stereotype threat test": [
+      "social-psychology::ef9"
+    ],
+    "identity-based performance": [
+      "social-psychology::ef9"
+    ],
+    "Steele Aronson stereotype": [
+      "social-psychology::ef9"
+    ],
+    "proximity liking propinquity": [
+      "social-psychology::ef10"
+    ],
+    "mere propinquity effect": [
+      "social-psychology::ef10"
+    ],
+    "proximity friendship formation": [
+      "social-psychology::ef10"
+    ],
+    "physical closeness attraction": [
+      "social-psychology::ef10"
+    ],
+    "attitude affective cognitive": [
+      "social-psychology::co1"
+    ],
+    "attitude-behaviour link": [
+      "social-psychology::co1"
+    ],
+    "implicit explicit attitude": [
+      "social-psychology::co1"
+    ],
+    "Allport attitude": [
+      "social-psychology::co1"
+    ],
+    "stereotype prejudice discrimination": [
+      "social-psychology::co2"
+    ],
+    "prejudice reduction": [
+      "social-psychology::co2"
+    ],
+    "intergroup bias taxonomy": [
+      "social-psychology::co2"
+    ],
+    "implicit explicit prejudice": [
+      "social-psychology::co2"
+    ],
+    "Asch Milgram conformity obedience": [
+      "social-psychology::co3"
+    ],
+    "informational normative influence": [
+      "social-psychology::co3"
+    ],
+    "social norm compliance": [
+      "social-psychology::co3"
+    ],
+    "authority obedience norm": [
+      "social-psychology::co3"
+    ],
+    "schema cognitive structure social": [
+      "social-psychology::co4"
+    ],
+    "social schema script": [
+      "social-psychology::co4"
+    ],
+    "person schema prototype": [
+      "social-psychology::co4"
+    ],
+    "schema-driven impression": [
+      "social-psychology::co4"
+    ],
+    "self-concept self-esteem": [
+      "social-psychology::co5"
+    ],
+    "Rosenberg self-esteem scale": [
+      "social-psychology::co5"
+    ],
+    "self-worth identity": [
+      "social-psychology::co5"
+    ],
+    "self-evaluation affective": [
+      "social-psychology::co5"
+    ],
+    "implicit attitude measure": [
+      "social-psychology::co6"
+    ],
+    "unconscious bias IAT": [
+      "social-psychology::co6"
+    ],
+    "Green implicit association": [
+      "social-psychology::co6"
+    ],
+    "automatic stereotype": [
+      "social-psychology::co6"
+    ],
+    "cognitive miser heuristic": [
+      "social-psychology::co7"
+    ],
+    "limited capacity thinker": [
+      "social-psychology::co7"
+    ],
+    "automatic deliberate processing": [
+      "social-psychology::co7"
+    ],
+    "social perception shortcut": [
+      "social-psychology::co7"
+    ],
+    "Likert scale item": [
+      "social-psychology::me1"
+    ],
+    "attitude survey scale": [
+      "social-psychology::me1"
+    ],
+    "rating scale measure": [
+      "social-psychology::me1"
+    ],
+    "psychometric scale design": [
+      "social-psychology::me1"
+    ],
+    "implicit association test IAT": [
+      "social-psychology::me2"
+    ],
+    "reaction time bias": [
+      "social-psychology::me2"
+    ],
+    "automatic attitude measurement": [
+      "social-psychology::me2"
+    ],
+    "IAT D-score": [
+      "social-psychology::me2"
+    ],
+    "lost letter helpfulness": [
+      "social-psychology::me3"
+    ],
+    "prosocial behaviour naturalistic": [
+      "social-psychology::me3"
+    ],
+    "field measure altruism": [
+      "social-psychology::me3"
+    ],
+    "stamp return technique": [
+      "social-psychology::me3"
+    ],
+    "deception experiment cover": [
+      "social-psychology::me4"
+    ],
+    "debriefing ethical": [
+      "social-psychology::me4"
+    ],
+    "confederate social psychology": [
+      "social-psychology::me4"
+    ],
+    "laboratory deception": [
+      "social-psychology::me4"
+    ],
+    "meta-analysis effect size": [
+      "social-psychology::me5"
+    ],
+    "vote counting integration": [
+      "social-psychology::me5"
+    ],
+    "systematic review effect": [
+      "social-psychology::me5"
+    ],
+    "quantitative literature synthesis": [
+      "social-psychology::me5"
+    ],
+    "pre-registration open science": [
+      "social-psychology::me6"
+    ],
+    "registered report": [
+      "social-psychology::me6"
+    ],
+    "open data transparency": [
+      "social-psychology::me6"
+    ],
+    "replication reform": [
+      "social-psychology::me6"
+    ],
+    "field theory social": [
+      "social-psychology::fg1"
+    ],
+    "action research Lewin": [
+      "social-psychology::fg1"
+    ],
+    "group dynamics founder": [
+      "social-psychology::fg1"
+    ],
+    "force field analysis": [
+      "social-psychology::fg1"
+    ],
+    "cognitive dissonance founder": [
+      "social-psychology::fg2"
+    ],
+    "social comparison Festinger": [
+      "social-psychology::fg2"
+    ],
+    "when prophecy fails": [
+      "social-psychology::fg2"
+    ],
+    "Festinger two theories": [
+      "social-psychology::fg2"
+    ],
+    "conformity line judgement Asch": [
+      "social-psychology::fg3"
+    ],
+    "social pressure majority": [
+      "social-psychology::fg3"
+    ],
+    "Asch paradigm": [
+      "social-psychology::fg3"
+    ],
+    "independence conformity": [
+      "social-psychology::fg3"
+    ],
+    "obedience study Milgram": [
+      "social-psychology::fg4"
+    ],
+    "authority harm obedience": [
+      "social-psychology::fg4"
+    ],
+    "electric shock experiment": [
+      "social-psychology::fg4"
+    ],
+    "Milgram agentic state": [
+      "social-psychology::fg4"
+    ],
+    "social identity theory Tajfel": [
+      "social-psychology::fg5"
+    ],
+    "ingroup outgroup categorisation": [
+      "social-psychology::fg5"
+    ],
+    "intergroup discrimination": [
+      "social-psychology::fg5"
+    ],
+    "contact hypothesis prejudice": [
+      "social-psychology::fg6"
+    ],
+    "Allport prejudice nature": [
+      "social-psychology::fg6"
+    ],
+    "authoritarian personality": [
+      "social-psychology::fg6"
+    ],
+    "prejudice reduction Allport": [
+      "social-psychology::fg6"
+    ],
+    "realistic conflict theory": [
+      "social-psychology::fg7"
+    ],
+    "superordinate goal peace": [
+      "social-psychology::fg7"
+    ],
+    "intergroup conflict field": [
+      "social-psychology::fg7"
+    ],
+    "social learning Bandura": [
+      "social-psychology::fg8"
+    ],
+    "self-efficacy theory": [
+      "social-psychology::fg8"
+    ],
+    "reciprocal determinism": [
+      "social-psychology::fg8"
+    ],
+    "Bobo doll Bandura": [
+      "social-psychology::fg8"
+    ],
+    "cognitive miser Fiske Taylor": [
+      "social-psychology::fg9"
+    ],
+    "warmth competence Fiske": [
+      "social-psychology::fg9"
+    ],
+    "social cognition shortcuts": [
+      "social-psychology::fg9"
+    ],
+    "impression formation Fiske": [
+      "social-psychology::fg9"
+    ],
+    "anchoring framing effect": [
+      "social-psychology::fg10"
+    ],
+    "replication crisis psychology": [
+      "social-psychology::db1"
+    ],
+    "open science replication": [
+      "social-psychology::db1"
+    ],
+    "psychology replication rate": [
+      "social-psychology::db1"
+    ],
+    "failed replication social": [
+      "social-psychology::db1"
+    ],
+    "Stanford prison experiment critique": [
+      "social-psychology::db2"
+    ],
+    "Zimbardo demand characteristics": [
+      "social-psychology::db2"
+    ],
+    "Blum archive reanalysis": [
+      "social-psychology::db2"
+    ],
+    "prison study debunking": [
+      "social-psychology::db2"
+    ],
+    "Milgram archive reanalysis": [
+      "social-psychology::db3"
+    ],
+    "Gina Perry obedience": [
+      "social-psychology::db3"
+    ],
+    "partial probe Milgram": [
+      "social-psychology::db3"
+    ],
+    "obedience study critique": [
+      "social-psychology::db3"
+    ],
+    "ego depletion failed": [
+      "social-psychology::db4"
+    ],
+    "glucose willpower collapse": [
+      "social-psychology::db4"
+    ],
+    "self-control depletion replication": [
+      "social-psychology::db4"
+    ],
+    "Baumeister ego depletion": [
+      "social-psychology::db4"
+    ],
+    "behavioural priming collapse": [
+      "social-psychology::db5"
+    ],
+    "Bargh social priming": [
+      "social-psychology::db5"
+    ],
+    "money priming replication fail": [
+      "social-psychology::db5"
+    ],
+    "automatic behaviour priming": [
+      "social-psychology::db5"
+    ],
+    "person situation debate Mischel": [
+      "social-psychology::db6"
+    ],
+    "cross-situational consistency": [
+      "social-psychology::db6"
+    ],
+    "trait vs situation behaviour": [
+      "social-psychology::db6"
+    ],
+    "CAPS Mischel": [
+      "social-psychology::db6"
+    ],
+    "WEIRD sample critique": [
+      "social-psychology::db7"
+    ],
+    "Western educated industrial rich": [
+      "social-psychology::db7"
+    ],
+    "cultural psychology sample": [
+      "social-psychology::db7"
+    ],
+    "cross-cultural generalisability": [
+      "social-psychology::db7"
+    ],
+    "intergroup contact hypothesis": [
+      "social-psychology::ap1"
+    ],
+    "prejudice reduction contact": [
+      "social-psychology::ap1"
+    ],
+    "Allport contact conditions": [
+      "social-psychology::ap1"
+    ],
+    "positive intergroup contact": [
+      "social-psychology::ap1"
+    ],
+    "jigsaw classroom cooperation": [
+      "social-psychology::ap2"
+    ],
+    "Aronson cooperative learning": [
+      "social-psychology::ap2"
+    ],
+    "interdependent classroom": [
+      "social-psychology::ap2"
+    ],
+    "desegregation technique": [
+      "social-psychology::ap2"
+    ],
+    "nudge choice architecture": [
+      "social-psychology::ap3"
+    ],
+    "default option behaviour": [
+      "social-psychology::ap3"
+    ],
+    "libertarian paternalism Thaler": [
+      "social-psychology::ap3"
+    ],
+    "behavioural public policy": [
+      "social-psychology::ap3"
+    ],
+    "fear appeal health message": [
+      "social-psychology::ap4"
+    ],
+    "threat efficacy health": [
+      "social-psychology::ap4"
+    ],
+    "extended parallel process": [
+      "social-psychology::ap4"
+    ],
+    "fear arousal persuasion": [
+      "social-psychology::ap4"
+    ],
+    "dissonance attitude change": [
+      "social-psychology::ap5"
+    ],
+    "hypocrisy induction technique": [
+      "social-psychology::ap5"
+    ],
+    "cognitive dissonance applied": [
+      "social-psychology::ap5"
+    ],
+    "commitment consistency": [
+      "social-psychology::ap5",
+      "social-psychology::ap6"
+    ],
+    "Cialdini persuasion principle": [
+      "social-psychology::ap6"
+    ],
+    "reciprocity scarcity social proof": [
+      "social-psychology::ap6"
+    ],
+    "influence Cialdini six": [
+      "social-psychology::ap6"
     ]
   }
 }
