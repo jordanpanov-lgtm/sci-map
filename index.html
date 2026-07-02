@@ -329,7 +329,7 @@ const FIELDS = [
   { id:"astronomy-cosmology",        domain:"earth-space",       label:"Astronomy, Astrophysics & Cosmology",       sub:"Stars, galaxies & the origin and fate of the universe",                 status:"planned" },
   { id:"geology",                    domain:"earth-space",       label:"Geology & Solid Earth Systems",             sub:"Rocks, tectonics, deep time & Earth's interior",                        status:"planned" },
   { id:"meteorology",                domain:"earth-space",       label:"Meteorology & Atmospheric Sciences",        sub:"Weather, climate & the physics of the atmosphere",                      status:"planned" },
-  { id:"oceanography",               domain:"earth-space",       label:"Oceanography & Marine Sciences",            sub:"Ocean circulation, marine ecosystems & the deep sea",                   status:"planned" },
+  { id:"oceanography",               domain:"earth-space",       label:"Oceanography & Marine Sciences",            sub:"Ocean circulation, marine ecosystems & the deep sea",                   status:"ready",   file:"modules/oceanography.json" },
   { id:"environmental-science",      domain:"earth-space",       label:"Environmental Science & Sustainability",    sub:"Earth systems under human pressure — ecology & climate change",          status:"planned" },
   // ── FORMAL SCIENCES & COMPUTING ──────────────────────────────────────────────
   { id:"logic-math-foundations",     domain:"formal-computing",  label:"Logic & Foundations of Mathematics",        sub:"Proof, sets, axioms & the philosophy of mathematical truth",             status:"planned" },
@@ -1679,6 +1679,52 @@ const STUDY_PLANS = {
         title: '6 — Social Epistemology & Epistemic Justice',
         rationale: 'The final module socialises epistemology: knowledge is not assembled in solitary minds but produced, transmitted, and certified through communities, institutions, and power structures. Testimony, peer disagreement, and echo chambers show how social facts shape individual belief. Fricker\'s epistemic injustice reveals that the same credibility-assessment processes that generate knowledge can simultaneously constitute a wrong done to a person as a knower. Epistemic relativism, and the global questions of who owns knowledge, close the arc — returning to the field\'s starting questions with an awareness of whose voices have historically counted.',
         groups: ['Social Epistemology', 'Epistemic Justice & Situated Knowledge']
+      }
+    ]
+  },
+  'oceanography': {
+    meta: 'Opens with the twelve pioneers who transformed ocean science from a maritime curiosity into a rigorous discipline — from Maury\'s wind charts to Shackleton\'s sediment cores. The curriculum then follows the structure of the ocean itself: physical circulation, chemical cycling, marine biology, the deep seafloor, and climate connections. Methods and observation tools are treated as a module in their own right, because the history of oceanography is largely the history of getting instruments into the sea. The course closes with the conservation, policy and open-question frontier where the science meets its most urgent social stakes.',
+    modules: [
+      {
+        title: '1 — Pioneers & Theorists',
+        rationale: 'The twelve figures front-loaded here span 170 years of ocean science: from Maury and Thomson founding the discipline to Munk publishing peer-reviewed papers into his 90s. Their careers are road-maps to the major intellectual transitions — descriptive surveys (Maury, Thomson, Nansen) to dynamical theory (Sverdrup, Stommel, Munk), laboratory chemistry to planetary carbon accounting (Revelle, Keeling), physical oceanography to ecological advocacy (Earle, Tharp, Shackleton). Return here to anchor any theory or measurement to a person.',
+        cats: ['figure']
+      },
+      {
+        title: '2 — The Physical Ocean: Circulation & Dynamics',
+        rationale: 'The ocean moves on timescales from seconds (internal waves) to millennia (thermohaline conveyor). This module builds the physical picture in sequence: Ekman transport explains why surface water moves 90° to the wind and why coasts upwell; the Sverdrup balance explains the existence of subtropical gyres; Stommel\'s β-effect explains western boundary current intensification; and thermohaline circulation connects all basins in a single planetary overturning. Methods, effects and applications that belong to the physical ocean — ADCP surveys, Langmuir cells, offshore wind — are captured here.',
+        groups: ['Physical Oceanography']
+      },
+      {
+        title: '3 — Ocean Chemistry & the Carbon Cycle',
+        rationale: 'The ocean is both a vast chemical reactor and the dominant long-term regulator of atmospheric CO₂. This module covers the two pumps that move carbon from surface to depth — the solubility pump and the biological pump — and the Redfield ratio\'s proof that life controls ocean chemistry rather than the other way round. Revelle\'s buffer factor, GEOSECS tracer surveys, ocean acidification, and the debates over pump efficiency and iron fertilisation fill out the picture. Ocean-based CDR proposals are assessed against this chemical foundation.',
+        groups: ['Chemical Oceanography']
+      },
+      {
+        title: '4 — The Living Ocean: Biology & Ecology',
+        rationale: 'From phytoplankton in the photic zone to apex predators and the deep scattering layer, this module covers the ecological architecture of the ocean. Darwin\'s coral atoll theory introduces how biology and geology intertwine over geological time. Trophic cascade theory explains why removing apex predators restructures entire ecosystems. Harmful algal blooms, blue carbon sequestration, fisheries MSY and the debates over coral reef fate and mesopelagic biomass complete the biological arc from production to conservation.',
+        groups: ['Marine Biology & Ecology']
+      },
+      {
+        title: '5 — The Deep Sea & Seafloor',
+        rationale: 'Below 200 m the ocean is dark, cold, and — until the 20th century — almost completely unknown. Plate tectonics and seafloor spreading explain why the ocean floor is young and geologically active. Hydrothermal vent discovery overturned the assumption that sunlight is the basis of all life. Tharp\'s mapping gave the deep sea a geography. Sediment cores encode hundreds of thousands of years of climate history in foram shells. Turbidity currents, the deep scattering layer, the mesopelagic biomass debate and the deep-sea mining controversy populate the zones between the surface and the abyss.',
+        groups: ['Deep Sea & Seafloor']
+      },
+      {
+        title: '6 — Ocean, Climate & Paleoclimate',
+        rationale: 'The ocean both drives and records climate. ENSO is the largest source of interannual climate variability; the thermohaline conveyor distributes heat across hemispheres on millennial timescales; the sea-ice albedo feedback amplifies Arctic warming three to four times the global rate. Deep-sea sediment cores confirmed Milanković orbital forcing as the pacemaker of ice ages. This module includes the two most consequential open debates in ocean-climate science: whether the AMOC is approaching a tipping point, and how fast marine ice sheets will drive sea-level rise.',
+        groups: ['Climate & Ocean Interaction']
+      },
+      {
+        title: '7 — Observing the Ocean: Tools & Methods',
+        rationale: 'Oceanography has always been tool-limited: knowledge is sparse until you can get instruments into the sea reliably, cheaply and repeatedly. This module traces the methodological revolution from piston corers and Nansen bottles (sampling one cast at a time) through electronic CTDs, ADCPs and sediment traps (systematic depth profiling) to Argo floats and ocean-colour satellites (global, near-real-time monitoring). Ocean tracers — CFCs, radiocarbon, tritium — convert T-S snapshots into circulation rate estimates. Operational forecasting closes the loop from measurement to applied prediction.',
+        groups: ['Ocean Observation & Methods']
+      },
+      {
+        title: '8 — Conservation, Policy & Open Frontiers',
+        rationale: 'The final module takes ocean science to its social stakes: fisheries management (is MSY working?), marine protected areas and the BBNJ high-seas treaty (how much protection exists and is it effective?), and tsunami early warning (the clearest example of ocean science saving lives). The Great Pacific Garbage Patch and Gulf of Mexico dead zone surveys show what global-scale pollution looks like as data. Remaining debates and application entries are captured here as a safety net.',
+        groups: ['Marine Conservation & Policy'],
+        cats: ['debate', 'application']
       }
     ]
   }

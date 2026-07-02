@@ -13,6 +13,113 @@
   ],
   "mapZoom": 2,
   "methodology": "METHODOLOGY · Every entry anchors to a landmark study, paper, dataset, expedition or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags replication status, effect-size revisions and known controversies. Studies and effects carry a replicability badge — 🟢 robust · 🟡 nuanced or reduced · 🔴 failed or severely contested. Map pins mark the institution or location where the work was carried out.",
+  "_meta": {
+    "total_entries": 71,
+    "entry_counts": {
+      "theory": 10,
+      "study": 11,
+      "effect": 10,
+      "concept": 8,
+      "method": 6,
+      "figure": 12,
+      "debate": 8,
+      "application": 6
+    },
+    "max_ids": {
+      "th": 10,
+      "st": 11,
+      "ef": 10,
+      "co": 8,
+      "me": 6,
+      "fg": 12,
+      "db": 8,
+      "ap": 6
+    },
+    "groups": [
+      "Chemical Oceanography",
+      "Climate & Ocean Interaction",
+      "Deep Sea & Seafloor",
+      "Marine Biology & Ecology",
+      "Marine Conservation & Policy",
+      "Ocean Observation & Methods",
+      "Physical Oceanography",
+      "Pioneers & Theorists"
+    ],
+    "last_updated": "2026-07-02"
+  },
+  "_index": {
+    "th1": "theory · Physical Oceanography · Thermohaline Circulation (Great Ocean Conveyor) (1961)",
+    "th2": "theory · Physical Oceanography · Wind-Driven Ocean Circulation & Sverdrup Balance (1947)",
+    "th3": "theory · Physical Oceanography · Ekman Transport & Spiral (1905)",
+    "th4": "theory · Climate & Ocean Interaction · El Niño–Southern Oscillation (ENSO) Theory (1969)",
+    "th5": "theory · Marine Biology & Ecology · Darwin's Coral Atoll Subsidence Theory (1842)",
+    "th6": "theory · Chemical Oceanography · Biological Pump (1985)",
+    "th7": "theory · Deep Sea & Seafloor · Seafloor Spreading & Ocean Basin Formation (1960)",
+    "th8": "theory · Marine Biology & Ecology · Marine Trophic Cascade Theory (1974)",
+    "th9": "theory · Deep Sea & Seafloor · Deep Scattering Layer (DSL) (1948)",
+    "th10": "theory · Climate & Ocean Interaction · Orbital Forcing & Milanković Cycles (1976)",
+    "st1": "study · Ocean Observation & Methods · HMS Challenger Expedition (1872)",
+    "st2": "study · Deep Sea & Seafloor · Discovery of Hydrothermal Vents (Galápagos Rift) (1977)",
+    "st3": "study · Chemical Oceanography · Revelle & Suess — Ocean CO₂ Uptake Study (1957)",
+    "st4": "study · Deep Sea & Seafloor · Marie Tharp & Heezen — Ocean Floor Mapping (1952)",
+    "st5": "study · Chemical Oceanography · GEOSECS — First Global Ocean Chemistry Sections (1972)",
+    "st6": "study · Physical Oceanography · Stommel's Gulf Stream Studies (1958)",
+    "st7": "study · Marine Conservation & Policy · Great Pacific Garbage Patch Discovery (1997)",
+    "st8": "study · Climate & Ocean Interaction · Pacemaker of the Ice Ages (Hays, Imbrie & Shackleton) (1976)",
+    "st9": "study · Ocean Observation & Methods · The Argo Programme — Global Ocean Profiling (2000)",
+    "st10": "study · Marine Conservation & Policy · Gulf of Mexico Dead Zone Surveys (1985)",
+    "st11": "study · Marine Biology & Ecology · Blue Carbon — Seagrass & Mangrove Sequestration Studies (2010)",
+    "ef1": "effect · Physical Oceanography · Coastal Upwelling & Eastern Boundary Productivity (1938)",
+    "ef2": "effect · Marine Biology & Ecology · Coral Bleaching (Thermal Stress Response) (1983)",
+    "ef3": "effect · Chemical Oceanography · Oxygen Minimum Zone (OMZ) (1925)",
+    "ef4": "effect · Marine Biology & Ecology · Harmful Algal Bloom (HAB) / Red Tide (1947)",
+    "ef5": "effect · Physical Oceanography · Langmuir Circulation & Wind Rows (1938)",
+    "ef6": "effect · Deep Sea & Seafloor · Marine Snow & Particle Flux (1977)",
+    "ef7": "effect · Physical Oceanography · Internal Waves & Tidal Mixing (1966)",
+    "ef8": "effect · Climate & Ocean Interaction · Sea-Ice–Albedo Feedback (Arctic Amplification) (1969)",
+    "ef9": "effect · Deep Sea & Seafloor · Turbidity Currents & Submarine Landslides (1929)",
+    "ef10": "effect · Chemical Oceanography · Ocean Deoxygenation (Expanding OMZs) (2010)",
+    "co1": "concept · Physical Oceanography · T-S Diagram & Water Mass Identification (1916)",
+    "co2": "concept · Physical Oceanography · Ocean Stratification & the Permanent Pycnocline (1942)",
+    "co3": "concept · Marine Biology & Ecology · Photic Zone & Marine Primary Production (1953)",
+    "co4": "concept · Chemical Oceanography · Ocean Acidification (2003)",
+    "co5": "concept · Chemical Oceanography · Redfield Ratio & Marine Nutrient Stoichiometry (1934)",
+    "co6": "concept · Marine Biology & Ecology · Marine Life Zones (Pelagic, Benthic, Hadal) (1957)",
+    "co7": "concept · Climate & Ocean Interaction · Sea Level Rise — Drivers & Measurement (1993)",
+    "co8": "concept · Physical Oceanography · Subtropical Gyres as Convergence Zones (1950)",
+    "me1": "method · Ocean Observation & Methods · CTD Profiler (Conductivity-Temperature-Depth) (1972)",
+    "me2": "method · Deep Sea & Seafloor · Sediment Core Analysis (Paleoceanography) (1947)",
+    "me3": "method · Ocean Observation & Methods · Satellite Ocean Colour & Remote Sensing (1978)",
+    "me4": "method · Ocean Observation & Methods · Acoustic Doppler Current Profiling (ADCP) (1982)",
+    "me5": "method · Ocean Observation & Methods · ROV & AUV Deep-Sea Exploration (1988)",
+    "me6": "method · Ocean Observation & Methods · Ocean Tracer Methods (CFCs, Radiocarbon, Tritium) (1957)",
+    "fg1": "figure · Pioneers & Theorists · Matthew Fontaine Maury (1855)",
+    "fg2": "figure · Pioneers & Theorists · Sir Charles Wyville Thomson (1872)",
+    "fg3": "figure · Pioneers & Theorists · Harald Ulrik Sverdrup (1947)",
+    "fg4": "figure · Pioneers & Theorists · Henry Stommel (1948)",
+    "fg5": "figure · Pioneers & Theorists · Walter Munk (1950)",
+    "fg6": "figure · Pioneers & Theorists · Roger Revelle (1957)",
+    "fg7": "figure · Pioneers & Theorists · Marie Tharp (1952)",
+    "fg8": "figure · Pioneers & Theorists · Harry Hess (1960)",
+    "fg9": "figure · Pioneers & Theorists · Sylvia Earle (1979)",
+    "fg10": "figure · Pioneers & Theorists · Fridtjof Nansen (1902)",
+    "fg11": "figure · Pioneers & Theorists · Charles David Keeling (1958)",
+    "fg12": "figure · Pioneers & Theorists · Nicholas Shackleton (1976)",
+    "db1": "debate · Climate & Ocean Interaction · Is the AMOC Approaching a Tipping Point? (2021)",
+    "db2": "debate · Climate & Ocean Interaction · Marine Ice Sheet Instability & 21st-Century Sea Level (2014)",
+    "db3": "debate · Chemical Oceanography · Can Ocean Iron Fertilisation Sequester Meaningful Carbon? (1990)",
+    "db4": "debate · Deep Sea & Seafloor · The 100-kyr Glacial Cycle Problem (1976)",
+    "db5": "debate · Marine Biology & Ecology · Are Coral Reefs Functionally Doomed Under Current Warming? (2017)",
+    "db6": "debate · Chemical Oceanography · Is the Biological Pump Weaker Than Our Models Assume? (2007)",
+    "db7": "debate · Marine Biology & Ecology · Mesopelagic Fish Biomass: 1 Billion Tonnes or 10 Billion? (2014)",
+    "db8": "debate · Marine Conservation & Policy · Deep-Sea Mining: How Severe and Reversible Are the Impacts? (2021)",
+    "ap1": "application · Ocean Observation & Methods · Operational Ocean Forecasting (2002)",
+    "ap2": "application · Marine Conservation & Policy · Marine Protected Areas & the High Seas Treaty (2023)",
+    "ap3": "application · Marine Biology & Ecology · Fisheries Science & Maximum Sustainable Yield (1954)",
+    "ap4": "application · Physical Oceanography · Offshore Wind & Tidal Energy (1991)",
+    "ap5": "application · Chemical Oceanography · Ocean-Based Carbon Dioxide Removal (2021)",
+    "ap6": "application · Deep Sea & Seafloor · Tsunami Early Warning Systems (1946)"
+  },
   "categories": [
     {
       "id": "theory",
@@ -33,7 +140,21 @@
             41.52,
             -70.67
           ],
-          "links": [],
+          "links": [
+            "th2",
+            "th3",
+            "ef1",
+            "co2",
+            "db1",
+            "fg4",
+            "st6",
+            "me6",
+            "th4",
+            "th6",
+            "ef7",
+            "co1",
+            "me4"
+          ],
           "hint": "The world ocean functions as a single connected conveyor: cold, salty water sinks in the North Atlantic and around Antarctica, spreads along the seafloor across all basins, and is replaced by warm surface water flowing back to fill the gap. This thermohaline (heat-and-salt-driven) overturning circulation takes roughly 1,000 years to complete one cycle and redistributes enormous quantities of heat — making northern European climates far milder than their latitude alone would suggest.",
           "tag": "THEORY",
           "note": "First described qualitatively by Stommel, H. (1958). The Gulf Stream. University of California Press. Formalised as a global conveyor by Broecker, W. S. (1991). 'The Great Ocean Conveyor.' Oceanography, 4, 79–89. The 'conveyor belt' metaphor is now acknowledged as an oversimplification — the real flow is far more diffuse and spatially complex (Lozier, M. S. 2010, Science, 328, 1507–1511). The strength of the Atlantic leg (AMOC) is actively monitored as a potential tipping element under climate change."
@@ -48,7 +169,20 @@
             32.87,
             -117.25
           ],
-          "links": [],
+          "links": [
+            "th1",
+            "th3",
+            "ef1",
+            "co8",
+            "fg3",
+            "fg5",
+            "st6",
+            "ef5",
+            "co1",
+            "fg1",
+            "fg4",
+            "ap4"
+          ],
           "hint": "Surface winds drive the great subtropical gyres dominating each ocean basin. Sverdrup (1947) showed that the depth-integrated north-south transport at any location equals the local wind-stress curl — an elegant equation that explains why gyres exist and where currents flow without needing detailed knowledge of the ocean interior. The east-west asymmetry of gyres — intense western boundary currents versus sluggish eastern flows — was subsequently explained by the variation of the Coriolis parameter with latitude.",
           "tag": "THEORY",
           "note": "Sverdrup, H. U. (1947). 'Wind-driven currents in a baroclinic ocean.' Proceedings of the National Academy of Sciences, 33, 318–326. Western boundary current intensification explained by Stommel, H. (1948). 'The westward intensification of wind-driven ocean currents.' Transactions of the American Geophysical Union, 29, 202–206. Munk, W. H. (1950). 'On the wind-driven ocean circulation.' Journal of Meteorology, 7, 79–93 added bottom friction to produce quantitatively accurate gyre structures. These three papers together constitute the foundational theory of large-scale ocean circulation."
@@ -63,7 +197,16 @@
             59.33,
             18.07
           ],
-          "links": [],
+          "links": [
+            "th1",
+            "th2",
+            "ef1",
+            "co2",
+            "ef5",
+            "co1",
+            "fg3",
+            "fg10"
+          ],
           "hint": "Wind blowing steadily over the ocean does not push water in the same direction — the Coriolis effect deflects surface water 45° to the right in the northern hemisphere. This deflection decreases with depth, creating a rotating stack of current layers (the Ekman spiral) whose net transport is at 90° to the wind. Ekman transport drives coastal upwelling — when winds blow equatorward along a west coast, surface water is pushed offshore and cold, nutrient-rich deep water rises to replace it, sustaining some of the ocean's most productive fisheries.",
           "tag": "THEORY",
           "note": "Ekman, V. W. (1905). 'On the influence of the Earth's rotation on ocean currents.' Arkiv för Matematik, Astronomi och Fysik, 2, 1–53. Motivated by Nansen's observation that Arctic drift ice moved 20–40° to the right of the wind. The ideal spiral is rarely observed in full (turbulence distorts it), but net Ekman transport is among the most robustly confirmed predictions in physical oceanography: Price, J. F., Weller, R. A. & Schudlich, R. R. (1987). 'Wind-driven ocean currents and Ekman transport.' Science, 238, 1534–1538."
@@ -78,7 +221,16 @@
             34.07,
             -118.44
           ],
-          "links": [],
+          "links": [
+            "th1",
+            "ef2",
+            "ef3",
+            "co7",
+            "st10",
+            "db1",
+            "th10",
+            "ef8"
+          ],
           "hint": "The tropical Pacific atmosphere and ocean operate as a coupled oscillating system. In the normal state, easterly trade winds pile warm water in the western Pacific; when those winds weaken, warm water floods east — suppressing upwelling, collapsing Peruvian anchoveta fisheries and disrupting rainfall globally from Australia to the Sahel. Bjerknes (1969) identified the self-amplifying feedback that drives each El Niño event: warm sea surface → weakened trade winds → further warming in the east.",
           "tag": "THEORY",
           "note": "Bjerknes, J. (1969). 'Atmospheric teleconnections from the equatorial Pacific.' Monthly Weather Review, 97, 163–172. Walker's earlier 'Southern Oscillation' (Walker & Bliss 1932) described the atmospheric pressure seesaw; Bjerknes unified it with the ocean. The coupled ocean-atmosphere feedback is now modelled with coupled GCMs: Neelin, J. D. et al. (1998). 'ENSO theory.' Journal of Geophysical Research, 103, 14261–14290. ENSO is the largest source of interannual climate variability globally; its amplitude is projected to increase under warming (Cai et al. 2014, Nature Climate Change)."
@@ -93,7 +245,11 @@
             51.33,
             0.04
           ],
-          "links": [],
+          "links": [
+            "co6",
+            "ef2",
+            "fg8"
+          ],
           "hint": "Darwin proposed that coral atolls — rings of reef enclosing a lagoon with no central island — form as volcanic islands slowly subside into the sea over millions of years. Fringing reefs grow upward to keep pace, becoming barrier reefs and eventually atolls. This was a brilliant inductive inference made without ever examining a coral core, purely from the observed sequence of reef morphologies across the Pacific — and it was confirmed by deep drilling a century later.",
           "tag": "THEORY",
           "note": "Darwin, C. R. (1842). The Structure and Distribution of Coral Reefs. Smith, Elder & Co. Confirmed by drilling at Eniwetok Atoll in 1951–52, which penetrated 1,267 m of limestone before reaching basalt — exactly as Darwin predicted. Murray's competing solution-erosion hypothesis was decisively falsified. The theory also led Darwin to predict the existence of guyots (flat-topped seamounts) before they were discovered. Regarded as one of the finest examples of deductive theorising in the history of natural science."
@@ -108,7 +264,20 @@
             41,
             -73.91
           ],
-          "links": [],
+          "links": [
+            "th1",
+            "ef6",
+            "co4",
+            "co5",
+            "st3",
+            "db6",
+            "st5",
+            "st11",
+            "ef10",
+            "co3",
+            "db3",
+            "ap5"
+          ],
           "hint": "The ocean removes CO₂ from the atmosphere not just by physical dissolution but through life: phytoplankton fix CO₂ at the surface; when they die, their carbon-rich remains and fecal pellets sink as 'marine snow', exporting carbon to depth where it is isolated from the atmosphere for decades to millennia. This biological pump exports roughly 5–12 Gt of carbon per year and is a critical regulator of atmospheric CO₂ on timescales from years to millions of years.",
           "tag": "MODEL",
           "note": "Volk, T. & Hoffert, M. I. (1985). 'Ocean carbon pumps.' In Sundquist & Broecker (eds), The Carbon Cycle and Atmospheric CO₂, AGU Monograph 32, 99–110 — first explicit model. Extended by Falkowski, P. G. et al. (1998). 'Biogeochemical controls and feedbacks on ocean primary production.' Science, 281, 200–206. The pump's strength is iron-limited in the Southern Ocean — the mechanistic basis for ocean iron fertilisation proposals. The efficiency of the pump (fraction of surface carbon reaching depth) varies by region and season, and its response to warming is a major uncertainty in climate projections."
@@ -123,7 +292,14 @@
             40.35,
             -74.66
           ],
-          "links": [],
+          "links": [
+            "fg8",
+            "ef9",
+            "st4",
+            "co6",
+            "st2",
+            "fg7"
+          ],
           "hint": "Mid-ocean ridges are spreading centres where new ocean floor is continuously created: magma wells up, solidifies and moves away from the ridge at a few centimetres per year, cooling, subsiding and eventually subducting at deep-sea trenches. Hess proposed this mechanism to explain why oceanic crust is geologically young everywhere, and why symmetric magnetic anomaly stripes flank mid-ocean ridges — each stripe records the direction of Earth's magnetic field when that strip of seafloor was created.",
           "tag": "THEORY",
           "note": "Hess, H. H. (1960). 'Evolution of ocean basins.' Naval Research report (preprint); published 1962 in Engel et al. (eds), Petrologic Studies, 599–620. Magnetic anomaly confirmation: Vine, F. J. & Matthews, D. H. (1963). 'Magnetic anomalies over oceanic ridges.' Nature, 199, 947–949. Seafloor spreading rates range from <1 cm/yr (Arctic) to >15 cm/yr (East Pacific Rise). The theory became the cornerstone of plate tectonics and explained the age distribution, bathymetry and sediment thickness of all ocean basins."
@@ -138,7 +314,13 @@
             47.66,
             -122.31
           ],
-          "links": [],
+          "links": [
+            "ef2",
+            "co3",
+            "co6",
+            "ap3",
+            "db5"
+          ],
           "hint": "Removing a top predator triggers cascading changes throughout the marine food web — not just one level down but many, restructuring entire ecosystems. The founding case: where sea otters persist, they control sea urchin populations, allowing kelp forests to flourish; where otters were hunted out, urchin barrens replaced kelp forests. This cascade logic has since been documented across hundreds of marine systems and underpins arguments for protecting apex predators and large-bodied fishes.",
           "tag": "THEORY",
           "note": "Estes, J. A. & Palmisano, J. F. (1974). 'Sea otters: Their role in structuring nearshore communities.' Science, 185, 1058–1060. Generalised by Paine, R. T. (1980). 'Food webs: Linkage, interaction strength and community infrastructure.' Journal of Animal Ecology, 49, 667–685. Reviewed in Estes, J. A. et al. (2011). 'Trophic downgrading of planet Earth.' Science, 333, 301–306 — synthesising evidence from 23 case studies across terrestrial and marine systems. The magnitude and reversibility of cascades varies substantially; cascades are weaker in highly connected food webs with many redundant links."
@@ -153,7 +335,12 @@
             32.87,
             -117.25
           ],
-          "links": [],
+          "links": [
+            "ef6",
+            "co6",
+            "me5",
+            "db7"
+          ],
           "hint": "Wartime sonar operators discovered a phantom 'false bottom' that rose toward the surface at dusk and retreated at dawn. This deep scattering layer is in fact a dense aggregation of mesopelagic organisms — fish with swimbladders, squid, lanternfishes, copepods — performing daily vertical migrations of 200–800 m. The DSL revealed that the twilight zone (200–1,000 m depth) contains enormous but poorly quantified biomass and plays a major role in transporting carbon from surface to depth.",
           "tag": "THEORY",
           "note": "First systematically characterised by: Hersey, J. B. & Backus, R. H. (1962). 'Sound scattering by marine organisms.' In Hill (ed.), The Sea, Vol. 1, 498–539. Initial wartime sonar observations reported by Johnson, M. W. et al. (1947). The DSL's contribution to the biological carbon pump — the 'active transport' by migrating organisms — is now estimated at 0.4–4.4 Gt C yr⁻¹ (Irigoien, X. et al. 2014, Nature Communications, 5, 3271) but remains one of the largest uncertainties in the ocean carbon budget. Total mesopelagic fish biomass may exceed 1 billion tonnes."
@@ -168,7 +355,16 @@
             41,
             -73.91
           ],
-          "links": [],
+          "links": [
+            "th4",
+            "co2",
+            "st8",
+            "db4",
+            "fg12",
+            "ef8",
+            "co7",
+            "db2"
+          ],
           "hint": "Ice ages — and the deep shifts in ocean chemistry and circulation that accompany them — are paced by three cyclical changes in Earth's orbit: eccentricity (100,000-year cycle), axial tilt (41,000 years) and precession (23,000 years). The theory was confirmed by matching these orbital rhythms to oxygen-isotope cycles preserved in deep-sea sediment cores: ice age cycles are literally written in the shells of ancient foraminifera on the ocean floor, recording ice volume and ocean temperature over hundreds of thousands of years.",
           "tag": "THEORY",
           "note": "Milanković, M. (1941). Canon of Insolation and the Ice-Age Problem. Royal Serbian Academy (translated 1969). Confirmed by Hays, J. D., Imbrie, J. & Shackleton, N. J. (1976). 'Variations in the Earth's orbit: Pacemaker of the ice ages.' Science, 194, 1121–1132 — over 5,000 citations; identified by Discover as one of the 20 greatest science papers of the 20th century. The dominant 100-kyr cycle is puzzling because orbital eccentricity produces small insolation changes — amplification by ice-albedo and CO₂ feedbacks is required but the exact mechanism is still debated (Huybers 2007, Quaternary Science Reviews)."
@@ -194,7 +390,13 @@
             50.8,
             -1.09
           ],
-          "links": [],
+          "links": [
+            "me2",
+            "fg2",
+            "co6",
+            "me3",
+            "fg1"
+          ],
           "repl": "robust",
           "hint": "The first purpose-built scientific voyage to study the global ocean: 68,890 nautical miles, 492 deep soundings, 133 bottom dredges, 151 open-water trawls across every major ocean basin. Challenger established that the deep sea is not a featureless abyss but teems with life, varies systematically in temperature and chemistry, and has specific sediment provinces. The resulting 50-volume scientific report is the foundation document of oceanography as a discipline.",
           "tag": "FIELD STUDY",
@@ -210,7 +412,13 @@
             41.52,
             -70.67
           ],
-          "links": [],
+          "links": [
+            "th7",
+            "ef9",
+            "co6",
+            "me5",
+            "fg9"
+          ],
           "repl": "robust",
           "hint": "In February 1977, the submersible Alvin descended to the Galápagos Rift at 2,500 m and found warm-water vents surrounded by flourishing life — giant tube worms, clams, crabs — thriving in total darkness in hydrogen-sulphide-rich water. The discovery overturned the axiom that all life ultimately depends on solar energy and opened the possibility of life on other solar-system bodies with sub-surface liquid water.",
           "tag": "FIELD STUDY",
@@ -226,7 +434,13 @@
             32.87,
             -117.25
           ],
-          "links": [],
+          "links": [
+            "th6",
+            "co4",
+            "fg6",
+            "fg11",
+            "db6"
+          ],
           "repl": "robust",
           "hint": "Revelle and Suess measured how readily seawater absorbs atmospheric CO₂ and found a critical limitation: the 'Revelle factor' — the carbonate chemistry of seawater means the ocean can absorb only about a tenth as much CO₂ as its size implies. They warned that humanity was conducting a large-scale geophysical experiment with uncertain outcomes. Their paper directly launched the Keeling atmospheric CO₂ monitoring programme and the field of carbon-cycle science.",
           "tag": "EXPERIMENT",
@@ -242,7 +456,12 @@
             41,
             -73.91
           ],
-          "links": [],
+          "links": [
+            "th7",
+            "fg7",
+            "me2",
+            "ef9"
+          ],
           "repl": "robust",
           "hint": "Working from echo-sounding data gathered by research ships, Marie Tharp drafted the first systematic maps of the ocean floor and identified a continuous rift valley running along the Mid-Atlantic Ridge — a discovery that was smoking-gun evidence for seafloor spreading at a time when the geological establishment still resisted continental drift. Her 1977 World Ocean Floor Panorama became the defining visual representation of the submarine world.",
           "tag": "FIELD STUDY",
@@ -258,7 +477,12 @@
             41,
             -73.91
           ],
-          "links": [],
+          "links": [
+            "th6",
+            "co5",
+            "me6",
+            "fg3"
+          ],
           "repl": "robust",
           "hint": "The Geochemical Ocean Sections Study (1972–1978) conducted the first systematic full-depth chemical transects of the Atlantic, Pacific and Indian Oceans, measuring tracers — radiocarbon, tritium, dissolved oxygen, nutrients, helium isotopes — at hundreds of stations. GEOSECS established pre-disturbance chemical baselines, revealed the age and flow direction of deep water masses, and confirmed that deep Pacific water is centuries older than deep Atlantic water.",
           "tag": "FIELD STUDY",
@@ -274,7 +498,12 @@
             41.52,
             -70.67
           ],
-          "links": [],
+          "links": [
+            "th1",
+            "th2",
+            "fg4",
+            "me1"
+          ],
           "repl": "robust",
           "hint": "Henry Stommel produced the first dynamically consistent theory and empirical characterisation of the Gulf Stream: a narrow, intense northward jet along the western boundary of the Atlantic, returning as a broad slow drift in the east. His 5-page 1948 model showed this east-west asymmetry arises from the latitudinal variation of the Coriolis force — a result that applies to all ocean basins. The Gulf Stream is now understood as part of the Atlantic Meridional Overturning Circulation, transporting 1.3 petawatts of heat northward.",
           "tag": "FIELD STUDY",
@@ -290,7 +519,11 @@
             33.77,
             -118.19
           ],
-          "links": [],
+          "links": [
+            "co8",
+            "ap2",
+            "db8"
+          ],
           "repl": "robust",
           "hint": "During a 1997 yacht race crossing the North Pacific Subtropical Gyre, Charles Moore encountered a vast, persistent field of plastic debris — fragments so dense they outnumbered zooplankton six to one in some tows. The discovery revealed that convergent gyres accumulate floating plastic indefinitely, and triggered global concern about microplastic ingestion in marine food webs, chemical leaching from plastic, and the centuries-long persistence of polymer fragments in the open ocean.",
           "tag": "FIELD STUDY",
@@ -306,7 +539,13 @@
             41,
             -73.91
           ],
-          "links": [],
+          "links": [
+            "th10",
+            "db4",
+            "fg12",
+            "me2",
+            "co7"
+          ],
           "repl": "robust",
           "hint": "By analysing oxygen-isotope and microfossil records in two Indian Ocean sediment cores, Hays, Imbrie and Shackleton showed that the dominant cycles in ice volume — at 100,000, 41,000 and 23,000 years — match precisely the three periodicities of Earth's orbital variations. The deep ocean floor had recorded the rhythm of the ice ages with extraordinary fidelity, finally confirming Milanković's orbital theory after decades of controversy.",
           "tag": "FIELD STUDY",
@@ -322,7 +561,13 @@
             32.87,
             -117.25
           ],
-          "links": [],
+          "links": [
+            "me1",
+            "co2",
+            "ef10",
+            "me4",
+            "ap1"
+          ],
           "repl": "robust",
           "hint": "Argo is an international array of ~4,000 autonomous floats that drift with deep currents, dive to 2,000 m every ten days while measuring temperature and salinity as they ascend, then surface to transmit data by satellite. For the first time, oceanographers have near-real-time global measurements of the upper ocean interior — transforming climate monitoring, ocean heat content estimates and weather forecasting in a way comparable to what weather satellites did for the atmosphere.",
           "tag": "FIELD STUDY",
@@ -338,7 +583,13 @@
             30.41,
             -91.18
           ],
-          "links": [],
+          "links": [
+            "th4",
+            "ef3",
+            "ef10",
+            "ap3",
+            "db5"
+          ],
           "repl": "robust",
           "hint": "Systematic surveys of the Louisiana continental shelf beginning in 1985 documented a seasonally recurring hypoxic zone — one of the world's largest, reaching up to 22,000 km² in summer — driven by Mississippi River nutrient runoff that triggers algal blooms whose decomposition strips bottom water of oxygen. The surveys established a direct link between agricultural nitrogen use in the US Midwest and the collapse of benthic communities and demersal fisheries hundreds of kilometres offshore.",
           "tag": "FIELD STUDY",
@@ -354,7 +605,13 @@
             39.57,
             2.65
           ],
-          "links": [],
+          "links": [
+            "th6",
+            "ef6",
+            "co4",
+            "ap2",
+            "ap5"
+          ],
           "repl": "mixed",
           "hint": "Seagrasses, mangroves and salt marshes store carbon in their soils at rates per unit area far exceeding tropical rainforests, and can lock it away for millennia. Their destruction releases centuries of stored carbon back to the atmosphere. Quantifying this 'blue carbon' stock created a new scientific rationale for protecting coastal ecosystems and for including them in national greenhouse gas inventories and carbon markets.",
           "tag": "FIELD STUDY",
@@ -381,7 +638,14 @@
             32.87,
             -117.25
           ],
-          "links": [],
+          "links": [
+            "th2",
+            "th3",
+            "co3",
+            "ap3",
+            "ef3",
+            "th1"
+          ],
           "repl": "robust",
           "hint": "Where persistent winds blow equatorward along the west coast of a continent, Ekman transport pushes surface water offshore. Cold, nutrient-rich water from depth wells up to replace it, producing some of the ocean's most productive environments. The Benguela, Humboldt, California and Canary upwelling systems cover < 1% of ocean area yet contribute > 20% of the world fish catch.",
           "tag": "PHENOMENON",
@@ -397,7 +661,15 @@
             21.43,
             -157.79
           ],
-          "links": [],
+          "links": [
+            "th4",
+            "th5",
+            "th8",
+            "co4",
+            "db5",
+            "fg9",
+            "ap2"
+          ],
           "repl": "robust",
           "hint": "When sea surface temperatures exceed the threshold corals' symbiotic algae (zooxanthellae) can tolerate — roughly 1°C above the local summer maximum for 4+ weeks — the coral expels its algae, turns white and begins to starve. If temperatures remain elevated, the colony dies. First documented as a global phenomenon during the 1982–83 El Niño, mass bleaching is now an annual event on some reefs and a leading driver of reef ecosystem collapse.",
           "tag": "PHENOMENON",
@@ -413,7 +685,16 @@
             32.87,
             -117.25
           ],
-          "links": [],
+          "links": [
+            "th4",
+            "ef1",
+            "ef10",
+            "co5",
+            "db6",
+            "st10",
+            "ef4",
+            "db3"
+          ],
           "repl": "robust",
           "hint": "At mid-depths (roughly 200–1,000 m) in the tropics, biological decomposition of sinking organic matter consumes oxygen faster than circulation can replenish it, creating persistent low-oxygen or even anoxic layers. OMZs compress the habitable water column for aerobic organisms, alter the ocean nitrogen cycle through denitrification (converting fixed nitrogen to N₂ gas), and expand upward into fishing zones. The global OMZ volume is expanding under climate change.",
           "tag": "PHENOMENON",
@@ -429,7 +710,13 @@
             27.34,
             -82.53
           ],
-          "links": [],
+          "links": [
+            "co3",
+            "ef3",
+            "ap3",
+            "db5",
+            "me3"
+          ],
           "repl": "robust",
           "hint": "Under nutrient enrichment, warm stratified water and favourable winds, certain phytoplankton species reproduce explosively to densities millions of times normal, colouring the sea red, brown or green. Some species produce potent toxins — paralytic shellfish poison, neurotoxic brevetoxins, domoic acid — that bioaccumulate up the food chain, mass-killing seabirds and marine mammals, and causing paralytic or amnesic shellfish poisoning in humans consuming contaminated bivalves. HABs are increasing in frequency, geographic range and season length.",
           "tag": "PHENOMENON",
@@ -445,7 +732,13 @@
             32,
             -64
           ],
-          "links": [],
+          "links": [
+            "th2",
+            "th3",
+            "co2",
+            "co8",
+            "ap4"
+          ],
           "repl": "robust",
           "hint": "A sustained wind blowing over the sea surface generates helical roll cells aligned with the wind — Langmuir cells — through the interaction of wind stress and the Stokes drift of surface waves. These cells organise floating material (foam, Sargassum, debris, larvae) into visible parallel streaks or 'windrows.' Langmuir circulation is now recognised as a major mechanism for mixing the upper ocean, transporting buoyant material to depth and influencing air-sea gas exchange.",
           "tag": "PHENOMENON",
@@ -461,7 +754,15 @@
             41.52,
             -70.67
           ],
-          "links": [],
+          "links": [
+            "th6",
+            "th9",
+            "me2",
+            "co3",
+            "db6",
+            "st11",
+            "db7"
+          ],
           "repl": "robust",
           "hint": "As organic matter produced at the surface — phytoplankton cells, fecal pellets, discarded mucus webs, detritus — aggregates and sinks through the water column, it forms centimetre-scale flakes resembling a slow-motion snowfall. This marine snow is the primary mechanism transporting carbon from the sunlit surface to the deep ocean. The flux diminishes exponentially with depth: roughly 1–10% of surface production reaches the seafloor, sustaining the entirety of deep-sea benthic communities.",
           "tag": "PHENOMENON",
@@ -477,7 +778,13 @@
             32.87,
             -117.25
           ],
-          "links": [],
+          "links": [
+            "th1",
+            "co2",
+            "me4",
+            "me6",
+            "fg5"
+          ],
           "repl": "robust",
           "hint": "Tidal currents flowing over submarine ridges, seamounts and continental slopes generate internal waves — oscillations propagating along density gradients through the ocean interior. When these waves break, they mix water across density layers. Munk and Wunsch (1998) showed that roughly 2 terawatts of tidal power must be dissipated to maintain the thermohaline circulation's overturning rate — without tidal mixing, the deep ocean would stratify and ocean circulation would stop.",
           "tag": "PHENOMENON",
@@ -493,7 +800,13 @@
             59.97,
             30.31
           ],
-          "links": [],
+          "links": [
+            "th10",
+            "th4",
+            "co7",
+            "db2",
+            "db1"
+          ],
           "repl": "robust",
           "hint": "Sea ice reflects 80–90% of incoming sunlight; open ocean absorbs 94%. As warming melts Arctic sea ice, dark ocean water is exposed, absorbing more heat and driving further warming and further ice loss — a self-amplifying positive feedback. This mechanism causes the Arctic to warm three to four times faster than the global average ('Arctic amplification'). September Arctic sea-ice extent has declined ~13% per decade since satellite records began in 1979.",
           "tag": "PHENOMENON",
@@ -509,7 +822,15 @@
             44,
             -56
           ],
-          "links": [],
+          "links": [
+            "th7",
+            "me2",
+            "st4",
+            "co6",
+            "ap6",
+            "st2",
+            "fg8"
+          ],
           "repl": "robust",
           "hint": "Submarine landslides and sediment-laden density flows — turbidity currents — travel at speeds up to 100 km/h along the seafloor, carving canyons and depositing graded sediment layers (turbidites) thousands of kilometres from their source. The 1929 Grand Banks earthquake triggered a turbidity current that snapped transatlantic telegraph cables in sequence over 13 hours, allowing scientists to calculate its speed (19 m/s). Turbidites cover ~75% of the deep-sea floor and form major hydrocarbon reservoir rocks.",
           "tag": "PHENOMENON",
@@ -525,7 +846,14 @@
             32.87,
             -117.25
           ],
-          "links": [],
+          "links": [
+            "th6",
+            "ef3",
+            "co4",
+            "db6",
+            "st9",
+            "st10"
+          ],
           "repl": "robust",
           "hint": "The ocean has lost approximately 2% of its dissolved oxygen since 1960 — a decline of roughly 77 billion tonnes. Two mechanisms drive this: warmer water holds less oxygen (solubility effect), and increased stratification reduces the ventilation of the ocean interior (circulation effect). The result is expanding and shoaling oxygen minimum zones, habitat compression for mesopelagic fish and zooplankton, enhanced nitrogen loss via denitrification, and increasingly hypoxic coastal dead zones.",
           "tag": "PHENOMENON",
@@ -552,7 +880,15 @@
             60.39,
             5.33
           ],
-          "links": [],
+          "links": [
+            "th1",
+            "th2",
+            "th3",
+            "me1",
+            "me6",
+            "fg3",
+            "fg10"
+          ],
           "hint": "Every sample of ocean water plots as a point in temperature-salinity (T-S) space. Distinct water masses — North Atlantic Deep Water, Antarctic Bottom Water, Mediterranean Outflow — each occupy characteristic T-S clusters. Mixtures of two water masses fall on the straight line connecting their end-members. This simple diagram lets oceanographers trace the origin, flow path and mixing history of water throughout the ocean using only two measurements.",
           "tag": "CONCEPT",
           "note": "Helland-Hansen, B. (1916). 'Nogen hydrografiske metoder.' 16th Scandinavian Naturalist Congress, Kristiania, 357–359 — the original T-S plot. Standardised and popularised by Sverdrup, H. U., Johnson, M. W. & Fleming, R. H. (1942). The Oceans. Prentice-Hall — the defining textbook of classical physical oceanography. Modern water mass analysis combines T-S characteristics with geochemical tracers (radiocarbon, oxygen isotopes, CFCs) and inverse modelling (Wunsch 1978) to constrain circulation rates. The T-S diagram remains the first tool used when interpreting new hydrographic section data."
@@ -567,7 +903,16 @@
             32.87,
             -117.25
           ],
-          "links": [],
+          "links": [
+            "th1",
+            "ef5",
+            "ef7",
+            "co3",
+            "me1",
+            "th3",
+            "th10",
+            "st9"
+          ],
           "hint": "The ocean is not a well-mixed tank. A permanent density gradient (pycnocline) at roughly 200–1,000 m separates the warm, light, wind-mixed surface layer from the cold, dense, dark deep ocean. This density barrier strongly suppresses vertical exchange of heat, oxygen and nutrients between the two realms. Understanding it is essential for explaining where blooms occur, how carbon is sequestered and how the ocean responds to climate forcing.",
           "tag": "CONCEPT",
           "note": "Formalised as the central organising concept of ocean structure in Sverdrup, H. U., Johnson, M. W. & Fleming, R. H. (1942). The Oceans. Prentice-Hall. The seasonal (temporary) thermocline develops each spring and collapses in autumn storms; the permanent pycnocline is maintained year-round by the deep density contrast. Climate warming is strengthening the permanent pycnocline by heating the surface, progressively isolating it from deep nutrient supply — projecting long-term decline in ocean productivity (Bopp et al. 2013, Biogeosciences, 10, 6225–6245)."
@@ -582,7 +927,17 @@
             32.87,
             -117.25
           ],
-          "links": [],
+          "links": [
+            "ef1",
+            "ef6",
+            "co2",
+            "ap3",
+            "th6",
+            "th8",
+            "ef4",
+            "me3",
+            "db7"
+          ],
           "hint": "Photosynthesis in the ocean is confined to the photic zone — typically the upper 100–200 m where sufficient sunlight penetrates. Every calorie consumed by anything from zooplankton to blue whales ultimately derives from this thin layer. Sverdrup's 'critical depth' model (1953) explained why spring phytoplankton blooms begin when the wind-mixed layer shoals above the depth at which integrated photosynthesis exceeds respiration — a moment as precise as the flip of a switch.",
           "tag": "CONCEPT",
           "note": "Sverdrup, H. U. (1953). 'On conditions for the vernal blooming of phytoplankton.' ICES Journal of Marine Science, 18, 287–295 — the critical depth hypothesis, still the standard conceptual model. Global ocean primary production estimated at ~50 Gt C yr⁻¹ by Field, C. B. et al. (1998). Science, 281, 237–240 using satellite ocean-colour data (CZCS, SeaWiFS). Below the photic zone, chemosynthesis at hydrothermal vents and cold seeps sustains significant biomass independently of sunlight. Ocean primary production may decline 6–12% under climate warming by 2100 due to increased stratification (Steinacher et al. 2010, Biogeosciences, 7, 979–1005)."
@@ -597,7 +952,17 @@
             37.69,
             -121.71
           ],
-          "links": [],
+          "links": [
+            "th6",
+            "ef2",
+            "ef10",
+            "st3",
+            "st11",
+            "db5",
+            "ap5",
+            "fg6",
+            "fg11"
+          ],
           "hint": "The ocean absorbs roughly 30% of all CO₂ humans emit. When CO₂ dissolves in seawater it forms carbonic acid, which releases hydrogen ions and lowers pH. Surface ocean pH has fallen from 8.20 to 8.10 since 1750 — a 26% increase in hydrogen ion concentration. Organisms that build shells or skeletons from calcium carbonate — corals, oysters, pteropods, foraminifera — face progressively corrosive chemistry. At high enough acidity, their shells dissolve faster than they can be built.",
           "tag": "CONCEPT",
           "note": "Term coined by Caldeira, K. & Wickett, M. E. (2003). Nature, 425, 365. Chemistry mechanised in Zeebe, R. E. & Wolf-Gladrow, D. (2001). CO₂ in Seawater: Equilibrium, Kinetics, Isotopes. Elsevier. Biological impacts: Orr, J. C. et al. (2005). Nature, 437, 681–686 — Southern Ocean aragonite undersaturation projected by 2050 under business-as-usual. Laboratory and mesocosm impacts are robust; field attribution of reef decline to acidification vs. warming vs. local stressors remains contested. Surface pH is monitored globally via the SOCAT and GLODAP databases."
@@ -612,7 +977,12 @@
             41.52,
             -70.67
           ],
-          "links": [],
+          "links": [
+            "th6",
+            "st5",
+            "ef3",
+            "db3"
+          ],
           "hint": "In 1934, Alfred Redfield noticed that carbon, nitrogen and phosphorus occur in marine phytoplankton in a consistent molar ratio of approximately 106 : 16 : 1 — and that the deep ocean water dissolves these elements in the same proportions. This 'Redfield ratio' is not coincidence: biology has shaped ocean chemistry, not the other way round. The ratio implies that nitrogen and phosphorus co-limit primary production, and that the ocean's nitrogen inventory is regulated by the biosphere itself through denitrification and N₂ fixation.",
           "tag": "CONCEPT",
           "note": "Redfield, A. C. (1934). 'On the proportions of organic derivatives in sea water and their relation to the composition of plankton.' James Johnstone Memorial Volume, Liverpool University Press, 176–192. Mechanistic explanation for why the ratio is maintained: Tyrrell, T. (1999). Nature, 400, 525–531. Small but real variations of the ratio with temperature and light revealed by Martiny, A. C. et al. (2013). Nature Geoscience, 6, 279–283 — now incorporated into 'flexible stoichiometry' models. The Redfield ratio is one of the most cited concepts in ocean science and a cornerstone of marine biogeochemistry."
@@ -627,7 +997,19 @@
             27.83,
             -97.05
           ],
-          "links": [],
+          "links": [
+            "th5",
+            "th7",
+            "th8",
+            "th9",
+            "st1",
+            "st2",
+            "ef9",
+            "me5",
+            "fg2",
+            "db8",
+            "ap6"
+          ],
           "hint": "Marine environments are classified by depth and distance from the seafloor: the sunlit epipelagic (0–200 m), twilight mesopelagic (200–1,000 m), midnight bathypelagic (1,000–4,000 m), abyssopelagic (4,000–6,000 m) and hadal (> 6,000 m, in trenches). The benthos — the seafloor and its organisms — spans all depths. Each zone has characteristic organisms adapted to its pressure, temperature, darkness and food regime. This zonation scheme underpins biodiversity surveys, fisheries management and deep-sea conservation.",
           "tag": "CONCEPT",
           "note": "Early depth-based zonation: Forbes, E. (1859). The Natural History of the European Seas. Standard modern terminology formalised in: Hedgpeth, J. W. (ed.) (1957). Treatise on Marine Ecology and Paleoecology, Vol. 1. Geological Society of America Memoir 67. Hadal zone first systematically surveyed by the Danish Galathea expedition (1950–52). Species richness of the deep sea is far higher than classical sampling suggested: Snelgrove, P. V. R. (1999). BioScience, 49, 129–138. Deep-sea biodiversity is now surveyed with ROVs, sediment cores and environmental DNA (eDNA)."
@@ -642,7 +1024,14 @@
             34.2,
             -118.17
           ],
-          "links": [],
+          "links": [
+            "ef8",
+            "th10",
+            "db2",
+            "st8",
+            "th4",
+            "db1"
+          ],
           "hint": "Global mean sea level rises from two sources: thermal expansion of warming ocean water ('thermosteric rise', ~40% of total) and the addition of meltwater from glaciers and ice sheets (~60% and growing). Satellite altimeters have measured sea level continuously since 1993 with millimetre precision. The rate has roughly doubled over the past century — from ~1.4 mm/yr (1900–1990) to ~3.7 mm/yr (2006–2018) — as ice sheet contributions accelerate.",
           "tag": "CONCEPT",
           "note": "TOPEX/Poseidon satellite altimeter launched 1992; first continuous global sea level record: Fu, L.-L. & Cazenave, A. (eds) (2001). Satellite Altimetry and Earth Sciences. Academic Press. Attribution of components: Gregory, J. M. et al. (2013). Journal of Climate, 26, 4476–4499. Current rate: IPCC AR6 WG1 (2021) finds 3.7 mm/yr (2006–2018). Likely range under SSP5-8.5: 0.63–1.01 m by 2100, with upper tails to 2+ m if Antarctic ice-sheet instabilities are triggered (Bamber et al. 2019, Nature). Tide gauges provide century-scale records; the longest continuous record is Amsterdam (since 1700)."
@@ -657,7 +1046,13 @@
             32.87,
             -117.25
           ],
-          "links": [],
+          "links": [
+            "th2",
+            "ef5",
+            "st7",
+            "ap1",
+            "ap4"
+          ],
           "hint": "The five subtropical gyres — North and South Pacific, North and South Atlantic, and Indian Ocean — are vast rotating current systems each spanning thousands of kilometres, driven by the global wind pattern. Their centres are convergence zones where surface water slowly sinks and upwelling of nutrients is suppressed. These 'ocean deserts' cover ~40% of the Earth's surface yet sustain specialist ecosystems — and have become accumulation zones for floating plastic, with concentrations far above background levels.",
           "tag": "CONCEPT",
           "note": "Gyre structure theorised by Sverdrup (1947) and Munk (1950). Oligotrophic character of gyre centres: Ryther, J. H. (1969). Science, 166, 72–76. Plastic accumulation first documented in the North Atlantic by Carpenter, E. J. & Smith, K. L. (1972). Science, 175, 1240–1241. HOTS (Hawaii Ocean Time-Series) and BATS (Bermuda Atlantic Time-Series) programmes provide decades of observational records from the two best-studied gyre centres. Gyre circulation patterns affect larval dispersal, migratory species distributions and the formation and persistence of floating plastic gyres in all five subtropical ocean basins."
@@ -683,7 +1078,14 @@
             41.52,
             -70.67
           ],
-          "links": [],
+          "links": [
+            "co1",
+            "co2",
+            "st6",
+            "st9",
+            "me4",
+            "fg3"
+          ],
           "hint": "The CTD profiler measures conductivity (from which salinity is computed), temperature and pressure simultaneously as it descends through the water column at ~1 m/s, generating vertical profiles at sub-metre resolution. A surrounding rosette of 12–36 Niskin sampling bottles can be triggered at chosen depths to collect water for chemical analysis. The CTD cast is the single most common measurement in oceanography — a core operation on every research cruise since the 1970s.",
           "tag": "INSTRUMENT",
           "note": "Electronic CTD developed by Neil L. Brown, WHOI, ~1967–1972, replacing the laborious Nansen-bottle/reversing-thermometer system. Brown, N. L. (1974). 'A precision CTD microprofiler.' IEEE Ocean '74 Proceedings, 270–278. Modern CTDs achieve accuracy of ±0.001°C and ±0.002 PSU. CTD data form the backbone of WOCE (1990–2002), GO-SHIP (2003–present) and ARGO hydrographic sections. Full deployment takes ~2–6 hours per cast at 6,000 m depth. The introduction of the CTD increased oceanographic sampling throughput by an order of magnitude relative to Nansen bottles."
@@ -698,7 +1100,16 @@
             41,
             -73.91
           ],
-          "links": [],
+          "links": [
+            "st1",
+            "st4",
+            "st8",
+            "ef6",
+            "ef9",
+            "db4",
+            "fg12",
+            "fg7"
+          ],
           "hint": "A piston or gravity corer driven into seafloor sediment extracts an undisturbed cylinder of material extending up to tens of metres — potentially hundreds of thousands of years of continuous climate history. Analysts measure oxygen isotopes in foraminiferal shells to reconstruct past ocean temperature and ice volume, identify volcanic ash layers as time markers, and extract pollen, organic biomarkers and geochemical proxies to reconstruct past productivity, circulation and sea surface conditions.",
           "tag": "METHOD",
           "note": "Piston corer developed by Kullenberg, B. (1947). Svenska Hydrografisk-Biologiska Kommissionens Skrifter, Ny Serie, 17. Lamont-Doherty core library (>22,000 cores; est. 1953 by Ewing) is the world's largest. Oxygen isotope paleothermometer: Emiliani, C. (1955). Journal of Geology, 63, 538–578. Revised to reflect ice volume by Shackleton, N. J. & Opdyke, N. D. (1973). Quaternary Research, 3, 39–55. IODP (International Ocean Discovery Program) drilling now reaches >1 km into seafloor sediments, extending records to >100 Myr. Annual varves in anoxic basins (Santa Barbara Channel, Cariaco Basin) resolve individual years."
@@ -713,7 +1124,12 @@
             38.99,
             -76.84
           ],
-          "links": [],
+          "links": [
+            "st1",
+            "co3",
+            "ef4",
+            "ap1"
+          ],
           "hint": "Ocean-colour satellites measure the spectrum of sunlight reflected from the sea surface. Phytoplankton chlorophyll absorbs blue and red light and reflects green; algorithms convert this spectral signature into chlorophyll concentration, enabling daily global maps of ocean productivity. From space, oceanographers can simultaneously track bloom dynamics, map sediment plumes, monitor sea surface temperature and quantify phytoplankton biomass across the entire ocean — transforming a ship-based science into one with near-real-time global coverage.",
           "tag": "REMOTE SENSING",
           "note": "CZCS (Coastal Zone Color Scanner) launched on Nimbus-7, 1978 — first dedicated ocean-colour sensor. SeaWiFS (1997) and MODIS-Aqua (2002) built the long-term record. Global primary production algorithm: Behrenfeld, M. J. & Falkowski, P. G. (1997). Limnology and Oceanography, 42, 1–20. Sentinel-3 OLCI and PACE (launched 2024) provide hyperspectral coverage. SST is measured by AVHRR (1978–present) and MODIS; sea level by TOPEX/Poseidon (1992–present). Together, satellite sensors have fundamentally changed understanding of El Niño impacts on productivity, bloom phenology shifts under warming and HAB early warning."
@@ -728,7 +1144,14 @@
             32.72,
             -117.16
           ],
-          "links": [],
+          "links": [
+            "th1",
+            "ef7",
+            "st9",
+            "me1",
+            "ap1",
+            "fg5"
+          ],
           "hint": "An ADCP transmits sound pulses and measures the Doppler shift in echoes from suspended particles and organisms to determine current speed and direction at multiple depth bins simultaneously. Hull-mounted on ships, ADCPs generate continuous full-water-column current profiles while underway, replacing slow and spatially sparse moored current-meter arrays for synoptic surveys. Lowered ADCP (LADCP) systems mounted on CTD rosettes extend the technique to near-seafloor observations.",
           "tag": "INSTRUMENT",
           "note": "First commercial shipboard ADCP: RD Instruments, San Diego, 1982. Theoretical basis: Pinkel, R. (1979). Journal of Physical Oceanography, 9, 529–543. LADCP technique developed in the late 1980s–1990s; full-depth velocity profiles are now standard on every GO-SHIP hydrographic section. Modern phased-array ADCPs resolve currents to ±1 cm/s at 8-m depth bins. Moored ADCPs at fixed locations (e.g. RAPID array at 26°N) provide multi-year AMOC transport time series. The combination of shipboard ADCP + Argo + moorings constitutes the modern observational backbone of physical oceanography."
@@ -743,7 +1166,13 @@
             41.52,
             -70.67
           ],
-          "links": [],
+          "links": [
+            "st2",
+            "th9",
+            "co6",
+            "db7",
+            "db8"
+          ],
           "hint": "Remotely Operated Vehicles (ROVs) and Autonomous Underwater Vehicles (AUVs) extend scientific reach to depths and durations impossible for manned submersibles. ROVs — tethered by fibre-optic cable — deliver real-time HD video, manipulator arms for sampling, suction devices and instrument deployment at any depth. AUVs execute pre-programmed missions to map terrain with multibeam sonar, measure water chemistry and photograph habitats across thousands of square kilometres in a single deployment.",
           "tag": "INSTRUMENT",
           "note": "ROV Jason (WHOI) introduced 1988; successor Jason 2 has logged >1,200 dives to hydrothermal vents, ridge crests and cold seeps. MBARI ROVs (Tiburon, Doc Ricketts) produced the world's largest deep-sea video database (>25,000 hours). AUV ABE first surveyed mid-ocean ridge topography (1994); successor Sentry reaches 6,000 m. Nereid Under Ice AUV operates beneath Arctic sea ice. Full-ocean-depth ROVs (Kaiko, Nereus, SuBastian) have reached Challenger Deep (11,000 m). ROV/AUV day-rates of $30,000–80,000 limit deployment; autonomous 'resident' ROVs (Saab Sabertooth) now provide semi-permanent seafloor access at some cabled observatories."
@@ -758,7 +1187,14 @@
             32.87,
             -117.25
           ],
-          "links": [],
+          "links": [
+            "th1",
+            "st5",
+            "co1",
+            "ef7",
+            "fg6",
+            "fg10"
+          ],
           "hint": "Dissolved tracers act as dye in the ocean, labelling water masses with their age and circulation history. Radiocarbon (¹⁴C) — depleted relative to the atmosphere when water is isolated from air — gives the time since a water mass last surfaced: centuries in the deep Atlantic, over a thousand years in the deep Pacific. CFCs (chlorofluorocarbons), released by industrial activity since ~1950, penetrate the ocean in proportion to ventilation rate, giving a direct measure of how quickly the ocean interior renews.",
           "tag": "METHOD",
           "note": "Radiocarbon ocean dating: Craig, H. (1957). Tellus, 9, 1–17 — showed deep Pacific water is ~1,000 years old. CFC tracing: Bullister, J. L. & Weiss, R. F. (1983). Deep-Sea Research, 30, 101–120. Systematic global surveys: GEOSECS (1972–78), WOCE (1990–2002), GO-SHIP (2003–present). CFC-11, CFC-12 and now SF₆ (whose atmospheric concentration is still rising) are the standard transient tracers. Tracer data constrain NADW and AABW formation rates, deep-ocean ventilation timescales and uptake of anthropogenic CO₂. CFC ages confirmed that the deep Atlantic renews in ~200 years vs. > 1,000 years for the deep Pacific."
@@ -784,7 +1220,11 @@
             38.92,
             -77.07
           ],
-          "links": [],
+          "links": [
+            "st1",
+            "th2",
+            "fg2"
+          ],
           "hint": "Maury compiled thousands of ships' logbooks to produce the first systematic global charts of winds and ocean currents, cutting the New York–San Francisco sailing time from 180 to 133 days. His 'Physical Geography of the Sea' (1855) was the first English-language oceanography textbook. He organised the first international maritime meteorology conference (Brussels, 1853) and pioneered the collaborative collection of oceanographic data on a global scale — a model that persists in today's international programmes.",
           "tag": "PIONEER",
           "note": "Maury, M. F. (1855). The Physical Geography of the Sea. Harper & Brothers — republished in 8 editions. His 'Track Charts' and 'Pilot Charts' synthesised ~1.2 million log-book observations. His bathymetric work identified the Mid-Atlantic 'telegraphic plateau' later used for the first transatlantic cable (1858). Maury resigned his US Navy commission in 1861 to serve the Confederacy, an act that complicated his scientific legacy and blocked his return to federal positions. The Maury Channel and Maury Seamount are named in his honour."
@@ -799,7 +1239,11 @@
             55.95,
             -3.19
           ],
-          "links": [],
+          "links": [
+            "st1",
+            "co6",
+            "fg1"
+          ],
           "hint": "As chief scientist of the HMS Challenger expedition (1872–76), Thomson organised and led the first purpose-built global oceanographic survey, transforming oceanography from a maritime curiosity into a systematic science. He championed deep-sea dredging against the dominant 'azoic hypothesis' (that no life existed below 600 m), and oversaw the collection of 4,700 new species and the foundational datasets of deep-sea chemistry, temperature and biology.",
           "tag": "PIONEER",
           "note": "Thomson, C. W. (1873). The Depths of the Sea. Macmillan — the pre-expedition case for deep-sea biology. Thomson, C. W. & Murray, J. (eds) (1880–95). Report on the Scientific Results of H.M.S. Challenger. HMSO, 50 vols — Thomson died in 1882; John Murray completed the report. Knighted for the Challenger expedition (1876); appointed Regius Professor of Natural History at Edinburgh. The Challenger expedition covered 68,890 nautical miles, conducted 492 deep soundings and provided the first evidence that the deep seafloor is not lifeless or featureless."
@@ -814,7 +1258,13 @@
             32.87,
             -117.25
           ],
-          "links": [],
+          "links": [
+            "th2",
+            "th3",
+            "st5",
+            "me1",
+            "co1"
+          ],
           "hint": "Sverdrup gave physical oceanography its most elegant result — the Sverdrup balance (1947), relating wind-stress curl to ocean volume transport — and co-authored 'The Oceans' (1942) with Johnson and Fleming, the definitive reference text of classical oceanography for three decades. As director of Scripps (1936–48) he unified observational and theoretical oceanography, built the institution's research programme and mentored the next generation of American oceanographers.",
           "tag": "PIONEER",
           "note": "Sverdrup, H. U. (1947). PNAS, 33, 318–326 — the Sverdrup balance. Sverdrup, H. U., Johnson, M. W. & Fleming, R. H. (1942). The Oceans. Prentice-Hall — 1,087 pages; the standard reference for 30 years. Earlier key work: Sverdrup (1938) on coastal upwelling. Sverdrup returned to Norway in 1948 to direct the Norwegian Polar Institute. The Sverdrup (unit of ocean volume transport, 10⁶ m³/s) is named in his honour. He also led the Maud expedition (1918–25) across the Northeast Passage."
@@ -829,7 +1279,12 @@
             41.52,
             -70.67
           ],
-          "links": [],
+          "links": [
+            "th1",
+            "th2",
+            "st6",
+            "db1"
+          ],
           "hint": "Stommel's 5-page 1948 paper on western boundary current intensification is among the most celebrated in physical oceanography, explaining in simple mathematical terms why the Gulf Stream is narrow and swift while the return flow is broad and slow. He later predicted that the thermohaline circulation could exist in two stable states — a calm and a collapsed mode — a warning now central to climate-change risk assessment. Stommel is widely regarded as the greatest theoretical oceanographer of the 20th century.",
           "tag": "PIONEER",
           "note": "Stommel, H. (1948). 'The westward intensification of wind-driven ocean currents.' Transactions AGU, 29, 202–206. Stommel, H. (1961). 'Thermohaline convection with two stable regimes of flow.' Tellus, 13, 224–230 — two-state thermohaline model. Stommel, H. (1958). The Gulf Stream. University of California Press. Stommel refused multiple prestigious appointments to remain focused on research. He received the National Medal of Science (1989) and the Crafoord Prize (1983). The 'Stommel diagram' (diffusion plotted against time scale for all oceanographic processes) is still used in teaching."
@@ -844,7 +1299,11 @@
             32.87,
             -117.25
           ],
-          "links": [],
+          "links": [
+            "th2",
+            "me4",
+            "ef7"
+          ],
           "hint": "Munk made foundational contributions to virtually every branch of physical oceanography over six decades: wind-driven circulation, internal wave spectra, tidal dissipation, ocean acoustic tomography, sea-level change and climate variability. His wind-driven circulation model (1950) quantified gyre structure; his work with Wunsch (1998) showed tidal mixing is essential for maintaining thermohaline overturning; his Heard Island experiment (1991) first measured ocean heat content globally by tracking sound travel times.",
           "tag": "PIONEER",
           "note": "Munk, W. H. (1950). 'On the wind-driven ocean circulation.' Journal of Meteorology, 7, 79–93. Munk, W. & Wunsch, C. (1998). Deep-Sea Research, 45, 1977–2010. Ocean acoustic tomography: Munk, W. et al. (1995). Ocean Acoustic Tomography. Cambridge University Press. Munk received the National Medal of Science (1983), Kyoto Prize (1999) and Crafoord Prize (2010). He published peer-reviewed papers into his 90s and worked at Scripps from 1939 until his death in 2019 at age 101."
@@ -859,7 +1318,12 @@
             32.87,
             -117.25
           ],
-          "links": [],
+          "links": [
+            "st3",
+            "co4",
+            "fg11",
+            "me6"
+          ],
           "hint": "Revelle was the first scientist to quantify the ocean's limited ability to absorb anthropogenic CO₂ — the 'Revelle factor' — and in 1957 warned with Hans Suess that fossil-fuel burning was a large-scale geophysical experiment with uncertain consequences. He commissioned Charles Keeling to begin the Mauna Loa CO₂ monitoring programme. As director of Scripps (1950–64) he built it into the world's leading oceanographic institution and was one of the first scientists to brief policymakers on the climate risk of CO₂.",
           "tag": "PIONEER",
           "note": "Revelle, R. & Suess, H. E. (1957). Tellus, 9, 18–27. Revelle served as Science Adviser to the US Secretary of the Interior (1961–63) and taught at Harvard, where Al Gore was his student — Gore credited Revelle with first alerting him to climate change. US National Medal of Science (1990). The Revelle Medal (AGU) and NOAA research vessel R/V Roger Revelle are named in his honour. Revelle was the first director of the International Geophysical Year (1957–58) oceanic surveys."
@@ -874,7 +1338,11 @@
             41,
             -73.91
           ],
-          "links": [],
+          "links": [
+            "st4",
+            "th7",
+            "me2"
+          ],
           "hint": "Working from echo-sounding data collected by research ships — barred herself from going to sea for most of her career — Tharp identified a continuous rift valley running along the crest of the Mid-Atlantic Ridge, the most visible evidence for seafloor spreading at a time when continental drift was still contested. Her 1977 World Ocean Floor Panorama, painted with Austrian cartographer Heinrich Berann, became the defining image of the submarine world and was displayed in the Smithsonian for decades.",
           "tag": "PIONEER",
           "note": "Rift valley identified 1952 from North Atlantic profiles; reported in Heezen, B. C., Tharp, M. & Ewing, M. (1959). Floors of the Oceans I: The North Atlantic. GSA Special Paper 65. World Ocean Floor Panorama (1977). Heezen initially dismissed Tharp's rift interpretation as 'girl talk'; seismic epicentres along the rift soon confirmed it. Tharp was barred from Lamont research ships as 'bad luck for 30 years.' She received the Hubbard Medal (National Geographic Society, 1978) and Library of Congress Living Legend Award (2001)."
@@ -889,7 +1357,11 @@
             40.35,
             -74.66
           ],
-          "links": [],
+          "links": [
+            "th7",
+            "th5",
+            "ef9"
+          ],
           "hint": "Hess proposed seafloor spreading in a 1960 report circulated as a preprint before publication — one of the most transformative ideas in earth science. He argued that the ocean floor is not ancient and permanent but is continuously created at mid-ocean ridges and consumed at deep-sea trenches, providing the mechanism that drives continental drift. The theory was swiftly confirmed by symmetrical magnetic anomaly stripes flanking mid-ocean ridges and became the cornerstone of plate tectonics.",
           "tag": "PIONEER",
           "note": "Hess, H. H. (1960/1962). 'History of ocean basins.' In Petrologic Studies: A Volume in Honor of A. F. Buddington. GSA, 599–620. Magnetic anomaly confirmation: Vine, F. J. & Matthews, D. H. (1963). Nature, 199, 947–949. Hess also used Navy sonar data to discover and name 'guyots' — flat-topped seamounts that had subsided below sea level — independently confirming Darwin's coral atoll subsidence theory. He served as chairman of the Space Science Board advising NASA on Apollo and died in 1969 while chairing a National Academy of Sciences meeting."
@@ -904,7 +1376,11 @@
             21.31,
             -157.86
           ],
-          "links": [],
+          "links": [
+            "st2",
+            "ef2",
+            "ap2"
+          ],
           "hint": "Marine biologist and oceanographer Sylvia Earle set the world record for solo untethered diving (381 m, 1979) and has logged more than 7,000 hours underwater over six decades. As NOAA's first female chief scientist (1990–92) she established marine protected areas and championed a science-policy interface for ocean conservation. Her Mission Blue project (2009) aims to protect 30% of the ocean by 2030, and she remains the most prominent global voice for ocean literacy and conservation.",
           "tag": "PIONEER",
           "note": "World dive record: JIM suit solo walk at 381 m, waters off Oahu, 1979. NOAA chief scientist 1990–92. Mission Blue/Hope Spots: mission-blue.org. Earle, S. A. (1995). Sea Change: A Message of the Oceans. Putnam. TED Prize 2009; Time magazine's first 'Hero for the Planet' (1998). Explorer-in-Residence, National Geographic Society, since 1998. Published > 200 technical papers and 13 books. Earle co-designed the Deep Rover submersible and is the founder of Deep Ocean Exploration and Research (DOER). Her persistent advocacy was key to establishing the Papahanaumokuakea Marine National Monument (2006)."
@@ -919,7 +1395,11 @@
             59.91,
             10.75
           ],
-          "links": [],
+          "links": [
+            "me6",
+            "th3",
+            "co1"
+          ],
           "hint": "Explorer-scientist Nansen designed the 'Nansen bottle' — a device for collecting water samples at precise depths and measuring temperature with reversing thermometers — which became the standard oceanographic water sampler for 70 years before CTDs replaced it. His Arctic drift expedition aboard Fram (1893–96) produced the first systematic measurements of Arctic Ocean depth, temperature and sea-ice drift, directly motivating Ekman to develop his transport theory after noting that Fram drifted at 20–40° to the right of the wind.",
           "tag": "PIONEER",
           "note": "Nansen, F. (1902). 'Oceanography: Its scope, problems and economic importance.' Science, 16, 161–175. Nansen bottle (with Otto Pettersson, 1894): standard deep-sea water sampler until replaced by Niskin bottles and CTDs in the 1970s. Arctic observations: Nansen, F. (1897). Farthest North. Constable, 2 vols. The observation that Fram drifted at ~20–40° right of the wind directly prompted Ekman's 1905 spiral paper. Nansen won the Nobel Peace Prize in 1922 for refugee relief; the 'Nansen passport' for stateless persons bore his name."
@@ -934,7 +1414,11 @@
             32.87,
             -117.25
           ],
-          "links": [],
+          "links": [
+            "st3",
+            "co4",
+            "fg6"
+          ],
           "hint": "Keeling designed and operated the first continuous, high-precision atmospheric CO₂ monitoring station at Mauna Loa, Hawaii (1958–present), producing the 'Keeling curve' — the iconic rising sawtooth record that made the atmospheric CO₂ increase undeniable and provided the single most influential dataset in climate science. Commissioned by Revelle to test whether the ocean could absorb industrial CO₂, his measurements showed it could not keep pace, directly motivating climate policy.",
           "tag": "PIONEER",
           "note": "Keeling, C. D. (1960). 'The concentration and isotopic abundances of carbon dioxide in the atmosphere.' Tellus, 12, 200–203 — the founding Mauna Loa paper. By 2024 the record shows CO₂ has risen from 315 ppm (1958) to 426 ppm — a 35% increase in 66 years. The seasonal saw-tooth reflects northern-hemisphere photosynthesis (spring drawdown) and autumn respiration. National Medal of Science (2002). The programme has been continued since 2005 by his son Ralph Keeling (UCSD/Scripps). A parallel atmospheric O₂ monitoring programme (Keeling & Shertz 1992) confirmed that rising CO₂ originates from combustion."
@@ -949,7 +1433,12 @@
             52.2,
             0.12
           ],
-          "links": [],
+          "links": [
+            "st8",
+            "th10",
+            "db4",
+            "me2"
+          ],
           "hint": "Shackleton transformed the oxygen isotope analysis of foraminifera from a temperature proxy into a precise ice-volume recorder and was lead author of the 'Pacemaker' paper (1976) that confirmed Milanković orbital forcing drives ice ages. By measuring ¹⁸O/¹⁶O ratios in foram shells from deep-sea sediment cores, he showed that glacial cycles are recorded in ocean sediment with extraordinary precision at the periods predicted by orbital theory, turning paleoceanography from a descriptive enterprise into a quantitative science.",
           "tag": "PIONEER",
           "note": "Shackleton, N. J. & Opdyke, N. D. (1973). Quaternary Research, 3, 39–55 — isotope signal reflects ice volume not temperature. Hays, J. D., Imbrie, J. & Shackleton, N. J. (1976). Science, 194, 1121–1132 — the pacemaker paper. Shackleton, N. J. et al. (2000). Transactions of the Royal Society of Edinburgh, 81, 251–261 — astronomical calibration of Pliocene-Pleistocene timescale. Crafoord Prize (1995); Vetlesen Prize (2004). Professor of Earth Sciences at Cambridge until his death in 2006. The Shackleton crater on the Moon and IODP Expedition 395 are named in his honour."
@@ -975,7 +1464,13 @@
             52.41,
             13.06
           ],
-          "links": [],
+          "links": [
+            "th1",
+            "th4",
+            "ef8",
+            "co7",
+            "fg4"
+          ],
           "hint": "Statistical analysis of sea-surface temperature fingerprints suggests the Atlantic Meridional Overturning Circulation may be losing stability and approaching a tipping point that, if crossed, would shift it to a permanently weakened state — abruptly cooling northwest Europe, suppressing monsoons and raising US East Coast sea levels. But rival analyses contest the statistical methodology, and direct measurements show multi-decadal variability without a clear collapse signal. The debate hinges on whether proxy records can detect tipping-point precursors reliably.",
           "tag": "OPEN QUESTION",
           "note": "Caesar, L. et al. (2018). Nature, 556, 191–196 — SST fingerprint of AMOC weakening since ~1850. Boers, N. (2021). Nature Climate Change, 11, 680–688 — early-warning statistical signals across 8 AMOC indicators. RAPID 26°N array (2004–present): mean AMOC ~16.9 Sv with large variability (Cunningham et al. 2007; Moat et al. 2020). Critique: Ditlevsen, P. & Ditlevsen, S. (2023). Nature Communications, 14, 4254 — statistical methodology for detecting tipping-point precursors not sufficiently robust. Current consensus: AMOC has weakened since pre-industrial but direct observations do not confirm imminent collapse; models project further weakening under warming. RAPID measurements continue and a second array at 42°N (OSNAP) monitors the subpolar North Atlantic."
@@ -990,7 +1485,12 @@
             34.2,
             -118.17
           ],
-          "links": [],
+          "links": [
+            "ef8",
+            "co7",
+            "ap6",
+            "th10"
+          ],
           "hint": "The West Antarctic Ice Sheet sits on bedrock below sea level; warm Circumpolar Deep Water can undercut its marine margins, triggering irreversible retreat — Marine Ice Sheet Instability (MISI). Two 2014 studies concluded that Thwaites Glacier may already be in unstable retreat, potentially committing Earth to 3+ metres of sea-level rise on centennial-to-millennial timescales. The rate, the role of Marine Ice Cliff Instability (MICI), and whether a tipping point has already been passed remain fiercely contested.",
           "tag": "OPEN QUESTION",
           "note": "Rignot, E. et al. (2014). Science, 344, 1250–1252; Joughin, I., Smith, B. E. & Medley, B. (2014). Science, 344, 735–738 — twin WAIS instability papers. MICI: DeConto, R. M. & Pollard, D. (2016). Nature, 531, 591–597 — up to 2 m rise by 2100. MICI challenged: Edwards, T. L. et al. (2019). Nature, 566, 58–64 — ice-cliff instability may be geomechanically implausible at the proposed rates. Thwaites International Glacier Collaboration (ITGC, 2019–present): autonomous vehicles surveying under the ice shelf found warm water intrusion. IPCC AR6 does not include MICI in its likely range but acknowledges low-probability, high-impact tail extending to > 2 m by 2100."
@@ -1005,7 +1505,12 @@
             36.8,
             -121.79
           ],
-          "links": [],
+          "links": [
+            "th6",
+            "ef3",
+            "co5",
+            "ap5"
+          ],
           "hint": "Iron is scarce in nutrient-rich Southern Ocean surface waters, limiting phytoplankton growth. Martin proposed in 1990 that adding iron would trigger massive blooms; when those blooms die and sink, they would export carbon to depth. Twelve open-ocean experiments confirmed that iron addition causes blooms — but the fraction of bloom carbon actually exported below 1,000 m proved far smaller than predicted, limited by zooplankton grazing, remineralisation at shallow depths and the sinking efficiency of the biological pump. Proposals to commercialise iron fertilisation remain highly controversial.",
           "tag": "CONTESTED",
           "note": "Martin, J. H. (1990). Paleoceanography, 5, 1–13 — the iron hypothesis ('Give me half a tanker of iron and I will give you the next Ice Age'). Twelve open-ocean experiments: IRONEX I & II, SOIREE, LOHAFEX, EisenEx and others. Best-documented export: ~2% of surface bloom carbon reached 100 m after SOIREE (Boyd et al. 2004, Geophysical Research Letters). Large copepod communities consumed blooms before export in LOHAFEX (Smetacek et al. 2012, Nature). Concerns: ecosystem disruption, redistribution of nutrients from downstream areas, potential N₂O emission. IPCC AR6 rates ocean iron fertilisation as having 'low potential' for climate mitigation. The London Protocol (2007 amendment) restricts iron fertilisation activities pending further assessment."
@@ -1020,7 +1525,12 @@
             41,
             -73.91
           ],
-          "links": [],
+          "links": [
+            "th10",
+            "st8",
+            "me2",
+            "fg12"
+          ],
           "hint": "Deep-sea sediment cores reveal that ice ages have been dominated by a ~100,000-year periodicity for the past 800,000 years — yet the 100-kyr cycle of orbital eccentricity produces very small changes in total solar insolation. The 41-kyr tilt cycle, which drives much larger insolation swings, dominated before ~900,000 years ago. Why Earth's climate locks on to a faint orbital signal and what changed at the Mid-Pleistocene Transition are among the deepest unresolved questions in paleoclimatology.",
           "tag": "OPEN QUESTION",
           "note": "Hays, J. D., Imbrie, J. & Shackleton, N. J. (1976). Science, 194, 1121–1132 — identified all three orbital periods in sediment cores, but the 100-kyr dominance remained puzzling. Mid-Pleistocene Transition (~900 ka): Clark, P. U. et al. (2006). Quaternary Science Reviews, 25, 3150–3184. Proposed mechanisms: ice-sheet regolith erosion (Clark & Pollard 1998), CO₂ threshold crossing (Paillard 1998), stochastic resonance (Benzi 1982), nonlinear resonance with the 100-kyr eccentricity modulation of precession amplitude. None commands consensus. The problem is a central test case for ice-age models and has resisted resolution for nearly 50 years."
@@ -1035,7 +1545,14 @@
             -19.26,
             146.82
           ],
-          "links": [],
+          "links": [
+            "ef2",
+            "th8",
+            "co4",
+            "ap2",
+            "st10",
+            "ef4"
+          ],
           "hint": "IPCC projections suggest 70–90% of coral reefs will experience annual bleaching at 1.5°C of warming and virtually all at 2°C, implying functional extinction of reef ecosystems as we know them. Counter-arguments point to heat-tolerant coral genotypes, assisted evolution, poleward range shifts and rapid acclimatisation. The core dispute is whether evolutionary rescue can outpace the rate of warming — a mismatch between ecological timescales (years) and evolutionary timescales (generations) that most biologists find structurally pessimistic.",
           "tag": "CONTESTED",
           "note": "Hughes, T. P. et al. (2017). Nature, 543, 373–377 — the 2016 bleaching killed > 50% of corals on the northern Great Barrier Reef. IPCC SR1.5 (2018): 70–90% degraded at 1.5°C; > 99% at 2°C. Heat-tolerant genotypes: Palumbi, S. R. et al. (2014). Science, 344, 895–898. Assisted evolution: van Oppen, M. J. H. et al. (2015). Science, 347, 1148–1150. Structural problem: bleaching recurrence interval is now shorter than reef recovery time (> 10 years) across most tropical reefs (Hughes et al. 2018, Science, 359, 80–83). The debate increasingly concerns whether management can buy time — not whether the trajectory has changed."
@@ -1050,7 +1567,13 @@
             41.52,
             -70.67
           ],
-          "links": [],
+          "links": [
+            "th6",
+            "ef6",
+            "ef10",
+            "st3",
+            "ef3"
+          ],
           "hint": "The biological pump's carbon export to the deep ocean is a critical — and poorly constrained — term in the global carbon budget. Sediment traps miss fast-sinking particles; BGC-Argo sensors suggest far more microbial respiration in the mesopelagic zone than models assume, re-mineralising exported carbon at shallower depths. If the pump is weaker than assumed, the ocean's future CO₂ uptake may be lower than climate models project, closing the gap between observed atmospheric CO₂ rise and model projections.",
           "tag": "OPEN QUESTION",
           "note": "Sediment trap undersampling: Buesseler, K. O. et al. (2007). Science, 316, 567–570. Mesopelagic respiration underestimate: Steinberg, D. K. et al. (2008). Global Biogeochemical Cycles, 22, GB4009. BGC-Argo evidence: Claustre, H. et al. (2021). Frontiers in Marine Science — pump efficiency varies far more in space and time than assumed. Boyd, P. W. & Trull, T. W. (2007). Progress in Oceanography, 72, 276–312 — systematic review of pump uncertainties. The gap between upward-revised mesopelagic respiration estimates and measured sediment trap flux represents one of the largest unresolved budgetary uncertainties in the global carbon cycle; resolving it could change projected ocean CO₂ uptake by 1–3 Gt C yr⁻¹."
@@ -1065,7 +1588,12 @@
             43.41,
             -2.86
           ],
-          "links": [],
+          "links": [
+            "th9",
+            "ef6",
+            "co3",
+            "me5"
+          ],
           "hint": "Acoustic surveys of the deep scattering layer suggest mesopelagic fish biomass — the lanternfishes, bristlemouths and hatchetfishes of the twilight zone — could be 1–10 billion tonnes, ten times more than the entire global fisheries catch. But trawl surveys return numbers an order of magnitude lower, possibly because small fish avoid nets and because their calcified otoliths dissolve before they can be counted. Resolving this uncertainty matters enormously: these organisms drive active carbon transport and are a critical food source for tuna, seabirds and whales.",
           "tag": "OPEN QUESTION",
           "note": "Acoustic estimate: Irigoien, X. et al. (2014). 'Large mesopelagic fishes biomass and trophic efficiency in the open ocean.' Nature Communications, 5, 3271 — 1–10 Gt. Trawl-based estimate ~1 Gt: Gjøsaeter, H. & Kawaguchi, K. (1980). FAO Fisheries Technical Paper No. 193. Otolith dissolution bias: Wilson, R. W. et al. (2009). Science, 323, 1655–1658. MALASPINA 2010–11 trawl survey supports higher-than-classical but not 10-Gt estimates. Carbon flux impact: Davison, P. C. et al. (2013). Proceedings of the Royal Society B, 280, 20131786 — mesopelagic fish active transport may account for 15–17% of total biological pump export. Commercial fishing of mesopelagic stocks has been proposed; ecological and ethical concerns are significant."
@@ -1080,7 +1608,12 @@
             17.99,
             -76.79
           ],
-          "links": [],
+          "links": [
+            "co6",
+            "me5",
+            "st7",
+            "ap2"
+          ],
           "hint": "Polymetallic nodules on the abyssal seafloor contain vast quantities of nickel, cobalt, copper and manganese — metals essential for electric vehicle batteries. Collector vehicles scraping nodules from the seafloor would destroy benthic habitats requiring millions of years to develop, generate sediment plumes smothering filter feeders across thousands of square kilometres and create noise and light pollution across vast dark areas. The core debate is whether the ecological impacts are so severe and irreversible as to constitute an unacceptable risk given available terrestrial alternatives.",
           "tag": "CONTESTED",
           "note": "Impact baseline study: Thiel, H. & Schriever, G. DISCOL experiment (Peru Basin, 1989–2019) — biological recovery still incomplete 30 years after simulated mining. ISA draft exploitation regulations (2023). Nauru triggered the ISA's 'two-year rule' in 2021, forcing regulation development under a commercial deadline. Scientific moratorium supported by > 700 scientists (Levin, L. A. et al. 2020, Marine Policy, 122, 104223; open letters 2021–23). Pro-mining argument: nodule mining produces less CO₂ per tonne of metal than terrestrial laterite ore mining (Paulikas et al. 2020). As of 2024, no exploitation licences have been issued. The debate extends to the ISA governance framework, which critics argue is structurally biased toward commercial interests."
@@ -1106,7 +1639,12 @@
             43.6,
             1.44
           ],
-          "links": [],
+          "links": [
+            "me3",
+            "me4",
+            "co8",
+            "st9"
+          ],
           "hint": "Ocean circulation models assimilating real-time data from Argo floats, altimetry satellites and moored sensors produce daily global ocean forecasts — temperature profiles, surface currents, sea ice extent and salinity — at resolutions down to a few kilometres. These forecasts underpin search-and-rescue at sea, oil-spill trajectory prediction, hurricane intensity forecasting (which requires accurate ocean heat content), optimal ship routing to reduce fuel consumption, and naval and coast-guard operations.",
           "tag": "APPLICATION",
           "note": "GODAE (Global Ocean Data Assimilation Experiment, 2000–2008) demonstrated operational ocean forecasting. Operational systems: Mercator Ocean (EU), HYCOM (US Navy/NOAA), TOPAZ (Arctic), FOAM (UK Met Office). Deepwater Horizon (2010) oil spill trajectory was forecast in near-real-time using Mercator and HYCOM. ECMWF improved 10-day weather forecast accuracy by ~1 day by coupling ocean models (Palmer et al. 2004, Bulletin of the American Meteorological Society). Global ocean models now assimilate > 100,000 Argo profiles per year alongside satellite SST, sea-level and salinity. Forecast skill at 5-day range is now comparable to 1990s 24-hour forecasts."
@@ -1121,7 +1659,14 @@
             40.75,
             -73.97
           ],
-          "links": [],
+          "links": [
+            "ef2",
+            "st7",
+            "st11",
+            "db5",
+            "db8",
+            "fg9"
+          ],
           "hint": "Marine Protected Areas restrict human activities within designated ocean zones to allow ecosystems to recover. By 2023 roughly 8% of the ocean is protected — but less than 3% under full no-take rules. The 2023 BBNJ Treaty (Biodiversity Beyond National Jurisdiction) provided the first legal framework to establish MPAs on the high seas, the 64% of the ocean outside national jurisdiction that was previously a legal vacuum. The global '30×30' target aims to effectively protect 30% of the ocean by 2030.",
           "tag": "APPLICATION",
           "note": "First large no-take MPA: Great Barrier Reef Marine Park (1975, 344,400 km²). Largest MPA: Ross Sea (1.55 million km², 2016). Evidence base: Edgar, G. J. et al. (2014). Nature, 506, 216–220 — five features distinguish effective from ineffective MPAs (no-take, well-enforced, old, large, isolated). Lester, S. E. et al. (2009). Trends in Ecology & Evolution, 24, 30–38 — MPAs increase fish biomass 446% on average. BBNJ Treaty adopted March 2023; entered into force pending ratification by 60 states. Criticism: many existing MPAs are 'paper parks' with no enforcement capacity; effective protection requires investment in monitoring and patrol."
@@ -1136,7 +1681,13 @@
             52.48,
             1.75
           ],
-          "links": [],
+          "links": [
+            "th8",
+            "ef1",
+            "ef4",
+            "co3",
+            "st10"
+          ],
           "hint": "Maximum Sustainable Yield (MSY) — the largest catch sustainable indefinitely without causing a stock to collapse — is the foundational concept of fisheries management and is enshrined in international law (UNCLOS Article 61). Beverton and Holt's 1954 model related fishing mortality, fish growth and natural mortality to predict equilibrium yield, providing the mathematical basis for stock assessment worldwide. Despite well-documented limitations, MSY remains the reference point for 90% of managed fish stocks globally.",
           "tag": "APPLICATION",
           "note": "Beverton, R. J. H. & Holt, S. J. (1954). On the Dynamics of Exploited Fish Populations. Ministry of Agriculture, Fisheries and Food — the foundational stock-assessment text. Gordon, H. S. (1954). Journal of Political Economy, 62, 124–142 — the economic framework. FAO (2022): 57.3% of stocks fished at MSY; 35.4% overfished; 7.3% underfished. The Grand Banks cod collapse (1992, after 500 years of exploitation) demonstrated failure of MSY management when models ignore environmental variability and stock-recruitment uncertainty. Ecosystem-based fisheries management (EBFM) addresses food-web interactions; its adoption in national policy has been slow despite broad scientific support."
@@ -1151,7 +1702,11 @@
             54.96,
             10.88
           ],
-          "links": [],
+          "links": [
+            "th2",
+            "ef5",
+            "co8"
+          ],
           "hint": "The marine environment hosts the world's most consistent and powerful renewable energy resources. Offshore wind — with lower turbulence and higher mean speeds than onshore, and space for turbines larger than 15 MW — is now cost-competitive with new fossil-fuel plants in many markets. Tidal stream turbines harness predictable kinetic energy from tidal currents. By 2024, offshore wind provided ~200 GW globally; the UK has ~14 GW installed and plans for 50 GW by 2030 — enough to power every home in Britain.",
           "tag": "APPLICATION",
           "note": "First offshore wind farm: Vindeby (1991), Denmark, 11 × 450 kW turbines. World's largest (2024): Hornsea Two (UK, 1,386 MW, 165 turbines). Tidal: MeyGen (Pentland Firth, Scotland, 6 MW, 2016); La Rance tidal barrage (France, 240 MW, 1966 — oldest). LCOE for offshore wind fell ~70% between 2010–2021 (IRENA 2021). Ecological issues: pile-driving noise impacts marine mammals; operational turbines create artificial reef habitat increasing local fish biomass by 20–40% (Lindeboom et al. 2011, ICES Journal of Marine Science). Floating offshore wind (Hywind Scotland, 2017) extends deployment to > 50 m water depth, opening most of the continental shelf."
@@ -1166,7 +1721,12 @@
             46.23,
             6.06
           ],
-          "links": [],
+          "links": [
+            "th6",
+            "co4",
+            "st11",
+            "db3"
+          ],
           "hint": "The ocean's vast volume and natural alkalinity make it an appealing target for deliberate carbon dioxide removal. Proposed methods include enhanced ocean alkalinity addition (spreading crushed olivine or lime to increase CO₂ absorption), seaweed cultivation, artificial upwelling, iron fertilisation and direct electrochemical ocean-carbon extraction. IPCC AR6 assessed these techniques for the first time, finding high theoretical potential but also significant uncertainties about efficiency, ecosystem impacts, measurement, and governance.",
           "tag": "APPLICATION",
           "note": "National Academies of Sciences (2021). A Research Strategy for Ocean-Based Carbon Dioxide Removal and Sequestration. NAP — the most comprehensive review. Enhanced alkalinity: Renforth, P. & Henderson, G. (2017). Reviews of Geophysics, 55, 636–674 — estimated 1–100 Gt CO₂ yr⁻¹ potential. Seaweed: Duarte, C. M. et al. (2021). Nature Climate Change, 11, 600–609 — large but highly uncertain sequestration potential. Governance: the London Protocol (2007 amendment) restricts fertilisation as ocean dumping; applicability to other CDR methods is contested. Commercial ventures as of 2024: Running Tide (macroalgae sinking), Planetary Technologies (alkalinity), Ebb Carbon (electrochemical), Planetary Hydrogen."
@@ -1181,7 +1741,11 @@
             21.32,
             -158.03
           ],
-          "links": [],
+          "links": [
+            "ef9",
+            "co6",
+            "db2"
+          ],
           "hint": "Tsunamis generated by submarine earthquakes, volcanic eruptions and underwater landslides can cross ocean basins in hours with devastating consequences at distant shores. The Pacific Tsunami Warning System — established after the 1946 Aleutian tsunami killed 159 people — combines seismic networks that identify tsunami-generating earthquakes with DART (Deep-ocean Assessment and Reporting of Tsunamis) buoys that measure the actual wave in open ocean, enabling warnings 1–3 hours before impact at distant coastlines.",
           "tag": "APPLICATION",
           "note": "PTWC established 1946, Honolulu; expanded after 1960 Chilean and 1964 Alaskan tsunamis. DART buoys: developed by NOAA/PMEL in the 1990s–2000s; 39 buoys now deployed. The 2004 Indian Ocean tsunami (227,000 deaths) struck without a regional warning system; the disaster directly triggered the Indian Ocean Tsunami Warning System (IOTWS, 2006). The 2011 Tōhoku tsunami struck Japan 28 minutes after the earthquake; early warnings allowed significant — though incomplete — evacuation. Emerging risk: ice-cliff calving events in Greenland and Alaska are generating fjord tsunamis affecting coastal communities (Paris et al. 2019, Science Advances). The 2022 Hunga Tonga-Hunga Ha'apai volcanic tsunami demonstrated gaps in warning systems for non-seismic tsunami sources."
@@ -1195,42 +1759,168 @@
       "icon": "🧪",
       "accent": "#7D3C98",
       "label": "Landmark Studies",
-      "events": []
+      "events": [
+        {
+          "year": 1872,
+          "label": "HMS Challenger departs on first global ocean survey",
+          "ref": "st1"
+        },
+        {
+          "year": 1952,
+          "label": "Tharp identifies Mid-Atlantic Ridge rift valley",
+          "ref": "st4"
+        },
+        {
+          "year": 1977,
+          "label": "Alvin discovers hydrothermal vents at Galápagos Rift",
+          "ref": "st2"
+        },
+        {
+          "year": 2000,
+          "label": "Argo global float programme begins deployment",
+          "ref": "st9"
+        }
+      ]
     },
     {
       "id": "theory",
       "icon": "📐",
       "accent": "#2471A3",
       "label": "Theories & Models",
-      "events": []
+      "events": [
+        {
+          "year": 1855,
+          "label": "Maury publishes first global wind & current atlas",
+          "ref": "fg1"
+        },
+        {
+          "year": 1947,
+          "label": "Sverdrup balance unifies wind-driven ocean circulation",
+          "ref": "th2"
+        },
+        {
+          "year": 1960,
+          "label": "Hess proposes seafloor spreading theory",
+          "ref": "th7"
+        },
+        {
+          "year": 1969,
+          "label": "Bjerknes identifies ENSO ocean-atmosphere feedback",
+          "ref": "th4"
+        }
+      ]
     },
     {
       "id": "effect",
       "icon": "📊",
       "accent": "#117A65",
       "label": "Effects & Phenomena",
-      "events": []
+      "events": [
+        {
+          "year": 1905,
+          "label": "Ekman transport explains coastal upwelling mechanism",
+          "ref": "ef1"
+        },
+        {
+          "year": 1929,
+          "label": "Grand Banks cables snap, turbidity current clocked",
+          "ref": "ef9"
+        },
+        {
+          "year": 1976,
+          "label": "Pacemaker paper confirms Milanković orbital forcing",
+          "ref": "st8"
+        },
+        {
+          "year": 1983,
+          "label": "First global mass coral bleaching during El Niño",
+          "ref": "ef2"
+        }
+      ]
     },
     {
       "id": "method",
       "icon": "🔬",
       "accent": "#8B5E00",
       "label": "Methods",
-      "events": []
+      "events": [
+        {
+          "year": 1947,
+          "label": "Kullenberg piston corer opens sediment core record",
+          "ref": "me2"
+        },
+        {
+          "year": 1972,
+          "label": "CTD profiler replaces Nansen bottle as standard tool",
+          "ref": "me1"
+        },
+        {
+          "year": 1978,
+          "label": "CZCS satellite maps ocean chlorophyll from orbit",
+          "ref": "me3"
+        },
+        {
+          "year": 1988,
+          "label": "ROV Jason introduced for deep-sea scientific access",
+          "ref": "me5"
+        }
+      ]
     },
     {
       "id": "debate",
       "icon": "⚖️",
       "accent": "#B7770D",
       "label": "Debates & Revisions",
-      "events": []
+      "events": [
+        {
+          "year": 1990,
+          "label": "Martin proposes iron fertilisation as climate fix",
+          "ref": "db3"
+        },
+        {
+          "year": 2004,
+          "label": "RAPID array begins continuous AMOC monitoring",
+          "ref": "db1"
+        },
+        {
+          "year": 2014,
+          "label": "WAIS instability papers trigger sea-level debate",
+          "ref": "db2"
+        },
+        {
+          "year": 2021,
+          "label": "ISA faces deadline pressure on deep-sea mining rules",
+          "ref": "db8"
+        }
+      ]
     },
     {
       "id": "application",
       "icon": "🔗",
       "accent": "#2E86C1",
       "label": "Applications",
-      "events": []
+      "events": [
+        {
+          "year": 1946,
+          "label": "Pacific Tsunami Warning Center established",
+          "ref": "ap6"
+        },
+        {
+          "year": 1954,
+          "label": "Beverton & Holt formalize Maximum Sustainable Yield",
+          "ref": "ap3"
+        },
+        {
+          "year": 1991,
+          "label": "Vindeby: world's first offshore wind farm opens",
+          "ref": "ap4"
+        },
+        {
+          "year": 2023,
+          "label": "BBNJ High Seas Treaty creates framework for ocean MPAs",
+          "ref": "ap2"
+        }
+      ]
     }
   ]
 }
