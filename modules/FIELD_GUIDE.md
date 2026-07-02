@@ -84,7 +84,8 @@ Conformity & Obedience → Intergroup Relations → The Self & Cognition → Att
   "tag": "EXPERIMENT",                  // see tag vocabulary below
   "note": "Citation + replication status + caveats + what changed since.",
   "repl": "robust",                     // study/effect only — see rubric below
-  "links": ["db3", "fg4"]              // ids of related entries in this folio
+  "links": ["db3", "fg4"],             // ids of related entries in this folio
+  "xlinks": ["neuroscience::fg1"]      // OPTIONAL — cross-folio refs; see §xlinks below
 }
 ```
 
@@ -139,7 +140,7 @@ debates or applications.
 Be conservative. A famous effect with a contested record is `mixed`, not `robust`.
 Justify the badge in the `note` with the replication citation.
 
-### `links` — cross-references
+### `links` — intra-folio cross-references
 
 `links` is an array of **entry ids in the same folio**. Each link renders as a clickable
 chip in the modal under "RELATED". Aim for 2–5 links per entry. Always add the reciprocal
@@ -151,6 +152,30 @@ Good link patterns:
 - Debate → the original study being contested: `db2` links `st8`
 - Theory → the study that tests it: `th2` links `st4`
 - Concept → entries that instantiate it: `co4` links `ef3`, `st4`, `th2`, `th10`
+
+### `xlinks` — cross-folio references
+
+`xlinks` is an **optional** array of `"<folio>::<id>"` strings pointing to entries in
+*other* folios. Use it when the same concept, person, or study is genuinely central to
+two different fields (e.g. Alan Turing in CS and in systems-and-complexity, Cajal in
+anatomy and in neuroscience).
+
+**Do not add `xlinks` freehand.** Use the discovery script to find candidates first:
+```
+node modules/build-xlink-candidates.js
+```
+This reads `_global_index.json` and outputs `_xlink_candidates.json` — a ranked list of
+candidate pairs for human review before writing anything to folio files.
+
+Rules:
+- Unlike `links`, `xlinks` are not required to be reciprocated — the target folio file is
+  not re-opened just to add a back-reference.
+- Every `xlinks` value must resolve to a real key in `_global_index.json`. Check:
+  ```
+  node -e "const g=require('./modules/_global_index.json'); console.log(g.index['folio::id'])"
+  ```
+- Never xlink to a folio that still has `status:"planned"`.
+- Aim for 0–3 xlinks per entry. Weak keyword overlaps don't warrant an xlink.
 
 ### Figures — what to write
 
@@ -245,7 +270,7 @@ application  ap      "Applications"               #1A5276  #2E86C1  #EBF5FB
 ```
 
 Entry ids are `<prefix><number>` — e.g. `th1`, `st2`, `ef3`. Numbers are sequential within
-each category and unique within the folio. Cross-folio links are not supported.
+each category and unique within the folio. Cross-folio references go in `xlinks`, not `links`.
 
 Category subtitles — customise the bracketed part, keep the structure:
 
@@ -418,6 +443,8 @@ Do not add these — they silently corrupt the entry or are ignored:
 | `cat` | Category is implicit from which `entries` array the entry lives in |
 | `groups` | Not an entry field; only used in the study plan in `index.html` |
 
+`xlinks` **is** a valid optional field — see §xlinks above. Do not confuse it with `links`.
+
 ---
 
 ## Registering the folio in `index.html`
@@ -475,6 +502,8 @@ string values — most commonly in `note` fields that quote paper titles.
 - [ ] Run `node modules/build-global-index.js` from the `sci-map/` directory after registering the folio?
 - [ ] Output confirms the new folio is listed and total entry count increased?
 - [ ] `modules/_global_index.json` included in the final commit?
+- [ ] Run `node modules/build-xlink-candidates.js` to refresh `_xlink_candidates.json` with the new folio's entries?
+- [ ] Reviewed `_xlink_candidates.json` for high-confidence `xlinks` worth wiring into the new folio?
 
 Run the JSON validation script:
 ```bash
