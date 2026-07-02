@@ -471,6 +471,11 @@ string values — most commonly in `note` fields that quote paper titles.
 - [ ] Field registered in `FIELDS` with `status:"ready"` and a `file` path?
 - [ ] Study plan added to `STUDY_PLANS` in `index.html`?
 
+**Global cross-folio index**
+- [ ] Run `node modules/build-global-index.js` from the `sci-map/` directory after registering the folio?
+- [ ] Output confirms the new folio is listed and total entry count increased?
+- [ ] `modules/_global_index.json` included in the final commit?
+
 Run the JSON validation script:
 ```bash
 node -e "
