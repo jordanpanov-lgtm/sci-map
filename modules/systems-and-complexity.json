@@ -35,7 +35,12 @@
           ],
           "links": [
             "th2",
-            "th3"
+            "th3",
+            "co1",
+            "co6",
+            "fg1",
+            "fg2",
+            "fg3"
           ],
           "hint": "Norbert Wiener coined cybernetics as the unified science of control and communication in machines and living systems. The core mechanism is the feedback loop: a system monitors the gap between its current state and a goal, and uses that error signal to steer its behaviour. This single idea dissolved the boundary between engineering and biology — a thermostat, a neuron, and a firm all operate on the same circular-causal logic. Cybernetics was the first discipline to treat purpose and goal-direction as scientifically tractable properties of physical systems rather than as metaphysical mysteries.",
           "tag": "FRAMEWORK",
@@ -53,7 +58,12 @@
           ],
           "links": [
             "th1",
-            "th3"
+            "th3",
+            "fg2",
+            "co8",
+            "co1",
+            "fg1",
+            "fg3"
           ],
           "hint": "W. Ross Ashby's Law of Requisite Variety (1956) states that a controller can only suppress the variety of disturbances to the extent that it itself has variety — a simple controller cannot regulate a complex environment. His Homeostat (1952) was an electromechanical machine of four interconnected units that could seek and maintain equilibrium even after its internal connections were randomly rewired — a physical demonstration that self-organisation and adaptation are achievable by purely mechanical means, requiring no goals programmed in from outside.",
           "tag": "THEORY",
@@ -71,7 +81,12 @@
           ],
           "links": [
             "th1",
-            "th2"
+            "th2",
+            "fg3",
+            "co2",
+            "fg1",
+            "fg2",
+            "db7"
           ],
           "hint": "First-order cybernetics studied how systems regulate themselves. Second-order cybernetics — developed by Heinz von Foerster and amplified by Maturana, Varela, and Luhmann — turned the lens on the observer. Because any observation is made by a system (a nervous system, an institution, a scientist) that is itself a system, the act of observation is not neutral. This led to autopoiesis: the property of living systems to continuously produce and regenerate themselves, which means the system's identity is constituted by its own operations, not by external definition.",
           "tag": "FRAMEWORK",
@@ -88,7 +103,14 @@
             -113.53
           ],
           "links": [
-            "th5"
+            "th5",
+            "fg4",
+            "co2",
+            "co8",
+            "co6",
+            "me5",
+            "db5",
+            "ap5"
           ],
           "hint": "Ludwig von Bertalanffy proposed that despite vast differences between cells, ecosystems, economies, and societies, all open systems share structural principles: they exchange matter and energy with their environment, tend toward dynamic equilibrium, and exhibit properties absent from their components (emergence, equifinality — the property that different initial conditions can reach the same final state). General Systems Theory was an explicit programme for a transdisciplinary science: the same mathematical language should describe physiology, ecology, and organisations alike, enabling knowledge transfer across disciplines through shared structural isomorphisms.",
           "tag": "FRAMEWORK",
@@ -106,7 +128,16 @@
           ],
           "links": [
             "th4",
-            "st6"
+            "st6",
+            "fg5",
+            "co1",
+            "co8",
+            "ef7",
+            "me5",
+            "fg4",
+            "db6",
+            "ap3",
+            "ap5"
           ],
           "hint": "Jay Forrester's system dynamics models complex systems as stocks (accumulations — inventories, populations, capital) connected by flows, with positive (amplifying) and negative (balancing) feedback loops driving change over time. The central insight is that counterintuitive and problematic behaviour in organisations, cities, and economies arises not from external shocks but from the structure of internal feedback loops, especially when time delays cause overshoot. A policy that appears to fix a problem can trigger an equal and opposite response elsewhere in the loop — a pattern Forrester called 'policy resistance.'",
           "tag": "MODEL",
@@ -124,7 +155,16 @@
           ],
           "links": [
             "th7",
-            "st1"
+            "st1",
+            "co3",
+            "ef2",
+            "me2",
+            "fg6",
+            "ef1",
+            "ef7",
+            "me4",
+            "fg7",
+            "db1"
           ],
           "hint": "Edward Lorenz discovered chaos while running a radically simplified weather simulation: three coupled differential equations modelling convection produced trajectories that never repeated yet stayed bounded within a peculiar double-spiral — the strange attractor. Two runs differing by one part in a million diverged completely within a few integration steps, demonstrating sensitive dependence on initial conditions. The implication: a deterministic system — governed entirely by fixed equations — can produce behaviour indistinguishable from randomness, and long-range weather prediction is fundamentally impossible regardless of computing power.",
           "tag": "MODEL",
@@ -142,7 +182,11 @@
           ],
           "links": [
             "th6",
-            "st1"
+            "st1",
+            "fg7",
+            "co3",
+            "ef1",
+            "fg6"
           ],
           "hint": "Mitchell Feigenbaum showed that many different nonlinear systems — population models, fluid flows, electronic circuits — all follow the same quantitative route to chaos as a control parameter increases. Each successive period-doubling (1→2→4→8 cycles) happens at intervals shrinking by a constant ratio of approximately 4.6692..., now called the Feigenbaum constant. This universality — the constant is the same regardless of the specific system — means chaos in a dripping faucet and chaos in a laser share the same underlying mathematical structure, connecting nonlinear dynamics to the renormalisation group techniques of statistical physics.",
           "tag": "DISCOVERY",
@@ -160,7 +204,12 @@
           ],
           "links": [
             "st2",
-            "st3"
+            "st3",
+            "co5",
+            "fg12",
+            "me3",
+            "db2",
+            "ap2"
           ],
           "hint": "Paul Erdős and Alfréd Rényi proved that random graphs undergo a phase transition: below a critical threshold (average degree < 1), the network consists of many small isolated components; above it, a giant connected component containing a finite fraction of all nodes abruptly emerges. This sharp threshold — where a small increase in edge density triggers a qualitative change in global connectivity — was the first mathematical proof that network structure can undergo sudden regime shifts. It provided the null model against which all real-world network topology is compared.",
           "tag": "THEORY",
@@ -179,7 +228,21 @@
           "links": [
             "st4",
             "st5",
-            "st10"
+            "st10",
+            "fg9",
+            "fg11",
+            "co4",
+            "co7",
+            "st8",
+            "st9",
+            "ef6",
+            "co2",
+            "me1",
+            "db4",
+            "db5",
+            "db7",
+            "db8",
+            "ap4"
           ],
           "hint": "John Holland at the Santa Fe Institute formalised complex adaptive systems as collections of agents — each following simple local rules — that interact, adapt, and co-evolve. Emergent global behaviour (an economy, an immune system, an ecosystem) cannot be deduced from any individual agent's rules; it arises from interactions across many levels. Holland's specific tools were classifier systems (agents that match-and-act using condition-action rules) and genetic algorithms (agents that evolve their rules via selection and recombination), turning CAS theory into a computational programme for studying adaptation in the absence of central control.",
           "tag": "FRAMEWORK",
@@ -197,7 +260,15 @@
           ],
           "links": [
             "st7",
-            "st8"
+            "st8",
+            "fg8",
+            "co2",
+            "ef4",
+            "st9",
+            "ef3",
+            "ef8",
+            "co6",
+            "co7"
           ],
           "hint": "Ilya Prigogine showed that thermodynamic systems driven far from equilibrium can spontaneously generate organised structures — 'dissipative structures' — maintained by a continuous throughput of energy. Unlike equilibrium crystals, which form by reducing energy, dissipative structures (convection cells, chemical oscillations, living organisms) require constant energy flux to exist and display an intrinsic arrow of time: once formed, they are historically contingent and irreversible. This resolved a paradox: how can self-organisation — local order — be consistent with the Second Law, which demands global entropy increase? The answer is that the local order is thermodynamically paid for by larger disorder in the surroundings.",
           "tag": "THEORY",
@@ -226,7 +297,9 @@
           ],
           "links": [
             "th6",
-            "th7"
+            "th7",
+            "ef1",
+            "fg6"
           ],
           "repl": "mixed",
           "hint": "Robert May showed that the logistic map — a single-equation model of population growth — transitions from stable equilibria through period-doubling to fully chaotic dynamics as the growth rate increases. At moderate growth rates, population oscillates between 2, 4, 8... values in a cascade. Above a critical rate (~3.57), behaviour becomes aperiodic and unpredictable. This paper introduced chaos to the ecological mainstream and directly sparked Feigenbaum's subsequent discovery of the universal constant governing all period-doubling routes to chaos.",
@@ -245,7 +318,10 @@
           ],
           "links": [
             "th8",
-            "st3"
+            "st3",
+            "co5",
+            "fg12",
+            "me3"
           ],
           "repl": "robust",
           "hint": "Watts and Strogatz studied networks that interpolate between regular lattices and random graphs. They showed that many real networks — C. elegans neural wiring, the western US power grid, actor collaboration — inhabit a 'small-world' regime: highly clustered (friends of friends know each other) yet with short average path lengths (everyone connected in a few steps). Remarkably, adding just a few random long-range edges to an otherwise regular lattice dramatically cuts path lengths while preserving local clustering. The result explains why 'six degrees of separation' can coexist with tight local social clusters.",
@@ -264,7 +340,15 @@
           ],
           "links": [
             "th8",
-            "st2"
+            "st2",
+            "co5",
+            "fg12",
+            "db2",
+            "ef5",
+            "ef9",
+            "me3",
+            "ap1",
+            "ap2"
           ],
           "repl": "mixed",
           "hint": "Barabási and Albert showed that the World Wide Web, scientific citations, and actor networks display a power-law degree distribution: a small number of highly-connected hubs coexist with a vast majority of weakly-connected nodes. They proposed 'preferential attachment' as the generative mechanism — new nodes entering a growing network preferentially connect to already-popular nodes (rich-get-richer). Scale-free networks have a striking property: they are robust to random node failure (hubs are unlikely to fail randomly) but fragile to targeted attack on hubs.",
@@ -283,7 +367,11 @@
           ],
           "links": [
             "th9",
-            "st5"
+            "st5",
+            "co4",
+            "me1",
+            "fg11",
+            "ef6"
           ],
           "repl": "robust",
           "hint": "Robert Axelrod ran a computer tournament in which submitted strategies played iterated Prisoner's Dilemma against each other over 200 rounds. The winner — Tit-for-Tat, submitted by Anatol Rapoport — cooperates on the first move, then mirrors the opponent's previous move. Tit-for-Tat is the simplest possible strategy: nice (never defects first), retaliatory (immediately punishes defection), and forgiving (returns to cooperation after one retaliation). The tournament showed that mutual cooperation can evolve and stabilise without central authority, when individuals interact repeatedly and remember past interactions.",
@@ -302,7 +390,10 @@
           ],
           "links": [
             "th9",
-            "st4"
+            "st4",
+            "co4",
+            "me1",
+            "db4"
           ],
           "repl": "mixed",
           "hint": "Thomas Schelling showed with a simple spatial model that extreme residential segregation can emerge even when every individual prefers an integrated neighbourhood. If agents simply move when fewer than 30% of neighbours are of the same type, near-complete segregation results — a pattern far more extreme than any individual's stated preference. This is one of the earliest and most striking demonstrations that aggregate social patterns can diverge radically from individual intentions, revealing a fundamental limitation of policy approaches that target only individual attitudes.",
@@ -320,7 +411,12 @@
             -71.09
           ],
           "links": [
-            "th5"
+            "th5",
+            "me5",
+            "co8",
+            "fg5",
+            "fg4",
+            "db6"
           ],
           "repl": "mixed",
           "hint": "The Club of Rome commissioned MIT researchers to build a global system dynamics model (World3) connecting population, industrial output, food, resource depletion, and pollution. On 'standard run' assumptions — no major changes in physical or social relationships — the model predicted overshoot and collapse of industrial civilisation before 2100. Twelve scenarios showed that only a combination of deliberate limits to growth — stabilised population, reduced resource consumption, pollution control — could achieve a sustainable equilibrium. It was the first major attempt to model the entire Earth system quantitatively.",
@@ -338,7 +434,9 @@
             37.62
           ],
           "links": [
-            "th10"
+            "th10",
+            "fg8",
+            "ef4"
           ],
           "repl": "robust",
           "hint": "Boris Belousov discovered in the early 1950s that a bromate-citric acid-cerium mixture in sulfuric acid oscillates spontaneously between coloured states rather than reaching equilibrium — cycling periodically from yellow to colourless and back. Reviewers rejected his manuscript as impossible, since chemical equilibrium should be monotonic. Anatol Zhabotinsky characterised the reaction fully in 1964 and showed it also generates spatial patterns — travelling and rotating spiral waves in thin liquid layers. The BZ reaction became the canonical laboratory demonstration of chemical dissipative structures and the spatial-temporal self-organisation predicted by Prigogine.",
@@ -357,7 +455,10 @@
           ],
           "links": [
             "th9",
-            "th10"
+            "th10",
+            "ef3",
+            "co2",
+            "db3"
           ],
           "repl": "robust",
           "hint": "Craig Reynolds created a simulation in which individual 'boids' follow three simple local rules with no knowledge of the global system: avoid collisions with nearby neighbours (separation), move toward the average position of nearby neighbours (cohesion), and match the velocity of nearby neighbours (alignment). The emergent result is realistic-looking collective motion — formations, murmurations, schooling — arising with no central coordination and no explicit flocking instruction. No agent knows the global state; the coherent flock is a purely emergent phenomenon.",
@@ -376,7 +477,10 @@
           ],
           "links": [
             "th9",
-            "th10"
+            "th10",
+            "co7",
+            "fg9",
+            "db8"
           ],
           "repl": "mixed",
           "hint": "Stuart Kauffman modelled gene regulatory networks as randomly wired Boolean networks with N genes and K random inputs per gene. At K=2 (sparse wiring), the network settles into ordered cycles through a small number of attractors, with cycle length scaling as √N — a quantity that roughly predicts the number of cell types in organisms (humans have ~250 cell types, ~25,000 genes). At K=N (fully random), dynamics are chaotic. K=2 sits at a boundary — the edge of chaos — where Kauffman argued evolvability is maximised: enough order for stability, enough chaos for adaptation.",
@@ -394,7 +498,10 @@
             -106.28
           ],
           "links": [
-            "th9"
+            "th9",
+            "db8",
+            "fg11",
+            "co4"
           ],
           "repl": "mixed",
           "hint": "Christopher Langton studied cellular automata — grids where cells update based on their neighbours' states — using a single parameter λ: the fraction of non-quiescent transition rules. As λ increases, CA behaviour transitions from fixed-point through periodic to complex to chaotic. Langton found that maximum computational complexity, information transmission, and 'interesting' dynamics cluster near the phase transition between order and chaos — the 'edge of chaos.' He argued this transition region is the universal condition under which life and complex computation are possible.",
@@ -425,7 +532,14 @@
           "links": [
             "th6",
             "th7",
-            "co3"
+            "co3",
+            "fg6",
+            "fg7",
+            "me2",
+            "st1",
+            "ef2",
+            "me6",
+            "db1"
           ],
           "repl": "robust",
           "hint": "In any chaotic system, arbitrarily small differences in initial conditions grow exponentially over time, eventually rendering long-range prediction impossible. Two identically specified systems — differing only by one part in a trillion in starting state — diverge completely after a characteristic time. This is not a failure of computing power or measurement precision but a mathematical property of the system's equations. It means that chaotic systems have a finite and fundamental prediction horizon beyond which forecasting is impossible regardless of resources.",
@@ -445,7 +559,11 @@
           "links": [
             "th6",
             "co3",
-            "ef1"
+            "ef1",
+            "me2",
+            "fg6",
+            "me6",
+            "db1"
           ],
           "repl": "robust",
           "hint": "Many dissipative chaotic systems converge onto a bounded region of phase space called a strange attractor — a set that is neither a point, nor a curve, nor a surface, but a fractal: it has a non-integer dimension between 2 and 3. Trajectories on a strange attractor are confined to this thin fractal shell yet never repeat. The fractal geometry means the attractor has infinite detail at all scales of magnification. Strange attractors have been found in turbulent fluid flows, heart rate variability, brain dynamics, and atmospheric data — wherever a system is simultaneously bounded and non-periodic.",
@@ -465,7 +583,13 @@
           "links": [
             "th10",
             "ef4",
-            "ef9"
+            "ef9",
+            "fg10",
+            "db3",
+            "db8",
+            "st8",
+            "ef8",
+            "fg8"
           ],
           "repl": "mixed",
           "hint": "Per Bak, Chao Tang, and Kurt Wiesenfeld showed that a pile of sand driven slowly to a critical slope evolves spontaneously to a critical state — without any external tuning. At this self-organised critical point, avalanches of all sizes occur, distributed as a power law: small avalanches are common, large ones are rare but not vanishingly rare. Bak argued that this mechanism — systems naturally evolving to criticality and then producing power-law event distributions — explains the ubiquity of 1/f noise and power laws in nature: earthquakes, extinction events, neural avalanches, financial crashes.",
@@ -484,7 +608,10 @@
           ],
           "links": [
             "th10",
-            "ef3"
+            "ef3",
+            "st7",
+            "ef8",
+            "fg8"
           ],
           "repl": "robust",
           "hint": "Yoshiki Kuramoto showed that a population of coupled oscillators — pendulums, neurons, fireflies, pacemaker cells — exhibits a phase transition: below a critical coupling strength, each oscillator runs at its own natural frequency and the population remains incoherent; above the threshold, a fraction of oscillators spontaneously synchronise, forming a coherent cluster that grows as coupling increases. Synchronisation emerges without any central pacemaker: it is a collective phase transition analogous to ferromagnetism. The Kuramoto model predicts the threshold analytically.",
@@ -503,7 +630,12 @@
           ],
           "links": [
             "st3",
-            "ef9"
+            "ef9",
+            "ap1",
+            "ap2",
+            "db4",
+            "co8",
+            "ap6"
           ],
           "repl": "robust",
           "hint": "A network of interdependent nodes can fail not proportionally but catastrophically: a single node failure increases load on connected nodes, some of which then fail, triggering a cascade that rapidly collapses a large fraction of the network. The 2003 Northeast North American blackout began with one software bug and one sagging line in Ohio; cascade dynamics disconnected 55 million customers within minutes. Scale-free networks are particularly vulnerable to cascading failures targeting hubs, even though they are robust to random failures.",
@@ -522,7 +654,9 @@
           ],
           "links": [
             "th9",
-            "st4"
+            "st4",
+            "ap4",
+            "db4"
           ],
           "repl": "mixed",
           "hint": "W. Brian Arthur showed that when technologies compete under increasing returns to adoption — the more people use a technology, the more valuable it becomes — small early advantages can become self-reinforcing and lock in an inferior standard permanently. The QWERTY keyboard and the VHS video format became canonical examples: once one format gains enough adopters, switching costs prevent migration to superior alternatives even when they exist. This is a fundamentally different market equilibrium from the neoclassical model, where the best technology always wins.",
@@ -542,7 +676,11 @@
           "links": [
             "th5",
             "th6",
-            "co3"
+            "co3",
+            "ap3",
+            "co8",
+            "me4",
+            "ap6"
           ],
           "repl": "robust",
           "hint": "As a control parameter in a dynamical system crosses a critical value, the system's behaviour can change qualitatively and abruptly — a bifurcation. A stable equilibrium may split into two (pitchfork bifurcation), or a stable fixed point may lose stability and give birth to a limit cycle (Hopf bifurcation), or the system may jump irreversibly to a new state (fold bifurcation / tipping point). Tipping points are fold bifurcations where the system has two stable states and a region of bistability: past the tipping point, the system falls to an alternative attractor and cannot easily return — the basis of catastrophic regime shifts in climate, ecosystems, and social systems.",
@@ -562,7 +700,9 @@
           "links": [
             "th10",
             "ef3",
-            "ef4"
+            "ef4",
+            "fg8",
+            "co2"
           ],
           "repl": "robust",
           "hint": "Alan Turing showed in 1952 that two chemical species reacting and diffusing at different rates can spontaneously generate spatial patterns from a spatially uniform initial state — a counter-intuitive result, since diffusion normally smooths out inhomogeneities. A 'fast diffusing inhibitor' and 'slow diffusing activator' produce stationary concentration patterns (spots, stripes, spirals) that resemble the pigmentation of animal coats, seashell markings, and fingerprints. Turing proposed this as the mechanism by which a homogeneous fertilised egg could develop a structured organism — a solution to the problem of embryological symmetry-breaking.",
@@ -582,7 +722,12 @@
           "links": [
             "ef3",
             "st3",
-            "ef5"
+            "ef5",
+            "fg10",
+            "fg12",
+            "db2",
+            "db3",
+            "ap1"
           ],
           "repl": "mixed",
           "hint": "Many quantities in complex systems — city populations, earthquake magnitudes, word frequencies, wealth, network degree — follow power-law distributions: the probability of an event of size x is proportional to x^(-α) for some exponent α. Power laws are 'scale-free' — the ratio of frequencies of events of size 2x and x is the same regardless of x. This statistical self-similarity suggests the same generative mechanism operates across scales, and implies that rare, extreme events (the 100x earthquake, the billionaire) are not negligible outliers but an intrinsic feature of the system.",
@@ -613,7 +758,11 @@
           "links": [
             "th1",
             "th2",
-            "th5"
+            "th5",
+            "fg1",
+            "fg2",
+            "fg5",
+            "me5"
           ],
           "hint": "A feedback loop exists when the output of a system is routed back as input, influencing future outputs. Negative (balancing) feedback opposes change and drives systems toward equilibrium — a thermostat sensing temperature and adjusting heat input. Positive (amplifying) feedback reinforces change — compound interest, viral spread, arms races, predator-prey eruptions. Most complex systems contain both types operating simultaneously; their relative strengths, time delays, and nonlinearities determine whether the system stabilises, oscillates, or collapses.",
           "tag": "CONCEPT",
@@ -633,7 +782,17 @@
             "th4",
             "th9",
             "th10",
-            "ef8"
+            "ef8",
+            "fg9",
+            "fg10",
+            "th3",
+            "st8",
+            "fg3",
+            "fg4",
+            "fg8",
+            "db5",
+            "db7",
+            "ap5"
           ],
           "hint": "Emergence refers to properties or patterns that arise from the interactions of components yet are not present in — and cannot be predicted from — any individual component. Water's wetness does not exist in hydrogen or oxygen atoms; traffic jams are not a property of any individual car; consciousness (possibly) is not a property of any individual neuron. Weak emergence refers to properties that, in principle, can be derived from component-level rules by simulation; strong emergence refers to properties that are irreducibly novel, which some philosophers argue is incoherent and others consider foundational.",
           "tag": "CONCEPT",
@@ -653,7 +812,15 @@
             "th6",
             "ef1",
             "ef2",
-            "ef7"
+            "ef7",
+            "me4",
+            "me6",
+            "fg6",
+            "th7",
+            "co8",
+            "me2",
+            "fg7",
+            "ap3"
           ],
           "hint": "An attractor is the set of states a dynamical system converges to from many possible starting conditions — the long-run 'destination' of the system's trajectory in phase space. Fixed-point attractors are single stable equilibria (a pendulum at rest). Limit cycles are closed loops (the heartbeat, the business cycle). Torus attractors are periodic orbits with two independent frequencies (quasiperiodic motion). Strange attractors are fractal sets that trajectories approach but never repeat on — the signature of deterministic chaos. The basin of attraction is the set of initial conditions that lead to a given attractor.",
           "tag": "CONCEPT",
@@ -673,7 +840,9 @@
             "th9",
             "st4",
             "st5",
-            "st10"
+            "st10",
+            "fg11",
+            "me1"
           ],
           "hint": "An agent is any entity that perceives its environment through local information and acts on it according to internal rules or goals. Complex adaptive systems consist of many interacting agents each adapting to one another and to the environment — economies (households, firms), immune systems (T-cells, B-cells), ecosystems (organisms), cities (people, institutions). The key distinction from traditional modelling is that agents are heterogeneous, have bounded rationality, and interact locally — making global behaviour irreducibly emergent rather than derivable from aggregate equations.",
           "tag": "CONCEPT",
@@ -692,7 +861,9 @@
           "links": [
             "th8",
             "st2",
-            "st3"
+            "st3",
+            "fg12",
+            "me3"
           ],
           "hint": "A network (graph) is a set of nodes (entities) connected by edges (relationships). The degree of a node is its number of connections. Clustering coefficient measures the fraction of a node's neighbours that are also connected to each other. Path length is the minimum number of edges between two nodes. These three statistics — degree distribution, clustering, and average path length — together characterise most of a network's large-scale structure and predict its behaviour under attack, spread of infection, and information diffusion.",
           "tag": "CONCEPT",
@@ -711,7 +882,10 @@
           "links": [
             "th1",
             "th4",
-            "th10"
+            "th10",
+            "fg1",
+            "fg10",
+            "db5"
           ],
           "hint": "Shannon entropy measures the average uncertainty — and therefore information content — of a probability distribution: a uniform distribution has maximum entropy (maximum uncertainty, maximum information); a peaked distribution has low entropy. In complex systems, entropy connects three different concepts: thermodynamic entropy (disorder in physical systems), Shannon information entropy (uncertainty in communication channels), and algorithmic complexity (length of the shortest program that generates a string). Understanding which kind of complexity a system exhibits determines what kind of analysis is appropriate.",
           "tag": "CONCEPT",
@@ -730,7 +904,9 @@
           "links": [
             "th9",
             "th10",
-            "st9"
+            "st9",
+            "fg9",
+            "ap4"
           ],
           "hint": "Sewall Wright proposed representing the space of possible genotypes as a high-dimensional surface where altitude represents fitness — the 'adaptive landscape.' Evolution can be visualised as a population climbing hills on this landscape toward local maxima. In Kauffman's NK extension, the landscape ruggedness is controlled by K: low K gives smooth 'Fujiyama' landscapes with one global peak; high K gives 'rugged' landscapes with many local optima that can trap adaptation. The concept generalises beyond biology to any optimisation process: corporate strategy, neural network training, and protein folding all involve searching complex fitness landscapes.",
           "tag": "CONCEPT",
@@ -750,7 +926,16 @@
             "th4",
             "th5",
             "co3",
-            "ef5"
+            "ef5",
+            "ap3",
+            "ap6",
+            "ef7",
+            "th2",
+            "st6",
+            "fg2",
+            "fg4",
+            "fg5",
+            "ap5"
           ],
           "hint": "Resilience is a system's capacity to absorb disturbance and reorganise while undergoing change so as to retain essentially the same function and structure. Robustness is a system's ability to maintain performance under parametric variation. These are distinct: a brittle crystal is robust to normal conditions but shatters under sufficient stress; a willow tree bends dramatically but recovers. In complex systems, resilience is often a function of diversity, redundancy, modular structure, and the proximity of the system's current state to a tipping point — properties that are often sacrificed in the pursuit of efficiency.",
           "tag": "CONCEPT",
@@ -781,7 +966,9 @@
             "th9",
             "co4",
             "st4",
-            "st5"
+            "st5",
+            "fg11",
+            "db4"
           ],
           "hint": "Agent-based modelling populates a simulated environment with heterogeneous agents — each with its own rules, memory, and local interactions — and runs the simulation forward to observe what global patterns emerge. Unlike equation-based models that aggregate behaviour into stocks and flows, ABMs capture heterogeneity, spatial structure, and emergent phenomena that aggregate models miss. They are the primary tool for studying complex adaptive systems — economies, epidemics, traffic, social segregation, and ecosystem dynamics.",
           "tag": "METHOD",
@@ -801,7 +988,11 @@
             "th6",
             "co3",
             "ef1",
-            "ef2"
+            "ef2",
+            "db1",
+            "fg6",
+            "fg7",
+            "me6"
           ],
           "hint": "Phase space is the abstract multi-dimensional space in which each axis represents one variable of the system; the system's complete state at any moment is a single point in this space, and its evolution traces a trajectory. The Lyapunov exponent measures how fast nearby trajectories diverge: a positive maximal Lyapunov exponent is the mathematical definition of chaos. Phase portraits — visualisations of trajectories in phase space — reveal attractors, basins of attraction, limit cycles, and the geometry of a system's long-run behaviour without solving equations analytically.",
           "tag": "METHOD",
@@ -821,7 +1012,9 @@
             "th8",
             "co5",
             "st2",
-            "st3"
+            "st3",
+            "fg12",
+            "db2"
           ],
           "hint": "Network analysis quantifies structure using a toolkit of graph-theoretic measures. Centrality measures identify influential nodes: degree centrality counts connections; betweenness centrality measures how often a node lies on the shortest path between others; eigenvector centrality (including PageRank) weights connections by the importance of neighbours. Community detection algorithms (Louvain, Girvan-Newman, Infomap) identify densely-connected clusters — modules within which information flows more easily than between them. These tools, applied to social, biological, and technological networks, extract meso-scale structure invisible to aggregate statistics.",
           "tag": "METHOD",
@@ -840,7 +1033,8 @@
           "links": [
             "co3",
             "ef7",
-            "th6"
+            "th6",
+            "ap3"
           ],
           "hint": "Bifurcation analysis systematically maps how the qualitative behaviour of a dynamical system changes as parameters vary. Numerical continuation software traces families of equilibria and limit cycles through parameter space, detecting bifurcation points — the values at which a qualitative change (loss of stability, birth of new attractors, period-doubling) occurs. Two-parameter bifurcation diagrams reveal the full landscape of a system's possible behaviours and identify co-dimension-2 points where multiple bifurcations interact, enabling prediction of tipping points before they are reached.",
           "tag": "METHOD",
@@ -860,7 +1054,9 @@
             "th4",
             "th5",
             "co1",
-            "st6"
+            "st6",
+            "fg5",
+            "fg4"
           ],
           "hint": "System dynamics modelling represents complex systems as networks of stocks (accumulations that can only change via flows), flows (rates of change), and feedback loops, drawn in causal loop diagrams (qualitative) or stock-flow diagrams (quantitative, simulated). The causal loop diagram identifies the polarity and structure of feedback loops; the stock-flow model adds equations and runs over time. Key insight: the behaviour of the system emerges from the feedback structure, not from the detailed equations — rearranging loops produces new behaviours even with the same parameters.",
           "tag": "METHOD",
@@ -880,7 +1076,8 @@
             "co3",
             "ef1",
             "ef2",
-            "me2"
+            "me2",
+            "db1"
           ],
           "hint": "Floris Takens proved that the full phase-space geometry of a strange attractor can be reconstructed from a single scalar time series — just one measured variable — by delay-embedding: plotting the time series against lagged copies of itself in a higher-dimensional space. The reconstructed attractor is topologically equivalent to the original. This means that measuring only one component of a complex system (say, temperature fluctuations in a turbulent fluid) is sufficient to reconstruct the entire dynamical structure and compute Lyapunov exponents, fractal dimension, and entropy.",
           "tag": "METHOD",
@@ -910,7 +1107,9 @@
           "links": [
             "th1",
             "th2",
-            "th3"
+            "th3",
+            "co6",
+            "co1"
           ],
           "hint": "Norbert Wiener founded cybernetics as the unified science of control, communication, and feedback in animals and machines. His 1948 book gave the discipline its name and its core concept — the feedback loop as the mechanism of purposive behaviour — and proposed that the same mathematics governs nervous systems, thermostats, and economies. Wiener also developed the Wiener filter (optimal linear filtering of noisy signals) during wartime anti-aircraft work, and was one of the first scientists to publicly warn about the social implications of automation.",
           "tag": "FIGURE",
@@ -929,7 +1128,9 @@
           "links": [
             "th2",
             "th1",
-            "th3"
+            "th3",
+            "co8",
+            "co1"
           ],
           "hint": "W. Ross Ashby was a British psychiatrist who became the most rigorous mathematical cybernetician of the 1950s. He built the Homeostat — an electromechanical self-organising machine — and derived the Law of Requisite Variety: a controller can only regulate a system to the degree that its own variety matches the variety of the disturbances. His Introduction to Cybernetics (1956) translated cybernetics from Wiener's informal prose into set theory and difference equations, making it teachable as a formal discipline.",
           "tag": "FIGURE",
@@ -948,7 +1149,8 @@
           "links": [
             "th3",
             "th1",
-            "th2"
+            "th2",
+            "co2"
           ],
           "hint": "Heinz von Foerster was the organiser of the Macy Conferences (1946–1953) that defined first-order cybernetics, and later the architect of second-order cybernetics — the extension that includes the observer in the system. His Biological Computer Laboratory at Illinois was a centre for constructivist and radical cognitive science. He coined the term 'second-order cybernetics' and developed the mathematical formalism of self-referential systems, influencing Varela and Maturana (autopoiesis), Luhmann (social systems), and constructivist therapy.",
           "tag": "FIGURE",
@@ -966,7 +1168,14 @@
           ],
           "links": [
             "th4",
-            "th5"
+            "th5",
+            "co2",
+            "co8",
+            "me5",
+            "st6",
+            "db6",
+            "ap3",
+            "ap5"
           ],
           "hint": "Ludwig von Bertalanffy was an Austrian biologist who built General Systems Theory as an explicit reaction against reductionism. He observed that biological open systems — unlike closed physical systems — maintain their organisation while exchanging matter and energy with the environment, and that the same mathematical descriptions (differential equations for open systems) apply across biology, economics, and social science. He proposed that the most useful scientific advance would not be new discoveries within existing disciplines but the discovery of structural isomorphisms across them.",
           "tag": "FIGURE",
@@ -985,7 +1194,12 @@
           "links": [
             "th5",
             "st6",
-            "me5"
+            "me5",
+            "co1",
+            "co8",
+            "db6",
+            "ap3",
+            "ap5"
           ],
           "hint": "Jay Forrester invented system dynamics — the method of representing complex sociotechnical systems as stocks, flows, and feedback loops, then simulating them to reveal counterintuitive policy consequences. A former engineer who built the Whirlwind digital computer and invented magnetic-core memory, Forrester turned to management science and created Industrial Dynamics (1961) to explain why MIT companies had inventory and workforce oscillations. He then applied the method to cities (Urban Dynamics, 1969), predicting that urban renewal would worsen inner-city conditions — a conclusion that infuriated politicians but has been partially vindicated.",
           "tag": "FIGURE",
@@ -1005,7 +1219,11 @@
             "th6",
             "th7",
             "ef1",
-            "ef2"
+            "ef2",
+            "me2",
+            "st1",
+            "co3",
+            "db1"
           ],
           "hint": "Edward Lorenz discovered deterministic chaos while running a simplified weather model on a Royal McBee LGP-30 computer in 1961. When he re-ran a simulation by entering rounded intermediate values, the resulting trajectory diverged completely from the original — he traced the divergence to a printout rounding at three decimal places while the computation used six. The published 1963 paper established the mathematical framework of chaos. His 1972 conference talk introduced the phrase 'butterfly effect.' He remained a working scientist at MIT into his late eighties, publishing on climate predictability.",
           "tag": "FIGURE",
@@ -1024,7 +1242,10 @@
           "links": [
             "th7",
             "th6",
-            "ef1"
+            "ef1",
+            "co3",
+            "me2",
+            "db1"
           ],
           "hint": "Mitchell Feigenbaum discovered universal constants in the period-doubling route to chaos using a pocket calculator — he noticed that the ratios between successive period-doublings converged to the same constant (~4.6692) regardless of the specific function he iterated. He immediately recognised this as universality, analogous to critical exponents in statistical mechanics, and developed a renormalisation group explanation. The two Feigenbaum constants (δ ≈ 4.6692 and α ≈ 2.5029) have been measured experimentally in fluid dynamics, electronics, and chemistry.",
           "tag": "FIGURE",
@@ -1044,7 +1265,10 @@
             "th10",
             "st7",
             "ef3",
-            "ef8"
+            "ef8",
+            "ef4",
+            "co2",
+            "db7"
           ],
           "hint": "Ilya Prigogine resolved the deepest paradox of nineteenth-century physics: how can a universe governed by time-reversible physical laws produce the irreversible arrow of time we observe — in evolution, in history, in chemistry? He showed that systems driven far from thermodynamic equilibrium spontaneously generate ordered structures (dissipative structures) that are maintained by energy throughput and are irreversibly historical. His Nobel lecture argued that thermodynamics and evolution point to a universe that is inherently creative and historical, not simply mechanical.",
           "tag": "FIGURE",
@@ -1063,7 +1287,11 @@
           "links": [
             "th9",
             "st9",
-            "co7"
+            "co7",
+            "co2",
+            "db5",
+            "db7",
+            "db8"
           ],
           "hint": "Stuart Kauffman proposed that much of biological order — particularly the organisation of gene regulatory networks and the number of distinct cell types in organisms — does not arise from natural selection alone but from the intrinsic self-organisation of networks near the edge of chaos. His NK Boolean network model showed that sparse random wiring (K=2) produces ordered dynamics with attractor cycle counts scaling as √N, matching the observed cell-type counts across organisms. He argued that life originates at phase transitions, not through the improbable assembly of specific molecules.",
           "tag": "FIGURE",
@@ -1082,7 +1310,11 @@
           "links": [
             "ef3",
             "ef9",
-            "co6"
+            "co6",
+            "db3",
+            "co2",
+            "db5",
+            "db8"
           ],
           "hint": "Per Bak co-invented self-organized criticality (SOC) — the finding that slowly driven dissipative systems evolve spontaneously to a critical state characterised by power-law avalanche distributions. His sandpile model (1987) was the archetypical SOC system: add sand grain by grain; when the slope exceeds a threshold locally, sand topples to neighbours; avalanches of all sizes ensue. Bak proposed SOC as a universal mechanism explaining the 1/f noise, power laws, and punctuated equilibrium patterns observed across physics, biology, and economics.",
           "tag": "FIGURE",
@@ -1102,7 +1334,11 @@
             "th9",
             "st4",
             "st10",
-            "co4"
+            "co4",
+            "me1",
+            "db4",
+            "db8",
+            "ap4"
           ],
           "hint": "John Holland invented genetic algorithms — optimisation procedures modelled on Darwinian selection that evolve populations of candidate solutions through selection, crossover, and mutation. He then generalised the insight to complex adaptive systems: any system of agents that evolve their rules through feedback from the environment exhibits CAS dynamics. Holland is the intellectual father of evolutionary computation and a co-founder of the Santa Fe Institute's CAS research programme, which linked economics, ecology, immunology, and artificial life under a common theoretical umbrella.",
           "tag": "FIGURE",
@@ -1121,7 +1357,12 @@
           "links": [
             "st3",
             "ef9",
-            "co5"
+            "co5",
+            "db2",
+            "me3",
+            "th8",
+            "st2",
+            "ap1"
           ],
           "hint": "Albert-László Barabási and Réka Albert showed in 1999 that many growing networks — the web, citations, metabolic networks — develop hubs and power-law degree distributions through preferential attachment: new nodes disproportionately connect to already well-connected nodes. This 'scale-free' network model displaced the Erdős-Rényi random graph as the default model for real networks. Barabási subsequently mapped the human interactome (protein interaction network) and the human connectome, and used network medicine to identify disease modules in the interactome.",
           "tag": "FIGURE",
@@ -1153,7 +1394,9 @@
             "ef1",
             "ef2",
             "me2",
-            "me6"
+            "me6",
+            "fg6",
+            "fg7"
           ],
           "hint": "Throughout the 1980s and 1990s, researchers applied Takens' embedding theorem to EEG signals, heart rate variability, stock prices, and climate records, claiming to find low-dimensional strange attractors — definitive evidence of deterministic chaos in biology and economics. A sustained methodological critique showed that many of these results were statistical artefacts: finite data, nonstationarity, and noise can produce apparently low fractal dimensions and falsely positive Lyapunov exponents. The debate established critical standards for distinguishing true chaos from structured stochasticity.",
           "tag": "DEBATE",
@@ -1173,7 +1416,8 @@
             "st3",
             "th8",
             "ef9",
-            "fg12"
+            "fg12",
+            "me3"
           ],
           "hint": "The claim that real-world networks follow power-law degree distributions — making them 'scale-free' — is one of the most cited findings in network science. Broido and Clauset (2019) applied rigorous statistical testing (likelihood ratios, goodness-of-fit tests) to nearly 1,000 empirical networks and found that 'strong' scale-free networks are rare; most purported power-law networks fit log-normal or other heavy-tailed distributions equally well. Barabási and colleagues responded that the scale-free property is more subtle than a strict power law. The debate concerns both the statistical methods and the definition of 'scale-free.'",
           "tag": "DEBATE",
@@ -1192,7 +1436,8 @@
           "links": [
             "ef3",
             "fg10",
-            "ef9"
+            "ef9",
+            "st8"
           ],
           "hint": "Self-organized criticality claims that driven dissipative systems spontaneously evolve to a critical point without any external tuning of parameters. Critics have shown that many proposed SOC models are not truly self-organised: the sandpile requires an infinitely slow driving rate relative to relaxation time (the separation of timescales condition), and when this is violated, the critical point disappears. Many biological 'SOC' systems have been proposed but few show convincing evidence of self-tuning as opposed to near-critical operation that requires some environmental tuning.",
           "tag": "DEBATE",
@@ -1211,7 +1456,10 @@
           "links": [
             "me1",
             "st5",
-            "th9"
+            "th9",
+            "fg11",
+            "ef5",
+            "ef6"
           ],
           "hint": "Agent-based models typically have many free parameters — agent decision rules, interaction topologies, initial conditions — and can often be calibrated to match historical data for multiple different parameter sets. This equifinality problem means that fitting the past does not uniquely identify the model's generative mechanisms. Critics argue that most ABMs are post-hoc explanations rather than predictive theories, and that without rigorous out-of-sample testing and sensitivity analysis, ABMs tell us little about real systems and a lot about what patterns are computationally achievable.",
           "tag": "DEBATE",
@@ -1231,7 +1479,9 @@
             "th4",
             "th9",
             "co2",
-            "co6"
+            "co6",
+            "fg9",
+            "fg10"
           ],
           "hint": "Complexity science claims to be a unified science of self-organisation, emergence, and adaptation across all domains — physical, biological, economic, social. Critics argue that this universality is illusory: the same words (emergence, self-organisation, complexity, edge of chaos) are used across disciplines without a shared mathematical definition, producing false analogies and unfalsifiable claims. Defenders respond that structural isomorphisms across levels and domains are real and scientifically productive, even if the unified theory is not yet fully formulated.",
           "tag": "DEBATE",
@@ -1250,7 +1500,9 @@
           "links": [
             "st6",
             "th5",
-            "fg5"
+            "fg5",
+            "fg4",
+            "ap3"
           ],
           "hint": "The Limits to Growth (1972) predicted that on 'standard run' assumptions, industrial civilisation would overshoot and collapse before 2100. Turner (2008) showed that observed data on population, food, industrial output, resources, and pollution tracked the standard run remarkably closely for the first 30 years. But the model excludes prices, technological substitution, and institutional adaptation — the mechanisms by which conventional economists argue market economies avoid Malthusian limits. At 50+ years, the debate about whether the model's structure or its assumptions are correct continues.",
           "tag": "DEBATE",
@@ -1269,7 +1521,9 @@
           "links": [
             "co2",
             "th3",
-            "th9"
+            "th9",
+            "fg8",
+            "fg9"
           ],
           "hint": "Weak emergence refers to properties that can in principle be derived by simulation from lower-level rules, even if they are surprising or computationally irreducible. Strong emergence refers to properties that are genuinely irreducible — that cannot even in principle be derived from complete knowledge of the components. Most philosophers of science deny that strong emergence is coherent, arguing it collapses into a claim about our ignorance. But others argue that consciousness and certain quantum phenomena constitute genuine cases. The debate has concrete implications: strong emergence, if real, would invalidate the reductionist research programme.",
           "tag": "DEBATE",
@@ -1289,7 +1543,10 @@
             "st10",
             "st9",
             "th9",
-            "ef3"
+            "ef3",
+            "fg9",
+            "fg11",
+            "fg10"
           ],
           "hint": "Langton (1990) and Kauffman argued that living systems — and computation in general — are possible only at the edge between order and chaos, a phase transition where information can be stored (order) and transmitted (dynamics). Critics responded that the λ parameter operationalising the edge of chaos is too coarse to precisely locate the transition, that evolved cellular automata do not consistently optimise at the edge, and that biological evolution has no reason to target the precise phase boundary. The hypothesis is influential as an organising principle but lacks falsifiable predictions.",
           "tag": "DEBATE",
@@ -1319,7 +1576,9 @@
           "links": [
             "ef5",
             "st3",
-            "ef9"
+            "ef9",
+            "ap2",
+            "fg12"
           ],
           "hint": "The 2008 financial crisis demonstrated that a banking system is a network — and that its topology determines whether failures cascade locally or globally. Banks connected by interbank lending, derivatives contracts, and shared asset holdings form a network in which the failure of highly connected nodes (large interconnected banks) can trigger cascades that propagate through the system far faster than supervisory reaction time. Network-based systemic risk models now inform central bank stress testing, identifying systemically important financial institutions (SIFIs) by their position in the financial network, not their individual size.",
           "tag": "APPLICATION",
@@ -1338,7 +1597,8 @@
           "links": [
             "ef5",
             "st3",
-            "th8"
+            "th8",
+            "ap1"
           ],
           "hint": "The classical SIR epidemic model assumes homogeneous mixing — every person contacts every other with equal probability. Network epidemiology replaces this with realistic contact networks (household, workplace, school). On scale-free networks, the epidemic threshold (the minimum R₀ for spread) vanishes: pathogens can always persist because hubs provide an infinite-variance super-spreading pathway. This has practical implications for vaccination: targeting hubs (super-spreaders) by degree rather than at random dramatically reduces the doses needed for herd immunity.",
           "tag": "APPLICATION",
@@ -1358,7 +1618,12 @@
             "ef7",
             "th5",
             "co3",
-            "co8"
+            "co8",
+            "fg5",
+            "fg4",
+            "db6",
+            "me4",
+            "ap6"
           ],
           "hint": "Earth's climate system contains multiple 'tipping elements' — subsystems that exhibit bistability and may undergo abrupt, self-sustaining transitions if pushed past a threshold: the West Antarctic Ice Sheet, Greenland Ice Sheet, Amazon dieback, Atlantic Meridional Overturning Circulation slowdown, permafrost carbon release. Beyond individual tipping points, cascading interactions between tipping elements mean that crossing one may destabilise others — a 'tipping cascade' potentially irreversible on any human timescale and triggered by warming well below 2°C.",
           "tag": "APPLICATION",
@@ -1377,7 +1642,8 @@
           "links": [
             "th9",
             "co7",
-            "fg11"
+            "fg11",
+            "ef6"
           ],
           "hint": "Genetic algorithms evolve a population of candidate solutions to an engineering optimisation problem by selection, crossover, and mutation — mimicking Darwinian evolution on a space of designs rather than genomes. They excel on problems where the fitness landscape is rugged, discontinuous, or high-dimensional, where gradient-based methods fail. Applications include aircraft wing profile optimisation, antenna design, scheduling, pharmaceutical molecule discovery, and neural architecture search. They are now a standard tool in computational engineering when objective functions are noisy or non-differentiable.",
           "tag": "APPLICATION",
@@ -1397,7 +1663,9 @@
             "th4",
             "th5",
             "co8",
-            "co2"
+            "co2",
+            "fg4",
+            "fg5"
           ],
           "hint": "Cities are prototypical complex adaptive systems: millions of agents (residents, businesses, vehicles) interact through physical and economic networks, generating spatial patterns (land use, density, segregation) that feed back to constrain individual behaviour. Jane Jacobs' 1961 critique of urban planning showed that top-down, 'machine' conceptions of cities destroy the adaptive complexity that makes them liveable. Modern smart-city analytics use mobile phone data, sensor networks, and network analysis to measure urban flows in real time and identify resilient vs. fragile infrastructure configurations.",
           "tag": "APPLICATION",
@@ -1432,42 +1700,168 @@
       "icon": "🧪",
       "accent": "#7D3C98",
       "label": "Landmark Studies",
-      "events": []
+      "events": [
+        {
+          "year": 1964,
+          "label": "BZ reaction demonstrates chemical oscillation",
+          "ref": "st7"
+        },
+        {
+          "year": 1972,
+          "label": "Limits to Growth models global resource overshoot",
+          "ref": "st6"
+        },
+        {
+          "year": 1984,
+          "label": "Axelrod: cooperation emerges via Tit-for-Tat",
+          "ref": "st4"
+        },
+        {
+          "year": 1998,
+          "label": "Watts & Strogatz describe small-world networks",
+          "ref": "st2"
+        }
+      ]
     },
     {
       "id": "theory",
       "icon": "📐",
       "accent": "#2471A3",
       "label": "Theories & Models",
-      "events": []
+      "events": [
+        {
+          "year": 1948,
+          "label": "Wiener founds cybernetics as unified control science",
+          "ref": "th1"
+        },
+        {
+          "year": 1963,
+          "label": "Lorenz attractor proves deterministic chaos exists",
+          "ref": "th6"
+        },
+        {
+          "year": 1978,
+          "label": "Feigenbaum constants reveal universal route to chaos",
+          "ref": "th7"
+        },
+        {
+          "year": 1992,
+          "label": "Holland formalises complex adaptive systems at SFI",
+          "ref": "th9"
+        }
+      ]
     },
     {
       "id": "effect",
       "icon": "📊",
       "accent": "#117A65",
       "label": "Effects & Phenomena",
-      "events": []
+      "events": [
+        {
+          "year": 1952,
+          "label": "Turing shows diffusion can generate spatial patterns",
+          "ref": "ef8"
+        },
+        {
+          "year": 1975,
+          "label": "Kuramoto model predicts spontaneous synchronisation",
+          "ref": "ef4"
+        },
+        {
+          "year": 1987,
+          "label": "Bak et al. demonstrate self-organized criticality",
+          "ref": "ef3"
+        },
+        {
+          "year": 1999,
+          "label": "Power-law hubs found in growing real-world networks",
+          "ref": "ef9"
+        }
+      ]
     },
     {
       "id": "method",
       "icon": "🔬",
       "accent": "#8B5E00",
       "label": "Methods",
-      "events": []
+      "events": [
+        {
+          "year": 1961,
+          "label": "Forrester introduces stock-flow systems simulation",
+          "ref": "me5"
+        },
+        {
+          "year": 1981,
+          "label": "Takens' theorem: reconstruct phase space from data",
+          "ref": "me6"
+        },
+        {
+          "year": 1986,
+          "label": "Agent-based modelling emerges at Santa Fe Institute",
+          "ref": "me1"
+        },
+        {
+          "year": 2002,
+          "label": "Girvan-Newman enables network community detection",
+          "ref": "me3"
+        }
+      ]
     },
     {
       "id": "debate",
       "icon": "⚖️",
       "accent": "#B7770D",
       "label": "Debates & Revisions",
-      "events": []
+      "events": [
+        {
+          "year": 1992,
+          "label": "Surrogate data test challenges chaos claims in biology",
+          "ref": "db1"
+        },
+        {
+          "year": 1997,
+          "label": "Strong emergence debate: real or ignorance?",
+          "ref": "db7"
+        },
+        {
+          "year": 2007,
+          "label": "ABM calibration: can agent models be validated?",
+          "ref": "db4"
+        },
+        {
+          "year": 2019,
+          "label": "Broido & Clauset: scale-free networks are rare",
+          "ref": "db2"
+        }
+      ]
     },
     {
       "id": "application",
       "icon": "🔗",
       "accent": "#2E86C1",
       "label": "Applications",
-      "events": []
+      "events": [
+        {
+          "year": 1961,
+          "label": "Jacobs shows cities are complex adaptive systems",
+          "ref": "ap5"
+        },
+        {
+          "year": 1985,
+          "label": "Genetic algorithms solve engineering optimisation",
+          "ref": "ap4"
+        },
+        {
+          "year": 2003,
+          "label": "Resilience engineering reframes infrastructure safety",
+          "ref": "ap6"
+        },
+        {
+          "year": 2008,
+          "label": "Financial crisis reveals banking network fragility",
+          "ref": "ap1"
+        }
+      ]
     }
   ]
 }
