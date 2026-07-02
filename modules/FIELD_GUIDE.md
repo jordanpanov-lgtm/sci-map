@@ -160,22 +160,22 @@ Good link patterns:
 two different fields (e.g. Alan Turing in CS and in systems-and-complexity, Cajal in
 anatomy and in neuroscience).
 
-**Do not add `xlinks` freehand.** Use the discovery script to find candidates first:
-```
-node modules/build-xlink-candidates.js
-```
-This reads `_global_index.json` and outputs `_xlink_candidates.json` — a ranked list of
-candidate pairs for human review before writing anything to folio files.
+Add `xlinks` manually when you are confident both entries refer to the same person, study,
+or concept. Do not add them speculatively — a false cross-folio link is more confusing than
+no link.
 
 Rules:
 - Unlike `links`, `xlinks` are not required to be reciprocated — the target folio file is
   not re-opened just to add a back-reference.
-- Every `xlinks` value must resolve to a real key in `_global_index.json`. Check:
+- Every `xlinks` value must resolve to a real key in `_global_index.json`. Verify:
   ```
   node -e "const g=require('./modules/_global_index.json'); console.log(g.index['folio::id'])"
   ```
 - Never xlink to a folio that still has `status:"planned"`.
-- Aim for 0–3 xlinks per entry. Weak keyword overlaps don't warrant an xlink.
+- Aim for 0–3 xlinks per entry.
+
+To search for candidates, query `_global_index.json` directly, or run the standalone
+discovery script (`modules/build-xlink-candidates.js`) as a one-off research tool.
 
 ### Figures — what to write
 
@@ -502,8 +502,6 @@ string values — most commonly in `note` fields that quote paper titles.
 - [ ] Run `node modules/build-global-index.js` from the `sci-map/` directory after registering the folio?
 - [ ] Output confirms the new folio is listed and total entry count increased?
 - [ ] `modules/_global_index.json` included in the final commit?
-- [ ] Run `node modules/build-xlink-candidates.js` to refresh `_xlink_candidates.json` with the new folio's entries?
-- [ ] Reviewed `_xlink_candidates.json` for high-confidence `xlinks` worth wiring into the new folio?
 
 Run the JSON validation script:
 ```bash

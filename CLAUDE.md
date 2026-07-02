@@ -33,12 +33,9 @@ node modules/build-global-index.js
 
 Commit `_global_index.json` alongside `index.html` in the final "feat: … folio complete" commit.
 
-**Cross-folio link discovery** — after rebuilding the global index, run:
-```
-node modules/build-xlink-candidates.js
-```
-This outputs `_xlink_candidates.json` — a ranked list of candidate `xlinks` for human review.
 The `xlinks` field on entries (format: `["folio::id"]`) is the schema for cross-folio references.
+Add them manually when you are confident both entries refer to the same entity. Use `_global_index.json`
+or the standalone `modules/build-xlink-candidates.js` script as research tools when searching for candidates.
 See FIELD_GUIDE.md §xlinks for authoring rules and validation.
 
 ---
