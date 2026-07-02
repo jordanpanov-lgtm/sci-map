@@ -2,195 +2,1786 @@
   "id": "social-psychology",
   "title": "Social Psychology",
   "subtitle": "How people think about, influence and relate to one another",
-  "period": { "start": 1895, "end": 2025 },
+  "period": {
+    "start": 1895,
+    "end": 2025
+  },
   "domain": "Mind",
-  "mapCenter": [40, -25],
+  "mapCenter": [
+    40,
+    -25
+  ],
   "mapZoom": 3,
   "methodology": "METHODOLOGY · Every entry anchors to a landmark study, paper or scale. The hint explains the finding in plain language; the evidence field names the primary publication and flags replication status, effect-size revisions and known controversies. Studies and effects carry a replicability badge — 🟢 robust · 🟡 nuanced or reduced · 🔴 failed or severely contested. Map pins mark the institution where the work was carried out.",
+  "_meta": {
+    "total_entries": 68,
+    "entry_counts": {
+      "theory": 12,
+      "study": 10,
+      "effect": 10,
+      "concept": 7,
+      "method": 6,
+      "figure": 10,
+      "debate": 7,
+      "application": 6
+    },
+    "max_ids": {
+      "th": 12,
+      "st": 10,
+      "ef": 10,
+      "co": 7,
+      "me": 6,
+      "fg": 10,
+      "db": 7,
+      "ap": 6
+    },
+    "groups": [
+      "Attitude Measurement",
+      "Attitudes",
+      "Attitudes & Persuasion",
+      "Behaviour Change",
+      "Conformity & Obedience",
+      "Cumulative Evidence",
+      "Education",
+      "Experimental Design",
+      "Field Methods",
+      "Founders",
+      "Generalisability",
+      "Groups & Performance",
+      "Health",
+      "Helping & Harm",
+      "Implicit Measurement",
+      "Influence",
+      "Intergroup Relations",
+      "Interpersonal Attraction",
+      "Judgment & Decision",
+      "Learning & Influence",
+      "Perceiving Others",
+      "Person vs Situation",
+      "Public Policy",
+      "Re-examining the Classics",
+      "Reducing Prejudice",
+      "Reform & Open Science",
+      "Roles & Situations",
+      "Social Cognition",
+      "The Replication Crisis",
+      "The Self & Cognition"
+    ],
+    "last_updated": "2026-07-02"
+  },
+  "_index": {
+    "th1": "theory · The Self & Cognition · Cognitive Dissonance Theory (1957)",
+    "th2": "theory · The Self & Cognition · Social Comparison Theory (1954)",
+    "th3": "theory · Intergroup Relations · Social Identity Theory (1979)",
+    "th4": "theory · Perceiving Others · Attribution Theory (1958)",
+    "th5": "theory · Attitudes & Persuasion · Elaboration Likelihood Model (1986)",
+    "th6": "theory · The Self & Cognition · Self-Perception Theory (1967)",
+    "th7": "theory · Learning & Influence · Social Learning Theory (1977)",
+    "th8": "theory · Intergroup Relations · Realistic Conflict Theory (1966)",
+    "th9": "theory · Intergroup Relations · Stereotype Content Model (2002)",
+    "th10": "theory · Judgment & Decision · Heuristics & Biases (1974)",
+    "th11": "theory · Helping & Harm · Frustration-Aggression Hypothesis (1939)",
+    "th12": "theory · Interpersonal Attraction · Triangular Theory of Love (1986)",
+    "st1": "study · Conformity & Obedience · Asch Conformity Experiments (1951)",
+    "st2": "study · Conformity & Obedience · Milgram Obedience Experiments (1961–63)",
+    "st3": "study · Roles & Situations · Stanford Prison Experiment (1971)",
+    "st4": "study · Intergroup Relations · Robbers Cave Experiment (1954)",
+    "st5": "study · Helping & Harm · Bystander Intervention / Diffusion of Responsibility (1968)",
+    "st6": "study · Helping & Harm · Bobo Doll Experiment (1961)",
+    "st7": "study · Attitudes & Persuasion · Forced Compliance ($1 / $20 study) (1959)",
+    "st8": "study · Helping & Harm · 'From Jerusalem to Jericho' (Good Samaritan study) (1973)",
+    "st9": "study · Intergroup Relations · Minimal Group Experiments (1971)",
+    "st10": "study · Interpersonal Attraction · Adult Romantic Attachment (Hazan & Shaver) (1987)",
+    "ef1": "effect · Perceiving Others · Fundamental Attribution Error (1977)",
+    "ef2": "effect · Attitudes & Persuasion · Mere Exposure Effect (1968)",
+    "ef3": "effect · Groups & Performance · Social Facilitation (1898)",
+    "ef4": "effect · Groups & Performance · Groupthink (1972)",
+    "ef5": "effect · Groups & Performance · Group Polarization (1969)",
+    "ef6": "effect · Perceiving Others · Halo Effect (1920)",
+    "ef7": "effect · The Self & Cognition · False Consensus Effect (1977)",
+    "ef8": "effect · Perceiving Others · Actor–Observer Asymmetry (1971)",
+    "ef9": "effect · Intergroup Relations · Stereotype Threat (1995)",
+    "ef10": "effect · Interpersonal Attraction · Propinquity Effect (1950)",
+    "co1": "concept · Attitudes · Attitude (1935)",
+    "co2": "concept · Intergroup Relations · Stereotype, Prejudice & Discrimination (1954)",
+    "co3": "concept · Influence · Conformity, Compliance & Obedience (1955)",
+    "co4": "concept · The Self & Cognition · Schema (1932)",
+    "co5": "concept · The Self & Cognition · Self-Concept & Self-Esteem (1890)",
+    "co6": "concept · Intergroup Relations · Implicit Bias (1995)",
+    "co7": "concept · The Self & Cognition · The Cognitive Miser (1984)",
+    "me1": "method · Attitude Measurement · Likert Scale (1932)",
+    "me2": "method · Implicit Measurement · Implicit Association Test (IAT) (1998)",
+    "me3": "method · Field Methods · Lost-Letter Technique (1965)",
+    "me4": "method · Experimental Design · Deception & the Cover Story (1963)",
+    "me5": "method · Cumulative Evidence · Meta-Analysis (1976)",
+    "me6": "method · Reform & Open Science · Pre-registration & Open Science (2013)",
+    "fg1": "figure · Founders · Kurt Lewin (1890–1947)",
+    "fg2": "figure · Founders · Leon Festinger (1919–1989)",
+    "fg3": "figure · Conformity & Obedience · Solomon Asch (1907–1996)",
+    "fg4": "figure · Conformity & Obedience · Stanley Milgram (1933–1984)",
+    "fg5": "figure · Intergroup Relations · Henri Tajfel (1919–1982)",
+    "fg6": "figure · Intergroup Relations · Gordon Allport (1897–1967)",
+    "fg7": "figure · Founders · Muzafer Sherif (1906–1988)",
+    "fg8": "figure · Learning & Influence · Albert Bandura (1925–2021)",
+    "fg9": "figure · Social Cognition · Susan Fiske & Shelley Taylor (1984)",
+    "fg10": "figure · Judgment & Decision · Daniel Kahneman & Amos Tversky (1974)",
+    "db1": "debate · The Replication Crisis · The Reproducibility Project (2015)",
+    "db2": "debate · Re-examining the Classics · Debunking the Stanford Prison Experiment (2019)",
+    "db3": "debate · Re-examining the Classics · Re-reading Milgram's Archive (2013)",
+    "db4": "debate · The Replication Crisis · The Fall of Ego Depletion (2016)",
+    "db5": "debate · The Replication Crisis · The Collapse of Behavioral Priming (2012)",
+    "db6": "debate · Person vs Situation · The Person–Situation Debate (1968)",
+    "db7": "debate · Generalisability · The WEIRD-Samples Problem (2010)",
+    "ap1": "application · Reducing Prejudice · The Contact Hypothesis (1954)",
+    "ap2": "application · Education · The Jigsaw Classroom (1971)",
+    "ap3": "application · Public Policy · Nudging & Choice Architecture (2008)",
+    "ap4": "application · Health · Fear Appeals & Health Persuasion (1992)",
+    "ap5": "application · Behaviour Change · Cognitive Dissonance in Practice (1991)",
+    "ap6": "application · Influence · Cialdini's Principles of Persuasion (1984)"
+  },
   "categories": [
     {
-      "id": "theory", "label": "Theories & Models", "icon": "📐",
-      "color": "#1A3A5C", "accent": "#2471A3", "bg": "#F0F7FF",
+      "id": "theory",
+      "label": "Theories & Models",
+      "icon": "📐",
+      "color": "#1A3A5C",
+      "accent": "#2471A3",
+      "bg": "#F0F7FF",
       "subtitle": "The explanatory frameworks that organise the field",
       "entries": [
-        { "id":"th1", "group":"The Self & Cognition", "label":"Cognitive Dissonance Theory", "date":"1957", "loc":"Stanford University, California", "coords":[37.43,-122.17], "links":["ap5","fg2","st7","th6"], "hint":"Holding two conflicting beliefs — or acting against a belief — creates an uncomfortable tension that people are motivated to reduce, usually by changing the attitude rather than the behaviour. The single most generative idea in 20th-century social psychology.", "tag":"THEORY", "note":"Festinger, L. (1957). A Theory of Cognitive Dissonance. Stanford University Press. Tested experimentally in Festinger & Carlsmith (1959). The theory remains robust, though Bem's self-perception account (1967) offered a rival explanation for the same data." },
-        { "id":"th2", "links":["co5","fg2","th3"], "group":"The Self & Cognition", "label":"Social Comparison Theory", "date":"1954", "loc":"University of Minnesota", "coords":[44.97,-93.24], "hint":"In the absence of objective standards, people evaluate their own opinions and abilities by comparing themselves to others — preferring similar others, and comparing upward for self-improvement or downward for self-enhancement.", "tag":"THEORY", "note":"Festinger, L. (1954). 'A theory of social comparison processes.' Human Relations, 7, 117–140. The foundation for later work on relative deprivation and, more recently, the psychology of social media." },
-        { "id":"th3", "links":["co2","fg5","st9","th2"], "group":"Intergroup Relations", "label":"Social Identity Theory", "date":"1979", "loc":"University of Bristol, UK", "coords":[51.46,-2.60], "hint":"Part of our self-concept comes from the groups we belong to. We boost self-esteem by favouring the in-group and differentiating it from out-groups — even when the groups are arbitrary and meaningless.", "tag":"THEORY", "note":"Tajfel, H. & Turner, J. C. (1979). 'An integrative theory of intergroup conflict.' In Austin & Worchel (eds), The Social Psychology of Intergroup Relations. Built directly on the minimal-group experiments (Tajfel 1971)." },
-        { "id":"th4", "links":["ef1","ef8"], "group":"Perceiving Others", "label":"Attribution Theory", "date":"1958", "loc":"University of Kansas", "coords":[38.95,-95.25], "hint":"People act as 'naïve scientists', explaining behaviour by attributing it either to internal dispositions or external situations. Heider's framework launched decades of research into how — and how badly — we infer causes.", "tag":"THEORY", "note":"Heider, F. (1958). The Psychology of Interpersonal Relations. Wiley. Formalised by Kelley's covariation model (1967) and Jones & Davis's correspondent inference theory (1965)." },
-        { "id":"th5", "links":["ap4","ap6","co1"], "group":"Attitudes & Persuasion", "label":"Elaboration Likelihood Model", "date":"1986", "loc":"University of Chicago / Ohio State", "coords":[41.79,-87.60], "hint":"Persuasion travels two routes: a 'central' route of effortful argument evaluation that produces durable attitude change, and a 'peripheral' route driven by cues like attractiveness or source credibility that produces fragile change.", "tag":"MODEL", "note":"Petty, R. E. & Cacioppo, J. T. (1986). Communication and Persuasion: Central and Peripheral Routes to Attitude Change. Springer. The dominant dual-process model of persuasion." },
-        { "id":"th6", "group":"The Self & Cognition", "label":"Self-Perception Theory", "date":"1967", "loc":"Carnegie Mellon University, Pittsburgh", "coords":[40.44,-79.94], "links":["st7","th1"], "hint":"We infer our own attitudes by observing our behaviour, just as we infer others' — 'I must like carrots, I'm eating them.' Bem argued this, not dissonance, explained the forced-compliance findings, sparking a long and productive rivalry.", "tag":"THEORY", "note":"Bem, D. J. (1967). 'Self-perception: An alternative interpretation of cognitive dissonance phenomena.' Psychological Review, 74, 183–200. The debate was eventually resolved: dissonance operates in the discrepant range, self-perception in the attitude-congruent range (Fazio, Zanna & Cooper 1977)." },
-        { "id":"th7", "links":["fg8","st6"], "group":"Learning & Influence", "label":"Social Learning Theory", "date":"1977", "loc":"Stanford University, California", "coords":[37.43,-122.17], "hint":"Behaviour is learned not only through direct reinforcement but by observing and imitating others — and by our beliefs about our own capability ('self-efficacy'). Bridged behaviourism and cognitive psychology.", "tag":"THEORY", "note":"Bandura, A. (1977). Social Learning Theory. Prentice-Hall. Grounded in the Bobo doll experiments (1961–63); later reframed as Social Cognitive Theory (1986)." },
-        { "id":"th8", "links":["ap1","ap2","fg7","st4"], "group":"Intergroup Relations", "label":"Realistic Conflict Theory", "date":"1966", "loc":"University of Oklahoma", "coords":[35.21,-97.44], "hint":"Intergroup hostility arises from real competition over scarce resources — and is reduced not by mere contact but by 'superordinate goals' that require cooperation. Derived from the Robbers Cave field experiment.", "tag":"THEORY", "note":"Sherif, M. (1966). In Common Predicament: Social Psychology of Intergroup Conflict and Cooperation. Houghton Mifflin. The empirical basis is Sherif et al. (1961), The Robbers Cave Experiment." },
-        { "id":"th9", "group":"Intergroup Relations", "label":"Stereotype Content Model", "date":"2002", "loc":"Princeton University, New Jersey", "coords":[40.35,-74.66], "links":["co2","fg9"], "hint":"Groups are judged on two universal dimensions — warmth (friend or foe?) and competence (can they act on it?). The combination predicts distinct emotions: pride, envy, pity or contempt. The dominant modern model of how stereotypes are structured.", "tag":"MODEL", "note":"Fiske, S. T., Cuddy, A. J. C., Glick, P. & Xu, J. (2002). 'A model of (often mixed) stereotype content: Competence and warmth respectively follow from perceived status and competition.' Journal of Personality and Social Psychology, 82, 878–902." },
-        { "id":"th10", "group":"Judgment & Decision", "label":"Heuristics & Biases", "date":"1974", "loc":"Hebrew University of Jerusalem", "coords":[31.79,35.24], "links":["ap3","co7","ef1","fg10"], "hint":"Under uncertainty people rely on cognitive shortcuts — availability, representativeness, anchoring — that usually work but produce systematic, predictable errors. The bridge between cognitive and social psychology, and the seed of behavioural economics.", "tag":"FRAMEWORK", "note":"Tversky, A. & Kahneman, D. (1974). 'Judgment under uncertainty: Heuristics and biases.' Science, 185, 1124–1131. Strictly a cognitive-psychology / judgment-and-decision programme, but foundational to social cognition; it anchors the future Cognitive Psychology folio too. Kahneman received the 2002 Nobel in Economics for the broader work." },
-        { "id":"th11", "group":"Helping & Harm", "label":"Frustration-Aggression Hypothesis", "date":"1939", "loc":"Yale University, New Haven, Connecticut", "coords":[41.31,-72.93], "links":["st6","th7"], "hint":"Blocking a goal-directed behaviour produces a drive to aggress. If the source of frustration is unavailable, aggression may displace onto an easier target. The first systematic psychological theory of aggression.", "tag":"THEORY", "note":"Dollard, J., Doob, L., Miller, N., Mowrer, O. & Sears, R. (1939). Frustration and Aggression. Yale University Press. Berkowitz's Cognitive Neo-Association theory (1990) substantially revised the hypothesis: frustration is aversive rather than uniquely aggression-producing; any unpleasant event can prime aggressive cognition. The original all-or-nothing version is disconfirmed; the revised direction of effect (frustration → increased aggression probability) is robust. Pairs with the Bobo Doll evidence on the acquisition of aggressive behaviour through observation." },
-        { "id":"th12", "group":"Interpersonal Attraction", "label":"Triangular Theory of Love", "date":"1986", "loc":"Yale University, New Haven, Connecticut", "coords":[41.31,-72.93], "links":["st10","ef10"], "hint":"Love is composed of three elements — intimacy (emotional closeness), passion (arousal and desire), and commitment (decision to stay). Different combinations produce qualitatively different experiences: liking, infatuation, companionate love, or the full 'consummate love' requiring all three.", "tag":"THEORY", "note":"Sternberg, R. J. (1986). 'A triangular theory of love.' Psychological Review, 93, 119–135. The taxonomy of eight love types has high face validity and dominates textbook treatment. Empirical tests are mixed: the three components are substantially correlated and factor structures vary across cultures (Sorokowski et al. 2012). Remains the dominant framework for introducing students to the social psychology of close relationships." }
+        {
+          "id": "th1",
+          "group": "The Self & Cognition",
+          "label": "Cognitive Dissonance Theory",
+          "date": "1957",
+          "loc": "Stanford University, California",
+          "coords": [
+            37.43,
+            -122.17
+          ],
+          "links": [
+            "ap5",
+            "fg2",
+            "st7",
+            "th6"
+          ],
+          "hint": "Holding two conflicting beliefs — or acting against a belief — creates an uncomfortable tension that people are motivated to reduce, usually by changing the attitude rather than the behaviour. The single most generative idea in 20th-century social psychology.",
+          "tag": "THEORY",
+          "note": "Festinger, L. (1957). A Theory of Cognitive Dissonance. Stanford University Press. Tested experimentally in Festinger & Carlsmith (1959). The theory remains robust, though Bem's self-perception account (1967) offered a rival explanation for the same data."
+        },
+        {
+          "id": "th2",
+          "links": [
+            "co5",
+            "fg2",
+            "th3"
+          ],
+          "group": "The Self & Cognition",
+          "label": "Social Comparison Theory",
+          "date": "1954",
+          "loc": "University of Minnesota",
+          "coords": [
+            44.97,
+            -93.24
+          ],
+          "hint": "In the absence of objective standards, people evaluate their own opinions and abilities by comparing themselves to others — preferring similar others, and comparing upward for self-improvement or downward for self-enhancement.",
+          "tag": "THEORY",
+          "note": "Festinger, L. (1954). 'A theory of social comparison processes.' Human Relations, 7, 117–140. The foundation for later work on relative deprivation and, more recently, the psychology of social media."
+        },
+        {
+          "id": "th3",
+          "links": [
+            "co2",
+            "fg5",
+            "st9",
+            "th2"
+          ],
+          "group": "Intergroup Relations",
+          "label": "Social Identity Theory",
+          "date": "1979",
+          "loc": "University of Bristol, UK",
+          "coords": [
+            51.46,
+            -2.6
+          ],
+          "hint": "Part of our self-concept comes from the groups we belong to. We boost self-esteem by favouring the in-group and differentiating it from out-groups — even when the groups are arbitrary and meaningless.",
+          "tag": "THEORY",
+          "note": "Tajfel, H. & Turner, J. C. (1979). 'An integrative theory of intergroup conflict.' In Austin & Worchel (eds), The Social Psychology of Intergroup Relations. Built directly on the minimal-group experiments (Tajfel 1971)."
+        },
+        {
+          "id": "th4",
+          "links": [
+            "ef1",
+            "ef8"
+          ],
+          "group": "Perceiving Others",
+          "label": "Attribution Theory",
+          "date": "1958",
+          "loc": "University of Kansas",
+          "coords": [
+            38.95,
+            -95.25
+          ],
+          "hint": "People act as 'naïve scientists', explaining behaviour by attributing it either to internal dispositions or external situations. Heider's framework launched decades of research into how — and how badly — we infer causes.",
+          "tag": "THEORY",
+          "note": "Heider, F. (1958). The Psychology of Interpersonal Relations. Wiley. Formalised by Kelley's covariation model (1967) and Jones & Davis's correspondent inference theory (1965)."
+        },
+        {
+          "id": "th5",
+          "links": [
+            "ap4",
+            "ap6",
+            "co1"
+          ],
+          "group": "Attitudes & Persuasion",
+          "label": "Elaboration Likelihood Model",
+          "date": "1986",
+          "loc": "University of Chicago / Ohio State",
+          "coords": [
+            41.79,
+            -87.6
+          ],
+          "hint": "Persuasion travels two routes: a 'central' route of effortful argument evaluation that produces durable attitude change, and a 'peripheral' route driven by cues like attractiveness or source credibility that produces fragile change.",
+          "tag": "MODEL",
+          "note": "Petty, R. E. & Cacioppo, J. T. (1986). Communication and Persuasion: Central and Peripheral Routes to Attitude Change. Springer. The dominant dual-process model of persuasion."
+        },
+        {
+          "id": "th6",
+          "group": "The Self & Cognition",
+          "label": "Self-Perception Theory",
+          "date": "1967",
+          "loc": "Carnegie Mellon University, Pittsburgh",
+          "coords": [
+            40.44,
+            -79.94
+          ],
+          "links": [
+            "st7",
+            "th1"
+          ],
+          "hint": "We infer our own attitudes by observing our behaviour, just as we infer others' — 'I must like carrots, I'm eating them.' Bem argued this, not dissonance, explained the forced-compliance findings, sparking a long and productive rivalry.",
+          "tag": "THEORY",
+          "note": "Bem, D. J. (1967). 'Self-perception: An alternative interpretation of cognitive dissonance phenomena.' Psychological Review, 74, 183–200. The debate was eventually resolved: dissonance operates in the discrepant range, self-perception in the attitude-congruent range (Fazio, Zanna & Cooper 1977)."
+        },
+        {
+          "id": "th7",
+          "links": [
+            "fg8",
+            "st6"
+          ],
+          "group": "Learning & Influence",
+          "label": "Social Learning Theory",
+          "date": "1977",
+          "loc": "Stanford University, California",
+          "coords": [
+            37.43,
+            -122.17
+          ],
+          "hint": "Behaviour is learned not only through direct reinforcement but by observing and imitating others — and by our beliefs about our own capability ('self-efficacy'). Bridged behaviourism and cognitive psychology.",
+          "tag": "THEORY",
+          "note": "Bandura, A. (1977). Social Learning Theory. Prentice-Hall. Grounded in the Bobo doll experiments (1961–63); later reframed as Social Cognitive Theory (1986)."
+        },
+        {
+          "id": "th8",
+          "links": [
+            "ap1",
+            "ap2",
+            "fg7",
+            "st4"
+          ],
+          "group": "Intergroup Relations",
+          "label": "Realistic Conflict Theory",
+          "date": "1966",
+          "loc": "University of Oklahoma",
+          "coords": [
+            35.21,
+            -97.44
+          ],
+          "hint": "Intergroup hostility arises from real competition over scarce resources — and is reduced not by mere contact but by 'superordinate goals' that require cooperation. Derived from the Robbers Cave field experiment.",
+          "tag": "THEORY",
+          "note": "Sherif, M. (1966). In Common Predicament: Social Psychology of Intergroup Conflict and Cooperation. Houghton Mifflin. The empirical basis is Sherif et al. (1961), The Robbers Cave Experiment."
+        },
+        {
+          "id": "th9",
+          "group": "Intergroup Relations",
+          "label": "Stereotype Content Model",
+          "date": "2002",
+          "loc": "Princeton University, New Jersey",
+          "coords": [
+            40.35,
+            -74.66
+          ],
+          "links": [
+            "co2",
+            "fg9"
+          ],
+          "hint": "Groups are judged on two universal dimensions — warmth (friend or foe?) and competence (can they act on it?). The combination predicts distinct emotions: pride, envy, pity or contempt. The dominant modern model of how stereotypes are structured.",
+          "tag": "MODEL",
+          "note": "Fiske, S. T., Cuddy, A. J. C., Glick, P. & Xu, J. (2002). 'A model of (often mixed) stereotype content: Competence and warmth respectively follow from perceived status and competition.' Journal of Personality and Social Psychology, 82, 878–902."
+        },
+        {
+          "id": "th10",
+          "group": "Judgment & Decision",
+          "label": "Heuristics & Biases",
+          "date": "1974",
+          "loc": "Hebrew University of Jerusalem",
+          "coords": [
+            31.79,
+            35.24
+          ],
+          "links": [
+            "ap3",
+            "co7",
+            "ef1",
+            "fg10"
+          ],
+          "hint": "Under uncertainty people rely on cognitive shortcuts — availability, representativeness, anchoring — that usually work but produce systematic, predictable errors. The bridge between cognitive and social psychology, and the seed of behavioural economics.",
+          "tag": "FRAMEWORK",
+          "note": "Tversky, A. & Kahneman, D. (1974). 'Judgment under uncertainty: Heuristics and biases.' Science, 185, 1124–1131. Strictly a cognitive-psychology / judgment-and-decision programme, but foundational to social cognition; it anchors the future Cognitive Psychology folio too. Kahneman received the 2002 Nobel in Economics for the broader work."
+        },
+        {
+          "id": "th11",
+          "group": "Helping & Harm",
+          "label": "Frustration-Aggression Hypothesis",
+          "date": "1939",
+          "loc": "Yale University, New Haven, Connecticut",
+          "coords": [
+            41.31,
+            -72.93
+          ],
+          "links": [
+            "st6",
+            "th7"
+          ],
+          "hint": "Blocking a goal-directed behaviour produces a drive to aggress. If the source of frustration is unavailable, aggression may displace onto an easier target. The first systematic psychological theory of aggression.",
+          "tag": "THEORY",
+          "note": "Dollard, J., Doob, L., Miller, N., Mowrer, O. & Sears, R. (1939). Frustration and Aggression. Yale University Press. Berkowitz's Cognitive Neo-Association theory (1990) substantially revised the hypothesis: frustration is aversive rather than uniquely aggression-producing; any unpleasant event can prime aggressive cognition. The original all-or-nothing version is disconfirmed; the revised direction of effect (frustration → increased aggression probability) is robust. Pairs with the Bobo Doll evidence on the acquisition of aggressive behaviour through observation."
+        },
+        {
+          "id": "th12",
+          "group": "Interpersonal Attraction",
+          "label": "Triangular Theory of Love",
+          "date": "1986",
+          "loc": "Yale University, New Haven, Connecticut",
+          "coords": [
+            41.31,
+            -72.93
+          ],
+          "links": [
+            "st10",
+            "ef10"
+          ],
+          "hint": "Love is composed of three elements — intimacy (emotional closeness), passion (arousal and desire), and commitment (decision to stay). Different combinations produce qualitatively different experiences: liking, infatuation, companionate love, or the full 'consummate love' requiring all three.",
+          "tag": "THEORY",
+          "note": "Sternberg, R. J. (1986). 'A triangular theory of love.' Psychological Review, 93, 119–135. The taxonomy of eight love types has high face validity and dominates textbook treatment. Empirical tests are mixed: the three components are substantially correlated and factor structures vary across cultures (Sorokowski et al. 2012). Remains the dominant framework for introducing students to the social psychology of close relationships."
+        }
       ]
     },
     {
-      "id": "study", "label": "Landmark Studies", "icon": "🧪",
-      "color": "#4A235A", "accent": "#7D3C98", "bg": "#FAF5FF",
+      "id": "study",
+      "label": "Landmark Studies",
+      "icon": "🧪",
+      "color": "#4A235A",
+      "accent": "#7D3C98",
+      "bg": "#FAF5FF",
       "subtitle": "The defining experiments — and exactly what they found",
       "entries": [
-        { "id":"st1", "links":["co3","fg3"], "group":"Conformity & Obedience", "label":"Asch Conformity Experiments", "date":"1951", "loc":"Swarthmore College, Pennsylvania", "coords":[39.90,-75.35], "repl":"robust", "hint":"Asked to match line lengths — an easy perceptual task — participants conformed to a unanimous but obviously wrong majority on about a third of trials; 75% conformed at least once. A single dissenting ally cut conformity dramatically.", "tag":"EXPERIMENT", "note":"Asch, S. E. (1951). 'Effects of group pressure upon the modification and distortion of judgments.' In Guetzkow (ed.), Groups, Leadership and Men. Full monograph: Asch (1956), Psychological Monographs, 70(9). The core effect replicates reliably, though average conformity varies with era and culture (Bond & Smith 1996 meta-analysis)." },
-        { "id":"st2", "group":"Conformity & Obedience", "label":"Milgram Obedience Experiments", "date":"1961–63", "loc":"Yale University, New Haven, Connecticut", "coords":[41.31,-72.93], "repl":"mixed", "links":["co3","db3","fg4","me4"], "hint":"Ordinary participants, instructed by an experimenter, delivered what they believed were increasingly dangerous electric shocks to a stranger. 65% continued to the maximum 450 volts. The most famous — and most contested — finding in the field.", "tag":"EXPERIMENT", "note":"Milgram, S. (1963). 'Behavioral study of obedience.' Journal of Abnormal and Social Psychology, 67, 371–378. A partial, ethical replication (Burger 2009) reproduced comparable obedience. But archival work (Perry 2013; Gibson 2013) shows the script was applied unevenly and the '65%' came from just one of two dozen variations — see Debates." },
-        { "id":"st3", "group":"Roles & Situations", "label":"Stanford Prison Experiment", "date":"1971", "loc":"Stanford University, California", "coords":[37.43,-122.17], "repl":"failed", "links":["db2","db6"], "hint":"Students randomly assigned to be 'guards' or 'prisoners' in a mock prison; the simulation was halted after six days amid abusive guard behaviour. Long taught as proof that situations override character — a claim the evidence no longer supports.", "tag":"EXPERIMENT", "note":"Haney, C., Banks, C. & Zimbardo, P. (1973). 'Interpersonal dynamics in a simulated prison.' International Journal of Criminology and Penology, 1, 69–97. Archival work (Le Texier 2019) shows guards were coached toward cruelty. Note: 'situations matter' is not void — the BBC Prison Study (Reicher & Haslam 2006) reached different, identity-based conclusions; only Zimbardo's strong causal claim collapses." },
-        { "id":"st4", "links":["ap2","fg7","th8"], "group":"Intergroup Relations", "label":"Robbers Cave Experiment", "date":"1954", "loc":"Robbers Cave State Park, Oklahoma", "coords":[34.95,-95.33], "repl":"mixed", "hint":"Two groups of boys at a summer camp, kept apart then put in competition, quickly developed hostility; the conflict dissolved only when the camp engineered shared goals neither group could achieve alone (a broken water supply, a stuck truck).", "tag":"FIELD STUDY", "note":"Sherif, M., Harvey, O. J., White, B. J., Hood, W. R. & Sherif, C. W. (1961). The Robbers Cave Experiment. University of Oklahoma. Selective reporting: an earlier 1953 run that failed to produce conflict — and in which boys resisted the manipulation — went unpublished (Perry 2018, The Lost Boys)." },
-        { "id":"st5", "links":["st8"], "group":"Helping & Harm", "label":"Bystander Intervention / Diffusion of Responsibility", "date":"1968", "loc":"Columbia University & NYU, New York", "coords":[40.81,-73.96], "repl":"robust", "hint":"The more bystanders present at an emergency, the less likely any one of them is to help, because responsibility is diffused. The laboratory effect is one of the best-replicated in the field — even as the story that sparked it turned out to be a myth.", "tag":"EXPERIMENT", "note":"Darley, J. M. & Latané, B. (1968). 'Bystander intervention in emergencies: Diffusion of responsibility.' Journal of Personality and Social Psychology, 8, 377–383. The Kitty Genovese '38 witnesses who did nothing' narrative was debunked by Manning, Levine & Collins (2007), 'The Kitty Genovese murder and the social psychology of helping', American Psychologist, 62, 555–562 — a case study in media sensationalism shaping science. The effect itself is confirmed by meta-analysis (Fischer et al. 2011)." },
-        { "id":"st6", "links":["fg8","th7","th11"], "group":"Helping & Harm", "label":"Bobo Doll Experiment", "date":"1961", "loc":"Stanford University, California", "coords":[37.43,-122.17], "repl":"robust", "hint":"Children who watched an adult attack an inflatable 'Bobo' doll imitated the aggression when left alone with it; those who saw a calm model did not. Evidence that aggression can be learned by observation alone.", "tag":"EXPERIMENT", "note":"Bandura, A., Ross, D. & Ross, S. A. (1961). 'Transmission of aggression through imitation of aggressive models.' Journal of Abnormal and Social Psychology, 63, 575–582. Followed by the 1963 film-model and 1965 vicarious-reinforcement variants. Observational learning is well established; debate continues on how far lab imitation predicts real-world aggression." },
-        { "id":"st7", "group":"Attitudes & Persuasion", "label":"Forced Compliance ($1 / $20 study)", "date":"1959", "loc":"Stanford University, California", "coords":[37.43,-122.17], "repl":"robust", "links":["ap5","fg2","th1","th6"], "hint":"Participants paid just $1 to tell a lie ('this boring task was fun') later rated the task as more enjoyable than those paid $20 — because the small payment gave them no external justification, so they changed their attitude to resolve the dissonance.", "tag":"EXPERIMENT", "note":"Festinger, L. & Carlsmith, J. M. (1959). 'Cognitive consequences of forced compliance.' Journal of Abnormal and Social Psychology, 58, 203–210. The canonical experimental demonstration of cognitive dissonance; the induced-compliance paradigm replicates well." },
-        { "id":"st8", "links":["db6","st5"], "group":"Helping & Harm", "label":"'From Jerusalem to Jericho' (Good Samaritan study)", "date":"1973", "loc":"Princeton Theological Seminary, New Jersey", "coords":[40.35,-74.66], "repl":"mixed", "hint":"Seminary students on their way to give a talk — some on the parable of the Good Samaritan — passed a slumped, groaning stranger. Whether they stopped depended mostly on whether they were in a hurry, not on their values or the talk topic.", "tag":"FIELD STUDY", "note":"Darley, J. M. & Batson, C. D. (1973). 'From Jerusalem to Jericho: A study of situational and dispositional variables in helping behavior.' Journal of Personality and Social Psychology, 27, 100–108. A single, much-cited study; the dramatic hurry effect has not been the subject of a large direct replication, so treat the precise magnitude with caution." },
-        { "id":"st9", "links":["fg5","th3"], "group":"Intergroup Relations", "label":"Minimal Group Experiments", "date":"1971", "loc":"University of Bristol, UK", "coords":[51.46,-2.60], "repl":"robust", "hint":"Even when assigned to groups on a meaningless basis (supposedly preferring Klee over Kandinsky), participants allocated more reward to anonymous in-group members — showing that mere categorisation is enough to trigger discrimination.", "tag":"EXPERIMENT", "note":"Tajfel, H., Billig, M. G., Bundy, R. P. & Flament, C. (1971). 'Social categorization and intergroup behaviour.' European Journal of Social Psychology, 1, 149–178. The minimal in-group bias effect replicates robustly across many variants." },
-        { "id":"st10", "group":"Interpersonal Attraction", "label":"Adult Romantic Attachment (Hazan & Shaver)", "date":"1987", "loc":"University of Denver, Colorado", "coords":[39.68,-104.96], "repl":"robust", "links":["th12","ef10"], "hint":"Infant attachment styles — secure, anxious-ambivalent, avoidant — recur in adult romantic relationships. Secure adults form stable, trusting partnerships; anxious adults fear abandonment and seek excessive reassurance; avoidant adults suppress intimacy and maintain emotional distance.", "tag":"FIELD STUDY", "note":"Hazan, C. & Shaver, P. (1987). 'Romantic love conceptualized as an attachment process.' Journal of Personality and Social Psychology, 52, 511–524. Extended to four categories by Bartholomew & Horowitz (1991). Meta-analyses confirm moderate stability of attachment classification across time (r ≈ .40) and meaningful associations with relationship quality; the evolutionary grounding in Bowlby gives the framework strong theoretical coherence." }
+        {
+          "id": "st1",
+          "links": [
+            "co3",
+            "fg3"
+          ],
+          "group": "Conformity & Obedience",
+          "label": "Asch Conformity Experiments",
+          "date": "1951",
+          "loc": "Swarthmore College, Pennsylvania",
+          "coords": [
+            39.9,
+            -75.35
+          ],
+          "repl": "robust",
+          "hint": "Asked to match line lengths — an easy perceptual task — participants conformed to a unanimous but obviously wrong majority on about a third of trials; 75% conformed at least once. A single dissenting ally cut conformity dramatically.",
+          "tag": "EXPERIMENT",
+          "note": "Asch, S. E. (1951). 'Effects of group pressure upon the modification and distortion of judgments.' In Guetzkow (ed.), Groups, Leadership and Men. Full monograph: Asch (1956), Psychological Monographs, 70(9). The core effect replicates reliably, though average conformity varies with era and culture (Bond & Smith 1996 meta-analysis)."
+        },
+        {
+          "id": "st2",
+          "group": "Conformity & Obedience",
+          "label": "Milgram Obedience Experiments",
+          "date": "1961–63",
+          "loc": "Yale University, New Haven, Connecticut",
+          "coords": [
+            41.31,
+            -72.93
+          ],
+          "repl": "mixed",
+          "links": [
+            "co3",
+            "db3",
+            "fg4",
+            "me4"
+          ],
+          "hint": "Ordinary participants, instructed by an experimenter, delivered what they believed were increasingly dangerous electric shocks to a stranger. 65% continued to the maximum 450 volts. The most famous — and most contested — finding in the field.",
+          "tag": "EXPERIMENT",
+          "note": "Milgram, S. (1963). 'Behavioral study of obedience.' Journal of Abnormal and Social Psychology, 67, 371–378. A partial, ethical replication (Burger 2009) reproduced comparable obedience. But archival work (Perry 2013; Gibson 2013) shows the script was applied unevenly and the '65%' came from just one of two dozen variations — see Debates."
+        },
+        {
+          "id": "st3",
+          "group": "Roles & Situations",
+          "label": "Stanford Prison Experiment",
+          "date": "1971",
+          "loc": "Stanford University, California",
+          "coords": [
+            37.43,
+            -122.17
+          ],
+          "repl": "failed",
+          "links": [
+            "db2",
+            "db6"
+          ],
+          "hint": "Students randomly assigned to be 'guards' or 'prisoners' in a mock prison; the simulation was halted after six days amid abusive guard behaviour. Long taught as proof that situations override character — a claim the evidence no longer supports.",
+          "tag": "EXPERIMENT",
+          "note": "Haney, C., Banks, C. & Zimbardo, P. (1973). 'Interpersonal dynamics in a simulated prison.' International Journal of Criminology and Penology, 1, 69–97. Archival work (Le Texier 2019) shows guards were coached toward cruelty. Note: 'situations matter' is not void — the BBC Prison Study (Reicher & Haslam 2006) reached different, identity-based conclusions; only Zimbardo's strong causal claim collapses."
+        },
+        {
+          "id": "st4",
+          "links": [
+            "ap2",
+            "fg7",
+            "th8"
+          ],
+          "group": "Intergroup Relations",
+          "label": "Robbers Cave Experiment",
+          "date": "1954",
+          "loc": "Robbers Cave State Park, Oklahoma",
+          "coords": [
+            34.95,
+            -95.33
+          ],
+          "repl": "mixed",
+          "hint": "Two groups of boys at a summer camp, kept apart then put in competition, quickly developed hostility; the conflict dissolved only when the camp engineered shared goals neither group could achieve alone (a broken water supply, a stuck truck).",
+          "tag": "FIELD STUDY",
+          "note": "Sherif, M., Harvey, O. J., White, B. J., Hood, W. R. & Sherif, C. W. (1961). The Robbers Cave Experiment. University of Oklahoma. Selective reporting: an earlier 1953 run that failed to produce conflict — and in which boys resisted the manipulation — went unpublished (Perry 2018, The Lost Boys)."
+        },
+        {
+          "id": "st5",
+          "links": [
+            "st8"
+          ],
+          "group": "Helping & Harm",
+          "label": "Bystander Intervention / Diffusion of Responsibility",
+          "date": "1968",
+          "loc": "Columbia University & NYU, New York",
+          "coords": [
+            40.81,
+            -73.96
+          ],
+          "repl": "robust",
+          "hint": "The more bystanders present at an emergency, the less likely any one of them is to help, because responsibility is diffused. The laboratory effect is one of the best-replicated in the field — even as the story that sparked it turned out to be a myth.",
+          "tag": "EXPERIMENT",
+          "note": "Darley, J. M. & Latané, B. (1968). 'Bystander intervention in emergencies: Diffusion of responsibility.' Journal of Personality and Social Psychology, 8, 377–383. The Kitty Genovese '38 witnesses who did nothing' narrative was debunked by Manning, Levine & Collins (2007), 'The Kitty Genovese murder and the social psychology of helping', American Psychologist, 62, 555–562 — a case study in media sensationalism shaping science. The effect itself is confirmed by meta-analysis (Fischer et al. 2011)."
+        },
+        {
+          "id": "st6",
+          "links": [
+            "fg8",
+            "th7",
+            "th11"
+          ],
+          "group": "Helping & Harm",
+          "label": "Bobo Doll Experiment",
+          "date": "1961",
+          "loc": "Stanford University, California",
+          "coords": [
+            37.43,
+            -122.17
+          ],
+          "repl": "robust",
+          "hint": "Children who watched an adult attack an inflatable 'Bobo' doll imitated the aggression when left alone with it; those who saw a calm model did not. Evidence that aggression can be learned by observation alone.",
+          "tag": "EXPERIMENT",
+          "note": "Bandura, A., Ross, D. & Ross, S. A. (1961). 'Transmission of aggression through imitation of aggressive models.' Journal of Abnormal and Social Psychology, 63, 575–582. Followed by the 1963 film-model and 1965 vicarious-reinforcement variants. Observational learning is well established; debate continues on how far lab imitation predicts real-world aggression."
+        },
+        {
+          "id": "st7",
+          "group": "Attitudes & Persuasion",
+          "label": "Forced Compliance ($1 / $20 study)",
+          "date": "1959",
+          "loc": "Stanford University, California",
+          "coords": [
+            37.43,
+            -122.17
+          ],
+          "repl": "robust",
+          "links": [
+            "ap5",
+            "fg2",
+            "th1",
+            "th6"
+          ],
+          "hint": "Participants paid just $1 to tell a lie ('this boring task was fun') later rated the task as more enjoyable than those paid $20 — because the small payment gave them no external justification, so they changed their attitude to resolve the dissonance.",
+          "tag": "EXPERIMENT",
+          "note": "Festinger, L. & Carlsmith, J. M. (1959). 'Cognitive consequences of forced compliance.' Journal of Abnormal and Social Psychology, 58, 203–210. The canonical experimental demonstration of cognitive dissonance; the induced-compliance paradigm replicates well."
+        },
+        {
+          "id": "st8",
+          "links": [
+            "db6",
+            "st5"
+          ],
+          "group": "Helping & Harm",
+          "label": "'From Jerusalem to Jericho' (Good Samaritan study)",
+          "date": "1973",
+          "loc": "Princeton Theological Seminary, New Jersey",
+          "coords": [
+            40.35,
+            -74.66
+          ],
+          "repl": "mixed",
+          "hint": "Seminary students on their way to give a talk — some on the parable of the Good Samaritan — passed a slumped, groaning stranger. Whether they stopped depended mostly on whether they were in a hurry, not on their values or the talk topic.",
+          "tag": "FIELD STUDY",
+          "note": "Darley, J. M. & Batson, C. D. (1973). 'From Jerusalem to Jericho: A study of situational and dispositional variables in helping behavior.' Journal of Personality and Social Psychology, 27, 100–108. A single, much-cited study; the dramatic hurry effect has not been the subject of a large direct replication, so treat the precise magnitude with caution."
+        },
+        {
+          "id": "st9",
+          "links": [
+            "fg5",
+            "th3"
+          ],
+          "group": "Intergroup Relations",
+          "label": "Minimal Group Experiments",
+          "date": "1971",
+          "loc": "University of Bristol, UK",
+          "coords": [
+            51.46,
+            -2.6
+          ],
+          "repl": "robust",
+          "hint": "Even when assigned to groups on a meaningless basis (supposedly preferring Klee over Kandinsky), participants allocated more reward to anonymous in-group members — showing that mere categorisation is enough to trigger discrimination.",
+          "tag": "EXPERIMENT",
+          "note": "Tajfel, H., Billig, M. G., Bundy, R. P. & Flament, C. (1971). 'Social categorization and intergroup behaviour.' European Journal of Social Psychology, 1, 149–178. The minimal in-group bias effect replicates robustly across many variants."
+        },
+        {
+          "id": "st10",
+          "group": "Interpersonal Attraction",
+          "label": "Adult Romantic Attachment (Hazan & Shaver)",
+          "date": "1987",
+          "loc": "University of Denver, Colorado",
+          "coords": [
+            39.68,
+            -104.96
+          ],
+          "repl": "robust",
+          "links": [
+            "th12",
+            "ef10"
+          ],
+          "hint": "Infant attachment styles — secure, anxious-ambivalent, avoidant — recur in adult romantic relationships. Secure adults form stable, trusting partnerships; anxious adults fear abandonment and seek excessive reassurance; avoidant adults suppress intimacy and maintain emotional distance.",
+          "tag": "FIELD STUDY",
+          "note": "Hazan, C. & Shaver, P. (1987). 'Romantic love conceptualized as an attachment process.' Journal of Personality and Social Psychology, 52, 511–524. Extended to four categories by Bartholomew & Horowitz (1991). Meta-analyses confirm moderate stability of attachment classification across time (r ≈ .40) and meaningful associations with relationship quality; the evolutionary grounding in Bowlby gives the framework strong theoretical coherence."
+        }
       ]
     },
     {
-      "id": "effect", "label": "Effects & Phenomena", "icon": "📊",
-      "color": "#0B4F2E", "accent": "#117A65", "bg": "#F0FFF6",
+      "id": "effect",
+      "label": "Effects & Phenomena",
+      "icon": "📊",
+      "color": "#0B4F2E",
+      "accent": "#117A65",
+      "bg": "#F0FFF6",
       "subtitle": "Named, replicable patterns in social behaviour",
       "entries": [
-        { "id":"ef1", "group":"Perceiving Others", "label":"Fundamental Attribution Error", "date":"1977", "loc":"Stanford University, California", "coords":[37.43,-122.17], "repl":"robust", "links":["co7","db6","db7","ef8","th4","th10"], "hint":"We over-attribute other people's behaviour to their character and under-weight the situation — assuming the rude driver is a jerk, not late for a hospital. Named by Ross; one of the most reliable biases in person perception.", "tag":"BIAS", "note":"Ross, L. (1977). 'The intuitive psychologist and his shortcomings.' Advances in Experimental Social Psychology, 10, 173–220 — coined the term. The classic demonstration is Jones & Harris (1967), the 'Castro essay' study. Robust, but culturally moderated — weaker in collectivist societies (Miller 1984)." },
-        { "id":"ef2", "links":["co1","ef3"], "group":"Attitudes & Persuasion", "label":"Mere Exposure Effect", "date":"1968", "loc":"University of Michigan, Ann Arbor", "coords":[42.28,-83.74], "repl":"robust", "hint":"Simply being exposed to something repeatedly makes us like it more — for nonsense words, faces, and Chinese characters alike, with no awareness required. Why familiarity breeds liking, and why ads repeat.", "tag":"EFFECT", "note":"Zajonc, R. B. (1968). 'Attitudinal effects of mere exposure.' Journal of Personality and Social Psychology Monograph Supplement, 9(2, Pt.2), 1–27. A meta-analysis (Bornstein 1989) confirmed the effect, strongest for brief, subliminal exposures." },
-        { "id":"ef3", "links":["ef2"], "group":"Groups & Performance", "label":"Social Facilitation", "date":"1898", "loc":"Indiana University, Bloomington", "coords":[39.17,-86.52], "repl":"robust", "hint":"The presence of others speeds up performance on simple or well-learned tasks but impairs it on difficult ones. Triplett's cyclists-race study (1898) is often called the first social-psychology experiment.", "tag":"EFFECT", "note":"Triplett, N. (1898). 'The dynamogenic factors in pacemaking and competition.' American Journal of Psychology, 9, 507–533. Resolved by Zajonc (1965), 'Social facilitation', Science, 149, 269–274 — arousal strengthens the dominant response. Confirmed by meta-analysis (Bond & Titus 1983)." },
-        { "id":"ef4", "links":["ef5"], "group":"Groups & Performance", "label":"Groupthink", "date":"1972", "loc":"Yale University, New Haven, Connecticut", "coords":[41.31,-72.93], "repl":"mixed", "hint":"Cohesive groups under pressure can suppress dissent in favour of consensus, producing irrational decisions — Janis's analysis of the Bay of Pigs and Pearl Harbor. Influential, though hard to confirm in controlled tests.", "tag":"PHENOMENON", "note":"Janis, I. L. (1972). Victims of Groupthink. Houghton Mifflin. Hugely influential in policy and management, but the full causal model has received only mixed experimental support (Esser 1998); the antecedent–consequence links rarely hold up cleanly in the lab." },
-        { "id":"ef5", "links":["ef4"], "group":"Groups & Performance", "label":"Group Polarization", "date":"1969", "loc":"EHESS, Paris", "coords":[48.84,2.36], "repl":"robust", "hint":"Group discussion tends to push members toward a more extreme version of their initial leaning, not a moderate average — explaining why deliberating juries, committees and online communities radicalise.", "tag":"EFFECT", "note":"Moscovici, S. & Zavalloni, M. (1969). 'The group as a polarizer of attitudes.' Journal of Personality and Social Psychology, 12, 125–135. Built on Stoner's (1961) 'risky shift' finding; a well-replicated effect." },
-        { "id":"ef6", "links":["co7"], "group":"Perceiving Others", "label":"Halo Effect", "date":"1920", "loc":"Columbia University, New York", "coords":[40.81,-73.96], "repl":"robust", "hint":"A single positive trait (such as physical attractiveness) colours our judgement of unrelated ones — attractive people are rated as kinder and smarter. Thorndike found it when officers rated soldiers; decades later subjects shown the effect denied it had influenced them.", "tag":"BIAS", "note":"Thorndike, E. L. (1920). 'A constant error in psychological ratings.' Journal of Applied Psychology, 4, 25–29 — coined the term and demonstrated it in military officer ratings. The unconscious operation of the effect was later shown by Nisbett, R. E. & Wilson, T. D. (1977), Journal of Personality and Social Psychology, 35, 250–256." },
-        { "id":"ef7", "links":["co7"], "group":"The Self & Cognition", "label":"False Consensus Effect", "date":"1977", "loc":"Stanford University, California", "coords":[37.43,-122.17], "repl":"robust", "hint":"We overestimate how much other people share our beliefs, preferences and behaviour — assuming our own choices are typical and common.", "tag":"BIAS", "note":"Ross, L., Greene, D. & House, P. (1977). 'The false consensus effect: An egocentric bias in social perception and attribution processes.' Journal of Experimental Social Psychology, 13, 279–301. A robust and frequently replicated bias." },
-        { "id":"ef8", "group":"Perceiving Others", "label":"Actor–Observer Asymmetry", "date":"1971", "loc":"University of Michigan, Ann Arbor", "coords":[42.28,-83.74], "repl":"mixed", "links":["ef1","th4"], "hint":"We explain our own behaviour by the situation ('I was provoked') but others' by their disposition ('he's aggressive') — a counterpart to the fundamental attribution error. The textbook effect, however, turned out far weaker than long believed.", "tag":"BIAS", "note":"Jones, E. E. & Nisbett, R. E. (1971). 'The actor and the observer: Divergent perceptions of the causes of behavior.' A meta-analysis of 173 studies (Malle 2006, Psychological Bulletin, 132, 895–919) found the classic asymmetry close to zero overall, holding only under specific conditions — an early warning of the field's reliability problems." },
-        { "id":"ef9", "group":"Intergroup Relations", "label":"Stereotype Threat", "date":"1995", "loc":"Stanford University, California", "coords":[37.43,-122.17], "repl":"mixed", "links":["co2","co6","db1"], "hint":"The anxiety of being judged through a negative stereotype about one's group can itself depress performance — and so appear to confirm the stereotype. A hugely influential account of group gaps in test performance.", "tag":"EFFECT", "note":"Steele, C. M. & Aronson, J. (1995). 'Stereotype threat and the intellectual test performance of African Americans.' Journal of Personality and Social Psychology, 69, 797–811. Highly cited and politically consequential, but its evidence base is contested: a meta-analysis (Flore & Wicherts 2015) found signs of publication bias, and several registered replications produced null or much smaller effects. Marked nuanced rather than settled." },
-        { "id":"ef10", "group":"Interpersonal Attraction", "label":"Propinquity Effect", "date":"1950", "loc":"MIT, Cambridge, Massachusetts", "coords":[42.36,-71.09], "repl":"robust", "links":["th12","st10"], "hint":"Physical proximity is one of the strongest predictors of friendship and romantic attraction. We tend to like — and eventually love — those we simply encounter most often, partly through the Mere Exposure Effect.", "tag":"EFFECT", "note":"Festinger, L., Schachter, S. & Back, K. (1950). Social Pressures in Informal Groups: A Study of Human Factors in Housing. Harper. Tracked friendship formation in MIT housing; proximity predicted friendship with striking regularity. The mechanism overlaps with the Mere Exposure Effect (Zajonc 1968): repeated encounter increases liking independent of conscious interaction. Effect replicated across classrooms (Segal 1974), workplace seating, and online contexts." }
+        {
+          "id": "ef1",
+          "group": "Perceiving Others",
+          "label": "Fundamental Attribution Error",
+          "date": "1977",
+          "loc": "Stanford University, California",
+          "coords": [
+            37.43,
+            -122.17
+          ],
+          "repl": "robust",
+          "links": [
+            "co7",
+            "db6",
+            "db7",
+            "ef8",
+            "th4",
+            "th10"
+          ],
+          "hint": "We over-attribute other people's behaviour to their character and under-weight the situation — assuming the rude driver is a jerk, not late for a hospital. Named by Ross; one of the most reliable biases in person perception.",
+          "tag": "BIAS",
+          "note": "Ross, L. (1977). 'The intuitive psychologist and his shortcomings.' Advances in Experimental Social Psychology, 10, 173–220 — coined the term. The classic demonstration is Jones & Harris (1967), the 'Castro essay' study. Robust, but culturally moderated — weaker in collectivist societies (Miller 1984)."
+        },
+        {
+          "id": "ef2",
+          "links": [
+            "co1",
+            "ef3"
+          ],
+          "group": "Attitudes & Persuasion",
+          "label": "Mere Exposure Effect",
+          "date": "1968",
+          "loc": "University of Michigan, Ann Arbor",
+          "coords": [
+            42.28,
+            -83.74
+          ],
+          "repl": "robust",
+          "hint": "Simply being exposed to something repeatedly makes us like it more — for nonsense words, faces, and Chinese characters alike, with no awareness required. Why familiarity breeds liking, and why ads repeat.",
+          "tag": "EFFECT",
+          "note": "Zajonc, R. B. (1968). 'Attitudinal effects of mere exposure.' Journal of Personality and Social Psychology Monograph Supplement, 9(2, Pt.2), 1–27. A meta-analysis (Bornstein 1989) confirmed the effect, strongest for brief, subliminal exposures."
+        },
+        {
+          "id": "ef3",
+          "links": [
+            "ef2"
+          ],
+          "group": "Groups & Performance",
+          "label": "Social Facilitation",
+          "date": "1898",
+          "loc": "Indiana University, Bloomington",
+          "coords": [
+            39.17,
+            -86.52
+          ],
+          "repl": "robust",
+          "hint": "The presence of others speeds up performance on simple or well-learned tasks but impairs it on difficult ones. Triplett's cyclists-race study (1898) is often called the first social-psychology experiment.",
+          "tag": "EFFECT",
+          "note": "Triplett, N. (1898). 'The dynamogenic factors in pacemaking and competition.' American Journal of Psychology, 9, 507–533. Resolved by Zajonc (1965), 'Social facilitation', Science, 149, 269–274 — arousal strengthens the dominant response. Confirmed by meta-analysis (Bond & Titus 1983)."
+        },
+        {
+          "id": "ef4",
+          "links": [
+            "ef5"
+          ],
+          "group": "Groups & Performance",
+          "label": "Groupthink",
+          "date": "1972",
+          "loc": "Yale University, New Haven, Connecticut",
+          "coords": [
+            41.31,
+            -72.93
+          ],
+          "repl": "mixed",
+          "hint": "Cohesive groups under pressure can suppress dissent in favour of consensus, producing irrational decisions — Janis's analysis of the Bay of Pigs and Pearl Harbor. Influential, though hard to confirm in controlled tests.",
+          "tag": "PHENOMENON",
+          "note": "Janis, I. L. (1972). Victims of Groupthink. Houghton Mifflin. Hugely influential in policy and management, but the full causal model has received only mixed experimental support (Esser 1998); the antecedent–consequence links rarely hold up cleanly in the lab."
+        },
+        {
+          "id": "ef5",
+          "links": [
+            "ef4"
+          ],
+          "group": "Groups & Performance",
+          "label": "Group Polarization",
+          "date": "1969",
+          "loc": "EHESS, Paris",
+          "coords": [
+            48.84,
+            2.36
+          ],
+          "repl": "robust",
+          "hint": "Group discussion tends to push members toward a more extreme version of their initial leaning, not a moderate average — explaining why deliberating juries, committees and online communities radicalise.",
+          "tag": "EFFECT",
+          "note": "Moscovici, S. & Zavalloni, M. (1969). 'The group as a polarizer of attitudes.' Journal of Personality and Social Psychology, 12, 125–135. Built on Stoner's (1961) 'risky shift' finding; a well-replicated effect."
+        },
+        {
+          "id": "ef6",
+          "links": [
+            "co7"
+          ],
+          "group": "Perceiving Others",
+          "label": "Halo Effect",
+          "date": "1920",
+          "loc": "Columbia University, New York",
+          "coords": [
+            40.81,
+            -73.96
+          ],
+          "repl": "robust",
+          "hint": "A single positive trait (such as physical attractiveness) colours our judgement of unrelated ones — attractive people are rated as kinder and smarter. Thorndike found it when officers rated soldiers; decades later subjects shown the effect denied it had influenced them.",
+          "tag": "BIAS",
+          "note": "Thorndike, E. L. (1920). 'A constant error in psychological ratings.' Journal of Applied Psychology, 4, 25–29 — coined the term and demonstrated it in military officer ratings. The unconscious operation of the effect was later shown by Nisbett, R. E. & Wilson, T. D. (1977), Journal of Personality and Social Psychology, 35, 250–256."
+        },
+        {
+          "id": "ef7",
+          "links": [
+            "co7"
+          ],
+          "group": "The Self & Cognition",
+          "label": "False Consensus Effect",
+          "date": "1977",
+          "loc": "Stanford University, California",
+          "coords": [
+            37.43,
+            -122.17
+          ],
+          "repl": "robust",
+          "hint": "We overestimate how much other people share our beliefs, preferences and behaviour — assuming our own choices are typical and common.",
+          "tag": "BIAS",
+          "note": "Ross, L., Greene, D. & House, P. (1977). 'The false consensus effect: An egocentric bias in social perception and attribution processes.' Journal of Experimental Social Psychology, 13, 279–301. A robust and frequently replicated bias."
+        },
+        {
+          "id": "ef8",
+          "group": "Perceiving Others",
+          "label": "Actor–Observer Asymmetry",
+          "date": "1971",
+          "loc": "University of Michigan, Ann Arbor",
+          "coords": [
+            42.28,
+            -83.74
+          ],
+          "repl": "mixed",
+          "links": [
+            "ef1",
+            "th4"
+          ],
+          "hint": "We explain our own behaviour by the situation ('I was provoked') but others' by their disposition ('he's aggressive') — a counterpart to the fundamental attribution error. The textbook effect, however, turned out far weaker than long believed.",
+          "tag": "BIAS",
+          "note": "Jones, E. E. & Nisbett, R. E. (1971). 'The actor and the observer: Divergent perceptions of the causes of behavior.' A meta-analysis of 173 studies (Malle 2006, Psychological Bulletin, 132, 895–919) found the classic asymmetry close to zero overall, holding only under specific conditions — an early warning of the field's reliability problems."
+        },
+        {
+          "id": "ef9",
+          "group": "Intergroup Relations",
+          "label": "Stereotype Threat",
+          "date": "1995",
+          "loc": "Stanford University, California",
+          "coords": [
+            37.43,
+            -122.17
+          ],
+          "repl": "mixed",
+          "links": [
+            "co2",
+            "co6",
+            "db1"
+          ],
+          "hint": "The anxiety of being judged through a negative stereotype about one's group can itself depress performance — and so appear to confirm the stereotype. A hugely influential account of group gaps in test performance.",
+          "tag": "EFFECT",
+          "note": "Steele, C. M. & Aronson, J. (1995). 'Stereotype threat and the intellectual test performance of African Americans.' Journal of Personality and Social Psychology, 69, 797–811. Highly cited and politically consequential, but its evidence base is contested: a meta-analysis (Flore & Wicherts 2015) found signs of publication bias, and several registered replications produced null or much smaller effects. Marked nuanced rather than settled."
+        },
+        {
+          "id": "ef10",
+          "group": "Interpersonal Attraction",
+          "label": "Propinquity Effect",
+          "date": "1950",
+          "loc": "MIT, Cambridge, Massachusetts",
+          "coords": [
+            42.36,
+            -71.09
+          ],
+          "repl": "robust",
+          "links": [
+            "th12",
+            "st10"
+          ],
+          "hint": "Physical proximity is one of the strongest predictors of friendship and romantic attraction. We tend to like — and eventually love — those we simply encounter most often, partly through the Mere Exposure Effect.",
+          "tag": "EFFECT",
+          "note": "Festinger, L., Schachter, S. & Back, K. (1950). Social Pressures in Informal Groups: A Study of Human Factors in Housing. Harper. Tracked friendship formation in MIT housing; proximity predicted friendship with striking regularity. The mechanism overlaps with the Mere Exposure Effect (Zajonc 1968): repeated encounter increases liking independent of conscious interaction. Effect replicated across classrooms (Segal 1974), workplace seating, and online contexts."
+        }
       ]
     },
     {
-      "id": "concept", "label": "Key Concepts", "icon": "🧩",
-      "color": "#2C3E50", "accent": "#566573", "bg": "#F5F6FA",
+      "id": "concept",
+      "label": "Key Concepts",
+      "icon": "🧩",
+      "color": "#2C3E50",
+      "accent": "#566573",
+      "bg": "#F5F6FA",
       "subtitle": "The core constructs and the distinctions that matter",
       "entries": [
-        { "id":"co1", "links":["ef2","fg6","me1","th5"], "group":"Attitudes", "label":"Attitude", "date":"1935", "loc":"Harvard University, Cambridge, Massachusetts", "coords":[42.37,-71.12], "hint":"A learned evaluation — favourable or unfavourable — of a person, object or idea, classically split into affective, behavioural and cognitive components. Allport called it social psychology's 'most indispensable concept'.", "tag":"CONSTRUCT", "note":"Allport, G. W. (1935). 'Attitudes.' In Murchison (ed.), Handbook of Social Psychology. The attitude–behaviour gap was later sharpened by LaPiere (1934) and the theory of reasoned action (Fishbein & Ajzen 1975)." },
-        { "id":"co2", "group":"Intergroup Relations", "label":"Stereotype, Prejudice & Discrimination", "date":"1954", "loc":"Harvard University, Cambridge, Massachusetts", "coords":[42.37,-71.12], "links":["ap1","co6","ef9","fg6","th3","th9"], "hint":"The cognitive (stereotype: a belief), affective (prejudice: a feeling) and behavioural (discrimination: an act) faces of intergroup bias. Allport's distinction still structures the field.", "tag":"CONCEPT", "note":"Allport, G. W. (1954). The Nature of Prejudice. Addison-Wesley — the founding text of prejudice research, which also proposed the contact hypothesis." },
-        { "id":"co3", "links":["ap6","fg3","st1","st2"], "group":"Influence", "label":"Conformity, Compliance & Obedience", "date":"1955", "loc":"—", "coords":null, "hint":"Three distinct forms of social influence: conformity (matching a group with no direct request), compliance (yielding to an explicit request), and obedience (following an order from authority). Conflating them is a common error.", "tag":"CONCEPT", "note":"The conceptual map runs from Asch (conformity, 1951) through Cialdini's compliance research to Milgram (obedience, 1963). Deutsch & Gerard (1955) distinguished normative from informational influence." },
-        { "id":"co4", "group":"The Self & Cognition", "label":"Schema", "date":"1932", "loc":"University of Cambridge, UK", "coords":[52.20,0.12], "links":["co7","fg9"], "hint":"A mental framework that organises knowledge about a type of person, situation or group, letting us process social information quickly — but also biasing what we notice, infer and remember.", "tag":"CONCEPT", "note":"Bartlett, F. C. (1932). Remembering. Cambridge University Press — introduced schema to psychology via the 'War of the Ghosts' study (Piaget had used a related sense from 1923). Imported into social psychology in the late 1970s–80s by Fiske & Taylor (Social Cognition, 1984)." },
-        { "id":"co5", "links":["th2"], "group":"The Self & Cognition", "label":"Self-Concept & Self-Esteem", "date":"1890", "loc":"Harvard University, Cambridge, Massachusetts", "coords":[42.37,-71.12], "hint":"The self-concept is the totality of beliefs we hold about ourselves; self-esteem is our overall evaluation of that self. James's distinction between the 'I' (knower) and 'me' (known) still frames the field.", "tag":"CONSTRUCT", "note":"James, W. (1890). The Principles of Psychology, ch. 10. Operationalised much later by the Rosenberg Self-Esteem Scale (1965), still the most-used measure." },
-        { "id":"co6", "group":"Intergroup Relations", "label":"Implicit Bias", "date":"1995", "loc":"University of Washington / Yale", "coords":[47.66,-122.30], "links":["co2","ef9","me2"], "hint":"Attitudes and stereotypes that operate automatically, outside conscious awareness or control, and can diverge from a person's stated beliefs. A major and contested construct in modern social psychology.", "tag":"CONSTRUCT", "note":"Greenwald, A. G. & Banaji, M. R. (1995). 'Implicit social cognition: Attitudes, self-esteem, and stereotypes.' Psychological Review, 102, 4–27. The predictive validity of implicit measures for individual behaviour remains debated (Oswald et al. 2013)." },
-        { "id":"co7", "group":"The Self & Cognition", "label":"The Cognitive Miser", "date":"1984", "loc":"Carnegie Mellon / UCLA", "coords":[40.44,-79.94], "links":["co4","ef1","ef6","ef7","fg9","fg10","th10"], "hint":"People have limited mental resources and so default to shortcuts — schemas, heuristics, categories — spending effortful thought only when they must. Fiske & Taylor's organising metaphor for the whole 'social cognition' turn of the field.", "tag":"CONCEPT", "note":"Fiske, S. T. & Taylor, S. E. (1984). Social Cognition. Addison-Wesley — coined 'cognitive miser'. Later refined to the 'motivated tactician' (1991), who chooses among strategies depending on goals. The connective tissue between schemas (Bartlett), heuristics (Tversky & Kahneman) and attribution errors (Ross)." }
+        {
+          "id": "co1",
+          "links": [
+            "ef2",
+            "fg6",
+            "me1",
+            "th5"
+          ],
+          "group": "Attitudes",
+          "label": "Attitude",
+          "date": "1935",
+          "loc": "Harvard University, Cambridge, Massachusetts",
+          "coords": [
+            42.37,
+            -71.12
+          ],
+          "hint": "A learned evaluation — favourable or unfavourable — of a person, object or idea, classically split into affective, behavioural and cognitive components. Allport called it social psychology's 'most indispensable concept'.",
+          "tag": "CONSTRUCT",
+          "note": "Allport, G. W. (1935). 'Attitudes.' In Murchison (ed.), Handbook of Social Psychology. The attitude–behaviour gap was later sharpened by LaPiere (1934) and the theory of reasoned action (Fishbein & Ajzen 1975)."
+        },
+        {
+          "id": "co2",
+          "group": "Intergroup Relations",
+          "label": "Stereotype, Prejudice & Discrimination",
+          "date": "1954",
+          "loc": "Harvard University, Cambridge, Massachusetts",
+          "coords": [
+            42.37,
+            -71.12
+          ],
+          "links": [
+            "ap1",
+            "co6",
+            "ef9",
+            "fg6",
+            "th3",
+            "th9"
+          ],
+          "hint": "The cognitive (stereotype: a belief), affective (prejudice: a feeling) and behavioural (discrimination: an act) faces of intergroup bias. Allport's distinction still structures the field.",
+          "tag": "CONCEPT",
+          "note": "Allport, G. W. (1954). The Nature of Prejudice. Addison-Wesley — the founding text of prejudice research, which also proposed the contact hypothesis."
+        },
+        {
+          "id": "co3",
+          "links": [
+            "ap6",
+            "fg3",
+            "st1",
+            "st2"
+          ],
+          "group": "Influence",
+          "label": "Conformity, Compliance & Obedience",
+          "date": "1955",
+          "loc": "—",
+          "coords": null,
+          "hint": "Three distinct forms of social influence: conformity (matching a group with no direct request), compliance (yielding to an explicit request), and obedience (following an order from authority). Conflating them is a common error.",
+          "tag": "CONCEPT",
+          "note": "The conceptual map runs from Asch (conformity, 1951) through Cialdini's compliance research to Milgram (obedience, 1963). Deutsch & Gerard (1955) distinguished normative from informational influence."
+        },
+        {
+          "id": "co4",
+          "group": "The Self & Cognition",
+          "label": "Schema",
+          "date": "1932",
+          "loc": "University of Cambridge, UK",
+          "coords": [
+            52.2,
+            0.12
+          ],
+          "links": [
+            "co7",
+            "fg9"
+          ],
+          "hint": "A mental framework that organises knowledge about a type of person, situation or group, letting us process social information quickly — but also biasing what we notice, infer and remember.",
+          "tag": "CONCEPT",
+          "note": "Bartlett, F. C. (1932). Remembering. Cambridge University Press — introduced schema to psychology via the 'War of the Ghosts' study (Piaget had used a related sense from 1923). Imported into social psychology in the late 1970s–80s by Fiske & Taylor (Social Cognition, 1984)."
+        },
+        {
+          "id": "co5",
+          "links": [
+            "th2"
+          ],
+          "group": "The Self & Cognition",
+          "label": "Self-Concept & Self-Esteem",
+          "date": "1890",
+          "loc": "Harvard University, Cambridge, Massachusetts",
+          "coords": [
+            42.37,
+            -71.12
+          ],
+          "hint": "The self-concept is the totality of beliefs we hold about ourselves; self-esteem is our overall evaluation of that self. James's distinction between the 'I' (knower) and 'me' (known) still frames the field.",
+          "tag": "CONSTRUCT",
+          "note": "James, W. (1890). The Principles of Psychology, ch. 10. Operationalised much later by the Rosenberg Self-Esteem Scale (1965), still the most-used measure."
+        },
+        {
+          "id": "co6",
+          "group": "Intergroup Relations",
+          "label": "Implicit Bias",
+          "date": "1995",
+          "loc": "University of Washington / Yale",
+          "coords": [
+            47.66,
+            -122.3
+          ],
+          "links": [
+            "co2",
+            "ef9",
+            "me2"
+          ],
+          "hint": "Attitudes and stereotypes that operate automatically, outside conscious awareness or control, and can diverge from a person's stated beliefs. A major and contested construct in modern social psychology.",
+          "tag": "CONSTRUCT",
+          "note": "Greenwald, A. G. & Banaji, M. R. (1995). 'Implicit social cognition: Attitudes, self-esteem, and stereotypes.' Psychological Review, 102, 4–27. The predictive validity of implicit measures for individual behaviour remains debated (Oswald et al. 2013)."
+        },
+        {
+          "id": "co7",
+          "group": "The Self & Cognition",
+          "label": "The Cognitive Miser",
+          "date": "1984",
+          "loc": "Carnegie Mellon / UCLA",
+          "coords": [
+            40.44,
+            -79.94
+          ],
+          "links": [
+            "co4",
+            "ef1",
+            "ef6",
+            "ef7",
+            "fg9",
+            "fg10",
+            "th10"
+          ],
+          "hint": "People have limited mental resources and so default to shortcuts — schemas, heuristics, categories — spending effortful thought only when they must. Fiske & Taylor's organising metaphor for the whole 'social cognition' turn of the field.",
+          "tag": "CONCEPT",
+          "note": "Fiske, S. T. & Taylor, S. E. (1984). Social Cognition. Addison-Wesley — coined 'cognitive miser'. Later refined to the 'motivated tactician' (1991), who chooses among strategies depending on goals. The connective tissue between schemas (Bartlett), heuristics (Tversky & Kahneman) and attribution errors (Ross)."
+        }
       ]
     },
     {
-      "id": "method", "label": "Methods & Measures", "icon": "🔬",
-      "color": "#4A3200", "accent": "#8B5E00", "bg": "#FFFBF0",
+      "id": "method",
+      "label": "Methods & Measures",
+      "icon": "🔬",
+      "color": "#4A3200",
+      "accent": "#8B5E00",
+      "bg": "#FFFBF0",
       "subtitle": "How the field measures the invisible — and how it checks itself",
       "entries": [
-        { "id":"me1", "links":["co1"], "group":"Attitude Measurement", "label":"Likert Scale", "date":"1932", "loc":"Columbia University, New York", "coords":[40.81,-73.96], "hint":"The familiar 'strongly agree … strongly disagree' rating format. Likert showed a simple summed rating performed as well as more elaborate scaling methods — and it became the workhorse of attitude measurement everywhere.", "tag":"SCALE", "note":"Likert, R. (1932). 'A technique for the measurement of attitudes.' Archives of Psychology, 140, 1–55." },
-        { "id":"me2", "group":"Implicit Measurement", "label":"Implicit Association Test (IAT)", "date":"1998", "loc":"University of Washington, Seattle", "coords":[47.66,-122.30], "links":["co6"], "hint":"Measures automatic associations by timing how fast people sort concepts (e.g. pairing 'Black/White' with 'good/bad'). Faster pairing is taken to reveal implicit attitudes. Hugely popular and intensely scrutinised.", "tag":"MEASURE", "note":"Greenwald, A. G., McGhee, D. E. & Schwartz, J. L. K. (1998). 'Measuring individual differences in implicit cognition: The Implicit Association Test.' Journal of Personality and Social Psychology, 74, 1464–1480. Its test–retest reliability and ability to predict individual behaviour are actively debated." },
-        { "id":"me3", "links":["fg4"], "group":"Field Methods", "label":"Lost-Letter Technique", "date":"1965", "loc":"Yale / CUNY, New York", "coords":[40.81,-73.96], "hint":"An unobtrusive measure of community attitudes: stamped, addressed letters are 'lost' in public; the rate at which they are mailed on, by addressee, indexes public sentiment toward the named organisation.", "tag":"MEASURE", "note":"Milgram, S., Mann, L. & Harter, S. (1965). 'The lost-letter technique: A tool of social research.' Public Opinion Quarterly, 29, 437–438." },
-        { "id":"me4", "links":["st2"], "group":"Experimental Design", "label":"Deception & the Cover Story", "date":"1963", "loc":"—", "coords":null, "hint":"To study genuine reactions, social psychologists often conceal a study's true purpose behind a cover story. Milgram's and Asch's designs made deception central — and forced the discipline to build its modern ethics rules.", "tag":"CONCEPT", "note":"The post-Milgram debate over deception drove the APA Ethics Code revisions and the requirement for debriefing and IRB review (Baumrind 1964; Kelman 1967)." },
-        { "id":"me5", "links":["ap1","db1"], "group":"Cumulative Evidence", "label":"Meta-Analysis", "date":"1976", "loc":"University of Colorado", "coords":[40.01,-105.27], "hint":"A statistical method for pooling the results of many studies into a single quantitative estimate of an effect's size and reliability. It transformed how social psychology weighs evidence — and exposed how small many classic effects are.", "tag":"METHOD", "note":"Glass, G. V. (1976). 'Primary, secondary, and meta-analysis of research.' Educational Researcher, 5, 3–8. Now the standard tool for adjudicating contested effects (e.g. Pettigrew & Tropp 2006 on contact)." },
-        { "id":"me6", "group":"Reform & Open Science", "label":"Pre-registration & Open Science", "date":"2013", "loc":"Center for Open Science, Charlottesville, Virginia", "coords":[38.03,-78.48], "links":["db1","db4","db5","db7"], "hint":"The methodological cure to the replication crisis: declare hypotheses and analyses before collecting data (so results can't be cherry-picked), share data and materials openly, and run large multi-lab studies. The reform that is reshaping how the field works.", "tag":"METHOD", "note":"Registered Reports proposed by Chambers, C. (2013), Cortex, 49, 609–610; the Center for Open Science and its OSF platform launched 2013; the Psychological Science Accelerator (Chartier et al. 2018) coordinates global multi-lab studies. Pre-registration directly targets p-hacking and the file-drawer problem." }
+        {
+          "id": "me1",
+          "links": [
+            "co1"
+          ],
+          "group": "Attitude Measurement",
+          "label": "Likert Scale",
+          "date": "1932",
+          "loc": "Columbia University, New York",
+          "coords": [
+            40.81,
+            -73.96
+          ],
+          "hint": "The familiar 'strongly agree … strongly disagree' rating format. Likert showed a simple summed rating performed as well as more elaborate scaling methods — and it became the workhorse of attitude measurement everywhere.",
+          "tag": "SCALE",
+          "note": "Likert, R. (1932). 'A technique for the measurement of attitudes.' Archives of Psychology, 140, 1–55."
+        },
+        {
+          "id": "me2",
+          "group": "Implicit Measurement",
+          "label": "Implicit Association Test (IAT)",
+          "date": "1998",
+          "loc": "University of Washington, Seattle",
+          "coords": [
+            47.66,
+            -122.3
+          ],
+          "links": [
+            "co6"
+          ],
+          "hint": "Measures automatic associations by timing how fast people sort concepts (e.g. pairing 'Black/White' with 'good/bad'). Faster pairing is taken to reveal implicit attitudes. Hugely popular and intensely scrutinised.",
+          "tag": "MEASURE",
+          "note": "Greenwald, A. G., McGhee, D. E. & Schwartz, J. L. K. (1998). 'Measuring individual differences in implicit cognition: The Implicit Association Test.' Journal of Personality and Social Psychology, 74, 1464–1480. Its test–retest reliability and ability to predict individual behaviour are actively debated."
+        },
+        {
+          "id": "me3",
+          "links": [
+            "fg4"
+          ],
+          "group": "Field Methods",
+          "label": "Lost-Letter Technique",
+          "date": "1965",
+          "loc": "Yale / CUNY, New York",
+          "coords": [
+            40.81,
+            -73.96
+          ],
+          "hint": "An unobtrusive measure of community attitudes: stamped, addressed letters are 'lost' in public; the rate at which they are mailed on, by addressee, indexes public sentiment toward the named organisation.",
+          "tag": "MEASURE",
+          "note": "Milgram, S., Mann, L. & Harter, S. (1965). 'The lost-letter technique: A tool of social research.' Public Opinion Quarterly, 29, 437–438."
+        },
+        {
+          "id": "me4",
+          "links": [
+            "st2"
+          ],
+          "group": "Experimental Design",
+          "label": "Deception & the Cover Story",
+          "date": "1963",
+          "loc": "—",
+          "coords": null,
+          "hint": "To study genuine reactions, social psychologists often conceal a study's true purpose behind a cover story. Milgram's and Asch's designs made deception central — and forced the discipline to build its modern ethics rules.",
+          "tag": "CONCEPT",
+          "note": "The post-Milgram debate over deception drove the APA Ethics Code revisions and the requirement for debriefing and IRB review (Baumrind 1964; Kelman 1967)."
+        },
+        {
+          "id": "me5",
+          "links": [
+            "ap1",
+            "db1"
+          ],
+          "group": "Cumulative Evidence",
+          "label": "Meta-Analysis",
+          "date": "1976",
+          "loc": "University of Colorado",
+          "coords": [
+            40.01,
+            -105.27
+          ],
+          "hint": "A statistical method for pooling the results of many studies into a single quantitative estimate of an effect's size and reliability. It transformed how social psychology weighs evidence — and exposed how small many classic effects are.",
+          "tag": "METHOD",
+          "note": "Glass, G. V. (1976). 'Primary, secondary, and meta-analysis of research.' Educational Researcher, 5, 3–8. Now the standard tool for adjudicating contested effects (e.g. Pettigrew & Tropp 2006 on contact)."
+        },
+        {
+          "id": "me6",
+          "group": "Reform & Open Science",
+          "label": "Pre-registration & Open Science",
+          "date": "2013",
+          "loc": "Center for Open Science, Charlottesville, Virginia",
+          "coords": [
+            38.03,
+            -78.48
+          ],
+          "links": [
+            "db1",
+            "db4",
+            "db5",
+            "db7"
+          ],
+          "hint": "The methodological cure to the replication crisis: declare hypotheses and analyses before collecting data (so results can't be cherry-picked), share data and materials openly, and run large multi-lab studies. The reform that is reshaping how the field works.",
+          "tag": "METHOD",
+          "note": "Registered Reports proposed by Chambers, C. (2013), Cortex, 49, 609–610; the Center for Open Science and its OSF platform launched 2013; the Psychological Science Accelerator (Chartier et al. 2018) coordinates global multi-lab studies. Pre-registration directly targets p-hacking and the file-drawer problem."
+        }
       ]
     },
     {
-      "id": "figure", "label": "Key Figures", "icon": "👤",
-      "color": "#3E2723", "accent": "#6D4C41", "bg": "#FFF8F5",
+      "id": "figure",
+      "label": "Key Figures",
+      "icon": "👤",
+      "color": "#3E2723",
+      "accent": "#6D4C41",
+      "bg": "#FFF8F5",
       "subtitle": "The researchers who built the discipline",
       "entries": [
-        { "id":"fg1", "links":["fg2"], "group":"Founders", "label":"Kurt Lewin", "date":"1890–1947", "loc":"MIT, Cambridge, Massachusetts", "coords":[42.36,-71.09], "hint":"The 'father of social psychology'. Coined field theory — behaviour is a function of the person and their environment, B = f(P,E) — pioneered action research and group dynamics, and founded the Research Center for Group Dynamics.", "tag":"FIGURE", "note":"Lewin, K. (1936). Principles of Topological Psychology. Founded the RCGD at MIT in 1945. His dictum 'there is nothing so practical as a good theory' defines the field's applied spirit." },
-        { "id":"fg2", "links":["fg1","st7","th1","th2"], "group":"Founders", "label":"Leon Festinger", "date":"1919–1989", "loc":"Stanford University, California", "coords":[37.43,-122.17], "hint":"Lewin's student and the field's most influential theorist: author of both social comparison theory (1954) and cognitive dissonance theory (1957), the two ideas that defined post-war social psychology.", "tag":"FIGURE", "note":"Festinger, L. (1957). A Theory of Cognitive Dissonance. Also co-author of When Prophecy Fails (1956), a famous participant-observation study of a doomsday cult." },
-        { "id":"fg3", "links":["co3","fg4","st1"], "group":"Conformity & Obedience", "label":"Solomon Asch", "date":"1907–1996", "loc":"Swarthmore College, Pennsylvania", "coords":[39.90,-75.35], "hint":"Demonstrated the power of group pressure on perception, and pioneered work on impression formation showing that traits combine into a holistic impression (the 'central trait' of warm vs cold). Milgram was his student.", "tag":"FIGURE", "note":"Asch, S. E. (1946). 'Forming impressions of personality.' Journal of Abnormal and Social Psychology, 41, 258–290; and the conformity monograph (1956)." },
-        { "id":"fg4", "links":["db3","fg3","fg6","me3","st2"], "group":"Conformity & Obedience", "label":"Stanley Milgram", "date":"1933–1984", "loc":"Yale / CUNY, New York", "coords":[40.81,-73.96], "hint":"Beyond the obedience studies, he devised the 'small-world' experiment behind 'six degrees of separation', the lost-letter technique, and the concept of the 'familiar stranger'. A restlessly inventive experimentalist.", "tag":"FIGURE", "note":"Milgram, S. (1967). 'The small-world problem.' Psychology Today, 1, 61–67. The obedience work remains his most cited and most criticised." },
-        { "id":"fg5", "links":["st9","th3"], "group":"Intergroup Relations", "label":"Henri Tajfel", "date":"1919–1982", "loc":"University of Bristol, UK", "coords":[51.46,-2.60], "hint":"A Holocaust survivor who built the European tradition of social psychology around intergroup relations. His minimal-group studies and social identity theory reframed prejudice as a product of categorisation itself.", "tag":"FIGURE", "note":"Tajfel, H. (1981). Human Groups and Social Categories. Cambridge University Press." },
-        { "id":"fg6", "links":["ap1","co1","co2","fg4"], "group":"Intergroup Relations", "label":"Gordon Allport", "date":"1897–1967", "loc":"Harvard University, Cambridge, Massachusetts", "coords":[42.37,-71.12], "hint":"Defined social psychology's core questions and wrote The Nature of Prejudice (1954), which set the agenda for decades of research and introduced the contact hypothesis. Mentor to a generation including Stanley Milgram.", "tag":"FIGURE", "note":"Allport, G. W. (1954). The Nature of Prejudice. His 1935 'Attitudes' chapter named the field's central concept." },
-        { "id":"fg7", "links":["st4","th8"], "group":"Founders", "label":"Muzafer Sherif", "date":"1906–1988", "loc":"University of Oklahoma", "coords":[35.21,-97.44], "hint":"A founder of intergroup relations and of experimental social psychology. His autokinetic-effect studies (1936) showed group norms forming in real time — predating Asch — and the Robbers Cave experiment grounded realistic conflict theory.", "tag":"FIGURE", "note":"Sherif, M. (1936). The Psychology of Social Norms — the autokinetic conformity studies. Later the Robbers Cave field experiment (1954/1961). A Turkish-born scholar who brought a fieldwork sensibility to the lab-dominated American tradition." },
-        { "id":"fg8", "links":["st6","th7"], "group":"Learning & Influence", "label":"Albert Bandura", "date":"1925–2021", "loc":"Stanford University, California", "coords":[37.43,-122.17], "hint":"Moved psychology beyond behaviourism by showing we learn by watching others (the Bobo doll studies) and act on beliefs about our own capability ('self-efficacy'). One of the most cited psychologists of all time.", "tag":"FIGURE", "note":"Bandura, A. (1977). Social Learning Theory; (1986) Social Foundations of Thought and Action; (1997) Self-Efficacy. His work anchors education, clinical and health psychology as well as social psychology." },
-        { "id":"fg9", "group":"Social Cognition", "label":"Susan Fiske & Shelley Taylor", "date":"1984", "loc":"Princeton University, New Jersey", "coords":[40.35,-74.66], "links":["co4","co7","th9"], "hint":"Pioneers of social cognition. Their textbook coined the 'cognitive miser' — the idea that people conserve mental effort with shortcuts — and Fiske went on to build the stereotype content model of how groups are judged.", "tag":"FIGURE", "note":"Fiske, S. T. & Taylor, S. E. (1984). Social Cognition. Fiske's later work includes the Stereotype Content Model (2002) and influential expert testimony on gender stereotyping (Price Waterhouse v. Hopkins, 1989)." },
-        { "id":"fg10", "group":"Judgment & Decision", "label":"Daniel Kahneman & Amos Tversky", "date":"1974", "loc":"Hebrew University of Jerusalem", "coords":[31.79,35.24], "links":["ap3","co7","th10"], "hint":"Their heuristics-and-biases programme mapped the systematic errors of human judgement, reshaping social cognition, economics and public policy. Kahneman won the 2002 Nobel in Economics; Tversky had died in 1996.", "tag":"FIGURE", "note":"Tversky, A. & Kahneman, D. (1974), Science, 185 (heuristics & biases); (1979) prospect theory, Econometrica. Popularised in Kahneman's Thinking, Fast and Slow (2011). Strictly cognitive/behavioural-economics figures, included here for their foundational role in social judgment." }
+        {
+          "id": "fg1",
+          "links": [
+            "fg2"
+          ],
+          "group": "Founders",
+          "label": "Kurt Lewin",
+          "date": "1890–1947",
+          "loc": "MIT, Cambridge, Massachusetts",
+          "coords": [
+            42.36,
+            -71.09
+          ],
+          "hint": "The 'father of social psychology'. Coined field theory — behaviour is a function of the person and their environment, B = f(P,E) — pioneered action research and group dynamics, and founded the Research Center for Group Dynamics.",
+          "tag": "FIGURE",
+          "note": "Lewin, K. (1936). Principles of Topological Psychology. Founded the RCGD at MIT in 1945. His dictum 'there is nothing so practical as a good theory' defines the field's applied spirit."
+        },
+        {
+          "id": "fg2",
+          "links": [
+            "fg1",
+            "st7",
+            "th1",
+            "th2"
+          ],
+          "group": "Founders",
+          "label": "Leon Festinger",
+          "date": "1919–1989",
+          "loc": "Stanford University, California",
+          "coords": [
+            37.43,
+            -122.17
+          ],
+          "hint": "Lewin's student and the field's most influential theorist: author of both social comparison theory (1954) and cognitive dissonance theory (1957), the two ideas that defined post-war social psychology.",
+          "tag": "FIGURE",
+          "note": "Festinger, L. (1957). A Theory of Cognitive Dissonance. Also co-author of When Prophecy Fails (1956), a famous participant-observation study of a doomsday cult."
+        },
+        {
+          "id": "fg3",
+          "links": [
+            "co3",
+            "fg4",
+            "st1"
+          ],
+          "group": "Conformity & Obedience",
+          "label": "Solomon Asch",
+          "date": "1907–1996",
+          "loc": "Swarthmore College, Pennsylvania",
+          "coords": [
+            39.9,
+            -75.35
+          ],
+          "hint": "Demonstrated the power of group pressure on perception, and pioneered work on impression formation showing that traits combine into a holistic impression (the 'central trait' of warm vs cold). Milgram was his student.",
+          "tag": "FIGURE",
+          "note": "Asch, S. E. (1946). 'Forming impressions of personality.' Journal of Abnormal and Social Psychology, 41, 258–290; and the conformity monograph (1956)."
+        },
+        {
+          "id": "fg4",
+          "links": [
+            "db3",
+            "fg3",
+            "fg6",
+            "me3",
+            "st2"
+          ],
+          "group": "Conformity & Obedience",
+          "label": "Stanley Milgram",
+          "date": "1933–1984",
+          "loc": "Yale / CUNY, New York",
+          "coords": [
+            40.81,
+            -73.96
+          ],
+          "hint": "Beyond the obedience studies, he devised the 'small-world' experiment behind 'six degrees of separation', the lost-letter technique, and the concept of the 'familiar stranger'. A restlessly inventive experimentalist.",
+          "tag": "FIGURE",
+          "note": "Milgram, S. (1967). 'The small-world problem.' Psychology Today, 1, 61–67. The obedience work remains his most cited and most criticised."
+        },
+        {
+          "id": "fg5",
+          "links": [
+            "st9",
+            "th3"
+          ],
+          "group": "Intergroup Relations",
+          "label": "Henri Tajfel",
+          "date": "1919–1982",
+          "loc": "University of Bristol, UK",
+          "coords": [
+            51.46,
+            -2.6
+          ],
+          "hint": "A Holocaust survivor who built the European tradition of social psychology around intergroup relations. His minimal-group studies and social identity theory reframed prejudice as a product of categorisation itself.",
+          "tag": "FIGURE",
+          "note": "Tajfel, H. (1981). Human Groups and Social Categories. Cambridge University Press."
+        },
+        {
+          "id": "fg6",
+          "links": [
+            "ap1",
+            "co1",
+            "co2",
+            "fg4"
+          ],
+          "group": "Intergroup Relations",
+          "label": "Gordon Allport",
+          "date": "1897–1967",
+          "loc": "Harvard University, Cambridge, Massachusetts",
+          "coords": [
+            42.37,
+            -71.12
+          ],
+          "hint": "Defined social psychology's core questions and wrote The Nature of Prejudice (1954), which set the agenda for decades of research and introduced the contact hypothesis. Mentor to a generation including Stanley Milgram.",
+          "tag": "FIGURE",
+          "note": "Allport, G. W. (1954). The Nature of Prejudice. His 1935 'Attitudes' chapter named the field's central concept."
+        },
+        {
+          "id": "fg7",
+          "links": [
+            "st4",
+            "th8"
+          ],
+          "group": "Founders",
+          "label": "Muzafer Sherif",
+          "date": "1906–1988",
+          "loc": "University of Oklahoma",
+          "coords": [
+            35.21,
+            -97.44
+          ],
+          "hint": "A founder of intergroup relations and of experimental social psychology. His autokinetic-effect studies (1936) showed group norms forming in real time — predating Asch — and the Robbers Cave experiment grounded realistic conflict theory.",
+          "tag": "FIGURE",
+          "note": "Sherif, M. (1936). The Psychology of Social Norms — the autokinetic conformity studies. Later the Robbers Cave field experiment (1954/1961). A Turkish-born scholar who brought a fieldwork sensibility to the lab-dominated American tradition."
+        },
+        {
+          "id": "fg8",
+          "links": [
+            "st6",
+            "th7"
+          ],
+          "group": "Learning & Influence",
+          "label": "Albert Bandura",
+          "date": "1925–2021",
+          "loc": "Stanford University, California",
+          "coords": [
+            37.43,
+            -122.17
+          ],
+          "hint": "Moved psychology beyond behaviourism by showing we learn by watching others (the Bobo doll studies) and act on beliefs about our own capability ('self-efficacy'). One of the most cited psychologists of all time.",
+          "tag": "FIGURE",
+          "note": "Bandura, A. (1977). Social Learning Theory; (1986) Social Foundations of Thought and Action; (1997) Self-Efficacy. His work anchors education, clinical and health psychology as well as social psychology."
+        },
+        {
+          "id": "fg9",
+          "group": "Social Cognition",
+          "label": "Susan Fiske & Shelley Taylor",
+          "date": "1984",
+          "loc": "Princeton University, New Jersey",
+          "coords": [
+            40.35,
+            -74.66
+          ],
+          "links": [
+            "co4",
+            "co7",
+            "th9"
+          ],
+          "hint": "Pioneers of social cognition. Their textbook coined the 'cognitive miser' — the idea that people conserve mental effort with shortcuts — and Fiske went on to build the stereotype content model of how groups are judged.",
+          "tag": "FIGURE",
+          "note": "Fiske, S. T. & Taylor, S. E. (1984). Social Cognition. Fiske's later work includes the Stereotype Content Model (2002) and influential expert testimony on gender stereotyping (Price Waterhouse v. Hopkins, 1989)."
+        },
+        {
+          "id": "fg10",
+          "group": "Judgment & Decision",
+          "label": "Daniel Kahneman & Amos Tversky",
+          "date": "1974",
+          "loc": "Hebrew University of Jerusalem",
+          "coords": [
+            31.79,
+            35.24
+          ],
+          "links": [
+            "ap3",
+            "co7",
+            "th10"
+          ],
+          "hint": "Their heuristics-and-biases programme mapped the systematic errors of human judgement, reshaping social cognition, economics and public policy. Kahneman won the 2002 Nobel in Economics; Tversky had died in 1996.",
+          "tag": "FIGURE",
+          "note": "Tversky, A. & Kahneman, D. (1974), Science, 185 (heuristics & biases); (1979) prospect theory, Econometrica. Popularised in Kahneman's Thinking, Fast and Slow (2011). Strictly cognitive/behavioural-economics figures, included here for their foundational role in social judgment."
+        }
       ]
     },
     {
-      "id": "debate", "label": "Debates & Revisions", "icon": "⚖️",
-      "color": "#6E4A00", "accent": "#B7770D", "bg": "#FFFCF2",
+      "id": "debate",
+      "label": "Debates & Revisions",
+      "icon": "⚖️",
+      "color": "#6E4A00",
+      "accent": "#B7770D",
+      "bg": "#FFFCF2",
       "subtitle": "Where the textbook story has been challenged",
       "entries": [
-        { "id":"db1", "group":"The Replication Crisis", "label":"The Reproducibility Project", "date":"2015", "loc":"Center for Open Science, Charlottesville, Virginia", "coords":[38.03,-78.48], "links":["db4","db5","ef9","me5","me6"], "hint":"A 270-author effort that rigorously repeated 100 published psychology studies. Only about 36% produced statistically significant results again, and effect sizes halved on average — triggering the field's 'replication crisis'.", "tag":"FAILED REPLICATION", "note":"Open Science Collaboration (2015). 'Estimating the reproducibility of psychological science.' Science, 349, aac4716. Drove the adoption of pre-registration, larger samples and open data." },
-        { "id":"db2", "group":"Re-examining the Classics", "label":"Debunking the Stanford Prison Experiment", "date":"2019", "loc":"Stanford archive / CNRS, France", "coords":[37.43,-122.17], "links":["st3"], "hint":"Archival recordings and participant interviews revealed guards were coached toward cruelty, a key 'breakdown' was acted, and demand characteristics shaped the results — undercutting the claim that the situation alone produced the brutality.", "tag":"DEBATE", "note":"Le Texier, T. (2019). 'Debunking the Stanford Prison Experiment.' American Psychologist, 74(7), 823–839. See also Reicher & Haslam's BBC Prison Study (2006), which reached different, identity-based conclusions." },
-        { "id":"db3", "group":"Re-examining the Classics", "label":"Re-reading Milgram's Archive", "date":"2013", "loc":"Yale archive, New Haven, Connecticut", "coords":[41.31,-72.93], "links":["fg4","st2"], "hint":"Examination of Milgram's own records showed experimenters improvised beyond the four scripted prods, many participants suspected the shocks were fake, and the famous '65%' applied to only one of two dozen variations.", "tag":"DEBATE", "note":"Perry, G. (2013). Behind the Shock Machine; Gibson, S. (2013). 'Milgram's obedience experiments: A rhetorical analysis.' British Journal of Social Psychology, 52, 290–309." },
-        { "id":"db4", "links":["db1","me6"], "group":"The Replication Crisis", "label":"The Fall of Ego Depletion", "date":"2016", "loc":"Multi-lab (Registered Replication Report)", "coords":null, "hint":"The widely accepted idea that self-control draws on a depletable resource failed a large pre-registered multi-lab replication, which found an effect indistinguishable from zero — a textbook case of the crisis.", "tag":"FAILED REPLICATION", "note":"Hagger, M. S. et al. (2016). 'A multilab preregistered replication of the ego-depletion effect.' Perspectives on Psychological Science, 11, 546–573. The original is Baumeister et al. (1998)." },
-        { "id":"db5", "group":"The Replication Crisis", "label":"The Collapse of Behavioral Priming", "date":"2012", "loc":"Université Libre de Bruxelles / NYU", "coords":[50.81,4.38], "links":["db1","me6"], "hint":"The headline 1990s–2000s claim that subtle cues reshape behaviour — reading words about old age makes you walk slower — largely failed to replicate. It became the 'canary in the coal mine' for social psychology's methods.", "tag":"FAILED REPLICATION", "note":"Original: Bargh, Chen & Burrows (1996), 'Automaticity of social behavior', JPSP, 71, 230–244 (elderly-walking priming). Failed replication: Doyen, Klein, Pichon & Cleeremans (2012), 'Behavioral priming: it's all in the mind, but whose mind?', PLoS ONE, 7, e29081. Kahneman's 2012 open letter warned priming researchers of a 'train wreck looming'." },
-        { "id":"db6", "links":["ef1","st3","st8"], "group":"Person vs Situation", "label":"The Person–Situation Debate", "date":"1968", "loc":"Stanford University, California", "coords":[37.43,-122.17], "hint":"Mischel argued that personality traits predict behaviour poorly across situations, championing situationism. The eventual resolution — interactionism — holds that behaviour emerges from person and situation together.", "tag":"DEBATE", "note":"Mischel, W. (1968). Personality and Assessment. Wiley. The debate ran for two decades and reshaped how both personality and social psychology think about behavioural consistency." },
-        { "id":"db7", "links":["ef1","me6"], "group":"Generalisability", "label":"The WEIRD-Samples Problem", "date":"2010", "loc":"University of British Columbia, Vancouver", "coords":[49.26,-123.25], "hint":"Most behavioural research draws on Western, Educated, Industrialised, Rich, Democratic subjects — a narrow and unusual slice of humanity — yet generalises to 'people'. Many supposedly universal effects vary widely across cultures.", "tag":"DEBATE", "note":"Henrich, J., Heine, S. J. & Norenzayan, A. (2010). 'The weirdest people in the world?' Behavioral and Brain Sciences, 33, 61–83." }
+        {
+          "id": "db1",
+          "group": "The Replication Crisis",
+          "label": "The Reproducibility Project",
+          "date": "2015",
+          "loc": "Center for Open Science, Charlottesville, Virginia",
+          "coords": [
+            38.03,
+            -78.48
+          ],
+          "links": [
+            "db4",
+            "db5",
+            "ef9",
+            "me5",
+            "me6"
+          ],
+          "hint": "A 270-author effort that rigorously repeated 100 published psychology studies. Only about 36% produced statistically significant results again, and effect sizes halved on average — triggering the field's 'replication crisis'.",
+          "tag": "FAILED REPLICATION",
+          "note": "Open Science Collaboration (2015). 'Estimating the reproducibility of psychological science.' Science, 349, aac4716. Drove the adoption of pre-registration, larger samples and open data."
+        },
+        {
+          "id": "db2",
+          "group": "Re-examining the Classics",
+          "label": "Debunking the Stanford Prison Experiment",
+          "date": "2019",
+          "loc": "Stanford archive / CNRS, France",
+          "coords": [
+            37.43,
+            -122.17
+          ],
+          "links": [
+            "st3"
+          ],
+          "hint": "Archival recordings and participant interviews revealed guards were coached toward cruelty, a key 'breakdown' was acted, and demand characteristics shaped the results — undercutting the claim that the situation alone produced the brutality.",
+          "tag": "DEBATE",
+          "note": "Le Texier, T. (2019). 'Debunking the Stanford Prison Experiment.' American Psychologist, 74(7), 823–839. See also Reicher & Haslam's BBC Prison Study (2006), which reached different, identity-based conclusions."
+        },
+        {
+          "id": "db3",
+          "group": "Re-examining the Classics",
+          "label": "Re-reading Milgram's Archive",
+          "date": "2013",
+          "loc": "Yale archive, New Haven, Connecticut",
+          "coords": [
+            41.31,
+            -72.93
+          ],
+          "links": [
+            "fg4",
+            "st2"
+          ],
+          "hint": "Examination of Milgram's own records showed experimenters improvised beyond the four scripted prods, many participants suspected the shocks were fake, and the famous '65%' applied to only one of two dozen variations.",
+          "tag": "DEBATE",
+          "note": "Perry, G. (2013). Behind the Shock Machine; Gibson, S. (2013). 'Milgram's obedience experiments: A rhetorical analysis.' British Journal of Social Psychology, 52, 290–309."
+        },
+        {
+          "id": "db4",
+          "links": [
+            "db1",
+            "me6"
+          ],
+          "group": "The Replication Crisis",
+          "label": "The Fall of Ego Depletion",
+          "date": "2016",
+          "loc": "Multi-lab (Registered Replication Report)",
+          "coords": null,
+          "hint": "The widely accepted idea that self-control draws on a depletable resource failed a large pre-registered multi-lab replication, which found an effect indistinguishable from zero — a textbook case of the crisis.",
+          "tag": "FAILED REPLICATION",
+          "note": "Hagger, M. S. et al. (2016). 'A multilab preregistered replication of the ego-depletion effect.' Perspectives on Psychological Science, 11, 546–573. The original is Baumeister et al. (1998)."
+        },
+        {
+          "id": "db5",
+          "group": "The Replication Crisis",
+          "label": "The Collapse of Behavioral Priming",
+          "date": "2012",
+          "loc": "Université Libre de Bruxelles / NYU",
+          "coords": [
+            50.81,
+            4.38
+          ],
+          "links": [
+            "db1",
+            "me6"
+          ],
+          "hint": "The headline 1990s–2000s claim that subtle cues reshape behaviour — reading words about old age makes you walk slower — largely failed to replicate. It became the 'canary in the coal mine' for social psychology's methods.",
+          "tag": "FAILED REPLICATION",
+          "note": "Original: Bargh, Chen & Burrows (1996), 'Automaticity of social behavior', JPSP, 71, 230–244 (elderly-walking priming). Failed replication: Doyen, Klein, Pichon & Cleeremans (2012), 'Behavioral priming: it's all in the mind, but whose mind?', PLoS ONE, 7, e29081. Kahneman's 2012 open letter warned priming researchers of a 'train wreck looming'."
+        },
+        {
+          "id": "db6",
+          "links": [
+            "ef1",
+            "st3",
+            "st8"
+          ],
+          "group": "Person vs Situation",
+          "label": "The Person–Situation Debate",
+          "date": "1968",
+          "loc": "Stanford University, California",
+          "coords": [
+            37.43,
+            -122.17
+          ],
+          "hint": "Mischel argued that personality traits predict behaviour poorly across situations, championing situationism. The eventual resolution — interactionism — holds that behaviour emerges from person and situation together.",
+          "tag": "DEBATE",
+          "note": "Mischel, W. (1968). Personality and Assessment. Wiley. The debate ran for two decades and reshaped how both personality and social psychology think about behavioural consistency."
+        },
+        {
+          "id": "db7",
+          "links": [
+            "ef1",
+            "me6"
+          ],
+          "group": "Generalisability",
+          "label": "The WEIRD-Samples Problem",
+          "date": "2010",
+          "loc": "University of British Columbia, Vancouver",
+          "coords": [
+            49.26,
+            -123.25
+          ],
+          "hint": "Most behavioural research draws on Western, Educated, Industrialised, Rich, Democratic subjects — a narrow and unusual slice of humanity — yet generalises to 'people'. Many supposedly universal effects vary widely across cultures.",
+          "tag": "DEBATE",
+          "note": "Henrich, J., Heine, S. J. & Norenzayan, A. (2010). 'The weirdest people in the world?' Behavioral and Brain Sciences, 33, 61–83."
+        }
       ]
     },
     {
-      "id": "application", "label": "Applications", "icon": "🔗",
-      "color": "#14502E", "accent": "#2E7D52", "bg": "#F2FBF5",
+      "id": "application",
+      "label": "Applications",
+      "icon": "🔗",
+      "color": "#14502E",
+      "accent": "#2E7D52",
+      "bg": "#F2FBF5",
       "subtitle": "Where the science is put to work",
       "entries": [
-        { "id":"ap1", "group":"Reducing Prejudice", "label":"The Contact Hypothesis", "date":"1954", "loc":"Harvard University, Cambridge, Massachusetts", "coords":[42.37,-71.12], "links":["ap2","co2","fg6","me5","th8"], "hint":"Under the right conditions — equal status, shared goals, cooperation and institutional support — contact between groups reduces prejudice. A meta-analysis of 500+ studies confirmed it works, even when conditions aren't fully met.", "tag":"APPLICATION", "note":"Allport, G. W. (1954). The Nature of Prejudice. Confirmed quantitatively by Pettigrew, T. F. & Tropp, L. R. (2006), 'A meta-analytic test of intergroup contact theory', Journal of Personality and Social Psychology, 90, 751–783." },
-        { "id":"ap2", "group":"Education", "label":"The Jigsaw Classroom", "date":"1971", "loc":"Austin, Texas", "coords":[30.28,-97.74], "links":["ap1","st4","th8"], "hint":"A cooperative-learning technique built on Robbers Cave logic: each student holds one piece of the lesson, so the group must cooperate to succeed. Developed to defuse tension in newly desegregated schools; reduces prejudice and raises performance.", "tag":"APPLICATION", "note":"Aronson, E. et al. (1978). The Jigsaw Classroom. Sage. Developed by Aronson in Austin schools in 1971 — a direct application of the superordinate-goals principle." },
-        { "id":"ap3", "group":"Public Policy", "label":"Nudging & Choice Architecture", "date":"2008", "loc":"University of Chicago", "coords":[41.79,-87.60], "links":["fg10","th10"], "hint":"Small changes to how choices are presented — defaults, framing, social proof — can steer behaviour without restricting freedom. Drawn straight from social and cognitive psychology into behavioural public policy worldwide.", "tag":"APPLICATION", "note":"Thaler, R. H. & Sunstein, C. R. (2008). Nudge: Improving Decisions About Health, Wealth, and Happiness. Yale University Press. Spawned government 'nudge units' (UK Behavioural Insights Team, 2010). Note: some nudge effects have themselves been scaled back in later field trials." },
-        { "id":"ap4", "links":["th5"], "group":"Health", "label":"Fear Appeals & Health Persuasion", "date":"1992", "loc":"University of Wisconsin", "coords":[43.07,-89.41], "hint":"Whether a frightening health message (about smoking, AIDS, speeding) changes behaviour depends on also giving people an efficacious way to act — fear without a remedy backfires into denial. Applied persuasion theory in practice.", "tag":"APPLICATION", "note":"Witte, K. (1992). 'Putting the fear back into fear appeals: The extended parallel process model.' Communication Monographs, 59, 329–349. Grounded in the persuasion tradition (Hovland; Petty & Cacioppo)." },
-        { "id":"ap5", "group":"Behaviour Change", "label":"Cognitive Dissonance in Practice", "date":"1991", "loc":"University of California, Santa Cruz", "coords":[36.99,-122.06], "links":["st7","th1"], "hint":"Getting people to advocate a behaviour they don't fully practise (e.g. publicly endorsing condom use, then recalling their own lapses) creates 'hypocrisy' dissonance that drives real behaviour change — used in health interventions.", "tag":"APPLICATION", "note":"Aronson, E., Fried, C. & Stone, J. (1991). 'Overcoming denial and increasing the intention to use condoms through the induction of hypocrisy.' American Journal of Public Health, 81, 1636–1638." },
-        { "id":"ap6", "group":"Influence", "label":"Cialdini's Principles of Persuasion", "date":"1984", "loc":"Arizona State University, Tempe", "coords":[33.42,-111.93], "links":["co3","th5"], "hint":"Six levers of compliance distilled from field observation of sales, marketing and fundraising: reciprocity, commitment/consistency, social proof, authority, liking and scarcity. The most widely applied framework in applied influence.", "tag":"APPLICATION", "note":"Cialdini, R. B. (1984). Influence: The Psychology of Persuasion. A seventh principle, 'unity', was added in Pre-Suasion (2016). Drawn from participant-observation 'in the field' among compliance professionals, then tested experimentally." }
+        {
+          "id": "ap1",
+          "group": "Reducing Prejudice",
+          "label": "The Contact Hypothesis",
+          "date": "1954",
+          "loc": "Harvard University, Cambridge, Massachusetts",
+          "coords": [
+            42.37,
+            -71.12
+          ],
+          "links": [
+            "ap2",
+            "co2",
+            "fg6",
+            "me5",
+            "th8"
+          ],
+          "hint": "Under the right conditions — equal status, shared goals, cooperation and institutional support — contact between groups reduces prejudice. A meta-analysis of 500+ studies confirmed it works, even when conditions aren't fully met.",
+          "tag": "APPLICATION",
+          "note": "Allport, G. W. (1954). The Nature of Prejudice. Confirmed quantitatively by Pettigrew, T. F. & Tropp, L. R. (2006), 'A meta-analytic test of intergroup contact theory', Journal of Personality and Social Psychology, 90, 751–783."
+        },
+        {
+          "id": "ap2",
+          "group": "Education",
+          "label": "The Jigsaw Classroom",
+          "date": "1971",
+          "loc": "Austin, Texas",
+          "coords": [
+            30.28,
+            -97.74
+          ],
+          "links": [
+            "ap1",
+            "st4",
+            "th8"
+          ],
+          "hint": "A cooperative-learning technique built on Robbers Cave logic: each student holds one piece of the lesson, so the group must cooperate to succeed. Developed to defuse tension in newly desegregated schools; reduces prejudice and raises performance.",
+          "tag": "APPLICATION",
+          "note": "Aronson, E. et al. (1978). The Jigsaw Classroom. Sage. Developed by Aronson in Austin schools in 1971 — a direct application of the superordinate-goals principle."
+        },
+        {
+          "id": "ap3",
+          "group": "Public Policy",
+          "label": "Nudging & Choice Architecture",
+          "date": "2008",
+          "loc": "University of Chicago",
+          "coords": [
+            41.79,
+            -87.6
+          ],
+          "links": [
+            "fg10",
+            "th10"
+          ],
+          "hint": "Small changes to how choices are presented — defaults, framing, social proof — can steer behaviour without restricting freedom. Drawn straight from social and cognitive psychology into behavioural public policy worldwide.",
+          "tag": "APPLICATION",
+          "note": "Thaler, R. H. & Sunstein, C. R. (2008). Nudge: Improving Decisions About Health, Wealth, and Happiness. Yale University Press. Spawned government 'nudge units' (UK Behavioural Insights Team, 2010). Note: some nudge effects have themselves been scaled back in later field trials."
+        },
+        {
+          "id": "ap4",
+          "links": [
+            "th5"
+          ],
+          "group": "Health",
+          "label": "Fear Appeals & Health Persuasion",
+          "date": "1992",
+          "loc": "University of Wisconsin",
+          "coords": [
+            43.07,
+            -89.41
+          ],
+          "hint": "Whether a frightening health message (about smoking, AIDS, speeding) changes behaviour depends on also giving people an efficacious way to act — fear without a remedy backfires into denial. Applied persuasion theory in practice.",
+          "tag": "APPLICATION",
+          "note": "Witte, K. (1992). 'Putting the fear back into fear appeals: The extended parallel process model.' Communication Monographs, 59, 329–349. Grounded in the persuasion tradition (Hovland; Petty & Cacioppo)."
+        },
+        {
+          "id": "ap5",
+          "group": "Behaviour Change",
+          "label": "Cognitive Dissonance in Practice",
+          "date": "1991",
+          "loc": "University of California, Santa Cruz",
+          "coords": [
+            36.99,
+            -122.06
+          ],
+          "links": [
+            "st7",
+            "th1"
+          ],
+          "hint": "Getting people to advocate a behaviour they don't fully practise (e.g. publicly endorsing condom use, then recalling their own lapses) creates 'hypocrisy' dissonance that drives real behaviour change — used in health interventions.",
+          "tag": "APPLICATION",
+          "note": "Aronson, E., Fried, C. & Stone, J. (1991). 'Overcoming denial and increasing the intention to use condoms through the induction of hypocrisy.' American Journal of Public Health, 81, 1636–1638."
+        },
+        {
+          "id": "ap6",
+          "group": "Influence",
+          "label": "Cialdini's Principles of Persuasion",
+          "date": "1984",
+          "loc": "Arizona State University, Tempe",
+          "coords": [
+            33.42,
+            -111.93
+          ],
+          "links": [
+            "co3",
+            "th5"
+          ],
+          "hint": "Six levers of compliance distilled from field observation of sales, marketing and fundraising: reciprocity, commitment/consistency, social proof, authority, liking and scarcity. The most widely applied framework in applied influence.",
+          "tag": "APPLICATION",
+          "note": "Cialdini, R. B. (1984). Influence: The Psychology of Persuasion. A seventh principle, 'unity', was added in Pre-Suasion (2016). Drawn from participant-observation 'in the field' among compliance professionals, then tested experimentally."
+        }
       ]
     }
   ],
   "timeline": [
-    { "id":"study", "icon":"🧪", "accent":"#7D3C98", "label":"Landmark Studies", "events":[
-      { "y":1898, "l":"Triplett — social facilitation" },
-      { "y":1951, "l":"Asch conformity", "entryId":"st1" },
-      { "y":1954, "l":"Robbers Cave", "entryId":"st4" },
-      { "y":1959, "l":"$1/$20 forced compliance", "entryId":"st7" },
-      { "y":1961, "l":"Bobo doll", "entryId":"st6" },
-      { "y":1963, "l":"Milgram obedience", "entryId":"st2" },
-      { "y":1968, "l":"Bystander effect", "entryId":"st5" },
-      { "y":1971, "l":"Minimal groups", "entryId":"st9" },
-      { "y":1971, "l":"Stanford Prison", "entryId":"st3" },
-      { "y":1973, "l":"Good Samaritan", "entryId":"st8" },
-      { "y":1987, "l":"Adult attachment", "entryId":"st10" }
-    ]},
-    { "id":"theory", "icon":"📐", "accent":"#2471A3", "label":"Theories & Models", "events":[
-      { "y":1939, "l":"Frustration-aggression", "entryId":"th11" },
-      { "y":1954, "l":"Social comparison", "entryId":"th2" },
-      { "y":1957, "l":"Cognitive dissonance", "entryId":"th1" },
-      { "y":1958, "l":"Attribution theory", "entryId":"th4" },
-      { "y":1966, "l":"Realistic conflict", "entryId":"th8" },
-      { "y":1967, "l":"Self-perception", "entryId":"th6" },
-      { "y":1974, "l":"Heuristics & biases", "entryId":"th10" },
-      { "y":1977, "l":"Social learning", "entryId":"th7" },
-      { "y":1979, "l":"Social identity", "entryId":"th3" },
-      { "y":1986, "l":"Elaboration likelihood", "entryId":"th5" },
-      { "y":1986, "l":"Triangular theory of love", "entryId":"th12" },
-      { "y":2002, "l":"Stereotype content model", "entryId":"th9" }
-    ]},
-    { "id":"effect", "icon":"📊", "accent":"#117A65", "label":"Effects & Phenomena", "events":[
-      { "y":1920, "l":"Halo effect", "entryId":"ef6" },
-      { "y":1950, "l":"Propinquity", "entryId":"ef10" },
-      { "y":1968, "l":"Mere exposure", "entryId":"ef2" },
-      { "y":1969, "l":"Group polarization", "entryId":"ef5" },
-      { "y":1972, "l":"Groupthink", "entryId":"ef4" },
-      { "y":1977, "l":"Fundamental attribution error", "entryId":"ef1" },
-      { "y":1977, "l":"False consensus", "entryId":"ef7" },
-      { "y":1995, "l":"Stereotype threat", "entryId":"ef9" }
-    ]},
-    { "id":"method", "icon":"🔬", "accent":"#8B5E00", "label":"Methods & Measures", "events":[
-      { "y":1932, "l":"Likert scale", "entryId":"me1" },
-      { "y":1965, "l":"Lost-letter technique", "entryId":"me3" },
-      { "y":1976, "l":"Meta-analysis", "entryId":"me5" },
-      { "y":1998, "l":"Implicit Association Test", "entryId":"me2" },
-      { "y":2013, "l":"Pre-registration / open science", "entryId":"me6" }
-    ]},
-    { "id":"debate", "icon":"⚖️", "accent":"#B7770D", "label":"Debates & Revisions", "events":[
-      { "y":1968, "l":"Person–situation debate", "entryId":"db6" },
-      { "y":2010, "l":"WEIRD samples", "entryId":"db7" },
-      { "y":2012, "l":"Priming collapse", "entryId":"db5" },
-      { "y":2015, "l":"Reproducibility Project", "entryId":"db1" },
-      { "y":2016, "l":"Ego depletion fails", "entryId":"db4" },
-      { "y":2019, "l":"SPE debunked", "entryId":"db2" }
-    ]},
-    { "id":"application", "icon":"🔗", "accent":"#2E7D52", "label":"Applications", "events":[
-      { "y":1954, "l":"Contact hypothesis", "entryId":"ap1" },
-      { "y":1971, "l":"Jigsaw classroom", "entryId":"ap2" },
-      { "y":1984, "l":"Cialdini's principles", "entryId":"ap6" },
-      { "y":2008, "l":"Nudge", "entryId":"ap3" }
-    ]}
+    {
+      "id": "study",
+      "icon": "🧪",
+      "accent": "#7D3C98",
+      "label": "Landmark Studies",
+      "events": [
+        {
+          "y": 1898,
+          "l": "Triplett — social facilitation"
+        },
+        {
+          "y": 1951,
+          "l": "Asch conformity",
+          "entryId": "st1"
+        },
+        {
+          "y": 1954,
+          "l": "Robbers Cave",
+          "entryId": "st4"
+        },
+        {
+          "y": 1959,
+          "l": "$1/$20 forced compliance",
+          "entryId": "st7"
+        },
+        {
+          "y": 1961,
+          "l": "Bobo doll",
+          "entryId": "st6"
+        },
+        {
+          "y": 1963,
+          "l": "Milgram obedience",
+          "entryId": "st2"
+        },
+        {
+          "y": 1968,
+          "l": "Bystander effect",
+          "entryId": "st5"
+        },
+        {
+          "y": 1971,
+          "l": "Minimal groups",
+          "entryId": "st9"
+        },
+        {
+          "y": 1971,
+          "l": "Stanford Prison",
+          "entryId": "st3"
+        },
+        {
+          "y": 1973,
+          "l": "Good Samaritan",
+          "entryId": "st8"
+        },
+        {
+          "y": 1987,
+          "l": "Adult attachment",
+          "entryId": "st10"
+        }
+      ]
+    },
+    {
+      "id": "theory",
+      "icon": "📐",
+      "accent": "#2471A3",
+      "label": "Theories & Models",
+      "events": [
+        {
+          "y": 1939,
+          "l": "Frustration-aggression",
+          "entryId": "th11"
+        },
+        {
+          "y": 1954,
+          "l": "Social comparison",
+          "entryId": "th2"
+        },
+        {
+          "y": 1957,
+          "l": "Cognitive dissonance",
+          "entryId": "th1"
+        },
+        {
+          "y": 1958,
+          "l": "Attribution theory",
+          "entryId": "th4"
+        },
+        {
+          "y": 1966,
+          "l": "Realistic conflict",
+          "entryId": "th8"
+        },
+        {
+          "y": 1967,
+          "l": "Self-perception",
+          "entryId": "th6"
+        },
+        {
+          "y": 1974,
+          "l": "Heuristics & biases",
+          "entryId": "th10"
+        },
+        {
+          "y": 1977,
+          "l": "Social learning",
+          "entryId": "th7"
+        },
+        {
+          "y": 1979,
+          "l": "Social identity",
+          "entryId": "th3"
+        },
+        {
+          "y": 1986,
+          "l": "Elaboration likelihood",
+          "entryId": "th5"
+        },
+        {
+          "y": 1986,
+          "l": "Triangular theory of love",
+          "entryId": "th12"
+        },
+        {
+          "y": 2002,
+          "l": "Stereotype content model",
+          "entryId": "th9"
+        }
+      ]
+    },
+    {
+      "id": "effect",
+      "icon": "📊",
+      "accent": "#117A65",
+      "label": "Effects & Phenomena",
+      "events": [
+        {
+          "y": 1920,
+          "l": "Halo effect",
+          "entryId": "ef6"
+        },
+        {
+          "y": 1950,
+          "l": "Propinquity",
+          "entryId": "ef10"
+        },
+        {
+          "y": 1968,
+          "l": "Mere exposure",
+          "entryId": "ef2"
+        },
+        {
+          "y": 1969,
+          "l": "Group polarization",
+          "entryId": "ef5"
+        },
+        {
+          "y": 1972,
+          "l": "Groupthink",
+          "entryId": "ef4"
+        },
+        {
+          "y": 1977,
+          "l": "Fundamental attribution error",
+          "entryId": "ef1"
+        },
+        {
+          "y": 1977,
+          "l": "False consensus",
+          "entryId": "ef7"
+        },
+        {
+          "y": 1995,
+          "l": "Stereotype threat",
+          "entryId": "ef9"
+        }
+      ]
+    },
+    {
+      "id": "method",
+      "icon": "🔬",
+      "accent": "#8B5E00",
+      "label": "Methods & Measures",
+      "events": [
+        {
+          "y": 1932,
+          "l": "Likert scale",
+          "entryId": "me1"
+        },
+        {
+          "y": 1965,
+          "l": "Lost-letter technique",
+          "entryId": "me3"
+        },
+        {
+          "y": 1976,
+          "l": "Meta-analysis",
+          "entryId": "me5"
+        },
+        {
+          "y": 1998,
+          "l": "Implicit Association Test",
+          "entryId": "me2"
+        },
+        {
+          "y": 2013,
+          "l": "Pre-registration / open science",
+          "entryId": "me6"
+        }
+      ]
+    },
+    {
+      "id": "debate",
+      "icon": "⚖️",
+      "accent": "#B7770D",
+      "label": "Debates & Revisions",
+      "events": [
+        {
+          "y": 1968,
+          "l": "Person–situation debate",
+          "entryId": "db6"
+        },
+        {
+          "y": 2010,
+          "l": "WEIRD samples",
+          "entryId": "db7"
+        },
+        {
+          "y": 2012,
+          "l": "Priming collapse",
+          "entryId": "db5"
+        },
+        {
+          "y": 2015,
+          "l": "Reproducibility Project",
+          "entryId": "db1"
+        },
+        {
+          "y": 2016,
+          "l": "Ego depletion fails",
+          "entryId": "db4"
+        },
+        {
+          "y": 2019,
+          "l": "SPE debunked",
+          "entryId": "db2"
+        }
+      ]
+    },
+    {
+      "id": "application",
+      "icon": "🔗",
+      "accent": "#2E7D52",
+      "label": "Applications",
+      "events": [
+        {
+          "y": 1954,
+          "l": "Contact hypothesis",
+          "entryId": "ap1"
+        },
+        {
+          "y": 1971,
+          "l": "Jigsaw classroom",
+          "entryId": "ap2"
+        },
+        {
+          "y": 1984,
+          "l": "Cialdini's principles",
+          "entryId": "ap6"
+        },
+        {
+          "y": 2008,
+          "l": "Nudge",
+          "entryId": "ap3"
+        }
+      ]
+    }
   ]
 }
