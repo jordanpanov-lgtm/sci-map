@@ -672,7 +672,98 @@
       "accent": "#8B5E00",
       "bg": "#FFF8F0",
       "subtitle": "The tools and paradigms that generate the field's evidence",
-      "entries": []
+      "entries": [
+        {
+          "id": "me1",
+          "group": "Ocean Observation & Methods",
+          "label": "CTD Profiler (Conductivity-Temperature-Depth)",
+          "date": "1972",
+          "loc": "Woods Hole Oceanographic Institution, Massachusetts",
+          "coords": [
+            41.52,
+            -70.67
+          ],
+          "links": [],
+          "hint": "The CTD profiler measures conductivity (from which salinity is computed), temperature and pressure simultaneously as it descends through the water column at ~1 m/s, generating vertical profiles at sub-metre resolution. A surrounding rosette of 12–36 Niskin sampling bottles can be triggered at chosen depths to collect water for chemical analysis. The CTD cast is the single most common measurement in oceanography — a core operation on every research cruise since the 1970s.",
+          "tag": "INSTRUMENT",
+          "note": "Electronic CTD developed by Neil L. Brown, WHOI, ~1967–1972, replacing the laborious Nansen-bottle/reversing-thermometer system. Brown, N. L. (1974). 'A precision CTD microprofiler.' IEEE Ocean '74 Proceedings, 270–278. Modern CTDs achieve accuracy of ±0.001°C and ±0.002 PSU. CTD data form the backbone of WOCE (1990–2002), GO-SHIP (2003–present) and ARGO hydrographic sections. Full deployment takes ~2–6 hours per cast at 6,000 m depth. The introduction of the CTD increased oceanographic sampling throughput by an order of magnitude relative to Nansen bottles."
+        },
+        {
+          "id": "me2",
+          "group": "Deep Sea & Seafloor",
+          "label": "Sediment Core Analysis (Paleoceanography)",
+          "date": "1947",
+          "loc": "Lamont-Doherty Earth Observatory, Palisades, New York",
+          "coords": [
+            41,
+            -73.91
+          ],
+          "links": [],
+          "hint": "A piston or gravity corer driven into seafloor sediment extracts an undisturbed cylinder of material extending up to tens of metres — potentially hundreds of thousands of years of continuous climate history. Analysts measure oxygen isotopes in foraminiferal shells to reconstruct past ocean temperature and ice volume, identify volcanic ash layers as time markers, and extract pollen, organic biomarkers and geochemical proxies to reconstruct past productivity, circulation and sea surface conditions.",
+          "tag": "METHOD",
+          "note": "Piston corer developed by Kullenberg, B. (1947). Svenska Hydrografisk-Biologiska Kommissionens Skrifter, Ny Serie, 17. Lamont-Doherty core library (>22,000 cores; est. 1953 by Ewing) is the world's largest. Oxygen isotope paleothermometer: Emiliani, C. (1955). Journal of Geology, 63, 538–578. Revised to reflect ice volume by Shackleton, N. J. & Opdyke, N. D. (1973). Quaternary Research, 3, 39–55. IODP (International Ocean Discovery Program) drilling now reaches >1 km into seafloor sediments, extending records to >100 Myr. Annual varves in anoxic basins (Santa Barbara Channel, Cariaco Basin) resolve individual years."
+        },
+        {
+          "id": "me3",
+          "group": "Ocean Observation & Methods",
+          "label": "Satellite Ocean Colour & Remote Sensing",
+          "date": "1978",
+          "loc": "NASA Goddard Space Flight Center, Greenbelt, Maryland",
+          "coords": [
+            38.99,
+            -76.84
+          ],
+          "links": [],
+          "hint": "Ocean-colour satellites measure the spectrum of sunlight reflected from the sea surface. Phytoplankton chlorophyll absorbs blue and red light and reflects green; algorithms convert this spectral signature into chlorophyll concentration, enabling daily global maps of ocean productivity. From space, oceanographers can simultaneously track bloom dynamics, map sediment plumes, monitor sea surface temperature and quantify phytoplankton biomass across the entire ocean — transforming a ship-based science into one with near-real-time global coverage.",
+          "tag": "REMOTE SENSING",
+          "note": "CZCS (Coastal Zone Color Scanner) launched on Nimbus-7, 1978 — first dedicated ocean-colour sensor. SeaWiFS (1997) and MODIS-Aqua (2002) built the long-term record. Global primary production algorithm: Behrenfeld, M. J. & Falkowski, P. G. (1997). Limnology and Oceanography, 42, 1–20. Sentinel-3 OLCI and PACE (launched 2024) provide hyperspectral coverage. SST is measured by AVHRR (1978–present) and MODIS; sea level by TOPEX/Poseidon (1992–present). Together, satellite sensors have fundamentally changed understanding of El Niño impacts on productivity, bloom phenology shifts under warming and HAB early warning."
+        },
+        {
+          "id": "me4",
+          "group": "Ocean Observation & Methods",
+          "label": "Acoustic Doppler Current Profiling (ADCP)",
+          "date": "1982",
+          "loc": "RD Instruments / Scripps Institution of Oceanography, San Diego",
+          "coords": [
+            32.72,
+            -117.16
+          ],
+          "links": [],
+          "hint": "An ADCP transmits sound pulses and measures the Doppler shift in echoes from suspended particles and organisms to determine current speed and direction at multiple depth bins simultaneously. Hull-mounted on ships, ADCPs generate continuous full-water-column current profiles while underway, replacing slow and spatially sparse moored current-meter arrays for synoptic surveys. Lowered ADCP (LADCP) systems mounted on CTD rosettes extend the technique to near-seafloor observations.",
+          "tag": "INSTRUMENT",
+          "note": "First commercial shipboard ADCP: RD Instruments, San Diego, 1982. Theoretical basis: Pinkel, R. (1979). Journal of Physical Oceanography, 9, 529–543. LADCP technique developed in the late 1980s–1990s; full-depth velocity profiles are now standard on every GO-SHIP hydrographic section. Modern phased-array ADCPs resolve currents to ±1 cm/s at 8-m depth bins. Moored ADCPs at fixed locations (e.g. RAPID array at 26°N) provide multi-year AMOC transport time series. The combination of shipboard ADCP + Argo + moorings constitutes the modern observational backbone of physical oceanography."
+        },
+        {
+          "id": "me5",
+          "group": "Ocean Observation & Methods",
+          "label": "ROV & AUV Deep-Sea Exploration",
+          "date": "1988",
+          "loc": "Woods Hole Oceanographic Institution, Massachusetts",
+          "coords": [
+            41.52,
+            -70.67
+          ],
+          "links": [],
+          "hint": "Remotely Operated Vehicles (ROVs) and Autonomous Underwater Vehicles (AUVs) extend scientific reach to depths and durations impossible for manned submersibles. ROVs — tethered by fibre-optic cable — deliver real-time HD video, manipulator arms for sampling, suction devices and instrument deployment at any depth. AUVs execute pre-programmed missions to map terrain with multibeam sonar, measure water chemistry and photograph habitats across thousands of square kilometres in a single deployment.",
+          "tag": "INSTRUMENT",
+          "note": "ROV Jason (WHOI) introduced 1988; successor Jason 2 has logged >1,200 dives to hydrothermal vents, ridge crests and cold seeps. MBARI ROVs (Tiburon, Doc Ricketts) produced the world's largest deep-sea video database (>25,000 hours). AUV ABE first surveyed mid-ocean ridge topography (1994); successor Sentry reaches 6,000 m. Nereid Under Ice AUV operates beneath Arctic sea ice. Full-ocean-depth ROVs (Kaiko, Nereus, SuBastian) have reached Challenger Deep (11,000 m). ROV/AUV day-rates of $30,000–80,000 limit deployment; autonomous 'resident' ROVs (Saab Sabertooth) now provide semi-permanent seafloor access at some cabled observatories."
+        },
+        {
+          "id": "me6",
+          "group": "Ocean Observation & Methods",
+          "label": "Ocean Tracer Methods (CFCs, Radiocarbon, Tritium)",
+          "date": "1957",
+          "loc": "Scripps Institution of Oceanography, La Jolla, California",
+          "coords": [
+            32.87,
+            -117.25
+          ],
+          "links": [],
+          "hint": "Dissolved tracers act as dye in the ocean, labelling water masses with their age and circulation history. Radiocarbon (¹⁴C) — depleted relative to the atmosphere when water is isolated from air — gives the time since a water mass last surfaced: centuries in the deep Atlantic, over a thousand years in the deep Pacific. CFCs (chlorofluorocarbons), released by industrial activity since ~1950, penetrate the ocean in proportion to ventilation rate, giving a direct measure of how quickly the ocean interior renews.",
+          "tag": "METHOD",
+          "note": "Radiocarbon ocean dating: Craig, H. (1957). Tellus, 9, 1–17 — showed deep Pacific water is ~1,000 years old. CFC tracing: Bullister, J. L. & Weiss, R. F. (1983). Deep-Sea Research, 30, 101–120. Systematic global surveys: GEOSECS (1972–78), WOCE (1990–2002), GO-SHIP (2003–present). CFC-11, CFC-12 and now SF₆ (whose atmospheric concentration is still rising) are the standard transient tracers. Tracer data constrain NADW and AABW formation rates, deep-ocean ventilation timescales and uptake of anthropogenic CO₂. CFC ages confirmed that the deep Atlantic renews in ~200 years vs. > 1,000 years for the deep Pacific."
+        }
+      ]
     },
     {
       "id": "figure",
@@ -682,7 +773,188 @@
       "accent": "#B7770D",
       "bg": "#FEFDE7",
       "subtitle": "The researchers who shaped the discipline",
-      "entries": []
+      "entries": [
+        {
+          "id": "fg1",
+          "group": "Pioneers & Theorists",
+          "label": "Matthew Fontaine Maury",
+          "date": "1855",
+          "loc": "U.S. Naval Observatory, Washington D.C.",
+          "coords": [
+            38.92,
+            -77.07
+          ],
+          "links": [],
+          "hint": "Maury compiled thousands of ships' logbooks to produce the first systematic global charts of winds and ocean currents, cutting the New York–San Francisco sailing time from 180 to 133 days. His 'Physical Geography of the Sea' (1855) was the first English-language oceanography textbook. He organised the first international maritime meteorology conference (Brussels, 1853) and pioneered the collaborative collection of oceanographic data on a global scale — a model that persists in today's international programmes.",
+          "tag": "PIONEER",
+          "note": "Maury, M. F. (1855). The Physical Geography of the Sea. Harper & Brothers — republished in 8 editions. His 'Track Charts' and 'Pilot Charts' synthesised ~1.2 million log-book observations. His bathymetric work identified the Mid-Atlantic 'telegraphic plateau' later used for the first transatlantic cable (1858). Maury resigned his US Navy commission in 1861 to serve the Confederacy, an act that complicated his scientific legacy and blocked his return to federal positions. The Maury Channel and Maury Seamount are named in his honour."
+        },
+        {
+          "id": "fg2",
+          "group": "Pioneers & Theorists",
+          "label": "Sir Charles Wyville Thomson",
+          "date": "1872",
+          "loc": "University of Edinburgh, Edinburgh, Scotland",
+          "coords": [
+            55.95,
+            -3.19
+          ],
+          "links": [],
+          "hint": "As chief scientist of the HMS Challenger expedition (1872–76), Thomson organised and led the first purpose-built global oceanographic survey, transforming oceanography from a maritime curiosity into a systematic science. He championed deep-sea dredging against the dominant 'azoic hypothesis' (that no life existed below 600 m), and oversaw the collection of 4,700 new species and the foundational datasets of deep-sea chemistry, temperature and biology.",
+          "tag": "PIONEER",
+          "note": "Thomson, C. W. (1873). The Depths of the Sea. Macmillan — the pre-expedition case for deep-sea biology. Thomson, C. W. & Murray, J. (eds) (1880–95). Report on the Scientific Results of H.M.S. Challenger. HMSO, 50 vols — Thomson died in 1882; John Murray completed the report. Knighted for the Challenger expedition (1876); appointed Regius Professor of Natural History at Edinburgh. The Challenger expedition covered 68,890 nautical miles, conducted 492 deep soundings and provided the first evidence that the deep seafloor is not lifeless or featureless."
+        },
+        {
+          "id": "fg3",
+          "group": "Pioneers & Theorists",
+          "label": "Harald Ulrik Sverdrup",
+          "date": "1947",
+          "loc": "Scripps Institution of Oceanography, La Jolla, California",
+          "coords": [
+            32.87,
+            -117.25
+          ],
+          "links": [],
+          "hint": "Sverdrup gave physical oceanography its most elegant result — the Sverdrup balance (1947), relating wind-stress curl to ocean volume transport — and co-authored 'The Oceans' (1942) with Johnson and Fleming, the definitive reference text of classical oceanography for three decades. As director of Scripps (1936–48) he unified observational and theoretical oceanography, built the institution's research programme and mentored the next generation of American oceanographers.",
+          "tag": "PIONEER",
+          "note": "Sverdrup, H. U. (1947). PNAS, 33, 318–326 — the Sverdrup balance. Sverdrup, H. U., Johnson, M. W. & Fleming, R. H. (1942). The Oceans. Prentice-Hall — 1,087 pages; the standard reference for 30 years. Earlier key work: Sverdrup (1938) on coastal upwelling. Sverdrup returned to Norway in 1948 to direct the Norwegian Polar Institute. The Sverdrup (unit of ocean volume transport, 10⁶ m³/s) is named in his honour. He also led the Maud expedition (1918–25) across the Northeast Passage."
+        },
+        {
+          "id": "fg4",
+          "group": "Pioneers & Theorists",
+          "label": "Henry Stommel",
+          "date": "1948",
+          "loc": "Woods Hole Oceanographic Institution, Massachusetts",
+          "coords": [
+            41.52,
+            -70.67
+          ],
+          "links": [],
+          "hint": "Stommel's 5-page 1948 paper on western boundary current intensification is among the most celebrated in physical oceanography, explaining in simple mathematical terms why the Gulf Stream is narrow and swift while the return flow is broad and slow. He later predicted that the thermohaline circulation could exist in two stable states — a calm and a collapsed mode — a warning now central to climate-change risk assessment. Stommel is widely regarded as the greatest theoretical oceanographer of the 20th century.",
+          "tag": "PIONEER",
+          "note": "Stommel, H. (1948). 'The westward intensification of wind-driven ocean currents.' Transactions AGU, 29, 202–206. Stommel, H. (1961). 'Thermohaline convection with two stable regimes of flow.' Tellus, 13, 224–230 — two-state thermohaline model. Stommel, H. (1958). The Gulf Stream. University of California Press. Stommel refused multiple prestigious appointments to remain focused on research. He received the National Medal of Science (1989) and the Crafoord Prize (1983). The 'Stommel diagram' (diffusion plotted against time scale for all oceanographic processes) is still used in teaching."
+        },
+        {
+          "id": "fg5",
+          "group": "Pioneers & Theorists",
+          "label": "Walter Munk",
+          "date": "1950",
+          "loc": "Scripps Institution of Oceanography, La Jolla, California",
+          "coords": [
+            32.87,
+            -117.25
+          ],
+          "links": [],
+          "hint": "Munk made foundational contributions to virtually every branch of physical oceanography over six decades: wind-driven circulation, internal wave spectra, tidal dissipation, ocean acoustic tomography, sea-level change and climate variability. His wind-driven circulation model (1950) quantified gyre structure; his work with Wunsch (1998) showed tidal mixing is essential for maintaining thermohaline overturning; his Heard Island experiment (1991) first measured ocean heat content globally by tracking sound travel times.",
+          "tag": "PIONEER",
+          "note": "Munk, W. H. (1950). 'On the wind-driven ocean circulation.' Journal of Meteorology, 7, 79–93. Munk, W. & Wunsch, C. (1998). Deep-Sea Research, 45, 1977–2010. Ocean acoustic tomography: Munk, W. et al. (1995). Ocean Acoustic Tomography. Cambridge University Press. Munk received the National Medal of Science (1983), Kyoto Prize (1999) and Crafoord Prize (2010). He published peer-reviewed papers into his 90s and worked at Scripps from 1939 until his death in 2019 at age 101."
+        },
+        {
+          "id": "fg6",
+          "group": "Pioneers & Theorists",
+          "label": "Roger Revelle",
+          "date": "1957",
+          "loc": "Scripps Institution of Oceanography, La Jolla, California",
+          "coords": [
+            32.87,
+            -117.25
+          ],
+          "links": [],
+          "hint": "Revelle was the first scientist to quantify the ocean's limited ability to absorb anthropogenic CO₂ — the 'Revelle factor' — and in 1957 warned with Hans Suess that fossil-fuel burning was a large-scale geophysical experiment with uncertain consequences. He commissioned Charles Keeling to begin the Mauna Loa CO₂ monitoring programme. As director of Scripps (1950–64) he built it into the world's leading oceanographic institution and was one of the first scientists to brief policymakers on the climate risk of CO₂.",
+          "tag": "PIONEER",
+          "note": "Revelle, R. & Suess, H. E. (1957). Tellus, 9, 18–27. Revelle served as Science Adviser to the US Secretary of the Interior (1961–63) and taught at Harvard, where Al Gore was his student — Gore credited Revelle with first alerting him to climate change. US National Medal of Science (1990). The Revelle Medal (AGU) and NOAA research vessel R/V Roger Revelle are named in his honour. Revelle was the first director of the International Geophysical Year (1957–58) oceanic surveys."
+        },
+        {
+          "id": "fg7",
+          "group": "Pioneers & Theorists",
+          "label": "Marie Tharp",
+          "date": "1952",
+          "loc": "Lamont-Doherty Geological Observatory, Palisades, New York",
+          "coords": [
+            41,
+            -73.91
+          ],
+          "links": [],
+          "hint": "Working from echo-sounding data collected by research ships — barred herself from going to sea for most of her career — Tharp identified a continuous rift valley running along the crest of the Mid-Atlantic Ridge, the most visible evidence for seafloor spreading at a time when continental drift was still contested. Her 1977 World Ocean Floor Panorama, painted with Austrian cartographer Heinrich Berann, became the defining image of the submarine world and was displayed in the Smithsonian for decades.",
+          "tag": "PIONEER",
+          "note": "Rift valley identified 1952 from North Atlantic profiles; reported in Heezen, B. C., Tharp, M. & Ewing, M. (1959). Floors of the Oceans I: The North Atlantic. GSA Special Paper 65. World Ocean Floor Panorama (1977). Heezen initially dismissed Tharp's rift interpretation as 'girl talk'; seismic epicentres along the rift soon confirmed it. Tharp was barred from Lamont research ships as 'bad luck for 30 years.' She received the Hubbard Medal (National Geographic Society, 1978) and Library of Congress Living Legend Award (2001)."
+        },
+        {
+          "id": "fg8",
+          "group": "Pioneers & Theorists",
+          "label": "Harry Hess",
+          "date": "1960",
+          "loc": "Princeton University, New Jersey",
+          "coords": [
+            40.35,
+            -74.66
+          ],
+          "links": [],
+          "hint": "Hess proposed seafloor spreading in a 1960 report circulated as a preprint before publication — one of the most transformative ideas in earth science. He argued that the ocean floor is not ancient and permanent but is continuously created at mid-ocean ridges and consumed at deep-sea trenches, providing the mechanism that drives continental drift. The theory was swiftly confirmed by symmetrical magnetic anomaly stripes flanking mid-ocean ridges and became the cornerstone of plate tectonics.",
+          "tag": "PIONEER",
+          "note": "Hess, H. H. (1960/1962). 'History of ocean basins.' In Petrologic Studies: A Volume in Honor of A. F. Buddington. GSA, 599–620. Magnetic anomaly confirmation: Vine, F. J. & Matthews, D. H. (1963). Nature, 199, 947–949. Hess also used Navy sonar data to discover and name 'guyots' — flat-topped seamounts that had subsided below sea level — independently confirming Darwin's coral atoll subsidence theory. He served as chairman of the Space Science Board advising NASA on Apollo and died in 1969 while chairing a National Academy of Sciences meeting."
+        },
+        {
+          "id": "fg9",
+          "group": "Pioneers & Theorists",
+          "label": "Sylvia Earle",
+          "date": "1979",
+          "loc": "Oahu, Hawaii",
+          "coords": [
+            21.31,
+            -157.86
+          ],
+          "links": [],
+          "hint": "Marine biologist and oceanographer Sylvia Earle set the world record for solo untethered diving (381 m, 1979) and has logged more than 7,000 hours underwater over six decades. As NOAA's first female chief scientist (1990–92) she established marine protected areas and championed a science-policy interface for ocean conservation. Her Mission Blue project (2009) aims to protect 30% of the ocean by 2030, and she remains the most prominent global voice for ocean literacy and conservation.",
+          "tag": "PIONEER",
+          "note": "World dive record: JIM suit solo walk at 381 m, waters off Oahu, 1979. NOAA chief scientist 1990–92. Mission Blue/Hope Spots: mission-blue.org. Earle, S. A. (1995). Sea Change: A Message of the Oceans. Putnam. TED Prize 2009; Time magazine's first 'Hero for the Planet' (1998). Explorer-in-Residence, National Geographic Society, since 1998. Published > 200 technical papers and 13 books. Earle co-designed the Deep Rover submersible and is the founder of Deep Ocean Exploration and Research (DOER). Her persistent advocacy was key to establishing the Papahanaumokuakea Marine National Monument (2006)."
+        },
+        {
+          "id": "fg10",
+          "group": "Pioneers & Theorists",
+          "label": "Fridtjof Nansen",
+          "date": "1902",
+          "loc": "University of Christiania (Oslo), Norway",
+          "coords": [
+            59.91,
+            10.75
+          ],
+          "links": [],
+          "hint": "Explorer-scientist Nansen designed the 'Nansen bottle' — a device for collecting water samples at precise depths and measuring temperature with reversing thermometers — which became the standard oceanographic water sampler for 70 years before CTDs replaced it. His Arctic drift expedition aboard Fram (1893–96) produced the first systematic measurements of Arctic Ocean depth, temperature and sea-ice drift, directly motivating Ekman to develop his transport theory after noting that Fram drifted at 20–40° to the right of the wind.",
+          "tag": "PIONEER",
+          "note": "Nansen, F. (1902). 'Oceanography: Its scope, problems and economic importance.' Science, 16, 161–175. Nansen bottle (with Otto Pettersson, 1894): standard deep-sea water sampler until replaced by Niskin bottles and CTDs in the 1970s. Arctic observations: Nansen, F. (1897). Farthest North. Constable, 2 vols. The observation that Fram drifted at ~20–40° right of the wind directly prompted Ekman's 1905 spiral paper. Nansen won the Nobel Peace Prize in 1922 for refugee relief; the 'Nansen passport' for stateless persons bore his name."
+        },
+        {
+          "id": "fg11",
+          "group": "Pioneers & Theorists",
+          "label": "Charles David Keeling",
+          "date": "1958",
+          "loc": "Scripps Institution of Oceanography, La Jolla, California",
+          "coords": [
+            32.87,
+            -117.25
+          ],
+          "links": [],
+          "hint": "Keeling designed and operated the first continuous, high-precision atmospheric CO₂ monitoring station at Mauna Loa, Hawaii (1958–present), producing the 'Keeling curve' — the iconic rising sawtooth record that made the atmospheric CO₂ increase undeniable and provided the single most influential dataset in climate science. Commissioned by Revelle to test whether the ocean could absorb industrial CO₂, his measurements showed it could not keep pace, directly motivating climate policy.",
+          "tag": "PIONEER",
+          "note": "Keeling, C. D. (1960). 'The concentration and isotopic abundances of carbon dioxide in the atmosphere.' Tellus, 12, 200–203 — the founding Mauna Loa paper. By 2024 the record shows CO₂ has risen from 315 ppm (1958) to 426 ppm — a 35% increase in 66 years. The seasonal saw-tooth reflects northern-hemisphere photosynthesis (spring drawdown) and autumn respiration. National Medal of Science (2002). The programme has been continued since 2005 by his son Ralph Keeling (UCSD/Scripps). A parallel atmospheric O₂ monitoring programme (Keeling & Shertz 1992) confirmed that rising CO₂ originates from combustion."
+        },
+        {
+          "id": "fg12",
+          "group": "Pioneers & Theorists",
+          "label": "Nicholas Shackleton",
+          "date": "1976",
+          "loc": "Godwin Laboratory for Quaternary Research, Cambridge University",
+          "coords": [
+            52.2,
+            0.12
+          ],
+          "links": [],
+          "hint": "Shackleton transformed the oxygen isotope analysis of foraminifera from a temperature proxy into a precise ice-volume recorder and was lead author of the 'Pacemaker' paper (1976) that confirmed Milanković orbital forcing drives ice ages. By measuring ¹⁸O/¹⁶O ratios in foram shells from deep-sea sediment cores, he showed that glacial cycles are recorded in ocean sediment with extraordinary precision at the periods predicted by orbital theory, turning paleoceanography from a descriptive enterprise into a quantitative science.",
+          "tag": "PIONEER",
+          "note": "Shackleton, N. J. & Opdyke, N. D. (1973). Quaternary Research, 3, 39–55 — isotope signal reflects ice volume not temperature. Hays, J. D., Imbrie, J. & Shackleton, N. J. (1976). Science, 194, 1121–1132 — the pacemaker paper. Shackleton, N. J. et al. (2000). Transactions of the Royal Society of Edinburgh, 81, 251–261 — astronomical calibration of Pliocene-Pleistocene timescale. Crafoord Prize (1995); Vetlesen Prize (2004). Professor of Earth Sciences at Cambridge until his death in 2006. The Shackleton crater on the Moon and IODP Expedition 395 are named in his honour."
+        }
+      ]
     },
     {
       "id": "debate",
