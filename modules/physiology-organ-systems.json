@@ -156,7 +156,8 @@
           "links": [
             "st6",
             "co9",
-            "co13"
+            "co13",
+            "co5"
           ],
           "hint": "The chemoreceptor theory holds that arterial blood gas composition — principally CO₂ and pH rather than O₂ — is the primary signal regulating ventilation. Central chemoreceptors on the ventral medullary surface respond to changes in cerebrospinal fluid pH driven by CO₂ diffusion; peripheral chemoreceptors in the carotid and aortic bodies respond to PaO₂, PaCO₂ and pH. Rising PaCO₂ is the dominant normal stimulus; hypoxic drive from peripheral receptors dominates only when PaO₂ falls below approximately 60 mmHg.",
           "tag": "THEORY",
@@ -519,7 +520,8 @@
           ],
           "links": [
             "ef3",
-            "co9"
+            "co9",
+            "co5"
           ],
           "repl": "robust",
           "hint": "The Bohr effect is the rightward shift of the oxyhaemoglobin dissociation curve when CO₂ rises or pH falls. At the systemic capillaries, tissues produce CO₂ and metabolic acid; the resulting pH fall reduces haemoglobin's affinity for O₂, releasing more O₂ precisely where it is needed most. In the pulmonary capillaries, CO₂ is exhaled and pH rises, causing haemoglobin to recapture O₂ avidly. The Bohr effect therefore ensures that O₂ delivery automatically increases in proportion to local metabolic activity — a form of built-in, passive demand sensing.",
@@ -538,7 +540,8 @@
           ],
           "links": [
             "ef2",
-            "fg6"
+            "fg6",
+            "co5"
           ],
           "repl": "robust",
           "hint": "The Haldane effect states that deoxygenated haemoglobin carries more CO₂ than oxygenated haemoglobin at the same CO₂ partial pressure. When haemoglobin releases O₂ at the tissues, it becomes a better buffer (accepting H⁺, shifting the bicarbonate equilibrium toward CO₂ uptake) and forms more carbamino-CO₂ (binding CO₂ at terminal amines). This amplifies CO₂ removal: venous blood picks up substantially more CO₂ per unit of CO₂ partial pressure than arterial blood would. The Haldane and Bohr effects are physiological mirrors of the same allosteric mechanism seen from opposite directions.",
@@ -788,7 +791,12 @@
             42.34,
             -71.1
           ],
-          "links": [],
+          "links": [
+            "ef2",
+            "ef3",
+            "th7",
+            "co6"
+          ],
           "hint": "The Henderson-Hasselbalch equation (pH = pKa + log[HCO₃⁻]/[CO₂]) describes the carbonate buffer system — the primary extracellular buffer. pH is determined by the ratio of bicarbonate (regulated by the kidneys over hours to days) to dissolved CO₂ (regulated by the lungs in seconds to minutes). The four primary disturbances — respiratory acidosis and alkalosis, metabolic acidosis and alkalosis — each disturb this ratio in predictable ways; compensation by the other system partially restores pH. The base excess concept (Singer & Hastings, 1948) and the Stewart strong-ion difference approach (1981) offer alternative quantitative frameworks better suited to complex mixed disorders.",
           "tag": "CONCEPT",
           "note": "Henderson, L. J. (1908). 'Concerning the relationship between the strength of acids and their capacity to preserve neutrality.' American Journal of Physiology, 21(2), 173–179. Hasselbalch, K. A. (1916). 'Die Berechnung der Wasserstoffzahl des Blutes aus der freien und gebundenen Kohlensäure desselben.' Biochemische Zeitschrift, 78, 112–144 — converted Henderson's equation into logarithmic (pH) form. Base excess: Singer, R. B. & Hastings, A. B. (1948). Medicine, 27(2), 223–242. Stewart physicochemical approach: Stewart, P. A. (1981). How to Understand Acid-Base. Elsevier — uses strong ion difference (SID), total weak acid (Atot), and PCO₂ as independent variables; correctly identifies that bicarbonate is a dependent variable, not an independent regulator of pH. Peters, M. J. et al. (2002). British Journal of Anaesthesia, 88(2), 153–161 — the H-H and Stewart approaches are mathematically equivalent but the Stewart approach is conceptually cleaner for complex mixed disorders."
@@ -811,7 +819,8 @@
             "db5",
             "ap2",
             "ap3",
-            "co16"
+            "co16",
+            "co5"
           ],
           "hint": "The nephron achieves urine formation through three sequential processes: glomerular filtration (producing ~125 mL/min of protein-free ultrafiltrate, governed by Starling forces across the fenestrated glomerular capillary and podocyte filtration barrier), tubular reabsorption (reclaiming ~99% of filtered water, Na⁺, glucose, and amino acids), and tubular secretion (adding organic acids, drugs, and K⁺ from peritubular capillaries to tubular fluid). Clearance — the volume of plasma completely cleared of a substance per minute — is the conceptual tool: clearance equal to GFR means neither reabsorption nor secretion; below GFR means net reabsorption; above GFR means net secretion.",
           "tag": "CONCEPT",
