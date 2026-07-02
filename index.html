@@ -332,10 +332,11 @@ const FIELDS = [
   { id:"oceanography",               domain:"earth-space",       label:"Oceanography & Marine Sciences",            sub:"Ocean circulation, marine ecosystems & the deep sea",                   status:"ready",   file:"modules/oceanography.json" },
   { id:"environmental-science",      domain:"earth-space",       label:"Environmental Science & Sustainability",    sub:"Earth systems under human pressure — ecology & climate change",          status:"planned" },
   // ── FORMAL SCIENCES & COMPUTING ──────────────────────────────────────────────
-  { id:"logic-math-foundations",     domain:"formal-computing",  label:"Logic & Foundations of Mathematics",        sub:"Proof, sets, axioms & the philosophy of mathematical truth",             status:"planned" },
-  { id:"pure-mathematics",           domain:"formal-computing",  label:"Pure Math: Algebra, Geometry & Calculus",   sub:"Structure, space & continuous change",                                  status:"planned" },
-  { id:"statistics",                 domain:"formal-computing",  label:"Applied Math: Probability & Statistics",    sub:"Inference, probability & the science of data",                          status:"planned" },
-  { id:"computer-science",           domain:"formal-computing",  label:"Computer & Information Sciences",           sub:"Computation, algorithms, data structures & AI",                         status:"ready", file:"modules/computer-science.json" },
+  { id:"logic-math-foundations",     domain:"formal-computing",  label:"Logic & Foundations of Mathematics",        sub:"Proof, sets, model theory, computability & the philosophical roots of formal reasoning",  status:"planned" },
+  { id:"pure-mathematics",           domain:"formal-computing",  label:"Pure Math: Algebra, Analysis, Geometry & Topology", sub:"Algebra, number theory, topology, real & complex analysis",          status:"planned" },
+  { id:"applied-math-statistics",    domain:"formal-computing",  label:"Applied Math & Statistics",                 sub:"Probability, statistics, optimisation, operations research & cryptography", status:"planned" },
+  { id:"computer-science",           domain:"formal-computing",  label:"Computer & Information Sciences",           sub:"Algorithms, information theory, programming languages, distributed systems & AI", status:"ready", file:"modules/computer-science.json" },
+  { id:"systems-and-complexity",     domain:"formal-computing",  label:"Systems Theory & Complexity",               sub:"Cybernetics, chaos, dynamical systems, network theory & emergence",       status:"planned" },
   // ── PSYCHOLOGY & THE MIND ─────────────────────────────────────────────────────
   { id:"neuroscience",               domain:"psychology",        label:"Neuroscience & Behavior",                   sub:"Brain, neuron, circuit & the biological basis of mind",                 status:"ready", file:"modules/neuroscience.json" },
   { id:"general-cognitive-psych",    domain:"psychology",        label:"General & Cognitive Psychology",            sub:"Attention, memory, reasoning & the architecture of mind",               status:"ready", file:"modules/general-cognitive-psych.json" },
@@ -370,7 +371,7 @@ const TRUNKS = [
 ];
 
 const DOMAINS = [
-  { id:"formal-computing",  trunk:"science", label:"Formal Sciences & Computing",      detail:"abstract systems · math · logic · algorithms" },
+  { id:"formal-computing",  trunk:"science", label:"Formal Sciences & Computing",      detail:"logic · mathematics · computation · complexity" },
   { id:"physical-sciences", trunk:"science", label:"Physical Sciences & Chemistry",    detail:"matter, energy & chemical bonds" },
   { id:"earth-space",       trunk:"science", label:"Earth, Space & Environmental",     detail:"planet, cosmos & climate systems" },
   { id:"life-sciences",     trunk:"science", label:"Life & Ecological Sciences",       detail:"cell to ecosystem · molecular biology · zoology" },
