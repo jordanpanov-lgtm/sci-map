@@ -766,7 +766,127 @@
       "accent": "#8B5E00",
       "bg": "#FFF8F0",
       "subtitle": "The tools and paradigms that generate the field's evidence",
-      "entries": []
+      "entries": [
+        {
+          "id": "me1",
+          "group": "Methods & Modelling",
+          "label": "Agent-Based Modelling (ABM)",
+          "date": "1986",
+          "loc": "Argonne National Laboratory / Santa Fe Institute, Santa Fe, New Mexico",
+          "coords": [
+            35.69,
+            -105.94
+          ],
+          "links": [
+            "th9",
+            "co4",
+            "st4",
+            "st5"
+          ],
+          "hint": "Agent-based modelling populates a simulated environment with heterogeneous agents — each with its own rules, memory, and local interactions — and runs the simulation forward to observe what global patterns emerge. Unlike equation-based models that aggregate behaviour into stocks and flows, ABMs capture heterogeneity, spatial structure, and emergent phenomena that aggregate models miss. They are the primary tool for studying complex adaptive systems — economies, epidemics, traffic, social segregation, and ecosystem dynamics.",
+          "tag": "METHOD",
+          "note": "Computational foundations: Holland, J. H. & Miller, J. H. (1991). 'Artificial adaptive agents in economic theory.' American Economic Review, 81, 365–370. First widely-used ABM platform: Swarm (Santa Fe Institute, 1994); later superseded by NetLogo (Wilensky, U., 1999, Northwestern University) and Mesa (Python, 2013). Landmark ABMs: Epstein, J. M. & Axtell, R. (1996). Growing Artificial Societies. MIT Press — Sugarscape model. Key methodological text: Railsback, S. F. & Grimm, V. (2011). Agent-Based and Individual-Based Modeling: A Practical Introduction. Princeton University Press. A fundamental challenge is validation: ABMs can produce many different outcomes for similar parameter sets, and matching aggregate statistics is insufficient for establishing model validity (Windrum, P. et al., 2007, Journal of Artificial Societies and Social Simulation). ODD protocol (Grimm, V. et al., 2006, Ecological Modelling) provides a standard description format."
+        },
+        {
+          "id": "me2",
+          "group": "Methods & Modelling",
+          "label": "Phase-Space Analysis & Lyapunov Exponents",
+          "date": "1968",
+          "loc": "Moscow State University, Moscow, Russia",
+          "coords": [
+            55.75,
+            37.62
+          ],
+          "links": [
+            "th6",
+            "co3",
+            "ef1",
+            "ef2"
+          ],
+          "hint": "Phase space is the abstract multi-dimensional space in which each axis represents one variable of the system; the system's complete state at any moment is a single point in this space, and its evolution traces a trajectory. The Lyapunov exponent measures how fast nearby trajectories diverge: a positive maximal Lyapunov exponent is the mathematical definition of chaos. Phase portraits — visualisations of trajectories in phase space — reveal attractors, basins of attraction, limit cycles, and the geometry of a system's long-run behaviour without solving equations analytically.",
+          "tag": "METHOD",
+          "note": "Phase space formalised by Poincaré, H. (1892–1899). Les Méthodes Nouvelles de la Mécanique Céleste. Gauthier-Villars. Lyapunov exponents rigorously defined: Oseledets, V. I. (1968). 'A multiplicative ergodic theorem.' Transactions of the Moscow Mathematical Society, 19, 197–231. Numerical computation of Lyapunov exponents: Wolf, A. et al. (1985). 'Determining Lyapunov exponents from a time series.' Physica D, 16, 285–317 — the standard algorithm. Phase space reconstruction from a scalar time series using delay-embedding: Takens, F. (1981). 'Detecting strange attractors in turbulence.' Lecture Notes in Mathematics, 898, 366–381 — Takens' embedding theorem. Software: TISEAN package (Hegger, R. et al., 1999, Chaos) is standard. Practical challenge: finite and noisy experimental data can produce spuriously positive Lyapunov estimates; rigorous statistical testing is essential."
+        },
+        {
+          "id": "me3",
+          "group": "Methods & Modelling",
+          "label": "Network Analysis — Centrality, Modularity & Community Detection",
+          "date": "2002",
+          "loc": "University of Michigan, Ann Arbor, Michigan",
+          "coords": [
+            42.28,
+            -83.74
+          ],
+          "links": [
+            "th8",
+            "co5",
+            "st2",
+            "st3"
+          ],
+          "hint": "Network analysis quantifies structure using a toolkit of graph-theoretic measures. Centrality measures identify influential nodes: degree centrality counts connections; betweenness centrality measures how often a node lies on the shortest path between others; eigenvector centrality (including PageRank) weights connections by the importance of neighbours. Community detection algorithms (Louvain, Girvan-Newman, Infomap) identify densely-connected clusters — modules within which information flows more easily than between them. These tools, applied to social, biological, and technological networks, extract meso-scale structure invisible to aggregate statistics.",
+          "tag": "METHOD",
+          "note": "Betweenness centrality: Freeman, L. C. (1977). 'A set of measures of centrality based on betweenness.' Sociometry, 40, 35–41. Eigenvector centrality: Bonacich, P. (1972, Journal of Mathematical Sociology). PageRank: Brin, S. & Page, L. (1998). 'The anatomy of a large-scale hypertextual web search engine.' Computer Networks, 30, 107–117 — a centrality measure at the heart of Google's original algorithm. Girvan-Newman community detection: Girvan, M. & Newman, M. E. J. (2002). 'Community structure in social and biological networks.' PNAS, 99, 7821–7826. Louvain method: Blondel, V. D. et al. (2008). 'Fast unfolding of communities in large networks.' Journal of Statistical Mechanics, P10008 — widely used for large graphs. Software: igraph, NetworkX, Gephi. Challenge: most community detection algorithms are sensitive to resolution parameters and can produce different partitions of the same network."
+        },
+        {
+          "id": "me4",
+          "group": "Methods & Modelling",
+          "label": "Bifurcation Analysis & Numerical Continuation",
+          "date": "1980",
+          "loc": "Utrecht University, Utrecht, Netherlands",
+          "coords": [
+            52.09,
+            5.12
+          ],
+          "links": [
+            "co3",
+            "ef7",
+            "th6"
+          ],
+          "hint": "Bifurcation analysis systematically maps how the qualitative behaviour of a dynamical system changes as parameters vary. Numerical continuation software traces families of equilibria and limit cycles through parameter space, detecting bifurcation points — the values at which a qualitative change (loss of stability, birth of new attractors, period-doubling) occurs. Two-parameter bifurcation diagrams reveal the full landscape of a system's possible behaviours and identify co-dimension-2 points where multiple bifurcations interact, enabling prediction of tipping points before they are reached.",
+          "tag": "METHOD",
+          "note": "Mathematical foundations: Kuznetsov, Y. A. (1995). Elements of Applied Bifurcation Theory. Springer — the standard reference. First general-purpose numerical continuation software: AUTO (Doedel, E. J., 1981, Congressus Numerantium, 30) — still used. Modern successor: MATCONT (Dhooge, A. et al., 2003, ACM Transactions on Mathematical Software). Ecological applications: Scheffer, M. (1998). Ecology of Shallow Lakes. Chapman & Hall — used bifurcation analysis to explain alternative stable states in lakes. Climate application: Lenton, T. M. et al. (2008, PNAS) — identified bifurcation points corresponding to climate tipping elements. Early-warning signals of bifurcations in data: Scheffer, M. et al. (2009). 'Early-warning signals for critical transitions.' Nature, 461, 53–59 — critical slowing down detectable before a fold bifurcation."
+        },
+        {
+          "id": "me5",
+          "group": "Methods & Modelling",
+          "label": "System Dynamics Modelling — Causal Loop & Stock-Flow Diagrams",
+          "date": "1961",
+          "loc": "MIT Sloan School of Management, Cambridge, Massachusetts",
+          "coords": [
+            42.36,
+            -71.09
+          ],
+          "links": [
+            "th4",
+            "th5",
+            "co1",
+            "st6"
+          ],
+          "hint": "System dynamics modelling represents complex systems as networks of stocks (accumulations that can only change via flows), flows (rates of change), and feedback loops, drawn in causal loop diagrams (qualitative) or stock-flow diagrams (quantitative, simulated). The causal loop diagram identifies the polarity and structure of feedback loops; the stock-flow model adds equations and runs over time. Key insight: the behaviour of the system emerges from the feedback structure, not from the detailed equations — rearranging loops produces new behaviours even with the same parameters.",
+          "tag": "METHOD",
+          "note": "Developed by Forrester, J. W. (1961). Industrial Dynamics. MIT Press — the foundational methodology text. DYNAMO simulation language (1959) was Forrester's original software. Modern tools: Vensim (Ventana Systems), Stella (isee Systems), Powersim, AnyLogic. Causal loop diagram standards: Richardson, G. P. & Pugh, A. L. (1981). Introduction to System Dynamics Modeling with DYNAMO. Productivity Press. Comprehensive methodology: Sterman, J. D. (2000). Business Dynamics. Irwin/McGraw-Hill. Climate application: DICE model (Nordhaus, W. D., 1992) is a stock-flow model of climate-economy interactions. Key methodological limit: system dynamics models are often validated against aggregate behaviour ('reference modes') but cannot be uniquely identified from data — many different model structures can produce the same aggregate time series."
+        },
+        {
+          "id": "me6",
+          "group": "Methods & Modelling",
+          "label": "Delay-Embedding & Time-Series Reconstruction (Takens' Theorem)",
+          "date": "1981",
+          "loc": "University of Groningen, Groningen, Netherlands",
+          "coords": [
+            53.22,
+            6.57
+          ],
+          "links": [
+            "co3",
+            "ef1",
+            "ef2",
+            "me2"
+          ],
+          "hint": "Floris Takens proved that the full phase-space geometry of a strange attractor can be reconstructed from a single scalar time series — just one measured variable — by delay-embedding: plotting the time series against lagged copies of itself in a higher-dimensional space. The reconstructed attractor is topologically equivalent to the original. This means that measuring only one component of a complex system (say, temperature fluctuations in a turbulent fluid) is sufficient to reconstruct the entire dynamical structure and compute Lyapunov exponents, fractal dimension, and entropy.",
+          "tag": "METHOD",
+          "note": "Takens, F. (1981). 'Detecting strange attractors in turbulence.' In: D. A. Rand & L.-S. Young (Eds.), Dynamical Systems and Turbulence, Warwick 1980. Lecture Notes in Mathematics, 898. Springer, 366–381. Generalised version: Sauer, T., Yorke, J. A. & Casdagli, M. (1991). 'Embedology.' Journal of Statistical Physics, 65, 579–616. Practical implementation and mutual information method for choosing delay: Fraser, A. M. & Swinney, H. L. (1986). Physical Review A, 33, 1134. False nearest neighbours method for choosing embedding dimension: Kennel, M. B. et al. (1992). Physical Review A, 45, 3403. The theorem assumes noise-free, infinite, stationary data — conditions that are never perfectly met. In practice, noise, nonstationarity, and finite data limit the method, and many claimed strange attractors in biological time series (EEG, HRV) are artefacts of insufficient data or non-stationarity (Rapp, P. E. et al., 1994)."
+        }
+      ]
     },
     {
       "id": "figure",
@@ -776,7 +896,238 @@
       "accent": "#B7770D",
       "bg": "#FEFDE7",
       "subtitle": "The researchers who shaped the discipline",
-      "entries": []
+      "entries": [
+        {
+          "id": "fg1",
+          "group": "Pioneers & Theorists",
+          "label": "Norbert Wiener",
+          "date": "1948",
+          "loc": "Massachusetts Institute of Technology, Cambridge, Massachusetts",
+          "coords": [
+            42.36,
+            -71.09
+          ],
+          "links": [
+            "th1",
+            "th2",
+            "th3"
+          ],
+          "hint": "Norbert Wiener founded cybernetics as the unified science of control, communication, and feedback in animals and machines. His 1948 book gave the discipline its name and its core concept — the feedback loop as the mechanism of purposive behaviour — and proposed that the same mathematics governs nervous systems, thermostats, and economies. Wiener also developed the Wiener filter (optimal linear filtering of noisy signals) during wartime anti-aircraft work, and was one of the first scientists to publicly warn about the social implications of automation.",
+          "tag": "FIGURE",
+          "note": "Wiener, N. (1948). Cybernetics: Or Control and Communication in the Animal and the Machine. MIT Press (2nd ed. 1961). Key mathematical work: Wiener, N. (1949). Extrapolation, Interpolation, and Smoothing of Stationary Time Series. MIT Press — the Wiener filter. Popular account: Wiener, N. (1950). The Human Use of Human Beings: Cybernetics and Society. Houghton Mifflin. Wiener was a child prodigy who entered Tufts at 11 and earned his PhD from Harvard at 17 (1913). He was deeply concerned about automation's effects on employment and wrote prophetically about it. His wartime work on anti-aircraft prediction systems (predicting future aircraft position from past radar data) directly motivated the feedback-control mathematics in Cybernetics."
+        },
+        {
+          "id": "fg2",
+          "group": "Pioneers & Theorists",
+          "label": "W. Ross Ashby",
+          "date": "1956",
+          "loc": "Burden Neurological Institute, Bristol, England",
+          "coords": [
+            51.46,
+            -2.6
+          ],
+          "links": [
+            "th2",
+            "th1",
+            "th3"
+          ],
+          "hint": "W. Ross Ashby was a British psychiatrist who became the most rigorous mathematical cybernetician of the 1950s. He built the Homeostat — an electromechanical self-organising machine — and derived the Law of Requisite Variety: a controller can only regulate a system to the degree that its own variety matches the variety of the disturbances. His Introduction to Cybernetics (1956) translated cybernetics from Wiener's informal prose into set theory and difference equations, making it teachable as a formal discipline.",
+          "tag": "FIGURE",
+          "note": "Ashby, W. R. (1952). Design for a Brain. Chapman & Hall. Ashby, W. R. (1956). An Introduction to Cybernetics. Chapman & Hall — one of the most widely translated science texts of the 1950s. Ashby kept a remarkable journal for decades (the Ashby Archive is held at the British Library). He corresponded with Wiener, von Foerster, and Shannon, and his Law of Requisite Variety influenced Stafford Beer's Viable System Model and remains cited in contemporary control theory, management theory, and robotics. The Good Regulator Theorem (Conant & Ashby 1970) is his most-cited formal result. Ashby worked as a practising psychiatrist throughout his research career, which grounded his interest in brain-as-control-system problems."
+        },
+        {
+          "id": "fg3",
+          "group": "Pioneers & Theorists",
+          "label": "Heinz von Foerster",
+          "date": "1974",
+          "loc": "University of Illinois at Urbana-Champaign, Urbana, Illinois",
+          "coords": [
+            40.11,
+            -88.21
+          ],
+          "links": [
+            "th3",
+            "th1",
+            "th2"
+          ],
+          "hint": "Heinz von Foerster was the organiser of the Macy Conferences (1946–1953) that defined first-order cybernetics, and later the architect of second-order cybernetics — the extension that includes the observer in the system. His Biological Computer Laboratory at Illinois was a centre for constructivist and radical cognitive science. He coined the term 'second-order cybernetics' and developed the mathematical formalism of self-referential systems, influencing Varela and Maturana (autopoiesis), Luhmann (social systems), and constructivist therapy.",
+          "tag": "FIGURE",
+          "note": "von Foerster, H. (Ed., 1949–1955). Cybernetics: Circular Causal and Feedback Mechanisms in Biological and Social Systems. Macy Conference Transactions (5 volumes). von Foerster, H. (1974). 'Cybernetics of cybernetics.' Festschrift for Margaret Mead. Von Foerster, H. (1984). Observing Systems (2nd ed.). Intersystems Publications — collected papers. Personal biography: born in Vienna 1911, trained in physics (dissertation on quantum mechanics), fled Austria in 1949. His playful aphorism 'If you desire to see, learn how to act' epitomises the constructivist view: cognition is not representation but action. The Biological Computer Laboratory (BCL) at Illinois ran 1958–1976."
+        },
+        {
+          "id": "fg4",
+          "group": "Pioneers & Theorists",
+          "label": "Ludwig von Bertalanffy",
+          "date": "1950",
+          "loc": "University of Ottawa, Ottawa, Canada",
+          "coords": [
+            45.42,
+            -75.68
+          ],
+          "links": [
+            "th4",
+            "th5"
+          ],
+          "hint": "Ludwig von Bertalanffy was an Austrian biologist who built General Systems Theory as an explicit reaction against reductionism. He observed that biological open systems — unlike closed physical systems — maintain their organisation while exchanging matter and energy with the environment, and that the same mathematical descriptions (differential equations for open systems) apply across biology, economics, and social science. He proposed that the most useful scientific advance would not be new discoveries within existing disciplines but the discovery of structural isomorphisms across them.",
+          "tag": "FIGURE",
+          "note": "Bertalanffy, L. von (1950). 'An outline of general system theory.' British Journal for the Philosophy of Science, 1, 134–165 — the key paper. Bertalanffy, L. von (1968). General System Theory. George Braziller. Bertalanffy coined the term 'open system' for biological and social systems that exchange matter and energy with their environment — in contrast to the closed systems of classical thermodynamics. He co-founded the Society for General Systems Research (1954) with Kenneth Boulding, Anatol Rapoport, and Ralph Gerard. He taught at universities in Vienna, London, Ottawa, and Edmonton (University of Alberta), where he was based at the time of his death in 1972. His ideas were heavily criticised by scientists who found the isomorphisms too vague, but influenced organisational theory, ecology, and systems engineering."
+        },
+        {
+          "id": "fg5",
+          "group": "Pioneers & Theorists",
+          "label": "Jay Forrester",
+          "date": "1961",
+          "loc": "MIT Sloan School of Management, Cambridge, Massachusetts",
+          "coords": [
+            42.36,
+            -71.09
+          ],
+          "links": [
+            "th5",
+            "st6",
+            "me5"
+          ],
+          "hint": "Jay Forrester invented system dynamics — the method of representing complex sociotechnical systems as stocks, flows, and feedback loops, then simulating them to reveal counterintuitive policy consequences. A former engineer who built the Whirlwind digital computer and invented magnetic-core memory, Forrester turned to management science and created Industrial Dynamics (1961) to explain why MIT companies had inventory and workforce oscillations. He then applied the method to cities (Urban Dynamics, 1969), predicting that urban renewal would worsen inner-city conditions — a conclusion that infuriated politicians but has been partially vindicated.",
+          "tag": "FIGURE",
+          "note": "Forrester, J. W. (1961). Industrial Dynamics. MIT Press. Forrester, J. W. (1969). Urban Dynamics. MIT Press. Forrester, J. W. (1971). World Dynamics. Wright-Allen Press — the model that fed directly into Limits to Growth. He also invented random-access magnetic-core memory (US Patent 2,736,880, 1956) — a foundational hardware invention that earned MIT more patent royalties than any previous invention at the time. His system dynamics group at MIT produced Donella Meadows, John Sterman, and others who built the field into its current form. Received the IEEE Medal of Honour (1972) and the System Dynamics Society Lifetime Achievement Award. He lived to 98, remaining intellectually active."
+        },
+        {
+          "id": "fg6",
+          "group": "Pioneers & Theorists",
+          "label": "Edward Lorenz",
+          "date": "1963",
+          "loc": "Massachusetts Institute of Technology, Cambridge, Massachusetts",
+          "coords": [
+            42.36,
+            -71.09
+          ],
+          "links": [
+            "th6",
+            "th7",
+            "ef1",
+            "ef2"
+          ],
+          "hint": "Edward Lorenz discovered deterministic chaos while running a simplified weather model on a Royal McBee LGP-30 computer in 1961. When he re-ran a simulation by entering rounded intermediate values, the resulting trajectory diverged completely from the original — he traced the divergence to a printout rounding at three decimal places while the computation used six. The published 1963 paper established the mathematical framework of chaos. His 1972 conference talk introduced the phrase 'butterfly effect.' He remained a working scientist at MIT into his late eighties, publishing on climate predictability.",
+          "tag": "FIGURE",
+          "note": "Lorenz, E. N. (1963). 'Deterministic nonperiodic flow.' Journal of the Atmospheric Sciences, 20, 130–141. Lorenz, E. N. (1969). 'Atmospheric predictability as revealed by naturally occurring analogues.' Journal of the Atmospheric Sciences, 26, 636–646 — formalised the prediction horizon. Lorenz, E. N. (1972). 'Predictability: Does the flap of a butterfly's wings in Brazil set off a tornado in Texas?' Conference talk, 139th Annual Meeting of the AAAS. He trained as a mathematician (Harvard), was drafted as a weather forecaster in WW2, and never left meteorology. He received the Kyoto Prize (1991) and the Crafoord Prize (1983) for his chaos work. He was described by colleagues as unusually quiet, modest, and careful — a profile that contrasts with the iconic flamboyance of his discovery."
+        },
+        {
+          "id": "fg7",
+          "group": "Pioneers & Theorists",
+          "label": "Mitchell Feigenbaum",
+          "date": "1978",
+          "loc": "Los Alamos National Laboratory, Los Alamos, New Mexico",
+          "coords": [
+            35.88,
+            -106.28
+          ],
+          "links": [
+            "th7",
+            "th6",
+            "ef1"
+          ],
+          "hint": "Mitchell Feigenbaum discovered universal constants in the period-doubling route to chaos using a pocket calculator — he noticed that the ratios between successive period-doublings converged to the same constant (~4.6692) regardless of the specific function he iterated. He immediately recognised this as universality, analogous to critical exponents in statistical mechanics, and developed a renormalisation group explanation. The two Feigenbaum constants (δ ≈ 4.6692 and α ≈ 2.5029) have been measured experimentally in fluid dynamics, electronics, and chemistry.",
+          "tag": "FIGURE",
+          "note": "Feigenbaum, M. J. (1978). Journal of Statistical Physics, 19, 25–52. Feigenbaum, M. J. (1979). Journal of Statistical Physics, 21, 669–706. Both papers were initially rejected; Feigenbaum reported that the referee 'didn't believe it.' He trained as a physicist, earned his PhD at MIT (1970), and worked at Los Alamos and later Cornell before joining Rockefeller University. Gleick, J. (1987). Chaos: Making a New Science — gave Feigenbaum's discovery its popular account. He is characterised in the chaos literature as the figure who connected chaos to the deep mathematics of renormalisation, making it a respectable topic for theoretical physicists. He received the MacArthur Fellowship (1984), the Wolf Prize in Physics (1986), and the Heineman Prize."
+        },
+        {
+          "id": "fg8",
+          "group": "Pioneers & Theorists",
+          "label": "Ilya Prigogine",
+          "date": "1967",
+          "loc": "Université Libre de Bruxelles, Brussels, Belgium",
+          "coords": [
+            50.81,
+            4.38
+          ],
+          "links": [
+            "th10",
+            "st7",
+            "ef3",
+            "ef8"
+          ],
+          "hint": "Ilya Prigogine resolved the deepest paradox of nineteenth-century physics: how can a universe governed by time-reversible physical laws produce the irreversible arrow of time we observe — in evolution, in history, in chemistry? He showed that systems driven far from thermodynamic equilibrium spontaneously generate ordered structures (dissipative structures) that are maintained by energy throughput and are irreversibly historical. His Nobel lecture argued that thermodynamics and evolution point to a universe that is inherently creative and historical, not simply mechanical.",
+          "tag": "FIGURE",
+          "note": "Prigogine, I. (1967). Nobel Symposium — dissipative structures introduced. Nobel Prize in Chemistry 1977 'for his contributions to non-equilibrium thermodynamics, particularly the theory of dissipative structures.' Glansdorff, P. & Prigogine, I. (1971). Thermodynamic Theory of Structure, Stability and Fluctuations. Wiley. Prigogine, I. & Stengers, I. (1984). Order Out of Chaos. Bantam — widely read restatement. Born in Moscow (1917), raised in Belgium, educated at the Université Libre de Bruxelles, where he remained his entire career. He directed the International Solvay Institutes for Physics and Chemistry (Brussels) and the Ilya Prigogine Center for Studies in Statistical Mechanics and Complex Systems at UT Austin. Critics noted that 'order out of chaos' was often described in sweeping language that outpaced the mathematical specificity of the underlying results."
+        },
+        {
+          "id": "fg9",
+          "group": "Pioneers & Theorists",
+          "label": "Stuart Kauffman",
+          "date": "1969",
+          "loc": "University of Chicago, Chicago, Illinois",
+          "coords": [
+            41.79,
+            -87.6
+          ],
+          "links": [
+            "th9",
+            "st9",
+            "co7"
+          ],
+          "hint": "Stuart Kauffman proposed that much of biological order — particularly the organisation of gene regulatory networks and the number of distinct cell types in organisms — does not arise from natural selection alone but from the intrinsic self-organisation of networks near the edge of chaos. His NK Boolean network model showed that sparse random wiring (K=2) produces ordered dynamics with attractor cycle counts scaling as √N, matching the observed cell-type counts across organisms. He argued that life originates at phase transitions, not through the improbable assembly of specific molecules.",
+          "tag": "FIGURE",
+          "note": "Kauffman, S. A. (1969). 'Metabolic stability and epigenesis in randomly constructed genetic nets.' Journal of Theoretical Biology, 22, 437–467 — the NK model. Kauffman, S. A. (1993). The Origins of Order: Self-Organization and Selection in Evolution. Oxford University Press — the comprehensive synthesis (~750 pages). Kauffman, S. A. (1995). At Home in the Universe. Oxford University Press — the accessible account. Co-founder of BioSystems and active at the Santa Fe Institute from its early years. Kauffman's work is widely cited in systems biology and complexity science, though critics argue his models are too abstract to make specific quantitative predictions and that real gene regulatory networks differ importantly from random NK networks (Aldana & Cluzel 2003)."
+        },
+        {
+          "id": "fg10",
+          "group": "Pioneers & Theorists",
+          "label": "Per Bak",
+          "date": "1987",
+          "loc": "Brookhaven National Laboratory, Upton, New York",
+          "coords": [
+            40.87,
+            -72.88
+          ],
+          "links": [
+            "ef3",
+            "ef9",
+            "co6"
+          ],
+          "hint": "Per Bak co-invented self-organized criticality (SOC) — the finding that slowly driven dissipative systems evolve spontaneously to a critical state characterised by power-law avalanche distributions. His sandpile model (1987) was the archetypical SOC system: add sand grain by grain; when the slope exceeds a threshold locally, sand topples to neighbours; avalanches of all sizes ensue. Bak proposed SOC as a universal mechanism explaining the 1/f noise, power laws, and punctuated equilibrium patterns observed across physics, biology, and economics.",
+          "tag": "FIGURE",
+          "note": "Bak, P., Tang, C. & Wiesenfeld, K. (1987). Physical Review Letters, 59, 381–384. Bak, P. (1996). How Nature Works: The Science of Self-Organized Criticality. Copernicus Books — the accessible account. Bak trained as a physicist in Denmark, worked at Brookhaven National Laboratory, and later Niels Bohr Institute in Copenhagen, where he died in 2002. The sandpile paper is among the 100 most-cited papers in physics. Bak's style was provocative and broad — he applied SOC to stock markets, biological evolution (punctuated equilibrium), and neuroscience. His boldness attracted criticism: many proposed SOC systems have since been shown to require fine-tuning rather than genuine self-organisation, limiting the universality of the claim (Bonachela & Muñoz, 2009)."
+        },
+        {
+          "id": "fg11",
+          "group": "Pioneers & Theorists",
+          "label": "John Henry Holland",
+          "date": "1975",
+          "loc": "University of Michigan, Ann Arbor, Michigan",
+          "coords": [
+            42.28,
+            -83.74
+          ],
+          "links": [
+            "th9",
+            "st4",
+            "st10",
+            "co4"
+          ],
+          "hint": "John Holland invented genetic algorithms — optimisation procedures modelled on Darwinian selection that evolve populations of candidate solutions through selection, crossover, and mutation. He then generalised the insight to complex adaptive systems: any system of agents that evolve their rules through feedback from the environment exhibits CAS dynamics. Holland is the intellectual father of evolutionary computation and a co-founder of the Santa Fe Institute's CAS research programme, which linked economics, ecology, immunology, and artificial life under a common theoretical umbrella.",
+          "tag": "FIGURE",
+          "note": "Holland, J. H. (1975). Adaptation in Natural and Artificial Systems. University of Michigan Press — introduced genetic algorithms (first doctoral degree in computer science at Michigan, 1959). Holland, J. H. (1992). Adaptation in Natural and Artificial Systems, 2nd ed. MIT Press. Holland, J. H. (1995). Hidden Order: How Adaptation Builds Complexity. Addison-Wesley. Holland, J. H. (1998). Emergence: From Chaos to Order. Addison-Wesley. He spent his entire career at the University of Michigan but was deeply associated with the Santa Fe Institute from its founding in 1984. Genetic algorithms spawned the broader field of evolutionary computation (genetic programming, evolution strategies, differential evolution) now used routinely in engineering optimisation, machine learning, and drug design."
+        },
+        {
+          "id": "fg12",
+          "group": "Pioneers & Theorists",
+          "label": "Albert-László Barabási",
+          "date": "1999",
+          "loc": "University of Notre Dame, Notre Dame, Indiana",
+          "coords": [
+            41.7,
+            -86.24
+          ],
+          "links": [
+            "st3",
+            "ef9",
+            "co5"
+          ],
+          "hint": "Albert-László Barabási and Réka Albert showed in 1999 that many growing networks — the web, citations, metabolic networks — develop hubs and power-law degree distributions through preferential attachment: new nodes disproportionately connect to already well-connected nodes. This 'scale-free' network model displaced the Erdős-Rényi random graph as the default model for real networks. Barabási subsequently mapped the human interactome (protein interaction network) and the human connectome, and used network medicine to identify disease modules in the interactome.",
+          "tag": "FIGURE",
+          "note": "Barabási, A.-L. & Albert, R. (1999). Science, 286, 509–512 — ~30,000 citations. Barabási, A.-L. (2002). Linked: The New Science of Networks. Perseus — the popular account that made network science mainstream. Barabási, A.-L. (2016). Network Science. Cambridge University Press — the free open-access textbook at networksciencebook.com. Born in Romania, trained in physics, Barabási moved from Notre Dame to Northeastern University (2007) and then Harvard (Center for Network Science). Network medicine: Goh, K.-I. et al. (2007, PNAS) — the diseasome; Menche, J. et al. (2015, Science) — disease modules in the human interactome. His scale-free universality claims have been substantially contested (Broido & Clauset 2019, Nature Communications), a debate he has engaged with directly."
+        }
+      ]
     },
     {
       "id": "debate",
