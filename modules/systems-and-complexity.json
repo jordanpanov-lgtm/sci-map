@@ -411,7 +411,185 @@
       "accent": "#117A65",
       "bg": "#F0FFF6",
       "subtitle": "Named, replicable patterns in dynamical, networked, and self-organising systems",
-      "entries": []
+      "entries": [
+        {
+          "id": "ef1",
+          "group": "Chaos & Nonlinear Dynamics",
+          "label": "Butterfly Effect — Sensitive Dependence on Initial Conditions",
+          "date": "1963",
+          "loc": "Massachusetts Institute of Technology, Cambridge, Massachusetts",
+          "coords": [
+            42.36,
+            -71.09
+          ],
+          "links": [
+            "th6",
+            "th7",
+            "co3"
+          ],
+          "repl": "robust",
+          "hint": "In any chaotic system, arbitrarily small differences in initial conditions grow exponentially over time, eventually rendering long-range prediction impossible. Two identically specified systems — differing only by one part in a trillion in starting state — diverge completely after a characteristic time. This is not a failure of computing power or measurement precision but a mathematical property of the system's equations. It means that chaotic systems have a finite and fundamental prediction horizon beyond which forecasting is impossible regardless of resources.",
+          "tag": "PHENOMENON",
+          "note": "Mathematically formalised by Lorenz, E. N. (1963). Journal of the Atmospheric Sciences, 20, 130–141 — sensitive dependence on initial conditions arises directly from the equations; the informal 'butterfly' phrase appeared in Lorenz's 1972 conference talk. The Lyapunov exponent quantifies the rate of divergence: a positive maximal Lyapunov exponent is the formal definition of chaos in a dynamical system (Oseledets, V. I., 1968, Transactions of the Moscow Mathematical Society). Experimentally demonstrated in fluid turbulence, chemical oscillators, and electronic circuits. In weather forecasting, operational prediction skill decays to climatological baseline within approximately 10–14 days — consistent with the theoretical prediction horizon. The effect is robust and mathematically proven; it is also the most frequently misunderstood concept in popular accounts of chaos."
+        },
+        {
+          "id": "ef2",
+          "group": "Chaos & Nonlinear Dynamics",
+          "label": "Strange Attractors & Fractal Geometry in Phase Space",
+          "date": "1971",
+          "loc": "Institut des Hautes Études Scientifiques, Bures-sur-Yvette, France",
+          "coords": [
+            48.69,
+            2.17
+          ],
+          "links": [
+            "th6",
+            "co3",
+            "ef1"
+          ],
+          "repl": "robust",
+          "hint": "Many dissipative chaotic systems converge onto a bounded region of phase space called a strange attractor — a set that is neither a point, nor a curve, nor a surface, but a fractal: it has a non-integer dimension between 2 and 3. Trajectories on a strange attractor are confined to this thin fractal shell yet never repeat. The fractal geometry means the attractor has infinite detail at all scales of magnification. Strange attractors have been found in turbulent fluid flows, heart rate variability, brain dynamics, and atmospheric data — wherever a system is simultaneously bounded and non-periodic.",
+          "tag": "PHENOMENON",
+          "note": "Coined by Ruelle, D. & Takens, F. (1971). 'On the nature of turbulence.' Communications in Mathematical Physics, 20, 167–192. Fractal dimension formalised by Mandelbrot, B. B. (1977). Fractals: Form, Chance and Dimension. W. H. Freeman. Correlation dimension method for estimating fractal dimension from data: Grassberger, P. & Procaccia, I. (1983). 'Measuring the strangeness of strange attractors.' Physica D, 9, 189–208 — widely applied but sensitive to noise and data length. The fractal dimension of the Lorenz attractor is approximately 2.06. In practice, detecting a genuine strange attractor from noisy finite time-series is methodologically demanding; many reported 'strange attractors' in physiological data reflect insufficient data length rather than true chaotic dynamics (Rapp, P. E. et al., 1994, Integrative Physiological and Behavioral Science)."
+        },
+        {
+          "id": "ef3",
+          "group": "Emergence & Self-Organisation",
+          "label": "Self-Organized Criticality (SOC)",
+          "date": "1987",
+          "loc": "Brookhaven National Laboratory, Upton, New York",
+          "coords": [
+            40.87,
+            -72.88
+          ],
+          "links": [
+            "th10",
+            "ef4",
+            "ef9"
+          ],
+          "repl": "mixed",
+          "hint": "Per Bak, Chao Tang, and Kurt Wiesenfeld showed that a pile of sand driven slowly to a critical slope evolves spontaneously to a critical state — without any external tuning. At this self-organised critical point, avalanches of all sizes occur, distributed as a power law: small avalanches are common, large ones are rare but not vanishingly rare. Bak argued that this mechanism — systems naturally evolving to criticality and then producing power-law event distributions — explains the ubiquity of 1/f noise and power laws in nature: earthquakes, extinction events, neural avalanches, financial crashes.",
+          "tag": "PHENOMENON",
+          "note": "Bak, P., Tang, C. & Wiesenfeld, K. (1987). 'Self-organized criticality: An explanation of the 1/f noise.' Physical Review Letters, 59, 381–384 — ~8,000 citations. Extended: Bak, P. (1996). How Nature Works: The Science of Self-Organized Criticality. Copernicus Books. Controversy: many systems proposed as SOC candidates have been shown to require parameter tuning rather than self-organisation (Bonachela, J. A. & Muñoz, M. A., 2009, Journal of Statistical Mechanics). In neural systems: Beggs, J. M. & Plenz, D. (2003, Journal of Neuroscience) found neuronal avalanches consistent with SOC in cortical slices — but whether the brain operates at a self-organised critical point (vs. near-critical or critical-like) remains actively debated (Touboul, J. & Destexhe, A., 2017, PLoS Computational Biology). The SOC hypothesis is influential but the evidence for genuine self-tuning (as opposed to near-critical tuning) is contested."
+        },
+        {
+          "id": "ef4",
+          "group": "Emergence & Self-Organisation",
+          "label": "Synchronisation in Coupled Oscillators (Kuramoto Effect)",
+          "date": "1975",
+          "loc": "Kyoto University, Kyoto, Japan",
+          "coords": [
+            35.03,
+            135.78
+          ],
+          "links": [
+            "th10",
+            "ef3"
+          ],
+          "repl": "robust",
+          "hint": "Yoshiki Kuramoto showed that a population of coupled oscillators — pendulums, neurons, fireflies, pacemaker cells — exhibits a phase transition: below a critical coupling strength, each oscillator runs at its own natural frequency and the population remains incoherent; above the threshold, a fraction of oscillators spontaneously synchronise, forming a coherent cluster that grows as coupling increases. Synchronisation emerges without any central pacemaker: it is a collective phase transition analogous to ferromagnetism. The Kuramoto model predicts the threshold analytically.",
+          "tag": "PHENOMENON",
+          "note": "Kuramoto, Y. (1975). 'Self-entrainment of a population of coupled non-linear oscillators.' In: H. Araki (Ed.), International Symposium on Mathematical Problems in Theoretical Physics. Lecture Notes in Physics, 39. Springer — the foundational model paper. Full treatment: Kuramoto, Y. (1984). Chemical Oscillations, Waves, and Turbulence. Springer. Review: Strogatz, S. H. (2000). 'From Kuramoto to Crawford: Exploring the onset of synchronization in populations of coupled oscillators.' Physica D, 143, 1–20. Experimental confirmations: firefly synchronisation (Buck, J., 1988, Quarterly Review of Biology); cardiac pacemaker cells (Peskin, C. S., 1975); circadian rhythm synchronisation; power grid frequency synchronisation. Neural synchronisation (gamma oscillations) is observed robustly but its functional role in perception and cognition is debated (Merker, B., 2013, Frontiers in Integrative Neuroscience)."
+        },
+        {
+          "id": "ef5",
+          "group": "Network Science",
+          "label": "Cascading Failures in Networks",
+          "date": "2002",
+          "loc": "Columbia University, New York, New York",
+          "coords": [
+            40.81,
+            -73.96
+          ],
+          "links": [
+            "st3",
+            "ef9"
+          ],
+          "repl": "robust",
+          "hint": "A network of interdependent nodes can fail not proportionally but catastrophically: a single node failure increases load on connected nodes, some of which then fail, triggering a cascade that rapidly collapses a large fraction of the network. The 2003 Northeast North American blackout began with one software bug and one sagging line in Ohio; cascade dynamics disconnected 55 million customers within minutes. Scale-free networks are particularly vulnerable to cascading failures targeting hubs, even though they are robust to random failures.",
+          "tag": "PHENOMENON",
+          "note": "Foundational model: Watts, D. J. (2002). 'A simple model of global cascades on random networks.' PNAS, 99, 5766–5771 — the cascade threshold is determined by a local stability condition. Post-mortem on 2003 North American blackout: US-Canada Power System Outage Task Force (2004) — detailed cascade sequence documented. Interdependent networks compound cascades: Buldyrev, S. V. et al. (2010). 'Catastrophic cascade of failures in interdependent networks.' Nature, 464, 1025–1028 — when network A depends on network B and vice versa (e.g. power grid depending on internet control systems), the cascade threshold is dramatically lower than for isolated networks. Financial cascade analogues: Haldane, A. G. & May, R. M. (2011). 'Systemic risk in banking ecosystems.' Nature, 469, 351–355. Cascade failures are robustly observed in power grids, the internet, financial systems, and supply chains."
+        },
+        {
+          "id": "ef6",
+          "group": "Complex Adaptive Systems",
+          "label": "Path Dependence & Technology Lock-In",
+          "date": "1985",
+          "loc": "Stanford University, Stanford, California",
+          "coords": [
+            37.43,
+            -122.17
+          ],
+          "links": [
+            "th9",
+            "st4"
+          ],
+          "repl": "mixed",
+          "hint": "W. Brian Arthur showed that when technologies compete under increasing returns to adoption — the more people use a technology, the more valuable it becomes — small early advantages can become self-reinforcing and lock in an inferior standard permanently. The QWERTY keyboard and the VHS video format became canonical examples: once one format gains enough adopters, switching costs prevent migration to superior alternatives even when they exist. This is a fundamentally different market equilibrium from the neoclassical model, where the best technology always wins.",
+          "tag": "PHENOMENON",
+          "note": "Arthur, W. B. (1985). 'Competing technologies and lock-in by historical events.' IIASA Working Paper — published as Arthur, W. B. (1989). 'Competing technologies, increasing returns, and lock-in by historical events.' Economic Journal, 99, 116–131. Fuller account: Arthur, W. B. (1994). Increasing Returns and Path Dependence in the Economy. University of Michigan Press. Controversy: the QWERTY inferiority claim is contested — Liebowitz, S. J. & Margolis, S. E. (1990). 'The fable of the keys.' Journal of Law and Economics, 33, 1–25 — argued QWERTY is not demonstrably inferior and that the alternatives were never convincingly proven better. The VHS-Betamax story is more complex than pure inferiority (VHS offered longer recording time, which mattered for film rentals). Path dependence as a mechanism is widely accepted; the strength of actual lock-in in specific cases is empirically contested."
+        },
+        {
+          "id": "ef7",
+          "group": "Chaos & Nonlinear Dynamics",
+          "label": "Bifurcation & Tipping Points in Dynamical Systems",
+          "date": "1955",
+          "loc": "Princeton University, Princeton, New Jersey",
+          "coords": [
+            40.34,
+            -74.65
+          ],
+          "links": [
+            "th5",
+            "th6",
+            "co3"
+          ],
+          "repl": "robust",
+          "hint": "As a control parameter in a dynamical system crosses a critical value, the system's behaviour can change qualitatively and abruptly — a bifurcation. A stable equilibrium may split into two (pitchfork bifurcation), or a stable fixed point may lose stability and give birth to a limit cycle (Hopf bifurcation), or the system may jump irreversibly to a new state (fold bifurcation / tipping point). Tipping points are fold bifurcations where the system has two stable states and a region of bistability: past the tipping point, the system falls to an alternative attractor and cannot easily return — the basis of catastrophic regime shifts in climate, ecosystems, and social systems.",
+          "tag": "PHENOMENON",
+          "note": "Mathematical theory: Poincaré, H. (1885, Acta Mathematica) — the foundational classification of bifurcations. Modern treatment: Strogatz, S. H. (1994). Nonlinear Dynamics and Chaos. Addison-Wesley — the standard graduate text. Ecological tipping points: May, R. M. (1977). 'Thresholds and breakpoints in ecosystems with a multiplicity of stable states.' Nature, 269, 471–477. Climate tipping elements: Lenton, T. M. et al. (2008). 'Tipping elements in the Earth's climate system.' PNAS, 105, 1786–1793. The mathematical theory of bifurcations is rigorous and well-established (robust). Identifying tipping points in real systems before they occur is an active research area: early-warning signals (critical slowing down, rising variance) are theoretically grounded but empirically challenging in noisy systems (Dakos, V. et al., 2012, PLoS ONE)."
+        },
+        {
+          "id": "ef8",
+          "group": "Emergence & Self-Organisation",
+          "label": "Turing Instability — Reaction-Diffusion Patterns in Biology",
+          "date": "1952",
+          "loc": "Victoria University of Manchester, Manchester, England",
+          "coords": [
+            53.47,
+            -2.23
+          ],
+          "links": [
+            "th10",
+            "ef3",
+            "ef4"
+          ],
+          "repl": "robust",
+          "hint": "Alan Turing showed in 1952 that two chemical species reacting and diffusing at different rates can spontaneously generate spatial patterns from a spatially uniform initial state — a counter-intuitive result, since diffusion normally smooths out inhomogeneities. A 'fast diffusing inhibitor' and 'slow diffusing activator' produce stationary concentration patterns (spots, stripes, spirals) that resemble the pigmentation of animal coats, seashell markings, and fingerprints. Turing proposed this as the mechanism by which a homogeneous fertilised egg could develop a structured organism — a solution to the problem of embryological symmetry-breaking.",
+          "tag": "PHENOMENON",
+          "note": "Turing, A. M. (1952). 'The chemical basis of morphogenesis.' Philosophical Transactions of the Royal Society B, 237, 37–72 — Turing's own model: a two-morphogen reaction-diffusion system. Mathematical analysis: Gierer, A. & Meinhardt, H. (1972). 'A theory of biological pattern formation.' Kybernetik, 12, 30–39 — activator-inhibitor version, more tractable. Experimental confirmation in animal coats: Kondo, S. & Asai, R. (1995). 'A reaction-diffusion wave on the skin of the marine angelfish Pomacanthus.' Nature, 376, 765–768 — showed that fish stripe patterns change after experimental manipulation in a way consistent with Turing dynamics. Direct chemical evidence: Castets, V. et al. (1990, Physical Review Letters) demonstrated stationary Turing patterns in the CIMA reaction. Finger ridge formation: Sick, S. et al. (2006, Science) — Turing mechanism confirmed for mouse hair follicle spacing. The mechanism is now considered firmly established in multiple biological contexts."
+        },
+        {
+          "id": "ef9",
+          "group": "Network Science",
+          "label": "Power-Law Distributions & Scale-Invariance in Complex Systems",
+          "date": "1999",
+          "loc": "University of Notre Dame, Notre Dame, Indiana",
+          "coords": [
+            41.7,
+            -86.24
+          ],
+          "links": [
+            "ef3",
+            "st3",
+            "ef5"
+          ],
+          "repl": "mixed",
+          "hint": "Many quantities in complex systems — city populations, earthquake magnitudes, word frequencies, wealth, network degree — follow power-law distributions: the probability of an event of size x is proportional to x^(-α) for some exponent α. Power laws are 'scale-free' — the ratio of frequencies of events of size 2x and x is the same regardless of x. This statistical self-similarity suggests the same generative mechanism operates across scales, and implies that rare, extreme events (the 100x earthquake, the billionaire) are not negligible outliers but an intrinsic feature of the system.",
+          "tag": "PHENOMENON",
+          "note": "Pareto's original observation on wealth distribution: Pareto, V. (1897). Cours d'Économie Politique. Zipf's word frequency law: Zipf, G. K. (1949). Human Behavior and the Principle of Least Effort. Addison-Wesley. Network degree power laws: Barabási, A.-L. & Albert, R. (1999, Science) — see st3. Statistical methods for fitting: Clauset, A., Shalizi, C. R. & Newman, M. E. J. (2009). 'Power-law distributions in empirical data.' SIAM Review, 51, 661–703 — showed that many claimed power-law datasets fit log-normal or other heavy-tailed distributions equally well when tested rigorously. Broido & Clauset (2019) found that 'strong' power-law degree distributions are rare when properly tested. Power laws are real and important in many systems; the extent to which they are truly universal and share a common generative mechanism (vs. being a statistical artefact of aggregation or log-normality) is contested."
+        }
+      ]
     },
     {
       "id": "concept",
@@ -421,7 +599,164 @@
       "accent": "#566573",
       "bg": "#F5F6FA",
       "subtitle": "The building blocks and vocabulary every student must command",
-      "entries": []
+      "entries": [
+        {
+          "id": "co1",
+          "group": "Cybernetics & Control",
+          "label": "Feedback Loops — Positive & Negative",
+          "date": "1948",
+          "loc": "Massachusetts Institute of Technology, Cambridge, Massachusetts",
+          "coords": [
+            42.36,
+            -71.09
+          ],
+          "links": [
+            "th1",
+            "th2",
+            "th5"
+          ],
+          "hint": "A feedback loop exists when the output of a system is routed back as input, influencing future outputs. Negative (balancing) feedback opposes change and drives systems toward equilibrium — a thermostat sensing temperature and adjusting heat input. Positive (amplifying) feedback reinforces change — compound interest, viral spread, arms races, predator-prey eruptions. Most complex systems contain both types operating simultaneously; their relative strengths, time delays, and nonlinearities determine whether the system stabilises, oscillates, or collapses.",
+          "tag": "CONCEPT",
+          "note": "Formalised in Wiener, N. (1948). Cybernetics. MIT Press. The distinction between positive and negative feedback was central to Macy Conference discussions (1946–1953). The terms 'positive' and 'negative' refer to the sign of the feedback signal, not its desirability — positive feedback can be stabilising in some contexts (population growth to carrying capacity, which then triggers negative feedback). In system dynamics (Forrester 1961), all system behaviour is explained by the interplay of feedback loop structures. The concept is foundational in control engineering, ecology (population regulation), economics (market equilibria vs. bubbles), and physiology (homeostasis)."
+        },
+        {
+          "id": "co2",
+          "group": "Emergence & Self-Organisation",
+          "label": "Emergence — Global Properties Not in the Parts",
+          "date": "1891",
+          "loc": "Cambridge University, Cambridge, England",
+          "coords": [
+            52.21,
+            0.1
+          ],
+          "links": [
+            "th4",
+            "th9",
+            "th10",
+            "ef8"
+          ],
+          "hint": "Emergence refers to properties or patterns that arise from the interactions of components yet are not present in — and cannot be predicted from — any individual component. Water's wetness does not exist in hydrogen or oxygen atoms; traffic jams are not a property of any individual car; consciousness (possibly) is not a property of any individual neuron. Weak emergence refers to properties that, in principle, can be derived from component-level rules by simulation; strong emergence refers to properties that are irreducibly novel, which some philosophers argue is incoherent and others consider foundational.",
+          "tag": "CONCEPT",
+          "note": "The term was coined by Lewes, G. H. (1875). Problems of Life and Mind. Trübner & Co. — distinguishing 'emergent' from 'resultant' properties. Philosophical analysis: Mill, J. S. (1843). A System of Logic introduced 'heteropathic' effects. Modern technical definition: Bedau, M. A. (1997). 'Weak emergence.' Philosophical Perspectives, 11, 375–399 — the influential weak/strong distinction. Bedau, M. A. & Humphreys, P. (Eds., 2008). Emergence: Contemporary Readings in Philosophy and Science. MIT Press. Strong emergence remains philosophically contested: Chalmers, D. J. (2006) argues it occurs in consciousness; most philosophers of science hold it is incoherent. Emergence is real and scientifically productive as a concept regardless of the philosophical debate about strong vs. weak."
+        },
+        {
+          "id": "co3",
+          "group": "Chaos & Nonlinear Dynamics",
+          "label": "Attractor — Fixed Points, Limit Cycles & Strange Attractors",
+          "date": "1971",
+          "loc": "Institut des Hautes Études Scientifiques, Bures-sur-Yvette, France",
+          "coords": [
+            48.69,
+            2.17
+          ],
+          "links": [
+            "th6",
+            "ef1",
+            "ef2",
+            "ef7"
+          ],
+          "hint": "An attractor is the set of states a dynamical system converges to from many possible starting conditions — the long-run 'destination' of the system's trajectory in phase space. Fixed-point attractors are single stable equilibria (a pendulum at rest). Limit cycles are closed loops (the heartbeat, the business cycle). Torus attractors are periodic orbits with two independent frequencies (quasiperiodic motion). Strange attractors are fractal sets that trajectories approach but never repeat on — the signature of deterministic chaos. The basin of attraction is the set of initial conditions that lead to a given attractor.",
+          "tag": "CONCEPT",
+          "note": "Fixed points and limit cycles: Poincaré, H. (1892–1899). Les Méthodes Nouvelles de la Mécanique Céleste. Gauthier-Villars. Strange attractors: Ruelle, D. & Takens, F. (1971, Communications in Mathematical Physics) — coined the term. Mathematical treatment: Strogatz, S. H. (1994). Nonlinear Dynamics and Chaos. Addison-Wesley. The concept of multiple attractors is critical for understanding bistability and tipping points: systems with multiple attractors can switch between them abruptly when perturbations push them across basin boundaries. In ecology, Holling's resilience is defined as the size of a system's basin of attraction (Holling, C. S., 1973, Annual Review of Ecology and Systematics)."
+        },
+        {
+          "id": "co4",
+          "group": "Complex Adaptive Systems",
+          "label": "Agents, Adaptation & Multi-Agent Interaction",
+          "date": "1986",
+          "loc": "Santa Fe Institute, Santa Fe, New Mexico",
+          "coords": [
+            35.69,
+            -105.94
+          ],
+          "links": [
+            "th9",
+            "st4",
+            "st5",
+            "st10"
+          ],
+          "hint": "An agent is any entity that perceives its environment through local information and acts on it according to internal rules or goals. Complex adaptive systems consist of many interacting agents each adapting to one another and to the environment — economies (households, firms), immune systems (T-cells, B-cells), ecosystems (organisms), cities (people, institutions). The key distinction from traditional modelling is that agents are heterogeneous, have bounded rationality, and interact locally — making global behaviour irreducibly emergent rather than derivable from aggregate equations.",
+          "tag": "CONCEPT",
+          "note": "Formal definition of adaptive agents: Holland, J. H. (1986). 'Escaping brittleness: The possibilities of general-purpose learning algorithms applied to parallel rule-based systems.' In: R. S. Michalski et al. (Eds.), Machine Learning II, Morgan Kaufmann. Santa Fe Institute working group papers (1986–1992) developed the CAS vocabulary. Textbook treatment: Miller, J. H. & Page, S. E. (2007). Complex Adaptive Systems: An Introduction to Computational Models of Social Life. Princeton University Press. The multi-agent simulation paradigm became an independent field: Tesfatsion, L. & Judd, K. L. (Eds., 2006). Handbook of Computational Economics Vol. 2: Agent-Based Computational Economics. Elsevier. A fundamental methodological challenge: ABMs have many free parameters and are often under-constrained by empirical data (Windrum, P., Fagiolo, G. & Moneta, A., 2007, Journal of Artificial Societies and Social Simulation)."
+        },
+        {
+          "id": "co5",
+          "group": "Network Science",
+          "label": "Network Topology — Nodes, Edges, Degree & Clustering",
+          "date": "1736",
+          "loc": "University of Königsberg, Königsberg, Prussia",
+          "coords": [
+            54.71,
+            20.51
+          ],
+          "links": [
+            "th8",
+            "st2",
+            "st3"
+          ],
+          "hint": "A network (graph) is a set of nodes (entities) connected by edges (relationships). The degree of a node is its number of connections. Clustering coefficient measures the fraction of a node's neighbours that are also connected to each other. Path length is the minimum number of edges between two nodes. These three statistics — degree distribution, clustering, and average path length — together characterise most of a network's large-scale structure and predict its behaviour under attack, spread of infection, and information diffusion.",
+          "tag": "CONCEPT",
+          "note": "Graph theory founded by Euler, L. (1736). 'Solutio problematis ad geometriam situs pertinentis.' Commentarii Academiae Scientiarum Petropolitanae, 8, 128–140 — the seven bridges of Königsberg problem. Modern network science metrics systematised in: Watts, D. J. & Strogatz, S. H. (1998, Nature) — introduced the clustering coefficient and average path length as defining statistics. Degree distribution formalism: Barabási, A.-L. & Albert, R. (1999, Science). Comprehensive review: Newman, M. E. J. (2003). 'The structure and function of complex networks.' SIAM Review, 45, 167–256. Textbook: Newman, M. E. J. (2010). Networks: An Introduction. Oxford University Press. The network topology concepts are well-established mathematical tools; what remains contested is which topological properties are most predictive of dynamical behaviour in specific real-world systems."
+        },
+        {
+          "id": "co6",
+          "group": "Systems Theory",
+          "label": "Entropy, Complexity & Information in Systems",
+          "date": "1948",
+          "loc": "Bell Telephone Laboratories, Murray Hill, New Jersey",
+          "coords": [
+            40.68,
+            -74.4
+          ],
+          "links": [
+            "th1",
+            "th4",
+            "th10"
+          ],
+          "hint": "Shannon entropy measures the average uncertainty — and therefore information content — of a probability distribution: a uniform distribution has maximum entropy (maximum uncertainty, maximum information); a peaked distribution has low entropy. In complex systems, entropy connects three different concepts: thermodynamic entropy (disorder in physical systems), Shannon information entropy (uncertainty in communication channels), and algorithmic complexity (length of the shortest program that generates a string). Understanding which kind of complexity a system exhibits determines what kind of analysis is appropriate.",
+          "tag": "CONCEPT",
+          "note": "Shannon, C. E. (1948). 'A mathematical theory of communication.' Bell System Technical Journal, 27, 379–423 and 623–656 — founded information theory. Connection to thermodynamics: Boltzmann, L. (1877); formalised by von Neumann, J. (1932). Algorithmic complexity: Kolmogorov, A. N. (1965); Solomonoff, R. J. (1964); Chaitin, G. J. (1966) — independent coinventors. Effective complexity (the description length of the regularities in a string, excluding its randomness): Gell-Mann, M. & Lloyd, S. (1996). 'Information measures, effective complexity, and total information.' Complexity, 2, 44–52. A purely random sequence has maximum Shannon entropy and maximum Kolmogorov complexity, yet is not considered 'complex' in the everyday sense — highlighting the conceptual difficulty of formalising complexity."
+        },
+        {
+          "id": "co7",
+          "group": "Emergence & Self-Organisation",
+          "label": "Fitness Landscape — Adaptive Topography & Ruggedness",
+          "date": "1932",
+          "loc": "University of Chicago, Chicago, Illinois",
+          "coords": [
+            41.79,
+            -87.6
+          ],
+          "links": [
+            "th9",
+            "th10",
+            "st9"
+          ],
+          "hint": "Sewall Wright proposed representing the space of possible genotypes as a high-dimensional surface where altitude represents fitness — the 'adaptive landscape.' Evolution can be visualised as a population climbing hills on this landscape toward local maxima. In Kauffman's NK extension, the landscape ruggedness is controlled by K: low K gives smooth 'Fujiyama' landscapes with one global peak; high K gives 'rugged' landscapes with many local optima that can trap adaptation. The concept generalises beyond biology to any optimisation process: corporate strategy, neural network training, and protein folding all involve searching complex fitness landscapes.",
+          "tag": "CONCEPT",
+          "note": "Wright, S. (1932). 'The roles of mutation, inbreeding, crossbreeding, and selection in evolution.' Proceedings of the 6th International Congress of Genetics, 1, 356–366 — introduced the metaphor. NK generalisation: Kauffman, S. A. & Levin, S. (1987). 'Towards a general theory of adaptive walks on rugged landscapes.' Journal of Theoretical Biology, 128, 11–45. Protein folding landscapes: Bryngelson, J. D. et al. (1995, Proteins) — applied the NK framework to protein energy landscapes. Optimisation algorithm analogy: the NK model predicts that moderately rugged landscapes (intermediate K) are best searched by local adaptive walks, while very rugged landscapes require broader exploration — directly informing evolutionary algorithm design. The metaphor is powerful but its connection to actual evolutionary dynamics in finite populations on high-dimensional genotype spaces is imprecise."
+        },
+        {
+          "id": "co8",
+          "group": "Systems Theory",
+          "label": "Resilience, Robustness & System Stability",
+          "date": "1973",
+          "loc": "Institute of Animal Resource Ecology, University of British Columbia, Vancouver",
+          "coords": [
+            49.27,
+            -123.25
+          ],
+          "links": [
+            "th4",
+            "th5",
+            "co3",
+            "ef5"
+          ],
+          "hint": "Resilience is a system's capacity to absorb disturbance and reorganise while undergoing change so as to retain essentially the same function and structure. Robustness is a system's ability to maintain performance under parametric variation. These are distinct: a brittle crystal is robust to normal conditions but shatters under sufficient stress; a willow tree bends dramatically but recovers. In complex systems, resilience is often a function of diversity, redundancy, modular structure, and the proximity of the system's current state to a tipping point — properties that are often sacrificed in the pursuit of efficiency.",
+          "tag": "CONCEPT",
+          "note": "Holling, C. S. (1973). 'Resilience and stability of ecological systems.' Annual Review of Ecology and Systematics, 4, 1–23 — introduced resilience formally, defining it as the size of the basin of attraction around a stable equilibrium. Distinguished from Lyapunov stability (rate of return to equilibrium after small perturbations). The 'Panarchy' framework: Gunderson, L. H. & Holling, C. S. (Eds., 2002). Panarchy: Understanding Transformations in Human and Natural Systems. Island Press — extends resilience thinking to hierarchical, multi-scale systems. Walker, B. et al. (2004). 'Resilience, adaptability and transformability in social-ecological systems.' Ecology and Society, 9, 5. Critique: resilience is sometimes applied so broadly as to become analytically empty (Brand, F. S. & Jax, K., 2007, Ecology and Society). Taleb, N. N. (2012). Antifragile. Random House — proposes 'antifragility' as a stronger property: systems that improve under stress."
+        }
+      ]
     },
     {
       "id": "method",
