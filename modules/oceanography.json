@@ -964,7 +964,128 @@
       "accent": "#CA6F1E",
       "bg": "#FDF5EC",
       "subtitle": "Live controversies — where the field is actively contesting the evidence",
-      "entries": []
+      "entries": [
+        {
+          "id": "db1",
+          "group": "Climate & Ocean Interaction",
+          "label": "Is the AMOC Approaching a Tipping Point?",
+          "date": "2021",
+          "loc": "Potsdam Institute for Climate Impact Research, Germany",
+          "coords": [
+            52.41,
+            13.06
+          ],
+          "links": [],
+          "hint": "Statistical analysis of sea-surface temperature fingerprints suggests the Atlantic Meridional Overturning Circulation may be losing stability and approaching a tipping point that, if crossed, would shift it to a permanently weakened state — abruptly cooling northwest Europe, suppressing monsoons and raising US East Coast sea levels. But rival analyses contest the statistical methodology, and direct measurements show multi-decadal variability without a clear collapse signal. The debate hinges on whether proxy records can detect tipping-point precursors reliably.",
+          "tag": "OPEN QUESTION",
+          "note": "Caesar, L. et al. (2018). Nature, 556, 191–196 — SST fingerprint of AMOC weakening since ~1850. Boers, N. (2021). Nature Climate Change, 11, 680–688 — early-warning statistical signals across 8 AMOC indicators. RAPID 26°N array (2004–present): mean AMOC ~16.9 Sv with large variability (Cunningham et al. 2007; Moat et al. 2020). Critique: Ditlevsen, P. & Ditlevsen, S. (2023). Nature Communications, 14, 4254 — statistical methodology for detecting tipping-point precursors not sufficiently robust. Current consensus: AMOC has weakened since pre-industrial but direct observations do not confirm imminent collapse; models project further weakening under warming. RAPID measurements continue and a second array at 42°N (OSNAP) monitors the subpolar North Atlantic."
+        },
+        {
+          "id": "db2",
+          "group": "Climate & Ocean Interaction",
+          "label": "Marine Ice Sheet Instability & 21st-Century Sea Level",
+          "date": "2014",
+          "loc": "NASA Jet Propulsion Laboratory, Pasadena, California",
+          "coords": [
+            34.2,
+            -118.17
+          ],
+          "links": [],
+          "hint": "The West Antarctic Ice Sheet sits on bedrock below sea level; warm Circumpolar Deep Water can undercut its marine margins, triggering irreversible retreat — Marine Ice Sheet Instability (MISI). Two 2014 studies concluded that Thwaites Glacier may already be in unstable retreat, potentially committing Earth to 3+ metres of sea-level rise on centennial-to-millennial timescales. The rate, the role of Marine Ice Cliff Instability (MICI), and whether a tipping point has already been passed remain fiercely contested.",
+          "tag": "OPEN QUESTION",
+          "note": "Rignot, E. et al. (2014). Science, 344, 1250–1252; Joughin, I., Smith, B. E. & Medley, B. (2014). Science, 344, 735–738 — twin WAIS instability papers. MICI: DeConto, R. M. & Pollard, D. (2016). Nature, 531, 591–597 — up to 2 m rise by 2100. MICI challenged: Edwards, T. L. et al. (2019). Nature, 566, 58–64 — ice-cliff instability may be geomechanically implausible at the proposed rates. Thwaites International Glacier Collaboration (ITGC, 2019–present): autonomous vehicles surveying under the ice shelf found warm water intrusion. IPCC AR6 does not include MICI in its likely range but acknowledges low-probability, high-impact tail extending to > 2 m by 2100."
+        },
+        {
+          "id": "db3",
+          "group": "Chemical Oceanography",
+          "label": "Can Ocean Iron Fertilisation Sequester Meaningful Carbon?",
+          "date": "1990",
+          "loc": "Moss Landing Marine Laboratories, California",
+          "coords": [
+            36.8,
+            -121.79
+          ],
+          "links": [],
+          "hint": "Iron is scarce in nutrient-rich Southern Ocean surface waters, limiting phytoplankton growth. Martin proposed in 1990 that adding iron would trigger massive blooms; when those blooms die and sink, they would export carbon to depth. Twelve open-ocean experiments confirmed that iron addition causes blooms — but the fraction of bloom carbon actually exported below 1,000 m proved far smaller than predicted, limited by zooplankton grazing, remineralisation at shallow depths and the sinking efficiency of the biological pump. Proposals to commercialise iron fertilisation remain highly controversial.",
+          "tag": "CONTESTED",
+          "note": "Martin, J. H. (1990). Paleoceanography, 5, 1–13 — the iron hypothesis ('Give me half a tanker of iron and I will give you the next Ice Age'). Twelve open-ocean experiments: IRONEX I & II, SOIREE, LOHAFEX, EisenEx and others. Best-documented export: ~2% of surface bloom carbon reached 100 m after SOIREE (Boyd et al. 2004, Geophysical Research Letters). Large copepod communities consumed blooms before export in LOHAFEX (Smetacek et al. 2012, Nature). Concerns: ecosystem disruption, redistribution of nutrients from downstream areas, potential N₂O emission. IPCC AR6 rates ocean iron fertilisation as having 'low potential' for climate mitigation. The London Protocol (2007 amendment) restricts iron fertilisation activities pending further assessment."
+        },
+        {
+          "id": "db4",
+          "group": "Deep Sea & Seafloor",
+          "label": "The 100-kyr Glacial Cycle Problem",
+          "date": "1976",
+          "loc": "Lamont-Doherty Earth Observatory, Palisades, New York",
+          "coords": [
+            41,
+            -73.91
+          ],
+          "links": [],
+          "hint": "Deep-sea sediment cores reveal that ice ages have been dominated by a ~100,000-year periodicity for the past 800,000 years — yet the 100-kyr cycle of orbital eccentricity produces very small changes in total solar insolation. The 41-kyr tilt cycle, which drives much larger insolation swings, dominated before ~900,000 years ago. Why Earth's climate locks on to a faint orbital signal and what changed at the Mid-Pleistocene Transition are among the deepest unresolved questions in paleoclimatology.",
+          "tag": "OPEN QUESTION",
+          "note": "Hays, J. D., Imbrie, J. & Shackleton, N. J. (1976). Science, 194, 1121–1132 — identified all three orbital periods in sediment cores, but the 100-kyr dominance remained puzzling. Mid-Pleistocene Transition (~900 ka): Clark, P. U. et al. (2006). Quaternary Science Reviews, 25, 3150–3184. Proposed mechanisms: ice-sheet regolith erosion (Clark & Pollard 1998), CO₂ threshold crossing (Paillard 1998), stochastic resonance (Benzi 1982), nonlinear resonance with the 100-kyr eccentricity modulation of precession amplitude. None commands consensus. The problem is a central test case for ice-age models and has resisted resolution for nearly 50 years."
+        },
+        {
+          "id": "db5",
+          "group": "Marine Biology & Ecology",
+          "label": "Are Coral Reefs Functionally Doomed Under Current Warming?",
+          "date": "2017",
+          "loc": "Australian Institute of Marine Science, Townsville, Queensland",
+          "coords": [
+            -19.26,
+            146.82
+          ],
+          "links": [],
+          "hint": "IPCC projections suggest 70–90% of coral reefs will experience annual bleaching at 1.5°C of warming and virtually all at 2°C, implying functional extinction of reef ecosystems as we know them. Counter-arguments point to heat-tolerant coral genotypes, assisted evolution, poleward range shifts and rapid acclimatisation. The core dispute is whether evolutionary rescue can outpace the rate of warming — a mismatch between ecological timescales (years) and evolutionary timescales (generations) that most biologists find structurally pessimistic.",
+          "tag": "CONTESTED",
+          "note": "Hughes, T. P. et al. (2017). Nature, 543, 373–377 — the 2016 bleaching killed > 50% of corals on the northern Great Barrier Reef. IPCC SR1.5 (2018): 70–90% degraded at 1.5°C; > 99% at 2°C. Heat-tolerant genotypes: Palumbi, S. R. et al. (2014). Science, 344, 895–898. Assisted evolution: van Oppen, M. J. H. et al. (2015). Science, 347, 1148–1150. Structural problem: bleaching recurrence interval is now shorter than reef recovery time (> 10 years) across most tropical reefs (Hughes et al. 2018, Science, 359, 80–83). The debate increasingly concerns whether management can buy time — not whether the trajectory has changed."
+        },
+        {
+          "id": "db6",
+          "group": "Chemical Oceanography",
+          "label": "Is the Biological Pump Weaker Than Our Models Assume?",
+          "date": "2007",
+          "loc": "Woods Hole Oceanographic Institution, Massachusetts",
+          "coords": [
+            41.52,
+            -70.67
+          ],
+          "links": [],
+          "hint": "The biological pump's carbon export to the deep ocean is a critical — and poorly constrained — term in the global carbon budget. Sediment traps miss fast-sinking particles; BGC-Argo sensors suggest far more microbial respiration in the mesopelagic zone than models assume, re-mineralising exported carbon at shallower depths. If the pump is weaker than assumed, the ocean's future CO₂ uptake may be lower than climate models project, closing the gap between observed atmospheric CO₂ rise and model projections.",
+          "tag": "OPEN QUESTION",
+          "note": "Sediment trap undersampling: Buesseler, K. O. et al. (2007). Science, 316, 567–570. Mesopelagic respiration underestimate: Steinberg, D. K. et al. (2008). Global Biogeochemical Cycles, 22, GB4009. BGC-Argo evidence: Claustre, H. et al. (2021). Frontiers in Marine Science — pump efficiency varies far more in space and time than assumed. Boyd, P. W. & Trull, T. W. (2007). Progress in Oceanography, 72, 276–312 — systematic review of pump uncertainties. The gap between upward-revised mesopelagic respiration estimates and measured sediment trap flux represents one of the largest unresolved budgetary uncertainties in the global carbon cycle; resolving it could change projected ocean CO₂ uptake by 1–3 Gt C yr⁻¹."
+        },
+        {
+          "id": "db7",
+          "group": "Marine Biology & Ecology",
+          "label": "Mesopelagic Fish Biomass: 1 Billion Tonnes or 10 Billion?",
+          "date": "2014",
+          "loc": "AZTI Marine Research, Sukarrieta, Spain",
+          "coords": [
+            43.41,
+            -2.86
+          ],
+          "links": [],
+          "hint": "Acoustic surveys of the deep scattering layer suggest mesopelagic fish biomass — the lanternfishes, bristlemouths and hatchetfishes of the twilight zone — could be 1–10 billion tonnes, ten times more than the entire global fisheries catch. But trawl surveys return numbers an order of magnitude lower, possibly because small fish avoid nets and because their calcified otoliths dissolve before they can be counted. Resolving this uncertainty matters enormously: these organisms drive active carbon transport and are a critical food source for tuna, seabirds and whales.",
+          "tag": "OPEN QUESTION",
+          "note": "Acoustic estimate: Irigoien, X. et al. (2014). 'Large mesopelagic fishes biomass and trophic efficiency in the open ocean.' Nature Communications, 5, 3271 — 1–10 Gt. Trawl-based estimate ~1 Gt: Gjøsaeter, H. & Kawaguchi, K. (1980). FAO Fisheries Technical Paper No. 193. Otolith dissolution bias: Wilson, R. W. et al. (2009). Science, 323, 1655–1658. MALASPINA 2010–11 trawl survey supports higher-than-classical but not 10-Gt estimates. Carbon flux impact: Davison, P. C. et al. (2013). Proceedings of the Royal Society B, 280, 20131786 — mesopelagic fish active transport may account for 15–17% of total biological pump export. Commercial fishing of mesopelagic stocks has been proposed; ecological and ethical concerns are significant."
+        },
+        {
+          "id": "db8",
+          "group": "Marine Conservation & Policy",
+          "label": "Deep-Sea Mining: How Severe and Reversible Are the Impacts?",
+          "date": "2021",
+          "loc": "International Seabed Authority, Kingston, Jamaica",
+          "coords": [
+            17.99,
+            -76.79
+          ],
+          "links": [],
+          "hint": "Polymetallic nodules on the abyssal seafloor contain vast quantities of nickel, cobalt, copper and manganese — metals essential for electric vehicle batteries. Collector vehicles scraping nodules from the seafloor would destroy benthic habitats requiring millions of years to develop, generate sediment plumes smothering filter feeders across thousands of square kilometres and create noise and light pollution across vast dark areas. The core debate is whether the ecological impacts are so severe and irreversible as to constitute an unacceptable risk given available terrestrial alternatives.",
+          "tag": "CONTESTED",
+          "note": "Impact baseline study: Thiel, H. & Schriever, G. DISCOL experiment (Peru Basin, 1989–2019) — biological recovery still incomplete 30 years after simulated mining. ISA draft exploitation regulations (2023). Nauru triggered the ISA's 'two-year rule' in 2021, forcing regulation development under a commercial deadline. Scientific moratorium supported by > 700 scientists (Levin, L. A. et al. 2020, Marine Policy, 122, 104223; open letters 2021–23). Pro-mining argument: nodule mining produces less CO₂ per tonne of metal than terrestrial laterite ore mining (Paulikas et al. 2020). As of 2024, no exploitation licences have been issued. The debate extends to the ISA governance framework, which critics argue is structurally biased toward commercial interests."
+        }
+      ]
     },
     {
       "id": "application",
@@ -974,7 +1095,98 @@
       "accent": "#2E86C1",
       "bg": "#EBF5FB",
       "subtitle": "Where the science leaves the lab",
-      "entries": []
+      "entries": [
+        {
+          "id": "ap1",
+          "group": "Ocean Observation & Methods",
+          "label": "Operational Ocean Forecasting",
+          "date": "2002",
+          "loc": "Mercator Ocean International, Toulouse, France",
+          "coords": [
+            43.6,
+            1.44
+          ],
+          "links": [],
+          "hint": "Ocean circulation models assimilating real-time data from Argo floats, altimetry satellites and moored sensors produce daily global ocean forecasts — temperature profiles, surface currents, sea ice extent and salinity — at resolutions down to a few kilometres. These forecasts underpin search-and-rescue at sea, oil-spill trajectory prediction, hurricane intensity forecasting (which requires accurate ocean heat content), optimal ship routing to reduce fuel consumption, and naval and coast-guard operations.",
+          "tag": "APPLICATION",
+          "note": "GODAE (Global Ocean Data Assimilation Experiment, 2000–2008) demonstrated operational ocean forecasting. Operational systems: Mercator Ocean (EU), HYCOM (US Navy/NOAA), TOPAZ (Arctic), FOAM (UK Met Office). Deepwater Horizon (2010) oil spill trajectory was forecast in near-real-time using Mercator and HYCOM. ECMWF improved 10-day weather forecast accuracy by ~1 day by coupling ocean models (Palmer et al. 2004, Bulletin of the American Meteorological Society). Global ocean models now assimilate > 100,000 Argo profiles per year alongside satellite SST, sea-level and salinity. Forecast skill at 5-day range is now comparable to 1990s 24-hour forecasts."
+        },
+        {
+          "id": "ap2",
+          "group": "Marine Conservation & Policy",
+          "label": "Marine Protected Areas & the High Seas Treaty",
+          "date": "2023",
+          "loc": "United Nations Headquarters, New York",
+          "coords": [
+            40.75,
+            -73.97
+          ],
+          "links": [],
+          "hint": "Marine Protected Areas restrict human activities within designated ocean zones to allow ecosystems to recover. By 2023 roughly 8% of the ocean is protected — but less than 3% under full no-take rules. The 2023 BBNJ Treaty (Biodiversity Beyond National Jurisdiction) provided the first legal framework to establish MPAs on the high seas, the 64% of the ocean outside national jurisdiction that was previously a legal vacuum. The global '30×30' target aims to effectively protect 30% of the ocean by 2030.",
+          "tag": "APPLICATION",
+          "note": "First large no-take MPA: Great Barrier Reef Marine Park (1975, 344,400 km²). Largest MPA: Ross Sea (1.55 million km², 2016). Evidence base: Edgar, G. J. et al. (2014). Nature, 506, 216–220 — five features distinguish effective from ineffective MPAs (no-take, well-enforced, old, large, isolated). Lester, S. E. et al. (2009). Trends in Ecology & Evolution, 24, 30–38 — MPAs increase fish biomass 446% on average. BBNJ Treaty adopted March 2023; entered into force pending ratification by 60 states. Criticism: many existing MPAs are 'paper parks' with no enforcement capacity; effective protection requires investment in monitoring and patrol."
+        },
+        {
+          "id": "ap3",
+          "group": "Marine Biology & Ecology",
+          "label": "Fisheries Science & Maximum Sustainable Yield",
+          "date": "1954",
+          "loc": "Fisheries Laboratory, Lowestoft, Suffolk, UK",
+          "coords": [
+            52.48,
+            1.75
+          ],
+          "links": [],
+          "hint": "Maximum Sustainable Yield (MSY) — the largest catch sustainable indefinitely without causing a stock to collapse — is the foundational concept of fisheries management and is enshrined in international law (UNCLOS Article 61). Beverton and Holt's 1954 model related fishing mortality, fish growth and natural mortality to predict equilibrium yield, providing the mathematical basis for stock assessment worldwide. Despite well-documented limitations, MSY remains the reference point for 90% of managed fish stocks globally.",
+          "tag": "APPLICATION",
+          "note": "Beverton, R. J. H. & Holt, S. J. (1954). On the Dynamics of Exploited Fish Populations. Ministry of Agriculture, Fisheries and Food — the foundational stock-assessment text. Gordon, H. S. (1954). Journal of Political Economy, 62, 124–142 — the economic framework. FAO (2022): 57.3% of stocks fished at MSY; 35.4% overfished; 7.3% underfished. The Grand Banks cod collapse (1992, after 500 years of exploitation) demonstrated failure of MSY management when models ignore environmental variability and stock-recruitment uncertainty. Ecosystem-based fisheries management (EBFM) addresses food-web interactions; its adoption in national policy has been slow despite broad scientific support."
+        },
+        {
+          "id": "ap4",
+          "group": "Physical Oceanography",
+          "label": "Offshore Wind & Tidal Energy",
+          "date": "1991",
+          "loc": "Vindeby Wind Farm, Lolland, Denmark",
+          "coords": [
+            54.96,
+            10.88
+          ],
+          "links": [],
+          "hint": "The marine environment hosts the world's most consistent and powerful renewable energy resources. Offshore wind — with lower turbulence and higher mean speeds than onshore, and space for turbines larger than 15 MW — is now cost-competitive with new fossil-fuel plants in many markets. Tidal stream turbines harness predictable kinetic energy from tidal currents. By 2024, offshore wind provided ~200 GW globally; the UK has ~14 GW installed and plans for 50 GW by 2030 — enough to power every home in Britain.",
+          "tag": "APPLICATION",
+          "note": "First offshore wind farm: Vindeby (1991), Denmark, 11 × 450 kW turbines. World's largest (2024): Hornsea Two (UK, 1,386 MW, 165 turbines). Tidal: MeyGen (Pentland Firth, Scotland, 6 MW, 2016); La Rance tidal barrage (France, 240 MW, 1966 — oldest). LCOE for offshore wind fell ~70% between 2010–2021 (IRENA 2021). Ecological issues: pile-driving noise impacts marine mammals; operational turbines create artificial reef habitat increasing local fish biomass by 20–40% (Lindeboom et al. 2011, ICES Journal of Marine Science). Floating offshore wind (Hywind Scotland, 2017) extends deployment to > 50 m water depth, opening most of the continental shelf."
+        },
+        {
+          "id": "ap5",
+          "group": "Chemical Oceanography",
+          "label": "Ocean-Based Carbon Dioxide Removal",
+          "date": "2021",
+          "loc": "Intergovernmental Panel on Climate Change, Geneva, Switzerland",
+          "coords": [
+            46.23,
+            6.06
+          ],
+          "links": [],
+          "hint": "The ocean's vast volume and natural alkalinity make it an appealing target for deliberate carbon dioxide removal. Proposed methods include enhanced ocean alkalinity addition (spreading crushed olivine or lime to increase CO₂ absorption), seaweed cultivation, artificial upwelling, iron fertilisation and direct electrochemical ocean-carbon extraction. IPCC AR6 assessed these techniques for the first time, finding high theoretical potential but also significant uncertainties about efficiency, ecosystem impacts, measurement, and governance.",
+          "tag": "APPLICATION",
+          "note": "National Academies of Sciences (2021). A Research Strategy for Ocean-Based Carbon Dioxide Removal and Sequestration. NAP — the most comprehensive review. Enhanced alkalinity: Renforth, P. & Henderson, G. (2017). Reviews of Geophysics, 55, 636–674 — estimated 1–100 Gt CO₂ yr⁻¹ potential. Seaweed: Duarte, C. M. et al. (2021). Nature Climate Change, 11, 600–609 — large but highly uncertain sequestration potential. Governance: the London Protocol (2007 amendment) restricts fertilisation as ocean dumping; applicability to other CDR methods is contested. Commercial ventures as of 2024: Running Tide (macroalgae sinking), Planetary Technologies (alkalinity), Ebb Carbon (electrochemical), Planetary Hydrogen."
+        },
+        {
+          "id": "ap6",
+          "group": "Deep Sea & Seafloor",
+          "label": "Tsunami Early Warning Systems",
+          "date": "1946",
+          "loc": "Pacific Tsunami Warning Center, Ewa Beach, Hawaii",
+          "coords": [
+            21.32,
+            -158.03
+          ],
+          "links": [],
+          "hint": "Tsunamis generated by submarine earthquakes, volcanic eruptions and underwater landslides can cross ocean basins in hours with devastating consequences at distant shores. The Pacific Tsunami Warning System — established after the 1946 Aleutian tsunami killed 159 people — combines seismic networks that identify tsunami-generating earthquakes with DART (Deep-ocean Assessment and Reporting of Tsunamis) buoys that measure the actual wave in open ocean, enabling warnings 1–3 hours before impact at distant coastlines.",
+          "tag": "APPLICATION",
+          "note": "PTWC established 1946, Honolulu; expanded after 1960 Chilean and 1964 Alaskan tsunamis. DART buoys: developed by NOAA/PMEL in the 1990s–2000s; 39 buoys now deployed. The 2004 Indian Ocean tsunami (227,000 deaths) struck without a regional warning system; the disaster directly triggered the Indian Ocean Tsunami Warning System (IOTWS, 2006). The 2011 Tōhoku tsunami struck Japan 28 minutes after the earthquake; early warnings allowed significant — though incomplete — evacuation. Emerging risk: ice-cliff calving events in Greenland and Alaska are generating fjord tsunamis affecting coastal communities (Paris et al. 2019, Science Advances). The 2022 Hunga Tonga-Hunga Ha'apai volcanic tsunami demonstrated gaps in warning systems for non-seismic tsunami sources."
+        }
+      ]
     }
   ],
   "timeline": [
