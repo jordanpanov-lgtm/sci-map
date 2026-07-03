@@ -2,7 +2,7 @@
   "_meta": {
     "total_entries": 836,
     "folio_count": 11,
-    "xlink_pairs": 17,
+    "xlink_pairs": 48,
     "keyword_terms": 3406,
     "folios": [
       {
@@ -61,7 +61,7 @@
         "entries": 76
       }
     ],
-    "last_updated": "2026-07-02"
+    "last_updated": "2026-07-03"
   },
   "index": {
     "anatomy-histology::th1": "theory · Histology & Cells · Cell Theory (1855)",
@@ -908,6 +908,18 @@
     "physiology-organ-systems::st3": [
       "anatomy-histology::st2"
     ],
+    "anatomy-histology::co5": [
+      "physiology-organ-systems::th3"
+    ],
+    "physiology-organ-systems::th3": [
+      "anatomy-histology::co5"
+    ],
+    "anatomy-histology::me4": [
+      "quantum-nuclear-relativity::co1"
+    ],
+    "quantum-nuclear-relativity::co1": [
+      "anatomy-histology::me4"
+    ],
     "anatomy-histology::me5": [
       "quantum-nuclear-relativity::ap2"
     ],
@@ -920,11 +932,52 @@
     "physiology-organ-systems::fg1": [
       "anatomy-histology::fg2"
     ],
+    "anatomy-histology::fg6": [
+      "neuroscience::fg1"
+    ],
+    "neuroscience::fg1": [
+      "anatomy-histology::fg6"
+    ],
+    "anatomy-histology::db2": [
+      "neuroscience::th1"
+    ],
+    "neuroscience::th1": [
+      "anatomy-histology::db2"
+    ],
     "computer-science::th8": [
       "general-cognitive-psych::th13"
     ],
     "general-cognitive-psych::th13": [
       "computer-science::th8"
+    ],
+    "computer-science::st1": [
+      "epistemology::ap4"
+    ],
+    "epistemology::ap4": [
+      "computer-science::st1",
+      "computer-science::db2"
+    ],
+    "computer-science::st10": [
+      "neuroscience::ef8"
+    ],
+    "neuroscience::ef8": [
+      "computer-science::st10"
+    ],
+    "computer-science::co6": [
+      "neuroscience::th9"
+    ],
+    "neuroscience::th9": [
+      "computer-science::co6"
+    ],
+    "computer-science::db2": [
+      "epistemology::ap4"
+    ],
+    "computer-science::db8": [
+      "social-psychology::db1"
+    ],
+    "social-psychology::db1": [
+      "computer-science::db8",
+      "general-cognitive-psych::db1"
     ],
     "computer-science::ap1": [
       "quantum-nuclear-relativity::ap6"
@@ -932,11 +985,72 @@
     "quantum-nuclear-relativity::ap6": [
       "computer-science::ap1"
     ],
+    "epistemology::ef9": [
+      "social-psychology::ef5"
+    ],
+    "social-psychology::ef5": [
+      "epistemology::ef9"
+    ],
+    "epistemology::me4": [
+      "neuroscience::th4"
+    ],
+    "neuroscience::th4": [
+      "epistemology::me4"
+    ],
+    "epistemology::me5": [
+      "social-psychology::db7"
+    ],
+    "social-psychology::db7": [
+      "epistemology::me5"
+    ],
+    "epistemology::db6": [
+      "general-cognitive-psych::th8"
+    ],
+    "general-cognitive-psych::th8": [
+      "epistemology::db6"
+    ],
+    "epistemology::ap1": [
+      "general-cognitive-psych::ap1"
+    ],
+    "general-cognitive-psych::ap1": [
+      "epistemology::ap1"
+    ],
+    "general-cognitive-psych::th4": [
+      "neuroscience::st15"
+    ],
+    "neuroscience::st15": [
+      "general-cognitive-psych::th4"
+    ],
+    "general-cognitive-psych::th6": [
+      "neuroscience::fg10"
+    ],
+    "neuroscience::fg10": [
+      "general-cognitive-psych::th6"
+    ],
+    "general-cognitive-psych::ef3": [
+      "neuroscience::th10"
+    ],
+    "neuroscience::th10": [
+      "general-cognitive-psych::ef3",
+      "general-cognitive-psych::ap2"
+    ],
+    "general-cognitive-psych::ef9": [
+      "neuroscience::st11"
+    ],
+    "neuroscience::st11": [
+      "general-cognitive-psych::ef9"
+    ],
     "general-cognitive-psych::me4": [
       "neuroscience::me4"
     ],
     "neuroscience::me4": [
       "general-cognitive-psych::me4"
+    ],
+    "general-cognitive-psych::me6": [
+      "neuroscience::me1"
+    ],
+    "neuroscience::me1": [
+      "general-cognitive-psych::me6"
     ],
     "general-cognitive-psych::fg13": [
       "social-psychology::fg10",
@@ -951,19 +1065,23 @@
     "general-cognitive-psych::db1": [
       "social-psychology::db1"
     ],
-    "social-psychology::db1": [
-      "general-cognitive-psych::db1"
-    ],
     "general-cognitive-psych::db7": [
       "neuroscience::db8"
     ],
     "neuroscience::db8": [
       "general-cognitive-psych::db7"
     ],
+    "general-cognitive-psych::ap2": [
+      "neuroscience::th10"
+    ],
     "neuroscience::th8": [
-      "physiology-organ-systems::th9"
+      "physiology-organ-systems::th9",
+      "physiology-organ-systems::db1"
     ],
     "physiology-organ-systems::th9": [
+      "neuroscience::th8"
+    ],
+    "physiology-organ-systems::db1": [
       "neuroscience::th8"
     ],
     "neuroscience::th11": [
@@ -973,22 +1091,50 @@
       "neuroscience::th11"
     ],
     "neuroscience::st1": [
-      "physiology-organ-systems::st1"
+      "physiology-organ-systems::st1",
+      "physiology-organ-systems::th1"
     ],
     "physiology-organ-systems::st1": [
       "neuroscience::st1"
     ],
+    "physiology-organ-systems::th1": [
+      "neuroscience::st1",
+      "neuroscience::co1"
+    ],
+    "neuroscience::st16": [
+      "social-psychology::st10"
+    ],
+    "social-psychology::st10": [
+      "neuroscience::st16"
+    ],
+    "neuroscience::ef4": [
+      "physiology-organ-systems::st10"
+    ],
+    "physiology-organ-systems::st10": [
+      "neuroscience::ef4"
+    ],
     "neuroscience::co1": [
-      "physiology-organ-systems::co1"
+      "physiology-organ-systems::co1",
+      "physiology-organ-systems::th1"
     ],
     "physiology-organ-systems::co1": [
       "neuroscience::co1"
     ],
     "neuroscience::co6": [
-      "physiology-organ-systems::st11"
+      "physiology-organ-systems::st11",
+      "physiology-organ-systems::fg13"
     ],
     "physiology-organ-systems::st11": [
       "neuroscience::co6"
+    ],
+    "physiology-organ-systems::fg13": [
+      "neuroscience::co6"
+    ],
+    "neuroscience::co7": [
+      "systems-and-complexity::ef4"
+    ],
+    "systems-and-complexity::ef4": [
+      "neuroscience::co7"
     ],
     "neuroscience::me7": [
       "physiology-organ-systems::me1"
@@ -996,11 +1142,35 @@
     "physiology-organ-systems::me1": [
       "neuroscience::me7"
     ],
+    "oceanography::me6": [
+      "quantum-nuclear-relativity::me5"
+    ],
+    "quantum-nuclear-relativity::me5": [
+      "oceanography::me6"
+    ],
+    "oceanography::db1": [
+      "systems-and-complexity::ap3"
+    ],
+    "systems-and-complexity::ap3": [
+      "oceanography::db1"
+    ],
+    "oceanography::db4": [
+      "systems-and-complexity::ef7"
+    ],
+    "systems-and-complexity::ef7": [
+      "oceanography::db4"
+    ],
     "systems-and-complexity::st4": [
       "zoology-animal-behavior::st6"
     ],
     "zoology-animal-behavior::st6": [
       "systems-and-complexity::st4"
+    ],
+    "systems-and-complexity::ap4": [
+      "zoology-animal-behavior::th1"
+    ],
+    "zoology-animal-behavior::th1": [
+      "systems-and-complexity::ap4"
     ]
   },
   "entry_keywords": {

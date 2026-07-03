@@ -167,6 +167,9 @@
             "neural reticulum",
             "golgi stain",
             "axon terminal"
+          ],
+          "xlinks": [
+            "anatomy-histology::db2"
           ]
         },
         {
@@ -245,6 +248,9 @@
             "bayesian brain",
             "free energy principle",
             "active inference"
+          ],
+          "xlinks": [
+            "epistemology::me4"
           ]
         },
         {
@@ -334,7 +340,10 @@
             "ef4",
             "fg9"
           ],
-          "xlinks": ["physiology-organ-systems::th9"],
+          "xlinks": [
+            "physiology-organ-systems::th9",
+            "physiology-organ-systems::db1"
+          ],
           "hint": "Homeostasis is stability through fixity; allostasis is stability through change — the brain actively anticipates demand and adjusts physiology accordingly. Chronic stress creates 'allostatic load': cumulative wear-and-tear from repeated mobilisation of stress responses, measurable as HPA-axis dysregulation, elevated cortisol and hippocampal atrophy.",
           "tag": "FRAMEWORK",
           "note": "Sterling, P. & Eyer, J. (1988). 'Allostasis: A new paradigm to explain arousal pathology.' In S. Fisher & J. Reason (Eds.), Handbook of Life Stress, Cognition and Health (pp. 629–649). Wiley. Elaborated in McEwen, B. S. & Stellar, E. (1993). 'Stress and the individual.' Archives of Internal Medicine, 153, 2093–2101. Now a major framework in health psychology and psychoneuroimmunology.",
@@ -366,6 +375,9 @@
             "distributed representation",
             "gradient descent",
             "neural network model"
+          ],
+          "xlinks": [
+            "computer-science::co6"
           ]
         },
         {
@@ -392,6 +404,10 @@
             "protein synthesis",
             "synapse-specific plasticity",
             "spaced repetition"
+          ],
+          "xlinks": [
+            "general-cognitive-psych::ef3",
+            "general-cognitive-psych::ap2"
           ]
         },
         {
@@ -411,7 +427,9 @@
             "st12",
             "co12"
           ],
-          "xlinks": ["physiology-organ-systems::co7"],
+          "xlinks": [
+            "physiology-organ-systems::co7"
+          ],
           "hint": "Hormones that shape behaviour operate by two fundamentally different mechanisms. Peptide hormones (oxytocin, vasopressin, ACTH) bind membrane receptors and rapidly change the activity of existing proteins — fast, reversible, local. Steroid hormones (cortisol, testosterone, oestrogen) are lipid-soluble: they cross cell membranes, bind intracellular receptors, and translocate to the nucleus to alter gene transcription — slower, longer-lasting, and capable of physically remodelling neural architecture. The distinction predicts timescale, reversibility, and drug delivery route.",
           "tag": "THEORY",
           "note": "McEwen, B. S. et al. (1968) — first demonstration of steroid receptors in the rat brain. Jensen, E. V. & Jacobson, H. I. (1962). 'Basic guides to the mechanism of estrogen action.' Recent Progress in Hormone Research, 18, 387–414 — nuclear receptor binding. Sapolsky, R. M. (2004). Biology and Human Behavior: The Neurological Origins of Individuality — synthesised both pathways. The steroid/peptide distinction predicts drug design: peptide hormones require injections (degraded in gut); steroids are orally active.",
@@ -448,7 +466,10 @@
             "co1",
             "me7"
           ],
-          "xlinks": ["physiology-organ-systems::st1"],
+          "xlinks": [
+            "physiology-organ-systems::st1",
+            "physiology-organ-systems::th1"
+          ],
           "hint": "Using voltage-clamp recordings from the squid giant axon, Hodgkin and Huxley measured the sodium and potassium conductance changes underlying the action potential and wrote a set of four differential equations that predicted its shape, propagation velocity and refractory period with extraordinary precision — the first complete quantitative model of neural signalling.",
           "tag": "EXPERIMENT",
           "repl": "robust",
@@ -728,6 +749,9 @@
             "REM sleep",
             "memory reconsolidation",
             "offline replay"
+          ],
+          "xlinks": [
+            "general-cognitive-psych::ef9"
           ]
         },
         {
@@ -838,6 +862,9 @@
             "trolley problem",
             "amygdala activation",
             "utilitarian reasoning"
+          ],
+          "xlinks": [
+            "general-cognitive-psych::th4"
           ]
         },
         {
@@ -864,6 +891,9 @@
             "infant bonding",
             "surrogate mother",
             "primary drive reduction"
+          ],
+          "xlinks": [
+            "social-psychology::st10"
           ]
         }
       ]
@@ -984,6 +1014,9 @@
             "dendritic retraction",
             "PTSD neurobiology",
             "stress hormones"
+          ],
+          "xlinks": [
+            "physiology-organ-systems::st10"
           ]
         },
         {
@@ -1091,6 +1124,9 @@
             "reinforcement learning",
             "mesolimbic pathway",
             "conditioned stimulus"
+          ],
+          "xlinks": [
+            "computer-science::st10"
           ]
         },
         {
@@ -1175,7 +1211,10 @@
             "st1",
             "th1"
           ],
-          "xlinks": ["physiology-organ-systems::co1"],
+          "xlinks": [
+            "physiology-organ-systems::co1",
+            "physiology-organ-systems::th1"
+          ],
           "hint": "The action potential is a self-regenerating wave of membrane depolarisation — triggered when sodium channels open above threshold, producing a rapid inward Na⁺ current, followed by delayed K⁺ efflux for repolarisation. Voltage-gated ion channels (selective pores sensitive to membrane potential) implement the logic; the absolute and relative refractory periods set maximum firing rate.",
           "tag": "CONCEPT",
           "note": "Hodgkin & Huxley (1952) provided the first quantitative account (st1). Voltage-gated Na⁺ channel crystal structure: Payandeh et al. (2011) Nature. Ion channels are targets of local anaesthetics (lidocaine blocks Nav), antiepileptics (phenytoin) and toxins (tetrodotoxin). The spike threshold (~−55 mV) and all-or-nothing firing are the basic units of neural code.",
@@ -1392,7 +1431,10 @@
             "ef4",
             "th8"
           ],
-          "xlinks": ["physiology-organ-systems::st11"],
+          "xlinks": [
+            "physiology-organ-systems::st11",
+            "physiology-organ-systems::fg13"
+          ],
           "hint": "The ANS regulates visceral organs (heart, gut, glands) via the sympathetic ('fight or flight'), parasympathetic ('rest and digest') and enteric (gut) divisions. Cannon coined 'homeostasis' to describe how these systems maintain stable internal conditions; his 'fight-or-flight' framing has since been extended by the polyvagal theory and allostasis.",
           "tag": "CONCEPT",
           "note": "Cannon, W. B. (1932). The Wisdom of the Body. Norton. Polyvagal extension: Porges, S. W. (1994, 2001) — three-circuit hierarchy of autonomic regulation (db7). ANS dysregulation underlies PTSD, anxiety disorders and cardiovascular disease. The enteric nervous system ('second brain') has ~100 million neurons — more than the spinal cord.",
@@ -1483,6 +1525,9 @@
             "theta rhythm",
             "EEG frequency band",
             "sleep rhythm"
+          ],
+          "xlinks": [
+            "systems-and-complexity::ef4"
           ]
         }
       ]
@@ -1521,6 +1566,9 @@
             "double dissociation",
             "aphasia",
             "focal brain damage"
+          ],
+          "xlinks": [
+            "general-cognitive-psych::me6"
           ]
         },
         {
@@ -1588,7 +1636,9 @@
             "fg11",
             "st9"
           ],
-          "xlinks": ["general-cognitive-psych::me4"],
+          "xlinks": [
+            "general-cognitive-psych::me4"
+          ],
           "hint": "fMRI detects regional changes in blood oxygenation (BOLD — blood-oxygen-level-dependent) as a proxy for neural activity. Activated neurons increase local blood flow, raising the ratio of oxyhaemoglobin to deoxyhaemoglobin and producing a detectable MRI signal change. Allows whole-brain imaging at 2–3 mm resolution without ionising radiation; temporal resolution ~1–2 seconds.",
           "tag": "METHOD",
           "note": "Ogawa, S. et al. (1992). 'Intrinsic signal changes accompanying sensory stimulation: Functional brain mapping with magnetic resonance imaging.' Proceedings of the National Academy of Sciences, 89, 5951–5955. First task-based fMRI: Kwong et al. (1992) PNAS; Bandettini et al. (1992) MRM. Limitation: BOLD is an indirect neural measure; cluster-based inference had serious false-positive inflation (db8). Resting-state fMRI reveals functional networks (st9).",
@@ -1663,7 +1713,9 @@
             "co2",
             "st1"
           ],
-          "xlinks": ["physiology-organ-systems::me1"],
+          "xlinks": [
+            "physiology-organ-systems::me1"
+          ],
           "hint": "A fire-polished glass micropipette forms a gigaohm seal with a neuron's membrane, allowing recording of currents through single ion channels or whole-cell recordings of summed synaptic inputs. Revealed the stochastic opening and closing of individual channels, the properties of ligand-gated receptors and the diversity of neuronal firing patterns.",
           "tag": "METHOD",
           "note": "Neher, E. & Sakmann, B. (1976). 'Single-channel currents recorded from membrane of denervated frog muscle fibres.' Nature, 260, 799–802. Nobel Prize in Physiology or Medicine 1991. The whole-cell configuration (Hamill et al. 1981) enabled intracellular dialysis and dye filling. Now standard in every electrophysiology lab; essential for characterising channelopathies and synaptic currents.",
@@ -1710,6 +1762,9 @@
             "cajal drawings",
             "retinal anatomy",
             "cerebellar architecture"
+          ],
+          "xlinks": [
+            "anatomy-histology::fg6"
           ]
         },
         {
@@ -1932,6 +1987,9 @@
             "gamma oscillation consciousness",
             "claustrum",
             "NCC hypothesis"
+          ],
+          "xlinks": [
+            "general-cognitive-psych::th6"
           ]
         },
         {
@@ -2178,7 +2236,9 @@
           "links": [
             "me4"
           ],
-          "xlinks": ["general-cognitive-psych::db7"],
+          "xlinks": [
+            "general-cognitive-psych::db7"
+          ],
           "hint": "Eklund et al. re-analysed 15 years of resting-state fMRI data and found that widely used cluster-inference algorithms (in FSL, SPM, AFNI) produced false-positive rates up to 70% rather than the nominal 5%. Inflated false-positive rates mean many published activation maps may reflect noise, calling into question a large fraction of the neuroimaging literature.",
           "tag": "DEBATE",
           "note": "Eklund, A., Nichols, T. E. & Knutsson, H. (2016). 'Cluster failure: Why fMRI inferences for spatial extent have inflated false-positive rates.' Proceedings of the National Academy of Sciences, 113, 7900–7905. Response: FSL, SPM and AFNI released software patches. Cox, R. W. et al. (2017) Neuroimage — investigation of underlying causes. The field has since shifted toward pre-registration, larger samples and multiverse analysis.",
