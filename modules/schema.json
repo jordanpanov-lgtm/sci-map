@@ -4,7 +4,7 @@
   "title": "Sci-Map Folio",
   "description": "Machine-checkable contract for a single folio file. The human companion is FIELD_GUIDE.md; where the two disagree, this schema is what CI enforces. Referential rules that JSON Schema cannot express (link resolution, xlink resolution across folios, _index sync, timeline refs) are enforced by validate.js.",
   "type": "object",
-  "required": ["id", "title", "subtitle", "period", "domain", "mapCenter", "mapZoom", "methodology", "categories", "timeline"],
+  "required": ["id", "schema_version", "title", "subtitle", "period", "domain", "mapCenter", "mapZoom", "methodology", "categories", "timeline"],
   "additionalProperties": true,
   "properties": {
     "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },

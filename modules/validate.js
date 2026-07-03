@@ -20,7 +20,7 @@ const REPL = ['robust', 'mixed', 'failed'];
 const GENERIC_MAX = 15;   // guide: a good keyword appears in 2–15 entries; >15 = too generic to discriminate
 const REQUIRED_ENTRY = ['id', 'group', 'label', 'date', 'loc', 'coords', 'links', 'hint', 'tag', 'note'];
 const FORBIDDEN_ENTRY = ['fig', 'cat', 'groups'];
-const REQUIRED_FOLIO = ['id', 'title', 'subtitle', 'period', 'domain', 'mapCenter', 'mapZoom', 'methodology', 'categories', 'timeline'];
+const REQUIRED_FOLIO = ['id', 'schema_version', 'title', 'subtitle', 'period', 'domain', 'mapCenter', 'mapZoom', 'methodology', 'categories', 'timeline'];
 const ID_RE = /^(th|st|ef|co|me|fg|db|ap)[0-9]+$/;
 const XLINK_RE = /^[a-z0-9-]+::(th|st|ef|co|me|fg|db|ap)[0-9]+$/;
 const KNOWN_TAGS = new Set([
@@ -71,6 +71,9 @@ for (const folioId of Object.keys(folios)) {
   }
   if (data.domain !== undefined && !DOMAINS.includes(data.domain)) {
     err(file, `domain "${data.domain}" not in allowed set (${DOMAINS.join(', ')})`);
+  }
+  if (data.schema_version !== undefined && (!Number.isInteger(data.schema_version) || data.schema_version < 1)) {
+    err(file, `schema_version must be a positive integer (got ${JSON.stringify(data.schema_version)})`);
   }
 
   // categories: exactly 8, canonical order

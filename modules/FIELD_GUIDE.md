@@ -336,6 +336,7 @@ application "Where the science leaves the lab"                               ←
 ```jsonc
 {
   "id": "neuroscience",                     // must match FIELDS[].id in index.html
+  "schema_version": 1,                      // bump only when the folio schema itself changes shape
   "title": "Neuroscience & Behavior",
   "subtitle": "From neuron to mind: the biological basis of thought, emotion and action",
   "period": { "start": 1906, "end": 2025 }, // first landmark to present
