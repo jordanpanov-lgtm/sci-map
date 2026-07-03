@@ -191,7 +191,9 @@ Rules:
 - Target specificity: a good keyword appears in 2–15 entries across the full corpus (~800
   entries) — common enough to link, rare enough to be meaningful.
 - Aim for 3–5 terms per entry. Fewer is fine; 6+ risks diluting specificity.
-- All lowercase.
+- Lowercase common words, but **preserve proper nouns and acronyms** as they are normally
+  written (`De Humani Corporis Fabrica`, `ENSO`, `MRI`, `RANK RANKL`) — readability wins.
+  `build-global-index.js` matches on the exact phrase, so keep casing consistent across folios.
 
 Examples of good keywords: `spaced repetition`, `fMRI false positive`, `double dissociation`,
 `synaptic tagging`, `prototype effect`.

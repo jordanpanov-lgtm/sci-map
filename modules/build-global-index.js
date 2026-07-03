@@ -69,7 +69,9 @@ const output = {
     xlink_pairs:    Math.round(xlinkCount),
     keyword_terms:  keywordCount,
     folios,
-    last_updated:   new Date().toISOString().slice(0, 10)
+    // No wall-clock timestamp: this is a generated artifact and must rebuild
+    // byte-identically from the same folios, so CI can diff-check it for staleness.
+    // Git history records when it changed.
   },
   index,
   xlinks,
