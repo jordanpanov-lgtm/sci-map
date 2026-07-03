@@ -152,7 +152,18 @@
             "ef7",
             "st11",
             "st13",
-            "co9"
+            "co9",
+            "th10",
+            "th11",
+            "st7",
+            "ef4",
+            "ef5",
+            "ef6",
+            "co8",
+            "fg9",
+            "fg10",
+            "fg13",
+            "db3"
           ],
           "hint": "Heritable variation in traits that affect survival and reproduction causes those advantageous traits to increase in frequency over generations — the mechanism of evolution. For zoology, this means every anatomical, physiological and behavioural feature of an animal is the product of selection acting on ancestors, and can be interrogated as an adaptation to a specific environmental challenge.",
           "tag": "THEORY",
@@ -185,7 +196,12 @@
             "co3",
             "ef1",
             "db1",
-            "db3"
+            "db3",
+            "th3",
+            "co7",
+            "fg4",
+            "fg9",
+            "db2"
           ],
           "hint": "An individual maximises not just its own reproduction but the propagation of the genes it shares with relatives — its inclusive fitness. Hamilton's rule states that an altruistic act spreads when rB > C: the genetic relatedness (r) times the benefit to the recipient (B) exceeds the cost to the actor (C). This explains why worker bees sacrifice reproduction, why ground squirrels alarm-call at personal risk, and why sibling rivalry has predictable limits.",
           "tag": "THEORY",
@@ -212,7 +228,8 @@
             "th2",
             "fg7",
             "db3",
-            "me6"
+            "me6",
+            "st6"
           ],
           "hint": "A strategy is evolutionarily stable if, when adopted by most of the population, no mutant strategy can invade it. Maynard Smith applied game theory to animal conflict to show why animals often display rather than fight to the death — if costly fights are common, a 'dove' strategy can invade a population of 'hawks', converging on a mixed equilibrium. ESS replaced the assumption that animals evolve 'for the good of the species'.",
           "tag": "THEORY",
@@ -238,7 +255,10 @@
             "ef3",
             "st11",
             "me6",
-            "co5"
+            "co5",
+            "th11",
+            "ap2",
+            "ap6"
           ],
           "hint": "Animals are expected to forage in ways that maximise net energy gain per unit time. The prey model predicts which food types to include in the diet given encounter rates and handling costs; the patch model predicts when to leave a depleting patch (Charnov's marginal value theorem: leave when the instantaneous reward rate drops to the habitat average). These models generate precise, testable predictions about diet breadth and patch residence times.",
           "tag": "THEORY",
@@ -266,7 +286,10 @@
             "ef2",
             "st7",
             "st12",
-            "fg1"
+            "fg1",
+            "th11",
+            "ef8",
+            "db9"
           ],
           "hint": "Traits that reduce survival can spread if they improve mating success. Darwin distinguished intrasexual selection (male-male competition — antlers, fighting, territory) from intersexual selection (female choice — peacock tails, birdsong, elaborate displays). The sexes are predicted to diverge whenever the variance in reproductive success differs between them, creating asymmetric selection pressure on males versus females.",
           "tag": "THEORY",
@@ -293,7 +316,11 @@
             "ef1",
             "co6",
             "fg2",
-            "db6"
+            "db6",
+            "st4",
+            "ef6",
+            "ef9",
+            "co4"
           ],
           "hint": "Reliable signalling requires that signals be costly to produce, because only high-quality individuals can afford the cost without net fitness loss. A peacock's tail, a stag's roar and a gazelle's stotting display are honest precisely because they impose real energetic or survival costs — cheap signals would be faked by low-quality individuals and would lose their informational value. The handicap principle resolved the paradox of honest communication between competing agents.",
           "tag": "THEORY",
@@ -320,7 +347,10 @@
             "ef2",
             "st12",
             "fg6",
-            "db5"
+            "db5",
+            "th11",
+            "ef8",
+            "db9"
           ],
           "hint": "Parental investment is any resource expenditure that benefits offspring at a cost to the parent's ability to invest in future offspring. The sex that invests more per offspring will be the choosier sex; the sex that invests less competes more intensely for mates. In most mammals the female is the high-investing sex (gestation, lactation), predicting female choosiness and male-male competition — but in sex-role-reversed species like seahorses, the predictions flip.",
           "tag": "THEORY",
@@ -346,7 +376,9 @@
             "th2",
             "fg6",
             "st6",
-            "db1"
+            "db1",
+            "me6",
+            "fg5"
           ],
           "hint": "Costly help to unrelated individuals can be maintained by natural selection if the recipient reliably helps in return, and if cheaters are detected and excluded. The theory predicts help between non-relatives in long-lived, cognitively sophisticated species where individuals repeatedly interact — vampire bats sharing blood meals, cleaner fish, reciprocal grooming in primates. Crucially, it requires memory, individual recognition and enforcement against defection.",
           "tag": "THEORY",
@@ -488,7 +520,8 @@
             "fg3",
             "co6",
             "ap3",
-            "db6"
+            "db6",
+            "co4"
           ],
           "hint": "Returning forager bees perform a figure-eight waggle dance on the vertical honeycomb that encodes the direction (relative to the sun) and distance of a food source. The angle of the waggle run relative to vertical maps the azimuth of the target relative to the sun; the duration of waggling encodes distance. This was the first demonstration of symbolic, displaced reference — communication about something absent — in a non-human animal.",
           "tag": "EXPERIMENT",
@@ -514,7 +547,8 @@
           "links": [
             "th9",
             "fg2",
-            "co1"
+            "co1",
+            "db7"
           ],
           "hint": "Male three-spined sticklebacks develop a red belly during breeding season and will attack any red-bellied intruder — but ignore a perfectly realistic model lacking red coloration. Tinbergen systematically varied the features of dummy fish to identify the key sign stimulus triggering each Fixed Action Pattern: territorial aggression, courtship display, and nest-building. The experiments established the ethological method of stimulus-response analysis and the concept of the releaser.",
           "tag": "EXPERIMENT",
@@ -540,7 +574,8 @@
           "links": [
             "co6",
             "fg8",
-            "th6"
+            "th6",
+            "me3"
           ],
           "hint": "Vervet monkeys produce acoustically distinct alarm calls for different predator classes — eagles elicit a short tonal call causing vervets to look upward and run into bushes; leopards elicit a loud bark causing them to climb trees; snakes elicit a high-pitched chutter causing them to stand bipedally and scan the ground. Playback of the calls alone produced the predator-appropriate response, demonstrating that the calls carry semantic content — they refer to external categories, not just the caller's arousal state.",
           "tag": "FIELD STUDY",
@@ -673,7 +708,9 @@
           "links": [
             "fg11",
             "co2",
-            "db4"
+            "db4",
+            "fg8",
+            "db8"
           ],
           "hint": "New Caledonian crows fashion hooked tools from Pandanus leaf strips by tearing a tapered, barbed length of leaf with the bill and then bending it into a hook — a sequence requiring planning and manipulation. They also create tools from novel materials in lab settings, modify tools in response to task demands, and in some populations show cultural variation in tool form. Tool manufacture (as opposed to tool use) was previously considered uniquely human.",
           "tag": "FIELD STUDY",
@@ -698,7 +735,8 @@
           ],
           "links": [
             "co2",
-            "me2"
+            "me2",
+            "ap5"
           ],
           "hint": "Indigo buntings raised in a planetarium with a rotating artificial sky centred on Betelgeuse rather than Polaris oriented their autumn migration relative to that artificial pole — not the real one. Those raised under a stationary sky (no rotation) showed no consistent orientation. Young birds learn which stars rotate least as a proxy for celestial north during the nestling period, then use this as a compass during migration. The star compass is learned, not innate.",
           "tag": "EXPERIMENT",
@@ -816,7 +854,10 @@
           "links": [
             "th2",
             "st5",
-            "co3"
+            "co3",
+            "th6",
+            "co7",
+            "db6"
           ],
           "hint": "Many animals preferentially direct altruistic behaviour toward genetic relatives, and can recognise them without prior familiarisation — using chemical cues (major histocompatibility complex odour in mammals), acoustic cues (ground squirrel calls), or morphological similarity. Kin discrimination allows Hamilton's rule to operate precisely rather than probabilistically, making conditional altruism more efficient. The mechanism varies by taxon; no single kin-recognition system is universal.",
           "tag": "PHENOMENON",
@@ -843,7 +884,11 @@
             "th5",
             "th7",
             "st7",
-            "db5"
+            "db5",
+            "th11",
+            "st12",
+            "fg6",
+            "db9"
           ],
           "hint": "In most sexually reproducing species, male reproductive success increases more steeply with the number of mates than female reproductive success does, because sperm are cheap and eggs are costly. This creates stronger selection on males to maximise mating opportunities and on females to be choosy. The principle predicts the direction of sexual dimorphism, intensity of male-male competition, and degree of female choosiness across species.",
           "tag": "PHENOMENON",
@@ -869,7 +914,8 @@
           "links": [
             "th4",
             "co5",
-            "me6"
+            "me6",
+            "ap2"
           ],
           "hint": "An optimal forager should leave a depleting food patch when its instantaneous harvest rate drops to match the average rate achievable across the whole habitat (including travel between patches). This predicts that animals leave rich patches later, leave poor patches sooner, and stay longer in all patches as habitat-average quality declines. The theorem has been used to model everything from bee foraging to search engine usage.",
           "tag": "PHENOMENON",
@@ -895,7 +941,13 @@
           "links": [
             "th1",
             "ap5",
-            "fg10"
+            "fg10",
+            "co5",
+            "me4",
+            "me5",
+            "fg4",
+            "ap1",
+            "ap6"
           ],
           "hint": "The number of species on an island (or in any habitat patch) increases as a power function of area — typically S = cA^z where z is around 0.25. Doubling habitat area adds roughly 20% more species; reducing area by 90% (as in fragmentation) loses roughly 50%. The relationship arises from the dynamic balance between immigration and extinction rates, and has become the empirical backbone of conservation biology's predictions about habitat loss.",
           "tag": "PHENOMENON",
@@ -920,7 +972,8 @@
           ],
           "links": [
             "ef6",
-            "th1"
+            "th1",
+            "me5"
           ],
           "hint": "Two or more unpalatable species converge on the same warning coloration, each benefiting from the other's learned predator aversion — the more models share a signal, the fewer individuals each species loses as predators learn to avoid the pattern. Unlike Batesian mimicry, both species are genuinely defended, so the system is mutually beneficial. Heliconius butterflies display this convergence dramatically, with co-mimics sharing identical wing patterns across species.",
           "tag": "PHENOMENON",
@@ -972,7 +1025,8 @@
           "links": [
             "st8",
             "th10",
-            "db7"
+            "db7",
+            "th1"
           ],
           "hint": "Host species of brood parasites (cuckoos, cowbirds, honeyguides) evolve egg rejection and nest desertion; parasites evolve egg mimicry and aggressive host manipulation; hosts then evolve finer discrimination — a coevolutionary arms race visible within and across populations. The intensity of host defences tracks the duration of parasitism exposure, providing a natural experiment in coevolution across a geographic mosaic.",
           "tag": "PHENOMENON",
@@ -1023,7 +1077,8 @@
           "links": [
             "th6",
             "co6",
-            "me3"
+            "me3",
+            "co4"
           ],
           "hint": "Territorial animals show weaker aggression toward familiar neighbours than toward unfamiliar strangers, despite neighbours being equally dangerous as competitors. Once territory boundaries are established, both parties benefit from respecting the status quo — escalated fights are costly and boundaries rarely change. Animals learn individual-specific vocal or chemical signatures and reduce costly responses to established rivals, allocating aggression to genuine new threats.",
           "tag": "PHENOMENON",
@@ -1061,7 +1116,9 @@
             "th9",
             "st3",
             "fg1",
-            "fg2"
+            "fg2",
+            "me1",
+            "db7"
           ],
           "hint": "A Fixed Action Pattern (FAP) is an innate, stereotyped motor sequence that runs to completion once triggered by a specific sign stimulus (releaser), regardless of whether the stimulus continues. A greylag goose rolling a displaced egg back to the nest continues the rolling motion even if the egg is removed mid-sequence. FAPs represent the most basic unit of innate behaviour and were central to the ethological programme of cataloguing species-typical actions — though modern research recognises that most such sequences can be modulated by context or internal state (hunger, arousal, prior stimulation), and Barlow (1977) proposed the term 'modal action pattern' to better reflect this variability.",
           "tag": "CONCEPT",
@@ -1086,7 +1143,11 @@
           "links": [
             "st1",
             "fg1",
-            "db7"
+            "db7",
+            "st9",
+            "st10",
+            "co8",
+            "fg11"
           ],
           "hint": "Imprinting is irreversible learning during a developmentally restricted sensitive period that shapes a lasting preference or bond. Filial imprinting determines the species the young animal treats as parent; sexual imprinting determines the species characteristics sought in a future mate. Unlike most learning, imprinted preferences are formed before the reinforcing outcome (mating) occurs, and once consolidated they are difficult or impossible to reverse — a developmental canalization of social preferences.",
           "tag": "CONCEPT",
@@ -1112,7 +1173,8 @@
             "th2",
             "ef1",
             "fg4",
-            "db1"
+            "db1",
+            "co7"
           ],
           "hint": "Eusociality is the most extreme form of social organisation: overlapping generations, cooperative brood care, and reproductive division of labour with a reproductively dominant caste and sterile or sub-fertile workers. It has evolved independently in Hymenoptera (ants, bees, wasps), termites, shrimp and one mammal (the naked mole-rat). Kin selection explains Hymenoptera eusociality through the peculiarity of haplodiploidy — sisters share 75% of genes — but the naked mole-rat refutes haplodiploid necessity.",
           "tag": "CONCEPT",
@@ -1138,7 +1200,8 @@
             "th6",
             "st2",
             "ef9",
-            "db6"
+            "db6",
+            "co6"
           ],
           "hint": "Honest signals fall into two types: handicaps (energetically costly, so only high-quality individuals can afford them without net loss — peacock tails, elaborate birdsong) and index signals (structurally constrained, physically impossible to fake — a deep frog croak that directly reflects body size). A third type — conventional signals — carries meaning by shared agreement rather than cost, and persists through social enforcement rather than physical constraint. Arbitrary cheap signals cannot spread where signaller and receiver interests conflict, because low-quality signalers would invade; where interests align (coordinating mates within a pair), cheap convention can be stable.",
           "tag": "CONCEPT",
@@ -1163,7 +1226,9 @@
           "links": [
             "th4",
             "ef4",
-            "ef3"
+            "ef3",
+            "ap2",
+            "ap6"
           ],
           "hint": "An ecological niche is the multidimensional hypervolume of environmental conditions and resource axes within which a species can persist and reproduce — its Hutchinsonian niche. The realised niche is narrower than the fundamental niche because of competition with other species. The concept explains character displacement (competing species diverge in morphology to partition resources), niche conservatism (closely related species resist ecological change), and why no two species occupy exactly the same niche in stable communities.",
           "tag": "CONCEPT",
@@ -1188,7 +1253,11 @@
           "links": [
             "st4",
             "co4",
-            "ef9"
+            "ef9",
+            "th6",
+            "st2",
+            "me3",
+            "ap3"
           ],
           "hint": "Animal vocalisations can convey information about external objects or events (referential signals — vervet alarm calls specifying predator class) or about the internal state of the signaller (affective signals — fear calls indicating arousal level regardless of cause). The distinction maps loosely onto human language's capacity for semantic reference. Most animal signals are primarily affective; a minority show genuine referential specificity that goes beyond general alarm or arousal.",
           "tag": "CONCEPT",
@@ -1377,7 +1446,8 @@
           ],
           "links": [
             "ef4",
-            "ap5"
+            "ap5",
+            "ap1"
           ],
           "hint": "A sample of animals is captured, individually marked and released; a second sample is later taken and the proportion of marked individuals among the recaptured animals estimates total population size (Lincoln-Petersen: N = (M × C) / R). Repeated sessions with multi-state models (Cormack-Jolly-Seber) estimate survival rates, immigration and emigration simultaneously. Mark-recapture is the standard method for estimating wildlife population size and trend when direct census is impossible.",
           "tag": "METHOD",
@@ -1427,7 +1497,9 @@
           "links": [
             "th3",
             "th8",
-            "ef3"
+            "ef3",
+            "th4",
+            "fg7"
           ],
           "hint": "Game-theoretic models assign payoff matrices to behavioural strategies and find the evolutionarily stable equilibrium — the frequency at which no mutant strategy can invade. Models can be analytical (solve for the ESS algebraically) or simulation-based (agent-based models with replicator dynamics). The approach generates precise, testable predictions about the frequency of alternative mating tactics, fighting escalation rates, and territorial contest outcomes.",
           "tag": "METHOD",
@@ -1465,7 +1537,9 @@
             "co1",
             "co2",
             "fg2",
-            "fg3"
+            "fg3",
+            "th1",
+            "th5"
           ],
           "hint": "Lorenz established ethology as the scientific study of innate behaviour, demonstrating that animals possess a repertoire of species-specific Fixed Action Patterns released by specific stimuli — instincts that are as subject to natural selection as morphology. His work on imprinting, aggression (On Aggression, 1963) and the concept of the Innate Releasing Mechanism created the conceptual vocabulary for the field. He shared the 1973 Nobel Prize with Tinbergen and von Frisch.",
           "tag": "FIGURE",
@@ -1492,7 +1566,10 @@
             "st3",
             "me1",
             "fg1",
-            "fg3"
+            "fg3",
+            "th6",
+            "st1",
+            "co1"
           ],
           "hint": "Tinbergen built ethology's empirical and conceptual scaffolding: the study of instinct (1951), the four questions framework (1963), and the experimental analysis of sign stimuli using dummy models. He systematically demonstrated that behaviour could be analysed with the same rigour as morphology — designing field experiments to isolate causal variables. He also co-founded behavioural ecology and mentored the generation that extended ethology into evolutionary theory.",
           "tag": "FIGURE",
@@ -1544,7 +1621,8 @@
             "co3",
             "th2",
             "ef4",
-            "db2"
+            "db2",
+            "db1"
           ],
           "hint": "Wilson synthesised evolutionary biology, genetics and ecology into sociobiology — the systematic study of the biological basis of all social behaviour from insects to humans. His monumental Sociobiology (1975) catalogued social behaviour across taxa and explicitly applied the framework to Homo sapiens, triggering the most intense scientific and political controversy in 20th-century biology. His work on island biogeography, ant ecology and biodiversity conservation transformed multiple fields simultaneously.",
           "tag": "FIGURE",
@@ -1571,7 +1649,10 @@
             "co7",
             "th8",
             "st6",
-            "db3"
+            "db3",
+            "st5",
+            "fg9",
+            "db1"
           ],
           "hint": "Hamilton solved the central puzzle of evolutionary biology — why should an individual sacrifice its own reproduction for others — by extending natural selection to operate on shared genes rather than individuals. His 1964 papers on inclusive fitness and Hamilton's rule are among the most cited in biology. He also contributed the geometric sex ratio theory, the parasite theory of sex, and collaborated on the Axelrod tournament demonstrating the evolution of cooperation.",
           "tag": "FIGURE",
@@ -1622,7 +1703,8 @@
           "links": [
             "th3",
             "me6",
-            "db3"
+            "db3",
+            "db9"
           ],
           "hint": "Maynard Smith imported game theory into evolutionary biology to explain why animal conflicts are often ritualised rather than escalated to lethal combat. His concept of the evolutionarily stable strategy (ESS) — a strategy that, once common, cannot be invaded by mutants — replaced group-selection explanations with individual-level evolutionary logic. He also clarified units of selection, contributed to the evolution of sex theory, and synthesised evolutionary genetics and developmental biology.",
           "tag": "FIGURE",
@@ -1646,7 +1728,10 @@
           ],
           "links": [
             "st9",
-            "db4"
+            "db4",
+            "st4",
+            "fg12",
+            "db8"
           ],
           "hint": "Goodall's decades-long study of chimpanzees at Gombe overturned assumptions about human uniqueness. She documented tool use (stripping leaves from twigs to fish termites from mounds), cooperative hunting, inter-group warfare, infanticide, and complex social hierarchies — behaviours then believed exclusively human. By habituating wild chimps to human presence and following named individuals across lifetimes, she established the long-term field study as the gold standard for primate behaviour.",
           "tag": "FIGURE",
@@ -1746,7 +1831,9 @@
           ],
           "links": [
             "db4",
-            "fg8"
+            "fg8",
+            "db8",
+            "ap4"
           ],
           "hint": "De Waal documented political alliance formation, reconciliation after conflict, food sharing and empathy-like behaviour in great apes and other primates, arguing that morality and prosociality have deep evolutionary precursors in non-human animals. His study of Machiavellian intelligence in chimpanzees — strategic alliance formation among adult males to gain and maintain alpha status — showed that primate politics involves long-term strategising rather than simple dominance hierarchies.",
           "tag": "FIGURE",
@@ -1809,7 +1896,8 @@
             "co3",
             "fg4",
             "fg5",
-            "db3"
+            "db3",
+            "th8"
           ],
           "hint": "Wynne-Edwards (1962) argued that animals regulate their population density below resource limits for the 'good of the group' through voluntary reproductive restraint — a group selection argument. Williams (1966) systematically dismantled this, showing that individual selection always overrides group selection when interests conflict because cheater variants (individuals who reproduce at the expense of the group) will always invade. The debate resurfaced with Nowak, Tarnita & Wilson (2010) arguing multi-level selection can explain eusociality without inclusive fitness.",
           "tag": "DEBATE",
@@ -1861,7 +1949,10 @@
             "th2",
             "fg5",
             "fg9",
-            "db1"
+            "db1",
+            "th3",
+            "fg7",
+            "db2"
           ],
           "hint": "Does natural selection act primarily on genes (Hamilton, Williams, Dawkins), on individual organisms (most evolutionary biologists), or also on groups (Wilson, Sober, Wynne-Edwards)? The answer matters because group selection can maintain traits harmful to individuals (altruism, restraint) if group-level variance in fitness is large enough. Most modern theorists accept that inclusive fitness and multi-level selection are different bookkeeping methods describing the same underlying process — but this formal equivalence does not end the debate about which level has more explanatory power.",
           "tag": "DEBATE",
@@ -1887,7 +1978,9 @@
             "fg11",
             "fg12",
             "st9",
-            "fg8"
+            "fg8",
+            "db8",
+            "ap4"
           ],
           "hint": "Do animals have subjective experience — is there 'something it is like' to be a bat, a crow, an octopus? The behaviourist tradition avoided the question as scientifically unanswerable; cognitive ethology (Griffin 1976) argued we should at least attempt to study it. The Cambridge Declaration on Consciousness (2012) stated that non-human animals possess the neurological substrates for conscious states. But the hard problem of consciousness remains unsolved, and inferring subjective experience from behaviour or neural correlates is philosophically contested.",
           "tag": "DEBATE",
@@ -1913,7 +2006,8 @@
             "ef2",
             "th7",
             "st12",
-            "fg6"
+            "fg6",
+            "db9"
           ],
           "hint": "Gowaty et al. (2012) reanalysed Bateman's original Drosophila data and concluded that the data were too poor to support the conclusions: mating number was inferred from offspring genotypes with a method that systematically undercounts female matings, inflating the apparent male advantage in reproductive variance. The finding challenges a central empirical pillar of sexual selection theory — though the Bateman gradient (steeper variance in male than female mating success) has since been confirmed with better methods across many taxa.",
           "tag": "DEBATE",
@@ -1963,7 +2057,10 @@
             "co2",
             "st1",
             "st3",
-            "st13"
+            "st13",
+            "st8",
+            "ef7",
+            "co8"
           ],
           "hint": "Early ethologists (Lorenz, Tinbergen) stressed innate, species-typical behaviour; comparative psychologists (Lehrman, Beach) argued that apparent instincts depend on developmental experience and cannot be cleanly separated from learning. Lehrman's 1953 critique demolished the idea that behaviour can be divided into 'innate' and 'learned' components — all development involves gene-environment interaction. The debate resurfaced in evolutionary psychology's claims about universal human psychological modules.",
           "tag": "DEBATE",
@@ -2046,7 +2143,9 @@
           "links": [
             "me4",
             "me5",
-            "ef4"
+            "ef4",
+            "me2",
+            "ap5"
           ],
           "hint": "Molecular genetics allows wildlife managers to estimate effective population size, identify conservation units (distinct population segments that require separate management), detect inbreeding depression, and reconstruct dispersal corridors between fragmented habitats. Conservation genetics informs captive breeding programmes (avoid pairing close relatives), translocation decisions (match source populations genetically to recipients), and monitoring of cryptic species that are impossible to count directly.",
           "tag": "APPLICATION",
@@ -2071,7 +2170,8 @@
           "links": [
             "th4",
             "ef3",
-            "co5"
+            "co5",
+            "ap6"
           ],
           "hint": "Natural enemies of pest species — parasitoids, predators, pathogens — can be introduced or augmented to suppress pest populations below economic thresholds. Optimal foraging theory informs predictions about where natural enemies search, how patch quality affects their residence time, and how to design landscapes to maintain effective biological control. Pheromone traps exploit communication systems to monitor and disrupt mating in agricultural pests.",
           "tag": "APPLICATION",
@@ -2136,7 +2236,9 @@
           "links": [
             "me2",
             "st10",
-            "ap1"
+            "ap1",
+            "ef4",
+            "me4"
           ],
           "hint": "Miniaturised GPS data loggers attached to migratory birds, sea turtles and marine mammals have revealed the specific stopover sites and marine foraging areas on which migratory populations depend, enabling targeted habitat protection. The discovery that Arctic terns undertake the longest annual migration of any animal (70,000 km round trip, pole to pole) came from geolocator tags first deployed in 2010. Identifying population-specific flyways directs investment to the bottleneck sites most critical for each population.",
           "tag": "APPLICATION",

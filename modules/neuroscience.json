@@ -313,7 +313,8 @@
           ],
           "links": [
             "ef5",
-            "ef8"
+            "ef8",
+            "st12"
           ],
           "hint": "Any emotion triggers an opposing emotional state that grows stronger with repetition: the primary 'a-process' diminishes while the opponent 'b-process' intensifies. Explains hedonic adaptation, the tolerance-and-withdrawal cycle of addiction, and why parachutists feel terror then elation. The b-process outlasts the a-process, creating the after-reaction.",
           "tag": "THEORY",
@@ -338,7 +339,8 @@
           "links": [
             "co6",
             "ef4",
-            "fg9"
+            "fg9",
+            "st13"
           ],
           "xlinks": [
             "physiology-organ-systems::th9",
@@ -393,7 +395,8 @@
           "links": [
             "co4",
             "ef3",
-            "th2"
+            "th2",
+            "st4"
           ],
           "hint": "Weak stimulation that produces short-term potentiation (E-LTP) can be 'captured' and converted to long-term potentiation (L-LTP) if a strong stimulus marks the synapse with a 'tag' shortly before or after, even at a distant synapse. Explains synapse-specific late-LTP and why spaced repetition reinforces learning: the tag and the protein supply can arrive from separate events.",
           "tag": "THEORY",
@@ -737,7 +740,8 @@
           ],
           "links": [
             "co7",
-            "ef7"
+            "ef7",
+            "ap5"
           ],
           "hint": "Overnight sleep, but not equivalent waking rest, improved performance on a visual discrimination task; the benefit required both slow-wave and REM sleep and depended on time asleep, not time awake. Established sleep as an active consolidation window, not mere offline storage, and sparked the modern sleep-and-memory field.",
           "tag": "EXPERIMENT",
@@ -850,7 +854,8 @@
           "links": [
             "co3",
             "co5",
-            "me4"
+            "me4",
+            "co11"
           ],
           "hint": "Participants judged a series of moral dilemmas during fMRI scanning. 'Impersonal' dilemmas (pulling a switch to divert a trolley) activated dorsolateral prefrontal cortex and parietal regions — executive deliberation. 'Personal' dilemmas (physically pushing someone off a bridge) selectively activated medial frontal gyrus and amygdala — emotional aversion. Response times were longer when participants chose the 'utilitarian' outcome to a personal dilemma, suggesting emotional conflict being overridden by deliberate reasoning.",
           "tag": "EXPERIMENT",
@@ -919,7 +924,9 @@
           ],
           "links": [
             "co4",
-            "st10"
+            "st10",
+            "db3",
+            "ap3"
           ],
           "hint": "The adult brain retains substantial capacity to reorganise synaptic connections, expand cortical representations and — in certain regions — generate new neurons in response to learning, environmental enrichment and injury. Overturned decades of dogma that the adult brain was structurally fixed after development.",
           "tag": "PHENOMENON",
@@ -972,7 +979,8 @@
             "co4",
             "st4",
             "th2",
-            "th10"
+            "th10",
+            "fg3"
           ],
           "hint": "Blocking NMDA receptors with AP5 in rats prevents new spatial learning in the Morris water maze without affecting existing memories — demonstrating that LTP is required for acquisition, not just recall. Conversely, overexpressing NMDA receptor subunit NR2B produced 'Doogie mice' with enhanced LTP and superior spatial and fear memory. These pharmacological and genetic dissections translate the cellular mechanism into a behavioural claim: LTP is the primary substrate of declarative memory formation.",
           "tag": "PHENOMENON",
@@ -1002,7 +1010,9 @@
             "fg9",
             "th8",
             "th11",
-            "st13"
+            "st13",
+            "co11",
+            "ap2"
           ],
           "hint": "Chronic stress elevates glucocorticoids (cortisol), which retract dendritic arbours and reduce neurogenesis in the hippocampus — measurably shrinking the structure. The effect is seen in stressed rodents, socially subordinate primates and humans with PTSD or major depression. Hippocampal atrophy predicts memory deficits and is partly reversible with antidepressants.",
           "tag": "EFFECT",
@@ -1031,7 +1041,8 @@
           ],
           "links": [
             "ef8",
-            "th7"
+            "th7",
+            "ap2"
           ],
           "hint": "Repeated drug exposure strengthens the aversive opponent process (withdrawal, craving) while the pleasurable primary process diminishes — producing tolerance and negative-reinforcement-driven use. The user is no longer chasing pleasure but avoiding the opponent-state dysphoria. Explains why addiction escalates and why abstinence-induced negative affect drives relapse.",
           "tag": "PHENOMENON",
@@ -1083,7 +1094,8 @@
           ],
           "links": [
             "co7",
-            "st11"
+            "st11",
+            "ap5"
           ],
           "hint": "Chronic restriction to 6 hours of sleep per night accumulates deficits in psychomotor vigilance, working memory and mood that escalate over days and are not fully reversed by one recovery night. Critically, participants on 6-hour schedules rated themselves as only slightly sleepy — demonstrating that subjective sleepiness underestimates objective performance impairment.",
           "tag": "EFFECT",
@@ -1112,7 +1124,8 @@
             "th3",
             "th7",
             "st12",
-            "st14"
+            "st14",
+            "co11"
           ],
           "hint": "Midbrain dopamine neurons fire to unexpected rewards, reduce firing to punishments, and — after conditioning — shift their response to the predictive cue rather than the reward itself. The signal matches the prediction error term in reinforcement learning algorithms: it broadcasts 'better-than-expected' or 'worse-than-expected' to guide future choices.",
           "tag": "EFFECT",
@@ -1209,7 +1222,14 @@
             "ef6",
             "me7",
             "st1",
-            "th1"
+            "th1",
+            "co2",
+            "co9",
+            "me5",
+            "fg1",
+            "fg2",
+            "ap1",
+            "ap6"
           ],
           "xlinks": [
             "physiology-organ-systems::co1",
@@ -1241,7 +1261,10 @@
             "co9",
             "co10",
             "fg2",
-            "th1"
+            "th1",
+            "co8",
+            "me7",
+            "fg1"
           ],
           "hint": "Information crosses the gap between neurons chemically: an action potential triggers Ca²⁺-mediated vesicle fusion, releasing neurotransmitter into the synaptic cleft, which binds postsynaptic receptors and opens ion channels (ionotropic) or activates G-proteins (metabotropic). Each synapse is excitatory (EPSP) or inhibitory (IPSP); the postsynaptic neuron integrates thousands of inputs.",
           "tag": "CONCEPT",
@@ -1292,7 +1315,8 @@
           "links": [
             "co1",
             "co2",
-            "co4"
+            "co4",
+            "co10"
           ],
           "hint": "The brain's default currency is two amino acids: glutamate (the principal excitatory transmitter, acting at AMPA and NMDA receptors) and GABA (the principal inhibitory transmitter, opening Cl⁻ channels via GABA_A receptors). The ratio of excitatory to inhibitory drive — the E/I balance — determines whether a network fires, saturates or stays silent. Epilepsy (excess glutamate), schizophrenia (reduced cortical inhibition) and anxiety (GABA_A modulation by benzodiazepines) all reflect disruptions of this balance.",
           "tag": "CONCEPT",
@@ -1345,7 +1369,12 @@
             "st7",
             "st9",
             "th4",
-            "th9"
+            "th9",
+            "st15",
+            "ef9",
+            "ef10",
+            "fg4",
+            "fg10"
           ],
           "hint": "Behaviour emerges from the connectivity pattern of neurons — who connects to whom, with what strength and sign. The 'connectome' is the complete wiring diagram of a nervous system. C. elegans was the first organism fully mapped (302 neurons, 1986); the human connectome involves ~86 billion neurons and ~100 trillion synapses, approachable only via diffusion MRI tractography or serial electron microscopy.",
           "tag": "CONCEPT",
@@ -1372,7 +1401,20 @@
             "ef3",
             "st4",
             "th2",
-            "th10"
+            "th10",
+            "st2",
+            "st6",
+            "st10",
+            "st13",
+            "ef1",
+            "ef9",
+            "co9",
+            "co10",
+            "me5",
+            "db3",
+            "ap2",
+            "ap3",
+            "ap6"
           ],
           "hint": "Synaptic strength is not fixed: high-frequency coincident activity potentiates synapses (LTP) via NMDA-receptor activation and AMPA-receptor trafficking; low-frequency or mismatched activity depresses them (LTD). The NMDA receptor acts as a 'coincidence detector' (requiring both pre- and postsynaptic activity), implementing a form of Hebbian learning at the molecular level.",
           "tag": "CONSTRUCT",
@@ -1403,7 +1445,12 @@
             "co11",
             "co12",
             "st12",
-            "st16"
+            "st16",
+            "th11",
+            "st14",
+            "st15",
+            "fg8",
+            "db4"
           ],
           "hint": "Papez proposed a circuit linking hippocampus, hypothalamus, anterior thalamus and cingulate cortex as the substrate of emotion. MacLean added the term 'limbic system' and expanded it to include amygdala, septum and orbitofrontal cortex. The amygdala's role in fear conditioning (LeDoux) and the hippocampus's role in emotional context memory are its best-characterised components.",
           "tag": "CONSTRUCT",
@@ -1429,7 +1476,12 @@
           "links": [
             "co5",
             "ef4",
-            "th8"
+            "th8",
+            "th11",
+            "st16",
+            "co11",
+            "co12",
+            "db7"
           ],
           "xlinks": [
             "physiology-organ-systems::st11",
@@ -1461,7 +1513,8 @@
             "co6",
             "ef4",
             "ef8",
-            "st15"
+            "st15",
+            "co12"
           ],
           "hint": "The prefrontal cortex (particularly ventromedial and orbitofrontal regions) exerts top-down inhibitory control over the amygdala's threat-response circuitry. Aggressive and fearful behaviour is predicted not by amygdala activation alone but by the ratio of PFC-to-amygdala functional connectivity: weak regulatory connectivity amplifies the 'accelerator' response. This axis is disrupted in PTSD (hyperactive threat response, impaired extinction), borderline personality disorder and conduct disorder.",
           "tag": "CONCEPT",
@@ -1514,7 +1567,9 @@
           "links": [
             "ef7",
             "me3",
-            "st11"
+            "st11",
+            "ap4",
+            "ap5"
           ],
           "hint": "Populations of neurons oscillate at characteristic frequencies — delta (0.5–4 Hz, deep sleep), theta (4–8 Hz, navigation and memory encoding), alpha (8–12 Hz, relaxed wakefulness), beta (13–30 Hz, active thinking) and gamma (>30 Hz, binding and perception). Oscillations synchronise distributed circuits, gate information flow and time the replay of memories during sleep.",
           "tag": "CONCEPT",
@@ -1555,7 +1610,8 @@
             "db5",
             "fg12",
             "st2",
-            "st5"
+            "st5",
+            "me6"
           ],
           "hint": "Correlating specific behavioural deficits with focal brain damage — from stroke, tumour, surgery or trauma — to infer function. Broca's patient 'Tan' (1861) linked left frontal damage to expressive aphasia; Scoville's resection in H.M. linked the hippocampus to memory. Gold standard before neuroimaging, and still essential for localisation claims because lesions produce definitive function-deficit correlations.",
           "tag": "METHOD",
@@ -1608,7 +1664,9 @@
             11.59
           ],
           "links": [
-            "co7"
+            "co7",
+            "db1",
+            "ap4"
           ],
           "hint": "Electrodes on the scalp record summed postsynaptic potentials from large neuron populations. EEG captures oscillatory states (alpha, theta, delta) and sleep stages (NREM, REM) at millisecond resolution. ERPs — averaged responses time-locked to events — isolate cognitive processes: N2 (conflict detection), P300 (stimulus update), N400 (semantic violation), MMN (prediction error).",
           "tag": "METHOD",
@@ -1634,7 +1692,9 @@
           "links": [
             "db8",
             "fg11",
-            "st9"
+            "st9",
+            "st14",
+            "st15"
           ],
           "xlinks": [
             "general-cognitive-psych::me4"
@@ -1662,7 +1722,8 @@
           ],
           "links": [
             "co1",
-            "co4"
+            "co4",
+            "ap6"
           ],
           "hint": "Viral delivery of light-sensitive channelrhodopsins (ChR2: activating, NpHR: silencing) into genetically targeted neuron types, followed by fibre-optic illumination, allows millisecond-precision activation or silencing of specific cell populations in live animals. The first tool to establish causal, cell-type-specific roles for defined circuits in behaviour.",
           "tag": "METHOD",
@@ -1686,7 +1747,9 @@
             -1.47
           ],
           "links": [
-            "me1"
+            "me1",
+            "ap1",
+            "ap3"
           ],
           "hint": "A brief magnetic pulse induces an electric current in underlying cortex, transiently disrupting or exciting neural activity non-invasively. Single-pulse TMS measures motor cortex excitability and maps motor representations; repetitive TMS (rTMS) produces lasting modulation and is a licensed treatment for major depression (FDA 2008). Allows causal inference about cortical function in healthy humans.",
           "tag": "METHOD",
@@ -1953,7 +2016,8 @@
           ],
           "links": [
             "ef4",
-            "th8"
+            "th8",
+            "st13"
           ],
           "hint": "American neuroendocrinologist who discovered glucocorticoid receptors in the hippocampus and documented how chronic stress causes dendritic retraction and volume loss in this region. Developed the allostatic load framework with Sterling and Stellar, providing a biological account of how social adversity translates into disease through cumulative wear on stress-responsive systems.",
           "tag": "FIGURE",
@@ -2161,7 +2225,8 @@
             "fg10",
             "me1",
             "st5",
-            "th4"
+            "th4",
+            "db6"
           ],
           "hint": "Broca's and Wernicke's localisation of language was challenged by Lashley's equipotentiality (memory loss proportional to lesion size, not location) and Flourens' holism. Modern evidence reconciles both: specific functions have weighted regional distributions (speech production → left IFG) but are implemented in distributed networks. No cognitive function is strictly localised — and no large lesion spares all functions.",
           "tag": "DEBATE",

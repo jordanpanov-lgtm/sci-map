@@ -151,7 +151,8 @@
             "co6",
             "fg2",
             "st1",
-            "st17"
+            "st17",
+            "ap6"
           ],
           "hint": "Physics is the same in all inertial frames and the speed of light is constant in vacuo — from these two postulates Einstein derived time dilation, length contraction, the relativity of simultaneity, and the equivalence of mass and energy. The theory demolished the concept of absolute time and the luminiferous aether in a single stroke.",
           "tag": "THEORY",
@@ -183,7 +184,9 @@
             "ef7",
             "db3",
             "db4",
-            "st17"
+            "st17",
+            "th9",
+            "ap6"
           ],
           "hint": "Gravity is not a force but the curvature of spacetime caused by mass and energy, described by the Einstein field equations. General Relativity predicted gravitational lensing, black holes, gravitational waves, and the expanding universe — all confirmed a century after publication.",
           "tag": "THEORY",
@@ -240,7 +243,8 @@
             "ef1",
             "fg5",
             "st6",
-            "st16"
+            "st16",
+            "ap4"
           ],
           "hint": "The Schrödinger equation describes how a quantum system's wavefunction evolves in time — the square of the wavefunction at each point gives the probability of finding the particle there. It correctly predicts atomic energy levels, molecular structure, and quantum tunnelling, making it the workhorse of quantum chemistry and condensed matter physics.",
           "tag": "THEORY",
@@ -270,7 +274,8 @@
             "db2",
             "db5",
             "th4",
-            "th3"
+            "th3",
+            "co2"
           ],
           "hint": "The dominant interpretation of quantum mechanics: wavefunctions represent probability amplitudes, measurement causes the wavefunction to collapse to a definite outcome, and it is meaningless to ask what properties a system has before measurement. Championed by Bohr and Heisenberg, it was resisted by Einstein, Schrödinger and de Broglie throughout their careers.",
           "tag": "FRAMEWORK",
@@ -297,7 +302,9 @@
             "fg9",
             "ef3",
             "th8",
-            "me6"
+            "me6",
+            "th10",
+            "co5"
           ],
           "hint": "The quantum field theory of the electromagnetic interaction — Feynman, Schwinger, and Tomonaga independently renormalised the infinities that had plagued quantum field theory, producing a framework whose prediction of the electron's anomalous magnetic moment agrees with experiment to 12 decimal places, the most precisely tested prediction in science.",
           "tag": "THEORY",
@@ -323,7 +330,8 @@
             "ef4",
             "ef5",
             "co4",
-            "st7"
+            "st7",
+            "co7"
           ],
           "hint": "Developed independently by Maria Goeppert Mayer at the University of Chicago and J. Hans D. Jensen at Heidelberg, the nuclear shell model proposes that protons and neutrons fill discrete energy shells inside the nucleus, analogous to electron shells in atoms — magic numbers (2, 8, 20, 28, 50, 82, 126) mark nuclei with filled shells that are exceptionally stable. Goeppert Mayer won the 1963 Nobel Prize for this work, making her the second woman to win the Physics Nobel after Marie Curie.",
           "tag": "MODEL",
@@ -355,7 +363,9 @@
             "co5",
             "me3",
             "st14",
-            "st15"
+            "st15",
+            "me6",
+            "db3"
           ],
           "hint": "The Standard Model unifies the electromagnetic and weak forces into a single electroweak theory, and incorporates the strong force (QCD) within the same gauge framework (SU(3) × SU(2) × U(1)) — it does not unify the strong force with the electroweak sector (that is the goal of Grand Unified Theories). It describes quarks, leptons and the force-carrying bosons and accounts for virtually every particle physics result obtained at accelerators, from W and Z boson masses to the Higgs field.",
           "tag": "FRAMEWORK",
@@ -409,7 +419,8 @@
             "th8",
             "th6",
             "db8",
-            "me3"
+            "me3",
+            "db3"
           ],
           "hint": "The gauge theory of the strong force: quarks carry colour charge (red, green, blue) and interact by exchanging gluons. Asymptotic freedom — quarks behave like free particles at high energies but are permanently confined at low energies — is the key feature; it explains why isolated quarks are never observed and why protons and neutrons are stable.",
           "tag": "THEORY",
@@ -553,7 +564,8 @@
             "fg12",
             "co7",
             "st5",
-            "st7"
+            "st7",
+            "fg6"
           ],
           "hint": "Alpha particles fired at a thin gold foil were occasionally deflected through large angles — even backwards — which is impossible if atomic mass is spread evenly. Rutherford concluded that virtually all an atom's mass and positive charge is concentrated in a tiny central nucleus, founding nuclear physics.",
           "tag": "EXPERIMENT",
@@ -637,7 +649,8 @@
             "co4",
             "st4",
             "th7",
-            "st8"
+            "st8",
+            "ef5"
           ],
           "hint": "Chadwick identified a penetrating, uncharged radiation from beryllium as a new particle with roughly the same mass as a proton — the neutron. Its existence completed the proton-neutron model of the nucleus and provided a neutral probe that could initiate uranium fission without being repelled by the nucleus's positive charge.",
           "tag": "DISCOVERY",
@@ -1026,7 +1039,10 @@
             "ef5",
             "co4",
             "me5",
-            "ap5"
+            "ap5",
+            "th7",
+            "st7",
+            "fg12"
           ],
           "hint": "Radioactive elements spontaneously transmute into other elements at a constant fractional rate — the probability per unit time of any given nucleus decaying is fixed. This gives exponential decay characterised by a half-life, and means atoms are not immutable. The exponential decay law follows directly from quantum mechanical transition probabilities.",
           "tag": "DISCOVERY",
@@ -1056,7 +1072,9 @@
             "ef4",
             "st8",
             "st7",
-            "ef1"
+            "ef1",
+            "fg11",
+            "ap1"
           ],
           "hint": "A nucleus weighs slightly less than the sum of its constituent protons and neutrons — the missing mass is the binding energy holding it together (via E=mc²). The binding energy per nucleon peaks at iron-56, which means fission releases energy for heavy nuclei and fusion releases energy for light ones, explaining both stellar energy generation and nuclear weapons.",
           "tag": "PHENOMENON",
@@ -1111,7 +1129,8 @@
             "th2",
             "st12",
             "th9",
-            "db6"
+            "db6",
+            "co6"
           ],
           "hint": "Light bends as it passes a massive object because spacetime is curved — Eddington's 1919 solar eclipse expedition measured the apparent displacement of stars near the sun's limb and confirmed General Relativity's prediction, which is twice the Newtonian value. Gravitational lensing is now a precision cosmological tool for mapping dark matter and measuring the Hubble constant.",
           "tag": "EFFECT",
@@ -1167,7 +1186,10 @@
             "ef5",
             "st8",
             "ap1",
-            "db7"
+            "db7",
+            "st1",
+            "co4",
+            "fg11"
           ],
           "hint": "A direct consequence of Special Relativity: mass and energy are interconvertible, with the conversion factor c² ≈ 9 × 10¹⁶ J/kg. A tiny amount of mass converts to an enormous quantity of energy, explaining why the sun shines (fusion converts ~0.7% of hydrogen mass to energy), why nuclear fission releases megajoules per gram, and why matter-antimatter annihilation is perfectly efficient.",
           "tag": "LAW",
@@ -1237,7 +1259,9 @@
             "th4",
             "th5",
             "co3",
-            "ef1"
+            "ef1",
+            "co1",
+            "fg4"
           ],
           "hint": "Conjugate variables such as position and momentum, or energy and time, cannot both be precisely specified simultaneously: ΔxΔp ≥ ℏ/2. This is not about measurement disturbance but about the impossibility of preparing a quantum state with definite values for both — a fundamental feature of waves. It sets the minimum size of atomic orbitals and makes the zero-point energy of quantum systems nonzero.",
           "tag": "PRINCIPLE",
@@ -1266,7 +1290,12 @@
             "db5",
             "ef8",
             "co2",
-            "st16"
+            "st16",
+            "st11",
+            "me4",
+            "fg5",
+            "db1",
+            "ap2"
           ],
           "hint": "Quantum systems can exist in a superposition of multiple distinct states simultaneously; when two particles interact, their wavefunctions can become entangled — measuring one particle instantly determines the correlated outcome of measuring the other, regardless of the distance between them. These resources are now exploited in quantum computing, quantum cryptography, and quantum teleportation.",
           "tag": "CONCEPT",
@@ -1295,7 +1324,11 @@
             "ap5",
             "st8",
             "db7",
-            "th7"
+            "th7",
+            "st7",
+            "ef4",
+            "co7",
+            "me5"
           ],
           "hint": "Fission splits a heavy nucleus (uranium-235, plutonium-239) releasing ~200 MeV per event by moving down the binding energy curve from a less-stable heavy nucleus to more-stable mid-weight products. Fusion joins light nuclei (deuterium, tritium) releasing even more energy per kilogram — but requires extreme temperatures (~100 million K) to overcome electrostatic repulsion, making controlled fusion the grand engineering challenge of the 21st century.",
           "tag": "CONCEPT",
@@ -1349,7 +1382,9 @@
             "ef6",
             "ef7",
             "st10",
-            "st12"
+            "st12",
+            "fg2",
+            "ap6"
           ],
           "hint": "Space and time are not separate but unified into a four-dimensional manifold whose geometry is curved by mass and energy. Free-falling objects follow geodesics — the straightest possible paths in curved spacetime — and what we call gravity is the geometry of this manifold. The curvature of spacetime also slows time, bends light, and generates gravitational waves.",
           "tag": "CONCEPT",
@@ -1379,7 +1414,12 @@
             "co4",
             "th7",
             "me2",
-            "st16"
+            "st16",
+            "st4",
+            "me4",
+            "ap2",
+            "ap3",
+            "ap4"
           ],
           "hint": "Physical quantities that are continuous in classical physics — energy, angular momentum, charge, magnetic flux — take only discrete (quantised) values at the atomic scale. Planck's energy quanta (1900), Bohr's orbital shells (1913), and the nuclear shell model (1949) are successive applications of the same principle; quantum field theory extends it to fields themselves, so even the electromagnetic field is made of discrete photons.",
           "tag": "CONCEPT",
@@ -1586,7 +1626,8 @@
             "ef4",
             "st4",
             "me1",
-            "ap5"
+            "ap5",
+            "fg7"
           ],
           "hint": "Curie coined the term 'radioactivity', discovered polonium and radium, and was the first person to win two Nobel Prizes. Her systematic measurement of radioactive emissions as an intrinsic atomic property overturned the view that atoms are immutable, and her purification of radium laid the groundwork for nuclear medicine and radiation therapy.",
           "tag": "FIGURE",
@@ -1643,7 +1684,8 @@
             "fg1",
             "db1",
             "ef2",
-            "ap3"
+            "ap3",
+            "fg3"
           ],
           "hint": "Einstein's 1905 annus mirabilis produced four papers that each founded a field: the photoelectric effect (quantum of light), Brownian motion (proof of atoms), Special Relativity, and mass-energy equivalence. His 1915 General Relativity remains the most elegant physical theory ever constructed — and his lifelong opposition to Copenhagen quantum mechanics kept the foundations debate alive.",
           "tag": "FIGURE",
@@ -1670,7 +1712,8 @@
             "st7",
             "fg6",
             "fg12",
-            "me1"
+            "me1",
+            "ef4"
           ],
           "hint": "Rutherford discovered the nuclear atom (1911), demonstrated radioactive transmutation of elements (with Soddy, 1902), and first split the atom artificially by bombarding nitrogen with alpha particles (1917). His Cavendish Laboratory as director produced more Nobel laureates in physics than any other institution in the early 20th century.",
           "tag": "FIGURE",
@@ -1806,7 +1849,8 @@
             "st7",
             "fg7",
             "ef4",
-            "me1"
+            "me1",
+            "st4"
           ],
           "hint": "Chadwick's discovery of the neutron in 1932 completed the proton-neutron model of the nucleus and provided the neutral projectile that made nuclear fission possible. He later led the British contingent of the Manhattan Project at Los Alamos, reportedly the only person Oppenheimer trusted to adjudicate technical disputes between American and British scientists.",
           "tag": "FIGURE",
@@ -1978,7 +2022,8 @@
             "db5",
             "fg5",
             "ef8",
-            "st11"
+            "st11",
+            "fg3"
           ],
           "hint": "Everett proposed that the wavefunction never collapses — instead, every measurement outcome occurs in a branching universal wavefunction, and observers find themselves in definite branches by virtue of decoherence. The interpretation avoids the measurement problem but requires an unimaginably large ontology, and deriving the Born probability rule from branching structure alone is mathematically contested.",
           "tag": "DEBATE",
@@ -2007,7 +2052,8 @@
             "db4",
             "th9",
             "db6",
-            "th11"
+            "th11",
+            "db8"
           ],
           "hint": "General Relativity and quantum mechanics are individually the most successful physical theories ever devised, but they are mutually incompatible at the Planck scale. String theory unifies all forces in extra dimensions; loop quantum gravity quantises spacetime itself into discrete chunks. Neither has produced an experimentally testable prediction accessible to current technology.",
           "tag": "DEBATE",
