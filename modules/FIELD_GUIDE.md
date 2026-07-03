@@ -185,7 +185,9 @@ The global index aggregates them into an inverted index (`keyword_index` in `_gl
 so cross-folio connections surface automatically when two entries share a term.
 
 Rules:
-- Use 2–3 word phrases, not single words (`spaced repetition` not `repetition`).
+- Prefer 2–3 word phrases (`spaced repetition` not `repetition`), but a single **specific**
+  technical term is fine (`channelrhodopsin`, `oxytocin`). The rule to avoid is single
+  *generic* words (`memory`, `brain`) — CI flags any keyword that ends up in >15 entries.
 - Do **not** repeat information already captured by `tag`, `cat`, or `domain` — keywords
   should add cross-field discriminating value beyond the category taxonomy.
 - Target specificity: a good keyword appears in 2–15 entries across the full corpus (~800

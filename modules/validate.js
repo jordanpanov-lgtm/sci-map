@@ -17,6 +17,7 @@ const CANON = ['theory', 'study', 'effect', 'concept', 'method', 'figure', 'deba
 const PREFIX = { theory: 'th', study: 'st', effect: 'ef', concept: 'co', method: 'me', figure: 'fg', debate: 'db', application: 'ap' };
 const DOMAINS = ['formal-computing', 'physical-sciences', 'earth-space', 'life-sciences', 'human-biology', 'psychology', 'language', 'society', 'civics', 'philosophy'];
 const REPL = ['robust', 'mixed', 'failed'];
+const GENERIC_MAX = 15;   // guide: a good keyword appears in 2–15 entries; >15 = too generic to discriminate
 const REQUIRED_ENTRY = ['id', 'group', 'label', 'date', 'loc', 'coords', 'links', 'hint', 'tag', 'note'];
 const FORBIDDEN_ENTRY = ['fig', 'cat', 'groups'];
 const REQUIRED_FOLIO = ['id', 'title', 'subtitle', 'period', 'domain', 'mapCenter', 'mapZoom', 'methodology', 'categories', 'timeline'];
@@ -41,6 +42,7 @@ const files = fs.readdirSync(DIR).filter(f => f.endsWith('.json') && !f.startsWi
 // ── Pass 1: parse every folio, collect all global keys for xlink resolution ──
 const folios = {};
 const globalKeys = new Set();
+const kwFreq = {};   // keyword phrase → number of entries it appears in (corpus-wide)
 for (const file of files) {
   let data;
   try {
@@ -52,7 +54,10 @@ for (const file of files) {
   if (!data.id) { err(file, 'missing top-level "id"'); continue; }
   folios[data.id] = { file, data };
   for (const cat of (data.categories || [])) {
-    for (const e of (cat.entries || [])) globalKeys.add(`${data.id}::${e.id}`);
+    for (const e of (cat.entries || [])) {
+      globalKeys.add(`${data.id}::${e.id}`);
+      for (const k of (e.keywords || [])) if (typeof k === 'string') kwFreq[k] = (kwFreq[k] || 0) + 1;
+    }
   }
 }
 
@@ -126,7 +131,7 @@ for (const folioId of Object.keys(folios)) {
         } else {
           for (const k of e.keywords) {
             if (typeof k !== 'string' || !k.trim()) err(file, `${e.id}: keyword ${JSON.stringify(k)} must be a non-empty string`);
-            else if (!k.includes(' ')) warn(file, `${e.id}: keyword "${k}" is a single word — prefer 2–3 word phrases`);
+            else if (kwFreq[k] > GENERIC_MAX) warn(file, `${e.id}: keyword "${k}" appears in ${kwFreq[k]} entries — too generic (guide target: 2–15)`);
           }
         }
       } else {
