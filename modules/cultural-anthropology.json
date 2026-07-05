@@ -15,33 +15,35 @@
   "mapZoom": 1,
   "methodology": "METHODOLOGY · Every entry anchors to a landmark study, ethnographic fieldwork, paper or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags replication status (later re-study or re-analysis), revisions and known controversies. Studies and effects carry a replicability badge — 🟢 robust · 🟡 nuanced or reduced · 🔴 failed or severely contested. Map pins mark the location where the fieldwork was conducted.",
   "_meta": {
-    "total_entries": 71,
+    "total_entries": 81,
     "entry_counts": {
-      "theory": 10,
-      "study": 12,
+      "theory": 15,
+      "study": 13,
       "effect": 8,
       "concept": 8,
       "method": 6,
-      "figure": 12,
-      "debate": 9,
+      "figure": 14,
+      "debate": 11,
       "application": 6
     },
     "max_ids": {
-      "th": 10,
-      "st": 12,
+      "th": 15,
+      "st": 13,
       "ef": 8,
       "co": 8,
       "me": 6,
-      "fg": 12,
-      "db": 9,
+      "fg": 14,
+      "db": 11,
       "ap": 6
     },
     "groups": [
       "Exchange, Subsistence & Economy",
+      "Feminist & Decolonial Anthropology",
       "Fieldwork, Culture & Relativism",
       "Identity, Gender & the Body",
       "Kinship & Family Systems",
       "Language, Meaning & Worldview",
+      "Ontology, Multispecies & Digital Anthropology",
       "Pioneers & Theorists",
       "Power, Colonialism & Cultural Contact",
       "Ritual, Religion & Symbolism"
@@ -59,6 +61,11 @@
     "th8": "theory · Exchange, Subsistence & Economy · Gift Theory & the Norm of Reciprocity (1925)",
     "th9": "theory · Exchange, Subsistence & Economy · Cultural Materialism & Cultural Ecology (1955)",
     "th10": "theory · Power, Colonialism & Cultural Contact · Anthropology's Critique of Colonial Contact (1982)",
+    "th11": "theory · Feminist & Decolonial Anthropology · Is Female to Male as Nature Is to Culture? (1974)",
+    "th12": "theory · Feminist & Decolonial Anthropology · The Sex/Gender System (1975)",
+    "th13": "theory · Ontology, Multispecies & Digital Anthropology · The Ontological Turn & Multispecies Ethnography (2013)",
+    "th14": "theory · Ontology, Multispecies & Digital Anthropology · Actor-Network Theory (1987)",
+    "th15": "theory · Identity, Gender & the Body · Explanatory Models of Illness (1980)",
     "st1": "study · Exchange, Subsistence & Economy · Malinowski's Kula Ring (Trobriand Islands) (1922)",
     "st2": "study · Identity, Gender & the Body · Mead's Coming of Age in Samoa (1928)",
     "st3": "study · Kinship & Family Systems · Evans-Pritchard's The Nuer (1940)",
@@ -71,6 +78,7 @@
     "st10": "study · Language, Meaning & Worldview · Lucy's Yucatec Maya Cognition Study (1992)",
     "st11": "study · Exchange, Subsistence & Economy · Lee's !Kung 'Original Affluent Society' Study (1968)",
     "st12": "study · Fieldwork, Culture & Relativism · Morton's Craniometric Race Ranking (1839)",
+    "st13": "study · Ontology, Multispecies & Digital Anthropology · Boellstorff's Coming of Age in Second Life (2008)",
     "ef1": "effect · Power, Colonialism & Cultural Contact · Cargo Cults (1957)",
     "ef2": "effect · Kinship & Family Systems · Avunculocal Emphasis (Mother's Brother Role) (1924)",
     "ef3": "effect · Exchange, Subsistence & Economy · Potlatch Rivalry (1897)",
@@ -105,6 +113,8 @@
     "fg10": "figure · Pioneers & Theorists · Eric Wolf (1982)",
     "fg11": "figure · Pioneers & Theorists · Napoleon Chagnon (1968)",
     "fg12": "figure · Pioneers & Theorists · Zora Neale Hurston (1938)",
+    "fg13": "figure · Pioneers & Theorists · Linda Tuhiwai Smith (1999)",
+    "fg14": "figure · Pioneers & Theorists · Donna Haraway (1985)",
     "db1": "debate · Identity, Gender & the Body · Mead vs Freeman: Was Samoan Adolescence Free of Storm and Stress? (1983)",
     "db2": "debate · Power, Colonialism & Cultural Contact · Chagnon vs Ferguson/Harris: What Explains Yanomami Warfare? (1995)",
     "db3": "debate · Fieldwork, Culture & Relativism · Cultural Relativism vs Universal Human Rights (1947)",
@@ -114,6 +124,8 @@
     "db7": "debate · Ritual, Religion & Symbolism · Sahlins vs Obeyesekere: How Did Hawaiians Understand Captain Cook? (1992)",
     "db8": "debate · Kinship & Family Systems · How Exceptional Was Nayar Marriage? (1976)",
     "db9": "debate · Fieldwork, Culture & Relativism · Are There Human Cultural Universals? (1991)",
+    "db10": "debate · Feminist & Decolonial Anthropology · Can a Colonial-Born Discipline Decolonize Itself? (1999)",
+    "db11": "debate · Ontology, Multispecies & Digital Anthropology · Does the Ontological Turn Risk Re-Exoticizing Non-Western Thought? (2014)",
     "ap1": "application · Power, Colonialism & Cultural Contact · Applied Development Anthropology (1970)",
     "ap2": "application · Power, Colonialism & Cultural Contact · Forensic Anthropology & Human Rights Investigation (1984)",
     "ap3": "application · Exchange, Subsistence & Economy · Design Anthropology in Industry (1979)",
@@ -230,7 +242,8 @@
             "th6",
             "co5",
             "fg6",
-            "db7"
+            "db7",
+            "th11"
           ],
           "hint": "Beneath the surface diversity of myths, kinship rules and rituals lie universal deep structures of the human mind, built from binary oppositions (raw/cooked, nature/culture, male/female). Lévi-Strauss argued that comparing myths and marriage systems across cultures reveals the same underlying combinatorial logic, much as linguists find shared grammatical structures beneath different languages.",
           "tag": "THEORY",
@@ -284,7 +297,8 @@
             "st9",
             "st3",
             "co3",
-            "fg6"
+            "fg6",
+            "th12"
           ],
           "hint": "Kinship systems are best explained not by tracing descent (who is related to whom by blood) but by marriage exchange — societies enforce rules about who one must marry outside one's own group (exogamy), and this circulation of spouses between groups is what binds a society together, echoing Mauss's logic of gift exchange. Lévi-Strauss's alliance theory directly rivalled the British descent-theory school.",
           "tag": "THEORY",
@@ -335,7 +349,8 @@
             "st1",
             "ef3",
             "ef6",
-            "fg8"
+            "fg8",
+            "th12"
           ],
           "hint": "A gift is never truly free — every gift carries an obligation to give, to receive, and to reciprocate, and this three-part obligation, not market exchange, is what binds archaic and small-scale societies together. Mauss showed that objects exchanged in ceremonies like the Kula ring or the potlatch carry the giver's identity with them, making the exchange as much social and spiritual as economic.",
           "tag": "THEORY",
@@ -405,6 +420,120 @@
             "world systems periphery",
             "extractive contact history",
             "postcolonial critique"
+          ]
+        },
+        {
+          "id": "th11",
+          "group": "Feminist & Decolonial Anthropology",
+          "label": "Is Female to Male as Nature Is to Culture?",
+          "date": "1974",
+          "loc": "University of Michigan, Ann Arbor, Michigan",
+          "coords": [
+            42.28,
+            -83.74
+          ],
+          "links": [
+            "th4"
+          ],
+          "hint": "Ortner asked why women's subordination appeared to be a near-universal, cross-cultural pattern and proposed a provocative answer: cultures everywhere symbolically associate women with 'nature' (through childbearing and nurturing) and men with 'culture' (the domain of transformation and control), and since culture is everywhere valued as superior to nature, this symbolic mapping helps explain why women's status is so consistently subordinated.",
+          "tag": "THEORY",
+          "note": "Ortner, S. B. (1974). 'Is Female to Male as Nature Is to Culture?' in Woman, Culture, and Society, eds. M. Z. Rosaldo & L. Lamphere. Stanford University Press. One of the founding texts of feminist anthropology as a distinct theoretical project. Ortner herself later partially revised the argument (1996, 'Making Gender') in response to critics who argued the nature/culture dichotomy is itself a Western cultural construct not shared by all the societies it was being applied to.",
+          "keywords": [
+            "feminist anthropology founding",
+            "nature culture gender symbolism",
+            "Ortner universal subordination"
+          ]
+        },
+        {
+          "id": "th12",
+          "group": "Feminist & Decolonial Anthropology",
+          "label": "The Sex/Gender System",
+          "date": "1975",
+          "loc": "University of Michigan, Ann Arbor, Michigan",
+          "coords": [
+            42.28,
+            -83.74
+          ],
+          "links": [
+            "th6",
+            "th8"
+          ],
+          "hint": "Rubin distinguished biological sex from the 'sex/gender system' — the specific social arrangements through which every known society takes raw biological sex differences and transforms them into culturally organized gender roles, kinship obligations and often the exchange of women themselves between men, drawing directly on Lévi-Strauss's kinship theory to argue that women's oppression is produced by these systems, not by biology itself.",
+          "tag": "THEORY",
+          "note": "Rubin, G. (1975). 'The Traffic in Women: Notes on the \"Political Economy\" of Sex,' in Toward an Anthropology of Women, ed. R. R. Reiter. Monthly Review Press. Directly built on and critiqued Lévi-Strauss's alliance theory (th6) and Mauss's gift theory (th8), applying their own logic of exchange to argue women were being treated as objects of exchange rather than exchanging subjects. Rubin later moved toward a more sex-positive framework in 'Thinking Sex' (1984), somewhat distancing herself from parts of her earlier argument.",
+          "keywords": [
+            "sex gender system Rubin",
+            "traffic in women theory",
+            "kinship exchange feminist critique"
+          ]
+        },
+        {
+          "id": "th13",
+          "group": "Ontology, Multispecies & Digital Anthropology",
+          "label": "The Ontological Turn & Multispecies Ethnography",
+          "date": "2013",
+          "loc": "University of Toronto, Toronto, Canada",
+          "coords": [
+            43.66,
+            -79.4
+          ],
+          "links": [
+            "th14",
+            "fg14",
+            "db11"
+          ],
+          "hint": "Rather than treating 'nature' as a passive backdrop that different cultures merely interpret differently, Kohn argued that non-human beings — the forest, the jaguar, the vine — are themselves meaning-making, semiotic agents that humans think and communicate with, not just about, challenging anthropology's long-standing assumption that meaning and representation are exclusively human capacities.",
+          "tag": "THEORY",
+          "note": "Kohn, E. (2013). 'How Forests Think: Toward an Anthropology Beyond the Human.' University of California Press, based on fieldwork with the Runa people of Ecuador's Upper Amazon. Part of a broader 'ontological turn' also associated with Philippe Descola's 'Beyond Nature and Culture' (2005, Gallimard), which catalogued fundamentally different ways societies organize the relationship between humans and non-humans, beyond the modern Western nature/culture split. Critics worry the ontological turn can risk re-exoticizing Indigenous cosmologies as radically 'other' ways of thinking rather than as reasoned responses to shared material conditions (see db11).",
+          "keywords": [
+            "ontological turn anthropology",
+            "multispecies ethnography",
+            "nature culture divide critique",
+            "Amazonian cosmology"
+          ]
+        },
+        {
+          "id": "th14",
+          "group": "Ontology, Multispecies & Digital Anthropology",
+          "label": "Actor-Network Theory",
+          "date": "1987",
+          "loc": "École des Mines de Paris, Paris, France",
+          "coords": [
+            48.846,
+            2.339
+          ],
+          "links": [
+            "th13"
+          ],
+          "hint": "Latour argued that objects, technologies and even microbes should be treated as 'actors' in social life alongside humans — a laboratory's success depends as much on its scallops, microbes or scientific instruments actively 'acting' within a network of relations as on the scientists themselves, dissolving the usual sharp line between active human subjects and passive non-human objects.",
+          "tag": "THEORY",
+          "note": "Latour, B. (1987). 'Science in Action: How to Follow Scientists and Engineers through Society.' Harvard University Press, developed with Michel Callon and John Law. Originally rooted in science and technology studies, actor-network theory has since been widely adopted across anthropology, sociology and geography. Critics argue that granting objects and humans equal analytical standing as 'actors' can obscure important moral and political differences — a scallop and a scientist are not accountable for outcomes in the same way.",
+          "keywords": [
+            "actor network theory Latour",
+            "non-human agency",
+            "science technology studies anthropology"
+          ]
+        },
+        {
+          "id": "th15",
+          "group": "Identity, Gender & the Body",
+          "label": "Explanatory Models of Illness",
+          "date": "1980",
+          "loc": "Harvard Medical School, Boston, Massachusetts",
+          "coords": [
+            42.336,
+            -71.107
+          ],
+          "links": [
+            "ap6"
+          ],
+          "hint": "Patients and doctors often operate with entirely different 'explanatory models' of the same illness — a patient may understand their condition through moral, spiritual or social causes while a clinician reasons in purely biomedical terms — and Kleinman argued that ignoring this gap, rather than actively eliciting and working with the patient's own explanatory model, is a major reason medical treatment fails even when the biomedical diagnosis itself is correct.",
+          "tag": "THEORY",
+          "note": "Kleinman, A. (1980). 'Patients and Healers in the Context of Culture: An Exploration of the Borderland between Anthropology, Medicine, and Psychiatry.' University of California Press. Foundational to medical anthropology as a distinct subfield, and directly influenced clinical practice through Kleinman's later 'eight questions' framework for eliciting a patient's explanatory model in ordinary clinical encounters. Connects directly to Farmer's applied work on structural violence and treatment adherence (ap6).",
+          "keywords": [
+            "explanatory models illness",
+            "medical anthropology founding theory",
+            "patient healer communication gap"
           ]
         }
       ]
@@ -723,6 +852,29 @@
             "scientific racism history",
             "cranial capacity ranking",
             "Gould Morton controversy"
+          ]
+        },
+        {
+          "id": "st13",
+          "group": "Ontology, Multispecies & Digital Anthropology",
+          "label": "Boellstorff's Coming of Age in Second Life",
+          "date": "2008",
+          "loc": "University of California, Irvine, California",
+          "coords": [
+            33.64,
+            -117.84
+          ],
+          "links": [
+            "me1"
+          ],
+          "hint": "Boellstorff conducted years of participant observation entirely inside the virtual world Second Life — attending events, building relationships, even experiencing virtual embodiment — treating the platform as a genuine field site with its own culture, norms and forms of selfhood, arguing virtual worlds deserve the same ethnographic seriousness anthropologists bring to physical communities.",
+          "tag": "FIELD STUDY",
+          "repl": "robust",
+          "note": "Boellstorff, T. (2008). 'Coming of Age in Second Life: An Anthropologist Explores the Virtually Human.' Princeton University Press. One of the first sustained academic ethnographies of a virtual world, establishing methodological norms (e.g., conducting fieldwork itself in-world, through an avatar) that later digital anthropologists and game studies scholars have extended to other online communities and platforms.",
+          "keywords": [
+            "digital anthropology virtual ethnography",
+            "Second Life fieldwork",
+            "online community anthropology"
           ]
         }
       ]
@@ -1165,7 +1317,8 @@
           "links": [
             "st1",
             "fg2",
-            "db6"
+            "db6",
+            "st13"
           ],
           "hint": "The anthropologist lives among the people they study for an extended period — a year or more — learning the local language, participating in daily and ceremonial life, and recording observations as they happen, rather than relying on brief visits, interpreters, or secondhand colonial reports. Malinowski's Trobriand fieldwork set the template that made this the discipline's defining method.",
           "tag": "METHOD",
@@ -1570,6 +1723,51 @@
             "African American folklore fieldwork",
             "Haiti Vodou ethnography"
           ]
+        },
+        {
+          "id": "fg13",
+          "group": "Pioneers & Theorists",
+          "label": "Linda Tuhiwai Smith",
+          "date": "1999",
+          "loc": "University of Waikato, Hamilton, New Zealand",
+          "coords": [
+            -37.79,
+            175.32
+          ],
+          "links": [
+            "ap5",
+            "db10"
+          ],
+          "hint": "A Māori scholar, Tuhiwai Smith argued that 'research' itself is one of the dirtiest words in the vocabulary of Indigenous peoples, given how thoroughly anthropology and other Western disciplines had historically studied Indigenous communities as objects rather than partners — and laid out concrete methodological alternatives that put Indigenous communities in control of what gets researched, how, and who benefits.",
+          "tag": "FIGURE",
+          "note": "Tuhiwai Smith, L. (1999). 'Decolonizing Methodologies: Research and Indigenous Peoples.' Zed Books / University of Otago Press. Became foundational reading across anthropology, education and Indigenous studies internationally, directly shaping ethical guidelines now required for research with Indigenous communities in many countries, including institutional review requirements for community consultation and benefit-sharing.",
+          "keywords": [
+            "decolonizing methodologies",
+            "Indigenous research ethics",
+            "Maori scholarship anthropology critique"
+          ]
+        },
+        {
+          "id": "fg14",
+          "group": "Pioneers & Theorists",
+          "label": "Donna Haraway",
+          "date": "1985",
+          "loc": "University of California, Santa Cruz, California",
+          "coords": [
+            36.97,
+            -122.06
+          ],
+          "links": [
+            "th13"
+          ],
+          "hint": "Haraway argued that the boundary between human, animal and machine was already breaking down in late 20th-century technoscience, and that rather than mourning this as a loss of pure humanity, feminist theory should embrace the 'cyborg' as a figure that escapes rigid categories of gender, species and nature altogether — a provocation that opened anthropology and feminist theory to serious study of technology, animals and hybrid identities.",
+          "tag": "FIGURE",
+          "note": "Haraway, D. (1985). 'A Cyborg Manifesto: Science, Technology, and Socialist-Feminism in the Late Twentieth Century.' Socialist Review, 80, 65–108. Also foundational to multispecies and companion-species scholarship through 'The Companion Species Manifesto' (2003), Prickly Paradigm Press. A historian of science by training, Haraway's influence spans anthropology, feminist theory and science and technology studies alike.",
+          "keywords": [
+            "Donna Haraway cyborg theory",
+            "feminist technoscience anthropology",
+            "companion species multispecies"
+          ]
         }
       ]
     },
@@ -1641,7 +1839,8 @@
           ],
           "links": [
             "th1",
-            "co1"
+            "co1",
+            "db10"
           ],
           "hint": "If every culture's values must be understood on its own terms, can anthropology still condemn practices as human rights violations, or does that condemnation itself impose one culture's standard on another? The discipline's own founding professional body initially sided with relativism against a universal declaration, then reversed itself decades later.",
           "tag": "DEBATE",
@@ -1788,6 +1987,52 @@
             "cultural particularism challenge",
             "anthropology relativism universalism tension"
           ]
+        },
+        {
+          "id": "db10",
+          "group": "Feminist & Decolonial Anthropology",
+          "label": "Can a Colonial-Born Discipline Decolonize Itself?",
+          "date": "1999",
+          "loc": "University of Waikato, Hamilton, New Zealand",
+          "coords": [
+            -37.79,
+            175.32
+          ],
+          "links": [
+            "fg13",
+            "ap5",
+            "db3"
+          ],
+          "hint": "Anthropology's own methods and archive were built substantially through colonial-era access and power imbalances — critics ask whether reforms like community consent protocols and repatriation can genuinely address that history, or whether the discipline's fundamental relationship to the communities it studies remains structurally unequal no matter how respectfully any single researcher behaves.",
+          "tag": "DEBATE",
+          "note": "Tuhiwai Smith, L. (1999, fg13) laid out the sharpest version of the critique. Defenders of reformed anthropology (connecting to db3's human-rights debate) argue that community-controlled research partnerships, repatriation (ap5) and Indigenous co-authorship represent genuine structural change, not cosmetic fixes — while critics counter that the discipline's institutional home, funding structures and publication incentives still overwhelmingly reward outside researchers over the communities themselves, an unresolved structural tension rather than a settled question.",
+          "keywords": [
+            "decolonizing anthropology debate",
+            "research ethics power imbalance",
+            "Indigenous knowledge sovereignty"
+          ]
+        },
+        {
+          "id": "db11",
+          "group": "Ontology, Multispecies & Digital Anthropology",
+          "label": "Does the Ontological Turn Risk Re-Exoticizing Non-Western Thought?",
+          "date": "2014",
+          "loc": "University of Cambridge, Cambridge, England",
+          "coords": [
+            52.2,
+            0.12
+          ],
+          "links": [
+            "th13"
+          ],
+          "hint": "By treating Indigenous cosmologies as describing literally different realities rather than different beliefs about one shared reality, the ontological turn aimed to take non-Western thought more seriously than earlier relativism had — but critics warn this can just as easily reproduce the old colonial trope of the 'exotic native' with a fundamentally alien mind, this time dressed in sophisticated philosophical language instead of crude racial theory.",
+          "tag": "DEBATE",
+          "note": "Viveiros de Castro, E. (1998). 'Cosmological Deixis and Amerindian Perspectivism.' Journal of the Royal Anthropological Institute, 4(3), 469–488, and Kohn (2013, th13) developed influential ontological-turn positions. Critics including Bessire, L. & Bond, D. (2014). 'Ontological Anthropology and the Deferral of Critique.' American Ethnologist, 41(3), 440–456, argued the approach can depoliticize real material inequality and conflict by reframing them as abstract disagreements about the nature of reality itself, rather than as struggles over land, resources and power — a genuinely unresolved methodological tension within the subfield.",
+          "keywords": [
+            "ontological turn critique",
+            "perspectivism anthropology debate",
+            "re-exoticizing indigenous thought"
+          ]
         }
       ]
     },
@@ -1899,7 +2144,9 @@
             -77.04
           ],
           "links": [
-            "co4"
+            "co4",
+            "fg13",
+            "db10"
           ],
           "hint": "Museums and universities that had accumulated Indigenous human remains and sacred ceremonial objects, often collected without consent during the colonial and salvage-ethnography era, are now legally required in some countries to identify likely descendant communities and return those remains and objects on request.",
           "tag": "APPLICATION",
@@ -1921,7 +2168,8 @@
             -72.09
           ],
           "links": [
-            "ef4"
+            "ef4",
+            "th15"
           ],
           "hint": "Medical anthropologists working alongside public health practitioners have shown that treatment programs fail when they ignore local understandings of illness, stigma and poverty — and succeed when clinical care is redesigned around a community's actual social and economic constraints.",
           "tag": "APPLICATION",
@@ -2001,6 +2249,11 @@
           "y": 1992,
           "l": "Lucy: Yucatec Maya cognition test",
           "entryId": "st10"
+        },
+        {
+          "y": 2008,
+          "l": "Boellstorff: Second Life ethnography",
+          "entryId": "st13"
         }
       ]
     },
@@ -2056,9 +2309,34 @@
           "entryId": "th3"
         },
         {
+          "y": 1974,
+          "l": "Ortner: nature/culture gender theory",
+          "entryId": "th11"
+        },
+        {
+          "y": 1975,
+          "l": "Rubin: the sex/gender system",
+          "entryId": "th12"
+        },
+        {
+          "y": 1980,
+          "l": "Kleinman: explanatory models of illness",
+          "entryId": "th15"
+        },
+        {
           "y": 1982,
           "l": "Wolf: colonialism critique",
           "entryId": "th10"
+        },
+        {
+          "y": 1987,
+          "l": "Latour: actor-network theory",
+          "entryId": "th14"
+        },
+        {
+          "y": 2013,
+          "l": "Kohn: ontological turn begins",
+          "entryId": "th13"
         }
       ]
     },
@@ -2195,9 +2473,19 @@
           "entryId": "db2"
         },
         {
+          "y": 1999,
+          "l": "Tuhiwai Smith: decolonizing methodologies",
+          "entryId": "db10"
+        },
+        {
           "y": 2010,
           "l": "AAA: is anthropology a science?",
           "entryId": "db4"
+        },
+        {
+          "y": 2014,
+          "l": "Bessire & Bond: ontological turn critique",
+          "entryId": "db11"
         }
       ]
     },

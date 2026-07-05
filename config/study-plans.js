@@ -632,12 +632,22 @@ const STUDY_PLANS = {
         groups: ['Power, Colonialism & Cultural Contact']
       },
       {
-        title: '9 — Debates & Open Questions',
+        title: '9 — Feminist & Decolonial Anthropology',
+        rationale: 'Ortner and Rubin extended structuralist and exchange theory (module 6, 7) directly into a critique of gender inequality itself, while Tuhiwai Smith\'s decolonizing methodologies pushed the discipline to reckon with its own colonial-era research practices — the theoretical and the institutional halves of the same reckoning.',
+        groups: ['Feminist & Decolonial Anthropology']
+      },
+      {
+        title: '10 — Ontology, Multispecies & Digital Anthropology',
+        rationale: 'The newest frontier of the discipline extends ethnographic seriousness to non-human actors (Kohn, Latour, Haraway) and to entirely virtual field sites (Boellstorff), while the accompanying debate asks whether this expansion risks repeating old exoticising habits in new philosophical language.',
+        groups: ['Ontology, Multispecies & Digital Anthropology']
+      },
+      {
+        title: '11 — Debates & Open Questions',
         rationale: 'Most of anthropology\'s sharpest disputes are already folded into their relevant content module above, so this module catches anything left over — treat it as a final check that no open question has been skipped.',
         cats: ['debate']
       },
       {
-        title: '10 — Applications',
+        title: '12 — Applications',
         rationale: 'Close by seeing anthropology at work outside the university: development consulting, forensic human rights investigation, corporate design research, language revitalisation, museum repatriation and global health all directly repurpose the discipline\'s methods and findings.',
         cats: ['application']
       }
@@ -687,12 +697,22 @@ const STUDY_PLANS = {
         groups: ['Deviance, Norms & Social Control']
       },
       {
-        title: '9 — Debates & Open Questions',
+        title: '9 — Late Modernity & Global Theory',
+        rationale: 'Foucault, Giddens, Bauman and Beck bridge classical sociology (module 3) to the present, while Connell\'s Southern theory directly challenges the almost entirely Euro-American cast of figures met so far — a deliberate corrective placed here rather than left implicit.',
+        groups: ['Late Modernity & Global Theory']
+      },
+      {
+        title: '10 — Digital Society & Environment',
+        rationale: 'Zuboff\'s surveillance capitalism and the Gender Shades algorithmic-bias audit extend the discipline into platforms and code; Schnaiberg\'s treadmill of production does the same for the environment — three areas barely visible in sociology\'s classical canon but central to its contemporary research agenda.',
+        groups: ['Digital Society & Environment']
+      },
+      {
+        title: '11 — Debates & Open Questions',
         rationale: 'Most of sociology\'s sharpest live disputes are already folded into their relevant content module above; this module catches anything left over as a final audit of open questions.',
         cats: ['debate']
       },
       {
-        title: '10 — Applications',
+        title: '12 — Applications',
         rationale: 'Close by seeing sociology at work in policy and practice: Ban the Box hiring reform, civic-engagement initiatives, corporate HR consulting, school desegregation policy, restorative justice and consumer marketing all directly repurpose the discipline\'s theories and findings.',
         cats: ['application']
       }

@@ -15,32 +15,34 @@
   "mapZoom": 3,
   "methodology": "METHODOLOGY · Every entry anchors to a landmark study, survey, paper or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags replication status, revisions and known controversies. Studies and effects carry a replicability badge — 🟢 robust · 🟡 nuanced or reduced · 🔴 failed or severely contested. Map pins mark the institution where the work was carried out.",
   "_meta": {
-    "total_entries": 71,
+    "total_entries": 84,
     "entry_counts": {
-      "theory": 11,
-      "study": 10,
+      "theory": 19,
+      "study": 11,
       "effect": 10,
       "concept": 9,
       "method": 6,
-      "figure": 11,
-      "debate": 8,
-      "application": 6
+      "figure": 13,
+      "debate": 9,
+      "application": 7
     },
     "max_ids": {
-      "th": 11,
-      "st": 10,
+      "th": 19,
+      "st": 11,
       "ef": 10,
       "co": 9,
       "me": 6,
-      "fg": 11,
-      "db": 8,
-      "ap": 6
+      "fg": 13,
+      "db": 9,
+      "ap": 7
     },
     "groups": [
       "Bureaucracy, Organizations & Work",
       "Classical Theoretical Traditions",
       "Deviance, Norms & Social Control",
+      "Digital Society & Environment",
       "Institutions: Family, Education & Religion",
+      "Late Modernity & Global Theory",
       "Pioneers & Theorists",
       "Race, Gender & Inequality",
       "Social Stratification & Class",
@@ -60,6 +62,14 @@
     "th9": "theory · Race, Gender & Inequality · Intersectionality (1989)",
     "th10": "theory · Urbanization & Social Change · Urban Ecology (Chicago School) (1925)",
     "th11": "theory · Institutions: Family, Education & Religion · Social Constructionism (1966)",
+    "th12": "theory · Late Modernity & Global Theory · Discipline, Surveillance & the Panopticon (1975)",
+    "th13": "theory · Late Modernity & Global Theory · Structuration Theory (1984)",
+    "th14": "theory · Late Modernity & Global Theory · Liquid Modernity (2000)",
+    "th15": "theory · Late Modernity & Global Theory · Risk Society (1986)",
+    "th16": "theory · Late Modernity & Global Theory · Southern Theory (2007)",
+    "th17": "theory · Digital Society & Environment · Surveillance Capitalism (2019)",
+    "th18": "theory · Digital Society & Environment · Treadmill of Production (1980)",
+    "th19": "theory · Race, Gender & Inequality · Gender Performativity (1990)",
     "st1": "study · Classical Theoretical Traditions · Durkheim's Suicide (1897)",
     "st2": "study · Urbanization & Social Change · Milgram's Small World Experiment (1967)",
     "st3": "study · Urbanization & Social Change · Whyte's Street Corner Society (1943)",
@@ -70,6 +80,7 @@
     "st8": "study · Race, Gender & Inequality · Pager's Mark of a Criminal Record (2003)",
     "st9": "study · Social Stratification & Class · Bourdieu & Passeron's The Inheritors (1964)",
     "st10": "study · Urbanization & Social Change · Christakis & Fowler's Social Contagion of Obesity (2007)",
+    "st11": "study · Digital Society & Environment · Buolamwini & Gebru's 'Gender Shades' Audit (2018)",
     "ef1": "effect · Classical Theoretical Traditions · Thomas Theorem & Self-Fulfilling Prophecy (1928)",
     "ef2": "effect · Social Stratification & Class · Matthew Effect (Cumulative Advantage) (1968)",
     "ef3": "effect · Social Stratification & Class · Conspicuous Consumption (1899)",
@@ -106,6 +117,8 @@
     "fg9": "figure · Pioneers & Theorists · W. E. B. Du Bois (1899)",
     "fg10": "figure · Pioneers & Theorists · Harriet Martineau (1838)",
     "fg11": "figure · Pioneers & Theorists · Patricia Hill Collins (1990)",
+    "fg12": "figure · Pioneers & Theorists · Michel Foucault (1975)",
+    "fg13": "figure · Pioneers & Theorists · Raewyn Connell (2007)",
     "db1": "debate · Classical Theoretical Traditions · Structural Functionalism vs Conflict Theory (1959)",
     "db2": "debate · Classical Theoretical Traditions · Is Sociology a Science? Positivism vs Interpretivism (1904)",
     "db3": "debate · Urbanization & Social Change · Milgram's Small World: How Small Is It, Really? (2002)",
@@ -114,12 +127,14 @@
     "db6": "debate · Institutions: Family, Education & Religion · Is the Secularization Thesis Wrong? (1999)",
     "db7": "debate · Social Stratification & Class · The Coleman Report: Do Schools or Families Drive Achievement Gaps? (1966)",
     "db8": "debate · Bureaucracy, Organizations & Work · Is Bureaucracy Actually Efficient? (1963)",
+    "db9": "debate · Late Modernity & Global Theory · Does Globalization Homogenize or Localize Culture? (1993)",
     "ap1": "application · Race, Gender & Inequality · Ban the Box & Audit-Study-Informed Policy (2004)",
     "ap2": "application · Urbanization & Social Change · Civic Engagement & Social Capital Policy Initiatives (2000)",
     "ap3": "application · Bureaucracy, Organizations & Work · Corporate Culture & Institutional Isomorphism in HR Practice (1991)",
     "ap4": "application · Institutions: Family, Education & Religion · School Desegregation & Funding Policy (1971)",
     "ap5": "application · Deviance, Norms & Social Control · Restorative Justice Programs (1974)",
-    "ap6": "application · Social Stratification & Class · Consumer Marketing & Status-Signaling Research (1899)"
+    "ap6": "application · Social Stratification & Class · Consumer Marketing & Status-Signaling Research (1899)",
+    "ap7": "application · Digital Society & Environment · GDPR & Data Privacy Regulation (2018)"
   },
   "categories": [
     {
@@ -146,7 +161,8 @@
             "co2",
             "ef1",
             "fg4",
-            "db1"
+            "db1",
+            "th13"
           ],
           "hint": "Society is a system of interdependent parts — family, economy, education, religion — each contributing to overall stability, much as organs sustain a body. Parsons formalised this into a general theory of social action; Merton later refined it by distinguishing a practice's manifest (intended, recognised) function from its latent (unintended, often hidden) one, showing institutions can persist for reasons nobody consciously endorses.",
           "tag": "THEORY",
@@ -174,7 +190,9 @@
           "links": [
             "ef3",
             "fg3",
-            "db1"
+            "db1",
+            "th16",
+            "th18"
           ],
           "hint": "Society is not a harmonious system but an arena of struggle between groups with opposed material interests — classically, those who own the means of production and those who sell their labour to survive. Marx argued that a society's economic base shapes its politics, law and culture, and that this class conflict is the engine of historical change, not gradual consensus.",
           "tag": "THEORY",
@@ -225,7 +243,8 @@
             "co3",
             "co9",
             "fg2",
-            "db2"
+            "db2",
+            "th13"
           ],
           "hint": "To explain social behaviour, a sociologist must first understand the subjective meaning the actor attaches to their own action (Verstehen, 'interpretive understanding') — not just observe outward behaviour as if it were a physical event. Weber classified action into types (traditional, affectual, value-rational, instrumentally rational) and argued modern society is defined by the rising dominance of instrumentally rational calculation over tradition and emotion.",
           "tag": "THEORY",
@@ -414,6 +433,190 @@
             "institutionalization process",
             "sociology of knowledge",
             "objectified social fact"
+          ]
+        },
+        {
+          "id": "th12",
+          "group": "Late Modernity & Global Theory",
+          "label": "Discipline, Surveillance & the Panopticon",
+          "date": "1975",
+          "loc": "Collège de France, Paris, France",
+          "coords": [
+            48.847,
+            2.345
+          ],
+          "links": [
+            "ef10",
+            "fg12"
+          ],
+          "hint": "Modern power doesn't primarily work through violent punishment on display, but through subtle, continuous surveillance and self-discipline — Foucault used Bentham's Panopticon prison design, where inmates can never be sure if they're being watched, as a model for how schools, hospitals, factories and prisons all train people to police themselves, making direct force largely unnecessary.",
+          "tag": "THEORY",
+          "note": "Foucault, M. (1975). 'Surveiller et punir: Naissance de la prison' (Discipline and Punish: The Birth of the Prison). Éditions Gallimard. One of the most cited works in 20th-century social theory, reshaping sociology, criminology and media studies' understanding of power as diffuse and productive rather than simply repressive and top-down. Critics note Foucault's account can seem to leave little room for resistance or individual agency against these disciplinary systems.",
+          "keywords": [
+            "panopticon disciplinary power",
+            "Foucault surveillance society",
+            "self policing institutions",
+            "biopower governmentality"
+          ]
+        },
+        {
+          "id": "th13",
+          "group": "Late Modernity & Global Theory",
+          "label": "Structuration Theory",
+          "date": "1984",
+          "loc": "London School of Economics, London, England",
+          "coords": [
+            51.51,
+            -0.12
+          ],
+          "links": [
+            "th1",
+            "th4"
+          ],
+          "hint": "Rather than picking a side in sociology's long structure-versus-agency debate, Giddens argued the two are mutually constituting: social structures only exist because people's actions repeatedly reproduce them, and people's actions are only possible because those same structures give them the resources and rules to act with — structure and agency are two sides of the same process, not opposing forces.",
+          "tag": "THEORY",
+          "note": "Giddens, A. (1984). 'The Constitution of Society: Outline of the Theory of Structuration.' Polity Press. Directly aimed at resolving the tension between Durkheimian structural determinism (th1) and Weberian emphasis on individual meaning-making (th4). Critics argue the theory's abstraction makes it difficult to generate specific, testable empirical predictions compared to more concrete middle-range theories.",
+          "keywords": [
+            "structuration theory Giddens",
+            "structure agency duality",
+            "reflexive modernity",
+            "rules and resources"
+          ]
+        },
+        {
+          "id": "th14",
+          "group": "Late Modernity & Global Theory",
+          "label": "Liquid Modernity",
+          "date": "2000",
+          "loc": "University of Leeds, Leeds, England",
+          "coords": [
+            53.8,
+            -1.55
+          ],
+          "links": [],
+          "hint": "Where earlier ('solid') modernity built durable institutions, careers and lifelong commitments meant to last, contemporary ('liquid') modernity is defined by constant flux — relationships, jobs, identities and communities are now provisional and easily dissolved, leaving individuals to navigate risk and belonging without the stable structures earlier generations could rely on.",
+          "tag": "THEORY",
+          "note": "Bauman, Z. (2000). 'Liquid Modernity.' Polity Press, the first and best-known of a series of 'liquid' books extending the metaphor to love, fear and life itself. Influential well beyond sociology, though critics note the fluid metaphor can be used so broadly it risks describing almost any social change as 'liquefaction' without much specific predictive content.",
+          "keywords": [
+            "liquid modernity Bauman",
+            "fluid social institutions",
+            "postmodern uncertainty identity"
+          ]
+        },
+        {
+          "id": "th15",
+          "group": "Late Modernity & Global Theory",
+          "label": "Risk Society",
+          "date": "1986",
+          "loc": "University of Munich, Munich, Germany",
+          "coords": [
+            48.15,
+            11.58
+          ],
+          "links": [],
+          "hint": "Industrial society organized itself around distributing wealth; Beck argued late-modern society instead organizes itself around distributing risk — man-made hazards like nuclear contamination and climate change that don't respect class or national boundaries the way traditional poverty did, forcing new forms of politics and expertise focused on managing hazards nobody can fully calculate or escape.",
+          "tag": "THEORY",
+          "note": "Beck, U. (1986). 'Risikogesellschaft: Auf dem Weg in eine andere Moderne' (Risk Society: Towards a New Modernity). Suhrkamp Verlag, written shortly before the Chernobyl disaster, widely seen as vindicating its thesis. Later critics (e.g., Scott, A. 2000) argued Beck overstated how novel or classless these risks really are, noting even 'global' hazards like climate change still fall disproportionately on poorer populations and countries.",
+          "keywords": [
+            "risk society Beck",
+            "manufactured uncertainty modernity",
+            "reflexive modernization hazard"
+          ]
+        },
+        {
+          "id": "th16",
+          "group": "Late Modernity & Global Theory",
+          "label": "Southern Theory",
+          "date": "2007",
+          "loc": "University of Sydney, Sydney, Australia",
+          "coords": [
+            -33.89,
+            151.19
+          ],
+          "links": [
+            "th2",
+            "fg13",
+            "db9"
+          ],
+          "hint": "Nearly all of sociology's foundational theory was written by European and North American men theorizing about their own societies, yet it gets taught worldwide as if it were universal social science — Connell argued this 'Northern' bias structures the whole discipline, and that theorists from Latin America, Africa, India and Australia have long produced equally rigorous accounts of modernity and social change that the mainstream canon simply ignored.",
+          "tag": "FRAMEWORK",
+          "note": "Connell, R. (2007). 'Southern Theory: The Global Dynamics of Knowledge in Social Science.' Allen & Unwin, drew in part on earlier Latin American dependency theorists like Fernando Henrique Cardoso and Enzo Faletto (1979, 'Dependency and Development in Latin America,' University of California Press), who had already argued decades earlier that Latin American underdevelopment was a structural product of its position in the global economy, not a stage every society passes through on the way to Western-style development. Connell's broader critique has reshaped how sociology curricula are being revised internationally, though implementation remains uneven.",
+          "keywords": [
+            "southern theory Connell",
+            "Global South sociology",
+            "dependency theory Cardoso",
+            "Northern bias social science"
+          ]
+        },
+        {
+          "id": "th17",
+          "group": "Digital Society & Environment",
+          "label": "Surveillance Capitalism",
+          "date": "2019",
+          "loc": "Harvard Business School, Boston, Massachusetts",
+          "coords": [
+            42.366,
+            -71.121
+          ],
+          "links": [
+            "ef6",
+            "st11",
+            "ap7"
+          ],
+          "hint": "Technology companies have built a new economic model that treats human experience itself as free raw material — every click, location and conversation is extracted, analyzed and turned into predictions about future behavior, then sold to advertisers and other buyers, all without users meaningfully consenting to or even understanding the scale of the extraction.",
+          "tag": "THEORY",
+          "note": "Zuboff, S. (2019). 'The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power.' PublicAffairs. Built substantially on Google and Facebook's actual business practices and internal documents. Critics (including some Marxist scholars) argue Zuboff frames surveillance capitalism as a novel deviation from 'normal' capitalism rather than a continuation of capitalism's long-standing tendency to commodify anything it can, including personal data and attention.",
+          "keywords": [
+            "surveillance capitalism Zuboff",
+            "behavioral data extraction",
+            "platform economy critique",
+            "algorithmic prediction market"
+          ]
+        },
+        {
+          "id": "th18",
+          "group": "Digital Society & Environment",
+          "label": "Treadmill of Production",
+          "date": "1980",
+          "loc": "Northwestern University, Evanston, Illinois",
+          "coords": [
+            42.06,
+            -87.68
+          ],
+          "links": [
+            "th2"
+          ],
+          "hint": "Capitalist economies are structurally compelled to keep expanding production and consumption regardless of the environmental cost, because businesses, workers and governments are all simultaneously dependent on continued growth for profit, wages and tax revenue — meaning environmental damage isn't an occasional market failure to be corrected, but a built-in consequence of how the whole economic system is organized to keep running.",
+          "tag": "THEORY",
+          "note": "Schnaiberg, A. (1980). 'The Environment: From Surplus to Scarcity.' Oxford University Press, introduced the 'treadmill of production' framework, central to founding environmental sociology as a distinct subfield. Critics note the theory can understate the role of specific political choices and regulatory capture in driving environmental harm, treating the 'treadmill' as a near-inevitable structural feature rather than something that varies by policy regime.",
+          "keywords": [
+            "treadmill of production",
+            "environmental sociology founding theory",
+            "growth imperative capitalism",
+            "structural environmental harm"
+          ]
+        },
+        {
+          "id": "th19",
+          "group": "Race, Gender & Inequality",
+          "label": "Gender Performativity",
+          "date": "1990",
+          "loc": "University of California, Berkeley, California",
+          "coords": [
+            37.87,
+            -122.26
+          ],
+          "links": [
+            "co7"
+          ],
+          "hint": "Butler argued gender isn't an inner essence that gets expressed through behavior, but is instead constituted entirely by repeated acts, gestures and styles performed so consistently they create the illusion of a natural, stable identity underneath — there is no 'doer' behind the deed, only the deed, repeated until it looks like an identity.",
+          "tag": "THEORY",
+          "note": "Butler, J. (1990). 'Gender Trouble: Feminism and the Subversion of Identity.' Routledge. One of the most influential texts in gender theory since publication, extending and complicating West & Zimmerman's earlier, more interactionist 'doing gender' framework (co7) into a deeper claim about identity having no essence prior to its performance at all. Critics from materialist feminism (e.g., Nancy Fraser) argued the theory's heavy focus on discourse and performance can underplay the economic and institutional structures that also produce gender inequality.",
+          "keywords": [
+            "gender performativity Butler",
+            "gender trouble theory",
+            "performative identity construction",
+            "queer theory foundational text"
           ]
         }
       ]
@@ -674,6 +877,30 @@
             "Framingham social network",
             "peer influence health behavior"
           ]
+        },
+        {
+          "id": "st11",
+          "group": "Digital Society & Environment",
+          "label": "Buolamwini & Gebru's 'Gender Shades' Audit",
+          "date": "2018",
+          "loc": "MIT Media Lab, Cambridge, Massachusetts",
+          "coords": [
+            42.361,
+            -71.086
+          ],
+          "links": [
+            "th17"
+          ],
+          "hint": "Testing commercial facial-recognition systems from IBM, Microsoft and Face++, researchers found error rates for classifying darker-skinned women's gender were up to 34 percentage points higher than for lighter-skinned men — direct, quantified evidence that supposedly neutral algorithmic systems can encode and amplify the same racial and gender biases present in their training data and the demographics of the teams that built them.",
+          "tag": "EXPERIMENT",
+          "repl": "robust",
+          "note": "Buolamwini, J. & Gebru, T. (2018). 'Gender Shades: Intersectional Accuracy Disparities in Commercial Gender Classification.' Proceedings of Machine Learning Research (Conference on Fairness, Accountability and Transparency), 81, 77–91. Independently replicated and extended across additional commercial systems in Raji, I. D. & Buolamwini, J. (2019). 'Actionable Auditing.' AAAI/ACM Conference on AI, Ethics, and Society, and prompted several companies to publicly revise their facial-recognition products, making it one of the most consequential algorithmic-audit studies to date.",
+          "keywords": [
+            "algorithmic bias facial recognition",
+            "intersectional accuracy disparity",
+            "gender shades audit study",
+            "AI fairness accountability"
+          ]
         }
       ]
     },
@@ -819,7 +1046,8 @@
             -74.66
           ],
           "links": [
-            "co4"
+            "co4",
+            "th17"
           ],
           "hint": "Access to computers, high-speed internet and digital skills is not evenly distributed — it tracks existing lines of income, race, geography and age, so that the same technology that promises to level opportunity can instead widen the very inequalities it was expected to close.",
           "tag": "PHENOMENON",
@@ -920,7 +1148,8 @@
           "links": [
             "th6",
             "co6",
-            "ap5"
+            "ap5",
+            "th12"
           ],
           "hint": "Wilson and Kelling proposed that visible signs of physical and social disorder in a neighborhood — a broken window left unrepaired, litter, public drinking — signal that no one is watching or cares, encouraging further disorder and eventually more serious crime. The theory directly justified 'zero-tolerance' policing strategies, most famously in 1990s New York City, that aggressively enforced minor offenses to prevent an assumed slide into serious crime.",
           "tag": "PHENOMENON",
@@ -1098,7 +1327,8 @@
             "th3",
             "th9",
             "th11",
-            "fg11"
+            "fg11",
+            "th19"
           ],
           "hint": "Gender is not simply a fixed trait a person has, but something continually 'done' or accomplished through everyday interaction — how one talks, moves, dresses and responds to others in situationally appropriate, gendered ways, reinforced by the risk of social sanction if one doesn't perform it as expected.",
           "tag": "CONCEPT",
@@ -1550,6 +1780,50 @@
             "Black feminist thought sociology",
             "intersectionality sociological founder"
           ]
+        },
+        {
+          "id": "fg12",
+          "group": "Pioneers & Theorists",
+          "label": "Michel Foucault",
+          "date": "1975",
+          "loc": "Collège de France, Paris, France",
+          "coords": [
+            48.847,
+            2.345
+          ],
+          "links": [
+            "th12"
+          ],
+          "hint": "Foucault reframed power not as something a ruler simply possesses and wields downward, but as something diffused through everyday institutions and internalized by individuals themselves — his account of the prison, the clinic and the asylum reshaped how sociology, criminology and history all think about discipline, knowledge and the body.",
+          "tag": "FIGURE",
+          "note": "Foucault, M. (1975). 'Surveiller et punir.' Éditions Gallimard (th12). Also authored 'Histoire de la folie' (1961) and 'La Volonté de savoir' (1976), part of his History of Sexuality series. Trained as a philosopher, Foucault's influence on empirical sociology is now as deep as any figure trained within the discipline itself.",
+          "keywords": [
+            "Michel Foucault power knowledge",
+            "disciplinary institutions theorist",
+            "history of sexuality biopower"
+          ]
+        },
+        {
+          "id": "fg13",
+          "group": "Pioneers & Theorists",
+          "label": "Raewyn Connell",
+          "date": "2007",
+          "loc": "University of Sydney, Sydney, Australia",
+          "coords": [
+            -33.89,
+            151.19
+          ],
+          "links": [
+            "th16"
+          ],
+          "hint": "Connell built a career-long critique of sociology's own geography of knowledge, first through influential work on masculinity as a socially constructed, hierarchical system (hegemonic masculinity), then through a direct challenge to the discipline's near-total reliance on theory produced in Europe and North America while treating the rest of the world only as a site of data collection.",
+          "tag": "FIGURE",
+          "note": "Connell, R. (2007). 'Southern Theory.' Allen & Unwin (th16). Also known for 'Masculinities' (1995), Allen & Unwin, foundational to the sociology of gender and masculinity studies. An Australian sociologist, Connell's own biography is frequently cited as a direct example of the 'Southern' perspective her work argues for.",
+          "keywords": [
+            "Raewyn Connell sociologist",
+            "hegemonic masculinity theory",
+            "Southern theory founder"
+          ]
         }
       ]
     },
@@ -1741,6 +2015,29 @@
             "bureaucratic dysfunction Crozier",
             "rational legal ideal type critique"
           ]
+        },
+        {
+          "id": "db9",
+          "group": "Late Modernity & Global Theory",
+          "label": "Does Globalization Homogenize or Localize Culture?",
+          "date": "1993",
+          "loc": "University of Maryland, College Park, Maryland",
+          "coords": [
+            38.99,
+            -76.94
+          ],
+          "links": [
+            "th16"
+          ],
+          "hint": "Early globalization theory worried that worldwide trade and media would flatten local cultures into a single homogenized, Americanized consumer culture — 'McDonaldization.' Critics countered that on the ground, global products and ideas are constantly localized, blended and reinterpreted into new hybrid forms rather than simply replacing local culture, producing what one sociologist named 'glocalization' rather than homogenization.",
+          "tag": "DEBATE",
+          "note": "Ritzer, G. (1993). 'The McDonaldization of Society.' Pine Forge Press, argued rationalized, standardized systems were spreading globally at the expense of local variation. Robertson, R. (1992). 'Globalization: Social Theory and Global Culture.' Sage, countered with 'glocalization' — evidence that global forms are always adapted to local conditions (McDonald's itself sells regionally specific menu items worldwide). Both processes are now understood to operate simultaneously rather than one simply displacing the other, an ongoing empirical question depending on which specific practice or product is being studied.",
+          "keywords": [
+            "globalization homogenization debate",
+            "glocalization Robertson",
+            "McDonaldization Ritzer",
+            "cultural hybridity globalization"
+          ]
         }
       ]
     },
@@ -1886,6 +2183,28 @@
             "Veblen goods application",
             "luxury brand status signaling"
           ]
+        },
+        {
+          "id": "ap7",
+          "group": "Digital Society & Environment",
+          "label": "GDPR & Data Privacy Regulation",
+          "date": "2018",
+          "loc": "Brussels, Belgium",
+          "coords": [
+            50.85,
+            4.35
+          ],
+          "links": [
+            "th17"
+          ],
+          "hint": "Sociological critiques of surveillance capitalism directly informed one of the most significant regulatory responses to date: the European Union's General Data Protection Regulation, which gives individuals enforceable rights to know what data companies hold on them, to have it deleted, and to refuse having it used for automated profiling — reframing personal data as something individuals have ongoing rights over, not simply raw material companies can freely extract.",
+          "tag": "APPLICATION",
+          "note": "The EU's General Data Protection Regulation (GDPR) took effect in 2018, directly citing concerns about profiling and automated decision-making similar to those raised in Zuboff's surveillance-capitalism critique (th17). It has since become a template partially adopted by California's Consumer Privacy Act and other jurisdictions, though enforcement has been uneven and large technology platforms have continued to find workarounds, an ongoing test of how much regulation alone can constrain a data-dependent business model.",
+          "keywords": [
+            "GDPR data privacy law",
+            "algorithmic profiling regulation",
+            "surveillance capitalism policy response"
+          ]
         }
       ]
     }
@@ -1946,6 +2265,11 @@
           "y": 2007,
           "l": "Christakis & Fowler: obesity spread",
           "entryId": "st10"
+        },
+        {
+          "y": 2018,
+          "l": "Buolamwini & Gebru: Gender Shades audit",
+          "entryId": "st11"
         }
       ]
     },
@@ -2001,14 +2325,54 @@
           "entryId": "th11"
         },
         {
+          "y": 1975,
+          "l": "Foucault: Discipline and Punish",
+          "entryId": "th12"
+        },
+        {
           "y": 1979,
           "l": "Bourdieu: cultural capital theory",
           "entryId": "th8"
         },
         {
+          "y": 1980,
+          "l": "Schnaiberg: treadmill of production",
+          "entryId": "th18"
+        },
+        {
+          "y": 1984,
+          "l": "Giddens: structuration theory",
+          "entryId": "th13"
+        },
+        {
+          "y": 1986,
+          "l": "Beck: risk society",
+          "entryId": "th15"
+        },
+        {
           "y": 1989,
           "l": "Crenshaw: intersectionality",
           "entryId": "th9"
+        },
+        {
+          "y": 1990,
+          "l": "Butler: gender performativity",
+          "entryId": "th19"
+        },
+        {
+          "y": 2000,
+          "l": "Bauman: liquid modernity",
+          "entryId": "th14"
+        },
+        {
+          "y": 2007,
+          "l": "Connell: Southern theory",
+          "entryId": "th16"
+        },
+        {
+          "y": 2019,
+          "l": "Zuboff: surveillance capitalism",
+          "entryId": "th17"
         }
       ]
     },
@@ -2135,6 +2499,11 @@
           "entryId": "db7"
         },
         {
+          "y": 1993,
+          "l": "Ritzer vs Robertson: globalization debate",
+          "entryId": "db9"
+        },
+        {
           "y": 1999,
           "l": "Berger retracts secularization",
           "entryId": "db6"
@@ -2191,6 +2560,11 @@
           "y": 2004,
           "l": "Ban the Box campaign launched",
           "entryId": "ap1"
+        },
+        {
+          "y": 2018,
+          "l": "GDPR takes effect",
+          "entryId": "ap7"
         }
       ]
     }

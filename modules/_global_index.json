@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 979,
+    "total_entries": 1002,
     "folio_count": 13,
     "xlink_pairs": 51,
-    "keyword_terms": 3892,
+    "keyword_terms": 3970,
     "folios": [
       {
         "id": "anatomy-histology",
@@ -18,7 +18,7 @@
       {
         "id": "cultural-anthropology",
         "title": "Cultural & Social Anthropology",
-        "entries": 71
+        "entries": 81
       },
       {
         "id": "epistemology",
@@ -58,7 +58,7 @@
       {
         "id": "sociology",
         "title": "Sociology & Social Structures",
-        "entries": 71
+        "entries": 84
       },
       {
         "id": "systems-and-complexity",
@@ -236,6 +236,11 @@
     "cultural-anthropology::th8": "theory · Exchange, Subsistence & Economy · Gift Theory & the Norm of Reciprocity (1925)",
     "cultural-anthropology::th9": "theory · Exchange, Subsistence & Economy · Cultural Materialism & Cultural Ecology (1955)",
     "cultural-anthropology::th10": "theory · Power, Colonialism & Cultural Contact · Anthropology's Critique of Colonial Contact (1982)",
+    "cultural-anthropology::th11": "theory · Feminist & Decolonial Anthropology · Is Female to Male as Nature Is to Culture? (1974)",
+    "cultural-anthropology::th12": "theory · Feminist & Decolonial Anthropology · The Sex/Gender System (1975)",
+    "cultural-anthropology::th13": "theory · Ontology, Multispecies & Digital Anthropology · The Ontological Turn & Multispecies Ethnography (2013)",
+    "cultural-anthropology::th14": "theory · Ontology, Multispecies & Digital Anthropology · Actor-Network Theory (1987)",
+    "cultural-anthropology::th15": "theory · Identity, Gender & the Body · Explanatory Models of Illness (1980)",
     "cultural-anthropology::st1": "study · Exchange, Subsistence & Economy · Malinowski's Kula Ring (Trobriand Islands) (1922)",
     "cultural-anthropology::st2": "study · Identity, Gender & the Body · Mead's Coming of Age in Samoa (1928)",
     "cultural-anthropology::st3": "study · Kinship & Family Systems · Evans-Pritchard's The Nuer (1940)",
@@ -248,6 +253,7 @@
     "cultural-anthropology::st10": "study · Language, Meaning & Worldview · Lucy's Yucatec Maya Cognition Study (1992)",
     "cultural-anthropology::st11": "study · Exchange, Subsistence & Economy · Lee's !Kung 'Original Affluent Society' Study (1968)",
     "cultural-anthropology::st12": "study · Fieldwork, Culture & Relativism · Morton's Craniometric Race Ranking (1839)",
+    "cultural-anthropology::st13": "study · Ontology, Multispecies & Digital Anthropology · Boellstorff's Coming of Age in Second Life (2008)",
     "cultural-anthropology::ef1": "effect · Power, Colonialism & Cultural Contact · Cargo Cults (1957)",
     "cultural-anthropology::ef2": "effect · Kinship & Family Systems · Avunculocal Emphasis (Mother's Brother Role) (1924)",
     "cultural-anthropology::ef3": "effect · Exchange, Subsistence & Economy · Potlatch Rivalry (1897)",
@@ -282,6 +288,8 @@
     "cultural-anthropology::fg10": "figure · Pioneers & Theorists · Eric Wolf (1982)",
     "cultural-anthropology::fg11": "figure · Pioneers & Theorists · Napoleon Chagnon (1968)",
     "cultural-anthropology::fg12": "figure · Pioneers & Theorists · Zora Neale Hurston (1938)",
+    "cultural-anthropology::fg13": "figure · Pioneers & Theorists · Linda Tuhiwai Smith (1999)",
+    "cultural-anthropology::fg14": "figure · Pioneers & Theorists · Donna Haraway (1985)",
     "cultural-anthropology::db1": "debate · Identity, Gender & the Body · Mead vs Freeman: Was Samoan Adolescence Free of Storm and Stress? (1983)",
     "cultural-anthropology::db2": "debate · Power, Colonialism & Cultural Contact · Chagnon vs Ferguson/Harris: What Explains Yanomami Warfare? (1995)",
     "cultural-anthropology::db3": "debate · Fieldwork, Culture & Relativism · Cultural Relativism vs Universal Human Rights (1947)",
@@ -291,6 +299,8 @@
     "cultural-anthropology::db7": "debate · Ritual, Religion & Symbolism · Sahlins vs Obeyesekere: How Did Hawaiians Understand Captain Cook? (1992)",
     "cultural-anthropology::db8": "debate · Kinship & Family Systems · How Exceptional Was Nayar Marriage? (1976)",
     "cultural-anthropology::db9": "debate · Fieldwork, Culture & Relativism · Are There Human Cultural Universals? (1991)",
+    "cultural-anthropology::db10": "debate · Feminist & Decolonial Anthropology · Can a Colonial-Born Discipline Decolonize Itself? (1999)",
+    "cultural-anthropology::db11": "debate · Ontology, Multispecies & Digital Anthropology · Does the Ontological Turn Risk Re-Exoticizing Non-Western Thought? (2014)",
     "cultural-anthropology::ap1": "application · Power, Colonialism & Cultural Contact · Applied Development Anthropology (1970)",
     "cultural-anthropology::ap2": "application · Power, Colonialism & Cultural Contact · Forensic Anthropology & Human Rights Investigation (1984)",
     "cultural-anthropology::ap3": "application · Exchange, Subsistence & Economy · Design Anthropology in Industry (1979)",
@@ -847,6 +857,14 @@
     "sociology::th9": "theory · Race, Gender & Inequality · Intersectionality (1989)",
     "sociology::th10": "theory · Urbanization & Social Change · Urban Ecology (Chicago School) (1925)",
     "sociology::th11": "theory · Institutions: Family, Education & Religion · Social Constructionism (1966)",
+    "sociology::th12": "theory · Late Modernity & Global Theory · Discipline, Surveillance & the Panopticon (1975)",
+    "sociology::th13": "theory · Late Modernity & Global Theory · Structuration Theory (1984)",
+    "sociology::th14": "theory · Late Modernity & Global Theory · Liquid Modernity (2000)",
+    "sociology::th15": "theory · Late Modernity & Global Theory · Risk Society (1986)",
+    "sociology::th16": "theory · Late Modernity & Global Theory · Southern Theory (2007)",
+    "sociology::th17": "theory · Digital Society & Environment · Surveillance Capitalism (2019)",
+    "sociology::th18": "theory · Digital Society & Environment · Treadmill of Production (1980)",
+    "sociology::th19": "theory · Race, Gender & Inequality · Gender Performativity (1990)",
     "sociology::st1": "study · Classical Theoretical Traditions · Durkheim's Suicide (1897)",
     "sociology::st2": "study · Urbanization & Social Change · Milgram's Small World Experiment (1967)",
     "sociology::st3": "study · Urbanization & Social Change · Whyte's Street Corner Society (1943)",
@@ -857,6 +875,7 @@
     "sociology::st8": "study · Race, Gender & Inequality · Pager's Mark of a Criminal Record (2003)",
     "sociology::st9": "study · Social Stratification & Class · Bourdieu & Passeron's The Inheritors (1964)",
     "sociology::st10": "study · Urbanization & Social Change · Christakis & Fowler's Social Contagion of Obesity (2007)",
+    "sociology::st11": "study · Digital Society & Environment · Buolamwini & Gebru's 'Gender Shades' Audit (2018)",
     "sociology::ef1": "effect · Classical Theoretical Traditions · Thomas Theorem & Self-Fulfilling Prophecy (1928)",
     "sociology::ef2": "effect · Social Stratification & Class · Matthew Effect (Cumulative Advantage) (1968)",
     "sociology::ef3": "effect · Social Stratification & Class · Conspicuous Consumption (1899)",
@@ -893,6 +912,8 @@
     "sociology::fg9": "figure · Pioneers & Theorists · W. E. B. Du Bois (1899)",
     "sociology::fg10": "figure · Pioneers & Theorists · Harriet Martineau (1838)",
     "sociology::fg11": "figure · Pioneers & Theorists · Patricia Hill Collins (1990)",
+    "sociology::fg12": "figure · Pioneers & Theorists · Michel Foucault (1975)",
+    "sociology::fg13": "figure · Pioneers & Theorists · Raewyn Connell (2007)",
     "sociology::db1": "debate · Classical Theoretical Traditions · Structural Functionalism vs Conflict Theory (1959)",
     "sociology::db2": "debate · Classical Theoretical Traditions · Is Sociology a Science? Positivism vs Interpretivism (1904)",
     "sociology::db3": "debate · Urbanization & Social Change · Milgram's Small World: How Small Is It, Really? (2002)",
@@ -901,12 +922,14 @@
     "sociology::db6": "debate · Institutions: Family, Education & Religion · Is the Secularization Thesis Wrong? (1999)",
     "sociology::db7": "debate · Social Stratification & Class · The Coleman Report: Do Schools or Families Drive Achievement Gaps? (1966)",
     "sociology::db8": "debate · Bureaucracy, Organizations & Work · Is Bureaucracy Actually Efficient? (1963)",
+    "sociology::db9": "debate · Late Modernity & Global Theory · Does Globalization Homogenize or Localize Culture? (1993)",
     "sociology::ap1": "application · Race, Gender & Inequality · Ban the Box & Audit-Study-Informed Policy (2004)",
     "sociology::ap2": "application · Urbanization & Social Change · Civic Engagement & Social Capital Policy Initiatives (2000)",
     "sociology::ap3": "application · Bureaucracy, Organizations & Work · Corporate Culture & Institutional Isomorphism in HR Practice (1991)",
     "sociology::ap4": "application · Institutions: Family, Education & Religion · School Desegregation & Funding Policy (1971)",
     "sociology::ap5": "application · Deviance, Norms & Social Control · Restorative Justice Programs (1974)",
     "sociology::ap6": "application · Social Stratification & Class · Consumer Marketing & Status-Signaling Research (1899)",
+    "sociology::ap7": "application · Digital Society & Environment · GDPR & Data Privacy Regulation (2018)",
     "systems-and-complexity::th1": "theory · Cybernetics & Control · Cybernetics — Control & Communication in Animal and Machine (1948)",
     "systems-and-complexity::th2": "theory · Cybernetics & Control · Law of Requisite Variety & the Homeostat (1956)",
     "systems-and-complexity::th3": "theory · Cybernetics & Control · Second-Order Cybernetics — the Observer in the System (1974)",
@@ -2323,6 +2346,32 @@
       "extractive contact history",
       "postcolonial critique"
     ],
+    "cultural-anthropology::th11": [
+      "feminist anthropology founding",
+      "nature culture gender symbolism",
+      "Ortner universal subordination"
+    ],
+    "cultural-anthropology::th12": [
+      "sex gender system Rubin",
+      "traffic in women theory",
+      "kinship exchange feminist critique"
+    ],
+    "cultural-anthropology::th13": [
+      "ontological turn anthropology",
+      "multispecies ethnography",
+      "nature culture divide critique",
+      "Amazonian cosmology"
+    ],
+    "cultural-anthropology::th14": [
+      "actor network theory Latour",
+      "non-human agency",
+      "science technology studies anthropology"
+    ],
+    "cultural-anthropology::th15": [
+      "explanatory models illness",
+      "medical anthropology founding theory",
+      "patient healer communication gap"
+    ],
     "cultural-anthropology::st1": [
       "kula ring exchange",
       "Trobriand Islands economy",
@@ -2392,6 +2441,11 @@
       "scientific racism history",
       "cranial capacity ranking",
       "Gould Morton controversy"
+    ],
+    "cultural-anthropology::st13": [
+      "digital anthropology virtual ethnography",
+      "Second Life fieldwork",
+      "online community anthropology"
     ],
     "cultural-anthropology::ef1": [
       "cargo cult ritual",
@@ -2574,6 +2628,16 @@
       "African American folklore fieldwork",
       "Haiti Vodou ethnography"
     ],
+    "cultural-anthropology::fg13": [
+      "decolonizing methodologies",
+      "Indigenous research ethics",
+      "Maori scholarship anthropology critique"
+    ],
+    "cultural-anthropology::fg14": [
+      "Donna Haraway cyborg theory",
+      "feminist technoscience anthropology",
+      "companion species multispecies"
+    ],
     "cultural-anthropology::db1": [
       "Mead Freeman controversy",
       "Samoa storm stress debate",
@@ -2618,6 +2682,16 @@
       "human universals debate",
       "cultural particularism challenge",
       "anthropology relativism universalism tension"
+    ],
+    "cultural-anthropology::db10": [
+      "decolonizing anthropology debate",
+      "research ethics power imbalance",
+      "Indigenous knowledge sovereignty"
+    ],
+    "cultural-anthropology::db11": [
+      "ontological turn critique",
+      "perspectivism anthropology debate",
+      "re-exoticizing indigenous thought"
     ],
     "cultural-anthropology::ap1": [
       "applied development anthropology",
@@ -6106,6 +6180,52 @@
       "sociology of knowledge",
       "objectified social fact"
     ],
+    "sociology::th12": [
+      "panopticon disciplinary power",
+      "Foucault surveillance society",
+      "self policing institutions",
+      "biopower governmentality"
+    ],
+    "sociology::th13": [
+      "structuration theory Giddens",
+      "structure agency duality",
+      "reflexive modernity",
+      "rules and resources"
+    ],
+    "sociology::th14": [
+      "liquid modernity Bauman",
+      "fluid social institutions",
+      "postmodern uncertainty identity"
+    ],
+    "sociology::th15": [
+      "risk society Beck",
+      "manufactured uncertainty modernity",
+      "reflexive modernization hazard"
+    ],
+    "sociology::th16": [
+      "southern theory Connell",
+      "Global South sociology",
+      "dependency theory Cardoso",
+      "Northern bias social science"
+    ],
+    "sociology::th17": [
+      "surveillance capitalism Zuboff",
+      "behavioral data extraction",
+      "platform economy critique",
+      "algorithmic prediction market"
+    ],
+    "sociology::th18": [
+      "treadmill of production",
+      "environmental sociology founding theory",
+      "growth imperative capitalism",
+      "structural environmental harm"
+    ],
+    "sociology::th19": [
+      "gender performativity Butler",
+      "gender trouble theory",
+      "performative identity construction",
+      "queer theory foundational text"
+    ],
     "sociology::st1": [
       "suicide social integration",
       "anomic suicide",
@@ -6165,6 +6285,12 @@
       "network homophily confound",
       "Framingham social network",
       "peer influence health behavior"
+    ],
+    "sociology::st11": [
+      "algorithmic bias facial recognition",
+      "intersectional accuracy disparity",
+      "gender shades audit study",
+      "AI fairness accountability"
     ],
     "sociology::ef1": [
       "self fulfilling prophecy",
@@ -6355,6 +6481,16 @@
       "Black feminist thought sociology",
       "intersectionality sociological founder"
     ],
+    "sociology::fg12": [
+      "Michel Foucault power knowledge",
+      "disciplinary institutions theorist",
+      "history of sexuality biopower"
+    ],
+    "sociology::fg13": [
+      "Raewyn Connell sociologist",
+      "hegemonic masculinity theory",
+      "Southern theory founder"
+    ],
     "sociology::db1": [
       "functionalism conflict theory debate",
       "consensus versus coercion society",
@@ -6395,6 +6531,12 @@
       "bureaucratic dysfunction Crozier",
       "rational legal ideal type critique"
     ],
+    "sociology::db9": [
+      "globalization homogenization debate",
+      "glocalization Robertson",
+      "McDonaldization Ritzer",
+      "cultural hybridity globalization"
+    ],
     "sociology::ap1": [
       "ban the box policy",
       "audit study policy application",
@@ -6424,6 +6566,11 @@
       "conspicuous consumption marketing",
       "Veblen goods application",
       "luxury brand status signaling"
+    ],
+    "sociology::ap7": [
+      "GDPR data privacy law",
+      "algorithmic profiling regulation",
+      "surveillance capitalism policy response"
     ],
     "systems-and-complexity::th1": [
       "feedback control mechanism",
@@ -9253,6 +9400,54 @@
     "postcolonial critique": [
       "cultural-anthropology::th10"
     ],
+    "feminist anthropology founding": [
+      "cultural-anthropology::th11"
+    ],
+    "nature culture gender symbolism": [
+      "cultural-anthropology::th11"
+    ],
+    "Ortner universal subordination": [
+      "cultural-anthropology::th11"
+    ],
+    "sex gender system Rubin": [
+      "cultural-anthropology::th12"
+    ],
+    "traffic in women theory": [
+      "cultural-anthropology::th12"
+    ],
+    "kinship exchange feminist critique": [
+      "cultural-anthropology::th12"
+    ],
+    "ontological turn anthropology": [
+      "cultural-anthropology::th13"
+    ],
+    "multispecies ethnography": [
+      "cultural-anthropology::th13"
+    ],
+    "nature culture divide critique": [
+      "cultural-anthropology::th13"
+    ],
+    "Amazonian cosmology": [
+      "cultural-anthropology::th13"
+    ],
+    "actor network theory Latour": [
+      "cultural-anthropology::th14"
+    ],
+    "non-human agency": [
+      "cultural-anthropology::th14"
+    ],
+    "science technology studies anthropology": [
+      "cultural-anthropology::th14"
+    ],
+    "explanatory models illness": [
+      "cultural-anthropology::th15"
+    ],
+    "medical anthropology founding theory": [
+      "cultural-anthropology::th15"
+    ],
+    "patient healer communication gap": [
+      "cultural-anthropology::th15"
+    ],
     "kula ring exchange": [
       "cultural-anthropology::st1"
     ],
@@ -9390,6 +9585,15 @@
     ],
     "Gould Morton controversy": [
       "cultural-anthropology::st12"
+    ],
+    "digital anthropology virtual ethnography": [
+      "cultural-anthropology::st13"
+    ],
+    "Second Life fieldwork": [
+      "cultural-anthropology::st13"
+    ],
+    "online community anthropology": [
+      "cultural-anthropology::st13"
     ],
     "cargo cult ritual": [
       "cultural-anthropology::ef1"
@@ -9730,6 +9934,24 @@
     "Haiti Vodou ethnography": [
       "cultural-anthropology::fg12"
     ],
+    "decolonizing methodologies": [
+      "cultural-anthropology::fg13"
+    ],
+    "Indigenous research ethics": [
+      "cultural-anthropology::fg13"
+    ],
+    "Maori scholarship anthropology critique": [
+      "cultural-anthropology::fg13"
+    ],
+    "Donna Haraway cyborg theory": [
+      "cultural-anthropology::fg14"
+    ],
+    "feminist technoscience anthropology": [
+      "cultural-anthropology::fg14"
+    ],
+    "companion species multispecies": [
+      "cultural-anthropology::fg14"
+    ],
     "Mead Freeman controversy": [
       "cultural-anthropology::db1"
     ],
@@ -9810,6 +10032,24 @@
     ],
     "anthropology relativism universalism tension": [
       "cultural-anthropology::db9"
+    ],
+    "decolonizing anthropology debate": [
+      "cultural-anthropology::db10"
+    ],
+    "research ethics power imbalance": [
+      "cultural-anthropology::db10"
+    ],
+    "Indigenous knowledge sovereignty": [
+      "cultural-anthropology::db10"
+    ],
+    "ontological turn critique": [
+      "cultural-anthropology::db11"
+    ],
+    "perspectivism anthropology debate": [
+      "cultural-anthropology::db11"
+    ],
+    "re-exoticizing indigenous thought": [
+      "cultural-anthropology::db11"
     ],
     "applied development anthropology": [
       "cultural-anthropology::ap1"
@@ -16761,6 +17001,96 @@
     "objectified social fact": [
       "sociology::th11"
     ],
+    "panopticon disciplinary power": [
+      "sociology::th12"
+    ],
+    "Foucault surveillance society": [
+      "sociology::th12"
+    ],
+    "self policing institutions": [
+      "sociology::th12"
+    ],
+    "biopower governmentality": [
+      "sociology::th12"
+    ],
+    "structuration theory Giddens": [
+      "sociology::th13"
+    ],
+    "structure agency duality": [
+      "sociology::th13"
+    ],
+    "reflexive modernity": [
+      "sociology::th13"
+    ],
+    "rules and resources": [
+      "sociology::th13"
+    ],
+    "liquid modernity Bauman": [
+      "sociology::th14"
+    ],
+    "fluid social institutions": [
+      "sociology::th14"
+    ],
+    "postmodern uncertainty identity": [
+      "sociology::th14"
+    ],
+    "risk society Beck": [
+      "sociology::th15"
+    ],
+    "manufactured uncertainty modernity": [
+      "sociology::th15"
+    ],
+    "reflexive modernization hazard": [
+      "sociology::th15"
+    ],
+    "southern theory Connell": [
+      "sociology::th16"
+    ],
+    "Global South sociology": [
+      "sociology::th16"
+    ],
+    "dependency theory Cardoso": [
+      "sociology::th16"
+    ],
+    "Northern bias social science": [
+      "sociology::th16"
+    ],
+    "surveillance capitalism Zuboff": [
+      "sociology::th17"
+    ],
+    "behavioral data extraction": [
+      "sociology::th17"
+    ],
+    "platform economy critique": [
+      "sociology::th17"
+    ],
+    "algorithmic prediction market": [
+      "sociology::th17"
+    ],
+    "treadmill of production": [
+      "sociology::th18"
+    ],
+    "environmental sociology founding theory": [
+      "sociology::th18"
+    ],
+    "growth imperative capitalism": [
+      "sociology::th18"
+    ],
+    "structural environmental harm": [
+      "sociology::th18"
+    ],
+    "gender performativity Butler": [
+      "sociology::th19"
+    ],
+    "gender trouble theory": [
+      "sociology::th19"
+    ],
+    "performative identity construction": [
+      "sociology::th19"
+    ],
+    "queer theory foundational text": [
+      "sociology::th19"
+    ],
     "suicide social integration": [
       "sociology::st1"
     ],
@@ -16882,6 +17212,18 @@
     ],
     "peer influence health behavior": [
       "sociology::st10"
+    ],
+    "algorithmic bias facial recognition": [
+      "sociology::st11"
+    ],
+    "intersectional accuracy disparity": [
+      "sociology::st11"
+    ],
+    "gender shades audit study": [
+      "sociology::st11"
+    ],
+    "AI fairness accountability": [
+      "sociology::st11"
     ],
     "self fulfilling prophecy": [
       "sociology::ef1"
@@ -17225,6 +17567,24 @@
     "intersectionality sociological founder": [
       "sociology::fg11"
     ],
+    "Michel Foucault power knowledge": [
+      "sociology::fg12"
+    ],
+    "disciplinary institutions theorist": [
+      "sociology::fg12"
+    ],
+    "history of sexuality biopower": [
+      "sociology::fg12"
+    ],
+    "Raewyn Connell sociologist": [
+      "sociology::fg13"
+    ],
+    "hegemonic masculinity theory": [
+      "sociology::fg13"
+    ],
+    "Southern theory founder": [
+      "sociology::fg13"
+    ],
     "functionalism conflict theory debate": [
       "sociology::db1"
     ],
@@ -17297,6 +17657,18 @@
     "rational legal ideal type critique": [
       "sociology::db8"
     ],
+    "globalization homogenization debate": [
+      "sociology::db9"
+    ],
+    "glocalization Robertson": [
+      "sociology::db9"
+    ],
+    "McDonaldization Ritzer": [
+      "sociology::db9"
+    ],
+    "cultural hybridity globalization": [
+      "sociology::db9"
+    ],
     "ban the box policy": [
       "sociology::ap1"
     ],
@@ -17350,6 +17722,15 @@
     ],
     "luxury brand status signaling": [
       "sociology::ap6"
+    ],
+    "GDPR data privacy law": [
+      "sociology::ap7"
+    ],
+    "algorithmic profiling regulation": [
+      "sociology::ap7"
+    ],
+    "surveillance capitalism policy response": [
+      "sociology::ap7"
     ],
     "feedback control mechanism": [
       "systems-and-complexity::th1"
