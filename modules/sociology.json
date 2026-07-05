@@ -3,9 +3,15 @@
   "schema_version": 1,
   "title": "Sociology & Social Structures",
   "subtitle": "Institutions, stratification & collective life",
-  "period": { "start": 1838, "end": 2025 },
+  "period": {
+    "start": 1848,
+    "end": 2025
+  },
   "domain": "society",
-  "mapCenter": [45, -20],
+  "mapCenter": [
+    45,
+    -20
+  ],
   "mapZoom": 3,
   "methodology": "METHODOLOGY · Every entry anchors to a landmark study, survey, paper or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags replication status, revisions and known controversies. Studies and effects carry a replicability badge — 🟢 robust · 🟡 nuanced or reduced · 🔴 failed or severely contested. Map pins mark the institution where the work was carried out.",
   "categories": [
@@ -13,23 +19,505 @@
       "id": "theory",
       "label": "Theories & Models",
       "icon": "📐",
-      "color": "#1A3A5C", "accent": "#2471A3", "bg": "#F0F7FF",
+      "color": "#1A3A5C",
+      "accent": "#2471A3",
+      "bg": "#F0F7FF",
       "subtitle": "The frameworks that organise the study of institutions and social structure",
-      "entries": []
+      "entries": [
+        {
+          "id": "th1",
+          "group": "Classical Theoretical Traditions",
+          "label": "Structural Functionalism",
+          "date": "1951",
+          "loc": "Harvard University, Cambridge, Massachusetts",
+          "coords": [
+            42.377,
+            -71.117
+          ],
+          "links": [
+            "st4"
+          ],
+          "hint": "Society is a system of interdependent parts — family, economy, education, religion — each contributing to overall stability, much as organs sustain a body. Parsons formalised this into a general theory of social action; Merton later refined it by distinguishing a practice's manifest (intended, recognised) function from its latent (unintended, often hidden) one, showing institutions can persist for reasons nobody consciously endorses.",
+          "tag": "THEORY",
+          "note": "Parsons, T. (1951). 'The Social System.' Free Press. Merton, R. K. (1949). 'Social Theory and Social Structure.' Free Press, added manifest/latent functions and 'functional alternatives' (the same social need can be met by different institutions). Critiqued from the 1960s onward (by conflict theorists) for treating social stability as the default and struggling to explain conflict, power and rapid social change.",
+          "keywords": [
+            "structural functionalism",
+            "manifest latent function",
+            "AGIL social system",
+            "functional alternative institution"
+          ]
+        },
+        {
+          "id": "th2",
+          "group": "Classical Theoretical Traditions",
+          "label": "Conflict Theory",
+          "date": "1848",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "links": [],
+          "hint": "Society is not a harmonious system but an arena of struggle between groups with opposed material interests — classically, those who own the means of production and those who sell their labour to survive. Marx argued that a society's economic base shapes its politics, law and culture, and that this class conflict is the engine of historical change, not gradual consensus.",
+          "tag": "THEORY",
+          "note": "Marx, K. & Engels, F. (1848). 'Manifesto of the Communist Party.' Elaborated in Marx, K. (1867). 'Das Kapital, Vol. 1.' Verlag von Otto Meisner. Later conflict theorists (Dahrendorf, Collins) generalised the framework beyond economic class to any group locked in a struggle over scarce resources or authority. Critics note that predicted revolutionary outcomes in advanced industrial economies did not materialise as Marx forecast, though the broader emphasis on structural inequality and group conflict remains foundational to sociology.",
+          "keywords": [
+            "conflict theory class",
+            "historical materialism",
+            "means of production",
+            "class struggle sociology"
+          ]
+        },
+        {
+          "id": "th3",
+          "group": "Classical Theoretical Traditions",
+          "label": "Symbolic Interactionism",
+          "date": "1934",
+          "loc": "University of Chicago, Chicago, Illinois",
+          "coords": [
+            41.79,
+            -87.6
+          ],
+          "links": [
+            "st4"
+          ],
+          "hint": "Society is built, moment to moment, out of small-scale face-to-face interactions in which people interpret each other's gestures and act toward things based on the meaning those things hold for them — meanings that are negotiated and can shift with context. This 'micro' lens treats the self itself as something continuously constructed through interaction with others, not a fixed inner essence.",
+          "tag": "FRAMEWORK",
+          "note": "Mead, G. H. (1934). 'Mind, Self, and Society.' University of Chicago Press (published posthumously from lecture notes by student Charles Morris). Formalised as 'symbolic interactionism' by Blumer, H. (1969). 'Symbolic Interactionism: Perspective and Method.' Prentice-Hall. Extended into dramaturgical analysis by Erving Goffman (st4). Critiqued for focusing so tightly on micro-level interaction that it can lose sight of large-scale structural forces (class, institutions) that constrain those interactions.",
+          "keywords": [
+            "symbolic interactionism",
+            "meaning through interaction",
+            "self as social construction",
+            "micro sociology"
+          ]
+        },
+        {
+          "id": "th4",
+          "group": "Classical Theoretical Traditions",
+          "label": "Social Action & Verstehen",
+          "date": "1922",
+          "loc": "University of Munich, Munich, Germany",
+          "coords": [
+            48.15,
+            11.58
+          ],
+          "links": [],
+          "hint": "To explain social behaviour, a sociologist must first understand the subjective meaning the actor attaches to their own action (Verstehen, 'interpretive understanding') — not just observe outward behaviour as if it were a physical event. Weber classified action into types (traditional, affectual, value-rational, instrumentally rational) and argued modern society is defined by the rising dominance of instrumentally rational calculation over tradition and emotion.",
+          "tag": "THEORY",
+          "note": "Weber, M. (1922). 'Wirtschaft und Gesellschaft' (Economy and Society), published posthumously by his wife Marianne Weber, Mohr Siebeck. Weber's interpretive method sits in tension with more positivist, statistics-driven sociology (e.g. Durkheim's Suicide, st1) over whether subjective meaning can be studied with the same rigour as external social facts — a methodological divide that still runs through the discipline.",
+          "keywords": [
+            "Verstehen interpretive understanding",
+            "social action typology",
+            "instrumental rationality",
+            "Weberian sociology"
+          ]
+        },
+        {
+          "id": "th5",
+          "group": "Deviance, Norms & Social Control",
+          "label": "Anomie & Strain Theory",
+          "date": "1938",
+          "loc": "Columbia University, New York, New York",
+          "coords": [
+            40.81,
+            -73.96
+          ],
+          "links": [
+            "st1"
+          ],
+          "hint": "Deviance is not primarily caused by individual pathology but by a mismatch between culturally prescribed goals (e.g. wealth) and the legitimate means available to reach them — when society preaches success for everyone but blocks fair access to the ladder, some people innovate through crime, others retreat, others rebel. Durkheim's earlier concept of anomie (normlessness during rapid social change) became Merton's structural theory of why deviance clusters by social position.",
+          "tag": "THEORY",
+          "note": "Durkheim, E. (1893). 'De la division du travail social' introduced anomie; Merton, R. K. (1938). 'Social Structure and Anomie.' American Sociological Review, 3(5), 672–682, built strain theory on top of it. Widely applied and tested through the mid-20th century; later critiqued (by labeling theorists, th6) for assuming a single, shared cultural goal (material success) across all groups, and for not explaining why most people facing the same 'strain' do not turn to crime.",
+          "keywords": [
+            "anomie normlessness",
+            "strain theory deviance",
+            "means goals mismatch",
+            "Mertonian deviance typology"
+          ]
+        },
+        {
+          "id": "th6",
+          "group": "Deviance, Norms & Social Control",
+          "label": "Labeling Theory",
+          "date": "1963",
+          "loc": "Northwestern University, Evanston, Illinois",
+          "coords": [
+            42.06,
+            -87.68
+          ],
+          "links": [],
+          "hint": "Deviance is not an inherent property of an act but a status conferred by others' reactions to it — the same behaviour can be ignored, tolerated or severely punished depending on who does it and who is doing the labelling, and once someone is formally labelled 'deviant' (e.g. by arrest), that label itself can push them further into a deviant identity and career.",
+          "tag": "THEORY",
+          "note": "Becker, H. S. (1963). 'Outsiders: Studies in the Sociology of Deviance.' Free Press. Extended by Lemert, E. (1967) into primary vs. secondary deviance. Influential in criminology and the sociology of mental illness (echoing Goffman's total-institution work, st4), though critics note it explains how deviant identities are sustained better than it explains why the initial act occurred in the first place.",
+          "keywords": [
+            "labeling theory deviance",
+            "secondary deviance",
+            "societal reaction crime",
+            "deviant career identity"
+          ]
+        },
+        {
+          "id": "th7",
+          "group": "Bureaucracy, Organizations & Work",
+          "label": "Bureaucracy & Rational-Legal Authority",
+          "date": "1922",
+          "loc": "University of Munich, Munich, Germany",
+          "coords": [
+            48.15,
+            11.58
+          ],
+          "links": [],
+          "hint": "Modern organisations are governed not by tradition or a leader's personal charisma but by fixed rules, hierarchical offices and technical competence — a 'rational-legal' form of authority that Weber considered the most efficient way to coordinate large-scale action, but which he also warned could trap individuals in an impersonal 'iron cage' of rules stripped of larger meaning.",
+          "tag": "MODEL",
+          "note": "Weber, M. (1922). 'Wirtschaft und Gesellschaft' (Economy and Society). Mohr Siebeck. The bureaucratic ideal type has proven remarkably durable as a description of large modern organisations (states, corporations, universities), though later organisational sociologists (e.g. Robert Merton's 'bureaucratic ritualism,' Michel Crozier) documented systematic dysfunctions — rule-following that defeats the organisation's actual purpose — that Weber's original model underplayed.",
+          "keywords": [
+            "rational legal authority",
+            "bureaucratic ideal type",
+            "iron cage rationalization",
+            "organizational rule hierarchy"
+          ]
+        },
+        {
+          "id": "th8",
+          "group": "Social Stratification & Class",
+          "label": "Cultural Capital & Social Reproduction",
+          "date": "1979",
+          "loc": "École des Hautes Études en Sciences Sociales, Paris, France",
+          "coords": [
+            48.84,
+            2.32
+          ],
+          "links": [
+            "st9"
+          ],
+          "hint": "Class advantage is passed down not just through money but through 'cultural capital' — the tastes, manners, vocabulary and knowledge of how institutions work that children absorb at home and that schools reward as if it were pure merit. Bourdieu argued this lets privileged families reproduce their position across generations while the system appears to be a fair, open competition based only on individual ability.",
+          "tag": "THEORY",
+          "note": "Bourdieu, P. (1979). 'La Distinction: Critique sociale du jugement.' Les Éditions de Minuit. Developed earlier with Passeron in 'Les Héritiers' (1964, see st9). The concept has been widely applied and tested in educational sociology across many countries; some scholars (e.g. in later US replications) find the specific 'highbrow culture' markers Bourdieu used in 1960s–70s France travel less well to other national contexts, even as the general reproduction mechanism holds up.",
+          "keywords": [
+            "cultural capital reproduction",
+            "habitus class taste",
+            "educational inequality mechanism",
+            "symbolic capital Bourdieu"
+          ]
+        },
+        {
+          "id": "th9",
+          "group": "Race, Gender & Inequality",
+          "label": "Intersectionality",
+          "date": "1989",
+          "loc": "University of Chicago Law School, Chicago, Illinois",
+          "coords": [
+            41.79,
+            -87.6
+          ],
+          "links": [
+            "st8"
+          ],
+          "hint": "Systems of inequality (race, gender, class) do not simply add together — they interact, producing distinct experiences that neither a race-only nor a gender-only lens can capture. Crenshaw showed that Black women could be denied legal remedy in discrimination cases because courts insisted on treating race and sex discrimination as separate claims, structurally erasing harms that only occur at their intersection.",
+          "tag": "FRAMEWORK",
+          "note": "Crenshaw, K. (1989). 'Demarginalizing the Intersection of Race and Sex.' University of Chicago Legal Forum, 1989(1), 139–167. Built on earlier Black feminist theorizing (Combahee River Collective, 1977). Now a standard analytic tool across sociology of race, gender and class; some critics argue the framework can be applied so broadly to any combination of identities that it risks losing analytical precision, a live methodological debate within the field itself.",
+          "keywords": [
+            "intersectionality framework",
+            "race gender interaction",
+            "structural discrimination overlap",
+            "Black feminist theory"
+          ]
+        },
+        {
+          "id": "th10",
+          "group": "Urbanization & Social Change",
+          "label": "Urban Ecology (Chicago School)",
+          "date": "1925",
+          "loc": "University of Chicago, Chicago, Illinois",
+          "coords": [
+            41.79,
+            -87.6
+          ],
+          "links": [
+            "st3"
+          ],
+          "hint": "Cities grow in predictable concentric rings radiating out from a central business district — a zone of transition (cheap housing, immigrant settlement, high crime) surrounds the core, with progressively wealthier residential zones further out — much as ecological competition sorts species into niches. Park and Burgess mapped Chicago itself to argue urban social patterns follow lawful, near-biological processes of competition for space.",
+          "tag": "MODEL",
+          "note": "Park, R. E. & Burgess, E. W. (1925). 'The City.' University of Chicago Press. The concentric-zone model fit early-20th-century industrial Chicago reasonably well but has been heavily revised since — later urban sociologists (e.g. Harris & Ullman's multiple-nuclei model, 1945) showed many cities, especially those built around the automobile, do not grow in tidy rings at all, so the model is now read as historically specific rather than a universal law of urban form.",
+          "keywords": [
+            "urban ecology model",
+            "concentric zone city",
+            "Chicago School sociology",
+            "zone of transition"
+          ]
+        },
+        {
+          "id": "th11",
+          "group": "Institutions: Family, Education & Religion",
+          "label": "Social Constructionism",
+          "date": "1966",
+          "loc": "New School for Social Research, New York, New York",
+          "coords": [
+            40.735,
+            -73.995
+          ],
+          "links": [],
+          "hint": "Institutions that feel like fixed, objective facts of life — marriage, money, a country's borders, even gender roles — are in fact built and continuously maintained through everyday social agreement and habit, then handed down to new generations as if they had always been natural and inevitable. Berger and Luckmann argued that reality itself, for social purposes, is what a society collectively treats as real.",
+          "tag": "THEORY",
+          "note": "Berger, P. L. & Luckmann, T. (1966). 'The Social Construction of Reality: A Treatise in the Sociology of Knowledge.' Doubleday. Became a foundational text across the sociology of knowledge, institutions and science studies. Critics note that emphasising how thoroughly institutions are 'constructed' can understate how real and materially constraining they feel and function once established — a construction can be just as hard to change as a natural fact.",
+          "keywords": [
+            "social construction reality",
+            "institutionalization process",
+            "sociology of knowledge",
+            "objectified social fact"
+          ]
+        }
+      ]
     },
     {
       "id": "study",
       "label": "Landmark Studies",
       "icon": "🧪",
-      "color": "#4A235A", "accent": "#7D3C98", "bg": "#FAF5FF",
+      "color": "#4A235A",
+      "accent": "#7D3C98",
+      "bg": "#FAF5FF",
       "subtitle": "The defining experiments — and exactly what they found",
-      "entries": []
+      "entries": [
+        {
+          "id": "st1",
+          "group": "Classical Theoretical Traditions",
+          "label": "Durkheim's Suicide",
+          "date": "1897",
+          "loc": "University of Bordeaux, Bordeaux, France",
+          "coords": [
+            44.84,
+            -0.58
+          ],
+          "links": [
+            "th5"
+          ],
+          "hint": "Durkheim showed that suicide rates — seemingly the most private, individual of acts — vary systematically and predictably across social categories: Protestants more than Catholics, unmarried more than married, and rates spiking during both economic crashes and economic booms. He argued these patterns reflect differing degrees of social integration and regulation, founding sociology's claim that even individual behaviour is shaped by 'social facts' external to the person.",
+          "tag": "FIELD STUDY",
+          "repl": "mixed",
+          "note": "Durkheim, E. (1897). 'Le Suicide: Étude de sociologie.' Félix Alcan, Paris. Douglas, J. D. (1967). 'The Social Meanings of Suicide.' Princeton University Press, challenged the reliability of the official statistics Durkheim relied on, arguing that how a death gets officially classified as 'suicide' is itself a social process shaped by local coroners' biases — meaning Durkheim's patterns may partly reflect differences in record-keeping rather than in actual behaviour. The broad integration/regulation pattern has nonetheless been replicated in many later, more careful studies.",
+          "keywords": [
+            "suicide social integration",
+            "anomic suicide",
+            "official statistics reliability",
+            "Durkheimian social fact"
+          ]
+        },
+        {
+          "id": "st2",
+          "group": "Urbanization & Social Change",
+          "label": "Milgram's Small World Experiment",
+          "date": "1967",
+          "loc": "Harvard University, Cambridge, Massachusetts",
+          "coords": [
+            42.377,
+            -71.117
+          ],
+          "links": [],
+          "hint": "Milgram gave people in Nebraska and Kansas a letter to route, through personal acquaintances only, to a specific stockbroker in Boston they had never met — and the successful chains averaged only about six intermediaries, the origin of the phrase 'six degrees of separation.' The study became the founding empirical claim that social networks, however vast, are startlingly tightly connected.",
+          "tag": "EXPERIMENT",
+          "repl": "mixed",
+          "note": "Milgram, S. (1967). 'The Small World Problem.' Psychology Today, 1(1), 61–67. Kleinfeld, J. (2002). 'Could It Be a Big World After All?' Society, 39(2), 61–66, pointed out that in Milgram's original study the vast majority of chains never completed at all (as low as 5% in one version), so the famous 'six' figure came only from a self-selected minority of successful chains. A large-scale email replication (Dodds, Watts & Sabel, 2003, Science, 301, 827–829) found similarly short completion paths but confirmed completion rates remained low, so the network really is 'small' but reaching across it in practice is harder than the popular version of the finding suggests.",
+          "keywords": [
+            "small world network",
+            "six degrees separation",
+            "social network connectivity",
+            "chain letter experiment"
+          ]
+        },
+        {
+          "id": "st3",
+          "group": "Urbanization & Social Change",
+          "label": "Whyte's Street Corner Society",
+          "date": "1943",
+          "loc": "North End, Boston, Massachusetts",
+          "coords": [
+            42.365,
+            -71.054
+          ],
+          "links": [
+            "th10"
+          ],
+          "hint": "Whyte spent three years living in and observing an Italian-American slum neighbourhood in Boston, documenting how a supposedly 'disorganised' immigrant community actually ran on a complex, orderly system of street-corner gangs, informal leadership and mutual obligation — directly contradicting the era's assumption that poor immigrant neighbourhoods were simply chaotic.",
+          "tag": "FIELD STUDY",
+          "repl": "mixed",
+          "note": "Whyte, W. F. (1943). 'Street Corner Society: The Social Structure of an Italian Slum.' University of Chicago Press. Boelen, W. A. M. (1992). 'Street Corner Society: Cornerville Revisited.' Journal of Contemporary Ethnography, 21(1), 11–51, revisited the same neighbourhood decades later and disputed several factual details of Whyte's account (including his central informant 'Doc's' real circumstances), arguing Whyte had misread aspects of Italian-American culture — a case frequently cited in methods courses on the risks of relying on a single key informant.",
+          "keywords": [
+            "urban ethnography immigrant",
+            "street gang informal order",
+            "Chicago School fieldwork",
+            "key informant methodology"
+          ]
+        },
+        {
+          "id": "st4",
+          "group": "Deviance, Norms & Social Control",
+          "label": "Goffman's Asylums",
+          "date": "1961",
+          "loc": "St. Elizabeths Hospital, Washington, D.C.",
+          "coords": [
+            38.85,
+            -76.99
+          ],
+          "links": [
+            "th1",
+            "th3"
+          ],
+          "hint": "Goffman spent a year as a covert participant-observer inside a large psychiatric hospital and showed how the institution stripped incoming patients of their prior identity through standardised, degrading intake routines, then managed them entirely within the institution's own walls, work, and social life — coining the term 'total institution' for any place (asylums, prisons, monasteries, military boot camps) that controls virtually every aspect of its members' lives.",
+          "tag": "FIELD STUDY",
+          "repl": "robust",
+          "note": "Goffman, E. (1961). 'Asylums: Essays on the Social Situation of Mental Patients and Other Inmates.' Anchor Books. The 'total institution' concept has been applied and broadly confirmed across many other closed institutions studied since (prisons, cults, some care homes), and directly informed the deinstitutionalisation movement in psychiatric care from the 1960s–80s.",
+          "keywords": [
+            "total institution",
+            "asylum identity stripping",
+            "institutional degradation ritual",
+            "dramaturgical sociology"
+          ]
+        },
+        {
+          "id": "st5",
+          "group": "Race, Gender & Inequality",
+          "label": "Wilson's The Truly Disadvantaged",
+          "date": "1987",
+          "loc": "University of Chicago, Chicago, Illinois",
+          "coords": [
+            41.79,
+            -87.6
+          ],
+          "links": [],
+          "hint": "Wilson argued that the deep, persistent poverty concentrated in inner-city Black neighbourhoods was driven primarily by structural economic shifts — the disappearance of manufacturing jobs and the exit of the Black middle class to the suburbs — rather than by a self-perpetuating 'culture of poverty,' reframing a politically charged debate around economic restructuring instead of individual or cultural failure.",
+          "tag": "FIELD STUDY",
+          "repl": "mixed",
+          "note": "Wilson, W. J. (1987). 'The Truly Disadvantaged: The Inner City, the Underclass, and Public Policy.' University of Chicago Press. Hugely influential in urban sociology and social policy. Later scholars (surveyed in Small, M. L., Harding, D. J. & Lamont, M. 2010, 'Reconsidering Culture and Poverty,' The ANNALS of the American Academy of Political and Social Science, 629) argued Wilson's structural account had gone too far in dismissing cultural factors entirely, calling for a more integrated structure-plus-culture explanation — including revisions Wilson himself later incorporated.",
+          "keywords": [
+            "concentrated urban poverty",
+            "structural unemployment race",
+            "underclass debate",
+            "deindustrialization inequality"
+          ]
+        },
+        {
+          "id": "st6",
+          "group": "Urbanization & Social Change",
+          "label": "Putnam's Bowling Alone",
+          "date": "2000",
+          "loc": "Harvard University, Cambridge, Massachusetts",
+          "coords": [
+            42.377,
+            -71.117
+          ],
+          "links": [],
+          "hint": "Putnam documented a decades-long decline in American civic life — falling membership in clubs, unions, PTAs and even bowling leagues — and argued this erosion of 'social capital' (the networks and trust that let communities solve collective problems) weakened democracy itself, not just social life.",
+          "tag": "FIELD STUDY",
+          "repl": "mixed",
+          "note": "Putnam, R. D. (2000). 'Bowling Alone: The Collapse and Revival of American Community.' Simon & Schuster. Extremely widely cited, but critics argued Putnam's survey measures conflated several distinct things under 'social capital,' and that some forms of civic connection (online communities, informal networks) were growing even as the specific mid-century associations he tracked declined — suggesting a shift in the form of civic life rather than a simple, uniform collapse.",
+          "keywords": [
+            "social capital decline",
+            "civic engagement erosion",
+            "community associational life",
+            "Putnam bowling alone thesis"
+          ]
+        },
+        {
+          "id": "st7",
+          "group": "Social Stratification & Class",
+          "label": "Kohn's Class and Conformity",
+          "date": "1969",
+          "loc": "National Institute of Mental Health, Bethesda, Maryland",
+          "coords": [
+            38.995,
+            -77.1
+          ],
+          "links": [],
+          "hint": "Kohn found that a parent's occupation predicted the values they instilled in their children: parents in jobs requiring self-direction and independent judgment raised children to value autonomy and self-reliance, while parents in closely supervised, routinised jobs raised children to value obedience and conformity — showing how a family's position in the economy shapes the psychology it passes down.",
+          "tag": "FIELD STUDY",
+          "repl": "robust",
+          "note": "Kohn, M. L. (1969). 'Class and Conformity: A Study in Values.' Dorsey Press. Kohn, M. L. & Schooler, C. (1983). 'Work and Personality: An Inquiry into the Impact of Social Stratification.' Ablex, extended the finding into a full causal model. Cross-nationally replicated in Kohn's later comparative studies (Poland, Japan, Italy, the 1980s–90s), which found the same occupational self-direction/parental-values link held across very different economic and political systems.",
+          "keywords": [
+            "occupational self direction",
+            "class values transmission",
+            "parenting conformity autonomy",
+            "stratification psychology link"
+          ]
+        },
+        {
+          "id": "st8",
+          "group": "Race, Gender & Inequality",
+          "label": "Pager's Mark of a Criminal Record",
+          "date": "2003",
+          "loc": "Milwaukee, Wisconsin",
+          "coords": [
+            43.04,
+            -87.91
+          ],
+          "links": [
+            "th9"
+          ],
+          "hint": "Pager sent matched pairs of fake job applicants with identical resumes — varying only race and whether the applicant listed a criminal record — to real employers, and found a criminal record cut callbacks roughly in half, with the penalty for a Black applicant with a record larger than for an equivalent white applicant, whose 'clean' record advantage nearly erased the racial gap altogether.",
+          "tag": "EXPERIMENT",
+          "repl": "robust",
+          "note": "Pager, D. (2003). 'The Mark of a Criminal Record.' American Journal of Sociology, 108(5), 937–975. Extended by Pager, D., Western, B. & Bonikowski, B. (2009). 'Discrimination in a Low-Wage Labor Market: A Field Experiment.' American Sociological Review, 74(5), 777–799, in New York City. Subsequent meta-analyses of correspondence and audit studies across many countries have consistently found comparable racial discrimination effects in hiring, making this among the most robust, repeatedly confirmed findings in the sociology of stratification and discrimination.",
+          "keywords": [
+            "audit study discrimination",
+            "criminal record employment",
+            "racial hiring penalty",
+            "field experiment stratification"
+          ]
+        },
+        {
+          "id": "st9",
+          "group": "Social Stratification & Class",
+          "label": "Bourdieu & Passeron's The Inheritors",
+          "date": "1964",
+          "loc": "Sorbonne, Paris, France",
+          "coords": [
+            48.85,
+            2.34
+          ],
+          "links": [
+            "th8"
+          ],
+          "hint": "Bourdieu and Passeron showed that French university students from privileged families succeeded not simply because they were smarter or worked harder, but because they arrived already fluent in the tastes, references and unspoken norms the education system rewarded — a fluency their working-class classmates had to learn from scratch, if they got the chance at all.",
+          "tag": "FIELD STUDY",
+          "repl": "robust",
+          "note": "Bourdieu, P. & Passeron, J.-C. (1964). 'Les Héritiers: Les étudiants et la culture.' Les Éditions de Minuit (English translation: 'The Inheritors,' University of Chicago Press, 1979). The cultural-capital mechanism connecting family background to educational success has been widely replicated in later studies across many national education systems, though the specific 'highbrow culture' markers Bourdieu used are more culturally and historically specific to 1960s France.",
+          "keywords": [
+            "cultural capital education",
+            "class reproduction schooling",
+            "student inequality France",
+            "Bourdieusian field study"
+          ]
+        },
+        {
+          "id": "st10",
+          "group": "Urbanization & Social Change",
+          "label": "Christakis & Fowler's Social Contagion of Obesity",
+          "date": "2007",
+          "loc": "Framingham, Massachusetts",
+          "coords": [
+            42.28,
+            -71.42
+          ],
+          "links": [],
+          "hint": "Analysing 32 years of data from the Framingham Heart Study's dense social network, Christakis and Fowler found that a person's chance of becoming obese rose sharply if a friend became obese — even a friend living far away — and argued this showed obesity spreading through social ties like a socially transmitted behaviour, not just shared environment or genes.",
+          "tag": "FIELD STUDY",
+          "repl": "mixed",
+          "note": "Christakis, N. A. & Fowler, J. H. (2007). 'The Spread of Obesity in a Large Social Network over 32 Years.' New England Journal of Medicine, 357(4), 370–379. Shalizi, C. R. & Thomas, A. C. (2011). 'Homophily and Contagion Are Generically Confounded in Observational Social Network Studies.' Sociological Methods & Research, 40(2), 211–239, showed the statistical method used could not actually distinguish genuine social contagion from homophily (friends resembling each other because similar people become friends) or shared environment — the underlying clustering pattern in the data is real, but the strong causal 'contagion' interpretation is seriously disputed.",
+          "keywords": [
+            "social contagion obesity",
+            "network homophily confound",
+            "Framingham social network",
+            "peer influence health behavior"
+          ]
+        }
+      ]
     },
     {
       "id": "effect",
       "label": "Effects & Phenomena",
       "icon": "📊",
-      "color": "#0B4F2E", "accent": "#117A65", "bg": "#F0FFF6",
+      "color": "#0B4F2E",
+      "accent": "#117A65",
+      "bg": "#F0FFF6",
       "subtitle": "Named, replicable patterns in social and institutional behaviour",
       "entries": []
     },
@@ -37,7 +525,9 @@
       "id": "concept",
       "label": "Key Concepts",
       "icon": "🧩",
-      "color": "#2C3E50", "accent": "#566573", "bg": "#F5F6FA",
+      "color": "#2C3E50",
+      "accent": "#566573",
+      "bg": "#F5F6FA",
       "subtitle": "The building blocks and vocabulary every student must command",
       "entries": []
     },
@@ -45,7 +535,9 @@
       "id": "method",
       "label": "Methods & Approaches",
       "icon": "🔬",
-      "color": "#5D4037", "accent": "#8B5E00", "bg": "#FFF8F0",
+      "color": "#5D4037",
+      "accent": "#8B5E00",
+      "bg": "#FFF8F0",
       "subtitle": "The tools and paradigms that generate the field's evidence",
       "entries": []
     },
@@ -53,7 +545,9 @@
       "id": "figure",
       "label": "Pioneers & Theorists",
       "icon": "👤",
-      "color": "#7D6608", "accent": "#B7770D", "bg": "#FEFDE7",
+      "color": "#7D6608",
+      "accent": "#B7770D",
+      "bg": "#FEFDE7",
       "subtitle": "The researchers who shaped the discipline",
       "entries": []
     },
@@ -61,7 +555,9 @@
       "id": "debate",
       "label": "Debates & Open Questions",
       "icon": "⚖️",
-      "color": "#6E2C00", "accent": "#CA6F1E", "bg": "#FDF5EC",
+      "color": "#6E2C00",
+      "accent": "#CA6F1E",
+      "bg": "#FDF5EC",
       "subtitle": "Live controversies — where the field is actively contesting the evidence",
       "entries": []
     },
@@ -69,17 +565,55 @@
       "id": "application",
       "label": "Applications",
       "icon": "🔗",
-      "color": "#1A5276", "accent": "#2E86C1", "bg": "#EBF5FB",
+      "color": "#1A5276",
+      "accent": "#2E86C1",
+      "bg": "#EBF5FB",
       "subtitle": "Where the science leaves the lab",
       "entries": []
     }
   ],
   "timeline": [
-    { "id": "study",       "icon": "🧪", "accent": "#7D3C98", "label": "Landmark Studies",    "events": [] },
-    { "id": "theory",      "icon": "📐", "accent": "#2471A3", "label": "Theories & Models",   "events": [] },
-    { "id": "effect",      "icon": "📊", "accent": "#117A65", "label": "Effects & Phenomena", "events": [] },
-    { "id": "method",      "icon": "🔬", "accent": "#8B5E00", "label": "Methods",             "events": [] },
-    { "id": "debate",      "icon": "⚖️", "accent": "#B7770D", "label": "Debates & Revisions", "events": [] },
-    { "id": "application", "icon": "🔗", "accent": "#2E86C1", "label": "Applications",        "events": [] }
+    {
+      "id": "study",
+      "icon": "🧪",
+      "accent": "#7D3C98",
+      "label": "Landmark Studies",
+      "events": []
+    },
+    {
+      "id": "theory",
+      "icon": "📐",
+      "accent": "#2471A3",
+      "label": "Theories & Models",
+      "events": []
+    },
+    {
+      "id": "effect",
+      "icon": "📊",
+      "accent": "#117A65",
+      "label": "Effects & Phenomena",
+      "events": []
+    },
+    {
+      "id": "method",
+      "icon": "🔬",
+      "accent": "#8B5E00",
+      "label": "Methods",
+      "events": []
+    },
+    {
+      "id": "debate",
+      "icon": "⚖️",
+      "accent": "#B7770D",
+      "label": "Debates & Revisions",
+      "events": []
+    },
+    {
+      "id": "application",
+      "icon": "🔗",
+      "accent": "#2E86C1",
+      "label": "Applications",
+      "events": []
+    }
   ]
 }
