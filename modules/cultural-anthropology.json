@@ -3,9 +3,15 @@
   "schema_version": 1,
   "title": "Cultural & Social Anthropology",
   "subtitle": "Kinship, ritual, meaning & the diversity of human cultures",
-  "period": { "start": 1871, "end": 2025 },
+  "period": {
+    "start": 1896,
+    "end": 2025
+  },
   "domain": "society",
-  "mapCenter": [10, 20],
+  "mapCenter": [
+    10,
+    20
+  ],
   "mapZoom": 1,
   "methodology": "METHODOLOGY · Every entry anchors to a landmark study, ethnographic fieldwork, paper or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags replication status (later re-study or re-analysis), revisions and known controversies. Studies and effects carry a replicability badge — 🟢 robust · 🟡 nuanced or reduced · 🔴 failed or severely contested. Map pins mark the location where the fieldwork was conducted.",
   "categories": [
@@ -13,23 +19,531 @@
       "id": "theory",
       "label": "Theories & Models",
       "icon": "📐",
-      "color": "#1A3A5C", "accent": "#2471A3", "bg": "#F0F7FF",
+      "color": "#1A3A5C",
+      "accent": "#2471A3",
+      "bg": "#F0F7FF",
       "subtitle": "The frameworks that organise the study of culture, kinship and meaning",
-      "entries": []
+      "entries": [
+        {
+          "id": "th1",
+          "group": "Fieldwork, Culture & Relativism",
+          "label": "Cultural Relativism",
+          "date": "1896",
+          "loc": "Columbia University, New York, New York",
+          "coords": [
+            40.81,
+            -73.96
+          ],
+          "links": [
+            "st4",
+            "st2"
+          ],
+          "hint": "Every culture must be understood on its own terms — by its own history, values and internal logic — rather than ranked against a Western yardstick of 'civilisation'. Boas argued that apparent differences in intelligence or custom reflect historical accident and environment, not innate racial hierarchy, directly attacking the unilinear evolutionism popular in 19th-century anthropology.",
+          "tag": "FRAMEWORK",
+          "note": "Boas, F. (1896). 'The Limitations of the Comparative Method of Anthropology.' Science, 4(103), 901–908. Boas's students (Kroeber, Benedict, Mead) extended relativism into the dominant paradigm of American anthropology by the 1930s. Caveat: taken to an extreme, relativism can make cross-cultural ethical critique (e.g. of harmful practices) difficult to ground — a tension anthropologists still debate.",
+          "keywords": [
+            "cultural relativism",
+            "ethnocentrism critique",
+            "historical particularism",
+            "cultural determinism"
+          ]
+        },
+        {
+          "id": "th2",
+          "group": "Fieldwork, Culture & Relativism",
+          "label": "Structural Functionalism",
+          "date": "1922",
+          "loc": "London School of Economics, London, England",
+          "coords": [
+            51.51,
+            -0.12
+          ],
+          "links": [
+            "st5",
+            "st3"
+          ],
+          "hint": "A society's customs, rituals and institutions exist because they serve a function — typically maintaining social cohesion and equilibrium — much as organs serve functions within a living body. Radcliffe-Brown and Malinowski used this lens to explain why seemingly odd practices (elaborate mourning rites, ceremonial exchange) are not irrational survivals but active mechanisms holding the social order together.",
+          "tag": "THEORY",
+          "note": "Radcliffe-Brown, A. R. (1922). 'The Andaman Islanders.' Cambridge University Press, laid out the structural-functionalist programme; Malinowski's functionalism (needs-based, individual-centred) diverged from Radcliffe-Brown's structural version (society-centred). Later critiqued by practice theorists (Bourdieu, Ortner) as too static — it explains why institutions persist but struggles to explain historical change or conflict within a society.",
+          "keywords": [
+            "structural functionalism",
+            "social cohesion function",
+            "British social anthropology",
+            "equilibrium model society"
+          ]
+        },
+        {
+          "id": "th3",
+          "group": "Fieldwork, Culture & Relativism",
+          "label": "Interpretive Anthropology & Thick Description",
+          "date": "1973",
+          "loc": "University of Chicago, Chicago, Illinois",
+          "coords": [
+            41.79,
+            -87.6
+          ],
+          "links": [
+            "st6"
+          ],
+          "hint": "Culture is not a set of rules to be catalogued but a web of meaning to be read, like a text — the anthropologist's job is 'thick description': recording not just what people do, but what they and their community understand the act to mean. A wink, Geertz noted, can be a twitch, a flirtation, or a parody, and only the layered social context tells you which.",
+          "tag": "FRAMEWORK",
+          "note": "Geertz, C. (1973). 'Thick Description: Toward an Interpretive Theory of Culture,' in The Interpretation of Cultures. Basic Books. Hugely influential in shifting anthropology from a scientific-explanatory register toward a humanistic-interpretive one. Critics (e.g., Crapanzano, V. 1986, 'Hermes' Dilemma,' in Writing Culture) argued interpretive anthropology offers no way to adjudicate between competing readings of the same culture, raising an unresolved question about whether its claims are falsifiable.",
+          "keywords": [
+            "thick description",
+            "interpretive anthropology",
+            "symbolic meaning system",
+            "hermeneutic ethnography"
+          ]
+        },
+        {
+          "id": "th4",
+          "group": "Language, Meaning & Worldview",
+          "label": "Structuralism",
+          "date": "1949",
+          "loc": "École Pratique des Hautes Études, Paris, France",
+          "coords": [
+            48.85,
+            2.34
+          ],
+          "links": [
+            "th6"
+          ],
+          "hint": "Beneath the surface diversity of myths, kinship rules and rituals lie universal deep structures of the human mind, built from binary oppositions (raw/cooked, nature/culture, male/female). Lévi-Strauss argued that comparing myths and marriage systems across cultures reveals the same underlying combinatorial logic, much as linguists find shared grammatical structures beneath different languages.",
+          "tag": "THEORY",
+          "note": "Lévi-Strauss, C. (1949). 'Les Structures élémentaires de la parenté' (The Elementary Structures of Kinship). Presses Universitaires de France. Extended in Lévi-Strauss's four-volume 'Mythologiques' (1964–71). Critiqued for being difficult to falsify — a skilled structuralist can find a binary opposition in almost any myth — and for underplaying historical change and individual agency in favour of timeless mental structures.",
+          "keywords": [
+            "binary opposition structure",
+            "structural anthropology",
+            "myth structural analysis",
+            "deep structure culture"
+          ]
+        },
+        {
+          "id": "th5",
+          "group": "Language, Meaning & Worldview",
+          "label": "Linguistic Relativity (Sapir-Whorf Hypothesis)",
+          "date": "1940",
+          "loc": "Yale University, New Haven, Connecticut",
+          "coords": [
+            41.31,
+            -72.93
+          ],
+          "links": [
+            "st10"
+          ],
+          "hint": "The grammar and vocabulary of a person's language subtly shape how they perceive and categorise the world — speakers of languages with different spatial, temporal or classificatory systems may literally notice and remember different things. Whorf's strong claim (language determines thought) is now rejected, but a weaker version (language influences habitual attention) has real empirical support.",
+          "tag": "THEORY",
+          "note": "Whorf, B. L. (1940). 'Science and Linguistics.' MIT Technology Review, 42, 229–231, 247–248, built on Sapir's earlier linguistic-relativity remarks. The strong 'linguistic determinism' reading was widely rejected by the 1960s–70s (e.g. universalist colour-term research by Berlin & Kay 1969). A weaker relativity has been empirically supported since, e.g. by Lucy's Yucatec Maya classifier study (st10) — see the Debates section for how this pendulum has swung across a century.",
+          "keywords": [
+            "linguistic relativity",
+            "Sapir-Whorf hypothesis",
+            "language shapes thought",
+            "grammatical category cognition"
+          ]
+        },
+        {
+          "id": "th6",
+          "group": "Kinship & Family Systems",
+          "label": "Alliance Theory",
+          "date": "1949",
+          "loc": "École Pratique des Hautes Études, Paris, France",
+          "coords": [
+            48.85,
+            2.34
+          ],
+          "links": [
+            "th4",
+            "st9",
+            "st3"
+          ],
+          "hint": "Kinship systems are best explained not by tracing descent (who is related to whom by blood) but by marriage exchange — societies enforce rules about who one must marry outside one's own group (exogamy), and this circulation of spouses between groups is what binds a society together, echoing Mauss's logic of gift exchange. Lévi-Strauss's alliance theory directly rivalled the British descent-theory school.",
+          "tag": "THEORY",
+          "note": "Lévi-Strauss, C. (1949). 'Les Structures élémentaires de la parenté.' Presses Universitaires de France. Rivalled by descent theory (Fortes, M. 1949, 'The Web of Kinship Among the Tasallensi,' Oxford University Press; Radcliffe-Brown's lineage model). Neither theory alone explains every kinship system studied since — most anthropologists now treat alliance and descent as complementary lenses rather than competing universal laws.",
+          "keywords": [
+            "alliance theory kinship",
+            "exogamy exchange",
+            "descent versus alliance",
+            "cross-cousin marriage"
+          ]
+        },
+        {
+          "id": "th7",
+          "group": "Ritual, Religion & Symbolism",
+          "label": "Rites of Passage & Liminality",
+          "date": "1909",
+          "loc": "École Pratique des Hautes Études, Paris, France",
+          "coords": [
+            48.85,
+            2.34
+          ],
+          "links": [
+            "st6",
+            "st5"
+          ],
+          "hint": "Life transitions — birth, puberty, marriage, death — are marked across cultures by a common three-stage ritual structure: separation from ordinary social status, a liminal in-between phase where normal rules are suspended, and reincorporation into a new status. Turner later showed the liminal phase often produces 'communitas' — an intense, equal, temporary bond among initiates that ordinary hierarchical society doesn't allow.",
+          "tag": "MODEL",
+          "note": "Van Gennep, A. (1909). 'Les Rites de passage.' Émile Nourry, Paris. Extended by Turner, V. (1969). 'The Ritual Process: Structure and Anti-Structure.' Aldine. The tripartite model has been confirmed across an enormous range of cultures' rites, though some anthropologists note it fits initiation rituals better than it fits everyday, non-ceremonial transitions, and that not every liminal phase produces communitas.",
+          "keywords": [
+            "rites of passage",
+            "liminality threshold",
+            "ritual process structure",
+            "communitas"
+          ]
+        },
+        {
+          "id": "th8",
+          "group": "Exchange, Subsistence & Economy",
+          "label": "Gift Theory & the Norm of Reciprocity",
+          "date": "1925",
+          "loc": "Institut de Sociologie, Paris, France",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "links": [
+            "st1"
+          ],
+          "hint": "A gift is never truly free — every gift carries an obligation to give, to receive, and to reciprocate, and this three-part obligation, not market exchange, is what binds archaic and small-scale societies together. Mauss showed that objects exchanged in ceremonies like the Kula ring or the potlatch carry the giver's identity with them, making the exchange as much social and spiritual as economic.",
+          "tag": "THEORY",
+          "note": "Mauss, M. (1925). 'Essai sur le don' (The Gift). Année Sociologique. Drew heavily on Malinowski's Kula ring data (st1) and Boas's potlatch accounts. The theory has been broadly confirmed across gift economies studied since, though later economic anthropologists (e.g. Marshall Sahlins) refined it by showing reciprocity norms vary systematically with social distance — closer kin observe looser, more generalised reciprocity than distant trading partners.",
+          "keywords": [
+            "gift exchange obligation",
+            "reciprocity norm",
+            "total prestation",
+            "potlatch economy"
+          ]
+        },
+        {
+          "id": "th9",
+          "group": "Exchange, Subsistence & Economy",
+          "label": "Cultural Materialism & Cultural Ecology",
+          "date": "1955",
+          "loc": "University of Illinois, Urbana-Champaign, Illinois",
+          "coords": [
+            40.11,
+            -88.23
+          ],
+          "links": [
+            "st11",
+            "st7"
+          ],
+          "hint": "Material conditions — how a society gets its food, tools and energy from its environment — determine its social structure, kinship rules and even its religious beliefs, not the reverse. Steward's cultural ecology and Harris's later cultural materialism explain seemingly bizarre customs (a sacred, uneatable cow in India) as rational adaptations once the underlying material constraints (plough oxen, milk, dung fuel) are accounted for.",
+          "tag": "FRAMEWORK",
+          "note": "Steward, J. H. (1955). 'Theory of Culture Change: The Methodology of Multilinear Evolution.' University of Illinois Press. Extended by Harris, M. (1974). 'Cows, Pigs, Wars, and Witches.' Random House. Critics (symbolic/interpretive anthropologists) argue cultural materialism reduces belief and meaning to a byproduct of economics, and Harris's specific explanations (e.g. of Yanomami warfare, st7) remain contested against rival, non-materialist accounts of the same data.",
+          "keywords": [
+            "cultural materialism",
+            "cultural ecology adaptation",
+            "infrastructure determinism",
+            "etic emic distinction"
+          ]
+        },
+        {
+          "id": "th10",
+          "group": "Power, Colonialism & Cultural Contact",
+          "label": "Anthropology's Critique of Colonial Contact",
+          "date": "1982",
+          "loc": "University of Michigan, Ann Arbor, Michigan",
+          "coords": [
+            42.28,
+            -83.74
+          ],
+          "links": [
+            "st7"
+          ],
+          "hint": "The 'traditional' small-scale societies anthropologists studied were never isolated, timeless survivals — they were already deeply entangled with European colonialism, global trade and slavery long before the ethnographer arrived. Wolf argued that treating these societies as pristine, self-contained units erased the very history (conquest, forced labour, resource extraction) that had shaped them, and that anthropology needed to write people back into world history.",
+          "tag": "FRAMEWORK",
+          "note": "Wolf, E. R. (1982). 'Europe and the People Without History.' University of California Press. Part of a broader 1980s reflexive turn (see also Asad, T. ed. 1973, 'Anthropology and the Colonial Encounter') that forced the discipline to reckon with its own historical entanglement with colonial administration. The critique reshaped how later fieldwork (e.g. among the Yanomami, st7) is framed and reported, though debate continues over how much any outside researcher can escape that entanglement.",
+          "keywords": [
+            "anthropology of colonialism",
+            "world systems periphery",
+            "extractive contact history",
+            "postcolonial critique"
+          ]
+        }
+      ]
     },
     {
       "id": "study",
       "label": "Landmark Studies",
       "icon": "🧪",
-      "color": "#4A235A", "accent": "#7D3C98", "bg": "#FAF5FF",
+      "color": "#4A235A",
+      "accent": "#7D3C98",
+      "bg": "#FAF5FF",
       "subtitle": "The defining experiments — and exactly what they found",
-      "entries": []
+      "entries": [
+        {
+          "id": "st1",
+          "group": "Exchange, Subsistence & Economy",
+          "label": "Malinowski's Kula Ring (Trobriand Islands)",
+          "date": "1922",
+          "loc": "Kiriwina Island, Trobriand Islands, Papua New Guinea",
+          "coords": [
+            -8.5,
+            151.07
+          ],
+          "links": [
+            "th8"
+          ],
+          "hint": "Trobriand Islanders undertake long, dangerous canoe voyages between islands purely to exchange ceremonial shell valuables — red necklaces (soulava) travelling one way, white armshells (mwali) the other — that have no practical use and are often given away again almost immediately. Malinowski showed this Kula ring was nonetheless the backbone of Trobriand political alliance, status and inter-island trade in ordinary goods.",
+          "tag": "FIELD STUDY",
+          "repl": "mixed",
+          "note": "Malinowski, B. (1922). 'Argonauts of the Western Pacific.' Routledge & Kegan Paul, London — the founding text of economic anthropology and modern participant-observation fieldwork. Weiner, A. (1976). 'Women of Value, Men of Renown: New Perspectives in Trobriand Exchange.' University of Texas Press, restudied the same islands and showed Malinowski's male-centred account had omitted a parallel, women-controlled exchange system (banana-leaf bundles central to mortuary ritual), revising the picture of Trobriand political economy as more gender-balanced than he portrayed.",
+          "keywords": [
+            "kula ring exchange",
+            "Trobriand Islands economy",
+            "ceremonial exchange network",
+            "economic anthropology classic"
+          ]
+        },
+        {
+          "id": "st2",
+          "group": "Identity, Gender & the Body",
+          "label": "Mead's Coming of Age in Samoa",
+          "date": "1928",
+          "loc": "Ta'u, Manu'a Islands, American Samoa",
+          "coords": [
+            -14.23,
+            -169.5
+          ],
+          "links": [
+            "th1"
+          ],
+          "hint": "Mead argued that Samoan adolescents passed through puberty without the emotional turmoil, sexual anxiety or rebellion long assumed to be a universal, biological feature of the teenage years — evidence that adolescent 'storm and stress' is culturally produced, not hard-wired. The claim became one of the most cited arguments for cultural over biological determinism in the nature-nurture debate.",
+          "tag": "FIELD STUDY",
+          "repl": "mixed",
+          "note": "Mead, M. (1928). 'Coming of Age in Samoa: A Psychological Study of Primitive Youth for Western Civilisation.' William Morrow, New York. Freeman, D. (1983). 'Margaret Mead and Samoa: The Making and Unmaking of an Anthropological Myth.' Harvard University Press, argued Mead was misled by informants and that Samoan adolescence in fact involved real conflict and restriction — sparking anthropology's most public 20th-century controversy. Later scholars (Shankman, P. 2009, 'The Trashing of Margaret Mead') defended parts of Mead's account and criticised Freeman's own methodology, so the dispute remains genuinely unresolved.",
+          "keywords": [
+            "adolescent storm stress",
+            "nature nurture adolescence",
+            "Samoa ethnography controversy",
+            "cultural determinism debate"
+          ]
+        },
+        {
+          "id": "st3",
+          "group": "Kinship & Family Systems",
+          "label": "Evans-Pritchard's The Nuer",
+          "date": "1940",
+          "loc": "Upper Nile, South Sudan",
+          "coords": [
+            8.5,
+            31.5
+          ],
+          "links": [
+            "th2",
+            "th6"
+          ],
+          "hint": "The Nuer, cattle-herding pastoralists of the South Sudanese swamplands, maintained political order across tens of thousands of people with no chiefs, courts or police — instead, a 'segmentary lineage system' let any two kin groups unite against a more distant threat and split apart again once it passed, producing order through shifting, balanced opposition rather than centralised authority.",
+          "tag": "FIELD STUDY",
+          "repl": "robust",
+          "note": "Evans-Pritchard, E. E. (1940). 'The Nuer: A Description of the Modes of Livelihood and Political Institutions of a Nilotic People.' Oxford: Clarendon Press. Restudied fifty years later by Hutchinson, S. (1996). 'Nuer Dilemmas: Coping with Money, War, and the State.' University of California Press, which documented profound change from a cattle-based to a money-and-war economy but largely confirmed Evans-Pritchard's original segmentary-lineage description as an accurate account of its own historical moment.",
+          "keywords": [
+            "segmentary lineage system",
+            "Nilotic pastoralist society",
+            "acephalous political order",
+            "balanced opposition kinship"
+          ]
+        },
+        {
+          "id": "st4",
+          "group": "Fieldwork, Culture & Relativism",
+          "label": "Boas's Cranial Plasticity Study",
+          "date": "1912",
+          "loc": "Columbia University, New York, New York",
+          "coords": [
+            40.81,
+            -73.96
+          ],
+          "links": [
+            "th1"
+          ],
+          "hint": "Boas measured the head shape (cranial index) of roughly 13,000 European immigrants and their American-born children and found significant differences between parents and children raised in the new environment — direct evidence that a supposedly fixed racial trait was in fact plastic and environmentally responsive, undercutting contemporary race science's claim that cranial form was a stable marker of biological type.",
+          "tag": "FIELD STUDY",
+          "repl": "mixed",
+          "note": "Boas, F. (1912). 'Changes in Bodily Form of Descendants of Immigrants.' American Anthropologist, 14(3), 530–562. Sparks, C. S. & Jantz, R. L. (2002). 'A Reassessment of Human Cranial Plasticity: Boas Revisited.' PNAS, 99(23), 14636–14639, reanalysed the same data and argued it showed strong genetic — not environmental — determination. Gravlee, C. C., Bernard, H. R. & Leonard, W. R. (2003). 'Heredity, Environment, and Cranial Form: A Reanalysis of Boas's Immigrant Data.' American Anthropologist, 105(1), 125–138, found the Sparks & Jantz reanalysis statistically flawed and that Boas's original plasticity conclusion held up — the dueling-reanalysis dispute is itself a well-known case study in how the same historical dataset can be read to opposite conclusions.",
+          "keywords": [
+            "cranial index plasticity",
+            "immigrant anthropometry study",
+            "race biology critique",
+            "environmental plasticity debate"
+          ]
+        },
+        {
+          "id": "st5",
+          "group": "Ritual, Religion & Symbolism",
+          "label": "Radcliffe-Brown's Andaman Islanders",
+          "date": "1922",
+          "loc": "Port Blair, Andaman Islands, India",
+          "coords": [
+            11.67,
+            92.75
+          ],
+          "links": [
+            "th2",
+            "th7"
+          ],
+          "hint": "Radcliffe-Brown documented the elaborate ceremonial life of the Andaman Islanders — mourning rites, initiation ordeals, food taboos — and argued each custom, however strange it looked to an outsider, functioned to express and reinforce the value the community placed on social solidarity itself, making ritual a kind of collective self-affirmation rather than a superstitious relic.",
+          "tag": "FIELD STUDY",
+          "repl": "robust",
+          "note": "Radcliffe-Brown, A. R. (1922). 'The Andaman Islanders.' Cambridge University Press — the founding ethnographic monograph of British structural-functionalism. The descriptive account of Andamanese ritual life has held up well; his specific functionalist interpretation (that ritual exists purely to encode social solidarity) was later challenged by symbolic and practice-oriented anthropologists as too neatly systemic, underplaying conflict, individual variation and historical change within Andamanese society.",
+          "keywords": [
+            "Andaman ritual function",
+            "social solidarity ritual",
+            "British functionalist ethnography"
+          ]
+        },
+        {
+          "id": "st6",
+          "group": "Ritual, Religion & Symbolism",
+          "label": "Geertz's Balinese Cockfight",
+          "date": "1972",
+          "loc": "Tabanan, Bali, Indonesia",
+          "coords": [
+            -8.54,
+            115.13
+          ],
+          "links": [
+            "th3",
+            "th7"
+          ],
+          "hint": "Balinese men stage lavish, illegal cockfights and bet heavily on them despite the fights having no material payoff worth the risk — Geertz argued the cockfight is really 'deep play,' a dramatized story Balinese society tells itself about status, masculinity and prestige, readable like a text once you understand the symbolic stakes riding on each match.",
+          "tag": "FIELD STUDY",
+          "repl": "mixed",
+          "note": "Geertz, C. (1972). 'Deep Play: Notes on the Balinese Cockfight.' Daedalus, 101(1), 1–37 — the paradigm case for interpretive/symbolic anthropology's method of 'thick description.' Critics (e.g., Crapanzano, V. 1986, 'Hermes' Dilemma,' in Writing Culture, eds. Clifford & Marcus) argued Geertz offers no way to check his interpretation against a rival reading of the same event, an unresolved methodological tension that still divides interpretive anthropology from more empirically falsifiable approaches.",
+          "keywords": [
+            "deep play status rivalry",
+            "Balinese cockfight symbolism",
+            "culture as text",
+            "status rivalry ritual"
+          ]
+        },
+        {
+          "id": "st7",
+          "group": "Power, Colonialism & Cultural Contact",
+          "label": "Chagnon's Yanomami Fieldwork",
+          "date": "1968",
+          "loc": "Upper Orinoco, Amazonas, Venezuela",
+          "coords": [
+            2.15,
+            -65.13
+          ],
+          "links": [
+            "th9",
+            "th10"
+          ],
+          "hint": "Chagnon depicted the Yanomami as 'the fierce people,' a society organised around chronic intervillage raiding, and argued men who had killed (unokai) achieved higher status and more wives and children — evidence, he claimed, that reproductive competition drove tribal warfare. The claim, the fieldwork methods behind it, and the ethics of the research itself became the subject of one of anthropology's fiercest and most public disputes.",
+          "tag": "FIELD STUDY",
+          "repl": "mixed",
+          "note": "Chagnon, N. A. (1968). 'Yanomamö: The Fierce People.' Holt, Rinehart & Winston. Tierney, P. (2000). 'Darkness in El Dorado: How Scientists and Journalists Devastated the Amazon.' W. W. Norton, alleged Chagnon's presence and gift-giving had itself inflamed village conflict and that his violence data were exaggerated, and accused a collaborating geneticist of worsening a measles epidemic. A 2005 American Anthropological Association review vacated its own earlier critical task-force report after finding the measles allegations unsubstantiated, though concerns about fieldwork ethics and informed consent were never fully resolved — the case remains a live example of how entangled scientific claims and research ethics can become.",
+          "keywords": [
+            "Yanomami warfare violence",
+            "reproductive success violence",
+            "fieldwork ethics scandal",
+            "unokai status killing"
+          ]
+        },
+        {
+          "id": "st8",
+          "group": "Identity, Gender & the Body",
+          "label": "Shostak's Nisa: Life of a !Kung Woman",
+          "date": "1981",
+          "loc": "Dobe, Kalahari Desert, Botswana",
+          "coords": [
+            -19.98,
+            21.06
+          ],
+          "links": [],
+          "hint": "Shostak recorded the life story of Nisa, a Ju/'hoansi (!Kung San) woman, in her own words — childhood, marriages, childbirth, desire and grief — giving anthropology a rare first-person female account from a foraging society at a time when most ethnography of hunter-gatherers was written by, and largely about, men.",
+          "tag": "CASE STUDY",
+          "repl": "robust",
+          "note": "Shostak, M. (1981). 'Nisa: The Life and Words of a !Kung Woman.' Harvard University Press. Shostak's own follow-up, 'Return to Nisa' (2000, Harvard University Press), found Nisa's life had grown harder amid rapid social and economic change in the intervening two decades — a contextualising update rather than a contradiction of the original life history, and a reminder that even a single-subject account is a snapshot of a particular historical moment, not a timeless portrait.",
+          "keywords": [
+            "Ju'hoansi life history",
+            "forager woman testimony",
+            "San hunter-gatherer gender"
+          ]
+        },
+        {
+          "id": "st9",
+          "group": "Kinship & Family Systems",
+          "label": "Gough's Nayar Marriage Study",
+          "date": "1959",
+          "loc": "Central Kerala, India",
+          "coords": [
+            10.78,
+            76.66
+          ],
+          "links": [
+            "th6"
+          ],
+          "hint": "Among the traditional Nayar of Kerala, a woman could have several recognised 'visiting husbands' who held no rights or duties toward her children, who instead were raised within her own matrilineal household (taravad) — a kinship arrangement that broke the assumption, common across anthropology at the time, that marriage universally implies co-residence or exclusive economic and sexual rights.",
+          "tag": "FIELD STUDY",
+          "repl": "mixed",
+          "note": "Gough, K. (1959). 'The Nayar and the Definition of Marriage.' Journal of the Royal Anthropological Institute, 89(1), 23–34. Gough's account relied partly on elderly informants' memories of a system already declining under colonial-era land reform by the time of her fieldwork, and later scholars (e.g. Fuller, C. J. 1976, 'The Nayars Today,' Cambridge University Press) documented meaningful variation across Nayar subcastes — the core kinship pattern is well attested, but its uniformity across the whole Nayar population is less certain than early citations implied.",
+          "keywords": [
+            "Nayar matrilineal kinship",
+            "polyandry visiting husband",
+            "marriage definition cross-cultural",
+            "taravad household"
+          ]
+        },
+        {
+          "id": "st10",
+          "group": "Language, Meaning & Worldview",
+          "label": "Lucy's Yucatec Maya Cognition Study",
+          "date": "1992",
+          "loc": "Yucatán, Mexico",
+          "coords": [
+            20.97,
+            -89.62
+          ],
+          "links": [
+            "th5"
+          ],
+          "hint": "Yucatec Maya grammar, unlike English, does not require marking most nouns for number and instead uses classifiers that sort objects by material or shape. Lucy showed that Yucatec Maya speakers and English speakers, given the same nonverbal sorting task, grouped objects differently in ways that tracked exactly this grammatical difference — a rare controlled empirical test giving real, if modest, support to linguistic relativity.",
+          "tag": "EXPERIMENT",
+          "repl": "mixed",
+          "note": "Lucy, J. A. (1992). 'Grammatical Categories and Cognition: A Case Study of the Linguistic Relativity Hypothesis.' Cambridge University Press. Later research (surveyed in Lucy & Gaskins and in Lera Boroditsky's subsequent colour, space and time studies through the 2000s–2010s) found supporting evidence in some cognitive domains but weaker or contested effects in others, so the strength and universality of the Whorfian effect remains an actively debated question in cognitive science, not a settled result.",
+          "keywords": [
+            "Yucatec Maya classifier",
+            "grammatical number marking",
+            "nonverbal classification task",
+            "linguistic relativity test"
+          ]
+        },
+        {
+          "id": "st11",
+          "group": "Exchange, Subsistence & Economy",
+          "label": "Lee's !Kung 'Original Affluent Society' Study",
+          "date": "1968",
+          "loc": "Dobe, Kalahari Desert, Botswana",
+          "coords": [
+            -19.98,
+            21.06
+          ],
+          "links": [
+            "th9"
+          ],
+          "hint": "Lee tallied how many hours Dobe Ju/'hoansi foragers actually spent gathering and hunting food in the Kalahari Desert and found it was only about 15–20 hours a week — enough for nutritional adequacy with time to spare, contradicting the assumption that hunter-gatherers lived in constant subsistence crisis. The finding became the empirical anchor for Sahlins's provocative 'original affluent society' thesis.",
+          "tag": "FIELD STUDY",
+          "repl": "mixed",
+          "note": "Lee, R. B. (1968). 'What Hunters Do for a Living, or, How to Make Out on Scarce Resources,' in Lee, R. B. & DeVore, I. (eds.), 'Man the Hunter.' Aldine. Popularised in Sahlins, M. (1972). 'Stone Age Economics.' Aldine-Atherton. Later critiques (e.g. Sackett, R. 1996, 'Time, Energy, and the Indolent Savage') argued Lee's original tally excluded substantial time spent on food processing, tool-making and childcare, meaningfully revising the 'affluence' claim upward in total labour, though the core finding — that foraging is not the desperate, all-consuming struggle once assumed — has largely held.",
+          "keywords": [
+            "original affluent society",
+            "forager work effort",
+            "subsistence time allocation",
+            "hunter-gatherer leisure"
+          ]
+        }
+      ]
     },
     {
       "id": "effect",
       "label": "Effects & Phenomena",
       "icon": "📊",
-      "color": "#0B4F2E", "accent": "#117A65", "bg": "#F0FFF6",
+      "color": "#0B4F2E",
+      "accent": "#117A65",
+      "bg": "#F0FFF6",
       "subtitle": "Named, recurring patterns in cultural and social organisation",
       "entries": []
     },
@@ -37,7 +551,9 @@
       "id": "concept",
       "label": "Key Concepts",
       "icon": "🧩",
-      "color": "#2C3E50", "accent": "#566573", "bg": "#F5F6FA",
+      "color": "#2C3E50",
+      "accent": "#566573",
+      "bg": "#F5F6FA",
       "subtitle": "The building blocks and vocabulary every student must command",
       "entries": []
     },
@@ -45,7 +561,9 @@
       "id": "method",
       "label": "Methods & Approaches",
       "icon": "🔬",
-      "color": "#5D4037", "accent": "#8B5E00", "bg": "#FFF8F0",
+      "color": "#5D4037",
+      "accent": "#8B5E00",
+      "bg": "#FFF8F0",
       "subtitle": "The tools and paradigms that generate the field's evidence",
       "entries": []
     },
@@ -53,7 +571,9 @@
       "id": "figure",
       "label": "Pioneers & Theorists",
       "icon": "👤",
-      "color": "#7D6608", "accent": "#B7770D", "bg": "#FEFDE7",
+      "color": "#7D6608",
+      "accent": "#B7770D",
+      "bg": "#FEFDE7",
       "subtitle": "The researchers who shaped the discipline",
       "entries": []
     },
@@ -61,7 +581,9 @@
       "id": "debate",
       "label": "Debates & Open Questions",
       "icon": "⚖️",
-      "color": "#6E2C00", "accent": "#CA6F1E", "bg": "#FDF5EC",
+      "color": "#6E2C00",
+      "accent": "#CA6F1E",
+      "bg": "#FDF5EC",
       "subtitle": "Live controversies — where the field is actively contesting the evidence",
       "entries": []
     },
@@ -69,17 +591,55 @@
       "id": "application",
       "label": "Applications",
       "icon": "🔗",
-      "color": "#1A5276", "accent": "#2E86C1", "bg": "#EBF5FB",
+      "color": "#1A5276",
+      "accent": "#2E86C1",
+      "bg": "#EBF5FB",
       "subtitle": "Where the science leaves the lab",
       "entries": []
     }
   ],
   "timeline": [
-    { "id": "study",       "icon": "🧪", "accent": "#7D3C98", "label": "Landmark Studies",    "events": [] },
-    { "id": "theory",      "icon": "📐", "accent": "#2471A3", "label": "Theories & Models",   "events": [] },
-    { "id": "effect",      "icon": "📊", "accent": "#117A65", "label": "Effects & Phenomena", "events": [] },
-    { "id": "method",      "icon": "🔬", "accent": "#8B5E00", "label": "Methods",             "events": [] },
-    { "id": "debate",      "icon": "⚖️", "accent": "#B7770D", "label": "Debates & Revisions", "events": [] },
-    { "id": "application", "icon": "🔗", "accent": "#2E86C1", "label": "Applications",        "events": [] }
+    {
+      "id": "study",
+      "icon": "🧪",
+      "accent": "#7D3C98",
+      "label": "Landmark Studies",
+      "events": []
+    },
+    {
+      "id": "theory",
+      "icon": "📐",
+      "accent": "#2471A3",
+      "label": "Theories & Models",
+      "events": []
+    },
+    {
+      "id": "effect",
+      "icon": "📊",
+      "accent": "#117A65",
+      "label": "Effects & Phenomena",
+      "events": []
+    },
+    {
+      "id": "method",
+      "icon": "🔬",
+      "accent": "#8B5E00",
+      "label": "Methods",
+      "events": []
+    },
+    {
+      "id": "debate",
+      "icon": "⚖️",
+      "accent": "#B7770D",
+      "label": "Debates & Revisions",
+      "events": []
+    },
+    {
+      "id": "application",
+      "icon": "🔗",
+      "accent": "#2E86C1",
+      "label": "Applications",
+      "events": []
+    }
   ]
 }
