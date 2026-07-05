@@ -587,5 +587,115 @@ const STUDY_PLANS = {
         groups: ['Emergence & Self-Organisation']
       }
     ]
+  },
+  'cultural-anthropology': {
+    meta: 'Follows a standard introductory cultural anthropology arc: meet the discipline\'s founders and method first, absorb its foundational stance on relativism and its internal arguments about what kind of science (if any) it is, then move outward through kinship, ritual, language, exchange and the colonial entanglements that shaped the field itself, closing with open debates and real-world applications.',
+    modules: [
+      {
+        title: '1 — Founders of Anthropology',
+        rationale: 'Boas, Malinowski, Mead, Evans-Pritchard, Radcliffe-Brown, Lévi-Strauss, Geertz, Mauss, Harris, Wolf, Chagnon and Hurston each represent a distinct methodological or theoretical era. Meeting them first makes every later theory and study legible as part of an ongoing argument between real people, not an abstract timeline.',
+        groups: ['Pioneers & Theorists']
+      },
+      {
+        title: '2 — Research Methods',
+        rationale: 'Anthropological claims are only as strong as the method that produced them. Participant observation, the genealogical method, salvage ethnography, cross-cultural survey coding, linguistic elicitation and life history all carry their own blind spots — know the tool before trusting the finding.',
+        cats: ['method']
+      },
+      {
+        title: '3 — Foundations: Culture, Relativism & the Discipline\'s Big Arguments',
+        rationale: 'Before studying any specific culture, absorb the stance that defines the whole discipline: judge no culture by another\'s standard. This module also gathers anthropology\'s most foundational internal disputes — is it a science, can relativism coexist with human rights, are there true cultural universals — so later group-specific debates can be read against this baseline.',
+        groups: ['Fieldwork, Culture & Relativism']
+      },
+      {
+        title: '4 — Kinship, Gender & the Body',
+        rationale: 'Family, marriage and gender are where anthropological theory meets everyday life most directly. Unilineal descent, alliance theory, the Nayar marriage debate and cross-cultural gender variation show how differently societies can organise the most basic human relationships.',
+        groups: ['Kinship & Family Systems', 'Identity, Gender & the Body']
+      },
+      {
+        title: '5 — Ritual, Religion & Symbolism',
+        rationale: 'Rites of passage, totemism, witchcraft accusation and the Sahlins-Obeyesekere dispute over Captain Cook show how anthropology reads ceremony and belief as internally coherent systems of meaning, not superstition to be explained away.',
+        groups: ['Ritual, Religion & Symbolism']
+      },
+      {
+        title: '6 — Language, Meaning & Worldview',
+        rationale: 'Does the grammar of your language shape how you think? This module traces linguistic relativity from Whorf\'s strong original claim through its rejection and partial empirical revival, alongside the elicitation methods that make testing it possible.',
+        groups: ['Language, Meaning & Worldview']
+      },
+      {
+        title: '7 — Exchange, Subsistence & Economy',
+        rationale: 'The Kula ring, the potlatch, Mauss\'s gift theory and the \'original affluent society\' debate show that economic life in small-scale societies runs on obligation and reciprocity as much as, or more than, market calculation.',
+        groups: ['Exchange, Subsistence & Economy']
+      },
+      {
+        title: '8 — Power, Colonialism & Cultural Contact',
+        rationale: 'No society anthropologists studied was ever truly isolated. Cargo cults, the Malinowski diary controversy, the Chagnon-Ferguson dispute over Yanomami violence, and applied/forensic anthropology all show the discipline directly entangled with colonial power, contact and its own research ethics.',
+        groups: ['Power, Colonialism & Cultural Contact']
+      },
+      {
+        title: '9 — Debates & Open Questions',
+        rationale: 'Most of anthropology\'s sharpest disputes are already folded into their relevant content module above, so this module catches anything left over — treat it as a final check that no open question has been skipped.',
+        cats: ['debate']
+      },
+      {
+        title: '10 — Applications',
+        rationale: 'Close by seeing anthropology at work outside the university: development consulting, forensic human rights investigation, corporate design research, language revitalisation, museum repatriation and global health all directly repurpose the discipline\'s methods and findings.',
+        cats: ['application']
+      }
+    ]
+  },
+  'sociology': {
+    meta: 'Follows a standard introductory sociology arc: meet the discipline\'s founders and its quantitative and qualitative toolkit first, then work through its classical paradigms before moving out into stratification, inequality, institutions, urban life and deviance, closing with the field\'s live debates and its direct policy applications.',
+    modules: [
+      {
+        title: '1 — Founders of Sociology',
+        rationale: 'Durkheim, Weber, Marx, Parsons, Merton, Mead, Goffman, Bourdieu, Du Bois, Martineau and Patricia Hill Collins each anchor a distinct theoretical tradition explored in later modules. Meeting them first, including figures long under-credited in the discipline\'s own standard canon, makes every later theory legible as part of a real intellectual lineage.',
+        groups: ['Pioneers & Theorists']
+      },
+      {
+        title: '2 — Research Methods',
+        rationale: 'Sociological claims rest on how the data was gathered: the sample survey, urban ethnography, audit studies, social network analysis, content analysis and the historical-comparative method each reveal some things and hide others. Know the tool before trusting the finding.',
+        cats: ['method']
+      },
+      {
+        title: '3 — Classical Theoretical Traditions',
+        rationale: 'Structural functionalism, conflict theory, symbolic interactionism and Weberian social action are sociology\'s founding paradigms, and the discipline still argues over whether it is closer to a positivist science or an interpretive humanities discipline — a tension introduced here and revisited throughout.',
+        groups: ['Classical Theoretical Traditions']
+      },
+      {
+        title: '4 — Social Stratification & Class',
+        rationale: 'The Matthew effect, cultural capital, conspicuous consumption and educational assortative mating show how advantage compounds and reproduces itself across generations, often through mechanisms far subtler than direct inheritance of wealth.',
+        groups: ['Social Stratification & Class']
+      },
+      {
+        title: '5 — Race, Gender & Inequality',
+        rationale: 'Intersectionality, doing gender, white flight and Pager\'s hiring-discrimination audit study show how race and gender inequality operate simultaneously as individual interaction, institutional pattern and measurable statistical effect.',
+        groups: ['Race, Gender & Inequality']
+      },
+      {
+        title: '6 — Institutions & Organizations',
+        rationale: 'Bureaucracy, institutional isomorphism and secularization theory show how formal organisations and taken-for-granted institutions — workplaces, schools, religions — both constrain individual action and get reproduced, resisted or revised by the people inside them.',
+        groups: ['Institutions: Family, Education & Religion', 'Bureaucracy, Organizations & Work']
+      },
+      {
+        title: '7 — Urbanization & Social Change',
+        rationale: 'From the Chicago School\'s concentric zones through Milgram\'s small-world experiment to Putnam\'s social capital and Christakis & Fowler\'s network-contagion claims, this module traces how sociologists have tried to map the structure of mass, networked society itself.',
+        groups: ['Urbanization & Social Change']
+      },
+      {
+        title: '8 — Deviance, Norms & Social Control',
+        rationale: 'Anomie, labeling theory and moral panic reframe deviance as a product of social structure and reaction rather than individual pathology — a lens that directly shapes the restorative-justice application explored later.',
+        groups: ['Deviance, Norms & Social Control']
+      },
+      {
+        title: '9 — Debates & Open Questions',
+        rationale: 'Most of sociology\'s sharpest live disputes are already folded into their relevant content module above; this module catches anything left over as a final audit of open questions.',
+        cats: ['debate']
+      },
+      {
+        title: '10 — Applications',
+        rationale: 'Close by seeing sociology at work in policy and practice: Ban the Box hiring reform, civic-engagement initiatives, corporate HR consulting, school desegregation policy, restorative justice and consumer marketing all directly repurpose the discipline\'s theories and findings.',
+        cats: ['application']
+      }
+    ]
   }
 };
