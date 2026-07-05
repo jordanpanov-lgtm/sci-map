@@ -20,12 +20,12 @@ Do **not** infer the schema from existing JSON files — they may have minor dev
 
 ---
 
-## Key locations in `index.html`
+## Key locations in `config/`
 
 | Thing | Where |
 |---|---|
-| `FIELDS` array (register/flip status) | ~line 310 |
-| `STUDY_PLANS` object (study plan) | ~line 1192 |
+| `FIELDS` array (register/flip status) | `config/registry.js` |
+| `STUDY_PLANS` object (study plan) | `config/study-plans.js` |
 
 Register every new folio in **both** places.
 
@@ -40,7 +40,7 @@ Register every new folio in **both** places.
 node modules/build-global-index.js
 ```
 
-Commit `_global_index.json` alongside `index.html` in the final "feat: … folio complete" commit.
+Commit `_global_index.json` alongside `config/registry.js` in the final "feat: … folio complete" commit.
 
 The `xlinks` field on entries (format: `["folio::id"]`) is the schema for cross-folio references.
 Add them manually when you are confident both entries refer to the same entity. Use `_global_index.json`

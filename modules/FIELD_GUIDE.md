@@ -216,10 +216,10 @@ the study plan automatically.
 
 ---
 
-## Step 3 — Write the study plan (goes in `index.html`)
+## Step 3 — Write the study plan (goes in `config/study-plans.js`)
 
-The study plan is a JS constant in `index.html` inside `STUDY_PLANS`, keyed by the folio's
-`id`. It does **not** live in the JSON file.
+The study plan is a JS constant in `config/study-plans.js` inside `STUDY_PLANS`, keyed by the
+folio's `id`. It does **not** live in the JSON file.
 
 ### Standard 10-module template
 
@@ -335,12 +335,12 @@ application "Where the science leaves the lab"                               ←
 
 ```jsonc
 {
-  "id": "neuroscience",                     // must match FIELDS[].id in index.html
+  "id": "neuroscience",                     // must match FIELDS[].id in config/registry.js
   "schema_version": 1,                      // bump only when the folio schema itself changes shape
   "title": "Neuroscience & Behavior",
   "subtitle": "From neuron to mind: the biological basis of thought, emotion and action",
   "period": { "start": 1906, "end": 2025 }, // first landmark to present
-  "domain": "psychology",                   // must match FIELDS[].domain in index.html
+  "domain": "psychology",                   // must match FIELDS[].domain in config/registry.js
   "mapCenter": [45, -10],                   // lat/lng — centre the map on where the work is
   "mapZoom": 3,
   "methodology": "METHODOLOGY · Every entry anchors to a landmark study, paper, clinical case or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags replication status, effect-size revisions and known controversies. Studies and effects carry a replicability badge — 🟢 robust · 🟡 nuanced or reduced · 🔴 failed or severely contested. Map pins mark the institution where the work was carried out.",
@@ -352,11 +352,11 @@ application "Where the science leaves the lab"                               ←
 The `methodology` string is the same boilerplate on every folio — copy it verbatim, changing
 "clinical case" to something field-appropriate if needed (e.g. "field observation" for ecology).
 
-### JSON field names vs `index.html` field names
+### JSON field names vs `config/registry.js` field names
 
-The JSON file and the `FIELDS` array entry in `index.html` use **different names** for the same folio:
+The JSON file and the `FIELDS` array entry in `config/registry.js` use **different names** for the same folio:
 
-| In JSON file | In `index.html` FIELDS array |
+| In JSON file | In `config/registry.js` FIELDS array |
 |---|---|
 | `"title"` | `"label"` |
 | `"subtitle"` | `"sub"` |
@@ -364,7 +364,7 @@ The JSON file and the `FIELDS` array entry in `index.html` use **different names
 Do not put `"label"` or `"sub"` in the JSON file, and do not put `"title"` or `"subtitle"` in
 the `FIELDS` array.
 
-Valid `domain` values — must match one of the `DOMAINS[].id` constants in `index.html`:
+Valid `domain` values — must match one of the `DOMAINS[].id` constants in `config/registry.js`:
 
 | Domain id | Branch label |
 |---|---|
@@ -470,21 +470,21 @@ Do not add these — they silently corrupt the entry or are ignored:
 |---|---|
 | `fig` | No such field; person links go in `links` |
 | `cat` | Category is implicit from which `entries` array the entry lives in |
-| `groups` | Not an entry field; only used in the study plan in `index.html` |
+| `groups` | Not an entry field; only used in the study plan in `config/study-plans.js` |
 
 `xlinks` and `keywords` **are** valid optional fields — see §xlinks and §keywords above.
 
 ---
 
-## Registering the folio in `index.html`
+## Registering the folio
 
-1. In `FIELDS`, flip the entry from `status:"planned"` to `status:"ready"` and add `file`:
+1. In `config/registry.js`'s `FIELDS`, flip the entry from `status:"planned"` to `status:"ready"` and add `file`:
    ```js
    { id:"neuroscience", domain:"psychology", label:"Neuroscience & Behavior",
      sub:"Brain, neuron, circuit & the biological basis of mind",
      status:"ready", file:"modules/neuroscience.json" },
    ```
-2. Add the study plan to `STUDY_PLANS` following the template in Step 3.
+2. Add the study plan to `STUDY_PLANS` in `config/study-plans.js` following the template in Step 3.
 
 ---
 
@@ -504,7 +504,7 @@ string values — most commonly in `note` fields that quote paper titles.
 - [ ] All 8 categories present in canonical order (`theory → study → effect → concept → method → figure → debate → application`)?
 - [ ] No forbidden entry fields (`fig`, `cat`, `groups`) present?
 - [ ] JSON uses `"title"` and `"subtitle"` (not `"label"` / `"sub"`)?
-- [ ] `index.html` FIELDS entry uses `"label"` and `"sub"` (not `"title"` / `"subtitle"`)?
+- [ ] `config/registry.js` FIELDS entry uses `"label"` and `"sub"` (not `"title"` / `"subtitle"`)?
 
 **Entry content**
 - [ ] Every entry has `id`, `group`, `label`, `date`, `loc`, `coords`, `links`, `hint`, `tag`, `note`?
@@ -520,13 +520,13 @@ string values — most commonly in `note` fields that quote paper titles.
 - [ ] Every timeline `entryId` resolves to a real entry `id`?
 - [ ] `links` are reciprocated on both ends?
 
-**index.html**
+**config/registry.js & config/study-plans.js**
 - [ ] FIELDS entry flipped to `status:"ready"` with `file:` path added?
 - [ ] Study plan added to `STUDY_PLANS` with `meta` and `modules` array?
 - [ ] Every group name in entries appears in at least one study plan module `groups:` array?
 - [ ] No duplicate entry ids?
 - [ ] Field registered in `FIELDS` with `status:"ready"` and a `file` path?
-- [ ] Study plan added to `STUDY_PLANS` in `index.html`?
+- [ ] Study plan added to `STUDY_PLANS` in `config/study-plans.js`?
 
 **Global cross-folio index**
 - [ ] Run `node modules/build-global-index.js` from the `sci-map/` directory after registering the folio?
