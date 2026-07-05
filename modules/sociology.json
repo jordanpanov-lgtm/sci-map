@@ -15,11 +15,11 @@
   "mapZoom": 3,
   "methodology": "METHODOLOGY · Every entry anchors to a landmark study, survey, paper or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags replication status, revisions and known controversies. Studies and effects carry a replicability badge — 🟢 robust · 🟡 nuanced or reduced · 🔴 failed or severely contested. Map pins mark the institution where the work was carried out.",
   "_meta": {
-    "total_entries": 70,
+    "total_entries": 71,
     "entry_counts": {
       "theory": 11,
       "study": 10,
-      "effect": 9,
+      "effect": 10,
       "concept": 9,
       "method": 6,
       "figure": 11,
@@ -29,7 +29,7 @@
     "max_ids": {
       "th": 11,
       "st": 10,
-      "ef": 9,
+      "ef": 10,
       "co": 9,
       "me": 6,
       "fg": 11,
@@ -79,6 +79,7 @@
     "ef7": "effect · Bureaucracy, Organizations & Work · Iron Law of Oligarchy (1911)",
     "ef8": "effect · Bureaucracy, Organizations & Work · Bureaucratic Ritualism (1940)",
     "ef9": "effect · Urbanization & Social Change · Residential Hypersegregation (1989)",
+    "ef10": "effect · Deviance, Norms & Social Control · Broken Windows Effect (1982)",
     "co1": "concept · Classical Theoretical Traditions · Social Facts (1895)",
     "co2": "concept · Classical Theoretical Traditions · Status vs Role (1936)",
     "co3": "concept · Social Stratification & Class · Life Chances (1922)",
@@ -155,6 +156,9 @@
             "manifest latent function",
             "AGIL social system",
             "functional alternative institution"
+          ],
+          "xlinks": [
+            "cultural-anthropology::th2"
           ]
         },
         {
@@ -270,7 +274,8 @@
           ],
           "links": [
             "co6",
-            "ap5"
+            "ap5",
+            "ef10"
           ],
           "hint": "Deviance is not an inherent property of an act but a status conferred by others' reactions to it — the same behaviour can be ignored, tolerated or severely punished depending on who does it and who is doing the labelling, and once someone is formally labelled 'deviant' (e.g. by arrest), that label itself can push them further into a deviant identity and career.",
           "tag": "THEORY",
@@ -332,6 +337,9 @@
             "habitus class taste",
             "educational inequality mechanism",
             "symbolic capital Bourdieu"
+          ],
+          "xlinks": [
+            "cultural-anthropology::co8"
           ]
         },
         {
@@ -467,6 +475,9 @@
             "six degrees separation",
             "social network connectivity",
             "chain letter experiment"
+          ],
+          "xlinks": [
+            "systems-and-complexity::st2"
           ]
         },
         {
@@ -895,6 +906,32 @@
             "American apartheid pattern",
             "multidimensional segregation index"
           ]
+        },
+        {
+          "id": "ef10",
+          "group": "Deviance, Norms & Social Control",
+          "label": "Broken Windows Effect",
+          "date": "1982",
+          "loc": "Harvard University, Cambridge, Massachusetts",
+          "coords": [
+            42.377,
+            -71.117
+          ],
+          "links": [
+            "th6",
+            "co6",
+            "ap5"
+          ],
+          "hint": "Wilson and Kelling proposed that visible signs of physical and social disorder in a neighborhood — a broken window left unrepaired, litter, public drinking — signal that no one is watching or cares, encouraging further disorder and eventually more serious crime. The theory directly justified 'zero-tolerance' policing strategies, most famously in 1990s New York City, that aggressively enforced minor offenses to prevent an assumed slide into serious crime.",
+          "tag": "PHENOMENON",
+          "repl": "failed",
+          "note": "Wilson, J. Q. & Kelling, G. L. (1982). 'Broken Windows.' The Atlantic Monthly, March 1982. Kelling, G. L. & Sousa, W. J. (2001) claimed NYPD data validated the theory. Harcourt, B. E. & Ludwig, J. (2006). 'Broken Windows: New Evidence from New York City and a Five-City Social Experiment.' University of Chicago Law Review, 73(1), 271–320, re-analyzed the federal Moving to Opportunity randomized experiment across five cities and found no evidence that reducing neighborhood disorder reduced crime, directly contradicting the theory's core causal claim. Aggressive 'zero-tolerance' policing built on the theory (e.g., NYPD stop-and-frisk) was later found in federal court ('Floyd v. City of New York,' 2013) to have been applied in a racially discriminatory, unconstitutional manner, adding a serious ethical dimension to the theory's empirical failure.",
+          "keywords": [
+            "broken windows theory",
+            "zero tolerance policing",
+            "neighborhood disorder crime",
+            "stop and frisk policy"
+          ]
         }
       ]
     },
@@ -1035,7 +1072,8 @@
           ],
           "links": [
             "th6",
-            "me5"
+            "me5",
+            "ef10"
           ],
           "hint": "Occasionally a relatively minor or localised incident gets amplified by media coverage and public reaction into a perceived large-scale threat to social values, producing a wave of alarm, and often new laws or policing, wildly disproportionate to the actual scale of the original problem — the deviant group singled out in the process becomes society's 'folk devil' for that moment.",
           "tag": "CONCEPT",
@@ -1815,7 +1853,8 @@
             -80.49
           ],
           "links": [
-            "th6"
+            "th6",
+            "ef10"
           ],
           "hint": "If formally labeling someone a criminal tends to lock them further into a deviant identity and career, then diversion programs that instead bring offenders and victims together to negotiate direct restitution and accountability — outside the formal court and prison system — should, in principle, reduce the very reoffending that harsh formal processing was supposed to prevent.",
           "tag": "APPLICATION",
@@ -2008,6 +2047,11 @@
           "y": 1971,
           "l": "Schelling: white flight modeled",
           "entryId": "ef5"
+        },
+        {
+          "y": 1982,
+          "l": "Wilson & Kelling: broken windows theory",
+          "entryId": "ef10"
         },
         {
           "y": 1989,

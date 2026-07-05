@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 977,
+    "total_entries": 979,
     "folio_count": 13,
-    "xlink_pairs": 48,
-    "keyword_terms": 3884,
+    "xlink_pairs": 51,
+    "keyword_terms": 3892,
     "folios": [
       {
         "id": "anatomy-histology",
@@ -18,7 +18,7 @@
       {
         "id": "cultural-anthropology",
         "title": "Cultural & Social Anthropology",
-        "entries": 70
+        "entries": 71
       },
       {
         "id": "epistemology",
@@ -58,7 +58,7 @@
       {
         "id": "sociology",
         "title": "Sociology & Social Structures",
-        "entries": 70
+        "entries": 71
       },
       {
         "id": "systems-and-complexity",
@@ -247,6 +247,7 @@
     "cultural-anthropology::st9": "study · Kinship & Family Systems · Gough's Nayar Marriage Study (1959)",
     "cultural-anthropology::st10": "study · Language, Meaning & Worldview · Lucy's Yucatec Maya Cognition Study (1992)",
     "cultural-anthropology::st11": "study · Exchange, Subsistence & Economy · Lee's !Kung 'Original Affluent Society' Study (1968)",
+    "cultural-anthropology::st12": "study · Fieldwork, Culture & Relativism · Morton's Craniometric Race Ranking (1839)",
     "cultural-anthropology::ef1": "effect · Power, Colonialism & Cultural Contact · Cargo Cults (1957)",
     "cultural-anthropology::ef2": "effect · Kinship & Family Systems · Avunculocal Emphasis (Mother's Brother Role) (1924)",
     "cultural-anthropology::ef3": "effect · Exchange, Subsistence & Economy · Potlatch Rivalry (1897)",
@@ -865,6 +866,7 @@
     "sociology::ef7": "effect · Bureaucracy, Organizations & Work · Iron Law of Oligarchy (1911)",
     "sociology::ef8": "effect · Bureaucracy, Organizations & Work · Bureaucratic Ritualism (1940)",
     "sociology::ef9": "effect · Urbanization & Social Change · Residential Hypersegregation (1989)",
+    "sociology::ef10": "effect · Deviance, Norms & Social Control · Broken Windows Effect (1982)",
     "sociology::co1": "concept · Classical Theoretical Traditions · Social Facts (1895)",
     "sociology::co2": "concept · Classical Theoretical Traditions · Status vs Role (1936)",
     "sociology::co3": "concept · Social Stratification & Class · Life Chances (1922)",
@@ -1135,6 +1137,18 @@
     "quantum-nuclear-relativity::ap6": [
       "computer-science::ap1"
     ],
+    "cultural-anthropology::th2": [
+      "sociology::th1"
+    ],
+    "sociology::th1": [
+      "cultural-anthropology::th2"
+    ],
+    "cultural-anthropology::co8": [
+      "sociology::th8"
+    ],
+    "sociology::th8": [
+      "cultural-anthropology::co8"
+    ],
     "epistemology::ef9": [
       "social-psychology::ef5"
     ],
@@ -1309,6 +1323,12 @@
     ],
     "systems-and-complexity::ef7": [
       "oceanography::db4"
+    ],
+    "sociology::st2": [
+      "systems-and-complexity::st2"
+    ],
+    "systems-and-complexity::st2": [
+      "sociology::st2"
     ],
     "systems-and-complexity::st4": [
       "zoology-animal-behavior::st6"
@@ -2366,6 +2386,12 @@
       "forager work effort",
       "subsistence time allocation",
       "hunter-gatherer leisure"
+    ],
+    "cultural-anthropology::st12": [
+      "craniometry race science",
+      "scientific racism history",
+      "cranial capacity ranking",
+      "Gould Morton controversy"
     ],
     "cultural-anthropology::ef1": [
       "cargo cult ritual",
@@ -6192,6 +6218,12 @@
       "American apartheid pattern",
       "multidimensional segregation index"
     ],
+    "sociology::ef10": [
+      "broken windows theory",
+      "zero tolerance policing",
+      "neighborhood disorder crime",
+      "stop and frisk policy"
+    ],
     "sociology::co1": [
       "social fact Durkheim",
       "collective constraint behavior",
@@ -9346,6 +9378,18 @@
     ],
     "hunter-gatherer leisure": [
       "cultural-anthropology::st11"
+    ],
+    "craniometry race science": [
+      "cultural-anthropology::st12"
+    ],
+    "scientific racism history": [
+      "cultural-anthropology::st12"
+    ],
+    "cranial capacity ranking": [
+      "cultural-anthropology::st12"
+    ],
+    "Gould Morton controversy": [
+      "cultural-anthropology::st12"
     ],
     "cargo cult ritual": [
       "cultural-anthropology::ef1"
@@ -16940,6 +16984,18 @@
     ],
     "multidimensional segregation index": [
       "sociology::ef9"
+    ],
+    "broken windows theory": [
+      "sociology::ef10"
+    ],
+    "zero tolerance policing": [
+      "sociology::ef10"
+    ],
+    "neighborhood disorder crime": [
+      "sociology::ef10"
+    ],
+    "stop and frisk policy": [
+      "sociology::ef10"
     ],
     "social fact Durkheim": [
       "sociology::co1"

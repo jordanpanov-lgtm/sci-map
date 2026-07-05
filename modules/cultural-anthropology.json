@@ -4,7 +4,7 @@
   "title": "Cultural & Social Anthropology",
   "subtitle": "Kinship, ritual, meaning & the diversity of human cultures",
   "period": {
-    "start": 1896,
+    "start": 1839,
     "end": 2025
   },
   "domain": "society",
@@ -15,10 +15,10 @@
   "mapZoom": 1,
   "methodology": "METHODOLOGY · Every entry anchors to a landmark study, ethnographic fieldwork, paper or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags replication status (later re-study or re-analysis), revisions and known controversies. Studies and effects carry a replicability badge — 🟢 robust · 🟡 nuanced or reduced · 🔴 failed or severely contested. Map pins mark the location where the fieldwork was conducted.",
   "_meta": {
-    "total_entries": 70,
+    "total_entries": 71,
     "entry_counts": {
       "theory": 10,
-      "study": 11,
+      "study": 12,
       "effect": 8,
       "concept": 8,
       "method": 6,
@@ -28,7 +28,7 @@
     },
     "max_ids": {
       "th": 10,
-      "st": 11,
+      "st": 12,
       "ef": 8,
       "co": 8,
       "me": 6,
@@ -70,6 +70,7 @@
     "st9": "study · Kinship & Family Systems · Gough's Nayar Marriage Study (1959)",
     "st10": "study · Language, Meaning & Worldview · Lucy's Yucatec Maya Cognition Study (1992)",
     "st11": "study · Exchange, Subsistence & Economy · Lee's !Kung 'Original Affluent Society' Study (1968)",
+    "st12": "study · Fieldwork, Culture & Relativism · Morton's Craniometric Race Ranking (1839)",
     "ef1": "effect · Power, Colonialism & Cultural Contact · Cargo Cults (1957)",
     "ef2": "effect · Kinship & Family Systems · Avunculocal Emphasis (Mother's Brother Role) (1924)",
     "ef3": "effect · Exchange, Subsistence & Economy · Potlatch Rivalry (1897)",
@@ -146,7 +147,8 @@
             "co1",
             "fg1",
             "db3",
-            "db9"
+            "db9",
+            "st12"
           ],
           "hint": "Every culture must be understood on its own terms — by its own history, values and internal logic — rather than ranked against a Western yardstick of 'civilisation'. Boas argued that apparent differences in intelligence or custom reflect historical accident and environment, not innate racial hierarchy, directly attacking the unilinear evolutionism popular in 19th-century anthropology.",
           "tag": "FRAMEWORK",
@@ -182,6 +184,9 @@
             "social cohesion function",
             "British social anthropology",
             "equilibrium model society"
+          ],
+          "xlinks": [
+            "sociology::th1"
           ]
         },
         {
@@ -505,7 +510,8 @@
           ],
           "links": [
             "th1",
-            "fg1"
+            "fg1",
+            "st12"
           ],
           "hint": "Boas measured the head shape (cranial index) of roughly 13,000 European immigrants and their American-born children and found significant differences between parents and children raised in the new environment — direct evidence that a supposedly fixed racial trait was in fact plastic and environmentally responsive, undercutting contemporary race science's claim that cranial form was a stable marker of biological type.",
           "tag": "FIELD STUDY",
@@ -692,6 +698,31 @@
             "forager work effort",
             "subsistence time allocation",
             "hunter-gatherer leisure"
+          ]
+        },
+        {
+          "id": "st12",
+          "group": "Fieldwork, Culture & Relativism",
+          "label": "Morton's Craniometric Race Ranking",
+          "date": "1839",
+          "loc": "Philadelphia, Pennsylvania",
+          "coords": [
+            39.95,
+            -75.16
+          ],
+          "links": [
+            "st4",
+            "th1"
+          ],
+          "hint": "Morton measured the cranial capacity of hundreds of skulls from populations around the world and ranked them by race, claiming the results proved a fixed biological hierarchy of intelligence with Caucasians at the top — a claim that became one of 19th-century science's most influential, and most thoroughly discredited, justifications for racial hierarchy and slavery.",
+          "tag": "FIELD STUDY",
+          "repl": "failed",
+          "note": "Morton, S. G. (1839). 'Crania Americana; or, A Comparative View of the Skulls of Various Aboriginal Nations of North and South America.' J. Dobson, Philadelphia. Gould, S. J. (1981). 'The Mismeasure of Man.' W. W. Norton, argued Morton unconsciously manipulated his skull-filling methods to favor his racist preconceptions. A later re-measurement (Lewis, J. E. et al. 2011. 'The Mismeasure of Science: Stephen Jay Gould versus Samuel George Morton on Skulls and Bias.' PLOS Biology, 9(6), e1001071) found Morton's raw measurements were largely accurate and that Gould's own reanalysis contained errors — but this second-order dispute is only about measurement technique, not about Morton's central claim. The claim itself, that cranial capacity indicates a fixed racial hierarchy of intelligence, is universally rejected by modern science regardless of who measured the skulls more carefully, and the episode is now taught as a foundational case study in how scientific racism dressed itself in the language of objective measurement.",
+          "keywords": [
+            "craniometry race science",
+            "scientific racism history",
+            "cranial capacity ranking",
+            "Gould Morton controversy"
           ]
         }
       ]
@@ -1105,6 +1136,9 @@
             "habitus embodied disposition",
             "practice theory Bourdieu",
             "unconscious social reproduction"
+          ],
+          "xlinks": [
+            "sociology::th8"
           ]
         }
       ]
@@ -1908,6 +1942,11 @@
       "accent": "#7D3C98",
       "label": "Landmark Studies",
       "events": [
+        {
+          "y": 1839,
+          "l": "Morton: craniometric race ranking",
+          "entryId": "st12"
+        },
         {
           "y": 1912,
           "l": "Boas: cranial plasticity study",
