@@ -41,8 +41,8 @@ const FIELDS = [
   { id:"clinical-psych",             domain:"psychology",        label:"Clinical & Abnormal Psychology",            sub:"Mental disorder, diagnosis, therapy & the limits of the normal",        status:"planned" },
   // ── SOCIETY & CULTURE ────────────────────────────────────────────────────────
   { id:"biological-anthropology",    domain:"society",           label:"Biological & Evolutionary Anthropology",    sub:"Human origins, fossil record & comparative primatology",                status:"planned" },
-  { id:"cultural-anthropology",      domain:"society",           label:"Cultural & Social Anthropology",            sub:"Kinship, ritual, meaning & the diversity of human cultures",            status:"planned" },
-  { id:"sociology",                  domain:"society",           label:"Sociology & Social Structures",             sub:"Institutions, stratification & collective life",                        status:"planned" },
+  { id:"cultural-anthropology",      domain:"society",           label:"Cultural & Social Anthropology",            sub:"Kinship, ritual, meaning & the diversity of human cultures",            status:"ready",   file:"modules/cultural-anthropology.json" },
+  { id:"sociology",                  domain:"society",           label:"Sociology & Social Structures",             sub:"Institutions, stratification & collective life",                        status:"ready",   file:"modules/sociology.json" },
   { id:"demography",                 domain:"society",           label:"Demography & Population Studies",           sub:"Birth, death, migration & the structure of human populations",          status:"planned" },
   // ── CIVICS, SYSTEMS & GOVERNANCE ─────────────────────────────────────────────
   { id:"economics",                  domain:"civics",            label:"Economics (Micro & Macro)",                 sub:"Production, exchange, markets & the allocation of resources",           status:"planned" },
