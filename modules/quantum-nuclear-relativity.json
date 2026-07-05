@@ -15,11 +15,11 @@
   "mapZoom": 3,
   "methodology": "METHODOLOGY · Every entry anchors to a landmark paper, experiment or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags replication status, theoretical revisions and known controversies. Studies and effects carry a replicability badge — 🟢 confirmed to high precision (multiple sigma) · 🟡 nuanced, reduced effect or ongoing debate · 🔴 failed or severely contested. Map pins mark the institution where the work was carried out.",
   "_meta": {
-    "total_entries": 77,
+    "total_entries": 78,
     "entry_counts": {
       "theory": 11,
       "study": 17,
-      "effect": 9,
+      "effect": 10,
       "concept": 7,
       "method": 6,
       "figure": 13,
@@ -29,7 +29,7 @@
     "max_ids": {
       "th": 11,
       "st": 17,
-      "ef": 9,
+      "ef": 10,
       "co": 7,
       "me": 6,
       "fg": 13,
@@ -45,7 +45,7 @@
       "Relativity & Spacetime",
       "Wave Mechanics & Uncertainty"
     ],
-    "last_updated": "2026-07-02"
+    "last_updated": "2026-07-05"
   },
   "_index": {
     "th1": "theory · Relativity & Spacetime · Special Relativity (1905)",
@@ -85,6 +85,7 @@
     "ef7": "effect · Cosmological Frontiers · Gravitational Lensing (1919)",
     "ef8": "effect · Wave Mechanics & Uncertainty · Bell Inequality Violation (1982)",
     "ef9": "effect · Relativity & Spacetime · Mass-Energy Equivalence E=mc² (1905)",
+    "ef10": "effect · Wave Mechanics & Uncertainty · Discrete Time Crystals (2017)",
     "co1": "concept · Quantum Origins · Wave-Particle Duality (1924)",
     "co2": "concept · Wave Mechanics & Uncertainty · Heisenberg Uncertainty Principle (1927)",
     "co3": "concept · Wave Mechanics & Uncertainty · Quantum Superposition & Entanglement (1935)",
@@ -842,7 +843,8 @@
           "links": [
             "co7",
             "co3",
-            "th4"
+            "th4",
+            "ef10"
           ],
           "hint": "Cornell and Wieman cooled a dilute gas of rubidium-87 atoms to 170 nanokelvin — colder than interstellar space — causing the atoms to collapse into the same quantum ground state and form a Bose-Einstein condensate: a new state of matter in which the entire sample behaves as a single macroscopic quantum wavefunction. The condensate realised a prediction made by Bose and Einstein in 1924 and provided the first direct bridge between quantum mechanics at the atomic scale and observable macroscopic quantum behaviour.",
           "tag": "DISCOVERY",
@@ -1202,6 +1204,32 @@
             "nuclear energy E=mc2",
             "fission fusion mass deficit"
           ]
+        },
+        {
+          "id": "ef10",
+          "group": "Wave Mechanics & Uncertainty",
+          "label": "Discrete Time Crystals",
+          "date": "2017",
+          "loc": "University of Maryland, College Park, Maryland",
+          "coords": [
+            38.99,
+            -76.94
+          ],
+          "links": [
+            "st16",
+            "co3",
+            "me4"
+          ],
+          "hint": "A time crystal is a phase of matter whose structure repeats in time rather than in space, breaking the system's underlying time-translation symmetry — much as an ordinary crystal breaks spatial-translation symmetry. In a discrete time crystal, a many-body quantum system driven periodically settles into a state that repeats at exactly twice (or some other multiple of) the driving period, locked in step regardless of small imperfections in the drive itself.",
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "note": "Wilczek, F. (2012). 'Quantum Time Crystals.' Physical Review Letters, 109, 160401, first proposed spontaneous time-translation symmetry breaking in an equilibrium ground state. Watanabe, H. & Oshikawa, M. (2015). Physical Review Letters, 115, 070402, proved a no-go theorem ruling out Wilczek's original equilibrium version. The idea survived in a different form: periodically driven (Floquet) many-body systems were shown to realize genuine discrete time crystals, observed independently by Zhang, J. et al. (2017) 'Observation of a discrete time crystal,' Nature, 543, 217–220 (trapped ytterbium ions) and Choi, S. et al. (2017) 'Observation of discrete time-crystalline order in a disordered dipolar many-body system,' Nature, 543, 221–225 (NV-diamond spins), in the same issue. Since replicated in NMR and superconducting-qubit platforms, confirming the effect is a robust, non-equilibrium phase of matter rather than an artifact of one system.",
+          "keywords": [
+            "time translation symmetry breaking",
+            "Floquet driven system",
+            "discrete time crystal",
+            "non-equilibrium phase of matter"
+          ]
         }
       ]
     },
@@ -1296,7 +1324,8 @@
             "me4",
             "fg5",
             "db1",
-            "ap2"
+            "ap2",
+            "ef10"
           ],
           "hint": "Quantum systems can exist in a superposition of multiple distinct states simultaneously; when two particles interact, their wavefunctions can become entangled — measuring one particle instantly determines the correlated outcome of measuring the other, regardless of the distance between them. These resources are now exploited in quantum computing, quantum cryptography, and quantum teleportation.",
           "tag": "CONCEPT",
@@ -1537,7 +1566,8 @@
           "links": [
             "co7",
             "co3",
-            "ap2"
+            "ap2",
+            "ef10"
           ],
           "hint": "Atomic nuclei with non-zero spin absorb and re-emit radiofrequency radiation at a resonant frequency determined by the local magnetic environment — giving a distinctive signal for each chemical group. NMR spectroscopy determines the three-dimensional structure of molecules in solution; Lauterbur's addition of field gradients turned NMR into MRI.",
           "tag": "METHOD",
@@ -2589,6 +2619,11 @@
           "y": 1982,
           "l": "Aspect: Bell inequality violation",
           "entryId": "ef8"
+        },
+        {
+          "y": 2017,
+          "l": "Zhang & Choi: discrete time crystals observed",
+          "entryId": "ef10"
         }
       ]
     },

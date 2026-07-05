@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 836,
+    "total_entries": 837,
     "folio_count": 11,
     "xlink_pairs": 48,
-    "keyword_terms": 3406,
+    "keyword_terms": 3410,
     "folios": [
       {
         "id": "anatomy-histology",
@@ -43,7 +43,7 @@
       {
         "id": "quantum-nuclear-relativity",
         "title": "Physics: Quantum, Nuclear & Relativity",
-        "entries": 77
+        "entries": 78
       },
       {
         "id": "social-psychology",
@@ -646,6 +646,7 @@
     "quantum-nuclear-relativity::ef7": "effect · Cosmological Frontiers · Gravitational Lensing (1919)",
     "quantum-nuclear-relativity::ef8": "effect · Wave Mechanics & Uncertainty · Bell Inequality Violation (1982)",
     "quantum-nuclear-relativity::ef9": "effect · Relativity & Spacetime · Mass-Energy Equivalence E=mc² (1905)",
+    "quantum-nuclear-relativity::ef10": "effect · Wave Mechanics & Uncertainty · Discrete Time Crystals (2017)",
     "quantum-nuclear-relativity::co1": "concept · Quantum Origins · Wave-Particle Duality (1924)",
     "quantum-nuclear-relativity::co2": "concept · Wave Mechanics & Uncertainty · Heisenberg Uncertainty Principle (1927)",
     "quantum-nuclear-relativity::co3": "concept · Wave Mechanics & Uncertainty · Quantum Superposition & Entanglement (1935)",
@@ -4828,6 +4829,12 @@
       "mass energy equivalence",
       "nuclear energy E=mc2",
       "fission fusion mass deficit"
+    ],
+    "quantum-nuclear-relativity::ef10": [
+      "time translation symmetry breaking",
+      "Floquet driven system",
+      "discrete time crystal",
+      "non-equilibrium phase of matter"
     ],
     "quantum-nuclear-relativity::co1": [
       "de Broglie matter wavelength",
@@ -13664,6 +13671,18 @@
     ],
     "fission fusion mass deficit": [
       "quantum-nuclear-relativity::ef9"
+    ],
+    "time translation symmetry breaking": [
+      "quantum-nuclear-relativity::ef10"
+    ],
+    "Floquet driven system": [
+      "quantum-nuclear-relativity::ef10"
+    ],
+    "discrete time crystal": [
+      "quantum-nuclear-relativity::ef10"
+    ],
+    "non-equilibrium phase of matter": [
+      "quantum-nuclear-relativity::ef10"
     ],
     "de Broglie matter wavelength": [
       "quantum-nuclear-relativity::co1"
