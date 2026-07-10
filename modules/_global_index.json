@@ -2,7 +2,7 @@
   "_meta": {
     "total_entries": 1075,
     "folio_count": 14,
-    "xlink_pairs": 51,
+    "xlink_pairs": 53,
     "keyword_terms": 4261,
     "folios": [
       {
@@ -1424,6 +1424,18 @@
     ],
     "systems-and-complexity::ef7": [
       "oceanography::db4"
+    ],
+    "pathology-immunology::th2": [
+      "anatomy-histology::st3"
+    ],
+    "anatomy-histology::st3": [
+      "pathology-immunology::th2"
+    ],
+    "pathology-immunology::fg1": [
+      "anatomy-histology::fg5"
+    ],
+    "anatomy-histology::fg5": [
+      "pathology-immunology::fg1"
     ],
     "sociology::st2": [
       "systems-and-complexity::st2"
