@@ -39,7 +39,9 @@
           "note": "Crick, F.H.C. (1958). 'On Protein Synthesis.' Symposia of the Society for Experimental Biology, 12, 138–163. Retroviruses like HIV genuinely do reverse the DNA-to-RNA step (see ef9), which is often mistaken for disproving the dogma — it doesn't, since Crick's original statement never forbade RNA-to-DNA copying, only protein-to-nucleic-acid.",
           "links": [
             "st1",
-            "st2"
+            "st2",
+            "st3",
+            "ef7"
           ]
         },
         {
@@ -100,7 +102,9 @@
           "tag": "THEORY",
           "hint": "Mitochondria and chloroplasts were once free-living bacteria, engulfed by an ancestral cell in a partnership that became permanent rather than predatory — which is why both organelles still carry their own small, circular genome and divide independently of the rest of the cell, echoes of their former life as separate organisms. Lynn Margulis revived and rigorously argued this old, largely abandoned idea with genuinely compelling molecular evidence.",
           "note": "Margulis (as L. Sagan), L. (1967). 'On the origin of mitosing cells.' Journal of Theoretical Biology, 14(3), 225–274 — rejected by roughly fifteen journals before publication. Now overwhelmingly confirmed by mitochondrial and chloroplast DNA sequencing, which shows clear bacterial ancestry; considered one of the more dramatic vindications of a once-marginal idea in twentieth-century biology.",
-          "links": []
+          "links": [
+            "fg12"
+          ]
         },
         {
           "id": "th6",
@@ -116,7 +120,8 @@
           "hint": "There are 61 possible codons for amino acids but noticeably fewer than 61 distinct tRNA molecules to read them — the genetic code shouldn't work with the machinery cells actually have. Francis Crick proposed that pairing at the third codon position is looser (\"wobbles\") than standard base pairing, letting a single tRNA recognise more than one codon, which resolved the apparent shortfall.",
           "note": "Crick, F.H.C. (1966). 'Codon—anticodon pairing: The wobble hypothesis.' Journal of Molecular Biology, 19(2), 548–555. Confirmed by subsequent structural and biochemical work on tRNA-mRNA pairing; the wobble position is also why the genetic code is described as \"degenerate\" — most amino acids are specified by more than one codon, largely differing only at this third position.",
           "links": [
-            "st5"
+            "st5",
+            "co1"
           ]
         },
         {
@@ -132,7 +137,9 @@
           "tag": "THEORY",
           "hint": "An infectious agent doesn't need any genetic material at all — a misfolded protein alone can be infectious, by physically contacting normal copies of the same protein and forcing them to adopt its own misfolded shape, which then goes on to misfold the next one, and the next. Stanley Prusiner proposed this to explain scrapie and Creutzfeldt-Jakob disease, directly contradicting the field's near-universal assumption that all infectious agents require DNA or RNA.",
           "note": "Prusiner, S.B. (1982). 'Novel proteinaceous infectious particles cause scrapie.' Science, 216(4542), 136–144. Met with intense skepticism and open ridicule for years — Prusiner was awarded the 1997 Nobel Prize once purified prion protein alone was shown sufficient to transmit disease, one of the most dramatic reversals of scientific consensus in modern biology (see db7 for the contested history in more depth).",
-          "links": []
+          "links": [
+            "db7"
+          ]
         },
         {
           "id": "th8",
@@ -147,7 +154,9 @@
           "tag": "THEORY",
           "hint": "Modern cells split genetic storage (DNA) and catalytic work (mostly proteins) into two different kinds of molecule — but early life couldn't have started that way, since DNA needs proteins to replicate and proteins need DNA to be specified, a chicken-and-egg problem. The RNA world hypothesis proposes that RNA alone did both jobs at first, storing information and catalysing its own replication, before DNA and proteins later took over each role separately.",
           "note": "Gilbert, W. (1986). 'The RNA world.' Nature, 319(6055), 618. The hypothesis gained real experimental support once ribozymes — RNA molecules with genuine catalytic activity — were discovered by Cech and Altman in the early 1980s (Nobel 1989); it remains a leading but not universally accepted origin-of-life framework, since no self-replicating RNA system has been demonstrated from scratch under plausible early-Earth conditions.",
-          "links": []
+          "links": [
+            "fg11"
+          ]
         },
         {
           "id": "th9",
@@ -163,7 +172,8 @@
           "hint": "The cell cycle isn't just a fixed-duration timer running to completion regardless of circumstances — dedicated surveillance mechanisms actively check that each stage genuinely finished correctly (DNA fully replicated, no damage present) before allowing the next stage to begin, and can halt the whole cycle if something is wrong. Leland Hartwell's checkpoint concept reframed the cell cycle as a monitored, error-correcting process rather than a simple clock.",
           "note": "Hartwell, L.H., Weinert, T.A. (1989). 'Checkpoints: controls that ensure the order of cell cycle events.' Science, 246(4930), 629–634. Hartwell shared the 2001 Nobel Prize with Tim Hunt and Paul Nurse, whose cyclin and CDK discoveries identified the molecular machinery the checkpoints actually control. Checkpoint failure — cells dividing despite damaged DNA — is now understood as a central, near-universal feature of cancer.",
           "links": [
-            "st11"
+            "st11",
+            "co3"
           ]
         },
         {
@@ -210,7 +220,9 @@
           "note": "Watson, J.D., Crick, F.H.C. (1953). 'Molecular structure of nucleic acids: A structure for deoxyribose nucleic acid.' Nature, 171(4356), 737–738. One of the most consequential papers in the history of science; also one of the most contested on questions of credit — Franklin's unpublished X-ray data was shown to Watson without her knowledge or permission, a matter of ongoing historical and ethical debate (see db1, fg2).",
           "links": [
             "th1",
-            "th10"
+            "th10",
+            "fg1",
+            "db1"
           ]
         },
         {
@@ -228,7 +240,9 @@
           "hint": "Using radioactive labels — sulphur for viral protein, phosphorus for viral DNA — Alfred Hershey and Martha Chase tracked which part of a virus actually entered a bacterium during infection and directed the production of new viruses. Only the DNA went in; the protein coat stayed outside. It settled a genuine, live scientific argument over whether genes were made of protein or DNA, still unresolved eight years after Avery's more indirect evidence.",
           "note": "Hershey, A.D., Chase, M. (1952). 'Independent functions of viral protein and nucleic acid in growth of bacteriophage.' Journal of General Physiology, 36(1), 39–56 — widely nicknamed the \"Blender Experiment\" for the kitchen blender used to shear viruses off the bacterial surface. Hershey shared the 1969 Nobel Prize; the finding was decisive in convincing the wider field that DNA, not protein, is the hereditary material.",
           "links": [
-            "th1"
+            "th1",
+            "st4",
+            "fg4"
           ]
         },
         {
@@ -264,7 +278,8 @@
           "hint": "Oswald Avery's team purified DNA alone from a disease-causing strain of bacteria and showed it could transform a harmless strain into the disease-causing form, passing the trait on to future generations of bacteria — direct evidence that DNA, not protein, carries hereditary information. Many leading scientists at the time remained unconvinced, assuming DNA was too chemically simple to encode something as complex as heredity; full acceptance took another eight years, until Hershey and Chase's experiment.",
           "note": "Avery, O.T., MacLeod, C.M., McCarty, M. (1944). 'Studies on the chemical nature of the substance inducing transformation of pneumococcal types.' Journal of Experimental Medicine, 79(2), 137–158 — building on Frederick Griffith's 1928 observation that some \"transforming principle\" could pass traits between bacterial strains, without yet identifying what it was. Avery is now widely regarded as having deserved, but never received, a Nobel Prize for this work.",
           "links": [
-            "st2"
+            "st2",
+            "fg3"
           ]
         },
         {
@@ -282,7 +297,8 @@
           "hint": "Marshall Nirenberg and Heinrich Matthaei built a synthetic RNA strand made of nothing but repeating uracil, added it to a cell-free protein-making mixture, and got a protein made of nothing but the amino acid phenylalanine. That single result deciphered the first codon (UUU means phenylalanine) and opened the floodgates: the entire genetic code was fully worked out within about five years using variations of the same technique.",
           "note": "Nirenberg, M.W., Matthaei, J.H. (1961). 'The dependence of cell-free protein synthesis in E. coli upon naturally occurring or synthetic polyribonucleotides.' Proceedings of the National Academy of Sciences, 47(10), 1588–1602. Nirenberg shared the 1968 Nobel Prize; the codon table produced by this line of work is now one of the most robustly confirmed universal features of life, with only minor variations found in a small number of organisms and organelles.",
           "links": [
-            "th6"
+            "th6",
+            "fg5"
           ]
         },
         {
@@ -299,7 +315,9 @@
           "repl": "robust",
           "hint": "Arthur Kornberg isolated the actual enzyme that builds new DNA strands from a template — the first direct look at replication's molecular machinery rather than just its outcome — and used it to synthesise DNA outside a living cell for the first time. The achievement made replication a chemistry problem that could be studied enzyme by enzyme, not just an abstract process inferred from genetics.",
           "note": "Kornberg, A., Lehman, I.R., Bessman, M.J., Simms, E.S. (1956). 'Enzymic synthesis of deoxyribonucleic acid.' Biochimica et Biophysica Acta, 21(1), 197–198. Kornberg shared the 1959 Nobel Prize. The specific enzyme he isolated (DNA polymerase I) later turned out to play a more minor role in normal bacterial replication than his initial work suggested — several further polymerases were discovered later — but the enzymatic approach it pioneered is foundational to all subsequent replication research.",
-          "links": []
+          "links": [
+            "fg6"
+          ]
         },
         {
           "id": "st7",
@@ -315,7 +333,11 @@
           "repl": "robust",
           "hint": "Using restriction enzymes as molecular scissors, Stanley Cohen and Herbert Boyer cut DNA from two different bacterial plasmids and spliced the pieces together into a single, new molecule that a living bacterium could replicate and pass to its offspring — the first time DNA had been deliberately engineered by combining genetic material from different sources into one functional whole.",
           "note": "Cohen, S.N., Chang, A.C.Y., Boyer, H.W., Helling, R.B. (1973). 'Construction of Biologically Functional Bacterial Plasmids In Vitro.' Proceedings of the National Academy of Sciences, 70(11), 3240–3244. Directly founded the biotechnology industry (Boyer co-founded Genentech in 1976); Stanford's patent on the technique became one of the most lucrative university patents in history, and the ease of the method immediately raised the biosafety questions that led to the 1975 Asilomar Conference on recombinant DNA guidelines.",
-          "links": []
+          "links": [
+            "st8",
+            "me3",
+            "ap2"
+          ]
         },
         {
           "id": "st8",
@@ -332,7 +354,8 @@
           "hint": "Kary Mullis conceived the core idea of repeatedly heating and cooling a DNA sample with short primer sequences and a copying enzyme, so that each cycle doubles the amount of a specific target sequence — turning a trace amount of DNA into billions of copies within hours. The original protocol required manually adding fresh enzyme after every heating cycle, since it was destroyed by the heat each time; a heat-stable enzyme (see pathology-immunology::me3) made the process practical to automate three years later.",
           "note": "Saiki, R.K., Scharf, S., Faloona, F., Mullis, K.B., Horn, G.T., Erlich, H.A., Arnheim, N. (1985). 'Enzymatic Amplification of β-Globin Genomic Sequences and Restriction Site Analysis for Diagnosis of Sickle Cell Anemia.' Science, 230(4732), 1350–1354. Mullis shared the 1993 Nobel Prize in Chemistry for the underlying idea. He became a genuinely controversial figure in later life, publicly promoting AIDS denialism and other claims well outside scientific consensus — unrelated to, and not undermining, the technical achievement of PCR itself.",
           "links": [
-            "st7"
+            "st7",
+            "fg8"
           ],
           "xlinks": [
             "pathology-immunology::me3"
@@ -352,7 +375,9 @@
           "repl": "robust",
           "hint": "Injecting double-stranded RNA into a roundworm silenced genes with a matching sequence far more powerfully than injecting single-stranded RNA of the same sequence — an oddly specific and unexpected result that revealed a previously unknown, evolutionarily ancient mechanism cells use to silence their own genes and defend against viruses. The discovery moved unusually fast from basic finding to Nobel Prize, just eight years later.",
           "note": "Fire, A., Xu, S., Montgomery, M.K., Kostas, S.A., Driver, S.E., Mello, C.C. (1998). 'Potent and specific genetic interference by double-stranded RNA in Caenorhabditis elegans.' Nature, 391(6669), 806–811. Shared the 2006 Nobel Prize. RNA interference rapidly became both a standard laboratory tool for silencing specific genes and the basis of a new drug class (RNAi therapeutics), the first of which was approved in 2018.",
-          "links": []
+          "links": [
+            "ef5"
+          ]
         },
         {
           "id": "st10",
@@ -368,7 +393,12 @@
           "repl": "robust",
           "hint": "Bacteria use CRISPR-Cas9 as an immune system, storing snippets of viral DNA to recognise and cut up the same virus if it attacks again. Jennifer Doudna and Emmanuelle Charpentier showed the cutting mechanism could be reprogrammed with a simple synthetic guide RNA to cut almost any chosen DNA sequence — turning a narrow bacterial immune defence into a general-purpose, cheap, and precise gene-editing tool almost overnight.",
           "note": "Jinek, M., Chylinski, K., Fonfara, I., Hauer, M., Doudna, J.A., Charpentier, E. (2012). 'A Programmable Dual-RNA-Guided DNA Endonuclease in Adaptive Bacterial Immunity.' Science, 337(6096), 816–821. Shared the 2020 Nobel Prize in Chemistry — the first Nobel science prize awarded to a team of two women. The speed and low cost of CRISPR editing compared to earlier gene-editing methods (zinc-finger nucleases, TALENs) drove its extremely rapid adoption across research and, more controversially, clinical and germline applications (see db3).",
-          "links": []
+          "links": [
+            "me7",
+            "fg9",
+            "db3",
+            "ap1"
+          ]
         },
         {
           "id": "st11",
@@ -385,7 +415,9 @@
           "hint": "Every time a chromosome is copied, the very ends are left slightly shorter than before — a side effect of how DNA polymerase works that would eventually erode important genes if left unchecked. Carol Greider, working as a graduate student in Elizabeth Blackburn's lab, discovered an enzyme that rebuilds these protective chromosome-end caps (telomeres), explaining how some cells — stem cells, germ cells, most cancer cells — can keep dividing indefinitely while ordinary cells eventually stop.",
           "note": "Greider, C.W., Blackburn, E.H. (1985). 'Identification of a specific telomere terminal transferase activity in Tetrahymena extracts.' Cell, 43(2), 405–413, building on earlier genetic work with Jack Szostak (1982). Blackburn, Greider, and Szostak shared the 2009 Nobel Prize. Telomerase is normally switched off in most adult human cells, and its reactivation is now recognised as a near-universal feature of cancer cells achieving unlimited replication (see pathology-immunology::th5).",
           "links": [
-            "th9"
+            "th9",
+            "ef4",
+            "fg10"
           ],
           "xlinks": [
             "pathology-immunology::th5"
@@ -604,7 +636,8 @@
           "hint": "Genetic information is written in three-letter words: each codon, a specific sequence of three DNA or RNA bases, specifies one amino acid to add to a growing protein chain (or a signal to stop). With 64 possible codons but only 20 amino acids, most amino acids are specified by more than one codon — a redundancy (see th6) that turns out to buffer many mutations against actually changing the resulting protein.",
           "note": "The complete codon table was worked out by the mid-1960s through combined work by Marshall Nirenberg (see st5), Har Gobind Khorana, and Robert Holley, who shared the 1968 Nobel Prize. The code is close to universal across all known life, with only a small number of documented exceptions in certain organelles and organisms.",
           "links": [
-            "th6"
+            "th6",
+            "db8"
           ]
         },
         {
@@ -699,7 +732,9 @@
           "tag": "CONCEPT",
           "hint": "Large proteins are often built from smaller, independently folding modules — domains — that can recur across many otherwise unrelated proteins, each domain contributing a specific function like binding DNA or catalysing a reaction, mixed and matched like interchangeable parts across the genome. Recognising this modularity became possible only once a protein's full three-dimensional structure could actually be seen.",
           "note": "Kendrew, J.C., Bodo, G., Dintzis, H.M., Parrish, R.G., Wyckoff, H., Phillips, D.C. (1958). 'A Three-Dimensional Model of the Myoglobin Molecule Obtained by X-Ray Analysis.' Nature, 181(4610), 662–666 — the first protein structure ever solved. Kendrew shared the 1962 Nobel Prize with Max Perutz, whose parallel work solved haemoglobin's structure.",
-          "links": []
+          "links": [
+            "me5"
+          ]
         },
         {
           "id": "co8",
@@ -866,7 +901,8 @@
           "hint": "Built the first correct physical model of DNA's structure — a double helix with complementary base pairing — by combining Rosalind Franklin's X-ray diffraction data with Erwin Chargaff's base-ratio rules. The structure itself immediately suggested how DNA could be copied, arguably the single most consequential insight in the founding of molecular biology.",
           "note": "Watson, J.D., Crick, F.H.C. (1953), see st1. Shared the 1962 Nobel Prize with Maurice Wilkins; Rosalind Franklin, whose unpublished data was shown to Watson without her knowledge, had died in 1958 and was ineligible (Nobel Prizes are not awarded posthumously) — a fact at the centre of the ongoing credit controversy (see db1, fg2).",
           "links": [
-            "st1"
+            "st1",
+            "db1"
           ]
         },
         {
@@ -882,7 +918,9 @@
           "tag": "FIGURE",
           "hint": "Produced Photo 51, the sharpest X-ray diffraction image yet of DNA fibres, using a technique she had personally refined — and from it correctly deduced DNA's helical, double-stranded structure, phosphate backbone facing outward, in her own unpublished notes. Her data and preliminary conclusions were shown to Watson by a colleague without her knowledge or permission, and used directly in building the final model.",
           "note": "Franklin's own X-ray work was published alongside Watson and Crick's 1953 Nature paper, in a supporting but visibly secondary role. She died of ovarian cancer in 1958, four years before the Nobel Prize for the DNA structure was awarded to Watson, Crick, and Wilkins; the fairness of her uncredited role remains a genuinely live historical and ethical debate (see db1), not a settled matter of simple record-correction.",
-          "links": []
+          "links": [
+            "db1"
+          ]
         },
         {
           "id": "fg3",
@@ -1325,42 +1363,313 @@
       "icon": "🧪",
       "accent": "#7D3C98",
       "label": "Landmark Studies",
-      "events": []
+      "events": [
+        {
+          "y": 1944,
+          "l": "The Avery-MacLeod-McCarty Experiment",
+          "entryId": "st4"
+        },
+        {
+          "y": 1952,
+          "l": "The Hershey-Chase Experiment",
+          "entryId": "st2"
+        },
+        {
+          "y": 1953,
+          "l": "Watson and Crick's DNA Structure",
+          "entryId": "st1"
+        },
+        {
+          "y": 1956,
+          "l": "Kornberg's Discovery of DNA Polymerase",
+          "entryId": "st6"
+        },
+        {
+          "y": 1958,
+          "l": "The Meselson-Stahl Experiment",
+          "entryId": "st3"
+        },
+        {
+          "y": 1961,
+          "l": "Cracking the First Codon",
+          "entryId": "st5"
+        },
+        {
+          "y": 1973,
+          "l": "The First Recombinant DNA",
+          "entryId": "st7"
+        },
+        {
+          "y": 1985,
+          "l": "The Invention of PCR",
+          "entryId": "st8"
+        },
+        {
+          "y": 1985,
+          "l": "The Discovery of Telomerase",
+          "entryId": "st11"
+        },
+        {
+          "y": 1998,
+          "l": "The Discovery of RNA Interference",
+          "entryId": "st9"
+        },
+        {
+          "y": 2012,
+          "l": "CRISPR-Cas9 programmable editing",
+          "entryId": "st10"
+        }
+      ]
     },
     {
       "id": "theory",
       "icon": "📐",
       "accent": "#2471A3",
       "label": "Theories & Models",
-      "events": []
+      "events": [
+        {
+          "y": 1950,
+          "l": "Chargaff's Rules",
+          "entryId": "th10"
+        },
+        {
+          "y": 1958,
+          "l": "The Central Dogma of Molecular Biology",
+          "entryId": "th1"
+        },
+        {
+          "y": 1961,
+          "l": "The Operon Model",
+          "entryId": "th2"
+        },
+        {
+          "y": 1961,
+          "l": "Chemiosmotic Theory",
+          "entryId": "th3"
+        },
+        {
+          "y": 1966,
+          "l": "The Wobble Hypothesis",
+          "entryId": "th6"
+        },
+        {
+          "y": 1967,
+          "l": "Endosymbiotic Theory",
+          "entryId": "th5"
+        },
+        {
+          "y": 1975,
+          "l": "The Signal Hypothesis",
+          "entryId": "th4"
+        },
+        {
+          "y": 1982,
+          "l": "The Prion Hypothesis",
+          "entryId": "th7"
+        },
+        {
+          "y": 1986,
+          "l": "The RNA World Hypothesis",
+          "entryId": "th8"
+        },
+        {
+          "y": 1989,
+          "l": "Cell Cycle Checkpoint Theory",
+          "entryId": "th9"
+        }
+      ]
     },
     {
       "id": "effect",
       "icon": "📊",
       "accent": "#117A65",
       "label": "Effects & Phenomena",
-      "events": []
+      "events": [
+        {
+          "y": 1961,
+          "l": "X-Inactivation (Lyonization)",
+          "entryId": "ef2"
+        },
+        {
+          "y": 1961,
+          "l": "The Hayflick limit",
+          "entryId": "ef4"
+        },
+        {
+          "y": 1964,
+          "l": "Chromatin remodelling",
+          "entryId": "ef8"
+        },
+        {
+          "y": 1970,
+          "l": "Reverse Transcription",
+          "entryId": "ef7"
+        },
+        {
+          "y": 1977,
+          "l": "Alternative Splicing",
+          "entryId": "ef1"
+        },
+        {
+          "y": 1984,
+          "l": "Genomic Imprinting",
+          "entryId": "ef3"
+        },
+        {
+          "y": 1987,
+          "l": "Chaperone-Assisted Protein Folding",
+          "entryId": "ef10"
+        },
+        {
+          "y": 1993,
+          "l": "MicroRNA-Mediated Gene Regulation",
+          "entryId": "ef5"
+        },
+        {
+          "y": 2000,
+          "l": "Horizontal Gene Transfer",
+          "entryId": "ef6"
+        },
+        {
+          "y": 2000,
+          "l": "Receptor Tyrosine Kinase Signalling",
+          "entryId": "ef9"
+        }
+      ]
     },
     {
       "id": "method",
       "icon": "🔬",
       "accent": "#8B5E00",
       "label": "Methods",
-      "events": []
+      "events": [
+        {
+          "y": 1956,
+          "l": "X-Ray Crystallography Phasing",
+          "entryId": "me5"
+        },
+        {
+          "y": 1970,
+          "l": "Restriction Enzyme Cloning",
+          "entryId": "me3"
+        },
+        {
+          "y": 1973,
+          "l": "Agarose Gel Electrophoresis",
+          "entryId": "me1"
+        },
+        {
+          "y": 1977,
+          "l": "Sanger Sequencing",
+          "entryId": "me2"
+        },
+        {
+          "y": 1978,
+          "l": "Site-Directed Mutagenesis",
+          "entryId": "me6"
+        },
+        {
+          "y": 1979,
+          "l": "Western Blotting",
+          "entryId": "me4"
+        },
+        {
+          "y": 2013,
+          "l": "CRISPR editing in living cells",
+          "entryId": "me7"
+        }
+      ]
     },
     {
       "id": "debate",
       "icon": "⚖️",
       "accent": "#B7770D",
       "label": "Debates & Revisions",
-      "events": []
+      "events": [
+        {
+          "y": 1998,
+          "l": "Frozen accident vs. optimised code",
+          "entryId": "db8"
+        },
+        {
+          "y": 2007,
+          "l": "Prion hypothesis: slow acceptance",
+          "entryId": "db7"
+        },
+        {
+          "y": 2012,
+          "l": "Junk DNA: Functionless or Functional?",
+          "entryId": "db2"
+        },
+        {
+          "y": 2013,
+          "l": "Should Genes Be Patentable?",
+          "entryId": "db5"
+        },
+        {
+          "y": 2014,
+          "l": "Can Epigenetic Changes Be Inherited?",
+          "entryId": "db6"
+        },
+        {
+          "y": 2016,
+          "l": "Are GMO Crops Safe?",
+          "entryId": "db4"
+        },
+        {
+          "y": 2018,
+          "l": "CRISPR germline editing debate",
+          "entryId": "db3"
+        },
+        {
+          "y": 2023,
+          "l": "Franklin: credit and collaboration",
+          "entryId": "db1"
+        }
+      ]
     },
     {
       "id": "application",
       "icon": "🔗",
       "accent": "#2E86C1",
       "label": "Applications",
-      "events": []
+      "events": [
+        {
+          "y": 1982,
+          "l": "Recombinant Insulin Production",
+          "entryId": "ap2"
+        },
+        {
+          "y": 1985,
+          "l": "DNA Fingerprinting",
+          "entryId": "ap3"
+        },
+        {
+          "y": 1994,
+          "l": "Genetically Modified Crops",
+          "entryId": "ap5"
+        },
+        {
+          "y": 1996,
+          "l": "Somatic Cell Nuclear Transfer (Cloning)",
+          "entryId": "ap7"
+        },
+        {
+          "y": 2001,
+          "l": "Genome Sequencing in Precision Medicine",
+          "entryId": "ap4"
+        },
+        {
+          "y": 2017,
+          "l": "Viral-Vector Gene Therapy",
+          "entryId": "ap6"
+        },
+        {
+          "y": 2021,
+          "l": "CRISPR-Based Gene Therapy",
+          "entryId": "ap1"
+        }
+      ]
     }
   ]
 }
