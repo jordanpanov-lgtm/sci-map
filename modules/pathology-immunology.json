@@ -23,7 +23,164 @@
       "accent": "#2471A3",
       "bg": "#F0F7FF",
       "subtitle": "The frameworks that organise how disease arises, spreads, and is fought off by the body",
-      "entries": []
+      "entries": [
+        {
+          "id": "th1",
+          "group": "Infectious Disease & Host-Pathogen Interaction",
+          "label": "Koch's Postulates",
+          "date": "1884",
+          "loc": "Berlin, Germany",
+          "coords": [
+            52.52,
+            13.4
+          ],
+          "tag": "PRINCIPLE",
+          "hint": "A set of four criteria for proving a microorganism causes a specific disease: it must be found in every case, isolated in pure culture, reproduce the disease when introduced into a healthy host, and be re-isolated from that host. Robert Koch formalized these after using them to prove Bacillus anthracis caused anthrax and Mycobacterium tuberculosis caused tuberculosis. They turned \"germ theory\" from a plausible idea into a testable, falsifiable standard.",
+          "note": "Koch, R. (1884). 'Die Aetiologie der Tuberkulose.' Mittheilungen aus dem Kaiserlichen Gesundheitsamte, 2, 1–88. The postulates have been formally revised since — many real pathogens (e.g. viruses that need host cells to culture, asymptomatic carriers, polymicrobial disease) fail one or more criteria, and molecular \"Koch's postulates\" (Fredricks & Relman, 1996) were proposed to accommodate genomic-era pathogen detection. Still taught as the conceptual baseline for causal proof in infectious disease.",
+          "links": [
+            "st2"
+          ]
+        },
+        {
+          "id": "th2",
+          "group": "Cell Injury & Inflammation",
+          "label": "Cellular Pathology",
+          "date": "1858",
+          "loc": "Berlin, Germany",
+          "coords": [
+            52.52,
+            13.4
+          ],
+          "tag": "THEORY",
+          "hint": "Rudolf Virchow's claim that all disease originates in disturbances at the level of the individual cell — \"omnis cellula e cellula,\" every cell arises from a pre-existing cell — displacing the older humoral theory that disease came from imbalances in bodily fluids. It relocated the search for the cause of disease from the whole body down to the microscope, making cell injury the organizing unit of pathology.",
+          "note": "Virchow, R. (1858). Die Cellularpathologie in ihrer Begründung auf physiologische und pathologische Gewebelehre. Berlin: August Hirschwald. The theory itself is not something modern pathology has \"failed to replicate\" — it is the field's founding axiom, still structurally correct — but Virchow's specific mechanistic claims (e.g. about the origin of certain tumors) have been superseded by molecular genetics.",
+          "links": []
+        },
+        {
+          "id": "th3",
+          "group": "Adaptive Immunity",
+          "label": "Clonal Selection Theory",
+          "date": "1957",
+          "loc": "Melbourne, Australia",
+          "coords": [
+            -37.81,
+            144.96
+          ],
+          "tag": "THEORY",
+          "hint": "Each lymphocyte is pre-committed, before ever meeting an antigen, to recognise just one specific antigen shape; encountering that antigen triggers the cell to proliferate into a clone of identical antibody-producing offspring. Macfarlane Burnet's theory replaced the older \"instructionist\" idea that antigens physically mould antibodies, explaining both immune specificity and immunological memory as products of selection, not construction.",
+          "note": "Burnet, F.M. (1957). 'A modification of Jerne's theory of antibody production using the concept of clonal selection.' Australian Journal of Science, 20, 67–69. Confirmed decisively by later cellular and molecular immunology (single-cell antibody specificity, receptor gene rearrangement); Niels Jerne's earlier natural-selection framework (1955) anticipated part of the idea, and Burnet credited him in the title.",
+          "links": [
+            "st7"
+          ]
+        },
+        {
+          "id": "th4",
+          "group": "Adaptive Immunity",
+          "label": "Actively Acquired Immunological Tolerance",
+          "date": "1953",
+          "loc": "London, United Kingdom",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "THEORY",
+          "hint": "The immune system's ability to distinguish self from non-self is not fixed at birth — it can be actively taught. Exposing a mouse fetus to foreign cells before its immune system matures makes the adult mouse permanently tolerant of tissue from that same foreign donor. This showed self/non-self discrimination is a learned developmental process, not a hard-wired one, which underpins the entire logic of organ transplantation.",
+          "note": "Billingham, R.E., Brent, L., Medawar, P.B. (1953). 'Actively acquired tolerance of foreign cells.' Nature, 172, 603–606. Built on Ray Owen's 1945 observation that non-identical twin cattle sharing a placenta become natural blood-cell chimeras. Medawar shared the 1960 Nobel Prize with Burnet for this work; the tolerance mechanisms have since been substantially refined (central thymic deletion, peripheral regulatory T cells) beyond the original model.",
+          "links": []
+        },
+        {
+          "id": "th5",
+          "group": "Neoplasia & Cancer Biology",
+          "label": "The Hallmarks of Cancer",
+          "date": "2000",
+          "loc": "Cambridge, Massachusetts",
+          "coords": [
+            42.36,
+            -71.09
+          ],
+          "tag": "FRAMEWORK",
+          "hint": "A cancer cell must acquire a specific set of capabilities to become malignant: it makes its own growth signals, ignores signals to stop dividing, resists programmed cell death, achieves limitless replication, builds its own blood supply, and invades other tissue. Douglas Hanahan and Robert Weinberg's framework gave cancer biology a shared vocabulary for an otherwise bewilderingly diverse disease, organizing decades of scattered findings into one causal logic.",
+          "note": "Hanahan, D., Weinberg, R.A. (2000). 'The Hallmarks of Cancer.' Cell, 100(1), 57–70. The 2011 update ('Hallmarks of Cancer: The Next Generation,' Cell, 144(5), 646–674) added two more hallmarks directly relevant to this folio: reprogrammed energy metabolism (the Warburg effect) and evading immune destruction. Extremely widely cited and taught, though critics note it describes convergent end-states rather than a single unified mechanism.",
+          "links": [
+            "st4"
+          ]
+        },
+        {
+          "id": "th6",
+          "group": "Neoplasia & Cancer Biology",
+          "label": "The Two-Hit Hypothesis",
+          "date": "1971",
+          "loc": "Houston, Texas",
+          "coords": [
+            29.76,
+            -95.37
+          ],
+          "tag": "MODEL",
+          "hint": "Some cancers require two separate mutational \"hits\" to the same gene — one on each copy inherited from each parent — before a cell loses control of its growth. Alfred Knudson inferred this from the statistics of retinoblastoma, a childhood eye tumour: inherited cases appear earlier and more often bilaterally than sporadic cases, exactly as predicted if inherited patients are already born with one hit and need only one more. This defined the concept of a tumour suppressor gene years before one was cloned.",
+          "note": "Knudson, A.G. (1971). 'Mutation and cancer: statistical study of retinoblastoma.' Proceedings of the National Academy of Sciences, 68(4), 820–823. Confirmed at the molecular level in 1986 when the RB1 gene was cloned and shown to fit the two-hit pattern exactly. The model generalises well to other classic tumour suppressors (e.g. TP53) but not to oncogenes, which typically require only a single activating hit.",
+          "links": []
+        },
+        {
+          "id": "th7",
+          "group": "Neoplasia & Cancer Biology",
+          "label": "Cancer Immunosurveillance",
+          "date": "1970",
+          "loc": "Melbourne, Australia",
+          "coords": [
+            -37.81,
+            144.96
+          ],
+          "tag": "THEORY",
+          "hint": "The immune system doesn't just fight infection — it continuously patrols the body for cells that have turned cancerous and eliminates most of them before a tumour ever forms. On this view, the cancers we actually see are the rare ones that evolved ways to hide from or disable this surveillance. It reframed cancer as, in part, an immunological failure rather than a purely cellular one.",
+          "note": "Burnet, F.M. (1970). 'The concept of immunological surveillance.' Progress in Experimental Tumor Research, 13, 1–27 — building on an earlier idea sketched by Lewis Thomas in 1959. The theory fell out of favour in the 1970s when early immunodeficient (nude) mice showed no major increase in spontaneous tumours, but was substantially rehabilitated from the 1990s onward with better mouse models and the discovery of tumour-infiltrating lymphocytes; it is now the theoretical basis for cancer immunotherapy.",
+          "links": []
+        },
+        {
+          "id": "th8",
+          "group": "Autoimmunity & Hypersensitivity",
+          "label": "The Hygiene Hypothesis",
+          "date": "1989",
+          "loc": "London, United Kingdom",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "THEORY",
+          "hint": "Children raised with less exposure to microbes, older siblings, and everyday dirt grow up with higher rates of allergic and autoimmune disease, because their immune systems miss developmental exposures needed to calibrate normal tolerance. David Strachan proposed this after finding hay fever was rarer in children from larger families. It turned rising allergy rates in wealthy countries into evidence about immune development rather than just genetics.",
+          "note": "Strachan, D.P. (1989). 'Hay fever, hygiene, and household size.' BMJ, 299(6710), 1259–1260. The original \"fewer infections\" framing has been substantially revised: the strongest current evidence points to reduced exposure to harmless environmental and commensal microbes (the \"old friends\" hypothesis), not fewer childhood infections specifically, as the operative mechanism — infections themselves can worsen allergic disease.",
+          "links": []
+        },
+        {
+          "id": "th9",
+          "group": "Innate Immunity",
+          "label": "The Phagocytic Theory of Immunity",
+          "date": "1883",
+          "loc": "Paris, France",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "tag": "THEORY",
+          "hint": "Specialised mobile cells inside the body actively hunt down, engulf, and digest invading microbes — this is the immune system's front line, not a passive chemical reaction. Ilya Metchnikoff reached this conclusion after watching mobile cells in a transparent starfish larva swarm around a splinter he had inserted, and named the process phagocytosis. It was the founding claim of cellular, as opposed to purely chemical (humoral), immunology.",
+          "note": "Metchnikoff, E. (1883). 'Untersuchungen über die intracellulare Verdauung bei wirbellosen Thieren.' Arbeiten aus dem Zoologischen Institute der Universität Wien, 5, 141–168. Metchnikoff shared the 1908 Nobel Prize with Paul Ehrlich, whose rival humoral (antibody-based) theory of immunity turned out to be equally correct — the two mechanisms are now understood as complementary arms (innate cellular vs. adaptive humoral) of one immune system, not competitors.",
+          "links": []
+        },
+        {
+          "id": "th10",
+          "group": "Innate Immunity",
+          "label": "Pattern Recognition Theory",
+          "date": "1989",
+          "loc": "New Haven, Connecticut",
+          "coords": [
+            41.31,
+            -72.93
+          ],
+          "tag": "THEORY",
+          "hint": "The innate immune system doesn't recognise specific pathogens the way antibodies do — it recognises broad, ancient molecular patterns shared by whole classes of microbes (like bacterial cell-wall components) using a small, fixed set of receptors. Charles Janeway proposed this to explain why the innate immune system reacts so fast without needing to \"learn\" anything, and predicted the existence of the receptors years before any were found.",
+          "note": "Janeway, C.A. Jr. (1989). 'Approaching the asymptote? Evolution and revolution in immunology.' Cold Spring Harbor Symposia on Quantitative Biology, 54, 1–13. Vindicated when Toll-like receptors were identified as exactly this kind of pattern-recognition receptor — first in Drosophila (Lemaitre et al., 1996) and then in mammals (Medzhitov, Preston-Hurlburt & Janeway, 1997; Poltorak et al., 1998) — work that won Beutler and Hoffmann a share of the 2011 Nobel Prize.",
+          "links": []
+        }
+      ]
     },
     {
       "id": "study",
@@ -33,7 +190,192 @@
       "accent": "#7D3C98",
       "bg": "#FAF5FF",
       "subtitle": "The defining experiments — and exactly what they found",
-      "entries": []
+      "entries": [
+        {
+          "id": "st1",
+          "group": "Infectious Disease & Host-Pathogen Interaction",
+          "label": "Jenner's Smallpox Vaccination",
+          "date": "1796",
+          "loc": "Berkeley, Gloucestershire, England",
+          "coords": [
+            51.69,
+            -2.46
+          ],
+          "tag": "CASE STUDY",
+          "repl": "robust",
+          "hint": "Edward Jenner inoculated an eight-year-old boy, James Phipps, with matter from a cowpox lesion, then deliberately exposed him to smallpox — the boy stayed healthy. Milkmaids who had caught cowpox were known locally to be immune to smallpox; Jenner turned that folk observation into a controlled, repeatable procedure, coining the word \"vaccine\" from vacca, Latin for cow.",
+          "note": "Jenner, E. (1798). An Inquiry into the Causes and Effects of the Variolae Vaccinae. London: Sampson Low. The original demonstration was a single patient and would not meet modern experimental standards, but the underlying finding — cross-immunity between cowpox and smallpox — was validated by two more centuries of vaccination and by smallpox's eradication in 1980, the only human disease eliminated this way to date.",
+          "links": [
+            "th1"
+          ]
+        },
+        {
+          "id": "st2",
+          "group": "Infectious Disease & Host-Pathogen Interaction",
+          "label": "Koch's Isolation of Mycobacterium tuberculosis",
+          "date": "1882",
+          "loc": "Berlin, Germany",
+          "coords": [
+            52.52,
+            13.4
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Robert Koch identified, stained, cultured, and reintroduced the tuberculosis bacillus into animals, satisfying his own postulates and proving that a single specific microorganism — not miasma, heredity, or bad air — caused the disease responsible for roughly one in seven deaths in Europe at the time. He announced it to the Berlin Physiological Society on 24 March 1882.",
+          "note": "Koch, R. (1882). 'Die Aetiologie der Tuberkulose.' Berliner Klinische Wochenschrift, 19, 221–230. One of the most thoroughly validated findings in the history of medicine; Mycobacterium tuberculosis remains the confirmed causative agent, and the discovery directly enabled the century-long public health effort against TB that continues today.",
+          "links": [
+            "th1"
+          ]
+        },
+        {
+          "id": "st3",
+          "group": "Neoplasia & Cancer Biology",
+          "label": "The British Doctors Study",
+          "date": "1950",
+          "loc": "London, United Kingdom",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "FIELD STUDY",
+          "repl": "robust",
+          "hint": "Richard Doll and Austin Bradford Hill first linked smoking to lung cancer in a 1950 case-control study of London hospital patients, then confirmed it by prospectively following the smoking habits and death rates of over 40,000 British doctors for decades. It became the template for how epidemiology proves that something causes cancer in humans, where you can't ethically run the equivalent lab experiment.",
+          "note": "Doll, R., Hill, A.B. (1950). 'Smoking and carcinoma of the lung.' British Medical Journal, 2(4682), 739–748; later results in Doll, R., Peto, R., et al. (2004). 'Mortality in relation to smoking: 50 years' observations on male British doctors.' BMJ, 328(7455), 1519. Among the most robust causal findings in epidemiology — replicated across dozens of countries and populations, with a clear dose-response relationship and reversal of risk on cessation.",
+          "links": []
+        },
+        {
+          "id": "st4",
+          "group": "Neoplasia & Cancer Biology",
+          "label": "Warburg's Aerobic Glycolysis Experiments",
+          "date": "1924",
+          "loc": "Berlin, Germany",
+          "coords": [
+            52.52,
+            13.4
+          ],
+          "tag": "EXPERIMENT",
+          "repl": "mixed",
+          "hint": "Otto Warburg found that cancer cells generate most of their energy by fermenting glucose into lactate even when plenty of oxygen is available to run the far more efficient process of respiration — a wasteful-looking strategy healthy cells only use when starved of oxygen. This became known as the Warburg effect, and it's now exploited directly: PET scans detect tumours by imaging exactly this excess glucose uptake.",
+          "note": "Warburg, O. (1924). 'Über den Stoffwechsel der Carcinomzelle.' Biochemische Zeitschrift, 152, 309–344; summarised in English in Warburg, O. (1956). 'On the origin of cancer cells.' Science, 123(3191), 309–314. The metabolic observation is robust and extensively replicated. Warburg's own causal explanation — that irreversible damage to mitochondrial respiration is the primary cause of cancer — has been largely superseded: aerobic glycolysis is now understood mostly as a downstream consequence of oncogene activation (MYC, PI3K/AKT, HIF-1) rather than the root cause, and whether it is a cause or a consequence of malignancy remains actively debated.",
+          "links": [
+            "th5"
+          ]
+        },
+        {
+          "id": "st5",
+          "group": "Cell Injury & Inflammation",
+          "label": "Establishment of the HeLa Cell Line",
+          "date": "1951",
+          "loc": "Baltimore, Maryland",
+          "coords": [
+            39.3,
+            -76.61
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "George Gey's lab successfully grew the first human cell line that would divide indefinitely outside the body, derived from a cervical cancer biopsy taken from a patient named Henrietta Lacks without her knowledge or consent. HeLa cells went on to enable the development of the polio vaccine, in vitro fertilisation techniques, and much of modern cell biology — a single unauthorised biopsy underwrites an enormous share of 20th-century medicine.",
+          "note": "Gey, G.O., Coffman, W.D., Kubicek, M.T. (1952). 'Tissue culture studies of the proliferative capacity of cervical carcinoma and normal epithelium.' Cancer Research, 12, 264–265. The immortality and research utility of the line is beyond dispute after 70+ years of continuous use; the serious ethical controversy over consent, privacy, and commercial use of Lacks's cells without her family's knowledge (only settled in part by a 2013 NIH agreement with her descendants) is a landmark case in research ethics.",
+          "links": []
+        },
+        {
+          "id": "st6",
+          "group": "Infectious Disease & Host-Pathogen Interaction",
+          "label": "Marshall's Helicobacter pylori Self-Experiment",
+          "date": "1984",
+          "loc": "Perth, Australia",
+          "coords": [
+            -31.95,
+            115.86
+          ],
+          "tag": "EXPERIMENT",
+          "repl": "robust",
+          "hint": "Barry Marshall drank a Petri dish culture of Helicobacter pylori and developed acute gastritis days later, deliberately fulfilling Koch's postulates on himself after his and Robin Warren's bacterial theory of ulcers was widely dismissed — the medical consensus of the time held that ulcers were caused by stress and stomach acid alone. The stunt, combined with the underlying research, overturned decades of dogma and made most peptic ulcers a curable bacterial infection instead of a chronic condition managed with acid suppressants.",
+          "note": "Marshall, B.J., Warren, J.R. (1984). 'Unidentified curved bacilli in the stomach of patients with gastritis and peptic ulceration.' The Lancet, 323(8390), 1311–1315; self-experiment reported in Marshall, B.J., Armstrong, J.A., McGechie, D.B., Glancy, R.J. (1985). 'Attempt to fulfil Koch's postulates for pyloric Campylobacter.' Medical Journal of Australia, 142(8), 436–439. Robustly confirmed and clinically transformative — Marshall and Warren shared the 2005 Nobel Prize; antibiotic treatment of H. pylori is now standard of care for most peptic ulcer disease.",
+          "links": []
+        },
+        {
+          "id": "st7",
+          "group": "Adaptive Immunity",
+          "label": "Zinkernagel and Doherty's MHC Restriction Experiments",
+          "date": "1974",
+          "loc": "Canberra, Australia",
+          "coords": [
+            -35.28,
+            149.13
+          ],
+          "tag": "EXPERIMENT",
+          "repl": "robust",
+          "hint": "Killer T cells from a virus-infected mouse could destroy infected cells from a genetically identical mouse, but not equally infected cells from a different mouse strain — meaning T cells don't just recognise the virus, they recognise virus plus the body's own \"self\" tissue-marker molecules (MHC) at the same time. Rolf Zinkernagel and Peter Doherty's mouse experiments revealed the basic grammar of how the adaptive immune system reads infected cells, a mechanism nobody had predicted.",
+          "note": "Zinkernagel, R.M., Doherty, P.C. (1974). 'Restriction of in vitro T cell-mediated cytotoxicity in lymphocytic choriomeningitis within a syngeneic or semiallogeneic system.' Nature, 248(5450), 701–702. Foundational and unchallenged since; it won the 1996 Nobel Prize and underlies the entire modern understanding of antigen presentation, transplant rejection, and T-cell vaccine design.",
+          "links": [
+            "th3"
+          ]
+        },
+        {
+          "id": "st8",
+          "group": "Infectious Disease & Host-Pathogen Interaction",
+          "label": "Discovery of HIV",
+          "date": "1983",
+          "loc": "Paris, France",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Françoise Barré-Sinoussi and Luc Montagnier isolated a previously unknown retrovirus, initially named LAV, from the lymph node of a patient at risk of the newly described disease AIDS — the first hard evidence for what would soon be confirmed as the virus that causes it. Identifying the pathogen a mere two years after AIDS was first clinically recognised opened the door to a blood test, and eventually to antiretroviral treatment.",
+          "note": "Barré-Sinoussi, F., Chermann, J.C., Rey, F., et al. (1983). 'Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS).' Science, 220(4599), 868–871. Robustly confirmed; Barré-Sinoussi and Montagnier received the 2008 Nobel Prize. A bitter, well-documented priority dispute with Robert Gallo's NIH laboratory over discovery credit and the HIV blood test patent ran through the 1980s and was only diplomatically resolved by a 1987 Reagan–Chirac agreement to share royalties.",
+          "links": []
+        },
+        {
+          "id": "st9",
+          "group": "Immunodeficiency & Immunotherapy",
+          "label": "Rosenberg's IL-2 and Adoptive Cell Therapy Trials",
+          "date": "1985",
+          "loc": "Bethesda, Maryland",
+          "coords": [
+            38.99,
+            -77.1
+          ],
+          "tag": "EXPERIMENT",
+          "repl": "mixed",
+          "hint": "Steven Rosenberg's team treated patients with advanced, otherwise untreatable metastatic cancer using their own immune cells, grown and activated outside the body with the T-cell growth factor interleukin-2, then reinfused. Some patients — including a minority with melanoma and kidney cancer — had dramatic, durable tumour regressions, becoming the first solid proof that a person's own immune system could be deliberately weaponised against their cancer.",
+          "note": "Rosenberg, S.A., Lotze, M.T., Muul, L.M., et al. (1985). 'Observations on the systemic administration of autologous lymphokine-activated killer cells and recombinant interleukin-2 to patients with metastatic cancer.' New England Journal of Medicine, 313(23), 1485–1492. Response rates were real but modest and inconsistent (roughly 15–20% of patients, concentrated in melanoma and renal cell carcinoma), with severe treatment toxicity from high-dose IL-2 — later superseded and complemented by checkpoint inhibitors and engineered CAR-T cells, but this was the proof of principle that made those approaches worth pursuing.",
+          "links": []
+        },
+        {
+          "id": "st10",
+          "group": "Immunodeficiency & Immunotherapy",
+          "label": "First Pediatric CAR-T Trial for Leukemia",
+          "date": "2013",
+          "loc": "Philadelphia, Pennsylvania",
+          "coords": [
+            39.95,
+            -75.16
+          ],
+          "tag": "EXPERIMENT",
+          "repl": "robust",
+          "hint": "A seven-year-old girl with relapsed, chemotherapy-resistant leukemia was infused with her own T cells, genetically engineered to carry a chimeric antigen receptor targeting the protein CD19 on her cancer cells. She went into complete remission within a month, becoming the first pediatric patient to demonstrate that CAR-T cell therapy could work — a treatment now approved and used worldwide for relapsed B-cell leukemias.",
+          "note": "Grupp, S.A., Kalos, M., Barrett, D., et al. (2013). 'Chimeric antigen receptor–modified T cells for acute lymphoid leukemia.' New England Journal of Medicine, 368(16), 1509–1518. Widely replicated — CAR-T therapy (tisagenlecleucel, brand name Kymriah) received FDA approval in 2017 and is now standard for relapsed/refractory B-cell ALL. Serious caveats remain: cytokine release syndrome and neurotoxicity are common acute risks, and CAR-T has so far shown far less success against solid tumours than blood cancers.",
+          "links": []
+        },
+        {
+          "id": "st11",
+          "group": "Immunodeficiency & Immunotherapy",
+          "label": "CTLA-4 Blockade Experiments",
+          "date": "1996",
+          "loc": "Berkeley, California",
+          "coords": [
+            37.87,
+            -122.27
+          ],
+          "tag": "EXPERIMENT",
+          "repl": "robust",
+          "hint": "James Allison's lab showed that blocking a single molecule, CTLA-4, which normally acts as a brake on T cells, was enough to make a mouse's own immune system attack and shrink established tumours. The insight — that the real obstacle to fighting cancer is often not a weak immune system but an immune system held back by its own checkpoints — created an entirely new drug category, checkpoint inhibitors, built on releasing the brake rather than pressing the accelerator.",
+          "note": "Leach, D.R., Krummel, M.F., Allison, J.P. (1996). 'Enhancement of antitumor immunity by CTLA-4 blockade.' Science, 271(5256), 1734–1736. Directly led to ipilimumab, the first checkpoint inhibitor approved by the FDA (2011, for melanoma); Allison shared the 2018 Nobel Prize with Tasuku Honjo, whose parallel discovery of the PD-1 checkpoint led to a second major drug class. Response is far from universal — many tumour types show little benefit, and predicting which patients will respond remains an open clinical problem.",
+          "links": []
+        }
+      ]
     },
     {
       "id": "effect",
