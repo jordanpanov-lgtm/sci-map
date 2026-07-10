@@ -1,5 +1,8 @@
-# Local Claude Code / preview harness config — not part of the app
-.claude/
+# Local Claude Code / preview harness config — not part of the app.
+# Exception: .claude/commands/ holds real, shareable workflow docs (new-folio.md)
+# that must be version-controlled, not treated as local session state.
+.claude/*
+!.claude/commands/
 
 # OS / editor cruft
 .DS_Store
