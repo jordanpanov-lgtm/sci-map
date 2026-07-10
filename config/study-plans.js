@@ -4,6 +4,66 @@
 // are available as globals to the renderer.
 
 const STUDY_PLANS = {
+  'cell-molecular-bio': {
+    meta: 'Follows the actual flow of molecular biology outward from the gene: how information is stored and copied, how it gets switched on and off, what the proteins it specifies actually are and do, how those proteins assemble into cellular machinery and communication systems, how all of it coordinates cell division, and finally how humans learned to read and rewrite the whole system deliberately.',
+    modules: [
+      {
+        title: '1 — Founders & the Field',
+        rationale: 'Molecular biology has an unusually dense founding cast within a few decades: Watson, Crick, and Franklin on DNA structure; Avery and Hershey/Chase on DNA as the genetic material; Nirenberg on the genetic code; McClintock, Sanger, and Kornberg each opening a distinct sub-field. Knowing them first turns every later module into a continuation of a real, ongoing argument rather than a list of isolated facts.',
+        groups: ['Pioneers & Theorists']
+      },
+      {
+        title: '2 — Research Methods',
+        rationale: 'Gel electrophoresis, Sanger sequencing, restriction cloning, Western blotting, X-ray crystallography, site-directed mutagenesis, and CRISPR editing are the instruments that generated every finding in the modules that follow — know how the evidence was made before evaluating what it shows.',
+        cats: ['method']
+      },
+      {
+        title: '3 — DNA, RNA & the Central Dogma',
+        rationale: 'Everything else in this folio depends on the basic claim that genetic information flows DNA to RNA to protein. Start with the structure, the replication mechanism, and the code itself before anything built on top of it makes sense.',
+        groups: ['DNA, RNA & the Central Dogma']
+      },
+      {
+        title: '4 — Gene Expression & Regulation',
+        rationale: 'A cell doesn\'t express every gene it carries all the time — operons, chromatin structure, X-inactivation, imprinting, and microRNAs are the different layers of control that decide which genes actually get read, and when.',
+        groups: ['Gene Expression & Regulation']
+      },
+      {
+        title: '5 — Protein Structure, Folding & Enzymology',
+        rationale: 'Genes are only instructions; proteins do the actual work. This module covers what a protein needs to become functional — correct folding, chaperone assistance, enzyme kinetics — the biochemistry underlying every molecular machine covered next.',
+        groups: ['Protein Structure, Folding & Enzymology']
+      },
+      {
+        title: '6 — Molecular Machinery',
+        rationale: 'Individual proteins assemble into larger working systems: ribosomes translating RNA, ATP synthase powering the cell, signal sequences routing proteins to the right destination, mitochondria and chloroplasts running as semi-autonomous bacterial descendants.',
+        groups: ['Molecular Machinery']
+      },
+      {
+        title: '7 — Molecular Signal Transduction',
+        rationale: 'Cells don\'t operate in isolation — receptor tyrosine kinases, G-protein coupled receptors, and reversible phosphorylation are how a signal outside the cell gets converted into a coordinated response inside it.',
+        groups: ['Molecular Signal Transduction']
+      },
+      {
+        title: '8 — Cell Cycle & Molecular Control',
+        rationale: 'Bringing the previous modules together: the cell cycle is where gene regulation, protein machinery, and signalling all have to cooperate under strict surveillance, and where the Hayflick limit, telomerase, and stem cell potency determine how many times — and how faithfully — a cell can do it again.',
+        groups: ['Cell Cycle & Molecular Control']
+      },
+      {
+        title: '9 — Genetic Engineering & Molecular Techniques',
+        rationale: 'Once the natural system is understood, this module covers how it has been deliberately rewritten: recombinant DNA, PCR, and CRISPR turned molecular biology from a purely observational science into one that edits its own subject matter.',
+        groups: ['Genetic Engineering & Molecular Techniques']
+      },
+      {
+        title: '10 — Debates & Open Questions',
+        rationale: 'With the full mechanistic picture in place, the genuinely unresolved and contested questions — Franklin\'s credit, junk DNA, CRISPR germline ethics, gene patenting — can be evaluated against real evidence rather than encountered cold.',
+        cats: ['debate']
+      },
+      {
+        title: '11 — Applications',
+        rationale: 'Where the science leaves the lab: CRISPR therapeutics, recombinant insulin, DNA fingerprinting, precision oncology, GMO crops, gene therapy, and cloning are the concrete payoff of everything in the preceding modules.',
+        cats: ['application']
+      }
+    ]
+  },
   'pathology-immunology': {
     meta: 'Moves inside-out: how a single cell is injured, then how the immune system is built from the ground up (innate before adaptive), then the three ways that system goes wrong — attacking the body itself, losing to an external pathogen, or losing to a malignant cell from within — then how immunity is deliberately engineered as therapy, closing with open debates and real-world application.',
     modules: [
