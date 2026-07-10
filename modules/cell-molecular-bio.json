@@ -401,7 +401,185 @@
       "accent": "#117A65",
       "bg": "#F0FFF6",
       "subtitle": "Named, replicable patterns in gene expression, cell behaviour, and molecular inheritance",
-      "entries": []
+      "entries": [
+        {
+          "id": "ef1",
+          "group": "Gene Expression & Regulation",
+          "label": "Alternative Splicing",
+          "date": "1977",
+          "loc": "Cold Spring Harbor, New York",
+          "coords": [
+            40.86,
+            -73.45
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "A single gene can produce several different proteins, depending on which stretches of its RNA transcript (exons) get stitched together and which get cut out before translation. The discovery that genes are broken into pieces at all, let alone that the pieces could be reassembled in different combinations, was a genuine surprise — it's a major reason roughly 20,000 human genes can produce a much larger number of distinct proteins.",
+          "note": "Chow, L.T., Gelinas, R.E., Broker, T.R., Roberts, R.J. (1977). 'An amazing sequence arrangement at the 5' ends of adenovirus 2 messenger RNA.' Cell, 12(1), 1–8, published alongside an independent, simultaneous paper by Berget, Moore and Sharp. Sharp and Roberts shared the 1993 Nobel Prize. Robustly confirmed as pervasive — most human multi-exon genes are now known to be alternatively spliced.",
+          "links": []
+        },
+        {
+          "id": "ef2",
+          "group": "Gene Expression & Regulation",
+          "label": "X-Inactivation (Lyonization)",
+          "date": "1961",
+          "loc": "Harwell, United Kingdom",
+          "coords": [
+            51.57,
+            -1.31
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Female mammals carry two X chromosomes, but each cell randomly and permanently silences one of them early in development — so every female mammal is a genetic mosaic, a patchwork of cells expressing one X or the other. The visible proof is hiding in plain sight: a calico cat's blotchy coat pattern is the direct, visible signature of which X got silenced in which patch of skin cells.",
+          "note": "Lyon, M.F. (1961). 'Gene action in the X-chromosome of the mouse (Mus musculus L.).' Nature, 190(4773), 372–373. Robustly confirmed and now understood at the molecular level (mediated by the long non-coding RNA Xist); the process is random in most tissue but not perfectly so, and skewed X-inactivation is clinically relevant in some X-linked disease carriers.",
+          "links": []
+        },
+        {
+          "id": "ef3",
+          "group": "Gene Expression & Regulation",
+          "label": "Genomic Imprinting",
+          "date": "1984",
+          "loc": "Philadelphia, Pennsylvania",
+          "coords": [
+            39.95,
+            -75.16
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Some genes behave completely differently depending on whether they were inherited from the mother or the father, even though the DNA sequence is identical either way — a direct violation of the simple assumption that a gene's effect depends only on its sequence. Mouse embryos engineered to have two maternal or two paternal genome copies (instead of the normal one of each) fail to develop properly, showing both parental contributions are genuinely, separately necessary.",
+          "note": "McGrath, J., Solter, D. (1984). 'Completion of mouse embryogenesis requires both the maternal and paternal genomes.' Cell, 37(1), 179–183. Mediated by epigenetic marks (DNA methylation) laid down differently in eggs and sperm; imprinting disorders in humans (Prader-Willi and Angelman syndromes) result from losing the correctly imprinted copy of the same small region of chromosome 15.",
+          "links": []
+        },
+        {
+          "id": "ef4",
+          "group": "Cell Cycle & Molecular Control",
+          "label": "Replicative Senescence (the Hayflick Limit)",
+          "date": "1961",
+          "loc": "Philadelphia, Pennsylvania",
+          "coords": [
+            39.95,
+            -75.16
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Normal human cells grown in culture don't divide forever — after roughly 40 to 60 divisions they permanently stop, entering a state distinct from death called senescence. Leonard Hayflick's finding directly contradicted the prevailing assumption of the time, based on flawed earlier cell-culture work, that normal cells could proliferate indefinitely if simply given the right conditions.",
+          "note": "Hayflick, L., Moorhead, P.S. (1961). 'The serial cultivation of human diploid cell strains.' Experimental Cell Research, 25(3), 585–621. Now understood to be driven substantially by telomere shortening (see st11) — each division trims a little off the chromosome ends, and senescence sets in once telomeres become critically short, a limit that cancer cells characteristically escape by reactivating telomerase.",
+          "links": [
+            "st11"
+          ]
+        },
+        {
+          "id": "ef5",
+          "group": "Gene Expression & Regulation",
+          "label": "MicroRNA-Mediated Gene Regulation",
+          "date": "1993",
+          "loc": "Cambridge, Massachusetts",
+          "coords": [
+            42.37,
+            -71.12
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Cells manufacture their own small RNA molecules — microRNAs — whose entire job is to bind matching sequences on other RNA transcripts and dial their expression up or down, a naturally occurring layer of fine-tuning distinct from the artificially triggered RNA interference Fire and Mello later characterised. The first one found, lin-4, initially looked like a strange quirk of worm development; thousands of microRNAs have since been identified across essentially all animals and plants.",
+          "note": "Lee, R.C., Feinbaum, R.L., Ambros, V. (1993). 'The C. elegans heterochronic gene lin-4 encodes small RNAs with antisense complementarity to lin-14.' Cell, 75(5), 843–854. Largely overlooked for years until RNA interference (see st9) made the broader importance of small regulatory RNAs suddenly obvious in retrospect; microRNA dysregulation is now implicated in numerous cancers and is an active area of therapeutic development.",
+          "links": [
+            "st9"
+          ]
+        },
+        {
+          "id": "ef6",
+          "group": "Gene Expression & Regulation",
+          "label": "Horizontal Gene Transfer",
+          "date": "2000",
+          "loc": "Tucson, Arizona",
+          "coords": [
+            32.22,
+            -110.97
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Bacteria don't only inherit genes from a parent cell — they can pick up DNA directly from their environment, from a virus, or from a neighbouring cell of an entirely different species, and put it to immediate use. It's the same basic phenomenon Frederick Griffith stumbled onto in 1928 when a harmless bacterial strain absorbed a \"transforming principle\" from a dead virulent one, decades before anyone knew that principle was DNA — and it's the single biggest reason antibiotic resistance genes spread between bacterial species so quickly.",
+          "note": "Ochman, H., Lawrence, J.G., Groisman, E.A. (2000). 'Lateral gene transfer and the nature of bacterial innovation.' Nature, 405(6784), 299–304. Robustly documented as a major, ongoing force in bacterial genome evolution — comparative genomics estimates a substantial fraction of many bacterial genomes arrived via horizontal transfer rather than vertical inheritance (see pathology-immunology::ef10 for its clinical consequence in antibiotic resistance).",
+          "links": [],
+          "xlinks": [
+            "pathology-immunology::ef10"
+          ]
+        },
+        {
+          "id": "ef7",
+          "group": "DNA, RNA & the Central Dogma",
+          "label": "Reverse Transcription",
+          "date": "1970",
+          "loc": "Cambridge, Massachusetts",
+          "coords": [
+            42.36,
+            -71.09
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Certain viruses run the central dogma's usual direction in reverse, copying their RNA genome back into DNA once inside a host cell, using an enzyme — reverse transcriptase — that biology wasn't supposed to have. David Baltimore and Howard Temin discovered the enzyme independently and simultaneously, published side by side in the same issue of Nature, resolving a genuine dispute over whether such retroviruses even existed as RNA-based agents at all.",
+          "note": "Baltimore, D. (1970). 'RNA-dependent DNA Polymerase in Virions of RNA Tumour Viruses.' Nature, 226(5252), 1209–1211; Temin, H.M., Mizutani, S. (1970). 'RNA-dependent DNA Polymerase in Virions of Rous Sarcoma Virus.' Nature, 226(5252), 1211–1213. Shared the 1975 Nobel Prize with Renato Dulbecco. This is not a violation of the central dogma as Crick originally, carefully stated it (see th1) — HIV's use of exactly this enzyme is what reverse-transcriptase inhibitor drugs target (see pathology-immunology::st8).",
+          "links": [
+            "th1"
+          ],
+          "xlinks": [
+            "pathology-immunology::st8"
+          ]
+        },
+        {
+          "id": "ef8",
+          "group": "Gene Expression & Regulation",
+          "label": "Chromatin Remodelling and Histone Modification",
+          "date": "1964",
+          "loc": "New York, New York",
+          "coords": [
+            40.71,
+            -74.01
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "DNA doesn't float freely in the nucleus — it's wound tightly around spool-like histone proteins, and whether a gene gets expressed often depends less on the DNA sequence itself than on how loosely or tightly that particular stretch of chromatin is packaged. Chemically tagging the histones (acetylation, methylation) loosens or tightens the packaging, switching genes on or off without changing a single DNA letter — the molecular basis of much of epigenetics.",
+          "note": "Allfrey, V.G., Faulkner, R., Mirsky, A.E. (1964). 'Acetylation and Methylation of Histones and Their Possible Role in the Regulation of RNA Synthesis.' Proceedings of the National Academy of Sciences, 51(5), 786–794 — an early, largely correct proposal that took over two decades to be fully mechanistically confirmed once specific histone-modifying enzymes were identified in the 1990s.",
+          "links": [
+            "co2"
+          ]
+        },
+        {
+          "id": "ef9",
+          "group": "Molecular Signal Transduction",
+          "label": "Receptor Tyrosine Kinase Signalling",
+          "date": "2000",
+          "loc": "New York, New York",
+          "coords": [
+            40.71,
+            -74.01
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "When a growth factor binds a receptor tyrosine kinase on the cell surface, two receptor molecules pair up and phosphorylate each other, creating docking sites that recruit a whole cascade of downstream signalling proteins — turning one external binding event into a coordinated internal instruction to grow, divide, or survive. It's the mechanism behind most growth-factor signalling, and mutations that lock these receptors permanently \"on\" are a recurring driver of cancer.",
+          "note": "Schlessinger, J. (2000). 'Cell Signaling by Receptor Tyrosine Kinases.' Cell, 103(2), 211–225. Robustly established and directly clinically actionable — several targeted cancer drugs (e.g. trastuzumab, see pathology-immunology::ap4) work by blocking an overactive receptor tyrosine kinase.",
+          "links": [],
+          "xlinks": [
+            "pathology-immunology::ap4"
+          ]
+        },
+        {
+          "id": "ef10",
+          "group": "Protein Structure, Folding & Enzymology",
+          "label": "Chaperone-Assisted Protein Folding",
+          "date": "1987",
+          "loc": "Coventry, United Kingdom",
+          "coords": [
+            52.38,
+            -1.56
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "A newly made protein chain doesn't reliably fold itself into its correct working shape on its own, especially under cellular stress — dedicated helper proteins called molecular chaperones physically shepherd it through folding, preventing the tangled, sticky misfolded states that would otherwise clump together and damage the cell. Heat-shock proteins, a major chaperone family, are named for how strongly cells ramp up their production the moment temperature stress threatens to unfold everything at once.",
+          "note": "Ellis, R.J. (1987). 'Proteins as Molecular Chaperones.' Nature, 328(6129), 378–379 — the paper that coined \"molecular chaperone\" in its modern sense. Chaperone failure and the resulting protein aggregation is now implicated in a range of diseases, from cystic fibrosis (a misfolded chloride channel) to neurodegenerative conditions involving protein aggregates.",
+          "links": []
+        }
+      ]
     },
     {
       "id": "concept",
@@ -411,7 +589,137 @@
       "accent": "#566573",
       "bg": "#F5F6FA",
       "subtitle": "The building blocks and vocabulary every student must command",
-      "entries": []
+      "entries": [
+        {
+          "id": "co1",
+          "group": "DNA, RNA & the Central Dogma",
+          "label": "Codons and the Genetic Code",
+          "date": "1966",
+          "loc": "Bethesda, Maryland",
+          "coords": [
+            38.99,
+            -77.1
+          ],
+          "tag": "CONCEPT",
+          "hint": "Genetic information is written in three-letter words: each codon, a specific sequence of three DNA or RNA bases, specifies one amino acid to add to a growing protein chain (or a signal to stop). With 64 possible codons but only 20 amino acids, most amino acids are specified by more than one codon — a redundancy (see th6) that turns out to buffer many mutations against actually changing the resulting protein.",
+          "note": "The complete codon table was worked out by the mid-1960s through combined work by Marshall Nirenberg (see st5), Har Gobind Khorana, and Robert Holley, who shared the 1968 Nobel Prize. The code is close to universal across all known life, with only a small number of documented exceptions in certain organelles and organisms.",
+          "links": [
+            "th6"
+          ]
+        },
+        {
+          "id": "co2",
+          "group": "Gene Expression & Regulation",
+          "label": "Chromatin Structure: Histones and Nucleosomes",
+          "date": "1974",
+          "loc": "Cambridge, United Kingdom",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "tag": "CONCEPT",
+          "hint": "DNA in a human cell would stretch about two metres if laid end to end, yet it fits inside a nucleus a few micrometres across — solved by wrapping the DNA around spool-like histone protein cores, forming repeating bead-on-a-string units called nucleosomes, which then coil further into denser chromatin. This packaging isn't just for storage: how tightly a given stretch is coiled directly controls whether the genes in it can be read (see ef8).",
+          "note": "Kornberg, R.D. (1974). 'Chromatin Structure: A Repeating Unit of Histones and DNA.' Science, 184(4139), 868–871 — Roger Kornberg, son of Arthur Kornberg (see st6), working independently on an entirely different problem, later won his own Nobel Prize in 2006 for unrelated work on RNA polymerase and transcription.",
+          "links": [
+            "ef8"
+          ]
+        },
+        {
+          "id": "co3",
+          "group": "Cell Cycle & Molecular Control",
+          "label": "The Cell Cycle Phases",
+          "date": "1983",
+          "loc": "Woods Hole, Massachusetts",
+          "coords": [
+            41.52,
+            -70.67
+          ],
+          "tag": "CONCEPT",
+          "hint": "A dividing cell moves through a fixed sequence of stages — growth (G1), DNA replication (S), further preparation (G2), and division itself (M) — each driven forward by a specific protein, cyclin, whose levels rise and fall exactly in step with the stage it controls, then gets destroyed to allow the next stage to begin. Discovering that cyclins existed at all, and that cells destroy them on a schedule, explained how the cycle keeps its own time.",
+          "note": "Evans, T., Rosenthal, E.T., Youngblom, J., Distel, D., Hunt, T. (1983). 'Cyclin: A protein specified by maternal mRNA in sea urchin eggs that is destroyed at each cleavage division.' Cell, 33(2), 389–396. Tim Hunt shared the 2001 Nobel Prize with Hartwell and Nurse (see th9); cyclins pair with partner enzymes, cyclin-dependent kinases (CDKs), to actually execute each transition.",
+          "links": [
+            "th9"
+          ]
+        },
+        {
+          "id": "co4",
+          "group": "Molecular Signal Transduction",
+          "label": "G-Protein Coupled Receptors",
+          "date": "1986",
+          "loc": "Durham, North Carolina",
+          "coords": [
+            35.99,
+            -78.9
+          ],
+          "tag": "CONCEPT",
+          "hint": "The single largest family of cell-surface receptors all share the same basic architecture: a protein that snakes back and forth across the cell membrane seven times, changing shape when a signal molecule binds outside and activating an internal partner protein inside — from receptors for adrenaline and light-sensing rhodopsin in the eye to the receptors targeted by roughly a third of all prescription drugs.",
+          "note": "Dixon, R.A.F., et al., Lefkowitz, R.J. (1986). 'Cloning of the gene and cDNA for mammalian beta-adrenergic receptor and homology with rhodopsin.' Nature, 321(6065), 75–79 — the paper that first showed a hormone receptor and a light receptor share the same seven-pass structural family. Lefkowitz shared the 2012 Nobel Prize with Brian Kobilka.",
+          "links": []
+        },
+        {
+          "id": "co5",
+          "group": "Molecular Signal Transduction",
+          "label": "Reversible Phosphorylation as a Molecular Switch",
+          "date": "1955",
+          "loc": "Seattle, Washington",
+          "coords": [
+            47.61,
+            -122.33
+          ],
+          "tag": "CONCEPT",
+          "hint": "Attaching or removing a single phosphate group can flip a protein between an active and inactive state almost instantly — a fast, reversible, cheap molecular switch that cells use constantly throughout signalling, metabolism, and the cell cycle. Edmond Fischer and Edwin Krebs discovered the principle studying a single metabolic enzyme; it turned out to generalise to a large fraction of all cellular regulation.",
+          "note": "Fischer, E.H., Krebs, E.G. (1955). 'Conversion of phosphorylase b to phosphorylase a in muscle extracts.' Journal of Biological Chemistry, 216(1), 121–132. Shared the 1992 Nobel Prize. Roughly a third of all human proteins are now estimated to be regulated by phosphorylation at some point, added and removed by the large kinase and phosphatase enzyme families.",
+          "links": []
+        },
+        {
+          "id": "co6",
+          "group": "Protein Structure, Folding & Enzymology",
+          "label": "Michaelis-Menten Enzyme Kinetics",
+          "date": "1913",
+          "loc": "Berlin, Germany",
+          "coords": [
+            52.52,
+            13.4
+          ],
+          "tag": "CONCEPT",
+          "hint": "An enzyme speeds up a reaction only up to a point — as substrate concentration keeps rising, the reaction rate levels off at a maximum, because the enzyme molecules are all already working as fast as they can. Leonor Michaelis and Maud Menten's simple mathematical model of this saturation curve, and the two constants that describe it, remains the standard first framework for describing how any enzyme behaves.",
+          "note": "Michaelis, L., Menten, M.L. (1913). 'Die Kinetik der Invertinwirkung.' Biochemische Zeitschrift, 49, 333–369. Maud Menten, a Canadian physician-scientist, had to leave North America to pursue this research at a time when few institutions there permitted women to lead independent research; the model remains foundational and is taught essentially unchanged over a century later.",
+          "links": []
+        },
+        {
+          "id": "co7",
+          "group": "Protein Structure, Folding & Enzymology",
+          "label": "Protein Domains and Structural Motifs",
+          "date": "1958",
+          "loc": "Cambridge, United Kingdom",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "tag": "CONCEPT",
+          "hint": "Large proteins are often built from smaller, independently folding modules — domains — that can recur across many otherwise unrelated proteins, each domain contributing a specific function like binding DNA or catalysing a reaction, mixed and matched like interchangeable parts across the genome. Recognising this modularity became possible only once a protein's full three-dimensional structure could actually be seen.",
+          "note": "Kendrew, J.C., Bodo, G., Dintzis, H.M., Parrish, R.G., Wyckoff, H., Phillips, D.C. (1958). 'A Three-Dimensional Model of the Myoglobin Molecule Obtained by X-Ray Analysis.' Nature, 181(4610), 662–666 — the first protein structure ever solved. Kendrew shared the 1962 Nobel Prize with Max Perutz, whose parallel work solved haemoglobin's structure.",
+          "links": []
+        },
+        {
+          "id": "co8",
+          "group": "Cell Cycle & Molecular Control",
+          "label": "Stem Cell Potency",
+          "date": "1961",
+          "loc": "Toronto, Canada",
+          "coords": [
+            43.65,
+            -79.38
+          ],
+          "tag": "CONCEPT",
+          "hint": "Not all stem cells are equally flexible: totipotent cells can become any cell type including placental tissue, pluripotent cells can become any cell type in the body but not placental tissue, and multipotent cells are restricted to a limited family of related cell types (blood stem cells making only blood and immune cells, for instance). James Till and Ernest McCulloch's bone marrow experiments gave stem cell biology its first rigorous, quantitative footing.",
+          "note": "Till, J.E., McCulloch, E.A. (1961). 'A Direct Measurement of the Radiation Sensitivity of Normal Mouse Bone Marrow Cells.' Radiation Research, 14(2), 213–222 (see anatomy-histology::st8 for the same landmark from the haematopoiesis angle). The potency hierarchy is now central to both developmental biology and regenerative medicine, including induced pluripotent stem cell technology.",
+          "links": [],
+          "xlinks": [
+            "anatomy-histology::st8"
+          ]
+        }
+      ]
     },
     {
       "id": "method",
