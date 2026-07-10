@@ -708,7 +708,110 @@
       "accent": "#8B5E00",
       "bg": "#FFF8F0",
       "subtitle": "The tools and paradigms that generate the field's evidence",
-      "entries": []
+      "entries": [
+        {
+          "id": "me1",
+          "group": "Adaptive Immunity",
+          "label": "ELISA",
+          "date": "1971",
+          "loc": "Stockholm, Sweden",
+          "coords": [
+            59.33,
+            18.07
+          ],
+          "tag": "METHOD",
+          "hint": "A way to detect and measure a specific antibody or antigen in a fluid sample using an enzyme that produces a visible colour change when the target is present — the intensity of colour tells you roughly how much is there. It replaced slower, more hazardous radioactive-label assays and became the workhorse behind most diagnostic blood tests, from HIV screening to allergy panels to pregnancy tests.",
+          "note": "Engvall, E., Perlmann, P. (1971). 'Enzyme-linked immunosorbent assay (ELISA). Quantitative assay of immunoglobulin G.' Immunochemistry, 8(9), 871–874. Still the diagnostic-immunology default fifty years on; countless clinical variants (sandwich ELISA, competitive ELISA) have been built on the same enzyme-label principle.",
+          "links": []
+        },
+        {
+          "id": "me2",
+          "group": "Adaptive Immunity",
+          "label": "Flow Cytometry",
+          "date": "1972",
+          "loc": "Stanford, California",
+          "coords": [
+            37.43,
+            -122.17
+          ],
+          "tag": "METHOD",
+          "hint": "A method for passing individual cells one at a time past a laser, reading which fluorescently-tagged antibodies each cell has bound on its surface, and sorting millions of cells per hour by exactly which combination of markers they carry. It's how a T-cell count is measured, how immune cell subtypes are distinguished from each other in the first place, and how a specific rare cell population can be physically isolated for further study.",
+          "note": "Julius, M.H., Masuda, T., Herzenberg, L.A. (1972). 'Demonstration that antigen-binding cells are precursors of antibody-producing cells after purification with a fluorescence-activated cell sorter.' Proceedings of the National Academy of Sciences, 69(7), 1934–1938 — one of Leonard Herzenberg's foundational FACS papers. Modern instruments can now read 30+ markers on a single cell simultaneously, far beyond what the original method could resolve.",
+          "links": []
+        },
+        {
+          "id": "me3",
+          "group": "Infectious Disease & Host-Pathogen Interaction",
+          "label": "Polymerase Chain Reaction for Pathogen Detection",
+          "date": "1988",
+          "loc": "Emeryville, California",
+          "coords": [
+            37.83,
+            -122.29
+          ],
+          "tag": "METHOD",
+          "hint": "A way to take a trace amount of a pathogen's genetic material — sometimes just a handful of molecules — and repeatedly copy it until there's enough to reliably detect, using a heat-tolerant enzyme that survives the repeated heating and cooling cycles the copying process requires. It turned pathogen diagnosis from \"culture it and wait days\" into \"amplify and detect in hours,\" and became a household term during COVID-19 as the basis of the standard PCR test.",
+          "note": "Saiki, R.K., Gelfand, D.H., Stoffel, S., et al. (1988). 'Primer-Directed Enzymatic Amplification of DNA with a Thermostable DNA Polymerase.' Science, 239(4839), 487–491 — introducing Taq polymerase, which made Kary Mullis's original 1985 PCR concept practical to automate. Mullis received the 1993 Nobel Prize in Chemistry for the underlying idea.",
+          "links": []
+        },
+        {
+          "id": "me4",
+          "group": "Cell Injury & Inflammation",
+          "label": "Histopathological Staining",
+          "date": "1876",
+          "loc": "Multiple European centres",
+          "coords": null,
+          "tag": "METHOD",
+          "hint": "Cutting tissue into slices thin enough for light to pass through and staining them with dyes that colour different cell structures differently — classically haematoxylin (stains nuclei blue-purple) paired with eosin (stains cytoplasm and protein pink) — lets a pathologist read a tissue's story under a microscope. It remains the single most-performed diagnostic test in cancer medicine: nearly every cancer diagnosis still starts with a biopsy read this way.",
+          "note": "The haematoxylin/eosin (H&E) combination developed incrementally through the 1860s–1870s via multiple European histologists rather than one landmark paper; see Titford, M. (2005). 'The Long History of Hematoxylin.' Biotechnic & Histochemistry, 80(2), 73–78 for the consolidated history. Despite over a century of alternative and molecular diagnostic techniques, H&E staining remains the irreplaceable first step in most cancer diagnoses.",
+          "links": []
+        },
+        {
+          "id": "me5",
+          "group": "Adaptive Immunity",
+          "label": "Monoclonal Antibody Production (Hybridoma Technique)",
+          "date": "1975",
+          "loc": "Cambridge, United Kingdom",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "tag": "METHOD",
+          "hint": "Fusing a single antibody-producing immune cell with an immortal cancer cell creates a hybrid cell — a hybridoma — that combines the immune cell's ability to make one specific, pure antibody with the cancer cell's ability to divide forever. This single trick made it possible to manufacture unlimited quantities of any desired antibody, and underlies most modern antibody-based drugs, from checkpoint inhibitors to countless diagnostic tests.",
+          "note": "Köhler, G., Milstein, C. (1975). 'Continuous cultures of fused cells secreting antibody of predefined specificity.' Nature, 256(5517), 495–497. Köhler and Milstein shared the 1984 Nobel Prize; notably, they deliberately did not patent the technique, a decision later widely debated given the enormous commercial value monoclonal antibody drugs went on to generate.",
+          "links": []
+        },
+        {
+          "id": "me6",
+          "group": "Innate Immunity",
+          "label": "Knockout Mouse Models",
+          "date": "1987",
+          "loc": "Salt Lake City, Utah",
+          "coords": [
+            40.76,
+            -111.89
+          ],
+          "tag": "METHOD",
+          "hint": "Precisely disabling a single gene in a living mouse — and breeding a strain that inherits the disabled version — lets researchers directly observe what that gene actually does by watching what goes wrong without it. For immunology specifically, it has been the primary tool for proving that a given receptor, cytokine, or signalling protein is genuinely necessary for a specific immune function, rather than just associated with it.",
+          "note": "Thomas, K.R., Capecchi, M.R. (1987). 'Site-directed mutagenesis by gene targeting in mouse embryo-derived stem cells.' Cell, 51(3), 503–512. Capecchi shared the 2007 Nobel Prize with Martin Evans and Oliver Smithies for developing gene-targeting technology; newer CRISPR-based methods have since made knockout generation dramatically faster, though the underlying logic of the experiment is unchanged.",
+          "links": []
+        },
+        {
+          "id": "me7",
+          "group": "Neoplasia & Cancer Biology",
+          "label": "Tumour Xenograft Models",
+          "date": "1969",
+          "loc": "Copenhagen, Denmark",
+          "coords": [
+            55.68,
+            12.57
+          ],
+          "tag": "METHOD",
+          "hint": "Implanting a piece of human tumour directly into a mouse that lacks the immune system components needed to reject it lets that human tumour keep growing in a living animal, where its response to a candidate drug can be tested before ever giving the drug to a person. It became possible only once genetically immunodeficient (\"nude\") mice were available to accept a human graft without rejecting it as foreign.",
+          "note": "Rygaard, J., Povlsen, C.O. (1969). 'Heterotransplantation of a human malignant tumour to \"Nude\" mice.' Acta Pathologica et Microbiologica Scandinavica, 77(4), 758–760. Now a standard preclinical step in cancer drug development; a significant limitation is that these mice's compromised immune systems mean the models can't capture how a fully intact immune system would interact with the tumour or a candidate immunotherapy.",
+          "links": []
+        }
+      ]
     },
     {
       "id": "figure",
@@ -718,7 +821,214 @@
       "accent": "#B7770D",
       "bg": "#FEFDE7",
       "subtitle": "The researchers who shaped the discipline",
-      "entries": []
+      "entries": [
+        {
+          "id": "fg1",
+          "group": "Pioneers & Theorists",
+          "label": "Rudolf Virchow",
+          "date": "1858",
+          "loc": "Berlin, Germany",
+          "coords": [
+            52.52,
+            13.4
+          ],
+          "tag": "FIGURE",
+          "hint": "Established that disease originates in disturbances at the level of the individual cell, not from imbalances in bodily fluids as ancient and medieval medicine had held — the single idea that founded modern pathology as a discipline. He also contributed the germ-line observation \"omnis cellula e cellula,\" recognised leukaemia as a distinct disease, and was a pioneering public-health reformer in Berlin.",
+          "note": "Die Cellularpathologie (1858); also a prolific public health campaigner (sanitation, hospital reform) and an early advocate against \"race science,\" which he publicly and scientifically opposed. Sometimes called \"the father of modern pathology.\"",
+          "links": [
+            "th2"
+          ]
+        },
+        {
+          "id": "fg2",
+          "group": "Pioneers & Theorists",
+          "label": "Robert Koch",
+          "date": "1882",
+          "loc": "Berlin, Germany",
+          "coords": [
+            52.52,
+            13.4
+          ],
+          "tag": "FIGURE",
+          "hint": "Proved that specific microorganisms cause specific diseases by isolating Bacillus anthracis (anthrax, 1876) and Mycobacterium tuberculosis (1882), then formalising the four-part logical standard — Koch's postulates — still taught as the baseline for proving microbial causation. Tuberculosis alone was killing roughly one in seven Europeans at the time of his discovery.",
+          "note": "'Die Aetiologie der Tuberkulose' (1882); awarded the 1905 Nobel Prize in Physiology or Medicine. His later tuberculin treatment for TB was a well-documented clinical failure, a useful reminder that Koch's own record includes real, disclosed mistakes alongside the foundational successes.",
+          "links": [
+            "th1",
+            "st2"
+          ]
+        },
+        {
+          "id": "fg3",
+          "group": "Pioneers & Theorists",
+          "label": "Paul Ehrlich",
+          "date": "1910",
+          "loc": "Frankfurt, Germany",
+          "coords": [
+            50.11,
+            8.68
+          ],
+          "tag": "FIGURE",
+          "hint": "Developed Salvarsan, the first drug designed and systematically screened to kill a specific pathogen (the bacterium causing syphilis) while sparing the patient — the founding demonstration of chemotherapy as a rational discipline, which he called the search for a \"magic bullet.\" He separately proposed an influential (and largely correct) side-chain theory explaining how antibodies bind antigens.",
+          "note": "Salvarsan announced 1910; shared the 1908 Nobel Prize with Metchnikoff for immunity work. Founded and directed the Georg-Speyer-Haus research institute in Frankfurt, where the Salvarsan screening programme was carried out.",
+          "links": []
+        },
+        {
+          "id": "fg4",
+          "group": "Pioneers & Theorists",
+          "label": "Ilya Metchnikoff",
+          "date": "1883",
+          "loc": "Paris, France",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "tag": "FIGURE",
+          "hint": "Discovered phagocytosis — that specialised mobile cells actively engulf and destroy invading microbes — establishing cellular immunity as a real mechanism distinct from and complementary to antibody-based (humoral) immunity. He reached the insight by watching immune cells swarm a splinter he inserted into a transparent starfish larva under a microscope.",
+          "note": "'Untersuchungen über die intracellulare Verdauung bei wirbellosen Thieren' (1883); shared the 1908 Nobel Prize with his scientific rival Paul Ehrlich, whose humoral theory turned out to be equally correct rather than competing.",
+          "links": [
+            "th9"
+          ]
+        },
+        {
+          "id": "fg5",
+          "group": "Pioneers & Theorists",
+          "label": "Edward Jenner",
+          "date": "1796",
+          "loc": "Berkeley, Gloucestershire, England",
+          "coords": [
+            51.69,
+            -2.46
+          ],
+          "tag": "FIGURE",
+          "hint": "Turned the folk observation that milkmaids who caught cowpox seemed immune to smallpox into a deliberate, testable medical procedure, coining the term \"vaccine.\" His single case study eventually led to the only successful human eradication of a disease in history — smallpox was declared eradicated in 1980.",
+          "note": "An Inquiry into the Causes and Effects of the Variolae Vaccinae (1798). Jenner's original procedure — inoculating with live cowpox matter taken from other patients — would not meet modern safety or consent standards, though the underlying biological principle it demonstrated was entirely sound.",
+          "links": [
+            "st1"
+          ]
+        },
+        {
+          "id": "fg6",
+          "group": "Pioneers & Theorists",
+          "label": "Karl Landsteiner",
+          "date": "1901",
+          "loc": "Vienna, Austria",
+          "coords": [
+            48.21,
+            16.37
+          ],
+          "tag": "FIGURE",
+          "hint": "Discovered the ABO blood group system, explaining why some blood transfusions caused fatal reactions while others didn't — a single finding that made transfusion medicine safe almost overnight. He later carried out equally foundational immunochemistry establishing just how precisely antibodies discriminate between molecular shapes.",
+          "note": "ABO blood groups described 1901 (Nobel Prize, 1930); The Specificity of Serological Reactions (1936) — this later immunochemical work is cited directly in this folio (see co1). Also co-discovered the Rh blood group factor in 1940, late in his career.",
+          "links": [
+            "co1"
+          ]
+        },
+        {
+          "id": "fg7",
+          "group": "Pioneers & Theorists",
+          "label": "Macfarlane Burnet",
+          "date": "1957",
+          "loc": "Melbourne, Australia",
+          "coords": [
+            -37.81,
+            144.96
+          ],
+          "tag": "FIGURE",
+          "hint": "Proposed clonal selection theory — that each immune cell is pre-committed to one antigen shape before it ever meets it, and proliferates only once selected by a match — replacing the older idea that antigens physically shape antibodies. He also theoretically predicted that immune tolerance could be actively acquired during development, a prediction experimentally confirmed by Medawar's team.",
+          "note": "'A modification of Jerne's theory of antibody production using the concept of clonal selection' (1957); shared the 1960 Nobel Prize with Medawar for the tolerance work. Also proposed cancer immunosurveillance (see th7), a theory that fell out of favour for two decades before being substantially rehabilitated.",
+          "links": [
+            "th3",
+            "th7"
+          ]
+        },
+        {
+          "id": "fg8",
+          "group": "Pioneers & Theorists",
+          "label": "Peter Medawar",
+          "date": "1953",
+          "loc": "London, United Kingdom",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "FIGURE",
+          "hint": "Experimentally proved that immune self/non-self discrimination is learned during development rather than fixed at birth, by showing that mice exposed to foreign cells before birth grow up permanently tolerant of tissue from that same donor. The finding gave transplant medicine its first theoretical foundation — until then, there was no scientific reason to think immune rejection could ever be reliably overcome.",
+          "note": "Billingham, Brent, Medawar, 'Actively acquired tolerance of foreign cells' (1953); shared the 1960 Nobel Prize with Burnet. Medawar's wartime work on skin grafting for burns victims directly motivated his later transplant-immunology research.",
+          "links": [
+            "th4"
+          ]
+        },
+        {
+          "id": "fg9",
+          "group": "Pioneers & Theorists",
+          "label": "Otto Warburg",
+          "date": "1924",
+          "loc": "Berlin, Germany",
+          "coords": [
+            52.52,
+            13.4
+          ],
+          "tag": "FIGURE",
+          "hint": "Discovered that cancer cells consistently generate energy through wasteful glucose fermentation even when oxygen is plentiful — the phenomenon that bears his name — and spent much of his career arguing (incorrectly, as later work showed) that this reflected irreversible damage to cellular respiration and was the primary cause of cancer itself. The observation long outlived his causal theory and is now central to how cancer is imaged and understood metabolically.",
+          "note": "'Über den Stoffwechsel der Carcinomzelle' (1924); Nobel Prize 1931 for an earlier, separate discovery (the enzyme of cellular respiration). His causal theory of cancer's origin was a significant scientific overreach that the field spent decades correcting — a useful case study in distinguishing a robust observation from its original, since-revised explanation.",
+          "links": [
+            "st4",
+            "ef1"
+          ]
+        },
+        {
+          "id": "fg10",
+          "group": "Pioneers & Theorists",
+          "label": "James Allison",
+          "date": "1996",
+          "loc": "Berkeley, California",
+          "coords": [
+            37.87,
+            -122.27
+          ],
+          "tag": "FIGURE",
+          "hint": "Showed that blocking a single molecular brake on T cells, CTLA-4, was enough to make a mouse's immune system destroy its own tumours — establishing that cancer immunotherapy could work by releasing an existing immune response rather than trying to boost a weak one. The insight founded the entire checkpoint inhibitor drug class.",
+          "note": "Leach, Krummel, Allison, 'Enhancement of Antitumor Immunity by CTLA-4 Blockade' (1996); shared the 2018 Nobel Prize with Tasuku Honjo. His CTLA-4 antibody became ipilimumab, the first FDA-approved checkpoint inhibitor (2011).",
+          "links": [
+            "st11",
+            "ef5"
+          ]
+        },
+        {
+          "id": "fg11",
+          "group": "Pioneers & Theorists",
+          "label": "Tasuku Honjo",
+          "date": "1992",
+          "loc": "Kyoto, Japan",
+          "coords": [
+            35.03,
+            135.78
+          ],
+          "tag": "FIGURE",
+          "hint": "Discovered PD-1, a second and independent immune checkpoint molecule distinct from CTLA-4, initially while studying genes involved in programmed cell death. Drugs blocking PD-1 (pembrolizumab, nivolumab) have since become the most widely used class of cancer immunotherapy, often better tolerated than CTLA-4 blockade.",
+          "note": "Ishida, Y., Agata, Y., Shibahara, K., Honjo, T. (1992). 'Induced expression of PD-1, a novel member of the immunoglobulin gene superfamily, upon programmed cell death.' The EMBO Journal, 11(11), 3887–3895. Shared the 2018 Nobel Prize with James Allison; PD-1/PD-L1 blockade is now backbone therapy across dozens of cancer types.",
+          "links": [
+            "ef5"
+          ]
+        },
+        {
+          "id": "fg12",
+          "group": "Pioneers & Theorists",
+          "label": "Barry Marshall",
+          "date": "1984",
+          "loc": "Perth, Australia",
+          "coords": [
+            -31.95,
+            115.86
+          ],
+          "tag": "FIGURE",
+          "hint": "Proved that a bacterium, not stress or stomach acid, causes most peptic ulcers — and when the medical establishment wouldn't believe him, drank a culture of the bacterium himself to develop gastritis on demand and settle the argument. The discovery turned a chronic, acid-suppressant-managed condition into a bacterial infection curable with a course of antibiotics.",
+          "note": "Marshall, Warren, 'Unidentified curved bacilli in the stomach of patients with gastritis and peptic ulceration' (1984); self-experiment in Marshall et al., Medical Journal of Australia (1985). Shared the 2005 Nobel Prize with Robin Warren; widely cited as a case study in how entrenched medical consensus can resist strong contrary evidence.",
+          "links": [
+            "st6"
+          ]
+        }
+      ]
     },
     {
       "id": "debate",
