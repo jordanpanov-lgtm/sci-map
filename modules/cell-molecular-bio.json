@@ -151,6 +151,12 @@
             "st2",
             "st3",
             "ef7"
+          ],
+          "keywords": [
+            "central dogma molecular biology",
+            "crick information flow",
+            "dna rna protein direction",
+            "one-way genetic information"
           ]
         },
         {
@@ -166,7 +172,13 @@
           "tag": "THEORY",
           "hint": "Bacteria don't waste energy making enzymes they don't need — a cluster of genes for digesting a specific sugar sits under the control of a single on/off switch, flipped by a repressor protein that falls off the DNA only when that sugar is actually present. François Jacob and Jacques Monod's operon model, built on their work with the E. coli lac operon, was the first mechanistic explanation of how gene expression is regulated at all.",
           "note": "Jacob, F., Monod, J. (1961). 'Genetic regulatory mechanisms in the synthesis of proteins.' Journal of Molecular Biology, 3(3), 318–356. Shared the 1965 Nobel Prize with André Lwoff. Bacterial operons remain the clearest textbook example of gene regulation; eukaryotic regulation turned out to be substantially more complex (see co4, th-level chromatin regulation), involving mechanisms operons alone don't capture.",
-          "links": []
+          "links": [],
+          "keywords": [
+            "operon model regulation",
+            "jacob monod lac operon",
+            "repressor protein switch",
+            "bacterial gene regulation"
+          ]
         },
         {
           "id": "th3",
@@ -181,7 +193,13 @@
           "tag": "THEORY",
           "hint": "Cells make their energy currency, ATP, using a mechanism that looks nothing like ordinary chemistry: pumping protons across a membrane to build up a concentration gradient, then letting them flow back through a molecular turbine (ATP synthase) that uses that flow to bolt a phosphate onto ADP. Peter Mitchell proposed this indirect, gradient-driven mechanism when most biochemists still assumed energy transfer required a direct chemical intermediate — and was widely dismissed for over a decade before being vindicated.",
           "note": "Mitchell, P. (1961). 'Coupling of Phosphorylation to Electron and Hydrogen Transfer by a Chemi-Osmotic type of Mechanism.' Nature, 191(4784), 144–148. Awarded the 1978 Nobel Prize in Chemistry, largely alone, after the field's initial deep skepticism gave way to overwhelming experimental confirmation. Mitchell developed and confirmed the theory largely at his own privately funded research institute after leaving conventional academia.",
-          "links": []
+          "links": [],
+          "keywords": [
+            "chemiosmotic theory",
+            "proton gradient atp synthesis",
+            "mitchell membrane coupling",
+            "atp synthase mechanism"
+          ]
         },
         {
           "id": "th4",
@@ -196,7 +214,13 @@
           "tag": "THEORY",
           "hint": "A newly made protein doesn't need an outside address label to reach the right place in the cell — the address is written into the protein itself, as a short stretch of amino acids at one end that gets recognised and physically threaded into the endoplasmic reticulum if the protein is destined for secretion or a membrane. Günter Blobel's signal hypothesis explained how a cell sorts thousands of different proteins to dozens of different destinations without external help.",
           "note": "Blobel, G., Dobberstein, B. (1975). 'Transfer of proteins across membranes.' Journal of Cell Biology, 67(3), 835–851. Blobel received the 1999 Nobel Prize, unusually, entirely alone. The core mechanism has been extensively confirmed and extended to protein sorting throughout the cell, well beyond the original secretory-pathway case.",
-          "links": []
+          "links": [],
+          "keywords": [
+            "signal hypothesis blobel",
+            "protein sorting sequence",
+            "endoplasmic reticulum targeting",
+            "signal sequence trafficking"
+          ]
         },
         {
           "id": "th5",
@@ -213,6 +237,12 @@
           "note": "Margulis (as L. Sagan), L. (1967). 'On the origin of mitosing cells.' Journal of Theoretical Biology, 14(3), 225–274 — rejected by roughly fifteen journals before publication. Now overwhelmingly confirmed by mitochondrial and chloroplast DNA sequencing, which shows clear bacterial ancestry; considered one of the more dramatic vindications of a once-marginal idea in twentieth-century biology.",
           "links": [
             "fg12"
+          ],
+          "keywords": [
+            "endosymbiotic theory",
+            "margulis mitochondria origin",
+            "organelle bacterial ancestry",
+            "chloroplast endosymbiosis"
           ]
         },
         {
@@ -231,6 +261,12 @@
           "links": [
             "st5",
             "co1"
+          ],
+          "keywords": [
+            "wobble hypothesis",
+            "codon anticodon pairing",
+            "trna degeneracy",
+            "third position wobble"
           ]
         },
         {
@@ -248,6 +284,12 @@
           "note": "Prusiner, S.B. (1982). 'Novel proteinaceous infectious particles cause scrapie.' Science, 216(4542), 136–144. Met with intense skepticism and open ridicule for years — Prusiner was awarded the 1997 Nobel Prize once purified prion protein alone was shown sufficient to transmit disease, one of the most dramatic reversals of scientific consensus in modern biology (see db7 for the contested history in more depth).",
           "links": [
             "db7"
+          ],
+          "keywords": [
+            "prion hypothesis",
+            "protein-only infectious agent",
+            "prusiner misfolded protein",
+            "proteinaceous infectious particle"
           ]
         },
         {
@@ -265,6 +307,12 @@
           "note": "Gilbert, W. (1986). 'The RNA world.' Nature, 319(6055), 618. The hypothesis gained real experimental support once ribozymes — RNA molecules with genuine catalytic activity — were discovered by Cech and Altman in the early 1980s (Nobel 1989); it remains a leading but not universally accepted origin-of-life framework, since no self-replicating RNA system has been demonstrated from scratch under plausible early-Earth conditions.",
           "links": [
             "fg11"
+          ],
+          "keywords": [
+            "rna world hypothesis",
+            "ribozyme catalytic rna",
+            "origin of life rna",
+            "self-replicating rna"
           ]
         },
         {
@@ -283,6 +331,12 @@
           "links": [
             "st11",
             "co3"
+          ],
+          "keywords": [
+            "cell cycle checkpoint",
+            "hartwell checkpoint control",
+            "dna damage surveillance",
+            "cell cycle arrest mechanism"
           ]
         },
         {
@@ -300,6 +354,12 @@
           "note": "Chargaff, E. (1950). 'Chemical specificity of nucleic acids and mechanism of their enzymatic degradation.' Experientia, 6(6), 201–209. Chargaff was reportedly unimpressed when he later met Watson and Crick, and felt his own contribution was under-credited relative to theirs — a minor but genuine footnote in the DNA-structure story's larger, better-known credit disputes (see db1).",
           "links": [
             "st1"
+          ],
+          "keywords": [
+            "chargaff's rules",
+            "base pairing ratios",
+            "adenine thymine equivalence",
+            "dna composition regularity"
           ]
         }
       ]
@@ -332,6 +392,12 @@
             "th10",
             "fg1",
             "db1"
+          ],
+          "keywords": [
+            "watson crick dna structure",
+            "double helix discovery",
+            "dna base pairing model",
+            "cavendish laboratory dna"
           ]
         },
         {
@@ -352,6 +418,12 @@
             "th1",
             "st4",
             "fg4"
+          ],
+          "keywords": [
+            "hershey chase experiment",
+            "blender experiment",
+            "dna genetic material proof",
+            "bacteriophage labeling experiment"
           ]
         },
         {
@@ -370,6 +442,12 @@
           "note": "Meselson, M., Stahl, F.W. (1958). 'The replication of DNA in Escherichia coli.' Proceedings of the National Academy of Sciences, 44(7), 671–682 — often called \"the most beautiful experiment in biology\" for how cleanly its result distinguished between three competing hypotheses in a single, simple design. Robustly confirmed and never seriously challenged since.",
           "links": [
             "th1"
+          ],
+          "keywords": [
+            "meselson stahl experiment",
+            "semiconservative replication proof",
+            "density gradient centrifugation",
+            "most beautiful experiment"
           ]
         },
         {
@@ -389,6 +467,12 @@
           "links": [
             "st2",
             "fg3"
+          ],
+          "keywords": [
+            "avery macleod mccarty",
+            "pneumococcal transformation",
+            "dna transforming principle",
+            "bacterial transformation experiment"
           ]
         },
         {
@@ -408,6 +492,12 @@
           "links": [
             "th6",
             "fg5"
+          ],
+          "keywords": [
+            "nirenberg matthaei experiment",
+            "first codon deciphered",
+            "synthetic rna translation",
+            "uuu phenylalanine codon"
           ]
         },
         {
@@ -426,6 +516,12 @@
           "note": "Kornberg, A., Lehman, I.R., Bessman, M.J., Simms, E.S. (1956). 'Enzymic synthesis of deoxyribonucleic acid.' Biochimica et Biophysica Acta, 21(1), 197–198. Kornberg shared the 1959 Nobel Prize. The specific enzyme he isolated (DNA polymerase I) later turned out to play a more minor role in normal bacterial replication than his initial work suggested — several further polymerases were discovered later — but the enzymatic approach it pioneered is foundational to all subsequent replication research.",
           "links": [
             "fg6"
+          ],
+          "keywords": [
+            "kornberg dna polymerase",
+            "enzymatic dna synthesis",
+            "in vitro dna replication",
+            "dna polymerase discovery"
           ]
         },
         {
@@ -446,6 +542,12 @@
             "st8",
             "me3",
             "ap2"
+          ],
+          "keywords": [
+            "cohen boyer recombinant dna",
+            "plasmid engineering experiment",
+            "restriction enzyme splicing",
+            "genetic engineering founding"
           ]
         },
         {
@@ -468,6 +570,12 @@
           ],
           "xlinks": [
             "pathology-immunology::me3"
+          ],
+          "keywords": [
+            "mullis pcr invention",
+            "polymerase chain reaction origin",
+            "dna amplification technique",
+            "cetus corporation pcr"
           ]
         },
         {
@@ -486,6 +594,12 @@
           "note": "Fire, A., Xu, S., Montgomery, M.K., Kostas, S.A., Driver, S.E., Mello, C.C. (1998). 'Potent and specific genetic interference by double-stranded RNA in Caenorhabditis elegans.' Nature, 391(6669), 806–811. Shared the 2006 Nobel Prize. RNA interference rapidly became both a standard laboratory tool for silencing specific genes and the basis of a new drug class (RNAi therapeutics), the first of which was approved in 2018.",
           "links": [
             "ef5"
+          ],
+          "keywords": [
+            "fire mello rna interference",
+            "double-stranded rna silencing",
+            "c elegans gene silencing",
+            "dsrna genetic interference"
           ]
         },
         {
@@ -507,6 +621,12 @@
             "fg9",
             "db3",
             "ap1"
+          ],
+          "keywords": [
+            "doudna charpentier crispr",
+            "programmable dna endonuclease",
+            "guide rna cas9",
+            "bacterial immune system repurposed"
           ]
         },
         {
@@ -530,6 +650,12 @@
           ],
           "xlinks": [
             "pathology-immunology::th5"
+          ],
+          "keywords": [
+            "greider blackburn telomerase",
+            "telomere terminal transferase",
+            "tetrahymena telomerase discovery",
+            "chromosome end replication enzyme"
           ]
         }
       ]
@@ -557,7 +683,13 @@
           "repl": "robust",
           "hint": "A single gene can produce several different proteins, depending on which stretches of its RNA transcript (exons) get stitched together and which get cut out before translation. The discovery that genes are broken into pieces at all, let alone that the pieces could be reassembled in different combinations, was a genuine surprise — it's a major reason roughly 20,000 human genes can produce a much larger number of distinct proteins.",
           "note": "Chow, L.T., Gelinas, R.E., Broker, T.R., Roberts, R.J. (1977). 'An amazing sequence arrangement at the 5' ends of adenovirus 2 messenger RNA.' Cell, 12(1), 1–8, published alongside an independent, simultaneous paper by Berget, Moore and Sharp. Sharp and Roberts shared the 1993 Nobel Prize. Robustly confirmed as pervasive — most human multi-exon genes are now known to be alternatively spliced.",
-          "links": []
+          "links": [],
+          "keywords": [
+            "alternative splicing",
+            "exon intron rearrangement",
+            "one gene multiple proteins",
+            "rna splicing discovery"
+          ]
         },
         {
           "id": "ef2",
@@ -573,7 +705,13 @@
           "repl": "robust",
           "hint": "Female mammals carry two X chromosomes, but each cell randomly and permanently silences one of them early in development — so every female mammal is a genetic mosaic, a patchwork of cells expressing one X or the other. The visible proof is hiding in plain sight: a calico cat's blotchy coat pattern is the direct, visible signature of which X got silenced in which patch of skin cells.",
           "note": "Lyon, M.F. (1961). 'Gene action in the X-chromosome of the mouse (Mus musculus L.).' Nature, 190(4773), 372–373. Robustly confirmed and now understood at the molecular level (mediated by the long non-coding RNA Xist); the process is random in most tissue but not perfectly so, and skewed X-inactivation is clinically relevant in some X-linked disease carriers.",
-          "links": []
+          "links": [],
+          "keywords": [
+            "x-inactivation lyonization",
+            "random x chromosome silencing",
+            "female genetic mosaicism",
+            "calico cat coat pattern"
+          ]
         },
         {
           "id": "ef3",
@@ -589,7 +727,13 @@
           "repl": "robust",
           "hint": "Some genes behave completely differently depending on whether they were inherited from the mother or the father, even though the DNA sequence is identical either way — a direct violation of the simple assumption that a gene's effect depends only on its sequence. Mouse embryos engineered to have two maternal or two paternal genome copies (instead of the normal one of each) fail to develop properly, showing both parental contributions are genuinely, separately necessary.",
           "note": "McGrath, J., Solter, D. (1984). 'Completion of mouse embryogenesis requires both the maternal and paternal genomes.' Cell, 37(1), 179–183. Mediated by epigenetic marks (DNA methylation) laid down differently in eggs and sperm; imprinting disorders in humans (Prader-Willi and Angelman syndromes) result from losing the correctly imprinted copy of the same small region of chromosome 15.",
-          "links": []
+          "links": [],
+          "keywords": [
+            "genomic imprinting",
+            "parent-of-origin gene expression",
+            "maternal paternal genome",
+            "imprinting disorder mechanism"
+          ]
         },
         {
           "id": "ef4",
@@ -607,6 +751,12 @@
           "note": "Hayflick, L., Moorhead, P.S. (1961). 'The serial cultivation of human diploid cell strains.' Experimental Cell Research, 25(3), 585–621. Now understood to be driven substantially by telomere shortening (see st11) — each division trims a little off the chromosome ends, and senescence sets in once telomeres become critically short, a limit that cancer cells characteristically escape by reactivating telomerase.",
           "links": [
             "st11"
+          ],
+          "keywords": [
+            "hayflick limit senescence",
+            "replicative senescence cells",
+            "finite cell division limit",
+            "diploid cell culture aging"
           ]
         },
         {
@@ -625,6 +775,12 @@
           "note": "Lee, R.C., Feinbaum, R.L., Ambros, V. (1993). 'The C. elegans heterochronic gene lin-4 encodes small RNAs with antisense complementarity to lin-14.' Cell, 75(5), 843–854. Largely overlooked for years until RNA interference (see st9) made the broader importance of small regulatory RNAs suddenly obvious in retrospect; microRNA dysregulation is now implicated in numerous cancers and is an active area of therapeutic development.",
           "links": [
             "st9"
+          ],
+          "keywords": [
+            "microrna gene regulation",
+            "lin-4 small rna",
+            "post-transcriptional silencing",
+            "small regulatory rna"
           ]
         },
         {
@@ -644,6 +800,12 @@
           "links": [],
           "xlinks": [
             "pathology-immunology::ef10"
+          ],
+          "keywords": [
+            "horizontal gene transfer",
+            "lateral gene transfer bacteria",
+            "griffith transforming principle",
+            "interspecies dna acquisition"
           ]
         },
         {
@@ -665,6 +827,12 @@
           ],
           "xlinks": [
             "pathology-immunology::st8"
+          ],
+          "keywords": [
+            "reverse transcription discovery",
+            "baltimore temin enzyme",
+            "rna tumor virus polymerase",
+            "retrovirus dna copying"
           ]
         },
         {
@@ -683,6 +851,12 @@
           "note": "Allfrey, V.G., Faulkner, R., Mirsky, A.E. (1964). 'Acetylation and Methylation of Histones and Their Possible Role in the Regulation of RNA Synthesis.' Proceedings of the National Academy of Sciences, 51(5), 786–794 — an early, largely correct proposal that took over two decades to be fully mechanistically confirmed once specific histone-modifying enzymes were identified in the 1990s.",
           "links": [
             "co2"
+          ],
+          "keywords": [
+            "histone acetylation methylation",
+            "chromatin remodelling regulation",
+            "epigenetic gene switching",
+            "histone modification mechanism"
           ]
         },
         {
@@ -702,6 +876,12 @@
           "links": [],
           "xlinks": [
             "pathology-immunology::ap4"
+          ],
+          "keywords": [
+            "receptor tyrosine kinase",
+            "growth factor signal cascade",
+            "receptor dimerization phosphorylation",
+            "rtk cancer driver"
           ]
         },
         {
@@ -718,7 +898,13 @@
           "repl": "robust",
           "hint": "A newly made protein chain doesn't reliably fold itself into its correct working shape on its own, especially under cellular stress — dedicated helper proteins called molecular chaperones physically shepherd it through folding, preventing the tangled, sticky misfolded states that would otherwise clump together and damage the cell. Heat-shock proteins, a major chaperone family, are named for how strongly cells ramp up their production the moment temperature stress threatens to unfold everything at once.",
           "note": "Ellis, R.J. (1987). 'Proteins as Molecular Chaperones.' Nature, 328(6129), 378–379 — the paper that coined \"molecular chaperone\" in its modern sense. Chaperone failure and the resulting protein aggregation is now implicated in a range of diseases, from cystic fibrosis (a misfolded chloride channel) to neurodegenerative conditions involving protein aggregates.",
-          "links": []
+          "links": [],
+          "keywords": [
+            "molecular chaperone folding",
+            "heat shock protein function",
+            "protein aggregation prevention",
+            "chaperone-mediated refolding"
+          ]
         }
       ]
     },
@@ -747,6 +933,12 @@
           "links": [
             "th6",
             "db8"
+          ],
+          "keywords": [
+            "codon genetic code table",
+            "triplet code redundancy",
+            "start stop codon",
+            "universal genetic code"
           ]
         },
         {
@@ -764,6 +956,12 @@
           "note": "Kornberg, R.D. (1974). 'Chromatin Structure: A Repeating Unit of Histones and DNA.' Science, 184(4139), 868–871 — Roger Kornberg, son of Arthur Kornberg (see st6), working independently on an entirely different problem, later won his own Nobel Prize in 2006 for unrelated work on RNA polymerase and transcription.",
           "links": [
             "ef8"
+          ],
+          "keywords": [
+            "nucleosome histone structure",
+            "roger kornberg chromatin",
+            "dna packaging mechanism",
+            "chromatin repeating unit"
           ]
         },
         {
@@ -781,6 +979,12 @@
           "note": "Evans, T., Rosenthal, E.T., Youngblom, J., Distel, D., Hunt, T. (1983). 'Cyclin: A protein specified by maternal mRNA in sea urchin eggs that is destroyed at each cleavage division.' Cell, 33(2), 389–396. Tim Hunt shared the 2001 Nobel Prize with Hartwell and Nurse (see th9); cyclins pair with partner enzymes, cyclin-dependent kinases (CDKs), to actually execute each transition.",
           "links": [
             "th9"
+          ],
+          "keywords": [
+            "cell cycle phases g1 s g2 m",
+            "cyclin protein oscillation",
+            "tim hunt cyclin discovery",
+            "cell division stage regulation"
           ]
         },
         {
@@ -796,7 +1000,13 @@
           "tag": "CONCEPT",
           "hint": "The single largest family of cell-surface receptors all share the same basic architecture: a protein that snakes back and forth across the cell membrane seven times, changing shape when a signal molecule binds outside and activating an internal partner protein inside — from receptors for adrenaline and light-sensing rhodopsin in the eye to the receptors targeted by roughly a third of all prescription drugs.",
           "note": "Dixon, R.A.F., et al., Lefkowitz, R.J. (1986). 'Cloning of the gene and cDNA for mammalian beta-adrenergic receptor and homology with rhodopsin.' Nature, 321(6065), 75–79 — the paper that first showed a hormone receptor and a light receptor share the same seven-pass structural family. Lefkowitz shared the 2012 Nobel Prize with Brian Kobilka.",
-          "links": []
+          "links": [],
+          "keywords": [
+            "g-protein coupled receptor",
+            "seven transmembrane receptor",
+            "lefkowitz gpcr structure",
+            "rhodopsin receptor homology"
+          ]
         },
         {
           "id": "co5",
@@ -811,7 +1021,13 @@
           "tag": "CONCEPT",
           "hint": "Attaching or removing a single phosphate group can flip a protein between an active and inactive state almost instantly — a fast, reversible, cheap molecular switch that cells use constantly throughout signalling, metabolism, and the cell cycle. Edmond Fischer and Edwin Krebs discovered the principle studying a single metabolic enzyme; it turned out to generalise to a large fraction of all cellular regulation.",
           "note": "Fischer, E.H., Krebs, E.G. (1955). 'Conversion of phosphorylase b to phosphorylase a in muscle extracts.' Journal of Biological Chemistry, 216(1), 121–132. Shared the 1992 Nobel Prize. Roughly a third of all human proteins are now estimated to be regulated by phosphorylation at some point, added and removed by the large kinase and phosphatase enzyme families.",
-          "links": []
+          "links": [],
+          "keywords": [
+            "reversible phosphorylation switch",
+            "kinase phosphatase regulation",
+            "fischer krebs phosphorylase",
+            "protein activation deactivation"
+          ]
         },
         {
           "id": "co6",
@@ -826,7 +1042,13 @@
           "tag": "CONCEPT",
           "hint": "An enzyme speeds up a reaction only up to a point — as substrate concentration keeps rising, the reaction rate levels off at a maximum, because the enzyme molecules are all already working as fast as they can. Leonor Michaelis and Maud Menten's simple mathematical model of this saturation curve, and the two constants that describe it, remains the standard first framework for describing how any enzyme behaves.",
           "note": "Michaelis, L., Menten, M.L. (1913). 'Die Kinetik der Invertinwirkung.' Biochemische Zeitschrift, 49, 333–369. Maud Menten, a Canadian physician-scientist, had to leave North America to pursue this research at a time when few institutions there permitted women to lead independent research; the model remains foundational and is taught essentially unchanged over a century later.",
-          "links": []
+          "links": [],
+          "keywords": [
+            "michaelis menten kinetics",
+            "enzyme saturation curve",
+            "maud menten enzymology",
+            "enzyme rate constant"
+          ]
         },
         {
           "id": "co7",
@@ -843,6 +1065,12 @@
           "note": "Kendrew, J.C., Bodo, G., Dintzis, H.M., Parrish, R.G., Wyckoff, H., Phillips, D.C. (1958). 'A Three-Dimensional Model of the Myoglobin Molecule Obtained by X-Ray Analysis.' Nature, 181(4610), 662–666 — the first protein structure ever solved. Kendrew shared the 1962 Nobel Prize with Max Perutz, whose parallel work solved haemoglobin's structure.",
           "links": [
             "me5"
+          ],
+          "keywords": [
+            "protein domain motif",
+            "modular protein structure",
+            "myoglobin structure kendrew",
+            "independently folding module"
           ]
         },
         {
@@ -861,6 +1089,12 @@
           "links": [],
           "xlinks": [
             "anatomy-histology::st8"
+          ],
+          "keywords": [
+            "stem cell potency hierarchy",
+            "totipotent pluripotent multipotent",
+            "till mcculloch stem cell",
+            "bone marrow stem cell quantification"
           ]
         }
       ]
@@ -887,7 +1121,13 @@
           "tag": "METHOD",
           "hint": "Pushing DNA fragments through a porous gel using an electric field sorts them by size — small fragments thread through the gel's mesh quickly, large ones lag behind — turning an invisible mixture of DNA pieces into a visible ladder of bands. It's one of the most basic, ubiquitous operations in a molecular biology lab, often the very first step in checking whether any given experiment actually worked.",
           "note": "Sharp, P.A., Sugden, B., Sambrook, J. (1973). 'Detection of Two Restriction Endonuclease Activities in Haemophilus parainfluenzae Using Analytical Agarose-Ethidium Bromide Electrophoresis.' Biochemistry, 12(16), 3055–3063 — established the agarose-gel-plus-ethidium-bromide combination that made DNA fragments visible under UV light, still the standard approach.",
-          "links": []
+          "links": [],
+          "keywords": [
+            "agarose gel electrophoresis",
+            "dna fragment separation",
+            "ethidium bromide visualization",
+            "gel size sorting technique"
+          ]
         },
         {
           "id": "me2",
@@ -902,7 +1142,13 @@
           "tag": "METHOD",
           "hint": "Frederick Sanger's chain-termination method reads out a DNA molecule's exact base sequence by synthesising many copies of it that each stop at a different, chemically marked position, then sorting the resulting fragments by size to read the sequence off directly. It was the dominant DNA sequencing technology for three decades and did the bulk of the sequencing for the Human Genome Project.",
           "note": "Sanger, F., Nicklen, S., Coulson, A.R. (1977). 'DNA sequencing with chain-terminating inhibitors.' Proceedings of the National Academy of Sciences, 74(12), 5463–5467. Sanger's second Nobel Prize (1980) — his first, in 1958, was for sequencing the amino acids of insulin, making him one of only a handful of scientists to win two Nobel Prizes. Largely superseded since the 2000s by faster, cheaper next-generation sequencing methods for large-scale work, though still used for smaller, high-accuracy sequencing tasks.",
-          "links": []
+          "links": [],
+          "keywords": [
+            "sanger chain termination",
+            "dna sequencing method",
+            "dideoxy sequencing technique",
+            "human genome project sequencing"
+          ]
         },
         {
           "id": "me3",
@@ -919,6 +1165,12 @@
           "note": "Smith, H.O., Wilcox, K.W. (1970). 'A restriction enzyme from Hemophilus influenzae. I. Purification and general properties.' Journal of Molecular Biology, 51(2), 379–391. Smith shared the 1978 Nobel Prize with Daniel Nathans and Werner Arber. This enzymatic toolkit is precisely what Cohen and Boyer used three years later to build the first recombinant DNA molecule (see st7).",
           "links": [
             "st7"
+          ],
+          "keywords": [
+            "restriction enzyme cloning",
+            "molecular scissors dna",
+            "smith wilcox restriction enzyme",
+            "sequence-specific dna cutting"
           ]
         },
         {
@@ -934,7 +1186,13 @@
           "tag": "METHOD",
           "hint": "After separating a mixture of proteins by size on a gel, transferring them onto a membrane and probing with an antibody specific to one target protein lets a researcher detect and roughly quantify that single protein out of thousands of others — turning gel electrophoresis, which only sorts by size, into a specific identification tool.",
           "note": "Towbin, H., Staehelin, T., Gordon, J. (1979). 'Electrophoretic transfer of proteins from polyacrylamide gels to nitrocellulose sheets: procedure and some applications.' Proceedings of the National Academy of Sciences, 76(9), 4350–4354. The name \"Western\" blot is a joking extension of the earlier \"Southern\" blot (for DNA, named after its inventor Edwin Southern) — a naming convention that continued with \"Northern\" blots for RNA.",
-          "links": []
+          "links": [],
+          "keywords": [
+            "western blotting technique",
+            "protein transfer membrane",
+            "antibody protein detection",
+            "towbin blot method"
+          ]
         },
         {
           "id": "me5",
@@ -951,6 +1209,12 @@
           "note": "Perutz, M.F. (1956). 'Isomorphous Replacement and Phase Determination in Non-Centrosymmetric Space Groups.' Acta Crystallographica, 9(11), 867–873. Made Kendrew's first complete protein structure two years later possible (see co7); X-ray crystallography remained the dominant method for determining protein structures for over sixty years, until cryo-electron microscopy became competitive in the 2010s.",
           "links": [
             "co7"
+          ],
+          "keywords": [
+            "isomorphous replacement phasing",
+            "perutz heavy atom method",
+            "protein crystal diffraction",
+            "x-ray structure determination"
           ]
         },
         {
@@ -966,7 +1230,13 @@
           "tag": "METHOD",
           "hint": "Instead of waiting for a random mutation to land in a gene of interest, this technique lets a researcher change one specific, chosen DNA base (or small set of bases) on purpose, then observe exactly what that precise change does to the resulting protein's function. It turned genetics from an observational science, limited to studying mutations nature happened to provide, into an experimental one that could ask precisely targeted \"what if\" questions.",
           "note": "Hutchison, C.A., Phillips, S., Edgell, M.H., Gillam, S., Jahnke, P., Smith, M. (1978). 'Mutagenesis at a specific position in a DNA sequence.' Journal of Biological Chemistry, 253(18), 6551–6560. Michael Smith shared the 1993 Nobel Prize with Kary Mullis. Still routinely used today, though CRISPR-based methods (see me7) now offer an alternative route to introducing precise changes directly in living cells rather than in vitro.",
-          "links": []
+          "links": [],
+          "keywords": [
+            "site-directed mutagenesis",
+            "targeted dna base change",
+            "michael smith mutagenesis",
+            "precise gene modification technique"
+          ]
         },
         {
           "id": "me7",
@@ -983,6 +1253,12 @@
           "note": "Cong, L., Ran, F.A., Cox, D., Lin, S., Barretto, R., Habib, N., Hsu, P.D., Wu, X., Jiang, W., Marraffini, L.A., Zhang, F. (2013). 'Multiplex Genome Engineering Using CRISPR/Cas Systems.' Science, 339(6121), 819–823. Feng Zhang's demonstration, published within months of Doudna and Charpentier's founding biochemical paper, was part of a fiercely contested patent dispute over who owns the rights to CRISPR gene editing in eukaryotic cells specifically (see db3).",
           "links": [
             "st10"
+          ],
+          "keywords": [
+            "crispr editing mammalian cells",
+            "feng zhang genome engineering",
+            "multiplex genome editing",
+            "crispr eukaryotic application"
           ]
         }
       ]
@@ -1012,6 +1288,12 @@
           "links": [
             "st1",
             "db1"
+          ],
+          "keywords": [
+            "watson crick double helix",
+            "dna structure pioneers",
+            "cavendish laboratory 1953",
+            "nature paper dna model"
           ]
         },
         {
@@ -1029,6 +1311,12 @@
           "note": "Franklin's own X-ray work was published alongside Watson and Crick's 1953 Nature paper, in a supporting but visibly secondary role. She died of ovarian cancer in 1958, four years before the Nobel Prize for the DNA structure was awarded to Watson, Crick, and Wilkins; the fairness of her uncredited role remains a genuinely live historical and ethical debate (see db1), not a settled matter of simple record-correction.",
           "links": [
             "db1"
+          ],
+          "keywords": [
+            "rosalind franklin photo 51",
+            "x-ray diffraction dna",
+            "king's college london dna",
+            "franklin credit controversy"
           ]
         },
         {
@@ -1046,6 +1334,12 @@
           "note": "Avery, MacLeod, McCarty (1944), see st4. Avery never received a Nobel Prize for this work, despite it now being widely regarded by historians of science as a clear and consequential oversight — he died in 1955, and the prize is never awarded posthumously.",
           "links": [
             "st4"
+          ],
+          "keywords": [
+            "oswald avery transformation",
+            "dna hereditary material pioneer",
+            "rockefeller institute avery",
+            "avery unrecognized nobel"
           ]
         },
         {
@@ -1063,6 +1357,12 @@
           "note": "Hershey, A.D., Chase, M. (1952), see st2. Hershey shared the 1969 Nobel Prize; Martha Chase, who ran much of the experimental work as his research assistant, did not share the award — a recognition gap that has drawn increasing historical attention as the norms around crediting research staff have shifted.",
           "links": [
             "st2"
+          ],
+          "keywords": [
+            "hershey chase blender",
+            "cold spring harbor phage",
+            "martha chase recognition gap",
+            "bacteriophage dna injection"
           ]
         },
         {
@@ -1080,6 +1380,12 @@
           "note": "Nirenberg, M.W., Matthaei, J.H. (1961), see st5. Shared the 1968 Nobel Prize with Khorana and Robert Holley. Later in his career, Nirenberg shifted almost entirely to neuroscience research, a less publicly known second act to his molecular biology fame.",
           "links": [
             "st5"
+          ],
+          "keywords": [
+            "nirenberg genetic code pioneer",
+            "nih codon decipherment",
+            "poly-u experiment",
+            "genetic code completion"
           ]
         },
         {
@@ -1097,6 +1403,12 @@
           "note": "Kornberg, Lehman, Bessman, Simms (1956), see st6. Shared the 1959 Nobel Prize. His son, Roger Kornberg, independently discovered the structure of chromatin's basic repeating unit in 1974 (see co2) and won his own, unrelated Nobel Prize in 2006 for work on RNA polymerase and transcription — a rare father-son pair of laureates in molecular biology.",
           "links": [
             "st6"
+          ],
+          "keywords": [
+            "arthur kornberg polymerase",
+            "kornberg father son nobel",
+            "washington university enzymology",
+            "dna synthesis enzyme pioneer"
           ]
         },
         {
@@ -1112,7 +1424,13 @@
           "tag": "FIGURE",
           "hint": "Discovered that some genes in maize aren't fixed in place on a chromosome at all — they can physically jump to new locations, disrupting or activating other genes wherever they land. \"Jumping genes\" (transposons) were so far outside the accepted genetics of the time that her findings were met largely with confusion or polite disinterest for over two decades, until molecular techniques confirmed transposons are a widespread, fundamental feature of genomes.",
           "note": "McClintock, B. (1950). 'The origin and behavior of mutable loci in maize.' Proceedings of the National Academy of Sciences, 36(6), 344–355. Awarded the entire 1983 Nobel Prize alone, without sharing it — one of the few undivided Nobel Prizes in physiology or medicine, and widely cited as one of the most dramatic cases of long-delayed scientific vindication.",
-          "links": []
+          "links": [],
+          "keywords": [
+            "mcclintock transposons maize",
+            "jumping genes discovery",
+            "undivided nobel prize 1983",
+            "long-delayed scientific recognition"
+          ]
         },
         {
           "id": "fg8",
@@ -1129,6 +1447,12 @@
           "note": "Saiki, Scharf, Faloona, Mullis, et al. (1985), see st8. Shared the 1993 Nobel Prize in Chemistry. Mullis's later public advocacy of AIDS denialism and other claims well outside scientific consensus is a genuinely uncomfortable but well-documented part of his biography, unrelated to the technical validity of PCR itself.",
           "links": [
             "st8"
+          ],
+          "keywords": [
+            "kary mullis pcr inventor",
+            "cetus corporation scientist",
+            "pcr nobel controversial figure",
+            "aids denialism controversy"
           ]
         },
         {
@@ -1146,6 +1470,12 @@
           "note": "Jinek, Chylinski, Fonfara, Hauer, Doudna, Charpentier (2012), see st10. Shared the 2020 Nobel Prize in Chemistry — the first Nobel science prize awarded to a team of two women. A separate, contentious patent dispute over CRISPR's use in eukaryotic cells specifically ran for years between Doudna/Charpentier's institutions and Feng Zhang's (see me7, db3).",
           "links": [
             "st10"
+          ],
+          "keywords": [
+            "doudna charpentier nobel",
+            "crispr gene editing pioneers",
+            "first all-female science nobel",
+            "berkeley crispr discovery"
           ]
         },
         {
@@ -1163,6 +1493,12 @@
           "note": "Greider, Blackburn (1985), see st11, building on earlier genetic work with Szostak in 1982. Shared the 2009 Nobel Prize; Greider made the core discovery as a graduate student in Blackburn's lab, one of several Nobel-winning discoveries in this folio credited substantially to a junior researcher's hands-on work (see also fg4).",
           "links": [
             "st11"
+          ],
+          "keywords": [
+            "blackburn greider szostak",
+            "telomerase discovery trio",
+            "graduate student nobel discovery",
+            "berkeley telomere research"
           ]
         },
         {
@@ -1180,6 +1516,12 @@
           "note": "Sanger, Nicklen, Coulson (1977), see me2. His 1958 Nobel Prize was for protein sequencing (insulin); his 1980 Nobel Prize, shared with Walter Gilbert and Paul Berg, was for DNA sequencing — making him one of only a handful of people to win two Nobel Prizes, and the only one to win both in chemistry for two unrelated achievements.",
           "links": [
             "th8"
+          ],
+          "keywords": [
+            "frederick sanger double nobel",
+            "insulin sequencing dna sequencing",
+            "mrc cambridge sanger",
+            "two-time nobel laureate"
           ]
         },
         {
@@ -1197,6 +1539,12 @@
           "note": "Margulis (as L. Sagan), 1967, see th5. Endosymbiotic theory is now overwhelmingly confirmed and considered one of the more dramatic vindications of a once-marginal idea in modern biology. Later in her career, Margulis also promoted more contested and largely unaccepted positions, including public skepticism of the HIV-AIDS causal link — a caveat worth naming directly given how central Koch's-postulates-style causal reasoning about HIV appears elsewhere in this atlas (see pathology-immunology::st8).",
           "links": [
             "th5"
+          ],
+          "keywords": [
+            "lynn margulis endosymbiosis",
+            "rejected fifteen journals",
+            "boston university margulis",
+            "margulis hiv skepticism controversy"
           ]
         }
       ]
@@ -1227,6 +1575,12 @@
             "st1",
             "fg1",
             "fg2"
+          ],
+          "keywords": [
+            "franklin credit revision 2023",
+            "double helix data controversy",
+            "cobb comfort nature reassessment",
+            "franklin collaboration reinterpretation"
           ]
         },
         {
@@ -1242,7 +1596,13 @@
           "tag": "DEBATE",
           "hint": "The ENCODE consortium's headline 2012 claim — that roughly 80% of the human genome shows some form of \"biochemical activity\" and is therefore \"functional\" — was seized on as overturning the older idea that most of the genome is evolutionarily inert \"junk.\" Evolutionary biologists pushed back hard, arguing ENCODE's definition of \"function\" (any detectable biochemical activity at all) was far too loose, and that most of the genome shows no evidence of the kind of evolutionary conservation real function would produce.",
           "note": "ENCODE claim: The ENCODE Project Consortium (2012). 'An integrated encyclopedia of DNA elements in the human genome.' Nature, 489(7414), 57–74. Sharp critical response: Graur, D., Zheng, Y., Price, N., Azevedo, R.B.R., Zufall, R.A., Elhaik, E. (2013). 'On the immortality of television sets: \"function\" in the human genome according to the evolution-free gospel of ENCODE.' Genome Biology and Evolution, 5(3), 578–590. Most genome biologists now treat a middle position as likeliest — meaningfully more of the genome is functional than the old \"98% junk\" estimate, but well short of ENCODE's 80% headline figure.",
-          "links": []
+          "links": [],
+          "keywords": [
+            "junk dna encode debate",
+            "genome function controversy",
+            "graur encode criticism",
+            "biochemical activity vs function"
+          ]
         },
         {
           "id": "db3",
@@ -1259,6 +1619,12 @@
           "note": "Cyranoski, D. (2018). 'CRISPR-baby scientist fails to satisfy critics.' Nature, 564(7734), 13–14. He was sentenced to three years in prison in China for illegal medical practice. The case forced a sharper distinction the field had previously left vague: most researchers support continued CRISPR use in adult, non-heritable (somatic) cells (see ap1), while treating heritable germline editing as requiring a far higher, largely unmet bar of safety, consensus, and oversight.",
           "links": [
             "st10"
+          ],
+          "keywords": [
+            "he jiankui scandal",
+            "crispr baby controversy",
+            "germline editing ethics debate",
+            "gene-edited human embryos"
           ]
         },
         {
@@ -1274,7 +1640,13 @@
           "tag": "DEBATE",
           "hint": "The scientific consensus, reviewed repeatedly by major national science bodies, has consistently found no evidence that genetically modified crops on the market pose greater health risks than conventionally bred ones. Public opinion and regulation haven't followed the consensus uniformly — the EU maintains substantially stricter GMO regulations than the US, and public skepticism remains high in many countries, making this a case where the scientific and political debates have significantly diverged.",
           "note": "National Academies of Sciences, Engineering, and Medicine (2016). Genetically Engineered Crops: Experiences and Prospects. Washington, DC: The National Academies Press — a comprehensive review of decades of safety data finding no substantiated evidence of harm from GM foods currently on the market. Legitimate, separate debates remain about corporate control of the seed supply, herbicide-resistant crop ecology, and labelling policy — these are economic and regulatory questions, not food-safety ones, and are often conflated with the safety debate in public discussion.",
-          "links": []
+          "links": [],
+          "keywords": [
+            "gmo crop safety debate",
+            "genetically modified food controversy",
+            "eu us regulatory divergence",
+            "national academies gmo review"
+          ]
         },
         {
           "id": "db5",
@@ -1289,7 +1661,13 @@
           "tag": "DEBATE",
           "hint": "Myriad Genetics held patents on the BRCA1 and BRCA2 genes, giving it a monopoly on genetic testing for hereditary breast and ovarian cancer risk and blocking other labs from offering competing or confirmatory tests. The US Supreme Court ruled unanimously that a naturally occurring DNA sequence, simply isolated from the body, cannot be patented — but left the door open for synthetically created complementary DNA (cDNA), a distinction that continues to shape biotech patent strategy.",
           "note": "Association for Molecular Pathology v. Myriad Genetics, Inc., 569 U.S. 576 (2013). The ruling was widely seen as a win for patient access and research freedom, dramatically lowering the cost of BRCA testing within months; industry groups argued it would reduce the financial incentive to invest in discovering new gene-disease links in the first place, a genuine trade-off the ruling didn't resolve.",
-          "links": []
+          "links": [],
+          "keywords": [
+            "myriad genetics supreme court",
+            "brca gene patent case",
+            "naturally occurring dna patent",
+            "gene patentability ruling"
+          ]
         },
         {
           "id": "db6",
@@ -1304,7 +1682,13 @@
           "tag": "DEBATE",
           "hint": "Classical genetics assumes a firm barrier between an organism's life experience and what it passes to its offspring — only DNA sequence itself is inherited, not epigenetic marks acquired along the way. A mouse study reporting that a learned fear response to a specific smell was passed to offspring, seemingly via epigenetic marks on sperm, reignited a genuinely unresolved question: does at least some transgenerational epigenetic inheritance really happen in mammals, or do these striking results reflect subtler experimental confounds?",
           "note": "Reported effect: Dias, B.G., Ressler, K.J. (2014). 'Parental olfactory experience influences behavior and neural structure in subsequent generations.' Nature Neuroscience, 17(1), 89–96. Cautious counter-view: Heard, E., Martienssen, R.A. (2014). 'Transgenerational Epigenetic Inheritance: Myths and Mechanisms.' Cell, 157(1), 95–109, arguing the mechanisms for reliably transmitting epigenetic marks across generations in mammals remain poorly established and the strongest evidence so far comes from plants and simple animals, not mammals.",
-          "links": []
+          "links": [],
+          "keywords": [
+            "transgenerational epigenetic inheritance",
+            "weismann barrier debate",
+            "dias ressler mouse study",
+            "acquired trait inheritance controversy"
+          ]
         },
         {
           "id": "db7",
@@ -1321,6 +1705,12 @@
           "note": "Persistent dissenting view: Manuelidis, L. (2007). 'A 25 nm virion is the likely cause of transmissible spongiform encephalopathies.' Journal of Cellular Biochemistry, 100(4), 897–915. The weight of evidence has continued to favour the prion hypothesis (see th7) since, but the episode is a genuinely useful case study in distinguishing well-founded scientific caution from simple resistance to a paradigm shift — the two can look identical from the inside while a claim is still being tested.",
           "links": [
             "th7"
+          ],
+          "keywords": [
+            "prion hypothesis skepticism",
+            "manuelidis virus alternative",
+            "extraordinary claims scientific caution",
+            "slow virus hypothesis dissent"
           ]
         },
         {
@@ -1338,6 +1728,12 @@
           "note": "Frozen accident: Crick, F.H.C. (1968). 'The origin of the genetic code.' Journal of Molecular Biology, 38(3), 367–379. Error-minimisation evidence: Freeland, S.J., Hurst, L.D. (1998). 'The genetic code is one in a million.' Journal of Molecular Biology, 47(3), 238–248. The two positions aren't fully exclusive — a code could have been selected for error tolerance early on and then frozen once selection later disfavoured any further change — but which force did more of the actual shaping remains genuinely debated.",
           "links": [
             "co1"
+          ],
+          "keywords": [
+            "frozen accident genetic code",
+            "error minimization code hypothesis",
+            "freeland hurst code optimization",
+            "crick code origin debate"
           ]
         }
       ]
@@ -1366,6 +1762,12 @@
           "note": "Frangoul, H., Altshuler, D., Cappellini, M.D., et al. (2021). 'CRISPR-Cas9 Gene Editing for Sickle Cell Disease and β-Thalassemia.' New England Journal of Medicine, 384(3), 252–260 — the pivotal trial behind exagamglogene autotemcel (Casgevy), approved in 2023. This is somatic (non-heritable) editing of a patient's own cells, not the heritable germline editing at the centre of db3's controversy.",
           "links": [
             "st10"
+          ],
+          "keywords": [
+            "crispr gene therapy approval",
+            "casgevy sickle cell treatment",
+            "exagamglogene autotemcel",
+            "crispr clinical therapeutic"
           ]
         },
         {
@@ -1383,6 +1785,12 @@
           "note": "Goeddel, D.V., Kleid, D.G., Bolivar, F., et al. (1979). 'Expression in Escherichia coli of chemically synthesized genes for human insulin.' Proceedings of the National Academy of Sciences, 76(1), 106–110 — the technical foundation behind Humulin's 1982 FDA approval, Genentech's founding commercial triumph. Directly built on the recombinant DNA technique established in st7 and the cloning method in me3.",
           "links": [
             "st7"
+          ],
+          "keywords": [
+            "recombinant insulin humulin",
+            "genentech insulin production",
+            "first recombinant dna drug",
+            "bacterial insulin manufacturing"
           ]
         },
         {
@@ -1398,7 +1806,13 @@
           "tag": "APPLICATION",
           "hint": "Certain highly variable regions of the genome differ enough between unrelated individuals, while still being inherited in predictable patterns, that they can identify a specific person or establish a biological relationship almost as reliably as an actual fingerprint. Alec Jeffreys developed the technique somewhat by accident while studying inherited genetic variation, then immediately recognised its forensic and legal potential.",
           "note": "Jeffreys, A.J., Wilson, V., Thein, S.L. (1985). 'Individual-specific \"fingerprints\" of human DNA.' Nature, 316(6023), 76–79. First used forensically in 1986 to both convict a real culprit and exonerate a wrongly suspected man in the Colin Pitchfork murder case — the first criminal conviction secured using DNA evidence anywhere in the world, and the technique remains central to modern forensic science and paternity testing.",
-          "links": []
+          "links": [],
+          "keywords": [
+            "dna fingerprinting forensic",
+            "jeffreys genetic identification",
+            "colin pitchfork case",
+            "paternity forensic genetics"
+          ]
         },
         {
           "id": "ap4",
@@ -1416,6 +1830,12 @@
           "links": [],
           "xlinks": [
             "pathology-immunology::db8"
+          ],
+          "keywords": [
+            "genome sequencing precision medicine",
+            "human genome project legacy",
+            "tumor mutation matched therapy",
+            "clinical genomic testing"
           ]
         },
         {
@@ -1431,7 +1851,13 @@
           "tag": "APPLICATION",
           "hint": "Inserting a bacterial gene into corn or cotton so the plant produces its own natural insect-killing protein (Bt crops), or engineering rice to synthesise a vitamin A precursor it doesn't normally make (Golden Rice), turned the same recombinant DNA toolkit developed for basic research and medicine into a way of directly altering food crop traits — reducing pesticide use in some cases, or targeting nutritional deficiencies in others.",
           "note": "The first commercially approved genetically engineered food crop, the Flavr Savr tomato, reached market in 1994; Bt cotton and corn followed shortly after and now account for the majority of US corn and cotton acreage. See db4 for the persistent gap between the strong scientific safety consensus on approved GM crops and continued public and regulatory controversy.",
-          "links": []
+          "links": [],
+          "keywords": [
+            "genetically modified crops",
+            "bt corn golden rice",
+            "flavr savr tomato",
+            "engineered crop trait"
+          ]
         },
         {
           "id": "ap6",
@@ -1446,7 +1872,13 @@
           "tag": "CLINICAL APPLICATION",
           "hint": "A disabled, harmless virus can be repurposed as a precise delivery vehicle, carrying a corrected copy of a faulty gene directly into a patient's cells — for one inherited form of blindness, a single injection into the eye restored enough vision for patients to navigate an obstacle course in dim light they couldn't complete before treatment. It's gene therapy in the most literal sense: not editing the patient's existing DNA, but supplying a working copy alongside it.",
           "note": "Russell, S., Bennett, J., Wellman, J.A., et al. (2017). 'Efficacy and safety of voretigene neparvovec (AAV2-hRPE65v2) in patients with RPE65-mediated inherited retinal dystrophy: a randomised, controlled, open-label, phase 3 trial.' The Lancet, 390(10097), 849–860 — the pivotal trial behind Luxturna's 2017 FDA approval, one of the first gene therapies approved for an inherited disease in the United States.",
-          "links": []
+          "links": [],
+          "keywords": [
+            "viral vector gene therapy",
+            "luxturna retinal gene therapy",
+            "aav gene delivery",
+            "inherited blindness treatment"
+          ]
         },
         {
           "id": "ap7",
@@ -1461,7 +1893,13 @@
           "tag": "APPLICATION",
           "hint": "Transferring the nucleus from an adult body cell into an egg cell that has had its own nucleus removed can reset that adult cell's genome back to an embryonic state, capable of directing the development of an entire new organism — proof that a fully specialised adult cell still retains a complete, usable genome rather than having permanently discarded the genes it no longer needs. Dolly the sheep, the first mammal cloned this way from an adult cell, became one of the most recognisable scientific achievements of the twentieth century.",
           "note": "Wilmut, I., Schnieke, A.E., McWhir, J., Kind, A.J., Campbell, K.H.S. (1997). 'Viable offspring derived from fetal and adult mammalian cells.' Nature, 385(6619), 810–813. Dolly was euthanised in 2003 with lung disease and arthritis somewhat earlier than typical for her breed, prompting lasting (and only partially resolved) questions about whether cloned animals age prematurely; the technique is now mainly used in livestock breeding and endangered species conservation rather than any pursuit of human reproductive cloning, which remains illegal in most countries.",
-          "links": []
+          "links": [],
+          "keywords": [
+            "somatic cell nuclear transfer",
+            "dolly the sheep cloning",
+            "adult cell genome reset",
+            "wilmut roslin institute cloning"
+          ]
         }
       ]
     }
