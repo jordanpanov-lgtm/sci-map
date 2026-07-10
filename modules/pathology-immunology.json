@@ -1038,7 +1038,141 @@
       "accent": "#CA6F1E",
       "bg": "#FDF5EC",
       "subtitle": "Live controversies — where the field is actively contesting the evidence",
-      "entries": []
+      "entries": [
+        {
+          "id": "db1",
+          "group": "Neoplasia & Cancer Biology",
+          "label": "Is the Warburg Effect a Cause or a Consequence of Cancer?",
+          "date": "2010",
+          "loc": "Chestnut Hill, Massachusetts",
+          "coords": [
+            42.34,
+            -71.17
+          ],
+          "tag": "DEBATE",
+          "hint": "Warburg himself argued that damaged cellular respiration causes cancer, with aerobic glycolysis as the visible symptom. The mainstream modern view inverts this entirely: oncogene activation (MYC, PI3K/AKT, HIF-1) drives the metabolic switch, making it a consequence and enabler of malignancy, not its root cause. A minority of researchers still argue metabolism itself can be the primary driver in at least some cancers — a live, unresolved argument about where in the causal chain metabolic reprogramming actually sits.",
+          "note": "Mainstream consequence view: DeBerardinis, R.J., Chandel, N.S. (2016). 'Fundamentals of cancer metabolism.' Science Advances, 2(5), e1600200. Minority metabolism-as-driver view: Seyfried, T.N., Shelton, L.M. (2010). 'Cancer as a metabolic disease.' Nutrition & Metabolism, 7, 7 — a real, peer-reviewed but distinctly minority position within cancer biology, not broadly accepted as the primary causal mechanism but a genuine ongoing point of contention rather than settled consensus.",
+          "links": [
+            "ef1",
+            "st4",
+            "th5"
+          ]
+        },
+        {
+          "id": "db2",
+          "group": "Cell Injury & Inflammation",
+          "label": "Henrietta Lacks and the Ethics of the HeLa Cell Line",
+          "date": "2013",
+          "loc": "Bethesda, Maryland",
+          "coords": [
+            38.99,
+            -77.1
+          ],
+          "tag": "DISPUTE",
+          "hint": "HeLa cells were taken from Henrietta Lacks's cervical tumour in 1951 without her knowledge or consent — standard, unremarkable practice under the research norms of the time, but a case that looks starkly different by modern research-ethics standards. Her genome sequence was published without family input as recently as 2013, prompting public objection and forcing a real institutional reckoning about consent, privacy, and who benefits from research built on someone else's tissue.",
+          "note": "Skloot, R. (2010). The Immortal Life of Henrietta Lacks. New York: Crown Publishers — the book that brought the case to wide public attention. Partial resolution: Hudson, K.L., Collins, F.S. (2013). 'Family Matters — On the Importance of Considering the Family in Research.' New England Journal of Medicine, 369(19), 1780–1781, announcing a 2013 NIH agreement giving the Lacks family a voice in HeLa genome data access — not full retrospective consent or compensation, which remain genuinely contested questions.",
+          "links": [
+            "st5"
+          ]
+        },
+        {
+          "id": "db3",
+          "group": "Autoimmunity & Hypersensitivity",
+          "label": "What Actually Drives the Hygiene Hypothesis?",
+          "date": "2010",
+          "loc": "London, United Kingdom",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "REVISION",
+          "hint": "Strachan's original 1989 framing blamed fewer childhood infections for rising allergic disease. That specific claim hasn't held up well — infections themselves can worsen allergic and autoimmune conditions rather than prevent them. The strongest current evidence instead points to reduced exposure to harmless environmental and commensal microbes shaping immune development, a meaningfully different mechanism now known as the \"old friends\" hypothesis.",
+          "note": "Original framing: Strachan, D.P. (1989), see th8. Revised framing: Rook, G.A.W. (2010). 'Hygiene Hypothesis and Autoimmune Diseases.' Clinical Reviews in Allergy & Immunology, 42(1), 5–15, arguing exposure to specific co-evolved microbial and parasitic organisms, not infections generally, calibrates regulatory immune pathways. The public-facing \"hygiene hypothesis\" label persists even though the mechanism it now describes is substantially different from Strachan's original claim.",
+          "links": [
+            "th8"
+          ]
+        },
+        {
+          "id": "db4",
+          "group": "Neoplasia & Cancer Biology",
+          "label": "Does Screening Reduce Cancer Deaths, or Just Find More Cancer?",
+          "date": "2010",
+          "loc": "Hanover, New Hampshire",
+          "coords": [
+            43.7,
+            -72.29
+          ],
+          "tag": "DEBATE",
+          "hint": "Randomised screening trials show real mortality reductions for some cancers, which is the entire justification for population screening programmes. Critics argue those benefits are partly an illusion of lead-time bias (finding a cancer earlier doesn't always mean living longer, just knowing longer) and overdiagnosis (detecting slow-growing tumours that would never have caused harm, then treating them anyway). Both effects are real; the argument is over how much of the apparent benefit each explains.",
+          "note": "Critical position: Welch, H.G., Black, W.C. (2010). 'Overdiagnosis in Cancer.' Journal of the National Cancer Institute, 102(9), 605–613. Balanced trial evidence: Independent UK Panel on Breast Cancer Screening (2012). 'The benefits and harms of breast cancer screening: an independent review.' The Lancet, 380(9855), 1778–1786 — which found a genuine net mortality benefit from mammography while explicitly acknowledging substantial overdiagnosis, illustrating that both sides of this debate are drawing on the same underlying data, not disputing the facts so much as how to weigh them.",
+          "links": []
+        },
+        {
+          "id": "db5",
+          "group": "Cell Injury & Inflammation",
+          "label": "Is Chronic Inflammation a Cause or a Consequence of Metabolic Disease?",
+          "date": "2017",
+          "loc": "Boston, Massachusetts",
+          "coords": [
+            42.36,
+            -71.06
+          ],
+          "tag": "DEBATE",
+          "hint": "The traditional view treats inflammation in conditions like atherosclerosis and type 2 diabetes as a downstream response to lipid and metabolic dysfunction. A major clinical trial complicated that picture: blocking a single inflammatory cytokine reduced cardiovascular events in patients whose cholesterol was already well controlled, meaning inflammation was doing causal work of its own, not just reacting to underlying lipid disease.",
+          "note": "Ridker, P.M., Everett, B.M., Thuren, T., et al. (2017). 'Antiinflammatory Therapy with Canakinumab for Atherosclerotic Disease.' New England Journal of Medicine, 377(12), 1119–1131 (the CANTOS trial). The result reopened rather than settled the causal question — canakinumab's benefit was real but modest, and it remains debated how much of cardiometabolic disease is inflammation-driven versus lipid-driven, or whether the two are too intertwined to cleanly separate.",
+          "links": []
+        },
+        {
+          "id": "db6",
+          "group": "Immunodeficiency & Immunotherapy",
+          "label": "Can Cell Therapy Ever Work Against Solid Tumours?",
+          "date": "2019",
+          "loc": "Philadelphia, Pennsylvania",
+          "coords": [
+            39.95,
+            -75.16
+          ],
+          "tag": "DEBATE",
+          "hint": "CAR-T therapy transformed treatment of blood cancers, where the target cells circulate freely and are easy for engineered T cells to reach. Solid tumours are a much harder problem: a dense, immunosuppressive tumour microenvironment blocks T-cell infiltration, exhausts the T cells that do get in, and the tumours themselves are more molecularly heterogeneous, so a single target antigen rarely covers the whole tumour. Whether these are solvable engineering problems or a fundamental ceiling on the approach is genuinely unresolved.",
+          "note": "Martinez, M., Moon, E.K. (2019). 'CAR T Cells for Solid Tumors: New Strategies for Finding, Infiltrating, and Surviving in the Tumor Microenvironment.' Frontiers in Immunology, 10, 128. Early solid-tumour trials (e.g. mesothelin- and GD2-targeted CAR-T) have shown encouraging but so far far more modest and less durable responses than the blood-cancer results (see st10); optimists point to rapid engineering progress, sceptics to the structural mismatch between the therapy and the target.",
+          "links": [
+            "st10",
+            "ef5"
+          ]
+        },
+        {
+          "id": "db7",
+          "group": "Infectious Disease & Host-Pathogen Interaction",
+          "label": "The Autism-Vaccine Myth",
+          "date": "1998",
+          "loc": "London, United Kingdom",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "REVISION",
+          "hint": "A single 1998 paper claiming a link between the MMR vaccine and autism triggered a lasting drop in vaccination rates and multiple subsequent measles outbreaks — despite the paper being retracted, its lead author being struck off the UK medical register for data manipulation and undisclosed financial conflicts of interest, and every large, well-designed follow-up study since finding no association whatsoever between vaccination and autism.",
+          "note": "Original (retracted) claim: Wakefield, A.J., et al. (1998). 'Ileal-lymphoid-nodular hyperplasia, non-specific colitis, and pervasive developmental disorder in children.' The Lancet, 351(9103), 637–641 — retracted in full by The Lancet in 2010. Definitive rebuttal: Taylor, L.E., Swerdfeger, A.L., Eslick, G.D. (2014). 'Vaccines are not associated with autism: An evidence-based meta-analysis of case-control and cohort studies.' Vaccine, 32(29), 3623–3629, covering over 1.2 million children. Not a live scientific dispute — the science is settled — but a live public-health problem, since the myth continues to suppress vaccination uptake decades after being thoroughly debunked.",
+          "links": [
+            "ef7"
+          ]
+        },
+        {
+          "id": "db8",
+          "group": "Neoplasia & Cancer Biology",
+          "label": "Has Precision Oncology Delivered on Its Promise?",
+          "date": "2016",
+          "loc": "Portland, Oregon",
+          "coords": [
+            45.52,
+            -122.68
+          ],
+          "tag": "DEBATE",
+          "hint": "Matching a drug to a tumour's specific genomic mutations has produced some genuine triumphs — imatinib for BCR-ABL-driven leukaemia turned a fatal disease into a manageable chronic condition. Critics argue those wins are the exception: for most solid tumours, \"basket trials\" that match patients to targeted drugs by mutation alone, regardless of cancer type, have shown disappointingly low response rates, and the promise of genomic medicine has outpaced what tumour biology has actually delivered for the average patient.",
+          "note": "Critical position: Prasad, V. (2016). 'Perspective: The precision-oncology illusion.' Nature, 537(7619), S63. The genuine successes (imatinib, EGFR-targeted lung cancer therapy, and others) are not in dispute; the argument is over how representative those successes are of precision oncology's overall track record, and whether the field's rhetoric has run ahead of its results for the majority of patients.",
+          "links": []
+        }
+      ]
     },
     {
       "id": "application",
@@ -1048,7 +1182,127 @@
       "accent": "#2E86C1",
       "bg": "#EBF5FB",
       "subtitle": "Where the science leaves the lab",
-      "entries": []
+      "entries": [
+        {
+          "id": "ap1",
+          "group": "Immunodeficiency & Immunotherapy",
+          "label": "CAR-T Cell Therapy",
+          "date": "2017",
+          "loc": "Philadelphia, Pennsylvania",
+          "coords": [
+            39.95,
+            -75.16
+          ],
+          "tag": "CLINICAL APPLICATION",
+          "hint": "Patients with relapsed, chemotherapy-resistant B-cell leukaemia or lymphoma can have their own T cells removed, genetically engineered to target their specific cancer, and reinfused — turning a normally fatal relapse into a treatable, sometimes curable condition. The therapy is expensive, resource-intensive to manufacture individually for each patient, and carries real toxicity risks (cytokine release syndrome), but represents a genuinely new treatment modality rather than a refinement of chemotherapy.",
+          "note": "Maude, S.L., Laetsch, T.W., Buechner, J., et al. (2018). 'Tisagenlecleucel in Children and Young Adults with B-Cell Lymphoblastic Leukemia.' New England Journal of Medicine, 378(5), 439–448 — the pivotal trial behind tisagenlecleucel's 2017 FDA approval (see st10 for the founding case report). Now approved for several blood cancer types; manufacturing cost and access remain significant real-world barriers.",
+          "links": [
+            "st10"
+          ]
+        },
+        {
+          "id": "ap2",
+          "group": "Immunodeficiency & Immunotherapy",
+          "label": "Checkpoint Inhibitor Immunotherapy",
+          "date": "2011",
+          "loc": "Boston, Massachusetts",
+          "coords": [
+            42.36,
+            -71.06
+          ],
+          "tag": "CLINICAL APPLICATION",
+          "hint": "Drugs that block CTLA-4 or PD-1/PD-L1 release a brake the tumour was using to hide from the immune system, letting a patient's own T cells attack their cancer — durable, sometimes years-long remissions in a subset of patients with cancers that were previously almost uniformly fatal at an advanced stage. The catch is that most patients don't respond, and reliably predicting who will remains an unsolved clinical problem.",
+          "note": "Hodi, F.S., O'Day, S.J., McDermott, D.F., et al. (2010). 'Improved Survival with Ipilimumab in Patients with Metastatic Melanoma.' New England Journal of Medicine, 363(8), 711–723 — the pivotal trial behind ipilimumab's 2011 FDA approval (see fg10, fg11 for the underlying basic-science discoveries). Checkpoint inhibitors are now standard therapy across dozens of cancer types, though response rates vary enormously by tumour type.",
+          "links": [
+            "fg10",
+            "fg11",
+            "ef5"
+          ]
+        },
+        {
+          "id": "ap3",
+          "group": "Infectious Disease & Host-Pathogen Interaction",
+          "label": "mRNA Vaccines",
+          "date": "2020",
+          "loc": "Philadelphia, Pennsylvania",
+          "coords": [
+            39.95,
+            -75.16
+          ],
+          "tag": "CLINICAL APPLICATION",
+          "hint": "Instead of injecting a weakened or inactivated pathogen, an mRNA vaccine delivers genetic instructions that make the body's own cells briefly manufacture a harmless viral protein, training the immune system to recognise the real thing. The platform existed for decades before COVID-19 but was blocked by the immune system destroying unmodified synthetic RNA before it could work — solving that one chemistry problem unlocked the fastest vaccine development and deployment in history.",
+          "note": "Karikó, K., Weissman, D. (2005). 'Suppressing RNA Recognition by Toll-like Receptors: The Impact of Nucleoside Modification and the Evolutionary Origin of RNA.' Immunity, 23(2), 165–175 — the nucleoside-modification discovery that made mRNA vaccines clinically viable, for which Karikó and Weissman received the 2023 Nobel Prize. Deployed at unprecedented scale during the COVID-19 pandemic (Pfizer-BioNTech and Moderna vaccines); the platform's speed and flexibility are now being applied to other infectious diseases and cancer vaccines.",
+          "links": []
+        },
+        {
+          "id": "ap4",
+          "group": "Adaptive Immunity",
+          "label": "Monoclonal Antibody Therapeutics",
+          "date": "2001",
+          "loc": "Los Angeles, California",
+          "coords": [
+            34.05,
+            -118.24
+          ],
+          "tag": "CLINICAL APPLICATION",
+          "hint": "A monoclonal antibody manufactured to bind one specific target can be turned into a drug in its own right — blocking a growth receptor on cancer cells, neutralising an inflammatory cytokine in autoimmune disease, or marking a pathogen for destruction. Trastuzumab, targeting the HER2 growth receptor overexpressed in a subset of aggressive breast cancers, was one of the first demonstrations that this approach could meaningfully extend survival, not just work in theory.",
+          "note": "Slamon, D.J., Leyland-Jones, B., Shak, S., et al. (2001). 'Use of Chemotherapy plus a Monoclonal Antibody against HER2 for Metastatic Breast Cancer That Overexpresses HER2.' New England Journal of Medicine, 344(11), 783–792. Built directly on the hybridoma technique (see me5); monoclonal antibody drugs now span oncology, autoimmune disease (e.g. adalimumab for rheumatoid arthritis), and infectious disease, and represent one of the largest drug categories by revenue in modern medicine.",
+          "links": [
+            "me5"
+          ]
+        },
+        {
+          "id": "ap5",
+          "group": "Neoplasia & Cancer Biology",
+          "label": "Population Cancer Screening Programmes",
+          "date": "1971",
+          "loc": "New York, New York",
+          "coords": [
+            40.71,
+            -74.01
+          ],
+          "tag": "CLINICAL APPLICATION",
+          "hint": "Systematically screening large, mostly healthy populations for early signs of cancer — mammography for breast cancer, colonoscopy for colorectal cancer, Pap smears for cervical cancer — catches some cancers early enough that treatment is far more likely to succeed. The Health Insurance Plan of New York trial was among the first to test this rigorously with a randomised design rather than simply assuming earlier detection must help.",
+          "note": "Shapiro, S., Strax, P., Venet, L. (1971). 'Periodic Breast Cancer Screening in Reducing Mortality from Breast Cancer.' JAMA, 215(11), 1777–1785 — one of the earliest randomised mammography screening trials. Screening programmes are now standard public health infrastructure in most high-income countries, though the overdiagnosis and lead-time-bias questions raised in db4 mean screening guidelines (which ages, how often) remain genuinely contested and periodically revised.",
+          "links": [
+            "db4"
+          ]
+        },
+        {
+          "id": "ap6",
+          "group": "Infectious Disease & Host-Pathogen Interaction",
+          "label": "Antibiotic Stewardship Programmes",
+          "date": "2007",
+          "loc": "Seattle, Washington",
+          "coords": [
+            47.61,
+            -122.33
+          ],
+          "tag": "CLINICAL APPLICATION",
+          "hint": "Hospitals and health systems now run formal programmes to limit unnecessary or overly broad antibiotic use — the direct clinical countermeasure to the evolutionary reality that every prescription is also a selection event favouring resistant bacteria. The approach doesn't create new antibiotics; it tries to preserve the effectiveness of the ones that already exist for as long as possible.",
+          "note": "Dellit, T.H., Owens, R.C., McGowan, J.E., et al. (2007). 'Infectious Diseases Society of America and the Society for Healthcare Epidemiology of America Guidelines for Developing an Institutional Program to Enhance Antimicrobial Stewardship.' Clinical Infectious Diseases, 44(2), 159–177. Stewardship programmes have measurably slowed local resistance trends where implemented, but resistance continues to rise globally, and the pipeline of genuinely new antibiotic classes has been thin for decades — stewardship buys time rather than solving the underlying problem.",
+          "links": [
+            "ef10"
+          ]
+        },
+        {
+          "id": "ap7",
+          "group": "Adaptive Immunity",
+          "label": "Organ Transplant Immunosuppression",
+          "date": "1978",
+          "loc": "Cambridge, United Kingdom",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "tag": "CLINICAL APPLICATION",
+          "hint": "Preventing a transplant recipient's immune system from rejecting a donor organ as foreign tissue requires deliberately suppressing the same adaptive immune mechanisms that would otherwise protect the patient — a direct clinical application of tolerance theory. The introduction of cyclosporine transformed transplant survival rates by suppressing rejection more selectively than earlier blunt immunosuppressive drugs, without disabling the immune system as completely.",
+          "note": "Calne, R.Y., White, D.J.G., Thiru, S., et al. (1978). 'Cyclosporin A initially as the only immunosuppressant in 34 recipients of cadaveric organs: 32 kidneys, 2 pancreases, and 2 livers.' The Lancet, 312(8104), 1323–1327. One-year kidney graft survival rose from roughly 50% in the pre-cyclosporine era to over 80% afterward; recipients still require lifelong immunosuppression and face elevated infection and cancer risk as a direct trade-off of the therapy.",
+          "links": [
+            "th4"
+          ]
+        }
+      ]
     }
   ],
   "timeline": [
