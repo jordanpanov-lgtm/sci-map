@@ -1062,7 +1062,138 @@
       "accent": "#CA6F1E",
       "bg": "#FDF5EC",
       "subtitle": "Live controversies — where the field is actively contesting the evidence",
-      "entries": []
+      "entries": [
+        {
+          "id": "db1",
+          "group": "DNA, RNA & the Central Dogma",
+          "label": "Rosalind Franklin: Credit and Collaboration",
+          "date": "2023",
+          "loc": "London, United Kingdom",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "REVISION",
+          "hint": "For decades, the standard account held that Watson saw Franklin's unpublished X-ray data without her knowledge and used it without credit, and that Franklin herself never fully grasped what her own Photo 51 showed. A 2023 re-examination of contemporaneous letters and a draft news article complicates this: it suggests Franklin was more aware of and involved in an informal exchange of ideas than the \"data theft\" narrative implies, though she still wasn't a co-author on the paper that made her data central to a Nobel-winning discovery.",
+          "note": "Corrective account: Cobb, M., Comfort, N. (2023). 'What Rosalind Franklin truly contributed to the discovery of DNA's structure.' Nature, 616(7955), 657–660. Earlier, influential framing: Sayre, A. (1975). Rosalind Franklin and DNA. New York: W.W. Norton — and Watson's own memoir, The Double Helix (1968), widely criticised even at the time for its portrayal of Franklin. The revised account doesn't resolve the underlying credit and authorship question so much as complicate the simplest version of it.",
+          "links": [
+            "st1",
+            "fg1",
+            "fg2"
+          ]
+        },
+        {
+          "id": "db2",
+          "group": "Gene Expression & Regulation",
+          "label": "Junk DNA: Functionless or Functional?",
+          "date": "2012",
+          "loc": "Bethesda, Maryland",
+          "coords": [
+            38.99,
+            -77.1
+          ],
+          "tag": "DEBATE",
+          "hint": "The ENCODE consortium's headline 2012 claim — that roughly 80% of the human genome shows some form of \"biochemical activity\" and is therefore \"functional\" — was seized on as overturning the older idea that most of the genome is evolutionarily inert \"junk.\" Evolutionary biologists pushed back hard, arguing ENCODE's definition of \"function\" (any detectable biochemical activity at all) was far too loose, and that most of the genome shows no evidence of the kind of evolutionary conservation real function would produce.",
+          "note": "ENCODE claim: The ENCODE Project Consortium (2012). 'An integrated encyclopedia of DNA elements in the human genome.' Nature, 489(7414), 57–74. Sharp critical response: Graur, D., Zheng, Y., Price, N., Azevedo, R.B.R., Zufall, R.A., Elhaik, E. (2013). 'On the immortality of television sets: \"function\" in the human genome according to the evolution-free gospel of ENCODE.' Genome Biology and Evolution, 5(3), 578–590. Most genome biologists now treat a middle position as likeliest — meaningfully more of the genome is functional than the old \"98% junk\" estimate, but well short of ENCODE's 80% headline figure.",
+          "links": []
+        },
+        {
+          "id": "db3",
+          "group": "Genetic Engineering & Molecular Techniques",
+          "label": "CRISPR Germline Editing: Where Is the Line?",
+          "date": "2018",
+          "loc": "Shenzhen, China",
+          "coords": [
+            22.54,
+            114.06
+          ],
+          "tag": "DEBATE",
+          "hint": "In 2018, He Jiankui announced he had used CRISPR to edit the CCR5 gene in human embryos, aiming for HIV resistance, resulting in the birth of twin girls — the first known gene-edited humans, whose edits would be inherited by any children they later have. The near-universal condemnation from the scientific community wasn't really about whether CRISPR germline editing could ever be justified in principle, but that this specific case skipped essentially every safeguard: unclear medical necessity, inadequate consent, and no international oversight process.",
+          "note": "Cyranoski, D. (2018). 'CRISPR-baby scientist fails to satisfy critics.' Nature, 564(7734), 13–14. He was sentenced to three years in prison in China for illegal medical practice. The case forced a sharper distinction the field had previously left vague: most researchers support continued CRISPR use in adult, non-heritable (somatic) cells (see ap1), while treating heritable germline editing as requiring a far higher, largely unmet bar of safety, consensus, and oversight.",
+          "links": [
+            "st10"
+          ]
+        },
+        {
+          "id": "db4",
+          "group": "Genetic Engineering & Molecular Techniques",
+          "label": "Are GMO Crops Safe?",
+          "date": "2016",
+          "loc": "Washington, D.C.",
+          "coords": [
+            38.9,
+            -77.04
+          ],
+          "tag": "DEBATE",
+          "hint": "The scientific consensus, reviewed repeatedly by major national science bodies, has consistently found no evidence that genetically modified crops on the market pose greater health risks than conventionally bred ones. Public opinion and regulation haven't followed the consensus uniformly — the EU maintains substantially stricter GMO regulations than the US, and public skepticism remains high in many countries, making this a case where the scientific and political debates have significantly diverged.",
+          "note": "National Academies of Sciences, Engineering, and Medicine (2016). Genetically Engineered Crops: Experiences and Prospects. Washington, DC: The National Academies Press — a comprehensive review of decades of safety data finding no substantiated evidence of harm from GM foods currently on the market. Legitimate, separate debates remain about corporate control of the seed supply, herbicide-resistant crop ecology, and labelling policy — these are economic and regulatory questions, not food-safety ones, and are often conflated with the safety debate in public discussion.",
+          "links": []
+        },
+        {
+          "id": "db5",
+          "group": "DNA, RNA & the Central Dogma",
+          "label": "Should Genes Be Patentable?",
+          "date": "2013",
+          "loc": "Washington, D.C.",
+          "coords": [
+            38.9,
+            -77.04
+          ],
+          "tag": "DEBATE",
+          "hint": "Myriad Genetics held patents on the BRCA1 and BRCA2 genes, giving it a monopoly on genetic testing for hereditary breast and ovarian cancer risk and blocking other labs from offering competing or confirmatory tests. The US Supreme Court ruled unanimously that a naturally occurring DNA sequence, simply isolated from the body, cannot be patented — but left the door open for synthetically created complementary DNA (cDNA), a distinction that continues to shape biotech patent strategy.",
+          "note": "Association for Molecular Pathology v. Myriad Genetics, Inc., 569 U.S. 576 (2013). The ruling was widely seen as a win for patient access and research freedom, dramatically lowering the cost of BRCA testing within months; industry groups argued it would reduce the financial incentive to invest in discovering new gene-disease links in the first place, a genuine trade-off the ruling didn't resolve.",
+          "links": []
+        },
+        {
+          "id": "db6",
+          "group": "Gene Expression & Regulation",
+          "label": "Can Epigenetic Changes Be Inherited?",
+          "date": "2014",
+          "loc": "Atlanta, Georgia",
+          "coords": [
+            33.75,
+            -84.39
+          ],
+          "tag": "DEBATE",
+          "hint": "Classical genetics assumes a firm barrier between an organism's life experience and what it passes to its offspring — only DNA sequence itself is inherited, not epigenetic marks acquired along the way. A mouse study reporting that a learned fear response to a specific smell was passed to offspring, seemingly via epigenetic marks on sperm, reignited a genuinely unresolved question: does at least some transgenerational epigenetic inheritance really happen in mammals, or do these striking results reflect subtler experimental confounds?",
+          "note": "Reported effect: Dias, B.G., Ressler, K.J. (2014). 'Parental olfactory experience influences behavior and neural structure in subsequent generations.' Nature Neuroscience, 17(1), 89–96. Cautious counter-view: Heard, E., Martienssen, R.A. (2014). 'Transgenerational Epigenetic Inheritance: Myths and Mechanisms.' Cell, 157(1), 95–109, arguing the mechanisms for reliably transmitting epigenetic marks across generations in mammals remain poorly established and the strongest evidence so far comes from plants and simple animals, not mammals.",
+          "links": []
+        },
+        {
+          "id": "db7",
+          "group": "Protein Structure, Folding & Enzymology",
+          "label": "How Long Should an Extraordinary Claim Take to Accept?",
+          "date": "2007",
+          "loc": "New Haven, Connecticut",
+          "coords": [
+            41.31,
+            -72.93
+          ],
+          "tag": "DEBATE",
+          "hint": "Stanley Prusiner's claim that an infectious disease could be caused by a misfolded protein alone, with no genetic material involved, was met with genuine, sustained scientific resistance for over a decade — not obstinance so much as reasonable caution given how thoroughly it broke with everything known about infectious agents. A small number of researchers continued to argue an undiscovered slow-acting virus, not a pure protein, was still the more likely explanation even years after Prusiner's 1997 Nobel Prize.",
+          "note": "Persistent dissenting view: Manuelidis, L. (2007). 'A 25 nm virion is the likely cause of transmissible spongiform encephalopathies.' Journal of Cellular Biochemistry, 100(4), 897–915. The weight of evidence has continued to favour the prion hypothesis (see th7) since, but the episode is a genuinely useful case study in distinguishing well-founded scientific caution from simple resistance to a paradigm shift — the two can look identical from the inside while a claim is still being tested.",
+          "links": [
+            "th7"
+          ]
+        },
+        {
+          "id": "db8",
+          "group": "DNA, RNA & the Central Dogma",
+          "label": "Was the Genetic Code a Frozen Accident, or Optimised?",
+          "date": "1998",
+          "loc": "Bath, United Kingdom",
+          "coords": [
+            51.38,
+            -2.36
+          ],
+          "tag": "DEBATE",
+          "hint": "Francis Crick originally proposed that which codon maps to which amino acid is essentially a historical accident, frozen in place early in life's history simply because changing it later would be catastrophic for every organism depending on it. A later computational analysis found something harder to explain by pure accident: among millions of possible alternative ways to assign codons to amino acids, the actual genetic code is unusually good at minimising the damage caused by point mutations and misreadings — suggesting natural selection, not just chance, shaped which code got frozen.",
+          "note": "Frozen accident: Crick, F.H.C. (1968). 'The origin of the genetic code.' Journal of Molecular Biology, 38(3), 367–379. Error-minimisation evidence: Freeland, S.J., Hurst, L.D. (1998). 'The genetic code is one in a million.' Journal of Molecular Biology, 47(3), 238–248. The two positions aren't fully exclusive — a code could have been selected for error tolerance early on and then frozen once selection later disfavoured any further change — but which force did more of the actual shaping remains genuinely debated.",
+          "links": [
+            "co1"
+          ]
+        }
+      ]
     },
     {
       "id": "application",
@@ -1072,7 +1203,120 @@
       "accent": "#2E86C1",
       "bg": "#EBF5FB",
       "subtitle": "Where the science leaves the lab",
-      "entries": []
+      "entries": [
+        {
+          "id": "ap1",
+          "group": "Genetic Engineering & Molecular Techniques",
+          "label": "CRISPR-Based Gene Therapy",
+          "date": "2021",
+          "loc": "Nashville, Tennessee",
+          "coords": [
+            36.16,
+            -86.78
+          ],
+          "tag": "CLINICAL APPLICATION",
+          "hint": "Patients with sickle cell disease or beta-thalassaemia can have their own blood stem cells removed, CRISPR-edited to reactivate a fetal form of haemoglobin that compensates for their faulty adult haemoglobin, and reinfused — the first CRISPR-based therapy to reach approval, turning a debilitating inherited blood disorder into, for many patients, a functional cure rather than a lifelong condition to be managed.",
+          "note": "Frangoul, H., Altshuler, D., Cappellini, M.D., et al. (2021). 'CRISPR-Cas9 Gene Editing for Sickle Cell Disease and β-Thalassemia.' New England Journal of Medicine, 384(3), 252–260 — the pivotal trial behind exagamglogene autotemcel (Casgevy), approved in 2023. This is somatic (non-heritable) editing of a patient's own cells, not the heritable germline editing at the centre of db3's controversy.",
+          "links": [
+            "st10"
+          ]
+        },
+        {
+          "id": "ap2",
+          "group": "Genetic Engineering & Molecular Techniques",
+          "label": "Recombinant Insulin Production",
+          "date": "1982",
+          "loc": "South San Francisco, California",
+          "coords": [
+            37.66,
+            -122.44
+          ],
+          "tag": "CLINICAL APPLICATION",
+          "hint": "Before 1982, diabetics relied on insulin extracted from pig and cattle pancreases — effective, but in limited supply and different enough from human insulin to cause allergic reactions in some patients. Inserting the human insulin gene into bacteria and harvesting the human protein they produced was both the first recombinant DNA drug ever approved and the technical proof that genetic engineering could manufacture medicines at scale, not just prove a point in a research lab.",
+          "note": "Goeddel, D.V., Kleid, D.G., Bolivar, F., et al. (1979). 'Expression in Escherichia coli of chemically synthesized genes for human insulin.' Proceedings of the National Academy of Sciences, 76(1), 106–110 — the technical foundation behind Humulin's 1982 FDA approval, Genentech's founding commercial triumph. Directly built on the recombinant DNA technique established in st7 and the cloning method in me3.",
+          "links": [
+            "st7"
+          ]
+        },
+        {
+          "id": "ap3",
+          "group": "DNA, RNA & the Central Dogma",
+          "label": "DNA Fingerprinting",
+          "date": "1985",
+          "loc": "Leicester, United Kingdom",
+          "coords": [
+            52.63,
+            -1.13
+          ],
+          "tag": "APPLICATION",
+          "hint": "Certain highly variable regions of the genome differ enough between unrelated individuals, while still being inherited in predictable patterns, that they can identify a specific person or establish a biological relationship almost as reliably as an actual fingerprint. Alec Jeffreys developed the technique somewhat by accident while studying inherited genetic variation, then immediately recognised its forensic and legal potential.",
+          "note": "Jeffreys, A.J., Wilson, V., Thein, S.L. (1985). 'Individual-specific \"fingerprints\" of human DNA.' Nature, 316(6023), 76–79. First used forensically in 1986 to both convict a real culprit and exonerate a wrongly suspected man in the Colin Pitchfork murder case — the first criminal conviction secured using DNA evidence anywhere in the world, and the technique remains central to modern forensic science and paternity testing.",
+          "links": []
+        },
+        {
+          "id": "ap4",
+          "group": "Cell Cycle & Molecular Control",
+          "label": "Genome Sequencing in Precision Medicine",
+          "date": "2001",
+          "loc": "Bethesda, Maryland",
+          "coords": [
+            38.99,
+            -77.1
+          ],
+          "tag": "CLINICAL APPLICATION",
+          "hint": "Once a patient's own tumour can be sequenced quickly and affordably, treatment can be matched to the specific mutations actually driving that individual cancer, rather than treating every tumour of a given organ type the same way. The Human Genome Project's decade of foundational sequencing work made this kind of fast, routine clinical genome sequencing conceivable in the first place.",
+          "note": "International Human Genome Sequencing Consortium (2001). 'Initial sequencing and analysis of the human genome.' Nature, 409(6822), 860–921. Directly enables the genomically-matched cancer therapies discussed in pathology-immunology's precision oncology debate (see pathology-immunology::db8) — including that debate's central tension, since matching a drug to a mutation only helps if that mutation is genuinely the tumour's driver, which sequencing alone can't guarantee.",
+          "links": [],
+          "xlinks": [
+            "pathology-immunology::db8"
+          ]
+        },
+        {
+          "id": "ap5",
+          "group": "Genetic Engineering & Molecular Techniques",
+          "label": "Genetically Modified Crops",
+          "date": "1994",
+          "loc": "St. Louis, Missouri",
+          "coords": [
+            38.63,
+            -90.2
+          ],
+          "tag": "APPLICATION",
+          "hint": "Inserting a bacterial gene into corn or cotton so the plant produces its own natural insect-killing protein (Bt crops), or engineering rice to synthesise a vitamin A precursor it doesn't normally make (Golden Rice), turned the same recombinant DNA toolkit developed for basic research and medicine into a way of directly altering food crop traits — reducing pesticide use in some cases, or targeting nutritional deficiencies in others.",
+          "note": "The first commercially approved genetically engineered food crop, the Flavr Savr tomato, reached market in 1994; Bt cotton and corn followed shortly after and now account for the majority of US corn and cotton acreage. See db4 for the persistent gap between the strong scientific safety consensus on approved GM crops and continued public and regulatory controversy.",
+          "links": []
+        },
+        {
+          "id": "ap6",
+          "group": "Molecular Machinery",
+          "label": "Viral-Vector Gene Therapy",
+          "date": "2017",
+          "loc": "Philadelphia, Pennsylvania",
+          "coords": [
+            39.95,
+            -75.16
+          ],
+          "tag": "CLINICAL APPLICATION",
+          "hint": "A disabled, harmless virus can be repurposed as a precise delivery vehicle, carrying a corrected copy of a faulty gene directly into a patient's cells — for one inherited form of blindness, a single injection into the eye restored enough vision for patients to navigate an obstacle course in dim light they couldn't complete before treatment. It's gene therapy in the most literal sense: not editing the patient's existing DNA, but supplying a working copy alongside it.",
+          "note": "Russell, S., Bennett, J., Wellman, J.A., et al. (2017). 'Efficacy and safety of voretigene neparvovec (AAV2-hRPE65v2) in patients with RPE65-mediated inherited retinal dystrophy: a randomised, controlled, open-label, phase 3 trial.' The Lancet, 390(10097), 849–860 — the pivotal trial behind Luxturna's 2017 FDA approval, one of the first gene therapies approved for an inherited disease in the United States.",
+          "links": []
+        },
+        {
+          "id": "ap7",
+          "group": "Cell Cycle & Molecular Control",
+          "label": "Somatic Cell Nuclear Transfer (Cloning)",
+          "date": "1996",
+          "loc": "Edinburgh, United Kingdom",
+          "coords": [
+            55.95,
+            -3.19
+          ],
+          "tag": "APPLICATION",
+          "hint": "Transferring the nucleus from an adult body cell into an egg cell that has had its own nucleus removed can reset that adult cell's genome back to an embryonic state, capable of directing the development of an entire new organism — proof that a fully specialised adult cell still retains a complete, usable genome rather than having permanently discarded the genes it no longer needs. Dolly the sheep, the first mammal cloned this way from an adult cell, became one of the most recognisable scientific achievements of the twentieth century.",
+          "note": "Wilmut, I., Schnieke, A.E., McWhir, J., Kind, A.J., Campbell, K.H.S. (1997). 'Viable offspring derived from fetal and adult mammalian cells.' Nature, 385(6619), 810–813. Dolly was euthanised in 2003 with lung disease and arthritis somewhat earlier than typical for her breed, prompting lasting (and only partially resolved) questions about whether cloned animals age prematurely; the technique is now mainly used in livestock breeding and endangered species conservation rather than any pursuit of human reproductive cloning, which remains illegal in most countries.",
+          "links": []
+        }
+      ]
     }
   ],
   "timeline": [
