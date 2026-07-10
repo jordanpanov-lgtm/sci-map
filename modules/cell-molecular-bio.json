@@ -729,7 +729,119 @@
       "accent": "#8B5E00",
       "bg": "#FFF8F0",
       "subtitle": "The tools and paradigms that generate the field's evidence",
-      "entries": []
+      "entries": [
+        {
+          "id": "me1",
+          "group": "Genetic Engineering & Molecular Techniques",
+          "label": "Agarose Gel Electrophoresis",
+          "date": "1973",
+          "loc": "Cold Spring Harbor, New York",
+          "coords": [
+            40.86,
+            -73.45
+          ],
+          "tag": "METHOD",
+          "hint": "Pushing DNA fragments through a porous gel using an electric field sorts them by size — small fragments thread through the gel's mesh quickly, large ones lag behind — turning an invisible mixture of DNA pieces into a visible ladder of bands. It's one of the most basic, ubiquitous operations in a molecular biology lab, often the very first step in checking whether any given experiment actually worked.",
+          "note": "Sharp, P.A., Sugden, B., Sambrook, J. (1973). 'Detection of Two Restriction Endonuclease Activities in Haemophilus parainfluenzae Using Analytical Agarose-Ethidium Bromide Electrophoresis.' Biochemistry, 12(16), 3055–3063 — established the agarose-gel-plus-ethidium-bromide combination that made DNA fragments visible under UV light, still the standard approach.",
+          "links": []
+        },
+        {
+          "id": "me2",
+          "group": "Genetic Engineering & Molecular Techniques",
+          "label": "Sanger Sequencing",
+          "date": "1977",
+          "loc": "Cambridge, United Kingdom",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "tag": "METHOD",
+          "hint": "Frederick Sanger's chain-termination method reads out a DNA molecule's exact base sequence by synthesising many copies of it that each stop at a different, chemically marked position, then sorting the resulting fragments by size to read the sequence off directly. It was the dominant DNA sequencing technology for three decades and did the bulk of the sequencing for the Human Genome Project.",
+          "note": "Sanger, F., Nicklen, S., Coulson, A.R. (1977). 'DNA sequencing with chain-terminating inhibitors.' Proceedings of the National Academy of Sciences, 74(12), 5463–5467. Sanger's second Nobel Prize (1980) — his first, in 1958, was for sequencing the amino acids of insulin, making him one of only a handful of scientists to win two Nobel Prizes. Largely superseded since the 2000s by faster, cheaper next-generation sequencing methods for large-scale work, though still used for smaller, high-accuracy sequencing tasks.",
+          "links": []
+        },
+        {
+          "id": "me3",
+          "group": "Genetic Engineering & Molecular Techniques",
+          "label": "Restriction Enzyme Cloning",
+          "date": "1970",
+          "loc": "Baltimore, Maryland",
+          "coords": [
+            39.3,
+            -76.61
+          ],
+          "tag": "METHOD",
+          "hint": "Restriction enzymes are molecular scissors that cut DNA only at specific short sequences, letting a researcher precisely excise a gene of interest and splice it into a carrier molecule (a vector) for copying inside a host cell. Purifying the first sequence-specific version of one of these enzymes made it possible to cut and paste DNA on purpose rather than relying on chance breaks — the basic toolkit move underlying most of modern genetic engineering.",
+          "note": "Smith, H.O., Wilcox, K.W. (1970). 'A restriction enzyme from Hemophilus influenzae. I. Purification and general properties.' Journal of Molecular Biology, 51(2), 379–391. Smith shared the 1978 Nobel Prize with Daniel Nathans and Werner Arber. This enzymatic toolkit is precisely what Cohen and Boyer used three years later to build the first recombinant DNA molecule (see st7).",
+          "links": [
+            "st7"
+          ]
+        },
+        {
+          "id": "me4",
+          "group": "Protein Structure, Folding & Enzymology",
+          "label": "Western Blotting",
+          "date": "1979",
+          "loc": "Basel, Switzerland",
+          "coords": [
+            47.56,
+            7.59
+          ],
+          "tag": "METHOD",
+          "hint": "After separating a mixture of proteins by size on a gel, transferring them onto a membrane and probing with an antibody specific to one target protein lets a researcher detect and roughly quantify that single protein out of thousands of others — turning gel electrophoresis, which only sorts by size, into a specific identification tool.",
+          "note": "Towbin, H., Staehelin, T., Gordon, J. (1979). 'Electrophoretic transfer of proteins from polyacrylamide gels to nitrocellulose sheets: procedure and some applications.' Proceedings of the National Academy of Sciences, 76(9), 4350–4354. The name \"Western\" blot is a joking extension of the earlier \"Southern\" blot (for DNA, named after its inventor Edwin Southern) — a naming convention that continued with \"Northern\" blots for RNA.",
+          "links": []
+        },
+        {
+          "id": "me5",
+          "group": "Protein Structure, Folding & Enzymology",
+          "label": "X-Ray Crystallography Phasing",
+          "date": "1956",
+          "loc": "Cambridge, United Kingdom",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "tag": "METHOD",
+          "hint": "Shining X-rays through a crystallised protein produces a diffraction pattern that encodes its atomic structure — but the pattern alone leaves out crucial information (the phase of each wave), making the structure impossible to reconstruct directly. Max Perutz's isomorphous replacement technique, inserting heavy metal atoms into the crystal at known positions to recover the missing phase information, was the specific breakthrough that made solving a protein's full 3D structure technically possible at all.",
+          "note": "Perutz, M.F. (1956). 'Isomorphous Replacement and Phase Determination in Non-Centrosymmetric Space Groups.' Acta Crystallographica, 9(11), 867–873. Made Kendrew's first complete protein structure two years later possible (see co7); X-ray crystallography remained the dominant method for determining protein structures for over sixty years, until cryo-electron microscopy became competitive in the 2010s.",
+          "links": [
+            "co7"
+          ]
+        },
+        {
+          "id": "me6",
+          "group": "Genetic Engineering & Molecular Techniques",
+          "label": "Site-Directed Mutagenesis",
+          "date": "1978",
+          "loc": "Vancouver, Canada",
+          "coords": [
+            49.28,
+            -123.12
+          ],
+          "tag": "METHOD",
+          "hint": "Instead of waiting for a random mutation to land in a gene of interest, this technique lets a researcher change one specific, chosen DNA base (or small set of bases) on purpose, then observe exactly what that precise change does to the resulting protein's function. It turned genetics from an observational science, limited to studying mutations nature happened to provide, into an experimental one that could ask precisely targeted \"what if\" questions.",
+          "note": "Hutchison, C.A., Phillips, S., Edgell, M.H., Gillam, S., Jahnke, P., Smith, M. (1978). 'Mutagenesis at a specific position in a DNA sequence.' Journal of Biological Chemistry, 253(18), 6551–6560. Michael Smith shared the 1993 Nobel Prize with Kary Mullis. Still routinely used today, though CRISPR-based methods (see me7) now offer an alternative route to introducing precise changes directly in living cells rather than in vitro.",
+          "links": []
+        },
+        {
+          "id": "me7",
+          "group": "Genetic Engineering & Molecular Techniques",
+          "label": "CRISPR-Cas9 Genome Editing in Living Cells",
+          "date": "2013",
+          "loc": "Cambridge, Massachusetts",
+          "coords": [
+            42.36,
+            -71.09
+          ],
+          "tag": "METHOD",
+          "hint": "Showing that CRISPR-Cas9 could cut a chosen DNA sequence in a test tube (see st10) was one thing; getting it to work inside living human and mouse cells, editing their genomes directly, was the separate practical step that turned CRISPR from a striking biochemical discovery into the standard genome-editing tool used across biology and medicine today.",
+          "note": "Cong, L., Ran, F.A., Cox, D., Lin, S., Barretto, R., Habib, N., Hsu, P.D., Wu, X., Jiang, W., Marraffini, L.A., Zhang, F. (2013). 'Multiplex Genome Engineering Using CRISPR/Cas Systems.' Science, 339(6121), 819–823. Feng Zhang's demonstration, published within months of Doudna and Charpentier's founding biochemical paper, was part of a fiercely contested patent dispute over who owns the rights to CRISPR gene editing in eukaryotic cells specifically (see db3).",
+          "links": [
+            "st10"
+          ]
+        }
+      ]
     },
     {
       "id": "figure",
@@ -739,7 +851,208 @@
       "accent": "#B7770D",
       "bg": "#FEFDE7",
       "subtitle": "The researchers who shaped the discipline",
-      "entries": []
+      "entries": [
+        {
+          "id": "fg1",
+          "group": "Pioneers & Theorists",
+          "label": "James Watson and Francis Crick",
+          "date": "1953",
+          "loc": "Cambridge, United Kingdom",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "tag": "FIGURE",
+          "hint": "Built the first correct physical model of DNA's structure — a double helix with complementary base pairing — by combining Rosalind Franklin's X-ray diffraction data with Erwin Chargaff's base-ratio rules. The structure itself immediately suggested how DNA could be copied, arguably the single most consequential insight in the founding of molecular biology.",
+          "note": "Watson, J.D., Crick, F.H.C. (1953), see st1. Shared the 1962 Nobel Prize with Maurice Wilkins; Rosalind Franklin, whose unpublished data was shown to Watson without her knowledge, had died in 1958 and was ineligible (Nobel Prizes are not awarded posthumously) — a fact at the centre of the ongoing credit controversy (see db1, fg2).",
+          "links": [
+            "st1"
+          ]
+        },
+        {
+          "id": "fg2",
+          "group": "Pioneers & Theorists",
+          "label": "Rosalind Franklin",
+          "date": "1952",
+          "loc": "London, United Kingdom",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "FIGURE",
+          "hint": "Produced Photo 51, the sharpest X-ray diffraction image yet of DNA fibres, using a technique she had personally refined — and from it correctly deduced DNA's helical, double-stranded structure, phosphate backbone facing outward, in her own unpublished notes. Her data and preliminary conclusions were shown to Watson by a colleague without her knowledge or permission, and used directly in building the final model.",
+          "note": "Franklin's own X-ray work was published alongside Watson and Crick's 1953 Nature paper, in a supporting but visibly secondary role. She died of ovarian cancer in 1958, four years before the Nobel Prize for the DNA structure was awarded to Watson, Crick, and Wilkins; the fairness of her uncredited role remains a genuinely live historical and ethical debate (see db1), not a settled matter of simple record-correction.",
+          "links": []
+        },
+        {
+          "id": "fg3",
+          "group": "Pioneers & Theorists",
+          "label": "Oswald Avery",
+          "date": "1944",
+          "loc": "New York, New York",
+          "coords": [
+            40.71,
+            -74.01
+          ],
+          "tag": "FIGURE",
+          "hint": "Provided the first direct experimental evidence that DNA, not protein, is the molecule that carries hereditary information — a finding so at odds with the prevailing assumption of the time that many leading biologists remained openly unconvinced for years, requiring the independent Hershey-Chase experiment eight years later to fully settle the question.",
+          "note": "Avery, MacLeod, McCarty (1944), see st4. Avery never received a Nobel Prize for this work, despite it now being widely regarded by historians of science as a clear and consequential oversight — he died in 1955, and the prize is never awarded posthumously.",
+          "links": [
+            "st4"
+          ]
+        },
+        {
+          "id": "fg4",
+          "group": "Pioneers & Theorists",
+          "label": "Alfred Hershey and Martha Chase",
+          "date": "1952",
+          "loc": "Cold Spring Harbor, New York",
+          "coords": [
+            40.86,
+            -73.45
+          ],
+          "tag": "FIGURE",
+          "hint": "Using radioactively labelled viruses, showed decisively that DNA — not protein — is what a virus actually injects into a host cell to direct new virus production, settling the last major holdout of resistance to Avery's earlier, less direct evidence. The \"Blender Experiment\" became one of the most frequently retold stories in molecular biology for the simple, cheap elegance of its design.",
+          "note": "Hershey, A.D., Chase, M. (1952), see st2. Hershey shared the 1969 Nobel Prize; Martha Chase, who ran much of the experimental work as his research assistant, did not share the award — a recognition gap that has drawn increasing historical attention as the norms around crediting research staff have shifted.",
+          "links": [
+            "st2"
+          ]
+        },
+        {
+          "id": "fg5",
+          "group": "Pioneers & Theorists",
+          "label": "Marshall Nirenberg",
+          "date": "1961",
+          "loc": "Bethesda, Maryland",
+          "coords": [
+            38.99,
+            -77.1
+          ],
+          "tag": "FIGURE",
+          "hint": "Deciphered the first codon of the genetic code using a strikingly simple experiment — a synthetic RNA of pure uracil produced a protein of pure phenylalanine — and then led the systematic effort that worked out the rest of the code within about five years, alongside Har Gobind Khorana's complementary synthetic-RNA approach.",
+          "note": "Nirenberg, M.W., Matthaei, J.H. (1961), see st5. Shared the 1968 Nobel Prize with Khorana and Robert Holley. Later in his career, Nirenberg shifted almost entirely to neuroscience research, a less publicly known second act to his molecular biology fame.",
+          "links": [
+            "st5"
+          ]
+        },
+        {
+          "id": "fg6",
+          "group": "Pioneers & Theorists",
+          "label": "Arthur Kornberg",
+          "date": "1956",
+          "loc": "St. Louis, Missouri",
+          "coords": [
+            38.63,
+            -90.2
+          ],
+          "tag": "FIGURE",
+          "hint": "Isolated the enzyme, DNA polymerase, that physically builds new DNA strands from a template — turning DNA replication from an inferred process into one that could be studied and eventually reconstructed molecule by molecule outside a living cell.",
+          "note": "Kornberg, Lehman, Bessman, Simms (1956), see st6. Shared the 1959 Nobel Prize. His son, Roger Kornberg, independently discovered the structure of chromatin's basic repeating unit in 1974 (see co2) and won his own, unrelated Nobel Prize in 2006 for work on RNA polymerase and transcription — a rare father-son pair of laureates in molecular biology.",
+          "links": [
+            "st6"
+          ]
+        },
+        {
+          "id": "fg7",
+          "group": "Pioneers & Theorists",
+          "label": "Barbara McClintock",
+          "date": "1950",
+          "loc": "Cold Spring Harbor, New York",
+          "coords": [
+            40.86,
+            -73.45
+          ],
+          "tag": "FIGURE",
+          "hint": "Discovered that some genes in maize aren't fixed in place on a chromosome at all — they can physically jump to new locations, disrupting or activating other genes wherever they land. \"Jumping genes\" (transposons) were so far outside the accepted genetics of the time that her findings were met largely with confusion or polite disinterest for over two decades, until molecular techniques confirmed transposons are a widespread, fundamental feature of genomes.",
+          "note": "McClintock, B. (1950). 'The origin and behavior of mutable loci in maize.' Proceedings of the National Academy of Sciences, 36(6), 344–355. Awarded the entire 1983 Nobel Prize alone, without sharing it — one of the few undivided Nobel Prizes in physiology or medicine, and widely cited as one of the most dramatic cases of long-delayed scientific vindication.",
+          "links": []
+        },
+        {
+          "id": "fg8",
+          "group": "Pioneers & Theorists",
+          "label": "Kary Mullis",
+          "date": "1983",
+          "loc": "Emeryville, California",
+          "coords": [
+            37.83,
+            -122.29
+          ],
+          "tag": "FIGURE",
+          "hint": "Conceived the core idea of PCR — repeatedly heating and cooling a DNA sample with primers and polymerase to exponentially amplify one specific sequence — reportedly while driving along a California highway one night. The technique became one of the single most widely used tools in all of biology and medicine, from diagnostics to forensics to basic research.",
+          "note": "Saiki, Scharf, Faloona, Mullis, et al. (1985), see st8. Shared the 1993 Nobel Prize in Chemistry. Mullis's later public advocacy of AIDS denialism and other claims well outside scientific consensus is a genuinely uncomfortable but well-documented part of his biography, unrelated to the technical validity of PCR itself.",
+          "links": [
+            "st8"
+          ]
+        },
+        {
+          "id": "fg9",
+          "group": "Pioneers & Theorists",
+          "label": "Jennifer Doudna and Emmanuelle Charpentier",
+          "date": "2012",
+          "loc": "Berkeley, California",
+          "coords": [
+            37.87,
+            -122.27
+          ],
+          "tag": "FIGURE",
+          "hint": "Showed that CRISPR-Cas9, a bacterial immune mechanism for cutting up invading viral DNA, could be reprogrammed with a simple synthetic guide RNA to cut virtually any chosen DNA sequence — converting a narrow bacterial defence system into a cheap, precise, general-purpose gene-editing tool within a single paper.",
+          "note": "Jinek, Chylinski, Fonfara, Hauer, Doudna, Charpentier (2012), see st10. Shared the 2020 Nobel Prize in Chemistry — the first Nobel science prize awarded to a team of two women. A separate, contentious patent dispute over CRISPR's use in eukaryotic cells specifically ran for years between Doudna/Charpentier's institutions and Feng Zhang's (see me7, db3).",
+          "links": [
+            "st10"
+          ]
+        },
+        {
+          "id": "fg10",
+          "group": "Pioneers & Theorists",
+          "label": "Elizabeth Blackburn, Carol Greider, and Jack Szostak",
+          "date": "1985",
+          "loc": "Berkeley, California",
+          "coords": [
+            37.87,
+            -122.27
+          ],
+          "tag": "FIGURE",
+          "hint": "Discovered telomerase, the enzyme that rebuilds the protective caps on the ends of chromosomes that would otherwise shorten with every cell division — explaining both the Hayflick limit on ordinary cell division and how stem cells, germ cells, and most cancers manage to bypass it entirely.",
+          "note": "Greider, Blackburn (1985), see st11, building on earlier genetic work with Szostak in 1982. Shared the 2009 Nobel Prize; Greider made the core discovery as a graduate student in Blackburn's lab, one of several Nobel-winning discoveries in this folio credited substantially to a junior researcher's hands-on work (see also fg4).",
+          "links": [
+            "st11"
+          ]
+        },
+        {
+          "id": "fg11",
+          "group": "Pioneers & Theorists",
+          "label": "Frederick Sanger",
+          "date": "1977",
+          "loc": "Cambridge, United Kingdom",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "tag": "FIGURE",
+          "hint": "Developed the chain-termination method for reading a DNA molecule's exact base sequence, the dominant sequencing technology for three decades and the workhorse behind the Human Genome Project. It was his second, entirely separate major achievement: nineteen years earlier he had also worked out how to sequence a protein for the first time, using insulin.",
+          "note": "Sanger, Nicklen, Coulson (1977), see me2. His 1958 Nobel Prize was for protein sequencing (insulin); his 1980 Nobel Prize, shared with Walter Gilbert and Paul Berg, was for DNA sequencing — making him one of only a handful of people to win two Nobel Prizes, and the only one to win both in chemistry for two unrelated achievements.",
+          "links": [
+            "th8"
+          ]
+        },
+        {
+          "id": "fg12",
+          "group": "Pioneers & Theorists",
+          "label": "Lynn Margulis",
+          "date": "1967",
+          "loc": "Boston, Massachusetts",
+          "coords": [
+            42.36,
+            -71.06
+          ],
+          "tag": "FIGURE",
+          "hint": "Revived and rigorously argued the case that mitochondria and chloroplasts began as free-living bacteria absorbed by an ancestral cell, a once-marginal idea she supported with genuinely compelling molecular evidence after her paper was rejected by roughly fifteen journals before publication.",
+          "note": "Margulis (as L. Sagan), 1967, see th5. Endosymbiotic theory is now overwhelmingly confirmed and considered one of the more dramatic vindications of a once-marginal idea in modern biology. Later in her career, Margulis also promoted more contested and largely unaccepted positions, including public skepticism of the HIV-AIDS causal link — a caveat worth naming directly given how central Koch's-postulates-style causal reasoning about HIV appears elsewhere in this atlas (see pathology-immunology::st8).",
+          "links": [
+            "th5"
+          ]
+        }
+      ]
     },
     {
       "id": "debate",
