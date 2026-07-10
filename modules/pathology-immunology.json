@@ -15,12 +15,12 @@
   "mapZoom": 3,
   "methodology": "METHODOLOGY · Every entry anchors to a landmark study, paper, clinical case or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags replication status, effect-size revisions and known controversies. Studies and effects carry a replicability badge — 🟢 robust · 🟡 nuanced or reduced · 🔴 failed or severely contested. Map pins mark the institution where the work was carried out.",
   "_meta": {
-    "total_entries": 73,
+    "total_entries": 77,
     "entry_counts": {
       "theory": 10,
       "study": 11,
-      "effect": 10,
-      "concept": 8,
+      "effect": 12,
+      "concept": 10,
       "method": 7,
       "figure": 12,
       "debate": 8,
@@ -29,8 +29,8 @@
     "max_ids": {
       "th": 10,
       "st": 11,
-      "ef": 10,
-      "co": 8,
+      "ef": 12,
+      "co": 10,
       "me": 7,
       "fg": 12,
       "db": 8,
@@ -80,6 +80,8 @@
     "ef8": "effect · Adaptive Immunity · Immunological Memory (1996)",
     "ef9": "effect · Neoplasia & Cancer Biology · Loss of Contact Inhibition in Malignant Transformation (1979)",
     "ef10": "effect · Infectious Disease & Host-Pathogen Interaction · Antibiotic Resistance (2010)",
+    "ef11": "effect · Cell Injury & Inflammation · Ischaemia-Reperfusion Injury (2007)",
+    "ef12": "effect · Cell Injury & Inflammation · Fibrosis and Impaired Tissue Repair (2008)",
     "co1": "concept · Adaptive Immunity · Antigen and Epitope (1936)",
     "co2": "concept · Innate Immunity · Opsonization (1903)",
     "co3": "concept · Autoimmunity & Hypersensitivity · Central vs. Peripheral Tolerance (1995)",
@@ -88,6 +90,8 @@
     "co6": "concept · Innate Immunity · Chemokines (2000)",
     "co7": "concept · Adaptive Immunity · MHC Class I vs. Class II (2011)",
     "co8": "concept · Autoimmunity & Hypersensitivity · The Gell–Coombs Classification (1963)",
+    "co9": "concept · Cell Injury & Inflammation · Necrosis vs. Apoptosis (1972)",
+    "co10": "concept · Innate Immunity · The Complement System (2010)",
     "me1": "method · Adaptive Immunity · ELISA (1971)",
     "me2": "method · Adaptive Immunity · Flow Cytometry (1972)",
     "me3": "method · Infectious Disease & Host-Pathogen Interaction · Polymerase Chain Reaction for Pathogen Detection (1988)",
@@ -251,7 +255,8 @@
           "links": [
             "st4",
             "ef1",
-            "db1"
+            "db1",
+            "co9"
           ],
           "keywords": [
             "hallmarks of cancer",
@@ -341,7 +346,8 @@
           "hint": "Specialised mobile cells inside the body actively hunt down, engulf, and digest invading microbes — this is the immune system's front line, not a passive chemical reaction. Ilya Metchnikoff reached this conclusion after watching mobile cells in a transparent starfish larva swarm around a splinter he had inserted, and named the process phagocytosis. It was the founding claim of cellular, as opposed to purely chemical (humoral), immunology.",
           "note": "Metchnikoff, E. (1883). 'Untersuchungen über die intracellulare Verdauung bei wirbellosen Thieren.' Arbeiten aus dem Zoologischen Institute der Universität Wien, 5, 141–168. Metchnikoff shared the 1908 Nobel Prize with Paul Ehrlich, whose rival humoral (antibody-based) theory of immunity turned out to be equally correct — the two mechanisms are now understood as complementary arms (innate cellular vs. adaptive humoral) of one immune system, not competitors.",
           "links": [
-            "fg4"
+            "fg4",
+            "co10"
           ],
           "keywords": [
             "phagocytic theory immunity",
@@ -705,7 +711,8 @@
           "hint": "A runaway immune response — cytokine signals amplifying more cytokine release in a feedback loop — can cause severe, sometimes fatal, damage to the very body the immune system is meant to protect. It shows up wherever a very fast, very strong immune activation occurs: severe sepsis, some viral infections, and as an on-target side effect of powerful cancer immunotherapies like CAR-T cells and checkpoint inhibitors.",
           "note": "Lee, D.W., Santomasso, B.D., Locke, F.L., et al. (2019). 'ASTCT Consensus Grading for Cytokine Release Syndrome and Neurologic Toxicity Associated with Immune Effector Cells.' Biology of Blood and Marrow Transplantation, 25(4), 625–638 — the modern clinical grading standard, developed largely in response to CAR-T toxicity (see st10). The underlying biology was described earlier (Tisoncik, J.R., et al., 2012, 'Into the Eye of the Cytokine Storm,' Microbiology and Molecular Biology Reviews, 76(1), 16–32); severity thresholds and optimal management (e.g. tocilizumab timing) are still actively refined.",
           "links": [
-            "st10"
+            "st10",
+            "ef11"
           ],
           "keywords": [
             "cytokine storm",
@@ -872,7 +879,9 @@
           "repl": "robust",
           "hint": "Normal cells stop dividing once they're surrounded by neighbours on all sides — a built-in brake called contact inhibition. Cancer cells lose this brake and keep piling on top of each other and dividing regardless of crowding, which is exactly what a petri dish of transformed cells looks like under a microscope: a normal culture stops at a single flat layer, a malignant one keeps growing into disorganised heaps.",
           "note": "Abercrombie, M. (1979). 'Contact inhibition and malignancy.' Nature, 281(5729), 259–262. A classic, robustly reproduced in vitro hallmark of transformation, still used today as a simple functional assay of malignant potential; the molecular mechanism (loss of contact-dependent signalling through proteins like E-cadherin and Merlin/NF2) was worked out decades later.",
-          "links": [],
+          "links": [
+            "co9"
+          ],
           "keywords": [
             "contact inhibition loss",
             "malignant transformation hallmark",
@@ -902,6 +911,54 @@
             "bacterial resistance selection",
             "mrsa emergence",
             "antimicrobial resistance crisis"
+          ]
+        },
+        {
+          "id": "ef11",
+          "group": "Cell Injury & Inflammation",
+          "label": "Ischaemia-Reperfusion Injury",
+          "date": "2007",
+          "loc": "London, United Kingdom",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Restoring blood flow to tissue that has been starved of oxygen doesn't simply undo the damage — it can paradoxically cause a fresh wave of injury on top of it, as the sudden return of oxygen generates a burst of reactive molecules and triggers an inflammatory cascade in tissue already primed to overreact. The paradox matters enormously in practice: treating a heart attack or stroke means restoring blood flow as fast as possible, while simultaneously managing the fact that doing so causes real additional harm.",
+          "note": "Yellon, D.M., Hausenloy, D.J. (2007). 'Myocardial Reperfusion Injury.' New England Journal of Medicine, 357(11), 1121–1135. Robustly documented across cardiology, stroke medicine, and transplant surgery (where a donor organ's blood supply is deliberately interrupted then restored); a substantial research effort has gone into drugs and techniques that blunt reperfusion injury without delaying reperfusion itself, with only partial clinical success so far.",
+          "links": [
+            "ef2"
+          ],
+          "keywords": [
+            "ischemia-reperfusion injury",
+            "reperfusion paradox",
+            "reactive oxygen species injury",
+            "myocardial reperfusion damage"
+          ]
+        },
+        {
+          "id": "ef12",
+          "group": "Cell Injury & Inflammation",
+          "label": "Fibrosis and Impaired Tissue Repair",
+          "date": "2008",
+          "loc": "Bethesda, Maryland",
+          "coords": [
+            38.99,
+            -77.1
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "When damage is too extensive or the tissue type can't regenerate its specialised cells, the body seals the wound with fibrous scar tissue instead — dense collagen that restores physical integrity but essentially none of the original function. A single scar after a cut is harmless; the same process happening repeatedly in the liver, lungs, or heart in response to chronic injury is how those organs progressively lose function over years, culminating in cirrhosis, pulmonary fibrosis, or post-infarction heart failure.",
+          "note": "Wynn, T.A. (2008). 'Cellular and molecular mechanisms of fibrosis.' The Journal of Pathology, 214(2), 199–210. Robustly established as the endpoint of chronic, unresolved inflammation across many organs (see db5); a major open question in current fibrosis research is whether the process can be pharmacologically reversed once established, rather than merely slowed.",
+          "links": [
+            "db5"
+          ],
+          "keywords": [
+            "fibrosis tissue repair",
+            "chronic organ scarring",
+            "collagen scar deposition",
+            "wynn fibrosis mechanism"
           ]
         }
       ]
@@ -953,7 +1010,8 @@
           "hint": "Coating a pathogen with antibodies or complement proteins makes it dramatically easier for phagocytes to recognise, grab, and engulf it — like seasoning a target to make it appetising. Almroth Wright named these coating molecules \"opsonins\" (from the Greek for \"to prepare food for\"), and the concept became the conceptual bridge connecting humoral immunity (antibodies) to cellular immunity (phagocytosis).",
           "note": "Wright, A.E., Douglas, S.R. (1903). 'An Experimental Investigation of the Role of the Blood Fluids in Connection with Phagocytosis.' Proceedings of the Royal Society, 72, 357–370. Wright's broader claims about measuring a patient's \"opsonic index\" for clinical diagnosis did not hold up and were satirised by George Bernard Shaw; the core opsonization concept itself, stripped of that clinical overreach, remains entirely standard immunology.",
           "links": [
-            "co1"
+            "co1",
+            "co10"
           ],
           "keywords": [
             "opsonization phagocytosis",
@@ -1095,6 +1153,57 @@
             "type i-iv hypersensitivity",
             "hypersensitivity reaction types",
             "allergic reaction mechanism classification"
+          ]
+        },
+        {
+          "id": "co9",
+          "group": "Cell Injury & Inflammation",
+          "label": "Necrosis vs. Apoptosis",
+          "date": "1972",
+          "loc": "Aberdeen, United Kingdom",
+          "coords": [
+            57.15,
+            -2.11
+          ],
+          "tag": "CONCEPT",
+          "hint": "Cells die two fundamentally different ways. Necrosis is accidental, messy death — the cell swells and bursts, spilling its contents and triggering inflammation in the surrounding tissue, as happens in a heart attack when oxygen-starved tissue dies. Apoptosis is orderly, programmed death — the cell shrinks, packages itself into membrane-bound fragments, and is quietly cleared away without alarming the immune system, as happens routinely in normal development and immune cell selection. Which pathway a dying cell takes has enormous consequences for the tissue around it.",
+          "note": "Kerr, J.F.R., Wyllie, A.H., Currie, A.R. (1972). 'Apoptosis: A Basic Biological Phenomenon with Wide-Ranging Implications in Tissue Kinetics.' British Journal of Cancer, 26(4), 239–257 — the paper that coined \"apoptosis\" and formally distinguished it from necrosis. The clean binary has been refined since: intermediate and overlapping death pathways (necroptosis, pyroptosis) are now recognised, but the original distinction remains the essential starting vocabulary.",
+          "links": [
+            "ef9",
+            "th5"
+          ],
+          "keywords": [
+            "necrosis vs apoptosis",
+            "kerr wyllie currie",
+            "programmed cell death pathway",
+            "accidental vs orderly death"
+          ],
+          "xlinks": [
+            "anatomy-histology::ef3"
+          ]
+        },
+        {
+          "id": "co10",
+          "group": "Innate Immunity",
+          "label": "The Complement System",
+          "date": "2010",
+          "loc": "Philadelphia, Pennsylvania",
+          "coords": [
+            39.95,
+            -75.16
+          ],
+          "tag": "CONCEPT",
+          "hint": "A cascade of blood proteins that activate each other in sequence the moment one of them detects a pathogen — some directly punch holes in a microbe's membrane to kill it outright, others coat it to mark it for phagocytosis, and others recruit more immune cells to the site. It's one of the oldest and most conserved weapons in the immune system, older than antibodies, and it doesn't just belong to innate immunity: complement fragments also help switch on the adaptive immune response.",
+          "note": "Ricklin, D., Hajishengallis, G., Yang, K., Lambris, J.D. (2010). 'Complement: a key system for immune surveillance and homeostasis.' Nature Immunology, 11(9), 785–797. Directly mechanistic with opsonization (see co2) — complement proteins are among the opsonins Almroth Wright originally described, decades before the cascade's molecular steps were worked out.",
+          "links": [
+            "co2",
+            "th9"
+          ],
+          "keywords": [
+            "complement system cascade",
+            "membrane attack complex",
+            "complement opsonization",
+            "innate adaptive immunity bridge"
           ]
         }
       ]
@@ -1666,7 +1775,9 @@
           "tag": "DEBATE",
           "hint": "The traditional view treats inflammation in conditions like atherosclerosis and type 2 diabetes as a downstream response to lipid and metabolic dysfunction. A major clinical trial complicated that picture: blocking a single inflammatory cytokine reduced cardiovascular events in patients whose cholesterol was already well controlled, meaning inflammation was doing causal work of its own, not just reacting to underlying lipid disease.",
           "note": "Ridker, P.M., Everett, B.M., Thuren, T., et al. (2017). 'Antiinflammatory Therapy with Canakinumab for Atherosclerotic Disease.' New England Journal of Medicine, 377(12), 1119–1131 (the CANTOS trial). The result reopened rather than settled the causal question — canakinumab's benefit was real but modest, and it remains debated how much of cardiometabolic disease is inflammation-driven versus lipid-driven, or whether the two are too intertwined to cleanly separate.",
-          "links": [],
+          "links": [
+            "ef12"
+          ],
           "keywords": [
             "inflammation metabolic disease debate",
             "cantos trial inflammation",
@@ -2084,6 +2195,16 @@
           "y": 2004,
           "l": "Tumour Immune Evasion",
           "entryId": "ef5"
+        },
+        {
+          "y": 2007,
+          "l": "Ischaemia-reperfusion injury",
+          "entryId": "ef11"
+        },
+        {
+          "y": 2008,
+          "l": "Fibrosis and impaired repair",
+          "entryId": "ef12"
         },
         {
           "y": 2010,

@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 1075,
+    "total_entries": 1079,
     "folio_count": 14,
-    "xlink_pairs": 53,
-    "keyword_terms": 4261,
+    "xlink_pairs": 54,
+    "keyword_terms": 4277,
     "folios": [
       {
         "id": "anatomy-histology",
@@ -43,7 +43,7 @@
       {
         "id": "pathology-immunology",
         "title": "Pathology, Immunology & Infectious Disease",
-        "entries": 73
+        "entries": 77
       },
       {
         "id": "physiology-organ-systems",
@@ -650,6 +650,8 @@
     "pathology-immunology::ef8": "effect · Adaptive Immunity · Immunological Memory (1996)",
     "pathology-immunology::ef9": "effect · Neoplasia & Cancer Biology · Loss of Contact Inhibition in Malignant Transformation (1979)",
     "pathology-immunology::ef10": "effect · Infectious Disease & Host-Pathogen Interaction · Antibiotic Resistance (2010)",
+    "pathology-immunology::ef11": "effect · Cell Injury & Inflammation · Ischaemia-Reperfusion Injury (2007)",
+    "pathology-immunology::ef12": "effect · Cell Injury & Inflammation · Fibrosis and Impaired Tissue Repair (2008)",
     "pathology-immunology::co1": "concept · Adaptive Immunity · Antigen and Epitope (1936)",
     "pathology-immunology::co2": "concept · Innate Immunity · Opsonization (1903)",
     "pathology-immunology::co3": "concept · Autoimmunity & Hypersensitivity · Central vs. Peripheral Tolerance (1995)",
@@ -658,6 +660,8 @@
     "pathology-immunology::co6": "concept · Innate Immunity · Chemokines (2000)",
     "pathology-immunology::co7": "concept · Adaptive Immunity · MHC Class I vs. Class II (2011)",
     "pathology-immunology::co8": "concept · Autoimmunity & Hypersensitivity · The Gell–Coombs Classification (1963)",
+    "pathology-immunology::co9": "concept · Cell Injury & Inflammation · Necrosis vs. Apoptosis (1972)",
+    "pathology-immunology::co10": "concept · Innate Immunity · The Complement System (2010)",
     "pathology-immunology::me1": "method · Adaptive Immunity · ELISA (1971)",
     "pathology-immunology::me2": "method · Adaptive Immunity · Flow Cytometry (1972)",
     "pathology-immunology::me3": "method · Infectious Disease & Host-Pathogen Interaction · Polymerase Chain Reaction for Pathogen Detection (1988)",
@@ -1430,6 +1434,12 @@
     ],
     "anatomy-histology::st3": [
       "pathology-immunology::th2"
+    ],
+    "pathology-immunology::co9": [
+      "anatomy-histology::ef3"
+    ],
+    "anatomy-histology::ef3": [
+      "pathology-immunology::co9"
     ],
     "pathology-immunology::fg1": [
       "anatomy-histology::fg5"
@@ -4925,6 +4935,18 @@
       "mrsa emergence",
       "antimicrobial resistance crisis"
     ],
+    "pathology-immunology::ef11": [
+      "ischemia-reperfusion injury",
+      "reperfusion paradox",
+      "reactive oxygen species injury",
+      "myocardial reperfusion damage"
+    ],
+    "pathology-immunology::ef12": [
+      "fibrosis tissue repair",
+      "chronic organ scarring",
+      "collagen scar deposition",
+      "wynn fibrosis mechanism"
+    ],
     "pathology-immunology::co1": [
       "antigen epitope specificity",
       "landsteiner immunochemistry",
@@ -4972,6 +4994,18 @@
       "type i-iv hypersensitivity",
       "hypersensitivity reaction types",
       "allergic reaction mechanism classification"
+    ],
+    "pathology-immunology::co9": [
+      "necrosis vs apoptosis",
+      "kerr wyllie currie",
+      "programmed cell death pathway",
+      "accidental vs orderly death"
+    ],
+    "pathology-immunology::co10": [
+      "complement system cascade",
+      "membrane attack complex",
+      "complement opsonization",
+      "innate adaptive immunity bridge"
     ],
     "pathology-immunology::me1": [
       "elisa assay",
@@ -14876,6 +14910,30 @@
     "antimicrobial resistance crisis": [
       "pathology-immunology::ef10"
     ],
+    "ischemia-reperfusion injury": [
+      "pathology-immunology::ef11"
+    ],
+    "reperfusion paradox": [
+      "pathology-immunology::ef11"
+    ],
+    "reactive oxygen species injury": [
+      "pathology-immunology::ef11"
+    ],
+    "myocardial reperfusion damage": [
+      "pathology-immunology::ef11"
+    ],
+    "fibrosis tissue repair": [
+      "pathology-immunology::ef12"
+    ],
+    "chronic organ scarring": [
+      "pathology-immunology::ef12"
+    ],
+    "collagen scar deposition": [
+      "pathology-immunology::ef12"
+    ],
+    "wynn fibrosis mechanism": [
+      "pathology-immunology::ef12"
+    ],
     "antigen epitope specificity": [
       "pathology-immunology::co1"
     ],
@@ -14971,6 +15029,30 @@
     ],
     "allergic reaction mechanism classification": [
       "pathology-immunology::co8"
+    ],
+    "necrosis vs apoptosis": [
+      "pathology-immunology::co9"
+    ],
+    "kerr wyllie currie": [
+      "pathology-immunology::co9"
+    ],
+    "programmed cell death pathway": [
+      "pathology-immunology::co9"
+    ],
+    "accidental vs orderly death": [
+      "pathology-immunology::co9"
+    ],
+    "complement system cascade": [
+      "pathology-immunology::co10"
+    ],
+    "membrane attack complex": [
+      "pathology-immunology::co10"
+    ],
+    "complement opsonization": [
+      "pathology-immunology::co10"
+    ],
+    "innate adaptive immunity bridge": [
+      "pathology-immunology::co10"
     ],
     "elisa assay": [
       "pathology-immunology::me1"
