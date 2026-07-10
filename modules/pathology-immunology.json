@@ -385,7 +385,180 @@
       "accent": "#117A65",
       "bg": "#F0FFF6",
       "subtitle": "Named, replicable patterns in cellular injury, immune response, and disease progression",
-      "entries": []
+      "entries": [
+        {
+          "id": "ef1",
+          "group": "Neoplasia & Cancer Biology",
+          "label": "The Warburg Effect",
+          "date": "1924",
+          "loc": "Boston, Massachusetts",
+          "coords": [
+            42.36,
+            -71.06
+          ],
+          "tag": "EFFECT",
+          "repl": "robust",
+          "hint": "Cancer cells across nearly every tumour type consistently burn glucose the wasteful way — fermenting it to lactate — even when there's ample oxygen to run efficient respiration instead. It's now understood as a deliberate metabolic strategy that supplies fast-dividing cells with the raw building blocks for new DNA, membranes and proteins, not evidence of broken mitochondria as Warburg first thought. It is also directly exploited in the clinic: FDG-PET cancer scans work by imaging exactly this excess glucose uptake.",
+          "note": "Vander Heiden, M.G., Cantley, L.C., Thompson, C.B. (2009). 'Understanding the Warburg Effect: The Metabolic Requirements of Cell Proliferation.' Science, 324(5930), 1029–1033 — the modern molecular reframing, building on Warburg's original 1924 observation (see st4). The phenomenon itself is extremely robust and clinically load-bearing (PET imaging); the open question is not whether it happens but why it's selected for — the leading view is that it trades energy efficiency for biosynthetic speed, driven by oncogenes like MYC and HIF-1, not the mitochondrial damage Warburg proposed.",
+          "links": [
+            "st4",
+            "th5"
+          ]
+        },
+        {
+          "id": "ef2",
+          "group": "Innate Immunity",
+          "label": "Cytokine Storm",
+          "date": "2019",
+          "loc": "Washington, D.C.",
+          "coords": [
+            38.9,
+            -77.02
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "A runaway immune response — cytokine signals amplifying more cytokine release in a feedback loop — can cause severe, sometimes fatal, damage to the very body the immune system is meant to protect. It shows up wherever a very fast, very strong immune activation occurs: severe sepsis, some viral infections, and as an on-target side effect of powerful cancer immunotherapies like CAR-T cells and checkpoint inhibitors.",
+          "note": "Lee, D.W., Santomasso, B.D., Locke, F.L., et al. (2019). 'ASTCT Consensus Grading for Cytokine Release Syndrome and Neurologic Toxicity Associated with Immune Effector Cells.' Biology of Blood and Marrow Transplantation, 25(4), 625–638 — the modern clinical grading standard, developed largely in response to CAR-T toxicity (see st10). The underlying biology was described earlier (Tisoncik, J.R., et al., 2012, 'Into the Eye of the Cytokine Storm,' Microbiology and Molecular Biology Reviews, 76(1), 16–32); severity thresholds and optimal management (e.g. tocilizumab timing) are still actively refined.",
+          "links": [
+            "st10"
+          ]
+        },
+        {
+          "id": "ef3",
+          "group": "Infectious Disease & Host-Pathogen Interaction",
+          "label": "Antigenic Drift and Shift",
+          "date": "1992",
+          "loc": "Memphis, Tennessee",
+          "coords": [
+            35.15,
+            -90.05
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Influenza evades immunity two different ways: slow, gradual mutation of its surface proteins (drift) erodes existing immunity year over year, which is why flu vaccines need reformulating annually, while an abrupt reassortment of entire gene segments between strains (shift) can create a virus nobody has any immunity to at all — the mechanism behind pandemic flu. The distinction explains both routine seasonal flu and rare pandemic flu with one underlying model.",
+          "note": "Webster, R.G., Bean, W.J., Gorman, O.T., Chambers, T.M., Kawaoka, Y. (1992). 'Evolution and ecology of influenza A viruses.' Microbiological Reviews, 56(1), 152–179. Extensively validated across decades of global influenza surveillance; the model correctly predicted that pandemic strains (1957, 1968, 2009) arise from reassortment events, often involving animal reservoirs.",
+          "links": []
+        },
+        {
+          "id": "ef4",
+          "group": "Autoimmunity & Hypersensitivity",
+          "label": "Molecular Mimicry",
+          "date": "2000",
+          "loc": "Oklahoma City, Oklahoma",
+          "coords": [
+            35.47,
+            -97.52
+          ],
+          "tag": "PHENOMENON",
+          "repl": "mixed",
+          "hint": "Sometimes a pathogen's proteins happen to resemble the body's own tissue closely enough that antibodies or T cells trained to attack the pathogen mistakenly attack the host too. The clearest confirmed case is rheumatic fever: antibodies against Group A Streptococcus cross-react with heart valve tissue, causing lasting cardiac damage weeks after a simple strep throat has cleared.",
+          "note": "Cunningham, M.W. (2000). 'Pathogenesis of Group A Streptococcal Infections.' Clinical Microbiology Reviews, 13(3), 470–511. The rheumatic fever mechanism is robustly established. As a general explanation extended to other autoimmune diseases (e.g. some proposed viral triggers of type 1 diabetes or multiple sclerosis), the evidence is considerably more circumstantial — cross-reactivity in a test tube doesn't prove it drives disease in a patient, so treat mimicry outside rheumatic fever as a plausible but not fully proven mechanism.",
+          "links": []
+        },
+        {
+          "id": "ef5",
+          "group": "Neoplasia & Cancer Biology",
+          "label": "Tumour Immune Evasion",
+          "date": "2004",
+          "loc": "St. Louis, Missouri",
+          "coords": [
+            38.63,
+            -90.2
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Tumours that survive long enough to be diagnosed have usually done more than out-grow the body's defences — many actively sabotage them, for instance by displaying PD-L1, a molecule that engages the immune system's own \"stand down\" checkpoint on T cells. This single mechanistic insight — that cancer can hijack a normal safety brake — is the entire rationale behind checkpoint inhibitor drugs.",
+          "note": "Dunn, G.P., Old, L.J., Schreiber, R.D. (2004). 'The Three Es of Cancer Immunoediting.' Annual Review of Immunology, 22, 329–360 — describing Elimination, Equilibrium, and Escape as the three phases of the tumour-immune relationship, with evasion (Escape) as the final stage. Robustly confirmed and directly clinically actionable (see st11); different tumours escape by different routes, so checkpoint blockade alone doesn't work for every cancer type.",
+          "links": [
+            "st11",
+            "st9"
+          ]
+        },
+        {
+          "id": "ef6",
+          "group": "Immunodeficiency & Immunotherapy",
+          "label": "Graft-Versus-Host Disease",
+          "date": "1966",
+          "loc": "Philadelphia, Pennsylvania",
+          "coords": [
+            39.95,
+            -75.16
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "When a patient receives a bone marrow or stem cell transplant from a donor, the transplanted immune cells can recognise the recipient's own body as foreign and attack it — the transplant attacking the patient, rather than the more familiar reverse. Rupert Billingham identified the three conditions required for this to happen: the graft must contain immune-competent cells, the recipient must express antigens the graft doesn't recognise as self, and the recipient must be unable to reject the graft first.",
+          "note": "Billingham, R.E. (1966). 'The biology of graft-versus-host reactions.' Harvey Lectures, 62, 21–78. Extremely well characterised clinically — GvHD remains a leading cause of transplant-related complications and mortality, managed today with immunosuppression and careful donor HLA matching; Billingham's own earlier tolerance work (see th4) makes this an unusually direct throughline from basic science to clinical hazard.",
+          "links": [
+            "th4"
+          ]
+        },
+        {
+          "id": "ef7",
+          "group": "Infectious Disease & Host-Pathogen Interaction",
+          "label": "Herd Immunity",
+          "date": "1993",
+          "loc": "London, United Kingdom",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "EFFECT",
+          "repl": "robust",
+          "hint": "Once enough of a population is immune to a disease, transmission chains break down even for the people who aren't immune — a kind of indirect protection that let vaccination campaigns eliminate diseases like smallpox without needing to vaccinate literally everyone. How high that threshold needs to be depends entirely on how contagious the specific disease is.",
+          "note": "Fine, P.E.M. (1993). 'Herd Immunity: History, Theory, Practice.' Epidemiologic Reviews, 15(2), 265–302. Robustly validated across numerous vaccination campaigns (measles, smallpox eradication in 1980). The precise threshold is disease-specific and was a genuine point of public confusion and political contention during COVID-19, where waning immunity and viral evolution complicated simple threshold estimates.",
+          "links": [
+            "st1"
+          ]
+        },
+        {
+          "id": "ef8",
+          "group": "Adaptive Immunity",
+          "label": "Immunological Memory",
+          "date": "1996",
+          "loc": "Atlanta, Georgia",
+          "coords": [
+            33.75,
+            -84.39
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "A second exposure to the same antigen produces a faster, larger, and higher-affinity immune response than the first ever did, because the initial exposure leaves behind long-lived memory B and T cells primed to respond immediately. This is the entire logic of vaccine booster doses, and it's why some infections (measles, chickenpox) confer lifelong protection after a single encounter while others don't.",
+          "note": "Ahmed, R., Gray, D. (1996). 'Immunological Memory and Protective Immunity: Understanding Their Relation.' Science, 272(5258), 54–60. A foundational, well-replicated concept, though the durability of memory varies enormously by pathogen and vaccine type — some memory responses last decades, others (like influenza and some coronaviruses) wane within a year or two, a distinction with direct implications for booster scheduling.",
+          "links": []
+        },
+        {
+          "id": "ef9",
+          "group": "Neoplasia & Cancer Biology",
+          "label": "Loss of Contact Inhibition in Malignant Transformation",
+          "date": "1979",
+          "loc": "London, United Kingdom",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Normal cells stop dividing once they're surrounded by neighbours on all sides — a built-in brake called contact inhibition. Cancer cells lose this brake and keep piling on top of each other and dividing regardless of crowding, which is exactly what a petri dish of transformed cells looks like under a microscope: a normal culture stops at a single flat layer, a malignant one keeps growing into disorganised heaps.",
+          "note": "Abercrombie, M. (1979). 'Contact inhibition and malignancy.' Nature, 281(5729), 259–262. A classic, robustly reproduced in vitro hallmark of transformation, still used today as a simple functional assay of malignant potential; the molecular mechanism (loss of contact-dependent signalling through proteins like E-cadherin and Merlin/NF2) was worked out decades later.",
+          "links": []
+        },
+        {
+          "id": "ef10",
+          "group": "Infectious Disease & Host-Pathogen Interaction",
+          "label": "Antibiotic Resistance",
+          "date": "2010",
+          "loc": "Vancouver, Canada",
+          "coords": [
+            49.28,
+            -123.12
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Bacterial populations exposed to an antibiotic rapidly evolve resistance to it, through selection of pre-existing resistant variants or new mutations, often exchanging resistance genes between species entirely. It is ordinary natural selection playing out on a timescale of years rather than millennia, and it means every antibiotic humanity has ever deployed has a resistant strain emerging somewhere in response.",
+          "note": "Davies, J., Davies, D. (2010). 'Origins and Evolution of Antibiotic Resistance.' Microbiology and Molecular Biology Reviews, 74(3), 417–433. One of the most robustly documented phenomena in biology — resistance genes have even been found in bacteria from environments untouched by human antibiotics, showing the underlying resistance mechanisms substantially predate clinical antibiotic use. Now a recognised global public health crisis (WHO priority pathogen lists).",
+          "links": []
+        }
+      ]
     },
     {
       "id": "concept",
@@ -395,7 +568,137 @@
       "accent": "#566573",
       "bg": "#F5F6FA",
       "subtitle": "The building blocks and vocabulary every student must command",
-      "entries": []
+      "entries": [
+        {
+          "id": "co1",
+          "group": "Adaptive Immunity",
+          "label": "Antigen and Epitope",
+          "date": "1936",
+          "loc": "New York, New York",
+          "coords": [
+            40.71,
+            -74.01
+          ],
+          "tag": "CONCEPT",
+          "hint": "An antigen is any molecule that can trigger an immune response; an epitope is the specific small patch on that molecule that an antibody or T-cell receptor physically binds. A single large antigen — a whole virus, say — typically carries many different epitopes, which is why the immune response to one pathogen is really many independent responses happening at once.",
+          "note": "Landsteiner, K. (1936). The Specificity of Serological Reactions. Springfield: Charles C. Thomas. Landsteiner's meticulous immunochemistry (he also discovered the ABO blood groups) established that antibody specificity is exquisitely fine-grained — down to single chemical substitutions — a finding that still anchors how antigen specificity is taught.",
+          "links": []
+        },
+        {
+          "id": "co2",
+          "group": "Innate Immunity",
+          "label": "Opsonization",
+          "date": "1903",
+          "loc": "London, United Kingdom",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "CONCEPT",
+          "hint": "Coating a pathogen with antibodies or complement proteins makes it dramatically easier for phagocytes to recognise, grab, and engulf it — like seasoning a target to make it appetising. Almroth Wright named these coating molecules \"opsonins\" (from the Greek for \"to prepare food for\"), and the concept became the conceptual bridge connecting humoral immunity (antibodies) to cellular immunity (phagocytosis).",
+          "note": "Wright, A.E., Douglas, S.R. (1903). 'An Experimental Investigation of the Role of the Blood Fluids in Connection with Phagocytosis.' Proceedings of the Royal Society, 72, 357–370. Wright's broader claims about measuring a patient's \"opsonic index\" for clinical diagnosis did not hold up and were satirised by George Bernard Shaw; the core opsonization concept itself, stripped of that clinical overreach, remains entirely standard immunology.",
+          "links": [
+            "co1"
+          ]
+        },
+        {
+          "id": "co3",
+          "group": "Autoimmunity & Hypersensitivity",
+          "label": "Central vs. Peripheral Tolerance",
+          "date": "1995",
+          "loc": "Tokyo, Japan",
+          "coords": [
+            35.68,
+            139.65
+          ],
+          "tag": "CONCEPT",
+          "hint": "The immune system polices itself in two stages: central tolerance deletes most self-reactive T and B cells during their development in the thymus and bone marrow, and peripheral tolerance — including a dedicated cell type, regulatory T cells — mops up whatever self-reactive cells slip through afterward. Autoimmune disease can arise from a failure at either stage, which is why the concept matters beyond pure theory.",
+          "note": "Sakaguchi, S., Sakaguchi, N., Asano, M., Itoh, M., Toda, M. (1995). 'Immunologic Self-Tolerance Maintained by Activated T Cells Expressing IL-2 Receptor Alpha-Chains (CD25).' Journal of Immunology, 155(3), 1151–1164 — the paper that put regulatory T cells (Tregs) on firm experimental footing, decisively confirming the peripheral half of this framework. The central/peripheral distinction itself is now standard, textbook immunology.",
+          "links": [
+            "th4"
+          ]
+        },
+        {
+          "id": "co4",
+          "group": "Neoplasia & Cancer Biology",
+          "label": "Tumour Angiogenesis",
+          "date": "1971",
+          "loc": "Boston, Massachusetts",
+          "coords": [
+            42.36,
+            -71.06
+          ],
+          "tag": "CONCEPT",
+          "hint": "A tumour can't grow past a couple of millimetres on diffusion alone — it needs its own blood supply, so it actively secretes signals that recruit new blood vessels to grow toward it. Judah Folkman proposed that cutting off this blood supply, rather than attacking the tumour cells directly, could be a viable cancer treatment strategy — an idea that took over twenty years to yield an approved drug, but eventually did.",
+          "note": "Folkman, J. (1971). 'Tumor Angiogenesis: Therapeutic Implications.' New England Journal of Medicine, 285(21), 1182–1186. Validated by the 2004 FDA approval of bevacizumab (Avastin), an anti-VEGF antibody; anti-angiogenic therapy has proven more useful in combination with other treatments than as a standalone cure, and tumours frequently evolve resistance to it.",
+          "links": []
+        },
+        {
+          "id": "co5",
+          "group": "Neoplasia & Cancer Biology",
+          "label": "The Metastatic Cascade",
+          "date": "1889",
+          "loc": "London, United Kingdom",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "CONCEPT",
+          "hint": "Cancer doesn't spread by accident — it follows a specific multi-step sequence: local invasion into surrounding tissue, entry into blood or lymph vessels, survival while circulating, exit into a new tissue, and finally successful growth in that unfamiliar environment. Most cancer cells that enter circulation fail at one of these steps, which is why metastasis, though the leading cause of cancer death, is actually a very inefficient process from the tumour's perspective.",
+          "note": "Paget, S. (1889). 'The Distribution of Secondary Growths in Cancer of the Breast.' The Lancet, 133(3421), 571–573 — the original \"seed and soil\" hypothesis, proposing metastasis depends on compatibility between cancer cells (\"seeds\") and the target organ environment (\"soil\"), not just anatomical proximity. Revisited and substantially confirmed at the molecular level over a century later (Fidler, I.J., 2003, 'The Pathogenesis of Cancer Metastasis: The Seed and Soil Hypothesis Revisited,' Nature Reviews Cancer, 3(6), 453–458).",
+          "links": [
+            "co4"
+          ]
+        },
+        {
+          "id": "co6",
+          "group": "Innate Immunity",
+          "label": "Chemokines",
+          "date": "2000",
+          "loc": "Palo Alto, California",
+          "coords": [
+            37.44,
+            -122.14
+          ],
+          "tag": "CONCEPT",
+          "hint": "Chemokines are a specific family of small signalling proteins whose job is to tell immune cells which direction to move in — laying down a chemical trail that draws phagocytes and lymphocytes toward an infection or, less helpfully, that tumours can hijack to attract cells that help them grow. They're a functionally distinct subset of the broader category of cytokines, immune cell-to-cell signals in general.",
+          "note": "Zlotnik, A., Yoshie, O. (2000). 'Chemokines: A New Classification System and Their Role in Immunity.' Immunity, 12(2), 121–127 — established the modern CXC/CC/C/CX3C structural classification still used today. The system has needed only minor extension since, as new chemokines and their receptors continue to be characterised.",
+          "links": []
+        },
+        {
+          "id": "co7",
+          "group": "Adaptive Immunity",
+          "label": "MHC Class I vs. Class II",
+          "date": "2011",
+          "loc": "Amsterdam, Netherlands",
+          "coords": [
+            52.37,
+            4.9
+          ],
+          "tag": "CONCEPT",
+          "hint": "Nearly every cell in the body displays MHC Class I molecules carrying fragments of its own internal proteins, letting killer T cells check whether a cell has been hijacked by a virus from the inside. Specialised immune cells alone display MHC Class II, carrying fragments of material they've swallowed from outside, for helper T cells to inspect. The two-track system lets the adaptive immune system separately monitor \"what's wrong inside this cell\" and \"what's out there in the body.\"",
+          "note": "Neefjes, J., Jongsma, M.L.M., Paul, P., Bakke, O. (2011). 'Towards a systems understanding of MHC class I and MHC class II antigen presentation.' Nature Reviews Immunology, 11(12), 823–836. Builds on the MHC restriction phenomenon Zinkernagel and Doherty first demonstrated (see st7, th3); the Class I/II distinction is standard, well-established immunology, foundational to how vaccines and transplant matching are designed.",
+          "links": [
+            "st7",
+            "th3"
+          ]
+        },
+        {
+          "id": "co8",
+          "group": "Autoimmunity & Hypersensitivity",
+          "label": "The Gell–Coombs Classification",
+          "date": "1963",
+          "loc": "Cambridge, United Kingdom",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "tag": "CONCEPT",
+          "hint": "Not all allergic or immune-mediated tissue damage works the same way — Philip Gell and Robin Coombs sorted hypersensitivity reactions into four mechanistic types: Type I is immediate IgE-mediated allergy (hay fever, anaphylaxis), Type II is antibody attacking a specific cell surface (some transfusion reactions), Type III is immune complexes depositing in tissue (some forms of lupus), and Type IV is delayed T-cell-mediated reaction (contact dermatitis, tuberculin skin tests). The scheme is still the standard way to teach why allergic and autoimmune reactions look so different from each other.",
+          "note": "Gell, P.G.H., Coombs, R.R.A. (1963). Clinical Aspects of Immunology. Oxford: Blackwell Scientific Publications. A classification system, not a falsifiable hypothesis, so it isn't \"replicated\" in the usual sense — but it has proven durable enough that it's still the standard teaching framework six decades later, with only minor proposed extensions (e.g. a sometimes-cited Type V for stimulatory autoantibodies).",
+          "links": []
+        }
+      ]
     },
     {
       "id": "method",
