@@ -38,7 +38,9 @@
           "hint": "A set of four criteria for proving a microorganism causes a specific disease: it must be found in every case, isolated in pure culture, reproduce the disease when introduced into a healthy host, and be re-isolated from that host. Robert Koch formalized these after using them to prove Bacillus anthracis caused anthrax and Mycobacterium tuberculosis caused tuberculosis. They turned \"germ theory\" from a plausible idea into a testable, falsifiable standard.",
           "note": "Koch, R. (1884). 'Die Aetiologie der Tuberkulose.' Mittheilungen aus dem Kaiserlichen Gesundheitsamte, 2, 1–88. The postulates have been formally revised since — many real pathogens (e.g. viruses that need host cells to culture, asymptomatic carriers, polymicrobial disease) fail one or more criteria, and molecular \"Koch's postulates\" (Fredricks & Relman, 1996) were proposed to accommodate genomic-era pathogen detection. Still taught as the conceptual baseline for causal proof in infectious disease.",
           "links": [
-            "st2"
+            "st2",
+            "st1",
+            "fg2"
           ]
         },
         {
@@ -54,7 +56,9 @@
           "tag": "THEORY",
           "hint": "Rudolf Virchow's claim that all disease originates in disturbances at the level of the individual cell — \"omnis cellula e cellula,\" every cell arises from a pre-existing cell — displacing the older humoral theory that disease came from imbalances in bodily fluids. It relocated the search for the cause of disease from the whole body down to the microscope, making cell injury the organizing unit of pathology.",
           "note": "Virchow, R. (1858). Die Cellularpathologie in ihrer Begründung auf physiologische und pathologische Gewebelehre. Berlin: August Hirschwald. The theory itself is not something modern pathology has \"failed to replicate\" — it is the field's founding axiom, still structurally correct — but Virchow's specific mechanistic claims (e.g. about the origin of certain tumors) have been superseded by molecular genetics.",
-          "links": []
+          "links": [
+            "fg1"
+          ]
         },
         {
           "id": "th3",
@@ -70,7 +74,9 @@
           "hint": "Each lymphocyte is pre-committed, before ever meeting an antigen, to recognise just one specific antigen shape; encountering that antigen triggers the cell to proliferate into a clone of identical antibody-producing offspring. Macfarlane Burnet's theory replaced the older \"instructionist\" idea that antigens physically mould antibodies, explaining both immune specificity and immunological memory as products of selection, not construction.",
           "note": "Burnet, F.M. (1957). 'A modification of Jerne's theory of antibody production using the concept of clonal selection.' Australian Journal of Science, 20, 67–69. Confirmed decisively by later cellular and molecular immunology (single-cell antibody specificity, receptor gene rearrangement); Niels Jerne's earlier natural-selection framework (1955) anticipated part of the idea, and Burnet credited him in the title.",
           "links": [
-            "st7"
+            "st7",
+            "co7",
+            "fg7"
           ]
         },
         {
@@ -86,7 +92,12 @@
           "tag": "THEORY",
           "hint": "The immune system's ability to distinguish self from non-self is not fixed at birth — it can be actively taught. Exposing a mouse fetus to foreign cells before its immune system matures makes the adult mouse permanently tolerant of tissue from that same foreign donor. This showed self/non-self discrimination is a learned developmental process, not a hard-wired one, which underpins the entire logic of organ transplantation.",
           "note": "Billingham, R.E., Brent, L., Medawar, P.B. (1953). 'Actively acquired tolerance of foreign cells.' Nature, 172, 603–606. Built on Ray Owen's 1945 observation that non-identical twin cattle sharing a placenta become natural blood-cell chimeras. Medawar shared the 1960 Nobel Prize with Burnet for this work; the tolerance mechanisms have since been substantially refined (central thymic deletion, peripheral regulatory T cells) beyond the original model.",
-          "links": []
+          "links": [
+            "ef6",
+            "co3",
+            "fg8",
+            "ap7"
+          ]
         },
         {
           "id": "th5",
@@ -102,7 +113,9 @@
           "hint": "A cancer cell must acquire a specific set of capabilities to become malignant: it makes its own growth signals, ignores signals to stop dividing, resists programmed cell death, achieves limitless replication, builds its own blood supply, and invades other tissue. Douglas Hanahan and Robert Weinberg's framework gave cancer biology a shared vocabulary for an otherwise bewilderingly diverse disease, organizing decades of scattered findings into one causal logic.",
           "note": "Hanahan, D., Weinberg, R.A. (2000). 'The Hallmarks of Cancer.' Cell, 100(1), 57–70. The 2011 update ('Hallmarks of Cancer: The Next Generation,' Cell, 144(5), 646–674) added two more hallmarks directly relevant to this folio: reprogrammed energy metabolism (the Warburg effect) and evading immune destruction. Extremely widely cited and taught, though critics note it describes convergent end-states rather than a single unified mechanism.",
           "links": [
-            "st4"
+            "st4",
+            "ef1",
+            "db1"
           ]
         },
         {
@@ -133,7 +146,9 @@
           "tag": "THEORY",
           "hint": "The immune system doesn't just fight infection — it continuously patrols the body for cells that have turned cancerous and eliminates most of them before a tumour ever forms. On this view, the cancers we actually see are the rare ones that evolved ways to hide from or disable this surveillance. It reframed cancer as, in part, an immunological failure rather than a purely cellular one.",
           "note": "Burnet, F.M. (1970). 'The concept of immunological surveillance.' Progress in Experimental Tumor Research, 13, 1–27 — building on an earlier idea sketched by Lewis Thomas in 1959. The theory fell out of favour in the 1970s when early immunodeficient (nude) mice showed no major increase in spontaneous tumours, but was substantially rehabilitated from the 1990s onward with better mouse models and the discovery of tumour-infiltrating lymphocytes; it is now the theoretical basis for cancer immunotherapy.",
-          "links": []
+          "links": [
+            "fg7"
+          ]
         },
         {
           "id": "th8",
@@ -148,7 +163,9 @@
           "tag": "THEORY",
           "hint": "Children raised with less exposure to microbes, older siblings, and everyday dirt grow up with higher rates of allergic and autoimmune disease, because their immune systems miss developmental exposures needed to calibrate normal tolerance. David Strachan proposed this after finding hay fever was rarer in children from larger families. It turned rising allergy rates in wealthy countries into evidence about immune development rather than just genetics.",
           "note": "Strachan, D.P. (1989). 'Hay fever, hygiene, and household size.' BMJ, 299(6710), 1259–1260. The original \"fewer infections\" framing has been substantially revised: the strongest current evidence points to reduced exposure to harmless environmental and commensal microbes (the \"old friends\" hypothesis), not fewer childhood infections specifically, as the operative mechanism — infections themselves can worsen allergic disease.",
-          "links": []
+          "links": [
+            "db3"
+          ]
         },
         {
           "id": "th9",
@@ -163,7 +180,9 @@
           "tag": "THEORY",
           "hint": "Specialised mobile cells inside the body actively hunt down, engulf, and digest invading microbes — this is the immune system's front line, not a passive chemical reaction. Ilya Metchnikoff reached this conclusion after watching mobile cells in a transparent starfish larva swarm around a splinter he had inserted, and named the process phagocytosis. It was the founding claim of cellular, as opposed to purely chemical (humoral), immunology.",
           "note": "Metchnikoff, E. (1883). 'Untersuchungen über die intracellulare Verdauung bei wirbellosen Thieren.' Arbeiten aus dem Zoologischen Institute der Universität Wien, 5, 141–168. Metchnikoff shared the 1908 Nobel Prize with Paul Ehrlich, whose rival humoral (antibody-based) theory of immunity turned out to be equally correct — the two mechanisms are now understood as complementary arms (innate cellular vs. adaptive humoral) of one immune system, not competitors.",
-          "links": []
+          "links": [
+            "fg4"
+          ]
         },
         {
           "id": "th10",
@@ -206,7 +225,9 @@
           "hint": "Edward Jenner inoculated an eight-year-old boy, James Phipps, with matter from a cowpox lesion, then deliberately exposed him to smallpox — the boy stayed healthy. Milkmaids who had caught cowpox were known locally to be immune to smallpox; Jenner turned that folk observation into a controlled, repeatable procedure, coining the word \"vaccine\" from vacca, Latin for cow.",
           "note": "Jenner, E. (1798). An Inquiry into the Causes and Effects of the Variolae Vaccinae. London: Sampson Low. The original demonstration was a single patient and would not meet modern experimental standards, but the underlying finding — cross-immunity between cowpox and smallpox — was validated by two more centuries of vaccination and by smallpox's eradication in 1980, the only human disease eliminated this way to date.",
           "links": [
-            "th1"
+            "th1",
+            "ef7",
+            "fg5"
           ]
         },
         {
@@ -224,7 +245,8 @@
           "hint": "Robert Koch identified, stained, cultured, and reintroduced the tuberculosis bacillus into animals, satisfying his own postulates and proving that a single specific microorganism — not miasma, heredity, or bad air — caused the disease responsible for roughly one in seven deaths in Europe at the time. He announced it to the Berlin Physiological Society on 24 March 1882.",
           "note": "Koch, R. (1882). 'Die Aetiologie der Tuberkulose.' Berliner Klinische Wochenschrift, 19, 221–230. One of the most thoroughly validated findings in the history of medicine; Mycobacterium tuberculosis remains the confirmed causative agent, and the discovery directly enabled the century-long public health effort against TB that continues today.",
           "links": [
-            "th1"
+            "th1",
+            "fg2"
           ]
         },
         {
@@ -258,7 +280,10 @@
           "hint": "Otto Warburg found that cancer cells generate most of their energy by fermenting glucose into lactate even when plenty of oxygen is available to run the far more efficient process of respiration — a wasteful-looking strategy healthy cells only use when starved of oxygen. This became known as the Warburg effect, and it's now exploited directly: PET scans detect tumours by imaging exactly this excess glucose uptake.",
           "note": "Warburg, O. (1924). 'Über den Stoffwechsel der Carcinomzelle.' Biochemische Zeitschrift, 152, 309–344; summarised in English in Warburg, O. (1956). 'On the origin of cancer cells.' Science, 123(3191), 309–314. The metabolic observation is robust and extensively replicated. Warburg's own causal explanation — that irreversible damage to mitochondrial respiration is the primary cause of cancer — has been largely superseded: aerobic glycolysis is now understood mostly as a downstream consequence of oncogene activation (MYC, PI3K/AKT, HIF-1) rather than the root cause, and whether it is a cause or a consequence of malignancy remains actively debated.",
           "links": [
-            "th5"
+            "th5",
+            "ef1",
+            "fg9",
+            "db1"
           ]
         },
         {
@@ -275,7 +300,9 @@
           "repl": "robust",
           "hint": "George Gey's lab successfully grew the first human cell line that would divide indefinitely outside the body, derived from a cervical cancer biopsy taken from a patient named Henrietta Lacks without her knowledge or consent. HeLa cells went on to enable the development of the polio vaccine, in vitro fertilisation techniques, and much of modern cell biology — a single unauthorised biopsy underwrites an enormous share of 20th-century medicine.",
           "note": "Gey, G.O., Coffman, W.D., Kubicek, M.T. (1952). 'Tissue culture studies of the proliferative capacity of cervical carcinoma and normal epithelium.' Cancer Research, 12, 264–265. The immortality and research utility of the line is beyond dispute after 70+ years of continuous use; the serious ethical controversy over consent, privacy, and commercial use of Lacks's cells without her family's knowledge (only settled in part by a 2013 NIH agreement with her descendants) is a landmark case in research ethics.",
-          "links": []
+          "links": [
+            "db2"
+          ]
         },
         {
           "id": "st6",
@@ -291,7 +318,9 @@
           "repl": "robust",
           "hint": "Barry Marshall drank a Petri dish culture of Helicobacter pylori and developed acute gastritis days later, deliberately fulfilling Koch's postulates on himself after his and Robin Warren's bacterial theory of ulcers was widely dismissed — the medical consensus of the time held that ulcers were caused by stress and stomach acid alone. The stunt, combined with the underlying research, overturned decades of dogma and made most peptic ulcers a curable bacterial infection instead of a chronic condition managed with acid suppressants.",
           "note": "Marshall, B.J., Warren, J.R. (1984). 'Unidentified curved bacilli in the stomach of patients with gastritis and peptic ulceration.' The Lancet, 323(8390), 1311–1315; self-experiment reported in Marshall, B.J., Armstrong, J.A., McGechie, D.B., Glancy, R.J. (1985). 'Attempt to fulfil Koch's postulates for pyloric Campylobacter.' Medical Journal of Australia, 142(8), 436–439. Robustly confirmed and clinically transformative — Marshall and Warren shared the 2005 Nobel Prize; antibiotic treatment of H. pylori is now standard of care for most peptic ulcer disease.",
-          "links": []
+          "links": [
+            "fg12"
+          ]
         },
         {
           "id": "st7",
@@ -308,7 +337,8 @@
           "hint": "Killer T cells from a virus-infected mouse could destroy infected cells from a genetically identical mouse, but not equally infected cells from a different mouse strain — meaning T cells don't just recognise the virus, they recognise virus plus the body's own \"self\" tissue-marker molecules (MHC) at the same time. Rolf Zinkernagel and Peter Doherty's mouse experiments revealed the basic grammar of how the adaptive immune system reads infected cells, a mechanism nobody had predicted.",
           "note": "Zinkernagel, R.M., Doherty, P.C. (1974). 'Restriction of in vitro T cell-mediated cytotoxicity in lymphocytic choriomeningitis within a syngeneic or semiallogeneic system.' Nature, 248(5450), 701–702. Foundational and unchallenged since; it won the 1996 Nobel Prize and underlies the entire modern understanding of antigen presentation, transplant rejection, and T-cell vaccine design.",
           "links": [
-            "th3"
+            "th3",
+            "co7"
           ]
         },
         {
@@ -341,7 +371,9 @@
           "repl": "mixed",
           "hint": "Steven Rosenberg's team treated patients with advanced, otherwise untreatable metastatic cancer using their own immune cells, grown and activated outside the body with the T-cell growth factor interleukin-2, then reinfused. Some patients — including a minority with melanoma and kidney cancer — had dramatic, durable tumour regressions, becoming the first solid proof that a person's own immune system could be deliberately weaponised against their cancer.",
           "note": "Rosenberg, S.A., Lotze, M.T., Muul, L.M., et al. (1985). 'Observations on the systemic administration of autologous lymphokine-activated killer cells and recombinant interleukin-2 to patients with metastatic cancer.' New England Journal of Medicine, 313(23), 1485–1492. Response rates were real but modest and inconsistent (roughly 15–20% of patients, concentrated in melanoma and renal cell carcinoma), with severe treatment toxicity from high-dose IL-2 — later superseded and complemented by checkpoint inhibitors and engineered CAR-T cells, but this was the proof of principle that made those approaches worth pursuing.",
-          "links": []
+          "links": [
+            "ef5"
+          ]
         },
         {
           "id": "st10",
@@ -357,7 +389,11 @@
           "repl": "robust",
           "hint": "A seven-year-old girl with relapsed, chemotherapy-resistant leukemia was infused with her own T cells, genetically engineered to carry a chimeric antigen receptor targeting the protein CD19 on her cancer cells. She went into complete remission within a month, becoming the first pediatric patient to demonstrate that CAR-T cell therapy could work — a treatment now approved and used worldwide for relapsed B-cell leukemias.",
           "note": "Grupp, S.A., Kalos, M., Barrett, D., et al. (2013). 'Chimeric antigen receptor–modified T cells for acute lymphoid leukemia.' New England Journal of Medicine, 368(16), 1509–1518. Widely replicated — CAR-T therapy (tisagenlecleucel, brand name Kymriah) received FDA approval in 2017 and is now standard for relapsed/refractory B-cell ALL. Serious caveats remain: cytokine release syndrome and neurotoxicity are common acute risks, and CAR-T has so far shown far less success against solid tumours than blood cancers.",
-          "links": []
+          "links": [
+            "ef2",
+            "db6",
+            "ap1"
+          ]
         },
         {
           "id": "st11",
@@ -373,7 +409,10 @@
           "repl": "robust",
           "hint": "James Allison's lab showed that blocking a single molecule, CTLA-4, which normally acts as a brake on T cells, was enough to make a mouse's own immune system attack and shrink established tumours. The insight — that the real obstacle to fighting cancer is often not a weak immune system but an immune system held back by its own checkpoints — created an entirely new drug category, checkpoint inhibitors, built on releasing the brake rather than pressing the accelerator.",
           "note": "Leach, D.R., Krummel, M.F., Allison, J.P. (1996). 'Enhancement of antitumor immunity by CTLA-4 blockade.' Science, 271(5256), 1734–1736. Directly led to ipilimumab, the first checkpoint inhibitor approved by the FDA (2011, for melanoma); Allison shared the 2018 Nobel Prize with Tasuku Honjo, whose parallel discovery of the PD-1 checkpoint led to a second major drug class. Response is far from universal — many tumour types show little benefit, and predicting which patients will respond remains an open clinical problem.",
-          "links": []
+          "links": [
+            "ef5",
+            "fg10"
+          ]
         }
       ]
     },
@@ -402,7 +441,9 @@
           "note": "Vander Heiden, M.G., Cantley, L.C., Thompson, C.B. (2009). 'Understanding the Warburg Effect: The Metabolic Requirements of Cell Proliferation.' Science, 324(5930), 1029–1033 — the modern molecular reframing, building on Warburg's original 1924 observation (see st4). The phenomenon itself is extremely robust and clinically load-bearing (PET imaging); the open question is not whether it happens but why it's selected for — the leading view is that it trades energy efficiency for biosynthetic speed, driven by oncogenes like MYC and HIF-1, not the mitochondrial damage Warburg proposed.",
           "links": [
             "st4",
-            "th5"
+            "th5",
+            "fg9",
+            "db1"
           ]
         },
         {
@@ -471,7 +512,11 @@
           "note": "Dunn, G.P., Old, L.J., Schreiber, R.D. (2004). 'The Three Es of Cancer Immunoediting.' Annual Review of Immunology, 22, 329–360 — describing Elimination, Equilibrium, and Escape as the three phases of the tumour-immune relationship, with evasion (Escape) as the final stage. Robustly confirmed and directly clinically actionable (see st11); different tumours escape by different routes, so checkpoint blockade alone doesn't work for every cancer type.",
           "links": [
             "st11",
-            "st9"
+            "st9",
+            "fg10",
+            "fg11",
+            "db6",
+            "ap2"
           ]
         },
         {
@@ -507,7 +552,8 @@
           "hint": "Once enough of a population is immune to a disease, transmission chains break down even for the people who aren't immune — a kind of indirect protection that let vaccination campaigns eliminate diseases like smallpox without needing to vaccinate literally everyone. How high that threshold needs to be depends entirely on how contagious the specific disease is.",
           "note": "Fine, P.E.M. (1993). 'Herd Immunity: History, Theory, Practice.' Epidemiologic Reviews, 15(2), 265–302. Robustly validated across numerous vaccination campaigns (measles, smallpox eradication in 1980). The precise threshold is disease-specific and was a genuine point of public confusion and political contention during COVID-19, where waning immunity and viral evolution complicated simple threshold estimates.",
           "links": [
-            "st1"
+            "st1",
+            "db7"
           ]
         },
         {
@@ -556,7 +602,9 @@
           "repl": "robust",
           "hint": "Bacterial populations exposed to an antibiotic rapidly evolve resistance to it, through selection of pre-existing resistant variants or new mutations, often exchanging resistance genes between species entirely. It is ordinary natural selection playing out on a timescale of years rather than millennia, and it means every antibiotic humanity has ever deployed has a resistant strain emerging somewhere in response.",
           "note": "Davies, J., Davies, D. (2010). 'Origins and Evolution of Antibiotic Resistance.' Microbiology and Molecular Biology Reviews, 74(3), 417–433. One of the most robustly documented phenomena in biology — resistance genes have even been found in bacteria from environments untouched by human antibiotics, showing the underlying resistance mechanisms substantially predate clinical antibiotic use. Now a recognised global public health crisis (WHO priority pathogen lists).",
-          "links": []
+          "links": [
+            "ap6"
+          ]
         }
       ]
     },
@@ -582,7 +630,10 @@
           "tag": "CONCEPT",
           "hint": "An antigen is any molecule that can trigger an immune response; an epitope is the specific small patch on that molecule that an antibody or T-cell receptor physically binds. A single large antigen — a whole virus, say — typically carries many different epitopes, which is why the immune response to one pathogen is really many independent responses happening at once.",
           "note": "Landsteiner, K. (1936). The Specificity of Serological Reactions. Springfield: Charles C. Thomas. Landsteiner's meticulous immunochemistry (he also discovered the ABO blood groups) established that antibody specificity is exquisitely fine-grained — down to single chemical substitutions — a finding that still anchors how antigen specificity is taught.",
-          "links": []
+          "links": [
+            "co2",
+            "fg6"
+          ]
         },
         {
           "id": "co2",
@@ -631,7 +682,9 @@
           "tag": "CONCEPT",
           "hint": "A tumour can't grow past a couple of millimetres on diffusion alone — it needs its own blood supply, so it actively secretes signals that recruit new blood vessels to grow toward it. Judah Folkman proposed that cutting off this blood supply, rather than attacking the tumour cells directly, could be a viable cancer treatment strategy — an idea that took over twenty years to yield an approved drug, but eventually did.",
           "note": "Folkman, J. (1971). 'Tumor Angiogenesis: Therapeutic Implications.' New England Journal of Medicine, 285(21), 1182–1186. Validated by the 2004 FDA approval of bevacizumab (Avastin), an anti-VEGF antibody; anti-angiogenic therapy has proven more useful in combination with other treatments than as a standalone cure, and tumours frequently evolve resistance to it.",
-          "links": []
+          "links": [
+            "co5"
+          ]
         },
         {
           "id": "co5",
@@ -779,7 +832,9 @@
           "tag": "METHOD",
           "hint": "Fusing a single antibody-producing immune cell with an immortal cancer cell creates a hybrid cell — a hybridoma — that combines the immune cell's ability to make one specific, pure antibody with the cancer cell's ability to divide forever. This single trick made it possible to manufacture unlimited quantities of any desired antibody, and underlies most modern antibody-based drugs, from checkpoint inhibitors to countless diagnostic tests.",
           "note": "Köhler, G., Milstein, C. (1975). 'Continuous cultures of fused cells secreting antibody of predefined specificity.' Nature, 256(5517), 495–497. Köhler and Milstein shared the 1984 Nobel Prize; notably, they deliberately did not patent the technique, a decision later widely debated given the enormous commercial value monoclonal antibody drugs went on to generate.",
-          "links": []
+          "links": [
+            "ap4"
+          ]
         },
         {
           "id": "me6",
@@ -991,7 +1046,8 @@
           "note": "Leach, Krummel, Allison, 'Enhancement of Antitumor Immunity by CTLA-4 Blockade' (1996); shared the 2018 Nobel Prize with Tasuku Honjo. His CTLA-4 antibody became ipilimumab, the first FDA-approved checkpoint inhibitor (2011).",
           "links": [
             "st11",
-            "ef5"
+            "ef5",
+            "ap2"
           ]
         },
         {
@@ -1008,7 +1064,8 @@
           "hint": "Discovered PD-1, a second and independent immune checkpoint molecule distinct from CTLA-4, initially while studying genes involved in programmed cell death. Drugs blocking PD-1 (pembrolizumab, nivolumab) have since become the most widely used class of cancer immunotherapy, often better tolerated than CTLA-4 blockade.",
           "note": "Ishida, Y., Agata, Y., Shibahara, K., Honjo, T. (1992). 'Induced expression of PD-1, a novel member of the immunoglobulin gene superfamily, upon programmed cell death.' The EMBO Journal, 11(11), 3887–3895. Shared the 2018 Nobel Prize with James Allison; PD-1/PD-L1 blockade is now backbone therapy across dozens of cancer types.",
           "links": [
-            "ef5"
+            "ef5",
+            "ap2"
           ]
         },
         {
@@ -1105,7 +1162,9 @@
           "tag": "DEBATE",
           "hint": "Randomised screening trials show real mortality reductions for some cancers, which is the entire justification for population screening programmes. Critics argue those benefits are partly an illusion of lead-time bias (finding a cancer earlier doesn't always mean living longer, just knowing longer) and overdiagnosis (detecting slow-growing tumours that would never have caused harm, then treating them anyway). Both effects are real; the argument is over how much of the apparent benefit each explains.",
           "note": "Critical position: Welch, H.G., Black, W.C. (2010). 'Overdiagnosis in Cancer.' Journal of the National Cancer Institute, 102(9), 605–613. Balanced trial evidence: Independent UK Panel on Breast Cancer Screening (2012). 'The benefits and harms of breast cancer screening: an independent review.' The Lancet, 380(9855), 1778–1786 — which found a genuine net mortality benefit from mammography while explicitly acknowledging substantial overdiagnosis, illustrating that both sides of this debate are drawing on the same underlying data, not disputing the facts so much as how to weigh them.",
-          "links": []
+          "links": [
+            "ap5"
+          ]
         },
         {
           "id": "db5",
@@ -1311,42 +1370,313 @@
       "icon": "🧪",
       "accent": "#7D3C98",
       "label": "Landmark Studies",
-      "events": []
+      "events": [
+        {
+          "y": 1796,
+          "l": "Jenner's Smallpox Vaccination",
+          "entryId": "st1"
+        },
+        {
+          "y": 1882,
+          "l": "Koch isolates M. tuberculosis",
+          "entryId": "st2"
+        },
+        {
+          "y": 1924,
+          "l": "Warburg's Aerobic Glycolysis Experiments",
+          "entryId": "st4"
+        },
+        {
+          "y": 1950,
+          "l": "The British Doctors Study",
+          "entryId": "st3"
+        },
+        {
+          "y": 1951,
+          "l": "Establishment of the HeLa Cell Line",
+          "entryId": "st5"
+        },
+        {
+          "y": 1974,
+          "l": "MHC restriction discovered",
+          "entryId": "st7"
+        },
+        {
+          "y": 1983,
+          "l": "Discovery of HIV",
+          "entryId": "st8"
+        },
+        {
+          "y": 1984,
+          "l": "Marshall's H. pylori self-experiment",
+          "entryId": "st6"
+        },
+        {
+          "y": 1985,
+          "l": "Rosenberg's IL-2 cell therapy trials",
+          "entryId": "st9"
+        },
+        {
+          "y": 1996,
+          "l": "CTLA-4 Blockade Experiments",
+          "entryId": "st11"
+        },
+        {
+          "y": 2013,
+          "l": "First Pediatric CAR-T Trial for Leukemia",
+          "entryId": "st10"
+        }
+      ]
     },
     {
       "id": "theory",
       "icon": "📐",
       "accent": "#2471A3",
       "label": "Theories & Models",
-      "events": []
+      "events": [
+        {
+          "y": 1858,
+          "l": "Cellular Pathology",
+          "entryId": "th2"
+        },
+        {
+          "y": 1883,
+          "l": "The Phagocytic Theory of Immunity",
+          "entryId": "th9"
+        },
+        {
+          "y": 1884,
+          "l": "Koch's Postulates",
+          "entryId": "th1"
+        },
+        {
+          "y": 1953,
+          "l": "Actively acquired tolerance",
+          "entryId": "th4"
+        },
+        {
+          "y": 1957,
+          "l": "Clonal Selection Theory",
+          "entryId": "th3"
+        },
+        {
+          "y": 1970,
+          "l": "Cancer Immunosurveillance",
+          "entryId": "th7"
+        },
+        {
+          "y": 1971,
+          "l": "The Two-Hit Hypothesis",
+          "entryId": "th6"
+        },
+        {
+          "y": 1989,
+          "l": "The Hygiene Hypothesis",
+          "entryId": "th8"
+        },
+        {
+          "y": 1989,
+          "l": "Pattern Recognition Theory",
+          "entryId": "th10"
+        },
+        {
+          "y": 2000,
+          "l": "The Hallmarks of Cancer",
+          "entryId": "th5"
+        }
+      ]
     },
     {
       "id": "effect",
       "icon": "📊",
       "accent": "#117A65",
       "label": "Effects & Phenomena",
-      "events": []
+      "events": [
+        {
+          "y": 1924,
+          "l": "The Warburg Effect",
+          "entryId": "ef1"
+        },
+        {
+          "y": 1966,
+          "l": "Graft-Versus-Host Disease",
+          "entryId": "ef6"
+        },
+        {
+          "y": 1979,
+          "l": "Loss of contact inhibition in cancer",
+          "entryId": "ef9"
+        },
+        {
+          "y": 1992,
+          "l": "Antigenic Drift and Shift",
+          "entryId": "ef3"
+        },
+        {
+          "y": 1993,
+          "l": "Herd Immunity",
+          "entryId": "ef7"
+        },
+        {
+          "y": 1996,
+          "l": "Immunological Memory",
+          "entryId": "ef8"
+        },
+        {
+          "y": 2000,
+          "l": "Molecular Mimicry",
+          "entryId": "ef4"
+        },
+        {
+          "y": 2004,
+          "l": "Tumour Immune Evasion",
+          "entryId": "ef5"
+        },
+        {
+          "y": 2010,
+          "l": "Antibiotic Resistance",
+          "entryId": "ef10"
+        },
+        {
+          "y": 2019,
+          "l": "Cytokine Storm",
+          "entryId": "ef2"
+        }
+      ]
     },
     {
       "id": "method",
       "icon": "🔬",
       "accent": "#8B5E00",
       "label": "Methods",
-      "events": []
+      "events": [
+        {
+          "y": 1876,
+          "l": "Histopathological Staining",
+          "entryId": "me4"
+        },
+        {
+          "y": 1969,
+          "l": "Tumour Xenograft Models",
+          "entryId": "me7"
+        },
+        {
+          "y": 1971,
+          "l": "ELISA",
+          "entryId": "me1"
+        },
+        {
+          "y": 1972,
+          "l": "Flow Cytometry",
+          "entryId": "me2"
+        },
+        {
+          "y": 1975,
+          "l": "Hybridoma technique developed",
+          "entryId": "me5"
+        },
+        {
+          "y": 1987,
+          "l": "Knockout Mouse Models",
+          "entryId": "me6"
+        },
+        {
+          "y": 1988,
+          "l": "PCR for pathogen detection",
+          "entryId": "me3"
+        }
+      ]
     },
     {
       "id": "debate",
       "icon": "⚖️",
       "accent": "#B7770D",
       "label": "Debates & Revisions",
-      "events": []
+      "events": [
+        {
+          "y": 1998,
+          "l": "The Autism-Vaccine Myth",
+          "entryId": "db7"
+        },
+        {
+          "y": 2010,
+          "l": "Warburg effect: cause or consequence?",
+          "entryId": "db1"
+        },
+        {
+          "y": 2010,
+          "l": "Hygiene hypothesis mechanism debate",
+          "entryId": "db3"
+        },
+        {
+          "y": 2010,
+          "l": "Cancer screening overdiagnosis debate",
+          "entryId": "db4"
+        },
+        {
+          "y": 2013,
+          "l": "HeLa cell line ethics debate",
+          "entryId": "db2"
+        },
+        {
+          "y": 2016,
+          "l": "Precision oncology debate",
+          "entryId": "db8"
+        },
+        {
+          "y": 2017,
+          "l": "Inflammation: cause or consequence?",
+          "entryId": "db5"
+        },
+        {
+          "y": 2019,
+          "l": "CAR-T vs. solid tumours debate",
+          "entryId": "db6"
+        }
+      ]
     },
     {
       "id": "application",
       "icon": "🔗",
       "accent": "#2E86C1",
       "label": "Applications",
-      "events": []
+      "events": [
+        {
+          "y": 1971,
+          "l": "Population Cancer Screening Programmes",
+          "entryId": "ap5"
+        },
+        {
+          "y": 1978,
+          "l": "Organ Transplant Immunosuppression",
+          "entryId": "ap7"
+        },
+        {
+          "y": 2001,
+          "l": "Monoclonal Antibody Therapeutics",
+          "entryId": "ap4"
+        },
+        {
+          "y": 2007,
+          "l": "Antibiotic Stewardship Programmes",
+          "entryId": "ap6"
+        },
+        {
+          "y": 2011,
+          "l": "Checkpoint Inhibitor Immunotherapy",
+          "entryId": "ap2"
+        },
+        {
+          "y": 2017,
+          "l": "CAR-T Cell Therapy",
+          "entryId": "ap1"
+        },
+        {
+          "y": 2020,
+          "l": "mRNA Vaccines",
+          "entryId": "ap3"
+        }
+      ]
     }
   ]
 }
