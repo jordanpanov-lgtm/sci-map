@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 1002,
-    "folio_count": 13,
+    "total_entries": 1075,
+    "folio_count": 14,
     "xlink_pairs": 51,
-    "keyword_terms": 3970,
+    "keyword_terms": 4261,
     "folios": [
       {
         "id": "anatomy-histology",
@@ -39,6 +39,11 @@
         "id": "oceanography",
         "title": "Oceanography & Marine Sciences",
         "entries": 75
+      },
+      {
+        "id": "pathology-immunology",
+        "title": "Pathology, Immunology & Infectious Disease",
+        "entries": 73
       },
       {
         "id": "physiology-organ-systems",
@@ -614,6 +619,79 @@
     "oceanography::ap4": "application · Physical Oceanography · Offshore Wind & Tidal Energy (1991)",
     "oceanography::ap5": "application · Chemical Oceanography · Ocean-Based Carbon Dioxide Removal (2021)",
     "oceanography::ap6": "application · Deep Sea & Seafloor · Tsunami Early Warning Systems (1946)",
+    "pathology-immunology::th1": "theory · Infectious Disease & Host-Pathogen Interaction · Koch's Postulates (1884)",
+    "pathology-immunology::th2": "theory · Cell Injury & Inflammation · Cellular Pathology (1858)",
+    "pathology-immunology::th3": "theory · Adaptive Immunity · Clonal Selection Theory (1957)",
+    "pathology-immunology::th4": "theory · Adaptive Immunity · Actively Acquired Immunological Tolerance (1953)",
+    "pathology-immunology::th5": "theory · Neoplasia & Cancer Biology · The Hallmarks of Cancer (2000)",
+    "pathology-immunology::th6": "theory · Neoplasia & Cancer Biology · The Two-Hit Hypothesis (1971)",
+    "pathology-immunology::th7": "theory · Neoplasia & Cancer Biology · Cancer Immunosurveillance (1970)",
+    "pathology-immunology::th8": "theory · Autoimmunity & Hypersensitivity · The Hygiene Hypothesis (1989)",
+    "pathology-immunology::th9": "theory · Innate Immunity · The Phagocytic Theory of Immunity (1883)",
+    "pathology-immunology::th10": "theory · Innate Immunity · Pattern Recognition Theory (1989)",
+    "pathology-immunology::st1": "study · Infectious Disease & Host-Pathogen Interaction · Jenner's Smallpox Vaccination (1796)",
+    "pathology-immunology::st2": "study · Infectious Disease & Host-Pathogen Interaction · Koch's Isolation of Mycobacterium tuberculosis (1882)",
+    "pathology-immunology::st3": "study · Neoplasia & Cancer Biology · The British Doctors Study (1950)",
+    "pathology-immunology::st4": "study · Neoplasia & Cancer Biology · Warburg's Aerobic Glycolysis Experiments (1924)",
+    "pathology-immunology::st5": "study · Cell Injury & Inflammation · Establishment of the HeLa Cell Line (1951)",
+    "pathology-immunology::st6": "study · Infectious Disease & Host-Pathogen Interaction · Marshall's Helicobacter pylori Self-Experiment (1984)",
+    "pathology-immunology::st7": "study · Adaptive Immunity · Zinkernagel and Doherty's MHC Restriction Experiments (1974)",
+    "pathology-immunology::st8": "study · Infectious Disease & Host-Pathogen Interaction · Discovery of HIV (1983)",
+    "pathology-immunology::st9": "study · Immunodeficiency & Immunotherapy · Rosenberg's IL-2 and Adoptive Cell Therapy Trials (1985)",
+    "pathology-immunology::st10": "study · Immunodeficiency & Immunotherapy · First Pediatric CAR-T Trial for Leukemia (2013)",
+    "pathology-immunology::st11": "study · Immunodeficiency & Immunotherapy · CTLA-4 Blockade Experiments (1996)",
+    "pathology-immunology::ef1": "effect · Neoplasia & Cancer Biology · The Warburg Effect (1924)",
+    "pathology-immunology::ef2": "effect · Innate Immunity · Cytokine Storm (2019)",
+    "pathology-immunology::ef3": "effect · Infectious Disease & Host-Pathogen Interaction · Antigenic Drift and Shift (1992)",
+    "pathology-immunology::ef4": "effect · Autoimmunity & Hypersensitivity · Molecular Mimicry (2000)",
+    "pathology-immunology::ef5": "effect · Neoplasia & Cancer Biology · Tumour Immune Evasion (2004)",
+    "pathology-immunology::ef6": "effect · Immunodeficiency & Immunotherapy · Graft-Versus-Host Disease (1966)",
+    "pathology-immunology::ef7": "effect · Infectious Disease & Host-Pathogen Interaction · Herd Immunity (1993)",
+    "pathology-immunology::ef8": "effect · Adaptive Immunity · Immunological Memory (1996)",
+    "pathology-immunology::ef9": "effect · Neoplasia & Cancer Biology · Loss of Contact Inhibition in Malignant Transformation (1979)",
+    "pathology-immunology::ef10": "effect · Infectious Disease & Host-Pathogen Interaction · Antibiotic Resistance (2010)",
+    "pathology-immunology::co1": "concept · Adaptive Immunity · Antigen and Epitope (1936)",
+    "pathology-immunology::co2": "concept · Innate Immunity · Opsonization (1903)",
+    "pathology-immunology::co3": "concept · Autoimmunity & Hypersensitivity · Central vs. Peripheral Tolerance (1995)",
+    "pathology-immunology::co4": "concept · Neoplasia & Cancer Biology · Tumour Angiogenesis (1971)",
+    "pathology-immunology::co5": "concept · Neoplasia & Cancer Biology · The Metastatic Cascade (1889)",
+    "pathology-immunology::co6": "concept · Innate Immunity · Chemokines (2000)",
+    "pathology-immunology::co7": "concept · Adaptive Immunity · MHC Class I vs. Class II (2011)",
+    "pathology-immunology::co8": "concept · Autoimmunity & Hypersensitivity · The Gell–Coombs Classification (1963)",
+    "pathology-immunology::me1": "method · Adaptive Immunity · ELISA (1971)",
+    "pathology-immunology::me2": "method · Adaptive Immunity · Flow Cytometry (1972)",
+    "pathology-immunology::me3": "method · Infectious Disease & Host-Pathogen Interaction · Polymerase Chain Reaction for Pathogen Detection (1988)",
+    "pathology-immunology::me4": "method · Cell Injury & Inflammation · Histopathological Staining (1876)",
+    "pathology-immunology::me5": "method · Adaptive Immunity · Monoclonal Antibody Production (Hybridoma Technique) (1975)",
+    "pathology-immunology::me6": "method · Innate Immunity · Knockout Mouse Models (1987)",
+    "pathology-immunology::me7": "method · Neoplasia & Cancer Biology · Tumour Xenograft Models (1969)",
+    "pathology-immunology::fg1": "figure · Pioneers & Theorists · Rudolf Virchow (1858)",
+    "pathology-immunology::fg2": "figure · Pioneers & Theorists · Robert Koch (1882)",
+    "pathology-immunology::fg3": "figure · Pioneers & Theorists · Paul Ehrlich (1910)",
+    "pathology-immunology::fg4": "figure · Pioneers & Theorists · Ilya Metchnikoff (1883)",
+    "pathology-immunology::fg5": "figure · Pioneers & Theorists · Edward Jenner (1796)",
+    "pathology-immunology::fg6": "figure · Pioneers & Theorists · Karl Landsteiner (1901)",
+    "pathology-immunology::fg7": "figure · Pioneers & Theorists · Macfarlane Burnet (1957)",
+    "pathology-immunology::fg8": "figure · Pioneers & Theorists · Peter Medawar (1953)",
+    "pathology-immunology::fg9": "figure · Pioneers & Theorists · Otto Warburg (1924)",
+    "pathology-immunology::fg10": "figure · Pioneers & Theorists · James Allison (1996)",
+    "pathology-immunology::fg11": "figure · Pioneers & Theorists · Tasuku Honjo (1992)",
+    "pathology-immunology::fg12": "figure · Pioneers & Theorists · Barry Marshall (1984)",
+    "pathology-immunology::db1": "debate · Neoplasia & Cancer Biology · Is the Warburg Effect a Cause or a Consequence of Cancer? (2010)",
+    "pathology-immunology::db2": "debate · Cell Injury & Inflammation · Henrietta Lacks and the Ethics of the HeLa Cell Line (2013)",
+    "pathology-immunology::db3": "debate · Autoimmunity & Hypersensitivity · What Actually Drives the Hygiene Hypothesis? (2010)",
+    "pathology-immunology::db4": "debate · Neoplasia & Cancer Biology · Does Screening Reduce Cancer Deaths, or Just Find More Cancer? (2010)",
+    "pathology-immunology::db5": "debate · Cell Injury & Inflammation · Is Chronic Inflammation a Cause or a Consequence of Metabolic Disease? (2017)",
+    "pathology-immunology::db6": "debate · Immunodeficiency & Immunotherapy · Can Cell Therapy Ever Work Against Solid Tumours? (2019)",
+    "pathology-immunology::db7": "debate · Infectious Disease & Host-Pathogen Interaction · The Autism-Vaccine Myth (1998)",
+    "pathology-immunology::db8": "debate · Neoplasia & Cancer Biology · Has Precision Oncology Delivered on Its Promise? (2016)",
+    "pathology-immunology::ap1": "application · Immunodeficiency & Immunotherapy · CAR-T Cell Therapy (2017)",
+    "pathology-immunology::ap2": "application · Immunodeficiency & Immunotherapy · Checkpoint Inhibitor Immunotherapy (2011)",
+    "pathology-immunology::ap3": "application · Infectious Disease & Host-Pathogen Interaction · mRNA Vaccines (2020)",
+    "pathology-immunology::ap4": "application · Adaptive Immunity · Monoclonal Antibody Therapeutics (2001)",
+    "pathology-immunology::ap5": "application · Neoplasia & Cancer Biology · Population Cancer Screening Programmes (1971)",
+    "pathology-immunology::ap6": "application · Infectious Disease & Host-Pathogen Interaction · Antibiotic Stewardship Programmes (2007)",
+    "pathology-immunology::ap7": "application · Adaptive Immunity · Organ Transplant Immunosuppression (1978)",
     "physiology-organ-systems::th1": "theory · Cell & Membrane Physiology · Hodgkin-Huxley Model (1952)",
     "physiology-organ-systems::th2": "theory · Cell & Membrane Physiology · Second Messenger Cascade Theory (1958)",
     "physiology-organ-systems::th3": "theory · Neuromuscular Physiology · Sliding Filament Theory (1954)",
@@ -4649,6 +4727,444 @@
       "seismic tsunami warning",
       "Pacific warning system"
     ],
+    "pathology-immunology::th1": [
+      "koch's postulates",
+      "causal proof infectious disease",
+      "molecular koch's postulates",
+      "germ theory causation"
+    ],
+    "pathology-immunology::th2": [
+      "omnis cellula e cellula",
+      "cellular pathology theory",
+      "virchow cell theory",
+      "disease origin cell"
+    ],
+    "pathology-immunology::th3": [
+      "clonal selection theory",
+      "burnet antibody theory",
+      "lymphocyte pre-commitment",
+      "immune specificity selection"
+    ],
+    "pathology-immunology::th4": [
+      "actively acquired tolerance",
+      "self non-self discrimination",
+      "medawar tolerance theory",
+      "neonatal tolerance induction"
+    ],
+    "pathology-immunology::th5": [
+      "hallmarks of cancer",
+      "hanahan weinberg framework",
+      "cancer cell capabilities",
+      "cancer hallmark framework"
+    ],
+    "pathology-immunology::th6": [
+      "two-hit hypothesis",
+      "knudson tumor suppressor",
+      "retinoblastoma statistical model",
+      "tumor suppressor inactivation"
+    ],
+    "pathology-immunology::th7": [
+      "cancer immunosurveillance",
+      "immune elimination tumor cells",
+      "burnet surveillance theory",
+      "tumor immune elimination"
+    ],
+    "pathology-immunology::th8": [
+      "hygiene hypothesis",
+      "strachan allergy theory",
+      "childhood microbial exposure",
+      "allergic disease rise"
+    ],
+    "pathology-immunology::th9": [
+      "phagocytic theory immunity",
+      "metchnikoff cellular immunity",
+      "phagocytosis discovery",
+      "cellular vs humoral immunity"
+    ],
+    "pathology-immunology::th10": [
+      "pattern recognition receptors",
+      "janeway innate immunity theory",
+      "toll-like receptor prediction",
+      "pathogen pattern recognition"
+    ],
+    "pathology-immunology::st1": [
+      "jenner smallpox vaccination",
+      "cowpox immunity discovery",
+      "first vaccine experiment",
+      "smallpox eradication origin"
+    ],
+    "pathology-immunology::st2": [
+      "koch tuberculosis discovery",
+      "mycobacterium tuberculosis isolation",
+      "koch postulates fulfillment",
+      "tb bacillus identification"
+    ],
+    "pathology-immunology::st3": [
+      "british doctors study",
+      "smoking lung cancer link",
+      "doll hill epidemiology",
+      "cohort study smoking"
+    ],
+    "pathology-immunology::st4": [
+      "warburg aerobic glycolysis",
+      "cancer cell fermentation",
+      "kaiser wilhelm institute cancer",
+      "cancer metabolism discovery"
+    ],
+    "pathology-immunology::st5": [
+      "hela cell line origin",
+      "henrietta lacks cells",
+      "immortalized human cell line",
+      "cervical cancer cell culture"
+    ],
+    "pathology-immunology::st6": [
+      "marshall self-experiment",
+      "h pylori ulcer discovery",
+      "bacterial theory peptic ulcer",
+      "koch postulates self-test"
+    ],
+    "pathology-immunology::st7": [
+      "mhc restriction discovery",
+      "zinkernagel doherty experiment",
+      "t cell self-mhc recognition",
+      "lcmv infected mice"
+    ],
+    "pathology-immunology::st8": [
+      "hiv discovery 1983",
+      "barre-sinoussi montagnier",
+      "lav retrovirus isolation",
+      "institut pasteur aids"
+    ],
+    "pathology-immunology::st9": [
+      "il-2 adoptive cell therapy",
+      "rosenberg lak cells",
+      "lymphokine-activated killer cells",
+      "early cancer immunotherapy trial"
+    ],
+    "pathology-immunology::st10": [
+      "car-t pediatric trial",
+      "emily whitehead car-t",
+      "cd19 targeted t cells",
+      "chimeric antigen receptor trial"
+    ],
+    "pathology-immunology::st11": [
+      "ctla-4 blockade experiment",
+      "allison checkpoint discovery",
+      "antitumor immunity blockade",
+      "immune checkpoint founding study"
+    ],
+    "pathology-immunology::ef1": [
+      "warburg effect",
+      "aerobic glycolysis cancer",
+      "cancer cell glucose metabolism",
+      "fdg-pet cancer imaging"
+    ],
+    "pathology-immunology::ef2": [
+      "cytokine storm",
+      "car-t toxicity syndrome",
+      "cytokine release syndrome",
+      "hyperinflammatory immune response"
+    ],
+    "pathology-immunology::ef3": [
+      "antigenic drift shift",
+      "influenza immune evasion",
+      "flu vaccine reformulation",
+      "pandemic influenza reassortment"
+    ],
+    "pathology-immunology::ef4": [
+      "molecular mimicry autoimmune",
+      "rheumatic fever cross-reactivity",
+      "pathogen host cross-reaction",
+      "streptococcus cardiac mimicry"
+    ],
+    "pathology-immunology::ef5": [
+      "tumor immune evasion",
+      "pd-l1 checkpoint upregulation",
+      "cancer immunoediting escape",
+      "immune checkpoint hijacking"
+    ],
+    "pathology-immunology::ef6": [
+      "graft-versus-host disease",
+      "transplant immune attack",
+      "billingham gvhd requirements",
+      "allogeneic transplant complication"
+    ],
+    "pathology-immunology::ef7": [
+      "herd immunity threshold",
+      "indirect vaccine protection",
+      "population immunity effect",
+      "vaccination transmission suppression"
+    ],
+    "pathology-immunology::ef8": [
+      "immunological memory",
+      "vaccine booster response",
+      "memory b and t cells",
+      "anamnestic immune response"
+    ],
+    "pathology-immunology::ef9": [
+      "contact inhibition loss",
+      "malignant transformation hallmark",
+      "cell crowding cancer growth",
+      "in vitro transformation assay"
+    ],
+    "pathology-immunology::ef10": [
+      "antibiotic resistance evolution",
+      "bacterial resistance selection",
+      "mrsa emergence",
+      "antimicrobial resistance crisis"
+    ],
+    "pathology-immunology::co1": [
+      "antigen epitope specificity",
+      "landsteiner immunochemistry",
+      "antibody binding site",
+      "molecular antigen recognition"
+    ],
+    "pathology-immunology::co2": [
+      "opsonization phagocytosis",
+      "opsonin antibody coating",
+      "almroth wright opsonic",
+      "complement-mediated tagging"
+    ],
+    "pathology-immunology::co3": [
+      "central peripheral tolerance",
+      "regulatory t cells treg",
+      "thymic deletion self-reactive",
+      "sakaguchi treg discovery"
+    ],
+    "pathology-immunology::co4": [
+      "tumor angiogenesis",
+      "folkman angiogenesis hypothesis",
+      "vegf blood vessel growth",
+      "anti-angiogenic cancer therapy"
+    ],
+    "pathology-immunology::co5": [
+      "metastatic cascade steps",
+      "seed and soil hypothesis",
+      "paget metastasis theory",
+      "cancer spread mechanism"
+    ],
+    "pathology-immunology::co6": [
+      "chemokine classification system",
+      "cxc cc chemokine families",
+      "immune cell chemotaxis",
+      "zlotnik yoshie classification"
+    ],
+    "pathology-immunology::co7": [
+      "mhc class i ii",
+      "antigen presentation pathway",
+      "cd4 cd8 t cell restriction",
+      "histocompatibility molecule types"
+    ],
+    "pathology-immunology::co8": [
+      "gell-coombs classification",
+      "type i-iv hypersensitivity",
+      "hypersensitivity reaction types",
+      "allergic reaction mechanism classification"
+    ],
+    "pathology-immunology::me1": [
+      "elisa assay",
+      "enzyme-linked immunosorbent assay",
+      "engvall perlmann method",
+      "antibody detection assay"
+    ],
+    "pathology-immunology::me2": [
+      "flow cytometry",
+      "fluorescence-activated cell sorting",
+      "facs immune cell analysis",
+      "herzenberg cell sorter"
+    ],
+    "pathology-immunology::me3": [
+      "pcr pathogen detection",
+      "taq polymerase amplification",
+      "thermostable dna polymerase",
+      "molecular diagnostic amplification"
+    ],
+    "pathology-immunology::me4": [
+      "hematoxylin eosin staining",
+      "h&e tissue staining",
+      "histopathology diagnostic method",
+      "microscopic tissue diagnosis"
+    ],
+    "pathology-immunology::me5": [
+      "hybridoma technique",
+      "kohler milstein monoclonal",
+      "monoclonal antibody production",
+      "b cell myeloma fusion"
+    ],
+    "pathology-immunology::me6": [
+      "knockout mouse model",
+      "gene targeting capecchi",
+      "embryonic stem cell targeting",
+      "gene function mouse model"
+    ],
+    "pathology-immunology::me7": [
+      "tumor xenograft model",
+      "nude mouse transplantation",
+      "immunodeficient mouse cancer model",
+      "human tumor mouse graft"
+    ],
+    "pathology-immunology::fg1": [
+      "virchow cellular pathology",
+      "father of modern pathology",
+      "cell theory disease origin",
+      "berlin pathology founder"
+    ],
+    "pathology-immunology::fg2": [
+      "koch germ theory founder",
+      "koch postulates originator",
+      "tuberculosis bacillus discoverer",
+      "robert koch nobel"
+    ],
+    "pathology-immunology::fg3": [
+      "ehrlich magic bullet",
+      "salvarsan chemotherapy founder",
+      "side-chain antibody theory",
+      "paul ehrlich chemotherapy"
+    ],
+    "pathology-immunology::fg4": [
+      "metchnikoff phagocytosis discoverer",
+      "cellular immunity founder",
+      "starfish larva phagocytosis",
+      "metchnikoff nobel 1908"
+    ],
+    "pathology-immunology::fg5": [
+      "jenner vaccination pioneer",
+      "smallpox vaccine inventor",
+      "cowpox inoculation founder",
+      "father of immunology"
+    ],
+    "pathology-immunology::fg6": [
+      "landsteiner blood groups",
+      "abo blood group discoverer",
+      "immunochemistry specificity pioneer",
+      "rh factor co-discoverer"
+    ],
+    "pathology-immunology::fg7": [
+      "burnet clonal selection",
+      "macfarlane burnet immunologist",
+      "tolerance theory prediction",
+      "immunosurveillance theory originator"
+    ],
+    "pathology-immunology::fg8": [
+      "medawar tolerance experiments",
+      "transplant immunology founder",
+      "skin graft tolerance pioneer",
+      "peter medawar nobel"
+    ],
+    "pathology-immunology::fg9": [
+      "warburg cancer metabolism",
+      "otto warburg biochemist",
+      "aerobic glycolysis discoverer",
+      "warburg effect namesake"
+    ],
+    "pathology-immunology::fg10": [
+      "allison ctla-4 discovery",
+      "checkpoint inhibitor founder",
+      "james allison immunotherapy",
+      "cancer immunotherapy pioneer"
+    ],
+    "pathology-immunology::fg11": [
+      "honjo pd-1 discovery",
+      "tasuku honjo immunologist",
+      "pd-1 checkpoint discoverer",
+      "programmed cell death protein"
+    ],
+    "pathology-immunology::fg12": [
+      "marshall h pylori pioneer",
+      "barry marshall self-experiment",
+      "peptic ulcer paradigm shift",
+      "bacterial ulcer discoverer"
+    ],
+    "pathology-immunology::db1": [
+      "warburg effect causality debate",
+      "cancer metabolism cause consequence",
+      "metabolic reprogramming driver debate",
+      "oncogene metabolism causality"
+    ],
+    "pathology-immunology::db2": [
+      "hela consent ethics",
+      "henrietta lacks research ethics",
+      "biospecimen consent controversy",
+      "research ethics informed consent"
+    ],
+    "pathology-immunology::db3": [
+      "old friends hypothesis",
+      "hygiene hypothesis revision",
+      "microbial exposure immune calibration",
+      "rook old friends theory"
+    ],
+    "pathology-immunology::db4": [
+      "cancer screening overdiagnosis",
+      "lead-time bias screening",
+      "mammography overdiagnosis debate",
+      "welch overdiagnosis critique"
+    ],
+    "pathology-immunology::db5": [
+      "inflammation metabolic disease debate",
+      "cantos trial inflammation",
+      "atherosclerosis inflammation causality",
+      "canakinumab cardiovascular trial"
+    ],
+    "pathology-immunology::db6": [
+      "car-t solid tumor challenge",
+      "tumor microenvironment immunosuppression",
+      "solid tumor cell therapy barrier",
+      "t cell exhaustion solid tumor"
+    ],
+    "pathology-immunology::db7": [
+      "autism vaccine myth",
+      "wakefield fraud retraction",
+      "mmr vaccine misinformation",
+      "vaccine hesitancy misinformation"
+    ],
+    "pathology-immunology::db8": [
+      "precision oncology illusion",
+      "genomic-guided therapy critique",
+      "basket trial response rates",
+      "targeted therapy overpromise debate"
+    ],
+    "pathology-immunology::ap1": [
+      "car-t clinical therapy",
+      "tisagenlecleucel kymriah",
+      "engineered t cell treatment",
+      "car-t leukemia approval"
+    ],
+    "pathology-immunology::ap2": [
+      "checkpoint inhibitor drugs",
+      "ipilimumab pembrolizumab therapy",
+      "immune checkpoint blockade therapy",
+      "melanoma immunotherapy approval"
+    ],
+    "pathology-immunology::ap3": [
+      "mrna vaccine platform",
+      "nucleoside modification vaccine",
+      "lipid nanoparticle delivery",
+      "covid-19 vaccine technology"
+    ],
+    "pathology-immunology::ap4": [
+      "monoclonal antibody drugs",
+      "trastuzumab her2 therapy",
+      "therapeutic antibody development",
+      "antibody-based cancer treatment"
+    ],
+    "pathology-immunology::ap5": [
+      "population cancer screening",
+      "mammography screening program",
+      "cervical pap smear screening",
+      "colonoscopy colorectal screening"
+    ],
+    "pathology-immunology::ap6": [
+      "antibiotic stewardship program",
+      "antimicrobial prescribing guidelines",
+      "hospital resistance prevention",
+      "idsa stewardship guidelines"
+    ],
+    "pathology-immunology::ap7": [
+      "transplant immunosuppression therapy",
+      "cyclosporine graft survival",
+      "organ rejection prevention",
+      "calne transplant immunosuppression"
+    ],
     "physiology-organ-systems::th1": [
       "action potential model",
       "voltage-gated ion channel",
@@ -7450,7 +7966,8 @@
     "omnis cellula e cellula": [
       "anatomy-histology::th1",
       "anatomy-histology::st3",
-      "anatomy-histology::fg5"
+      "anatomy-histology::fg5",
+      "pathology-immunology::th2"
     ],
     "microscopy cell biology": [
       "anatomy-histology::th1"
@@ -13977,6 +14494,879 @@
     ],
     "Pacific warning system": [
       "oceanography::ap6"
+    ],
+    "koch's postulates": [
+      "pathology-immunology::th1"
+    ],
+    "causal proof infectious disease": [
+      "pathology-immunology::th1"
+    ],
+    "molecular koch's postulates": [
+      "pathology-immunology::th1"
+    ],
+    "germ theory causation": [
+      "pathology-immunology::th1"
+    ],
+    "cellular pathology theory": [
+      "pathology-immunology::th2"
+    ],
+    "virchow cell theory": [
+      "pathology-immunology::th2"
+    ],
+    "disease origin cell": [
+      "pathology-immunology::th2"
+    ],
+    "clonal selection theory": [
+      "pathology-immunology::th3"
+    ],
+    "burnet antibody theory": [
+      "pathology-immunology::th3"
+    ],
+    "lymphocyte pre-commitment": [
+      "pathology-immunology::th3"
+    ],
+    "immune specificity selection": [
+      "pathology-immunology::th3"
+    ],
+    "actively acquired tolerance": [
+      "pathology-immunology::th4"
+    ],
+    "self non-self discrimination": [
+      "pathology-immunology::th4"
+    ],
+    "medawar tolerance theory": [
+      "pathology-immunology::th4"
+    ],
+    "neonatal tolerance induction": [
+      "pathology-immunology::th4"
+    ],
+    "hallmarks of cancer": [
+      "pathology-immunology::th5"
+    ],
+    "hanahan weinberg framework": [
+      "pathology-immunology::th5"
+    ],
+    "cancer cell capabilities": [
+      "pathology-immunology::th5"
+    ],
+    "cancer hallmark framework": [
+      "pathology-immunology::th5"
+    ],
+    "two-hit hypothesis": [
+      "pathology-immunology::th6"
+    ],
+    "knudson tumor suppressor": [
+      "pathology-immunology::th6"
+    ],
+    "retinoblastoma statistical model": [
+      "pathology-immunology::th6"
+    ],
+    "tumor suppressor inactivation": [
+      "pathology-immunology::th6"
+    ],
+    "cancer immunosurveillance": [
+      "pathology-immunology::th7"
+    ],
+    "immune elimination tumor cells": [
+      "pathology-immunology::th7"
+    ],
+    "burnet surveillance theory": [
+      "pathology-immunology::th7"
+    ],
+    "tumor immune elimination": [
+      "pathology-immunology::th7"
+    ],
+    "hygiene hypothesis": [
+      "pathology-immunology::th8"
+    ],
+    "strachan allergy theory": [
+      "pathology-immunology::th8"
+    ],
+    "childhood microbial exposure": [
+      "pathology-immunology::th8"
+    ],
+    "allergic disease rise": [
+      "pathology-immunology::th8"
+    ],
+    "phagocytic theory immunity": [
+      "pathology-immunology::th9"
+    ],
+    "metchnikoff cellular immunity": [
+      "pathology-immunology::th9"
+    ],
+    "phagocytosis discovery": [
+      "pathology-immunology::th9"
+    ],
+    "cellular vs humoral immunity": [
+      "pathology-immunology::th9"
+    ],
+    "pattern recognition receptors": [
+      "pathology-immunology::th10"
+    ],
+    "janeway innate immunity theory": [
+      "pathology-immunology::th10"
+    ],
+    "toll-like receptor prediction": [
+      "pathology-immunology::th10"
+    ],
+    "pathogen pattern recognition": [
+      "pathology-immunology::th10"
+    ],
+    "jenner smallpox vaccination": [
+      "pathology-immunology::st1"
+    ],
+    "cowpox immunity discovery": [
+      "pathology-immunology::st1"
+    ],
+    "first vaccine experiment": [
+      "pathology-immunology::st1"
+    ],
+    "smallpox eradication origin": [
+      "pathology-immunology::st1"
+    ],
+    "koch tuberculosis discovery": [
+      "pathology-immunology::st2"
+    ],
+    "mycobacterium tuberculosis isolation": [
+      "pathology-immunology::st2"
+    ],
+    "koch postulates fulfillment": [
+      "pathology-immunology::st2"
+    ],
+    "tb bacillus identification": [
+      "pathology-immunology::st2"
+    ],
+    "british doctors study": [
+      "pathology-immunology::st3"
+    ],
+    "smoking lung cancer link": [
+      "pathology-immunology::st3"
+    ],
+    "doll hill epidemiology": [
+      "pathology-immunology::st3"
+    ],
+    "cohort study smoking": [
+      "pathology-immunology::st3"
+    ],
+    "warburg aerobic glycolysis": [
+      "pathology-immunology::st4"
+    ],
+    "cancer cell fermentation": [
+      "pathology-immunology::st4"
+    ],
+    "kaiser wilhelm institute cancer": [
+      "pathology-immunology::st4"
+    ],
+    "cancer metabolism discovery": [
+      "pathology-immunology::st4"
+    ],
+    "hela cell line origin": [
+      "pathology-immunology::st5"
+    ],
+    "henrietta lacks cells": [
+      "pathology-immunology::st5"
+    ],
+    "immortalized human cell line": [
+      "pathology-immunology::st5"
+    ],
+    "cervical cancer cell culture": [
+      "pathology-immunology::st5"
+    ],
+    "marshall self-experiment": [
+      "pathology-immunology::st6"
+    ],
+    "h pylori ulcer discovery": [
+      "pathology-immunology::st6"
+    ],
+    "bacterial theory peptic ulcer": [
+      "pathology-immunology::st6"
+    ],
+    "koch postulates self-test": [
+      "pathology-immunology::st6"
+    ],
+    "mhc restriction discovery": [
+      "pathology-immunology::st7"
+    ],
+    "zinkernagel doherty experiment": [
+      "pathology-immunology::st7"
+    ],
+    "t cell self-mhc recognition": [
+      "pathology-immunology::st7"
+    ],
+    "lcmv infected mice": [
+      "pathology-immunology::st7"
+    ],
+    "hiv discovery 1983": [
+      "pathology-immunology::st8"
+    ],
+    "barre-sinoussi montagnier": [
+      "pathology-immunology::st8"
+    ],
+    "lav retrovirus isolation": [
+      "pathology-immunology::st8"
+    ],
+    "institut pasteur aids": [
+      "pathology-immunology::st8"
+    ],
+    "il-2 adoptive cell therapy": [
+      "pathology-immunology::st9"
+    ],
+    "rosenberg lak cells": [
+      "pathology-immunology::st9"
+    ],
+    "lymphokine-activated killer cells": [
+      "pathology-immunology::st9"
+    ],
+    "early cancer immunotherapy trial": [
+      "pathology-immunology::st9"
+    ],
+    "car-t pediatric trial": [
+      "pathology-immunology::st10"
+    ],
+    "emily whitehead car-t": [
+      "pathology-immunology::st10"
+    ],
+    "cd19 targeted t cells": [
+      "pathology-immunology::st10"
+    ],
+    "chimeric antigen receptor trial": [
+      "pathology-immunology::st10"
+    ],
+    "ctla-4 blockade experiment": [
+      "pathology-immunology::st11"
+    ],
+    "allison checkpoint discovery": [
+      "pathology-immunology::st11"
+    ],
+    "antitumor immunity blockade": [
+      "pathology-immunology::st11"
+    ],
+    "immune checkpoint founding study": [
+      "pathology-immunology::st11"
+    ],
+    "warburg effect": [
+      "pathology-immunology::ef1"
+    ],
+    "aerobic glycolysis cancer": [
+      "pathology-immunology::ef1"
+    ],
+    "cancer cell glucose metabolism": [
+      "pathology-immunology::ef1"
+    ],
+    "fdg-pet cancer imaging": [
+      "pathology-immunology::ef1"
+    ],
+    "cytokine storm": [
+      "pathology-immunology::ef2"
+    ],
+    "car-t toxicity syndrome": [
+      "pathology-immunology::ef2"
+    ],
+    "cytokine release syndrome": [
+      "pathology-immunology::ef2"
+    ],
+    "hyperinflammatory immune response": [
+      "pathology-immunology::ef2"
+    ],
+    "antigenic drift shift": [
+      "pathology-immunology::ef3"
+    ],
+    "influenza immune evasion": [
+      "pathology-immunology::ef3"
+    ],
+    "flu vaccine reformulation": [
+      "pathology-immunology::ef3"
+    ],
+    "pandemic influenza reassortment": [
+      "pathology-immunology::ef3"
+    ],
+    "molecular mimicry autoimmune": [
+      "pathology-immunology::ef4"
+    ],
+    "rheumatic fever cross-reactivity": [
+      "pathology-immunology::ef4"
+    ],
+    "pathogen host cross-reaction": [
+      "pathology-immunology::ef4"
+    ],
+    "streptococcus cardiac mimicry": [
+      "pathology-immunology::ef4"
+    ],
+    "tumor immune evasion": [
+      "pathology-immunology::ef5"
+    ],
+    "pd-l1 checkpoint upregulation": [
+      "pathology-immunology::ef5"
+    ],
+    "cancer immunoediting escape": [
+      "pathology-immunology::ef5"
+    ],
+    "immune checkpoint hijacking": [
+      "pathology-immunology::ef5"
+    ],
+    "graft-versus-host disease": [
+      "pathology-immunology::ef6"
+    ],
+    "transplant immune attack": [
+      "pathology-immunology::ef6"
+    ],
+    "billingham gvhd requirements": [
+      "pathology-immunology::ef6"
+    ],
+    "allogeneic transplant complication": [
+      "pathology-immunology::ef6"
+    ],
+    "herd immunity threshold": [
+      "pathology-immunology::ef7"
+    ],
+    "indirect vaccine protection": [
+      "pathology-immunology::ef7"
+    ],
+    "population immunity effect": [
+      "pathology-immunology::ef7"
+    ],
+    "vaccination transmission suppression": [
+      "pathology-immunology::ef7"
+    ],
+    "immunological memory": [
+      "pathology-immunology::ef8"
+    ],
+    "vaccine booster response": [
+      "pathology-immunology::ef8"
+    ],
+    "memory b and t cells": [
+      "pathology-immunology::ef8"
+    ],
+    "anamnestic immune response": [
+      "pathology-immunology::ef8"
+    ],
+    "contact inhibition loss": [
+      "pathology-immunology::ef9"
+    ],
+    "malignant transformation hallmark": [
+      "pathology-immunology::ef9"
+    ],
+    "cell crowding cancer growth": [
+      "pathology-immunology::ef9"
+    ],
+    "in vitro transformation assay": [
+      "pathology-immunology::ef9"
+    ],
+    "antibiotic resistance evolution": [
+      "pathology-immunology::ef10"
+    ],
+    "bacterial resistance selection": [
+      "pathology-immunology::ef10"
+    ],
+    "mrsa emergence": [
+      "pathology-immunology::ef10"
+    ],
+    "antimicrobial resistance crisis": [
+      "pathology-immunology::ef10"
+    ],
+    "antigen epitope specificity": [
+      "pathology-immunology::co1"
+    ],
+    "landsteiner immunochemistry": [
+      "pathology-immunology::co1"
+    ],
+    "antibody binding site": [
+      "pathology-immunology::co1"
+    ],
+    "molecular antigen recognition": [
+      "pathology-immunology::co1"
+    ],
+    "opsonization phagocytosis": [
+      "pathology-immunology::co2"
+    ],
+    "opsonin antibody coating": [
+      "pathology-immunology::co2"
+    ],
+    "almroth wright opsonic": [
+      "pathology-immunology::co2"
+    ],
+    "complement-mediated tagging": [
+      "pathology-immunology::co2"
+    ],
+    "central peripheral tolerance": [
+      "pathology-immunology::co3"
+    ],
+    "regulatory t cells treg": [
+      "pathology-immunology::co3"
+    ],
+    "thymic deletion self-reactive": [
+      "pathology-immunology::co3"
+    ],
+    "sakaguchi treg discovery": [
+      "pathology-immunology::co3"
+    ],
+    "tumor angiogenesis": [
+      "pathology-immunology::co4"
+    ],
+    "folkman angiogenesis hypothesis": [
+      "pathology-immunology::co4"
+    ],
+    "vegf blood vessel growth": [
+      "pathology-immunology::co4"
+    ],
+    "anti-angiogenic cancer therapy": [
+      "pathology-immunology::co4"
+    ],
+    "metastatic cascade steps": [
+      "pathology-immunology::co5"
+    ],
+    "seed and soil hypothesis": [
+      "pathology-immunology::co5"
+    ],
+    "paget metastasis theory": [
+      "pathology-immunology::co5"
+    ],
+    "cancer spread mechanism": [
+      "pathology-immunology::co5"
+    ],
+    "chemokine classification system": [
+      "pathology-immunology::co6"
+    ],
+    "cxc cc chemokine families": [
+      "pathology-immunology::co6"
+    ],
+    "immune cell chemotaxis": [
+      "pathology-immunology::co6"
+    ],
+    "zlotnik yoshie classification": [
+      "pathology-immunology::co6"
+    ],
+    "mhc class i ii": [
+      "pathology-immunology::co7"
+    ],
+    "antigen presentation pathway": [
+      "pathology-immunology::co7"
+    ],
+    "cd4 cd8 t cell restriction": [
+      "pathology-immunology::co7"
+    ],
+    "histocompatibility molecule types": [
+      "pathology-immunology::co7"
+    ],
+    "gell-coombs classification": [
+      "pathology-immunology::co8"
+    ],
+    "type i-iv hypersensitivity": [
+      "pathology-immunology::co8"
+    ],
+    "hypersensitivity reaction types": [
+      "pathology-immunology::co8"
+    ],
+    "allergic reaction mechanism classification": [
+      "pathology-immunology::co8"
+    ],
+    "elisa assay": [
+      "pathology-immunology::me1"
+    ],
+    "enzyme-linked immunosorbent assay": [
+      "pathology-immunology::me1"
+    ],
+    "engvall perlmann method": [
+      "pathology-immunology::me1"
+    ],
+    "antibody detection assay": [
+      "pathology-immunology::me1"
+    ],
+    "flow cytometry": [
+      "pathology-immunology::me2"
+    ],
+    "fluorescence-activated cell sorting": [
+      "pathology-immunology::me2"
+    ],
+    "facs immune cell analysis": [
+      "pathology-immunology::me2"
+    ],
+    "herzenberg cell sorter": [
+      "pathology-immunology::me2"
+    ],
+    "pcr pathogen detection": [
+      "pathology-immunology::me3"
+    ],
+    "taq polymerase amplification": [
+      "pathology-immunology::me3"
+    ],
+    "thermostable dna polymerase": [
+      "pathology-immunology::me3"
+    ],
+    "molecular diagnostic amplification": [
+      "pathology-immunology::me3"
+    ],
+    "hematoxylin eosin staining": [
+      "pathology-immunology::me4"
+    ],
+    "h&e tissue staining": [
+      "pathology-immunology::me4"
+    ],
+    "histopathology diagnostic method": [
+      "pathology-immunology::me4"
+    ],
+    "microscopic tissue diagnosis": [
+      "pathology-immunology::me4"
+    ],
+    "hybridoma technique": [
+      "pathology-immunology::me5"
+    ],
+    "kohler milstein monoclonal": [
+      "pathology-immunology::me5"
+    ],
+    "monoclonal antibody production": [
+      "pathology-immunology::me5"
+    ],
+    "b cell myeloma fusion": [
+      "pathology-immunology::me5"
+    ],
+    "knockout mouse model": [
+      "pathology-immunology::me6"
+    ],
+    "gene targeting capecchi": [
+      "pathology-immunology::me6"
+    ],
+    "embryonic stem cell targeting": [
+      "pathology-immunology::me6"
+    ],
+    "gene function mouse model": [
+      "pathology-immunology::me6"
+    ],
+    "tumor xenograft model": [
+      "pathology-immunology::me7"
+    ],
+    "nude mouse transplantation": [
+      "pathology-immunology::me7"
+    ],
+    "immunodeficient mouse cancer model": [
+      "pathology-immunology::me7"
+    ],
+    "human tumor mouse graft": [
+      "pathology-immunology::me7"
+    ],
+    "virchow cellular pathology": [
+      "pathology-immunology::fg1"
+    ],
+    "father of modern pathology": [
+      "pathology-immunology::fg1"
+    ],
+    "cell theory disease origin": [
+      "pathology-immunology::fg1"
+    ],
+    "berlin pathology founder": [
+      "pathology-immunology::fg1"
+    ],
+    "koch germ theory founder": [
+      "pathology-immunology::fg2"
+    ],
+    "koch postulates originator": [
+      "pathology-immunology::fg2"
+    ],
+    "tuberculosis bacillus discoverer": [
+      "pathology-immunology::fg2"
+    ],
+    "robert koch nobel": [
+      "pathology-immunology::fg2"
+    ],
+    "ehrlich magic bullet": [
+      "pathology-immunology::fg3"
+    ],
+    "salvarsan chemotherapy founder": [
+      "pathology-immunology::fg3"
+    ],
+    "side-chain antibody theory": [
+      "pathology-immunology::fg3"
+    ],
+    "paul ehrlich chemotherapy": [
+      "pathology-immunology::fg3"
+    ],
+    "metchnikoff phagocytosis discoverer": [
+      "pathology-immunology::fg4"
+    ],
+    "cellular immunity founder": [
+      "pathology-immunology::fg4"
+    ],
+    "starfish larva phagocytosis": [
+      "pathology-immunology::fg4"
+    ],
+    "metchnikoff nobel 1908": [
+      "pathology-immunology::fg4"
+    ],
+    "jenner vaccination pioneer": [
+      "pathology-immunology::fg5"
+    ],
+    "smallpox vaccine inventor": [
+      "pathology-immunology::fg5"
+    ],
+    "cowpox inoculation founder": [
+      "pathology-immunology::fg5"
+    ],
+    "father of immunology": [
+      "pathology-immunology::fg5"
+    ],
+    "landsteiner blood groups": [
+      "pathology-immunology::fg6"
+    ],
+    "abo blood group discoverer": [
+      "pathology-immunology::fg6"
+    ],
+    "immunochemistry specificity pioneer": [
+      "pathology-immunology::fg6"
+    ],
+    "rh factor co-discoverer": [
+      "pathology-immunology::fg6"
+    ],
+    "burnet clonal selection": [
+      "pathology-immunology::fg7"
+    ],
+    "macfarlane burnet immunologist": [
+      "pathology-immunology::fg7"
+    ],
+    "tolerance theory prediction": [
+      "pathology-immunology::fg7"
+    ],
+    "immunosurveillance theory originator": [
+      "pathology-immunology::fg7"
+    ],
+    "medawar tolerance experiments": [
+      "pathology-immunology::fg8"
+    ],
+    "transplant immunology founder": [
+      "pathology-immunology::fg8"
+    ],
+    "skin graft tolerance pioneer": [
+      "pathology-immunology::fg8"
+    ],
+    "peter medawar nobel": [
+      "pathology-immunology::fg8"
+    ],
+    "warburg cancer metabolism": [
+      "pathology-immunology::fg9"
+    ],
+    "otto warburg biochemist": [
+      "pathology-immunology::fg9"
+    ],
+    "aerobic glycolysis discoverer": [
+      "pathology-immunology::fg9"
+    ],
+    "warburg effect namesake": [
+      "pathology-immunology::fg9"
+    ],
+    "allison ctla-4 discovery": [
+      "pathology-immunology::fg10"
+    ],
+    "checkpoint inhibitor founder": [
+      "pathology-immunology::fg10"
+    ],
+    "james allison immunotherapy": [
+      "pathology-immunology::fg10"
+    ],
+    "cancer immunotherapy pioneer": [
+      "pathology-immunology::fg10"
+    ],
+    "honjo pd-1 discovery": [
+      "pathology-immunology::fg11"
+    ],
+    "tasuku honjo immunologist": [
+      "pathology-immunology::fg11"
+    ],
+    "pd-1 checkpoint discoverer": [
+      "pathology-immunology::fg11"
+    ],
+    "programmed cell death protein": [
+      "pathology-immunology::fg11"
+    ],
+    "marshall h pylori pioneer": [
+      "pathology-immunology::fg12"
+    ],
+    "barry marshall self-experiment": [
+      "pathology-immunology::fg12"
+    ],
+    "peptic ulcer paradigm shift": [
+      "pathology-immunology::fg12"
+    ],
+    "bacterial ulcer discoverer": [
+      "pathology-immunology::fg12"
+    ],
+    "warburg effect causality debate": [
+      "pathology-immunology::db1"
+    ],
+    "cancer metabolism cause consequence": [
+      "pathology-immunology::db1"
+    ],
+    "metabolic reprogramming driver debate": [
+      "pathology-immunology::db1"
+    ],
+    "oncogene metabolism causality": [
+      "pathology-immunology::db1"
+    ],
+    "hela consent ethics": [
+      "pathology-immunology::db2"
+    ],
+    "henrietta lacks research ethics": [
+      "pathology-immunology::db2"
+    ],
+    "biospecimen consent controversy": [
+      "pathology-immunology::db2"
+    ],
+    "research ethics informed consent": [
+      "pathology-immunology::db2"
+    ],
+    "old friends hypothesis": [
+      "pathology-immunology::db3"
+    ],
+    "hygiene hypothesis revision": [
+      "pathology-immunology::db3"
+    ],
+    "microbial exposure immune calibration": [
+      "pathology-immunology::db3"
+    ],
+    "rook old friends theory": [
+      "pathology-immunology::db3"
+    ],
+    "cancer screening overdiagnosis": [
+      "pathology-immunology::db4"
+    ],
+    "lead-time bias screening": [
+      "pathology-immunology::db4"
+    ],
+    "mammography overdiagnosis debate": [
+      "pathology-immunology::db4"
+    ],
+    "welch overdiagnosis critique": [
+      "pathology-immunology::db4"
+    ],
+    "inflammation metabolic disease debate": [
+      "pathology-immunology::db5"
+    ],
+    "cantos trial inflammation": [
+      "pathology-immunology::db5"
+    ],
+    "atherosclerosis inflammation causality": [
+      "pathology-immunology::db5"
+    ],
+    "canakinumab cardiovascular trial": [
+      "pathology-immunology::db5"
+    ],
+    "car-t solid tumor challenge": [
+      "pathology-immunology::db6"
+    ],
+    "tumor microenvironment immunosuppression": [
+      "pathology-immunology::db6"
+    ],
+    "solid tumor cell therapy barrier": [
+      "pathology-immunology::db6"
+    ],
+    "t cell exhaustion solid tumor": [
+      "pathology-immunology::db6"
+    ],
+    "autism vaccine myth": [
+      "pathology-immunology::db7"
+    ],
+    "wakefield fraud retraction": [
+      "pathology-immunology::db7"
+    ],
+    "mmr vaccine misinformation": [
+      "pathology-immunology::db7"
+    ],
+    "vaccine hesitancy misinformation": [
+      "pathology-immunology::db7"
+    ],
+    "precision oncology illusion": [
+      "pathology-immunology::db8"
+    ],
+    "genomic-guided therapy critique": [
+      "pathology-immunology::db8"
+    ],
+    "basket trial response rates": [
+      "pathology-immunology::db8"
+    ],
+    "targeted therapy overpromise debate": [
+      "pathology-immunology::db8"
+    ],
+    "car-t clinical therapy": [
+      "pathology-immunology::ap1"
+    ],
+    "tisagenlecleucel kymriah": [
+      "pathology-immunology::ap1"
+    ],
+    "engineered t cell treatment": [
+      "pathology-immunology::ap1"
+    ],
+    "car-t leukemia approval": [
+      "pathology-immunology::ap1"
+    ],
+    "checkpoint inhibitor drugs": [
+      "pathology-immunology::ap2"
+    ],
+    "ipilimumab pembrolizumab therapy": [
+      "pathology-immunology::ap2"
+    ],
+    "immune checkpoint blockade therapy": [
+      "pathology-immunology::ap2"
+    ],
+    "melanoma immunotherapy approval": [
+      "pathology-immunology::ap2"
+    ],
+    "mrna vaccine platform": [
+      "pathology-immunology::ap3"
+    ],
+    "nucleoside modification vaccine": [
+      "pathology-immunology::ap3"
+    ],
+    "lipid nanoparticle delivery": [
+      "pathology-immunology::ap3"
+    ],
+    "covid-19 vaccine technology": [
+      "pathology-immunology::ap3"
+    ],
+    "monoclonal antibody drugs": [
+      "pathology-immunology::ap4"
+    ],
+    "trastuzumab her2 therapy": [
+      "pathology-immunology::ap4"
+    ],
+    "therapeutic antibody development": [
+      "pathology-immunology::ap4"
+    ],
+    "antibody-based cancer treatment": [
+      "pathology-immunology::ap4"
+    ],
+    "population cancer screening": [
+      "pathology-immunology::ap5"
+    ],
+    "mammography screening program": [
+      "pathology-immunology::ap5"
+    ],
+    "cervical pap smear screening": [
+      "pathology-immunology::ap5"
+    ],
+    "colonoscopy colorectal screening": [
+      "pathology-immunology::ap5"
+    ],
+    "antibiotic stewardship program": [
+      "pathology-immunology::ap6"
+    ],
+    "antimicrobial prescribing guidelines": [
+      "pathology-immunology::ap6"
+    ],
+    "hospital resistance prevention": [
+      "pathology-immunology::ap6"
+    ],
+    "idsa stewardship guidelines": [
+      "pathology-immunology::ap6"
+    ],
+    "transplant immunosuppression therapy": [
+      "pathology-immunology::ap7"
+    ],
+    "cyclosporine graft survival": [
+      "pathology-immunology::ap7"
+    ],
+    "organ rejection prevention": [
+      "pathology-immunology::ap7"
+    ],
+    "calne transplant immunosuppression": [
+      "pathology-immunology::ap7"
     ],
     "sodium conductance": [
       "physiology-organ-systems::th1"
