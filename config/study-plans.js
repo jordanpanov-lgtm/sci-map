@@ -4,6 +4,66 @@
 // are available as globals to the renderer.
 
 const STUDY_PLANS = {
+  'pathology-immunology': {
+    meta: 'Moves inside-out: how a single cell is injured, then how the immune system is built from the ground up (innate before adaptive), then the three ways that system goes wrong — attacking the body itself, losing to an external pathogen, or losing to a malignant cell from within — then how immunity is deliberately engineered as therapy, closing with open debates and real-world application.',
+    modules: [
+      {
+        title: '1 — Founders & the Field',
+        rationale: 'Pathology and immunology were built by a small set of 19th- and 20th-century figures whose single discoveries still organise the field: Virchow founded cellular pathology, Koch proved germ theory, Jenner founded vaccination, Metchnikoff and Ehrlich founded cellular and humoral immunity respectively. Knowing them first makes every later module a continuation of a real argument, not an isolated fact.',
+        groups: ['Pioneers & Theorists']
+      },
+      {
+        title: '2 — Research Methods',
+        rationale: 'ELISA, flow cytometry, PCR, histopathological staining, hybridoma production, knockout mice, and xenograft models are the instruments that generated every finding in the modules that follow — know how the evidence was made before evaluating what it shows.',
+        cats: ['method']
+      },
+      {
+        title: '3 — Cell Injury & Inflammation',
+        rationale: 'Disease begins at the cellular level. Necrosis, apoptosis dysregulation, and the inflammatory response are the foundational mechanisms every other module in this folio builds on — immunology is, at bottom, a specialised system for managing cell injury and infection.',
+        groups: ['Cell Injury & Inflammation']
+      },
+      {
+        title: '4 — Innate Immunity',
+        rationale: 'The body’s fast, non-specific first line of defence — phagocytosis, pattern recognition, complement — evolved long before adaptive immunity and still does most of the day-to-day work of keeping pathogens out.',
+        groups: ['Innate Immunity']
+      },
+      {
+        title: '5 — Adaptive Immunity',
+        rationale: 'Clonal selection, MHC restriction, and immunological memory explain how the body builds a precise, learned defence against a specific threat — and remembers it for decades. This module is the conceptual hinge for nearly everything that follows: autoimmunity, transplant rejection, and immunotherapy are all adaptive immunity misfiring, blocking, or being deliberately redirected.',
+        groups: ['Adaptive Immunity']
+      },
+      {
+        title: '6 — Autoimmunity & Hypersensitivity',
+        rationale: 'What happens when the self/non-self discrimination established in Module 5 breaks down — allergy, autoimmune disease, and the genuinely contested question of what in modern life is driving both to rise.',
+        groups: ['Autoimmunity & Hypersensitivity']
+      },
+      {
+        title: '7 — Infectious Disease & Host-Pathogen Interaction',
+        rationale: 'The external threats adaptive and innate immunity evolved to fight — and the ways pathogens evolve right back, from antigenic drift to antibiotic resistance, in a running arms race that never actually ends.',
+        groups: ['Infectious Disease & Host-Pathogen Interaction']
+      },
+      {
+        title: '8 — Neoplasia & Cancer Biology',
+        rationale: 'The internal threat: a cell that stops obeying the rules governing growth, death, and cooperation with its neighbours. This is where the Warburg effect belongs — not as an isolated biochemical curiosity, but as one specific capability inside the broader hallmarks-of-cancer framework.',
+        groups: ['Neoplasia & Cancer Biology']
+      },
+      {
+        title: '9 — Immunodeficiency & Immunotherapy',
+        rationale: 'Having covered how immunity normally works and how it normally fails, this module covers what happens when immunity is deliberately engineered — checkpoint inhibitors, CAR-T cells, transplant immunosuppression — the most active area of the whole field right now.',
+        groups: ['Immunodeficiency & Immunotherapy']
+      },
+      {
+        title: '10 — Debates & Open Questions',
+        rationale: 'Now that the full mechanistic picture is in place, the genuinely unresolved questions — is the Warburg effect cause or consequence, does screening help or overdiagnose, can cell therapy ever beat solid tumours — can be evaluated against real evidence rather than encountered cold.',
+        cats: ['debate']
+      },
+      {
+        title: '11 — Applications',
+        rationale: 'Where the science leaves the lab: vaccines, checkpoint inhibitors, CAR-T therapy, antibiotic stewardship, and transplant medicine are the concrete, high-stakes payoff of everything in the preceding ten modules.',
+        cats: ['application']
+      }
+    ]
+  },
   'social-psychology': {
     meta: 'Follows the standard arc of introductory social psychology courses: establish the scientific toolkit first, then move from the individual self outward through social perception, attitudes, influence, group dynamics, intergroup relations, and close relationships, finishing with prosocial/antisocial behaviour. Debates close the arc so they can be evaluated against the full empirical base rather than encountered cold.',
     modules: [
