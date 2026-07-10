@@ -8,7 +8,7 @@ const FIELDS = [
   { id:"genetics-development",       domain:"human-biology",     label:"Genetics, Development & Embryology",        sub:"Heredity, molecular genetics, development & human embryology",          status:"planned" },
   { id:"anatomy-histology",          domain:"human-biology",     label:"Human Anatomy & Histology",                 sub:"Gross anatomy, tissue structures, musculoskeletal geography & histology", status:"ready", file:"modules/anatomy-histology.json" },
   { id:"physiology-organ-systems",   domain:"human-biology",     label:"Physiology & Organ Systems",                sub:"Systemic physiology, cardiovascular, renal, respiratory & endocrine",    status:"ready", file:"modules/physiology-organ-systems.json" },
-  { id:"pathology-immunology",       domain:"human-biology",     label:"Pathology, Immunology & Infectious Disease",sub:"Pathology, immune defence, infectious agents & mechanisms of disease",   status:"planned" },
+  { id:"pathology-immunology",       domain:"human-biology",     label:"Pathology, Immunology & Infectious Disease",sub:"Pathology, immune defence, infectious agents & mechanisms of disease",   status:"ready", file:"modules/pathology-immunology.json" },
   { id:"pharmacology-therapeutics",  domain:"human-biology",     label:"Pharmacology & Clinical Therapeutics",      sub:"Drug mechanisms, pharmacokinetics, clinical interventions & healing",    status:"planned" },
   // ── LIFE & ECOLOGICAL SCIENCES ───────────────────────────────────────────────
   { id:"cell-molecular-bio",         domain:"life-sciences",     label:"Cellular & Molecular Biology",              sub:"Cell structure, biochemistry & the molecular basis of life",            status:"planned" },
