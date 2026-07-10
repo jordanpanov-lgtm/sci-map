@@ -11,7 +11,7 @@ const FIELDS = [
   { id:"pathology-immunology",       domain:"human-biology",     label:"Pathology, Immunology & Infectious Disease",sub:"Pathology, immune defence, infectious agents & mechanisms of disease",   status:"ready", file:"modules/pathology-immunology.json" },
   { id:"pharmacology-therapeutics",  domain:"human-biology",     label:"Pharmacology & Clinical Therapeutics",      sub:"Drug mechanisms, pharmacokinetics, clinical interventions & healing",    status:"planned" },
   // ── LIFE & ECOLOGICAL SCIENCES ───────────────────────────────────────────────
-  { id:"cell-molecular-bio",         domain:"life-sciences",     label:"Cellular & Molecular Biology",              sub:"Cell structure, biochemistry & the molecular basis of life",            status:"planned" },
+  { id:"cell-molecular-bio",         domain:"life-sciences",     label:"Cellular & Molecular Biology",              sub:"Cell structure, biochemistry & the molecular basis of life",            status:"ready", file:"modules/cell-molecular-bio.json" },
   { id:"microbiology-virology",      domain:"life-sciences",     label:"Microbiology & Virology",                   sub:"Bacteria, viruses & the microbial world",                               status:"planned" },
   { id:"botany",                     domain:"life-sciences",     label:"Botany & Plant Sciences",                   sub:"Plant structure, physiology, diversity & ecology",                      status:"planned" },
   { id:"zoology-animal-behavior",    domain:"life-sciences",     label:"Zoology & Animal Behavior",                 sub:"Animal diversity, ecology & the evolution of behaviour",                status:"ready",   file:"modules/zoology-animal-behavior.json" },
