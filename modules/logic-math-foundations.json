@@ -752,7 +752,123 @@
       "accent": "#8B5E00",
       "bg": "#FFF8F0",
       "subtitle": "The tools and paradigms that generate the field's evidence",
-      "entries": []
+      "entries": [
+        {
+          "id": "me1",
+          "group": "Formal Systems & Proof Theory",
+          "label": "Natural Deduction",
+          "date": "1935",
+          "loc": "Göttingen, Germany",
+          "coords": [
+            51.53,
+            9.94
+          ],
+          "tag": "METHOD",
+          "hint": "A style of formal proof designed to mirror how mathematicians actually reason, step by step, rather than the more rigid axiom-and-substitution style of earlier formal systems — each logical connective gets an \"introduction\" rule for how to establish it and an \"elimination\" rule for how to use it once established. Gentzen designed it specifically so formal proofs would look and feel like ordinary mathematical arguments.",
+          "note": "Gentzen, G. (1935). 'Untersuchungen über das logische Schließen I.' Mathematische Zeitschrift, 39, 176–210 — the first half of the same two-part paper that introduced the sequent calculus (see me6) and proved cut elimination (see ef8). Natural deduction remains the standard proof style taught in most introductory formal logic courses today.",
+          "links": []
+        },
+        {
+          "id": "me2",
+          "group": "Formal Systems & Proof Theory",
+          "label": "Truth Tables",
+          "date": "1921",
+          "loc": "Cambridge, United Kingdom",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "tag": "METHOD",
+          "hint": "Listing every possible combination of true/false values for a statement's basic components, then mechanically working out the resulting truth value for the whole statement in each row, turns checking whether a propositional-logic argument is valid into pure bookkeeping — no insight required, just exhaustive enumeration. It's a genuinely decidable procedure for propositional logic, though the number of rows doubles with every additional variable.",
+          "note": "Ludwig Wittgenstein popularised and systematised the technique in Tractatus Logico-Philosophicus (1921), §4.31 onward; Emil Post independently published an equivalent treatment the same year in 'Introduction to a General Theory of Elementary Propositions,' American Journal of Mathematics, 43(3), 163–185. Truth tables only work for propositional logic — first-order logic, which quantifies over infinite domains, has no equivalent finite mechanical check (see st7).",
+          "links": [
+            "st7"
+          ]
+        },
+        {
+          "id": "me3",
+          "group": "Set Theory & the Infinite",
+          "label": "Forcing",
+          "date": "1963",
+          "loc": "Stanford, California",
+          "coords": [
+            37.43,
+            -122.17
+          ],
+          "tag": "METHOD",
+          "hint": "A technique for building an entirely new model of set theory by carefully adding a single new, deliberately constructed set to an existing model — chosen precisely so the new model still satisfies all of ZFC's axioms, but now also satisfies (or refutes) some target statement the original model was silent on. Paul Cohen invented it specifically to prove the continuum hypothesis independent, and it immediately became the standard tool for every subsequent independence proof.",
+          "note": "Cohen, P.J. (1963), see st5. Forcing is technically demanding even by the standards of mathematical logic, but its basic idea — that you can deliberately engineer a new mathematical universe with exactly the properties you want, provided you're careful about consistency — reframed what an independence proof even looks like.",
+          "links": [
+            "st5"
+          ]
+        },
+        {
+          "id": "me4",
+          "group": "Formal Systems & Proof Theory",
+          "label": "Computer-Assisted Proof Verification",
+          "date": "2008",
+          "loc": "Cambridge, United Kingdom",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "tag": "METHOD",
+          "hint": "Instead of a human checking every step of a long, intricate proof by hand — a process that has led to real, published errors slipping through peer review — a proof assistant checks each inference mechanically against the formal rules of a logical system, guaranteeing (assuming the checker itself is correctly built) that no step is missed or wrong. Georges Gonthier's formal, machine-checked proof of the Four Color Theorem was a landmark demonstration that even a proof too complex for any human to fully verify by hand could be made completely rigorous this way.",
+          "note": "Gonthier, G. (2008). 'Formal Proof—The Four-Color Theorem.' Notices of the American Mathematical Society, 55(11), 1382–1393, formalised in the Coq proof assistant. Directly enabled by the Curry-Howard correspondence (see ef7), which is what lets a proof be represented as a type-checkable program in the first place; whether such proofs should count as full mathematical understanding remains debated (see db5).",
+          "links": [
+            "ef7"
+          ]
+        },
+        {
+          "id": "me5",
+          "group": "Foundations of Number & Structure",
+          "label": "Peano's Axiomatic Method",
+          "date": "1889",
+          "loc": "Turin, Italy",
+          "coords": [
+            45.07,
+            7.69
+          ],
+          "tag": "METHOD",
+          "hint": "Rather than treating the natural numbers as an intuitively obvious starting point needing no justification, Giuseppe Peano built them up from a minimal, explicit set of axioms: there's a first number (zero), every number has a unique successor, and — the crucial engine of the whole system — the principle of mathematical induction, letting a property proved for zero and shown to pass from any number to its successor be concluded for every natural number.",
+          "note": "Peano, G. (1889). Arithmetices principia, nova methodo exposita (The Principles of Arithmetic, Presented by a New Method). Turin: Bocca. Peano's specific axioms are now known to be first-order incomplete — Gödel's incompleteness theorems apply directly to Peano Arithmetic (see th4) — but the axiomatic method itself, isolating exactly which assumptions arithmetic depends on, remains the standard starting point for foundational treatments of number theory.",
+          "links": [
+            "th4"
+          ]
+        },
+        {
+          "id": "me6",
+          "group": "Formal Systems & Proof Theory",
+          "label": "Sequent Calculus",
+          "date": "1935",
+          "loc": "Göttingen, Germany",
+          "coords": [
+            51.53,
+            9.94
+          ],
+          "tag": "METHOD",
+          "hint": "An alternative to natural deduction that tracks entire sets of assumptions and entire sets of possible conclusions on either side of a single symbol, rather than building up one final conclusion step by step — a more symmetric, more machine-friendly bookkeeping style that makes certain structural properties of proofs, including cut elimination, far easier to prove outright.",
+          "note": "Gentzen, G. (1935). 'Untersuchungen über das logische Schließen II.' Mathematische Zeitschrift, 39, 405–431 — the second half of the same paper as natural deduction (see me1), in which Gentzen also proved the cut-elimination theorem for this system (see ef8). Sequent calculus is now the standard framework for automated theorem provers, which favour its more mechanical structure over natural deduction's more human-readable one.",
+          "links": [
+            "th3"
+          ]
+        },
+        {
+          "id": "me7",
+          "group": "Non-Classical & Alternative Logics",
+          "label": "Semantic Tableaux",
+          "date": "1955",
+          "loc": "Amsterdam, Netherlands",
+          "coords": [
+            52.37,
+            4.9
+          ],
+          "tag": "METHOD",
+          "hint": "To check whether a statement is a logical truth, assume its negation instead and systematically try to build a consistent scenario where that negation holds — branching into every possible case as you go. If every branch collapses into an outright contradiction, the negation was impossible, so the original statement must have been valid after all; if any branch survives intact, it hands you a concrete counterexample.",
+          "note": "Beth, E.W. (1955). 'Semantic entailment and formal derivability.' Mededelingen van de Koninklijke Nederlandse Akademie van Wetenschappen, Afd. Letterkunde, 18(13), 309–342, developed independently around the same time by Jaakko Hintikka and later popularised in textbook form by Raymond Smullyan. Tableaux extend naturally from classical propositional logic to modal and many-valued logics (see th9, co7), which is part of why they remain a standard teaching method across non-classical logic as well.",
+          "links": []
+        }
+      ]
     },
     {
       "id": "figure",
@@ -762,7 +878,214 @@
       "accent": "#B7770D",
       "bg": "#FEFDE7",
       "subtitle": "The researchers who shaped the discipline",
-      "entries": []
+      "entries": [
+        {
+          "id": "fg1",
+          "group": "Pioneers & Theorists",
+          "label": "Georg Cantor",
+          "date": "1891",
+          "loc": "Halle, Germany",
+          "coords": [
+            51.48,
+            11.97
+          ],
+          "tag": "FIGURE",
+          "hint": "Proved that infinity comes in different sizes, inventing set theory and transfinite numbers essentially single-handedly against fierce resistance from prominent contemporaries who considered the actual (as opposed to merely potential) infinite to be mathematically illegitimate or even theologically suspect.",
+          "note": "Cantor, G. (1891), see st1. Spent his later career in a lower-prestige position at the University of Halle rather than a leading research university, at least in part due to Leopold Kronecker's open hostility to his work; he suffered recurring severe depressive episodes, the extent to which they were connected to this professional isolation remains debated by historians.",
+          "links": [
+            "th2",
+            "st1"
+          ]
+        },
+        {
+          "id": "fg2",
+          "group": "Pioneers & Theorists",
+          "label": "Gottlob Frege",
+          "date": "1879",
+          "loc": "Jena, Germany",
+          "coords": [
+            50.93,
+            11.59
+          ],
+          "tag": "FIGURE",
+          "hint": "Invented modern predicate logic essentially from scratch — quantifiers, formal proof, a genuine symbolic notation for \"all\" and \"some\" — as a tool to carry out his larger logicist project of deriving arithmetic from pure logic. His technical apparatus outlived his specific philosophical project by over a century; nearly all of modern formal logic still uses machinery he invented for a purpose that ultimately failed.",
+          "note": "Frege, G. (1879). Begriffsschrift, eine der arithmetischen nachgebildete Formelsprache des reinen Denkens (Concept Script). Halle: Louis Nebert. His life's work, Grundgesetze der Arithmetik, was undermined by Russell's Paradox just as its second volume went to press (see st2, th5); Frege added a brief, visibly strained acknowledgment before publication and never fully recovered his earlier confidence in the project.",
+          "links": [
+            "th5"
+          ]
+        },
+        {
+          "id": "fg3",
+          "group": "Pioneers & Theorists",
+          "label": "Bertrand Russell",
+          "date": "1901",
+          "loc": "Cambridge, United Kingdom",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "tag": "FIGURE",
+          "hint": "Discovered that naive set theory — the informal, unrestricted version everyone had been implicitly relying on — collapses into direct contradiction, and then, together with Alfred North Whitehead, spent a decade trying to rebuild logicism on more careful foundations, introducing a hierarchy of \"types\" specifically designed to block his own paradox from recurring.",
+          "note": "Russell, B. (1903), see st2; Russell, B., Whitehead, A.N. (1910–1913). Principia Mathematica (3 vols). Cambridge: Cambridge University Press. Shared the 1950 Nobel Prize in Literature — not for his mathematical logic, but for his broader philosophical and humanitarian writing, an unusual career arc for someone whose most technically consequential work was in formal logic.",
+          "links": [
+            "st2"
+          ]
+        },
+        {
+          "id": "fg4",
+          "group": "Pioneers & Theorists",
+          "label": "David Hilbert",
+          "date": "1899",
+          "loc": "Göttingen, Germany",
+          "coords": [
+            51.53,
+            9.94
+          ],
+          "tag": "FIGURE",
+          "hint": "Rigorously re-axiomatised geometry, closing gaps Euclid had silently relied on intuition to fill, then spent the following decades pursuing an even larger ambition — formalising all of mathematics and proving its consistency once and for all. Both the technical achievement and the larger dream shaped essentially the entire twentieth-century agenda for foundations of mathematics, including the specific results (Gödel's, chiefly) that ultimately showed the larger dream unachievable.",
+          "note": "Hilbert, D. (1899), see co1; Hilbert, D. (1926), see th3. Famously declared \"Wir müssen wissen, wir werden wissen\" (\"We must know, we will know\") in a 1930 radio address — delivered, by historical coincidence, the day before Gödel first announced the incompleteness theorem that would undercut Hilbert's own formalist optimism, though neither man seems to have registered the connection at the time.",
+          "links": [
+            "th3",
+            "co1"
+          ]
+        },
+        {
+          "id": "fg5",
+          "group": "Pioneers & Theorists",
+          "label": "Kurt Gödel",
+          "date": "1931",
+          "loc": "Vienna, Austria",
+          "coords": [
+            48.21,
+            16.37
+          ],
+          "tag": "FIGURE",
+          "hint": "Proved that any sufficiently powerful formal system is necessarily either incomplete or inconsistent — one of the single most consequential results in the history of mathematics, ending Hilbert's original formalist program and establishing a permanent, structural limit on what any axiomatic system can achieve. In the same decade he also proved first-order logic's completeness theorem and the relative consistency of the Axiom of Choice and Continuum Hypothesis with ZFC.",
+          "note": "Gödel, K. (1930, 1931, 1940), see th4, th8, st3, st6. Emigrated to the United States in 1940 following Austria's annexation by Nazi Germany, settling at the Institute for Advanced Study in Princeton; in his later life he developed severe paranoid anxieties about being poisoned and would eat only food prepared by his wife, ultimately dying of self-starvation after her hospitalisation left him without a trusted food source.",
+          "links": [
+            "th4"
+          ]
+        },
+        {
+          "id": "fg6",
+          "group": "Pioneers & Theorists",
+          "label": "Alonzo Church",
+          "date": "1936",
+          "loc": "Princeton, New Jersey",
+          "coords": [
+            40.35,
+            -74.66
+          ],
+          "tag": "FIGURE",
+          "hint": "Invented the lambda calculus, a minimal formal system for defining functions, originally intended as part of a broader (and ultimately abandoned) foundational logic project — then repurposed it to give the first rigorous mathematical definition of \"effectively computable,\" and used that definition to prove Hilbert's decision problem unsolvable, independently of and nearly simultaneously with Alan Turing's differently-formalised proof of the identical result.",
+          "note": "Church, A. (1936), see st7. The lambda calculus went on to have an entirely separate second life decades later as the theoretical foundation of functional programming languages, an application Church himself could not have anticipated when he introduced it as a piece of pure logic in the early 1930s.",
+          "links": [
+            "st7"
+          ]
+        },
+        {
+          "id": "fg7",
+          "group": "Pioneers & Theorists",
+          "label": "Alfred Tarski",
+          "date": "1933",
+          "loc": "Warsaw, Poland",
+          "coords": [
+            52.23,
+            21.01
+          ],
+          "tag": "FIGURE",
+          "hint": "Proved that a sufficiently powerful formal language cannot contain its own general, consistent truth predicate — any attempt collapses into a version of the Liar Paradox — establishing model theory's rigorous semantic foundations and giving philosophy a mathematically precise account of what a definition of truth can and cannot do.",
+          "note": "Tarski, A. (1933/1936), see st11. Was visiting the United States for an academic conference in August 1939 when Germany invaded Poland; the war stranded him there for the rest of his life, separated for several years from his wife and children, who remained in Warsaw until they could eventually be reunited after the war.",
+          "links": [
+            "st11"
+          ]
+        },
+        {
+          "id": "fg8",
+          "group": "Pioneers & Theorists",
+          "label": "L.E.J. Brouwer",
+          "date": "1907",
+          "loc": "Amsterdam, Netherlands",
+          "coords": [
+            52.37,
+            4.9
+          ],
+          "tag": "FIGURE",
+          "hint": "Argued that mathematical objects only exist if they can be explicitly, mentally constructed — not merely if their non-existence would lead to a logical contradiction — a position that, taken seriously, rules out large parts of classical mathematics as illegitimate. Founded intuitionism as both a philosophical stance and, through his student Arend Heyting, an actual working formal logic distinct from the classical mainstream.",
+          "note": "Brouwer, L.E.J. (1907), see th6. Also a distinguished topologist in his own right, proving the fixed-point theorem that bears his name using entirely classical (non-intuitionistic) methods — a genuine tension between his own mathematical practice and his professed foundational philosophy that Brouwer himself was well aware of.",
+          "links": [
+            "th6"
+          ]
+        },
+        {
+          "id": "fg9",
+          "group": "Pioneers & Theorists",
+          "label": "Gerhard Gentzen",
+          "date": "1935",
+          "loc": "Göttingen, Germany",
+          "coords": [
+            51.53,
+            9.94
+          ],
+          "tag": "FIGURE",
+          "hint": "Invented both natural deduction and the sequent calculus, proved the cut-elimination theorem underlying both, and a year later gave the first proof that arithmetic is consistent — rescuing a meaningful piece of Hilbert's formalist program using methods just slightly beyond Hilbert's original finitary restrictions.",
+          "note": "Gentzen, G. (1935, 1936), see me1, me6, ef8, st4. Died in 1945 of starvation in a Prague internment camp shortly after the end of the Second World War, at age 35 — a stark, early loss for a field that was still working out the full implications of his structural proof-theory results.",
+          "links": [
+            "st4"
+          ]
+        },
+        {
+          "id": "fg10",
+          "group": "Pioneers & Theorists",
+          "label": "Paul Cohen",
+          "date": "1963",
+          "loc": "Stanford, California",
+          "coords": [
+            37.43,
+            -122.17
+          ],
+          "tag": "FIGURE",
+          "hint": "Invented forcing and used it to prove the continuum hypothesis independent of the standard axioms of set theory — a single technique that instantly became the universal tool for every subsequent independence proof in set theory, and remains, to date, the only work in mathematical logic ever to win a Fields Medal.",
+          "note": "Cohen, P.J. (1963), see st5, me3. Awarded the Fields Medal in 1966; unusually for a specialist in mathematical logic, Cohen had originally trained and published in the more mainstream field of analysis before turning to the continuum hypothesis relatively late in his graduate career.",
+          "links": [
+            "st5"
+          ]
+        },
+        {
+          "id": "fg11",
+          "group": "Pioneers & Theorists",
+          "label": "Saul Kripke",
+          "date": "1959",
+          "loc": "Omaha, Nebraska",
+          "coords": [
+            41.26,
+            -95.94
+          ],
+          "tag": "FIGURE",
+          "hint": "Gave modal logic a rigorous mathematical semantics using possible worlds, proving its first completeness theorem while still a teenager, before later becoming one of the most influential philosophers of language and metaphysics of the twentieth century — an unusually early and technically demanding debut even by the standards of a field with several notable prodigies.",
+          "note": "Kripke, S.A. (1959, 1963), see th9, st10. Later work outside formal logic, particularly Naming and Necessity (1980), had an equally large impact on philosophy of language, making him one of relatively few figures with field-defining contributions to both technical mathematical logic and mainstream analytic philosophy.",
+          "links": [
+            "th9"
+          ]
+        },
+        {
+          "id": "fg12",
+          "group": "Pioneers & Theorists",
+          "label": "Thoralf Skolem",
+          "date": "1920",
+          "loc": "Oslo, Norway",
+          "coords": [
+            59.91,
+            10.75
+          ],
+          "tag": "FIGURE",
+          "hint": "Generalised Löwenheim's theorem into its modern form, then drew out its strangest consequence himself — that a first-order theory of the uncountable real numbers must have a countable model — a paradox that unsettled contemporaries and still generates genuine philosophical discussion about how absolute set-theoretic notions like cardinality really are.",
+          "note": "Skolem, T. (1920, 1934), see th7, st8, ef3, ef6. Worked for periods as an actuary and in industry rather than exclusively in academia, a somewhat unusual career path among the major figures of early twentieth-century mathematical logic, most of whom worked entirely within university systems.",
+          "links": [
+            "th7"
+          ]
+        }
+      ]
     },
     {
       "id": "debate",
