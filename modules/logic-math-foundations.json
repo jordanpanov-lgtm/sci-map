@@ -23,7 +23,177 @@
       "accent": "#2471A3",
       "bg": "#F0F7FF",
       "subtitle": "The frameworks that organise proof, sets, and the formal foundations of mathematics",
-      "entries": []
+      "entries": [
+        {
+          "id": "th1",
+          "group": "Set Theory & the Infinite",
+          "label": "Zermelo-Fraenkel Set Theory",
+          "date": "1908",
+          "loc": "Göttingen, Germany",
+          "coords": [
+            51.53,
+            9.94
+          ],
+          "tag": "THEORY",
+          "hint": "A carefully restricted list of axioms describing what counts as a legitimate set — you can take the union of sets, the power set of a set, separate out elements satisfying a condition — but you cannot simply declare \"the set of all sets that don't contain themselves\" into existence, which is precisely the move that had made naive set theory collapse into contradiction. Ernst Zermelo's axioms, later refined by Abraham Fraenkel and Thoralf Skolem, became the standard formal bedrock underneath essentially all of modern mathematics.",
+          "note": "Zermelo, E. (1908). 'Untersuchungen über die Grundlagen der Mengenlehre I.' Mathematische Annalen, 65(2), 261–281. Designed specifically to block Russell's Paradox (see st2) while preserving everything mathematicians actually needed from Cantor's set theory; the final ZFC system (with Fraenkel's Axiom of Replacement and the Axiom of Choice) was essentially complete by the early 1920s.",
+          "links": [
+            "th2",
+            "st2"
+          ]
+        },
+        {
+          "id": "th2",
+          "group": "Set Theory & the Infinite",
+          "label": "Cantor's Theory of Transfinite Numbers",
+          "date": "1874",
+          "loc": "Halle, Germany",
+          "coords": [
+            51.48,
+            11.97
+          ],
+          "tag": "THEORY",
+          "hint": "Georg Cantor proved that infinity isn't one single size — there are more real numbers than whole numbers, even though both sets are infinite, meaning some infinities are strictly larger than others. It was a genuinely radical claim: mathematicians had spent centuries treating \"infinite\" as a single vague notion, or avoiding it entirely, and Cantor turned it into precise, comparable, countable mathematical objects.",
+          "note": "Cantor, G. (1874). 'Über eine Eigenschaft des Inbegriffes aller reellen algebraischen Zahlen.' Journal für die reine und angewandte Mathematik, 77, 258–262 — his first proof that the reals are uncountable, later superseded in elegance by the 1891 diagonal argument (see st1). Cantor's ideas were fiercely resisted by prominent contemporaries, notably Leopold Kronecker, and the psychological toll of this opposition is often cited as a contributing factor in Cantor's recurring depressive episodes.",
+          "links": [
+            "th1",
+            "st1"
+          ]
+        },
+        {
+          "id": "th3",
+          "group": "Gödel, Incompleteness & the Limits of Formalization",
+          "label": "Hilbert's Program",
+          "date": "1926",
+          "loc": "Göttingen, Germany",
+          "coords": [
+            51.53,
+            9.94
+          ],
+          "tag": "THEORY",
+          "hint": "David Hilbert proposed settling all of mathematics' foundational anxieties at once: formalize every branch of mathematics as a system of symbols and mechanical rules, then prove — using only the safest, most elementary (\"finitary\") reasoning — that the system could never produce a contradiction. If it worked, doubt about the reliability of mathematics would be eliminated for good, replaced by a rock-solid, mechanically checkable guarantee.",
+          "note": "Hilbert, D. (1926). 'Über das Unendliche.' Mathematische Annalen, 95, 161–190. The program's finitary version was shown to be unachievable by Gödel's second incompleteness theorem five years later (see th4, db4) — though Gentzen's 1936 consistency proof (see st4) rescued a modified version of it using slightly stronger, transfinite methods.",
+          "links": [
+            "th4"
+          ]
+        },
+        {
+          "id": "th4",
+          "group": "Gödel, Incompleteness & the Limits of Formalization",
+          "label": "Gödel's Incompleteness Theorems",
+          "date": "1931",
+          "loc": "Vienna, Austria",
+          "coords": [
+            48.21,
+            16.37
+          ],
+          "tag": "THEORY",
+          "hint": "Any formal system powerful enough to describe basic arithmetic will always contain true statements it cannot prove — and, worse, such a system can never prove its own consistency from within itself. Kurt Gödel didn't find a flaw in any particular mathematical system; he proved that every sufficiently powerful system, without exception, must be either incomplete or inconsistent, a permanent structural limit rather than a fixable bug.",
+          "note": "Gödel, K. (1931). 'Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I.' Monatshefte für Mathematik und Physik, 38, 173–198. Directly ended Hilbert's original finitary program (see th3, db4) and remains among the most consequential results in the history of mathematics — and among the most frequently misapplied outside it (see ap7).",
+          "links": [
+            "th3",
+            "st3"
+          ]
+        },
+        {
+          "id": "th5",
+          "group": "Philosophy of Mathematics",
+          "label": "Logicism",
+          "date": "1884",
+          "loc": "Jena, Germany",
+          "coords": [
+            50.93,
+            11.59
+          ],
+          "tag": "THEORY",
+          "hint": "Mathematics isn't a separate domain of knowledge at all — it's pure logic in disguise, and every mathematical truth, including arithmetic, could in principle be derived from logical axioms and definitions alone. Gottlob Frege set out to actually prove this, not just assert it, by rigorously deriving the natural numbers from purely logical foundations.",
+          "note": "Frege, G. (1884). Die Grundlagen der Arithmetik (The Foundations of Arithmetic). Breslau: Wilhelm Koebner. Frege's fuller technical execution, Grundgesetze der Arithmetik, was famously undone by Russell's Paradox (see st2) just as its second volume went to press; Russell and Whitehead's Principia Mathematica (1910–1913) later attempted a repaired version of the same logicist project.",
+          "links": [
+            "st2"
+          ]
+        },
+        {
+          "id": "th6",
+          "group": "Philosophy of Mathematics",
+          "label": "Intuitionism",
+          "date": "1907",
+          "loc": "Amsterdam, Netherlands",
+          "coords": [
+            52.37,
+            4.9
+          ],
+          "tag": "THEORY",
+          "hint": "A mathematical object doesn't exist just because assuming its non-existence leads to a contradiction — it exists only if it can actually be mentally constructed, step by step. L.E.J. Brouwer rejected proof by contradiction and the law of excluded middle (the assumption that every statement is either true or false) as valid for infinite mathematical domains, a position that, if accepted, throws out large parts of classical mathematics as illegitimate.",
+          "note": "Brouwer, L.E.J. (1907). Over de Grondslagen der Wiskunde (On the Foundations of Mathematics), doctoral dissertation, University of Amsterdam. A minority position among working mathematicians but a foundational and continuously active one — Brouwer's student Arend Heyting later formalised intuitionistic logic (see co6) as its own rigorous system rather than simply a restriction of classical logic.",
+          "links": []
+        },
+        {
+          "id": "th7",
+          "group": "Model Theory & Semantics",
+          "label": "The Löwenheim-Skolem Theorem",
+          "date": "1915",
+          "loc": "Berlin, Germany",
+          "coords": [
+            52.52,
+            13.4
+          ],
+          "tag": "THEORY",
+          "hint": "If a set of first-order sentences has any infinite model at all, it has models of every infinite size — including a countable one, no matter how large the model you started with was. The consequence is genuinely strange: a first-order theory intended to describe the real numbers, an uncountably infinite set, must also have a countable model satisfying every one of its sentences (see ef6, Skolem's Paradox).",
+          "note": "Löwenheim, L. (1915). 'Über Möglichkeiten im Relativkalkül.' Mathematische Annalen, 76(4), 447–470, later generalised by Thoralf Skolem (see st8). Löwenheim proved this while working as a schoolteacher in Berlin, outside any university research position — an unusual origin for a result this foundational to model theory.",
+          "links": [
+            "st8"
+          ]
+        },
+        {
+          "id": "th8",
+          "group": "Model Theory & Semantics",
+          "label": "The Compactness Theorem",
+          "date": "1930",
+          "loc": "Vienna, Austria",
+          "coords": [
+            48.21,
+            16.37
+          ],
+          "tag": "THEORY",
+          "hint": "If every finite subset of an infinite collection of logical statements is jointly satisfiable, the entire infinite collection is satisfiable too — a strikingly powerful bridge between the finite and the infinite that follows as a corollary of Gödel's completeness theorem. It's the technical engine behind proving that certain infinite structures (non-standard models of arithmetic, for instance) must exist, even when no one can write one down explicitly.",
+          "note": "Gödel, K. (1930). 'Die Vollständigkeit der Axiome des logischen Funktionenkalküls.' Monatshefte für Mathematik und Physik, 37, 349–360 — Gödel's completeness theorem, a distinct and, chronologically, earlier result than his more famous 1931 incompleteness theorems (see th4); the two are easily and frequently confused despite proving almost opposite kinds of thing. Later generalised beyond first-order logic by Anatoly Malcev in 1936.",
+          "links": [
+            "th7"
+          ]
+        },
+        {
+          "id": "th9",
+          "group": "Non-Classical & Alternative Logics",
+          "label": "Modal Logic (Possible Worlds Semantics)",
+          "date": "1963",
+          "loc": "Cambridge, Massachusetts",
+          "coords": [
+            42.37,
+            -71.12
+          ],
+          "tag": "THEORY",
+          "hint": "Statements about necessity and possibility (\"it must be the case that,\" \"it could be the case that\") get a precise mathematical meaning once you model them as claims about a whole space of possible worlds, connected by an \"accessibility\" relation — something is necessarily true if it holds in every world accessible from this one, possibly true if it holds in at least one. Saul Kripke's semantics gave modal logic, previously a somewhat ad hoc collection of formal systems, a genuinely rigorous mathematical foundation.",
+          "note": "Kripke, S.A. (1963). 'Semantical Considerations on Modal Logic.' Acta Philosophica Fennica, 16, 83–94, building on his earlier 1959 completeness result (see st10). Kripke semantics unified what had been a confusing family of competing modal systems (different axioms for necessity and possibility) into variations on one clean underlying structure, and later extended naturally to intuitionistic logic as well.",
+          "links": [
+            "st10"
+          ]
+        },
+        {
+          "id": "th10",
+          "group": "Foundations of Number & Structure",
+          "label": "Category Theory as a Foundation",
+          "date": "1945",
+          "loc": "Cambridge, Massachusetts",
+          "coords": [
+            42.37,
+            -71.12
+          ],
+          "tag": "THEORY",
+          "hint": "Instead of building mathematics up from sets and elements, category theory builds it from objects and the structure-preserving maps (\"morphisms\") between them, treating the relationships as more fundamental than the things being related. Samuel Eilenberg and Saunders Mac Lane introduced it originally just to make precise a vague notion of \"naturality\" in algebraic topology — it later grew into a serious rival to set theory as a foundational language for all of mathematics.",
+          "note": "Eilenberg, S., Mac Lane, S. (1945). 'General Theory of Natural Equivalences.' Transactions of the American Mathematical Society, 58(2), 231–294. The foundational proposal specifically (using category theory in place of set theory as mathematics' bedrock) came two decades later, principally through William Lawvere's Elementary Theory of the Category of Sets (1964); it remains a minority but mathematically serious alternative to ZFC.",
+          "links": []
+        }
+      ]
     },
     {
       "id": "study",
@@ -33,7 +203,212 @@
       "accent": "#7D3C98",
       "bg": "#FAF5FF",
       "subtitle": "The defining experiments — and exactly what they found",
-      "entries": []
+      "entries": [
+        {
+          "id": "st1",
+          "group": "Set Theory & the Infinite",
+          "label": "Cantor's Diagonal Argument",
+          "date": "1891",
+          "loc": "Halle, Germany",
+          "coords": [
+            51.48,
+            11.97
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Assume you could list every real number between 0 and 1 in an infinite sequence; Georg Cantor showed you can always construct a new real number, by changing one digit along the diagonal of that list, that differs from every single number on it — proving the list could never have been complete in the first place. It's a strikingly short, self-contained proof that the real numbers are uncountably infinite, strictly \"more numerous\" than the whole numbers.",
+          "note": "Cantor, G. (1891). 'Über eine elementare Frage der Mannigfaltigkeitslehre.' Jahresbericht der Deutschen Mathematiker-Vereinigung, 1, 75–78. The diagonalization technique itself turned out to be far more than a one-off trick — the same underlying move reappears in Russell's Paradox, Gödel's incompleteness proof, and Turing's halting problem (see ef1).",
+          "links": [
+            "th2"
+          ]
+        },
+        {
+          "id": "st2",
+          "group": "Set Theory & the Infinite",
+          "label": "Russell's Paradox",
+          "date": "1901",
+          "loc": "Cambridge, United Kingdom",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Consider the set of all sets that do not contain themselves as a member — does that set contain itself? Either answer leads directly to a contradiction. Bertrand Russell found this paradox lurking inside the informal, unrestricted set-formation rules that Gottlob Frege's logicist system depended on, and communicated it to Frege in June 1902 just as the second volume of Frege's life's work was going to press.",
+          "note": "Russell, B. (1903). The Principles of Mathematics. Cambridge: Cambridge University Press, §78, discusses the paradox; the private communication to Frege is documented in van Heijenoort, J. (ed.) (1967). From Frege to Gödel: A Source Book in Mathematical Logic, 1879–1931. Cambridge, MA: Harvard University Press. Frege added a hurried, ultimately unsatisfying appendix acknowledging the problem; the paradox directly motivated the more careful, restricted axioms of Zermelo-Fraenkel set theory (see th1).",
+          "links": [
+            "th1",
+            "th5"
+          ]
+        },
+        {
+          "id": "st3",
+          "group": "Gödel, Incompleteness & the Limits of Formalization",
+          "label": "Gödel's Incompleteness Proof",
+          "date": "1931",
+          "loc": "Vienna, Austria",
+          "coords": [
+            48.21,
+            16.37
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Kurt Gödel's proof works by a remarkable trick: encoding logical statements as numbers (see co4), which lets a formal system make statements about itself. He constructed a specific arithmetic sentence that effectively says \"this statement is not provable\" — and showed that if the system is consistent, this sentence must be true but unprovable, exhibiting an actual, concrete example of the incompleteness his theorems predict.",
+          "note": "Gödel, K. (1931), see th4. The proof was met with immediate recognition of its importance, including from Hilbert's own close collaborator John von Neumann, who independently derived the second incompleteness theorem (that a system cannot prove its own consistency) after hearing Gödel present the first.",
+          "links": [
+            "th4"
+          ]
+        },
+        {
+          "id": "st4",
+          "group": "Gödel, Incompleteness & the Limits of Formalization",
+          "label": "Gentzen's Consistency Proof of Arithmetic",
+          "date": "1936",
+          "loc": "Göttingen, Germany",
+          "coords": [
+            51.53,
+            9.94
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Gerhard Gentzen proved arithmetic is consistent after all — but only by using a form of reasoning (transfinite induction up to a specific infinite ordinal) that goes slightly beyond the strictly \"finitary\" methods Hilbert's original program had insisted on. It rescued a meaningful piece of Hilbert's dream, just not in quite the pure form Hilbert had originally wanted.",
+          "note": "Gentzen, G. (1936). 'Die Widerspruchsfreiheit der reinen Zahlentheorie.' Mathematische Annalen, 112, 493–565. Whether this genuinely counts as \"rescuing\" Hilbert's program, given it exceeds the original finitary restrictions, or represents its abandonment in a modified form, remains a real point of interpretation among historians and philosophers of mathematics (see db4).",
+          "links": [
+            "th3",
+            "th4"
+          ]
+        },
+        {
+          "id": "st5",
+          "group": "Set Theory & the Infinite",
+          "label": "The Independence of the Continuum Hypothesis",
+          "date": "1963",
+          "loc": "Stanford, California",
+          "coords": [
+            37.43,
+            -122.17
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Cantor asked in the 1870s whether there is a size of infinity strictly between the countable integers and the uncountable reals — the continuum hypothesis says no. Paul Cohen proved that the standard axioms of set theory (ZFC) can neither confirm nor rule this out: entirely consistent, equally valid versions of set theory exist in which the continuum hypothesis is true, and others in which it's false.",
+          "note": "Cohen, P.J. (1963). 'The Independence of the Continuum Hypothesis.' Proceedings of the National Academy of Sciences, 50(6), 1143–1148, using a new technique he invented called forcing (see me3). Combined with Gödel's earlier 1940 consistency proof (see st6), this settled that CH is genuinely independent of ZFC — neither provable nor disprovable from the standard axioms — the only Fields Medal ever awarded for work in mathematical logic (1966).",
+          "links": [
+            "st6"
+          ],
+          "xlinks": []
+        },
+        {
+          "id": "st6",
+          "group": "Set Theory & the Infinite",
+          "label": "Gödel's Consistency Proof for the Continuum Hypothesis",
+          "date": "1940",
+          "loc": "Princeton, New Jersey",
+          "coords": [
+            40.35,
+            -74.66
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Twenty-three years before Cohen showed the continuum hypothesis could consistently be false, Kurt Gödel showed the opposite half of the same puzzle: by constructing a minimal, carefully controlled universe of sets (the \"constructible universe,\" L), he proved the continuum hypothesis could also consistently be true. Between the two results, mathematicians learned CH is genuinely undecidable by the standard axioms — not simply unproven, but permanently out of their reach.",
+          "note": "Gödel, K. (1940). The Consistency of the Axiom of Choice and of the Generalized Continuum-Hypothesis with the Axioms of Set Theory. Princeton: Princeton University Press (Annals of Mathematics Studies). Completed while Gödel was a member of the Institute for Advanced Study, after emigrating from Austria following its annexation by Nazi Germany.",
+          "links": [
+            "st5"
+          ]
+        },
+        {
+          "id": "st7",
+          "group": "Gödel, Incompleteness & the Limits of Formalization",
+          "label": "The Entscheidungsproblem Solved (Church)",
+          "date": "1936",
+          "loc": "Princeton, New Jersey",
+          "coords": [
+            40.35,
+            -74.66
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "David Hilbert had asked for a general mechanical procedure that could, for any statement in first-order logic, decide whether it was logically valid — the \"decision problem\" (Entscheidungsproblem). Alonzo Church proved no such procedure can exist, using a formal system of function definitions he had invented, the lambda calculus, to make \"mechanical procedure\" mathematically precise for the first time.",
+          "note": "Church, A. (1936). 'An Unsolvable Problem of Elementary Number Theory.' American Journal of Mathematics, 58(2), 345–363. Alan Turing independently proved the identical negative result the same year using an entirely different formalization — the Turing machine (see computer-science::th1, computer-science::ef2) — and the two models were then shown to define exactly the same class of computable functions, giving early, strong evidence that both had captured the right notion of \"effectively computable.\"",
+          "links": [
+            "th4"
+          ],
+          "xlinks": [
+            "computer-science::th1"
+          ]
+        },
+        {
+          "id": "st8",
+          "group": "Model Theory & Semantics",
+          "label": "Skolem's Generalisation of Löwenheim's Theorem",
+          "date": "1920",
+          "loc": "Oslo, Norway",
+          "coords": [
+            59.91,
+            10.75
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Thoralf Skolem strengthened and rigorised Leopold Löwenheim's 1915 result, proving in full generality that any satisfiable countable set of first-order sentences has a countable model. He then drew out the deeply strange consequence himself: a first-order axiomatisation of set theory, which is supposed to describe uncountable infinities, must — by his own theorem — have a countable model, an apparent paradox that bears his name (see ef6).",
+          "note": "Skolem, T. (1920). 'Logisch-kombinatorische Untersuchungen über die Erfüllbarkeit oder Beweisbarkeit mathematischer Sätze nebst einem Theoreme über dichte Mengen.' Videnskapsselskapets skrifter, I. Matematisk-naturvidenskabelig klasse, No. 4. Skolem himself regarded the paradox as revealing that \"uncountable\" is not an absolute property of a set but depends on which model you're viewing it from — a relativity of set-theoretic notions that unsettled many of his contemporaries.",
+          "links": [
+            "th7"
+          ]
+        },
+        {
+          "id": "st9",
+          "group": "Gödel, Incompleteness & the Limits of Formalization",
+          "label": "Formalising Recursive Functions",
+          "date": "1934",
+          "loc": "Princeton, New Jersey",
+          "coords": [
+            40.35,
+            -74.66
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Before Turing's machines gave one precise definition of \"mechanically computable,\" Kurt Gödel — building on a suggestion from Jacques Herbrand — formalised a different but ultimately equivalent notion: general recursive functions, defined by a small set of rules for building up computable functions from simpler ones. That two completely different formalizations, arrived at independently, turned out to define exactly the same class of functions was itself important evidence that both had found something real.",
+          "note": "Gödel, K. (1934). 'On Undecidable Propositions of Formal Mathematical Systems' — mimeographed notes from lectures Gödel gave at the Institute for Advanced Study, Princeton, taken down by Stephen Kleene and Barkley Rosser, rather than a conventionally published paper. Later shown by Kleene and others to be extensionally equivalent to both Church's lambda-definability and Turing computability (see st7).",
+          "links": [
+            "st7"
+          ]
+        },
+        {
+          "id": "st10",
+          "group": "Non-Classical & Alternative Logics",
+          "label": "Kripke's Completeness Proof for Modal Logic",
+          "date": "1959",
+          "loc": "Omaha, Nebraska",
+          "coords": [
+            41.26,
+            -95.94
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Proved that a specific modal logic system is complete with respect to a relational, \"possible worlds\" semantics — the technical proof that made Kripke semantics (see th9) rigorous rather than just a suggestive picture. Remarkably, Saul Kripke wrote and published this paper while still a teenager attending high school in Omaha, before he had even begun his undergraduate studies.",
+          "note": "Kripke, S.A. (1959). 'A Completeness Theorem in Modal Logic.' Journal of Symbolic Logic, 24(1), 1–14. Kripke went on to become one of the most influential logicians and philosophers of the twentieth century, though this early technical result on its own would already have secured him a significant place in the field's history.",
+          "links": [
+            "th9"
+          ]
+        },
+        {
+          "id": "st11",
+          "group": "Model Theory & Semantics",
+          "label": "Tarski's Undefinability of Truth",
+          "date": "1933",
+          "loc": "Warsaw, Poland",
+          "coords": [
+            52.23,
+            21.01
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "A sufficiently powerful formal language — one capable of expressing ordinary arithmetic — cannot contain its own consistent, general truth predicate: there is no formula \"True(x)\" within the language itself that correctly picks out exactly the true sentences of that same language. Alfred Tarski proved that any attempt to define truth this way collapses into a version of the ancient Liar Paradox (see ef2).",
+          "note": "Tarski, A. (1933, Polish original); German translation: 'Der Wahrheitsbegriff in den formalisierten Sprachen.' Studia Philosophica, 1 (1936), 261–405. Deeply connected to Gödel's incompleteness proof, which uses a related self-referential construction (see th4, st3); Tarski's own response was to define truth only for a weaker \"object language\" from the outside, using a strictly more powerful \"metalanguage\" — a hierarchy that avoids the paradox but concedes no single language can ever fully talk about its own truth.",
+          "links": [
+            "th4"
+          ]
+        }
+      ]
     },
     {
       "id": "effect",
