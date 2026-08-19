@@ -418,7 +418,187 @@
       "accent": "#117A65",
       "bg": "#F0FFF6",
       "subtitle": "Named, replicable patterns in formal systems, proof, and the structure of infinity",
-      "entries": []
+      "entries": [
+        {
+          "id": "ef1",
+          "group": "Set Theory & the Infinite",
+          "label": "Diagonalization",
+          "date": "2003",
+          "loc": "Brooklyn, New York",
+          "coords": [
+            40.65,
+            -73.95
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "The exact same underlying trick — constructing an object that differs from every item on a list by disagreeing with each one at a specific, carefully chosen point — reappears again and again across mathematical logic: Cantor's proof reals are uncountable, Russell's paradox, Gödel's self-referential unprovable sentence, and Turing's proof the halting problem is undecidable are all, structurally, the same manoeuvre wearing different clothes.",
+          "note": "Yanofsky, N.S. (2003). 'A Universal Approach to Self-Referential Paradoxes, Incompleteness and Fixed Points.' Bulletin of Symbolic Logic, 9(3), 362–386 — a modern, unifying account of exactly why this one pattern keeps recurring across seemingly unrelated results, using category-theoretic fixed-point arguments. Recognising diagonalization as a single reusable technique, rather than four separate coincidences, is itself one of the field's genuine conceptual achievements.",
+          "links": [
+            "st1"
+          ],
+          "xlinks": [
+            "computer-science::ef2"
+          ]
+        },
+        {
+          "id": "ef2",
+          "group": "Model Theory & Semantics",
+          "label": "Semantic Paradoxes (the Liar and its Relatives)",
+          "date": "1975",
+          "loc": "New York, New York",
+          "coords": [
+            40.71,
+            -74.01
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "\"This sentence is false\" cannot consistently be assigned either truth value — call it true and it says it's false, call it false and it says it's true. The Liar Paradox is ancient, but formal logic keeps rediscovering it in new disguises (Tarski's undefinability theorem is one rigorous descendant, see st11), and every proposed formal fix so far has come with its own trade-offs rather than dissolving the problem outright.",
+          "note": "Kripke, S.A. (1975). 'Outline of a Theory of Truth.' Journal of Philosophy, 72(19), 690–716 — proposed letting some sentences (including the Liar) simply lack a truth value at all, built up in careful stages rather than assigned all at once. A genuinely open problem in formal semantics; no proposed solution, including Kripke's own, is universally accepted as fully satisfactory.",
+          "links": [
+            "st11"
+          ]
+        },
+        {
+          "id": "ef3",
+          "group": "Model Theory & Semantics",
+          "label": "Non-Standard Models of Arithmetic",
+          "date": "1934",
+          "loc": "Oslo, Norway",
+          "coords": [
+            59.91,
+            10.75
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "The ordinary natural numbers — 0, 1, 2, 3, and so on — are not the only structure that satisfies every first-order sentence true of them. Thoralf Skolem constructed an entirely different, larger structure containing extra \"infinite\" numbers beyond any ordinary integer, one that nonetheless agrees with the standard naturals on every single first-order arithmetic statement, a direct and startling consequence of the Löwenheim-Skolem and compactness theorems.",
+          "note": "Skolem, T. (1934). 'Über die Nicht-charakterisierbarkeit der Zahlenreihe mittels endlich oder abzählbar unendlich vieler Aussagen mit ausschließlich Zahlenvariablen.' Fundamenta Mathematicae, 23, 150–161. Demonstrates a real limitation of first-order logic: no first-order theory can pin down the natural numbers uniquely, up to the exact structure mathematicians actually mean by them — a gap only second-order logic can close, at the cost of losing completeness and compactness.",
+          "links": [
+            "th7",
+            "th8"
+          ]
+        },
+        {
+          "id": "ef4",
+          "group": "Set Theory & the Infinite",
+          "label": "The Banach-Tarski Paradox",
+          "date": "1924",
+          "loc": "Lviv, Ukraine",
+          "coords": [
+            49.84,
+            24.03
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "A solid ball can be cut into a small number of pieces and reassembled, using only rotations and translations with no stretching, into two solid balls each identical in size to the original — an apparent violation of conservation of volume that isn't actually a paradox in physics, since the pieces involved are so pathologically irregular (built using the Axiom of Choice) that they don't have a well-defined volume to conserve in the first place.",
+          "note": "Banach, S., Tarski, A. (1924). 'Sur la décomposition des ensembles de points en parties respectivement congruentes.' Fundamenta Mathematicae, 6, 244–277. The result is often cited as an argument against accepting the Axiom of Choice (see db3, co2), since without AC the pathological, non-measurable pieces the construction requires cannot be shown to exist at all.",
+          "links": []
+        },
+        {
+          "id": "ef5",
+          "group": "Gödel, Incompleteness & the Limits of Formalization",
+          "label": "Undecidability Beyond Logic: Hilbert's Tenth Problem",
+          "date": "1970",
+          "loc": "Leningrad, Soviet Union",
+          "coords": [
+            59.93,
+            30.34
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Hilbert's tenth problem, posed in 1900, asked for a general algorithm to decide whether any given polynomial equation has a whole-number solution — a purely number-theoretic question with no obvious connection to logic. Yuri Matiyasevich proved no such algorithm can exist, completing work begun by Julia Robinson, Martin Davis, and Hilary Putnam, and in doing so showed that undecidability isn't a quirk specific to logic or computation — it shows up in ordinary, centuries-old mathematics too.",
+          "note": "Matiyasevich, Y. (1970). 'Diofantovy mnozhestva' (Diophantine sets). Doklady Akademii Nauk SSSR, 191, 279–282. Similar undecidability results were later found for other classical problems entirely unrelated to logic on their surface — the word problem for finitely presented groups (Novikov 1955, Boone 1958) and certain tiling problems (Berger 1966) among them.",
+          "links": []
+        },
+        {
+          "id": "ef6",
+          "group": "Model Theory & Semantics",
+          "label": "Skolem's Paradox",
+          "date": "1920",
+          "loc": "Oslo, Norway",
+          "coords": [
+            59.91,
+            10.75
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Set theory proves the real numbers are uncountable — yet the Löwenheim-Skolem theorem guarantees that any first-order axiomatisation of set theory, including the one making that very proof, has a countable model. From inside that model, the reals genuinely look uncountable, because no enumeration of them exists inside the model; from outside, looking at the model as a whole, it's visibly just a countable structure. Nothing is logically inconsistent — but the relativity of \"uncountable\" to which model you're standing in unsettled many mathematicians when Thoralf Skolem first pointed it out.",
+          "note": "Skolem, T. (1920), see st8 — Skolem drew out this specific philosophical consequence of his own theorem in the same body of work. He took it as evidence that set-theoretic notions like cardinality are less absolute than they appear, a view not every set theorist has been willing to accept in the century since.",
+          "links": [
+            "th7",
+            "st8"
+          ]
+        },
+        {
+          "id": "ef7",
+          "group": "Formal Systems & Proof Theory",
+          "label": "The Curry-Howard Correspondence",
+          "date": "1969",
+          "loc": "Chicago, Illinois",
+          "coords": [
+            41.88,
+            -87.63
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "A logical proof and a computer program are, structurally, the exact same object viewed two different ways: a proof of an implication corresponds precisely to a function, and simplifying a proof corresponds precisely to running that function's program. William Howard noticed this deep correspondence between formal logic and the lambda calculus (see computer-science) almost as a curiosity — it later became a foundational principle behind how modern proof assistants and dependently typed programming languages actually work.",
+          "note": "Howard, W.A. 'The Formulae-as-Types Notion of Construction,' informally circulated in 1969, formally published in Seldin, J.P., Hindley, J.R. (eds.) (1980). To H.B. Curry: Essays on Combinatory Logic, Lambda Calculus and Formalism. London: Academic Press, 479–490 — a rare case of an influential paper circulating unpublished for over a decade. Directly underlies modern proof assistants (see me4, ap2).",
+          "links": []
+        },
+        {
+          "id": "ef8",
+          "group": "Formal Systems & Proof Theory",
+          "label": "Cut Elimination (Gentzen's Hauptsatz)",
+          "date": "1935",
+          "loc": "Göttingen, Germany",
+          "coords": [
+            51.53,
+            9.94
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Any proof that uses the \"cut rule\" — essentially, proving a helper statement and then using it, the way ordinary mathematical proofs constantly do — can always be mechanically rewritten into an equivalent proof that never needs the shortcut at all, working directly from the conclusion's own parts. Gerhard Gentzen's theorem sounds like a narrow technical curiosity but has outsized consequences: cut-free proofs are more analyzable, which is exactly what makes automated proof search and consistency proofs (see st4) tractable.",
+          "note": "Gentzen, G. (1935). 'Untersuchungen über das logische Schließen I–II.' Mathematische Zeitschrift, 39, 176–210, 405–431 — the same paper that introduced the sequent calculus (see me6). Gentzen called this result his \"Hauptsatz\" (\"main theorem\"), and it remains one of the central structural results in all of proof theory.",
+          "links": [
+            "th3"
+          ]
+        },
+        {
+          "id": "ef9",
+          "group": "Set Theory & the Infinite",
+          "label": "Independence Results Beyond the Continuum Hypothesis",
+          "date": "1974",
+          "loc": "Jerusalem, Israel",
+          "coords": [
+            31.78,
+            35.2
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Once Cohen's forcing technique showed the continuum hypothesis was independent of ZFC, mathematicians began finding the same phenomenon in ordinary, unglamorous corners of mathematics that have nothing obviously to do with set theory's own foundations. Saharon Shelah proved that Whitehead's Problem — an entirely ordinary-sounding question in abstract algebra, about which infinite abelian groups have a certain structural property — is likewise undecidable from the standard axioms.",
+          "note": "Shelah, S. (1974). 'Infinite Abelian groups, Whitehead problem and some constructions.' Israel Journal of Mathematics, 18(3), 243–256. Showed independence is not a peculiarity confined to exotic set-theoretic statements like CH, but a genuine feature that can surface in the middle of mainstream algebra — a result many working algebraists found genuinely unsettling at the time.",
+          "links": [
+            "st5"
+          ]
+        },
+        {
+          "id": "ef10",
+          "group": "Gödel, Incompleteness & the Limits of Formalization",
+          "label": "The Paris-Harrington Theorem",
+          "date": "1977",
+          "loc": "Manchester, United Kingdom",
+          "coords": [
+            53.48,
+            -2.24
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Gödel's own incompleteness sentence is artificial — a deliberately self-referential construction, not the kind of statement a working mathematician would ever naturally write down. Jeff Paris and Leo Harrington found something more unsettling: an ordinary-looking combinatorial statement, a variant of a basic result in Ramsey theory, that is true but genuinely unprovable in standard Peano Arithmetic — the first clearly natural mathematical statement shown independent, not a logician's artificial gadget.",
+          "note": "Paris, J., Harrington, L. (1977). 'A Mathematical Incompleteness in Peano Arithmetic,' in Barwise, J. (ed.), Handbook of Mathematical Logic. Amsterdam: North-Holland, 1133–1142. Settled a long-standing question about whether Gödelian incompleteness had any real bearing on ordinary mathematical practice, or was confined to artificial, self-referential curiosities.",
+          "links": [
+            "th4"
+          ]
+        }
+      ]
     },
     {
       "id": "concept",
@@ -428,7 +608,141 @@
       "accent": "#566573",
       "bg": "#F5F6FA",
       "subtitle": "The building blocks and vocabulary every student must command",
-      "entries": []
+      "entries": [
+        {
+          "id": "co1",
+          "group": "Formal Systems & Proof Theory",
+          "label": "Axioms and Axiomatic Systems",
+          "date": "1899",
+          "loc": "Göttingen, Germany",
+          "coords": [
+            51.53,
+            9.94
+          ],
+          "tag": "CONCEPT",
+          "hint": "An axiomatic system starts from a small set of statements accepted without proof — the axioms — and derives everything else using explicit, mechanically checkable rules of inference. David Hilbert's rigorous re-axiomatisation of Euclidean geometry, closing gaps Euclid himself had silently relied on intuition to fill, became the model for how every other branch of mathematics would later be made fully rigorous.",
+          "note": "Hilbert, D. (1899). Grundlagen der Geometrie. Leipzig: B.G. Teubner. Hilbert's insistence that axioms should be treated as purely formal — that you could substitute \"tables, chairs, and beer mugs\" for \"points, lines, and planes\" without changing the logical structure of the proofs — was itself a significant conceptual shift from earlier, more intuitive treatments of geometry.",
+          "links": []
+        },
+        {
+          "id": "co2",
+          "group": "Set Theory & the Infinite",
+          "label": "Cardinality and Countability",
+          "date": "1895",
+          "loc": "Halle, Germany",
+          "coords": [
+            51.48,
+            11.97
+          ],
+          "tag": "CONCEPT",
+          "hint": "Two sets have the same cardinality if their elements can be paired up one-to-one with nothing left over on either side — a definition that works identically whether the sets are finite or infinite, and immediately implies some infinite sets (the whole numbers) are \"countable\" while others (the real numbers) are not. It's the vocabulary that makes it possible to say precisely that one infinity is larger than another, rather than treating \"infinite\" as an undifferentiated single notion.",
+          "note": "Cantor, G. (1895). 'Beiträge zur Begründung der transfiniten Mengenlehre.' Mathematische Annalen, 46, 481–512. Introduced the aleph notation for infinite cardinal numbers still used today; this vocabulary of countable versus uncountable is what makes Cantor's diagonal argument (see st1) precisely statable in the first place.",
+          "links": [
+            "th2"
+          ]
+        },
+        {
+          "id": "co3",
+          "group": "Formal Systems & Proof Theory",
+          "label": "Soundness and Completeness",
+          "date": "1930",
+          "loc": "Vienna, Austria",
+          "coords": [
+            48.21,
+            16.37
+          ],
+          "tag": "CONCEPT",
+          "hint": "A formal system is sound if every statement it can prove is actually true under its intended interpretation, and complete if every statement that's actually true is provable within the system. First-order logic achieves both simultaneously — everything provable is true, and everything true is provable — a genuinely reassuring property that, as Gödel's later incompleteness results show, arithmetic itself cannot achieve.",
+          "note": "Gödel, K. (1930), see th8. It's easy to confuse this completeness theorem (about first-order logic generally) with Gödel's later, differently-named incompleteness theorems (about what any sufficiently powerful axiomatic system, like arithmetic specifically, can prove about itself) — the two results sound similar but say almost opposite things.",
+          "links": [
+            "th8"
+          ]
+        },
+        {
+          "id": "co4",
+          "group": "Gödel, Incompleteness & the Limits of Formalization",
+          "label": "Gödel Numbering",
+          "date": "1931",
+          "loc": "Vienna, Austria",
+          "coords": [
+            48.21,
+            16.37
+          ],
+          "tag": "CONCEPT",
+          "hint": "Assign every symbol, formula, and entire proof in a formal system a unique number, built systematically (for instance, using prime factorisation) so the number can always be decoded back into the exact symbols it represents. This turns statements *about* the formal system — including, crucially, a statement asserting its own unprovability — into ordinary statements *within* the system's own arithmetic, the specific trick that makes Gödel's incompleteness proof possible.",
+          "note": "Gödel, K. (1931), see th4, st3. The encoding scheme itself is arithmetically inelegant and no one uses Gödel's exact original numbering today, but the underlying idea — that a system powerful enough to do arithmetic can encode statements about its own syntax — is what every subsequent self-reference argument in logic and computability theory has reused.",
+          "links": [
+            "th4",
+            "st3"
+          ]
+        },
+        {
+          "id": "co5",
+          "group": "Formal Systems & Proof Theory",
+          "label": "Consistency and Independence",
+          "date": "1899",
+          "loc": "Göttingen, Germany",
+          "coords": [
+            51.53,
+            9.94
+          ],
+          "tag": "CONCEPT",
+          "hint": "A system of axioms is consistent if it's impossible to derive a contradiction from it, and a statement is independent of those axioms if neither the statement nor its negation can be proved from them — meaning the axioms simply don't settle the question either way. David Hilbert pioneered proving consistency indirectly, by showing one system is consistent \"relative to\" another already-trusted one (geometry relative to arithmetic), rather than from absolute first principles.",
+          "note": "Hilbert, D. (1899), see co1 — Hilbert proved Euclidean geometry consistent relative to the real numbers, sidestepping the harder question of arithmetic's own consistency, later shown by Gödel to be unprovable from within arithmetic itself (see th4). The concept of independence became central to the field after Cohen's 1963 forcing technique showed entire major questions, not just isolated curiosities, could be independent of the standard axioms (see st5, ef9).",
+          "links": [
+            "th4"
+          ]
+        },
+        {
+          "id": "co6",
+          "group": "Non-Classical & Alternative Logics",
+          "label": "Intuitionistic Logic",
+          "date": "1930",
+          "loc": "Amsterdam, Netherlands",
+          "coords": [
+            52.37,
+            4.9
+          ],
+          "tag": "CONCEPT",
+          "hint": "A formal logical system that drops the law of excluded middle — the assumption that every statement is either true or false — matching Brouwer's intuitionist philosophy (see th6) with an actual rigorous proof calculus rather than just an informal stance. Arend Heyting, Brouwer's student, did the formalising work; the resulting system rejects proof by contradiction as a way of establishing existence, insisting a proof must actually construct the object it claims exists.",
+          "note": "Heyting, A. (1930). 'Die formalen Regeln der intuitionistischen Logik.' Sitzungsberichte der Preussischen Akademie der Wissenschaften, Physikalisch-mathematische Klasse, 42–56. Intuitionistic logic turned out, unexpectedly, to have a second life far from philosophy of mathematics — via the Curry-Howard correspondence (see ef7), it's mathematically identical to the type systems used in functional programming languages.",
+          "links": [
+            "th6"
+          ]
+        },
+        {
+          "id": "co7",
+          "group": "Non-Classical & Alternative Logics",
+          "label": "Many-Valued Logic",
+          "date": "1920",
+          "loc": "Warsaw, Poland",
+          "coords": [
+            52.23,
+            21.01
+          ],
+          "tag": "CONCEPT",
+          "hint": "Classical logic allows only two truth values, true and false — many-valued logics add a third (commonly \"unknown\" or \"indeterminate\"), or a whole continuous spectrum between fully true and fully false, to handle statements about the future, vagueness, or genuine uncertainty more naturally than a strict binary can. Jan Łukasiewicz introduced the first rigorously worked-out three-valued system while considering statements about future contingent events, like tomorrow's sea battle.",
+          "note": "Łukasiewicz, J. (1920). 'O logice trójwartościowej' (On Three-Valued Logic). Ruch Filozoficzny, 5, 170–171. Later generalised into fuzzy logic (Lotfi Zadeh, 1965), which uses a full continuum of truth values between 0 and 1 and found substantial practical application in control systems engineering.",
+          "links": []
+        },
+        {
+          "id": "co8",
+          "group": "Set Theory & the Infinite",
+          "label": "Ordinal Numbers",
+          "date": "1883",
+          "loc": "Halle, Germany",
+          "coords": [
+            51.48,
+            11.97
+          ],
+          "tag": "CONCEPT",
+          "hint": "Cardinal numbers answer \"how many\"; ordinal numbers answer \"in what order,\" and the two come apart once you leave the finite world — infinitely many distinct transfinite ordinals (ω, ω+1, ω+2, … all the way up) correspond to exactly one infinite cardinal number. Ordinals extend the everyday idea of counting position (\"first, second, third…\") into the transfinite, and became essential to later results like Gentzen's consistency proof (see st4), which measures proof complexity using them.",
+          "note": "Cantor, G. (1883). 'Grundlagen einer allgemeinen Mannigfaltigkeitslehre.' Mathematische Annalen, 21, 545–591 (also published separately as a monograph). Every ordinal is built from a well-ordering — a way of arranging a set so every non-empty subset has a smallest element — a property the standard ordering of the real numbers conspicuously lacks.",
+          "links": [
+            "th2"
+          ]
+        }
+      ]
     },
     {
       "id": "method",
