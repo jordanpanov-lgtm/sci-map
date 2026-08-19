@@ -4,6 +4,66 @@
 // are available as globals to the renderer.
 
 const STUDY_PLANS = {
+  'logic-math-foundations': {
+    meta: "Builds foundations-first: the axioms that define number itself, the set theory built on top of them, the formal rules for proving anything at all, what happens when those rules are pushed to their absolute limit, how formal systems relate to the structures they describe, the alternative logics that vary the classical rules, and finally the philosophical question of what any of it actually means — closing with the field's live debates and where the machinery leaves the page.",
+    modules: [
+      {
+        title: '1 — Founders & the Field',
+        rationale: 'A remarkably small cast built this entire field within about sixty years: Cantor, Frege, Russell, and Hilbert set the founding questions; Gödel, Church, Tarski, and Gentzen answered them in ways nobody expected. Knowing them first turns every later module into a continuation of one long, still partly unresolved argument.',
+        groups: ['Pioneers & Theorists']
+      },
+      {
+        title: '2 — Research Methods',
+        rationale: 'Natural deduction, truth tables, forcing, sequent calculus, semantic tableaux, and computer-assisted proof verification are the actual tools that generated every result in the modules that follow.',
+        cats: ['method']
+      },
+      {
+        title: '3 — Foundations of Number & Structure',
+        rationale: 'Start where mathematics itself starts: what a number even is, formally, and how the whole edifice can in principle be built from a handful of axioms and one powerful rule, mathematical induction.',
+        groups: ['Foundations of Number & Structure']
+      },
+      {
+        title: '4 — Set Theory & the Infinite',
+        rationale: 'Cantor showed infinity comes in different sizes; Zermelo and Fraenkel then had to carefully re-axiomatise set theory to block the paradoxes that naive, unrestricted set-formation produces. This module covers both the discovery and the repair.',
+        groups: ['Set Theory & the Infinite']
+      },
+      {
+        title: '5 — Formal Systems & Proof Theory',
+        rationale: 'With sets and numbers in place, this module covers the rules for reasoning about them rigorously — axioms, soundness, completeness, and the specific proof calculi (natural deduction, sequent calculus) that make a "proof" a mechanically checkable object rather than an act of persuasion.',
+        groups: ['Formal Systems & Proof Theory']
+      },
+      {
+        title: '6 — Gödel, Incompleteness & the Limits of Formalization',
+        rationale: 'The central result of the whole field: no formal system powerful enough to do arithmetic can be both complete and provably consistent from within itself. This module covers the proof, its immediate fallout for Hilbert\'s program, and how far its implications genuinely extend — versus how far they\'re popularly overextended.',
+        groups: ['Gödel, Incompleteness & the Limits of Formalization']
+      },
+      {
+        title: '7 — Model Theory & Semantics',
+        rationale: 'A formal system is one thing; the mathematical structures that satisfy it are another. This module covers how the two relate — and the genuinely strange consequences (non-standard models, Skolem\'s Paradox) that follow once you take that relationship seriously.',
+        groups: ['Model Theory & Semantics']
+      },
+      {
+        title: '8 — Non-Classical & Alternative Logics',
+        rationale: 'Classical two-valued, excluded-middle logic is a choice, not a law of nature — modal, intuitionistic, and many-valued logics vary that choice for different purposes, and this module covers what changes when you do.',
+        groups: ['Non-Classical & Alternative Logics']
+      },
+      {
+        title: '9 — Philosophy of Mathematics',
+        rationale: 'Having covered what the formal machinery does, this module steps back to ask what it all means: do mathematical objects exist independently of us, are they just symbol games, or must they be actively constructed? The field has never fully settled this, and arguably can\'t, from inside mathematics alone.',
+        groups: ['Philosophy of Mathematics']
+      },
+      {
+        title: '10 — Debates & Open Questions',
+        rationale: 'With the full technical and philosophical picture in place, the field\'s live disputes — the continuum hypothesis\'s status, whether computer proofs count as real proof, whether Gödel\'s theorem says anything at all about minds and machines — can be evaluated against real evidence rather than encountered cold.',
+        cats: ['debate']
+      },
+      {
+        title: '11 — Applications',
+        rationale: 'Where the logic leaves the page: formally verified software, logic programming, model checking, and legal and AI reasoning systems are the concrete payoff of everything in the preceding ten modules.',
+        cats: ['application']
+      }
+    ]
+  },
   'cell-molecular-bio': {
     meta: 'Follows the actual flow of molecular biology outward from the gene: how information is stored and copied, how it gets switched on and off, what the proteins it specifies actually are and do, how those proteins assemble into cellular machinery and communication systems, how all of it coordinates cell division, and finally how humans learned to read and rewrite the whole system deliberately.',
     modules: [
