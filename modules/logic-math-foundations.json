@@ -39,7 +39,8 @@
           "note": "Zermelo, E. (1908). 'Untersuchungen über die Grundlagen der Mengenlehre I.' Mathematische Annalen, 65(2), 261–281. Designed specifically to block Russell's Paradox (see st2) while preserving everything mathematicians actually needed from Cantor's set theory; the final ZFC system (with Fraenkel's Axiom of Replacement and the Axiom of Choice) was essentially complete by the early 1920s.",
           "links": [
             "th2",
-            "st2"
+            "st2",
+            "ap6"
           ]
         },
         {
@@ -57,7 +58,10 @@
           "note": "Cantor, G. (1874). 'Über eine Eigenschaft des Inbegriffes aller reellen algebraischen Zahlen.' Journal für die reine und angewandte Mathematik, 77, 258–262 — his first proof that the reals are uncountable, later superseded in elegance by the 1891 diagonal argument (see st1). Cantor's ideas were fiercely resisted by prominent contemporaries, notably Leopold Kronecker, and the psychological toll of this opposition is often cited as a contributing factor in Cantor's recurring depressive episodes.",
           "links": [
             "th1",
-            "st1"
+            "st1",
+            "co2",
+            "co8",
+            "fg1"
           ]
         },
         {
@@ -74,7 +78,12 @@
           "hint": "David Hilbert proposed settling all of mathematics' foundational anxieties at once: formalize every branch of mathematics as a system of symbols and mechanical rules, then prove — using only the safest, most elementary (\"finitary\") reasoning — that the system could never produce a contradiction. If it worked, doubt about the reliability of mathematics would be eliminated for good, replaced by a rock-solid, mechanically checkable guarantee.",
           "note": "Hilbert, D. (1926). 'Über das Unendliche.' Mathematische Annalen, 95, 161–190. The program's finitary version was shown to be unachievable by Gödel's second incompleteness theorem five years later (see th4, db4) — though Gentzen's 1936 consistency proof (see st4) rescued a modified version of it using slightly stronger, transfinite methods.",
           "links": [
-            "th4"
+            "th4",
+            "st4",
+            "ef8",
+            "me6",
+            "fg4",
+            "db4"
           ]
         },
         {
@@ -92,7 +101,18 @@
           "note": "Gödel, K. (1931). 'Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I.' Monatshefte für Mathematik und Physik, 38, 173–198. Directly ended Hilbert's original finitary program (see th3, db4) and remains among the most consequential results in the history of mathematics — and among the most frequently misapplied outside it (see ap7).",
           "links": [
             "th3",
-            "st3"
+            "st3",
+            "st4",
+            "st7",
+            "st11",
+            "ef10",
+            "co4",
+            "co5",
+            "me5",
+            "fg5",
+            "db4",
+            "db8",
+            "ap7"
           ]
         },
         {
@@ -109,7 +129,9 @@
           "hint": "Mathematics isn't a separate domain of knowledge at all — it's pure logic in disguise, and every mathematical truth, including arithmetic, could in principle be derived from logical axioms and definitions alone. Gottlob Frege set out to actually prove this, not just assert it, by rigorously deriving the natural numbers from purely logical foundations.",
           "note": "Frege, G. (1884). Die Grundlagen der Arithmetik (The Foundations of Arithmetic). Breslau: Wilhelm Koebner. Frege's fuller technical execution, Grundgesetze der Arithmetik, was famously undone by Russell's Paradox (see st2) just as its second volume went to press; Russell and Whitehead's Principia Mathematica (1910–1913) later attempted a repaired version of the same logicist project.",
           "links": [
-            "st2"
+            "st2",
+            "fg2",
+            "db1"
           ]
         },
         {
@@ -125,7 +147,11 @@
           "tag": "THEORY",
           "hint": "A mathematical object doesn't exist just because assuming its non-existence leads to a contradiction — it exists only if it can actually be mentally constructed, step by step. L.E.J. Brouwer rejected proof by contradiction and the law of excluded middle (the assumption that every statement is either true or false) as valid for infinite mathematical domains, a position that, if accepted, throws out large parts of classical mathematics as illegitimate.",
           "note": "Brouwer, L.E.J. (1907). Over de Grondslagen der Wiskunde (On the Foundations of Mathematics), doctoral dissertation, University of Amsterdam. A minority position among working mathematicians but a foundational and continuously active one — Brouwer's student Arend Heyting later formalised intuitionistic logic (see co6) as its own rigorous system rather than simply a restriction of classical logic.",
-          "links": []
+          "links": [
+            "co6",
+            "fg8",
+            "db1"
+          ]
         },
         {
           "id": "th7",
@@ -141,7 +167,11 @@
           "hint": "If a set of first-order sentences has any infinite model at all, it has models of every infinite size — including a countable one, no matter how large the model you started with was. The consequence is genuinely strange: a first-order theory intended to describe the real numbers, an uncountably infinite set, must also have a countable model satisfying every one of its sentences (see ef6, Skolem's Paradox).",
           "note": "Löwenheim, L. (1915). 'Über Möglichkeiten im Relativkalkül.' Mathematische Annalen, 76(4), 447–470, later generalised by Thoralf Skolem (see st8). Löwenheim proved this while working as a schoolteacher in Berlin, outside any university research position — an unusual origin for a result this foundational to model theory.",
           "links": [
-            "st8"
+            "st8",
+            "th8",
+            "ef3",
+            "ef6",
+            "fg12"
           ]
         },
         {
@@ -158,7 +188,9 @@
           "hint": "If every finite subset of an infinite collection of logical statements is jointly satisfiable, the entire infinite collection is satisfiable too — a strikingly powerful bridge between the finite and the infinite that follows as a corollary of Gödel's completeness theorem. It's the technical engine behind proving that certain infinite structures (non-standard models of arithmetic, for instance) must exist, even when no one can write one down explicitly.",
           "note": "Gödel, K. (1930). 'Die Vollständigkeit der Axiome des logischen Funktionenkalküls.' Monatshefte für Mathematik und Physik, 37, 349–360 — Gödel's completeness theorem, a distinct and, chronologically, earlier result than his more famous 1931 incompleteness theorems (see th4); the two are easily and frequently confused despite proving almost opposite kinds of thing. Later generalised beyond first-order logic by Anatoly Malcev in 1936.",
           "links": [
-            "th7"
+            "th7",
+            "ef3",
+            "co3"
           ]
         },
         {
@@ -175,7 +207,9 @@
           "hint": "Statements about necessity and possibility (\"it must be the case that,\" \"it could be the case that\") get a precise mathematical meaning once you model them as claims about a whole space of possible worlds, connected by an \"accessibility\" relation — something is necessarily true if it holds in every world accessible from this one, possibly true if it holds in at least one. Saul Kripke's semantics gave modal logic, previously a somewhat ad hoc collection of formal systems, a genuinely rigorous mathematical foundation.",
           "note": "Kripke, S.A. (1963). 'Semantical Considerations on Modal Logic.' Acta Philosophica Fennica, 16, 83–94, building on his earlier 1959 completeness result (see st10). Kripke semantics unified what had been a confusing family of competing modal systems (different axioms for necessity and possibility) into variations on one clean underlying structure, and later extended naturally to intuitionistic logic as well.",
           "links": [
-            "st10"
+            "st10",
+            "fg11",
+            "db6"
           ]
         },
         {
@@ -219,7 +253,9 @@
           "hint": "Assume you could list every real number between 0 and 1 in an infinite sequence; Georg Cantor showed you can always construct a new real number, by changing one digit along the diagonal of that list, that differs from every single number on it — proving the list could never have been complete in the first place. It's a strikingly short, self-contained proof that the real numbers are uncountably infinite, strictly \"more numerous\" than the whole numbers.",
           "note": "Cantor, G. (1891). 'Über eine elementare Frage der Mannigfaltigkeitslehre.' Jahresbericht der Deutschen Mathematiker-Vereinigung, 1, 75–78. The diagonalization technique itself turned out to be far more than a one-off trick — the same underlying move reappears in Russell's Paradox, Gödel's incompleteness proof, and Turing's halting problem (see ef1).",
           "links": [
-            "th2"
+            "th2",
+            "ef1",
+            "fg1"
           ]
         },
         {
@@ -238,7 +274,8 @@
           "note": "Russell, B. (1903). The Principles of Mathematics. Cambridge: Cambridge University Press, §78, discusses the paradox; the private communication to Frege is documented in van Heijenoort, J. (ed.) (1967). From Frege to Gödel: A Source Book in Mathematical Logic, 1879–1931. Cambridge, MA: Harvard University Press. Frege added a hurried, ultimately unsatisfying appendix acknowledging the problem; the paradox directly motivated the more careful, restricted axioms of Zermelo-Fraenkel set theory (see th1).",
           "links": [
             "th1",
-            "th5"
+            "th5",
+            "fg3"
           ]
         },
         {
@@ -256,7 +293,8 @@
           "hint": "Kurt Gödel's proof works by a remarkable trick: encoding logical statements as numbers (see co4), which lets a formal system make statements about itself. He constructed a specific arithmetic sentence that effectively says \"this statement is not provable\" — and showed that if the system is consistent, this sentence must be true but unprovable, exhibiting an actual, concrete example of the incompleteness his theorems predict.",
           "note": "Gödel, K. (1931), see th4. The proof was met with immediate recognition of its importance, including from Hilbert's own close collaborator John von Neumann, who independently derived the second incompleteness theorem (that a system cannot prove its own consistency) after hearing Gödel present the first.",
           "links": [
-            "th4"
+            "th4",
+            "co4"
           ]
         },
         {
@@ -275,7 +313,9 @@
           "note": "Gentzen, G. (1936). 'Die Widerspruchsfreiheit der reinen Zahlentheorie.' Mathematische Annalen, 112, 493–565. Whether this genuinely counts as \"rescuing\" Hilbert's program, given it exceeds the original finitary restrictions, or represents its abandonment in a modified form, remains a real point of interpretation among historians and philosophers of mathematics (see db4).",
           "links": [
             "th3",
-            "th4"
+            "th4",
+            "fg9",
+            "db4"
           ]
         },
         {
@@ -293,7 +333,11 @@
           "hint": "Cantor asked in the 1870s whether there is a size of infinity strictly between the countable integers and the uncountable reals — the continuum hypothesis says no. Paul Cohen proved that the standard axioms of set theory (ZFC) can neither confirm nor rule this out: entirely consistent, equally valid versions of set theory exist in which the continuum hypothesis is true, and others in which it's false.",
           "note": "Cohen, P.J. (1963). 'The Independence of the Continuum Hypothesis.' Proceedings of the National Academy of Sciences, 50(6), 1143–1148, using a new technique he invented called forcing (see me3). Combined with Gödel's earlier 1940 consistency proof (see st6), this settled that CH is genuinely independent of ZFC — neither provable nor disprovable from the standard axioms — the only Fields Medal ever awarded for work in mathematical logic (1966).",
           "links": [
-            "st6"
+            "st6",
+            "ef9",
+            "me3",
+            "fg10",
+            "db2"
           ],
           "xlinks": []
         },
@@ -312,7 +356,8 @@
           "hint": "Twenty-three years before Cohen showed the continuum hypothesis could consistently be false, Kurt Gödel showed the opposite half of the same puzzle: by constructing a minimal, carefully controlled universe of sets (the \"constructible universe,\" L), he proved the continuum hypothesis could also consistently be true. Between the two results, mathematicians learned CH is genuinely undecidable by the standard axioms — not simply unproven, but permanently out of their reach.",
           "note": "Gödel, K. (1940). The Consistency of the Axiom of Choice and of the Generalized Continuum-Hypothesis with the Axioms of Set Theory. Princeton: Princeton University Press (Annals of Mathematics Studies). Completed while Gödel was a member of the Institute for Advanced Study, after emigrating from Austria following its annexation by Nazi Germany.",
           "links": [
-            "st5"
+            "st5",
+            "db2"
           ]
         },
         {
@@ -330,7 +375,10 @@
           "hint": "David Hilbert had asked for a general mechanical procedure that could, for any statement in first-order logic, decide whether it was logically valid — the \"decision problem\" (Entscheidungsproblem). Alonzo Church proved no such procedure can exist, using a formal system of function definitions he had invented, the lambda calculus, to make \"mechanical procedure\" mathematically precise for the first time.",
           "note": "Church, A. (1936). 'An Unsolvable Problem of Elementary Number Theory.' American Journal of Mathematics, 58(2), 345–363. Alan Turing independently proved the identical negative result the same year using an entirely different formalization — the Turing machine (see computer-science::th1, computer-science::ef2) — and the two models were then shown to define exactly the same class of computable functions, giving early, strong evidence that both had captured the right notion of \"effectively computable.\"",
           "links": [
-            "th4"
+            "th4",
+            "st9",
+            "me2",
+            "fg6"
           ],
           "xlinks": [
             "computer-science::th1"
@@ -351,7 +399,8 @@
           "hint": "Thoralf Skolem strengthened and rigorised Leopold Löwenheim's 1915 result, proving in full generality that any satisfiable countable set of first-order sentences has a countable model. He then drew out the deeply strange consequence himself: a first-order axiomatisation of set theory, which is supposed to describe uncountable infinities, must — by his own theorem — have a countable model, an apparent paradox that bears his name (see ef6).",
           "note": "Skolem, T. (1920). 'Logisch-kombinatorische Untersuchungen über die Erfüllbarkeit oder Beweisbarkeit mathematischer Sätze nebst einem Theoreme über dichte Mengen.' Videnskapsselskapets skrifter, I. Matematisk-naturvidenskabelig klasse, No. 4. Skolem himself regarded the paradox as revealing that \"uncountable\" is not an absolute property of a set but depends on which model you're viewing it from — a relativity of set-theoretic notions that unsettled many of his contemporaries.",
           "links": [
-            "th7"
+            "th7",
+            "ef6"
           ]
         },
         {
@@ -405,7 +454,10 @@
           "hint": "A sufficiently powerful formal language — one capable of expressing ordinary arithmetic — cannot contain its own consistent, general truth predicate: there is no formula \"True(x)\" within the language itself that correctly picks out exactly the true sentences of that same language. Alfred Tarski proved that any attempt to define truth this way collapses into a version of the ancient Liar Paradox (see ef2).",
           "note": "Tarski, A. (1933, Polish original); German translation: 'Der Wahrheitsbegriff in den formalisierten Sprachen.' Studia Philosophica, 1 (1936), 261–405. Deeply connected to Gödel's incompleteness proof, which uses a related self-referential construction (see th4, st3); Tarski's own response was to define truth only for a weaker \"object language\" from the outside, using a strictly more powerful \"metalanguage\" — a hierarchy that avoids the paradox but concedes no single language can ever fully talk about its own truth.",
           "links": [
-            "th4"
+            "th4",
+            "ef2",
+            "fg7",
+            "db7"
           ]
         }
       ]
@@ -455,7 +507,8 @@
           "hint": "\"This sentence is false\" cannot consistently be assigned either truth value — call it true and it says it's false, call it false and it says it's true. The Liar Paradox is ancient, but formal logic keeps rediscovering it in new disguises (Tarski's undefinability theorem is one rigorous descendant, see st11), and every proposed formal fix so far has come with its own trade-offs rather than dissolving the problem outright.",
           "note": "Kripke, S.A. (1975). 'Outline of a Theory of Truth.' Journal of Philosophy, 72(19), 690–716 — proposed letting some sentences (including the Liar) simply lack a truth value at all, built up in careful stages rather than assigned all at once. A genuinely open problem in formal semantics; no proposed solution, including Kripke's own, is universally accepted as fully satisfactory.",
           "links": [
-            "st11"
+            "st11",
+            "db7"
           ]
         },
         {
@@ -491,7 +544,9 @@
           "repl": "robust",
           "hint": "A solid ball can be cut into a small number of pieces and reassembled, using only rotations and translations with no stretching, into two solid balls each identical in size to the original — an apparent violation of conservation of volume that isn't actually a paradox in physics, since the pieces involved are so pathologically irregular (built using the Axiom of Choice) that they don't have a well-defined volume to conserve in the first place.",
           "note": "Banach, S., Tarski, A. (1924). 'Sur la décomposition des ensembles de points en parties respectivement congruentes.' Fundamenta Mathematicae, 6, 244–277. The result is often cited as an argument against accepting the Axiom of Choice (see db3, co2), since without AC the pathological, non-measurable pieces the construction requires cannot be shown to exist at all.",
-          "links": []
+          "links": [
+            "db3"
+          ]
         },
         {
           "id": "ef5",
@@ -542,7 +597,9 @@
           "repl": "robust",
           "hint": "A logical proof and a computer program are, structurally, the exact same object viewed two different ways: a proof of an implication corresponds precisely to a function, and simplifying a proof corresponds precisely to running that function's program. William Howard noticed this deep correspondence between formal logic and the lambda calculus (see computer-science) almost as a curiosity — it later became a foundational principle behind how modern proof assistants and dependently typed programming languages actually work.",
           "note": "Howard, W.A. 'The Formulae-as-Types Notion of Construction,' informally circulated in 1969, formally published in Seldin, J.P., Hindley, J.R. (eds.) (1980). To H.B. Curry: Essays on Combinatory Logic, Lambda Calculus and Formalism. London: Academic Press, 479–490 — a rare case of an influential paper circulating unpublished for over a decade. Directly underlies modern proof assistants (see me4, ap2).",
-          "links": []
+          "links": [
+            "me4"
+          ]
         },
         {
           "id": "ef8",
@@ -622,7 +679,9 @@
           "tag": "CONCEPT",
           "hint": "An axiomatic system starts from a small set of statements accepted without proof — the axioms — and derives everything else using explicit, mechanically checkable rules of inference. David Hilbert's rigorous re-axiomatisation of Euclidean geometry, closing gaps Euclid himself had silently relied on intuition to fill, became the model for how every other branch of mathematics would later be made fully rigorous.",
           "note": "Hilbert, D. (1899). Grundlagen der Geometrie. Leipzig: B.G. Teubner. Hilbert's insistence that axioms should be treated as purely formal — that you could substitute \"tables, chairs, and beer mugs\" for \"points, lines, and planes\" without changing the logical structure of the proofs — was itself a significant conceptual shift from earlier, more intuitive treatments of geometry.",
-          "links": []
+          "links": [
+            "fg4"
+          ]
         },
         {
           "id": "co2",
@@ -707,7 +766,8 @@
           "hint": "A formal logical system that drops the law of excluded middle — the assumption that every statement is either true or false — matching Brouwer's intuitionist philosophy (see th6) with an actual rigorous proof calculus rather than just an informal stance. Arend Heyting, Brouwer's student, did the formalising work; the resulting system rejects proof by contradiction as a way of establishing existence, insisting a proof must actually construct the object it claims exists.",
           "note": "Heyting, A. (1930). 'Die formalen Regeln der intuitionistischen Logik.' Sitzungsberichte der Preussischen Akademie der Wissenschaften, Physikalisch-mathematische Klasse, 42–56. Intuitionistic logic turned out, unexpectedly, to have a second life far from philosophy of mathematics — via the Curry-Howard correspondence (see ef7), it's mathematically identical to the type systems used in functional programming languages.",
           "links": [
-            "th6"
+            "th6",
+            "db6"
           ]
         },
         {
@@ -723,7 +783,9 @@
           "tag": "CONCEPT",
           "hint": "Classical logic allows only two truth values, true and false — many-valued logics add a third (commonly \"unknown\" or \"indeterminate\"), or a whole continuous spectrum between fully true and fully false, to handle statements about the future, vagueness, or genuine uncertainty more naturally than a strict binary can. Jan Łukasiewicz introduced the first rigorously worked-out three-valued system while considering statements about future contingent events, like tomorrow's sea battle.",
           "note": "Łukasiewicz, J. (1920). 'O logice trójwartościowej' (On Three-Valued Logic). Ruch Filozoficzny, 5, 170–171. Later generalised into fuzzy logic (Lotfi Zadeh, 1965), which uses a full continuum of truth values between 0 and 1 and found substantial practical application in control systems engineering.",
-          "links": []
+          "links": [
+            "db6"
+          ]
         },
         {
           "id": "co8",
@@ -816,7 +878,8 @@
           "hint": "Instead of a human checking every step of a long, intricate proof by hand — a process that has led to real, published errors slipping through peer review — a proof assistant checks each inference mechanically against the formal rules of a logical system, guaranteeing (assuming the checker itself is correctly built) that no step is missed or wrong. Georges Gonthier's formal, machine-checked proof of the Four Color Theorem was a landmark demonstration that even a proof too complex for any human to fully verify by hand could be made completely rigorous this way.",
           "note": "Gonthier, G. (2008). 'Formal Proof—The Four-Color Theorem.' Notices of the American Mathematical Society, 55(11), 1382–1393, formalised in the Coq proof assistant. Directly enabled by the Curry-Howard correspondence (see ef7), which is what lets a proof be represented as a type-checkable program in the first place; whether such proofs should count as full mathematical understanding remains debated (see db5).",
           "links": [
-            "ef7"
+            "ef7",
+            "db5"
           ]
         },
         {
@@ -1372,42 +1435,313 @@
       "icon": "🧪",
       "accent": "#7D3C98",
       "label": "Landmark Studies",
-      "events": []
+      "events": [
+        {
+          "y": 1891,
+          "l": "Cantor's Diagonal Argument",
+          "entryId": "st1"
+        },
+        {
+          "y": 1901,
+          "l": "Russell's Paradox",
+          "entryId": "st2"
+        },
+        {
+          "y": 1920,
+          "l": "Skolem generalises Löwenheim",
+          "entryId": "st8"
+        },
+        {
+          "y": 1931,
+          "l": "Gödel's Incompleteness Proof",
+          "entryId": "st3"
+        },
+        {
+          "y": 1933,
+          "l": "Tarski's Undefinability of Truth",
+          "entryId": "st11"
+        },
+        {
+          "y": 1934,
+          "l": "Formalising Recursive Functions",
+          "entryId": "st9"
+        },
+        {
+          "y": 1936,
+          "l": "Gentzen's arithmetic consistency proof",
+          "entryId": "st4"
+        },
+        {
+          "y": 1936,
+          "l": "The Entscheidungsproblem Solved (Church)",
+          "entryId": "st7"
+        },
+        {
+          "y": 1940,
+          "l": "Gödel's CH consistency proof",
+          "entryId": "st6"
+        },
+        {
+          "y": 1959,
+          "l": "Kripke's modal completeness proof",
+          "entryId": "st10"
+        },
+        {
+          "y": 1963,
+          "l": "CH shown independent (Cohen)",
+          "entryId": "st5"
+        }
+      ]
     },
     {
       "id": "theory",
       "icon": "📐",
       "accent": "#2471A3",
       "label": "Theories & Models",
-      "events": []
+      "events": [
+        {
+          "y": 1874,
+          "l": "Cantor's Theory of Transfinite Numbers",
+          "entryId": "th2"
+        },
+        {
+          "y": 1884,
+          "l": "Logicism",
+          "entryId": "th5"
+        },
+        {
+          "y": 1907,
+          "l": "Intuitionism",
+          "entryId": "th6"
+        },
+        {
+          "y": 1908,
+          "l": "Zermelo-Fraenkel Set Theory",
+          "entryId": "th1"
+        },
+        {
+          "y": 1915,
+          "l": "The Löwenheim-Skolem Theorem",
+          "entryId": "th7"
+        },
+        {
+          "y": 1926,
+          "l": "Hilbert's Program",
+          "entryId": "th3"
+        },
+        {
+          "y": 1930,
+          "l": "The Compactness Theorem",
+          "entryId": "th8"
+        },
+        {
+          "y": 1931,
+          "l": "Gödel's Incompleteness Theorems",
+          "entryId": "th4"
+        },
+        {
+          "y": 1945,
+          "l": "Category Theory as a Foundation",
+          "entryId": "th10"
+        },
+        {
+          "y": 1963,
+          "l": "Modal Logic (Possible Worlds Semantics)",
+          "entryId": "th9"
+        }
+      ]
     },
     {
       "id": "effect",
       "icon": "📊",
       "accent": "#117A65",
       "label": "Effects & Phenomena",
-      "events": []
+      "events": [
+        {
+          "y": 1920,
+          "l": "Skolem's Paradox",
+          "entryId": "ef6"
+        },
+        {
+          "y": 1924,
+          "l": "The Banach-Tarski Paradox",
+          "entryId": "ef4"
+        },
+        {
+          "y": 1934,
+          "l": "Non-Standard Models of Arithmetic",
+          "entryId": "ef3"
+        },
+        {
+          "y": 1935,
+          "l": "Cut Elimination (Gentzen's Hauptsatz)",
+          "entryId": "ef8"
+        },
+        {
+          "y": 1969,
+          "l": "The Curry-Howard Correspondence",
+          "entryId": "ef7"
+        },
+        {
+          "y": 1970,
+          "l": "Hilbert's Tenth Problem undecidable",
+          "entryId": "ef5"
+        },
+        {
+          "y": 1974,
+          "l": "Independence beyond CH (Whitehead)",
+          "entryId": "ef9"
+        },
+        {
+          "y": 1975,
+          "l": "Semantic paradoxes (the Liar)",
+          "entryId": "ef2"
+        },
+        {
+          "y": 1977,
+          "l": "The Paris-Harrington Theorem",
+          "entryId": "ef10"
+        },
+        {
+          "y": 2003,
+          "l": "Diagonalization",
+          "entryId": "ef1"
+        }
+      ]
     },
     {
       "id": "method",
       "icon": "🔬",
       "accent": "#8B5E00",
       "label": "Methods",
-      "events": []
+      "events": [
+        {
+          "y": 1889,
+          "l": "Peano's Axiomatic Method",
+          "entryId": "me5"
+        },
+        {
+          "y": 1921,
+          "l": "Truth Tables",
+          "entryId": "me2"
+        },
+        {
+          "y": 1935,
+          "l": "Natural Deduction",
+          "entryId": "me1"
+        },
+        {
+          "y": 1935,
+          "l": "Sequent Calculus",
+          "entryId": "me6"
+        },
+        {
+          "y": 1955,
+          "l": "Semantic Tableaux",
+          "entryId": "me7"
+        },
+        {
+          "y": 1963,
+          "l": "Forcing",
+          "entryId": "me3"
+        },
+        {
+          "y": 2008,
+          "l": "Computer-Assisted Proof Verification",
+          "entryId": "me4"
+        }
+      ]
     },
     {
       "id": "debate",
       "icon": "⚖️",
       "accent": "#B7770D",
       "label": "Debates & Revisions",
-      "events": []
+      "events": [
+        {
+          "y": 1904,
+          "l": "Debate: accept the Axiom of Choice?",
+          "entryId": "db3"
+        },
+        {
+          "y": 1964,
+          "l": "Platonism vs. Formalism vs. Intuitionism",
+          "entryId": "db1"
+        },
+        {
+          "y": 1972,
+          "l": "Tarski's undefinability and truth",
+          "entryId": "db7"
+        },
+        {
+          "y": 1979,
+          "l": "Do computer proofs count as real?",
+          "entryId": "db5"
+        },
+        {
+          "y": 1989,
+          "l": "Penrose-Lucas: minds vs. Gödel",
+          "entryId": "db8"
+        },
+        {
+          "y": 2001,
+          "l": "CH: true, false, or neither?",
+          "entryId": "db2"
+        },
+        {
+          "y": 2006,
+          "l": "Did Gödel refute Hilbert's program?",
+          "entryId": "db4"
+        },
+        {
+          "y": 2006,
+          "l": "Logical pluralism debate",
+          "entryId": "db6"
+        }
+      ]
     },
     {
       "id": "application",
       "icon": "🔗",
       "accent": "#2E86C1",
       "label": "Applications",
-      "events": []
+      "events": [
+        {
+          "y": 1939,
+          "l": "Set theory as math's foundation",
+          "entryId": "ap6"
+        },
+        {
+          "y": 1951,
+          "l": "Deontic and Legal Logic",
+          "entryId": "ap4"
+        },
+        {
+          "y": 1974,
+          "l": "Logic Programming (Prolog)",
+          "entryId": "ap2"
+        },
+        {
+          "y": 1979,
+          "l": "Gödel's theorem, popularised (GEB)",
+          "entryId": "ap7"
+        },
+        {
+          "y": 1980,
+          "l": "Non-Monotonic Logic in AI",
+          "entryId": "ap5"
+        },
+        {
+          "y": 1981,
+          "l": "Model Checking",
+          "entryId": "ap3"
+        },
+        {
+          "y": 2009,
+          "l": "Formal verification (seL4)",
+          "entryId": "ap1"
+        }
+      ]
     }
   ]
 }
