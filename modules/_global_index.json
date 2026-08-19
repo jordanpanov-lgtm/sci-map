@@ -2,7 +2,7 @@
   "_meta": {
     "total_entries": 1225,
     "folio_count": 16,
-    "xlink_pairs": 65,
+    "xlink_pairs": 66,
     "keyword_terms": 4860,
     "folios": [
       {
@@ -1546,6 +1546,12 @@
     ],
     "computer-science::th1": [
       "logic-math-foundations::st7"
+    ],
+    "logic-math-foundations::st9": [
+      "computer-science::co2"
+    ],
+    "computer-science::co2": [
+      "logic-math-foundations::st9"
     ],
     "logic-math-foundations::ef1": [
       "computer-science::ef2"
