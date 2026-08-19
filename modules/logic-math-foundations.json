@@ -1095,7 +1095,155 @@
       "accent": "#CA6F1E",
       "bg": "#FDF5EC",
       "subtitle": "Live controversies — where the field is actively contesting the evidence",
-      "entries": []
+      "entries": [
+        {
+          "id": "db1",
+          "group": "Philosophy of Mathematics",
+          "label": "Platonism vs. Formalism vs. Intuitionism",
+          "date": "1964",
+          "loc": "Vienna, Austria",
+          "coords": [
+            48.21,
+            16.37
+          ],
+          "tag": "DEBATE",
+          "hint": "Three fundamentally different answers to \"what is a mathematical object, really?\" have never been reconciled: Platonists hold that numbers and sets exist independently of human minds, waiting to be discovered like distant planets; formalists hold that mathematics is ultimately a meaningless symbol-manipulation game, meaningful only in its internal consistency; intuitionists hold that a mathematical object exists only once it has actually been mentally constructed, step by step. Working mathematicians routinely reason as if they were Platonists on weekdays and dodge the question entirely when asked directly.",
+          "note": "Platonist case: Gödel, K. (1947, revised 1964). 'What is Cantor's Continuum Problem?' American Mathematical Monthly, 54(9), 515–525. Formalist case: Hilbert, D. (1926), see th3. Intuitionist case: Brouwer, L.E.J. (1907), see th6. None of the three positions commands anything close to consensus among working mathematicians or philosophers of mathematics, over a century after the debate first crystallised.",
+          "links": [
+            "th5",
+            "th6"
+          ]
+        },
+        {
+          "id": "db2",
+          "group": "Set Theory & the Infinite",
+          "label": "Is the Continuum Hypothesis True, False, or Neither?",
+          "date": "2001",
+          "loc": "Berkeley, California",
+          "coords": [
+            37.87,
+            -122.27
+          ],
+          "tag": "DEBATE",
+          "hint": "Cohen proved CH can neither be proved nor refuted from ZFC — but that leaves open whether CH nonetheless has a determinate truth value that better axioms, not yet discovered, could eventually settle, or whether the question is simply meaningless once you accept it's independent. Gödel himself believed CH was probably false and that mathematicians would eventually find compelling new axioms to prove this; the search for exactly such axioms remains an active, unresolved research programme today.",
+          "note": "Gödel's view: Gödel, K. (1947/1964), see db1. Modern research programme: Woodin, W.H. (2001). 'The Continuum Hypothesis, Part I.' Notices of the American Mathematical Society, 48(6), 567–576, proposing large-cardinal axioms as candidates for settling the question. Whether adopting a new axiom specifically because it settles a desired question, rather than because it's independently self-evident, is legitimate mathematical practice or a kind of question-begging remains genuinely contested.",
+          "links": [
+            "st5",
+            "st6"
+          ]
+        },
+        {
+          "id": "db3",
+          "group": "Set Theory & the Infinite",
+          "label": "Should Mathematics Accept the Axiom of Choice?",
+          "date": "1904",
+          "loc": "Göttingen, Germany",
+          "coords": [
+            51.53,
+            9.94
+          ],
+          "tag": "DEBATE",
+          "hint": "The Axiom of Choice lets you select one element from each of infinitely many sets simultaneously, even with no rule specifying which element to pick — an assumption most mathematicians accept because so many important theorems demand it (every vector space has a basis, every set can be well-ordered), but which also directly enables the deeply counter-intuitive Banach-Tarski paradox, leaving some mathematicians, particularly constructivists, permanently wary of it.",
+          "note": "Original motivation: Zermelo, E. (1904). 'Beweis, dass jede Menge wohlgeordnet werden kann.' Mathematische Annalen, 59, 514–516. Counter-intuitive consequence: Banach, Tarski (1924), see ef4. Most working mathematicians accept AC pragmatically for the theorems it unlocks, without necessarily resolving the philosophical unease about a principle that guarantees a choice exists without ever describing how to actually make it.",
+          "links": [
+            "ef4"
+          ]
+        },
+        {
+          "id": "db4",
+          "group": "Gödel, Incompleteness & the Limits of Formalization",
+          "label": "Did Gödel's Theorems Refute Hilbert's Program?",
+          "date": "2006",
+          "loc": "Calgary, Canada",
+          "coords": [
+            51.05,
+            -114.07
+          ],
+          "tag": "DEBATE",
+          "hint": "The popular telling says Gödel simply proved Hilbert's formalist dream impossible and that was that. The real picture is messier: Gentzen's 1936 consistency proof used transfinite induction — reasoning strictly beyond Hilbert's original \"finitary\" restriction, but still far more restrictive than full classical mathematics — to actually prove arithmetic consistent, salvaging a meaningfully weakened version of exactly what Hilbert wanted. Whether that counts as Hilbert's program surviving in modified form, or as its quiet abandonment dressed up as a partial victory, is a live question in the history and philosophy of mathematics.",
+          "note": "Zach, R. (2006). 'Hilbert's Program Then and Now,' in Jacquette, D. (ed.), Philosophy of Logic (Handbook of the Philosophy of Science). Amsterdam: Elsevier, 411–447. Draws on Gentzen (1936, see st4) and Gödel (1931, see th4, st3) to argue the standard \"Gödel simply refuted Hilbert\" narrative oversimplifies a considerably more nuanced technical and historical picture.",
+          "links": [
+            "th3",
+            "th4",
+            "st4"
+          ]
+        },
+        {
+          "id": "db5",
+          "group": "Formal Systems & Proof Theory",
+          "label": "Should Computer-Verified Proofs Count as Real Proof?",
+          "date": "1979",
+          "loc": "Cambridge, Massachusetts",
+          "coords": [
+            42.37,
+            -71.12
+          ],
+          "tag": "DEBATE",
+          "hint": "When the Four Color Theorem was first proved in 1976 by exhaustively checking nearly 2,000 individual cases with a computer, no human being could ever verify the whole proof by hand — a genuinely new situation mathematics hadn't faced before. Critics argued a proof no one could actually read and understand isn't really mathematical understanding at all, just mechanical certainty; defenders argued mathematical proof was always fundamentally about rigorous, checkable inference, and a machine checking it is no less legitimate than a human doing the same thing more slowly.",
+          "note": "Appel, K., Haken, W. (1976). 'Every Planar Map is Four Colorable.' Bulletin of the American Mathematical Society, 82(5), 711–712. Philosophical debate: Tymoczko, T. (1979). 'The Four-Color Problem and Its Philosophical Significance.' Journal of Philosophy, 76(2), 57–83. The question has only grown more pressing as fully machine-checked formal proofs (see me4) have become common for results too large for any human to verify unaided.",
+          "links": [
+            "me4"
+          ]
+        },
+        {
+          "id": "db6",
+          "group": "Non-Classical & Alternative Logics",
+          "label": "Logical Pluralism: Is There One True Logic?",
+          "date": "2006",
+          "loc": "Melbourne, Australia",
+          "coords": [
+            -37.81,
+            144.96
+          ],
+          "tag": "DEBATE",
+          "hint": "Classical logic, intuitionistic logic, modal logic, paraconsistent logic (which tolerates some contradictions without exploding into triviality) — each claims to correctly capture valid reasoning, at least for some purposes, yet they disagree with each other on basic questions like whether every statement must be true or false. Is exactly one of them the single correct account of logical consequence, with the others merely useful approximations or special-purpose tools, or are several genuinely, equally correct — just for different kinds of reasoning?",
+          "note": "Beall, JC, Restall, G. (2006). Logical Pluralism. Oxford: Oxford University Press — the most influential contemporary defence of the pluralist position. Most working logicians use different systems for different practical purposes without necessarily taking a firm stand on whether this reflects genuine philosophical pluralism or simple engineering convenience.",
+          "links": [
+            "th9",
+            "co6",
+            "co7"
+          ]
+        },
+        {
+          "id": "db7",
+          "group": "Model Theory & Semantics",
+          "label": "Tarski's Undefinability and Theories of Truth",
+          "date": "1972",
+          "loc": "New York, New York",
+          "coords": [
+            40.71,
+            -74.01
+          ],
+          "tag": "DEBATE",
+          "hint": "Tarski's technical result — that a sufficiently powerful language can't define its own truth predicate — gets read in sharply different ways by philosophers. Some take it as vindicating a substantive, correspondence-style theory of truth built up carefully through a hierarchy of languages; others take it as evidence for a much thinner, \"deflationary\" view, on which \"true\" doesn't name any deep property at all and Tarski's hierarchy is really just bookkeeping to avoid paradox.",
+          "note": "Field, H. (1972). 'Tarski's Theory of Truth.' Journal of Philosophy, 69(13), 347–375 — an influential critical reading arguing Tarski's technical apparatus, on its own, doesn't settle which philosophical theory of truth is correct. Directly connects to the competing theories of truth already debated in epistemology (see epistemology::th3, epistemology::th4, epistemology::th5) — Tarski's result constrains what any of those theories can formally claim, without adjudicating between them.",
+          "links": [
+            "st11",
+            "ef2"
+          ],
+          "xlinks": [
+            "epistemology::th3",
+            "epistemology::th4"
+          ]
+        },
+        {
+          "id": "db8",
+          "group": "Gödel, Incompleteness & the Limits of Formalization",
+          "label": "Does Gödel's Theorem Prove Minds Aren't Computers?",
+          "date": "1989",
+          "loc": "Oxford, United Kingdom",
+          "coords": [
+            51.75,
+            -1.26
+          ],
+          "tag": "DEBATE",
+          "hint": "Roger Penrose argued that because a human mathematician can \"see\" the truth of a Gödel sentence that a given formal system cannot prove, human mathematical understanding must involve something no algorithm — and by extension, no computer — could ever replicate. Essentially every logician and computer scientist who has examined the argument in detail rejects it, generally on the grounds that it silently assumes humans can always correctly determine their own reasoning is consistent, something Gödel's own theorem says a system can never verify about itself.",
+          "note": "Penrose, R. (1989). The Emperor's New Mind. Oxford: Oxford University Press, extending an earlier version of the argument in Lucas, J.R. (1961). 'Minds, Machines and Gödel.' Philosophy, 36(137), 112–127. Rebuttal: Chalmers, D.J. (1995). 'Minds, Machines, and Mathematics.' Psyche, 2, 11–20. A well-documented case study in a technical mathematical result being stretched into a far broader philosophical claim than the mathematics itself can actually support (see ap7 for another instance).",
+          "links": [
+            "th4"
+          ]
+        }
+      ]
     },
     {
       "id": "application",
@@ -1105,7 +1253,117 @@
       "accent": "#2E86C1",
       "bg": "#EBF5FB",
       "subtitle": "Where the science leaves the lab",
-      "entries": []
+      "entries": [
+        {
+          "id": "ap1",
+          "group": "Formal Systems & Proof Theory",
+          "label": "Formal Verification of Software and Hardware",
+          "date": "2009",
+          "loc": "Sydney, Australia",
+          "coords": [
+            -33.87,
+            151.21
+          ],
+          "tag": "APPLICATION",
+          "hint": "An operating system kernel or a microchip design can be mathematically proven, not just tested, to behave exactly as specified under every possible input — no gap between \"we ran a lot of tests and nothing broke\" and \"this is provably correct.\" The seL4 microkernel became the first operating-system kernel with a complete, machine-checked mathematical proof that its implementation correctly matches its formal specification.",
+          "note": "Klein, G., Elphinstone, K., Heiser, G., et al. (2009). 'seL4: Formal Verification of an OS Kernel.' Proceedings of the 22nd ACM Symposium on Operating Systems Principles (SOSP '09), 207–220. Now used in safety- and security-critical systems (avionics, defence, autonomous vehicles) precisely where the cost of an undetected bug is unacceptably high and conventional testing alone cannot provide the same guarantee.",
+          "links": []
+        },
+        {
+          "id": "ap2",
+          "group": "Formal Systems & Proof Theory",
+          "label": "Logic Programming (Prolog)",
+          "date": "1974",
+          "loc": "London, United Kingdom",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "APPLICATION",
+          "hint": "Instead of telling a computer step-by-step how to solve a problem, logic programming lets a programmer state a set of logical facts and rules and simply ask a question — the language itself searches for a way to derive an answer using resolution, a mechanical proof-search technique. Robert Kowalski's theoretical framing of \"predicate logic as a programming language,\" combined with Alain Colmerauer's practical implementation, produced Prolog, still in active use today particularly in artificial intelligence and computational linguistics.",
+          "note": "Kowalski, R.A. (1974). 'Predicate Logic as a Programming Language.' Information Processing 74 (IFIP Congress), 569–574. A genuinely different programming paradigm from the imperative and functional styles that dominate most software — the computer is doing automated theorem proving, in a quite literal sense, every time a Prolog program runs.",
+          "links": []
+        },
+        {
+          "id": "ap3",
+          "group": "Non-Classical & Alternative Logics",
+          "label": "Model Checking",
+          "date": "1981",
+          "loc": "Cambridge, Massachusetts",
+          "coords": [
+            42.37,
+            -71.12
+          ],
+          "tag": "APPLICATION",
+          "hint": "Exhaustively and automatically checking every possible state a finite-state system (a communication protocol, a piece of hardware, concurrent software) could ever reach, verifying a temporal-logic specification holds in every single one, catches subtle timing and concurrency bugs that are notoriously easy for human reasoning and ordinary testing to miss entirely.",
+          "note": "Clarke, E.M., Emerson, E.A. (1981). 'Design and Synthesis of Synchronization Skeletons Using Branching-Time Temporal Logic.' Logics of Programs, Springer LNCS 131, 52–71, developed independently around the same time by Joseph Sifakis. Clarke, Emerson, and Sifakis shared the 2008 Turing Award; model checking is now standard practice in hardware design, where a single undetected chip bug can be catastrophically expensive to fix after fabrication.",
+          "links": []
+        },
+        {
+          "id": "ap4",
+          "group": "Non-Classical & Alternative Logics",
+          "label": "Deontic and Legal Logic",
+          "date": "1951",
+          "loc": "Cambridge, United Kingdom",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "tag": "APPLICATION",
+          "hint": "Ordinary logic has no native way to formally represent \"you must,\" \"you may,\" and \"you must not\" — obligation, permission, and prohibition don't behave like ordinary truth values, since \"it is obligatory that P\" being true doesn't mean P is actually true, just that it ought to be. Georg Henrik von Wright built a formal logic specifically for this normative vocabulary, later applied directly to formalising legal codes and contracts for automated consistency checking.",
+          "note": "von Wright, G.H. (1951). 'Deontic Logic.' Mind, 60(237), 1–15. Modern applications include automated checking of legal and regulatory documents for internal contradictions (can a contract simultaneously require and forbid the same action under the same conditions?) and formalising the permission structures underlying access-control systems in computer security.",
+          "links": []
+        },
+        {
+          "id": "ap5",
+          "group": "Non-Classical & Alternative Logics",
+          "label": "Non-Monotonic Logic in AI",
+          "date": "1980",
+          "loc": "Stanford, California",
+          "coords": [
+            37.43,
+            -122.17
+          ],
+          "tag": "APPLICATION",
+          "hint": "Ordinary logical deduction only ever adds certainty — once you've proven something, no additional fact can make it stop being provable. Real-world reasoning doesn't work that way: \"birds fly\" is a reasonable default that a specific new fact (\"Tweety is a penguin\") can override, and an AI system reasoning about an incompletely known world needs a formal logic that can retract earlier conclusions gracefully as new information arrives, rather than either ignoring the new fact or breaking entirely.",
+          "note": "McCarthy, J. (1980). 'Circumscription—A Form of Non-Monotonic Reasoning.' Artificial Intelligence, 13(1–2), 27–39. Became a core technique in classical symbolic AI knowledge representation for exactly this reason — real-world knowledge bases are never complete, and a reasoning system that can't revise conclusions gracefully in light of new information is of limited practical use.",
+          "links": []
+        },
+        {
+          "id": "ap6",
+          "group": "Foundations of Number & Structure",
+          "label": "Set-Theoretic Foundations of Modern Mathematics",
+          "date": "1939",
+          "loc": "Paris, France",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "tag": "APPLICATION",
+          "hint": "Calculus, topology, algebra, probability — essentially every branch of modern mathematics can, in principle, be built up formally from nothing but ZFC's sets and the empty set, giving all of mathematics one single common formal foundation regardless of how different its various branches look on the surface. A collective of (mostly French) mathematicians writing under the pseudonym Nicolas Bourbaki spent decades attempting to actually carry this reconstruction out, rigorously, from the ground up.",
+          "note": "Bourbaki, N. (1939–). Éléments de mathématique. Paris: Hermann (an ongoing multi-volume series, still associated with a rotating group of contributors under the collective pseudonym). Working mathematicians rarely think in terms of raw set-theoretic definitions day to day, but the fact that the reduction is available in principle is what makes ZFC function as mathematics' common foundational language rather than merely one specialised branch among many.",
+          "links": [
+            "th1"
+          ]
+        },
+        {
+          "id": "ap7",
+          "group": "Gödel, Incompleteness & the Limits of Formalization",
+          "label": "Gödel's Theorem in Popular Misapplication",
+          "date": "1979",
+          "loc": "Cambridge, Massachusetts",
+          "coords": [
+            42.37,
+            -71.12
+          ],
+          "tag": "APPLICATION",
+          "hint": "Incompleteness gets invoked constantly outside mathematical logic — to argue science can never be complete, that no worldview can be fully self-justifying, that human creativity necessarily exceeds any formal system — usually stretching a precise technical result about formal axiomatic systems capable of arithmetic into a much vaguer claim it was never built to support. Douglas Hofstadter's Gödel, Escher, Bach did more than any other single work to popularise the theorem, for better and for worse, well beyond specialist mathematical logic.",
+          "note": "Hofstadter, D.R. (1979). Gödel, Escher, Bach: An Eternal Golden Braid. New York: Basic Books — an enormously influential popularisation, though one that professional logicians have sometimes criticised for encouraging exactly the kind of loose, over-extended analogical use of incompleteness that shows up in the Penrose-Lucas argument (see db8) and countless less rigorous invocations since.",
+          "links": [
+            "th4"
+          ]
+        }
+      ]
     }
   ],
   "timeline": [
