@@ -28,7 +28,7 @@ const FIELDS = [
   { id:"oceanography",               domain:"earth-space",       label:"Oceanography & Marine Sciences",            sub:"Ocean circulation, marine ecosystems & the deep sea",                   status:"ready",   file:"modules/oceanography.json" },
   { id:"environmental-science",      domain:"earth-space",       label:"Environmental Science & Sustainability",    sub:"Earth systems under human pressure — ecology & climate change",          status:"planned" },
   // ── FORMAL SCIENCES & COMPUTING ──────────────────────────────────────────────
-  { id:"logic-math-foundations",     domain:"formal-computing",  label:"Logic & Foundations of Mathematics",        sub:"Proof, sets, model theory, computability & the philosophical roots of formal reasoning",  status:"planned" },
+  { id:"logic-math-foundations",     domain:"formal-computing",  label:"Logic & Foundations of Mathematics",        sub:"Proof, sets, model theory, computability & the philosophical roots of formal reasoning",  status:"ready", file:"modules/logic-math-foundations.json" },
   { id:"pure-mathematics",           domain:"formal-computing",  label:"Pure Math: Algebra, Analysis, Geometry & Topology", sub:"Algebra, number theory, topology, real & complex analysis",          status:"planned" },
   { id:"applied-math-statistics",    domain:"formal-computing",  label:"Applied Math & Statistics",                 sub:"Probability, statistics, optimisation, operations research & cryptography", status:"planned" },
   { id:"computer-science",           domain:"formal-computing",  label:"Computer & Information Sciences",           sub:"Algorithms, information theory, programming languages, distributed systems & AI", status:"ready", file:"modules/computer-science.json" },
