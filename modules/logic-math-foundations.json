@@ -15,24 +15,24 @@
   "mapZoom": 2,
   "methodology": "METHODOLOGY · Every entry anchors to a landmark study, paper, clinical case or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags replication status, effect-size revisions and known controversies. Studies and effects carry a replicability badge — 🟢 robust · 🟡 nuanced or reduced · 🔴 failed or severely contested. Map pins mark the institution where the work was carried out.",
   "_meta": {
-    "total_entries": 73,
+    "total_entries": 81,
     "entry_counts": {
-      "theory": 10,
-      "study": 11,
+      "theory": 12,
+      "study": 12,
       "effect": 10,
-      "concept": 8,
-      "method": 7,
-      "figure": 12,
+      "concept": 10,
+      "method": 8,
+      "figure": 14,
       "debate": 8,
       "application": 7
     },
     "max_ids": {
-      "th": 10,
-      "st": 11,
+      "th": 12,
+      "st": 12,
       "ef": 10,
-      "co": 8,
-      "me": 7,
-      "fg": 12,
+      "co": 10,
+      "me": 8,
+      "fg": 14,
       "db": 8,
       "ap": 7
     },
@@ -59,6 +59,8 @@
     "th8": "theory · Model Theory & Semantics · The Compactness Theorem (1930)",
     "th9": "theory · Non-Classical & Alternative Logics · Modal Logic (Possible Worlds Semantics) (1963)",
     "th10": "theory · Foundations of Number & Structure · Category Theory as a Foundation (1945)",
+    "th11": "theory · Foundations of Number & Structure · Homotopy Type Theory (2013)",
+    "th12": "theory · Set Theory & the Infinite · Large Cardinal Axioms (2003)",
     "st1": "study · Set Theory & the Infinite · Cantor's Diagonal Argument (1891)",
     "st2": "study · Set Theory & the Infinite · Russell's Paradox (1901)",
     "st3": "study · Gödel, Incompleteness & the Limits of Formalization · Gödel's Incompleteness Proof (1931)",
@@ -70,6 +72,7 @@
     "st9": "study · Gödel, Incompleteness & the Limits of Formalization · Formalising Recursive Functions (1934)",
     "st10": "study · Non-Classical & Alternative Logics · Kripke's Completeness Proof for Modal Logic (1959)",
     "st11": "study · Model Theory & Semantics · Tarski's Undefinability of Truth (1933)",
+    "st12": "study · Foundations of Number & Structure · Lawvere's Elementary Theory of the Category of Sets (1964)",
     "ef1": "effect · Set Theory & the Infinite · Diagonalization (2003)",
     "ef2": "effect · Model Theory & Semantics · Semantic Paradoxes (the Liar and its Relatives) (1975)",
     "ef3": "effect · Model Theory & Semantics · Non-Standard Models of Arithmetic (1934)",
@@ -88,6 +91,8 @@
     "co6": "concept · Non-Classical & Alternative Logics · Intuitionistic Logic (1930)",
     "co7": "concept · Non-Classical & Alternative Logics · Many-Valued Logic (1920)",
     "co8": "concept · Set Theory & the Infinite · Ordinal Numbers (1883)",
+    "co9": "concept · Formal Systems & Proof Theory · Boolean Algebra (1854)",
+    "co10": "concept · Model Theory & Semantics · First-Order vs. Second-Order Logic (2001)",
     "me1": "method · Formal Systems & Proof Theory · Natural Deduction (1935)",
     "me2": "method · Formal Systems & Proof Theory · Truth Tables (1921)",
     "me3": "method · Set Theory & the Infinite · Forcing (1963)",
@@ -95,6 +100,7 @@
     "me5": "method · Foundations of Number & Structure · Peano's Axiomatic Method (1889)",
     "me6": "method · Formal Systems & Proof Theory · Sequent Calculus (1935)",
     "me7": "method · Non-Classical & Alternative Logics · Semantic Tableaux (1955)",
+    "me8": "method · Formal Systems & Proof Theory · Reverse Mathematics (1975)",
     "fg1": "figure · Pioneers & Theorists · Georg Cantor (1891)",
     "fg2": "figure · Pioneers & Theorists · Gottlob Frege (1879)",
     "fg3": "figure · Pioneers & Theorists · Bertrand Russell (1901)",
@@ -107,6 +113,8 @@
     "fg10": "figure · Pioneers & Theorists · Paul Cohen (1963)",
     "fg11": "figure · Pioneers & Theorists · Saul Kripke (1959)",
     "fg12": "figure · Pioneers & Theorists · Thoralf Skolem (1920)",
+    "fg13": "figure · Pioneers & Theorists · George Boole (1854)",
+    "fg14": "figure · Pioneers & Theorists · Vladimir Voevodsky (2006)",
     "db1": "debate · Philosophy of Mathematics · Platonism vs. Formalism vs. Intuitionism (1964)",
     "db2": "debate · Set Theory & the Infinite · Is the Continuum Hypothesis True, False, or Neither? (2001)",
     "db3": "debate · Set Theory & the Infinite · Should Mathematics Accept the Axiom of Choice? (1904)",
@@ -239,7 +247,8 @@
             "fg5",
             "db4",
             "db8",
-            "ap7"
+            "ap7",
+            "me8"
           ],
           "keywords": [
             "gödel incompleteness theorems",
@@ -316,7 +325,8 @@
             "th8",
             "ef3",
             "ef6",
-            "fg12"
+            "fg12",
+            "co10"
           ],
           "keywords": [
             "löwenheim-skolem theorem",
@@ -341,7 +351,8 @@
           "links": [
             "th7",
             "ef3",
-            "co3"
+            "co3",
+            "co10"
           ],
           "keywords": [
             "compactness theorem logic",
@@ -388,12 +399,66 @@
           "tag": "THEORY",
           "hint": "Instead of building mathematics up from sets and elements, category theory builds it from objects and the structure-preserving maps (\"morphisms\") between them, treating the relationships as more fundamental than the things being related. Samuel Eilenberg and Saunders Mac Lane introduced it originally just to make precise a vague notion of \"naturality\" in algebraic topology — it later grew into a serious rival to set theory as a foundational language for all of mathematics.",
           "note": "Eilenberg, S., Mac Lane, S. (1945). 'General Theory of Natural Equivalences.' Transactions of the American Mathematical Society, 58(2), 231–294. The foundational proposal specifically (using category theory in place of set theory as mathematics' bedrock) came two decades later, principally through William Lawvere's Elementary Theory of the Category of Sets (1964); it remains a minority but mathematically serious alternative to ZFC.",
-          "links": [],
+          "links": [
+            "th11",
+            "st12"
+          ],
           "keywords": [
             "category theory foundation",
             "eilenberg mac lane categories",
             "objects morphisms mathematics",
             "natural equivalences"
+          ]
+        },
+        {
+          "id": "th11",
+          "group": "Foundations of Number & Structure",
+          "label": "Homotopy Type Theory",
+          "date": "2013",
+          "loc": "Princeton, New Jersey",
+          "coords": [
+            40.35,
+            -74.66
+          ],
+          "tag": "THEORY",
+          "hint": "A genuinely new foundation for mathematics, built not from sets but from types, where two mathematical objects being \"equivalent\" is treated as literally the same thing as them being equal — borrowed from homotopy theory's idea of a continuous path connecting two points. The Univalence Axiom makes this precise, and it matches something working mathematicians already do informally (treating isomorphic structures as interchangeable) but that set theory alone never formally justified.",
+          "note": "The Univalent Foundations Program (2013). Homotopy Type Theory: Univalent Foundations of Mathematics. Princeton: Institute for Advanced Study — a collaboratively authored, freely available book produced during a year-long research program led by Vladimir Voevodsky (see fg14). Closely tied to computer proof assistants (see me4) and the Curry-Howard correspondence (see ef7), since type theory is also a programming-language foundation; still a minority position relative to ZFC set theory, but a mathematically serious modern rival.",
+          "links": [
+            "th10",
+            "ef7",
+            "me4",
+            "fg14",
+            "st12"
+          ],
+          "keywords": [
+            "homotopy type theory",
+            "univalent foundations",
+            "voevodsky univalence axiom",
+            "type-theoretic mathematics foundation"
+          ]
+        },
+        {
+          "id": "th12",
+          "group": "Set Theory & the Infinite",
+          "label": "Large Cardinal Axioms",
+          "date": "2003",
+          "loc": "Boston, Massachusetts",
+          "coords": [
+            42.36,
+            -71.06
+          ],
+          "tag": "THEORY",
+          "hint": "Beyond the infinite cardinals ZFC alone can prove exist, set theorists have proposed axioms asserting the existence of even larger infinities with special structural properties — inaccessible, measurable, Woodin, and supercompact cardinals, among others — organised into a strikingly well-behaved linear hierarchy of increasing strength. These aren't arbitrary: adding a large cardinal axiom is one of the leading strategies for settling questions, like the continuum hypothesis, that are independent of ZFC alone.",
+          "note": "Kanamori, A. (2003). The Higher Infinite: Large Cardinals in Set Theory from Their Beginnings (2nd ed.). Berlin: Springer — the standard reference for the field. Directly connects to the search for new axioms discussed in db2; different large cardinal axioms have been shown to settle different independent questions, though none has yet won the kind of universal acceptance ZFC's own axioms enjoy.",
+          "links": [
+            "db2",
+            "st6"
+          ],
+          "keywords": [
+            "large cardinal axioms",
+            "measurable supercompact cardinals",
+            "kanamori higher infinite",
+            "inner model large cardinals"
           ]
         }
       ]
@@ -556,7 +621,8 @@
           "note": "Gödel, K. (1940). The Consistency of the Axiom of Choice and of the Generalized Continuum-Hypothesis with the Axioms of Set Theory. Princeton: Princeton University Press (Annals of Mathematics Studies). Completed while Gödel was a member of the Institute for Advanced Study, after emigrating from Austria following its annexation by Nazi Germany.",
           "links": [
             "st5",
-            "db2"
+            "db2",
+            "th12"
           ],
           "keywords": [
             "constructible universe gödel",
@@ -697,6 +763,31 @@
             "semantic conception of truth",
             "metalanguage object language"
           ]
+        },
+        {
+          "id": "st12",
+          "group": "Foundations of Number & Structure",
+          "label": "Lawvere's Elementary Theory of the Category of Sets",
+          "date": "1964",
+          "loc": "New York, New York",
+          "coords": [
+            40.71,
+            -74.01
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "William Lawvere, still a graduate student, gave category theory (see th10) the specific technical axioms it needed to stand as a rigorous alternative to ZFC — instead of starting from sets containing elements, ETCS starts from a category of sets and the functions between them, and shows the entire categorical apparatus is self-sufficient as a foundation rather than merely a useful language layered on top of set theory.",
+          "note": "Lawvere, F.W. (1964). 'An Elementary Theory of the Category of Sets.' Proceedings of the National Academy of Sciences, 52(6), 1506–1511. Without this specific construction, describing category theory as a genuine rival foundation to set theory (see th10) would be an aspiration rather than a demonstrated technical fact.",
+          "links": [
+            "th10",
+            "th11"
+          ],
+          "keywords": [
+            "lawvere etcs 1964",
+            "elementary theory category sets",
+            "category theory rival foundation",
+            "lawvere graduate student proof"
+          ]
         }
       ]
     },
@@ -777,7 +868,8 @@
           "note": "Skolem, T. (1934). 'Über die Nicht-charakterisierbarkeit der Zahlenreihe mittels endlich oder abzählbar unendlich vieler Aussagen mit ausschließlich Zahlenvariablen.' Fundamenta Mathematicae, 23, 150–161. Demonstrates a real limitation of first-order logic: no first-order theory can pin down the natural numbers uniquely, up to the exact structure mathematicians actually mean by them — a gap only second-order logic can close, at the cost of losing completeness and compactness.",
           "links": [
             "th7",
-            "th8"
+            "th8",
+            "co10"
           ],
           "keywords": [
             "non-standard models arithmetic",
@@ -798,7 +890,7 @@
           ],
           "tag": "PHENOMENON",
           "repl": "robust",
-          "hint": "A solid ball can be cut into a small number of pieces and reassembled, using only rotations and translations with no stretching, into two solid balls each identical in size to the original — an apparent violation of conservation of volume that isn't actually a paradox in physics, since the pieces involved are so pathologically irregular (built using the Axiom of Choice) that they don't have a well-defined volume to conserve in the first place.",
+          "hint": "A solid ball can be cut into a small number of pieces and reassembled, using only rotations and translations with no stretching, into two solid balls each identical in size to the original — an apparent violation of conservation of volume that isn't actually a paradox in physics, since the pieces involved are so pathologically irregular (defined non-constructively using the Axiom of Choice, not built by any explicit or algorithmic procedure) that they don't have a well-defined volume to conserve in the first place.",
           "note": "Banach, S., Tarski, A. (1924). 'Sur la décomposition des ensembles de points en parties respectivement congruentes.' Fundamenta Mathematicae, 6, 244–277. The result is often cited as an argument against accepting the Axiom of Choice (see db3, co2), since without AC the pathological, non-measurable pieces the construction requires cannot be shown to exist at all.",
           "links": [
             "db3"
@@ -872,7 +964,8 @@
           "hint": "A logical proof and a computer program are, structurally, the exact same object viewed two different ways: a proof of an implication corresponds precisely to a function, and simplifying a proof corresponds precisely to running that function's program. William Howard noticed this deep correspondence between formal logic and the lambda calculus (see computer-science) almost as a curiosity — it later became a foundational principle behind how modern proof assistants and dependently typed programming languages actually work.",
           "note": "Howard, W.A. 'The Formulae-as-Types Notion of Construction,' informally circulated in 1969, formally published in Seldin, J.P., Hindley, J.R. (eds.) (1980). To H.B. Curry: Essays on Combinatory Logic, Lambda Calculus and Formalism. London: Academic Press, 479–490 — a rare case of an influential paper circulating unpublished for over a decade. Directly underlies modern proof assistants (see me4, ap2).",
           "links": [
-            "me4"
+            "me4",
+            "th11"
           ],
           "keywords": [
             "curry-howard correspondence",
@@ -1071,7 +1164,8 @@
           "hint": "A system of axioms is consistent if it's impossible to derive a contradiction from it, and a statement is independent of those axioms if neither the statement nor its negation can be proved from them — meaning the axioms simply don't settle the question either way. David Hilbert pioneered proving consistency indirectly, by showing one system is consistent \"relative to\" another already-trusted one (geometry relative to arithmetic), rather than from absolute first principles.",
           "note": "Hilbert, D. (1899), see co1 — Hilbert proved Euclidean geometry consistent relative to the real numbers, sidestepping the harder question of arithmetic's own consistency, later shown by Gödel to be unprovable from within arithmetic itself (see th4). The concept of independence became central to the field after Cohen's 1963 forcing technique showed entire major questions, not just isolated curiosities, could be independent of the standard axioms (see st5, ef9).",
           "links": [
-            "th4"
+            "th4",
+            "me8"
           ],
           "keywords": [
             "consistency independence concepts",
@@ -1138,7 +1232,7 @@
             11.97
           ],
           "tag": "CONCEPT",
-          "hint": "Cardinal numbers answer \"how many\"; ordinal numbers answer \"in what order,\" and the two come apart once you leave the finite world — infinitely many distinct transfinite ordinals (ω, ω+1, ω+2, … all the way up) correspond to exactly one infinite cardinal number. Ordinals extend the everyday idea of counting position (\"first, second, third…\") into the transfinite, and became essential to later results like Gentzen's consistency proof (see st4), which measures proof complexity using them.",
+          "hint": "Cardinal numbers answer \"how many\"; ordinal numbers answer \"in what order,\" and the two come apart once you leave the finite world — infinitely many distinct transfinite ordinals (ω, ω+1, ω+2, … all the way up) share the exact same cardinality, and this pattern repeats at every infinite size: for any infinite cardinal κ, there are κ⁺ (the next cardinal up) many distinct ordinals that all share cardinality κ. Ordinals extend the everyday idea of counting position (\"first, second, third…\") into the transfinite, and became essential to later results like Gentzen's consistency proof (see st4), which measures proof complexity using them.",
           "note": "Cantor, G. (1883). 'Grundlagen einer allgemeinen Mannigfaltigkeitslehre.' Mathematische Annalen, 21, 545–591 (also published separately as a monograph). Every ordinal is built from a well-ordering — a way of arranging a set so every non-empty subset has a smallest element — a property the standard ordering of the real numbers conspicuously lacks.",
           "links": [
             "th2"
@@ -1148,6 +1242,55 @@
             "transfinite ordinals",
             "well-ordering principle",
             "ordinal vs cardinal number"
+          ]
+        },
+        {
+          "id": "co9",
+          "group": "Formal Systems & Proof Theory",
+          "label": "Boolean Algebra",
+          "date": "1854",
+          "loc": "Cork, Ireland",
+          "coords": [
+            51.9,
+            -8.47
+          ],
+          "tag": "CONCEPT",
+          "hint": "A system for calculating with true and false the way ordinary algebra calculates with numbers — AND, OR, and NOT behave like multiplication, addition, and a kind of complement, obeying their own consistent set of algebraic laws (though with quirks ordinary arithmetic doesn't have, like x AND x always equalling x). It turns checking whether a logical argument is valid into solving an equation, rather than following an intuitive chain of reasoning.",
+          "note": "Boole, G. (1854), see fg13. The same algebra turned out, a century later, to be exactly the mathematics needed to design digital switching circuits — true and false map directly onto the on and off states of a logic gate — giving Boole's purely philosophical project an entirely unanticipated engineering afterlife.",
+          "links": [
+            "fg13",
+            "me2"
+          ],
+          "keywords": [
+            "boolean algebra",
+            "and or not algebra",
+            "digital circuit logic gates",
+            "boole algebraic logic system"
+          ]
+        },
+        {
+          "id": "co10",
+          "group": "Model Theory & Semantics",
+          "label": "First-Order vs. Second-Order Logic",
+          "date": "2001",
+          "loc": "Helsinki, Finland",
+          "coords": [
+            60.17,
+            24.94
+          ],
+          "tag": "CONCEPT",
+          "hint": "First-order logic only quantifies over individual objects (\"for all x\"); second-order logic also quantifies over properties and sets of objects (\"for all sets of x\"). The trade-off is sharp: first-order logic keeps the reassuring completeness and compactness theorems (see th7, th8) but can never uniquely pin down an infinite structure like the natural numbers, always admitting unintended non-standard models (see ef3); second-order logic can characterise such structures uniquely, but loses completeness entirely — no proof system can capture every second-order logical truth.",
+          "note": "Väänänen, J. (2001). 'Second-Order Logic and Foundations of Mathematics.' Bulletin of Symbolic Logic, 7(4), 504–520. This trade-off, rather than any single theorem, is arguably the central organising tension running through model theory: every result in this folio's Model Theory & Semantics group is a consequence of landing on one side of it or the other.",
+          "links": [
+            "th7",
+            "th8",
+            "ef3"
+          ],
+          "keywords": [
+            "first-order second-order logic",
+            "categoricity vs completeness tradeoff",
+            "väänänen second-order logic",
+            "quantifying over properties sets"
           ]
         }
       ]
@@ -1196,7 +1339,8 @@
           "hint": "Listing every possible combination of true/false values for a statement's basic components, then mechanically working out the resulting truth value for the whole statement in each row, turns checking whether a propositional-logic argument is valid into pure bookkeeping — no insight required, just exhaustive enumeration. It's a genuinely decidable procedure for propositional logic, though the number of rows doubles with every additional variable.",
           "note": "Ludwig Wittgenstein popularised and systematised the technique in Tractatus Logico-Philosophicus (1921), §4.31 onward; Emil Post independently published an equivalent treatment the same year in 'Introduction to a General Theory of Elementary Propositions,' American Journal of Mathematics, 43(3), 163–185. Truth tables only work for propositional logic — first-order logic, which quantifies over infinite domains, has no equivalent finite mechanical check (see st7).",
           "links": [
-            "st7"
+            "st7",
+            "co9"
           ],
           "keywords": [
             "truth tables method",
@@ -1243,7 +1387,8 @@
           "note": "Gonthier, G. (2008). 'Formal Proof—The Four-Color Theorem.' Notices of the American Mathematical Society, 55(11), 1382–1393, formalised in the Coq proof assistant. Directly enabled by the Curry-Howard correspondence (see ef7), which is what lets a proof be represented as a type-checkable program in the first place; whether such proofs should count as full mathematical understanding remains debated (see db5).",
           "links": [
             "ef7",
-            "db5"
+            "db5",
+            "th11"
           ],
           "keywords": [
             "computer-assisted proof verification",
@@ -1317,6 +1462,30 @@
             "tableau proof technique",
             "branching refutation method",
             "beth hintikka tableaux"
+          ]
+        },
+        {
+          "id": "me8",
+          "group": "Formal Systems & Proof Theory",
+          "label": "Reverse Mathematics",
+          "date": "1975",
+          "loc": "Columbus, Ohio",
+          "coords": [
+            39.96,
+            -83
+          ],
+          "tag": "METHOD",
+          "hint": "Instead of starting from axioms and proving theorems, reverse mathematics runs the question backward: take an ordinary theorem of mathematics and ask exactly which axioms are strictly necessary to prove it, not merely sufficient. Remarkably, the great majority of ordinary theorems turn out to be provably equivalent to just one of five specific subsystems of arithmetic, producing a strikingly fine-grained, well-organised map of how much axiomatic strength different parts of mathematics actually require.",
+          "note": "Friedman, H. (1975). 'Some systems of second order arithmetic and their use.' Proceedings of the International Congress of Mathematicians, Vancouver, 235–242 — the founding paper of the programme, substantially developed since by Friedman's students, particularly Stephen Simpson. Extends the same \"what axioms does this actually need\" question Gödel's incompleteness work first raised (see th4) into a systematic research method rather than a one-off result.",
+          "links": [
+            "th4",
+            "co5"
+          ],
+          "keywords": [
+            "reverse mathematics program",
+            "friedman subsystems arithmetic",
+            "big five axiom systems",
+            "minimal axioms for theorems"
           ]
         }
       ]
@@ -1607,6 +1776,52 @@
             "norwegian logician actuary",
             "löwenheim skolem generalizer"
           ]
+        },
+        {
+          "id": "fg13",
+          "group": "Pioneers & Theorists",
+          "label": "George Boole",
+          "date": "1854",
+          "loc": "Cork, Ireland",
+          "coords": [
+            51.9,
+            -8.47
+          ],
+          "tag": "FIGURE",
+          "hint": "Showed that logical propositions — true and false, and, or, not — could be manipulated using algebra-like symbolic rules, treating logic as a branch of mathematics for the first time rather than a branch of philosophy conducted in prose. Every subsequent formal logical system, including Frege's, ultimately builds on the basic insight that logic could be symbolised and calculated with at all.",
+          "note": "Boole, G. (1854). An Investigation of the Laws of Thought, on Which are Founded the Mathematical Theories of Logic and Probabilities. London: Walton and Maberly. A self-taught mathematician working outside the era's elite academic institutions for most of his career, Boole became the first professor of mathematics at Queen's College, Cork, only after this book had already established his reputation.",
+          "links": [
+            "co9"
+          ],
+          "keywords": [
+            "george boole algebra logic",
+            "boolean algebra founder",
+            "laws of thought boole",
+            "queens college cork boole"
+          ]
+        },
+        {
+          "id": "fg14",
+          "group": "Pioneers & Theorists",
+          "label": "Vladimir Voevodsky",
+          "date": "2006",
+          "loc": "Princeton, New Jersey",
+          "coords": [
+            40.35,
+            -74.66
+          ],
+          "tag": "FIGURE",
+          "hint": "A Fields Medalist for entirely unrelated work in algebraic geometry, Voevodsky turned to foundations of mathematics after discovering a subtle, previously undetected error in one of his own earlier proofs — an experience that convinced him the field needed mathematics whose correctness a computer, not just a community of expert readers, could verify. Univalent foundations and homotopy type theory (see th11) grew directly out of that conviction.",
+          "note": "Voevodsky, V. (2014). 'The Origins and Motivations of Univalent Foundations.' The Institute Letter (Institute for Advanced Study), Summer 2014 — Voevodsky's own account of the error and its influence on his later foundational work. Died suddenly in 2017 at age 51, only a few years after the collaborative Univalent Foundations book was completed.",
+          "links": [
+            "th11"
+          ],
+          "keywords": [
+            "vladimir voevodsky fields medalist",
+            "univalent foundations founder",
+            "voevodsky proof error motivation",
+            "voevodsky early death 2017"
+          ]
         }
       ]
     },
@@ -1658,7 +1873,8 @@
           "note": "Gödel's view: Gödel, K. (1947/1964), see db1. Modern research programme: Woodin, W.H. (2001). 'The Continuum Hypothesis, Part I.' Notices of the American Mathematical Society, 48(6), 567–576, proposing large-cardinal axioms as candidates for settling the question. Whether adopting a new axiom specifically because it settles a desired question, rather than because it's independently self-evident, is legitimate mathematical practice or a kind of question-begging remains genuinely contested.",
           "links": [
             "st5",
-            "st6"
+            "st6",
+            "th12"
           ],
           "keywords": [
             "continuum hypothesis truth value",
@@ -2040,6 +2256,11 @@
           "y": 1963,
           "l": "CH shown independent (Cohen)",
           "entryId": "st5"
+        },
+        {
+          "y": 1964,
+          "l": "Lawvere formulates ETCS",
+          "entryId": "st12"
         }
       ]
     },
@@ -2098,6 +2319,16 @@
           "y": 1963,
           "l": "Modal Logic (Possible Worlds Semantics)",
           "entryId": "th9"
+        },
+        {
+          "y": 2003,
+          "l": "Large cardinal axioms (Kanamori)",
+          "entryId": "th12"
+        },
+        {
+          "y": 2013,
+          "l": "Homotopy Type Theory (HoTT)",
+          "entryId": "th11"
         }
       ]
     },
@@ -2194,6 +2425,11 @@
           "y": 1963,
           "l": "Forcing",
           "entryId": "me3"
+        },
+        {
+          "y": 1975,
+          "l": "Reverse mathematics founded",
+          "entryId": "me8"
         },
         {
           "y": 2008,

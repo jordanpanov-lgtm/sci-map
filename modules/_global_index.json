@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 1225,
+    "total_entries": 1233,
     "folio_count": 16,
     "xlink_pairs": 66,
-    "keyword_terms": 4860,
+    "keyword_terms": 4892,
     "folios": [
       {
         "id": "anatomy-histology",
@@ -38,7 +38,7 @@
       {
         "id": "logic-math-foundations",
         "title": "Logic & Foundations of Mathematics",
-        "entries": 73
+        "entries": 81
       },
       {
         "id": "neuroscience",
@@ -555,6 +555,8 @@
     "logic-math-foundations::th8": "theory · Model Theory & Semantics · The Compactness Theorem (1930)",
     "logic-math-foundations::th9": "theory · Non-Classical & Alternative Logics · Modal Logic (Possible Worlds Semantics) (1963)",
     "logic-math-foundations::th10": "theory · Foundations of Number & Structure · Category Theory as a Foundation (1945)",
+    "logic-math-foundations::th11": "theory · Foundations of Number & Structure · Homotopy Type Theory (2013)",
+    "logic-math-foundations::th12": "theory · Set Theory & the Infinite · Large Cardinal Axioms (2003)",
     "logic-math-foundations::st1": "study · Set Theory & the Infinite · Cantor's Diagonal Argument (1891)",
     "logic-math-foundations::st2": "study · Set Theory & the Infinite · Russell's Paradox (1901)",
     "logic-math-foundations::st3": "study · Gödel, Incompleteness & the Limits of Formalization · Gödel's Incompleteness Proof (1931)",
@@ -566,6 +568,7 @@
     "logic-math-foundations::st9": "study · Gödel, Incompleteness & the Limits of Formalization · Formalising Recursive Functions (1934)",
     "logic-math-foundations::st10": "study · Non-Classical & Alternative Logics · Kripke's Completeness Proof for Modal Logic (1959)",
     "logic-math-foundations::st11": "study · Model Theory & Semantics · Tarski's Undefinability of Truth (1933)",
+    "logic-math-foundations::st12": "study · Foundations of Number & Structure · Lawvere's Elementary Theory of the Category of Sets (1964)",
     "logic-math-foundations::ef1": "effect · Set Theory & the Infinite · Diagonalization (2003)",
     "logic-math-foundations::ef2": "effect · Model Theory & Semantics · Semantic Paradoxes (the Liar and its Relatives) (1975)",
     "logic-math-foundations::ef3": "effect · Model Theory & Semantics · Non-Standard Models of Arithmetic (1934)",
@@ -584,6 +587,8 @@
     "logic-math-foundations::co6": "concept · Non-Classical & Alternative Logics · Intuitionistic Logic (1930)",
     "logic-math-foundations::co7": "concept · Non-Classical & Alternative Logics · Many-Valued Logic (1920)",
     "logic-math-foundations::co8": "concept · Set Theory & the Infinite · Ordinal Numbers (1883)",
+    "logic-math-foundations::co9": "concept · Formal Systems & Proof Theory · Boolean Algebra (1854)",
+    "logic-math-foundations::co10": "concept · Model Theory & Semantics · First-Order vs. Second-Order Logic (2001)",
     "logic-math-foundations::me1": "method · Formal Systems & Proof Theory · Natural Deduction (1935)",
     "logic-math-foundations::me2": "method · Formal Systems & Proof Theory · Truth Tables (1921)",
     "logic-math-foundations::me3": "method · Set Theory & the Infinite · Forcing (1963)",
@@ -591,6 +596,7 @@
     "logic-math-foundations::me5": "method · Foundations of Number & Structure · Peano's Axiomatic Method (1889)",
     "logic-math-foundations::me6": "method · Formal Systems & Proof Theory · Sequent Calculus (1935)",
     "logic-math-foundations::me7": "method · Non-Classical & Alternative Logics · Semantic Tableaux (1955)",
+    "logic-math-foundations::me8": "method · Formal Systems & Proof Theory · Reverse Mathematics (1975)",
     "logic-math-foundations::fg1": "figure · Pioneers & Theorists · Georg Cantor (1891)",
     "logic-math-foundations::fg2": "figure · Pioneers & Theorists · Gottlob Frege (1879)",
     "logic-math-foundations::fg3": "figure · Pioneers & Theorists · Bertrand Russell (1901)",
@@ -603,6 +609,8 @@
     "logic-math-foundations::fg10": "figure · Pioneers & Theorists · Paul Cohen (1963)",
     "logic-math-foundations::fg11": "figure · Pioneers & Theorists · Saul Kripke (1959)",
     "logic-math-foundations::fg12": "figure · Pioneers & Theorists · Thoralf Skolem (1920)",
+    "logic-math-foundations::fg13": "figure · Pioneers & Theorists · George Boole (1854)",
+    "logic-math-foundations::fg14": "figure · Pioneers & Theorists · Vladimir Voevodsky (2006)",
     "logic-math-foundations::db1": "debate · Philosophy of Mathematics · Platonism vs. Formalism vs. Intuitionism (1964)",
     "logic-math-foundations::db2": "debate · Set Theory & the Infinite · Is the Continuum Hypothesis True, False, or Neither? (2001)",
     "logic-math-foundations::db3": "debate · Set Theory & the Infinite · Should Mathematics Accept the Axiom of Choice? (1904)",
@@ -4477,6 +4485,18 @@
       "objects morphisms mathematics",
       "natural equivalences"
     ],
+    "logic-math-foundations::th11": [
+      "homotopy type theory",
+      "univalent foundations",
+      "voevodsky univalence axiom",
+      "type-theoretic mathematics foundation"
+    ],
+    "logic-math-foundations::th12": [
+      "large cardinal axioms",
+      "measurable supercompact cardinals",
+      "kanamori higher infinite",
+      "inner model large cardinals"
+    ],
     "logic-math-foundations::st1": [
       "cantor diagonal argument",
       "uncountability of reals",
@@ -4542,6 +4562,12 @@
       "truth predicate formal language",
       "semantic conception of truth",
       "metalanguage object language"
+    ],
+    "logic-math-foundations::st12": [
+      "lawvere etcs 1964",
+      "elementary theory category sets",
+      "category theory rival foundation",
+      "lawvere graduate student proof"
     ],
     "logic-math-foundations::ef1": [
       "diagonalization technique",
@@ -4651,6 +4677,18 @@
       "well-ordering principle",
       "ordinal vs cardinal number"
     ],
+    "logic-math-foundations::co9": [
+      "boolean algebra",
+      "and or not algebra",
+      "digital circuit logic gates",
+      "boole algebraic logic system"
+    ],
+    "logic-math-foundations::co10": [
+      "first-order second-order logic",
+      "categoricity vs completeness tradeoff",
+      "väänänen second-order logic",
+      "quantifying over properties sets"
+    ],
     "logic-math-foundations::me1": [
       "natural deduction proof system",
       "introduction elimination rules",
@@ -4692,6 +4730,12 @@
       "tableau proof technique",
       "branching refutation method",
       "beth hintikka tableaux"
+    ],
+    "logic-math-foundations::me8": [
+      "reverse mathematics program",
+      "friedman subsystems arithmetic",
+      "big five axiom systems",
+      "minimal axioms for theorems"
     ],
     "logic-math-foundations::fg1": [
       "georg cantor set theory founder",
@@ -4764,6 +4808,18 @@
       "skolem paradox namesake",
       "norwegian logician actuary",
       "löwenheim skolem generalizer"
+    ],
+    "logic-math-foundations::fg13": [
+      "george boole algebra logic",
+      "boolean algebra founder",
+      "laws of thought boole",
+      "queens college cork boole"
+    ],
+    "logic-math-foundations::fg14": [
+      "vladimir voevodsky fields medalist",
+      "univalent foundations founder",
+      "voevodsky proof error motivation",
+      "voevodsky early death 2017"
     ],
     "logic-math-foundations::db1": [
       "mathematical platonism debate",
@@ -14615,6 +14671,30 @@
     "natural equivalences": [
       "logic-math-foundations::th10"
     ],
+    "homotopy type theory": [
+      "logic-math-foundations::th11"
+    ],
+    "univalent foundations": [
+      "logic-math-foundations::th11"
+    ],
+    "voevodsky univalence axiom": [
+      "logic-math-foundations::th11"
+    ],
+    "type-theoretic mathematics foundation": [
+      "logic-math-foundations::th11"
+    ],
+    "large cardinal axioms": [
+      "logic-math-foundations::th12"
+    ],
+    "measurable supercompact cardinals": [
+      "logic-math-foundations::th12"
+    ],
+    "kanamori higher infinite": [
+      "logic-math-foundations::th12"
+    ],
+    "inner model large cardinals": [
+      "logic-math-foundations::th12"
+    ],
     "cantor diagonal argument": [
       "logic-math-foundations::st1"
     ],
@@ -14743,6 +14823,18 @@
     ],
     "metalanguage object language": [
       "logic-math-foundations::st11"
+    ],
+    "lawvere etcs 1964": [
+      "logic-math-foundations::st12"
+    ],
+    "elementary theory category sets": [
+      "logic-math-foundations::st12"
+    ],
+    "category theory rival foundation": [
+      "logic-math-foundations::st12"
+    ],
+    "lawvere graduate student proof": [
+      "logic-math-foundations::st12"
     ],
     "diagonalization technique": [
       "logic-math-foundations::ef1"
@@ -14960,6 +15052,30 @@
     "ordinal vs cardinal number": [
       "logic-math-foundations::co8"
     ],
+    "boolean algebra": [
+      "logic-math-foundations::co9"
+    ],
+    "and or not algebra": [
+      "logic-math-foundations::co9"
+    ],
+    "digital circuit logic gates": [
+      "logic-math-foundations::co9"
+    ],
+    "boole algebraic logic system": [
+      "logic-math-foundations::co9"
+    ],
+    "first-order second-order logic": [
+      "logic-math-foundations::co10"
+    ],
+    "categoricity vs completeness tradeoff": [
+      "logic-math-foundations::co10"
+    ],
+    "väänänen second-order logic": [
+      "logic-math-foundations::co10"
+    ],
+    "quantifying over properties sets": [
+      "logic-math-foundations::co10"
+    ],
     "natural deduction proof system": [
       "logic-math-foundations::me1"
     ],
@@ -15043,6 +15159,18 @@
     ],
     "beth hintikka tableaux": [
       "logic-math-foundations::me7"
+    ],
+    "reverse mathematics program": [
+      "logic-math-foundations::me8"
+    ],
+    "friedman subsystems arithmetic": [
+      "logic-math-foundations::me8"
+    ],
+    "big five axiom systems": [
+      "logic-math-foundations::me8"
+    ],
+    "minimal axioms for theorems": [
+      "logic-math-foundations::me8"
     ],
     "georg cantor set theory founder": [
       "logic-math-foundations::fg1"
@@ -15187,6 +15315,30 @@
     ],
     "löwenheim skolem generalizer": [
       "logic-math-foundations::fg12"
+    ],
+    "george boole algebra logic": [
+      "logic-math-foundations::fg13"
+    ],
+    "boolean algebra founder": [
+      "logic-math-foundations::fg13"
+    ],
+    "laws of thought boole": [
+      "logic-math-foundations::fg13"
+    ],
+    "queens college cork boole": [
+      "logic-math-foundations::fg13"
+    ],
+    "vladimir voevodsky fields medalist": [
+      "logic-math-foundations::fg14"
+    ],
+    "univalent foundations founder": [
+      "logic-math-foundations::fg14"
+    ],
+    "voevodsky proof error motivation": [
+      "logic-math-foundations::fg14"
+    ],
+    "voevodsky early death 2017": [
+      "logic-math-foundations::fg14"
     ],
     "mathematical platonism debate": [
       "logic-math-foundations::db1"
