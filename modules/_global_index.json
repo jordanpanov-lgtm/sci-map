@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 1152,
-    "folio_count": 15,
-    "xlink_pairs": 61,
-    "keyword_terms": 4569,
+    "total_entries": 1225,
+    "folio_count": 16,
+    "xlink_pairs": 65,
+    "keyword_terms": 4860,
     "folios": [
       {
         "id": "anatomy-histology",
@@ -34,6 +34,11 @@
         "id": "general-cognitive-psych",
         "title": "General & Cognitive Psychology",
         "entries": 76
+      },
+      {
+        "id": "logic-math-foundations",
+        "title": "Logic & Foundations of Mathematics",
+        "entries": 73
       },
       {
         "id": "neuroscience",
@@ -540,6 +545,79 @@
     "general-cognitive-psych::ap4": "application · Experimental Methods · Cognitive Ergonomics & Interface Design (1983)",
     "general-cognitive-psych::ap5": "application · Memory Systems · Cognitive Rehabilitation after Brain Injury (1987)",
     "general-cognitive-psych::ap6": "application · Memory & Learning · Multimedia Learning Principles (Mayer) (2001)",
+    "logic-math-foundations::th1": "theory · Set Theory & the Infinite · Zermelo-Fraenkel Set Theory (1908)",
+    "logic-math-foundations::th2": "theory · Set Theory & the Infinite · Cantor's Theory of Transfinite Numbers (1874)",
+    "logic-math-foundations::th3": "theory · Gödel, Incompleteness & the Limits of Formalization · Hilbert's Program (1926)",
+    "logic-math-foundations::th4": "theory · Gödel, Incompleteness & the Limits of Formalization · Gödel's Incompleteness Theorems (1931)",
+    "logic-math-foundations::th5": "theory · Philosophy of Mathematics · Logicism (1884)",
+    "logic-math-foundations::th6": "theory · Philosophy of Mathematics · Intuitionism (1907)",
+    "logic-math-foundations::th7": "theory · Model Theory & Semantics · The Löwenheim-Skolem Theorem (1915)",
+    "logic-math-foundations::th8": "theory · Model Theory & Semantics · The Compactness Theorem (1930)",
+    "logic-math-foundations::th9": "theory · Non-Classical & Alternative Logics · Modal Logic (Possible Worlds Semantics) (1963)",
+    "logic-math-foundations::th10": "theory · Foundations of Number & Structure · Category Theory as a Foundation (1945)",
+    "logic-math-foundations::st1": "study · Set Theory & the Infinite · Cantor's Diagonal Argument (1891)",
+    "logic-math-foundations::st2": "study · Set Theory & the Infinite · Russell's Paradox (1901)",
+    "logic-math-foundations::st3": "study · Gödel, Incompleteness & the Limits of Formalization · Gödel's Incompleteness Proof (1931)",
+    "logic-math-foundations::st4": "study · Gödel, Incompleteness & the Limits of Formalization · Gentzen's Consistency Proof of Arithmetic (1936)",
+    "logic-math-foundations::st5": "study · Set Theory & the Infinite · The Independence of the Continuum Hypothesis (1963)",
+    "logic-math-foundations::st6": "study · Set Theory & the Infinite · Gödel's Consistency Proof for the Continuum Hypothesis (1940)",
+    "logic-math-foundations::st7": "study · Gödel, Incompleteness & the Limits of Formalization · The Entscheidungsproblem Solved (Church) (1936)",
+    "logic-math-foundations::st8": "study · Model Theory & Semantics · Skolem's Generalisation of Löwenheim's Theorem (1920)",
+    "logic-math-foundations::st9": "study · Gödel, Incompleteness & the Limits of Formalization · Formalising Recursive Functions (1934)",
+    "logic-math-foundations::st10": "study · Non-Classical & Alternative Logics · Kripke's Completeness Proof for Modal Logic (1959)",
+    "logic-math-foundations::st11": "study · Model Theory & Semantics · Tarski's Undefinability of Truth (1933)",
+    "logic-math-foundations::ef1": "effect · Set Theory & the Infinite · Diagonalization (2003)",
+    "logic-math-foundations::ef2": "effect · Model Theory & Semantics · Semantic Paradoxes (the Liar and its Relatives) (1975)",
+    "logic-math-foundations::ef3": "effect · Model Theory & Semantics · Non-Standard Models of Arithmetic (1934)",
+    "logic-math-foundations::ef4": "effect · Set Theory & the Infinite · The Banach-Tarski Paradox (1924)",
+    "logic-math-foundations::ef5": "effect · Gödel, Incompleteness & the Limits of Formalization · Undecidability Beyond Logic: Hilbert's Tenth Problem (1970)",
+    "logic-math-foundations::ef6": "effect · Model Theory & Semantics · Skolem's Paradox (1920)",
+    "logic-math-foundations::ef7": "effect · Formal Systems & Proof Theory · The Curry-Howard Correspondence (1969)",
+    "logic-math-foundations::ef8": "effect · Formal Systems & Proof Theory · Cut Elimination (Gentzen's Hauptsatz) (1935)",
+    "logic-math-foundations::ef9": "effect · Set Theory & the Infinite · Independence Results Beyond the Continuum Hypothesis (1974)",
+    "logic-math-foundations::ef10": "effect · Gödel, Incompleteness & the Limits of Formalization · The Paris-Harrington Theorem (1977)",
+    "logic-math-foundations::co1": "concept · Formal Systems & Proof Theory · Axioms and Axiomatic Systems (1899)",
+    "logic-math-foundations::co2": "concept · Set Theory & the Infinite · Cardinality and Countability (1895)",
+    "logic-math-foundations::co3": "concept · Formal Systems & Proof Theory · Soundness and Completeness (1930)",
+    "logic-math-foundations::co4": "concept · Gödel, Incompleteness & the Limits of Formalization · Gödel Numbering (1931)",
+    "logic-math-foundations::co5": "concept · Formal Systems & Proof Theory · Consistency and Independence (1899)",
+    "logic-math-foundations::co6": "concept · Non-Classical & Alternative Logics · Intuitionistic Logic (1930)",
+    "logic-math-foundations::co7": "concept · Non-Classical & Alternative Logics · Many-Valued Logic (1920)",
+    "logic-math-foundations::co8": "concept · Set Theory & the Infinite · Ordinal Numbers (1883)",
+    "logic-math-foundations::me1": "method · Formal Systems & Proof Theory · Natural Deduction (1935)",
+    "logic-math-foundations::me2": "method · Formal Systems & Proof Theory · Truth Tables (1921)",
+    "logic-math-foundations::me3": "method · Set Theory & the Infinite · Forcing (1963)",
+    "logic-math-foundations::me4": "method · Formal Systems & Proof Theory · Computer-Assisted Proof Verification (2008)",
+    "logic-math-foundations::me5": "method · Foundations of Number & Structure · Peano's Axiomatic Method (1889)",
+    "logic-math-foundations::me6": "method · Formal Systems & Proof Theory · Sequent Calculus (1935)",
+    "logic-math-foundations::me7": "method · Non-Classical & Alternative Logics · Semantic Tableaux (1955)",
+    "logic-math-foundations::fg1": "figure · Pioneers & Theorists · Georg Cantor (1891)",
+    "logic-math-foundations::fg2": "figure · Pioneers & Theorists · Gottlob Frege (1879)",
+    "logic-math-foundations::fg3": "figure · Pioneers & Theorists · Bertrand Russell (1901)",
+    "logic-math-foundations::fg4": "figure · Pioneers & Theorists · David Hilbert (1899)",
+    "logic-math-foundations::fg5": "figure · Pioneers & Theorists · Kurt Gödel (1931)",
+    "logic-math-foundations::fg6": "figure · Pioneers & Theorists · Alonzo Church (1936)",
+    "logic-math-foundations::fg7": "figure · Pioneers & Theorists · Alfred Tarski (1933)",
+    "logic-math-foundations::fg8": "figure · Pioneers & Theorists · L.E.J. Brouwer (1907)",
+    "logic-math-foundations::fg9": "figure · Pioneers & Theorists · Gerhard Gentzen (1935)",
+    "logic-math-foundations::fg10": "figure · Pioneers & Theorists · Paul Cohen (1963)",
+    "logic-math-foundations::fg11": "figure · Pioneers & Theorists · Saul Kripke (1959)",
+    "logic-math-foundations::fg12": "figure · Pioneers & Theorists · Thoralf Skolem (1920)",
+    "logic-math-foundations::db1": "debate · Philosophy of Mathematics · Platonism vs. Formalism vs. Intuitionism (1964)",
+    "logic-math-foundations::db2": "debate · Set Theory & the Infinite · Is the Continuum Hypothesis True, False, or Neither? (2001)",
+    "logic-math-foundations::db3": "debate · Set Theory & the Infinite · Should Mathematics Accept the Axiom of Choice? (1904)",
+    "logic-math-foundations::db4": "debate · Gödel, Incompleteness & the Limits of Formalization · Did Gödel's Theorems Refute Hilbert's Program? (2006)",
+    "logic-math-foundations::db5": "debate · Formal Systems & Proof Theory · Should Computer-Verified Proofs Count as Real Proof? (1979)",
+    "logic-math-foundations::db6": "debate · Non-Classical & Alternative Logics · Logical Pluralism: Is There One True Logic? (2006)",
+    "logic-math-foundations::db7": "debate · Model Theory & Semantics · Tarski's Undefinability and Theories of Truth (1972)",
+    "logic-math-foundations::db8": "debate · Gödel, Incompleteness & the Limits of Formalization · Does Gödel's Theorem Prove Minds Aren't Computers? (1989)",
+    "logic-math-foundations::ap1": "application · Formal Systems & Proof Theory · Formal Verification of Software and Hardware (2009)",
+    "logic-math-foundations::ap2": "application · Formal Systems & Proof Theory · Logic Programming (Prolog) (1974)",
+    "logic-math-foundations::ap3": "application · Non-Classical & Alternative Logics · Model Checking (1981)",
+    "logic-math-foundations::ap4": "application · Non-Classical & Alternative Logics · Deontic and Legal Logic (1951)",
+    "logic-math-foundations::ap5": "application · Non-Classical & Alternative Logics · Non-Monotonic Logic in AI (1980)",
+    "logic-math-foundations::ap6": "application · Foundations of Number & Structure · Set-Theoretic Foundations of Modern Mathematics (1939)",
+    "logic-math-foundations::ap7": "application · Gödel, Incompleteness & the Limits of Formalization · Gödel's Theorem in Popular Misapplication (1979)",
     "neuroscience::th1": "theory · Neurons & Synapses · Neuron Doctrine (1906)",
     "neuroscience::th2": "theory · Memory & Plasticity · Hebbian Learning ('Cells That Fire Together Wire Together') (1949)",
     "neuroscience::th3": "theory · Emotion & Motivation · Somatic Marker Hypothesis (1994)",
@@ -1462,6 +1540,28 @@
     ],
     "general-cognitive-psych::ap2": [
       "neuroscience::th10"
+    ],
+    "logic-math-foundations::st7": [
+      "computer-science::th1"
+    ],
+    "computer-science::th1": [
+      "logic-math-foundations::st7"
+    ],
+    "logic-math-foundations::ef1": [
+      "computer-science::ef2"
+    ],
+    "computer-science::ef2": [
+      "logic-math-foundations::ef1"
+    ],
+    "logic-math-foundations::db7": [
+      "epistemology::th3",
+      "epistemology::th4"
+    ],
+    "epistemology::th3": [
+      "logic-math-foundations::db7"
+    ],
+    "epistemology::th4": [
+      "logic-math-foundations::db7"
     ],
     "neuroscience::th8": [
       "physiology-organ-systems::th9",
@@ -4310,6 +4410,444 @@
       "worked example effect",
       "redundancy effect",
       "instructional design"
+    ],
+    "logic-math-foundations::th1": [
+      "zermelo fraenkel axioms",
+      "zfc set theory",
+      "axiom of replacement",
+      "axiomatic set theory"
+    ],
+    "logic-math-foundations::th2": [
+      "transfinite numbers",
+      "cantor set theory founder",
+      "infinite cardinality theory",
+      "sizes of infinity"
+    ],
+    "logic-math-foundations::th3": [
+      "hilbert's program",
+      "finitary consistency proof",
+      "formalist mathematics project",
+      "hilbert foundational crisis"
+    ],
+    "logic-math-foundations::th4": [
+      "gödel incompleteness theorems",
+      "formal system limits",
+      "unprovable true statement",
+      "self-referential undecidability"
+    ],
+    "logic-math-foundations::th5": [
+      "logicism frege russell",
+      "mathematics reduces to logic",
+      "frege foundations arithmetic",
+      "logical derivation of numbers"
+    ],
+    "logic-math-foundations::th6": [
+      "intuitionism brouwer",
+      "constructive mathematics",
+      "rejection excluded middle",
+      "mental construction mathematics"
+    ],
+    "logic-math-foundations::th7": [
+      "löwenheim-skolem theorem",
+      "countable model infinite theory",
+      "first-order model size",
+      "downward löwenheim skolem"
+    ],
+    "logic-math-foundations::th8": [
+      "compactness theorem logic",
+      "finite satisfiability infinite",
+      "gödel completeness corollary",
+      "first-order compactness"
+    ],
+    "logic-math-foundations::th9": [
+      "modal logic kripke semantics",
+      "possible worlds semantics",
+      "necessity possibility logic",
+      "accessibility relation modal"
+    ],
+    "logic-math-foundations::th10": [
+      "category theory foundation",
+      "eilenberg mac lane categories",
+      "objects morphisms mathematics",
+      "natural equivalences"
+    ],
+    "logic-math-foundations::st1": [
+      "cantor diagonal argument",
+      "uncountability of reals",
+      "diagonalization proof",
+      "real numbers uncountable"
+    ],
+    "logic-math-foundations::st2": [
+      "russell's paradox",
+      "naive set theory collapse",
+      "set of all sets",
+      "frege grundgesetze contradiction"
+    ],
+    "logic-math-foundations::st3": [
+      "gödel 1931 incompleteness proof",
+      "undecidable arithmetic sentence",
+      "principia mathematica undecidable",
+      "self-referential gödel sentence"
+    ],
+    "logic-math-foundations::st4": [
+      "gentzen consistency proof",
+      "transfinite induction arithmetic",
+      "epsilon-zero ordinal proof",
+      "arithmetic consistency 1936"
+    ],
+    "logic-math-foundations::st5": [
+      "continuum hypothesis independence",
+      "cohen forcing ch",
+      "ch independent of zfc",
+      "1966 fields medal logic"
+    ],
+    "logic-math-foundations::st6": [
+      "constructible universe gödel",
+      "ch consistency proof",
+      "gödel's l construction",
+      "axiom of choice consistency"
+    ],
+    "logic-math-foundations::st7": [
+      "entscheidungsproblem solved",
+      "church lambda calculus",
+      "decision problem unsolvable",
+      "hilbert decision problem"
+    ],
+    "logic-math-foundations::st8": [
+      "skolem löwenheim generalization",
+      "countable model theorem",
+      "skolem 1920 proof",
+      "first-order satisfiability"
+    ],
+    "logic-math-foundations::st9": [
+      "recursive function theory",
+      "gödel herbrand functions",
+      "general recursiveness",
+      "computability formalization logic"
+    ],
+    "logic-math-foundations::st10": [
+      "kripke modal completeness",
+      "teenage logician proof",
+      "modal logic 1959 paper",
+      "possible worlds completeness proof"
+    ],
+    "logic-math-foundations::st11": [
+      "tarski undefinability truth",
+      "truth predicate formal language",
+      "semantic conception of truth",
+      "metalanguage object language"
+    ],
+    "logic-math-foundations::ef1": [
+      "diagonalization technique",
+      "self-reference fixed point",
+      "yanofsky universal diagonal",
+      "recurring proof pattern logic"
+    ],
+    "logic-math-foundations::ef2": [
+      "liar paradox",
+      "semantic paradox truth",
+      "kripke fixed-point truth theory",
+      "self-referential sentence paradox"
+    ],
+    "logic-math-foundations::ef3": [
+      "non-standard models arithmetic",
+      "non-standard number theory",
+      "infinite nonstandard elements",
+      "model theory arithmetic peculiarity"
+    ],
+    "logic-math-foundations::ef4": [
+      "banach-tarski paradox",
+      "sphere decomposition paradox",
+      "axiom of choice consequence",
+      "non-measurable set paradox"
+    ],
+    "logic-math-foundations::ef5": [
+      "hilbert's tenth problem",
+      "diophantine equations undecidable",
+      "matiyasevich theorem",
+      "davis putnam robinson"
+    ],
+    "logic-math-foundations::ef6": [
+      "skolem's paradox",
+      "relativity of countability",
+      "countable model uncountable set",
+      "model-relative cardinality"
+    ],
+    "logic-math-foundations::ef7": [
+      "curry-howard correspondence",
+      "proofs as programs",
+      "formulae as types",
+      "logic computation isomorphism"
+    ],
+    "logic-math-foundations::ef8": [
+      "cut elimination gentzen",
+      "hauptsatz sequent calculus",
+      "subformula property proof",
+      "gentzen's main theorem"
+    ],
+    "logic-math-foundations::ef9": [
+      "whitehead problem independence",
+      "shelah independence result",
+      "forcing beyond continuum hypothesis",
+      "algebra independent of zfc"
+    ],
+    "logic-math-foundations::ef10": [
+      "paris-harrington theorem",
+      "natural independence statement",
+      "ramsey theory incompleteness",
+      "peano arithmetic natural undecidable"
+    ],
+    "logic-math-foundations::co1": [
+      "axiomatic system",
+      "hilbert grundlagen geometrie",
+      "axioms and inference rules",
+      "formal system foundations"
+    ],
+    "logic-math-foundations::co2": [
+      "cardinality countability",
+      "aleph numbers cantor",
+      "countably uncountably infinite",
+      "one-to-one correspondence sets"
+    ],
+    "logic-math-foundations::co3": [
+      "soundness completeness formal system",
+      "provability and truth",
+      "gödel completeness theorem concept",
+      "first-order logic properties"
+    ],
+    "logic-math-foundations::co4": [
+      "gödel numbering encoding",
+      "arithmetization of syntax",
+      "prime factorization encoding",
+      "self-reference via numbers"
+    ],
+    "logic-math-foundations::co5": [
+      "consistency independence concepts",
+      "relative consistency proof",
+      "axioms neither provable disprovable",
+      "hilbert relative consistency"
+    ],
+    "logic-math-foundations::co6": [
+      "intuitionistic logic heyting",
+      "constructive proof logic",
+      "constructive logic without excluded middle",
+      "heyting formal intuitionism"
+    ],
+    "logic-math-foundations::co7": [
+      "many-valued logic",
+      "łukasiewicz three-valued logic",
+      "fuzzy logic continuum truth",
+      "non-binary truth values"
+    ],
+    "logic-math-foundations::co8": [
+      "ordinal numbers cantor",
+      "transfinite ordinals",
+      "well-ordering principle",
+      "ordinal vs cardinal number"
+    ],
+    "logic-math-foundations::me1": [
+      "natural deduction proof system",
+      "introduction elimination rules",
+      "gentzen natural deduction",
+      "human-style formal proof"
+    ],
+    "logic-math-foundations::me2": [
+      "truth tables method",
+      "propositional logic verification",
+      "wittgenstein truth table",
+      "exhaustive truth value enumeration"
+    ],
+    "logic-math-foundations::me3": [
+      "forcing technique set theory",
+      "cohen forcing method",
+      "generic extension model",
+      "independence proof technique"
+    ],
+    "logic-math-foundations::me4": [
+      "computer-assisted proof verification",
+      "coq proof assistant",
+      "four color theorem formalized",
+      "machine-checked mathematics"
+    ],
+    "logic-math-foundations::me5": [
+      "peano axioms method",
+      "arithmetic axiomatization",
+      "mathematical induction axiom",
+      "successor function axioms"
+    ],
+    "logic-math-foundations::me6": [
+      "sequent calculus gentzen",
+      "structural proof theory method",
+      "sequent-style logical derivation",
+      "automated theorem proving structure"
+    ],
+    "logic-math-foundations::me7": [
+      "semantic tableaux method",
+      "tableau proof technique",
+      "branching refutation method",
+      "beth hintikka tableaux"
+    ],
+    "logic-math-foundations::fg1": [
+      "georg cantor set theory founder",
+      "father of set theory",
+      "transfinite numbers pioneer",
+      "cantor mathematical isolation"
+    ],
+    "logic-math-foundations::fg2": [
+      "gottlob frege predicate logic",
+      "begriffsschrift inventor",
+      "logicism founder frege",
+      "modern logic founder"
+    ],
+    "logic-math-foundations::fg3": [
+      "bertrand russell paradox discoverer",
+      "principia mathematica author",
+      "type theory russell",
+      "nobel prize literature logician"
+    ],
+    "logic-math-foundations::fg4": [
+      "david hilbert axiomatic method",
+      "hilbert program founder",
+      "we must know we will know",
+      "göttingen mathematics leader"
+    ],
+    "logic-math-foundations::fg5": [
+      "kurt gödel incompleteness",
+      "gödel institute advanced study",
+      "greatest logician twentieth century",
+      "gödel starvation death"
+    ],
+    "logic-math-foundations::fg6": [
+      "alonzo church lambda calculus",
+      "church-turing thesis co-founder",
+      "entscheidungsproblem solver",
+      "princeton logic pioneer"
+    ],
+    "logic-math-foundations::fg7": [
+      "alfred tarski model theory",
+      "semantic truth definition",
+      "tarski stranded wwii",
+      "warsaw school of logic"
+    ],
+    "logic-math-foundations::fg8": [
+      "l.e.j. brouwer intuitionism founder",
+      "brouwer fixed point theorem",
+      "dutch mathematician intuitionist",
+      "constructivist mathematics founder"
+    ],
+    "logic-math-foundations::fg9": [
+      "gerhard gentzen proof theory",
+      "natural deduction inventor",
+      "gentzen prague camp death",
+      "structural proof theory founder"
+    ],
+    "logic-math-foundations::fg10": [
+      "paul cohen forcing inventor",
+      "fields medal logic 1966",
+      "continuum hypothesis independence prover",
+      "stanford set theorist"
+    ],
+    "logic-math-foundations::fg11": [
+      "saul kripke modal logic",
+      "teenage logic prodigy",
+      "naming and necessity author",
+      "possible worlds philosopher"
+    ],
+    "logic-math-foundations::fg12": [
+      "thoralf skolem model theory",
+      "skolem paradox namesake",
+      "norwegian logician actuary",
+      "löwenheim skolem generalizer"
+    ],
+    "logic-math-foundations::db1": [
+      "mathematical platonism debate",
+      "formalism vs intuitionism",
+      "philosophy of mathematics schools",
+      "existence of mathematical objects"
+    ],
+    "logic-math-foundations::db2": [
+      "continuum hypothesis truth value",
+      "ch determinate truth debate",
+      "new axioms set theory search",
+      "woodin large cardinal axioms"
+    ],
+    "logic-math-foundations::db3": [
+      "axiom of choice controversy",
+      "should math accept ac",
+      "constructivist rejection of choice",
+      "well-ordering theorem debate"
+    ],
+    "logic-math-foundations::db4": [
+      "did gödel refute hilbert",
+      "hilbert program survival debate",
+      "gentzen partial rescue hilbert",
+      "incompleteness historical interpretation"
+    ],
+    "logic-math-foundations::db5": [
+      "computer-verified proof legitimacy",
+      "four color theorem controversy",
+      "mechanical proof vs understanding",
+      "tymoczko philosophy computer proof"
+    ],
+    "logic-math-foundations::db6": [
+      "logical pluralism debate",
+      "one true logic question",
+      "beall restall pluralism",
+      "competing logical systems legitimacy"
+    ],
+    "logic-math-foundations::db7": [
+      "tarski truth philosophical debate",
+      "deflationary correspondence truth theory",
+      "field critique of tarski",
+      "truth theory implications"
+    ],
+    "logic-math-foundations::db8": [
+      "penrose lucas gödelian argument",
+      "minds not computers argument",
+      "gödel anti-mechanism debate",
+      "chalmers rebuttal penrose"
+    ],
+    "logic-math-foundations::ap1": [
+      "formal verification sel4",
+      "verified operating system kernel",
+      "hardware software correctness proof",
+      "safety-critical formal methods"
+    ],
+    "logic-math-foundations::ap2": [
+      "logic programming prolog",
+      "kowalski predicate logic language",
+      "resolution-based programming",
+      "declarative logic programming"
+    ],
+    "logic-math-foundations::ap3": [
+      "model checking verification",
+      "temporal logic specification",
+      "clarke emerson turing award",
+      "finite-state system verification"
+    ],
+    "logic-math-foundations::ap4": [
+      "deontic logic von wright",
+      "obligation permission logic",
+      "legal reasoning formal logic",
+      "normative logic applications"
+    ],
+    "logic-math-foundations::ap5": [
+      "non-monotonic logic ai",
+      "mccarthy circumscription",
+      "default reasoning knowledge representation",
+      "defeasible reasoning ai"
+    ],
+    "logic-math-foundations::ap6": [
+      "bourbaki set-theoretic foundations",
+      "mathematics unified foundation",
+      "nicolas bourbaki collective",
+      "modern mathematics reconstruction"
+    ],
+    "logic-math-foundations::ap7": [
+      "gödel escher bach hofstadter",
+      "incompleteness popularization",
+      "gödel theorem misapplication",
+      "popular science logic overreach"
     ],
     "neuroscience::th1": [
       "neuron doctrine",
@@ -10794,7 +11332,8 @@
       "computer-science::co2"
     ],
     "recursive function theory": [
-      "computer-science::co2"
+      "computer-science::co2",
+      "logic-math-foundations::st9"
     ],
     "interface implementation separation": [
       "computer-science::co3"
@@ -13949,6 +14488,879 @@
     ],
     "redundancy effect": [
       "general-cognitive-psych::ap6"
+    ],
+    "zermelo fraenkel axioms": [
+      "logic-math-foundations::th1"
+    ],
+    "zfc set theory": [
+      "logic-math-foundations::th1"
+    ],
+    "axiom of replacement": [
+      "logic-math-foundations::th1"
+    ],
+    "axiomatic set theory": [
+      "logic-math-foundations::th1"
+    ],
+    "transfinite numbers": [
+      "logic-math-foundations::th2"
+    ],
+    "cantor set theory founder": [
+      "logic-math-foundations::th2"
+    ],
+    "infinite cardinality theory": [
+      "logic-math-foundations::th2"
+    ],
+    "sizes of infinity": [
+      "logic-math-foundations::th2"
+    ],
+    "hilbert's program": [
+      "logic-math-foundations::th3"
+    ],
+    "finitary consistency proof": [
+      "logic-math-foundations::th3"
+    ],
+    "formalist mathematics project": [
+      "logic-math-foundations::th3"
+    ],
+    "hilbert foundational crisis": [
+      "logic-math-foundations::th3"
+    ],
+    "gödel incompleteness theorems": [
+      "logic-math-foundations::th4"
+    ],
+    "formal system limits": [
+      "logic-math-foundations::th4"
+    ],
+    "unprovable true statement": [
+      "logic-math-foundations::th4"
+    ],
+    "self-referential undecidability": [
+      "logic-math-foundations::th4"
+    ],
+    "logicism frege russell": [
+      "logic-math-foundations::th5"
+    ],
+    "mathematics reduces to logic": [
+      "logic-math-foundations::th5"
+    ],
+    "frege foundations arithmetic": [
+      "logic-math-foundations::th5"
+    ],
+    "logical derivation of numbers": [
+      "logic-math-foundations::th5"
+    ],
+    "intuitionism brouwer": [
+      "logic-math-foundations::th6"
+    ],
+    "constructive mathematics": [
+      "logic-math-foundations::th6"
+    ],
+    "rejection excluded middle": [
+      "logic-math-foundations::th6"
+    ],
+    "mental construction mathematics": [
+      "logic-math-foundations::th6"
+    ],
+    "löwenheim-skolem theorem": [
+      "logic-math-foundations::th7"
+    ],
+    "countable model infinite theory": [
+      "logic-math-foundations::th7"
+    ],
+    "first-order model size": [
+      "logic-math-foundations::th7"
+    ],
+    "downward löwenheim skolem": [
+      "logic-math-foundations::th7"
+    ],
+    "compactness theorem logic": [
+      "logic-math-foundations::th8"
+    ],
+    "finite satisfiability infinite": [
+      "logic-math-foundations::th8"
+    ],
+    "gödel completeness corollary": [
+      "logic-math-foundations::th8"
+    ],
+    "first-order compactness": [
+      "logic-math-foundations::th8"
+    ],
+    "modal logic kripke semantics": [
+      "logic-math-foundations::th9"
+    ],
+    "possible worlds semantics": [
+      "logic-math-foundations::th9"
+    ],
+    "necessity possibility logic": [
+      "logic-math-foundations::th9"
+    ],
+    "accessibility relation modal": [
+      "logic-math-foundations::th9"
+    ],
+    "category theory foundation": [
+      "logic-math-foundations::th10"
+    ],
+    "eilenberg mac lane categories": [
+      "logic-math-foundations::th10"
+    ],
+    "objects morphisms mathematics": [
+      "logic-math-foundations::th10"
+    ],
+    "natural equivalences": [
+      "logic-math-foundations::th10"
+    ],
+    "cantor diagonal argument": [
+      "logic-math-foundations::st1"
+    ],
+    "uncountability of reals": [
+      "logic-math-foundations::st1"
+    ],
+    "diagonalization proof": [
+      "logic-math-foundations::st1"
+    ],
+    "real numbers uncountable": [
+      "logic-math-foundations::st1"
+    ],
+    "russell's paradox": [
+      "logic-math-foundations::st2"
+    ],
+    "naive set theory collapse": [
+      "logic-math-foundations::st2"
+    ],
+    "set of all sets": [
+      "logic-math-foundations::st2"
+    ],
+    "frege grundgesetze contradiction": [
+      "logic-math-foundations::st2"
+    ],
+    "gödel 1931 incompleteness proof": [
+      "logic-math-foundations::st3"
+    ],
+    "undecidable arithmetic sentence": [
+      "logic-math-foundations::st3"
+    ],
+    "principia mathematica undecidable": [
+      "logic-math-foundations::st3"
+    ],
+    "self-referential gödel sentence": [
+      "logic-math-foundations::st3"
+    ],
+    "gentzen consistency proof": [
+      "logic-math-foundations::st4"
+    ],
+    "transfinite induction arithmetic": [
+      "logic-math-foundations::st4"
+    ],
+    "epsilon-zero ordinal proof": [
+      "logic-math-foundations::st4"
+    ],
+    "arithmetic consistency 1936": [
+      "logic-math-foundations::st4"
+    ],
+    "continuum hypothesis independence": [
+      "logic-math-foundations::st5"
+    ],
+    "cohen forcing ch": [
+      "logic-math-foundations::st5"
+    ],
+    "ch independent of zfc": [
+      "logic-math-foundations::st5"
+    ],
+    "1966 fields medal logic": [
+      "logic-math-foundations::st5"
+    ],
+    "constructible universe gödel": [
+      "logic-math-foundations::st6"
+    ],
+    "ch consistency proof": [
+      "logic-math-foundations::st6"
+    ],
+    "gödel's l construction": [
+      "logic-math-foundations::st6"
+    ],
+    "axiom of choice consistency": [
+      "logic-math-foundations::st6"
+    ],
+    "entscheidungsproblem solved": [
+      "logic-math-foundations::st7"
+    ],
+    "church lambda calculus": [
+      "logic-math-foundations::st7"
+    ],
+    "decision problem unsolvable": [
+      "logic-math-foundations::st7"
+    ],
+    "hilbert decision problem": [
+      "logic-math-foundations::st7"
+    ],
+    "skolem löwenheim generalization": [
+      "logic-math-foundations::st8"
+    ],
+    "countable model theorem": [
+      "logic-math-foundations::st8"
+    ],
+    "skolem 1920 proof": [
+      "logic-math-foundations::st8"
+    ],
+    "first-order satisfiability": [
+      "logic-math-foundations::st8"
+    ],
+    "gödel herbrand functions": [
+      "logic-math-foundations::st9"
+    ],
+    "general recursiveness": [
+      "logic-math-foundations::st9"
+    ],
+    "computability formalization logic": [
+      "logic-math-foundations::st9"
+    ],
+    "kripke modal completeness": [
+      "logic-math-foundations::st10"
+    ],
+    "teenage logician proof": [
+      "logic-math-foundations::st10"
+    ],
+    "modal logic 1959 paper": [
+      "logic-math-foundations::st10"
+    ],
+    "possible worlds completeness proof": [
+      "logic-math-foundations::st10"
+    ],
+    "tarski undefinability truth": [
+      "logic-math-foundations::st11"
+    ],
+    "truth predicate formal language": [
+      "logic-math-foundations::st11"
+    ],
+    "semantic conception of truth": [
+      "logic-math-foundations::st11"
+    ],
+    "metalanguage object language": [
+      "logic-math-foundations::st11"
+    ],
+    "diagonalization technique": [
+      "logic-math-foundations::ef1"
+    ],
+    "self-reference fixed point": [
+      "logic-math-foundations::ef1"
+    ],
+    "yanofsky universal diagonal": [
+      "logic-math-foundations::ef1"
+    ],
+    "recurring proof pattern logic": [
+      "logic-math-foundations::ef1"
+    ],
+    "liar paradox": [
+      "logic-math-foundations::ef2"
+    ],
+    "semantic paradox truth": [
+      "logic-math-foundations::ef2"
+    ],
+    "kripke fixed-point truth theory": [
+      "logic-math-foundations::ef2"
+    ],
+    "self-referential sentence paradox": [
+      "logic-math-foundations::ef2"
+    ],
+    "non-standard models arithmetic": [
+      "logic-math-foundations::ef3"
+    ],
+    "non-standard number theory": [
+      "logic-math-foundations::ef3"
+    ],
+    "infinite nonstandard elements": [
+      "logic-math-foundations::ef3"
+    ],
+    "model theory arithmetic peculiarity": [
+      "logic-math-foundations::ef3"
+    ],
+    "banach-tarski paradox": [
+      "logic-math-foundations::ef4"
+    ],
+    "sphere decomposition paradox": [
+      "logic-math-foundations::ef4"
+    ],
+    "axiom of choice consequence": [
+      "logic-math-foundations::ef4"
+    ],
+    "non-measurable set paradox": [
+      "logic-math-foundations::ef4"
+    ],
+    "hilbert's tenth problem": [
+      "logic-math-foundations::ef5"
+    ],
+    "diophantine equations undecidable": [
+      "logic-math-foundations::ef5"
+    ],
+    "matiyasevich theorem": [
+      "logic-math-foundations::ef5"
+    ],
+    "davis putnam robinson": [
+      "logic-math-foundations::ef5"
+    ],
+    "skolem's paradox": [
+      "logic-math-foundations::ef6"
+    ],
+    "relativity of countability": [
+      "logic-math-foundations::ef6"
+    ],
+    "countable model uncountable set": [
+      "logic-math-foundations::ef6"
+    ],
+    "model-relative cardinality": [
+      "logic-math-foundations::ef6"
+    ],
+    "curry-howard correspondence": [
+      "logic-math-foundations::ef7"
+    ],
+    "proofs as programs": [
+      "logic-math-foundations::ef7"
+    ],
+    "formulae as types": [
+      "logic-math-foundations::ef7"
+    ],
+    "logic computation isomorphism": [
+      "logic-math-foundations::ef7"
+    ],
+    "cut elimination gentzen": [
+      "logic-math-foundations::ef8"
+    ],
+    "hauptsatz sequent calculus": [
+      "logic-math-foundations::ef8"
+    ],
+    "subformula property proof": [
+      "logic-math-foundations::ef8"
+    ],
+    "gentzen's main theorem": [
+      "logic-math-foundations::ef8"
+    ],
+    "whitehead problem independence": [
+      "logic-math-foundations::ef9"
+    ],
+    "shelah independence result": [
+      "logic-math-foundations::ef9"
+    ],
+    "forcing beyond continuum hypothesis": [
+      "logic-math-foundations::ef9"
+    ],
+    "algebra independent of zfc": [
+      "logic-math-foundations::ef9"
+    ],
+    "paris-harrington theorem": [
+      "logic-math-foundations::ef10"
+    ],
+    "natural independence statement": [
+      "logic-math-foundations::ef10"
+    ],
+    "ramsey theory incompleteness": [
+      "logic-math-foundations::ef10"
+    ],
+    "peano arithmetic natural undecidable": [
+      "logic-math-foundations::ef10"
+    ],
+    "axiomatic system": [
+      "logic-math-foundations::co1"
+    ],
+    "hilbert grundlagen geometrie": [
+      "logic-math-foundations::co1"
+    ],
+    "axioms and inference rules": [
+      "logic-math-foundations::co1"
+    ],
+    "formal system foundations": [
+      "logic-math-foundations::co1"
+    ],
+    "cardinality countability": [
+      "logic-math-foundations::co2"
+    ],
+    "aleph numbers cantor": [
+      "logic-math-foundations::co2"
+    ],
+    "countably uncountably infinite": [
+      "logic-math-foundations::co2"
+    ],
+    "one-to-one correspondence sets": [
+      "logic-math-foundations::co2"
+    ],
+    "soundness completeness formal system": [
+      "logic-math-foundations::co3"
+    ],
+    "provability and truth": [
+      "logic-math-foundations::co3"
+    ],
+    "gödel completeness theorem concept": [
+      "logic-math-foundations::co3"
+    ],
+    "first-order logic properties": [
+      "logic-math-foundations::co3"
+    ],
+    "gödel numbering encoding": [
+      "logic-math-foundations::co4"
+    ],
+    "arithmetization of syntax": [
+      "logic-math-foundations::co4"
+    ],
+    "prime factorization encoding": [
+      "logic-math-foundations::co4"
+    ],
+    "self-reference via numbers": [
+      "logic-math-foundations::co4"
+    ],
+    "consistency independence concepts": [
+      "logic-math-foundations::co5"
+    ],
+    "relative consistency proof": [
+      "logic-math-foundations::co5"
+    ],
+    "axioms neither provable disprovable": [
+      "logic-math-foundations::co5"
+    ],
+    "hilbert relative consistency": [
+      "logic-math-foundations::co5"
+    ],
+    "intuitionistic logic heyting": [
+      "logic-math-foundations::co6"
+    ],
+    "constructive proof logic": [
+      "logic-math-foundations::co6"
+    ],
+    "constructive logic without excluded middle": [
+      "logic-math-foundations::co6"
+    ],
+    "heyting formal intuitionism": [
+      "logic-math-foundations::co6"
+    ],
+    "many-valued logic": [
+      "logic-math-foundations::co7"
+    ],
+    "łukasiewicz three-valued logic": [
+      "logic-math-foundations::co7"
+    ],
+    "fuzzy logic continuum truth": [
+      "logic-math-foundations::co7"
+    ],
+    "non-binary truth values": [
+      "logic-math-foundations::co7"
+    ],
+    "ordinal numbers cantor": [
+      "logic-math-foundations::co8"
+    ],
+    "transfinite ordinals": [
+      "logic-math-foundations::co8"
+    ],
+    "well-ordering principle": [
+      "logic-math-foundations::co8"
+    ],
+    "ordinal vs cardinal number": [
+      "logic-math-foundations::co8"
+    ],
+    "natural deduction proof system": [
+      "logic-math-foundations::me1"
+    ],
+    "introduction elimination rules": [
+      "logic-math-foundations::me1"
+    ],
+    "gentzen natural deduction": [
+      "logic-math-foundations::me1"
+    ],
+    "human-style formal proof": [
+      "logic-math-foundations::me1"
+    ],
+    "truth tables method": [
+      "logic-math-foundations::me2"
+    ],
+    "propositional logic verification": [
+      "logic-math-foundations::me2"
+    ],
+    "wittgenstein truth table": [
+      "logic-math-foundations::me2"
+    ],
+    "exhaustive truth value enumeration": [
+      "logic-math-foundations::me2"
+    ],
+    "forcing technique set theory": [
+      "logic-math-foundations::me3"
+    ],
+    "cohen forcing method": [
+      "logic-math-foundations::me3"
+    ],
+    "generic extension model": [
+      "logic-math-foundations::me3"
+    ],
+    "independence proof technique": [
+      "logic-math-foundations::me3"
+    ],
+    "computer-assisted proof verification": [
+      "logic-math-foundations::me4"
+    ],
+    "coq proof assistant": [
+      "logic-math-foundations::me4"
+    ],
+    "four color theorem formalized": [
+      "logic-math-foundations::me4"
+    ],
+    "machine-checked mathematics": [
+      "logic-math-foundations::me4"
+    ],
+    "peano axioms method": [
+      "logic-math-foundations::me5"
+    ],
+    "arithmetic axiomatization": [
+      "logic-math-foundations::me5"
+    ],
+    "mathematical induction axiom": [
+      "logic-math-foundations::me5"
+    ],
+    "successor function axioms": [
+      "logic-math-foundations::me5"
+    ],
+    "sequent calculus gentzen": [
+      "logic-math-foundations::me6"
+    ],
+    "structural proof theory method": [
+      "logic-math-foundations::me6"
+    ],
+    "sequent-style logical derivation": [
+      "logic-math-foundations::me6"
+    ],
+    "automated theorem proving structure": [
+      "logic-math-foundations::me6"
+    ],
+    "semantic tableaux method": [
+      "logic-math-foundations::me7"
+    ],
+    "tableau proof technique": [
+      "logic-math-foundations::me7"
+    ],
+    "branching refutation method": [
+      "logic-math-foundations::me7"
+    ],
+    "beth hintikka tableaux": [
+      "logic-math-foundations::me7"
+    ],
+    "georg cantor set theory founder": [
+      "logic-math-foundations::fg1"
+    ],
+    "father of set theory": [
+      "logic-math-foundations::fg1"
+    ],
+    "transfinite numbers pioneer": [
+      "logic-math-foundations::fg1"
+    ],
+    "cantor mathematical isolation": [
+      "logic-math-foundations::fg1"
+    ],
+    "gottlob frege predicate logic": [
+      "logic-math-foundations::fg2"
+    ],
+    "begriffsschrift inventor": [
+      "logic-math-foundations::fg2"
+    ],
+    "logicism founder frege": [
+      "logic-math-foundations::fg2"
+    ],
+    "modern logic founder": [
+      "logic-math-foundations::fg2"
+    ],
+    "bertrand russell paradox discoverer": [
+      "logic-math-foundations::fg3"
+    ],
+    "principia mathematica author": [
+      "logic-math-foundations::fg3"
+    ],
+    "type theory russell": [
+      "logic-math-foundations::fg3"
+    ],
+    "nobel prize literature logician": [
+      "logic-math-foundations::fg3"
+    ],
+    "david hilbert axiomatic method": [
+      "logic-math-foundations::fg4"
+    ],
+    "hilbert program founder": [
+      "logic-math-foundations::fg4"
+    ],
+    "we must know we will know": [
+      "logic-math-foundations::fg4"
+    ],
+    "göttingen mathematics leader": [
+      "logic-math-foundations::fg4"
+    ],
+    "kurt gödel incompleteness": [
+      "logic-math-foundations::fg5"
+    ],
+    "gödel institute advanced study": [
+      "logic-math-foundations::fg5"
+    ],
+    "greatest logician twentieth century": [
+      "logic-math-foundations::fg5"
+    ],
+    "gödel starvation death": [
+      "logic-math-foundations::fg5"
+    ],
+    "alonzo church lambda calculus": [
+      "logic-math-foundations::fg6"
+    ],
+    "church-turing thesis co-founder": [
+      "logic-math-foundations::fg6"
+    ],
+    "entscheidungsproblem solver": [
+      "logic-math-foundations::fg6"
+    ],
+    "princeton logic pioneer": [
+      "logic-math-foundations::fg6"
+    ],
+    "alfred tarski model theory": [
+      "logic-math-foundations::fg7"
+    ],
+    "semantic truth definition": [
+      "logic-math-foundations::fg7"
+    ],
+    "tarski stranded wwii": [
+      "logic-math-foundations::fg7"
+    ],
+    "warsaw school of logic": [
+      "logic-math-foundations::fg7"
+    ],
+    "l.e.j. brouwer intuitionism founder": [
+      "logic-math-foundations::fg8"
+    ],
+    "brouwer fixed point theorem": [
+      "logic-math-foundations::fg8"
+    ],
+    "dutch mathematician intuitionist": [
+      "logic-math-foundations::fg8"
+    ],
+    "constructivist mathematics founder": [
+      "logic-math-foundations::fg8"
+    ],
+    "gerhard gentzen proof theory": [
+      "logic-math-foundations::fg9"
+    ],
+    "natural deduction inventor": [
+      "logic-math-foundations::fg9"
+    ],
+    "gentzen prague camp death": [
+      "logic-math-foundations::fg9"
+    ],
+    "structural proof theory founder": [
+      "logic-math-foundations::fg9"
+    ],
+    "paul cohen forcing inventor": [
+      "logic-math-foundations::fg10"
+    ],
+    "fields medal logic 1966": [
+      "logic-math-foundations::fg10"
+    ],
+    "continuum hypothesis independence prover": [
+      "logic-math-foundations::fg10"
+    ],
+    "stanford set theorist": [
+      "logic-math-foundations::fg10"
+    ],
+    "saul kripke modal logic": [
+      "logic-math-foundations::fg11"
+    ],
+    "teenage logic prodigy": [
+      "logic-math-foundations::fg11"
+    ],
+    "naming and necessity author": [
+      "logic-math-foundations::fg11"
+    ],
+    "possible worlds philosopher": [
+      "logic-math-foundations::fg11"
+    ],
+    "thoralf skolem model theory": [
+      "logic-math-foundations::fg12"
+    ],
+    "skolem paradox namesake": [
+      "logic-math-foundations::fg12"
+    ],
+    "norwegian logician actuary": [
+      "logic-math-foundations::fg12"
+    ],
+    "löwenheim skolem generalizer": [
+      "logic-math-foundations::fg12"
+    ],
+    "mathematical platonism debate": [
+      "logic-math-foundations::db1"
+    ],
+    "formalism vs intuitionism": [
+      "logic-math-foundations::db1"
+    ],
+    "philosophy of mathematics schools": [
+      "logic-math-foundations::db1"
+    ],
+    "existence of mathematical objects": [
+      "logic-math-foundations::db1"
+    ],
+    "continuum hypothesis truth value": [
+      "logic-math-foundations::db2"
+    ],
+    "ch determinate truth debate": [
+      "logic-math-foundations::db2"
+    ],
+    "new axioms set theory search": [
+      "logic-math-foundations::db2"
+    ],
+    "woodin large cardinal axioms": [
+      "logic-math-foundations::db2"
+    ],
+    "axiom of choice controversy": [
+      "logic-math-foundations::db3"
+    ],
+    "should math accept ac": [
+      "logic-math-foundations::db3"
+    ],
+    "constructivist rejection of choice": [
+      "logic-math-foundations::db3"
+    ],
+    "well-ordering theorem debate": [
+      "logic-math-foundations::db3"
+    ],
+    "did gödel refute hilbert": [
+      "logic-math-foundations::db4"
+    ],
+    "hilbert program survival debate": [
+      "logic-math-foundations::db4"
+    ],
+    "gentzen partial rescue hilbert": [
+      "logic-math-foundations::db4"
+    ],
+    "incompleteness historical interpretation": [
+      "logic-math-foundations::db4"
+    ],
+    "computer-verified proof legitimacy": [
+      "logic-math-foundations::db5"
+    ],
+    "four color theorem controversy": [
+      "logic-math-foundations::db5"
+    ],
+    "mechanical proof vs understanding": [
+      "logic-math-foundations::db5"
+    ],
+    "tymoczko philosophy computer proof": [
+      "logic-math-foundations::db5"
+    ],
+    "logical pluralism debate": [
+      "logic-math-foundations::db6"
+    ],
+    "one true logic question": [
+      "logic-math-foundations::db6"
+    ],
+    "beall restall pluralism": [
+      "logic-math-foundations::db6"
+    ],
+    "competing logical systems legitimacy": [
+      "logic-math-foundations::db6"
+    ],
+    "tarski truth philosophical debate": [
+      "logic-math-foundations::db7"
+    ],
+    "deflationary correspondence truth theory": [
+      "logic-math-foundations::db7"
+    ],
+    "field critique of tarski": [
+      "logic-math-foundations::db7"
+    ],
+    "truth theory implications": [
+      "logic-math-foundations::db7"
+    ],
+    "penrose lucas gödelian argument": [
+      "logic-math-foundations::db8"
+    ],
+    "minds not computers argument": [
+      "logic-math-foundations::db8"
+    ],
+    "gödel anti-mechanism debate": [
+      "logic-math-foundations::db8"
+    ],
+    "chalmers rebuttal penrose": [
+      "logic-math-foundations::db8"
+    ],
+    "formal verification sel4": [
+      "logic-math-foundations::ap1"
+    ],
+    "verified operating system kernel": [
+      "logic-math-foundations::ap1"
+    ],
+    "hardware software correctness proof": [
+      "logic-math-foundations::ap1"
+    ],
+    "safety-critical formal methods": [
+      "logic-math-foundations::ap1"
+    ],
+    "logic programming prolog": [
+      "logic-math-foundations::ap2"
+    ],
+    "kowalski predicate logic language": [
+      "logic-math-foundations::ap2"
+    ],
+    "resolution-based programming": [
+      "logic-math-foundations::ap2"
+    ],
+    "declarative logic programming": [
+      "logic-math-foundations::ap2"
+    ],
+    "model checking verification": [
+      "logic-math-foundations::ap3"
+    ],
+    "temporal logic specification": [
+      "logic-math-foundations::ap3"
+    ],
+    "clarke emerson turing award": [
+      "logic-math-foundations::ap3"
+    ],
+    "finite-state system verification": [
+      "logic-math-foundations::ap3"
+    ],
+    "deontic logic von wright": [
+      "logic-math-foundations::ap4"
+    ],
+    "obligation permission logic": [
+      "logic-math-foundations::ap4"
+    ],
+    "legal reasoning formal logic": [
+      "logic-math-foundations::ap4"
+    ],
+    "normative logic applications": [
+      "logic-math-foundations::ap4"
+    ],
+    "non-monotonic logic ai": [
+      "logic-math-foundations::ap5"
+    ],
+    "mccarthy circumscription": [
+      "logic-math-foundations::ap5"
+    ],
+    "default reasoning knowledge representation": [
+      "logic-math-foundations::ap5"
+    ],
+    "defeasible reasoning ai": [
+      "logic-math-foundations::ap5"
+    ],
+    "bourbaki set-theoretic foundations": [
+      "logic-math-foundations::ap6"
+    ],
+    "mathematics unified foundation": [
+      "logic-math-foundations::ap6"
+    ],
+    "nicolas bourbaki collective": [
+      "logic-math-foundations::ap6"
+    ],
+    "modern mathematics reconstruction": [
+      "logic-math-foundations::ap6"
+    ],
+    "gödel escher bach hofstadter": [
+      "logic-math-foundations::ap7"
+    ],
+    "incompleteness popularization": [
+      "logic-math-foundations::ap7"
+    ],
+    "gödel theorem misapplication": [
+      "logic-math-foundations::ap7"
+    ],
+    "popular science logic overreach": [
+      "logic-math-foundations::ap7"
     ],
     "neuron doctrine": [
       "neuroscience::th1"

@@ -150,6 +150,12 @@
             "th2",
             "st2",
             "ap6"
+          ],
+          "keywords": [
+            "zermelo fraenkel axioms",
+            "zfc set theory",
+            "axiom of replacement",
+            "axiomatic set theory"
           ]
         },
         {
@@ -171,6 +177,12 @@
             "co2",
             "co8",
             "fg1"
+          ],
+          "keywords": [
+            "transfinite numbers",
+            "cantor set theory founder",
+            "infinite cardinality theory",
+            "sizes of infinity"
           ]
         },
         {
@@ -193,6 +205,12 @@
             "me6",
             "fg4",
             "db4"
+          ],
+          "keywords": [
+            "hilbert's program",
+            "finitary consistency proof",
+            "formalist mathematics project",
+            "hilbert foundational crisis"
           ]
         },
         {
@@ -222,6 +240,12 @@
             "db4",
             "db8",
             "ap7"
+          ],
+          "keywords": [
+            "gödel incompleteness theorems",
+            "formal system limits",
+            "unprovable true statement",
+            "self-referential undecidability"
           ]
         },
         {
@@ -241,6 +265,12 @@
             "st2",
             "fg2",
             "db1"
+          ],
+          "keywords": [
+            "logicism frege russell",
+            "mathematics reduces to logic",
+            "frege foundations arithmetic",
+            "logical derivation of numbers"
           ]
         },
         {
@@ -260,6 +290,12 @@
             "co6",
             "fg8",
             "db1"
+          ],
+          "keywords": [
+            "intuitionism brouwer",
+            "constructive mathematics",
+            "rejection excluded middle",
+            "mental construction mathematics"
           ]
         },
         {
@@ -281,6 +317,12 @@
             "ef3",
             "ef6",
             "fg12"
+          ],
+          "keywords": [
+            "löwenheim-skolem theorem",
+            "countable model infinite theory",
+            "first-order model size",
+            "downward löwenheim skolem"
           ]
         },
         {
@@ -300,6 +342,12 @@
             "th7",
             "ef3",
             "co3"
+          ],
+          "keywords": [
+            "compactness theorem logic",
+            "finite satisfiability infinite",
+            "gödel completeness corollary",
+            "first-order compactness"
           ]
         },
         {
@@ -319,6 +367,12 @@
             "st10",
             "fg11",
             "db6"
+          ],
+          "keywords": [
+            "modal logic kripke semantics",
+            "possible worlds semantics",
+            "necessity possibility logic",
+            "accessibility relation modal"
           ]
         },
         {
@@ -334,7 +388,13 @@
           "tag": "THEORY",
           "hint": "Instead of building mathematics up from sets and elements, category theory builds it from objects and the structure-preserving maps (\"morphisms\") between them, treating the relationships as more fundamental than the things being related. Samuel Eilenberg and Saunders Mac Lane introduced it originally just to make precise a vague notion of \"naturality\" in algebraic topology — it later grew into a serious rival to set theory as a foundational language for all of mathematics.",
           "note": "Eilenberg, S., Mac Lane, S. (1945). 'General Theory of Natural Equivalences.' Transactions of the American Mathematical Society, 58(2), 231–294. The foundational proposal specifically (using category theory in place of set theory as mathematics' bedrock) came two decades later, principally through William Lawvere's Elementary Theory of the Category of Sets (1964); it remains a minority but mathematically serious alternative to ZFC.",
-          "links": []
+          "links": [],
+          "keywords": [
+            "category theory foundation",
+            "eilenberg mac lane categories",
+            "objects morphisms mathematics",
+            "natural equivalences"
+          ]
         }
       ]
     },
@@ -365,6 +425,12 @@
             "th2",
             "ef1",
             "fg1"
+          ],
+          "keywords": [
+            "cantor diagonal argument",
+            "uncountability of reals",
+            "diagonalization proof",
+            "real numbers uncountable"
           ]
         },
         {
@@ -385,6 +451,12 @@
             "th1",
             "th5",
             "fg3"
+          ],
+          "keywords": [
+            "russell's paradox",
+            "naive set theory collapse",
+            "set of all sets",
+            "frege grundgesetze contradiction"
           ]
         },
         {
@@ -404,6 +476,12 @@
           "links": [
             "th4",
             "co4"
+          ],
+          "keywords": [
+            "gödel 1931 incompleteness proof",
+            "undecidable arithmetic sentence",
+            "principia mathematica undecidable",
+            "self-referential gödel sentence"
           ]
         },
         {
@@ -425,6 +503,12 @@
             "th4",
             "fg9",
             "db4"
+          ],
+          "keywords": [
+            "gentzen consistency proof",
+            "transfinite induction arithmetic",
+            "epsilon-zero ordinal proof",
+            "arithmetic consistency 1936"
           ]
         },
         {
@@ -448,7 +532,13 @@
             "fg10",
             "db2"
           ],
-          "xlinks": []
+          "xlinks": [],
+          "keywords": [
+            "continuum hypothesis independence",
+            "cohen forcing ch",
+            "ch independent of zfc",
+            "1966 fields medal logic"
+          ]
         },
         {
           "id": "st6",
@@ -467,6 +557,12 @@
           "links": [
             "st5",
             "db2"
+          ],
+          "keywords": [
+            "constructible universe gödel",
+            "ch consistency proof",
+            "gödel's l construction",
+            "axiom of choice consistency"
           ]
         },
         {
@@ -491,6 +587,12 @@
           ],
           "xlinks": [
             "computer-science::th1"
+          ],
+          "keywords": [
+            "entscheidungsproblem solved",
+            "church lambda calculus",
+            "decision problem unsolvable",
+            "hilbert decision problem"
           ]
         },
         {
@@ -510,6 +612,12 @@
           "links": [
             "th7",
             "ef6"
+          ],
+          "keywords": [
+            "skolem löwenheim generalization",
+            "countable model theorem",
+            "skolem 1920 proof",
+            "first-order satisfiability"
           ]
         },
         {
@@ -528,6 +636,12 @@
           "note": "Gödel, K. (1934). 'On Undecidable Propositions of Formal Mathematical Systems' — mimeographed notes from lectures Gödel gave at the Institute for Advanced Study, Princeton, taken down by Stephen Kleene and Barkley Rosser, rather than a conventionally published paper. Later shown by Kleene and others to be extensionally equivalent to both Church's lambda-definability and Turing computability (see st7).",
           "links": [
             "st7"
+          ],
+          "keywords": [
+            "recursive function theory",
+            "gödel herbrand functions",
+            "general recursiveness",
+            "computability formalization logic"
           ]
         },
         {
@@ -546,6 +660,12 @@
           "note": "Kripke, S.A. (1959). 'A Completeness Theorem in Modal Logic.' Journal of Symbolic Logic, 24(1), 1–14. Kripke went on to become one of the most influential logicians and philosophers of the twentieth century, though this early technical result on its own would already have secured him a significant place in the field's history.",
           "links": [
             "th9"
+          ],
+          "keywords": [
+            "kripke modal completeness",
+            "teenage logician proof",
+            "modal logic 1959 paper",
+            "possible worlds completeness proof"
           ]
         },
         {
@@ -567,6 +687,12 @@
             "ef2",
             "fg7",
             "db7"
+          ],
+          "keywords": [
+            "tarski undefinability truth",
+            "truth predicate formal language",
+            "semantic conception of truth",
+            "metalanguage object language"
           ]
         }
       ]
@@ -599,6 +725,12 @@
           ],
           "xlinks": [
             "computer-science::ef2"
+          ],
+          "keywords": [
+            "diagonalization technique",
+            "self-reference fixed point",
+            "yanofsky universal diagonal",
+            "recurring proof pattern logic"
           ]
         },
         {
@@ -618,6 +750,12 @@
           "links": [
             "st11",
             "db7"
+          ],
+          "keywords": [
+            "liar paradox",
+            "semantic paradox truth",
+            "kripke fixed-point truth theory",
+            "self-referential sentence paradox"
           ]
         },
         {
@@ -637,6 +775,12 @@
           "links": [
             "th7",
             "th8"
+          ],
+          "keywords": [
+            "non-standard models arithmetic",
+            "non-standard number theory",
+            "infinite nonstandard elements",
+            "model theory arithmetic peculiarity"
           ]
         },
         {
@@ -655,6 +799,12 @@
           "note": "Banach, S., Tarski, A. (1924). 'Sur la décomposition des ensembles de points en parties respectivement congruentes.' Fundamenta Mathematicae, 6, 244–277. The result is often cited as an argument against accepting the Axiom of Choice (see db3, co2), since without AC the pathological, non-measurable pieces the construction requires cannot be shown to exist at all.",
           "links": [
             "db3"
+          ],
+          "keywords": [
+            "banach-tarski paradox",
+            "sphere decomposition paradox",
+            "axiom of choice consequence",
+            "non-measurable set paradox"
           ]
         },
         {
@@ -671,7 +821,13 @@
           "repl": "robust",
           "hint": "Hilbert's tenth problem, posed in 1900, asked for a general algorithm to decide whether any given polynomial equation has a whole-number solution — a purely number-theoretic question with no obvious connection to logic. Yuri Matiyasevich proved no such algorithm can exist, completing work begun by Julia Robinson, Martin Davis, and Hilary Putnam, and in doing so showed that undecidability isn't a quirk specific to logic or computation — it shows up in ordinary, centuries-old mathematics too.",
           "note": "Matiyasevich, Y. (1970). 'Diofantovy mnozhestva' (Diophantine sets). Doklady Akademii Nauk SSSR, 191, 279–282. Similar undecidability results were later found for other classical problems entirely unrelated to logic on their surface — the word problem for finitely presented groups (Novikov 1955, Boone 1958) and certain tiling problems (Berger 1966) among them.",
-          "links": []
+          "links": [],
+          "keywords": [
+            "hilbert's tenth problem",
+            "diophantine equations undecidable",
+            "matiyasevich theorem",
+            "davis putnam robinson"
+          ]
         },
         {
           "id": "ef6",
@@ -690,6 +846,12 @@
           "links": [
             "th7",
             "st8"
+          ],
+          "keywords": [
+            "skolem's paradox",
+            "relativity of countability",
+            "countable model uncountable set",
+            "model-relative cardinality"
           ]
         },
         {
@@ -708,6 +870,12 @@
           "note": "Howard, W.A. 'The Formulae-as-Types Notion of Construction,' informally circulated in 1969, formally published in Seldin, J.P., Hindley, J.R. (eds.) (1980). To H.B. Curry: Essays on Combinatory Logic, Lambda Calculus and Formalism. London: Academic Press, 479–490 — a rare case of an influential paper circulating unpublished for over a decade. Directly underlies modern proof assistants (see me4, ap2).",
           "links": [
             "me4"
+          ],
+          "keywords": [
+            "curry-howard correspondence",
+            "proofs as programs",
+            "formulae as types",
+            "logic computation isomorphism"
           ]
         },
         {
@@ -726,6 +894,12 @@
           "note": "Gentzen, G. (1935). 'Untersuchungen über das logische Schließen I–II.' Mathematische Zeitschrift, 39, 176–210, 405–431 — the same paper that introduced the sequent calculus (see me6). Gentzen called this result his \"Hauptsatz\" (\"main theorem\"), and it remains one of the central structural results in all of proof theory.",
           "links": [
             "th3"
+          ],
+          "keywords": [
+            "cut elimination gentzen",
+            "hauptsatz sequent calculus",
+            "subformula property proof",
+            "gentzen's main theorem"
           ]
         },
         {
@@ -744,6 +918,12 @@
           "note": "Shelah, S. (1974). 'Infinite Abelian groups, Whitehead problem and some constructions.' Israel Journal of Mathematics, 18(3), 243–256. Showed independence is not a peculiarity confined to exotic set-theoretic statements like CH, but a genuine feature that can surface in the middle of mainstream algebra — a result many working algebraists found genuinely unsettling at the time.",
           "links": [
             "st5"
+          ],
+          "keywords": [
+            "whitehead problem independence",
+            "shelah independence result",
+            "forcing beyond continuum hypothesis",
+            "algebra independent of zfc"
           ]
         },
         {
@@ -762,6 +942,12 @@
           "note": "Paris, J., Harrington, L. (1977). 'A Mathematical Incompleteness in Peano Arithmetic,' in Barwise, J. (ed.), Handbook of Mathematical Logic. Amsterdam: North-Holland, 1133–1142. Settled a long-standing question about whether Gödelian incompleteness had any real bearing on ordinary mathematical practice, or was confined to artificial, self-referential curiosities.",
           "links": [
             "th4"
+          ],
+          "keywords": [
+            "paris-harrington theorem",
+            "natural independence statement",
+            "ramsey theory incompleteness",
+            "peano arithmetic natural undecidable"
           ]
         }
       ]
@@ -790,6 +976,12 @@
           "note": "Hilbert, D. (1899). Grundlagen der Geometrie. Leipzig: B.G. Teubner. Hilbert's insistence that axioms should be treated as purely formal — that you could substitute \"tables, chairs, and beer mugs\" for \"points, lines, and planes\" without changing the logical structure of the proofs — was itself a significant conceptual shift from earlier, more intuitive treatments of geometry.",
           "links": [
             "fg4"
+          ],
+          "keywords": [
+            "axiomatic system",
+            "hilbert grundlagen geometrie",
+            "axioms and inference rules",
+            "formal system foundations"
           ]
         },
         {
@@ -807,6 +999,12 @@
           "note": "Cantor, G. (1895). 'Beiträge zur Begründung der transfiniten Mengenlehre.' Mathematische Annalen, 46, 481–512. Introduced the aleph notation for infinite cardinal numbers still used today; this vocabulary of countable versus uncountable is what makes Cantor's diagonal argument (see st1) precisely statable in the first place.",
           "links": [
             "th2"
+          ],
+          "keywords": [
+            "cardinality countability",
+            "aleph numbers cantor",
+            "countably uncountably infinite",
+            "one-to-one correspondence sets"
           ]
         },
         {
@@ -824,6 +1022,12 @@
           "note": "Gödel, K. (1930), see th8. It's easy to confuse this completeness theorem (about first-order logic generally) with Gödel's later, differently-named incompleteness theorems (about what any sufficiently powerful axiomatic system, like arithmetic specifically, can prove about itself) — the two results sound similar but say almost opposite things.",
           "links": [
             "th8"
+          ],
+          "keywords": [
+            "soundness completeness formal system",
+            "provability and truth",
+            "gödel completeness theorem concept",
+            "first-order logic properties"
           ]
         },
         {
@@ -842,6 +1046,12 @@
           "links": [
             "th4",
             "st3"
+          ],
+          "keywords": [
+            "gödel numbering encoding",
+            "arithmetization of syntax",
+            "prime factorization encoding",
+            "self-reference via numbers"
           ]
         },
         {
@@ -859,6 +1069,12 @@
           "note": "Hilbert, D. (1899), see co1 — Hilbert proved Euclidean geometry consistent relative to the real numbers, sidestepping the harder question of arithmetic's own consistency, later shown by Gödel to be unprovable from within arithmetic itself (see th4). The concept of independence became central to the field after Cohen's 1963 forcing technique showed entire major questions, not just isolated curiosities, could be independent of the standard axioms (see st5, ef9).",
           "links": [
             "th4"
+          ],
+          "keywords": [
+            "consistency independence concepts",
+            "relative consistency proof",
+            "axioms neither provable disprovable",
+            "hilbert relative consistency"
           ]
         },
         {
@@ -877,6 +1093,12 @@
           "links": [
             "th6",
             "db6"
+          ],
+          "keywords": [
+            "intuitionistic logic heyting",
+            "constructive proof logic",
+            "constructive logic without excluded middle",
+            "heyting formal intuitionism"
           ]
         },
         {
@@ -894,6 +1116,12 @@
           "note": "Łukasiewicz, J. (1920). 'O logice trójwartościowej' (On Three-Valued Logic). Ruch Filozoficzny, 5, 170–171. Later generalised into fuzzy logic (Lotfi Zadeh, 1965), which uses a full continuum of truth values between 0 and 1 and found substantial practical application in control systems engineering.",
           "links": [
             "db6"
+          ],
+          "keywords": [
+            "many-valued logic",
+            "łukasiewicz three-valued logic",
+            "fuzzy logic continuum truth",
+            "non-binary truth values"
           ]
         },
         {
@@ -911,6 +1139,12 @@
           "note": "Cantor, G. (1883). 'Grundlagen einer allgemeinen Mannigfaltigkeitslehre.' Mathematische Annalen, 21, 545–591 (also published separately as a monograph). Every ordinal is built from a well-ordering — a way of arranging a set so every non-empty subset has a smallest element — a property the standard ordering of the real numbers conspicuously lacks.",
           "links": [
             "th2"
+          ],
+          "keywords": [
+            "ordinal numbers cantor",
+            "transfinite ordinals",
+            "well-ordering principle",
+            "ordinal vs cardinal number"
           ]
         }
       ]
@@ -937,7 +1171,13 @@
           "tag": "METHOD",
           "hint": "A style of formal proof designed to mirror how mathematicians actually reason, step by step, rather than the more rigid axiom-and-substitution style of earlier formal systems — each logical connective gets an \"introduction\" rule for how to establish it and an \"elimination\" rule for how to use it once established. Gentzen designed it specifically so formal proofs would look and feel like ordinary mathematical arguments.",
           "note": "Gentzen, G. (1935). 'Untersuchungen über das logische Schließen I.' Mathematische Zeitschrift, 39, 176–210 — the first half of the same two-part paper that introduced the sequent calculus (see me6) and proved cut elimination (see ef8). Natural deduction remains the standard proof style taught in most introductory formal logic courses today.",
-          "links": []
+          "links": [],
+          "keywords": [
+            "natural deduction proof system",
+            "introduction elimination rules",
+            "gentzen natural deduction",
+            "human-style formal proof"
+          ]
         },
         {
           "id": "me2",
@@ -954,6 +1194,12 @@
           "note": "Ludwig Wittgenstein popularised and systematised the technique in Tractatus Logico-Philosophicus (1921), §4.31 onward; Emil Post independently published an equivalent treatment the same year in 'Introduction to a General Theory of Elementary Propositions,' American Journal of Mathematics, 43(3), 163–185. Truth tables only work for propositional logic — first-order logic, which quantifies over infinite domains, has no equivalent finite mechanical check (see st7).",
           "links": [
             "st7"
+          ],
+          "keywords": [
+            "truth tables method",
+            "propositional logic verification",
+            "wittgenstein truth table",
+            "exhaustive truth value enumeration"
           ]
         },
         {
@@ -971,6 +1217,12 @@
           "note": "Cohen, P.J. (1963), see st5. Forcing is technically demanding even by the standards of mathematical logic, but its basic idea — that you can deliberately engineer a new mathematical universe with exactly the properties you want, provided you're careful about consistency — reframed what an independence proof even looks like.",
           "links": [
             "st5"
+          ],
+          "keywords": [
+            "forcing technique set theory",
+            "cohen forcing method",
+            "generic extension model",
+            "independence proof technique"
           ]
         },
         {
@@ -989,6 +1241,12 @@
           "links": [
             "ef7",
             "db5"
+          ],
+          "keywords": [
+            "computer-assisted proof verification",
+            "coq proof assistant",
+            "four color theorem formalized",
+            "machine-checked mathematics"
           ]
         },
         {
@@ -1006,6 +1264,12 @@
           "note": "Peano, G. (1889). Arithmetices principia, nova methodo exposita (The Principles of Arithmetic, Presented by a New Method). Turin: Bocca. Peano's specific axioms are now known to be first-order incomplete — Gödel's incompleteness theorems apply directly to Peano Arithmetic (see th4) — but the axiomatic method itself, isolating exactly which assumptions arithmetic depends on, remains the standard starting point for foundational treatments of number theory.",
           "links": [
             "th4"
+          ],
+          "keywords": [
+            "peano axioms method",
+            "arithmetic axiomatization",
+            "mathematical induction axiom",
+            "successor function axioms"
           ]
         },
         {
@@ -1023,6 +1287,12 @@
           "note": "Gentzen, G. (1935). 'Untersuchungen über das logische Schließen II.' Mathematische Zeitschrift, 39, 405–431 — the second half of the same paper as natural deduction (see me1), in which Gentzen also proved the cut-elimination theorem for this system (see ef8). Sequent calculus is now the standard framework for automated theorem provers, which favour its more mechanical structure over natural deduction's more human-readable one.",
           "links": [
             "th3"
+          ],
+          "keywords": [
+            "sequent calculus gentzen",
+            "structural proof theory method",
+            "sequent-style logical derivation",
+            "automated theorem proving structure"
           ]
         },
         {
@@ -1038,7 +1308,13 @@
           "tag": "METHOD",
           "hint": "To check whether a statement is a logical truth, assume its negation instead and systematically try to build a consistent scenario where that negation holds — branching into every possible case as you go. If every branch collapses into an outright contradiction, the negation was impossible, so the original statement must have been valid after all; if any branch survives intact, it hands you a concrete counterexample.",
           "note": "Beth, E.W. (1955). 'Semantic entailment and formal derivability.' Mededelingen van de Koninklijke Nederlandse Akademie van Wetenschappen, Afd. Letterkunde, 18(13), 309–342, developed independently around the same time by Jaakko Hintikka and later popularised in textbook form by Raymond Smullyan. Tableaux extend naturally from classical propositional logic to modal and many-valued logics (see th9, co7), which is part of why they remain a standard teaching method across non-classical logic as well.",
-          "links": []
+          "links": [],
+          "keywords": [
+            "semantic tableaux method",
+            "tableau proof technique",
+            "branching refutation method",
+            "beth hintikka tableaux"
+          ]
         }
       ]
     },
@@ -1067,6 +1343,12 @@
           "links": [
             "th2",
             "st1"
+          ],
+          "keywords": [
+            "georg cantor set theory founder",
+            "father of set theory",
+            "transfinite numbers pioneer",
+            "cantor mathematical isolation"
           ]
         },
         {
@@ -1084,6 +1366,12 @@
           "note": "Frege, G. (1879). Begriffsschrift, eine der arithmetischen nachgebildete Formelsprache des reinen Denkens (Concept Script). Halle: Louis Nebert. His life's work, Grundgesetze der Arithmetik, was undermined by Russell's Paradox just as its second volume went to press (see st2, th5); Frege added a brief, visibly strained acknowledgment before publication and never fully recovered his earlier confidence in the project.",
           "links": [
             "th5"
+          ],
+          "keywords": [
+            "gottlob frege predicate logic",
+            "begriffsschrift inventor",
+            "logicism founder frege",
+            "modern logic founder"
           ]
         },
         {
@@ -1101,6 +1389,12 @@
           "note": "Russell, B. (1903), see st2; Russell, B., Whitehead, A.N. (1910–1913). Principia Mathematica (3 vols). Cambridge: Cambridge University Press. Shared the 1950 Nobel Prize in Literature — not for his mathematical logic, but for his broader philosophical and humanitarian writing, an unusual career arc for someone whose most technically consequential work was in formal logic.",
           "links": [
             "st2"
+          ],
+          "keywords": [
+            "bertrand russell paradox discoverer",
+            "principia mathematica author",
+            "type theory russell",
+            "nobel prize literature logician"
           ]
         },
         {
@@ -1119,6 +1413,12 @@
           "links": [
             "th3",
             "co1"
+          ],
+          "keywords": [
+            "david hilbert axiomatic method",
+            "hilbert program founder",
+            "we must know we will know",
+            "göttingen mathematics leader"
           ]
         },
         {
@@ -1136,6 +1436,12 @@
           "note": "Gödel, K. (1930, 1931, 1940), see th4, th8, st3, st6. Emigrated to the United States in 1940 following Austria's annexation by Nazi Germany, settling at the Institute for Advanced Study in Princeton; in his later life he developed severe paranoid anxieties about being poisoned and would eat only food prepared by his wife, ultimately dying of self-starvation after her hospitalisation left him without a trusted food source.",
           "links": [
             "th4"
+          ],
+          "keywords": [
+            "kurt gödel incompleteness",
+            "gödel institute advanced study",
+            "greatest logician twentieth century",
+            "gödel starvation death"
           ]
         },
         {
@@ -1153,6 +1459,12 @@
           "note": "Church, A. (1936), see st7. The lambda calculus went on to have an entirely separate second life decades later as the theoretical foundation of functional programming languages, an application Church himself could not have anticipated when he introduced it as a piece of pure logic in the early 1930s.",
           "links": [
             "st7"
+          ],
+          "keywords": [
+            "alonzo church lambda calculus",
+            "church-turing thesis co-founder",
+            "entscheidungsproblem solver",
+            "princeton logic pioneer"
           ]
         },
         {
@@ -1170,6 +1482,12 @@
           "note": "Tarski, A. (1933/1936), see st11. Was visiting the United States for an academic conference in August 1939 when Germany invaded Poland; the war stranded him there for the rest of his life, separated for several years from his wife and children, who remained in Warsaw until they could eventually be reunited after the war.",
           "links": [
             "st11"
+          ],
+          "keywords": [
+            "alfred tarski model theory",
+            "semantic truth definition",
+            "tarski stranded wwii",
+            "warsaw school of logic"
           ]
         },
         {
@@ -1187,6 +1505,12 @@
           "note": "Brouwer, L.E.J. (1907), see th6. Also a distinguished topologist in his own right, proving the fixed-point theorem that bears his name using entirely classical (non-intuitionistic) methods — a genuine tension between his own mathematical practice and his professed foundational philosophy that Brouwer himself was well aware of.",
           "links": [
             "th6"
+          ],
+          "keywords": [
+            "l.e.j. brouwer intuitionism founder",
+            "brouwer fixed point theorem",
+            "dutch mathematician intuitionist",
+            "constructivist mathematics founder"
           ]
         },
         {
@@ -1204,6 +1528,12 @@
           "note": "Gentzen, G. (1935, 1936), see me1, me6, ef8, st4. Died in 1945 of starvation in a Prague internment camp shortly after the end of the Second World War, at age 35 — a stark, early loss for a field that was still working out the full implications of his structural proof-theory results.",
           "links": [
             "st4"
+          ],
+          "keywords": [
+            "gerhard gentzen proof theory",
+            "natural deduction inventor",
+            "gentzen prague camp death",
+            "structural proof theory founder"
           ]
         },
         {
@@ -1221,6 +1551,12 @@
           "note": "Cohen, P.J. (1963), see st5, me3. Awarded the Fields Medal in 1966; unusually for a specialist in mathematical logic, Cohen had originally trained and published in the more mainstream field of analysis before turning to the continuum hypothesis relatively late in his graduate career.",
           "links": [
             "st5"
+          ],
+          "keywords": [
+            "paul cohen forcing inventor",
+            "fields medal logic 1966",
+            "continuum hypothesis independence prover",
+            "stanford set theorist"
           ]
         },
         {
@@ -1238,6 +1574,12 @@
           "note": "Kripke, S.A. (1959, 1963), see th9, st10. Later work outside formal logic, particularly Naming and Necessity (1980), had an equally large impact on philosophy of language, making him one of relatively few figures with field-defining contributions to both technical mathematical logic and mainstream analytic philosophy.",
           "links": [
             "th9"
+          ],
+          "keywords": [
+            "saul kripke modal logic",
+            "teenage logic prodigy",
+            "naming and necessity author",
+            "possible worlds philosopher"
           ]
         },
         {
@@ -1255,6 +1597,12 @@
           "note": "Skolem, T. (1920, 1934), see th7, st8, ef3, ef6. Worked for periods as an actuary and in industry rather than exclusively in academia, a somewhat unusual career path among the major figures of early twentieth-century mathematical logic, most of whom worked entirely within university systems.",
           "links": [
             "th7"
+          ],
+          "keywords": [
+            "thoralf skolem model theory",
+            "skolem paradox namesake",
+            "norwegian logician actuary",
+            "löwenheim skolem generalizer"
           ]
         }
       ]
@@ -1284,6 +1632,12 @@
           "links": [
             "th5",
             "th6"
+          ],
+          "keywords": [
+            "mathematical platonism debate",
+            "formalism vs intuitionism",
+            "philosophy of mathematics schools",
+            "existence of mathematical objects"
           ]
         },
         {
@@ -1302,6 +1656,12 @@
           "links": [
             "st5",
             "st6"
+          ],
+          "keywords": [
+            "continuum hypothesis truth value",
+            "ch determinate truth debate",
+            "new axioms set theory search",
+            "woodin large cardinal axioms"
           ]
         },
         {
@@ -1319,6 +1679,12 @@
           "note": "Original motivation: Zermelo, E. (1904). 'Beweis, dass jede Menge wohlgeordnet werden kann.' Mathematische Annalen, 59, 514–516. Counter-intuitive consequence: Banach, Tarski (1924), see ef4. Most working mathematicians accept AC pragmatically for the theorems it unlocks, without necessarily resolving the philosophical unease about a principle that guarantees a choice exists without ever describing how to actually make it.",
           "links": [
             "ef4"
+          ],
+          "keywords": [
+            "axiom of choice controversy",
+            "should math accept ac",
+            "constructivist rejection of choice",
+            "well-ordering theorem debate"
           ]
         },
         {
@@ -1338,6 +1704,12 @@
             "th3",
             "th4",
             "st4"
+          ],
+          "keywords": [
+            "did gödel refute hilbert",
+            "hilbert program survival debate",
+            "gentzen partial rescue hilbert",
+            "incompleteness historical interpretation"
           ]
         },
         {
@@ -1355,6 +1727,12 @@
           "note": "Appel, K., Haken, W. (1976). 'Every Planar Map is Four Colorable.' Bulletin of the American Mathematical Society, 82(5), 711–712. Philosophical debate: Tymoczko, T. (1979). 'The Four-Color Problem and Its Philosophical Significance.' Journal of Philosophy, 76(2), 57–83. The question has only grown more pressing as fully machine-checked formal proofs (see me4) have become common for results too large for any human to verify unaided.",
           "links": [
             "me4"
+          ],
+          "keywords": [
+            "computer-verified proof legitimacy",
+            "four color theorem controversy",
+            "mechanical proof vs understanding",
+            "tymoczko philosophy computer proof"
           ]
         },
         {
@@ -1374,6 +1752,12 @@
             "th9",
             "co6",
             "co7"
+          ],
+          "keywords": [
+            "logical pluralism debate",
+            "one true logic question",
+            "beall restall pluralism",
+            "competing logical systems legitimacy"
           ]
         },
         {
@@ -1396,6 +1780,12 @@
           "xlinks": [
             "epistemology::th3",
             "epistemology::th4"
+          ],
+          "keywords": [
+            "tarski truth philosophical debate",
+            "deflationary correspondence truth theory",
+            "field critique of tarski",
+            "truth theory implications"
           ]
         },
         {
@@ -1413,6 +1803,12 @@
           "note": "Penrose, R. (1989). The Emperor's New Mind. Oxford: Oxford University Press, extending an earlier version of the argument in Lucas, J.R. (1961). 'Minds, Machines and Gödel.' Philosophy, 36(137), 112–127. Rebuttal: Chalmers, D.J. (1995). 'Minds, Machines, and Mathematics.' Psyche, 2, 11–20. A well-documented case study in a technical mathematical result being stretched into a far broader philosophical claim than the mathematics itself can actually support (see ap7 for another instance).",
           "links": [
             "th4"
+          ],
+          "keywords": [
+            "penrose lucas gödelian argument",
+            "minds not computers argument",
+            "gödel anti-mechanism debate",
+            "chalmers rebuttal penrose"
           ]
         }
       ]
@@ -1439,7 +1835,13 @@
           "tag": "APPLICATION",
           "hint": "An operating system kernel or a microchip design can be mathematically proven, not just tested, to behave exactly as specified under every possible input — no gap between \"we ran a lot of tests and nothing broke\" and \"this is provably correct.\" The seL4 microkernel became the first operating-system kernel with a complete, machine-checked mathematical proof that its implementation correctly matches its formal specification.",
           "note": "Klein, G., Elphinstone, K., Heiser, G., et al. (2009). 'seL4: Formal Verification of an OS Kernel.' Proceedings of the 22nd ACM Symposium on Operating Systems Principles (SOSP '09), 207–220. Now used in safety- and security-critical systems (avionics, defence, autonomous vehicles) precisely where the cost of an undetected bug is unacceptably high and conventional testing alone cannot provide the same guarantee.",
-          "links": []
+          "links": [],
+          "keywords": [
+            "formal verification sel4",
+            "verified operating system kernel",
+            "hardware software correctness proof",
+            "safety-critical formal methods"
+          ]
         },
         {
           "id": "ap2",
@@ -1454,7 +1856,13 @@
           "tag": "APPLICATION",
           "hint": "Instead of telling a computer step-by-step how to solve a problem, logic programming lets a programmer state a set of logical facts and rules and simply ask a question — the language itself searches for a way to derive an answer using resolution, a mechanical proof-search technique. Robert Kowalski's theoretical framing of \"predicate logic as a programming language,\" combined with Alain Colmerauer's practical implementation, produced Prolog, still in active use today particularly in artificial intelligence and computational linguistics.",
           "note": "Kowalski, R.A. (1974). 'Predicate Logic as a Programming Language.' Information Processing 74 (IFIP Congress), 569–574. A genuinely different programming paradigm from the imperative and functional styles that dominate most software — the computer is doing automated theorem proving, in a quite literal sense, every time a Prolog program runs.",
-          "links": []
+          "links": [],
+          "keywords": [
+            "logic programming prolog",
+            "kowalski predicate logic language",
+            "resolution-based programming",
+            "declarative logic programming"
+          ]
         },
         {
           "id": "ap3",
@@ -1469,7 +1877,13 @@
           "tag": "APPLICATION",
           "hint": "Exhaustively and automatically checking every possible state a finite-state system (a communication protocol, a piece of hardware, concurrent software) could ever reach, verifying a temporal-logic specification holds in every single one, catches subtle timing and concurrency bugs that are notoriously easy for human reasoning and ordinary testing to miss entirely.",
           "note": "Clarke, E.M., Emerson, E.A. (1981). 'Design and Synthesis of Synchronization Skeletons Using Branching-Time Temporal Logic.' Logics of Programs, Springer LNCS 131, 52–71, developed independently around the same time by Joseph Sifakis. Clarke, Emerson, and Sifakis shared the 2008 Turing Award; model checking is now standard practice in hardware design, where a single undetected chip bug can be catastrophically expensive to fix after fabrication.",
-          "links": []
+          "links": [],
+          "keywords": [
+            "model checking verification",
+            "temporal logic specification",
+            "clarke emerson turing award",
+            "finite-state system verification"
+          ]
         },
         {
           "id": "ap4",
@@ -1484,7 +1898,13 @@
           "tag": "APPLICATION",
           "hint": "Ordinary logic has no native way to formally represent \"you must,\" \"you may,\" and \"you must not\" — obligation, permission, and prohibition don't behave like ordinary truth values, since \"it is obligatory that P\" being true doesn't mean P is actually true, just that it ought to be. Georg Henrik von Wright built a formal logic specifically for this normative vocabulary, later applied directly to formalising legal codes and contracts for automated consistency checking.",
           "note": "von Wright, G.H. (1951). 'Deontic Logic.' Mind, 60(237), 1–15. Modern applications include automated checking of legal and regulatory documents for internal contradictions (can a contract simultaneously require and forbid the same action under the same conditions?) and formalising the permission structures underlying access-control systems in computer security.",
-          "links": []
+          "links": [],
+          "keywords": [
+            "deontic logic von wright",
+            "obligation permission logic",
+            "legal reasoning formal logic",
+            "normative logic applications"
+          ]
         },
         {
           "id": "ap5",
@@ -1499,7 +1919,13 @@
           "tag": "APPLICATION",
           "hint": "Ordinary logical deduction only ever adds certainty — once you've proven something, no additional fact can make it stop being provable. Real-world reasoning doesn't work that way: \"birds fly\" is a reasonable default that a specific new fact (\"Tweety is a penguin\") can override, and an AI system reasoning about an incompletely known world needs a formal logic that can retract earlier conclusions gracefully as new information arrives, rather than either ignoring the new fact or breaking entirely.",
           "note": "McCarthy, J. (1980). 'Circumscription—A Form of Non-Monotonic Reasoning.' Artificial Intelligence, 13(1–2), 27–39. Became a core technique in classical symbolic AI knowledge representation for exactly this reason — real-world knowledge bases are never complete, and a reasoning system that can't revise conclusions gracefully in light of new information is of limited practical use.",
-          "links": []
+          "links": [],
+          "keywords": [
+            "non-monotonic logic ai",
+            "mccarthy circumscription",
+            "default reasoning knowledge representation",
+            "defeasible reasoning ai"
+          ]
         },
         {
           "id": "ap6",
@@ -1516,6 +1942,12 @@
           "note": "Bourbaki, N. (1939–). Éléments de mathématique. Paris: Hermann (an ongoing multi-volume series, still associated with a rotating group of contributors under the collective pseudonym). Working mathematicians rarely think in terms of raw set-theoretic definitions day to day, but the fact that the reduction is available in principle is what makes ZFC function as mathematics' common foundational language rather than merely one specialised branch among many.",
           "links": [
             "th1"
+          ],
+          "keywords": [
+            "bourbaki set-theoretic foundations",
+            "mathematics unified foundation",
+            "nicolas bourbaki collective",
+            "modern mathematics reconstruction"
           ]
         },
         {
@@ -1533,6 +1965,12 @@
           "note": "Hofstadter, D.R. (1979). Gödel, Escher, Bach: An Eternal Golden Braid. New York: Basic Books — an enormously influential popularisation, though one that professional logicians have sometimes criticised for encouraging exactly the kind of loose, over-extended analogical use of incompleteness that shows up in the Penrose-Lucas argument (see db8) and countless less rigorous invocations since.",
           "links": [
             "th4"
+          ],
+          "keywords": [
+            "gödel escher bach hofstadter",
+            "incompleteness popularization",
+            "gödel theorem misapplication",
+            "popular science logic overreach"
           ]
         }
       ]
