@@ -15,23 +15,23 @@
   "mapZoom": 2,
   "methodology": "METHODOLOGY · Every entry anchors to a landmark study, paper, clinical case or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags replication status, effect-size revisions and known controversies. Studies and effects carry a replicability badge — 🟢 robust · 🟡 nuanced or reduced · 🔴 failed or severely contested. Map pins mark the institution where the work was carried out.",
   "_meta": {
-    "total_entries": 73,
+    "total_entries": 76,
     "entry_counts": {
       "theory": 11,
-      "study": 11,
+      "study": 12,
       "effect": 9,
       "concept": 9,
-      "method": 6,
+      "method": 8,
       "figure": 13,
       "debate": 8,
       "application": 6
     },
     "max_ids": {
       "th": 11,
-      "st": 11,
+      "st": 12,
       "ef": 9,
       "co": 9,
-      "me": 6,
+      "me": 8,
       "fg": 13,
       "db": 8,
       "ap": 6
@@ -71,6 +71,7 @@
     "st9": "study · Probability Theory · The Pascal–Fermat Correspondence (1654)",
     "st10": "study · Numerical Analysis & Computational Mathematics · Courant's Variational Origins of the Finite Element Method (1943)",
     "st11": "study · Actuarial & Financial Mathematics · Halley's Life Table (1693)",
+    "st12": "study · Statistical Inference · Pearson's Principal Component Analysis (1901)",
     "ef1": "effect · Statistical Inference · Simpson's Paradox (1951)",
     "ef2": "effect · Probability Theory · The Birthday Paradox (1939)",
     "ef3": "effect · Game Theory & Decision Theory · The St. Petersburg Paradox (1738)",
@@ -95,6 +96,8 @@
     "me4": "method · Statistical Inference · The Randomized Controlled Trial in Medicine (1948)",
     "me5": "method · Operations Research · Dynamic Programming (1957)",
     "me6": "method · Numerical Analysis & Computational Mathematics · Markov Chain Monte Carlo (1970)",
+    "me7": "method · Numerical Analysis & Computational Mathematics · Runge–Kutta Methods (1901)",
+    "me8": "method · Statistical Inference · The Bootstrap Method (1979)",
     "fg1": "figure · Pioneers & Theorists · Blaise Pascal (1654)",
     "fg2": "figure · Pioneers & Theorists · Abraham de Moivre (1733)",
     "fg3": "figure · Pioneers & Theorists · Thomas Bayes (1763)",
@@ -171,7 +174,7 @@
             2.35
           ],
           "tag": "THEORY",
-          "hint": "Add together enough independent random quantities — almost regardless of their individual distributions — and the sum's distribution converges toward the familiar bell-shaped normal curve. The theorem explains why so many unrelated real-world measurements, from human heights to measurement errors, cluster into approximately the same bell shape: each is itself the sum of many small, roughly independent contributing factors.",
+          "hint": "Add together enough independent random quantities, provided each has a finite variance, and the sum's distribution converges toward the familiar bell-shaped normal curve regardless of the quantities' own individual shape. The theorem explains why so many unrelated real-world measurements, from human heights to measurement errors, cluster into approximately the same bell shape: each is itself the sum of many small, roughly independent contributing factors. Distributions without finite variance — the Cauchy distribution is the classic example — break the theorem entirely, converging instead to a different family of 'stable' distributions.",
           "note": "Laplace, P.S. (1810). 'Mémoire sur les approximations des formules qui sont fonctions de très grands nombres.' Mémoires de l'Académie des Sciences de Paris. Abraham de Moivre had proved a narrower special case for coin-flip outcomes in 1733; Laplace generalised it substantially, and the fully general modern version, covering arbitrary distributions with finite variance, was not proved until Lyapunov's 1901 work using characteristic functions.",
           "links": [
             "fg2",
@@ -591,7 +594,8 @@
             "co4",
             "db1",
             "ef8",
-            "db7"
+            "db7",
+            "me8"
           ],
           "keywords": [
             "false positive rate",
@@ -693,6 +697,30 @@
             "mortality table",
             "annuity pricing",
             "actuarial science origin"
+          ]
+        },
+        {
+          "id": "st12",
+          "group": "Statistical Inference",
+          "label": "Pearson's Principal Component Analysis",
+          "date": "1901",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Given data with many correlated measured variables, principal component analysis finds a small number of new, uncorrelated combined axes — ordered by how much of the data's total variation each one captures — letting a high-dimensional dataset be approximated, often remarkably well, by just its first few components. It became the standard first step for compressing, visualising, and denoising high-dimensional data across essentially every quantitative field.",
+          "note": "Pearson, K. (1901). 'On Lines and Planes of Closest Fit to Systems of Points in Space.' Philosophical Magazine, Series 6, 2(11), 559–572, at University College London. Harold Hotelling independently gave the technique its modern statistical formulation in 1933; computing the components is equivalent to a singular value decomposition of the data matrix, the same underlying linear-algebra machinery — eigenvectors of a large matrix — that drives Google's PageRank.",
+          "links": [
+            "fg4",
+            "ap4"
+          ],
+          "keywords": [
+            "dimensionality reduction",
+            "principal components",
+            "singular value decomposition"
           ]
         }
       ]
@@ -835,7 +863,7 @@
           "tag": "PHENOMENON",
           "repl": "robust",
           "hint": "In a game show puzzle where a contestant picks one of three doors, one hiding a prize, and the host then opens a different, empty door before offering a chance to switch — switching doubles the contestant's odds of winning, from 1/3 to 2/3, a result so counterintuitive that even many professional mathematicians initially rejected it as wrong. The trick is that the host's choice of which empty door to reveal is not random; it carries information.",
-          "note": "Selvin, S. (1975). 'A Problem in Probability.' The American Statistician, 29(1), 67, at the University of California, Berkeley. The problem became a national controversy in 1990 after Marilyn vos Savant answered a reader's version of it correctly in her Parade magazine column and received thousands of letters, many from PhD mathematicians, incorrectly insisting she was wrong; simulations and formal proofs subsequently vindicated her answer beyond dispute.",
+          "note": "Selvin, S. (1975). 'A Problem in Probability.' The American Statistician, 29(1), 67, at the University of California, Berkeley. The problem became a national controversy in 1990 after Marilyn vos Savant answered a reader's version of it correctly in her Parade magazine column and received thousands of letters, many from PhD mathematicians, incorrectly insisting she was wrong; simulations and formal proofs subsequently vindicated her answer beyond dispute. The switching advantage strictly requires a fixed host protocol — the host must know where the prize is, must always open an unchosen door showing no prize, and must always offer the switch; if the host instead opens a random door and happens to reveal no prize by luck alone (the so-called 'Monty Fall' variant), the odds are genuinely 50/50 and switching confers no advantage.",
           "links": [
             "co1"
           ],
@@ -965,7 +993,8 @@
           "hint": "Variance measures how spread out a dataset is around its mean, calculated as the average of each value's squared distance from that mean; the standard deviation, its square root, brings the measure back into the data's original units, making it directly interpretable. Karl Pearson coined the term 'standard deviation' and standardised the now-universal notation (σ) for it.",
           "note": "Pearson, K. (1893). 'Contributions to the Mathematical Theory of Evolution.' Proceedings of the Royal Society of London, 54, 329–333, at University College London. Pearson built on Gauss and Laplace's earlier, less standardised measures of dispersion; his broader statistical toolkit, including the correlation coefficient and chi-squared test, made UCL's Biometric Laboratory the era's leading centre for quantitative statistics.",
           "links": [
-            "co4"
+            "co4",
+            "me8"
           ],
           "keywords": [
             "measure of dispersion",
@@ -1292,6 +1321,51 @@
             "posterior sampling",
             "markov chain simulation"
           ]
+        },
+        {
+          "id": "me7",
+          "group": "Numerical Analysis & Computational Mathematics",
+          "label": "Runge–Kutta Methods",
+          "date": "1901",
+          "loc": "Munich, Germany",
+          "coords": [
+            48.14,
+            11.58
+          ],
+          "tag": "METHOD",
+          "hint": "To numerically approximate the solution of a differential equation step by step, the simplest method just uses the slope at the start of each step — but Runge–Kutta methods instead sample the slope at several trial points within each step and combine them into a weighted average, dramatically improving accuracy for the same step size. The classical fourth-order version is the default numerical solver taught in essentially every scientific computing course.",
+          "note": "Runge, C. (1895). 'Über die numerische Auflösung von Differentialgleichungen.' Mathematische Annalen, 46, 167–178, extended and generalised by Kutta, M.W. (1901). 'Beitrag zur näherungsweisen Integration totaler Differentialgleichungen.' Zeitschrift für Mathematik und Physik, 46, 435–453, written during Kutta's doctoral work at Munich. The method is what actually runs, in practice, whenever a system like the SIR epidemic model is simulated numerically rather than solved in closed form.",
+          "links": [
+            "ap3"
+          ],
+          "keywords": [
+            "numerical ode solver",
+            "weighted slope average",
+            "step-by-step integration"
+          ]
+        },
+        {
+          "id": "me8",
+          "group": "Statistical Inference",
+          "label": "The Bootstrap Method",
+          "date": "1979",
+          "loc": "Stanford, California",
+          "coords": [
+            37.43,
+            -122.17
+          ],
+          "tag": "METHOD",
+          "hint": "To estimate how much a statistic — a mean, a median, a correlation, almost anything — would vary if the study were repeated, the bootstrap resamples the actual observed data, with replacement, thousands of times, recalculating the statistic on each resample and using the spread of those results as a stand-in for the true sampling distribution. It works without assuming the data follows any particular textbook distribution, freeing statisticians from a whole category of parametric assumptions.",
+          "note": "Efron, B. (1979). 'Bootstrap Methods: Another Look at the Jackknife.' The Annals of Statistics, 7(1), 1–26, at Stanford University, extending and generalising the earlier 'jackknife' resampling method (Quenouille, 1949; Tukey, 1958). The bootstrap only became practical once computing power made thousands of repeated resamples-and-recalculations cheap, making it one of the first genuinely computational (rather than closed-form analytic) statistical methods to enter mainstream use.",
+          "links": [
+            "co2",
+            "st7"
+          ],
+          "keywords": [
+            "resampling with replacement",
+            "sampling distribution estimate",
+            "computational statistics"
+          ]
         }
       ]
     },
@@ -1360,7 +1434,7 @@
           ],
           "tag": "FIGURE",
           "hint": "A Presbyterian minister with no formal mathematical training beyond private study, Bayes never published the theorem now bearing his name — it was found among his papers after his death and brought to the Royal Society by his friend Richard Price, who wrote the accompanying introduction. Almost nothing else is known about how or why Bayes developed the result.",
-          "note": "Bayes, T. 'An Essay towards solving a Problem in the Doctrine of Chances' (1763, see th4). No portrait of Bayes reliably confirmed to be authentic survives, despite an image commonly circulated online and in textbooks under his name; Bayesian statistics as a broad philosophical and computational programme was not fully developed until Laplace's independent work and, much later, twentieth-century revivals by Harold Jeffreys and others.",
+          "note": "Bayes, T. 'An Essay towards solving a Problem in the Doctrine of Chances' (1763, see th4). No portrait of Bayes reliably confirmed to be authentic survives, despite an image commonly circulated online and in textbooks under his name; Bayesian statistics as a broad philosophical and computational programme was not fully developed until Laplace's independent work and, much later, twentieth-century revivals by Harold Jeffreys and others. Bayes left no explanation of his own motivation, but statistician Stephen Stigler has argued a compelling case that Bayes wrote the essay to mathematically rebut David Hume's 1748 argument that no amount of testimony could ever rationally establish a miracle, since miracles are by definition maximally improbable — Bayes's theorem shows precisely how sufficiently strong evidence can overcome an arbitrarily small prior probability. This remains a historical hypothesis, not a documented fact, since no surviving letter or note from Bayes himself confirms it.",
           "links": [
             "th4"
           ],
@@ -1384,7 +1458,8 @@
           "hint": "Called the 'French Newton' by contemporaries, Laplace generalised nearly every foundational result in early probability theory — the Central Limit Theorem, Bayesian inference, and the mathematics of celestial mechanics — while also serving as a government minister under Napoleon, who reportedly dismissed him from the post for 'bringing the spirit of the infinitely small into public administration.'",
           "note": "Laplace, P.S. Théorie analytique des probabilités (1812), incorporating his 1810 Central Limit Theorem proof (see th2). Laplace independently rediscovered and substantially extended Bayes's theorem, unaware of Bayes's earlier posthumous essay; famously, when Napoleon asked why his celestial mechanics work made no mention of God, Laplace reportedly replied that he 'had no need of that hypothesis.'",
           "links": [
-            "th2"
+            "th2",
+            "st12"
           ],
           "keywords": [
             "celestial mechanics",
@@ -1520,8 +1595,8 @@
             -0.13
           ],
           "tag": "FIGURE",
-          "hint": "Better remembered as the founder of modern nursing, Nightingale was also a pioneering statistician who invented a striking circular chart — the 'polar area diagram,' now sometimes called a coxcomb chart — specifically to show British Parliament and army officials, who she believed wouldn't read tables, that vastly more Crimean War soldiers died from preventable disease and poor sanitation than from combat wounds.",
-          "note": "Nightingale, F. (1858). Notes on Matters Affecting the Health, Efficiency, and Hospital Administration of the British Army. London: Harrison and Sons. Elected the first female member of the Royal Statistical Society in 1858, the same year this report appeared; her statistical advocacy directly drove major British Army sanitary reforms in the years that followed.",
+          "hint": "Better remembered as the founder of modern nursing, Nightingale was also a pioneering statistician who invented a striking circular chart — the 'polar area diagram,' now sometimes called a coxcomb chart — specifically to show British Parliament and army officials, who she believed wouldn't read tables, that vastly more Crimean War soldiers died from preventable disease and poor sanitation than from combat wounds. The chart was one piece of a broader campaign to standardise how hospitals recorded and reported health data in the first place.",
+          "note": "Nightingale, F. (1858). Notes on Matters Affecting the Health, Efficiency, and Hospital Administration of the British Army. London: Harrison and Sons. Elected the first female member of the Royal Statistical Society in 1858, the same year this report appeared; her statistical advocacy directly drove major British Army sanitary reforms in the years that followed. Beyond the chart itself, Nightingale pushed for standardised statistical record-keeping across British military and civilian hospitals — uniform categories and forms for recording admissions, diagnoses, and causes of death — a systematic public-health data infrastructure that mattered at least as much to her statistical legacy as any single visualisation.",
           "links": [],
           "keywords": [
             "polar area diagram",
@@ -1735,7 +1810,7 @@
           ],
           "tag": "DEBATE",
           "hint": "Classical expected utility theory averages outcomes across many hypothetical parallel copies of a decision-maker (an ensemble average); Ole Peters argues the mathematically correct question for a single real person making repeated decisions over time is instead how their own wealth grows along one single time sequence (a time average) — and that for many realistic wagers, including a variant of the St. Petersburg game, the two averages give sharply different, sometimes opposite, answers about what a rational actor should do.",
-          "note": "Peters, O. (2011). 'Optimal Leverage from Non-Ergodicity.' Quantitative Finance, 11(11), 1593–1602, at the London Mathematical Laboratory. Peters argues the ensemble-average framework has been implicitly mistaken for the time-average one throughout economics since Daniel Bernoulli's own 1738 resolution of the St. Petersburg Paradox; mainstream economists have responded with a mix of interest and skepticism about how much of standard decision theory the reframing actually overturns in practice.",
+          "note": "Peters, O. (2011). 'Optimal Leverage from Non-Ergodicity.' Quantitative Finance, 11(11), 1593–1602, at the London Mathematical Laboratory. Peters argues the ensemble-average framework has been implicitly mistaken for the time-average one throughout economics since Daniel Bernoulli's own 1738 resolution of the St. Petersburg Paradox. The framework remains a genuinely contested minority position: critics among mainstream economists and decision theorists argue it mischaracterises the von Neumann–Morgenstern axioms, which never claimed to describe repeated identical gambles specifically, and that time-averaging, whatever its mathematical elegance, still fails to capture a real decision-maker's risk preferences for the large, non-repeatable, one-off choices — a house purchase, a career change — that most consequential real-world decisions actually are.",
           "links": [
             "ef3",
             "co5"
@@ -1863,7 +1938,8 @@
           "hint": "The SIR model divides a population into three groups — Susceptible, Infected, and Recovered — and describes how people move between them over time using a small system of differential equations, capturing the core dynamics of an epidemic (including why outbreaks eventually decline even before everyone has been infected) with remarkably few assumptions. Numerically solving these equations for different starting conditions became the basic mathematical scaffolding underneath essentially all subsequent epidemic forecasting, including during COVID-19.",
           "note": "Kermack, W.O. & McKendrick, A.G. (1927). 'A Contribution to the Mathematical Theory of Epidemics.' Proceedings of the Royal Society A, 115(772), 700–721, at the Royal College of Physicians Laboratory, Edinburgh. The original model's simplifying assumptions — a well-mixed, closed population with no births, deaths, or behavioural change — have been extensively relaxed in later variants (SEIR, network-based, and agent-based models) to better match real outbreak data.",
           "links": [
-            "me6"
+            "me6",
+            "me7"
           ],
           "keywords": [
             "susceptible infected recovered",
@@ -1883,9 +1959,10 @@
           ],
           "tag": "APPLICATION",
           "hint": "PageRank ranks web pages by modelling a hypothetical user randomly clicking links forever, treating the web as a giant Markov chain, and computing each page's long-run probability of being the one that random surfer lands on at any given moment — a page linked to by many other important pages inherits importance itself, recursively. It gave Google's early search results a decisive quality advantage over competitors ranking pages mainly by simple keyword-matching frequency.",
-          "note": "Page, L. & Brin, S. (1998). 'The PageRank Citation Ranking: Bringing Order to the Web.' Stanford InfoLab Technical Report, Stanford University. The algorithm computes the dominant eigenvector of a matrix derived from the web's link structure, mathematically equivalent to finding a Markov chain's stationary distribution; modern search ranking has since layered hundreds of additional signals on top, but the core link-graph insight remains foundational.",
+          "note": "Page, L. & Brin, S. (1998). 'The PageRank Citation Ranking: Bringing Order to the Web.' Stanford InfoLab Technical Report, Stanford University. The algorithm computes the dominant eigenvector of a matrix derived from the web's link structure, mathematically equivalent to finding a Markov chain's stationary distribution. A raw link graph isn't guaranteed to have a unique stationary distribution at all — dead-end pages with no outgoing links, and closed loops with no exit, can break the chain's required irreducibility — so Page and Brin added a 'damping factor' (usually 0.85), a fixed probability that the random surfer instead jumps to a uniformly random page rather than following a link; this single addition is what actually makes the algorithm converge reliably on the real web. Modern search ranking has since layered hundreds of additional signals on top, but the core link-graph insight remains foundational.",
           "links": [
-            "co8"
+            "co8",
+            "st12"
           ],
           "keywords": [
             "random surfer model",
@@ -1956,6 +2033,11 @@
           "y": 1693,
           "l": "Halley's Life Table",
           "entryId": "st11"
+        },
+        {
+          "y": 1901,
+          "l": "Pearson's Principal Component Analysis",
+          "entryId": "st12"
         },
         {
           "y": 1925,
@@ -2132,6 +2214,11 @@
           "entryId": "me2"
         },
         {
+          "y": 1901,
+          "l": "Runge–Kutta Methods",
+          "entryId": "me7"
+        },
+        {
           "y": 1922,
           "l": "Maximum Likelihood Estimation",
           "entryId": "me3"
@@ -2155,6 +2242,11 @@
           "y": 1970,
           "l": "Markov Chain Monte Carlo",
           "entryId": "me6"
+        },
+        {
+          "y": 1979,
+          "l": "The Bootstrap Method",
+          "entryId": "me8"
         }
       ]
     },

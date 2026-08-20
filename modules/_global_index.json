@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 1383,
+    "total_entries": 1386,
     "folio_count": 18,
     "xlink_pairs": 78,
-    "keyword_terms": 5327,
+    "keyword_terms": 5336,
     "folios": [
       {
         "id": "anatomy-histology",
@@ -13,7 +13,7 @@
       {
         "id": "applied-math-statistics",
         "title": "Applied Math & Statistics",
-        "entries": 73
+        "entries": 76
       },
       {
         "id": "cell-molecular-bio",
@@ -193,6 +193,7 @@
     "applied-math-statistics::st9": "study · Probability Theory · The Pascal–Fermat Correspondence (1654)",
     "applied-math-statistics::st10": "study · Numerical Analysis & Computational Mathematics · Courant's Variational Origins of the Finite Element Method (1943)",
     "applied-math-statistics::st11": "study · Actuarial & Financial Mathematics · Halley's Life Table (1693)",
+    "applied-math-statistics::st12": "study · Statistical Inference · Pearson's Principal Component Analysis (1901)",
     "applied-math-statistics::ef1": "effect · Statistical Inference · Simpson's Paradox (1951)",
     "applied-math-statistics::ef2": "effect · Probability Theory · The Birthday Paradox (1939)",
     "applied-math-statistics::ef3": "effect · Game Theory & Decision Theory · The St. Petersburg Paradox (1738)",
@@ -217,6 +218,8 @@
     "applied-math-statistics::me4": "method · Statistical Inference · The Randomized Controlled Trial in Medicine (1948)",
     "applied-math-statistics::me5": "method · Operations Research · Dynamic Programming (1957)",
     "applied-math-statistics::me6": "method · Numerical Analysis & Computational Mathematics · Markov Chain Monte Carlo (1970)",
+    "applied-math-statistics::me7": "method · Numerical Analysis & Computational Mathematics · Runge–Kutta Methods (1901)",
+    "applied-math-statistics::me8": "method · Statistical Inference · The Bootstrap Method (1979)",
     "applied-math-statistics::fg1": "figure · Pioneers & Theorists · Blaise Pascal (1654)",
     "applied-math-statistics::fg2": "figure · Pioneers & Theorists · Abraham de Moivre (1733)",
     "applied-math-statistics::fg3": "figure · Pioneers & Theorists · Thomas Bayes (1763)",
@@ -2478,6 +2481,11 @@
       "annuity pricing",
       "actuarial science origin"
     ],
+    "applied-math-statistics::st12": [
+      "dimensionality reduction",
+      "principal components",
+      "singular value decomposition"
+    ],
     "applied-math-statistics::ef1": [
       "contingency table reversal",
       "aggregation bias",
@@ -2597,6 +2605,16 @@
       "metropolis-hastings algorithm",
       "posterior sampling",
       "markov chain simulation"
+    ],
+    "applied-math-statistics::me7": [
+      "numerical ode solver",
+      "weighted slope average",
+      "step-by-step integration"
+    ],
+    "applied-math-statistics::me8": [
+      "resampling with replacement",
+      "sampling distribution estimate",
+      "computational statistics"
     ],
     "applied-math-statistics::fg1": [
       "problem of points",
@@ -11216,6 +11234,15 @@
     "actuarial science origin": [
       "applied-math-statistics::st11"
     ],
+    "dimensionality reduction": [
+      "applied-math-statistics::st12"
+    ],
+    "principal components": [
+      "applied-math-statistics::st12"
+    ],
+    "singular value decomposition": [
+      "applied-math-statistics::st12"
+    ],
     "contingency table reversal": [
       "applied-math-statistics::ef1"
     ],
@@ -11431,6 +11458,24 @@
     ],
     "markov chain simulation": [
       "applied-math-statistics::me6"
+    ],
+    "numerical ode solver": [
+      "applied-math-statistics::me7"
+    ],
+    "weighted slope average": [
+      "applied-math-statistics::me7"
+    ],
+    "step-by-step integration": [
+      "applied-math-statistics::me7"
+    ],
+    "resampling with replacement": [
+      "applied-math-statistics::me8"
+    ],
+    "sampling distribution estimate": [
+      "applied-math-statistics::me8"
+    ],
+    "computational statistics": [
+      "applied-math-statistics::me8"
     ],
     "arithmetic triangle": [
       "applied-math-statistics::fg1"
