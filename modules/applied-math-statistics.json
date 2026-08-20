@@ -450,7 +450,171 @@
       "accent": "#117A65",
       "bg": "#F0FFF6",
       "subtitle": "Named, replicable patterns in probabilistic and statistical reasoning",
-      "entries": []
+      "entries": [
+        {
+          "id": "ef1",
+          "group": "Statistical Inference",
+          "label": "Simpson's Paradox",
+          "date": "1951",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "A trend that appears clearly in several separate groups of data can completely reverse direction when those groups are combined into one — a treatment can look worse than a placebo in every individual hospital, yet look better than the placebo once all the hospitals' data are pooled together. The reversal isn't a calculation error; it happens whenever a hidden third variable (like disease severity) is unevenly distributed across the groups being compared.",
+          "note": "Simpson, E.H. (1951). 'The Interpretation of Interaction in Contingency Tables.' Journal of the Royal Statistical Society, Series B, 13(2), 238–241. The underlying arithmetic pattern had been noted earlier by Karl Pearson (1899) and George Udny Yule (1903); Simpson's name attached to it after Colin Blyth's 1972 paper popularised the term 'Simpson's Paradox.' Correcting for it requires deliberately choosing the right level of aggregation, which is not always obvious in advance — a live methodological problem, not just a historical curiosity.",
+          "links": [
+            "co3"
+          ]
+        },
+        {
+          "id": "ef2",
+          "group": "Probability Theory",
+          "label": "The Birthday Paradox",
+          "date": "1939",
+          "loc": "Istanbul, Turkey",
+          "coords": [
+            41.01,
+            28.98
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "In a room of just 23 randomly chosen people, there is better than a 50% chance that two of them share a birthday — a result most people badly underestimate, since they intuitively (and wrongly) compare each person only to themselves rather than accounting for every possible pair among the group. With 70 people, the probability of a shared birthday exceeds 99.9%.",
+          "note": "von Mises, R. (1939). 'Über Aufteilungs- und Besetzungswahrscheinlichkeiten.' Revue de la Faculté des Sciences de l'Université d'Istanbul, 4, 145–163, written while von Mises was in exile from Nazi Germany, teaching at Istanbul University. The result is not a 'paradox' in the logical sense — nothing is actually contradictory — but a demonstration of how badly untrained intuition estimates combinatorial probabilities involving pairs rather than individuals.",
+          "links": [
+            "co1"
+          ]
+        },
+        {
+          "id": "ef3",
+          "group": "Game Theory & Decision Theory",
+          "label": "The St. Petersburg Paradox",
+          "date": "1738",
+          "loc": "St. Petersburg, Russia",
+          "coords": [
+            59.93,
+            30.34
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "A coin-flipping game keeps doubling its payout for every consecutive heads before the first tails appears, giving the game an infinite mathematical expected value — yet almost nobody would pay more than a modest, finite entry fee to play it. The mismatch between infinite expected value and obviously finite real-world willingness to pay exposed a fundamental flaw in judging decisions by expected monetary value alone.",
+          "note": "Bernoulli, D. (1738). 'Specimen theoriae novae de mensura sortis.' Commentarii Academiae Scientiarum Imperialis Petropolitanae, 5, 175–192, resolving a problem posed twenty-five years earlier by his cousin Nicolas Bernoulli. Daniel Bernoulli's resolution — that people maximise expected *utility*, not expected monetary value, and that utility grows more slowly than money (diminishing marginal utility) — is the direct ancestor of the expected utility theory formalised two centuries later by von Neumann and Morgenstern.",
+          "links": [
+            "co5"
+          ]
+        },
+        {
+          "id": "ef4",
+          "group": "Statistical Inference",
+          "label": "Regression Toward the Mean",
+          "date": "1886",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Extreme measurements — unusually tall parents, an athlete's career-best season, a factory's worst-ever defect rate — tend to be followed by less extreme ones, purely as a statistical consequence of measurement variability, without any underlying causal correction happening at all. Francis Galton discovered this studying inherited height: tall parents' children were, on average, shorter than their parents, and short parents' children taller — 'regressing' toward the population mean.",
+          "note": "Galton, F. (1886). 'Regression towards Mediocrity in Hereditary Stature.' Journal of the Anthropological Institute of Great Britain and Ireland, 15, 246–263. Widely and easily misread as implying an active causal force pulling outcomes back toward average, rather than a purely statistical artifact of imperfect correlation between two measurements — a confusion still common in sports commentary ('the sophomore slump') and business forecasting today.",
+          "links": [
+            "co3"
+          ]
+        },
+        {
+          "id": "ef5",
+          "group": "Numerical Analysis & Computational Mathematics",
+          "label": "Benford's Law",
+          "date": "1938",
+          "loc": "Schenectady, New York",
+          "coords": [
+            42.81,
+            -73.94
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "In an enormous range of real-world numerical datasets — river lengths, stock prices, physical constants, census figures — the leading digit is 1 roughly 30% of the time and 9 less than 5% of the time, rather than each digit appearing equally often as naive intuition would suggest. The pattern holds specifically for data spanning several orders of magnitude, and its violation is now used as one screening tool for detecting fabricated financial and election data.",
+          "note": "Benford, F. (1938). 'The Law of Anomalous Numbers.' Proceedings of the American Philosophical Society, 78(4), 551–572, based on an analysis of over 20,000 numbers from 20 different datasets, written while Benford worked as a physicist at General Electric, Schenectady. Simon Newcomb had noted the same pattern informally in 1881, observing that logarithm tables were more worn at the front (digit 1) than the back; a full mathematical explanation of exactly why the law holds was not given until Theodore Hill's 1995 proof.",
+          "links": [
+            "co8"
+          ]
+        },
+        {
+          "id": "ef6",
+          "group": "Probability Theory",
+          "label": "The Monty Hall Problem",
+          "date": "1975",
+          "loc": "Berkeley, California",
+          "coords": [
+            37.87,
+            -122.27
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "In a game show puzzle where a contestant picks one of three doors, one hiding a prize, and the host then opens a different, empty door before offering a chance to switch — switching doubles the contestant's odds of winning, from 1/3 to 2/3, a result so counterintuitive that even many professional mathematicians initially rejected it as wrong. The trick is that the host's choice of which empty door to reveal is not random; it carries information.",
+          "note": "Selvin, S. (1975). 'A Problem in Probability.' The American Statistician, 29(1), 67, at the University of California, Berkeley. The problem became a national controversy in 1990 after Marilyn vos Savant answered a reader's version of it correctly in her Parade magazine column and received thousands of letters, many from PhD mathematicians, incorrectly insisting she was wrong; simulations and formal proofs subsequently vindicated her answer beyond dispute.",
+          "links": [
+            "co1"
+          ]
+        },
+        {
+          "id": "ef7",
+          "group": "Numerical Analysis & Computational Mathematics",
+          "label": "The Bias–Variance Tradeoff",
+          "date": "1992",
+          "loc": "Providence, Rhode Island",
+          "coords": [
+            41.82,
+            -71.41
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "A statistical model that is too simple systematically misses real patterns in the data (high bias); a model that is too flexible instead starts fitting the random noise specific to its training data, and performs poorly on new data it hasn't seen (high variance). The two error sources trade off against each other as model complexity increases, meaning the best-performing model on new data is rarely the one that fits the training data most closely.",
+          "note": "Geman, S., Bienenstock, E. & Doursat, R. (1992). 'Neural Networks and the Bias/Variance Dilemma.' Neural Computation, 4(1), 1–58, at Brown University. The underlying decomposition of prediction error into bias and variance terms is older statistical folklore, but this paper gave it its now-standard name and rigorous treatment in the context of learning machines; the tradeoff underlies the practice of cross-validation and regularisation across all of modern statistical machine learning.",
+          "links": [
+            "co8"
+          ]
+        },
+        {
+          "id": "ef8",
+          "group": "Statistical Inference",
+          "label": "p-Hacking",
+          "date": "2011",
+          "loc": "Philadelphia, Pennsylvania",
+          "coords": [
+            39.95,
+            -75.17
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Given enough flexibility in how a dataset is analysed — which variables to include, when to stop collecting data, which outliers to exclude — a researcher can push almost any dataset past the conventional p<0.05 significance threshold purely by chance, without any real effect existing at all or any conscious intent to cheat. A landmark demonstration showed this could make listening to a song about ageing appear to make people literally younger, statistically speaking.",
+          "note": "Simmons, J.P., Nelson, L.D. & Simonsohn, U. (2011). 'False-Positive Psychology: Undisclosed Flexibility in Data Collection and Analysis Allows Presenting Anything as Significant.' Psychological Science, 22(11), 1359–1366, at the University of Pennsylvania. The paper's own demonstration deliberately p-hacked a genuinely null result into apparent significance to make the point vividly; it became one of the direct catalysts for the pre-registration movement, requiring researchers to specify their analysis plan before seeing the data.",
+          "links": [
+            "co4",
+            "st7"
+          ]
+        },
+        {
+          "id": "ef9",
+          "group": "Operations Research",
+          "label": "The Braess Paradox",
+          "date": "1968",
+          "loc": "Münster, Germany",
+          "coords": [
+            51.96,
+            7.63
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Adding a new road to a congested traffic network can, counterintuitively, make the average travel time for every driver worse rather than better, because individually rational route choices don't automatically add up to a collectively optimal outcome. The same underlying mathematics — that unconstrained individual optimisation can produce a worse group result than some constrained alternative — appears in electrical networks and internet routing, not just road traffic.",
+          "note": "Braess, D. (1968). 'Über ein Paradoxon aus der Verkehrsplanung.' Unternehmensforschung, 12(1), 258–268, at the University of Münster. Several cities have observed the effect in reverse in practice — Seoul's 2005 removal of the Cheonggyecheon elevated highway and New York's 1990 closure of 42nd Street both saw traffic conditions improve rather than worsen; the paradox is a special case of the more general gap between a Nash equilibrium and a socially optimal outcome.",
+          "links": [
+            "th8"
+          ]
+        }
+      ]
     },
     {
       "id": "concept",
@@ -460,7 +624,170 @@
       "accent": "#566573",
       "bg": "#F5F6FA",
       "subtitle": "The building blocks and vocabulary every student must command",
-      "entries": []
+      "entries": [
+        {
+          "id": "co1",
+          "group": "Probability Theory",
+          "label": "Expected Value",
+          "date": "1657",
+          "loc": "The Hague, Netherlands",
+          "coords": [
+            52.08,
+            4.31
+          ],
+          "tag": "CONCEPT",
+          "hint": "The expected value of an uncertain quantity is the probability-weighted average of all its possible outcomes — not necessarily a value the quantity could ever actually take (the expected value of a die roll is 3.5), but the long-run average if the same random process were repeated indefinitely. Christiaan Huygens gave the concept its first systematic mathematical treatment, directly building on Pascal and Fermat's earlier correspondence.",
+          "note": "Huygens, C. (1657). De ratiociniis in ludo aleae ['On Reasoning in Games of Chance']. Leiden: Elzevir, written while Huygens was working in The Hague — the first published textbook on probability, expanding on the unpublished Pascal–Fermat correspondence he had learned of during a visit to Paris.",
+          "links": [
+            "st9",
+            "ef2"
+          ]
+        },
+        {
+          "id": "co2",
+          "group": "Statistical Inference",
+          "label": "Variance & Standard Deviation",
+          "date": "1893",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "CONCEPT",
+          "hint": "Variance measures how spread out a dataset is around its mean, calculated as the average of each value's squared distance from that mean; the standard deviation, its square root, brings the measure back into the data's original units, making it directly interpretable. Karl Pearson coined the term 'standard deviation' and standardised the now-universal notation (σ) for it.",
+          "note": "Pearson, K. (1893). 'Contributions to the Mathematical Theory of Evolution.' Proceedings of the Royal Society of London, 54, 329–333, at University College London. Pearson built on Gauss and Laplace's earlier, less standardised measures of dispersion; his broader statistical toolkit, including the correlation coefficient and chi-squared test, made UCL's Biometric Laboratory the era's leading centre for quantitative statistics.",
+          "links": [
+            "co4"
+          ]
+        },
+        {
+          "id": "co3",
+          "group": "Statistical Inference",
+          "label": "Correlation vs. Causation",
+          "date": "1888",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "CONCEPT",
+          "hint": "Two variables can move together in a precise, measurable, statistically robust way without either one causing the other — both might be driven by a shared third factor, or the relationship might simply be coincidental given enough comparisons. Francis Galton gave correlation its first rigorous mathematical treatment, but the field spent the following century repeatedly relearning that a strong correlation coefficient, on its own, never distinguishes between these possibilities.",
+          "note": "Galton, F. (1888). 'Co-relations and their Measurement, Chiefly from Anthropometric Data.' Proceedings of the Royal Society of London, 45, 135–145. Karl Pearson formalised Galton's idea into the modern correlation coefficient (the 'Pearson r') in 1896; distinguishing genuine causal relationships from mere correlation generally requires either a randomised controlled experiment or careful causal-inference methods well beyond the correlation coefficient itself.",
+          "links": [
+            "ef1",
+            "ef4"
+          ]
+        },
+        {
+          "id": "co4",
+          "group": "Statistical Inference",
+          "label": "Statistical Significance & the p-value",
+          "date": "1900",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "CONCEPT",
+          "hint": "A p-value is the probability of observing data at least as extreme as what was actually measured, if the null hypothesis (typically, 'there is no real effect') were in fact true — it is not, despite near-universal misinterpretation, the probability that the null hypothesis itself is true. Karl Pearson's chi-squared goodness-of-fit test was among the first tools to systematically generate such probabilities for real data.",
+          "note": "Pearson, K. (1900). 'On the Criterion that a Given System of Deviations from the Probable in the Case of a Correlated System of Variables is Such that It Can be Reasonably Supposed to Have Arisen from Random Sampling.' Philosophical Magazine, Series 5, 50(302), 157–175, at University College London. Ronald Fisher later popularised the p-value as a general-purpose significance measure across all of experimental statistics (see st1); the widespread conflation of 'statistically significant' with 'true, important, or large' remains one of the most persistent misunderstandings in applied statistics.",
+          "links": [
+            "th5",
+            "st7",
+            "ef8"
+          ]
+        },
+        {
+          "id": "co5",
+          "group": "Game Theory & Decision Theory",
+          "label": "Utility Function",
+          "date": "1944",
+          "loc": "Princeton, New Jersey",
+          "coords": [
+            40.35,
+            -74.66
+          ],
+          "tag": "CONCEPT",
+          "hint": "A utility function converts outcomes — money, goods, risk, time — into a single numerical scale representing how much a decision-maker actually values them, allowing decisions under uncertainty to be modelled as maximising the expected value of utility rather than of the raw outcome itself. The idea traces to Daniel Bernoulli's resolution of the St. Petersburg Paradox, but was not placed on fully rigorous axiomatic footing until two centuries later.",
+          "note": "von Neumann, J. & Morgenstern, O. (1944). Theory of Games and Economic Behavior, Appendix, Princeton University Press — the first derivation of a utility function from a small set of explicit rationality axioms (completeness, transitivity, continuity, and independence), rather than simply assumed to exist. Behavioural economists, notably Kahneman and Tversky's Prospect Theory (1979), later documented systematic ways real human choices violate these axioms.",
+          "links": [
+            "ef3",
+            "st3"
+          ]
+        },
+        {
+          "id": "co6",
+          "group": "Optimization",
+          "label": "Convexity",
+          "date": "1953",
+          "loc": "Princeton, New Jersey",
+          "coords": [
+            40.35,
+            -74.66
+          ],
+          "tag": "CONCEPT",
+          "hint": "A set is convex if the straight line between any two of its points stays entirely inside it, and a function is convex if the region above its graph has this same property — a deceptively simple geometric condition that, when it holds, guarantees any locally optimal solution to an optimisation problem is automatically the globally optimal one too. This single property is what separates optimisation problems that are reliably solvable from those that are, in the worst case, computationally intractable.",
+          "note": "Fenchel, W. (1953). Convex Cones, Sets, and Functions. Lecture notes, Princeton University — the first systematic treatment of convex analysis as a unified subject. Convexity underlies why linear programming (see th6) is always efficiently solvable, while general non-convex optimisation, including training most large neural networks, offers no comparable global-optimum guarantee at all.",
+          "links": [
+            "th6"
+          ]
+        },
+        {
+          "id": "co7",
+          "group": "Probability Theory",
+          "label": "Chebyshev's Inequality",
+          "date": "1867",
+          "loc": "St. Petersburg, Russia",
+          "coords": [
+            59.93,
+            30.34
+          ],
+          "tag": "CONCEPT",
+          "hint": "For any probability distribution with a finite variance, no matter its shape, Chebyshev's inequality guarantees that the probability of a random outcome falling far from its mean is bounded — at most 1/k² of outcomes can lie more than k standard deviations away, regardless of whether the distribution is bell-shaped, skewed, or something stranger entirely. It is one of the few genuinely distribution-free tools in all of probability theory.",
+          "note": "Chebyshev, P.L. (1867). 'Des valeurs moyennes.' Journal de Mathématiques Pures et Appliquées, 2nd series, 12, 177–184, written at St. Petersburg University. A weaker special case had been proved by Bienaymé in 1853; the inequality's bound is loose for well-behaved distributions like the normal curve (where deviations beyond a few standard deviations are actually far rarer than the bound suggests) but remains the only guarantee available when nothing at all is known about a distribution's shape.",
+          "links": [
+            "th3"
+          ]
+        },
+        {
+          "id": "co8",
+          "group": "Numerical Analysis & Computational Mathematics",
+          "label": "Markov Property",
+          "date": "1906",
+          "loc": "St. Petersburg, Russia",
+          "coords": [
+            59.93,
+            30.34
+          ],
+          "tag": "CONCEPT",
+          "hint": "A random process has the Markov property if its future depends only on its present state, not on the specific sequence of events that led there — a chess position, not the game's move history, is all that matters for predicting what happens next. Andrei Markov proved the first results about such 'memoryless' chains specifically to demonstrate that the law of large numbers doesn't require full statistical independence, only this much weaker condition.",
+          "note": "Markov, A.A. (1906). 'Extension of the Law of Large Numbers to Dependent Events' (Russian), Bulletin of the Physico-Mathematical Society of Kazan University, 15, 135–156, written at St. Petersburg University. Markov reportedly developed the theory partly to win an argument with fellow mathematician Pavel Nekrasov, who had claimed independence was necessary for the law of large numbers to hold; Markov chains underpin the Metropolis Monte Carlo method (see st6) and Google's PageRank algorithm.",
+          "links": [
+            "ef5",
+            "ef7"
+          ]
+        },
+        {
+          "id": "co9",
+          "group": "Optimization",
+          "label": "The Traveling Salesman Problem",
+          "date": "1930",
+          "loc": "Vienna, Austria",
+          "coords": [
+            48.21,
+            16.37
+          ],
+          "tag": "CONCEPT",
+          "hint": "Given a list of cities and the distances between them, find the shortest possible route that visits every city exactly once and returns to the start — a problem simple enough to state to a child, yet whose difficulty explodes so fast with the number of cities that no known algorithm can solve large instances by checking every possible route. It became one of the canonical examples used to define an entire class of computationally hard combinatorial optimisation problems.",
+          "note": "Menger, K. (1930). Presented as 'Das Botenproblem' ['The Messenger Problem'] at his Vienna mathematical colloquium, published in Ergebnisse eines Mathematischen Kolloquiums (1932). Hassler Whitney independently popularised the problem under its now-standard name at Princeton in the 1930s; the problem's formal classification as NP-hard — among the hardest problems in its computational complexity class — is covered in the computer-science folio.",
+          "links": [
+            "th6"
+          ],
+          "xlinks": [
+            "computer-science::db1"
+          ]
+        }
+      ]
     },
     {
       "id": "method",
