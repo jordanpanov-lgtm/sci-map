@@ -1151,7 +1151,154 @@
       "accent": "#CA6F1E",
       "bg": "#FDF5EC",
       "subtitle": "Live controversies — where the field is actively contesting the evidence",
-      "entries": []
+      "entries": [
+        {
+          "id": "db1",
+          "group": "Statistical Inference",
+          "label": "Should p<0.05 Be Abandoned?",
+          "date": "2016",
+          "loc": "Alexandria, Virginia",
+          "coords": [
+            38.8,
+            -77.05
+          ],
+          "tag": "DEBATE",
+          "hint": "The conventional 0.05 significance threshold, originally offered by Fisher as a rough convention rather than a firm rule, has become a rigid pass/fail line that critics argue encourages exactly the p-hacking and selective reporting behind the replication crisis. Proponents of keeping some fixed threshold counter that abandoning it entirely, without a workable replacement, would simply remove the one piece of friction currently discouraging researchers from reporting any result as meaningful.",
+          "note": "American Statistical Association (2016). 'Statement on Statistical Significance and P-Values.' The American Statistician, 70(2), 129–133, Alexandria, Virginia — the ASA's first-ever formal statement on a statistical practice question. A 2019 follow-up special issue and an open letter signed by over 800 scientists went further, calling to 'retire statistical significance' altogether; no consensus alternative (confidence intervals, Bayes factors, effect-size reporting) has been adopted as a full replacement.",
+          "links": [
+            "co4",
+            "st1"
+          ]
+        },
+        {
+          "id": "db2",
+          "group": "Statistical Inference",
+          "label": "Frequentist vs. Bayesian Statistics",
+          "date": "1939",
+          "loc": "Cambridge, England",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "tag": "DEBATE",
+          "hint": "Frequentist statistics defines probability as a long-run frequency across repeated trials and treats unknown parameters as fixed but unknown; Bayesian statistics treats probability as a degree of belief that can attach to a parameter itself, updated via Bayes' theorem as evidence arrives. The two schools can give different answers to the same question and, more fundamentally, disagree about what a probability statement about a hypothesis even means.",
+          "note": "Jeffreys, H. (1939). Theory of Probability. Oxford: Clarendon Press, written at the University of Cambridge as an explicit Bayesian countermanifesto to Fisher and Neyman–Pearson's frequentist dominance of the field. Computational advances (see me6) made full Bayesian analysis practical outside toy problems only from the 1990s onward; most modern statisticians now use both frameworks situationally rather than treating the choice as a fixed ideological commitment.",
+          "links": [
+            "th4",
+            "th5"
+          ]
+        },
+        {
+          "id": "db3",
+          "group": "Game Theory & Decision Theory",
+          "label": "Does Nash Equilibrium Predict Real Behavior?",
+          "date": "1979",
+          "loc": "Stanford, California",
+          "coords": [
+            37.43,
+            -122.17
+          ],
+          "tag": "DEBATE",
+          "hint": "Nash equilibrium assumes players are perfectly rational and correctly anticipate each other's strategies, but repeated laboratory experiments — starting with Flood and Dresher's own Prisoner's Dilemma study — found real human choices systematically deviating from the theory's predictions, cooperating more, and reasoning less exhaustively, than pure rational-actor models expect. Behavioural economists argue this makes classical game theory a poor predictive tool for real decisions; defenders argue it remains the right normative benchmark even when descriptively imperfect.",
+          "note": "Kahneman, D. & Tversky, A. (1979). 'Prospect Theory: An Analysis of Decision under Risk.' Econometrica, 47(2), 263–291, written while Tversky was at Stanford University. Prospect Theory's empirically documented loss aversion and probability-weighting distortions directly contradict the expected-utility axioms underlying Nash equilibrium and von Neumann–Morgenstern rationality; Kahneman received the 2002 Nobel Memorial Prize for this work (Tversky had died in 1996 and was ineligible).",
+          "links": [
+            "th8",
+            "st4",
+            "co5"
+          ]
+        },
+        {
+          "id": "db4",
+          "group": "Actuarial & Financial Mathematics",
+          "label": "Is the Efficient Market Hypothesis True?",
+          "date": "1965",
+          "loc": "Chicago, Illinois",
+          "coords": [
+            41.88,
+            -87.63
+          ],
+          "tag": "DEBATE",
+          "hint": "The Efficient Market Hypothesis claims that asset prices already fully reflect all publicly available information, meaning no investor can reliably beat the market's average return except by luck or by taking on extra risk. Behavioural finance researchers counter with well-documented, persistent pricing anomalies — momentum effects, bubbles, systematic overreaction — that a fully efficient market should not allow to survive competition from rational arbitrageurs.",
+          "note": "Fama, E.F. (1965). 'The Behavior of Stock-Market Prices.' Journal of Business, 38(1), 34–105, at the University of Chicago, formalised further in Fama's 1970 review paper defining the weak, semi-strong and strong forms of efficiency. Fama shared the 2013 Nobel Memorial Prize alongside Robert Shiller, a leading empirical critic of market efficiency — an unusual case of the prize being split between the architect of a theory and one of its most prominent challengers.",
+          "links": [
+            "th10",
+            "th11"
+          ]
+        },
+        {
+          "id": "db5",
+          "group": "Actuarial & Financial Mathematics",
+          "label": "Did Quantitative Risk Models Cause the 2008 Financial Crisis?",
+          "date": "2008",
+          "loc": "New York, New York",
+          "coords": [
+            40.71,
+            -74.01
+          ],
+          "tag": "DEBATE",
+          "hint": "A statistical formula for estimating the correlated default risk of bundled mortgage securities became embedded in trillions of dollars of Wall Street risk models, based on a mathematically convenient assumption about how those risks moved together that turned out to fail catastrophically exactly when it mattered most, during the 2008 crash. Whether the failure reflects a fundamental flaw in quantitative risk modelling itself, or simply reckless misuse of a model well beyond the assumptions it was built on, remains contested among economists and mathematicians alike.",
+          "note": "Li, D.X. (2000). 'On Default Correlation: A Copula Function Approach.' Journal of Fixed Income, 9(4), 43–54. The formula's real-world failure was widely publicised in Salmon, F. (2009). 'Recipe for Disaster: The Formula That Killed Wall Street.' Wired, 17(3) — a title Li himself has publicly disputed as overstating a single model's role in a much broader systemic failure involving underwriting standards, leverage, and regulatory gaps.",
+          "links": [
+            "th11"
+          ]
+        },
+        {
+          "id": "db6",
+          "group": "Game Theory & Decision Theory",
+          "label": "Ergodicity Economics: Should Expected Utility Theory Be Replaced?",
+          "date": "2011",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "DEBATE",
+          "hint": "Classical expected utility theory averages outcomes across many hypothetical parallel copies of a decision-maker (an ensemble average); Ole Peters argues the mathematically correct question for a single real person making repeated decisions over time is instead how their own wealth grows along one single time sequence (a time average) — and that for many realistic wagers, including a variant of the St. Petersburg game, the two averages give sharply different, sometimes opposite, answers about what a rational actor should do.",
+          "note": "Peters, O. (2011). 'Optimal Leverage from Non-Ergodicity.' Quantitative Finance, 11(11), 1593–1602, at the London Mathematical Laboratory. Peters argues the ensemble-average framework has been implicitly mistaken for the time-average one throughout economics since Daniel Bernoulli's own 1738 resolution of the St. Petersburg Paradox; mainstream economists have responded with a mix of interest and skepticism about how much of standard decision theory the reframing actually overturns in practice.",
+          "links": [
+            "ef3",
+            "co5"
+          ]
+        },
+        {
+          "id": "db7",
+          "group": "Statistical Inference",
+          "label": "The Replication Crisis",
+          "date": "2015",
+          "loc": "Charlottesville, Virginia",
+          "coords": [
+            38.03,
+            -78.48
+          ],
+          "tag": "DEBATE",
+          "hint": "A large-scale, pre-registered effort to redo 100 published psychology experiments found that only about 36% produced a statistically significant result the second time, even using the original materials and larger sample sizes — a result that ignited a broader crisis of confidence across experimental science generally, not psychology alone. Debate continues over how much of the gap reflects genuinely false original findings versus legitimate differences in samples, settings, and unavoidable statistical noise between the original and replication studies.",
+          "note": "Open Science Collaboration (2015). 'Estimating the Reproducibility of Psychological Science.' Science, 349(6251), aac4716, coordinated by the Center for Open Science, Charlottesville, Virginia. Similar large-scale replication concerns have since been documented in cancer biology, economics, and machine learning research; pre-registration, larger standard sample sizes, and open data-sharing requirements are the field's main proposed structural fixes, though adoption remains uneven across disciplines.",
+          "links": [
+            "st7",
+            "ef8"
+          ]
+        },
+        {
+          "id": "db8",
+          "group": "Optimization",
+          "label": "Can NP-Hard Optimization Problems Be Solved Well Enough in Practice?",
+          "date": "2006",
+          "loc": "Atlanta, Georgia",
+          "coords": [
+            33.75,
+            -84.39
+          ],
+          "tag": "DEBATE",
+          "hint": "The travelling salesman problem is NP-hard, meaning no known algorithm solves every possible instance efficiently as the number of cities grows — yet sophisticated modern solvers have proven the exact optimal route for real instances with tens of thousands of cities, a scale naive worst-case theory would suggest should be hopeless. Whether this genuinely closes the gap between theoretical intractability and practical usability, or whether it merely reflects that real-world instances are unrepresentatively easy compared to adversarial worst cases, remains an open question with no settled answer.",
+          "note": "Applegate, D., Bixby, R., Chvátal, V. & Cook, W. (2006). Solved an 85,900-city instance to proven optimality using the Concorde TSP solver, at Georgia Institute of Technology, taking roughly 136 CPU-years of computation distributed across many processors. Concorde and similar branch-and-cut solvers combine exact optimisation with problem-specific heuristics; the underlying NP-hardness classification itself is covered in the computer-science folio's P vs NP debate.",
+          "links": [
+            "co9"
+          ],
+          "xlinks": [
+            "computer-science::db1"
+          ]
+        }
+      ]
     },
     {
       "id": "application",
@@ -1161,7 +1308,110 @@
       "accent": "#2E86C1",
       "bg": "#EBF5FB",
       "subtitle": "Where the science leaves the lab",
-      "entries": []
+      "entries": [
+        {
+          "id": "ap1",
+          "group": "Actuarial & Financial Mathematics",
+          "label": "The Equitable Life Assurance Society",
+          "date": "1762",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "APPLICATION",
+          "hint": "The Equitable Life Assurance Society was the first insurance company to set its life-insurance premiums using an actual age-based mortality table and compound interest calculations, rather than flat, age-blind rates that had previously made insurance either unprofitable for insurers or badly overpriced for younger customers. It turned Halley's and de Moivre's earlier purely mathematical mortality work into a commercially viable, mathematically sound industry for the first time.",
+          "note": "Founded 1762, London, with actuarial calculations by James Dodson and, after his death, William Morgan, built on the mortality-table methods of Halley (see st11) and de Moivre. The company's scientifically-priced approach proved so much more sustainable than its flat-rate competitors that it became the template the entire life insurance industry converged on over the following century.",
+          "links": [
+            "st11"
+          ]
+        },
+        {
+          "id": "ap2",
+          "group": "Operations Research",
+          "label": "Wald's Aircraft Survivorship Bias Correction",
+          "date": "1943",
+          "loc": "New York, New York",
+          "coords": [
+            40.71,
+            -74.01
+          ],
+          "tag": "APPLICATION",
+          "hint": "The US military wanted to know where to add armor to bombers, based on a survey of bullet-hole locations on aircraft that had returned from missions — the obvious answer was to reinforce the areas hit most often. Abraham Wald pointed out this reasoning was backward: the planes in the survey had survived their damage, so the truly dangerous hit locations were the ones missing entirely from the data, on the planes that never made it back, and armor belonged exactly where the surviving planes showed the fewest hits.",
+          "note": "Wald, A. (1943). Memoranda for the Statistical Research Group, Columbia University, New York, prepared for the US Navy's Center for Naval Analyses (unpublished at the time; later collected and republished in Wald's Selected Papers, 1980). Wald's reasoning is now the canonical textbook example of survivorship bias, a systematic error from analysing only the surviving members of a population while ignoring those that were selected out.",
+          "links": [
+            "th9"
+          ]
+        },
+        {
+          "id": "ap3",
+          "group": "Numerical Analysis & Computational Mathematics",
+          "label": "Epidemiological SIR Modeling",
+          "date": "1927",
+          "loc": "Edinburgh, Scotland",
+          "coords": [
+            55.95,
+            -3.19
+          ],
+          "tag": "APPLICATION",
+          "hint": "The SIR model divides a population into three groups — Susceptible, Infected, and Recovered — and describes how people move between them over time using a small system of differential equations, capturing the core dynamics of an epidemic (including why outbreaks eventually decline even before everyone has been infected) with remarkably few assumptions. Numerically solving these equations for different starting conditions became the basic mathematical scaffolding underneath essentially all subsequent epidemic forecasting, including during COVID-19.",
+          "note": "Kermack, W.O. & McKendrick, A.G. (1927). 'A Contribution to the Mathematical Theory of Epidemics.' Proceedings of the Royal Society A, 115(772), 700–721, at the Royal College of Physicians Laboratory, Edinburgh. The original model's simplifying assumptions — a well-mixed, closed population with no births, deaths, or behavioural change — have been extensively relaxed in later variants (SEIR, network-based, and agent-based models) to better match real outbreak data.",
+          "links": [
+            "me6"
+          ]
+        },
+        {
+          "id": "ap4",
+          "group": "Probability Theory",
+          "label": "Google's PageRank Algorithm",
+          "date": "1998",
+          "loc": "Stanford, California",
+          "coords": [
+            37.43,
+            -122.17
+          ],
+          "tag": "APPLICATION",
+          "hint": "PageRank ranks web pages by modelling a hypothetical user randomly clicking links forever, treating the web as a giant Markov chain, and computing each page's long-run probability of being the one that random surfer lands on at any given moment — a page linked to by many other important pages inherits importance itself, recursively. It gave Google's early search results a decisive quality advantage over competitors ranking pages mainly by simple keyword-matching frequency.",
+          "note": "Page, L. & Brin, S. (1998). 'The PageRank Citation Ranking: Bringing Order to the Web.' Stanford InfoLab Technical Report, Stanford University. The algorithm computes the dominant eigenvector of a matrix derived from the web's link structure, mathematically equivalent to finding a Markov chain's stationary distribution; modern search ranking has since layered hundreds of additional signals on top, but the core link-graph insight remains foundational.",
+          "links": [
+            "co8"
+          ]
+        },
+        {
+          "id": "ap5",
+          "group": "Actuarial & Financial Mathematics",
+          "label": "Quantitative Trading and the First Statistical Arbitrage Funds",
+          "date": "1969",
+          "loc": "Newport Beach, California",
+          "coords": [
+            33.62,
+            -117.93
+          ],
+          "tag": "APPLICATION",
+          "hint": "Edward Thorp, having already used probability theory to beat casino blackjack, applied the same rigorous, edge-calculating mindset to financial markets, using mathematical mispricing models and the Kelly Criterion for position-sizing to run what is generally credited as the first fully quantitative hedge fund. It demonstrated that a fund could generate consistent returns from mathematical modelling of price relationships alone, without any traditional fundamental analysis of the underlying businesses.",
+          "note": "Thorp, E.O. & Kassouf, S.T. (1967). Beat the Market: A Scientific Stock Market System. New York: Random House, followed by the founding of Princeton-Newport Partners in 1969, Newport Beach, California. The fund reportedly achieved a roughly 15% annualised return with far lower volatility than the broader stock market over nearly two decades, directly inspiring the later, much larger wave of quantitative hedge funds including Renaissance Technologies.",
+          "links": [
+            "st5"
+          ]
+        },
+        {
+          "id": "ap6",
+          "group": "Statistical Inference",
+          "label": "A/B Testing at Web Scale",
+          "date": "2007",
+          "loc": "Redmond, Washington",
+          "coords": [
+            47.67,
+            -122.12
+          ],
+          "tag": "APPLICATION",
+          "hint": "Large technology companies run randomised controlled trials continuously and at massive scale on their live products — showing one version of a webpage or feature to one random slice of users and a different version to another, then measuring which version performs better on a specific metric — turning Fisher's century-old agricultural experimental design principles into millions of simultaneous, automated, real-time business experiments.",
+          "note": "Kohavi, R., Henne, R.M. & Sommerfield, D. (2007). 'Practical Guide to Controlled Experiments on the Web: Listen to Your Customers Not to the HiPPO.' Proceedings of KDD 2007, Microsoft Research, Redmond, Washington. Kohavi's subsequent work publicised numerous cases of small, seemingly trivial changes producing large, statistically robust revenue effects at scale — findings that are only trustworthy given a properly randomised, adequately powered experimental design, exactly the standard Fisher and Bradford Hill established decades earlier.",
+          "links": [
+            "me4"
+          ]
+        }
+      ]
     }
   ],
   "timeline": [
