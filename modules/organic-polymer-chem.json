@@ -15,23 +15,23 @@
   "mapZoom": 3,
   "methodology": "METHODOLOGY · Every entry anchors to a landmark study, paper, clinical case or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags replication status, effect-size revisions and known controversies. Studies and effects carry a replicability badge — 🟢 robust · 🟡 nuanced or reduced · 🔴 failed or severely contested. Map pins mark the institution where the work was carried out.",
   "_meta": {
-    "total_entries": 73,
+    "total_entries": 77,
     "entry_counts": {
-      "theory": 11,
-      "study": 11,
+      "theory": 12,
+      "study": 12,
       "effect": 9,
       "concept": 9,
-      "method": 6,
+      "method": 8,
       "figure": 13,
       "debate": 8,
       "application": 6
     },
     "max_ids": {
-      "th": 11,
-      "st": 11,
+      "th": 12,
+      "st": 12,
       "ef": 9,
       "co": 9,
-      "me": 6,
+      "me": 8,
       "fg": 13,
       "db": 8,
       "ap": 6
@@ -60,6 +60,7 @@
     "th9": "theory · Polymer Chemistry · Free-Radical Chain Polymerization Theory (1937)",
     "th10": "theory · Polymer Chemistry · Carothers' Condensation Polymerization Theory (1929)",
     "th11": "theory · Spectroscopic Structure Determination · The Theory of Chemical Shielding (1950)",
+    "th12": "theory · Reaction Mechanisms · Frontier Molecular Orbital Theory (1952)",
     "st1": "study · Carbon Bonding & Molecular Structure · Wöhler's Synthesis of Urea (1828)",
     "st2": "study · Hydrocarbons & Aromaticity · Kekulé's Benzene Structure (1865)",
     "st3": "study · Stereochemistry · Pasteur's Separation of Tartaric Acid Crystals (1848)",
@@ -71,6 +72,7 @@
     "st9": "study · Polymer Chemistry · Ziegler-Natta Catalysis (1953)",
     "st10": "study · Spectroscopic Structure Determination · Bloch and Purcell's Discovery of Nuclear Magnetic Resonance (1946)",
     "st11": "study · Spectroscopic Structure Determination · The Discovery of Chemical Shift (1951)",
+    "st12": "study · Reaction Mechanisms · Olah's Direct Observation of Carbocations (1962)",
     "ef1": "effect · Polymer Chemistry · Vulcanization of Rubber (1839)",
     "ef2": "effect · Stereochemistry · Mutarotation (1846)",
     "ef3": "effect · Reaction Mechanisms · Keto-Enol Tautomerism (1885)",
@@ -95,6 +97,8 @@
     "me4": "method · Spectroscopic Structure Determination · Infrared Spectra-Structure Correlation (1950)",
     "me5": "method · Spectroscopic Structure Determination · Mass Spectral Fragmentation Analysis (1956)",
     "me6": "method · Organic Synthesis & Named Reactions · Suzuki-Miyaura Cross-Coupling (1979)",
+    "me7": "method · Organic Synthesis & Named Reactions · Olefin Metathesis (1971)",
+    "me8": "method · Spectroscopic Structure Determination · 2D NMR Spectroscopy (1976)",
     "fg1": "figure · Pioneers & Theorists · Friedrich Wöhler (1828)",
     "fg2": "figure · Pioneers & Theorists · August Kekulé (1865)",
     "fg3": "figure · Pioneers & Theorists · Louis Pasteur (1848)",
@@ -249,9 +253,10 @@
           ],
           "tag": "THEORY",
           "hint": "When a molecule like hydrogen bromide adds across an unsymmetrical carbon-carbon double bond, the hydrogen atom preferentially attaches to the carbon that already has more hydrogens attached, while the other, larger group attaches to the carbon with fewer — a simple positional rule of thumb that turned out to reflect a deeper truth about which of two possible reaction intermediates forms more easily and stably.",
-          "note": "Markovnikov, V.V. (1870). 'Ueber die Abhängigkeit der verschiedenen Vertretbarkeit des Radicalwasserstoffs in den isomeren Buttersäuren.' Doctoral dissertation, Moscow University. The rule's underlying mechanistic explanation — that the reaction proceeds through whichever possible carbocation intermediate is more stable — was only properly understood decades later, once the electronic theory of organic reaction mechanisms was developed in the 1920s and 1930s (see th6).",
+          "note": "Markovnikov, V.V. (1870). 'Ueber die Abhängigkeit der verschiedenen Vertretbarkeit des Radicalwasserstoffs in den isomeren Buttersäuren.' Doctoral dissertation, Moscow University. The rule's underlying mechanistic explanation — that the reaction proceeds through whichever possible carbocation intermediate is more stable, stabilised by the electron-donating hyperconjugation and inductive effects of neighbouring alkyl groups — was only properly understood decades later, once the electronic theory of organic reaction mechanisms was developed in the 1920s and 1930s (see th6).",
           "links": [
-            "th6"
+            "th6",
+            "st12"
           ],
           "keywords": [
             "addition regiochemistry",
@@ -277,7 +282,8 @@
             "co5",
             "co6",
             "ef8",
-            "db7"
+            "db7",
+            "st12"
           ],
           "keywords": [
             "concerted versus stepwise substitution",
@@ -301,7 +307,8 @@
           "links": [
             "th8",
             "fg11",
-            "st6"
+            "st6",
+            "th12"
           ],
           "keywords": [
             "orbital symmetry conservation",
@@ -408,6 +415,29 @@
             "electron cloud shielding",
             "nuclear resonance frequency shift",
             "quantum shielding calculation"
+          ]
+        },
+        {
+          "id": "th12",
+          "group": "Reaction Mechanisms",
+          "label": "Frontier Molecular Orbital Theory",
+          "date": "1952",
+          "loc": "Kyoto, Japan",
+          "coords": [
+            35.01,
+            135.77
+          ],
+          "tag": "THEORY",
+          "hint": "Fukui proposed that a molecule's reactivity is overwhelmingly governed by just two orbitals — its highest occupied molecular orbital (HOMO) and lowest unoccupied molecular orbital (LUMO) — with a reaction occurring where electron density flows from one molecule's HOMO into the other's LUMO, a dramatically simplified lens that predicts everything from ordinary nucleophile-electrophile reactivity to which pericyclic reactions proceed thermally versus photochemically.",
+          "note": "Fukui, K. (1952). 'A Molecular Orbital Theory of Reactivity in Aromatic Hydrocarbons.' Journal of Chemical Physics, 20(4), 722–725, at Kyoto University. Fukui shared the 1981 Nobel Prize in Chemistry with Roald Hoffmann, who had independently reached closely related conclusions through the orbital-symmetry approach that became the Woodward-Hoffmann rules (see th7).",
+          "links": [
+            "th7",
+            "co5"
+          ],
+          "keywords": [
+            "homo lumo interaction",
+            "frontier orbital reactivity",
+            "electron flow prediction"
           ]
         }
       ]
@@ -606,7 +636,7 @@
           ],
           "tag": "DISCOVERY",
           "repl": "robust",
-          "hint": "Wallace Carothers's research group at DuPont applied condensation polymerisation theory (see th10) deliberately, rather than by accident, to synthesise nylon — the first fully synthetic fibre strong and cheap enough to compete directly with natural silk, launching an entire industry built on designing polymers to order rather than discovering them by chance.",
+          "hint": "Wallace Carothers's research group at DuPont applied condensation polymerisation theory (see th10) deliberately, rather than by accident, to synthesise nylon — a polyamide whose repeating amide linkage is chemically identical to the peptide bond joining amino acids in natural silk protein, which is exactly why Carothers's rational, structure-first design succeeded in producing the first fully synthetic fibre strong and cheap enough to compete directly with the real thing.",
           "note": "Carothers, W.H. (1935). Internal DuPont research reports; first public unveiling at the 1939 New York World's Fair, three years after Carothers's own death. Nylon stockings, launched commercially in 1940, sold an estimated 64 million pairs within the first year alone, and wartime nylon shortages during the Second World War (the material was redirected to parachutes and other military uses) triggered visible public 'nylon riots' at stores in several American cities.",
           "links": [
             "th10",
@@ -662,7 +692,8 @@
             "th11",
             "st11",
             "me5",
-            "db8"
+            "db8",
+            "me8"
           ],
           "keywords": [
             "nuclear induction discovery",
@@ -688,13 +719,39 @@
             "th11",
             "st10",
             "co8",
-            "db8"
+            "db8",
+            "me8"
           ],
           "keywords": [
             "ethanol proton peaks",
             "chemical environment resonance",
             "structural fingerprint origin"
           ]
+        },
+        {
+          "id": "st12",
+          "group": "Reaction Mechanisms",
+          "label": "Olah's Direct Observation of Carbocations",
+          "date": "1962",
+          "loc": "Sarnia, Ontario, Canada",
+          "coords": [
+            42.98,
+            -82.41
+          ],
+          "tag": "DISCOVERY",
+          "hint": "Chemists had inferred that carbocations exist as short-lived reaction intermediates for decades — explaining Markovnikov's rule, SN1 kinetics, and the debated 'non-classical' bridged structures — without ever seeing one directly; dissolving simple alkyl halides in extraordinarily strong 'superacid' media let Olah slow their normal, near-instantaneous decay long enough to observe the intact cation directly by NMR.",
+          "note": "Olah, G.A. (1962–1964). Early stable-carbocation NMR studies, begun at Dow Chemical Company of Canada, Sarnia, Ontario, and extended substantially after 1965 at Case Western Reserve University, Cleveland. The work won Olah the 1994 Nobel Prize in Chemistry 'for his contribution to carbocation chemistry,' giving direct experimental confirmation to a species organic chemists had argued over since Markovnikov's rule and SN1/SN2 mechanistic theory (see th5, th6, db7).",
+          "links": [
+            "th5",
+            "th6",
+            "db7"
+          ],
+          "keywords": [
+            "superacid stabilized cation",
+            "direct nmr cation observation",
+            "inferred intermediate confirmed"
+          ],
+          "repl": "robust"
         }
       ]
     },
@@ -1039,7 +1096,8 @@
           "note": "Ingold, C.K. (1933). 'Significance of Tautomerism and of the Reactions of Aromatic Compounds in the Electronic Theory of Organic Reactions.' Journal of the Chemical Society, 1120–1127, at University College London, introducing the terms as part of the broader electronic reaction-mechanism programme that also produced SN1/SN2 theory (see th6). The terms replaced an earlier, less precise vocabulary of 'cationoid' and 'anionoid' reagents that Ingold himself had used in slightly earlier papers.",
           "links": [
             "th6",
-            "ef3"
+            "ef3",
+            "th12"
           ],
           "keywords": [
             "electron-rich attacker",
@@ -1238,7 +1296,8 @@
           "hint": "Different functional groups absorb infrared light at their own distinctive, largely predictable frequencies, largely independent of the rest of the molecule they're attached to — a carbonyl group's characteristic strong absorption looks much the same whether it's in a small ketone or a large complex natural product — letting a chemist read a compound's functional groups directly off its infrared spectrum using standardised reference charts.",
           "note": "Colthup, N.B. (1950). 'Spectra-Structure Correlations in the Infra-Red Region.' Journal of the Optical Society of America, 40(6), 397–400, at American Cyanamid, Stamford, systematising infrared absorption frequencies into the correlation charts still reproduced in organic chemistry textbooks today. Infrared spectroscopy is typically the fastest first check run on an unknown organic compound, quickly narrowing down which functional groups are present before more detailed structural techniques are applied.",
           "links": [
-            "co1"
+            "co1",
+            "me8"
           ],
           "keywords": [
             "functional group absorption frequency",
@@ -1285,12 +1344,59 @@
           "hint": "A palladium catalyst can join two different carbon fragments together — one carrying a boron atom, the other a halogen — forming a new carbon-carbon bond between two complex pieces under remarkably mild, forgiving conditions that tolerate many other functional groups already present elsewhere in the molecule, letting chemists snap together large, complicated fragments almost like modular building blocks.",
           "note": "Miyaura, N. & Suzuki, A. (1979). 'Stereoselective Synthesis of Arylated (E)-Alkenes by the Reaction of Alk-1-enylboranes with Aryl Halides in the Presence of Palladium Catalyst.' Tetrahedron Letters, 20(36), 3437–3440, at Hokkaido University, Sapporo. Suzuki shared the 2010 Nobel Prize in Chemistry for the reaction (with Richard Heck and Ei-ichi Negishi, developers of related palladium-catalysed coupling methods); Suzuki coupling is now routinely used throughout the pharmaceutical and materials industries to join complex aromatic fragments together.",
           "links": [
-            "th8"
+            "th8",
+            "me7"
           ],
           "keywords": [
             "palladium-catalyzed bond formation",
             "boron halide coupling",
             "modular fragment assembly"
+          ]
+        },
+        {
+          "id": "me7",
+          "group": "Organic Synthesis & Named Reactions",
+          "label": "Olefin Metathesis",
+          "date": "1971",
+          "loc": "Rueil-Malmaison, France",
+          "coords": [
+            48.88,
+            2.19
+          ],
+          "tag": "METHOD",
+          "hint": "A pair of carbon-carbon double bonds can be cut and swapped between two different molecules using a metal catalyst, redistributing the alkene fragments into new combinations — a reaction that, once efficient and functional-group-tolerant catalysts existed, gave chemists a fundamentally new way to build complex carbon skeletons alongside cross-coupling methods like Suzuki-Miyaura.",
+          "note": "Chauvin, Y. (1971). 'Catalyse de transformation des oléfines par les complexes du tungstène. II.' Journal of Molecular Catalysis, at the Institut Français du Pétrole, Rueil-Malmaison, proposing the metal-carbene mechanism; Robert Grubbs and Richard Schrock subsequently developed the practical, widely-used catalysts through the 1990s. Chauvin, Grubbs, and Schrock jointly received the 2005 Nobel Prize in Chemistry 'for the development of the metathesis method in organic synthesis.'",
+          "links": [
+            "me6"
+          ],
+          "keywords": [
+            "alkene bond redistribution",
+            "metal carbene catalyst",
+            "ruthenium catalyzed synthesis"
+          ]
+        },
+        {
+          "id": "me8",
+          "group": "Spectroscopic Structure Determination",
+          "label": "2D NMR Spectroscopy",
+          "date": "1976",
+          "loc": "Zurich, Switzerland",
+          "coords": [
+            47.38,
+            8.54
+          ],
+          "tag": "METHOD",
+          "hint": "Ordinary NMR spectra plot signal intensity against a single frequency axis, but spreading the same information across two frequency axes instead reveals which specific atoms sit close enough to each other — through a bond or simply through space — to influence one another directly, letting a chemist trace a molecule's entire connectivity map atom by atom rather than guessing from an overlapping one-dimensional spectrum.",
+          "note": "Aue, W.P., Bartholdi, E., Ernst, R.R. (1976). 'Two-dimensional spectroscopy. Application to nuclear magnetic resonance.' Journal of Chemical Physics, 64(5), 2229–2246, at ETH Zurich. Ernst received the 1991 Nobel Prize in Chemistry for the development; Kurt Wüthrich's subsequent extension of the related NOESY variant to determine complete three-dimensional protein structures in solution won a separate 2002 Nobel Prize in Chemistry.",
+          "links": [
+            "st10",
+            "st11",
+            "me4"
+          ],
+          "keywords": [
+            "two-axis frequency spectrum",
+            "through-space coupling detection",
+            "atom connectivity mapping"
           ]
         }
       ]
@@ -1537,8 +1643,8 @@
             -71.11
           ],
           "tag": "FIGURE",
-          "hint": "Widely considered the twentieth century's most accomplished total synthesis chemist, Woodward successfully synthesised extraordinarily complex natural products — including quinine, cholesterol, and chlorophyll — that many contemporaries considered essentially unsynthesisable, while also, separately, developing the purely theoretical Woodward-Hoffmann rules governing an entire class of reactions from first principles.",
-          "note": "Woodward, R.B. Woodward-Hoffmann rules (1965, see th7). Woodward received the 1965 Nobel Prize in Chemistry for his organic synthesis work generally, several years before the Woodward-Hoffmann rules themselves were even published; he died suddenly in 1979 while still leading a major international collaborative effort to synthesise the complex antibiotic erythromycin, a project his collaborators completed and published shortly after his death.",
+          "hint": "Widely considered the twentieth century's most accomplished total synthesis chemist, Woodward successfully synthesised extraordinarily complex natural products — including cholesterol, cortisone, strychnine, and chlorophyll — that many contemporaries considered essentially unsynthesisable, while also, separately, developing the purely theoretical Woodward-Hoffmann rules governing an entire class of reactions from first principles.",
+          "note": "Woodward, R.B. Woodward-Hoffmann rules (1965, see th7). Woodward's celebrated 1944 quinine work with William Doering is now understood more cautiously: the pair actually reached the related compound d-quinotoxine and completed the route to quinine itself only by relying on an unreproduced 1918 conversion claimed by Paul Rabe, a step Gilbert Stork's group only carried out and confirmed independently in 2001. Woodward received the 1965 Nobel Prize in Chemistry for his organic synthesis work generally, several years before the Woodward-Hoffmann rules themselves were even published; he died suddenly in 1979 while still leading a major international collaborative effort to synthesise the complex antibiotic erythromycin, a project his collaborators completed and published shortly after his death.",
           "links": [
             "th7"
           ],
@@ -1615,7 +1721,7 @@
           ],
           "tag": "DEBATE",
           "hint": "Wöhler's urea synthesis is popularly taught as the single decisive experiment that instantly refuted vitalism, the belief that organic compounds required a living organism's special 'life force' to form — but historians of science examining the actual contemporary reception have found the story is considerably tidier than what really happened, with vitalism persisting as a genuinely defensible position among practising chemists for decades afterward.",
-          "note": "Ramberg, P.J. (2000). 'The Death of Vitalism and the Birth of Organic Chemistry: Wöhler's Urea Synthesis and the Disciplinary Identity of Organic Chemistry.' Ambix, 47(3), 170–195, at Truman State University. Ramberg and other historians argue the tidy 'one experiment refuted vitalism' narrative was substantially constructed retrospectively, decades after 1828, to give the emerging discipline of organic chemistry a clean, dramatic founding story rather than the messier, more gradual actual decline of vitalist thinking.",
+          "note": "Ramberg, P.J. (2000). 'The Death of Vitalism and the Birth of Organic Chemistry: Wöhler's Urea Synthesis and the Disciplinary Identity of Organic Chemistry.' Ambix, 47(3), 170–195, at Truman State University. Ramberg and other historians argue the tidy 'one experiment refuted vitalism' narrative was substantially constructed retrospectively, decades after 1828, to give the emerging discipline of organic chemistry a clean, dramatic founding story rather than the messier, more gradual actual decline of vitalist thinking. Wöhler's own starting materials undercut the clean version of the story further: his lead cyanate and ammonium salts were derived, through several intervening synthetic steps, from cyanide compounds ultimately traceable to calcined animal horn, hoof, and urine, giving committed vitalists a specific 'residual vital force' rebuttal that Wöhler's result alone couldn't fully answer. Historians more often credit Hermann Kolbe's 1845 synthesis of acetic acid from entirely elemental carbon, sulfur, chlorine, and water — with no organically-derived intermediate anywhere in the route — as the result that actually closed off that particular escape hatch for vitalism.",
           "links": [
             "st1"
           ],
@@ -1749,10 +1855,11 @@
           ],
           "tag": "DEBATE",
           "hint": "SN1 and SN2 are usually taught as two cleanly separate mechanisms, but many real reactions show mixed characteristics that don't sit neatly in either category — some evidence suggests many apparent SN1 reactions actually proceed through a tight, short-lived ion pair rather than a fully free carbocation, meaning the 'sharp boundary' between the two textbook mechanisms may really be two ends of a continuous mechanistic spectrum rather than two genuinely distinct pathways.",
-          "note": "Sneen, R.A. (1973). 'Ion Pair Mechanisms in Nucleophilic Substitution.' Accounts of Chemical Research, 6(2), 46–53, at Purdue University, West Lafayette. The proposal remains genuinely contested rather than settled; most introductory teaching still presents SN1 and SN2 as two sharply distinct mechanisms since the simplified picture correctly predicts the great majority of outcomes, even if the full mechanistic reality for some reactions is subtler, echoing the earlier non-classical carbocation dispute (see ef8).",
+          "note": "Sneen, R.A. (1973). 'Ion Pair Mechanisms in Nucleophilic Substitution.' Accounts of Chemical Research, 6(2), 46–53, at Purdue University, West Lafayette. Sneen's proposal built on an earlier, more targeted argument from Saul Winstein, who had shown that solvolysis proceeds through a graded spectrum of intimate, then solvent-separated, then fully free ion pairs — a mechanism distinct from Winstein's separate non-classical bridged-carbocation work (see ef8) — that explains why many SN1 reactions give partially, rather than perfectly, racemic product: the nucleophile can still attack from the leaving group's original side before the ion pair fully separates. The proposal remains genuinely contested rather than settled; most introductory teaching still presents SN1 and SN2 as two sharply distinct mechanisms since the simplified picture correctly predicts the great majority of outcomes, even if the full mechanistic reality for some reactions is subtler, echoing the earlier non-classical carbocation dispute (see ef8).",
           "links": [
             "th6",
-            "ef8"
+            "ef8",
+            "st12"
           ],
           "keywords": [
             "ion pair intermediate",
@@ -1994,6 +2101,11 @@
           "y": 1953,
           "l": "Ziegler-Natta Catalysis",
           "entryId": "st9"
+        },
+        {
+          "y": 1962,
+          "l": "Olah Observes Carbocations Directly",
+          "entryId": "st12"
         }
       ]
     },
@@ -2047,6 +2159,11 @@
           "y": 1950,
           "l": "Theory of Chemical Shielding",
           "entryId": "th11"
+        },
+        {
+          "y": 1952,
+          "l": "Frontier Molecular Orbital Theory",
+          "entryId": "th12"
         },
         {
           "y": 1965,
@@ -2138,6 +2255,16 @@
           "y": 1956,
           "l": "Mass Spectral Fragmentation Analysis",
           "entryId": "me5"
+        },
+        {
+          "y": 1971,
+          "l": "Olefin Metathesis",
+          "entryId": "me7"
+        },
+        {
+          "y": 1976,
+          "l": "2D NMR Spectroscopy",
+          "entryId": "me8"
         },
         {
           "y": 1978,

@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 1692,
+    "total_entries": 1696,
     "folio_count": 22,
     "xlink_pairs": 104,
-    "keyword_terms": 6247,
+    "keyword_terms": 6259,
     "folios": [
       {
         "id": "anatomy-histology",
@@ -73,7 +73,7 @@
       {
         "id": "organic-polymer-chem",
         "title": "Chemistry: Organic & Polymer",
-        "entries": 73
+        "entries": 77
       },
       {
         "id": "pathology-immunology",
@@ -1133,6 +1133,7 @@
     "organic-polymer-chem::th9": "theory · Polymer Chemistry · Free-Radical Chain Polymerization Theory (1937)",
     "organic-polymer-chem::th10": "theory · Polymer Chemistry · Carothers' Condensation Polymerization Theory (1929)",
     "organic-polymer-chem::th11": "theory · Spectroscopic Structure Determination · The Theory of Chemical Shielding (1950)",
+    "organic-polymer-chem::th12": "theory · Reaction Mechanisms · Frontier Molecular Orbital Theory (1952)",
     "organic-polymer-chem::st1": "study · Carbon Bonding & Molecular Structure · Wöhler's Synthesis of Urea (1828)",
     "organic-polymer-chem::st2": "study · Hydrocarbons & Aromaticity · Kekulé's Benzene Structure (1865)",
     "organic-polymer-chem::st3": "study · Stereochemistry · Pasteur's Separation of Tartaric Acid Crystals (1848)",
@@ -1144,6 +1145,7 @@
     "organic-polymer-chem::st9": "study · Polymer Chemistry · Ziegler-Natta Catalysis (1953)",
     "organic-polymer-chem::st10": "study · Spectroscopic Structure Determination · Bloch and Purcell's Discovery of Nuclear Magnetic Resonance (1946)",
     "organic-polymer-chem::st11": "study · Spectroscopic Structure Determination · The Discovery of Chemical Shift (1951)",
+    "organic-polymer-chem::st12": "study · Reaction Mechanisms · Olah's Direct Observation of Carbocations (1962)",
     "organic-polymer-chem::ef1": "effect · Polymer Chemistry · Vulcanization of Rubber (1839)",
     "organic-polymer-chem::ef2": "effect · Stereochemistry · Mutarotation (1846)",
     "organic-polymer-chem::ef3": "effect · Reaction Mechanisms · Keto-Enol Tautomerism (1885)",
@@ -1168,6 +1170,8 @@
     "organic-polymer-chem::me4": "method · Spectroscopic Structure Determination · Infrared Spectra-Structure Correlation (1950)",
     "organic-polymer-chem::me5": "method · Spectroscopic Structure Determination · Mass Spectral Fragmentation Analysis (1956)",
     "organic-polymer-chem::me6": "method · Organic Synthesis & Named Reactions · Suzuki-Miyaura Cross-Coupling (1979)",
+    "organic-polymer-chem::me7": "method · Organic Synthesis & Named Reactions · Olefin Metathesis (1971)",
+    "organic-polymer-chem::me8": "method · Spectroscopic Structure Determination · 2D NMR Spectroscopy (1976)",
     "organic-polymer-chem::fg1": "figure · Pioneers & Theorists · Friedrich Wöhler (1828)",
     "organic-polymer-chem::fg2": "figure · Pioneers & Theorists · August Kekulé (1865)",
     "organic-polymer-chem::fg3": "figure · Pioneers & Theorists · Louis Pasteur (1848)",
@@ -8208,6 +8212,11 @@
       "nuclear resonance frequency shift",
       "quantum shielding calculation"
     ],
+    "organic-polymer-chem::th12": [
+      "homo lumo interaction",
+      "frontier orbital reactivity",
+      "electron flow prediction"
+    ],
     "organic-polymer-chem::st1": [
       "accidental inorganic-to-organic synthesis",
       "vitalism refutation myth",
@@ -8262,6 +8271,11 @@
       "ethanol proton peaks",
       "chemical environment resonance",
       "structural fingerprint origin"
+    ],
+    "organic-polymer-chem::st12": [
+      "superacid stabilized cation",
+      "direct nmr cation observation",
+      "inferred intermediate confirmed"
     ],
     "organic-polymer-chem::ef1": [
       "sulfur cross-linking",
@@ -8382,6 +8396,16 @@
       "palladium-catalyzed bond formation",
       "boron halide coupling",
       "modular fragment assembly"
+    ],
+    "organic-polymer-chem::me7": [
+      "alkene bond redistribution",
+      "metal carbene catalyst",
+      "ruthenium catalyzed synthesis"
+    ],
+    "organic-polymer-chem::me8": [
+      "two-axis frequency spectrum",
+      "through-space coupling detection",
+      "atom connectivity mapping"
     ],
     "organic-polymer-chem::fg1": [
       "kidney-free urea remark",
@@ -23403,6 +23427,15 @@
     "quantum shielding calculation": [
       "organic-polymer-chem::th11"
     ],
+    "homo lumo interaction": [
+      "organic-polymer-chem::th12"
+    ],
+    "frontier orbital reactivity": [
+      "organic-polymer-chem::th12"
+    ],
+    "electron flow prediction": [
+      "organic-polymer-chem::th12"
+    ],
     "accidental inorganic-to-organic synthesis": [
       "organic-polymer-chem::st1"
     ],
@@ -23501,6 +23534,15 @@
     ],
     "structural fingerprint origin": [
       "organic-polymer-chem::st11"
+    ],
+    "superacid stabilized cation": [
+      "organic-polymer-chem::st12"
+    ],
+    "direct nmr cation observation": [
+      "organic-polymer-chem::st12"
+    ],
+    "inferred intermediate confirmed": [
+      "organic-polymer-chem::st12"
     ],
     "sulfur cross-linking": [
       "organic-polymer-chem::ef1"
@@ -23717,6 +23759,24 @@
     ],
     "modular fragment assembly": [
       "organic-polymer-chem::me6"
+    ],
+    "alkene bond redistribution": [
+      "organic-polymer-chem::me7"
+    ],
+    "metal carbene catalyst": [
+      "organic-polymer-chem::me7"
+    ],
+    "ruthenium catalyzed synthesis": [
+      "organic-polymer-chem::me7"
+    ],
+    "two-axis frequency spectrum": [
+      "organic-polymer-chem::me8"
+    ],
+    "through-space coupling detection": [
+      "organic-polymer-chem::me8"
+    ],
+    "atom connectivity mapping": [
+      "organic-polymer-chem::me8"
     ],
     "kidney-free urea remark": [
       "organic-polymer-chem::fg1"
