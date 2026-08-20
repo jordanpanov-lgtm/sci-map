@@ -23,7 +23,201 @@
       "accent": "#2471A3",
       "bg": "#F0F7FF",
       "subtitle": "The frameworks that organise algebra, analysis, geometry and topology",
-      "entries": []
+      "entries": [
+        {
+          "id": "th1",
+          "group": "Abstract Algebra: Groups, Rings & Fields",
+          "label": "Group Theory",
+          "date": "1854",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "THEORY",
+          "hint": "A group is a set with a single operation obeying four simple rules — closure, associativity, an identity element, and inverses — and Arthur Cayley was the first to define it this abstractly, independent of any specific example like permutations or numbers. That single move let mathematicians recognise the exact same underlying structure hiding inside symmetry, number systems, and equation-solving, all at once.",
+          "note": "Cayley, A. (1854). 'On the Theory of Groups, as Depending on the Symbolic Equation θⁿ=1.' Philosophical Magazine, 4th series, 7(42), 40–47. Cayley was practising as a barrister in London at the time, mathematics being a side pursuit until his 1863 appointment as Sadleirian Professor at Cambridge. The abstract definition took decades to be adopted generally; most contemporaries, including Cayley himself, kept thinking in terms of permutation groups for years afterward.",
+          "links": [
+            "th2"
+          ]
+        },
+        {
+          "id": "th2",
+          "group": "Abstract Algebra: Groups, Rings & Fields",
+          "label": "Galois Theory",
+          "date": "1832",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "THEORY",
+          "hint": "Évariste Galois showed that whether a polynomial equation can be solved by a step-by-step radical formula (like the quadratic formula) is entirely determined by the symmetry structure of its roots — a specific group, now called the Galois group. If that group has the right internal structure ('solvable'), a radical formula exists; if not, no formula, however clever, ever will.",
+          "note": "Galois, É. Manuscript written the night before his fatal duel (29–30 May 1832); first published by Joseph Liouville as 'Œuvres mathématiques d'Évariste Galois,' Journal de Mathématiques Pures et Appliquées, 11 (1846), 381–444 — fourteen years after Galois's death, since his contemporaries (including Cauchy and Poisson) had rejected or lost his earlier submissions. Galois died at twenty from a duel whose cause remains disputed by historians; the theory bearing his name was reconstructed from a hastily annotated testament letter.",
+          "links": [
+            "th1",
+            "st1"
+          ]
+        },
+        {
+          "id": "th3",
+          "group": "Abstract Algebra: Groups, Rings & Fields",
+          "label": "Ring and Field Theory",
+          "date": "1921",
+          "loc": "Göttingen, Germany",
+          "coords": [
+            51.54,
+            9.92
+          ],
+          "tag": "THEORY",
+          "hint": "Emmy Noether showed that a huge range of algebraic objects — integers, polynomials, matrices — all satisfy the same small set of axioms once you strip away what makes them different, and that proving a theorem at this abstract 'ring' level proves it simultaneously for every concrete example. Her key structural condition, that every ascending chain of ideals eventually stops growing, now defines an entire class of well-behaved rings named after her.",
+          "note": "Noether, E. (1921). 'Idealtheorie in Ringbereichen.' Mathematische Annalen, 83, 24–66. Noether taught at Göttingen for years without pay or an official title, since German law at the time barred women from Habilitation; Hilbert and Klein pushed the issue through university faculty by having courses formally listed under Hilbert's name with Noether as the actual lecturer. Her structural, axiom-first style became the template for twentieth-century abstract algebra generally.",
+          "links": [
+            "th1",
+            "st4"
+          ]
+        },
+        {
+          "id": "th4",
+          "group": "Number Theory",
+          "label": "Fundamental Theorem of Arithmetic",
+          "date": "1801",
+          "loc": "Braunschweig, Germany",
+          "coords": [
+            52.27,
+            10.53
+          ],
+          "tag": "THEORY",
+          "hint": "Every integer greater than 1 factors into primes in exactly one way, ignoring order — a fact Euclid's Elements already implicitly used but never rigorously isolated or proved as a single theorem. Carl Friedrich Gauss gave the first fully rigorous, general proof, making unique factorization the explicit logical bedrock that the rest of number theory is built on rather than an assumed convenience.",
+          "note": "Gauss, C.F. (1801). Disquisitiones Arithmeticae, Article 16. Leipzig: Gerhard Fleischer. Euclid's Elements, Book IX, Proposition 14 (c. 300 BCE) states a special case; Gauss was the first to treat unique factorization as a theorem requiring proof rather than an evident fact. The result fails in some more general number systems (certain rings of algebraic integers), a gap whose repair by Kummer and Dedekind in the 1840s–1870s founded modern algebraic number theory.",
+          "links": [
+            "th5"
+          ]
+        },
+        {
+          "id": "th5",
+          "group": "Number Theory",
+          "label": "Prime Number Theorem",
+          "date": "1896",
+          "loc": "Bordeaux, France",
+          "coords": [
+            44.84,
+            -0.58
+          ],
+          "tag": "THEORY",
+          "hint": "The primes thin out as numbers grow, and the Prime Number Theorem pins down exactly how fast: the count of primes below n is approximately n divided by the natural logarithm of n, with the approximation growing relatively more accurate as n grows. Gauss had conjectured this pattern from tables as a teenager in the 1790s, but proving it took another century and the unexpected tool of complex analysis.",
+          "note": "Hadamard, J. (1896). 'Sur la distribution des zéros de la fonction ζ(s) et ses conséquences arithmétiques.' Bulletin de la Société Mathématique de France, 24, 199–220 — proved independently the same year by Charles Jean de la Vallée Poussin at the University of Louvain. Both proofs relied on complex-analytic properties of the Riemann zeta function; a more 'elementary' real-only proof was not found until Erdős and Selberg's controversial 1949 work (see st3).",
+          "links": [
+            "th4",
+            "st3"
+          ]
+        },
+        {
+          "id": "th6",
+          "group": "Real Analysis",
+          "label": "Measure Theory",
+          "date": "1902",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "THEORY",
+          "hint": "Henri Lebesgue generalised the intuitive idea of 'length' or 'area' to a huge class of irregular sets, then redefined integration around it — instead of slicing a function's domain into thin vertical strips (Riemann's approach), Lebesgue's integral groups points by output value first, which lets it integrate far more pathological functions and behaves far better under limits. It became the rigorous foundation underneath modern analysis and probability theory alike.",
+          "note": "Lebesgue, H. (1902). 'Intégrale, longueur, aire.' Doctoral thesis, Annali di Matematica Pura ed Applicata, 7, 231–359, defended at the Faculté des Sciences de Paris. Lebesgue's own advisor, Émile Borel, had already sketched the underlying measure concept; Lebesgue's contribution was building the full integration theory on top of it. Riemann integration remains simpler to teach and is still standard in introductory calculus, with Lebesgue's version reserved for analysis proper.",
+          "links": [
+            "st6"
+          ]
+        },
+        {
+          "id": "th7",
+          "group": "Complex Analysis",
+          "label": "Complex Analytic Function Theory",
+          "date": "1825",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "THEORY",
+          "hint": "Augustin-Louis Cauchy showed that functions of a complex variable, if differentiable at all in a region, are automatically far better behaved than any real-variable function could be — infinitely differentiable, fully determined by their values on any surrounding loop, and expressible as a convergent power series everywhere they're defined. This single differentiability condition, absent from real analysis, makes complex analysis one of the most rigid and predictable branches of mathematics.",
+          "note": "Cauchy, A.L. (1825). 'Mémoire sur les intégrales définies, prises entre des limites imaginaires.' Paris: self-published pamphlet, later absorbed into his collected works — the paper containing what became Cauchy's Integral Theorem. Bernhard Riemann (1851) and Karl Weierstrass (1860s) later gave the theory its geometric and power-series formulations respectively; the three approaches were shown fully equivalent by the end of the nineteenth century.",
+          "links": [
+            "st7",
+            "st8"
+          ]
+        },
+        {
+          "id": "th8",
+          "group": "Topology",
+          "label": "Algebraic Topology",
+          "date": "1895",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "THEORY",
+          "hint": "Henri Poincaré founded a way of studying shapes by attaching algebraic objects — numbers, groups — to them that stay the same under any continuous stretching or bending, so that two shapes with different algebraic invariants can never be continuously deformed into each other. His 'fundamental group,' tracking the distinct loops a space allows, became the first and most influential of these invariants.",
+          "note": "Poincaré, H. (1895). 'Analysis Situs.' Journal de l'École Polytechnique, 2nd series, 1, 1–121, followed by five supplementary papers through 1904 correcting and extending it. Poincaré's own paper contained a false claim (that a certain invariant — homology — sufficed to distinguish all 3-dimensional spaces from the sphere), which he retracted in a supplement after finding a counterexample; the corrected question became the Poincaré Conjecture (see st9).",
+          "links": [
+            "st9",
+            "st10"
+          ]
+        },
+        {
+          "id": "th9",
+          "group": "Geometry: Euclidean, Non-Euclidean & Differential",
+          "label": "Riemannian Geometry",
+          "date": "1854",
+          "loc": "Göttingen, Germany",
+          "coords": [
+            51.54,
+            9.92
+          ],
+          "tag": "THEORY",
+          "hint": "Bernhard Riemann generalised geometry to spaces of any dimension that can be curved in arbitrarily complicated ways from point to point, defined purely from measurements taken inside the space itself — no surrounding higher-dimensional space required. The framework sat as a mathematical curiosity for sixty years until Einstein needed exactly this machinery to describe gravity as curved spacetime in general relativity.",
+          "note": "Riemann, B. Habilitationsschrift lecture delivered 10 June 1854 at the University of Göttingen; published posthumously as 'Über die Hypothesen, welche der Geometrie zu Grunde liegen,' Abhandlungen der Königlichen Gesellschaft der Wissenschaften zu Göttingen, 13 (1868), 133–150, edited by Richard Dedekind. Riemann built directly on Gauss's earlier intrinsic curvature result for surfaces (see st11), generalising it to arbitrary dimension.",
+          "links": [
+            "st11",
+            "st7"
+          ]
+        },
+        {
+          "id": "th10",
+          "group": "Geometry: Euclidean, Non-Euclidean & Differential",
+          "label": "Non-Euclidean Geometry",
+          "date": "1829",
+          "loc": "Kazan, Russia",
+          "coords": [
+            55.79,
+            49.12
+          ],
+          "tag": "THEORY",
+          "hint": "For two thousand years, Euclid's parallel postulate (given a line and a point off it, exactly one parallel line exists) was assumed to be provable from his other axioms. Nikolai Lobachevsky showed instead that replacing it with 'infinitely many parallels exist' produces an entirely self-consistent alternative geometry — proving the parallel postulate was a genuine, independent choice, not a logical necessity.",
+          "note": "Lobachevsky, N.I. (1829–30). 'O nachalakh geometrii' ['On the Foundations of Geometry']. Kazan Messenger. János Bolyai reached the same result independently, published 1832 as an appendix to his father's textbook; Gauss privately claimed priority in unpublished notes but never published his own version, reportedly fearing controversy. Lobachevsky's work was largely ignored or ridiculed in his lifetime and only vindicated after his death, once Beltrami (1868) gave it a concrete model proving its consistency.",
+          "links": [
+            "th9"
+          ]
+        },
+        {
+          "id": "th11",
+          "group": "Geometry: Euclidean, Non-Euclidean & Differential",
+          "label": "Algebraic Geometry (Scheme Theory)",
+          "date": "1960",
+          "loc": "Bures-sur-Yvette, France",
+          "coords": [
+            48.71,
+            2.16
+          ],
+          "tag": "THEORY",
+          "hint": "Alexandre Grothendieck rebuilt algebraic geometry — the study of shapes defined by polynomial equations — on a radically more general foundation called schemes, which allow coordinates from any ring at all, not just familiar number systems, and treat every geometric object as inseparable from the functions living on it. The reconstruction was so thorough it let long-standing conjectures across number theory and geometry be attacked with unified new tools.",
+          "note": "Grothendieck, A. & Dieudonné, J. (1960–67). Éléments de géométrie algébrique. Publications Mathématiques de l'IHÉS, in multiple volumes — around 1,800 pages, left unfinished. Written at the Institut des Hautes Études Scientifiques, where Grothendieck worked from its founding in 1958 until resigning in 1970 over the institute's partial military funding. The scheme-theoretic framework was essential to Pierre Deligne's 1974 proof of the Weil conjectures and, later, to Wiles's proof of Fermat's Last Theorem (see st2).",
+          "links": [
+            "st2"
+          ]
+        }
+      ]
     },
     {
       "id": "study",
@@ -33,7 +227,208 @@
       "accent": "#7D3C98",
       "bg": "#FAF5FF",
       "subtitle": "The defining experiments — and exactly what they found",
-      "entries": []
+      "entries": [
+        {
+          "id": "st1",
+          "group": "Abstract Algebra: Groups, Rings & Fields",
+          "label": "Abel's Proof of the Insolvability of the General Quintic",
+          "date": "1824",
+          "loc": "Christiania (Oslo), Norway",
+          "coords": [
+            59.91,
+            10.75
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Niels Henrik Abel proved that, unlike quadratic, cubic, and quartic equations, there is no general formula built from radicals (roots and arithmetic) that solves every fifth-degree polynomial equation — settling a question mathematicians had chased unsuccessfully for over two centuries. It was the first fully rigorous impossibility proof of its kind, though it didn't yet explain which specific quintics are solvable, a question Galois answered eight years later.",
+          "note": "Abel, N.H. (1824). 'Mémoire sur les équations algébriques, où l'on démontre l'impossibilité de la résolution de l'équation générale du cinquième degré.' Self-published pamphlet, Christiania — condensed to six pages because Abel, unemployed and poor, paid the printing costs himself. Paolo Ruffini had published an earlier, incomplete attempt at the same proof in 1799 with a significant gap; Abel's version is generally credited as the first fully rigorous one, so the result is now usually called the Abel–Ruffini theorem.",
+          "links": [
+            "th2"
+          ]
+        },
+        {
+          "id": "st2",
+          "group": "Number Theory",
+          "label": "Wiles's Proof of Fermat's Last Theorem",
+          "date": "1995",
+          "loc": "Princeton, New Jersey",
+          "coords": [
+            40.35,
+            -74.66
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Andrew Wiles proved that no three positive integers a, b, c can satisfy aⁿ + bⁿ = cⁿ for any integer n greater than 2 — a claim Pierre de Fermat had scribbled in a book margin in 1637, claiming a proof too large to fit, that then went unproven for 358 years. Wiles's actual route was indirect: he proved a special case of the Taniyama–Shimura conjecture linking elliptic curves to modular forms, from which Fermat's claim follows as a corollary.",
+          "note": "Wiles, A. (1995). 'Modular Elliptic Curves and Fermat's Last Theorem.' Annals of Mathematics, 141(3), 443–551, with a companion paper by Taylor, R. & Wiles, A., 'Ring-Theoretic Properties of Certain Hecke Algebras,' same issue, 553–572. Wiles's original 1993 announcement contained a serious gap found by peer reviewer Nick Katz; Wiles spent a further year, with Richard Taylor, repairing it before the corrected proof was accepted — a rare fully public case of a landmark proof failing review and being fixed rather than withdrawn.",
+          "links": [
+            "th2",
+            "th11"
+          ]
+        },
+        {
+          "id": "st3",
+          "group": "Number Theory",
+          "label": "Selberg and Erdős's Elementary Proof of the Prime Number Theorem",
+          "date": "1949",
+          "loc": "Princeton, New Jersey",
+          "coords": [
+            40.35,
+            -74.66
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "The original 1896 proof of the Prime Number Theorem (see th5) relied on complex analysis, which mathematicians found conceptually strange for a statement purely about integers; an 'elementary' proof using only real-number methods was widely doubted to be possible. Atle Selberg and Paul Erdős found one independently within weeks of each other, working from a shared key identity, at the Institute for Advanced Study in Princeton.",
+          "note": "Selberg, A. (1949). 'An Elementary Proof of the Prime-Number Theorem.' Annals of Mathematics, 50(2), 305–313. Erdős, P. (1949). 'On a New Method in Elementary Number Theory Which Leads to an Elementary Proof of the Prime Number Theorem.' Proceedings of the National Academy of Sciences, 35(7), 374–384. The two had collaborated on the underlying identity but published separately after a bitter priority dispute over credit; Selberg alone received the 1950 Fields Medal, citing this and other work, which Erdős — ineligible by the medal's age cutoff — long resented publicly.",
+          "links": [
+            "th5"
+          ]
+        },
+        {
+          "id": "st4",
+          "group": "Abstract Algebra: Groups, Rings & Fields",
+          "label": "Hilbert's Basis Theorem",
+          "date": "1888",
+          "loc": "Königsberg, Germany",
+          "coords": [
+            54.71,
+            20.45
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "David Hilbert proved that no matter how many variables a polynomial ring has, every ideal within it — informally, every set of polynomial 'multiples' closed under addition — can be generated by a finite list of polynomials, even though the ideal itself may contain infinitely many. The proof was strikingly non-constructive, showing finiteness existed without producing the actual generators, which unsettled contemporaries used to explicit construction.",
+          "note": "Hilbert, D. (1890). 'Über die Theorie der algebraischen Formen.' Mathematische Annalen, 36, 473–534 (the theorem itself dates from Hilbert's 1888 work on invariant theory). Paul Gordan, the leading invariant theorist of the era, is said to have dismissed the non-constructive method with 'this is not mathematics, this is theology' — though whether he actually said it is disputed by historians. The result underpins the ascending-chain-condition definition of Noetherian rings (see th3) formalised three decades later.",
+          "links": [
+            "th3"
+          ]
+        },
+        {
+          "id": "st5",
+          "group": "Real Analysis",
+          "label": "Weierstrass's ε–δ Rigorization of Calculus",
+          "date": "1861",
+          "loc": "Berlin, Germany",
+          "coords": [
+            52.52,
+            13.41
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Karl Weierstrass replaced calculus's informal, intuition-based talk of quantities 'approaching' a limit with a precise formal definition: a limit L is approached if, for any margin of error ε you name, a matching input-range δ can always be found that keeps the output within that margin. This epsilon-delta formulation finally closed the logical gaps that had dogged calculus since Newton and Leibniz, over a century earlier.",
+          "note": "Weierstrass, K. Lecture course 'Differentialrechnung,' University of Berlin, 1861 (unpublished in his lifetime; transmitted through student lecture notes, notably by Hermann Amandus Schwarz). Weierstrass never published a single definitive text on the definition, so its exact attribution rests on student transcriptions rather than a citable paper — an unusual case of a landmark result whose 'publication' is secondhand.",
+          "links": [
+            "th6"
+          ]
+        },
+        {
+          "id": "st6",
+          "group": "Real Analysis",
+          "label": "Baire's Category Theorem",
+          "date": "1899",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "René-Louis Baire proved that a complete metric space can never be written as a countable union of 'thin' (nowhere dense) sets — a precise way of saying such a space is too large and well-connected to be built entirely out of negligible pieces. The theorem became one of the most-used existence tools in analysis: proving something must exist by showing the alternative would require covering the whole space with thin pieces, which is impossible.",
+          "note": "Baire, R. (1899). 'Sur les fonctions de variables réelles.' Doctoral thesis, Annali di Matematica Pura ed Applicata, 3, 1–123, defended at the Faculté des Sciences de Paris. Baire suffered from chronic ill health that limited his mathematical output after this early thesis; the category theorem nonetheless became a standard tool across functional analysis, later underpinning the Uniform Boundedness Principle and Open Mapping Theorem of Banach space theory.",
+          "links": [
+            "th6"
+          ]
+        },
+        {
+          "id": "st7",
+          "group": "Complex Analysis",
+          "label": "The Riemann Mapping Theorem",
+          "date": "1851",
+          "loc": "Göttingen, Germany",
+          "coords": [
+            51.54,
+            9.92
+          ],
+          "tag": "DISCOVERY",
+          "repl": "mixed",
+          "hint": "Bernhard Riemann claimed that any simply-connected region of the complex plane (other than the whole plane itself) can be smoothly, angle-preservingly reshaped into a perfect disk — an early hint that complex-differentiable functions carry an enormous amount of hidden geometric rigidity. His original argument leaned on an unproven physical assumption (Dirichlet's Principle), so the result stood as a plausible but logically unsecured claim for over sixty years.",
+          "note": "Riemann, B. (1851). 'Grundlagen für eine allgemeine Theorie der Functionen einer veränderlichen complexen Grösse.' Doctoral dissertation, University of Göttingen. Karl Weierstrass publicly identified the gap in Dirichlet's Principle in 1870; a fully rigorous proof was not achieved until Constantin Carathéodory (1912) and Paul Koebe (1912) independently supplied one using different methods, and David Hilbert separately rehabilitated Dirichlet's Principle itself in 1904 under added conditions.",
+          "links": [
+            "th7",
+            "th9"
+          ]
+        },
+        {
+          "id": "st8",
+          "group": "Complex Analysis",
+          "label": "Picard's Great Theorem",
+          "date": "1879",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Émile Picard proved that near an essential singularity — a point where a complex function behaves at its wildest — the function takes on every possible complex value infinitely often, with at most one single exception. It is a strikingly strong statement: complex functions near their worst points aren't merely unpredictable, they are in a precise sense as unpredictable as they could conceivably be.",
+          "note": "Picard, É. (1879). 'Sur une propriété des fonctions entières.' Comptes Rendus de l'Académie des Sciences, 88, 1024–1027. Picard's original proof used elliptic modular functions in a way contemporaries found difficult to follow; simpler proofs came later, notably via Bloch's Principle in the 1920s. The theorem is now split pedagogically into the 'Little' Picard Theorem (a weaker, easier-to-prove statement about entire functions) and the 'Great' Picard Theorem described here.",
+          "links": [
+            "th7"
+          ]
+        },
+        {
+          "id": "st9",
+          "group": "Topology",
+          "label": "Perelman's Proof of the Poincaré Conjecture",
+          "date": "2003",
+          "loc": "St. Petersburg, Russia",
+          "coords": [
+            59.93,
+            30.34
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Grigori Perelman proved that every simply-connected, closed three-dimensional space is topologically equivalent to a 3-sphere, resolving a question Poincaré had posed a century earlier and that had defeated every attempt since — including several retracted false proofs by leading mathematicians. Perelman's method, extending Richard Hamilton's Ricci flow technique, was general enough to prove Thurston's much broader Geometrization Conjecture as a byproduct.",
+          "note": "Perelman, G. (2002–03). Three preprints posted to arXiv, unpublished in any journal: 'The Entropy Formula for the Ricci Flow and Its Geometric Applications,' 'Ricci Flow with Surgery on Three-Manifolds,' and 'Finite Extinction Time for the Solutions to the Ricci Flow on Certain Three-Manifolds.' Three independent teams spent years producing fully detailed expansions verifying the proof (Kleiner–Lott, Morgan–Tian, and Cao–Zhu, all published 2006). Perelman declined the 2006 Fields Medal and the $1,000,000 Clay Millennium Prize, and withdrew from mathematics entirely.",
+          "links": [
+            "th8"
+          ]
+        },
+        {
+          "id": "st10",
+          "group": "Topology",
+          "label": "Brouwer's Fixed-Point Theorem",
+          "date": "1911",
+          "loc": "Amsterdam, Netherlands",
+          "coords": [
+            52.37,
+            4.9
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "L.E.J. Brouwer proved that any continuous function mapping a filled disk (or its higher-dimensional analogue, a ball) into itself must leave at least one point exactly where it started — stir a cup of coffee however you like, some point of the liquid's surface returns to its original position. The result is a pure existence statement: it guarantees a fixed point without offering any way to locate it.",
+          "note": "Brouwer, L.E.J. (1911). 'Über Abbildung von Mannigfaltigkeiten.' Mathematische Annalen, 71, 97–115. Brouwer later became a leading critic of exactly this kind of non-constructive existence proof, founding the intuitionist school of mathematics that rejected proofs — including, awkwardly, some of his own earlier work — that don't explicitly construct the object being proved to exist. The theorem underpins later fixed-point results used to prove economic equilibrium theorems (Nash, Arrow–Debreu).",
+          "links": [
+            "th8"
+          ]
+        },
+        {
+          "id": "st11",
+          "group": "Geometry: Euclidean, Non-Euclidean & Differential",
+          "label": "Gauss's Theorema Egregium",
+          "date": "1827",
+          "loc": "Göttingen, Germany",
+          "coords": [
+            51.54,
+            9.92
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Carl Friedrich Gauss proved that a surface's intrinsic curvature — a number measurable entirely by creatures confined to the surface, without reference to any surrounding space — is unchanged by any bending that doesn't stretch or tear it. A flat sheet of paper can be rolled into a cylinder without distortion because both have zero intrinsic curvature, but it can never be smoothly wrapped around a sphere without wrinkling, because their curvatures genuinely differ.",
+          "note": "Gauss, C.F. (1827). 'Disquisitiones generales circa superficies curvas.' Commentationes Societatis Regiae Scientiarum Gottingensis Recentiores, 6, 99–146. Gauss himself judged this his most important geometric result, naming it 'theorema egregium' — 'remarkable theorem' — in the paper itself, an unusually immodest label from a mathematician not given to overstatement. It supplied the specific intrinsic-curvature concept Riemann generalised to arbitrary dimensions in 1854 (see th9).",
+          "links": [
+            "th9"
+          ]
+        }
+      ]
     },
     {
       "id": "effect",
