@@ -19,7 +19,7 @@ const FIELDS = [
   { id:"classical-physics",          domain:"physical-sciences", label:"Physics: Classical Mechanics & Thermodynamics", sub:"Force, motion, energy & heat",                                   status:"ready", file:"modules/classical-physics.json" },
   { id:"em-optics",                  domain:"physical-sciences", label:"Physics: Electromagnetism & Optics",        sub:"Fields, waves, light & the electromagnetic spectrum",                   status:"ready", file:"modules/em-optics.json" },
   { id:"quantum-nuclear-relativity", domain:"physical-sciences", label:"Physics: Quantum, Nuclear & Relativity",    sub:"The very small, the very fast & the structure of spacetime",            status:"ready",   file:"modules/quantum-nuclear-relativity.json" },
-  { id:"inorganic-analytical-chem",  domain:"physical-sciences", label:"Chemistry: Inorganic & Analytical",         sub:"Elements, compounds & the methods of chemical measurement",             status:"planned" },
+  { id:"inorganic-analytical-chem",  domain:"physical-sciences", label:"Chemistry: Inorganic & Analytical",         sub:"Elements, compounds & the methods of chemical measurement",             status:"ready", file:"modules/inorganic-analytical-chem.json" },
   { id:"organic-polymer-chem",       domain:"physical-sciences", label:"Chemistry: Organic & Polymer",              sub:"Carbon chemistry, reactions & macromolecular structures",               status:"planned" },
   // ── EARTH, SPACE & ENVIRONMENTAL ─────────────────────────────────────────────
   { id:"astronomy-cosmology",        domain:"earth-space",       label:"Astronomy, Astrophysics & Cosmology",       sub:"Stars, galaxies & the origin and fate of the universe",                 status:"planned" },
