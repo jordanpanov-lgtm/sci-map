@@ -5,7 +5,7 @@
   "subtitle": "Carbon chemistry, reactions & macromolecular structures",
   "period": {
     "start": 1828,
-    "end": 1979
+    "end": 2000
   },
   "domain": "physical-sciences",
   "mapCenter": [
@@ -1147,7 +1147,147 @@
       "accent": "#CA6F1E",
       "bg": "#FDF5EC",
       "subtitle": "Live controversies — where the field is actively contesting the evidence",
-      "entries": []
+      "entries": [
+        {
+          "id": "db1",
+          "group": "Carbon Bonding & Molecular Structure",
+          "label": "Did One Synthesis Really Kill Vitalism?",
+          "date": "2000",
+          "loc": "Kirksville, Missouri",
+          "coords": [
+            40.19,
+            -92.58
+          ],
+          "tag": "DEBATE",
+          "hint": "Wöhler's urea synthesis is popularly taught as the single decisive experiment that instantly refuted vitalism, the belief that organic compounds required a living organism's special 'life force' to form — but historians of science examining the actual contemporary reception have found the story is considerably tidier than what really happened, with vitalism persisting as a genuinely defensible position among practising chemists for decades afterward.",
+          "note": "Ramberg, P.J. (2000). 'The Death of Vitalism and the Birth of Organic Chemistry: Wöhler's Urea Synthesis and the Disciplinary Identity of Organic Chemistry.' Ambix, 47(3), 170–195, at Truman State University. Ramberg and other historians argue the tidy 'one experiment refuted vitalism' narrative was substantially constructed retrospectively, decades after 1828, to give the emerging discipline of organic chemistry a clean, dramatic founding story rather than the messier, more gradual actual decline of vitalist thinking.",
+          "links": [
+            "st1"
+          ]
+        },
+        {
+          "id": "db2",
+          "group": "Hydrocarbons & Aromaticity",
+          "label": "Did Kekulé Really Dream the Benzene Ring?",
+          "date": "1890",
+          "loc": "Berlin, Germany",
+          "coords": [
+            52.52,
+            13.41
+          ],
+          "tag": "DEBATE",
+          "hint": "Kekulé told the story himself, decades after the fact, at a lavish celebration held in his own honour — describing having dozed off, seen a vision of a snake seizing its own tail, and woken with the ring structure in mind. Historians note the account appeared only in 1890, matches an ancient and widespread mythological motif (the ouroboros) suspiciously closely, and was delivered as after-dinner entertainment at his own celebration rather than recorded anywhere closer to the actual 1865 discovery.",
+          "note": "Kekulé, A. (1890). Speech at the Benzolfest, a celebration held in Kekulé's honour, Berlin, twenty-five years after the benzene structure paper itself (see st2). Some historians, including Alan Rocke, argue the dream story may be broadly genuine but exaggerated for rhetorical effect in front of an admiring audience, while others consider it largely a self-mythologising later invention; no contemporaneous 1865 source mentions any dream at all.",
+          "links": [
+            "st2"
+          ]
+        },
+        {
+          "id": "db3",
+          "group": "Organic Synthesis & Named Reactions",
+          "label": "Is Retrosynthesis Truly Systematic, or Still an Art?",
+          "date": "1969",
+          "loc": "Cambridge, Massachusetts",
+          "coords": [
+            42.37,
+            -71.11
+          ],
+          "tag": "DEBATE",
+          "hint": "Corey's retrosynthetic framework promised to make synthesis planning an explicit, rule-governed procedure rather than an intuitive art passed down informally — and his early computer program, applying the same disconnection logic automatically, was meant to prove the point. In practice, deciding which of many possible disconnections is actually the best one still leans heavily on a chemist's trained intuition and aesthetic judgement, exactly the kind of tacit expertise a fully systematic method was supposed to replace.",
+          "note": "Corey, E.J. & Wipke, W.T. (1969). 'Computer-Assisted Design of Complex Organic Syntheses.' Science, 166(3902), 178–192, at Harvard University, describing the early LHASA synthesis-planning program. The program could generate large numbers of formally valid disconnections but still required an expert chemist to judge which routes were actually practical, cheap, or likely to work — a limitation that persisted in synthesis-planning software for decades afterward and that modern machine-learning approaches are still actively working to overcome.",
+          "links": [
+            "th8"
+          ]
+        },
+        {
+          "id": "db4",
+          "group": "Polymer Chemistry",
+          "label": "Are Plastics Recyclable in Practice?",
+          "date": "1988",
+          "loc": "Washington, D.C.",
+          "coords": [
+            38.91,
+            -77.04
+          ],
+          "tag": "DEBATE",
+          "hint": "The familiar numbered triangle symbol stamped on plastic packaging suggests a straightforward, uniform recycling system — but different plastic types are chemically incompatible with each other in a single recycling stream, contamination from food residue and mixed materials is difficult and costly to remove, and a large share of plastic collected for recycling has historically been shipped abroad, landfilled, or incinerated rather than actually reprocessed into new material.",
+          "note": "Society of the Plastics Industry (1988). Introduced the numbered resin identification code system, Washington, D.C., intended to help sorting facilities but widely criticised by later investigative reporting for creating a public impression of recyclability substantially broader than the numbers actually guarantee. Global plastic recycling rates remain, by most independent estimates, well under 20% of total plastic waste generated, a gap between the symbol's implied promise and actual reprocessing capacity that has drawn sustained scrutiny.",
+          "links": [
+            "co7"
+          ]
+        },
+        {
+          "id": "db5",
+          "group": "Stereochemistry",
+          "label": "Thalidomide and the Cost of Ignoring Chirality",
+          "date": "1979",
+          "loc": "Braunschweig, Germany",
+          "coords": [
+            52.27,
+            10.53
+          ],
+          "tag": "DEBATE",
+          "hint": "Thalidomide, prescribed in the late 1950s as a supposedly safe sedative and anti-nausea drug for pregnant women, caused thousands of severe birth defects worldwide before being withdrawn — and later chromatographic separation of its two mirror-image forms showed one enantiomer produced the intended sedative effect while the other was strongly teratogenic, though the body also interconverts the two forms once inside a person, meaning even giving only the 'safe' enantiomer would not have prevented the tragedy.",
+          "note": "Blaschke, G., Kraft, H.P., Fickentscher, K. & Köhler, F. (1979). 'Chromatographische Racemattrennung von Thalidomid und teratogene Wirkung der Enantiomere.' Arzneimittel-Forschung, 29(10), 1640–1642, at the Technical University of Braunschweig. The thalidomide tragedy became the central case study driving stricter regulatory requirements for testing each enantiomer of a chiral drug separately, directly motivating the later development of practical asymmetric synthesis methods (see ap5) capable of producing single-enantiomer drugs reliably.",
+          "links": [
+            "co4",
+            "ap5"
+          ]
+        },
+        {
+          "id": "db6",
+          "group": "Polymer Chemistry",
+          "label": "Bisphenol A and Endocrine Disruption",
+          "date": "1936",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "DEBATE",
+          "hint": "Bisphenol A, the monomer used to make polycarbonate plastic and epoxy resin can linings, was identified as a synthetic oestrogen-mimicking compound decades before its widespread use in food-contact plastics — a genuinely striking historical irony, since the same molecule was investigated first as a potential synthetic hormone therapy and only much later became a mass-produced industrial plastic ingredient people are now routinely exposed to.",
+          "note": "Dodds, E.C. & Lawson, W. (1936). 'Synthetic Œstrogenic Agents without the Phenanthrene Nucleus.' Nature, 137, 996, at the Courtauld Institute of Biochemistry, London, identifying bisphenol A's hormone-mimicking activity fifty years before its plastic-related health effects became a public concern. Whether BPA exposure from ordinary plastic products at typical real-world concentrations poses a genuine health risk, and exactly what a genuinely safe exposure threshold might be, remains an actively disputed regulatory and toxicological question.",
+          "links": [
+            "co7"
+          ]
+        },
+        {
+          "id": "db7",
+          "group": "Reaction Mechanisms",
+          "label": "How Sharp Is the SN1/SN2 Boundary?",
+          "date": "1973",
+          "loc": "West Lafayette, Indiana",
+          "coords": [
+            40.42,
+            -86.92
+          ],
+          "tag": "DEBATE",
+          "hint": "SN1 and SN2 are usually taught as two cleanly separate mechanisms, but many real reactions show mixed characteristics that don't sit neatly in either category — some evidence suggests many apparent SN1 reactions actually proceed through a tight, short-lived ion pair rather than a fully free carbocation, meaning the 'sharp boundary' between the two textbook mechanisms may really be two ends of a continuous mechanistic spectrum rather than two genuinely distinct pathways.",
+          "note": "Sneen, R.A. (1973). 'Ion Pair Mechanisms in Nucleophilic Substitution.' Accounts of Chemical Research, 6(2), 46–53, at Purdue University, West Lafayette. The proposal remains genuinely contested rather than settled; most introductory teaching still presents SN1 and SN2 as two sharply distinct mechanisms since the simplified picture correctly predicts the great majority of outcomes, even if the full mechanistic reality for some reactions is subtler, echoing the earlier non-classical carbocation dispute (see ef8).",
+          "links": [
+            "th6",
+            "ef8"
+          ]
+        },
+        {
+          "id": "db8",
+          "group": "Spectroscopic Structure Determination",
+          "label": "Does a Solution NMR Structure Match the Solid Crystal Structure?",
+          "date": "1980",
+          "loc": "Stanford, California",
+          "coords": [
+            37.43,
+            -122.17
+          ],
+          "tag": "DEBATE",
+          "hint": "NMR determines a molecule's structure while it's dissolved and tumbling freely in solution, while X-ray crystallography determines it locked rigidly into a crystal lattice — and for a molecule flexible enough to adopt genuinely different shapes in the two environments, the two techniques can legitimately disagree about what the 'real' structure actually is, raising the question of which environment, if either, better reflects how the molecule actually behaves under the conditions that matter, such as inside a living cell.",
+          "note": "Jardetzky, O. (1980). 'On the Nature of Molecular Conformations Inferred from High-Resolution NMR.' Biochimica et Biophysica Acta, 621(2), 227–232, at Stanford University, directly raising the solution-versus-crystal structure question for flexible biomolecules. The disagreement is not a flaw in either technique but a genuine reflection of molecular flexibility itself; for rigid small molecules the two methods generally agree closely, while for larger, more flexible structures meaningful differences can and do appear.",
+          "links": [
+            "st10",
+            "st11"
+          ]
+        }
+      ]
     },
     {
       "id": "application",
@@ -1157,7 +1297,114 @@
       "accent": "#2E86C1",
       "bg": "#EBF5FB",
       "subtitle": "Where the science leaves the lab",
-      "entries": []
+      "entries": [
+        {
+          "id": "ap1",
+          "group": "Hydrocarbons & Aromaticity",
+          "label": "Petrochemical Feedstocks",
+          "date": "1920",
+          "loc": "Bayway, New Jersey",
+          "coords": [
+            40.64,
+            -74.22
+          ],
+          "tag": "APPLICATION",
+          "hint": "Before the 1920s, most industrial organic chemicals were derived from coal tar, a byproduct of coke and gas production; Standard Oil of New Jersey's Bayway refinery instead began deliberately extracting small organic molecules directly from petroleum refining streams, launching the petrochemical industry that now supplies the overwhelming majority of the world's plastics, solvents, and synthetic materials from crude oil rather than coal.",
+          "note": "Standard Oil of New Jersey (1920). Bayway refinery, New Jersey, produced isopropyl alcohol from refinery propylene, widely credited as the first true petrochemical product. The shift from coal-tar to petroleum feedstocks accelerated dramatically after the Second World War, as catalytic cracking (see me1) made a much wider range of small, reactive petroleum-derived molecules cheaply and abundantly available as raw material for the entire downstream chemical industry.",
+          "links": [
+            "me1"
+          ]
+        },
+        {
+          "id": "ap2",
+          "group": "Polymer Chemistry",
+          "label": "Synthetic Fibres Beyond Nylon",
+          "date": "1953",
+          "loc": "Wilmington, Delaware",
+          "coords": [
+            39.74,
+            -75.55
+          ],
+          "tag": "APPLICATION",
+          "hint": "Nylon's commercial triumph convinced the chemical industry that entire new textile markets could be built around synthetic polymers engineered specifically for the purpose, rather than relying on natural fibres like cotton, wool, and silk — DuPont followed nylon with Dacron polyester in the early 1950s, and a wave of other synthetic fibres, each with its own specific advantages, rapidly transformed the global textile industry within a single generation.",
+          "note": "DuPont (1953). Commercial introduction of Dacron polyester fibre, developed at DuPont's Wilmington laboratories from British-patented polyethylene terephthalate chemistry. Synthetic fibres now account for a majority of global textile fibre production by volume, a transformation traceable directly back to Carothers's original condensation polymerisation research programme (see th10, st8) two decades earlier.",
+          "links": [
+            "st8",
+            "th10"
+          ]
+        },
+        {
+          "id": "ap3",
+          "group": "Organic Synthesis & Named Reactions",
+          "label": "Aspirin's Industrial Synthesis",
+          "date": "1897",
+          "loc": "Wuppertal, Germany",
+          "coords": [
+            51.26,
+            7.15
+          ],
+          "tag": "APPLICATION",
+          "hint": "Willow bark's pain-relieving properties had been known since antiquity, and its active compound, salicylic acid, had been isolated decades earlier — but salicylic acid itself is harshly irritating to the stomach. A Bayer chemist synthesised a chemically modified version, acetylsalicylic acid, that retained the pain-relieving effect with substantially gentler side effects, and the resulting product, marketed as Aspirin, became one of history's most widely used drugs.",
+          "note": "Hoffmann, F. (1897). Synthesised acetylsalicylic acid at Bayer's laboratories, Wuppertal (then Elberfeld). The compound had actually first been synthesised decades earlier by French chemist Charles Frédéric Gerhardt in 1853, in an impure and unstable form he never developed further; Bayer's contribution was producing a pure, stable, reliably reproducible version suitable for genuine pharmaceutical manufacturing and marketing at scale.",
+          "links": [
+            "co1"
+          ]
+        },
+        {
+          "id": "ap4",
+          "group": "Polymer Chemistry",
+          "label": "The PET Plastic Bottle",
+          "date": "1973",
+          "loc": "Wilmington, Delaware",
+          "coords": [
+            39.74,
+            -75.55
+          ],
+          "tag": "APPLICATION",
+          "hint": "Polyethylene terephthalate, the same polyester chemistry already used in synthetic textile fibres, turned out to also be strong, transparent, and lightweight enough to blow-mould into a pressurised container capable of safely holding carbonated soft drinks — replacing heavier, more breakable glass bottles for a huge share of global beverage packaging within about a decade of its introduction.",
+          "note": "Wyeth, N. (1973). US Patent 3,733,309, 'Biaxially Oriented Poly(ethylene Terephthalate) Bottle,' DuPont, Wilmington. PET bottles' light weight and shatter-resistance sharply cut beverage transport costs and breakage losses compared to glass, but the material's durability also means it persists for centuries in the environment if not properly collected, directly underlying the modern plastic recycling and pollution debate (see db4).",
+          "links": [
+            "co7",
+            "db4"
+          ]
+        },
+        {
+          "id": "ap5",
+          "group": "Stereochemistry",
+          "label": "Asymmetric Synthesis in Drug Design",
+          "date": "1968",
+          "loc": "St. Louis, Missouri",
+          "coords": [
+            38.63,
+            -90.2
+          ],
+          "tag": "APPLICATION",
+          "hint": "Rather than synthesising a chiral drug as an unavoidable 50:50 mixture of both mirror-image forms and hoping the inactive or harmful one doesn't cause problems, asymmetric synthesis uses chiral catalysts to produce overwhelmingly one enantiomer directly — a capability that became a central pharmaceutical priority once the thalidomide tragedy (see db5) made the real-world cost of ignoring chirality in drug development starkly, tragically clear.",
+          "note": "Knowles, W.S. (1968). Developed practical asymmetric catalytic hydrogenation at Monsanto, St. Louis, later applied to industrial-scale production of L-DOPA, a single-enantiomer Parkinson's disease treatment. Knowles shared the 2001 Nobel Prize in Chemistry for asymmetric catalysis; regulatory agencies now generally require a chiral drug's individual enantiomers to be tested and, where their effects differ meaningfully, marketed separately rather than as an untested racemic mixture.",
+          "links": [
+            "db5",
+            "co4"
+          ]
+        },
+        {
+          "id": "ap6",
+          "group": "Spectroscopic Structure Determination",
+          "label": "MRI: The Medical Application of NMR",
+          "date": "1973",
+          "loc": "Stony Brook, New York",
+          "coords": [
+            40.91,
+            -73.12
+          ],
+          "tag": "APPLICATION",
+          "hint": "By deliberately varying the magnetic field's strength slightly across different positions in space, rather than keeping it perfectly uniform as chemists had always done for spectroscopy, a nucleus's resonance frequency becomes directly tied to its physical location — turning nuclear magnetic resonance from a chemistry-structure tool into a way of building a detailed image of the inside of a living human body with no radiation exposure at all.",
+          "note": "Lauterbur, P.C. (1973). 'Image Formation by Induced Local Interactions: Examples Employing Nuclear Magnetic Resonance.' Nature, 242(5394), 190–191, at Stony Brook University. Lauterbur shared the 2003 Nobel Prize in Physiology or Medicine with Peter Mansfield, who further developed the mathematical techniques needed for practical image reconstruction; MRI scanners now rely on exactly the same chemical-shift and resonance principles organic chemists use for structure determination (see th11, co8), simply applied spatially rather than chemically.",
+          "links": [
+            "th11",
+            "co8"
+          ]
+        }
+      ]
     }
   ],
   "timeline": [
