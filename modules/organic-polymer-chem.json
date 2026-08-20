@@ -794,7 +794,116 @@
       "accent": "#8B5E00",
       "bg": "#FFF8F0",
       "subtitle": "The tools and paradigms that generate the field's evidence",
-      "entries": []
+      "entries": [
+        {
+          "id": "me1",
+          "group": "Hydrocarbons & Aromaticity",
+          "label": "Catalytic Cracking",
+          "date": "1937",
+          "loc": "Marcus Hook, Pennsylvania",
+          "coords": [
+            39.81,
+            -75.41
+          ],
+          "tag": "METHOD",
+          "hint": "Crude petroleum contains far more heavy, long-chain hydrocarbon molecules than the market actually wants, and far too little of the shorter, more valuable molecules used in petrol. Catalytic cracking breaks those heavy molecules apart over a solid catalyst at high temperature, deliberately converting low-value heavy fractions into the shorter, more useful hydrocarbons refineries actually need.",
+          "note": "Houdry, E. (1937). First commercial catalytic cracking unit, Sun Oil Company refinery, Marcus Hook, Pennsylvania, using an acidic clay catalyst Houdry had spent over a decade developing and refining in France and the United States. Catalytic cracking roughly doubled the petrol yield obtainable from a barrel of crude oil compared to earlier thermal-cracking methods, and the process proved strategically decisive in supplying high-octane aviation fuel during the Second World War.",
+          "links": [
+            "th1"
+          ]
+        },
+        {
+          "id": "me2",
+          "group": "Spectroscopic Structure Determination",
+          "label": "Thin-Layer Chromatography",
+          "date": "1938",
+          "loc": "Kharkiv, Ukraine",
+          "coords": [
+            49.99,
+            36.23
+          ],
+          "tag": "METHOD",
+          "hint": "A sample is spotted near the bottom edge of a glass plate coated with a thin, uniform layer of adsorbent, then the plate's bottom edge is dipped in solvent, which climbs upward by capillary action, carrying the sample's different components upward at different characteristic speeds — a faster, cheaper, more convenient variant of column chromatography that fits an entire separation onto a single small plate, viewable and comparable side by side within minutes.",
+          "note": "Izmailov, N.A. & Shraiber, M.S. (1938). 'A Drop Chromatographic Method of Analysis and Its Application in Pharmacy.' Farmatsiya, 3, 1–7, at the Kharkiv Pharmaceutical Institute — largely overlooked outside the Soviet Union until Egon Stahl's 1958 work standardised the technique and equipment internationally. TLC remains, alongside the column chromatography it descends from (covered in the inorganic-analytical-chem folio), one of the fastest and cheapest ways to check a reaction's progress or a compound's purity at the bench.",
+          "links": [
+            "co8"
+          ],
+          "xlinks": [
+            "inorganic-analytical-chem::me3"
+          ]
+        },
+        {
+          "id": "me3",
+          "group": "Organic Synthesis & Named Reactions",
+          "label": "Flash Chromatography",
+          "date": "1978",
+          "loc": "New York, New York",
+          "coords": [
+            40.71,
+            -74.01
+          ],
+          "tag": "METHOD",
+          "hint": "Ordinary gravity-fed column chromatography can take hours to purify a single synthesis product, since the solvent trickles through the packing under its own weight alone; pushing the solvent through the same column under moderate air pressure instead speeds the whole separation up from hours to minutes, letting a synthetic chemist purify one step's product and move straight on to the next reaction the same day.",
+          "note": "Still, W.C., Kahn, M. & Mitra, A. (1978). 'Rapid Chromatographic Technique for Preparative Separations with Moderate Resolution.' Journal of Organic Chemistry, 43(14), 2923–2925, at Columbia University, New York. The paper specified exact, reproducible particle-size and pressure parameters rather than leaving the technique to individual improvisation, turning what many labs had already been doing informally into a standardised, citable method essentially every synthetic organic chemistry laboratory has used routinely ever since.",
+          "links": [
+            "th8"
+          ]
+        },
+        {
+          "id": "me4",
+          "group": "Spectroscopic Structure Determination",
+          "label": "Infrared Spectra-Structure Correlation",
+          "date": "1950",
+          "loc": "Stamford, Connecticut",
+          "coords": [
+            41.05,
+            -73.54
+          ],
+          "tag": "METHOD",
+          "hint": "Different functional groups absorb infrared light at their own distinctive, largely predictable frequencies, largely independent of the rest of the molecule they're attached to — a carbonyl group's characteristic strong absorption looks much the same whether it's in a small ketone or a large complex natural product — letting a chemist read a compound's functional groups directly off its infrared spectrum using standardised reference charts.",
+          "note": "Colthup, N.B. (1950). 'Spectra-Structure Correlations in the Infra-Red Region.' Journal of the Optical Society of America, 40(6), 397–400, at American Cyanamid, Stamford, systematising infrared absorption frequencies into the correlation charts still reproduced in organic chemistry textbooks today. Infrared spectroscopy is typically the fastest first check run on an unknown organic compound, quickly narrowing down which functional groups are present before more detailed structural techniques are applied.",
+          "links": [
+            "co1"
+          ]
+        },
+        {
+          "id": "me5",
+          "group": "Spectroscopic Structure Determination",
+          "label": "Mass Spectral Fragmentation Analysis",
+          "date": "1956",
+          "loc": "Schenectady, New York",
+          "coords": [
+            42.81,
+            -73.94
+          ],
+          "tag": "METHOD",
+          "hint": "When an organic molecule is ionised inside a mass spectrometer, it doesn't just register one mass — it fragments into a whole characteristic pattern of smaller charged pieces, breaking apart preferentially at its weakest bonds and most stable resulting fragments, and working backward from that fragmentation pattern lets a chemist reconstruct large parts of the original molecule's structure.",
+          "note": "McLafferty, F.W. (1956). 'Mass Spectrometric Analysis: Molecular Rearrangements.' Analytical Chemistry, 28(3), 306–316, at the General Electric Research Laboratory, Schenectady, describing the specific rearrangement fragmentation pattern (now called the McLafferty rearrangement) certain carbonyl compounds undergo. Interpreting organic fragmentation patterns is a substantially different analytical skill from the elemental and isotopic mass spectrometry covered in the inorganic-analytical-chem folio, though both rest on the same underlying instrument.",
+          "links": [
+            "st10"
+          ],
+          "xlinks": [
+            "inorganic-analytical-chem::me5"
+          ]
+        },
+        {
+          "id": "me6",
+          "group": "Organic Synthesis & Named Reactions",
+          "label": "Suzuki-Miyaura Cross-Coupling",
+          "date": "1979",
+          "loc": "Sapporo, Japan",
+          "coords": [
+            43.06,
+            141.35
+          ],
+          "tag": "METHOD",
+          "hint": "A palladium catalyst can join two different carbon fragments together — one carrying a boron atom, the other a halogen — forming a new carbon-carbon bond between two complex pieces under remarkably mild, forgiving conditions that tolerate many other functional groups already present elsewhere in the molecule, letting chemists snap together large, complicated fragments almost like modular building blocks.",
+          "note": "Miyaura, N. & Suzuki, A. (1979). 'Stereoselective Synthesis of Arylated (E)-Alkenes by the Reaction of Alk-1-enylboranes with Aryl Halides in the Presence of Palladium Catalyst.' Tetrahedron Letters, 20(36), 3437–3440, at Hokkaido University, Sapporo. Suzuki shared the 2010 Nobel Prize in Chemistry for the reaction (with Richard Heck and Ei-ichi Negishi, developers of related palladium-catalysed coupling methods); Suzuki coupling is now routinely used throughout the pharmaceutical and materials industries to join complex aromatic fragments together.",
+          "links": [
+            "th8"
+          ]
+        }
+      ]
     },
     {
       "id": "figure",
@@ -804,7 +913,231 @@
       "accent": "#B7770D",
       "bg": "#FEFDE7",
       "subtitle": "The researchers who shaped the discipline",
-      "entries": []
+      "entries": [
+        {
+          "id": "fg1",
+          "group": "Pioneers & Theorists",
+          "label": "Friedrich Wöhler",
+          "date": "1828",
+          "loc": "Berlin, Germany",
+          "coords": [
+            52.52,
+            13.41
+          ],
+          "tag": "FIGURE",
+          "hint": "Wöhler's accidental synthesis of urea from inorganic starting materials is popularly remembered as single-handedly overturning vitalism overnight, though Wöhler's own famous letter to his mentor Berzelius reporting the result was considerably more understated — he wrote that he could 'make urea without needing a kidney,' a wry observation rather than a declared revolution, with vitalism's actual decline stretching out over subsequent decades.",
+          "note": "Wöhler, F. Synthesis of urea (1828, see st1). Wöhler also co-discovered beryllium and was the first to isolate aluminium and silicon in pure form; he maintained a decades-long, prolific scientific correspondence and collaboration with Justus von Liebig despite the two men's initially fierce public disputes over a completely unrelated chemistry question early in their careers.",
+          "links": [
+            "st1"
+          ]
+        },
+        {
+          "id": "fg2",
+          "group": "Pioneers & Theorists",
+          "label": "August Kekulé",
+          "date": "1865",
+          "loc": "Ghent, Belgium",
+          "coords": [
+            51.05,
+            3.72
+          ],
+          "tag": "FIGURE",
+          "hint": "Kekulé originally trained in architecture before switching to chemistry, a background he later credited with shaping his intuitive feel for molecular structure as three-dimensional architecture rather than abstract formulas; his benzene ring proposal, whatever its true origin, resolved one of organic chemistry's most stubborn structural puzzles and became the foundation of aromatic chemistry as a distinct field.",
+          "note": "Kekulé, A. Structure theory (1858, see th1); benzene ring structure (1865, see st2). Kekulé trained an extraordinary number of the next generation's leading chemists during his professorships at Ghent and later Bonn, including Adolf von Baeyer, Emil Fischer, and Jacobus van't Hoff, giving him an outsized multiplying influence on the field well beyond his own direct published results.",
+          "links": [
+            "th1",
+            "st2"
+          ]
+        },
+        {
+          "id": "fg3",
+          "group": "Pioneers & Theorists",
+          "label": "Louis Pasteur",
+          "date": "1848",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "FIGURE",
+          "hint": "Long before his far more famous work on germ theory and vaccination, Pasteur made his very first major scientific discovery at just 25, painstakingly hand-sorting mirror-image tartaric acid crystals under a microscope — a discovery he considered, throughout his own later life, among his proudest achievements precisely because it was purely his own idea, unprompted by any mentor or existing research programme.",
+          "note": "Pasteur, L. Tartaric acid crystal separation (1848, see st3). Pasteur's crystal-sorting result was disputed by chemist Jean Baptiste Biot, who was initially sceptical enough to insist on personally repeating a portion of Pasteur's optical-rotation measurements himself before accepting the young chemist's results as genuine; Biot's own earlier discovery of optical activity (see co4) is what made him qualified to serve as such a demanding, ultimately convinced, referee.",
+          "links": [
+            "st3"
+          ]
+        },
+        {
+          "id": "fg4",
+          "group": "Pioneers & Theorists",
+          "label": "Jacobus van't Hoff",
+          "date": "1874",
+          "loc": "Utrecht, Netherlands",
+          "coords": [
+            52.09,
+            5.12
+          ],
+          "tag": "FIGURE",
+          "hint": "Van't Hoff proposed the tetrahedral carbon atom as a 22-year-old, self-published pamphlet author with no significant academic standing yet — earning immediate, dismissive public ridicule from senior chemist Hermann Kolbe, who wrote that a Dr. van't Hoff of the Utrecht veterinary school apparently found exact chemical research less appealing than mounting a horse and touring stables to survey how the world's molecules might be arranged in space.",
+          "note": "van 't Hoff, J.H. Tetrahedral carbon theory (1874, see th3). Van't Hoff became the first ever recipient of the Nobel Prize in Chemistry in 1901, awarded broadly for his contributions to chemical dynamics and osmotic pressure alongside the earlier stereochemistry work Kolbe had mocked so thoroughly three decades before; Kolbe himself did not live to see the vindication, having died in 1884.",
+          "links": [
+            "th3"
+          ]
+        },
+        {
+          "id": "fg5",
+          "group": "Pioneers & Theorists",
+          "label": "Emil Fischer",
+          "date": "1891",
+          "loc": "Würzburg, Germany",
+          "coords": [
+            49.79,
+            9.95
+          ],
+          "tag": "FIGURE",
+          "hint": "Fischer worked out glucose's full three-dimensional structure using nothing but chemical degradation reactions and logical deduction, with no way to directly observe a molecule's shape available at the time — a feat of pure chemical reasoning he extended across the entire family of related sugars, purines, and eventually proteins, work spanning an almost unmatched breadth of organic structural chemistry for a single career.",
+          "note": "Fischer, E. Glucose structure determination (1891, see st4). Fischer received the second-ever Nobel Prize in Chemistry in 1902; he died in 1919, having lost two of his three sons in the First World War and having spent much of the war years working on Germany's behalf on chemical warfare and nitrogen-fixation problems, a wartime scientific record that remains a genuinely uncomfortable part of his legacy alongside his purely academic achievements.",
+          "links": [
+            "st4"
+          ]
+        },
+        {
+          "id": "fg6",
+          "group": "Pioneers & Theorists",
+          "label": "Victor Grignard",
+          "date": "1900",
+          "loc": "Lyon, France",
+          "coords": [
+            45.76,
+            4.84
+          ],
+          "tag": "FIGURE",
+          "hint": "Grignard began his academic career studying mathematics before switching to chemistry, and developed his namesake organomagnesium reagents as a doctoral student working under Philippe Barbier, who had briefly investigated similar organometallic chemistry himself but handed the specific problem to Grignard to pursue further — a piece of supervisory generosity that let his student's name, not his own, become permanently attached to one of organic chemistry's most widely used reactions.",
+          "note": "Grignard, V. Organomagnesium reagents (1900, see st5). Grignard shared the 1912 Nobel Prize in Chemistry with his own former supervisor Philippe Barbier's colleague Paul Sabatier; during the First World War, Grignard also worked on chemical warfare detection and countermeasures for the French military, applying his organic chemistry expertise to identifying German poison gas agents.",
+          "links": [
+            "st5"
+          ]
+        },
+        {
+          "id": "fg7",
+          "group": "Pioneers & Theorists",
+          "label": "Hermann Staudinger",
+          "date": "1920",
+          "loc": "Zurich, Switzerland",
+          "coords": [
+            47.38,
+            8.54
+          ],
+          "tag": "FIGURE",
+          "hint": "Staudinger pursued the macromolecule hypothesis for over a decade against near-unanimous opposition from the chemistry establishment, who insisted substances like rubber must be small molecules held together by some unspecified weak attractive force rather than genuine giant single molecules — a stance Staudinger later said cost him considerable professional standing before the accumulating evidence eventually forced the field to accept he had been right all along.",
+          "note": "Staudinger, H. Macromolecule hypothesis (1920, see st7). Staudinger's second wife, Magda Staudinger, was a working scientific collaborator on much of his later polymer research; during the Second World War, Staudinger's earlier pacifist writings drew Gestapo scrutiny, and questions about his wartime political reliability reportedly complicated his eventual 1953 Nobel Prize consideration before the award was ultimately confirmed.",
+          "links": [
+            "st7"
+          ]
+        },
+        {
+          "id": "fg8",
+          "group": "Pioneers & Theorists",
+          "label": "Wallace Carothers",
+          "date": "1935",
+          "loc": "Wilmington, Delaware",
+          "coords": [
+            39.74,
+            -75.55
+          ],
+          "tag": "FIGURE",
+          "hint": "Carothers led DuPont's fundamental polymer research programme with extraordinary scientific success, developing both neoprene synthetic rubber and nylon within the same few years — while privately struggling for years with severe depression that the pressure of corporate research, and the death of his sister, worsened considerably, and took his own life in 1937 at just 41, two years before nylon's triumphant public unveiling.",
+          "note": "Carothers, W.H. Condensation polymerization theory (1929, see th10); nylon synthesis (1935, see st8). Carothers was one of the first industrial chemists recruited specifically to conduct open-ended fundamental research rather than narrowly applied product development, an unusual arrangement DuPont's research director Charles Stine championed specifically to attract top academic talent into industry.",
+          "links": [
+            "th10",
+            "st8"
+          ]
+        },
+        {
+          "id": "fg9",
+          "group": "Pioneers & Theorists",
+          "label": "Karl Ziegler",
+          "date": "1953",
+          "loc": "Mülheim, Germany",
+          "coords": [
+            51.43,
+            6.88
+          ],
+          "tag": "FIGURE",
+          "hint": "Ziegler discovered his namesake polymerisation catalysts partly by chance, noticing an unexpected reaction byproduct that a less attentive researcher might easily have dismissed as a nuisance rather than followed up on — a discovery he then rapidly shared with Giulio Natta's Italian research group under a existing collaboration agreement, leading to a friendly but genuinely competitive race between the two labs to extend the catalyst family's capabilities.",
+          "note": "Ziegler, K. Ziegler-Natta catalysis (1953, see st9). Ziegler directed the Max Planck Institute for Coal Research for over two decades, building it into one of postwar Germany's leading chemistry research centres; the patent disputes over Ziegler-Natta catalyst rights, involving multiple companies and countries, remained legally contested for years even after Ziegler and Natta's shared 1963 Nobel Prize had already publicly settled the scientific credit question.",
+          "links": [
+            "st9"
+          ]
+        },
+        {
+          "id": "fg10",
+          "group": "Pioneers & Theorists",
+          "label": "E.J. Corey",
+          "date": "1967",
+          "loc": "Cambridge, Massachusetts",
+          "coords": [
+            42.37,
+            -71.11
+          ],
+          "tag": "FIGURE",
+          "hint": "Corey didn't just develop retrosynthetic analysis as an abstract idea — he trained generations of Harvard graduate students to apply it explicitly and rigorously, and later worked with computer scientists to encode the same systematic disconnection logic into some of the earliest computer-assisted organic synthesis planning software, treating synthesis design as a formal problem-solving discipline rather than an intuitive art passed down informally between mentors and students.",
+          "note": "Corey, E.J. Retrosynthetic analysis (1967, see th8). Corey received the 1990 Nobel Prize in Chemistry substantially for developing retrosynthesis as a systematic methodology rather than for any single specific total synthesis achievement, an unusual basis for the prize that reflected how thoroughly his analytical framework had reshaped how the entire field approached synthesis planning.",
+          "links": [
+            "th8"
+          ]
+        },
+        {
+          "id": "fg11",
+          "group": "Pioneers & Theorists",
+          "label": "Robert Woodward",
+          "date": "1965",
+          "loc": "Cambridge, Massachusetts",
+          "coords": [
+            42.37,
+            -71.11
+          ],
+          "tag": "FIGURE",
+          "hint": "Widely considered the twentieth century's most accomplished total synthesis chemist, Woodward successfully synthesised extraordinarily complex natural products — including quinine, cholesterol, and chlorophyll — that many contemporaries considered essentially unsynthesisable, while also, separately, developing the purely theoretical Woodward-Hoffmann rules governing an entire class of reactions from first principles.",
+          "note": "Woodward, R.B. Woodward-Hoffmann rules (1965, see th7). Woodward received the 1965 Nobel Prize in Chemistry for his organic synthesis work generally, several years before the Woodward-Hoffmann rules themselves were even published; he died suddenly in 1979 while still leading a major international collaborative effort to synthesise the complex antibiotic erythromycin, a project his collaborators completed and published shortly after his death.",
+          "links": [
+            "th7"
+          ]
+        },
+        {
+          "id": "fg12",
+          "group": "Pioneers & Theorists",
+          "label": "Charles Goodyear",
+          "date": "1839",
+          "loc": "Woburn, Massachusetts",
+          "coords": [
+            42.48,
+            -71.15
+          ],
+          "tag": "FIGURE",
+          "hint": "Goodyear pursued rubber's stability problem for years with no formal chemistry training at all, driven by a near-obsessive personal conviction that the material's usefulness could somehow be unlocked, cycling through repeated bankruptcies and even a spell in debtor's prison before his accidental discovery — and then, despite that discovery's transformative commercial value, spent much of the rest of his life in expensive, largely unsuccessful legal battles defending his patents.",
+          "note": "Goodyear, C. Vulcanization (1839, see ef1). Goodyear died in 1860 still deeply in debt despite vulcanised rubber's enormous and rapidly growing commercial importance by that point; the Goodyear Tire and Rubber Company, founded decades after his death in 1898, was named in his honour by its founders but had no direct business or family connection to Goodyear himself.",
+          "links": [
+            "ef1"
+          ]
+        },
+        {
+          "id": "fg13",
+          "group": "Pioneers & Theorists",
+          "label": "Otto Diels",
+          "date": "1928",
+          "loc": "Kiel, Germany",
+          "coords": [
+            54.32,
+            10.12
+          ],
+          "tag": "FIGURE",
+          "hint": "Diels supervised Kurt Alder's doctoral research at the University of Kiel when the two together discovered the diene-plus-dienophile ring-forming reaction now bearing both their names — a genuinely equal, closely collaborative partnership between supervisor and student that the shared 1950 Nobel Prize explicitly recognised, an outcome not every advisor-student pairing of major discoveries has received.",
+          "note": "Diels, O. & Alder, K. Diels-Alder reaction (1928, see st6). Diels lost both of his sons in the Second World War and continued directing his Kiel institute through the war's severe material shortages; the Diels-Alder reaction remains, nearly a century later, one of the single most useful and most frequently employed ring-forming reactions in all of organic synthesis, taught in essentially every introductory course.",
+          "links": [
+            "st6"
+          ]
+        }
+      ]
     },
     {
       "id": "debate",
