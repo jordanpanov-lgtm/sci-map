@@ -797,7 +797,113 @@
       "accent": "#8B5E00",
       "bg": "#FFF8F0",
       "subtitle": "The tools and paradigms that generate the field's evidence",
-      "entries": []
+      "entries": [
+        {
+          "id": "me1",
+          "group": "Newtonian Mechanics: Force & Motion",
+          "label": "Dimensional Analysis",
+          "date": "1914",
+          "loc": "Washington, D.C.",
+          "coords": [
+            38.91,
+            -77.04
+          ],
+          "tag": "METHOD",
+          "hint": "Every physical quantity is built from a small set of base dimensions — length, mass, time — and any correct physical equation must balance these dimensions on both sides, a constraint powerful enough to deduce the general form of a relationship between quantities without solving the underlying physics in detail. Edgar Buckingham's systematic version of this reasoning, now called the Pi theorem, turns dimensional bookkeeping into a genuine predictive method rather than just a sanity check.",
+          "note": "Buckingham, E. (1914). 'On Physically Similar Systems: Illustrations of the Use of Dimensional Equations.' Physical Review, 4(4), 345–376, at the US National Bureau of Standards. Joseph Fourier had already argued in 1822 that physical equations must be dimensionally homogeneous; Buckingham's Pi theorem formalised how to systematically construct the complete set of dimensionless groups governing any physical problem, a technique still used to design scaled-down wind tunnel and ship-hull models today.",
+          "links": [
+            "th1"
+          ]
+        },
+        {
+          "id": "me2",
+          "group": "Analytical Mechanics: Lagrangian & Hamiltonian Reformulations",
+          "label": "The Principle of Virtual Work",
+          "date": "1717",
+          "loc": "Basel, Switzerland",
+          "coords": [
+            47.56,
+            7.59
+          ],
+          "tag": "METHOD",
+          "hint": "To find the equilibrium condition of a complicated mechanical system without working out every individual constraint force, imagine displacing it by an infinitesimal hypothetical ('virtual') amount consistent with its constraints and demand that the total work done by all real forces during that imagined displacement sums to zero. The technique quietly sidesteps having to calculate forces — like the tension in a rigid rod, or the normal force from a constraining surface — that do no actual work and therefore don't need to be found at all.",
+          "note": "Bernoulli, J. Letter to Pierre Varignon, 1717, Basel, first stating the principle in general form; Varignon and later Lagrange (see th10) developed it into a full systematic method. The principle of virtual work is the direct conceptual seed from which Lagrange built his entire analytical mechanics, and from which, via Hamilton's principle, the calculus-of-variations formulation of physics ultimately descends.",
+          "links": [
+            "th10"
+          ]
+        },
+        {
+          "id": "me3",
+          "group": "Energy, Work & Conservation",
+          "label": "Calorimetry",
+          "date": "1783",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "METHOD",
+          "hint": "To measure how much heat a chemical reaction or physical process releases or absorbs, place it inside a sealed, insulated container and measure how much ice it melts, or how much a surrounding water bath's temperature changes — converting an invisible quantity, heat flow, into a directly readable number. Antoine Lavoisier and Pierre-Simon Laplace's ice calorimeter was the first instrument precise enough to make such measurements genuinely quantitative.",
+          "note": "Lavoisier, A. & Laplace, P.S. (1783). 'Mémoire sur la chaleur.' Mémoires de l'Académie Royale des Sciences, Paris. The device measured heat by the mass of ice melted around a reaction chamber, exploiting the fact that melting ice absorbs a fixed, known quantity of heat per gram at a constant temperature; modern calorimetry, still built on the same core principle, remains standard across chemistry, nutrition science, and materials engineering.",
+          "links": [
+            "th3"
+          ]
+        },
+        {
+          "id": "me4",
+          "group": "Statistical Mechanics & Kinetic Theory",
+          "label": "Molecular Dynamics Simulation",
+          "date": "1957",
+          "loc": "Livermore, California",
+          "coords": [
+            37.68,
+            -121.77
+          ],
+          "tag": "METHOD",
+          "hint": "Instead of solving a many-particle system's statistical behaviour analytically, molecular dynamics simulates it directly: assign every particle a position and velocity, compute the forces between them, and step the whole system forward in tiny time increments on a computer, tracking every collision explicitly. The technique turned questions that were analytically intractable for realistic numbers of particles into questions a sufficiently large computer could simply brute-force.",
+          "note": "Alder, B.J. & Wainwright, T.E. (1957). 'Phase Transition for a Hard Sphere System.' The Journal of Chemical Physics, 27(5), 1208–1209, at Lawrence Livermore National Laboratory, among the first uses of a digital computer to simulate particle dynamics directly. Modern molecular dynamics now routinely simulates millions of atoms for nanoseconds to microseconds of physical time, essential to computational chemistry, materials science, and protein-folding research.",
+          "links": [
+            "th9",
+            "co9"
+          ]
+        },
+        {
+          "id": "me5",
+          "group": "Analytical Mechanics: Lagrangian & Hamiltonian Reformulations",
+          "label": "Perturbation Theory",
+          "date": "1846",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "METHOD",
+          "hint": "When a system is almost, but not quite, exactly solvable — a planet's orbit, disturbed only slightly by the gravitational pull of other planets besides the Sun — perturbation theory treats the small disturbance as a correction added on top of the exactly solvable idealised case, systematically computing ever more accurate approximations rather than attempting to solve the full, intractable problem directly. It converted celestial mechanics from a science of exact two-body solutions into one capable of handling the messy reality of an entire solar system.",
+          "note": "Le Verrier, U. (1846). 'Sur la planète qui produit les anomalies observées dans le mouvement d'Uranus.' Comptes Rendus de l'Académie des Sciences, 23, Paris. Le Verrier used perturbation theory to calculate exactly where an unseen planet's gravity must be tugging on Uranus's orbit to explain its observed deviations — and Neptune was found by telescope, within about one degree of his predicted position, the same year, without ever having been directly observed before.",
+          "links": [
+            "th2",
+            "th11"
+          ]
+        },
+        {
+          "id": "me6",
+          "group": "Fluid Mechanics",
+          "label": "Wind Tunnel Testing",
+          "date": "1871",
+          "loc": "Greenwich, England",
+          "coords": [
+            51.48,
+            0
+          ],
+          "tag": "METHOD",
+          "hint": "Rather than testing a full-scale aircraft or structure in real flight or real wind, wind tunnel testing instead holds a stationary scale model fixed in place and drives air past it at controlled speed, letting the forces and airflow patterns be measured precisely and repeatably under controlled, safely repeatable laboratory conditions. The method depends on dimensional analysis to correctly translate results from a small scale model back to full size.",
+          "note": "Wenham, F.H. (1871). Built the first enclosed wind tunnel for the Aeronautical Society of Great Britain, Greenwich, England, powered by a steam-driven fan. The Wright brothers used a small homemade wind tunnel to systematically test dozens of wing shapes before their 1903 first flight; modern wind tunnels remain essential to aircraft, automobile, and building design despite the rise of computational fluid dynamics as a complementary tool.",
+          "links": [
+            "me1",
+            "ap4"
+          ]
+        }
+      ]
     },
     {
       "id": "figure",
@@ -807,7 +913,242 @@
       "accent": "#B7770D",
       "bg": "#FEFDE7",
       "subtitle": "The researchers who shaped the discipline",
-      "entries": []
+      "entries": [
+        {
+          "id": "fg1",
+          "group": "Pioneers & Theorists",
+          "label": "Isaac Newton",
+          "date": "1687",
+          "loc": "Cambridge, England",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "tag": "FIGURE",
+          "hint": "Widely regarded as the single most influential physicist in history, Newton unified the mechanics of falling apples and orbiting planets into one mathematical framework, invented the calculus needed to state it rigorously, and along the way made foundational contributions to optics — while also spending decades of his later life on alchemy and biblical chronology, subjects he considered at least as important as his physics.",
+          "note": "Newton, I. Philosophiæ Naturalis Principia Mathematica (1687, see th1, th2). Newton was famously reclusive and litigious in his priority disputes, most notably an acrimonious decades-long feud with Gottfried Leibniz over who invented calculus first (most historians now credit both as independent co-inventors) and a separate dispute with Robert Hooke over credit for the inverse-square law itself.",
+          "links": [
+            "th1",
+            "th2"
+          ]
+        },
+        {
+          "id": "fg2",
+          "group": "Pioneers & Theorists",
+          "label": "James Clerk Maxwell",
+          "date": "1860",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "FIGURE",
+          "hint": "Beyond founding the kinetic theory of gases and deriving the statistical distribution of molecular speeds, Maxwell separately unified electricity, magnetism, and light into a single set of field equations — arguably making him the only physicist besides Newton and Einstein to fundamentally reshape an entire branch of physics essentially single-handedly, work covered in full in the electromagnetism folio.",
+          "note": "Maxwell, J.C. 'Illustrations of the Dynamical Theory of Gases' (1860, see th9); 'On the Dynamical Theory of Gases' (1867, see st5). Maxwell died of abdominal cancer at just 48, the same disease that had killed his mother at almost exactly the same age; Einstein reportedly kept a photograph of Maxwell on his study wall alongside Newton and Faraday.",
+          "links": [
+            "th9",
+            "st5"
+          ]
+        },
+        {
+          "id": "fg3",
+          "group": "Pioneers & Theorists",
+          "label": "Ludwig Boltzmann",
+          "date": "1877",
+          "loc": "Vienna, Austria",
+          "coords": [
+            48.21,
+            16.37
+          ],
+          "tag": "FIGURE",
+          "hint": "Boltzmann gave entropy and the Second Law a rigorous statistical foundation in terms of atoms and molecules, at a time when many leading physicists and philosophers, including Ernst Mach, still publicly doubted that atoms were physically real rather than a convenient calculating device. The bitter, sustained opposition to his atomic viewpoint is often cited as a contributing factor in his death by suicide in 1906, just a few years before Perrin's experiments (see st9) vindicated his atomic picture beyond serious dispute.",
+          "note": "Boltzmann, L. 'Über die Beziehung zwischen dem zweiten Hauptsatze...' (1877, see st6). Boltzmann's tombstone in Vienna's Zentralfriedhof is engraved with his entropy formula, S = k log W; his intense, decades-long advocacy for the atomic hypothesis, against Mach's and Wilhelm Ostwald's rival 'energeticist' school, is now considered one of the great vindicated scientific minority positions in the history of physics.",
+          "links": [
+            "st6",
+            "db1"
+          ]
+        },
+        {
+          "id": "fg4",
+          "group": "Pioneers & Theorists",
+          "label": "Sadi Carnot",
+          "date": "1824",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "FIGURE",
+          "hint": "A French military engineer who published exactly one scientific paper in his short life, Carnot founded the entire discipline of thermodynamics by analysing steam engines abstractly, deriving a universal efficiency limit that applies to any heat engine whatsoever, using a theory of heat that was itself later shown to be fundamentally wrong.",
+          "note": "Carnot, S. Réflexions sur la puissance motrice du feu (1824, see st3). Carnot died of cholera at 36 in 1832; per contemporary public-health protocol for the disease, most of his personal papers and belongings were burned, permanently destroying whatever further unpublished work he may have left behind.",
+          "links": [
+            "st3",
+            "db4"
+          ]
+        },
+        {
+          "id": "fg5",
+          "group": "Pioneers & Theorists",
+          "label": "Rudolf Clausius",
+          "date": "1865",
+          "loc": "Zurich, Switzerland",
+          "coords": [
+            47.38,
+            8.54
+          ],
+          "tag": "FIGURE",
+          "hint": "Clausius gave thermodynamics both its First and Second Laws essentially in the same 1850 paper, then coined the word 'entropy' fifteen years later specifically to give the Second Law's central quantity a proper name — deliberately choosing a term that sounded close to 'energy,' since he considered the two concepts intimately related despite entropy's far stranger, one-directional behaviour.",
+          "note": "Clausius, R. 'Über die bewegende Kraft der Wärme' (1850, see th7, st4); 'Über verschiedene für die Anwendung bequeme Formen...' (1865, see th8). Clausius also served as an ambulance corpsman during the Franco-Prussian War in 1870–71, and was wounded in the leg while tending to casualties, leaving him with a permanent limp for the rest of his life.",
+          "links": [
+            "th7",
+            "th8"
+          ]
+        },
+        {
+          "id": "fg6",
+          "group": "Pioneers & Theorists",
+          "label": "James Prescott Joule",
+          "date": "1843",
+          "loc": "Manchester, England",
+          "coords": [
+            53.48,
+            -2.24
+          ],
+          "tag": "FIGURE",
+          "hint": "A wealthy brewer's son with no university training, Joule spent years and a substantial part of his personal fortune on exhaustive, painstakingly precise experiments proving that heat and mechanical work are directly interconvertible — research the physics establishment initially dismissed, since it came from someone entirely outside the normal channels of academic science.",
+          "note": "Joule, J.P. 'On the Mechanical Equivalent of Heat' (1850, see st2). The SI unit of energy, the joule, is named in his honour; Joule reportedly conducted physics experiments even on his honeymoon, attempting (unsuccessfully, given his instruments' limitations) to measure the temperature difference between the top and bottom of a Swiss waterfall, expected from the water's gravitational potential energy converting to heat on impact.",
+          "links": [
+            "st2",
+            "th3"
+          ]
+        },
+        {
+          "id": "fg7",
+          "group": "Pioneers & Theorists",
+          "label": "Joseph-Louis Lagrange",
+          "date": "1788",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "FIGURE",
+          "hint": "Considered by Napoleon 'the lofty pyramid of the mathematical sciences,' Lagrange reformulated the whole of mechanics as a branch of pure mathematical analysis, famously boasting that his monumental Mécanique analytique contained not a single diagram — geometry itself, he felt, had become unnecessary once the underlying calculus was properly developed.",
+          "note": "Lagrange, J.L. Mécanique analytique (1788, see th10). Italian by birth (born Giuseppe Lodovico Lagrangia in Turin), Lagrange worked at the Berlin Academy under Frederick the Great for over twenty years before moving to Paris in 1787; he survived the French Revolution's Reign of Terror relatively unscathed, reportedly protected in part by his scientific reputation, unlike his contemporary Antoine Lavoisier.",
+          "links": [
+            "th10",
+            "fg8"
+          ]
+        },
+        {
+          "id": "fg8",
+          "group": "Pioneers & Theorists",
+          "label": "William Rowan Hamilton",
+          "date": "1833",
+          "loc": "Dublin, Ireland",
+          "coords": [
+            53.35,
+            -6.26
+          ],
+          "tag": "FIGURE",
+          "hint": "A genuine child prodigy who reportedly knew a dozen languages by his early teens, Hamilton was appointed Royal Astronomer of Ireland and professor of astronomy at Trinity College Dublin at just 22, before he had even finished his own undergraduate degree — and went on to reformulate mechanics in a way that, a century later, became the direct mathematical template for quantum mechanics.",
+          "note": "Hamilton, W.R. 'On a General Method of Expressing the Paths of Light and of the Planets...' (1833, see th11). Hamilton is also famous for carving his newly discovered equation for quaternions — a number system extending complex numbers — into the stone of Dublin's Broom Bridge in 1843, in a sudden flash of insight while walking with his wife along the Royal Canal.",
+          "links": [
+            "th11",
+            "fg7"
+          ]
+        },
+        {
+          "id": "fg9",
+          "group": "Pioneers & Theorists",
+          "label": "Josiah Willard Gibbs",
+          "date": "1902",
+          "loc": "New Haven, Connecticut",
+          "coords": [
+            41.31,
+            -72.93
+          ],
+          "tag": "FIGURE",
+          "hint": "Notoriously reclusive and famously reluctant to seek recognition for his own work, Gibbs held the first professorship of mathematical physics in the United States, worked without salary for nearly a decade because Yale had no funds to pay him, and produced statistical mechanics' complete modern mathematical foundation largely in isolation from the European physics community that was independently developing similar ideas at the same time.",
+          "note": "Gibbs, J.W. Elementary Principles in Statistical Mechanics (1902, see co9). Gibbs rarely left New Haven, Connecticut in his entire adult life and published relatively little, but what he did publish — Gibbs free energy, the phase rule, vector analysis, and his statistical mechanics — quietly reshaped multiple branches of physics and chemistry; Einstein reportedly called him 'the greatest mind in American history.'",
+          "links": [
+            "co9",
+            "co5"
+          ]
+        },
+        {
+          "id": "fg10",
+          "group": "Pioneers & Theorists",
+          "label": "Léon Foucault",
+          "date": "1851",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "FIGURE",
+          "hint": "A physician-trained scientist with no formal physics education, Foucault gave the world its first purely mechanical, Earth-bound proof of the planet's rotation using nothing more than a long pendulum and careful observation, then followed it a year later by inventing and naming the gyroscope to demonstrate the same rotation a second, independent way.",
+          "note": "Foucault, L. Pendulum demonstration, Panthéon, Paris (1851, see st7); gyroscope invention (1852, see ef8). Foucault also made one of the most precise nineteenth-century measurements of the speed of light and was the first to demonstrate experimentally that light travels slower in water than in air, a result that helped settle the long-running debate between the particle and wave theories of light in favour of the wave picture.",
+          "links": [
+            "st7",
+            "ef8"
+          ]
+        },
+        {
+          "id": "fg11",
+          "group": "Pioneers & Theorists",
+          "label": "Jean le Rond d'Alembert",
+          "date": "1743",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "FIGURE",
+          "hint": "Abandoned as an infant on the steps of a Paris church by his mother, a prominent socialite who never publicly acknowledged him, d'Alembert was raised by a glazier's family and went on to become one of the Enlightenment's leading mathematicians, co-editing the monumental Encyclopédie alongside Diderot while also reformulating Newtonian mechanics into a form that treated every dynamics problem as an equivalent statics problem.",
+          "note": "d'Alembert, J. Traité de dynamique (1743), Paris, introducing what is now called d'Alembert's principle — restating any dynamics problem as a statics problem by introducing a fictitious 'inertial force' equal and opposite to mass times acceleration. The principle is the direct ancestor of the fluid-dynamics paradox that bears his name (see db7), discovered while d'Alembert was attempting to mathematically calculate drag on a body moving through an ideal fluid.",
+          "links": [
+            "db7"
+          ]
+        },
+        {
+          "id": "fg12",
+          "group": "Pioneers & Theorists",
+          "label": "Daniel Bernoulli",
+          "date": "1738",
+          "loc": "Basel, Switzerland",
+          "coords": [
+            47.56,
+            7.59
+          ],
+          "tag": "FIGURE",
+          "hint": "Born into a mathematical dynasty so competitive his own father reportedly plagiarised one of his results and tried to claim priority for it, Daniel Bernoulli's Hydrodynamica gave fluid flow its first rigorous mathematical treatment, deriving the pressure-speed relationship that explains aircraft lift over 150 years before powered flight existed.",
+          "note": "Bernoulli, D. Hydrodynamica (1738, see th5). Bernoulli's father Johann published his own, largely derivative Hydraulica in 1739 but backdated it to 1732 in an apparent attempt to claim priority over his son's work — a episode that permanently damaged their already strained relationship; Daniel also made major independent contributions to probability and utility theory, covered in the applied-math-statistics folio.",
+          "links": [
+            "th5"
+          ],
+          "xlinks": [
+            "applied-math-statistics::ef3"
+          ]
+        },
+        {
+          "id": "fg13",
+          "group": "Pioneers & Theorists",
+          "label": "Robert Brown",
+          "date": "1827",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "FIGURE",
+          "hint": "A Scottish botanist rather than a physicist, Brown noticed and carefully documented the ceaseless jittery motion of pollen grains suspended in water under his microscope, ruled out that the motion was some form of biological activity, but had no physical explanation for it — leaving the phenomenon that now bears his name as an unsolved puzzle for nearly eighty years, until Einstein and Perrin explained it.",
+          "note": "Brown, R. 'A Brief Account of Microscopical Observations...' (1828, see ef1). Brown was already a distinguished botanist before this observation, having earlier identified and named the cell nucleus; the botanical work that made him famous in his own lifetime is now largely overshadowed, in physics classrooms at least, by the molecular-motion phenomenon he stumbled into almost as a side note.",
+          "links": [
+            "ef1"
+          ]
+        }
+      ]
     },
     {
       "id": "debate",
