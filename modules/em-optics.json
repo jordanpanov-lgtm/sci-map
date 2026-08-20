@@ -449,7 +449,173 @@
       "accent": "#117A65",
       "bg": "#F0FFF6",
       "subtitle": "Named, replicable patterns in electromagnetic and optical systems",
-      "entries": []
+      "entries": [
+        {
+          "id": "ef1",
+          "group": "Geometric Optics",
+          "label": "Total Internal Reflection",
+          "date": "1870",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Light travelling inside a denser medium and striking the boundary with a less dense medium at a steep enough angle reflects entirely back inside, as if the boundary were a perfect mirror, rather than partly refracting through as it normally would. John Tyndall demonstrated the effect vividly by shining light into a curved stream of water flowing from a tank, showing the light stayed trapped inside the water jet, bending around its curve — the direct ancestor of the fibre-optic cable.",
+          "note": "Tyndall, J. (1870). Public lecture demonstration, Royal Institution, London, popularising an effect first noted by Jean-Daniel Colladon in Geneva in the early 1840s. Total internal reflection only occurs above a specific 'critical angle' set by the two media's refractive indices; below that angle, light still partially refracts through the boundary as usual.",
+          "links": [
+            "co5",
+            "ap3"
+          ]
+        },
+        {
+          "id": "ef2",
+          "group": "Geometric Optics",
+          "label": "The Rainbow",
+          "date": "1304",
+          "loc": "Freiberg, Germany",
+          "coords": [
+            50.91,
+            13.34
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Sunlight entering a raindrop refracts, reflects once off the droplet's inner back surface, and refracts again on its way out, with the exact angle this whole path bends light depending slightly on wavelength — spreading white sunlight into the familiar arc of colours. A fainter, wider secondary rainbow, with its colours reversed, comes from light that reflects twice inside the droplet before emerging.",
+          "note": "Theodoric of Freiberg (c. 1304). De iride et radialibus impressionibus, written while Theodoric was a Dominican friar in Freiberg. Theodoric correctly worked out the primary and secondary bow's geometry using glass spheres filled with water to model individual raindrops, over three centuries before Descartes' independent 1637 refinement using early calculus-adjacent methods, though Theodoric's work remained largely unknown outside a narrow scholarly circle for centuries.",
+          "links": [
+            "th8"
+          ]
+        },
+        {
+          "id": "ef3",
+          "group": "Wave Optics: Interference, Diffraction & Polarization",
+          "label": "Newton's Rings",
+          "date": "1704",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Pressing a slightly curved glass lens against a flat glass plate produces a pattern of concentric bright and dark rings, radiating outward from the point of contact — caused by light reflecting off the thin, wedge-shaped air gap between the two glass surfaces and interfering with itself, constructively at some thicknesses and destructively at others.",
+          "note": "Newton, I. (1704). Opticks. London: Royal Society, Book II — though Robert Hooke had already observed and described the same rings in his 1665 Micrographia. Newton, working within his corpuscular theory of light, could describe the ring pattern mathematically with real precision but never gave a satisfying explanation for why it occurred, a puzzle only properly resolved once the wave theory of light was established over a century later.",
+          "links": [
+            "th9"
+          ]
+        },
+        {
+          "id": "ef4",
+          "group": "The Electromagnetic Spectrum & Spectroscopy",
+          "label": "The Doppler Effect (for Light)",
+          "date": "1842",
+          "loc": "Prague, Czech Republic",
+          "coords": [
+            50.09,
+            14.42
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Light from a source moving toward an observer is compressed to shorter, bluer wavelengths, and light from a source moving away is stretched to longer, redder wavelengths — the same pitch-shifting effect a passing ambulance siren produces for sound, but for light. The effect is central to modern astronomy, since a star or galaxy's redshift directly reveals how fast it's moving away from Earth.",
+          "note": "Doppler, C. (1842). 'Über das farbige Licht der Doppelsterne und einiger anderer Gestirne des Himmels.' Abhandlungen der Königlichen Böhmischen Gesellschaft der Wissenschaften, Prague. Doppler originally (and incorrectly) proposed the effect as the explanation for why some binary stars appear different colours, a specific claim later shown to be wrong; the general principle itself, refined by Hippolyte Fizeau for light in 1848, proved exactly correct and became foundational to twentieth-century observational cosmology.",
+          "links": [
+            "co4"
+          ]
+        },
+        {
+          "id": "ef5",
+          "group": "Magnetism & Electromagnetic Induction",
+          "label": "The Aurora Borealis",
+          "date": "1908",
+          "loc": "Christiania (Oslo), Norway",
+          "coords": [
+            59.91,
+            10.75
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Charged particles streaming from the Sun are funnelled by Earth's magnetic field toward the poles, where they collide with atoms high in the atmosphere and make them glow — producing the shifting curtains of green, red, and violet light visible in the polar sky. The specific colours depend on which atmospheric gas is doing the glowing and at what altitude: green and red from oxygen, blue and purple from nitrogen.",
+          "note": "Birkeland, K. (1908–13). The Norwegian Aurora Polaris Expedition 1902–1903, Christiania. Birkeland built a magnetised sphere ('terrella') in a vacuum chamber and bombarded it with an electron beam, reproducing auroral-like glowing rings around its magnetic poles in miniature; his theory that the aurora is driven by solar particles interacting with Earth's magnetic field was met with considerable skepticism for decades and was only fully vindicated by direct satellite measurements of the solar wind in the 1960s.",
+          "links": [
+            "th3"
+          ]
+        },
+        {
+          "id": "ef6",
+          "group": "Electrostatics & Circuits",
+          "label": "The Skin Effect",
+          "date": "1883",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "An alternating electric current flowing through a conductor doesn't distribute itself evenly through the wire's whole cross-section — it concentrates increasingly near the outer surface as the frequency rises, leaving the conductor's core carrying almost no current at all at high enough frequencies. The effect means high-frequency wires and cables are often built as thin conductive tubes or braids rather than solid rods, since the unused interior material would be wasted.",
+          "note": "Rayleigh, Lord (J.W. Strutt) (1886) and Oliver Heaviside (1884–89) independently worked out the mathematical theory, building on Horace Lamb's earlier 1883 analysis of related electromagnetic induction problems, largely developed while Heaviside worked from home in London on telegraph transmission theory. The skin effect sets a hard practical limit on how efficiently high-frequency and radio-frequency currents can be carried through ordinary wire, motivating specialised conductor designs like Litz wire.",
+          "links": [
+            "th2"
+          ]
+        },
+        {
+          "id": "ef7",
+          "group": "Electrostatics & Circuits",
+          "label": "The Faraday Cage",
+          "date": "1836",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "An enclosure made of conducting material blocks external electric fields from reaching whatever is inside it, because the enclosure's own free charges instantly rearrange themselves to exactly cancel the external field throughout the interior — the same principle that keeps you safe from a lightning strike inside a metal-bodied car, and that shields sensitive electronics from outside electromagnetic interference.",
+          "note": "Faraday, M. (1836). 'Experimental Researches in Electricity, Eleventh Series.' Philosophical Transactions of the Royal Society, at the Royal Institution, London — the famous 'ice pail experiment,' in which Faraday showed a charged object lowered into a metal container induces an exactly equal and opposite charge on the container's outside, with the container's interior remaining entirely field-free regardless of the charged object's exact position inside.",
+          "links": [
+            "co1",
+            "th4"
+          ]
+        },
+        {
+          "id": "ef8",
+          "group": "Geometric Optics",
+          "label": "Fata Morgana and Atmospheric Mirages",
+          "date": "1798",
+          "loc": "Cairo, Egypt",
+          "coords": [
+            30.04,
+            31.24
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Light bends as it passes through air layers of different temperature and density, and under the right conditions — a sharp temperature gradient near the ground or sea surface — this bending can produce dramatically distorted, stretched, or even inverted and stacked images of distant objects, including ships, coastlines, or the horizon itself appearing to float, tower, or duplicate.",
+          "note": "Monge, G. (1798–99). Described during Napoleon's Egyptian campaign, giving one of the first physically grounded scientific explanations of desert mirages as continuous atmospheric refraction rather than any kind of optical illusion originating in the eye or mind. The more elaborate 'Fata Morgana' variant, producing tall, complex, rapidly shifting images, requires a specific temperature-inversion layer and is most commonly seen over polar seas and the Strait of Messina, the location its Italian name (after the sorceress Morgan le Fay) originally referenced.",
+          "links": [
+            "co5"
+          ]
+        },
+        {
+          "id": "ef9",
+          "group": "The Electromagnetic Spectrum & Spectroscopy",
+          "label": "Ionospheric Radio Wave Reflection",
+          "date": "1924",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Radio waves bounced off a layer of electrically charged particles high in the atmosphere can travel far beyond the visual horizon, reflecting back down to Earth and letting a signal skip across enormous distances — including all the way around the curve of the planet — rather than travelling only in the straight line the wave's geometry alone would suggest.",
+          "note": "Appleton, E.V. (1924–25). Experimentally confirmed the reflecting layer's existence at King's College London, following Oliver Heaviside's and Arthur Kennelly's independent 1902 theoretical proposals that such a layer must exist to explain Marconi's 1901 transatlantic radio transmission (see db6). Appleton received the 1947 Nobel Prize in Physics for the discovery; the ionosphere's reflectivity varies significantly with solar activity and time of day, a major practical complication for long-distance shortwave radio communication.",
+          "links": [
+            "th6",
+            "db6"
+          ]
+        }
+      ]
     },
     {
       "id": "concept",
@@ -459,7 +625,166 @@
       "accent": "#566573",
       "bg": "#F5F6FA",
       "subtitle": "The building blocks and vocabulary every student must command",
-      "entries": []
+      "entries": [
+        {
+          "id": "co1",
+          "group": "Electrostatics & Circuits",
+          "label": "Electric Field",
+          "date": "1852",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "CONCEPT",
+          "hint": "Rather than treating electric forces as instantaneous action reaching directly across empty space between two charges, the field concept treats every charge as continuously filling the space around it with an invisible electric field, and a second charge placed anywhere in that field simply responds to the field's local strength and direction at its own position — removing the need for any charge to somehow act instantaneously at a distance.",
+          "note": "Faraday, M. (1852). 'On the Physical Character of the Lines of Magnetic Force.' Philosophical Magazine, 4th series, 3(20), 401–428, at the Royal Institution, London. Faraday, without significant formal mathematical training, developed the field picture largely through physical intuition and visualisation; James Clerk Maxwell gave it its full rigorous mathematical form a decade later (see th6), famously crediting Faraday's conceptual groundwork as indispensable to his own theory.",
+          "links": [
+            "th1",
+            "ef7"
+          ]
+        },
+        {
+          "id": "co2",
+          "group": "Magnetism & Electromagnetic Induction",
+          "label": "Magnetic Field & Field Lines",
+          "date": "1839",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "CONCEPT",
+          "hint": "Sprinkle iron filings on a sheet of paper held over a magnet, and they arrange themselves into clear curved lines running from one pole to the other — Faraday's 'lines of force,' a direct visualisation of the magnetic field's direction and relative strength at every point in space, dense where the field is strong and sparse where it's weak.",
+          "note": "Faraday, M. Experimental Researches in Electricity, Series I–III, collected edition (1839), London: Richard and John Edward Taylor. Faraday treated the field lines as physically real, not merely a convenient calculating device — a view many contemporaries, more committed to action-at-a-distance thinking, found difficult to accept; Maxwell's later mathematical formalisation vindicated the physical reality of the field description Faraday had insisted on.",
+          "links": [
+            "th4"
+          ]
+        },
+        {
+          "id": "co3",
+          "group": "Electrostatics & Circuits",
+          "label": "Capacitance",
+          "date": "1771",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "CONCEPT",
+          "hint": "Capacitance measures how much electric charge a conductor or pair of conductors can store for a given voltage applied across them — a property depending on the conductors' size, shape, separation, and the material between them, letting devices called capacitors store and release electrical energy rapidly, unlike a battery's comparatively slow chemical charge and discharge.",
+          "note": "Cavendish, H. (c. 1771, unpublished), only made public in Maxwell, J.C. (Ed.) (1879). The Electrical Researches of the Honourable Henry Cavendish. Cambridge: Cambridge University Press. Cavendish had privately and systematically measured what he called 'capacity' decades before the concept was formally named or widely used, but left the work entirely unpublished during his lifetime; Maxwell, editing Cavendish's papers a century later, was startled to find Cavendish had already anticipated several results usually credited to much later researchers.",
+          "links": [
+            "th2"
+          ]
+        },
+        {
+          "id": "co4",
+          "group": "The Electromagnetic Spectrum & Spectroscopy",
+          "label": "Electromagnetic Radiation",
+          "date": "1800",
+          "loc": "Slough, England",
+          "coords": [
+            51.51,
+            -0.6
+          ],
+          "tag": "CONCEPT",
+          "hint": "Visible light is only a narrow slice of a much broader spectrum of electromagnetic radiation — the same basic phenomenon, an oscillating electric and magnetic field travelling through space, differing only in wavelength, from long radio waves through microwaves, infrared, visible light, ultraviolet, X-rays, and gamma rays. William Herschel's discovery of an invisible form of radiation just beyond red light was the first hint that visible light was only part of a much larger picture.",
+          "note": "Herschel, W. (1800). 'Experiments on the Refrangibility of the Invisible Rays of the Sun.' Philosophical Transactions of the Royal Society, 90, 284–292, conducted at his home observatory in Slough. Herschel discovered infrared radiation by measuring temperature with thermometers placed at different points beyond the red end of a sunlight spectrum cast by a prism, finding the highest temperature reading fell in a region where no visible light was present at all.",
+          "links": [
+            "th11",
+            "ef4"
+          ]
+        },
+        {
+          "id": "co5",
+          "group": "Geometric Optics",
+          "label": "Refractive Index",
+          "date": "1817",
+          "loc": "Munich, Germany",
+          "coords": [
+            48.14,
+            11.58
+          ],
+          "tag": "CONCEPT",
+          "hint": "A material's refractive index measures how much slower light travels through it compared to a vacuum, and directly determines how sharply light bends when crossing the material's boundary — a higher refractive index means slower light and sharper bending. Joseph von Fraunhofer used his own newly catalogued dark spectral lines as precise, reproducible reference wavelengths, letting him measure glass refractive indices with unprecedented accuracy for his optical instrument workshop.",
+          "note": "Fraunhofer, J. von (1817). 'Bestimmung des Brechungs- und des Farbenzerstreungs-Vermögens verschiedener Glasarten.' Denkschriften der Königlichen Akademie der Wissenschaften zu München, at his optical instrument workshop in Munich. Fraunhofer's precision glass and lens work, directly enabled by these refractive index measurements, made Bavarian optical instruments the finest available anywhere in the world for decades, transforming telescope and microscope manufacturing.",
+          "links": [
+            "th8",
+            "ef8"
+          ]
+        },
+        {
+          "id": "co6",
+          "group": "Wave Optics: Interference, Diffraction & Polarization",
+          "label": "Coherence",
+          "date": "1819",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "CONCEPT",
+          "hint": "Two light waves can only reliably interfere with each other — producing a stable, visible pattern of bright and dark bands rather than a rapidly flickering, average blur — if they maintain a fixed, unchanging phase relationship with each other over time, a property called coherence. Ordinary light sources like the Sun or a light bulb emit light incoherently, which is exactly why Young's and Fresnel's experiments had to cleverly split a single beam into two rather than simply combining light from two separate lamps.",
+          "note": "Fresnel, A.J. & Arago, D.F.J. (1819). 'Mémoire sur l'action que les rayons de lumière polarisée exercent les uns sur les autres.' Annales de Chimie et de Physique, Paris — the 'Fresnel–Arago laws,' establishing exactly when and whether two light beams can interfere. The concept became essential a century later to the operation of the laser (see ap5), whose defining property is that it produces highly coherent light no ordinary source can match.",
+          "links": [
+            "st9",
+            "st10"
+          ]
+        },
+        {
+          "id": "co7",
+          "group": "The Electromagnetic Spectrum & Spectroscopy",
+          "label": "Spectral Lines",
+          "date": "1814",
+          "loc": "Munich, Germany",
+          "coords": [
+            48.14,
+            11.58
+          ],
+          "tag": "CONCEPT",
+          "hint": "Pass sunlight through a sufficiently narrow slit and a prism, and instead of a perfectly smooth rainbow, the spectrum is crossed by hundreds of thin, dark lines at precise, reproducible wavelengths — each one corresponding to light absorbed by a specific chemical element somewhere between the Sun's surface and the observer, a discovery that turned the spectrum itself into a chemical readout.",
+          "note": "Fraunhofer, J. von (1814–15). 'Bestimmung des Brechungs- und Farben-Zerstreuungsvermögens verschiedener Glasarten.' Denkschriften der Königlichen Akademie der Wissenschaften zu München, at his workshop in Munich, cataloguing what are now called Fraunhofer lines. Fraunhofer counted and catalogued nearly 600 dark lines without knowing what caused them; Kirchhoff and Bunsen supplied the explanation four decades later (see th11), identifying the lines as absorption fingerprints of specific elements.",
+          "links": [
+            "th11",
+            "co5"
+          ]
+        },
+        {
+          "id": "co8",
+          "group": "Electrostatics & Circuits",
+          "label": "Impedance",
+          "date": "1886",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "CONCEPT",
+          "hint": "In an alternating-current circuit, resistance alone isn't enough to describe how a component opposes current flow — capacitors and inductors also introduce a frequency-dependent opposition, and a phase shift between voltage and current, that Ohm's simple law alone can't capture. Impedance generalises resistance into a single quantity accounting for all three effects together, letting AC circuits be analysed using much the same algebraic tools Ohm's law provides for simple DC circuits.",
+          "note": "Heaviside, O. (1886–89). 'Electromagnetic Induction and Its Propagation.' The Electrician, developed largely in isolation while Heaviside worked unpaid and without an academic position, supporting himself on a small income while living with relatives in Devon. Heaviside's operational calculus and impedance concept were initially dismissed by parts of the physics establishment as mathematically unrigorous, though they proved immensely practically useful and were later given a fully rigorous footing.",
+          "links": [
+            "th2"
+          ]
+        },
+        {
+          "id": "co9",
+          "group": "Wave Optics: Interference, Diffraction & Polarization",
+          "label": "Polarization",
+          "date": "1669",
+          "loc": "Copenhagen, Denmark",
+          "coords": [
+            55.68,
+            12.57
+          ],
+          "tag": "CONCEPT",
+          "hint": "Ordinary light vibrates in every direction perpendicular to its direction of travel; polarised light has had all but one specific vibration direction filtered out. Erasmus Bartholin discovered the phenomenon's first clear signature — double refraction — by looking through a clear crystal of Iceland spar and finding it split a single beam of light into two separate, distinctly behaving beams, over a century before anyone understood why.",
+          "note": "Bartholin, E. (1669). Experimenta crystalli islandici disdiaclastici. Copenhagen, describing calcite's unusual double-refraction property. Huygens (1690, see th9) offered a partial wave-based explanation for the two beams' different behaviour; the full picture, that the two beams are polarised at right angles to each other, was only established by Malus's and Fresnel's work well over a century later (see th10).",
+          "links": [
+            "th10"
+          ]
+        }
+      ]
     },
     {
       "id": "method",
