@@ -451,7 +451,171 @@
       "accent": "#117A65",
       "bg": "#F0FFF6",
       "subtitle": "Named, replicable patterns in organic and polymer systems",
-      "entries": []
+      "entries": [
+        {
+          "id": "ef1",
+          "group": "Polymer Chemistry",
+          "label": "Vulcanization of Rubber",
+          "date": "1839",
+          "loc": "Woburn, Massachusetts",
+          "coords": [
+            42.48,
+            -71.15
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Raw natural rubber is sticky, weak, and turns brittle in cold weather or gooey in heat — nearly useless for most practical purposes — but heating it together with sulfur creates permanent cross-links between the long polymer chains, transforming it into a strong, elastic, temperature-stable material suitable for tyres, seals, and countless other uses.",
+          "note": "Goodyear, C. (1839). Discovered accidentally at his home workshop in Woburn, Massachusetts, when a mixture of rubber and sulfur was dropped onto a hot stove. Goodyear spent years afterward in poverty pursuing patents and licensing disputes despite the discovery's eventual enormous commercial value, and died deeply in debt in 1860; the process's name, coined later by a business partner, references Vulcan, the Roman god of fire.",
+          "links": [
+            "ef5"
+          ]
+        },
+        {
+          "id": "ef2",
+          "group": "Stereochemistry",
+          "label": "Mutarotation",
+          "date": "1846",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Freshly dissolved glucose's optical rotation drifts gradually over several hours before settling at a stable final value — not because the molecule is decomposing, but because glucose exists in solution as an equilibrium mixture of two distinct ring-closed forms plus a small amount of open-chain form, continuously interconverting until the mixture reaches its natural equilibrium proportions.",
+          "note": "Dubrunfaut, A.P. (1846). Early observations of the phenomenon in sugar-industry quality-control contexts, Paris. Emil Fischer's later structural work on glucose (see st4) provided the specific chemical explanation — the ring can close in two different orientations at the newly formed stereocentre — that mutarotation had raised as a puzzle decades before Fischer supplied the answer.",
+          "links": [
+            "st4"
+          ]
+        },
+        {
+          "id": "ef3",
+          "group": "Reaction Mechanisms",
+          "label": "Keto-Enol Tautomerism",
+          "date": "1885",
+          "loc": "Berlin, Germany",
+          "coords": [
+            52.52,
+            13.41
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Certain organic compounds exist as a rapidly interconverting equilibrium between two genuinely distinct structural forms — a 'keto' form with a carbon-oxygen double bond, and an 'enol' form with the double bond shifted to sit between two carbons instead, accompanied by a moved hydrogen — with the two forms differing enough in reactivity that which one predominates can determine an entire reaction's outcome.",
+          "note": "Laar, C. (1885). 'Über die Möglichkeit mehrerer Structurformeln für dieselbe chemische Verbindung (Tautomerie).' Berichte der Deutschen Chemischen Gesellschaft, 18(1), 648–657, coining the term 'tautomerism' itself. Most simple ketones sit overwhelmingly on the keto side of the equilibrium at room temperature, but the small enol fraction present at any moment is exactly what makes many characteristic carbonyl reactions, including numerous carbon-carbon bond-forming reactions in synthesis, possible at all.",
+          "links": [
+            "co5"
+          ]
+        },
+        {
+          "id": "ef4",
+          "group": "Reaction Mechanisms",
+          "label": "cis-trans Photoisomerization in Vision",
+          "date": "1958",
+          "loc": "Cambridge, Massachusetts",
+          "coords": [
+            42.37,
+            -71.11
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "A single photon of light striking the retinal molecule inside a rod or cone cell flips one of its double bonds from a bent 'cis' shape to a straight 'trans' shape, and that one geometric change alone — happening in roughly a trillionth of a second — is the entire physical trigger that starts the nerve signal cascade the brain eventually interprets as seeing light.",
+          "note": "Wald, G. (1958). Established the specific molecular mechanism of retinal's role in vision at Harvard University, building on decades of his own earlier biochemical work on vitamin A and vision beginning in the 1930s. Wald shared the 1967 Nobel Prize in Physiology or Medicine for the discovery; the reaction is among the fastest known chemical processes in any biological system, and the cis-to-trans switch itself requires no external energy source beyond the absorbed photon.",
+          "links": [
+            "co3"
+          ]
+        },
+        {
+          "id": "ef5",
+          "group": "Polymer Chemistry",
+          "label": "Rubber's Entropic Elasticity",
+          "date": "1934",
+          "loc": "Vienna, Austria",
+          "coords": [
+            48.21,
+            16.37
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Stretched rubber snaps back not primarily because stretching stores energy in strained chemical bonds, the way a metal spring does, but because stretching forces the polymer's long, naturally coiled-up chains into a straighter, far less probable arrangement — and the chains simply spring back toward the vastly more numerous coiled configurations available to them the instant the stretching force is released, a form of elasticity driven by entropy rather than bond energy.",
+          "note": "Guth, E. & Mark, H. (1934). 'Zur innermolekularen Statistik, insbesondere bei Kettenmolekülen I.' Monatshefte für Chemie, 65(1), 93–121, at the University of Vienna, giving rubber elasticity its first rigorous statistical-mechanical treatment. The entropic mechanism explains a genuinely counterintuitive result: stretched rubber, unlike a stretched metal spring, actually warms up slightly, and heating a stretched rubber band makes it contract further rather than expand, exactly the opposite of most ordinary materials.",
+          "links": [
+            "ef1"
+          ]
+        },
+        {
+          "id": "ef6",
+          "group": "Carbon Bonding & Molecular Structure",
+          "label": "Conformational Isomerism",
+          "date": "1943",
+          "loc": "Oslo, Norway",
+          "coords": [
+            59.91,
+            10.75
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "A single organic molecule can twist into many different three-dimensional shapes just by rotating around its own single bonds, with no bonds broken at all — cyclohexane, for instance, continuously flips between a low-energy 'chair' shape and higher-energy alternatives, and even simple molecules like butane have distinctly different-energy rotational arrangements that determine which shapes actually predominate at any given temperature.",
+          "note": "Hassel, O. (1943). Established the chair conformation of cyclohexane using electron diffraction, University of Oslo, work largely unknown outside Norway until after the Second World War due to wartime isolation. Hassel shared the 1969 Nobel Prize in Chemistry with Derek Barton, who extended conformational analysis into a general predictive tool for organic reactivity; conformational preferences directly determine countless reaction rates and selectivities throughout organic chemistry.",
+          "links": [
+            "th2"
+          ]
+        },
+        {
+          "id": "ef7",
+          "group": "Spectroscopic Structure Determination",
+          "label": "The Aromatic Ring Current",
+          "date": "1956",
+          "loc": "Cambridge, England",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "An aromatic ring's delocalised electrons, when placed in an NMR magnet's external field, circulate around the ring like a tiny induced electric current — and that circulating current generates its own small local magnetic field, strengthening the external field just outside the ring's edge and weakening it directly above and below the ring's centre, a distinctive signature that lets NMR spectroscopy detect aromaticity directly from a molecule's spectrum.",
+          "note": "Pople, J.A. (1956). 'Proton Magnetic Resonance of Hydrocarbons.' Journal of Chemical Physics, 24(5), 1111, at Cambridge University. The ring-current effect explains why aromatic protons resonate at unusually high frequency (downfield) in an NMR spectrum compared to ordinary alkene protons, while any protons positioned directly above an aromatic ring's face are shifted the opposite way — a diagnostic pattern organic chemists still use routinely to confirm aromaticity from spectral data alone.",
+          "links": [
+            "th4",
+            "co8"
+          ]
+        },
+        {
+          "id": "ef8",
+          "group": "Reaction Mechanisms",
+          "label": "Neighboring Group Participation",
+          "date": "1952",
+          "loc": "Los Angeles, California",
+          "coords": [
+            34.05,
+            -118.24
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "A group elsewhere in a molecule can reach over and stabilise a developing positive charge during a reaction, forming a temporary bridged intermediate before the actual incoming reagent ever arrives — dramatically speeding up the reaction and often controlling exactly which stereochemical outcome results, evidence that a reaction's true mechanism can involve parts of the molecule that look, at first glance, like uninvolved bystanders.",
+          "note": "Winstein, S. (1952). 'Neighboring Carbon and Hydrogen. XIX. t-Butylcarbinyl and t-Butylethylene Chlorides and Related Substances.' Journal of the American Chemical Society, 74(5), 1147–1160, at the University of California, Los Angeles. Winstein's evidence for these bridged 'non-classical' cationic intermediates sparked a decades-long, occasionally bitter dispute with chemist Herbert C. Brown over whether such structures were genuinely real or an unnecessary theoretical complication, a controversy not fully settled until low-temperature NMR studies decades later directly observed the bridged species.",
+          "links": [
+            "th6"
+          ]
+        },
+        {
+          "id": "ef9",
+          "group": "Stereochemistry",
+          "label": "Atropisomer Racemization",
+          "date": "1922",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Some molecules are chiral not because of a classic asymmetric carbon atom but simply because rotation around a single bond connecting two bulky ring systems is hindered enough to lock the molecule into one of two stable, non-superimposable twisted shapes — and heating such a molecule can supply enough energy to let that hindered bond rotate after all, gradually converting the pure, optically active form back into an equal, optically inactive mixture of both shapes.",
+          "note": "Christie, G.H. & Kenner, J. (1922). 'The Molecular Configurations of Polynuclear Aromatic Compounds. Part I.' Journal of the Chemical Society, Transactions, 121, 614–620, at University College London, providing the first resolved example of axial chirality in a biphenyl compound and measuring its racemization rate directly. The phenomenon, now called atropisomerism, is an important consideration in modern drug design, since a hindered-rotation stereocentre can be just as pharmacologically consequential as a classic asymmetric carbon (see db5).",
+          "links": [
+            "co4"
+          ]
+        }
+      ]
     },
     {
       "id": "concept",
@@ -461,7 +625,166 @@
       "accent": "#566573",
       "bg": "#F5F6FA",
       "subtitle": "The building blocks and vocabulary every student must command",
-      "entries": []
+      "entries": [
+        {
+          "id": "co1",
+          "group": "Carbon Bonding & Molecular Structure",
+          "label": "Functional Groups",
+          "date": "1892",
+          "loc": "Geneva, Switzerland",
+          "coords": [
+            46.2,
+            6.14
+          ],
+          "tag": "CONCEPT",
+          "hint": "A functional group is a specific, recognisable cluster of atoms — a hydroxyl, a carbonyl, an amine — that behaves in a broadly predictable, characteristic way no matter what larger molecule it happens to be attached to, letting organic chemists organise millions of distinct compounds into a manageable number of reactivity families rather than treating every molecule as an unrelated individual case.",
+          "note": "International Congress of Chemists (1892). Geneva Nomenclature, Geneva, the first internationally agreed systematic framework for naming organic compounds according to their functional groups and carbon skeletons. The Geneva rules were substantially revised and expanded by IUPAC through the twentieth century, but the underlying functional-group organising principle established in 1892 remains the conceptual backbone of organic nomenclature today.",
+          "links": [
+            "th1"
+          ]
+        },
+        {
+          "id": "co2",
+          "group": "Carbon Bonding & Molecular Structure",
+          "label": "Structural Isomerism",
+          "date": "1830",
+          "loc": "Stockholm, Sweden",
+          "coords": [
+            59.33,
+            18.07
+          ],
+          "tag": "CONCEPT",
+          "hint": "Two compounds can share the exact same molecular formula — the same number of each type of atom — while having their atoms connected in genuinely different arrangements, giving them entirely different physical and chemical properties. The realisation that formula alone doesn't determine a substance's identity was itself a significant conceptual shift, since it meant a compound's structure, not just its composition, had to be independently determined.",
+          "note": "Berzelius, J.J. (1830). Coined the term 'isomerism' (from Greek for 'equal parts') specifically to describe silver fulminate and silver cyanate, two substances sharing an identical formula but strikingly different properties, Stockholm. Structural isomerism is only one category among several distinct types of isomerism organic chemists now distinguish, alongside stereoisomerism (see co4) and later-recognised subtler variants.",
+          "links": [
+            "th1"
+          ]
+        },
+        {
+          "id": "co3",
+          "group": "Hydrocarbons & Aromaticity",
+          "label": "Resonance and Electron Delocalization",
+          "date": "1928",
+          "loc": "Pasadena, California",
+          "coords": [
+            34.15,
+            -118.14
+          ],
+          "tag": "CONCEPT",
+          "hint": "Some molecules can't be accurately represented by any single structural drawing at all — benzene's electrons, for instance, aren't localised in three fixed alternating double bonds but are genuinely spread out, delocalised, evenly around the whole ring. Chemists draw such molecules as an average, or 'resonance,' of several individually-inadequate contributing structures, a notational device standing in for one genuine, more stable, delocalised reality.",
+          "note": "Pauling, L. (1928). 'The Shared-Electron Chemical Bond.' Proceedings of the National Academy of Sciences, 14(4), 359–362, at the California Institute of Technology, developing resonance theory as the valence-bond counterpart to the molecular-orbital delocalisation picture. Delocalisation is what gives aromatic compounds their distinctive extra stability (see th4) and directly explains cis-trans photoisomerization's speed (see ef4), since delocalised π electrons are exactly what absorbs the triggering photon.",
+          "links": [
+            "th4",
+            "ef4"
+          ]
+        },
+        {
+          "id": "co4",
+          "group": "Stereochemistry",
+          "label": "Chirality and Optical Activity",
+          "date": "1815",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "CONCEPT",
+          "hint": "A chiral molecule is non-superimposable on its own mirror image, exactly the way a left hand can never be rotated to perfectly overlap a right hand — and this purely geometric property has a directly measurable physical consequence: a chiral substance rotates the plane of polarised light passing through it, clockwise or counterclockwise depending on which mirror-image form is present.",
+          "note": "Biot, J.B. (1815). 'Phénomènes de polarisation successive, observés dans des fluides homogènes.' Bulletin des Sciences par la Société Philomathique de Paris, discovering optical activity in organic liquids and vapours decades before anyone understood its structural cause. Pasteur's 1848 crystal-sorting experiment (see st3) and van't Hoff and Le Bel's 1874 tetrahedral-carbon theory (see th3) together supplied, first the direct physical proof and then the structural explanation, for a phenomenon Biot could only measure, not explain.",
+          "links": [
+            "st3",
+            "th3"
+          ]
+        },
+        {
+          "id": "co5",
+          "group": "Reaction Mechanisms",
+          "label": "Nucleophiles and Electrophiles",
+          "date": "1933",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "CONCEPT",
+          "hint": "A nucleophile is an electron-rich species that seeks out and attacks a positively charged or electron-poor site; an electrophile is the electron-poor site being attacked. Nearly every organic reaction mechanism, however complicated it first looks, can be broken down into a sequence of these fundamental electron-rich-attacks-electron-poor steps, giving organic chemists a single unifying vocabulary for describing reactivity across wildly different reaction types.",
+          "note": "Ingold, C.K. (1933). 'Significance of Tautomerism and of the Reactions of Aromatic Compounds in the Electronic Theory of Organic Reactions.' Journal of the Chemical Society, 1120–1127, at University College London, introducing the terms as part of the broader electronic reaction-mechanism programme that also produced SN1/SN2 theory (see th6). The terms replaced an earlier, less precise vocabulary of 'cationoid' and 'anionoid' reagents that Ingold himself had used in slightly earlier papers.",
+          "links": [
+            "th6",
+            "ef3"
+          ]
+        },
+        {
+          "id": "co6",
+          "group": "Reaction Mechanisms",
+          "label": "Leaving Group Ability",
+          "date": "1953",
+          "loc": "Cambridge, Massachusetts",
+          "coords": [
+            42.37,
+            -71.11
+          ],
+          "tag": "CONCEPT",
+          "hint": "How readily a group departs during a substitution or elimination reaction depends heavily on how well it can stabilise the negative charge it takes with it — generally, the weaker a base the departing group would make, the better a leaving group it is, since a weak base is, by definition, already comfortable carrying negative charge without desperately needing to grab a proton back.",
+          "note": "Swain, C.G. & Scott, C.B. (1953). 'Quantitative Correlation of Relative Rates. Comparison of Hydroxide Ion with Other Nucleophilic Reagents toward Alkyl Halides, Esters, Epoxides and Acyl Halides.' Journal of the American Chemical Society, 75(1), 141–147, at the Massachusetts Institute of Technology, giving nucleophilicity and leaving-group ability their first systematic quantitative treatment. Leaving group ability directly governs both SN1 and SN2 reaction rates (see th6), making it one of the first properties organic chemists check when predicting how a given substrate will react.",
+          "links": [
+            "th6"
+          ]
+        },
+        {
+          "id": "co7",
+          "group": "Polymer Chemistry",
+          "label": "Degree of Polymerization and Molecular Weight Distribution",
+          "date": "1940",
+          "loc": "Vienna, Austria",
+          "coords": [
+            48.21,
+            16.37
+          ],
+          "tag": "CONCEPT",
+          "hint": "A polymer sample is never a single uniform molecule but a mixture of chains of many different lengths, and its overall properties — strength, melting behaviour, viscosity — depend heavily on both the average chain length and how widely that length varies across the whole sample, not on any single 'typical' molecule at all.",
+          "note": "Mark, H. & Houwink, R. (1940). Established the quantitative Mark-Houwink relationship connecting a polymer solution's viscosity to its average molecular weight, Vienna, giving chemists a practical, routine way to measure molecular weight without more elaborate techniques. Staudinger's original macromolecule hypothesis (see st7) established that polymers were genuine large molecules at all; this later quantitative framework is what let their size actually be measured and controlled industrially.",
+          "links": [
+            "st7",
+            "th9"
+          ]
+        },
+        {
+          "id": "co8",
+          "group": "Spectroscopic Structure Determination",
+          "label": "Chemical Shift and the Delta Scale",
+          "date": "1958",
+          "loc": "St. Paul, Minnesota",
+          "coords": [
+            44.95,
+            -93.09
+          ],
+          "tag": "CONCEPT",
+          "hint": "To make NMR spectra comparable across different laboratories and different magnet strengths, chemists report a signal's position not as a raw frequency but as a 'chemical shift' measured relative to a universally agreed reference compound — a small, chemically unreactive molecule added to every sample specifically so its single sharp signal can serve as an internal zero point everyone's spectrum can be measured against.",
+          "note": "Tiers, G.V.D. (1958). 'Reliable Proton NMR Shielding Values by 'Internal Referencing' with Tetramethylsilane.' Journal of Physical Chemistry, 62(8), 1151–1152, at 3M, St. Paul, establishing tetramethylsilane (TMS) as the standard reference compound still used in proton and carbon NMR today. The resulting 'delta scale,' expressed in dimensionless parts per million, is what lets a chemical shift value measured on one laboratory's instrument be compared directly and meaningfully to a value measured on a completely different instrument elsewhere.",
+          "links": [
+            "st11",
+            "ef7"
+          ]
+        },
+        {
+          "id": "co9",
+          "group": "Organic Synthesis & Named Reactions",
+          "label": "Protecting Groups",
+          "date": "1957",
+          "loc": "Ann Arbor, Michigan",
+          "coords": [
+            42.28,
+            -83.75
+          ],
+          "tag": "CONCEPT",
+          "hint": "When a synthesis needs to react with one functional group while leaving a second, similarly reactive functional group elsewhere in the same molecule completely untouched, chemists temporarily disguise the second group with a removable 'protecting group' — reacting normally at the intended site, then stripping the protecting group back off afterward to reveal the original functionality, unharmed, once it's no longer in the way.",
+          "note": "McKay, F.C. & Albertson, N.F. (1957). 'New Amine-Masking Groups for Peptide Synthesis.' Journal of the American Chemical Society, 79(17), 4686–4690, at Parke-Davis Research Laboratories, Ann Arbor, introducing the tert-butoxycarbonyl (Boc) protecting group widely used in peptide synthesis. Choosing the right protecting-group strategy — installing groups that survive the planned reaction conditions but come off cleanly afterward without disturbing anything else — is a central, often decisive part of retrosynthetic planning (see th8) for any molecule with more than one reactive site.",
+          "links": [
+            "th8"
+          ]
+        }
+      ]
     },
     {
       "id": "method",
