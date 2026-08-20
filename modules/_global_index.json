@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 1613,
+    "total_entries": 1619,
     "folio_count": 21,
     "xlink_pairs": 101,
-    "keyword_terms": 6011,
+    "keyword_terms": 6029,
     "folios": [
       {
         "id": "anatomy-histology",
@@ -53,7 +53,7 @@
       {
         "id": "inorganic-analytical-chem",
         "title": "Chemistry: Inorganic & Analytical",
-        "entries": 73
+        "entries": 79
       },
       {
         "id": "logic-math-foundations",
@@ -811,6 +811,7 @@
     "inorganic-analytical-chem::th9": "theory · Acids, Bases & Aqueous Chemistry · Le Chatelier's Principle (1884)",
     "inorganic-analytical-chem::th10": "theory · Oxidation-Reduction & Electrochemistry · The Nernst Equation (1889)",
     "inorganic-analytical-chem::th11": "theory · Coordination Chemistry & Transition Metals · Crystal Field Theory (1929)",
+    "inorganic-analytical-chem::th12": "theory · Analytical Methods & Instrumentation · The Beer-Lambert Law (1852)",
     "inorganic-analytical-chem::st1": "study · Atomic Structure & the Periodic Table · Mendeleev's 1869 Periodic Table (1869)",
     "inorganic-analytical-chem::st2": "study · Atomic Structure & the Periodic Table · Moseley's X-ray Spectra and Atomic Number (1913)",
     "inorganic-analytical-chem::st3": "study · Gas Laws & States of Matter · Boyle's Air Pump Experiments (1662)",
@@ -822,6 +823,8 @@
     "inorganic-analytical-chem::st9": "study · Coordination Chemistry & Transition Metals · Werner's Coordination Theory (1893)",
     "inorganic-analytical-chem::st10": "study · Analytical Methods & Instrumentation · Fresenius's Systematic Qualitative Analysis (1841)",
     "inorganic-analytical-chem::st11": "study · Analytical Methods & Instrumentation · Bunsen and Kirchhoff's Discovery of Caesium and Rubidium (1860)",
+    "inorganic-analytical-chem::st12": "study · Chemical Bonding & Molecular Structure · Bartlett's Synthesis of Xenon Hexafluoroplatinate (1962)",
+    "inorganic-analytical-chem::st13": "study · Gas Laws & States of Matter · Van der Waals's Equation of State (1873)",
     "inorganic-analytical-chem::ef1": "effect · Atomic Structure & the Periodic Table · Flame Test Colors (1826)",
     "inorganic-analytical-chem::ef2": "effect · Analytical Methods & Instrumentation · The Tyndall Effect (1869)",
     "inorganic-analytical-chem::ef3": "effect · Acids, Bases & Aqueous Chemistry · The Common Ion Effect (1889)",
@@ -846,6 +849,8 @@
     "inorganic-analytical-chem::me4": "method · Analytical Methods & Instrumentation · Atomic Absorption Spectroscopy (1955)",
     "inorganic-analytical-chem::me5": "method · Analytical Methods & Instrumentation · Mass Spectrometry (1919)",
     "inorganic-analytical-chem::me6": "method · Coordination Chemistry & Transition Metals · X-ray Crystallography (1913)",
+    "inorganic-analytical-chem::me7": "method · Analytical Methods & Instrumentation · UV-Vis Spectroscopy (1941)",
+    "inorganic-analytical-chem::me8": "method · Analytical Methods & Instrumentation · Inductively Coupled Plasma Mass Spectrometry (ICP-MS) (1980)",
     "inorganic-analytical-chem::fg1": "figure · Pioneers & Theorists · Antoine Lavoisier (1789)",
     "inorganic-analytical-chem::fg2": "figure · Pioneers & Theorists · Dmitri Mendeleev (1869)",
     "inorganic-analytical-chem::fg3": "figure · Pioneers & Theorists · Henry Moseley (1913)",
@@ -859,6 +864,7 @@
     "inorganic-analytical-chem::fg11": "figure · Pioneers & Theorists · Robert Bunsen (1860)",
     "inorganic-analytical-chem::fg12": "figure · Pioneers & Theorists · Linus Pauling (1932)",
     "inorganic-analytical-chem::fg13": "figure · Pioneers & Theorists · Carl Remigius Fresenius (1841)",
+    "inorganic-analytical-chem::fg14": "figure · Pioneers & Theorists · Glenn Seaborg (1944)",
     "inorganic-analytical-chem::db1": "debate · Atomic Structure & the Periodic Table · Is the Periodic Table a Discovery or a Human Construct? (2007)",
     "inorganic-analytical-chem::db2": "debate · Chemical Bonding & Molecular Structure · Valence Bond Theory vs. Molecular Orbital Theory (1932)",
     "inorganic-analytical-chem::db3": "debate · Acids, Bases & Aqueous Chemistry · Which Acid-Base Definition Is Most Fundamental? (1923)",
@@ -6229,6 +6235,11 @@
       "ligand electric field",
       "transition metal color origin"
     ],
+    "inorganic-analytical-chem::th12": [
+      "absorbance concentration relationship",
+      "molar absorptivity constant",
+      "linear absorption law"
+    ],
     "inorganic-analytical-chem::st1": [
       "eka-element prediction",
       "gallium scandium germanium",
@@ -6283,6 +6294,16 @@
       "spectroscopic element discovery",
       "mineral water residue flame",
       "unmatched spectral lines"
+    ],
+    "inorganic-analytical-chem::st12": [
+      "noble gas reactivity",
+      "stable octet overturned",
+      "platinum hexafluoride oxidizer"
+    ],
+    "inorganic-analytical-chem::st13": [
+      "real gas correction terms",
+      "molecular volume and attraction",
+      "liquid-gas phase prediction"
     ],
     "inorganic-analytical-chem::ef1": [
       "metal ion flame color",
@@ -6404,6 +6425,16 @@
       "bragg father-son collaboration",
       "atomic structure determination"
     ],
+    "inorganic-analytical-chem::me7": [
+      "ultraviolet-visible absorption",
+      "beckman spectrophotometer",
+      "non-destructive identification"
+    ],
+    "inorganic-analytical-chem::me8": [
+      "argon plasma ionization",
+      "trace element detection limit",
+      "parts-per-trillion sensitivity"
+    ],
     "inorganic-analytical-chem::fg1": [
       "conservation of mass",
       "phlogiston theory refutation",
@@ -6468,6 +6499,11 @@
       "private analytical laboratory",
       "professional chemist training",
       "wiesbaden teaching institution"
+    ],
+    "inorganic-analytical-chem::fg14": [
+      "actinide row reorganization",
+      "transuranic element discovery",
+      "element named after living scientist"
     ],
     "inorganic-analytical-chem::db1": [
       "philosophy of chemistry",
@@ -19203,6 +19239,15 @@
     "transition metal color origin": [
       "inorganic-analytical-chem::th11"
     ],
+    "absorbance concentration relationship": [
+      "inorganic-analytical-chem::th12"
+    ],
+    "molar absorptivity constant": [
+      "inorganic-analytical-chem::th12"
+    ],
+    "linear absorption law": [
+      "inorganic-analytical-chem::th12"
+    ],
     "eka-element prediction": [
       "inorganic-analytical-chem::st1"
     ],
@@ -19301,6 +19346,24 @@
     ],
     "unmatched spectral lines": [
       "inorganic-analytical-chem::st11"
+    ],
+    "noble gas reactivity": [
+      "inorganic-analytical-chem::st12"
+    ],
+    "stable octet overturned": [
+      "inorganic-analytical-chem::st12"
+    ],
+    "platinum hexafluoride oxidizer": [
+      "inorganic-analytical-chem::st12"
+    ],
+    "real gas correction terms": [
+      "inorganic-analytical-chem::st13"
+    ],
+    "molecular volume and attraction": [
+      "inorganic-analytical-chem::st13"
+    ],
+    "liquid-gas phase prediction": [
+      "inorganic-analytical-chem::st13"
     ],
     "metal ion flame color": [
       "inorganic-analytical-chem::ef1"
@@ -19518,6 +19581,24 @@
     "atomic structure determination": [
       "inorganic-analytical-chem::me6"
     ],
+    "ultraviolet-visible absorption": [
+      "inorganic-analytical-chem::me7"
+    ],
+    "beckman spectrophotometer": [
+      "inorganic-analytical-chem::me7"
+    ],
+    "non-destructive identification": [
+      "inorganic-analytical-chem::me7"
+    ],
+    "argon plasma ionization": [
+      "inorganic-analytical-chem::me8"
+    ],
+    "trace element detection limit": [
+      "inorganic-analytical-chem::me8"
+    ],
+    "parts-per-trillion sensitivity": [
+      "inorganic-analytical-chem::me8"
+    ],
     "conservation of mass": [
       "inorganic-analytical-chem::fg1"
     ],
@@ -19634,6 +19715,15 @@
     ],
     "wiesbaden teaching institution": [
       "inorganic-analytical-chem::fg13"
+    ],
+    "actinide row reorganization": [
+      "inorganic-analytical-chem::fg14"
+    ],
+    "transuranic element discovery": [
+      "inorganic-analytical-chem::fg14"
+    ],
+    "element named after living scientist": [
+      "inorganic-analytical-chem::fg14"
     ],
     "philosophy of chemistry": [
       "inorganic-analytical-chem::db1"

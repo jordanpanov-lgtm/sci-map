@@ -15,24 +15,24 @@
   "mapZoom": 3,
   "methodology": "METHODOLOGY · Every entry anchors to a landmark study, paper, clinical case or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags replication status, effect-size revisions and known controversies. Studies and effects carry a replicability badge — 🟢 robust · 🟡 nuanced or reduced · 🔴 failed or severely contested. Map pins mark the institution where the work was carried out.",
   "_meta": {
-    "total_entries": 73,
+    "total_entries": 79,
     "entry_counts": {
-      "theory": 11,
-      "study": 11,
+      "theory": 12,
+      "study": 13,
       "effect": 9,
       "concept": 9,
-      "method": 6,
-      "figure": 13,
+      "method": 8,
+      "figure": 14,
       "debate": 8,
       "application": 6
     },
     "max_ids": {
-      "th": 11,
-      "st": 11,
+      "th": 12,
+      "st": 13,
       "ef": 9,
       "co": 9,
-      "me": 6,
-      "fg": 13,
+      "me": 8,
+      "fg": 14,
       "db": 8,
       "ap": 6
     },
@@ -60,6 +60,7 @@
     "th9": "theory · Acids, Bases & Aqueous Chemistry · Le Chatelier's Principle (1884)",
     "th10": "theory · Oxidation-Reduction & Electrochemistry · The Nernst Equation (1889)",
     "th11": "theory · Coordination Chemistry & Transition Metals · Crystal Field Theory (1929)",
+    "th12": "theory · Analytical Methods & Instrumentation · The Beer-Lambert Law (1852)",
     "st1": "study · Atomic Structure & the Periodic Table · Mendeleev's 1869 Periodic Table (1869)",
     "st2": "study · Atomic Structure & the Periodic Table · Moseley's X-ray Spectra and Atomic Number (1913)",
     "st3": "study · Gas Laws & States of Matter · Boyle's Air Pump Experiments (1662)",
@@ -71,6 +72,8 @@
     "st9": "study · Coordination Chemistry & Transition Metals · Werner's Coordination Theory (1893)",
     "st10": "study · Analytical Methods & Instrumentation · Fresenius's Systematic Qualitative Analysis (1841)",
     "st11": "study · Analytical Methods & Instrumentation · Bunsen and Kirchhoff's Discovery of Caesium and Rubidium (1860)",
+    "st12": "study · Chemical Bonding & Molecular Structure · Bartlett's Synthesis of Xenon Hexafluoroplatinate (1962)",
+    "st13": "study · Gas Laws & States of Matter · Van der Waals's Equation of State (1873)",
     "ef1": "effect · Atomic Structure & the Periodic Table · Flame Test Colors (1826)",
     "ef2": "effect · Analytical Methods & Instrumentation · The Tyndall Effect (1869)",
     "ef3": "effect · Acids, Bases & Aqueous Chemistry · The Common Ion Effect (1889)",
@@ -95,6 +98,8 @@
     "me4": "method · Analytical Methods & Instrumentation · Atomic Absorption Spectroscopy (1955)",
     "me5": "method · Analytical Methods & Instrumentation · Mass Spectrometry (1919)",
     "me6": "method · Coordination Chemistry & Transition Metals · X-ray Crystallography (1913)",
+    "me7": "method · Analytical Methods & Instrumentation · UV-Vis Spectroscopy (1941)",
+    "me8": "method · Analytical Methods & Instrumentation · Inductively Coupled Plasma Mass Spectrometry (ICP-MS) (1980)",
     "fg1": "figure · Pioneers & Theorists · Antoine Lavoisier (1789)",
     "fg2": "figure · Pioneers & Theorists · Dmitri Mendeleev (1869)",
     "fg3": "figure · Pioneers & Theorists · Henry Moseley (1913)",
@@ -108,6 +113,7 @@
     "fg11": "figure · Pioneers & Theorists · Robert Bunsen (1860)",
     "fg12": "figure · Pioneers & Theorists · Linus Pauling (1932)",
     "fg13": "figure · Pioneers & Theorists · Carl Remigius Fresenius (1841)",
+    "fg14": "figure · Pioneers & Theorists · Glenn Seaborg (1944)",
     "db1": "debate · Atomic Structure & the Periodic Table · Is the Periodic Table a Discovery or a Human Construct? (2007)",
     "db2": "debate · Chemical Bonding & Molecular Structure · Valence Bond Theory vs. Molecular Orbital Theory (1932)",
     "db3": "debate · Acids, Bases & Aqueous Chemistry · Which Acid-Base Definition Is Most Fundamental? (1923)",
@@ -154,7 +160,8 @@
             "co1",
             "fg2",
             "db1",
-            "db4"
+            "db4",
+            "fg14"
           ],
           "keywords": [
             "periodic recurrence pattern",
@@ -207,7 +214,8 @@
             "co2",
             "co9",
             "db2",
-            "db7"
+            "db7",
+            "st12"
           ],
           "keywords": [
             "shared electron pair",
@@ -250,12 +258,13 @@
           ],
           "tag": "THEORY",
           "hint": "Combining the separately discovered relationships between a gas's pressure, volume, temperature, and quantity into one single equation, PV = nRT, lets any one of these four quantities be calculated exactly from the other three, for any gas, under most everyday conditions — an idealisation that works remarkably well despite ignoring real gas molecules' own volume and the attractive forces between them entirely.",
-          "note": "Clapeyron, B.P.É. (1834). 'Mémoire sur la puissance motrice de la chaleur.' Journal de l'École Polytechnique, 23, 153–190, Paris, combining Boyle's law (see st3), Charles's law, and Avogadro's hypothesis (see th6) into a single unified equation. Real gases deviate from the ideal gas law at high pressure or low temperature, where molecular volume and intermolecular attraction can no longer be safely ignored, a gap later addressed by the van der Waals equation.",
+          "note": "Clapeyron, B.P.É. (1834). 'Mémoire sur la puissance motrice de la chaleur.' Journal de l'École Polytechnique, 23, 153–190, Paris, combining Boyle's law (see st3), Charles's law, and Avogadro's hypothesis (see th6) into a single unified equation. Real gases deviate from the ideal gas law at high pressure or low temperature, where molecular volume and intermolecular attraction can no longer be safely ignored, a gap later addressed by the van der Waals equation (see st13).",
           "links": [
             "st3",
             "th6",
             "db8",
-            "ap2"
+            "ap2",
+            "st13"
           ],
           "keywords": [
             "pv=nrt equation",
@@ -420,6 +429,30 @@
             "d-orbital energy splitting",
             "ligand electric field",
             "transition metal color origin"
+          ]
+        },
+        {
+          "id": "th12",
+          "group": "Analytical Methods & Instrumentation",
+          "label": "The Beer-Lambert Law",
+          "date": "1852",
+          "loc": "Bonn, Germany",
+          "coords": [
+            50.74,
+            7.1
+          ],
+          "tag": "THEORY",
+          "hint": "How much light a sample absorbs is directly proportional to three things multiplied together: the concentration of the absorbing substance, the distance the light travels through the sample, and a substance-specific constant describing how strongly that particular molecule absorbs that particular wavelength. This simple linear relationship, A = εbc, is what lets a spectrophotometer convert a light-absorption measurement directly into a concentration, the mathematical foundation underneath essentially all quantitative absorption spectroscopy.",
+          "note": "Beer, A. (1852). 'Bestimmung der Absorption des rothen Lichts in farbigen Flüssigkeiten.' Annalen der Physik und Chemie, 162(5), 78–88, at the University of Bonn, adding concentration-dependence to the path-length relationship Pierre Bouguer (1729) and Johann Heinrich Lambert (1760) had already established. The linear relationship breaks down at high concentrations, where molecular interactions and instrumental effects introduce measurable deviations, so quantitative work typically confirms linearity across the actual concentration range being used.",
+          "links": [
+            "me4",
+            "ef8",
+            "me7"
+          ],
+          "keywords": [
+            "absorbance concentration relationship",
+            "molar absorptivity constant",
+            "linear absorption law"
           ]
         }
       ]
@@ -708,6 +741,52 @@
             "mineral water residue flame",
             "unmatched spectral lines"
           ]
+        },
+        {
+          "id": "st12",
+          "group": "Chemical Bonding & Molecular Structure",
+          "label": "Bartlett's Synthesis of Xenon Hexafluoroplatinate",
+          "date": "1962",
+          "loc": "Vancouver, Canada",
+          "coords": [
+            49.28,
+            -123.12
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "For nearly a century, chemists considered the noble gases entirely chemically inert, their full outer electron shells treated as an unbreakable 'stable octet' no reaction could disturb. Neil Bartlett shattered the assumption by reacting xenon gas directly with platinum hexafluoride — a compound powerful enough to strip electrons even from an atom as reluctant to give them up as xenon — producing the first genuine noble gas compound ever made.",
+          "note": "Bartlett, N. (1962). 'Xenon Hexafluoroplatinate(V) Xe⁺[PtF₆]⁻.' Proceedings of the Chemical Society, 218, at the University of British Columbia, Vancouver. Within months of the announcement, other laboratories synthesised further noble gas compounds including XeF₂ and XeF₄, once Bartlett's result showed such reactions were possible at all; the group's name stayed 'noble gases' even after 'inert gases,' the older name, stopped accurately describing their chemistry.",
+          "links": [
+            "th3"
+          ],
+          "keywords": [
+            "noble gas reactivity",
+            "stable octet overturned",
+            "platinum hexafluoride oxidizer"
+          ]
+        },
+        {
+          "id": "st13",
+          "group": "Gas Laws & States of Matter",
+          "label": "Van der Waals's Equation of State",
+          "date": "1873",
+          "loc": "Leiden, Netherlands",
+          "coords": [
+            52.16,
+            4.5
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Johannes Diderik van der Waals corrected the ideal gas law with two physically motivated adjustments: real gas molecules occupy actual physical space, leaving less room to move than the ideal law assumes, and they weakly attract each other, subtly reducing the pressure they'd otherwise exert. The corrected equation not only fits real gas behaviour far better than the ideal law, it correctly predicts the liquid-gas phase transition itself, something the ideal gas law has no way to describe at all.",
+          "note": "van der Waals, J.D. (1873). 'Over de Continuiteit van den Gas- en Vloeistoftoestand.' Doctoral dissertation, Leiden University. Van der Waals received the 1910 Nobel Prize in Physics for the work; despite being a century and a half old and superseded in precision by more modern equations of state, the van der Waals equation remains the standard first teaching example of how real-gas behaviour departs from the ideal gas law (see th5), specifically because its two correction terms map so directly onto the two physical effects actually responsible for the deviation.",
+          "links": [
+            "th5"
+          ],
+          "keywords": [
+            "real gas correction terms",
+            "molecular volume and attraction",
+            "liquid-gas phase prediction"
+          ]
         }
       ]
     },
@@ -781,7 +860,7 @@
           "tag": "PHENOMENON",
           "repl": "robust",
           "hint": "Adding a soluble salt that shares an ion with a slightly soluble compound already at equilibrium in solution pushes that equilibrium to produce even less of the dissolved compound than usual — a direct, predictable consequence of Le Chatelier's principle applied specifically to solubility equilibria, and a standard trick analytical chemists use to force a target ion out of solution as a precipitate for accurate measurement.",
-          "note": "Ostwald, W. (1889). Systematically documented within Ostwald's broader work formalising solution and dissociation equilibria, Leipzig University, building directly on Arrhenius's dissociation theory (see th7). The effect is exploited deliberately in gravimetric analysis (see me2), where a slight excess of precipitating reagent is added specifically to push a target ion's solubility equilibrium as far as possible toward complete precipitation before the precipitate is filtered, dried, and weighed.",
+          "note": "Ostwald, W. (1889). Systematically documented within Ostwald's broader work formalising solution and dissociation equilibria, Leipzig University, building directly on Arrhenius's dissociation theory (see th7). The effect is exploited deliberately in gravimetric analysis (see me2), where a slight excess of precipitating reagent is added specifically to push a target ion's solubility equilibrium as far as possible toward complete precipitation before the precipitate is filtered, dried, and weighed. A countervailing 'salt effect' works in the opposite direction: adding an unrelated, non-common spectator salt increases the solution's overall ionic strength, which lowers the analyte ions' activity coefficients and actually increases solubility slightly — careful analytical work has to balance both effects rather than assuming any added salt always decreases solubility.",
           "links": [
             "th9",
             "co9",
@@ -903,7 +982,9 @@
           "note": "Van Vleck, J.H. (1932). 'Theory of the Variations in Paramagnetic Anisotropy Among Different Salts of the Iron Group.' Physical Review, 41(2), 208–215, at the University of Wisconsin–Madison, applying Bethe's crystal field mathematics (see th11) directly to explain transition metal complexes' colour and magnetic behaviour. The exact colour observed depends sensitively on the specific ligands present and their arrangement, since different ligands split the d-orbitals by different amounts — the basis of the experimentally derived 'spectrochemical series' ranking ligands by splitting strength.",
           "links": [
             "th11",
-            "co6"
+            "co6",
+            "th12",
+            "me7"
           ],
           "keywords": [
             "d-d electron transition",
@@ -1255,7 +1336,9 @@
           "links": [
             "ef1",
             "st11",
-            "ap4"
+            "ap4",
+            "th12",
+            "me8"
           ],
           "keywords": [
             "flame light absorption measurement",
@@ -1305,6 +1388,51 @@
             "diffraction pattern analysis",
             "bragg father-son collaboration",
             "atomic structure determination"
+          ]
+        },
+        {
+          "id": "me7",
+          "group": "Analytical Methods & Instrumentation",
+          "label": "UV-Vis Spectroscopy",
+          "date": "1941",
+          "loc": "Pasadena, California",
+          "coords": [
+            34.15,
+            -118.14
+          ],
+          "tag": "METHOD",
+          "hint": "Shining a controlled beam of ultraviolet and visible light through a sample and measuring exactly how much of each wavelength gets absorbed reveals both what the sample contains, from the specific pattern of wavelengths absorbed, and how much of it is present, calculated directly through the Beer-Lambert law. The technique became the standard, fast, non-destructive workhorse for identifying and quantifying transition metal complexes and countless organic compounds alike.",
+          "note": "Beckman, A.O. (1941). The Beckman Model DU spectrophotometer, National Technical Laboratories, Pasadena — the first mass-produced, precise, reliably reproducible UV-Vis instrument, turning spectrophotometry from a specialist's custom-built laboratory apparatus into routine, standardised equipment. Transition metal complexes' characteristic colours (see ef8) are among the technique's most direct and visually intuitive applications.",
+          "links": [
+            "th12",
+            "ef8"
+          ],
+          "keywords": [
+            "ultraviolet-visible absorption",
+            "beckman spectrophotometer",
+            "non-destructive identification"
+          ]
+        },
+        {
+          "id": "me8",
+          "group": "Analytical Methods & Instrumentation",
+          "label": "Inductively Coupled Plasma Mass Spectrometry (ICP-MS)",
+          "date": "1980",
+          "loc": "Ames, Iowa",
+          "coords": [
+            42.03,
+            -93.62
+          ],
+          "tag": "METHOD",
+          "hint": "A sample is vaporised and ionised inside an argon plasma torch reaching roughly 10,000 kelvin — hot enough to strip electrons from virtually any element in the periodic table — and the resulting ions are then sorted and counted by a mass spectrometer, combining the plasma's near-universal ionising power with mass spectrometry's exquisite sensitivity to detect trace metals down to parts-per-trillion concentrations, far beyond what flame-based atomic absorption can reach.",
+          "note": "Houk, R.S., Fassel, V.A. et al. (1980). 'Inductively Coupled Argon Plasma as an Ion Source for Mass Spectrometric Determination of Trace Elements.' Analytical Chemistry, 52(14), 2283–2289, at Iowa State University, Ames. ICP-MS became the gold-standard technique for environmental, geological, and forensic trace-metal analysis by the 1990s, largely displacing atomic absorption spectroscopy (see me4) wherever its substantially higher cost is justified by the far lower detection limits required.",
+          "links": [
+            "me4"
+          ],
+          "keywords": [
+            "argon plasma ionization",
+            "trace element detection limit",
+            "parts-per-trillion sensitivity"
           ]
         }
       ]
@@ -1394,8 +1522,8 @@
             -1.26
           ],
           "tag": "FIGURE",
-          "hint": "A founding member of the Royal Society and one of the wealthiest scientists of his era, Boyle insisted chemistry be practised as a rigorous experimental science rather than inherited from alchemical tradition or philosophical authority — a stance his own influential book, provocatively titled The Sceptical Chymist, argued at length, helping separate modern chemistry from its alchemical roots.",
-          "note": "Boyle, R. Air pump experiments (1662, see st3). Boyle also proposed one of the earliest operational definitions of a chemical element — a substance that cannot be broken down into anything simpler by chemical means — a definition that, with only minor refinement, remains essentially the modern one used today.",
+          "hint": "A founding member of the Royal Society and one of the wealthiest scientists of his era, Boyle argued in his provocatively titled book The Sceptical Chymist that chemistry needed rigorous, publicly verifiable experimental method rather than the secretive, jargon-heavy claims typical of much contemporary alchemical writing. The book is often credited with helping separate modern chemistry from alchemy — but Boyle himself was, in fact, a deeply committed practising alchemist his entire life, pursuing the transmutation of base metals into gold and recording his own alchemical experiments in coded cipher.",
+          "note": "Boyle, R. Air pump experiments (1662, see st3). Boyle also proposed one of the earliest operational definitions of a chemical element — a substance that cannot be broken down into anything simpler by chemical means — a definition that, with only minor refinement, remains essentially the modern one used today. Historians of science Lawrence Principe and William Newman have shown, through Boyle's own decoded laboratory notebooks, that his public critique of sloppy alchemical reasoning coexisted comfortably with his private, lifelong alchemical research — the clean modern boundary between 'chemistry' and 'alchemy' did not yet exist in Boyle's own mind, however useful that later boundary has proven for telling the field's history.",
           "links": [
             "st3"
           ],
@@ -1603,6 +1731,30 @@
             "professional chemist training",
             "wiesbaden teaching institution"
           ]
+        },
+        {
+          "id": "fg14",
+          "group": "Pioneers & Theorists",
+          "label": "Glenn Seaborg",
+          "date": "1944",
+          "loc": "Berkeley, California",
+          "coords": [
+            37.87,
+            -122.27
+          ],
+          "tag": "FIGURE",
+          "hint": "Seaborg proposed regrouping thorium, protactinium, uranium, and the newly synthesised transuranic elements into a distinct 'actinide' row beneath the main body of the periodic table, mirroring the lanthanides above it — rather than scattering them awkwardly through the transition metal block as earlier tables had, a reorganisation that immediately made predicting the undiscovered heavier transuranic elements' properties dramatically more tractable.",
+          "note": "Seaborg, G.T. (1944). Internal Manhattan Project report, later published as Seaborg, G.T. (1945). 'The Transuranium Elements.' Science, 123(3185), 78–86, at the Lawrence Berkeley Laboratory. Seaborg co-discovered ten transuranic elements over his career and is the only person to have had a chemical element — seaborgium, element 106 — named in his honour during his own lifetime, an initially controversial decision under the naming conventions IUPAC had followed until then.",
+          "links": [
+            "th1",
+            "db1",
+            "db4"
+          ],
+          "keywords": [
+            "actinide row reorganization",
+            "transuranic element discovery",
+            "element named after living scientist"
+          ]
         }
       ]
     },
@@ -1630,7 +1782,8 @@
           "note": "Scerri, E. (2007). The Periodic Table: Its Story and Its Significance. Oxford: Oxford University Press, at the University of California, Los Angeles — the standard scholarly reference on the periodic table's philosophy and history. Live disputes include exactly where hydrogen and helium belong, whether the lanthanides and actinides should be inset or fully integrated into the main body, and how far the classification scheme should extend into the still poorly characterised superheavy elements (see db4).",
           "links": [
             "th1",
-            "db4"
+            "db4",
+            "fg14"
           ],
           "keywords": [
             "philosophy of chemistry",
@@ -1701,7 +1854,8 @@
           "note": "Eichler, R. et al. (2007). 'Chemical Characterization of Element 112.' Nature, 447(7140), 72–75, at the Joint Institute for Nuclear Research, Dubna. Experiments on elements including copernicium and flerovium have found some genuinely surprising deviations from simple periodic-table extrapolation, attributed to relativistic effects on inner electrons moving at a significant fraction of the speed of light; whether 'chemistry' meaningfully applies to an element that might exist for only milliseconds, one atom at a time, remains a genuinely live methodological and philosophical question.",
           "links": [
             "th1",
-            "db1"
+            "db1",
+            "fg14"
           ],
           "keywords": [
             "single-atom chemistry technique",
@@ -1721,7 +1875,7 @@
           ],
           "tag": "DEBATE",
           "hint": "Crystal field theory treats ligands as simple point charges creating an electric field that splits a metal's d-orbitals, ignoring any actual covalent sharing of electrons between metal and ligand entirely. Ligand field theory extends the same basic picture but incorporates genuine covalent bonding character between metal and ligand orbitals — more accurate, especially for ligands known to bond quite covalently, but considerably more mathematically involved to actually use.",
-          "note": "Orgel, L.E. (1952). 'The Effects of Crystal Fields on the Properties of Transition-Metal Ions.' Journal of Chemical Physics, 20, 1819, at Cambridge University, an early step toward the fuller ligand-field synthesis developed by Griffith and Orgel through the 1950s. Crystal field theory's simpler, purely electrostatic picture remains standard in introductory inorganic chemistry teaching specifically because it correctly predicts most qualitative trends — colour, magnetism, stability — without requiring the heavier computational machinery ligand field and full molecular orbital treatments demand.",
+          "note": "Orgel, L.E. (1952). 'The Effects of Crystal Fields on the Properties of Transition-Metal Ions.' Journal of Chemical Physics, 20, 1819, at Cambridge University, an early step toward the fuller ligand-field synthesis developed by Griffith and Orgel through the 1950s. Ligand field theory achieves its added accuracy specifically by hybridising crystal field theory with molecular orbital theory, letting metal and ligand orbitals combine directly — the only way to properly explain phenomena like π-backbonding in metal carbonyl complexes, where a metal donates electron density into a ligand's empty orbitals, a genuinely covalent, two-way bonding interaction simple electrostatic point-charge models are physically incapable of describing. Crystal field theory's simpler picture nonetheless remains standard in introductory teaching because it correctly predicts most qualitative trends — colour, magnetism, stability — without requiring the heavier computational machinery the fuller treatments demand.",
           "links": [
             "th11",
             "co6"
@@ -1890,7 +2044,7 @@
           ],
           "tag": "APPLICATION",
           "hint": "James Marsh developed a chemical test sensitive enough to detect even minute traces of arsenic — a poison notoriously popular for murder specifically because it had previously been almost undetectable in a body after death — converting any arsenic present into arsine gas and depositing it as a visible, unmistakable metallic mirror on a cold surface, sensitive enough to detect a fraction of a milligram.",
-          "note": "Marsh, J. (1836). 'Account of a Method of Separating Small Quantities of Arsenic from Substances with Which It May Be Mixed.' Edinburgh New Philosophical Journal, 21, 229–236, developed at the Royal Arsenal, Woolwich, London, after Marsh's own less sensitive earlier test failed to convince a jury in a poisoning trial he had been called to testify at. The test's demonstrated sensitivity is credited with substantially deterring arsenic poisoning as a method of murder across Europe once it became widely known and used by prosecutors.",
+          "note": "Marsh, J. (1836). 'Account of a Method of Separating Small Quantities of Arsenic from Substances with Which It May Be Mixed.' Edinburgh New Philosophical Journal, 21, 229–236, developed at the Royal Arsenal, Woolwich, London, after Marsh's own less sensitive earlier test failed to convince a jury in a poisoning trial he had been called to testify at. The test's most famous courtroom application came in 1840, when toxicologist Mathieu Orfila used it to demonstrate conclusively that Marie Lafarge had poisoned her husband with arsenic — widely regarded as the first trial in which chemical analysis served as decisive legal evidence, establishing forensic toxicology as a credible courtroom discipline. The test's demonstrated sensitivity is credited with substantially deterring arsenic poisoning as a method of murder across Europe once it became widely known and used by prosecutors.",
           "links": [
             "me4"
           ],
@@ -1991,6 +2145,11 @@
           "entryId": "st1"
         },
         {
+          "y": 1873,
+          "l": "Van der Waals's Equation of State",
+          "entryId": "st13"
+        },
+        {
           "y": 1884,
           "l": "Arrhenius's Dissociation Theory",
           "entryId": "st5"
@@ -2009,6 +2168,11 @@
           "y": 1913,
           "l": "Moseley's X-ray Spectra",
           "entryId": "st2"
+        },
+        {
+          "y": 1962,
+          "l": "Bartlett's Xenon Compound Synthesis",
+          "entryId": "st12"
         }
       ]
     },
@@ -2027,6 +2191,11 @@
           "y": 1834,
           "l": "The Ideal Gas Law",
           "entryId": "th5"
+        },
+        {
+          "y": 1852,
+          "l": "The Beer-Lambert Law",
+          "entryId": "th12"
         },
         {
           "y": 1869,
@@ -2160,9 +2329,19 @@
           "entryId": "me5"
         },
         {
+          "y": 1941,
+          "l": "UV-Vis Spectroscopy",
+          "entryId": "me7"
+        },
+        {
           "y": 1955,
           "l": "Atomic Absorption Spectroscopy",
           "entryId": "me4"
+        },
+        {
+          "y": 1980,
+          "l": "ICP-MS",
+          "entryId": "me8"
         }
       ]
     },
