@@ -38,7 +38,10 @@
           "hint": "A group is a set with a single operation obeying four simple rules — closure, associativity, an identity element, and inverses — and Arthur Cayley was the first to define it this abstractly, independent of any specific example like permutations or numbers. That single move let mathematicians recognise the exact same underlying structure hiding inside symmetry, number systems, and equation-solving, all at once.",
           "note": "Cayley, A. (1854). 'On the Theory of Groups, as Depending on the Symbolic Equation θⁿ=1.' Philosophical Magazine, 4th series, 7(42), 40–47. Cayley was practising as a barrister in London at the time, mathematics being a side pursuit until his 1863 appointment as Sadleirian Professor at Cambridge. The abstract definition took decades to be adopted generally; most contemporaries, including Cayley himself, kept thinking in terms of permutation groups for years afterward.",
           "links": [
-            "th2"
+            "th2",
+            "th3",
+            "ef6",
+            "co1"
           ]
         },
         {
@@ -56,7 +59,13 @@
           "note": "Galois, É. Manuscript written the night before his fatal duel (29–30 May 1832); first published by Joseph Liouville as 'Œuvres mathématiques d'Évariste Galois,' Journal de Mathématiques Pures et Appliquées, 11 (1846), 381–444 — fourteen years after Galois's death, since his contemporaries (including Cauchy and Poisson) had rejected or lost his earlier submissions. Galois died at twenty from a duel whose cause remains disputed by historians; the theory bearing his name was reconstructed from a hastily annotated testament letter.",
           "links": [
             "th1",
-            "st1"
+            "st1",
+            "st2",
+            "ef3",
+            "ef5",
+            "fg5",
+            "fg6",
+            "fg12"
           ]
         },
         {
@@ -74,7 +83,10 @@
           "note": "Noether, E. (1921). 'Idealtheorie in Ringbereichen.' Mathematische Annalen, 83, 24–66. Noether taught at Göttingen for years without pay or an official title, since German law at the time barred women from Habilitation; Hilbert and Klein pushed the issue through university faculty by having courses formally listed under Hilbert's name with Noether as the actual lecturer. Her structural, axiom-first style became the template for twentieth-century abstract algebra generally.",
           "links": [
             "th1",
-            "st4"
+            "st4",
+            "co3",
+            "fg7",
+            "ap1"
           ]
         },
         {
@@ -91,7 +103,9 @@
           "hint": "Every integer greater than 1 factors into primes in exactly one way, ignoring order — a fact Euclid's Elements already implicitly used but never rigorously isolated or proved as a single theorem. Carl Friedrich Gauss gave the first fully rigorous, general proof, making unique factorization the explicit logical bedrock that the rest of number theory is built on rather than an assumed convenience.",
           "note": "Gauss, C.F. (1801). Disquisitiones Arithmeticae, Article 16. Leipzig: Gerhard Fleischer. Euclid's Elements, Book IX, Proposition 14 (c. 300 BCE) states a special case; Gauss was the first to treat unique factorization as a theorem requiring proof rather than an evident fact. The result fails in some more general number systems (certain rings of algebraic integers), a gap whose repair by Kummer and Dedekind in the 1840s–1870s founded modern algebraic number theory.",
           "links": [
-            "th5"
+            "th5",
+            "fg1",
+            "fg2"
           ]
         },
         {
@@ -109,7 +123,11 @@
           "note": "Hadamard, J. (1896). 'Sur la distribution des zéros de la fonction ζ(s) et ses conséquences arithmétiques.' Bulletin de la Société Mathématique de France, 24, 199–220 — proved independently the same year by Charles Jean de la Vallée Poussin at the University of Louvain. Both proofs relied on complex-analytic properties of the Riemann zeta function; a more 'elementary' real-only proof was not found until Erdős and Selberg's controversial 1949 work (see st3).",
           "links": [
             "th4",
-            "st3"
+            "st3",
+            "ef9",
+            "me1",
+            "fg3",
+            "db1"
           ]
         },
         {
@@ -126,7 +144,14 @@
           "hint": "Henri Lebesgue generalised the intuitive idea of 'length' or 'area' to a huge class of irregular sets, then redefined integration around it — instead of slicing a function's domain into thin vertical strips (Riemann's approach), Lebesgue's integral groups points by output value first, which lets it integrate far more pathological functions and behaves far better under limits. It became the rigorous foundation underneath modern analysis and probability theory alike.",
           "note": "Lebesgue, H. (1902). 'Intégrale, longueur, aire.' Doctoral thesis, Annali di Matematica Pura ed Applicata, 7, 231–359, defended at the Faculté des Sciences de Paris. Lebesgue's own advisor, Émile Borel, had already sketched the underlying measure concept; Lebesgue's contribution was building the full integration theory on top of it. Riemann integration remains simpler to teach and is still standard in introductory calculus, with Lebesgue's version reserved for analysis proper.",
           "links": [
-            "st6"
+            "st6",
+            "st5",
+            "ef1",
+            "ef4",
+            "ef8",
+            "co5",
+            "me2",
+            "me5"
           ]
         },
         {
@@ -144,7 +169,9 @@
           "note": "Cauchy, A.L. (1825). 'Mémoire sur les intégrales définies, prises entre des limites imaginaires.' Paris: self-published pamphlet, later absorbed into his collected works — the paper containing what became Cauchy's Integral Theorem. Bernhard Riemann (1851) and Karl Weierstrass (1860s) later gave the theory its geometric and power-series formulations respectively; the three approaches were shown fully equivalent by the end of the nineteenth century.",
           "links": [
             "st7",
-            "st8"
+            "st8",
+            "co9",
+            "ap4"
           ]
         },
         {
@@ -162,7 +189,14 @@
           "note": "Poincaré, H. (1895). 'Analysis Situs.' Journal de l'École Polytechnique, 2nd series, 1, 1–121, followed by five supplementary papers through 1904 correcting and extending it. Poincaré's own paper contained a false claim (that a certain invariant — homology — sufficed to distinguish all 3-dimensional spaces from the sphere), which he retracted in a supplement after finding a counterexample; the corrected question became the Poincaré Conjecture (see st9).",
           "links": [
             "st9",
-            "st10"
+            "st10",
+            "ef2",
+            "co6",
+            "me4",
+            "fg9",
+            "db3",
+            "ap3",
+            "ap5"
           ]
         },
         {
@@ -180,7 +214,12 @@
           "note": "Riemann, B. Habilitationsschrift lecture delivered 10 June 1854 at the University of Göttingen; published posthumously as 'Über die Hypothesen, welche der Geometrie zu Grunde liegen,' Abhandlungen der Königlichen Gesellschaft der Wissenschaften zu Göttingen, 13 (1868), 133–150, edited by Richard Dedekind. Riemann built directly on Gauss's earlier intrinsic curvature result for surfaces (see st11), generalising it to arbitrary dimension.",
           "links": [
             "st11",
-            "st7"
+            "st7",
+            "th10",
+            "ef7",
+            "co2",
+            "fg4",
+            "ap2"
           ]
         },
         {
@@ -214,7 +253,12 @@
           "hint": "Alexandre Grothendieck rebuilt algebraic geometry — the study of shapes defined by polynomial equations — on a radically more general foundation called schemes, which allow coordinates from any ring at all, not just familiar number systems, and treat every geometric object as inseparable from the functions living on it. The reconstruction was so thorough it let long-standing conjectures across number theory and geometry be attacked with unified new tools.",
           "note": "Grothendieck, A. & Dieudonné, J. (1960–67). Éléments de géométrie algébrique. Publications Mathématiques de l'IHÉS, in multiple volumes — around 1,800 pages, left unfinished. Written at the Institut des Hautes Études Scientifiques, where Grothendieck worked from its founding in 1958 until resigning in 1970 over the institute's partial military funding. The scheme-theoretic framework was essential to Pierre Deligne's 1974 proof of the Weil conjectures and, later, to Wiles's proof of Fermat's Last Theorem (see st2).",
           "links": [
-            "st2"
+            "st2",
+            "me3",
+            "fg8",
+            "fg11",
+            "fg12",
+            "db3"
           ]
         }
       ]
@@ -243,7 +287,9 @@
           "hint": "Niels Henrik Abel proved that, unlike quadratic, cubic, and quartic equations, there is no general formula built from radicals (roots and arithmetic) that solves every fifth-degree polynomial equation — settling a question mathematicians had chased unsuccessfully for over two centuries. It was the first fully rigorous impossibility proof of its kind, though it didn't yet explain which specific quintics are solvable, a question Galois answered eight years later.",
           "note": "Abel, N.H. (1824). 'Mémoire sur les équations algébriques, où l'on démontre l'impossibilité de la résolution de l'équation générale du cinquième degré.' Self-published pamphlet, Christiania — condensed to six pages because Abel, unemployed and poor, paid the printing costs himself. Paolo Ruffini had published an earlier, incomplete attempt at the same proof in 1799 with a significant gap; Abel's version is generally credited as the first fully rigorous one, so the result is now usually called the Abel–Ruffini theorem.",
           "links": [
-            "th2"
+            "th2",
+            "fg5",
+            "fg6"
           ]
         },
         {
@@ -262,7 +308,11 @@
           "note": "Wiles, A. (1995). 'Modular Elliptic Curves and Fermat's Last Theorem.' Annals of Mathematics, 141(3), 443–551, with a companion paper by Taylor, R. & Wiles, A., 'Ring-Theoretic Properties of Certain Hecke Algebras,' same issue, 553–572. Wiles's original 1993 announcement contained a serious gap found by peer reviewer Nick Katz; Wiles spent a further year, with Richard Taylor, repairing it before the corrected proof was accepted — a rare fully public case of a landmark proof failing review and being fixed rather than withdrawn.",
           "links": [
             "th2",
-            "th11"
+            "th11",
+            "co4",
+            "co8",
+            "me6",
+            "fg12"
           ]
         },
         {
@@ -298,7 +348,9 @@
           "hint": "David Hilbert proved that no matter how many variables a polynomial ring has, every ideal within it — informally, every set of polynomial 'multiples' closed under addition — can be generated by a finite list of polynomials, even though the ideal itself may contain infinitely many. The proof was strikingly non-constructive, showing finiteness existed without producing the actual generators, which unsettled contemporaries used to explicit construction.",
           "note": "Hilbert, D. (1890). 'Über die Theorie der algebraischen Formen.' Mathematische Annalen, 36, 473–534 (the theorem itself dates from Hilbert's 1888 work on invariant theory). Paul Gordan, the leading invariant theorist of the era, is said to have dismissed the non-constructive method with 'this is not mathematics, this is theology' — though whether he actually said it is disputed by historians. The result underpins the ascending-chain-condition definition of Noetherian rings (see th3) formalised three decades later.",
           "links": [
-            "th3"
+            "th3",
+            "fg7",
+            "fg8"
           ]
         },
         {
@@ -316,7 +368,9 @@
           "hint": "Karl Weierstrass replaced calculus's informal, intuition-based talk of quantities 'approaching' a limit with a precise formal definition: a limit L is approached if, for any margin of error ε you name, a matching input-range δ can always be found that keeps the output within that margin. This epsilon-delta formulation finally closed the logical gaps that had dogged calculus since Newton and Leibniz, over a century earlier.",
           "note": "Weierstrass, K. Lecture course 'Differentialrechnung,' University of Berlin, 1861 (unpublished in his lifetime; transmitted through student lecture notes, notably by Hermann Amandus Schwarz). Weierstrass never published a single definitive text on the definition, so its exact attribution rests on student transcriptions rather than a citable paper — an unusual case of a landmark result whose 'publication' is secondhand.",
           "links": [
-            "th6"
+            "th6",
+            "ef1",
+            "fg10"
           ]
         },
         {
@@ -353,7 +407,9 @@
           "note": "Riemann, B. (1851). 'Grundlagen für eine allgemeine Theorie der Functionen einer veränderlichen complexen Grösse.' Doctoral dissertation, University of Göttingen. Karl Weierstrass publicly identified the gap in Dirichlet's Principle in 1870; a fully rigorous proof was not achieved until Constantin Carathéodory (1912) and Paul Koebe (1912) independently supplied one using different methods, and David Hilbert separately rehabilitated Dirichlet's Principle itself in 1904 under added conditions.",
           "links": [
             "th7",
-            "th9"
+            "th9",
+            "co9",
+            "fg4"
           ]
         },
         {
@@ -389,7 +445,8 @@
           "hint": "Grigori Perelman proved that every simply-connected, closed three-dimensional space is topologically equivalent to a 3-sphere, resolving a question Poincaré had posed a century earlier and that had defeated every attempt since — including several retracted false proofs by leading mathematicians. Perelman's method, extending Richard Hamilton's Ricci flow technique, was general enough to prove Thurston's much broader Geometrization Conjecture as a byproduct.",
           "note": "Perelman, G. (2002–03). Three preprints posted to arXiv, unpublished in any journal: 'The Entropy Formula for the Ricci Flow and Its Geometric Applications,' 'Ricci Flow with Surgery on Three-Manifolds,' and 'Finite Extinction Time for the Solutions to the Ricci Flow on Certain Three-Manifolds.' Three independent teams spent years producing fully detailed expansions verifying the proof (Kleiner–Lott, Morgan–Tian, and Cao–Zhu, all published 2006). Perelman declined the 2006 Fields Medal and the $1,000,000 Clay Millennium Prize, and withdrew from mathematics entirely.",
           "links": [
-            "th8"
+            "th8",
+            "fg9"
           ]
         },
         {
@@ -407,7 +464,8 @@
           "hint": "L.E.J. Brouwer proved that any continuous function mapping a filled disk (or its higher-dimensional analogue, a ball) into itself must leave at least one point exactly where it started — stir a cup of coffee however you like, some point of the liquid's surface returns to its original position. The result is a pure existence statement: it guarantees a fixed point without offering any way to locate it.",
           "note": "Brouwer, L.E.J. (1911). 'Über Abbildung von Mannigfaltigkeiten.' Mathematische Annalen, 71, 97–115. Brouwer later became a leading critic of exactly this kind of non-constructive existence proof, founding the intuitionist school of mathematics that rejected proofs — including, awkwardly, some of his own earlier work — that don't explicitly construct the object being proved to exist. The theorem underpins later fixed-point results used to prove economic equilibrium theorems (Nash, Arrow–Debreu).",
           "links": [
-            "th8"
+            "th8",
+            "co7"
           ]
         },
         {
@@ -425,7 +483,8 @@
           "hint": "Carl Friedrich Gauss proved that a surface's intrinsic curvature — a number measurable entirely by creatures confined to the surface, without reference to any surrounding space — is unchanged by any bending that doesn't stretch or tear it. A flat sheet of paper can be rolled into a cylinder without distortion because both have zero intrinsic curvature, but it can never be smoothly wrapped around a sphere without wrinkling, because their curvatures genuinely differ.",
           "note": "Gauss, C.F. (1827). 'Disquisitiones generales circa superficies curvas.' Commentationes Societatis Regiae Scientiarum Gottingensis Recentiores, 6, 99–146. Gauss himself judged this his most important geometric result, naming it 'theorema egregium' — 'remarkable theorem' — in the paper itself, an unusually immodest label from a mathematician not given to overstatement. It supplied the specific intrinsic-curvature concept Riemann generalised to arbitrary dimensions in 1854 (see th9).",
           "links": [
-            "th9"
+            "th9",
+            "fg2"
           ]
         }
       ]
@@ -455,7 +514,8 @@
           "note": "Weierstrass, K. Presented to the Royal Prussian Academy of Sciences, Berlin, 18 July 1872; first published by Paul du Bois-Reymond (1875), 'Versuch einer Classification der willkürlichen Functionen reeller Argumente,' Journal für die reine und angewandte Mathematik, 79, 21–37. Bernard Bolzano had privately constructed a similar example decades earlier in the 1830s, rediscovered only in 1922; Weierstrass's public, rigorously analysed version is the one that forced mathematicians to abandon the intuition that 'continuous' implies 'smooth almost everywhere.'",
           "links": [
             "th6",
-            "st5"
+            "st5",
+            "fg10"
           ]
         },
         {
@@ -603,7 +663,9 @@
           "hint": "Yitang Zhang proved that infinitely many pairs of primes differ by no more than 70 million — a finite bound, where none had ever been proven before — as a major partial step toward, though not a proof of, the Twin Prime Conjecture, which claims the bound can be brought all the way down to 2. A lecturer with no permanent academic position who had not published in years, Zhang's result came as a total surprise to the field.",
           "note": "Zhang, Y. (2014). 'Bounded Gaps Between Primes.' Annals of Mathematics, 179(3), 1121–1174 (submitted 2013). The Polymath8 collaborative project, organised within weeks of the announcement, rapidly lowered Zhang's bound from 70,000,000 to 246 by 2014, combining his method with earlier work by Goldston, Pintz and Yıldırım. The final push to the conjectured bound of 2 remains unsolved.",
           "links": [
-            "th5"
+            "th5",
+            "me1",
+            "db5"
           ]
         }
       ]
@@ -648,7 +710,8 @@
           "hint": "A manifold is a space that looks locally like ordinary flat Euclidean space at every point, even when its overall global shape is curved or complicated — a sphere's surface looks flat close-up despite being globally round. Felix Hausdorff's general axiomatic framework for topological spaces gave mathematicians the precise vocabulary needed to define 'manifold' rigorously, independent of any particular embedding in a larger surrounding space.",
           "note": "Hausdorff, F. (1914). Grundzüge der Mengenlehre. Leipzig: Veit & Comp. Hausdorff's separation axiom (the 'Hausdorff property') excluded pathological spaces that weaker definitions would otherwise admit; the specific chart-and-atlas formalisation of 'manifold' used today was refined further by Hermann Weyl (1913) for Riemann surfaces and by Hassler Whitney (1936) in general.",
           "links": [
-            "th9"
+            "th9",
+            "co5"
           ]
         },
         {
@@ -682,7 +745,9 @@
           "hint": "Modular forms are highly symmetric complex functions that stay almost unchanged under a specific infinite family of transformations, and their coefficients encode deep arithmetic information — famously, they were the exact bridge Andrew Wiles needed to connect elliptic curves to Fermat's Last Theorem. Erich Hecke's operators gave the first systematic way to organise and decompose the vast space of such functions.",
           "note": "Hecke, E. (1937). 'Über Modulfunktionen und die Dirichletschen Reihen mit Eulerscher Produktentwicklung I & II.' Mathematische Annalen, 114, 1–28 and 316–351. Modular forms had been studied piecemeal since Klein and Poincaré in the 1870s–80s, but Hecke's operator-based structure theory made the field systematically tractable; the Taniyama–Shimura conjecture linking modular forms to elliptic curves, proved by Wiles for the needed case (see st2), was unimaginable without it.",
           "links": [
-            "st2"
+            "st2",
+            "me6",
+            "db2"
           ]
         },
         {
@@ -752,7 +817,8 @@
           "hint": "A Diophantine equation is a polynomial equation for which only whole-number or rational solutions are of interest — the ancient and still-active study of when such equations can be solved at all, and by what values. Diophantus of Alexandria's Arithmetica catalogued dozens of such problems and their solution techniques, giving the entire field its name nearly two thousand years before Fermat scribbled his famous margin note in a copy of the same book.",
           "note": "Diophantus. Arithmetica (c. 250 CE), of which six of an original thirteen books survive in Greek, with four more surviving in a later Arabic translation. Pierre de Fermat's 1637 marginal note claiming a proof of what became Fermat's Last Theorem (see st2) was written directly in his personal copy of a 1621 Latin edition of the Arithmetica, beside Diophantus's discussion of Pythagorean triples in Book II.",
           "links": [
-            "st2"
+            "st2",
+            "db7"
           ]
         },
         {
@@ -770,7 +836,8 @@
           "note": "Weierstrass, K. (1876). 'Zur Theorie der eindeutigen analytischen Functionen.' Abhandlungen der Königlich Preussischen Akademie der Wissenschaften zu Berlin, 11–60 — Weierstrass's power-series approach, developed as a rigorous alternative to Riemann's more geometric, surface-based treatment of the same idea (see st7). The two approaches were shown fully equivalent by the 1880s, though Weierstrass's version remained the more computationally tractable for decades.",
           "links": [
             "th7",
-            "st7"
+            "st7",
+            "fg10"
           ]
         }
       ]
@@ -799,7 +866,9 @@
           "note": "Brun, V. (1915). 'Über das Goldbachsche Gesetz und die Anzahl der Primzahlpaare.' Archiv for Mathematik og Naturvidenskab, 34(8). Brun's sieve proved that the sum of reciprocals of twin primes converges (Brun's constant), a partial result toward the still-unsolved Twin Prime Conjecture; refined sieve techniques descending from his method were essential to Zhang's 2013 bounded-gaps breakthrough (see ef9).",
           "links": [
             "ef9",
-            "th5"
+            "th5",
+            "db4",
+            "db5"
           ]
         },
         {
@@ -833,7 +902,9 @@
           "hint": "A sheaf tracks how local data — functions, sections, algebraic information — defined on small overlapping pieces of a space can be consistently glued into global data across the whole space, giving geometers a precise language for problems that are easy locally but subtle globally. The technique became indispensable to Grothendieck's later reconstruction of algebraic geometry.",
           "note": "Leray, J. (1945). 'Sur la forme des espaces topologiques et sur les points fixes des représentations.' Journal de Mathématiques Pures et Appliquées, 24, 95–167. Leray invented sheaf theory and spectral sequences while a prisoner of war at Oflag XVII-A in Austria from 1940 to 1945, where he deliberately worked on pure topology rather than his prior specialty of fluid dynamics, reportedly to keep his applied expertise from being useful to his captors. Alexander Grothendieck's later scheme theory (see th11) depends fundamentally on sheaves.",
           "links": [
-            "th11"
+            "th11",
+            "fg11",
+            "db8"
           ]
         },
         {
@@ -870,7 +941,8 @@
           "hint": "Ordinary calculus finds the input that minimises or maximises a function's output; the calculus of variations finds the entire function or curve that minimises or maximises an integral built from it — the shortest path, the fastest descent, the shape a soap film takes. Euler's method for deriving the governing equation for such problems, later generalised by Lagrange, remains the standard approach.",
           "note": "Euler, L. (1744). Methodus inveniendi lineas curvas maximi minimive proprietate gaudentes. Lausanne: Marc-Michel Bousquet, written while Euler held his post at the Prussian Academy of Sciences, Berlin. Joseph-Louis Lagrange's later, more algebraic reformulation (1750s correspondence with Euler) gave the technique its modern name and its standard differential-equation form, the Euler–Lagrange equation, still central to physics as well as pure analysis.",
           "links": [
-            "th6"
+            "th6",
+            "fg3"
           ]
         },
         {
@@ -888,7 +960,9 @@
           "note": "Mordell, L.J. (1922). 'On the Rational Solutions of the Indeterminate Equations of the Third and Fourth Degrees.' Proceedings of the Cambridge Philosophical Society, 21, 179–192, written at the University of Manchester. André Weil generalised the result to higher-dimensional analogues in 1929 (the Mordell–Weil theorem); elliptic-curve methods are also the basis of elliptic-curve cryptography, an efficient alternative to RSA-style public-key systems.",
           "links": [
             "st2",
-            "co4"
+            "co4",
+            "db2",
+            "ap6"
           ]
         }
       ]
@@ -952,7 +1026,8 @@
           "note": "Euler, L. Introductio in analysin infinitorum (1748), Lausanne: Marc-Michel Bousquet, written during his 1741–1766 tenure at the Prussian Academy of Sciences, Berlin — generally regarded as the book that established analysis as a discipline distinct from geometry. His collected works, the Opera Omnia, span more than 80 volumes and are still not fully published.",
           "links": [
             "th5",
-            "me5"
+            "me5",
+            "db6"
           ]
         },
         {
@@ -970,7 +1045,8 @@
           "note": "Riemann, B. 'Über die Hypothesen, welche der Geometrie zu Grunde liegen' (delivered 1854, published 1868, see th9) and 'Über die Anzahl der Primzahlen unter einer gegebenen Grösse' (1859), Monatsberichte der Berliner Akademie. Riemann's Göttingen habilitation committee, which included Gauss, is reported to have been visibly moved by the 1854 lecture — Gauss rarely praised anyone's work so openly.",
           "links": [
             "th9",
-            "st7"
+            "st7",
+            "db1"
           ]
         },
         {
@@ -1082,7 +1158,8 @@
           "links": [
             "st5",
             "ef1",
-            "co9"
+            "co9",
+            "fg13"
           ]
         },
         {
@@ -1418,42 +1495,303 @@
       "icon": "🧪",
       "accent": "#7D3C98",
       "label": "Landmark Studies",
-      "events": []
+      "events": [
+        {
+          "y": 1824,
+          "l": "Abel's Insolvability Proof",
+          "entryId": "st1"
+        },
+        {
+          "y": 1827,
+          "l": "Gauss's Theorema Egregium",
+          "entryId": "st11"
+        },
+        {
+          "y": 1851,
+          "l": "The Riemann Mapping Theorem",
+          "entryId": "st7"
+        },
+        {
+          "y": 1861,
+          "l": "Weierstrass's ε–δ Rigor",
+          "entryId": "st5"
+        },
+        {
+          "y": 1879,
+          "l": "Picard's Great Theorem",
+          "entryId": "st8"
+        },
+        {
+          "y": 1888,
+          "l": "Hilbert's Basis Theorem",
+          "entryId": "st4"
+        },
+        {
+          "y": 1899,
+          "l": "Baire's Category Theorem",
+          "entryId": "st6"
+        },
+        {
+          "y": 1911,
+          "l": "Brouwer's Fixed-Point Thm.",
+          "entryId": "st10"
+        },
+        {
+          "y": 1949,
+          "l": "Elementary Proof of PNT",
+          "entryId": "st3"
+        },
+        {
+          "y": 1995,
+          "l": "Wiles's Proof of FLT",
+          "entryId": "st2"
+        },
+        {
+          "y": 2003,
+          "l": "Perelman's Poincaré Proof",
+          "entryId": "st9"
+        }
+      ]
     },
     {
       "id": "theory",
       "icon": "📐",
       "accent": "#2471A3",
       "label": "Theories & Models",
-      "events": []
+      "events": [
+        {
+          "y": 1801,
+          "l": "Fund. Theorem of Arithmetic",
+          "entryId": "th4"
+        },
+        {
+          "y": 1825,
+          "l": "Complex Analytic Function Thy.",
+          "entryId": "th7"
+        },
+        {
+          "y": 1829,
+          "l": "Non-Euclidean Geometry",
+          "entryId": "th10"
+        },
+        {
+          "y": 1832,
+          "l": "Galois Theory",
+          "entryId": "th2"
+        },
+        {
+          "y": 1854,
+          "l": "Group Theory",
+          "entryId": "th1"
+        },
+        {
+          "y": 1854,
+          "l": "Riemannian Geometry",
+          "entryId": "th9"
+        },
+        {
+          "y": 1895,
+          "l": "Algebraic Topology",
+          "entryId": "th8"
+        },
+        {
+          "y": 1896,
+          "l": "Prime Number Theorem",
+          "entryId": "th5"
+        },
+        {
+          "y": 1902,
+          "l": "Measure Theory",
+          "entryId": "th6"
+        },
+        {
+          "y": 1921,
+          "l": "Ring and Field Theory",
+          "entryId": "th3"
+        },
+        {
+          "y": 1960,
+          "l": "Algebraic Geometry (Schemes)",
+          "entryId": "th11"
+        }
+      ]
     },
     {
       "id": "effect",
       "icon": "📊",
       "accent": "#117A65",
       "label": "Effects & Phenomena",
-      "events": []
+      "events": [
+        {
+          "y": 1641,
+          "l": "Gabriel's Horn",
+          "entryId": "ef4"
+        },
+        {
+          "y": 1837,
+          "l": "Impossibility of Trisection",
+          "entryId": "ef3"
+        },
+        {
+          "y": 1872,
+          "l": "The Weierstrass Function",
+          "entryId": "ef1"
+        },
+        {
+          "y": 1882,
+          "l": "Transcendence of π",
+          "entryId": "ef5"
+        },
+        {
+          "y": 1890,
+          "l": "Space-Filling Curves",
+          "entryId": "ef2"
+        },
+        {
+          "y": 1904,
+          "l": "Fractal Self-Similarity",
+          "entryId": "ef7"
+        },
+        {
+          "y": 1905,
+          "l": "Vitali's Non-Measurable Sets",
+          "entryId": "ef8"
+        },
+        {
+          "y": 1979,
+          "l": "Monstrous Moonshine",
+          "entryId": "ef6"
+        },
+        {
+          "y": 2013,
+          "l": "Bounded Gaps Between Primes",
+          "entryId": "ef9"
+        }
+      ]
     },
     {
       "id": "method",
       "icon": "🔬",
       "accent": "#8B5E00",
       "label": "Methods",
-      "events": []
+      "events": [
+        {
+          "y": 1744,
+          "l": "Calculus of Variations",
+          "entryId": "me5"
+        },
+        {
+          "y": 1895,
+          "l": "Compactness Arguments",
+          "entryId": "me2"
+        },
+        {
+          "y": 1915,
+          "l": "Sieve Methods",
+          "entryId": "me1"
+        },
+        {
+          "y": 1922,
+          "l": "Elliptic-Curve Methods",
+          "entryId": "me6"
+        },
+        {
+          "y": 1945,
+          "l": "Sheaf-Theoretic Methods",
+          "entryId": "me3"
+        },
+        {
+          "y": 1976,
+          "l": "Computer-Assisted Exhaustive Proof",
+          "entryId": "me4"
+        }
+      ]
     },
     {
       "id": "debate",
       "icon": "⚖️",
       "accent": "#B7770D",
       "label": "Debates & Revisions",
-      "events": []
+      "events": [
+        {
+          "y": 1742,
+          "l": "The Goldbach Conjecture",
+          "entryId": "db6"
+        },
+        {
+          "y": 1849,
+          "l": "The Twin Prime Conjecture",
+          "entryId": "db5"
+        },
+        {
+          "y": 1859,
+          "l": "The Riemann Hypothesis",
+          "entryId": "db1"
+        },
+        {
+          "y": 1934,
+          "l": "Navier–Stokes Existence",
+          "entryId": "db8"
+        },
+        {
+          "y": 1937,
+          "l": "The Collatz Conjecture",
+          "entryId": "db4"
+        },
+        {
+          "y": 1950,
+          "l": "The Hodge Conjecture",
+          "entryId": "db3"
+        },
+        {
+          "y": 1965,
+          "l": "Birch and Swinnerton-Dyer Conj.",
+          "entryId": "db2"
+        },
+        {
+          "y": 2012,
+          "l": "abc Conjecture / Mochizuki",
+          "entryId": "db7"
+        }
+      ]
     },
     {
       "id": "application",
       "icon": "🔗",
       "accent": "#2E86C1",
       "label": "Applications",
-      "events": []
+      "events": [
+        {
+          "y": 1915,
+          "l": "General Relativity via Geometry",
+          "entryId": "ap2"
+        },
+        {
+          "y": 1960,
+          "l": "Error-Correcting Codes",
+          "entryId": "ap1"
+        },
+        {
+          "y": 1965,
+          "l": "The Fast Fourier Transform",
+          "entryId": "ap4"
+        },
+        {
+          "y": 1985,
+          "l": "Elliptic-Curve Cryptography",
+          "entryId": "ap6"
+        },
+        {
+          "y": 1986,
+          "l": "Knot Theory in DNA & Chemistry",
+          "entryId": "ap5"
+        },
+        {
+          "y": 2002,
+          "l": "Topological Data Analysis",
+          "entryId": "ap3"
+        }
+      ]
     }
   ]
 }
