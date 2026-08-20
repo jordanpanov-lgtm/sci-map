@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 1609,
+    "total_entries": 1613,
     "folio_count": 21,
-    "xlink_pairs": 99,
-    "keyword_terms": 5999,
+    "xlink_pairs": 101,
+    "keyword_terms": 6011,
     "folios": [
       {
         "id": "anatomy-histology",
@@ -38,7 +38,7 @@
       {
         "id": "em-optics",
         "title": "Physics: Electromagnetism & Optics",
-        "entries": 73
+        "entries": 77
       },
       {
         "id": "epistemology",
@@ -584,6 +584,7 @@
     "em-optics::th9": "theory · Wave Optics: Interference, Diffraction & Polarization · Huygens' Wave Theory of Light (1678)",
     "em-optics::th10": "theory · Wave Optics: Interference, Diffraction & Polarization · Malus's Law of Polarization (1809)",
     "em-optics::th11": "theory · The Electromagnetic Spectrum & Spectroscopy · Kirchhoff's Laws of Spectroscopy (1859)",
+    "em-optics::th12": "theory · Maxwell's Equations & Electromagnetic Waves · Gauss's Laws for Electricity and Magnetism (1867)",
     "em-optics::st1": "study · Electrostatics & Circuits · Franklin's Kite Experiment (1752)",
     "em-optics::st2": "study · Electrostatics & Circuits · Volta's Voltaic Pile (1800)",
     "em-optics::st3": "study · Magnetism & Electromagnetic Induction · Ørsted's Discovery of Electromagnetism (1820)",
@@ -604,6 +605,8 @@
     "em-optics::ef7": "effect · Electrostatics & Circuits · The Faraday Cage (1836)",
     "em-optics::ef8": "effect · Geometric Optics · Fata Morgana and Atmospheric Mirages (1798)",
     "em-optics::ef9": "effect · The Electromagnetic Spectrum & Spectroscopy · Ionospheric Radio Wave Reflection (1924)",
+    "em-optics::ef10": "effect · Wave Optics: Interference, Diffraction & Polarization · Rayleigh Scattering (1871)",
+    "em-optics::ef11": "effect · Wave Optics: Interference, Diffraction & Polarization · Mie Scattering (1908)",
     "em-optics::co1": "concept · Electrostatics & Circuits · Electric Field (1852)",
     "em-optics::co2": "concept · Magnetism & Electromagnetic Induction · Magnetic Field & Field Lines (1839)",
     "em-optics::co3": "concept · Electrostatics & Circuits · Capacitance (1771)",
@@ -632,6 +635,7 @@
     "em-optics::fg11": "figure · Pioneers & Theorists · Ibn al-Haytham (1021)",
     "em-optics::fg12": "figure · Pioneers & Theorists · Joseph von Fraunhofer (1814)",
     "em-optics::fg13": "figure · Pioneers & Theorists · Wilhelm Röntgen (1895)",
+    "em-optics::fg14": "figure · Pioneers & Theorists · Oliver Heaviside (1884)",
     "em-optics::db1": "debate · Wave Optics: Interference, Diffraction & Polarization · Wave vs. Particle Theory of Light (1704)",
     "em-optics::db2": "debate · Maxwell's Equations & Electromagnetic Waves · Action at a Distance vs. Field Theory (1846)",
     "em-optics::db3": "debate · Maxwell's Equations & Electromagnetic Waves · Does the Luminiferous Ether Exist? (1878)",
@@ -1974,6 +1978,20 @@
     "classical-physics::fg2": [
       "em-optics::th6"
     ],
+    "em-optics::ef10": [
+      "classical-physics::co7"
+    ],
+    "classical-physics::co7": [
+      "em-optics::ef10"
+    ],
+    "em-optics::co8": [
+      "neuroscience::st1"
+    ],
+    "neuroscience::st1": [
+      "em-optics::co8",
+      "physiology-organ-systems::st1",
+      "physiology-organ-systems::th1"
+    ],
     "em-optics::me2": [
       "quantum-nuclear-relativity::st1"
     ],
@@ -2147,10 +2165,6 @@
     ],
     "physiology-organ-systems::co7": [
       "neuroscience::th11"
-    ],
-    "neuroscience::st1": [
-      "physiology-organ-systems::st1",
-      "physiology-organ-systems::th1"
     ],
     "physiology-organ-systems::st1": [
       "neuroscience::st1"
@@ -4900,6 +4914,11 @@
       "chemical fingerprint of light",
       "bunsen collaboration"
     ],
+    "em-optics::th12": [
+      "electric flux enclosed charge",
+      "zero magnetic monopole",
+      "gauss integral form"
+    ],
     "em-optics::st1": [
       "lightning electrical nature",
       "dangerous replication",
@@ -4999,6 +5018,16 @@
       "heaviside layer",
       "atmospheric radio bounce",
       "long-distance signal propagation"
+    ],
+    "em-optics::ef10": [
+      "inverse fourth power wavelength",
+      "sky blue sunset red",
+      "small particle scattering"
+    ],
+    "em-optics::ef11": [
+      "large particle scattering",
+      "cloud color explanation",
+      "colloidal gold solution"
     ],
     "em-optics::co1": [
       "field lines visualization",
@@ -5139,6 +5168,11 @@
       "cathode ray tube observation",
       "first nobel physics laureate",
       "patent refusal"
+    ],
+    "em-optics::fg14": [
+      "vector equation reformulation",
+      "self-taught telegraph engineer",
+      "quaternion notation discarded"
     ],
     "em-optics::db1": [
       "newton vs huygens dispute",
@@ -16634,6 +16668,15 @@
     "bunsen collaboration": [
       "em-optics::th11"
     ],
+    "electric flux enclosed charge": [
+      "em-optics::th12"
+    ],
+    "zero magnetic monopole": [
+      "em-optics::th12"
+    ],
+    "gauss integral form": [
+      "em-optics::th12"
+    ],
     "lightning electrical nature": [
       "em-optics::st1"
     ],
@@ -16813,6 +16856,24 @@
     ],
     "long-distance signal propagation": [
       "em-optics::ef9"
+    ],
+    "inverse fourth power wavelength": [
+      "em-optics::ef10"
+    ],
+    "sky blue sunset red": [
+      "em-optics::ef10"
+    ],
+    "small particle scattering": [
+      "em-optics::ef10"
+    ],
+    "large particle scattering": [
+      "em-optics::ef11"
+    ],
+    "cloud color explanation": [
+      "em-optics::ef11"
+    ],
+    "colloidal gold solution": [
+      "em-optics::ef11"
     ],
     "field lines visualization": [
       "em-optics::co1"
@@ -17059,6 +17120,15 @@
     ],
     "patent refusal": [
       "em-optics::fg13"
+    ],
+    "vector equation reformulation": [
+      "em-optics::fg14"
+    ],
+    "self-taught telegraph engineer": [
+      "em-optics::fg14"
+    ],
+    "quaternion notation discarded": [
+      "em-optics::fg14"
     ],
     "newton vs huygens dispute": [
       "em-optics::db1"
