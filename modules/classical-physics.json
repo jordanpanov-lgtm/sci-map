@@ -39,7 +39,11 @@
           "note": "Newton, I. (1687). Philosophiæ Naturalis Principia Mathematica, Book I, Axioms or Laws of Motion. London: Royal Society, written while Newton was Lucasian Professor at Trinity College, Cambridge. Newton developed the underlying calculus needed to state and use these laws rigorously largely on his own, in parallel with (and in later bitter priority dispute with) Gottfried Leibniz.",
           "links": [
             "th2",
-            "fg1"
+            "fg1",
+            "co1",
+            "co2",
+            "co3",
+            "me1"
           ]
         },
         {
@@ -57,7 +61,10 @@
           "note": "Newton, I. (1687). Philosophiæ Naturalis Principia Mathematica, Book III, The System of the World. London: Royal Society. Newton reportedly first considered the inverse-square relationship in the 1660s but delayed publishing for two decades, partly to resolve whether a spherical mass could be treated as if all its mass were concentrated at its centre — a result requiring the calculus he was still developing.",
           "links": [
             "th1",
-            "st1"
+            "st1",
+            "me5",
+            "fg1",
+            "ap5"
           ]
         },
         {
@@ -75,7 +82,12 @@
           "note": "von Helmholtz, H. (1847). Über die Erhaltung der Kraft ['On the Conservation of Force']. Berlin: G. Reimer, presented to the Berlin Physical Society. Julius Robert von Mayer had proposed a similar principle independently in 1842, and James Prescott Joule was simultaneously establishing the mechanical equivalent of heat experimentally (see st2); priority disputes among the three ran for years, with Mayer in particular feeling overlooked, contributing to a nervous breakdown and suicide attempt in 1850.",
           "links": [
             "st2",
-            "fg6"
+            "fg6",
+            "th7",
+            "co4",
+            "me3",
+            "db4",
+            "ap1"
           ]
         },
         {
@@ -92,7 +104,8 @@
           "hint": "A pendulum, a mass on a spring, and countless other systems all obey the same underlying mathematical pattern when displaced slightly from equilibrium — a restoring force proportional to the displacement, producing smooth, repeating oscillation at a fixed frequency independent of amplitude. Christiaan Huygens gave this 'isochronism' its first rigorous mathematical treatment, directly enabling the pendulum clock's dramatically improved timekeeping accuracy.",
           "note": "Huygens, C. (1673). Horologium Oscillatorium sive de Motu Pendulorum ['The Pendulum Clock']. Paris: F. Muguet, written while Huygens was based in The Hague and visiting Paris as a founding member of the French Academy of Sciences. Galileo had qualitatively observed pendulum isochronism decades earlier (reportedly timing a swinging cathedral lamp against his own pulse around 1602), but never developed the full mathematical theory Huygens provided.",
           "links": [
-            "co6"
+            "co6",
+            "co7"
           ]
         },
         {
@@ -110,7 +123,11 @@
           "note": "Bernoulli, D. (1738). Hydrodynamica, sive de viribus et motibus fluidorum commentarii. Strasbourg: Johann Reinhold Dulsecker, written while Bernoulli held a professorship at the University of Basel. The principle strictly applies only to idealised, non-viscous ('inviscid') flow with no energy lost to friction — real fluids always deviate to some degree, a gap that later motivated the study of viscosity and, eventually, d'Alembert's paradox.",
           "links": [
             "db7",
-            "fg12"
+            "fg12",
+            "st8",
+            "ef3",
+            "co8",
+            "ap4"
           ]
         },
         {
@@ -146,7 +163,9 @@
           "note": "Clausius, R. (1850). 'Über die bewegende Kraft der Wärme.' Annalen der Physik, 155(3), 368–397, written while Clausius taught at the Royal Artillery and Engineering School, Berlin. The paper simultaneously introduced what became the Second Law (see th8) in an early form, making 1850 something of a founding year for thermodynamics as a coherent, unified theory rather than two separate lines of inquiry about heat and mechanics.",
           "links": [
             "th3",
-            "th6"
+            "th6",
+            "st3",
+            "fg5"
           ]
         },
         {
@@ -165,7 +184,14 @@
           "links": [
             "th6",
             "st6",
-            "db1"
+            "db1",
+            "st4",
+            "ef5",
+            "ef6",
+            "co6",
+            "fg5",
+            "db6",
+            "ap2"
           ]
         },
         {
@@ -183,7 +209,9 @@
           "note": "Maxwell, J.C. (1860). 'Illustrations of the Dynamical Theory of Gases.' Philosophical Magazine, 4th series, 19–20, written shortly after Maxwell's appointment at King's College London. Maxwell's original derivation contained a subtle statistical assumption he later recognised as unjustified, prompting a more rigorous follow-up paper in 1867 (see st5); the kinetic theory was independently and even more thoroughly developed by Ludwig Boltzmann over the following decade.",
           "links": [
             "st5",
-            "fg2"
+            "fg2",
+            "st9",
+            "me4"
           ]
         },
         {
@@ -201,7 +229,9 @@
           "note": "Lagrange, J.L. (1788). Mécanique analytique. Paris: Veuve Desaint, completed shortly after Lagrange moved from the Berlin Academy to the Paris Académie des Sciences. Lagrange reportedly took considerable pride in the fact that the book contained not a single diagram, treating mechanics as a branch of pure analysis; the underlying calculus-of-variations machinery is covered from the mathematics side in the applied-math-statistics folio.",
           "links": [
             "th11",
-            "fg7"
+            "fg7",
+            "me2",
+            "ap6"
           ]
         },
         {
@@ -219,7 +249,11 @@
           "note": "Hamilton, W.R. (1833). 'On a General Method of Expressing the Paths of Light and of the Planets by the Coefficients of a Characteristic Function.' Dublin University Review, written at Dunsink Observatory, where Hamilton served as Royal Astronomer of Ireland from age 22. Hamilton originally developed the underlying mathematics to unify optics and mechanics, only later recognising its full generality for dynamics; the phase-space formulation is what modern chaos theory and statistical mechanics are built on top of.",
           "links": [
             "th10",
-            "co4"
+            "co4",
+            "st10",
+            "co5",
+            "me5",
+            "fg8"
           ]
         }
       ]
@@ -266,7 +300,8 @@
           "hint": "James Prescott Joule used a falling weight to turn a paddle wheel inside an insulated water tank, precisely measuring how much the water's temperature rose for a given amount of mechanical work done — establishing, against considerable initial skepticism, that heat and mechanical energy are directly interconvertible at a fixed, measurable exchange rate. It was the crucial experimental evidence underneath the theoretical principle of energy conservation formalised a few years later.",
           "note": "Joule, J.P. (1843–1850). A series of papers culminating in 'On the Mechanical Equivalent of Heat.' Philosophical Transactions of the Royal Society, 140 (1850), 61–82, conducted largely in a private laboratory attached to Joule's family brewery in Manchester. Joule funded this research entirely himself, without a university position, and his early results were initially received with considerable skepticism by the physics establishment, including a famously cool reception at the 1847 British Association meeting.",
           "links": [
-            "th3"
+            "th3",
+            "fg6"
           ]
         },
         {
@@ -285,7 +320,11 @@
           "note": "Carnot, S. (1824). Réflexions sur la puissance motrice du feu. Paris: Bachelier. Carnot still worked within the outdated caloric theory of heat (that heat was a conserved fluid substance), yet his conclusions about maximum efficiency remain exactly correct under the modern theory — a striking case of a right answer surviving a wrong underlying model. Carnot died of cholera at 36 in 1832, and most of his papers were burned as a public health precaution, destroying further unpublished work.",
           "links": [
             "th7",
-            "db4"
+            "db4",
+            "co6",
+            "fg4",
+            "ap1",
+            "ap2"
           ]
         },
         {
@@ -321,7 +360,8 @@
           "hint": "Not every gas molecule moves at the same speed — Maxwell derived the precise statistical distribution of molecular speeds within a gas at a given temperature, a smooth bell-like curve now bearing his name, correcting a flawed statistical assumption in his own earlier 1860 derivation. It gave kinetic theory its first fully rigorous mathematical foundation, rather than a plausible but imprecisely justified sketch.",
           "note": "Maxwell, J.C. (1867). 'On the Dynamical Theory of Gases.' Philosophical Transactions of the Royal Society, 157, 49–88. Ludwig Boltzmann generalised the result further over the following decade, giving the now-standard 'Maxwell–Boltzmann distribution' its full form including the effect of external potential energy, not merely kinetic energy alone.",
           "links": [
-            "th9"
+            "th9",
+            "fg2"
           ]
         },
         {
@@ -340,7 +380,9 @@
           "note": "Boltzmann, L. (1877). 'Über die Beziehung zwischen dem zweiten Hauptsatze der mechanischen Wärmetheorie und der Wahrscheinlichkeitsrechnung.' Wiener Berichte, 76, 373–435. The constant k, now called Boltzmann's constant, was actually named and first given its symbol by Max Planck decades later; Boltzmann's statistical approach was fiercely contested by contemporaries who doubted the physical reality of atoms (see db1), a dispute Boltzmann never lived to see fully resolved.",
           "links": [
             "th8",
-            "db1"
+            "db1",
+            "co9",
+            "fg3"
           ]
         },
         {
@@ -359,7 +401,8 @@
           "note": "Foucault, L. (1851). Public demonstration, Panthéon, Paris, following an initial private demonstration at the Paris Observatory weeks earlier. The pendulum's swing plane rotates at a rate depending on latitude — a full rotation takes about 32 hours in Paris, would take exactly 24 hours at the North or South Pole, and would not rotate at all on the equator — a direct, calculable consequence of the Coriolis effect (see ef9).",
           "links": [
             "ef9",
-            "fg10"
+            "fg10",
+            "ef8"
           ]
         },
         {
@@ -415,7 +458,8 @@
           "note": "Poincaré, H. (1890). 'Sur le problème des trois corps et les équations de la dynamique.' Acta Mathematica, 13, 1–270 — a substantially revised version of Poincaré's original 1889 prize-winning memoir, after a serious error was discovered post-award requiring extensive (and expensive) reprinting. The full implications of Poincaré's discovery were not widely appreciated until Edward Lorenz's independent rediscovery of sensitive dependence in weather models seven decades later.",
           "links": [
             "th11",
-            "ef7"
+            "ef7",
+            "db3"
           ],
           "xlinks": [
             "pure-mathematics::fg9",
@@ -438,7 +482,8 @@
           "note": "Reynolds, O. (1883). 'An Experimental Investigation of the Circumstances Which Determine Whether the Motion of Water Shall Be Direct or Sinuous.' Philosophical Transactions of the Royal Society, 174, 935–982, at Owens College, Manchester. The Reynolds number remains the standard tool for predicting laminar-to-turbulent transition across scales from blood flow in capillaries to airflow over aircraft wings; a complete theoretical account of turbulence itself remains unsolved (see db8).",
           "links": [
             "db8",
-            "db7"
+            "db7",
+            "ef4"
           ]
         }
       ]
@@ -467,7 +512,8 @@
           "hint": "Pollen grains suspended in water, viewed under a microscope, jitter and dart about in a continuous, erratic zigzag with no apparent cause — a botanist's curiosity for eight decades until it turned out to be direct visible evidence of individual water molecules colliding with each particle from random directions. It gave physicists their first genuine window onto molecular-scale motion, using nothing more than an ordinary light microscope.",
           "note": "Brown, R. (1828). 'A Brief Account of Microscopical Observations...' Philosophical Magazine, 4(21), 161–173, based on observations made in London in 1827. Brown himself, a botanist, ruled out that the motion was biological (it persisted in mineral dust particles too) but offered no physical explanation; Einstein's 1905 theoretical treatment and Perrin's 1908 experimental confirmation (see st9) are what finally explained it as molecular bombardment.",
           "links": [
-            "st9"
+            "st9",
+            "fg13"
           ]
         },
         {
@@ -694,7 +740,8 @@
           "hint": "Potential energy is energy stored by an object's position or configuration — height in a gravitational field, compression in a spring — and plotting it as a landscape over all possible configurations turns finding a system's stable resting points into simply finding the landscape's valleys, and finding how a system evolves into simply asking which way is 'downhill' at any given point. The framework works identically whether the 'landscape' describes a literal hillside or an abstract configuration space with no direct physical geometry at all.",
           "note": "Rankine, W.J.M. (1853). 'On the General Law of the Transformation of Energy.' Proceedings of the Philosophical Society of Glasgow, 3, 276–280, at the University of Glasgow — the paper that coined the term 'potential energy' itself, generalising William Thomson's and others' earlier, more specific treatments of stored mechanical energy. The landscape picture extends directly into chemistry (reaction energy landscapes) and into the phase-space formulations of analytical mechanics (see th11).",
           "links": [
-            "th3"
+            "th3",
+            "th11"
           ]
         },
         {
@@ -712,7 +759,8 @@
           "note": "Liouville, J. (1838). 'Note sur la théorie de la variation des constantes arbitraires.' Journal de Mathématiques Pures et Appliquées, 3, 342–349, at the Sorbonne, Paris. Liouville's theorem became essential to statistical mechanics, since it guarantees that a probability distribution spread across phase space behaves like an incompressible fluid, a property Gibbs's later ensemble formulation (see co9) depends on directly.",
           "links": [
             "th11",
-            "co9"
+            "co9",
+            "fg9"
           ]
         },
         {
@@ -730,7 +778,8 @@
           "note": "Thomson, W. [Lord Kelvin] (1851). 'On the Dynamical Theory of Heat.' Transactions of the Royal Society of Edinburgh, 20, 261–288, at the University of Glasgow. Real engines and processes are always somewhat irreversible, generating entropy and wasting some potential useful work as a result; Carnot's maximum-efficiency limit (see st3) applies specifically and only to the idealised, unreachable reversible case.",
           "links": [
             "th8",
-            "st3"
+            "st3",
+            "th4"
           ]
         },
         {
@@ -748,7 +797,8 @@
           "note": "Strutt, J.W. [Lord Rayleigh] (1877). The Theory of Sound, Vol. I. London: Macmillan, largely written at Terling Place, Essex, and at Cambridge. Rayleigh's treatment gave engineers the first systematic mathematical vocabulary — natural frequency, damping ratio, quality factor — for analysing driven oscillating systems generally, well beyond the acoustic problems the book was nominally about.",
           "links": [
             "th4",
-            "ef2"
+            "ef2",
+            "ap3"
           ]
         },
         {
@@ -784,7 +834,10 @@
           "note": "Gibbs, J.W. (1902). Elementary Principles in Statistical Mechanics. New York: Charles Scribner's Sons, written at Yale University, where Gibbs held the first American professorship in mathematical physics. Gibbs's ensemble framework, formulated independently of and somewhat later than Boltzmann's and Maxwell's more physically motivated approaches, gave statistical mechanics its modern, fully general mathematical foundation, extending cleanly to quantum statistical mechanics in the following decades.",
           "links": [
             "co5",
-            "st6"
+            "st6",
+            "me4",
+            "fg9",
+            "db5"
           ]
         }
       ]
@@ -812,7 +865,8 @@
           "hint": "Every physical quantity is built from a small set of base dimensions — length, mass, time — and any correct physical equation must balance these dimensions on both sides, a constraint powerful enough to deduce the general form of a relationship between quantities without solving the underlying physics in detail. Edgar Buckingham's systematic version of this reasoning, now called the Pi theorem, turns dimensional bookkeeping into a genuine predictive method rather than just a sanity check.",
           "note": "Buckingham, E. (1914). 'On Physically Similar Systems: Illustrations of the Use of Dimensional Equations.' Physical Review, 4(4), 345–376, at the US National Bureau of Standards. Joseph Fourier had already argued in 1822 that physical equations must be dimensionally homogeneous; Buckingham's Pi theorem formalised how to systematically construct the complete set of dimensionless groups governing any physical problem, a technique still used to design scaled-down wind tunnel and ship-hull models today.",
           "links": [
-            "th1"
+            "th1",
+            "me6"
           ]
         },
         {
@@ -829,7 +883,8 @@
           "hint": "To find the equilibrium condition of a complicated mechanical system without working out every individual constraint force, imagine displacing it by an infinitesimal hypothetical ('virtual') amount consistent with its constraints and demand that the total work done by all real forces during that imagined displacement sums to zero. The technique quietly sidesteps having to calculate forces — like the tension in a rigid rod, or the normal force from a constraining surface — that do no actual work and therefore don't need to be found at all.",
           "note": "Bernoulli, J. Letter to Pierre Varignon, 1717, Basel, first stating the principle in general form; Varignon and later Lagrange (see th10) developed it into a full systematic method. The principle of virtual work is the direct conceptual seed from which Lagrange built his entire analytical mechanics, and from which, via Hamilton's principle, the calculus-of-variations formulation of physics ultimately descends.",
           "links": [
-            "th10"
+            "th10",
+            "ap6"
           ]
         },
         {
@@ -1174,7 +1229,8 @@
           "note": "Loschmidt, J. (1876). 'Über den Zustand des Wärmegleichgewichtes eines Systems von Körpern.' Sitzungsberichte der Akademie der Wissenschaften Wien, 73, 128–142, at the University of Vienna, where Loschmidt was Boltzmann's colleague and friend despite the pointed objection. Boltzmann's eventual response — that entropy increase is only overwhelmingly statistically probable, not mechanically guaranteed, since the number of high-entropy microscopic arrangements vastly outnumbers low-entropy ones — is now the standard resolution, though the deeper question of why the universe started in a low-entropy state at all remains open.",
           "links": [
             "st6",
-            "th8"
+            "th8",
+            "fg3"
           ]
         },
         {
@@ -1228,7 +1284,9 @@
           "hint": "A perpetual motion machine of the first kind would produce more energy than it consumes, generating power from nothing — a direct violation of energy conservation that inventors have proposed, in one clever disguised form or another, for centuries, and that patent offices and scientific academies still occasionally receive submissions for today. No such machine has ever been independently verified to work, and the overwhelming consensus among physicists is that none ever will, though the sheer diversity of proposed designs continues undiminished.",
           "note": "The French Royal Academy of Sciences formally announced in 1775 that it would no longer examine perpetual motion machine proposals, one of the earliest institutional acknowledgements that the question was settled. The distinct 'second kind' of perpetual motion machine, which would violate the Second Law rather than energy conservation itself by extracting useful work from a single heat reservoir with no temperature difference, is a related but separate claim (see st3).",
           "links": [
-            "th3"
+            "th3",
+            "st3",
+            "fg4"
           ]
         },
         {
@@ -1282,7 +1340,9 @@
           "hint": "D'Alembert mathematically proved that a smooth object moving at constant velocity through an idealised, frictionless ('inviscid') fluid should experience exactly zero drag — a conclusion flatly contradicted by everyday experience, since real objects moving through real air or water obviously do experience resistance. The paradox exposed that the idealisation itself, not the mathematics, was the problem: even a vanishingly small amount of viscosity, ignored in the idealised model, fundamentally changes the flow's behaviour near the object's surface.",
           "note": "d'Alembert, J. (1752). Essai d'une nouvelle théorie de la résistance des fluides, submitted for a Berlin Academy prize (which d'Alembert did not win). Ludwig Prandtl's 1904 boundary layer theory finally resolved the paradox properly, showing that viscosity's effects, however small the viscosity itself, remain concentrated and significant in a thin layer immediately next to the object's surface, generating the drag classical inviscid theory had missed entirely.",
           "links": [
-            "th5"
+            "th5",
+            "st11",
+            "fg11"
           ]
         },
         {
@@ -1435,42 +1495,303 @@
       "icon": "🧪",
       "accent": "#7D3C98",
       "label": "Landmark Studies",
-      "events": []
+      "events": [
+        {
+          "y": 1643,
+          "l": "Torricelli's Barometer",
+          "entryId": "st8"
+        },
+        {
+          "y": 1798,
+          "l": "The Cavendish Experiment",
+          "entryId": "st1"
+        },
+        {
+          "y": 1824,
+          "l": "Carnot's Reflections on Fire",
+          "entryId": "st3"
+        },
+        {
+          "y": 1843,
+          "l": "Joule's Mech. Equivalent of Heat",
+          "entryId": "st2"
+        },
+        {
+          "y": 1850,
+          "l": "Clausius's 2nd Law Statement",
+          "entryId": "st4"
+        },
+        {
+          "y": 1851,
+          "l": "Foucault's Pendulum",
+          "entryId": "st7"
+        },
+        {
+          "y": 1867,
+          "l": "Maxwell's Velocity Distribution",
+          "entryId": "st5"
+        },
+        {
+          "y": 1877,
+          "l": "Boltzmann's Entropy Formula",
+          "entryId": "st6"
+        },
+        {
+          "y": 1883,
+          "l": "Reynolds's Pipe Flow Experiments",
+          "entryId": "st11"
+        },
+        {
+          "y": 1890,
+          "l": "Poincaré's Three-Body Chaos",
+          "entryId": "st10"
+        },
+        {
+          "y": 1908,
+          "l": "Perrin Confirms Atomic Theory",
+          "entryId": "st9"
+        }
+      ]
     },
     {
       "id": "theory",
       "icon": "📐",
       "accent": "#2471A3",
       "label": "Theories & Models",
-      "events": []
+      "events": [
+        {
+          "y": 1673,
+          "l": "Simple Harmonic Motion",
+          "entryId": "th4"
+        },
+        {
+          "y": 1687,
+          "l": "Newton's Laws of Motion",
+          "entryId": "th1"
+        },
+        {
+          "y": 1687,
+          "l": "Newton's Law of Gravitation",
+          "entryId": "th2"
+        },
+        {
+          "y": 1738,
+          "l": "Bernoulli's Principle",
+          "entryId": "th5"
+        },
+        {
+          "y": 1788,
+          "l": "Lagrangian Mechanics",
+          "entryId": "th10"
+        },
+        {
+          "y": 1833,
+          "l": "Hamiltonian Mechanics",
+          "entryId": "th11"
+        },
+        {
+          "y": 1847,
+          "l": "Conservation of Energy",
+          "entryId": "th3"
+        },
+        {
+          "y": 1850,
+          "l": "The First Law of Thermodynamics",
+          "entryId": "th7"
+        },
+        {
+          "y": 1860,
+          "l": "Kinetic Theory of Gases",
+          "entryId": "th9"
+        },
+        {
+          "y": 1865,
+          "l": "The Second Law & Entropy",
+          "entryId": "th8"
+        },
+        {
+          "y": 1931,
+          "l": "The Zeroth Law of Thermodynamics",
+          "entryId": "th6"
+        }
+      ]
     },
     {
       "id": "effect",
       "icon": "📊",
       "accent": "#117A65",
       "label": "Effects & Phenomena",
-      "events": []
+      "events": [
+        {
+          "y": 1827,
+          "l": "Brownian Motion",
+          "entryId": "ef1"
+        },
+        {
+          "y": 1835,
+          "l": "The Coriolis Effect",
+          "entryId": "ef9"
+        },
+        {
+          "y": 1851,
+          "l": "Terminal Velocity",
+          "entryId": "ef4"
+        },
+        {
+          "y": 1852,
+          "l": "The Magnus Effect",
+          "entryId": "ef3"
+        },
+        {
+          "y": 1852,
+          "l": "Gyroscopic Precession",
+          "entryId": "ef8"
+        },
+        {
+          "y": 1867,
+          "l": "Maxwell's Demon",
+          "entryId": "ef5"
+        },
+        {
+          "y": 1940,
+          "l": "Resonance Disasters",
+          "entryId": "ef2"
+        },
+        {
+          "y": 1969,
+          "l": "The Mpemba Effect",
+          "entryId": "ef6"
+        },
+        {
+          "y": 1984,
+          "l": "Hyperion's Chaotic Tumbling",
+          "entryId": "ef7"
+        }
+      ]
     },
     {
       "id": "method",
       "icon": "🔬",
       "accent": "#8B5E00",
       "label": "Methods",
-      "events": []
+      "events": [
+        {
+          "y": 1717,
+          "l": "The Principle of Virtual Work",
+          "entryId": "me2"
+        },
+        {
+          "y": 1783,
+          "l": "Calorimetry",
+          "entryId": "me3"
+        },
+        {
+          "y": 1846,
+          "l": "Perturbation Theory",
+          "entryId": "me5"
+        },
+        {
+          "y": 1871,
+          "l": "Wind Tunnel Testing",
+          "entryId": "me6"
+        },
+        {
+          "y": 1914,
+          "l": "Dimensional Analysis",
+          "entryId": "me1"
+        },
+        {
+          "y": 1957,
+          "l": "Molecular Dynamics Simulation",
+          "entryId": "me4"
+        }
+      ]
     },
     {
       "id": "debate",
       "icon": "⚖️",
       "accent": "#B7770D",
       "label": "Debates & Revisions",
-      "events": []
+      "events": [
+        {
+          "y": 1752,
+          "l": "D'Alembert's Paradox",
+          "entryId": "db7"
+        },
+        {
+          "y": 1775,
+          "l": "Perpetual Motion of the First Kind",
+          "entryId": "db4"
+        },
+        {
+          "y": 1814,
+          "l": "Laplace's Demon",
+          "entryId": "db3"
+        },
+        {
+          "y": 1852,
+          "l": "Is Heat Death Inevitable?",
+          "entryId": "db6"
+        },
+        {
+          "y": 1875,
+          "l": "The Gibbs Paradox",
+          "entryId": "db5"
+        },
+        {
+          "y": 1876,
+          "l": "Loschmidt vs. Boltzmann's H-Theorem",
+          "entryId": "db1"
+        },
+        {
+          "y": 1961,
+          "l": "Is Information Fundamentally Physical?",
+          "entryId": "db2"
+        },
+        {
+          "y": 1971,
+          "l": "Chaos vs. Turbulence",
+          "entryId": "db8"
+        }
+      ]
     },
     {
       "id": "application",
       "icon": "🔗",
       "accent": "#2E86C1",
       "label": "Applications",
-      "events": []
+      "events": [
+        {
+          "y": 1769,
+          "l": "The Steam Engine",
+          "entryId": "ap1"
+        },
+        {
+          "y": 1876,
+          "l": "Refrigeration & Air Conditioning",
+          "entryId": "ap2"
+        },
+        {
+          "y": 1903,
+          "l": "Aerodynamics & Wing Design",
+          "entryId": "ap4"
+        },
+        {
+          "y": 1965,
+          "l": "Robotics via Lagrangian Dynamics",
+          "entryId": "ap6"
+        },
+        {
+          "y": 1978,
+          "l": "GPS and Orbital Mechanics",
+          "entryId": "ap5"
+        },
+        {
+          "y": 2000,
+          "l": "Resonance-Aware Structural Eng.",
+          "entryId": "ap3"
+        }
+      ]
     }
   ]
 }
