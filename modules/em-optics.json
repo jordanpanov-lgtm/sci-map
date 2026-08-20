@@ -23,7 +23,211 @@
       "accent": "#2471A3",
       "bg": "#F0F7FF",
       "subtitle": "The frameworks that organise fields, waves, light and the electromagnetic spectrum",
-      "entries": []
+      "entries": [
+        {
+          "id": "th1",
+          "group": "Electrostatics & Circuits",
+          "label": "Coulomb's Law",
+          "date": "1785",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "THEORY",
+          "hint": "The electric force between two charged objects is proportional to the product of their charges and inversely proportional to the square of the distance between them — the same inverse-square mathematical pattern Newton had found for gravity a century earlier, but for electric charge instead of mass, and capable of both attraction and repulsion depending on the charges' signs.",
+          "note": "Coulomb, C.A. de (1785). 'Premier mémoire sur l'électricité et le magnétisme.' Mémoires de l'Académie Royale des Sciences, Paris. Coulomb measured the extraordinarily weak electric forces involved using a torsion balance of his own design, a technique Cavendish later adapted to measure gravity itself (see classical-physics::st1); Coulomb's law is now understood as a direct consequence of Maxwell's more general field equations (see th6), rather than an independent fundamental law.",
+          "links": [
+            "co1"
+          ],
+          "xlinks": [
+            "classical-physics::st1"
+          ]
+        },
+        {
+          "id": "th2",
+          "group": "Electrostatics & Circuits",
+          "label": "Ohm's Law",
+          "date": "1827",
+          "loc": "Cologne, Germany",
+          "coords": [
+            50.94,
+            6.96
+          ],
+          "tag": "THEORY",
+          "hint": "The current flowing through a conductor is directly proportional to the voltage across it and inversely proportional to its resistance — a deceptively simple relationship, V=IR, that turned electrical circuits from a qualitative curiosity into a quantitatively predictable engineering discipline. Ohm derived it from careful, painstaking measurements using thermocouples as a stable voltage source, at a time when reliable, steady electrical sources were still hard to come by.",
+          "note": "Ohm, G.S. (1827). Die galvanische Kette, mathematisch bearbeitet ['The Galvanic Circuit Investigated Mathematically']. Berlin: T.H. Riemann, written while Ohm taught mathematics and physics at a Jesuit gymnasium in Cologne. The work was initially dismissed by the German physics establishment as excessively abstract; Ohm did not receive an appropriate academic post recognising the achievement until 1852, near the end of his life, six years after the Royal Society had already awarded him its Copley Medal.",
+          "links": [
+            "co8"
+          ]
+        },
+        {
+          "id": "th3",
+          "group": "Magnetism & Electromagnetic Induction",
+          "label": "Ampère's Circuital Law",
+          "date": "1826",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "THEORY",
+          "hint": "Electric currents produce magnetic fields that circulate around them, and Ampère gave this relationship precise mathematical form: the total magnetic field circulating around any closed loop is directly proportional to the electric current passing through that loop. It let magnetism be treated as a direct, quantifiable consequence of moving electric charge, rather than a separate phenomenon governed by its own independent rules.",
+          "note": "Ampère, A.M. (1826). 'Mémoire sur la théorie mathématique des phénomènes électrodynamiques uniquement déduite de l'expérience.' Paris. Ampère developed the theory with remarkable speed after learning of Ørsted's discovery (see st3), reportedly presenting his first results to the French Academy within a single week; Maxwell later called Ampère 'the Newton of electricity' for the mathematical rigour he brought to a field that had previously been almost entirely qualitative.",
+          "links": [
+            "st3",
+            "th6"
+          ]
+        },
+        {
+          "id": "th4",
+          "group": "Magnetism & Electromagnetic Induction",
+          "label": "Faraday's Law of Electromagnetic Induction",
+          "date": "1831",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "THEORY",
+          "hint": "A changing magnetic field passing through a loop of wire induces an electric current in that wire, with the induced voltage proportional to how quickly the magnetic field is changing — the reverse of Ampère's discovery that currents create magnetic fields. The relationship is the direct theoretical basis for every electric generator and transformer ever built, converting mechanical motion into electrical current or shifting voltage between circuits.",
+          "note": "Faraday, M. (1831). 'Experimental Researches in Electricity, First Series.' Philosophical Transactions of the Royal Society, at the Royal Institution, London. Faraday, entirely self-taught in mathematics, expressed the law only in careful descriptive and geometric terms; James Clerk Maxwell later gave it its now-standard differential equation form as one of the four Maxwell's equations (see th6).",
+          "links": [
+            "st4",
+            "th5"
+          ]
+        },
+        {
+          "id": "th5",
+          "group": "Magnetism & Electromagnetic Induction",
+          "label": "Lenz's Law",
+          "date": "1834",
+          "loc": "St. Petersburg, Russia",
+          "coords": [
+            59.93,
+            30.34
+          ],
+          "tag": "THEORY",
+          "hint": "An induced electric current always flows in the direction that opposes the change in magnetic field that created it — pushing a magnet into a coil induces a current that generates a magnetic field resisting the magnet's approach, never assisting it. The law is really just energy conservation applied to induction: if induced currents assisted the change instead, they would create energy from nothing.",
+          "note": "Lenz, H.F.E. (1834). 'Ueber die Bestimmung der Richtung der durch elektrodynamische Vertheilung erregten galvanischen Ströme.' Annalen der Physik und Chemie, 107(31), 483–494, at the Imperial Academy of Sciences, St. Petersburg. Lenz's law gives induction its correct directional sign, completing Faraday's law (see th4) into a fully predictive equation rather than one only specifying the induced current's magnitude.",
+          "links": [
+            "th4"
+          ]
+        },
+        {
+          "id": "th6",
+          "group": "Maxwell's Equations & Electromagnetic Waves",
+          "label": "Maxwell's Equations",
+          "date": "1865",
+          "loc": "Dumfries, Scotland",
+          "coords": [
+            55.07,
+            -3.6
+          ],
+          "tag": "THEORY",
+          "hint": "Four compact equations unify electricity and magnetism into a single field theory, describing how electric and magnetic fields are generated by charges and currents, and — crucially — how a changing electric field generates a magnetic field and vice versa, allowing the two fields to sustain and regenerate each other and propagate through empty space as a self-sustaining wave, with no charge or current needed at all once the wave exists.",
+          "note": "Maxwell, J.C. (1865). 'A Dynamical Theory of the Electromagnetic Field.' Philosophical Transactions of the Royal Society, 155, 459–512, largely written at Glenlair, Maxwell's family estate near Dumfries, Scotland, after his resignation from King's College London. Oliver Heaviside later condensed Maxwell's original twenty equations in twenty variables into the compact set of four vector equations taught today; Maxwell's kinetic-theory and statistical-mechanics work is covered separately in the classical-physics folio.",
+          "links": [
+            "th3",
+            "th4",
+            "th7"
+          ],
+          "xlinks": [
+            "classical-physics::fg2"
+          ]
+        },
+        {
+          "id": "th7",
+          "group": "Maxwell's Equations & Electromagnetic Waves",
+          "label": "The Electromagnetic Theory of Light",
+          "date": "1862",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "THEORY",
+          "hint": "Calculating the speed at which a disturbance in his proposed electric and magnetic fields would travel, Maxwell found a number that matched the experimentally measured speed of light to within the precision available at the time — and concluded, in a moment often considered one of the great unifications in physics, that light itself must simply be an electromagnetic wave, rather than some separate, unrelated phenomenon.",
+          "note": "Maxwell, J.C. (1861–62). 'On Physical Lines of Force.' Philosophical Magazine, written while Maxwell held his professorship at King's College London. Maxwell's own words captured the moment: 'we can scarcely avoid the inference that light consists in the transverse undulations of the same medium which is the cause of electric and magnetic phenomena' — a conclusion Hertz's experiments confirmed directly a quarter-century later (see st5).",
+          "links": [
+            "th6",
+            "st5",
+            "th9"
+          ]
+        },
+        {
+          "id": "th8",
+          "group": "Geometric Optics",
+          "label": "Snell's Law of Refraction",
+          "date": "1621",
+          "loc": "Leiden, Netherlands",
+          "coords": [
+            52.16,
+            4.5
+          ],
+          "tag": "THEORY",
+          "hint": "When light passes from one transparent medium into another — air into water, air into glass — it bends by an amount precisely determined by the ratio of the two media's refractive indices, a relationship simple enough to state in one line yet powerful enough to underlie the design of every lens, prism, and optical instrument ever built.",
+          "note": "Snellius, W. (1621), unpublished manuscript, University of Leiden, rediscovered and published posthumously in the 1650s. Ibn Sahl had already derived an equivalent geometric relationship around 984 CE, unknown in Europe at the time (see st7); René Descartes independently published a version of the law in 1637, leading to a long-running priority dispute — French sources still often call it 'Descartes' law' rather than Snell's.",
+          "links": [
+            "co5",
+            "st7"
+          ]
+        },
+        {
+          "id": "th9",
+          "group": "Wave Optics: Interference, Diffraction & Polarization",
+          "label": "Huygens' Wave Theory of Light",
+          "date": "1678",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "THEORY",
+          "hint": "Christiaan Huygens proposed that light travels as a wave through a medium, and that every point on an advancing wavefront can itself be treated as the source of a new tiny secondary wavelet, with the wavefront's new position found by combining all these secondary wavelets together. The construction correctly predicted reflection and refraction from first principles, offering the first serious rival to Newton's competing particle theory of light.",
+          "note": "Huygens, C. (1678, presented to the French Academy of Sciences), published as Traité de la Lumière (1690), Leiden: Pieter van der Aa, written while Huygens was a founding member of the Académie Royale des Sciences in Paris. Huygens' wave picture was largely eclipsed by Newton's rival corpuscular theory for over a century, due substantially to Newton's towering scientific reputation, until Young's and Fresnel's early nineteenth-century work vindicated it decisively (see st9, st10, db1).",
+          "links": [
+            "th7",
+            "db1"
+          ]
+        },
+        {
+          "id": "th10",
+          "group": "Wave Optics: Interference, Diffraction & Polarization",
+          "label": "Malus's Law of Polarization",
+          "date": "1809",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "THEORY",
+          "hint": "Light passed through a polarising filter, then a second filter at an angle to the first, has its intensity reduced according to the square of the cosine of the angle between the two filters' orientations — a precise mathematical rule Étienne-Louis Malus discovered essentially by accident, noticing sunlight reflected off a window pane behaved strangely when viewed through a calcite crystal he happened to be holding.",
+          "note": "Malus, É.L. (1809). 'Sur une propriété de la lumière réfléchie.' Mémoires de la Société d'Arcueil, Paris. Malus's discovery that ordinary reflected light is partially polarised, alongside his mathematical law for polarised light intensity, gave the first solid evidence that light waves oscillate transversely (side to side) rather than longitudinally (back and forth along the direction of travel), a question that remained genuinely contested for years afterward (see db4).",
+          "links": [
+            "co9",
+            "db4"
+          ]
+        },
+        {
+          "id": "th11",
+          "group": "The Electromagnetic Spectrum & Spectroscopy",
+          "label": "Kirchhoff's Laws of Spectroscopy",
+          "date": "1859",
+          "loc": "Heidelberg, Germany",
+          "coords": [
+            49.4,
+            8.67
+          ],
+          "tag": "THEORY",
+          "hint": "A hot, dense object emits light at every wavelength (a continuous spectrum); a hot, low-density gas emits light only at specific, discrete wavelengths characteristic of its chemical elements (an emission spectrum); and a cooler gas in front of a hotter continuous source absorbs light at those exact same specific wavelengths (an absorption spectrum). Kirchhoff's three laws turned spectral lines from a curiosity into a precise chemical fingerprint, readable from light alone.",
+          "note": "Kirchhoff, G. (1859), developed with Robert Bunsen at the University of Heidelberg, first announced in 'Über die Fraunhoferschen Linien.' Monatsbericht der Königlichen Preussischen Akademie der Wissenschaften zu Berlin. Kirchhoff and Bunsen used the laws to identify two entirely new chemical elements, caesium and rubidium, by their previously unrecorded spectral lines within a year of the discovery; the same principle later let astronomers determine the chemical composition of stars without ever physically sampling them.",
+          "links": [
+            "co7",
+            "st11"
+          ]
+        }
+      ]
     },
     {
       "id": "study",
@@ -33,7 +237,209 @@
       "accent": "#7D3C98",
       "bg": "#FAF5FF",
       "subtitle": "The defining experiments — and exactly what they found",
-      "entries": []
+      "entries": [
+        {
+          "id": "st1",
+          "group": "Electrostatics & Circuits",
+          "label": "Franklin's Kite Experiment",
+          "date": "1752",
+          "loc": "Philadelphia, Pennsylvania",
+          "coords": [
+            39.95,
+            -75.17
+          ],
+          "tag": "DISCOVERY",
+          "repl": "mixed",
+          "hint": "Benjamin Franklin flew a kite with a metal key attached during a thunderstorm, and drew a spark from the key to his knuckle, demonstrating that lightning is an electrical discharge of the same fundamental nature as the static electricity already being studied in laboratories — a genuinely dangerous experiment that killed at least one later attempted replicator.",
+          "note": "Franklin, B. (1752), described in a letter to Peter Collinson, later published in Franklin's Experiments and Observations on Electricity (1753). Franklin himself left no detailed firsthand account of exactly how the experiment was conducted, and some historians have questioned whether he performed it exactly as popularly depicted or in a safer, less direct form than the famous illustration suggests; Georg Wilhelm Richmann died in 1753 attempting a similar experiment in St. Petersburg, providing grim, unintended proof of the real danger involved.",
+          "links": [
+            "co1"
+          ]
+        },
+        {
+          "id": "st2",
+          "group": "Electrostatics & Circuits",
+          "label": "Volta's Voltaic Pile",
+          "date": "1800",
+          "loc": "Pavia, Italy",
+          "coords": [
+            45.18,
+            9.16
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Alessandro Volta stacked alternating discs of two different metals separated by brine-soaked cloth, and found the resulting pile produced a steady, continuous electric current — the world's first true battery, and the first source of electricity that didn't rely on a single, brief discharge like a spark or a lightning strike. It gave experimenters, for the first time, a reliable, sustained current to work with.",
+          "note": "Volta, A. (1800). Letter to Sir Joseph Banks, President of the Royal Society, 20 March 1800, describing work conducted at the University of Pavia. The invention directly settled a bitter dispute with Luigi Galvani over whether 'animal electricity' resided specifically in living tissue (Galvani's view) or arose from the contact between dissimilar metals themselves (Volta's view, which turned out to be substantially correct); the steady current the pile provided enabled Ørsted's discovery two decades later (see st3).",
+          "links": [
+            "th2"
+          ]
+        },
+        {
+          "id": "st3",
+          "group": "Magnetism & Electromagnetic Induction",
+          "label": "Ørsted's Discovery of Electromagnetism",
+          "date": "1820",
+          "loc": "Copenhagen, Denmark",
+          "coords": [
+            55.68,
+            12.57
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "During a lecture demonstration, Hans Christian Ørsted noticed a compass needle placed near a current-carrying wire deflected whenever the current was switched on — the first direct experimental evidence that electricity and magnetism, treated as entirely separate phenomena for two thousand years, were in fact intimately connected, triggering an explosion of theoretical and experimental work across Europe within months.",
+          "note": "Ørsted, H.C. (1820). 'Experimenta circa effectum conflictus electrici in acum magneticam.' Self-published pamphlet, Copenhagen. Ørsted reportedly noticed the effect somewhat by chance during a lecture rather than through a planned experiment, though he had been actively searching for a connection between electricity and magnetism for years beforehand; news of the discovery reached André-Marie Ampère in Paris within weeks, triggering his rapid mathematical development of the relationship (see th3).",
+          "links": [
+            "th3"
+          ]
+        },
+        {
+          "id": "st4",
+          "group": "Magnetism & Electromagnetic Induction",
+          "label": "Faraday's Induction Ring Experiment",
+          "date": "1831",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Michael Faraday wound two separate coils of wire around opposite sides of an iron ring, and found that switching the current on or off in one coil induced a brief current in the other, entirely unconnected coil — direct proof that a changing magnetic field alone, with no direct electrical contact at all, could generate an electric current in a nearby circuit.",
+          "note": "Faraday, M. (1831). Laboratory notebook entry, 29 August 1831, Royal Institution, London, the apparatus now sometimes called Faraday's induction ring. Faraday performed the experiment after a full decade of persistent, largely unsuccessful attempts to detect exactly this kind of effect, having correctly suspected since the early 1820s that if electricity could produce magnetism (as Ørsted had shown), the reverse relationship should also somehow be true.",
+          "links": [
+            "th4"
+          ]
+        },
+        {
+          "id": "st5",
+          "group": "Maxwell's Equations & Electromagnetic Waves",
+          "label": "Hertz's Confirmation of Electromagnetic Waves",
+          "date": "1887",
+          "loc": "Karlsruhe, Germany",
+          "coords": [
+            49.01,
+            8.4
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Heinrich Hertz built a spark-gap transmitter and a separate, unconnected receiver loop across his laboratory, and detected a matching spark jumping across the receiver's gap every time the transmitter fired — direct experimental proof that Maxwell's predicted electromagnetic waves genuinely existed, could be generated and detected at a distance, and travelled at the speed Maxwell's equations predicted.",
+          "note": "Hertz, H. (1887–88). 'Über sehr schnelle electrische Schwingungen.' Annalen der Physik, 267(7), 421–448, at the Karlsruhe Institute of Technology. Hertz reportedly considered the discovery of no practical use whatsoever, reputedly remarking that he did not see how these waves could ever be applied — a judgment history dramatically overturned within a decade through Marconi's and others' development of radio (see db8, ap4).",
+          "links": [
+            "th6",
+            "th7"
+          ]
+        },
+        {
+          "id": "st6",
+          "group": "Maxwell's Equations & Electromagnetic Waves",
+          "label": "Fizeau's Terrestrial Speed-of-Light Measurement",
+          "date": "1849",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Armand Fizeau measured the speed of light using a rapidly rotating toothed wheel and a mirror placed several kilometres away — timing how fast the wheel had to spin so that light passing out through one gap in the teeth, travelling to the distant mirror and back, would be blocked by the next tooth rather than passing back through the same gap. It was the first successful measurement of light's speed using an entirely earthbound apparatus, rather than relying on astronomical observations.",
+          "note": "Fizeau, A.H.L. (1849). 'Sur une expérience relative à la vitesse de propagation de la lumière.' Comptes Rendus de l'Académie des Sciences, 29, 90–92, conducted between Suresnes and Montmartre, Paris, over a baseline of roughly 8 kilometres. Fizeau's result, within about 5% of the modern accepted value, gave Maxwell the precise, independently measured figure he needed to compare against his own theoretical calculation of electromagnetic wave speed (see th7).",
+          "links": [
+            "th7"
+          ]
+        },
+        {
+          "id": "st7",
+          "group": "Geometric Optics",
+          "label": "Ibn al-Haytham's Book of Optics",
+          "date": "1021",
+          "loc": "Cairo, Egypt",
+          "coords": [
+            30.04,
+            31.24
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Ibn al-Haytham systematically overturned the ancient Greek assumption that vision worked by rays emitted from the eye, arguing instead — and demonstrating experimentally using a camera obscura — that light travels from illuminated objects into the eye, establishing the basic geometric framework and the experimental, evidence-based methodology optics has followed ever since.",
+          "note": "Ibn al-Haytham [Alhazen] (c. 1021). Kitāb al-Manāẓir ['Book of Optics'], written in Cairo. Translated into Latin in the twelfth century as De Aspectibus, the work profoundly influenced the later European optical tradition through Roger Bacon, Witelo, and eventually Kepler; Ibn al-Haytham's insistence on testing theoretical claims against controlled experiment, centuries before the term 'scientific method' existed, is now widely credited by historians of science as a genuinely foundational methodological contribution, independent of his specific optical results.",
+          "links": [
+            "th8"
+          ]
+        },
+        {
+          "id": "st8",
+          "group": "Geometric Optics",
+          "label": "Newton's Prism Experiments",
+          "date": "1672",
+          "loc": "Cambridge, England",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Isaac Newton passed a beam of sunlight through a glass prism and showed it split into a full spectrum of colours — then, in his decisive 'experimentum crucis,' isolated a single colour from that spectrum and passed it through a second prism, finding it remained unchanged, proving the colours were already present in white light itself rather than being created by the prism or the glass.",
+          "note": "Newton, I. (1672). 'A Letter... Containing His New Theory about Light and Colors.' Philosophical Transactions of the Royal Society, 6(80), 3075–3087, describing experiments largely conducted at Trinity College, Cambridge (with some earlier work at Woolsthorpe during 1665–66, while Cambridge was closed due to plague). The paper triggered an immediate, bruising public dispute with Robert Hooke over priority and interpretation, one of several such disputes that shaped Newton's famously guarded, conflict-averse approach to publishing for much of the rest of his career.",
+          "links": [
+            "th8"
+          ]
+        },
+        {
+          "id": "st9",
+          "group": "Wave Optics: Interference, Diffraction & Polarization",
+          "label": "Young's Double-Slit Experiment",
+          "date": "1801",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Thomas Young passed light through two closely spaced narrow slits and observed the resulting pattern on a screen behind them: not two simple bright bands, but a whole series of alternating bright and dark stripes — exactly the interference pattern two overlapping sets of water ripples would produce, and something a stream of Newtonian light particles offered no obvious way to explain at all.",
+          "note": "Young, T. (1804). 'The Bakerian Lecture: Experiments and Calculations Relative to Physical Optics.' Philosophical Transactions of the Royal Society, 94, 1–16, delivered at the Royal Institution, London, describing experiments performed from around 1801–03. Young's result was met with fierce, often personally hostile resistance from defenders of Newton's corpuscular theory, particularly reviewer Henry Brougham in the Edinburgh Review; Fresnel's independent, more mathematically complete wave theory over a decade later (see st10) is what ultimately secured the wave picture's acceptance.",
+          "links": [
+            "th9",
+            "db1"
+          ]
+        },
+        {
+          "id": "st10",
+          "group": "Wave Optics: Interference, Diffraction & Polarization",
+          "label": "Fresnel's Diffraction Theory and the Poisson Spot",
+          "date": "1818",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Augustin-Jean Fresnel submitted a mathematically rigorous wave theory of diffraction to a French Academy prize competition; judge Siméon Poisson, a committed particle-theory partisan, worked through the mathematics and pointed out it made an absurd-sounding prediction — a bright spot exactly at the centre of the shadow cast by a small circular disc — intending it as a decisive objection. François Arago promptly built the apparatus and found the predicted spot exactly where the wave theory said it should be.",
+          "note": "Fresnel, A.J. (1818). 'Mémoire sur la diffraction de la lumière,' submitted to the French Academy of Sciences prize competition, Paris, with Arago's experimental confirmation performed the same year. The episode, in which an intended objection accidentally became the theory's most dramatic and celebrated confirmation, is now often cited as an example of a genuinely decisive, falsifiable scientific prediction; Fresnel won the prize despite Poisson's initial skepticism.",
+          "links": [
+            "th9",
+            "st9"
+          ]
+        },
+        {
+          "id": "st11",
+          "group": "The Electromagnetic Spectrum & Spectroscopy",
+          "label": "Röntgen's Discovery of X-rays",
+          "date": "1895",
+          "loc": "Würzburg, Germany",
+          "coords": [
+            49.79,
+            9.95
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Wilhelm Röntgen, experimenting with a cathode ray tube wrapped in black cardboard to block visible light, noticed a nearby fluorescent screen still glowed faintly even though no visible light could possibly be reaching it — and traced the effect to a previously unknown, highly penetrating form of invisible radiation he cautiously named 'X-rays,' using 'X' for the unknown, exactly as in an algebra equation.",
+          "note": "Röntgen, W.C. (1895). 'Über eine neue Art von Strahlen.' Sitzungsberichte der Physikalisch-medizinischen Gesellschaft zu Würzburg, at the University of Würzburg. Röntgen took the first-ever X-ray image of a living human body just weeks later, an eerie photograph of his wife Anna Bertha's hand clearly showing her bones and wedding ring, and became the first recipient of the Nobel Prize in Physics in 1901; he refused to patent the discovery, insisting it should belong freely to humanity.",
+          "links": [
+            "th11"
+          ]
+        }
+      ]
     },
     {
       "id": "effect",
