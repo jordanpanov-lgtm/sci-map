@@ -15,24 +15,24 @@
   "mapZoom": 2,
   "methodology": "METHODOLOGY · Every entry anchors to a landmark study, paper, clinical case or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags replication status, effect-size revisions and known controversies. Studies and effects carry a replicability badge — 🟢 robust · 🟡 nuanced or reduced · 🔴 failed or severely contested. Map pins mark the institution where the work was carried out.",
   "_meta": {
-    "total_entries": 73,
+    "total_entries": 77,
     "entry_counts": {
-      "theory": 11,
-      "study": 11,
+      "theory": 12,
+      "study": 12,
       "effect": 9,
       "concept": 9,
-      "method": 6,
-      "figure": 13,
+      "method": 7,
+      "figure": 14,
       "debate": 8,
       "application": 6
     },
     "max_ids": {
-      "th": 11,
-      "st": 11,
+      "th": 12,
+      "st": 12,
       "ef": 9,
       "co": 9,
-      "me": 6,
-      "fg": 13,
+      "me": 7,
+      "fg": 14,
       "db": 8,
       "ap": 6
     },
@@ -60,6 +60,7 @@
     "th9": "theory · Geometry: Euclidean, Non-Euclidean & Differential · Riemannian Geometry (1854)",
     "th10": "theory · Geometry: Euclidean, Non-Euclidean & Differential · Non-Euclidean Geometry (1829)",
     "th11": "theory · Geometry: Euclidean, Non-Euclidean & Differential · Algebraic Geometry (Scheme Theory) (1960)",
+    "th12": "theory · Real Analysis · Functional Analysis (Hilbert & Banach Spaces) (1906)",
     "st1": "study · Abstract Algebra: Groups, Rings & Fields · Abel's Proof of the Insolvability of the General Quintic (1824)",
     "st2": "study · Number Theory · Wiles's Proof of Fermat's Last Theorem (1995)",
     "st3": "study · Number Theory · Selberg and Erdős's Elementary Proof of the Prime Number Theorem (1949)",
@@ -71,6 +72,7 @@
     "st9": "study · Topology · Perelman's Proof of the Poincaré Conjecture (2003)",
     "st10": "study · Topology · Brouwer's Fixed-Point Theorem (1911)",
     "st11": "study · Geometry: Euclidean, Non-Euclidean & Differential · Gauss's Theorema Egregium (1827)",
+    "st12": "study · Topology · Homology Reframed as Groups, Following Noether (1928)",
     "ef1": "effect · Real Analysis · The Weierstrass Function (1872)",
     "ef2": "effect · Topology · Space-Filling Curves (1890)",
     "ef3": "effect · Abstract Algebra: Groups, Rings & Fields · Impossibility of Compass-and-Straightedge Trisection (1837)",
@@ -95,6 +97,7 @@
     "me4": "method · Topology · Computer-Assisted Exhaustive Proof (1976)",
     "me5": "method · Real Analysis · Calculus of Variations (1744)",
     "me6": "method · Number Theory · Elliptic-Curve Methods (1922)",
+    "me7": "method · Geometry: Euclidean, Non-Euclidean & Differential · Exterior Algebra (1844)",
     "fg1": "figure · Pioneers & Theorists · Euclid (300 BCE)",
     "fg2": "figure · Pioneers & Theorists · Carl Friedrich Gauss (1801)",
     "fg3": "figure · Pioneers & Theorists · Leonhard Euler (1748)",
@@ -108,6 +111,7 @@
     "fg11": "figure · Pioneers & Theorists · Alexander Grothendieck (1960)",
     "fg12": "figure · Pioneers & Theorists · Andrew Wiles (1995)",
     "fg13": "figure · Pioneers & Theorists · Sofia Kovalevskaya (1888)",
+    "fg14": "figure · Pioneers & Theorists · Augustin-Louis Cauchy (1821)",
     "db1": "debate · Landmark Problems & Unsolved Conjectures · The Riemann Hypothesis (1859)",
     "db2": "debate · Landmark Problems & Unsolved Conjectures · The Birch and Swinnerton-Dyer Conjecture (1965)",
     "db3": "debate · Landmark Problems & Unsolved Conjectures · The Hodge Conjecture (1950)",
@@ -170,7 +174,7 @@
           ],
           "tag": "THEORY",
           "hint": "Évariste Galois showed that whether a polynomial equation can be solved by a step-by-step radical formula (like the quadratic formula) is entirely determined by the symmetry structure of its roots — a specific group, now called the Galois group. If that group has the right internal structure ('solvable'), a radical formula exists; if not, no formula, however clever, ever will.",
-          "note": "Galois, É. Manuscript written the night before his fatal duel (29–30 May 1832); first published by Joseph Liouville as 'Œuvres mathématiques d'Évariste Galois,' Journal de Mathématiques Pures et Appliquées, 11 (1846), 381–444 — fourteen years after Galois's death, since his contemporaries (including Cauchy and Poisson) had rejected or lost his earlier submissions. Galois died at twenty from a duel whose cause remains disputed by historians; the theory bearing his name was reconstructed from a hastily annotated testament letter.",
+          "note": "Manuscript written the night before his fatal duel (29–30 May 1832); first published by Joseph Liouville as 'Œuvres mathématiques d'Évariste Galois,' Journal de Mathématiques Pures et Appliquées, 11 (1846), 381–444 — fourteen years after Galois's death. The popular story that Cauchy dismissively rejected or lost Galois's early papers is a later dramatization, traceable largely to E.T. Bell's 1937 Men of Mathematics; historical research by Taton (1971) and Rothman (1982) shows Cauchy actually recognised the work's value and urged Galois to submit a combined memoir for the Academy's 1830 Grand Prix. That submission, given to secretary Joseph Fourier, was lost after Fourier's sudden death months later; a further 1831 submission was the one Siméon Poisson rejected as insufficiently clear. Galois died at twenty from a duel whose cause remains disputed by historians; the theory bearing his name was reconstructed from a hastily annotated testament letter.",
           "links": [
             "th1",
             "st1",
@@ -179,7 +183,8 @@
             "ef5",
             "fg5",
             "fg6",
-            "fg12"
+            "fg12",
+            "fg14"
           ],
           "keywords": [
             "galois group",
@@ -285,7 +290,8 @@
             "ef8",
             "co5",
             "me2",
-            "me5"
+            "me5",
+            "th12"
           ],
           "keywords": [
             "lebesgue integration",
@@ -310,7 +316,8 @@
             "st7",
             "st8",
             "co9",
-            "ap4"
+            "ap4",
+            "fg14"
           ],
           "keywords": [
             "holomorphic function",
@@ -340,7 +347,8 @@
             "fg9",
             "db3",
             "ap3",
-            "ap5"
+            "ap5",
+            "st12"
           ],
           "keywords": [
             "fundamental group",
@@ -368,7 +376,8 @@
             "ef7",
             "co2",
             "fg4",
-            "ap2"
+            "ap2",
+            "me7"
           ],
           "keywords": [
             "intrinsic curvature",
@@ -423,6 +432,30 @@
             "scheme theory",
             "affine variety",
             "commutative ring"
+          ]
+        },
+        {
+          "id": "th12",
+          "group": "Real Analysis",
+          "label": "Functional Analysis (Hilbert & Banach Spaces)",
+          "date": "1906",
+          "loc": "Göttingen, Germany",
+          "coords": [
+            51.54,
+            9.92
+          ],
+          "tag": "THEORY",
+          "hint": "Functional analysis treats entire spaces of functions the way ordinary geometry treats points and vectors — giving them a notion of distance, angle, and convergence, then studying the linear transformations between them. David Hilbert's infinite-dimensional generalisation of Euclidean space, developed while studying integral equations, sat as a technical tool for decades until it turned out to be exactly the mathematical structure quantum mechanics needed to describe physical states.",
+          "note": "Hilbert, D. (1904–1910). 'Grundzüge einer allgemeinen Theorie der linearen Integralgleichungen.' Nachrichten von der Gesellschaft der Wissenschaften zu Göttingen, published in six installments. John von Neumann gave the now-standard abstract axiomatic definition of Hilbert space in 1932, specifically to place quantum mechanics on rigorous footing (Mathematische Grundlagen der Quantenmechanik); Stefan Banach's Théorie des opérations linéaires (1932) generalised the framework further to complete normed spaces lacking an inner product, now called Banach spaces. Baire's category theorem (see st6) underlies the Uniform Boundedness and Open Mapping theorems that make Banach space theory usable.",
+          "links": [
+            "th6",
+            "st6",
+            "fg8"
+          ],
+          "keywords": [
+            "hilbert space",
+            "banach space",
+            "infinite-dimensional space"
           ]
         }
       ]
@@ -577,7 +610,8 @@
           "hint": "René-Louis Baire proved that a complete metric space can never be written as a countable union of 'thin' (nowhere dense) sets — a precise way of saying such a space is too large and well-connected to be built entirely out of negligible pieces. The theorem became one of the most-used existence tools in analysis: proving something must exist by showing the alternative would require covering the whole space with thin pieces, which is impossible.",
           "note": "Baire, R. (1899). 'Sur les fonctions de variables réelles.' Doctoral thesis, Annali di Matematica Pura ed Applicata, 3, 1–123, defended at the Faculté des Sciences de Paris. Baire suffered from chronic ill health that limited his mathematical output after this early thesis; the category theorem nonetheless became a standard tool across functional analysis, later underpinning the Uniform Boundedness Principle and Open Mapping Theorem of Banach space theory.",
           "links": [
-            "th6"
+            "th6",
+            "th12"
           ],
           "keywords": [
             "complete metric space",
@@ -598,7 +632,7 @@
           "tag": "DISCOVERY",
           "repl": "mixed",
           "hint": "Bernhard Riemann claimed that any simply-connected region of the complex plane (other than the whole plane itself) can be smoothly, angle-preservingly reshaped into a perfect disk — an early hint that complex-differentiable functions carry an enormous amount of hidden geometric rigidity. His original argument leaned on an unproven physical assumption (Dirichlet's Principle), so the result stood as a plausible but logically unsecured claim for over sixty years.",
-          "note": "Riemann, B. (1851). 'Grundlagen für eine allgemeine Theorie der Functionen einer veränderlichen complexen Grösse.' Doctoral dissertation, University of Göttingen. Karl Weierstrass publicly identified the gap in Dirichlet's Principle in 1870; a fully rigorous proof was not achieved until Constantin Carathéodory (1912) and Paul Koebe (1912) independently supplied one using different methods, and David Hilbert separately rehabilitated Dirichlet's Principle itself in 1904 under added conditions.",
+          "note": "Riemann, B. (1851). 'Grundlagen für eine allgemeine Theorie der Functionen einer veränderlichen complexen Grösse.' Doctoral dissertation, University of Göttingen. Karl Weierstrass publicly identified the gap in Dirichlet's Principle in 1870; William Fogg Osgood gave the first fully rigorous proof for a restricted case in 1900, and Constantin Carathéodory (1912) and Paul Koebe (1912) independently completed the fully general result using different methods, while David Hilbert separately rehabilitated Dirichlet's Principle itself in 1904 under added conditions.",
           "links": [
             "th7",
             "th9",
@@ -705,6 +739,30 @@
             "surface bending invariant",
             "theorema egregium"
           ]
+        },
+        {
+          "id": "st12",
+          "group": "Topology",
+          "label": "Homology Reframed as Groups, Following Noether",
+          "date": "1928",
+          "loc": "Göttingen, Germany",
+          "coords": [
+            51.54,
+            9.92
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Poincaré's original homology invariants (see th8) were numbers — Betti numbers and torsion coefficients, counting a space's holes and twists. Emmy Noether, in remarks to the Göttingen topology circle in the mid-1920s, suggested treating them instead as algebraic groups, with the numbers recoverable as the groups' ranks — a structural upgrade that let the full machinery of abstract algebra be brought to bear on topology directly, rather than merely reading off isolated numerical invariants.",
+          "note": "Noether's suggestion is not itself a publication but a documented influence, credited explicitly in Hopf, H. (1928). 'Eine Verallgemeinerung der Euler-Poincaréschen Formel.' Nachrichten von der Gesellschaft der Wissenschaften zu Göttingen, 127–136, and independently reflected in Vietoris, L. (1927). 'Über den höheren Zusammenhang kompakter Räume.' Mathematische Annalen, 97, 454–472. The group-theoretic reformulation became standard within a decade, codified in Alexandroff, P. & Hopf, H. (1935). Topologie. Berlin: Springer, and is now the version of homology taught in every graduate topology course.",
+          "links": [
+            "th8",
+            "fg7"
+          ],
+          "keywords": [
+            "homology group",
+            "betti number",
+            "algebraic invariant"
+          ]
         }
       ]
     },
@@ -801,7 +859,7 @@
           ],
           "tag": "PHENOMENON",
           "repl": "robust",
-          "hint": "Rotating the curve y = 1/x around the x-axis for x ≥ 1 produces a trumpet-shaped solid with a finite, calculable volume — yet an infinite surface area, meaning it could in principle be filled with a finite amount of paint but never entirely coated on the outside. The result struck contemporaries as close to absurd; Thomas Hobbes reportedly refused to accept it even after being shown the calculation.",
+          "hint": "Rotating the curve y = 1/x around the x-axis for x ≥ 1 produces a trumpet-shaped solid with a finite, calculable volume — yet an infinite surface area, meaning it could in principle be filled with a finite amount of paint but never entirely coated on the outside. The result struck contemporaries as close to absurd; Thomas Hobbes reportedly refused to accept it even after being shown the calculation. The 'paint paradox' framing only works as pure mathematical abstraction — real paint has molecules of finite size, so the horn's radius shrinks below a single molecule's width long before infinity, making the physical version dissolve even as the mathematical one remains exactly true.",
           "note": "Torricelli, E. (1641, described in correspondence; published as De solido hyperbolico acuto, appended to Opera Geometrica, Florence, 1644). The result predates Newton and Leibniz's calculus by decades, relying instead on Bonaventura Cavalieri's method of indivisibles — itself controversial and not placed on rigorous footing until nineteenth-century analysis (see th6).",
           "links": [
             "th6"
@@ -1002,7 +1060,8 @@
           "hint": "A vector space is a collection of objects that can be added together and scaled by numbers while obeying a short list of axioms — familiar arrows in the plane are one example, but so are polynomials, matrices, and infinite sequences. Giuseppe Peano gave the first fully axiomatic definition, stripping the concept to exactly those rules and nothing tied to any specific geometric picture.",
           "note": "Peano, G. (1888). Calcolo Geometrico secondo l'Ausdehnungslehre di H. Grassmann. Turin: Fratelli Bocca. Built directly on Hermann Grassmann's earlier, far less formally rigorous Ausdehnungslehre (1844), which introduced the core linear-combination ideas in a notation contemporaries found nearly unreadable; Peano's cleaner axiomatic version is the direct ancestor of the vector space definition taught today.",
           "links": [
-            "th3"
+            "th3",
+            "me7"
           ],
           "keywords": [
             "vector space axioms",
@@ -1303,6 +1362,29 @@
             "mordell-weil theorem",
             "rational points"
           ]
+        },
+        {
+          "id": "me7",
+          "group": "Geometry: Euclidean, Non-Euclidean & Differential",
+          "label": "Exterior Algebra",
+          "date": "1844",
+          "loc": "Stettin, Prussia",
+          "coords": [
+            53.43,
+            14.55
+          ],
+          "tag": "METHOD",
+          "hint": "Exterior algebra gives a systematic way to multiply vectors that produces a new kind of object — a 'bivector,' 'trivector,' and so on — encoding oriented area, volume, and higher-dimensional analogues directly, with the product automatically flipping sign when two vectors swap order. The resulting 'wedge product' became the essential computational engine behind differential forms, the language modern differential geometry and general relativity are written in.",
+          "note": "Grassmann, H. (1844). Die lineale Ausdehnungslehre, ein neuer Zweig der Mathematik. Leipzig: Otto Wigand, written while Grassmann worked as a secondary-school teacher in Stettin (now Szczecin, Poland), largely self-taught in advanced mathematics beyond his own schooling. The book's unusually abstract presentation and idiosyncratic notation found almost no readership among contemporaries; a discouraged Grassmann largely abandoned mathematics afterward, becoming instead a respected Sanskrit philologist. Élie Cartan's early twentieth-century work on differential forms is what finally gave exterior algebra its now-standard role in geometry and physics.",
+          "links": [
+            "th9",
+            "co3"
+          ],
+          "keywords": [
+            "wedge product",
+            "differential form",
+            "grassmann algebra"
+          ]
         }
       ]
     },
@@ -1469,7 +1551,8 @@
           "note": "Noether, E. 'Idealtheorie in Ringbereichen' (1921, see th3); also Noether's theorem in theoretical physics (1918), proving every continuous symmetry of a physical system corresponds to a conserved quantity — independently one of the most important results in mathematical physics. Fled Germany in 1933 after Nazi race laws barred Jewish academics from university posts, and died just two years later in the United States following surgery complications.",
           "links": [
             "th3",
-            "st4"
+            "st4",
+            "st12"
           ],
           "keywords": [
             "noetherian ring",
@@ -1492,7 +1575,8 @@
           "note": "Hilbert, D. 'Mathematische Probleme,' address to the International Congress of Mathematicians, Paris, 8 August 1900; also 'Über die Theorie der algebraischen Formen' (1888/1890, see st4). Ten of the twenty-three problems were resolved within Hilbert's own lifetime; some, including the Riemann Hypothesis, remain open today, and his tenth problem was proved undecidable in 1970 — a result covered in full in the logic-math-foundations folio.",
           "links": [
             "st4",
-            "th11"
+            "th11",
+            "th12"
           ],
           "xlinks": [
             "logic-math-foundations::ef5"
@@ -1618,6 +1702,29 @@
             "first woman doctorate",
             "kovalevskaya top",
             "rigid body rotation"
+          ]
+        },
+        {
+          "id": "fg14",
+          "group": "Pioneers & Theorists",
+          "label": "Augustin-Louis Cauchy",
+          "date": "1821",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "FIGURE",
+          "hint": "Among the most prolific mathematicians in history, with nearly 800 papers to his name, Cauchy single-handedly rebuilt calculus around rigorous limit-based definitions of continuity, convergence and the derivative, replacing the more intuitive but logically shaky reasoning of the previous century — the direct ancestor of the epsilon-delta formalism Weierstrass completed decades later. A staunch royalist and devout Catholic, Cauchy's rigid politics cost him his Paris professorships twice, through two of France's revolutions.",
+          "note": "Cauchy, A.L. Cours d'analyse (1821), Paris: Imprimerie Royale, followed by his 1825 integral theorem (see th7). Long unfairly blamed, per the traditional but corrected account of his role with Galois's papers, for obstructing younger mathematicians' careers (see th2); Cauchy's actual editorial backlog was a real and widely noted problem of the era, since he was reviewing an enormous volume of submissions across an unusually broad range of active research himself.",
+          "links": [
+            "th7",
+            "th2"
+          ],
+          "keywords": [
+            "cours d'analyse",
+            "rigorous calculus",
+            "prolific mathematician"
           ]
         }
       ]
@@ -2011,6 +2118,11 @@
           "entryId": "st10"
         },
         {
+          "y": 1928,
+          "l": "Homology Reframed as Groups",
+          "entryId": "st12"
+        },
+        {
           "y": 1949,
           "l": "Elementary Proof of PNT",
           "entryId": "st3"
@@ -2077,6 +2189,11 @@
           "y": 1902,
           "l": "Measure Theory",
           "entryId": "th6"
+        },
+        {
+          "y": 1906,
+          "l": "Functional Analysis (Hilbert/Banach)",
+          "entryId": "th12"
         },
         {
           "y": 1921,
@@ -2153,6 +2270,11 @@
           "y": 1744,
           "l": "Calculus of Variations",
           "entryId": "me5"
+        },
+        {
+          "y": 1844,
+          "l": "Exterior Algebra",
+          "entryId": "me7"
         },
         {
           "y": 1895,

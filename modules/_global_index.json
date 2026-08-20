@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 1379,
+    "total_entries": 1383,
     "folio_count": 18,
     "xlink_pairs": 78,
-    "keyword_terms": 5318,
+    "keyword_terms": 5327,
     "folios": [
       {
         "id": "anatomy-histology",
@@ -68,7 +68,7 @@
       {
         "id": "pure-mathematics",
         "title": "Pure Math: Algebra, Analysis, Geometry & Topology",
-        "entries": 73
+        "entries": 77
       },
       {
         "id": "quantum-nuclear-relativity",
@@ -1040,6 +1040,7 @@
     "pure-mathematics::th9": "theory · Geometry: Euclidean, Non-Euclidean & Differential · Riemannian Geometry (1854)",
     "pure-mathematics::th10": "theory · Geometry: Euclidean, Non-Euclidean & Differential · Non-Euclidean Geometry (1829)",
     "pure-mathematics::th11": "theory · Geometry: Euclidean, Non-Euclidean & Differential · Algebraic Geometry (Scheme Theory) (1960)",
+    "pure-mathematics::th12": "theory · Real Analysis · Functional Analysis (Hilbert & Banach Spaces) (1906)",
     "pure-mathematics::st1": "study · Abstract Algebra: Groups, Rings & Fields · Abel's Proof of the Insolvability of the General Quintic (1824)",
     "pure-mathematics::st2": "study · Number Theory · Wiles's Proof of Fermat's Last Theorem (1995)",
     "pure-mathematics::st3": "study · Number Theory · Selberg and Erdős's Elementary Proof of the Prime Number Theorem (1949)",
@@ -1051,6 +1052,7 @@
     "pure-mathematics::st9": "study · Topology · Perelman's Proof of the Poincaré Conjecture (2003)",
     "pure-mathematics::st10": "study · Topology · Brouwer's Fixed-Point Theorem (1911)",
     "pure-mathematics::st11": "study · Geometry: Euclidean, Non-Euclidean & Differential · Gauss's Theorema Egregium (1827)",
+    "pure-mathematics::st12": "study · Topology · Homology Reframed as Groups, Following Noether (1928)",
     "pure-mathematics::ef1": "effect · Real Analysis · The Weierstrass Function (1872)",
     "pure-mathematics::ef2": "effect · Topology · Space-Filling Curves (1890)",
     "pure-mathematics::ef3": "effect · Abstract Algebra: Groups, Rings & Fields · Impossibility of Compass-and-Straightedge Trisection (1837)",
@@ -1075,6 +1077,7 @@
     "pure-mathematics::me4": "method · Topology · Computer-Assisted Exhaustive Proof (1976)",
     "pure-mathematics::me5": "method · Real Analysis · Calculus of Variations (1744)",
     "pure-mathematics::me6": "method · Number Theory · Elliptic-Curve Methods (1922)",
+    "pure-mathematics::me7": "method · Geometry: Euclidean, Non-Euclidean & Differential · Exterior Algebra (1844)",
     "pure-mathematics::fg1": "figure · Pioneers & Theorists · Euclid (300 BCE)",
     "pure-mathematics::fg2": "figure · Pioneers & Theorists · Carl Friedrich Gauss (1801)",
     "pure-mathematics::fg3": "figure · Pioneers & Theorists · Leonhard Euler (1748)",
@@ -1088,6 +1091,7 @@
     "pure-mathematics::fg11": "figure · Pioneers & Theorists · Alexander Grothendieck (1960)",
     "pure-mathematics::fg12": "figure · Pioneers & Theorists · Andrew Wiles (1995)",
     "pure-mathematics::fg13": "figure · Pioneers & Theorists · Sofia Kovalevskaya (1888)",
+    "pure-mathematics::fg14": "figure · Pioneers & Theorists · Augustin-Louis Cauchy (1821)",
     "pure-mathematics::db1": "debate · Landmark Problems & Unsolved Conjectures · The Riemann Hypothesis (1859)",
     "pure-mathematics::db2": "debate · Landmark Problems & Unsolved Conjectures · The Birch and Swinnerton-Dyer Conjecture (1965)",
     "pure-mathematics::db3": "debate · Landmark Problems & Unsolved Conjectures · The Hodge Conjecture (1950)",
@@ -7602,6 +7606,11 @@
       "affine variety",
       "commutative ring"
     ],
+    "pure-mathematics::th12": [
+      "hilbert space",
+      "banach space",
+      "infinite-dimensional space"
+    ],
     "pure-mathematics::st1": [
       "quintic equation",
       "radical solvability",
@@ -7656,6 +7665,11 @@
       "gaussian curvature",
       "surface bending invariant",
       "theorema egregium"
+    ],
+    "pure-mathematics::st12": [
+      "homology group",
+      "betti number",
+      "algebraic invariant"
     ],
     "pure-mathematics::ef1": [
       "nowhere differentiable",
@@ -7777,6 +7791,11 @@
       "mordell-weil theorem",
       "rational points"
     ],
+    "pure-mathematics::me7": [
+      "wedge product",
+      "differential form",
+      "grassmann algebra"
+    ],
     "pure-mathematics::fg1": [
       "euclid's elements",
       "axiomatic method",
@@ -7841,6 +7860,11 @@
       "first woman doctorate",
       "kovalevskaya top",
       "rigid body rotation"
+    ],
+    "pure-mathematics::fg14": [
+      "cours d'analyse",
+      "rigorous calculus",
+      "prolific mathematician"
     ],
     "pure-mathematics::db1": [
       "riemann hypothesis",
@@ -21342,6 +21366,15 @@
     "commutative ring": [
       "pure-mathematics::th11"
     ],
+    "hilbert space": [
+      "pure-mathematics::th12"
+    ],
+    "banach space": [
+      "pure-mathematics::th12"
+    ],
+    "infinite-dimensional space": [
+      "pure-mathematics::th12"
+    ],
     "quintic equation": [
       "pure-mathematics::st1"
     ],
@@ -21441,6 +21474,15 @@
     ],
     "theorema egregium": [
       "pure-mathematics::st11"
+    ],
+    "homology group": [
+      "pure-mathematics::st12"
+    ],
+    "betti number": [
+      "pure-mathematics::st12"
+    ],
+    "algebraic invariant": [
+      "pure-mathematics::st12"
     ],
     "nowhere differentiable": [
       "pure-mathematics::ef1"
@@ -21549,7 +21591,8 @@
       "pure-mathematics::co3"
     ],
     "grassmann algebra": [
-      "pure-mathematics::co3"
+      "pure-mathematics::co3",
+      "pure-mathematics::me7"
     ],
     "hecke operator": [
       "pure-mathematics::co4"
@@ -21654,6 +21697,12 @@
     "rational points": [
       "pure-mathematics::me6"
     ],
+    "wedge product": [
+      "pure-mathematics::me7"
+    ],
+    "differential form": [
+      "pure-mathematics::me7"
+    ],
     "euclid's elements": [
       "pure-mathematics::fg1"
     ],
@@ -21673,7 +21722,8 @@
       "pure-mathematics::fg2"
     ],
     "prolific mathematician": [
-      "pure-mathematics::fg3"
+      "pure-mathematics::fg3",
+      "pure-mathematics::fg14"
     ],
     "mathematical notation": [
       "pure-mathematics::fg3"
@@ -21730,7 +21780,8 @@
       "pure-mathematics::fg10"
     ],
     "rigorous calculus": [
-      "pure-mathematics::fg10"
+      "pure-mathematics::fg10",
+      "pure-mathematics::fg14"
     ],
     "weierstrass function": [
       "pure-mathematics::fg10"
@@ -21755,6 +21806,9 @@
     ],
     "rigid body rotation": [
       "pure-mathematics::fg13"
+    ],
+    "cours d'analyse": [
+      "pure-mathematics::fg14"
     ],
     "riemann hypothesis": [
       "pure-mathematics::db1"
