@@ -2,7 +2,7 @@
   "_meta": {
     "total_entries": 1459,
     "folio_count": 19,
-    "xlink_pairs": 85,
+    "xlink_pairs": 87,
     "keyword_terms": 5551,
     "folios": [
       {
@@ -1689,6 +1689,12 @@
     "pathology-immunology::db8": [
       "cell-molecular-bio::ap4"
     ],
+    "classical-physics::th2": [
+      "applied-math-statistics::fg4"
+    ],
+    "applied-math-statistics::fg4": [
+      "classical-physics::th2"
+    ],
     "classical-physics::st10": [
       "pure-mathematics::fg9",
       "systems-and-complexity::th6"
@@ -1704,6 +1710,12 @@
     ],
     "applied-math-statistics::ef3": [
       "classical-physics::fg12"
+    ],
+    "classical-physics::db2": [
+      "computer-science::ef10"
+    ],
+    "computer-science::ef10": [
+      "classical-physics::db2"
     ],
     "classical-physics::db3": [
       "quantum-nuclear-relativity::db1"
