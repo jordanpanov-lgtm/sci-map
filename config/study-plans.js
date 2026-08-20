@@ -4,6 +4,56 @@
 // are available as globals to the renderer.
 
 const STUDY_PLANS = {
+  'inorganic-analytical-chem': {
+    meta: "Groups content thematically rather than by category: after the founders and the field's core measurement techniques, each module works through one branch — atomic structure, bonding, gas laws, acid-base chemistry, redox and electrochemistry, coordination chemistry, and analytical instrumentation — carrying that branch's theorems, landmark experiments, named phenomena, and live debates together, ending with the instrumentation that makes every other module's claims actually measurable and checkable.",
+    modules: [
+      {
+        title: '1 — Founders & the Field',
+        rationale: 'From Lavoisier\'s balance to Bunsen and Kirchhoff\'s spectroscope, a relatively small set of figures repeatedly turned chemistry from a craft of inherited recipes into a quantitative, predictive science — often while solving an immediate practical problem of their own.',
+        groups: ['Pioneers & Theorists']
+      },
+      {
+        title: '2 — Research Methods',
+        rationale: 'Titration, gravimetric analysis, column chromatography, atomic absorption spectroscopy, mass spectrometry, and X-ray crystallography are the actual instruments and techniques that generated every measurable result in the modules that follow.',
+        cats: ['method']
+      },
+      {
+        title: '3 — Atomic Structure & the Periodic Table',
+        rationale: 'Start where inorganic chemistry starts: what an atom is built from, and why arranging elements by that structure produces a table confident enough to predict elements nobody had found yet.',
+        groups: ['Atomic Structure & the Periodic Table']
+      },
+      {
+        title: '4 — Chemical Bonding & Molecular Structure',
+        rationale: 'How atoms actually hold together — shared electrons, repelling electron pairs, a shared metallic sea — and the rival mathematical pictures chemists still disagree about which one best describes it.',
+        groups: ['Chemical Bonding & Molecular Structure']
+      },
+      {
+        title: '5 — Gas Laws & States of Matter',
+        rationale: 'Pressure, volume, temperature, and particle count locked into one equation — simple enough for a classroom, yet exactly the reasoning that let Haber and Bosch force nitrogen and hydrogen together at industrial scale.',
+        groups: ['Gas Laws & States of Matter']
+      },
+      {
+        title: '6 — Acids, Bases & Aqueous Chemistry',
+        rationale: 'Three progressively broader definitions of \'acid\' and \'base\', a logarithmic scale invented to quality-control beer, and the equilibrium reasoning underneath both buffers and industrial process design.',
+        groups: ['Acids, Bases & Aqueous Chemistry']
+      },
+      {
+        title: '7 — Oxidation-Reduction & Electrochemistry',
+        rationale: 'Electron transfer made quantitative and voltage-measurable — from Davy tearing reactive metals out of molten salts with sheer current, to the rechargeable battery still starting most of the world\'s cars.',
+        groups: ['Oxidation-Reduction & Electrochemistry']
+      },
+      {
+        title: '8 — Coordination Chemistry & Transition Metals',
+        rationale: 'Why transition metal compounds are so characteristically, vividly coloured, and how Werner correctly guessed their three-dimensional geometry decades before any instrument existed that could confirm it directly.',
+        groups: ['Coordination Chemistry & Transition Metals']
+      },
+      {
+        title: '9 — Analytical Methods & Instrumentation',
+        rationale: 'Where the science leaves theory behind and becomes measurement — systematic qualitative schemes, chromatographic separation, and spectroscopic and crystallographic techniques precise enough to identify a single unknown ion or resolve a molecule\'s exact geometry.',
+        groups: ['Analytical Methods & Instrumentation']
+      }
+    ]
+  },
   'em-optics': {
     meta: "Groups content thematically rather than by category: after the founders and the field's core measurement methods, each module works through one branch — static and circuit electricity, magnetism and induction, Maxwell's grand unification, geometric optics, wave optics, and the electromagnetic spectrum — carrying that branch's theorems, landmark experiments, named phenomena, and live debates together, ending where Maxwell's own equations point next: toward the quantum and relativistic physics of light itself.",
     modules: [
