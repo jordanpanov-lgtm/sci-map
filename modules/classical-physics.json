@@ -4,7 +4,7 @@
   "title": "Physics: Classical Mechanics & Thermodynamics",
   "subtitle": "Force, motion, energy & heat",
   "period": {
-    "start": 1638,
+    "start": -250,
     "end": 2018
   },
   "domain": "physical-sciences",
@@ -451,7 +451,174 @@
       "accent": "#117A65",
       "bg": "#F0FFF6",
       "subtitle": "Named, replicable patterns in mechanical and thermal systems",
-      "entries": []
+      "entries": [
+        {
+          "id": "ef1",
+          "group": "Statistical Mechanics & Kinetic Theory",
+          "label": "Brownian Motion",
+          "date": "1827",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Pollen grains suspended in water, viewed under a microscope, jitter and dart about in a continuous, erratic zigzag with no apparent cause — a botanist's curiosity for eight decades until it turned out to be direct visible evidence of individual water molecules colliding with each particle from random directions. It gave physicists their first genuine window onto molecular-scale motion, using nothing more than an ordinary light microscope.",
+          "note": "Brown, R. (1828). 'A Brief Account of Microscopical Observations...' Philosophical Magazine, 4(21), 161–173, based on observations made in London in 1827. Brown himself, a botanist, ruled out that the motion was biological (it persisted in mineral dust particles too) but offered no physical explanation; Einstein's 1905 theoretical treatment and Perrin's 1908 experimental confirmation (see st9) are what finally explained it as molecular bombardment.",
+          "links": [
+            "st9"
+          ]
+        },
+        {
+          "id": "ef2",
+          "group": "Oscillations, Waves & Resonance",
+          "label": "Resonance Disasters",
+          "date": "1940",
+          "loc": "Tacoma, Washington",
+          "coords": [
+            47.25,
+            -122.44
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "A structure driven by a periodic force at or near its own natural oscillation frequency can build up dramatically larger swings than the driving force alone would suggest, even from a relatively gentle, steady input — as the Tacoma Narrows Bridge demonstrated spectacularly when moderate, steady winds excited a self-reinforcing twisting oscillation that tore the deck apart within months of the bridge opening.",
+          "note": "The Tacoma Narrows Bridge collapsed 7 November 1940, filmed extensively and widely used in physics education ever since. The popular explanation — simple wind-driven mechanical resonance — is now considered incomplete by structural engineers; the dominant modern account instead attributes the collapse to aeroelastic flutter, a self-sustaining feedback loop between the bridge's motion and the airflow around it, related to but more complex than textbook resonance alone.",
+          "links": [
+            "co7",
+            "ap3"
+          ]
+        },
+        {
+          "id": "ef3",
+          "group": "Fluid Mechanics",
+          "label": "The Magnus Effect",
+          "date": "1852",
+          "loc": "Berlin, Germany",
+          "coords": [
+            52.52,
+            13.41
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "A spinning object moving through a fluid curves away from a straight path, because its spin drags fluid around with it, speeding up flow on one side and slowing it on the other — producing a pressure difference, and with it a sideways force, entirely separate from ordinary lift or drag. It's why a well-struck soccer free kick curves around a defensive wall, and why golf balls are deliberately given backspin.",
+          "note": "Magnus, G. (1852). 'Über die Abweichung der Geschosse.' Abhandlungen der Königlichen Akademie der Wissenschaften zu Berlin, 1–23, originally investigating why spinning artillery shells veered off course. Isaac Newton had already qualitatively noted the same effect on tennis balls in a 1671 letter to the Royal Society, nearly two centuries earlier, without giving it a quantitative explanation.",
+          "links": [
+            "th5"
+          ]
+        },
+        {
+          "id": "ef4",
+          "group": "Fluid Mechanics",
+          "label": "Terminal Velocity",
+          "date": "1851",
+          "loc": "Cambridge, England",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "An object falling through a fluid speeds up only until the fluid's drag force grows to exactly match gravity's pull, after which it falls at a constant 'terminal' speed no matter how much further it falls — which is why a raindrop and a skydiver both reach a stable falling speed rather than accelerating indefinitely. The specific terminal speed depends on the object's size, shape, and density, and the fluid's viscosity, in a precise mathematical relationship for small, slow-moving spheres.",
+          "note": "Stokes, G.G. (1851). 'On the Effect of the Internal Friction of Fluids on the Motion of Pendulums.' Transactions of the Cambridge Philosophical Society, 9, 8–106, giving the drag law (Stokes' Law) that predicts terminal velocity for small spheres in viscous flow at low Reynolds number. The law breaks down at higher speeds and larger sizes, exactly where Reynolds's later turbulence work (see st11) becomes the relevant description instead.",
+          "links": [
+            "st11",
+            "co8"
+          ]
+        },
+        {
+          "id": "ef5",
+          "group": "Thermodynamics: Heat, Work & the Laws",
+          "label": "Maxwell's Demon",
+          "date": "1867",
+          "loc": "Edinburgh, Scotland",
+          "coords": [
+            55.95,
+            -3.19
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Imagine a tiny, intelligent being guarding a trapdoor between two gas-filled chambers, letting only fast molecules pass one way and slow ones the other, sorting a uniform-temperature gas into a hot side and a cold side without doing any apparent work — seemingly violating the Second Law of Thermodynamics for free. The thought experiment exposed a genuine conceptual gap between thermodynamics and the underlying mechanics that took over a century to fully resolve.",
+          "note": "Maxwell, J.C. Letter to Peter Guthrie Tait, 11 December 1867, first published publicly in Maxwell's Theory of Heat (1871), London: Longmans, Green. Leó Szilárd (1929) and later Rolf Landauer (1961) and Charles Bennett (1982) showed the demon must expend energy specifically to erase its own memory of each molecule it has sorted, restoring consistency with the Second Law — the resolution ties thermodynamic entropy directly to information itself (see db2).",
+          "links": [
+            "th8",
+            "db2"
+          ]
+        },
+        {
+          "id": "ef6",
+          "group": "Thermodynamics: Heat, Work & the Laws",
+          "label": "The Mpemba Effect",
+          "date": "1969",
+          "loc": "Dar es Salaam, Tanzania",
+          "coords": [
+            -6.79,
+            39.21
+          ],
+          "tag": "PHENOMENON",
+          "repl": "mixed",
+          "hint": "Under some specific conditions, initially warmer water can freeze faster than initially cooler water placed in the same freezer — a claim that sounds like it should be impossible, since the warmer water has to pass through the cooler water's exact starting temperature on its way down. Erasto Mpemba, then a secondary school student, insisted on the effect against his own physics teacher's skepticism, and it was later confirmed experimentally, though a single agreed explanation for exactly which mechanism causes it remains unsettled.",
+          "note": "Mpemba, E.B. & Osborne, D.G. (1969). 'Cool?' Physics Education, 4(3), 172–175, University College, Dar es Salaam. Proposed explanations include enhanced evaporative cooling, convection currents, dissolved gas differences, and supercooling effects, and the effect's reproducibility itself has been disputed by some subsequent careful replications that found it highly sensitive to container shape and exact experimental protocol; a 2016 study argued much of the reported effect may be a measurement artifact.",
+          "links": [
+            "th8"
+          ]
+        },
+        {
+          "id": "ef7",
+          "group": "Analytical Mechanics: Lagrangian & Hamiltonian Reformulations",
+          "label": "The Chaotic Tumbling of Saturn's Moon Hyperion",
+          "date": "1984",
+          "loc": "Cambridge, Massachusetts",
+          "coords": [
+            42.36,
+            -71.09
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Most moons rotate in smooth, predictable lockstep with their orbit, always showing the same face to their planet — but Saturn's irregularly shaped moon Hyperion tumbles chaotically and unpredictably instead, its orientation impossible to forecast far in advance even with a perfectly precise model of the gravitational forces acting on it. It was the first celestial body confirmed to exhibit genuine chaotic rotation, extending Poincaré's abstract mathematical discovery to an object astronomers could actually observe.",
+          "note": "Wisdom, J., Peale, S.J. & Mignard, F. (1984). 'The Chaotic Rotation of Hyperion.' Icarus, 58(2), 137–152, at the Massachusetts Institute of Technology. Voyager 2's 1981 flyby images, showing Hyperion's unusual sponge-like, irregular shape, motivated the theoretical prediction; subsequent Cassini mission observations (2005) confirmed the tumbling directly, exactly as the chaotic-dynamics model predicted.",
+          "links": [
+            "st10"
+          ]
+        },
+        {
+          "id": "ef8",
+          "group": "Newtonian Mechanics: Force & Motion",
+          "label": "Gyroscopic Precession",
+          "date": "1852",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "A spinning top or wheel, pushed to tip over, doesn't simply fall in the direction it's pushed — instead its spin axis slowly sweeps out a cone, precessing sideways, in a direction at right angles to the push. The counterintuitive result follows directly from treating angular momentum as a vector quantity that a torque changes exactly the way force changes ordinary momentum, just rotated ninety degrees by the mathematics of rotational motion.",
+          "note": "Foucault, L. (1852) built and named the first laboratory gyroscope specifically to demonstrate the effect and further confirm Earth's rotation, extending his pendulum demonstration the previous year (see st7). The same physics keeps a spinning bicycle wheel or top upright, stabilises spinning artillery shells and rifle bullets in flight, and underlies the gyrocompass, used in ships and aircraft for over a century as a directional reference independent of magnetic fields.",
+          "links": [
+            "st7",
+            "fg10"
+          ]
+        },
+        {
+          "id": "ef9",
+          "group": "Newtonian Mechanics: Force & Motion",
+          "label": "The Coriolis Effect",
+          "date": "1835",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "An object moving across a rotating surface appears, to an observer standing on that surface, to curve sideways — not because any real sideways force is acting on it, but because the surface itself is rotating out from underneath the object's actual straight-line path. It's why hurricanes rotate counterclockwise in the Northern Hemisphere and clockwise in the Southern, and why long-range artillery and missile guidance must explicitly correct for it.",
+          "note": "Coriolis, G.G. de (1835). 'Sur les équations du mouvement relatif des systèmes de corps.' Journal de l'École Polytechnique, 15, 142–154, originally derived for analysing rotating machinery like waterwheels, with no immediate reference to weather or the Earth. Its atmospheric and oceanic significance was only fully appreciated decades later, once large-scale weather observation made the characteristic rotational deflection of storm systems visible.",
+          "links": [
+            "st7"
+          ]
+        }
+      ]
     },
     {
       "id": "concept",
@@ -461,7 +628,166 @@
       "accent": "#566573",
       "bg": "#F5F6FA",
       "subtitle": "The building blocks and vocabulary every student must command",
-      "entries": []
+      "entries": [
+        {
+          "id": "co1",
+          "group": "Newtonian Mechanics: Force & Motion",
+          "label": "Inertial Reference Frames",
+          "date": "1632",
+          "loc": "Florence, Italy",
+          "coords": [
+            43.77,
+            11.26
+          ],
+          "tag": "CONCEPT",
+          "hint": "An inertial frame is any viewpoint moving at constant velocity — not accelerating or rotating — from which Newton's laws hold in their simplest form without needing extra fictitious forces to explain what's observed. Galileo's famous ship analogy, that no experiment performed below deck can tell you whether the ship is at rest or sailing smoothly, is the founding statement of the principle that physics itself looks identical in any such frame.",
+          "note": "Galileo, G. (1632). Dialogo sopra i due massimi sistemi del mondo ['Dialogue Concerning the Two Chief World Systems']. Florence, written largely while Galileo lived under house arrest at his villa in Arcetri. Newton's first law of motion (see th1) is essentially a formal restatement of this Galilean relativity principle; Einstein's special relativity (covered in the quantum-nuclear-relativity folio) generalises it further to include the constancy of the speed of light.",
+          "links": [
+            "th1"
+          ]
+        },
+        {
+          "id": "co2",
+          "group": "Newtonian Mechanics: Force & Motion",
+          "label": "Momentum & Impulse",
+          "date": "1670",
+          "loc": "Oxford, England",
+          "coords": [
+            51.75,
+            -1.26
+          ],
+          "tag": "CONCEPT",
+          "hint": "Momentum — mass times velocity — is conserved in any collision between objects with no external forces acting, letting the outcome of a crash or impact be calculated without knowing any details of the complicated forces involved during the collision itself, only the situation immediately before and after. Impulse, a force applied over time, is exactly what's needed to change an object's momentum by a given amount.",
+          "note": "Wallis, J. (1670). Mechanica sive de Motu, Tractatus Geometricus. London, written while Wallis held the Savilian Chair of Geometry at Oxford. Wallis, Christopher Wren, and Christiaan Huygens independently submitted correct rules for collisions to the Royal Society within months of each other in 1668–69, prompted by a specific Society challenge; Newton's Principia (1687) later derived momentum conservation as a direct consequence of his third law.",
+          "links": [
+            "th1"
+          ]
+        },
+        {
+          "id": "co3",
+          "group": "Newtonian Mechanics: Force & Motion",
+          "label": "Center of Mass",
+          "date": "250 BCE",
+          "loc": "Syracuse, Sicily",
+          "coords": [
+            37.08,
+            15.29
+          ],
+          "tag": "CONCEPT",
+          "hint": "Any rigid object, however irregularly shaped, behaves under gravity and in free motion as if its entire mass were concentrated at one specific point — its centre of mass — dramatically simplifying the analysis of complicated bodies down to the motion of a single equivalent point particle. A lever balances exactly at its centre of mass, and a thrown hammer's centre of mass traces the same smooth parabola a thrown ball would, however wildly the hammer itself tumbles.",
+          "note": "Archimedes. On the Equilibrium of Planes (c. 250 BCE), Syracuse, giving the first rigorous mathematical treatment of the centre of gravity for levers and simple shapes, building on earlier informal Greek work on the balance. Archimedes' approach used a form of proof by exhaustion related to methods that anticipated integral calculus by nearly two thousand years; most of his original manuscripts survive only through later Byzantine and Arabic copies.",
+          "links": [
+            "th1"
+          ]
+        },
+        {
+          "id": "co4",
+          "group": "Energy, Work & Conservation",
+          "label": "Potential Energy Landscapes",
+          "date": "1853",
+          "loc": "Glasgow, Scotland",
+          "coords": [
+            55.86,
+            -4.25
+          ],
+          "tag": "CONCEPT",
+          "hint": "Potential energy is energy stored by an object's position or configuration — height in a gravitational field, compression in a spring — and plotting it as a landscape over all possible configurations turns finding a system's stable resting points into simply finding the landscape's valleys, and finding how a system evolves into simply asking which way is 'downhill' at any given point. The framework works identically whether the 'landscape' describes a literal hillside or an abstract configuration space with no direct physical geometry at all.",
+          "note": "Rankine, W.J.M. (1853). 'On the General Law of the Transformation of Energy.' Proceedings of the Philosophical Society of Glasgow, 3, 276–280, at the University of Glasgow — the paper that coined the term 'potential energy' itself, generalising William Thomson's and others' earlier, more specific treatments of stored mechanical energy. The landscape picture extends directly into chemistry (reaction energy landscapes) and into the phase-space formulations of analytical mechanics (see th11).",
+          "links": [
+            "th3"
+          ]
+        },
+        {
+          "id": "co5",
+          "group": "Analytical Mechanics: Lagrangian & Hamiltonian Reformulations",
+          "label": "Phase Space & Liouville's Theorem",
+          "date": "1838",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "CONCEPT",
+          "hint": "Phase space represents a system's complete state — every position and every momentum of every particle — as a single point in a high-dimensional abstract space, so that the system's entire time evolution becomes one continuous trajectory through that space. Joseph Liouville proved that as a group of nearby starting points evolves forward in time, the volume they collectively occupy in phase space never changes, even as its shape stretches and distorts — a conservation law with no obvious counterpart in ordinary physical space.",
+          "note": "Liouville, J. (1838). 'Note sur la théorie de la variation des constantes arbitraires.' Journal de Mathématiques Pures et Appliquées, 3, 342–349, at the Sorbonne, Paris. Liouville's theorem became essential to statistical mechanics, since it guarantees that a probability distribution spread across phase space behaves like an incompressible fluid, a property Gibbs's later ensemble formulation (see co9) depends on directly.",
+          "links": [
+            "th11",
+            "co9"
+          ]
+        },
+        {
+          "id": "co6",
+          "group": "Thermodynamics: Heat, Work & the Laws",
+          "label": "Equilibrium & Reversibility",
+          "date": "1851",
+          "loc": "Glasgow, Scotland",
+          "coords": [
+            55.86,
+            -4.25
+          ],
+          "tag": "CONCEPT",
+          "hint": "A thermodynamic process is reversible only if it can be run backward through the exact same sequence of intermediate states, restoring both the system and its surroundings to their original condition with no net change anywhere in the universe — an idealisation no real physical process ever fully achieves, since any real change generates at least some entropy. Equilibrium is the specific state a system settles into when left alone long enough that nothing further changes.",
+          "note": "Thomson, W. [Lord Kelvin] (1851). 'On the Dynamical Theory of Heat.' Transactions of the Royal Society of Edinburgh, 20, 261–288, at the University of Glasgow. Real engines and processes are always somewhat irreversible, generating entropy and wasting some potential useful work as a result; Carnot's maximum-efficiency limit (see st3) applies specifically and only to the idealised, unreachable reversible case.",
+          "links": [
+            "th8",
+            "st3"
+          ]
+        },
+        {
+          "id": "co7",
+          "group": "Oscillations, Waves & Resonance",
+          "label": "Damping & Resonance",
+          "date": "1877",
+          "loc": "Cambridge, England",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "tag": "CONCEPT",
+          "hint": "Real oscillating systems lose energy over time to friction or other resistance — damping — causing their swings to gradually shrink unless continuously driven; drive such a system at exactly its own natural frequency, however, and even a small periodic push can build the oscillation's amplitude up dramatically, since each push arrives in step with the system's own motion. The interplay between how strongly a system is damped and how sharply it resonates determines everything from a car's suspension response to a radio tuner's selectivity.",
+          "note": "Strutt, J.W. [Lord Rayleigh] (1877). The Theory of Sound, Vol. I. London: Macmillan, largely written at Terling Place, Essex, and at Cambridge. Rayleigh's treatment gave engineers the first systematic mathematical vocabulary — natural frequency, damping ratio, quality factor — for analysing driven oscillating systems generally, well beyond the acoustic problems the book was nominally about.",
+          "links": [
+            "th4",
+            "ef2"
+          ]
+        },
+        {
+          "id": "co8",
+          "group": "Fluid Mechanics",
+          "label": "Viscosity",
+          "date": "1840",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "CONCEPT",
+          "hint": "Viscosity measures a fluid's internal resistance to flowing — how much it resists being sheared into layers moving at different speeds — with honey and syrup sitting at the thick, high-viscosity end and air and water at the thin, low-viscosity end. Jean Léonard Marie Poiseuille's precise measurements of how liquids move through narrow tubes gave viscosity its first rigorous quantitative law, directly motivated by his medical interest in blood flow through capillaries.",
+          "note": "Poiseuille, J.L.M. (1840–46). 'Recherches expérimentales sur le mouvement des liquides dans les tubes de très petits diamètres.' Comptes Rendus de l'Académie des Sciences, conducted in Paris, where Poiseuille trained and practised as a physician before turning to fluid mechanics research. The resulting Hagen–Poiseuille equation (co-derived independently by German engineer Gotthilf Hagen) remains standard for predicting flow rate through pipes, blood vessels, and narrow channels generally.",
+          "links": [
+            "ef4",
+            "th5"
+          ]
+        },
+        {
+          "id": "co9",
+          "group": "Statistical Mechanics & Kinetic Theory",
+          "label": "Statistical Ensembles",
+          "date": "1902",
+          "loc": "New Haven, Connecticut",
+          "coords": [
+            41.31,
+            -72.93
+          ],
+          "tag": "CONCEPT",
+          "hint": "Rather than tracking one single system's exact evolution, Josiah Willard Gibbs proposed imagining a vast hypothetical collection — an 'ensemble' — of identically prepared copies of the system, differing only in their microscopic details, and computing macroscopic properties as averages over the whole ensemble. Different ensembles (fixed energy, fixed temperature, fixed particle number and pressure) correspond to different realistic experimental conditions, and Gibbs showed they all agree in the limit of very large systems.",
+          "note": "Gibbs, J.W. (1902). Elementary Principles in Statistical Mechanics. New York: Charles Scribner's Sons, written at Yale University, where Gibbs held the first American professorship in mathematical physics. Gibbs's ensemble framework, formulated independently of and somewhat later than Boltzmann's and Maxwell's more physically motivated approaches, gave statistical mechanics its modern, fully general mathematical foundation, extending cleanly to quantum statistical mechanics in the following decades.",
+          "links": [
+            "co5",
+            "st6"
+          ]
+        }
+      ]
     },
     {
       "id": "method",
