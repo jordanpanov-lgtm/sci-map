@@ -1158,7 +1158,154 @@
       "accent": "#CA6F1E",
       "bg": "#FDF5EC",
       "subtitle": "Live controversies — where the field is actively contesting the evidence",
-      "entries": []
+      "entries": [
+        {
+          "id": "db1",
+          "group": "Statistical Mechanics & Kinetic Theory",
+          "label": "Loschmidt's Reversibility Paradox vs. Boltzmann's H-Theorem",
+          "date": "1876",
+          "loc": "Vienna, Austria",
+          "coords": [
+            48.21,
+            16.37
+          ],
+          "tag": "DEBATE",
+          "hint": "Boltzmann's H-theorem proved that entropy statistically tends to increase over time — but Josef Loschmidt pointed out that the underlying microscopic laws of mechanics are perfectly time-reversible, so any process that increases entropy has an exactly equally valid, mechanically permitted mirror-image process that decreases it instead. How a time-symmetric microscopic world produces the strikingly time-asymmetric macroscopic behaviour described by the Second Law remains a subtle, actively discussed foundational question.",
+          "note": "Loschmidt, J. (1876). 'Über den Zustand des Wärmegleichgewichtes eines Systems von Körpern.' Sitzungsberichte der Akademie der Wissenschaften Wien, 73, 128–142, at the University of Vienna, where Loschmidt was Boltzmann's colleague and friend despite the pointed objection. Boltzmann's eventual response — that entropy increase is only overwhelmingly statistically probable, not mechanically guaranteed, since the number of high-entropy microscopic arrangements vastly outnumbers low-entropy ones — is now the standard resolution, though the deeper question of why the universe started in a low-entropy state at all remains open.",
+          "links": [
+            "st6",
+            "th8"
+          ]
+        },
+        {
+          "id": "db2",
+          "group": "Thermodynamics: Heat, Work & the Laws",
+          "label": "Is Information Fundamentally Physical? The Landauer Principle Debate",
+          "date": "1961",
+          "loc": "Yorktown Heights, New York",
+          "coords": [
+            41.27,
+            -73.8
+          ],
+          "tag": "DEBATE",
+          "hint": "Rolf Landauer argued that erasing one bit of information from a memory always costs a minimum, unavoidable amount of energy dissipated as heat — meaning information processing isn't just an abstract mathematical operation but has a genuine, physically mandatory thermodynamic price tag, directly resolving Maxwell's Demon (see ef5). Whether this principle is a truly fundamental law of physics or merely a property of specific, conventional computing architectures remains debated as researchers explore reversible and quantum computing designs that push against its assumptions.",
+          "note": "Landauer, R. (1961). 'Irreversibility and Heat Generation in the Computing Process.' IBM Journal of Research and Development, 5(3), 183–191, at IBM's Thomas J. Watson Research Center, Yorktown Heights. Experimental confirmation of Landauer's specific energy bound came only in 2012 (Bérut et al., Nature); reversible computing architectures, in principle, aim to sidestep the bound entirely by never erasing information at all, an active and still largely theoretical research direction.",
+          "links": [
+            "ef5"
+          ]
+        },
+        {
+          "id": "db3",
+          "group": "Analytical Mechanics: Lagrangian & Hamiltonian Reformulations",
+          "label": "Laplace's Demon: Is Classical Mechanics Fully Deterministic?",
+          "date": "1814",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "DEBATE",
+          "hint": "Laplace argued that an intellect knowing the exact position and momentum of every particle in the universe at one instant, together with all the forces acting, could in principle calculate the entire future and past with perfect certainty — classical mechanics, taken at face value, leaves no room for genuine unpredictability. Poincaré's later discovery of chaos (see st10) complicated this picture in practice, if not in strict principle: a deterministic system can still be so sensitive to unmeasurably small differences in starting conditions that its long-term behaviour is unpredictable for any real, finite-precision observer.",
+          "note": "Laplace, P.S. (1814). Essai philosophique sur les probabilités. Paris: Courcier — the thought experiment appears in the introduction as a philosophical illustration of what perfect determinism would imply, not as a literal scientific proposal. Quantum mechanics, covered in the quantum-nuclear-relativity folio, later introduced genuine fundamental indeterminacy at the microscopic level, a separate and distinct challenge to Laplace's picture from the practical unpredictability chaos theory introduces.",
+          "links": [
+            "st10"
+          ],
+          "xlinks": [
+            "quantum-nuclear-relativity::db1"
+          ]
+        },
+        {
+          "id": "db4",
+          "group": "Energy, Work & Conservation",
+          "label": "Can a Perpetual Motion Machine of the First Kind Ever Work?",
+          "date": "1775",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "DEBATE",
+          "hint": "A perpetual motion machine of the first kind would produce more energy than it consumes, generating power from nothing — a direct violation of energy conservation that inventors have proposed, in one clever disguised form or another, for centuries, and that patent offices and scientific academies still occasionally receive submissions for today. No such machine has ever been independently verified to work, and the overwhelming consensus among physicists is that none ever will, though the sheer diversity of proposed designs continues undiminished.",
+          "note": "The French Royal Academy of Sciences formally announced in 1775 that it would no longer examine perpetual motion machine proposals, one of the earliest institutional acknowledgements that the question was settled. The distinct 'second kind' of perpetual motion machine, which would violate the Second Law rather than energy conservation itself by extracting useful work from a single heat reservoir with no temperature difference, is a related but separate claim (see st3).",
+          "links": [
+            "th3"
+          ]
+        },
+        {
+          "id": "db5",
+          "group": "Statistical Mechanics & Kinetic Theory",
+          "label": "The Gibbs Paradox",
+          "date": "1875",
+          "loc": "New Haven, Connecticut",
+          "coords": [
+            41.31,
+            -72.93
+          ],
+          "tag": "DEBATE",
+          "hint": "Classical statistical mechanics predicts that mixing two containers of the exact same gas, at the same temperature and pressure, should increase the system's total entropy — even though nothing observable has actually changed, since the gas was already effectively 'mixed' with itself before the partition was removed. The paradox exposed a genuine gap in purely classical reasoning about identical particles, one that was only fully resolved once quantum mechanics established that truly identical particles are, in a deep sense, fundamentally indistinguishable rather than merely difficult to tell apart.",
+          "note": "Gibbs, J.W. (1875–78). 'On the Equilibrium of Heterogeneous Substances.' Transactions of the Connecticut Academy of Arts and Sciences, at Yale University. The standard resolution divides the classical entropy-of-mixing formula by the number of ways to permute identical particles, a correction ('correct Boltzmann counting') that classical physics alone provides no principled justification for, but that falls directly out of quantum indistinguishability once quantum statistics is properly applied.",
+          "links": [
+            "co9"
+          ]
+        },
+        {
+          "id": "db6",
+          "group": "Thermodynamics: Heat, Work & the Laws",
+          "label": "Is the Heat Death of the Universe Inevitable?",
+          "date": "1852",
+          "loc": "Glasgow, Scotland",
+          "coords": [
+            55.86,
+            -4.25
+          ],
+          "tag": "DEBATE",
+          "hint": "If the Second Law applies to the universe as a whole, and the universe is a closed system, then entropy should keep increasing until everything reaches a single uniform temperature with no usable energy differences left to do any work or sustain any process at all — a slow, cold, maximally disordered end state rather than any dramatic cosmic collapse. Whether this classical argument still applies once general relativity, dark energy, and an expanding universe with no fixed total volume are properly accounted for remains a genuinely open cosmological question.",
+          "note": "Thomson, W. [Lord Kelvin] (1852). 'On a Universal Tendency in Nature to the Dissipation of Mechanical Energy.' Proceedings of the Royal Society of Edinburgh, at the University of Glasgow. Modern cosmology treats the heat death scenario as one of several possible long-term fates of the universe, alongside a 'Big Rip' or eventual contraction, depending on the precise, still not fully measured behaviour of dark energy over cosmological timescales — a question explored further in the quantum-nuclear-relativity folio's cosmology content.",
+          "links": [
+            "th8"
+          ],
+          "xlinks": [
+            "quantum-nuclear-relativity::db6"
+          ]
+        },
+        {
+          "id": "db7",
+          "group": "Fluid Mechanics",
+          "label": "D'Alembert's Paradox",
+          "date": "1752",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "DEBATE",
+          "hint": "D'Alembert mathematically proved that a smooth object moving at constant velocity through an idealised, frictionless ('inviscid') fluid should experience exactly zero drag — a conclusion flatly contradicted by everyday experience, since real objects moving through real air or water obviously do experience resistance. The paradox exposed that the idealisation itself, not the mathematics, was the problem: even a vanishingly small amount of viscosity, ignored in the idealised model, fundamentally changes the flow's behaviour near the object's surface.",
+          "note": "d'Alembert, J. (1752). Essai d'une nouvelle théorie de la résistance des fluides, submitted for a Berlin Academy prize (which d'Alembert did not win). Ludwig Prandtl's 1904 boundary layer theory finally resolved the paradox properly, showing that viscosity's effects, however small the viscosity itself, remain concentrated and significant in a thin layer immediately next to the object's surface, generating the drag classical inviscid theory had missed entirely.",
+          "links": [
+            "th5"
+          ]
+        },
+        {
+          "id": "db8",
+          "group": "Fluid Mechanics",
+          "label": "Chaos vs. Turbulence",
+          "date": "1971",
+          "loc": "Bures-sur-Yvette, France",
+          "coords": [
+            48.71,
+            2.16
+          ],
+          "tag": "DEBATE",
+          "hint": "Turbulent fluid flow looks chaotic and effectively random, and Ruelle and Takens proposed that it might literally be low-dimensional deterministic chaos in disguise — a strange attractor with only a handful of relevant degrees of freedom, rather than the effectively infinite-dimensional statistical mess turbulence had traditionally been treated as. Whether this dynamical-systems framing genuinely captures real, fully developed turbulence, or only describes the earliest stages of the transition to it, remains an active and unresolved question in fluid dynamics.",
+          "note": "Ruelle, D. & Takens, F. (1971). 'On the Nature of Turbulence.' Communications in Mathematical Physics, 20(3), 167–192, at the Institut des Hautes Études Scientifiques, Bures-sur-Yvette. The proposal directly challenged the earlier Landau–Hopf picture of turbulence as an infinite cascade of ever more incommensurate oscillation frequencies; a complete mathematical theory of fully developed turbulence, connected to but distinct from the still-unsolved Navier–Stokes existence and smoothness problem, remains one of classical physics's most significant open problems.",
+          "links": [
+            "st11"
+          ],
+          "xlinks": [
+            "pure-mathematics::db8"
+          ]
+        }
+      ]
     },
     {
       "id": "application",
@@ -1168,7 +1315,118 @@
       "accent": "#2E86C1",
       "bg": "#EBF5FB",
       "subtitle": "Where the science leaves the lab",
-      "entries": []
+      "entries": [
+        {
+          "id": "ap1",
+          "group": "Thermodynamics: Heat, Work & the Laws",
+          "label": "The Steam Engine & the Industrial Revolution",
+          "date": "1769",
+          "loc": "Glasgow, Scotland",
+          "coords": [
+            55.86,
+            -4.25
+          ],
+          "tag": "APPLICATION",
+          "hint": "James Watt's separate condenser, added to the existing Newcomen steam engine design, kept the engine's main cylinder permanently hot instead of alternately heating and cooling it on every stroke — a change that roughly quadrupled fuel efficiency and turned the steam engine from a niche mine-pumping curiosity into the practical power source that drove the Industrial Revolution's factories, railways, and ships.",
+          "note": "Watt, J. (1769). British Patent No. 913, 'A New Invented Method of Lessening the Consumption of Steam and Fuel in Fire Engines,' developed while Watt worked as a scientific instrument maker at the University of Glasgow. Watt's engine embodied Carnot's later efficiency principle (see st3) decades before Carnot formalised it mathematically — practical engineering had already found, by trial and error, much of what theoretical thermodynamics would only later fully explain.",
+          "links": [
+            "th3",
+            "st3"
+          ]
+        },
+        {
+          "id": "ap2",
+          "group": "Thermodynamics: Heat, Work & the Laws",
+          "label": "Refrigeration & Air Conditioning",
+          "date": "1876",
+          "loc": "Munich, Germany",
+          "coords": [
+            48.14,
+            11.58
+          ],
+          "tag": "APPLICATION",
+          "hint": "A refrigeration cycle runs a heat engine in reverse, using mechanical work to force heat to flow from a colder space to a warmer one — exactly the direction heat never flows spontaneously — by compressing and expanding a working fluid so it absorbs heat inside the cold space and releases it outside. Carl von Linde's practical ammonia compression cycle turned this thermodynamic reversal into a reliable industrial and, eventually, household technology.",
+          "note": "von Linde, C. (1876). Developed a practical ammonia compression refrigeration system at the Technical University of Munich, building directly on the Carnot cycle's theoretical framework (see st3) run in reverse. Mechanical refrigeration transformed food storage and transport globally and later made both air conditioning and, indirectly, modern data centre cooling possible, though early refrigerants (including ammonia and later chlorofluorocarbons) carried their own separate toxicity and environmental costs.",
+          "links": [
+            "th8",
+            "st3"
+          ]
+        },
+        {
+          "id": "ap3",
+          "group": "Oscillations, Waves & Resonance",
+          "label": "Resonance-Aware Structural Engineering",
+          "date": "2000",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "APPLICATION",
+          "hint": "London's Millennium Bridge had to close just two days after its grand opening when pedestrians' footsteps synchronised with, and dramatically amplified, a slight natural side-to-side sway — a resonance feedback loop nobody had anticipated, since it depended on people unconsciously adjusting their gait to the bridge's own motion rather than any fixed external driving frequency. The retrofit installed dozens of tuned mass dampers, weighted mechanical devices specifically designed to absorb and cancel out the resonant oscillation.",
+          "note": "Dallard, P. et al. (2001). 'The London Millennium Footbridge.' The Structural Engineer, 79(22), 17–33, describing the closure, diagnosis and fix following the bridge's 10 June 2000 opening. The phenomenon, now called synchronous lateral excitation, has since been identified retroactively on several other footbridges worldwide and is now explicitly checked for in pedestrian bridge design codes, a direct engineering descendant of the lessons drawn from the Tacoma Narrows collapse six decades earlier (see ef2).",
+          "links": [
+            "ef2",
+            "co7"
+          ]
+        },
+        {
+          "id": "ap4",
+          "group": "Fluid Mechanics",
+          "label": "Aerodynamics & Aircraft Wing Design",
+          "date": "1903",
+          "loc": "Kitty Hawk, North Carolina",
+          "coords": [
+            36.02,
+            -75.67
+          ],
+          "tag": "APPLICATION",
+          "hint": "The Wright brothers succeeded where dozens of well-funded, credentialed rivals had failed largely because they built their own small wind tunnel and systematically tested over 200 different wing shapes, measuring lift and drag directly rather than relying on the era's substantially inaccurate published aerodynamic tables. Their first powered, controlled flight lasted just 12 seconds and covered 120 feet — shorter than the wingspan of a modern airliner — but it was built on genuinely rigorous experimental fluid mechanics rather than trial-and-error guesswork.",
+          "note": "Wright, O. & Wright, W. First powered flight, 17 December 1903, Kitty Hawk, North Carolina, following extensive wind tunnel testing (see me6) conducted at their Dayton, Ohio bicycle shop in 1901. Modern aircraft wing design has since layered computational fluid dynamics on top of continued physical wind tunnel testing, but the fundamental Bernoulli-and-circulation-based lift mechanism the Wrights exploited remains conceptually unchanged.",
+          "links": [
+            "me6",
+            "th5"
+          ]
+        },
+        {
+          "id": "ap5",
+          "group": "Newtonian Mechanics: Force & Motion",
+          "label": "GPS and Orbital Mechanics",
+          "date": "1978",
+          "loc": "Los Angeles, California",
+          "coords": [
+            34.05,
+            -118.24
+          ],
+          "tag": "APPLICATION",
+          "hint": "Every GPS satellite's orbit is calculated and continuously predicted using essentially the same Newtonian gravitation and orbital mechanics Kepler and Newton worked out for planets centuries earlier — but the system also has to explicitly correct for small relativistic effects (both special and general relativity) that would otherwise accumulate into several kilometres of positioning error per day if ignored entirely.",
+          "note": "The first Block I GPS satellite launched 22 February 1978, developed by the US Air Force's Space and Missile Systems Organization. GPS is one of the most widely cited everyday examples where both classical Newtonian orbital mechanics and Einstein's relativistic corrections are simultaneously essential to a single working technology; the relativistic correction itself is covered in the quantum-nuclear-relativity folio.",
+          "links": [
+            "th2"
+          ],
+          "xlinks": [
+            "quantum-nuclear-relativity::ap6"
+          ]
+        },
+        {
+          "id": "ap6",
+          "group": "Analytical Mechanics: Lagrangian & Hamiltonian Reformulations",
+          "label": "Robotics via Lagrangian Dynamics",
+          "date": "1965",
+          "loc": "Evanston, Illinois",
+          "coords": [
+            42.05,
+            -87.68
+          ],
+          "tag": "APPLICATION",
+          "hint": "A robot arm with several connected, independently moving joints is exactly the kind of complicated, constrained mechanical system Lagrangian mechanics was built to simplify — rather than tracking every individual joint force, modern robot controllers compute the arm's required motor torques directly from its Lagrangian, letting the same mathematical framework Lagrange developed for celestial mechanics drive the precise, coordinated motion of industrial and surgical robots today.",
+          "note": "Uicker, J.J. (1965). 'On the Dynamic Analysis of Spatial Linkages Using 4×4 Matrices.' PhD dissertation, Northwestern University, Evanston, among the first systematic applications of Lagrangian dynamics to multi-jointed mechanical linkage analysis. 'Computed torque control,' the standard modern robot arm control technique, still solves the robot's Lagrangian equations of motion in real time, decades later, essentially unchanged in its core mathematical structure.",
+          "links": [
+            "th10",
+            "me2"
+          ]
+        }
+      ]
     }
   ],
   "timeline": [
