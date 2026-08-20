@@ -17,7 +17,7 @@ const FIELDS = [
   { id:"zoology-animal-behavior",    domain:"life-sciences",     label:"Zoology & Animal Behavior",                 sub:"Animal diversity, ecology & the evolution of behaviour",                status:"ready",   file:"modules/zoology-animal-behavior.json" },
   // ── PHYSICAL SCIENCES & CHEMISTRY ────────────────────────────────────────────
   { id:"classical-physics",          domain:"physical-sciences", label:"Physics: Classical Mechanics & Thermodynamics", sub:"Force, motion, energy & heat",                                   status:"ready", file:"modules/classical-physics.json" },
-  { id:"em-optics",                  domain:"physical-sciences", label:"Physics: Electromagnetism & Optics",        sub:"Fields, waves, light & the electromagnetic spectrum",                   status:"planned" },
+  { id:"em-optics",                  domain:"physical-sciences", label:"Physics: Electromagnetism & Optics",        sub:"Fields, waves, light & the electromagnetic spectrum",                   status:"ready", file:"modules/em-optics.json" },
   { id:"quantum-nuclear-relativity", domain:"physical-sciences", label:"Physics: Quantum, Nuclear & Relativity",    sub:"The very small, the very fast & the structure of spacetime",            status:"ready",   file:"modules/quantum-nuclear-relativity.json" },
   { id:"inorganic-analytical-chem",  domain:"physical-sciences", label:"Chemistry: Inorganic & Analytical",         sub:"Elements, compounds & the methods of chemical measurement",             status:"planned" },
   { id:"organic-polymer-chem",       domain:"physical-sciences", label:"Chemistry: Organic & Polymer",              sub:"Carbon chemistry, reactions & macromolecular structures",               status:"planned" },
