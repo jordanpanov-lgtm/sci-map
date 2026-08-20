@@ -23,7 +23,206 @@
       "accent": "#2471A3",
       "bg": "#F0F7FF",
       "subtitle": "The frameworks that organise force, motion, energy and heat",
-      "entries": []
+      "entries": [
+        {
+          "id": "th1",
+          "group": "Newtonian Mechanics: Force & Motion",
+          "label": "Newton's Laws of Motion",
+          "date": "1687",
+          "loc": "Cambridge, England",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "tag": "THEORY",
+          "hint": "Three deceptively simple rules — an object stays at rest or in constant motion unless a force acts on it; force equals mass times acceleration; every action has an equal and opposite reaction — turned out to be enough to derive essentially the whole of mechanics as it was understood for the next two centuries. The second law in particular, F=ma, became the single most-used equation in all of physics.",
+          "note": "Newton, I. (1687). Philosophiæ Naturalis Principia Mathematica, Book I, Axioms or Laws of Motion. London: Royal Society, written while Newton was Lucasian Professor at Trinity College, Cambridge. Newton developed the underlying calculus needed to state and use these laws rigorously largely on his own, in parallel with (and in later bitter priority dispute with) Gottfried Leibniz.",
+          "links": [
+            "th2",
+            "fg1"
+          ]
+        },
+        {
+          "id": "th2",
+          "group": "Newtonian Mechanics: Force & Motion",
+          "label": "Newton's Law of Universal Gravitation",
+          "date": "1687",
+          "loc": "Cambridge, England",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "tag": "THEORY",
+          "hint": "Every object with mass attracts every other object with mass, with a force proportional to the product of their masses and inversely proportional to the square of the distance between them — a single equation that, Newton showed, explains both an apple falling to the ground and the Moon's orbit around the Earth as the exact same phenomenon. It unified terrestrial and celestial physics, which had been treated as governed by entirely separate rules since antiquity.",
+          "note": "Newton, I. (1687). Philosophiæ Naturalis Principia Mathematica, Book III, The System of the World. London: Royal Society. Newton reportedly first considered the inverse-square relationship in the 1660s but delayed publishing for two decades, partly to resolve whether a spherical mass could be treated as if all its mass were concentrated at its centre — a result requiring the calculus he was still developing.",
+          "links": [
+            "th1",
+            "st1"
+          ]
+        },
+        {
+          "id": "th3",
+          "group": "Energy, Work & Conservation",
+          "label": "Conservation of Energy",
+          "date": "1847",
+          "loc": "Berlin, Germany",
+          "coords": [
+            52.52,
+            13.41
+          ],
+          "tag": "THEORY",
+          "hint": "Energy cannot be created or destroyed, only converted between forms — kinetic, potential, thermal, chemical — with the total amount in any closed system always remaining exactly constant. Hermann von Helmholtz gave the first fully general statement of this principle across all of physics, building on more specific results, including Joule's experimental link between mechanical work and heat established a few years earlier.",
+          "note": "von Helmholtz, H. (1847). Über die Erhaltung der Kraft ['On the Conservation of Force']. Berlin: G. Reimer, presented to the Berlin Physical Society. Julius Robert von Mayer had proposed a similar principle independently in 1842, and James Prescott Joule was simultaneously establishing the mechanical equivalent of heat experimentally (see st2); priority disputes among the three ran for years, with Mayer in particular feeling overlooked, contributing to a nervous breakdown and suicide attempt in 1850.",
+          "links": [
+            "st2",
+            "fg6"
+          ]
+        },
+        {
+          "id": "th4",
+          "group": "Oscillations, Waves & Resonance",
+          "label": "Simple Harmonic Motion",
+          "date": "1673",
+          "loc": "The Hague, Netherlands",
+          "coords": [
+            52.08,
+            4.31
+          ],
+          "tag": "THEORY",
+          "hint": "A pendulum, a mass on a spring, and countless other systems all obey the same underlying mathematical pattern when displaced slightly from equilibrium — a restoring force proportional to the displacement, producing smooth, repeating oscillation at a fixed frequency independent of amplitude. Christiaan Huygens gave this 'isochronism' its first rigorous mathematical treatment, directly enabling the pendulum clock's dramatically improved timekeeping accuracy.",
+          "note": "Huygens, C. (1673). Horologium Oscillatorium sive de Motu Pendulorum ['The Pendulum Clock']. Paris: F. Muguet, written while Huygens was based in The Hague and visiting Paris as a founding member of the French Academy of Sciences. Galileo had qualitatively observed pendulum isochronism decades earlier (reportedly timing a swinging cathedral lamp against his own pulse around 1602), but never developed the full mathematical theory Huygens provided.",
+          "links": [
+            "co6"
+          ]
+        },
+        {
+          "id": "th5",
+          "group": "Fluid Mechanics",
+          "label": "Bernoulli's Principle",
+          "date": "1738",
+          "loc": "Basel, Switzerland",
+          "coords": [
+            47.56,
+            7.59
+          ],
+          "tag": "THEORY",
+          "hint": "Within a smoothly flowing fluid, speed and pressure trade off against each other — where the fluid moves faster, its pressure drops, and where it moves slower, pressure rises — a direct consequence of energy conservation applied to moving fluid. The principle explains how aircraft wings generate lift and why a shower curtain billows inward, from the exact same underlying relationship.",
+          "note": "Bernoulli, D. (1738). Hydrodynamica, sive de viribus et motibus fluidorum commentarii. Strasbourg: Johann Reinhold Dulsecker, written while Bernoulli held a professorship at the University of Basel. The principle strictly applies only to idealised, non-viscous ('inviscid') flow with no energy lost to friction — real fluids always deviate to some degree, a gap that later motivated the study of viscosity and, eventually, d'Alembert's paradox.",
+          "links": [
+            "db7",
+            "fg12"
+          ]
+        },
+        {
+          "id": "th6",
+          "group": "Thermodynamics: Heat, Work & the Laws",
+          "label": "The Zeroth Law of Thermodynamics",
+          "date": "1931",
+          "loc": "Cambridge, England",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "tag": "THEORY",
+          "hint": "If system A is in thermal equilibrium with system B, and system B is in thermal equilibrium with system C, then A and C are automatically in thermal equilibrium with each other too — a seemingly obvious statement that turns out to be the logical foundation making temperature itself a well-defined, comparable quantity in the first place. It was recognised as necessary only after the First and Second Laws were already established, hence its unusual 'zeroth' numbering.",
+          "note": "Fowler, R.H. (1931), formalised in Fowler, R.H. & Guggenheim, E.A. (1939). Statistical Thermodynamics. Cambridge: Cambridge University Press. The law had been implicitly assumed by every thermodynamicist since the concept of temperature was first quantified, but nobody had stated it as an explicit, independent axiom until Fowler pointed out that the First and Second Laws quietly presuppose it.",
+          "links": [
+            "th7",
+            "th8"
+          ]
+        },
+        {
+          "id": "th7",
+          "group": "Thermodynamics: Heat, Work & the Laws",
+          "label": "The First Law of Thermodynamics",
+          "date": "1850",
+          "loc": "Berlin, Germany",
+          "coords": [
+            52.52,
+            13.41
+          ],
+          "tag": "THEORY",
+          "hint": "A system's internal energy changes exactly according to the heat added to it minus the work it does on its surroundings — energy conservation restated specifically for thermal systems, formally uniting the previously separate concepts of heat and mechanical work into a single unified bookkeeping principle. It closed the case, definitively, on the old 'caloric theory' idea that heat was a substance that simply flowed from hot to cold objects.",
+          "note": "Clausius, R. (1850). 'Über die bewegende Kraft der Wärme.' Annalen der Physik, 155(3), 368–397, written while Clausius taught at the Royal Artillery and Engineering School, Berlin. The paper simultaneously introduced what became the Second Law (see th8) in an early form, making 1850 something of a founding year for thermodynamics as a coherent, unified theory rather than two separate lines of inquiry about heat and mechanics.",
+          "links": [
+            "th3",
+            "th6"
+          ]
+        },
+        {
+          "id": "th8",
+          "group": "Thermodynamics: Heat, Work & the Laws",
+          "label": "The Second Law of Thermodynamics & Entropy",
+          "date": "1865",
+          "loc": "Zurich, Switzerland",
+          "coords": [
+            47.38,
+            8.54
+          ],
+          "tag": "THEORY",
+          "hint": "Heat never spontaneously flows from a colder body to a hotter one, and in any real process, a quantity Clausius named 'entropy' can only stay the same or increase, never decrease, for the universe as a whole. The law explains why so many everyday processes — an ice cube melting, a dropped egg breaking — happen easily in one direction and essentially never reverse themselves, despite nothing in Newton's laws alone forbidding the reverse.",
+          "note": "Clausius, R. (1865). 'Über verschiedene für die Anwendung bequeme Formen der Hauptgleichungen der mechanischen Wärmetheorie.' Annalen der Physik, 125, 353–400, written while Clausius held a professorship at ETH Zurich. Clausius deliberately coined 'entropy' from the Greek for 'transformation,' choosing a word that sounded close to 'energy' since he considered the two concepts closely related; Boltzmann's later statistical reinterpretation (see st6) gave entropy its now-standard probabilistic meaning.",
+          "links": [
+            "th6",
+            "st6",
+            "db1"
+          ]
+        },
+        {
+          "id": "th9",
+          "group": "Statistical Mechanics & Kinetic Theory",
+          "label": "Kinetic Theory of Gases",
+          "date": "1860",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "THEORY",
+          "hint": "A gas's macroscopic properties — pressure, temperature, volume — can be derived entirely from treating it as vast numbers of tiny particles in ceaseless random motion, colliding elastically with each other and their container's walls. James Clerk Maxwell showed pressure itself is really just the statistical average of countless individual molecular impacts, reframing thermodynamics as, at bottom, a branch of statistics and mechanics rather than a separate science of heat.",
+          "note": "Maxwell, J.C. (1860). 'Illustrations of the Dynamical Theory of Gases.' Philosophical Magazine, 4th series, 19–20, written shortly after Maxwell's appointment at King's College London. Maxwell's original derivation contained a subtle statistical assumption he later recognised as unjustified, prompting a more rigorous follow-up paper in 1867 (see st5); the kinetic theory was independently and even more thoroughly developed by Ludwig Boltzmann over the following decade.",
+          "links": [
+            "st5",
+            "fg2"
+          ]
+        },
+        {
+          "id": "th10",
+          "group": "Analytical Mechanics: Lagrangian & Hamiltonian Reformulations",
+          "label": "Lagrangian Mechanics",
+          "date": "1788",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "THEORY",
+          "hint": "Instead of tracking every force acting on every part of a system, Lagrangian mechanics reformulates the whole problem around a single scalar quantity — kinetic energy minus potential energy — and a principle that the system's actual path through time is exactly the one that makes this quantity's total accumulation stationary. The reformulation is often dramatically easier to work with for complex, constrained systems, and generalises far beyond the specific coordinate systems Newton's original formulation was tied to.",
+          "note": "Lagrange, J.L. (1788). Mécanique analytique. Paris: Veuve Desaint, completed shortly after Lagrange moved from the Berlin Academy to the Paris Académie des Sciences. Lagrange reportedly took considerable pride in the fact that the book contained not a single diagram, treating mechanics as a branch of pure analysis; the underlying calculus-of-variations machinery is covered from the mathematics side in the applied-math-statistics folio.",
+          "links": [
+            "th11",
+            "fg7"
+          ]
+        },
+        {
+          "id": "th11",
+          "group": "Analytical Mechanics: Lagrangian & Hamiltonian Reformulations",
+          "label": "Hamiltonian Mechanics",
+          "date": "1833",
+          "loc": "Dublin, Ireland",
+          "coords": [
+            53.35,
+            -6.26
+          ],
+          "tag": "THEORY",
+          "hint": "William Rowan Hamilton reformulated mechanics a second time, replacing Lagrange's velocity-based description with one built around momentum and position treated as independent, symmetric variables living in an abstract 'phase space.' The resulting equations turned out, a century later, to translate almost directly into the mathematical structure of quantum mechanics, making Hamilton's reformulation the specific bridge historically used to build quantum theory on top of classical foundations.",
+          "note": "Hamilton, W.R. (1833). 'On a General Method of Expressing the Paths of Light and of the Planets by the Coefficients of a Characteristic Function.' Dublin University Review, written at Dunsink Observatory, where Hamilton served as Royal Astronomer of Ireland from age 22. Hamilton originally developed the underlying mathematics to unify optics and mechanics, only later recognising its full generality for dynamics; the phase-space formulation is what modern chaos theory and statistical mechanics are built on top of.",
+          "links": [
+            "th10",
+            "co4"
+          ]
+        }
+      ]
     },
     {
       "id": "study",
@@ -33,7 +232,216 @@
       "accent": "#7D3C98",
       "bg": "#FAF5FF",
       "subtitle": "The defining experiments — and exactly what they found",
-      "entries": []
+      "entries": [
+        {
+          "id": "st1",
+          "group": "Newtonian Mechanics: Force & Motion",
+          "label": "The Cavendish Experiment",
+          "date": "1798",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Henry Cavendish measured the gravitational attraction between lead spheres in his own home, using an exquisitely sensitive torsion balance to detect a force so weak it had never been directly measured before — and from it calculated the first accurate value for the gravitational constant, and with it, the first accurate estimate of the Earth's mass and density. The experiment demonstrated Newton's law of gravitation applied at laboratory scale, not just to planets.",
+          "note": "Cavendish, H. (1798). 'Experiments to Determine the Density of the Earth.' Philosophical Transactions of the Royal Society, 88, 469–526, conducted at Cavendish's home in Clapham, London, using an apparatus originally designed by geologist John Michell, who died before completing it himself. Cavendish's result for Earth's density was within about 1% of the modern accepted value, an extraordinary level of precision for eighteenth-century instrumentation.",
+          "links": [
+            "th2"
+          ]
+        },
+        {
+          "id": "st2",
+          "group": "Thermodynamics: Heat, Work & the Laws",
+          "label": "Joule's Mechanical Equivalent of Heat",
+          "date": "1843",
+          "loc": "Manchester, England",
+          "coords": [
+            53.48,
+            -2.24
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "James Prescott Joule used a falling weight to turn a paddle wheel inside an insulated water tank, precisely measuring how much the water's temperature rose for a given amount of mechanical work done — establishing, against considerable initial skepticism, that heat and mechanical energy are directly interconvertible at a fixed, measurable exchange rate. It was the crucial experimental evidence underneath the theoretical principle of energy conservation formalised a few years later.",
+          "note": "Joule, J.P. (1843–1850). A series of papers culminating in 'On the Mechanical Equivalent of Heat.' Philosophical Transactions of the Royal Society, 140 (1850), 61–82, conducted largely in a private laboratory attached to Joule's family brewery in Manchester. Joule funded this research entirely himself, without a university position, and his early results were initially received with considerable skepticism by the physics establishment, including a famously cool reception at the 1847 British Association meeting.",
+          "links": [
+            "th3"
+          ]
+        },
+        {
+          "id": "st3",
+          "group": "Thermodynamics: Heat, Work & the Laws",
+          "label": "Carnot's Reflections on the Motive Power of Fire",
+          "date": "1824",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Sadi Carnot, analysing the newly dominant steam engine, proved that any heat engine's efficiency is fundamentally capped by the temperature difference it operates across, no matter how cleverly it's engineered — an idealised maximum ('Carnot efficiency') that real engines can only approach, never exceed or equal. Written before the concept of energy conservation itself was established, it is now recognised as the founding text of thermodynamics as a discipline.",
+          "note": "Carnot, S. (1824). Réflexions sur la puissance motrice du feu. Paris: Bachelier. Carnot still worked within the outdated caloric theory of heat (that heat was a conserved fluid substance), yet his conclusions about maximum efficiency remain exactly correct under the modern theory — a striking case of a right answer surviving a wrong underlying model. Carnot died of cholera at 36 in 1832, and most of his papers were burned as a public health precaution, destroying further unpublished work.",
+          "links": [
+            "th7",
+            "db4"
+          ]
+        },
+        {
+          "id": "st4",
+          "group": "Thermodynamics: Heat, Work & the Laws",
+          "label": "Clausius's Statement of the Second Law",
+          "date": "1850",
+          "loc": "Berlin, Germany",
+          "coords": [
+            52.52,
+            13.41
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Rudolf Clausius stated, in essentially the same paper that established the First Law, that heat cannot spontaneously pass from a colder to a hotter body without some other compensating change occurring elsewhere — a deceptively modest-sounding claim that turned out to impose a strict directionality on all physical processes, one Newton's mechanics alone never required.",
+          "note": "Clausius, R. (1850). 'Über die bewegende Kraft der Wärme.' Annalen der Physik, 155(3), 368–397. William Thomson (later Lord Kelvin) independently proposed an equivalent statement the same year, framed instead around the impossibility of converting heat entirely into work with no other effect; the two formulations were shown fully equivalent shortly afterward, and are still both taught as standard textbook statements of the Second Law today.",
+          "links": [
+            "th8"
+          ]
+        },
+        {
+          "id": "st5",
+          "group": "Statistical Mechanics & Kinetic Theory",
+          "label": "Maxwell's Rigorous Velocity Distribution",
+          "date": "1867",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Not every gas molecule moves at the same speed — Maxwell derived the precise statistical distribution of molecular speeds within a gas at a given temperature, a smooth bell-like curve now bearing his name, correcting a flawed statistical assumption in his own earlier 1860 derivation. It gave kinetic theory its first fully rigorous mathematical foundation, rather than a plausible but imprecisely justified sketch.",
+          "note": "Maxwell, J.C. (1867). 'On the Dynamical Theory of Gases.' Philosophical Transactions of the Royal Society, 157, 49–88. Ludwig Boltzmann generalised the result further over the following decade, giving the now-standard 'Maxwell–Boltzmann distribution' its full form including the effect of external potential energy, not merely kinetic energy alone.",
+          "links": [
+            "th9"
+          ]
+        },
+        {
+          "id": "st6",
+          "group": "Statistical Mechanics & Kinetic Theory",
+          "label": "Boltzmann's Statistical Entropy Formula",
+          "date": "1877",
+          "loc": "Vienna, Austria",
+          "coords": [
+            48.21,
+            16.37
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Ludwig Boltzmann showed that entropy, previously just a mysterious thermodynamic bookkeeping quantity, has a precise statistical meaning: it measures the number of distinct microscopic arrangements of a system's particles that all produce the same observable macroscopic state, with more probable (higher-entropy) states simply being the ones reachable by vastly more microscopic arrangements. The formula, S = k log W, is carved on Boltzmann's tombstone in Vienna.",
+          "note": "Boltzmann, L. (1877). 'Über die Beziehung zwischen dem zweiten Hauptsatze der mechanischen Wärmetheorie und der Wahrscheinlichkeitsrechnung.' Wiener Berichte, 76, 373–435. The constant k, now called Boltzmann's constant, was actually named and first given its symbol by Max Planck decades later; Boltzmann's statistical approach was fiercely contested by contemporaries who doubted the physical reality of atoms (see db1), a dispute Boltzmann never lived to see fully resolved.",
+          "links": [
+            "th8",
+            "db1"
+          ]
+        },
+        {
+          "id": "st7",
+          "group": "Oscillations, Waves & Resonance",
+          "label": "Foucault's Pendulum",
+          "date": "1851",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Léon Foucault suspended a heavy pendulum from the dome of the Panthéon in Paris and showed its swing plane slowly rotated over the course of a day, relative to the floor beneath it — direct, visible mechanical proof that the Earth itself was rotating, without needing to look at the sky at all. It was the first purely terrestrial, mechanical demonstration of Earth's rotation, over two centuries after Copernicus and Galileo had argued for it on astronomical grounds alone.",
+          "note": "Foucault, L. (1851). Public demonstration, Panthéon, Paris, following an initial private demonstration at the Paris Observatory weeks earlier. The pendulum's swing plane rotates at a rate depending on latitude — a full rotation takes about 32 hours in Paris, would take exactly 24 hours at the North or South Pole, and would not rotate at all on the equator — a direct, calculable consequence of the Coriolis effect (see ef9).",
+          "links": [
+            "ef9",
+            "fg10"
+          ]
+        },
+        {
+          "id": "st8",
+          "group": "Fluid Mechanics",
+          "label": "Torricelli's Barometer",
+          "date": "1643",
+          "loc": "Florence, Italy",
+          "coords": [
+            43.77,
+            11.26
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Evangelista Torricelli filled a long glass tube with mercury, inverted it into a mercury-filled dish, and found the mercury column settled at a consistent height, leaving a space above it — proving, against the prevailing Aristotelian belief that 'nature abhors a vacuum,' that this space was a genuine vacuum, and that ordinary atmospheric pressure alone was what held the mercury column up. It was the first deliberately created and scientifically studied vacuum in history.",
+          "note": "Torricelli, E. (1643). Described in a letter to Michelangelo Ricci, June 1644, conducted in Florence where Torricelli had succeeded Galileo as court mathematician to the Grand Duke of Tuscany. Blaise Pascal later had the experiment repeated at different altitudes on the Puy de Dôme mountain in 1648, confirming that the mercury column's height dropped with elevation exactly as predicted if atmospheric pressure, not some other force, was responsible.",
+          "links": [
+            "th5"
+          ]
+        },
+        {
+          "id": "st9",
+          "group": "Statistical Mechanics & Kinetic Theory",
+          "label": "Perrin's Confirmation of Atomic Theory via Brownian Motion",
+          "date": "1908",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Jean Perrin experimentally tracked the erratic, jittery motion of microscopic particles suspended in water, precisely measuring their statistical behaviour and confirming Einstein's 1905 theoretical prediction that this motion is caused by countless random collisions with individual water molecules. It was the decisive experimental evidence that finally convinced the small remaining group of skeptical physicists, including Wilhelm Ostwald, that atoms and molecules were genuinely real physical objects rather than a convenient calculating fiction.",
+          "note": "Perrin, J. (1909). 'Mouvement brownien et réalité moléculaire.' Annales de Chimie et de Physique, 18, 5–114, at the Sorbonne, Paris, directly testing Einstein, A. (1905). 'Über die von der molekularkinetischen Theorie der Wärme geforderte Bewegung von in ruhenden Flüssigkeiten suspendierten Teilchen.' Annalen der Physik, 17, 549–560. Perrin's measurements also gave one of the first accurate experimental determinations of Avogadro's number; he received the 1926 Nobel Prize in Physics largely for this work.",
+          "links": [
+            "ef1",
+            "th9"
+          ]
+        },
+        {
+          "id": "st10",
+          "group": "Analytical Mechanics: Lagrangian & Hamiltonian Reformulations",
+          "label": "Poincaré's Discovery of Chaos in the Three-Body Problem",
+          "date": "1890",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "While competing for a prize offered by King Oscar II of Sweden for solving the general three-body gravitational problem, Henri Poincaré discovered something far stranger than a solution: the motion of even just three mutually gravitating bodies can become so sensitively dependent on their exact starting conditions that long-term prediction becomes effectively impossible, even though the underlying equations are completely deterministic. It was the first rigorous mathematical demonstration of what would later be called chaos.",
+          "note": "Poincaré, H. (1890). 'Sur le problème des trois corps et les équations de la dynamique.' Acta Mathematica, 13, 1–270 — a substantially revised version of Poincaré's original 1889 prize-winning memoir, after a serious error was discovered post-award requiring extensive (and expensive) reprinting. The full implications of Poincaré's discovery were not widely appreciated until Edward Lorenz's independent rediscovery of sensitive dependence in weather models seven decades later.",
+          "links": [
+            "th11",
+            "ef7"
+          ],
+          "xlinks": [
+            "pure-mathematics::fg9",
+            "systems-and-complexity::th6"
+          ]
+        },
+        {
+          "id": "st11",
+          "group": "Fluid Mechanics",
+          "label": "Reynolds's Pipe Flow Experiments",
+          "date": "1883",
+          "loc": "Manchester, England",
+          "coords": [
+            53.48,
+            -2.24
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Osborne Reynolds injected a thin stream of dye into water flowing through a glass pipe and found the flow abruptly transitioned from smooth, orderly layers to chaotic, swirling turbulence once the flow speed crossed a specific threshold — a transition depending not on speed alone but on a single dimensionless combination of speed, pipe size, and fluid viscosity, now called the Reynolds number. It gave engineers the first predictive, quantitative tool for anticipating when a given flow would turn turbulent.",
+          "note": "Reynolds, O. (1883). 'An Experimental Investigation of the Circumstances Which Determine Whether the Motion of Water Shall Be Direct or Sinuous.' Philosophical Transactions of the Royal Society, 174, 935–982, at Owens College, Manchester. The Reynolds number remains the standard tool for predicting laminar-to-turbulent transition across scales from blood flow in capillaries to airflow over aircraft wings; a complete theoretical account of turbulence itself remains unsolved (see db8).",
+          "links": [
+            "db8",
+            "db7"
+          ]
+        }
+      ]
     },
     {
       "id": "effect",
