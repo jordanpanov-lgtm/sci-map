@@ -438,7 +438,175 @@
       "accent": "#117A65",
       "bg": "#F0FFF6",
       "subtitle": "Named, replicable patterns in mathematical structure",
-      "entries": []
+      "entries": [
+        {
+          "id": "ef1",
+          "group": "Real Analysis",
+          "label": "The Weierstrass Function",
+          "date": "1872",
+          "loc": "Berlin, Germany",
+          "coords": [
+            52.52,
+            13.41
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "A function that is continuous everywhere — no jumps or breaks — but differentiable nowhere: no well-defined slope exists at any point, no matter how closely you zoom in. Built by summing infinitely many oscillations at ever-finer scales, it shattered the working assumption, held even by many mathematicians of the time, that continuity alone should guarantee smoothness almost everywhere.",
+          "note": "Weierstrass, K. Presented to the Royal Prussian Academy of Sciences, Berlin, 18 July 1872; first published by Paul du Bois-Reymond (1875), 'Versuch einer Classification der willkürlichen Functionen reeller Argumente,' Journal für die reine und angewandte Mathematik, 79, 21–37. Bernard Bolzano had privately constructed a similar example decades earlier in the 1830s, rediscovered only in 1922; Weierstrass's public, rigorously analysed version is the one that forced mathematicians to abandon the intuition that 'continuous' implies 'smooth almost everywhere.'",
+          "links": [
+            "th6",
+            "st5"
+          ]
+        },
+        {
+          "id": "ef2",
+          "group": "Topology",
+          "label": "Space-Filling Curves",
+          "date": "1890",
+          "loc": "Turin, Italy",
+          "coords": [
+            45.07,
+            7.69
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "A single continuous curve that passes through every point of a two-dimensional square, filling it completely, even though a curve is intuitively a one-dimensional object. Giuseppe Peano's construction proved that continuity alone places almost no restriction on a function's image — dimension is preserved only by the stronger condition of continuous invertibility, not by continuity alone.",
+          "note": "Peano, G. (1890). 'Sur une courbe, qui remplit toute une aire plane.' Mathematische Annalen, 36, 157–160 — given without any illustration, purely as a formula, which contemporaries found bewildering. David Hilbert (1891) supplied a geometrically constructible version the following year, the one usually reproduced in textbooks today; both curves exist only as limits of infinite sequences of approximating curves.",
+          "links": [
+            "th8",
+            "co7"
+          ]
+        },
+        {
+          "id": "ef3",
+          "group": "Abstract Algebra: Groups, Rings & Fields",
+          "label": "Impossibility of Compass-and-Straightedge Trisection",
+          "date": "1837",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Ancient geometers tried for over two thousand years to trisect an arbitrary angle, or double the volume of a cube, using only a compass and an unmarked straightedge — without ever discovering why they kept failing. Pierre Wantzel proved both are provably impossible in general, by showing any length constructible this way must arise from a chain of square roots, while trisection and cube-doubling generically require cube roots no such chain can produce.",
+          "note": "Wantzel, P.L. (1837). 'Recherches sur les moyens de reconnaître si un problème de géométrie peut se résoudre avec la règle et le compas.' Journal de Mathématiques Pures et Appliquées, 2, 366–372. Wantzel applied the same field-extension-degree reasoning Galois had developed for a different purpose five years earlier (see th2) to constructibility rather than solvability by radicals; he died at 33, and the result went under-credited for decades relative to Gauss's related work on constructible polygons.",
+          "links": [
+            "th2"
+          ]
+        },
+        {
+          "id": "ef4",
+          "group": "Real Analysis",
+          "label": "Gabriel's Horn",
+          "date": "1641",
+          "loc": "Florence, Italy",
+          "coords": [
+            43.77,
+            11.26
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Rotating the curve y = 1/x around the x-axis for x ≥ 1 produces a trumpet-shaped solid with a finite, calculable volume — yet an infinite surface area, meaning it could in principle be filled with a finite amount of paint but never entirely coated on the outside. The result struck contemporaries as close to absurd; Thomas Hobbes reportedly refused to accept it even after being shown the calculation.",
+          "note": "Torricelli, E. (1641, described in correspondence; published as De solido hyperbolico acuto, appended to Opera Geometrica, Florence, 1644). The result predates Newton and Leibniz's calculus by decades, relying instead on Bonaventura Cavalieri's method of indivisibles — itself controversial and not placed on rigorous footing until nineteenth-century analysis (see th6).",
+          "links": [
+            "th6"
+          ]
+        },
+        {
+          "id": "ef5",
+          "group": "Number Theory",
+          "label": "Transcendence of π",
+          "date": "1882",
+          "loc": "Freiburg, Germany",
+          "coords": [
+            48,
+            7.84
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Ferdinand von Lindemann proved that π is transcendental — not merely irrational, but not the root of any polynomial equation with rational coefficients, of any degree. Since compass-and-straightedge constructions can only ever produce algebraic lengths, this single fact finally proved that 'squaring the circle' — constructing a square with the same area as a given circle — is impossible, closing a problem debated since antiquity.",
+          "note": "Lindemann, F. (1882). 'Über die Zahl π.' Mathematische Annalen, 20, 213–225, extending Charles Hermite's 1873 proof that e is transcendental via a closely related method. David Hilbert (1893) later gave a substantially simplified proof of the same result; whether π + e or π·e are transcendental remains unknown today, among the many questions the Lindemann–Hermite methods have never resolved.",
+          "links": [
+            "th2"
+          ]
+        },
+        {
+          "id": "ef6",
+          "group": "Abstract Algebra: Groups, Rings & Fields",
+          "label": "Monstrous Moonshine",
+          "date": "1979",
+          "loc": "Cambridge, England",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "The Monster group — the largest of the sporadic simple groups, with more elements than there are atoms in a small planet — turned out to have a bizarre numerical coincidence with an entirely unrelated area of mathematics: the coefficients of a special function called the j-function from number theory and complex analysis. Nobody had any reason to expect abstract symmetry groups to connect to modular functions, and for over a decade nobody could explain why the connection existed.",
+          "note": "Conway, J.H. & Norton, S.P. (1979). 'Monstrous Moonshine.' Bulletin of the London Mathematical Society, 11(3), 308–339 — the paper that named and catalogued the coincidence without explaining it. Richard Borcherds proved the underlying conjecture in 1992 using vertex operator algebras borrowed from string theory in physics, cited in his 1998 Fields Medal; the deeper conceptual reason the Monster connects to string theory is still not considered fully understood even after the proof.",
+          "links": [
+            "th1"
+          ]
+        },
+        {
+          "id": "ef7",
+          "group": "Geometry: Euclidean, Non-Euclidean & Differential",
+          "label": "Fractal Self-Similarity (the Koch Snowflake)",
+          "date": "1904",
+          "loc": "Stockholm, Sweden",
+          "coords": [
+            59.33,
+            18.07
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "The Koch snowflake is built by endlessly replacing each straight segment of a triangle with a smaller zigzag, producing a curve that is continuous everywhere and encloses a finite area, yet has infinite length and looks identical at every level of magnification. It was one of the first deliberately constructed examples of what would later be called a fractal — a shape whose effective dimension is not a whole number.",
+          "note": "von Koch, H. (1904). 'Sur une courbe continue sans tangente, obtenue par une construction géométrique élémentaire.' Arkiv för Matematik, Astronomi och Fysik, 1, 681–704. Felix Hausdorff's 1918 generalised definition of dimension later gave the snowflake's boundary a precise fractional dimension (≈1.26); Benoît Mandelbrot's 1975 coinage of the word 'fractal' and his 1982 book The Fractal Geometry of Nature popularised the whole family of such constructions decades after Koch's largely-overlooked original paper.",
+          "links": [
+            "th9"
+          ]
+        },
+        {
+          "id": "ef8",
+          "group": "Real Analysis",
+          "label": "Vitali's Non-Measurable Sets",
+          "date": "1905",
+          "loc": "Modena, Italy",
+          "coords": [
+            44.65,
+            10.93
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Giuseppe Vitali constructed a specific, explicitly defined set of real numbers with no well-defined length at all under Lebesgue's otherwise near-universal measure theory — not infinite length, not zero, but genuinely undefined. The construction requires the Axiom of Choice, and whether such pathological sets are an unavoidable cost of that axiom became one of set theory's defining disputes.",
+          "note": "Vitali, G. (1905). 'Sul problema della misura dei gruppi di punti di una retta.' Bologna: Tipografia Gamberini e Parmeggiani. The direct ancestor of the far more dramatic Banach–Tarski paradox two decades later, which exploits the same non-measurability loophole to reassemble a solid ball into two balls the size of the original. Robert Solovay (1970) showed a model of set theory without full Choice can make every set of reals measurable, tying the pathology explicitly to that one axiom.",
+          "links": [
+            "th6"
+          ],
+          "xlinks": [
+            "logic-math-foundations::ef4"
+          ]
+        },
+        {
+          "id": "ef9",
+          "group": "Number Theory",
+          "label": "Bounded Gaps Between Primes",
+          "date": "2013",
+          "loc": "Durham, New Hampshire",
+          "coords": [
+            43.13,
+            -70.93
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Yitang Zhang proved that infinitely many pairs of primes differ by no more than 70 million — a finite bound, where none had ever been proven before — as a major partial step toward, though not a proof of, the Twin Prime Conjecture, which claims the bound can be brought all the way down to 2. A lecturer with no permanent academic position who had not published in years, Zhang's result came as a total surprise to the field.",
+          "note": "Zhang, Y. (2014). 'Bounded Gaps Between Primes.' Annals of Mathematics, 179(3), 1121–1174 (submitted 2013). The Polymath8 collaborative project, organised within weeks of the announcement, rapidly lowered Zhang's bound from 70,000,000 to 246 by 2014, combining his method with earlier work by Goldston, Pintz and Yıldırım. The final push to the conjectured bound of 2 remains unsolved.",
+          "links": [
+            "th5"
+          ]
+        }
+      ]
     },
     {
       "id": "concept",
@@ -448,7 +616,164 @@
       "accent": "#566573",
       "bg": "#F5F6FA",
       "subtitle": "The building blocks and vocabulary every student must command",
-      "entries": []
+      "entries": [
+        {
+          "id": "co1",
+          "group": "Abstract Algebra: Groups, Rings & Fields",
+          "label": "Symmetry Groups",
+          "date": "1872",
+          "loc": "Erlangen, Germany",
+          "coords": [
+            49.59,
+            11
+          ],
+          "tag": "CONCEPT",
+          "hint": "Felix Klein proposed that any geometry — Euclidean, projective, hyperbolic — can be defined entirely by which transformations leave its essential properties unchanged, turning 'what counts as geometry' into a question about symmetry groups rather than a fixed list of axioms. Two shapes belong to the same geometric world exactly when a transformation from the relevant group carries one to the other.",
+          "note": "Klein, F. (1872). 'Vergleichende Betrachtungen über neuere geometrische Forschungen' ['A Comparative Review of Recent Researches in Geometry'], known as the Erlangen Program, delivered as his inaugural lecture at the University of Erlangen. The framework unified what had been a fragmented set of competing geometries under one organising principle, though it does not naturally extend to the fully general curved-space geometries Riemann had already introduced eighteen years earlier (see th9).",
+          "links": [
+            "th1"
+          ]
+        },
+        {
+          "id": "co2",
+          "group": "Geometry: Euclidean, Non-Euclidean & Differential",
+          "label": "Manifolds",
+          "date": "1914",
+          "loc": "Greifswald, Germany",
+          "coords": [
+            54.09,
+            13.39
+          ],
+          "tag": "CONCEPT",
+          "hint": "A manifold is a space that looks locally like ordinary flat Euclidean space at every point, even when its overall global shape is curved or complicated — a sphere's surface looks flat close-up despite being globally round. Felix Hausdorff's general axiomatic framework for topological spaces gave mathematicians the precise vocabulary needed to define 'manifold' rigorously, independent of any particular embedding in a larger surrounding space.",
+          "note": "Hausdorff, F. (1914). Grundzüge der Mengenlehre. Leipzig: Veit & Comp. Hausdorff's separation axiom (the 'Hausdorff property') excluded pathological spaces that weaker definitions would otherwise admit; the specific chart-and-atlas formalisation of 'manifold' used today was refined further by Hermann Weyl (1913) for Riemann surfaces and by Hassler Whitney (1936) in general.",
+          "links": [
+            "th9"
+          ]
+        },
+        {
+          "id": "co3",
+          "group": "Abstract Algebra: Groups, Rings & Fields",
+          "label": "Vector Spaces & Linear Algebra",
+          "date": "1888",
+          "loc": "Turin, Italy",
+          "coords": [
+            45.07,
+            7.69
+          ],
+          "tag": "CONCEPT",
+          "hint": "A vector space is a collection of objects that can be added together and scaled by numbers while obeying a short list of axioms — familiar arrows in the plane are one example, but so are polynomials, matrices, and infinite sequences. Giuseppe Peano gave the first fully axiomatic definition, stripping the concept to exactly those rules and nothing tied to any specific geometric picture.",
+          "note": "Peano, G. (1888). Calcolo Geometrico secondo l'Ausdehnungslehre di H. Grassmann. Turin: Fratelli Bocca. Built directly on Hermann Grassmann's earlier, far less formally rigorous Ausdehnungslehre (1844), which introduced the core linear-combination ideas in a notation contemporaries found nearly unreadable; Peano's cleaner axiomatic version is the direct ancestor of the vector space definition taught today.",
+          "links": [
+            "th3"
+          ]
+        },
+        {
+          "id": "co4",
+          "group": "Number Theory",
+          "label": "Modular Forms",
+          "date": "1937",
+          "loc": "Hamburg, Germany",
+          "coords": [
+            53.55,
+            9.99
+          ],
+          "tag": "CONCEPT",
+          "hint": "Modular forms are highly symmetric complex functions that stay almost unchanged under a specific infinite family of transformations, and their coefficients encode deep arithmetic information — famously, they were the exact bridge Andrew Wiles needed to connect elliptic curves to Fermat's Last Theorem. Erich Hecke's operators gave the first systematic way to organise and decompose the vast space of such functions.",
+          "note": "Hecke, E. (1937). 'Über Modulfunktionen und die Dirichletschen Reihen mit Eulerscher Produktentwicklung I & II.' Mathematische Annalen, 114, 1–28 and 316–351. Modular forms had been studied piecemeal since Klein and Poincaré in the 1870s–80s, but Hecke's operator-based structure theory made the field systematically tractable; the Taniyama–Shimura conjecture linking modular forms to elliptic curves, proved by Wiles for the needed case (see st2), was unimaginable without it.",
+          "links": [
+            "st2"
+          ]
+        },
+        {
+          "id": "co5",
+          "group": "Real Analysis",
+          "label": "Metric Spaces & Continuity",
+          "date": "1906",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "CONCEPT",
+          "hint": "Maurice Fréchet generalised ordinary distance into an abstract 'metric' that applies to spaces of functions or sequences, not just points in the plane, provided it obeys three simple rules — non-negativity, symmetry, and the triangle inequality. This let continuity, convergence, and limits, previously tied to ordinary geometric space, be defined uniformly across enormously more abstract settings.",
+          "note": "Fréchet, M. (1906). 'Sur quelques points du calcul fonctionnel.' Doctoral thesis, Rendiconti del Circolo Matematico di Palermo, 22, 1–72, defended at the Faculté des Sciences de Paris. Fréchet's abstract framework, together with Hausdorff's slightly more general topological spaces eight years later (see co2), gave twentieth-century analysis its standard vocabulary for 'closeness' without reference to any specific ambient space.",
+          "links": [
+            "th6",
+            "co2"
+          ]
+        },
+        {
+          "id": "co6",
+          "group": "Topology",
+          "label": "Homotopy & Homeomorphism",
+          "date": "1935",
+          "loc": "Amsterdam, Netherlands",
+          "coords": [
+            52.37,
+            4.9
+          ],
+          "tag": "CONCEPT",
+          "hint": "Two shapes are homeomorphic if one can be continuously deformed into the other without cutting or gluing — a coffee cup and a doughnut, famously, are homeomorphic, since both have exactly one hole. Witold Hurewicz's higher homotopy groups gave topologists a systematic, computable way to detect when two spaces are genuinely different despite looking superficially similar, by tracking how loops — and higher-dimensional analogues — behave inside each one.",
+          "note": "Hurewicz, W. (1935–36). 'Beiträge zur Topologie der Deformationen I–IV.' Proceedings, Koninklijke Akademie van Wetenschappen te Amsterdam, 38–39. Hurewicz emigrated to the United States in 1936 as conditions worsened for Jewish academics in Europe, continuing this work at Brown and later MIT; homotopy groups became one of algebraic topology's two central computational tools alongside Poincaré's earlier homology (see th8).",
+          "links": [
+            "th8"
+          ]
+        },
+        {
+          "id": "co7",
+          "group": "Topology",
+          "label": "Topological Dimension",
+          "date": "1913",
+          "loc": "Amsterdam, Netherlands",
+          "coords": [
+            52.37,
+            4.9
+          ],
+          "tag": "CONCEPT",
+          "hint": "Before 1913, 'dimension' was treated as intuitively obvious — a line is 1-dimensional, a plane is 2-dimensional — without proof that a continuous, invertible transformation could never turn one into the other. Brouwer proved topological dimension is a genuine invariant: no space can be continuously and reversibly deformed into a space of a different dimension, closing a gap exposed by Peano's space-filling curve two decades earlier.",
+          "note": "Brouwer, L.E.J. (1913). 'Über den natürlichen Dimensionsbegriff.' Journal für die reine und angewandte Mathematik, 142, 146–152. Peano's 1890 space-filling curve (see ef2) had shown a continuous map alone could take a 1-dimensional interval onto a full 2-dimensional square, unsettling confidence that dimension was self-evident; Brouwer restored it by showing such maps can never be made invertible, which is exactly what dimension-invariance requires.",
+          "links": [
+            "ef2",
+            "st10"
+          ]
+        },
+        {
+          "id": "co8",
+          "group": "Number Theory",
+          "label": "Diophantine Equations",
+          "date": "250",
+          "loc": "Alexandria, Egypt",
+          "coords": [
+            31.2,
+            29.92
+          ],
+          "tag": "CONCEPT",
+          "hint": "A Diophantine equation is a polynomial equation for which only whole-number or rational solutions are of interest — the ancient and still-active study of when such equations can be solved at all, and by what values. Diophantus of Alexandria's Arithmetica catalogued dozens of such problems and their solution techniques, giving the entire field its name nearly two thousand years before Fermat scribbled his famous margin note in a copy of the same book.",
+          "note": "Diophantus. Arithmetica (c. 250 CE), of which six of an original thirteen books survive in Greek, with four more surviving in a later Arabic translation. Pierre de Fermat's 1637 marginal note claiming a proof of what became Fermat's Last Theorem (see st2) was written directly in his personal copy of a 1621 Latin edition of the Arithmetica, beside Diophantus's discussion of Pythagorean triples in Book II.",
+          "links": [
+            "st2"
+          ]
+        },
+        {
+          "id": "co9",
+          "group": "Complex Analysis",
+          "label": "Analytic Continuation",
+          "date": "1876",
+          "loc": "Berlin, Germany",
+          "coords": [
+            52.52,
+            13.41
+          ],
+          "tag": "CONCEPT",
+          "hint": "A complex-analytic function defined only on some small region can often be extended, uniquely and unambiguously, to a much larger domain by chaining together overlapping power series — a process called analytic continuation. The technique is what lets mathematicians meaningfully evaluate a function like the Riemann zeta function at points far outside the region where its original defining formula even converges.",
+          "note": "Weierstrass, K. (1876). 'Zur Theorie der eindeutigen analytischen Functionen.' Abhandlungen der Königlich Preussischen Akademie der Wissenschaften zu Berlin, 11–60 — Weierstrass's power-series approach, developed as a rigorous alternative to Riemann's more geometric, surface-based treatment of the same idea (see st7). The two approaches were shown fully equivalent by the 1880s, though Weierstrass's version remained the more computationally tractable for decades.",
+          "links": [
+            "th7",
+            "st7"
+          ]
+        }
+      ]
     },
     {
       "id": "method",
