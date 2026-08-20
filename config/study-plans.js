@@ -4,6 +4,56 @@
 // are available as globals to the renderer.
 
 const STUDY_PLANS = {
+  'applied-math-statistics': {
+    meta: "Groups content thematically rather than by category: after the founders and the field's core research methods, each module works through one branch of applied mathematics — probability, statistical inference, optimization, operations research, numerical computation, game theory, and finance — carrying that branch's theorems, landmark studies, named phenomena, and live controversies together, so the debates land with their technical context already in place rather than being encountered cold at the end.",
+    modules: [
+      {
+        title: '1 — Founders & the Field',
+        rationale: 'From Pascal and Fermat\'s 1654 letters to Nash\'s 1950 dissertation, a relatively small set of figures repeatedly built entire subfields from scratch to solve one immediate practical problem — telephone traffic, wartime convoys, insurance pricing. Knowing them first turns every later module into a continuation of problems they started solving.',
+        groups: ['Pioneers & Theorists']
+      },
+      {
+        title: '2 — Research Methods',
+        rationale: 'The finite element method, gradient descent, maximum likelihood estimation, randomized controlled trials, dynamic programming, and Markov Chain Monte Carlo are the actual computational and experimental tools that generated every result in the modules that follow.',
+        cats: ['method']
+      },
+      {
+        title: '3 — Probability Theory',
+        rationale: 'Start with the mathematics of uncertainty itself — expected value, the law of large numbers, the central limit theorem — the shared foundation every other module in this folio quietly depends on, whether or not it says so explicitly.',
+        groups: ['Probability Theory']
+      },
+      {
+        title: '4 — Statistical Inference',
+        rationale: 'How to turn a limited, noisy sample into a defensible claim about the world — Bayesian and frequentist frameworks, hypothesis testing, the p-value — and the field\'s own uncomfortable reckoning with how often that process fails in practice.',
+        groups: ['Statistical Inference']
+      },
+      {
+        title: '5 — Optimization',
+        rationale: 'Turning \'find the best option\' into a solvable mathematical problem, from linear programming\'s guaranteed-solvable convex world to the traveling salesman problem\'s uncomfortable brush with computational intractability.',
+        groups: ['Optimization']
+      },
+      {
+        title: '6 — Operations Research',
+        rationale: 'Mathematics deployed directly on live operational decisions — telephone networks, wartime convoy routing, bomber armor placement — where the mathematics of queues, scheduling, and sequential decisions meets the messiness of real institutions.',
+        groups: ['Operations Research']
+      },
+      {
+        title: '7 — Numerical Analysis & Computational Mathematics',
+        rationale: 'What happens when a problem has no clean closed-form answer: mesh-based approximation, Monte Carlo sampling, and the bias-variance tradeoff that governs every model fit to finite data.',
+        groups: ['Numerical Analysis & Computational Mathematics']
+      },
+      {
+        title: '8 — Game Theory & Decision Theory',
+        rationale: 'From von Neumann\'s minimax theorem to Nash\'s far more general equilibrium concept, and the decades of laboratory evidence suggesting real human decisions don\'t actually follow either one as cleanly as the theory predicts.',
+        groups: ['Game Theory & Decision Theory']
+      },
+      {
+        title: '9 — Actuarial & Financial Mathematics',
+        rationale: 'Where probability and optimization meet money directly — mortality tables, portfolio theory, option pricing — closing with the field\'s most consequential and most contested application: the mathematical models blamed, rightly or wrongly, for a global financial crisis.',
+        groups: ['Actuarial & Financial Mathematics']
+      }
+    ]
+  },
   'pure-mathematics': {
     meta: "Groups content thematically rather than by category: after the founders and the field's core proof techniques, each module works through one branch of mathematics — algebra, number theory, real analysis, complex analysis, topology, geometry — carrying that branch's theorems, landmark proofs, surprising phenomena, and real-world applications together, closing with the open problems that define where the field is still unfinished.",
     modules: [
