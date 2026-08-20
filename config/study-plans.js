@@ -4,6 +4,56 @@
 // are available as globals to the renderer.
 
 const STUDY_PLANS = {
+  'pure-mathematics': {
+    meta: "Groups content thematically rather than by category: after the founders and the field's core proof techniques, each module works through one branch of mathematics — algebra, number theory, real analysis, complex analysis, topology, geometry — carrying that branch's theorems, landmark proofs, surprising phenomena, and real-world applications together, closing with the open problems that define where the field is still unfinished.",
+    modules: [
+      {
+        title: '1 — Founders & the Field',
+        rationale: 'From Euclid\'s axiomatic method to Wiles\'s 1995 proof of Fermat\'s Last Theorem, a relatively small set of figures built and rebuilt the discipline\'s foundations repeatedly across twenty-three centuries. Knowing them first turns every later module into a continuation of arguments they started.',
+        groups: ['Pioneers & Theorists']
+      },
+      {
+        title: '2 — Research Methods',
+        rationale: 'Sieve methods, compactness arguments, sheaf theory, computer-assisted exhaustive proof, the calculus of variations, and elliptic-curve methods are the actual tools that generated every result in the modules that follow — several invented under strikingly unusual circumstances, including one in a prisoner-of-war camp.',
+        cats: ['method']
+      },
+      {
+        title: '3 — Abstract Algebra: Groups, Rings & Fields',
+        rationale: 'Start with the structures — groups, rings, fields — that later show up inside nearly every other branch of the folio, from Galois\'s solvability criterion to the finite-field arithmetic protecting a scratched CD.',
+        groups: ['Abstract Algebra: Groups, Rings & Fields']
+      },
+      {
+        title: '4 — Number Theory',
+        rationale: 'The oldest branch of pure mathematics and still among its most active: unique factorization, the distribution of primes, and a 358-year gap between Fermat\'s marginal claim and Wiles\'s proof of it.',
+        groups: ['Number Theory']
+      },
+      {
+        title: '5 — Real Analysis',
+        rationale: 'The century-long project of making calculus logically airtight — replacing geometric intuition with epsilon-delta rigor — and the strange objects (nowhere-differentiable functions, infinite-surface-area solids) that rigor then forced mathematicians to take seriously.',
+        groups: ['Real Analysis']
+      },
+      {
+        title: '6 — Complex Analysis',
+        rationale: 'Allowing √-1 into the picture makes differentiable functions dramatically more rigid and predictable than their real-variable counterparts — rigid enough to power the Fast Fourier Transform, one of the most-used algorithms in computing.',
+        groups: ['Complex Analysis']
+      },
+      {
+        title: '7 — Topology',
+        rationale: 'Properties that survive stretching and bending but not cutting or gluing — from Poincaré\'s founding paper through Perelman\'s century-later proof of Poincaré\'s own conjecture, and on to knotted DNA inside a living cell.',
+        groups: ['Topology']
+      },
+      {
+        title: '8 — Geometry: Euclidean, Non-Euclidean & Differential',
+        rationale: 'Two thousand years of assuming Euclid\'s parallel postulate was provable, followed by a century of Riemannian geometry sitting as pure abstraction — until Einstein needed exactly that framework to describe gravity as curved spacetime.',
+        groups: ['Geometry: Euclidean, Non-Euclidean & Differential']
+      },
+      {
+        title: '9 — Landmark Problems & Unsolved Conjectures',
+        rationale: 'With the machinery of every other module in hand, the field\'s live open questions — the Riemann Hypothesis, the Collatz Conjecture, the still-disputed abc conjecture proof — can be evaluated against real technical context rather than encountered cold.',
+        groups: ['Landmark Problems & Unsolved Conjectures']
+      }
+    ]
+  },
   'logic-math-foundations': {
     meta: "Builds foundations-first: the axioms that define number itself, the set theory built on top of them, the formal rules for proving anything at all, what happens when those rules are pushed to their absolute limit, how formal systems relate to the structures they describe, the alternative logics that vary the classical rules, and finally the philosophical question of what any of it actually means — closing with the field's live debates and where the machinery leaves the page.",
     modules: [
