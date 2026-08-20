@@ -15,23 +15,23 @@
   "mapZoom": 3,
   "methodology": "METHODOLOGY · Every entry anchors to a landmark study, paper, clinical case or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags replication status, effect-size revisions and known controversies. Studies and effects carry a replicability badge — 🟢 robust · 🟡 nuanced or reduced · 🔴 failed or severely contested. Map pins mark the institution where the work was carried out.",
   "_meta": {
-    "total_entries": 73,
+    "total_entries": 77,
     "entry_counts": {
-      "theory": 11,
-      "study": 11,
-      "effect": 9,
+      "theory": 12,
+      "study": 12,
+      "effect": 10,
       "concept": 9,
-      "method": 6,
+      "method": 7,
       "figure": 13,
       "debate": 8,
       "application": 6
     },
     "max_ids": {
-      "th": 11,
-      "st": 11,
-      "ef": 9,
+      "th": 12,
+      "st": 12,
+      "ef": 10,
       "co": 9,
-      "me": 6,
+      "me": 7,
       "fg": 13,
       "db": 8,
       "ap": 6
@@ -60,6 +60,7 @@
     "th9": "theory · Statistical Mechanics & Kinetic Theory · Kinetic Theory of Gases (1860)",
     "th10": "theory · Analytical Mechanics: Lagrangian & Hamiltonian Reformulations · Lagrangian Mechanics (1788)",
     "th11": "theory · Analytical Mechanics: Lagrangian & Hamiltonian Reformulations · Hamiltonian Mechanics (1833)",
+    "th12": "theory · Analytical Mechanics: Lagrangian & Hamiltonian Reformulations · Noether's Theorem (1918)",
     "st1": "study · Newtonian Mechanics: Force & Motion · The Cavendish Experiment (1798)",
     "st2": "study · Thermodynamics: Heat, Work & the Laws · Joule's Mechanical Equivalent of Heat (1843)",
     "st3": "study · Thermodynamics: Heat, Work & the Laws · Carnot's Reflections on the Motive Power of Fire (1824)",
@@ -71,6 +72,7 @@
     "st9": "study · Statistical Mechanics & Kinetic Theory · Perrin's Confirmation of Atomic Theory via Brownian Motion (1908)",
     "st10": "study · Analytical Mechanics: Lagrangian & Hamiltonian Reformulations · Poincaré's Discovery of Chaos in the Three-Body Problem (1890)",
     "st11": "study · Fluid Mechanics · Reynolds's Pipe Flow Experiments (1883)",
+    "st12": "study · Thermodynamics: Heat, Work & the Laws · Nernst's Heat Theorem (The Third Law of Thermodynamics) (1906)",
     "ef1": "effect · Statistical Mechanics & Kinetic Theory · Brownian Motion (1827)",
     "ef2": "effect · Oscillations, Waves & Resonance · Resonance Disasters (1940)",
     "ef3": "effect · Fluid Mechanics · The Magnus Effect (1852)",
@@ -80,6 +82,7 @@
     "ef7": "effect · Analytical Mechanics: Lagrangian & Hamiltonian Reformulations · The Chaotic Tumbling of Saturn's Moon Hyperion (1984)",
     "ef8": "effect · Newtonian Mechanics: Force & Motion · Gyroscopic Precession (1852)",
     "ef9": "effect · Newtonian Mechanics: Force & Motion · The Coriolis Effect (1835)",
+    "ef10": "effect · Fluid Mechanics · Archimedes' Principle (250)",
     "co1": "concept · Newtonian Mechanics: Force & Motion · Inertial Reference Frames (1632)",
     "co2": "concept · Newtonian Mechanics: Force & Motion · Momentum & Impulse (1670)",
     "co3": "concept · Newtonian Mechanics: Force & Motion · Center of Mass (250 BCE)",
@@ -95,6 +98,7 @@
     "me4": "method · Statistical Mechanics & Kinetic Theory · Molecular Dynamics Simulation (1957)",
     "me5": "method · Analytical Mechanics: Lagrangian & Hamiltonian Reformulations · Perturbation Theory (1846)",
     "me6": "method · Fluid Mechanics · Wind Tunnel Testing (1871)",
+    "me7": "method · Analytical Mechanics: Lagrangian & Hamiltonian Reformulations · Poisson Brackets & Hamilton-Jacobi Theory (1809)",
     "fg1": "figure · Pioneers & Theorists · Isaac Newton (1687)",
     "fg2": "figure · Pioneers & Theorists · James Clerk Maxwell (1860)",
     "fg3": "figure · Pioneers & Theorists · Ludwig Boltzmann (1877)",
@@ -209,7 +213,8 @@
             "co4",
             "me3",
             "db4",
-            "ap1"
+            "ap1",
+            "th12"
           ],
           "keywords": [
             "energy conservation",
@@ -251,7 +256,7 @@
             7.59
           ],
           "tag": "THEORY",
-          "hint": "Within a smoothly flowing fluid, speed and pressure trade off against each other — where the fluid moves faster, its pressure drops, and where it moves slower, pressure rises — a direct consequence of energy conservation applied to moving fluid. The principle explains how aircraft wings generate lift and why a shower curtain billows inward, from the exact same underlying relationship.",
+          "hint": "Within a smoothly flowing fluid, speed and pressure trade off against each other — where the fluid moves faster, its pressure drops, and where it moves slower, pressure rises — a direct consequence of energy conservation applied to moving fluid. The principle is often credited, in a popular oversimplification, with single-handedly explaining aircraft lift; the fuller picture also requires Newton's third law (a wing deflects a large mass of air downward, producing an equal upward reaction) and the circulation established around the wing, which is what actually sets up the speed difference Bernoulli's principle then relates to pressure. The shower-curtain-billowing-inward effect, by contrast, is a comparatively clean, direct example of the principle acting close to alone.",
           "note": "Bernoulli, D. (1738). Hydrodynamica, sive de viribus et motibus fluidorum commentarii. Strasbourg: Johann Reinhold Dulsecker, written while Bernoulli held a professorship at the University of Basel. The principle strictly applies only to idealised, non-viscous ('inviscid') flow with no energy lost to friction — real fluids always deviate to some degree, a gap that later motivated the study of viscosity and, eventually, d'Alembert's paradox.",
           "links": [
             "db7",
@@ -259,7 +264,8 @@
             "st8",
             "ef3",
             "co8",
-            "ap4"
+            "ap4",
+            "ef10"
           ],
           "keywords": [
             "fluid pressure-speed tradeoff",
@@ -282,7 +288,8 @@
           "note": "Fowler, R.H. (1931), formalised in Fowler, R.H. & Guggenheim, E.A. (1939). Statistical Thermodynamics. Cambridge: Cambridge University Press. The law had been implicitly assumed by every thermodynamicist since the concept of temperature was first quantified, but nobody had stated it as an explicit, independent axiom until Fowler pointed out that the First and Second Laws quietly presuppose it.",
           "links": [
             "th7",
-            "th8"
+            "th8",
+            "st12"
           ],
           "keywords": [
             "thermal equilibrium",
@@ -338,7 +345,8 @@
             "co6",
             "fg5",
             "db6",
-            "ap2"
+            "ap2",
+            "st12"
           ],
           "keywords": [
             "entropy increase",
@@ -388,7 +396,9 @@
             "th11",
             "fg7",
             "me2",
-            "ap6"
+            "ap6",
+            "th12",
+            "me7"
           ],
           "keywords": [
             "generalized coordinates",
@@ -415,12 +425,42 @@
             "st10",
             "co5",
             "me5",
-            "fg8"
+            "fg8",
+            "th12",
+            "me7"
           ],
           "keywords": [
             "phase space formulation",
             "canonical momentum",
             "characteristic function"
+          ]
+        },
+        {
+          "id": "th12",
+          "group": "Analytical Mechanics: Lagrangian & Hamiltonian Reformulations",
+          "label": "Noether's Theorem",
+          "date": "1918",
+          "loc": "Göttingen, Germany",
+          "coords": [
+            51.54,
+            9.92
+          ],
+          "tag": "THEORY",
+          "hint": "Every continuous symmetry of a physical system corresponds to exactly one conserved quantity — a system whose behaviour doesn't depend on when an experiment starts conserves energy; one whose behaviour doesn't depend on where in space it happens conserves momentum; one with no preferred direction conserves angular momentum. Noether's theorem doesn't just describe these conservation laws, it explains why they must hold, deriving them all from the single underlying requirement of symmetry.",
+          "note": "Noether, E. (1918). 'Invariante Variationsprobleme.' Nachrichten von der Gesellschaft der Wissenschaften zu Göttingen, Mathematisch-Physikalische Klasse, 235–257. Noether developed the theorem while helping Hilbert and Einstein resolve a puzzling technical difficulty in defining energy conservation within general relativity; her far broader theorem, covered from the algebraic side in the pure-mathematics folio, is now considered one of the most consequential results in all of theoretical physics, though it went relatively under-recognised for decades given the era's barriers facing women in academic mathematics and physics.",
+          "links": [
+            "th3",
+            "co2",
+            "th10",
+            "th11"
+          ],
+          "xlinks": [
+            "pure-mathematics::fg7"
+          ],
+          "keywords": [
+            "symmetry-conservation link",
+            "continuous symmetry",
+            "invariant variational problem"
           ]
         }
       ]
@@ -569,7 +609,7 @@
           "tag": "DISCOVERY",
           "repl": "robust",
           "hint": "Ludwig Boltzmann showed that entropy, previously just a mysterious thermodynamic bookkeeping quantity, has a precise statistical meaning: it measures the number of distinct microscopic arrangements of a system's particles that all produce the same observable macroscopic state, with more probable (higher-entropy) states simply being the ones reachable by vastly more microscopic arrangements. The formula, S = k log W, is carved on Boltzmann's tombstone in Vienna.",
-          "note": "Boltzmann, L. (1877). 'Über die Beziehung zwischen dem zweiten Hauptsatze der mechanischen Wärmetheorie und der Wahrscheinlichkeitsrechnung.' Wiener Berichte, 76, 373–435. The constant k, now called Boltzmann's constant, was actually named and first given its symbol by Max Planck decades later; Boltzmann's statistical approach was fiercely contested by contemporaries who doubted the physical reality of atoms (see db1), a dispute Boltzmann never lived to see fully resolved.",
+          "note": "Boltzmann, L. (1877). 'Über die Beziehung zwischen dem zweiten Hauptsatze der mechanischen Wärmetheorie und der Wahrscheinlichkeitsrechnung.' Wiener Berichte, 76, 373–435. The constant k, now called Boltzmann's constant, was actually named and first given its symbol by Max Planck decades later — and Boltzmann himself never actually wrote the relationship in this precise compact form at all; it was Planck, in his own 1900–01 work on blackbody radiation, who first put it into the algebraic form S = k log W now carved on Boltzmann's tombstone. Boltzmann's statistical approach was fiercely contested by contemporaries who doubted the physical reality of atoms (see db1), a dispute Boltzmann never lived to see fully resolved.",
           "links": [
             "th8",
             "db1",
@@ -706,6 +746,30 @@
             "laminar to turbulent transition",
             "reynolds number",
             "dye stream visualization"
+          ]
+        },
+        {
+          "id": "st12",
+          "group": "Thermodynamics: Heat, Work & the Laws",
+          "label": "Nernst's Heat Theorem (The Third Law of Thermodynamics)",
+          "date": "1906",
+          "loc": "Berlin, Germany",
+          "coords": [
+            52.52,
+            13.41
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "As a system's temperature approaches absolute zero, its entropy approaches a single fixed minimum value, regardless of the exact physical or chemical process used to cool it there — and, as a direct consequence, absolute zero itself can never actually be reached through any finite sequence of physical steps, only approached arbitrarily closely.",
+          "note": "Nernst, W. (1906). 'Über die Berechnung chemischer Gleichgewichte aus thermischen Messungen.' Nachrichten von der Königlichen Gesellschaft der Wissenschaften zu Göttingen, Mathematisch-Physikalische Klasse, 1–40, developed while Nernst held his professorship at the University of Berlin. Nernst's original theorem concerned entropy changes in chemical reactions specifically; Planck later restated it more generally as the entropy of a perfect crystal approaching exactly zero at absolute zero, the form usually taught today as the Third Law.",
+          "links": [
+            "th8",
+            "th6"
+          ],
+          "keywords": [
+            "absolute zero unreachability",
+            "entropy at zero temperature",
+            "nernst heat theorem"
           ]
         }
       ]
@@ -850,8 +914,8 @@
           ],
           "tag": "PHENOMENON",
           "repl": "mixed",
-          "hint": "Under some specific conditions, initially warmer water can freeze faster than initially cooler water placed in the same freezer — a claim that sounds like it should be impossible, since the warmer water has to pass through the cooler water's exact starting temperature on its way down. Erasto Mpemba, then a secondary school student, insisted on the effect against his own physics teacher's skepticism, and it was later confirmed experimentally, though a single agreed explanation for exactly which mechanism causes it remains unsettled.",
-          "note": "Mpemba, E.B. & Osborne, D.G. (1969). 'Cool?' Physics Education, 4(3), 172–175, University College, Dar es Salaam. Proposed explanations include enhanced evaporative cooling, convection currents, dissolved gas differences, and supercooling effects, and the effect's reproducibility itself has been disputed by some subsequent careful replications that found it highly sensitive to container shape and exact experimental protocol; a 2016 study argued much of the reported effect may be a measurement artifact.",
+          "hint": "Under some specific conditions, initially warmer water has been reported to freeze faster than initially cooler water placed in the same freezer — a claim that sounds like it should be impossible, since the warmer water has to pass through the cooler water's exact starting temperature on its way down. Erasto Mpemba, then a secondary school student, insisted on the effect against his own physics teacher's skepticism, and early studies reported it under a range of conditions — but subsequent tightly controlled replications have cast real doubt on whether it is a genuine, intrinsic physical effect at all, rather than an artifact of uncontrolled variables in the original observations.",
+          "note": "Mpemba, E.B. & Osborne, D.G. (1969). 'Cool?' Physics Education, 4(3), 172–175, University College, Dar es Salaam. Burridge, H.C. & Linden, P.F. (2016). 'Questioning the Mpemba Effect: Hot Water Does Not Cool More Quickly Than Cold.' Scientific Reports, 6, 37665, found no genuine effect once confounding variables were eliminated under tightly controlled conditions, attributing most historical observations to factors like a warm container melting a layer of frost on a freezer shelf — dramatically improving thermal contact and heat transfer — along with differences in dissolved gas content and supercooling behaviour between samples. The effect's evidential status remains genuinely contested rather than settled in either direction.",
           "links": [
             "th8"
           ],
@@ -930,6 +994,30 @@
             "hurricane rotation direction",
             "fictitious force"
           ]
+        },
+        {
+          "id": "ef10",
+          "group": "Fluid Mechanics",
+          "label": "Archimedes' Principle",
+          "date": "250",
+          "loc": "Syracuse, Sicily",
+          "coords": [
+            37.08,
+            15.29
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "An object submerged, fully or partly, in a fluid experiences an upward buoyant force exactly equal to the weight of the fluid it displaces — nothing more, nothing less. A steel ship floats not because steel is somehow lighter than water, but because the ship's hollow hull displaces a volume of water heavy enough to equal the entire ship's weight, while a solid lump of the same steel, displacing far less water for its weight, sinks.",
+          "note": "Archimedes. On Floating Bodies (c. 250 BCE), Syracuse. Standard edition: Heath, T.L. (Trans.) (1897). The Works of Archimedes. Cambridge: Cambridge University Press. The famous story of Archimedes shouting 'Eureka' and running naked through Syracuse after realising the principle in his bathtub is first recorded by the Roman architect Vitruvius over two centuries later, and is generally regarded by historians as an embellished or entirely apocryphal anecdote rather than a documented fact; the principle itself, unlike the bathtub story, is rigorously proved in Archimedes' own surviving text and predates Bernoulli's dynamic fluid principle (see th5) by close to two thousand years.",
+          "links": [
+            "th5",
+            "co3"
+          ],
+          "keywords": [
+            "buoyant force displacement",
+            "floating and sinking",
+            "eureka bathtub legend"
+          ]
         }
       ]
     },
@@ -978,7 +1066,8 @@
           "hint": "Momentum — mass times velocity — is conserved in any collision between objects with no external forces acting, letting the outcome of a crash or impact be calculated without knowing any details of the complicated forces involved during the collision itself, only the situation immediately before and after. Impulse, a force applied over time, is exactly what's needed to change an object's momentum by a given amount.",
           "note": "Wallis, J. (1670). Mechanica sive de Motu, Tractatus Geometricus. London, written while Wallis held the Savilian Chair of Geometry at Oxford. Wallis, Christopher Wren, and Christiaan Huygens independently submitted correct rules for collisions to the Royal Society within months of each other in 1668–69, prompted by a specific Society challenge; Newton's Principia (1687) later derived momentum conservation as a direct consequence of his third law.",
           "links": [
-            "th1"
+            "th1",
+            "th12"
           ],
           "keywords": [
             "collision conservation",
@@ -1000,7 +1089,8 @@
           "hint": "Any rigid object, however irregularly shaped, behaves under gravity and in free motion as if its entire mass were concentrated at one specific point — its centre of mass — dramatically simplifying the analysis of complicated bodies down to the motion of a single equivalent point particle. A lever balances exactly at its centre of mass, and a thrown hammer's centre of mass traces the same smooth parabola a thrown ball would, however wildly the hammer itself tumbles.",
           "note": "Archimedes. On the Equilibrium of Planes (c. 250 BCE), Syracuse. Standard edition: Heath, T.L. (Trans.) (1897). The Works of Archimedes. Cambridge: Cambridge University Press — the widely used scholarly English translation. Archimedes' approach used a form of proof by exhaustion related to methods that anticipated integral calculus by nearly two thousand years; most of his original manuscripts survive only through later Byzantine and Arabic copies.",
           "links": [
-            "th1"
+            "th1",
+            "ef10"
           ],
           "keywords": [
             "lever balance point",
@@ -1043,7 +1133,7 @@
           ],
           "tag": "CONCEPT",
           "hint": "Phase space represents a system's complete state — every position and every momentum of every particle — as a single point in a high-dimensional abstract space, so that the system's entire time evolution becomes one continuous trajectory through that space. Joseph Liouville proved that as a group of nearby starting points evolves forward in time, the volume they collectively occupy in phase space never changes, even as its shape stretches and distorts — a conservation law with no obvious counterpart in ordinary physical space.",
-          "note": "Liouville, J. (1838). 'Note sur la théorie de la variation des constantes arbitraires.' Journal de Mathématiques Pures et Appliquées, 3, 342–349, at the Sorbonne, Paris. Liouville's theorem became essential to statistical mechanics, since it guarantees that a probability distribution spread across phase space behaves like an incompressible fluid, a property Gibbs's later ensemble formulation (see co9) depends on directly.",
+          "note": "Liouville, J. (1838). 'Note sur la théorie de la variation des constantes arbitraires.' Journal de Mathématiques Pures et Appliquées, 3, 342–349, at the Sorbonne, Paris. Liouville's theorem became essential to statistical mechanics, since it guarantees that a probability distribution spread across phase space behaves like an incompressible fluid, a property Gibbs's later ensemble formulation (see co9) depends on directly. The theorem strictly holds only for conservative, friction-free (Hamiltonian) systems; once dissipation is introduced, phase-space volume genuinely contracts over time, often collapsing onto a lower-dimensional 'strange attractor' — the mathematical mechanism behind the chaotic dynamics some dissipative systems exhibit.",
           "links": [
             "th11",
             "co9",
@@ -1298,6 +1388,32 @@
             "scale model airflow",
             "controlled aerodynamic measurement",
             "aeronautical society"
+          ]
+        },
+        {
+          "id": "me7",
+          "group": "Analytical Mechanics: Lagrangian & Hamiltonian Reformulations",
+          "label": "Poisson Brackets & Hamilton-Jacobi Theory",
+          "date": "1809",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "METHOD",
+          "hint": "The Poisson bracket is an algebraic operation combining two quantities defined on phase space that measures exactly how one changes as the system evolves under the other — a purely classical piece of mathematical machinery that, decades later, turned out to translate almost directly into the commutator at the heart of quantum mechanics. Hamilton-Jacobi theory, a complementary reformulation, recasts a system's entire motion as a single equation whose short-wavelength limit is exactly the classical trajectory a full quantum wave equation reduces to.",
+          "note": "Poisson, S.D. (1809). 'Sur la variation des constantes arbitraires dans les questions de mécanique.' Journal de l'École Polytechnique, 8, 266–344, Paris; the complementary Hamilton-Jacobi equation was developed by Hamilton (1834) and given its modern form by Carl Gustav Jacobi (1837). Paul Dirac's 1925 recognition that Poisson brackets and quantum commutators share the same algebraic structure, differing only by a factor of iħ, directly inspired his own canonical-quantization formulation of quantum mechanics, covered in the quantum-nuclear-relativity folio.",
+          "links": [
+            "th10",
+            "th11"
+          ],
+          "xlinks": [
+            "quantum-nuclear-relativity::fg9"
+          ],
+          "keywords": [
+            "classical-quantum bridge",
+            "commutator correspondence",
+            "canonical transformation"
           ]
         }
       ]
@@ -2027,6 +2143,11 @@
           "entryId": "st10"
         },
         {
+          "y": 1906,
+          "l": "Nernst's Heat Theorem (3rd Law)",
+          "entryId": "st12"
+        },
+        {
           "y": 1908,
           "l": "Perrin Confirms Atomic Theory",
           "entryId": "st9"
@@ -2090,6 +2211,11 @@
           "entryId": "th8"
         },
         {
+          "y": 1918,
+          "l": "Noether's Theorem",
+          "entryId": "th12"
+        },
+        {
           "y": 1931,
           "l": "The Zeroth Law of Thermodynamics",
           "entryId": "th6"
@@ -2102,6 +2228,11 @@
       "accent": "#117A65",
       "label": "Effects & Phenomena",
       "events": [
+        {
+          "y": 250,
+          "l": "Archimedes' Principle",
+          "entryId": "ef10"
+        },
         {
           "y": 1827,
           "l": "Brownian Motion",
@@ -2164,6 +2295,11 @@
           "y": 1783,
           "l": "Calorimetry",
           "entryId": "me3"
+        },
+        {
+          "y": 1809,
+          "l": "Poisson Brackets & Hamilton-Jacobi",
+          "entryId": "me7"
         },
         {
           "y": 1846,

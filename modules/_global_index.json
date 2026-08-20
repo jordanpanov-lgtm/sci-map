@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 1605,
+    "total_entries": 1609,
     "folio_count": 21,
-    "xlink_pairs": 97,
-    "keyword_terms": 5987,
+    "xlink_pairs": 99,
+    "keyword_terms": 5999,
     "folios": [
       {
         "id": "anatomy-histology",
@@ -23,7 +23,7 @@
       {
         "id": "classical-physics",
         "title": "Physics: Classical Mechanics & Thermodynamics",
-        "entries": 73
+        "entries": 77
       },
       {
         "id": "computer-science",
@@ -346,6 +346,7 @@
     "classical-physics::th9": "theory · Statistical Mechanics & Kinetic Theory · Kinetic Theory of Gases (1860)",
     "classical-physics::th10": "theory · Analytical Mechanics: Lagrangian & Hamiltonian Reformulations · Lagrangian Mechanics (1788)",
     "classical-physics::th11": "theory · Analytical Mechanics: Lagrangian & Hamiltonian Reformulations · Hamiltonian Mechanics (1833)",
+    "classical-physics::th12": "theory · Analytical Mechanics: Lagrangian & Hamiltonian Reformulations · Noether's Theorem (1918)",
     "classical-physics::st1": "study · Newtonian Mechanics: Force & Motion · The Cavendish Experiment (1798)",
     "classical-physics::st2": "study · Thermodynamics: Heat, Work & the Laws · Joule's Mechanical Equivalent of Heat (1843)",
     "classical-physics::st3": "study · Thermodynamics: Heat, Work & the Laws · Carnot's Reflections on the Motive Power of Fire (1824)",
@@ -357,6 +358,7 @@
     "classical-physics::st9": "study · Statistical Mechanics & Kinetic Theory · Perrin's Confirmation of Atomic Theory via Brownian Motion (1908)",
     "classical-physics::st10": "study · Analytical Mechanics: Lagrangian & Hamiltonian Reformulations · Poincaré's Discovery of Chaos in the Three-Body Problem (1890)",
     "classical-physics::st11": "study · Fluid Mechanics · Reynolds's Pipe Flow Experiments (1883)",
+    "classical-physics::st12": "study · Thermodynamics: Heat, Work & the Laws · Nernst's Heat Theorem (The Third Law of Thermodynamics) (1906)",
     "classical-physics::ef1": "effect · Statistical Mechanics & Kinetic Theory · Brownian Motion (1827)",
     "classical-physics::ef2": "effect · Oscillations, Waves & Resonance · Resonance Disasters (1940)",
     "classical-physics::ef3": "effect · Fluid Mechanics · The Magnus Effect (1852)",
@@ -366,6 +368,7 @@
     "classical-physics::ef7": "effect · Analytical Mechanics: Lagrangian & Hamiltonian Reformulations · The Chaotic Tumbling of Saturn's Moon Hyperion (1984)",
     "classical-physics::ef8": "effect · Newtonian Mechanics: Force & Motion · Gyroscopic Precession (1852)",
     "classical-physics::ef9": "effect · Newtonian Mechanics: Force & Motion · The Coriolis Effect (1835)",
+    "classical-physics::ef10": "effect · Fluid Mechanics · Archimedes' Principle (250)",
     "classical-physics::co1": "concept · Newtonian Mechanics: Force & Motion · Inertial Reference Frames (1632)",
     "classical-physics::co2": "concept · Newtonian Mechanics: Force & Motion · Momentum & Impulse (1670)",
     "classical-physics::co3": "concept · Newtonian Mechanics: Force & Motion · Center of Mass (250 BCE)",
@@ -381,6 +384,7 @@
     "classical-physics::me4": "method · Statistical Mechanics & Kinetic Theory · Molecular Dynamics Simulation (1957)",
     "classical-physics::me5": "method · Analytical Mechanics: Lagrangian & Hamiltonian Reformulations · Perturbation Theory (1846)",
     "classical-physics::me6": "method · Fluid Mechanics · Wind Tunnel Testing (1871)",
+    "classical-physics::me7": "method · Analytical Mechanics: Lagrangian & Hamiltonian Reformulations · Poisson Brackets & Hamilton-Jacobi Theory (1809)",
     "classical-physics::fg1": "figure · Pioneers & Theorists · Isaac Newton (1687)",
     "classical-physics::fg2": "figure · Pioneers & Theorists · James Clerk Maxwell (1860)",
     "classical-physics::fg3": "figure · Pioneers & Theorists · Ludwig Boltzmann (1877)",
@@ -1852,6 +1856,12 @@
     "applied-math-statistics::fg4": [
       "classical-physics::th2"
     ],
+    "classical-physics::th12": [
+      "pure-mathematics::fg7"
+    ],
+    "pure-mathematics::fg7": [
+      "classical-physics::th12"
+    ],
     "classical-physics::st10": [
       "pure-mathematics::fg9",
       "systems-and-complexity::th6"
@@ -1861,6 +1871,12 @@
     ],
     "systems-and-complexity::th6": [
       "classical-physics::st10"
+    ],
+    "classical-physics::me7": [
+      "quantum-nuclear-relativity::fg9"
+    ],
+    "quantum-nuclear-relativity::fg9": [
+      "classical-physics::me7"
     ],
     "classical-physics::fg12": [
       "applied-math-statistics::ef3"
@@ -3582,6 +3598,11 @@
       "canonical momentum",
       "characteristic function"
     ],
+    "classical-physics::th12": [
+      "symmetry-conservation link",
+      "continuous symmetry",
+      "invariant variational problem"
+    ],
     "classical-physics::st1": [
       "torsion balance",
       "gravitational constant",
@@ -3637,6 +3658,11 @@
       "reynolds number",
       "dye stream visualization"
     ],
+    "classical-physics::st12": [
+      "absolute zero unreachability",
+      "entropy at zero temperature",
+      "nernst heat theorem"
+    ],
     "classical-physics::ef1": [
       "pollen grain jitter",
       "molecular bombardment",
@@ -3681,6 +3707,11 @@
       "rotating frame deflection",
       "hurricane rotation direction",
       "fictitious force"
+    ],
+    "classical-physics::ef10": [
+      "buoyant force displacement",
+      "floating and sinking",
+      "eureka bathtub legend"
     ],
     "classical-physics::co1": [
       "galilean relativity",
@@ -3756,6 +3787,11 @@
       "scale model airflow",
       "controlled aerodynamic measurement",
       "aeronautical society"
+    ],
+    "classical-physics::me7": [
+      "classical-quantum bridge",
+      "commutator correspondence",
+      "canonical transformation"
     ],
     "classical-physics::fg1": [
       "principia mathematica",
@@ -14123,6 +14159,15 @@
     "characteristic function": [
       "classical-physics::th11"
     ],
+    "symmetry-conservation link": [
+      "classical-physics::th12"
+    ],
+    "continuous symmetry": [
+      "classical-physics::th12"
+    ],
+    "invariant variational problem": [
+      "classical-physics::th12"
+    ],
     "torsion balance": [
       "classical-physics::st1"
     ],
@@ -14220,6 +14265,15 @@
     "dye stream visualization": [
       "classical-physics::st11"
     ],
+    "absolute zero unreachability": [
+      "classical-physics::st12"
+    ],
+    "entropy at zero temperature": [
+      "classical-physics::st12"
+    ],
+    "nernst heat theorem": [
+      "classical-physics::st12"
+    ],
     "pollen grain jitter": [
       "classical-physics::ef1"
     ],
@@ -14300,6 +14354,15 @@
     ],
     "fictitious force": [
       "classical-physics::ef9"
+    ],
+    "buoyant force displacement": [
+      "classical-physics::ef10"
+    ],
+    "floating and sinking": [
+      "classical-physics::ef10"
+    ],
+    "eureka bathtub legend": [
+      "classical-physics::ef10"
     ],
     "galilean relativity": [
       "classical-physics::co1"
@@ -14435,6 +14498,15 @@
     ],
     "aeronautical society": [
       "classical-physics::me6"
+    ],
+    "classical-quantum bridge": [
+      "classical-physics::me7"
+    ],
+    "commutator correspondence": [
+      "classical-physics::me7"
+    ],
+    "canonical transformation": [
+      "classical-physics::me7"
     ],
     "principia mathematica": [
       "classical-physics::fg1"
