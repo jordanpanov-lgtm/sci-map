@@ -1147,7 +1147,156 @@
       "accent": "#CA6F1E",
       "bg": "#FDF5EC",
       "subtitle": "Live controversies — where the field is actively contesting the evidence",
-      "entries": []
+      "entries": [
+        {
+          "id": "db1",
+          "group": "Wave Optics: Interference, Diffraction & Polarization",
+          "label": "Wave vs. Particle Theory of Light",
+          "date": "1704",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "DEBATE",
+          "hint": "Newton argued light consists of a stream of tiny particles ('corpuscles') travelling in straight lines, while Huygens argued it was a wave propagating through a medium; Newton's immense scientific authority kept the corpuscular view dominant for over a century, until Young's interference pattern and Fresnel's diffraction mathematics made the wave picture's predictive superiority essentially impossible to deny.",
+          "note": "Newton, I. (1704). Opticks. London: Royal Society, the corpuscular theory's most influential statement. The debate did not stay settled forever: twentieth-century quantum mechanics revealed light genuinely exhibits both wave and particle behaviour depending on how it's measured, a resolution neither seventeenth-century camp could have anticipated and one covered in full in the quantum-nuclear-relativity folio.",
+          "links": [
+            "th9",
+            "st9"
+          ],
+          "xlinks": [
+            "quantum-nuclear-relativity::co1"
+          ]
+        },
+        {
+          "id": "db2",
+          "group": "Maxwell's Equations & Electromagnetic Waves",
+          "label": "Action at a Distance vs. Field Theory",
+          "date": "1846",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "DEBATE",
+          "hint": "Continental physicists including Wilhelm Weber and Franz Neumann built successful electrodynamic theories treating electric and magnetic forces as acting instantaneously across empty space, directly between distant charges, with no mediating substance in between; Faraday insisted instead that space itself, filled with field lines, was doing the physical work, a view most of his contemporaries considered an unnecessary and unverifiable philosophical addition until Maxwell's equations made the field picture mathematically indispensable.",
+          "note": "Faraday, M. (1846). 'Thoughts on Ray Vibrations.' Philosophical Magazine, 28, 345–350, at the Royal Institution, London — Faraday's explicit early argument that a mediating field, not instantaneous action, must be responsible. Maxwell's equations (see th6) require a finite propagation speed for electromagnetic effects, matching the field picture and directly contradicting instantaneous action at a distance; the debate is now considered settled decisively in the field theory's favour.",
+          "links": [
+            "co1",
+            "th6"
+          ]
+        },
+        {
+          "id": "db3",
+          "group": "Maxwell's Equations & Electromagnetic Waves",
+          "label": "Does the Luminiferous Ether Exist?",
+          "date": "1878",
+          "loc": "Cambridge, England",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "tag": "DEBATE",
+          "hint": "If light is a wave, as Maxwell's theory required, nineteenth-century physicists reasoned it needed some physical medium to wave in — an invisible, weightless, perfectly rigid-yet-frictionless 'luminiferous ether' filling all of space — and Maxwell himself proposed specific experiments that might detect Earth's motion through this hypothesised medium.",
+          "note": "Maxwell, J.C. (1878). 'Ether.' Encyclopaedia Britannica, 9th ed., written at Cambridge, proposing methods to detect ether drift that directly motivated Michelson's later experiments. The question was decisively resolved by the Michelson-Morley experiment's null result and Einstein's subsequent special relativity, which dispensed with the ether concept entirely — both covered in full in the quantum-nuclear-relativity folio.",
+          "links": [
+            "th6",
+            "th7"
+          ],
+          "xlinks": [
+            "quantum-nuclear-relativity::st1"
+          ]
+        },
+        {
+          "id": "db4",
+          "group": "Wave Optics: Interference, Diffraction & Polarization",
+          "label": "Transverse vs. Longitudinal Light Waves",
+          "date": "1821",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "DEBATE",
+          "hint": "If light waves vibrate along their direction of travel, like sound, polarisation makes no sense at all — but if they vibrate side to side, transversely, the medium carrying them would seemingly need to be an impossibly rigid, almost solid-like substance to support that kind of vibration, while somehow still letting planets move through it without any detectable resistance whatsoever.",
+          "note": "Fresnel, A.J. Letter to André-Marie Ampère, 1821, Paris, first clearly proposing transverse light waves to explain polarisation despite the apparent mechanical absurdity involved. The 'rigid ether' problem the transverse hypothesis created was never fully solved within classical physics on its own terms; it was ultimately dissolved rather than answered, once Maxwell's field theory (see th6) removed the need for any material medium for light to travel through at all.",
+          "links": [
+            "th10",
+            "co9"
+          ]
+        },
+        {
+          "id": "db5",
+          "group": "Magnetism & Electromagnetic Induction",
+          "label": "AC vs. DC: The War of the Currents",
+          "date": "1888",
+          "loc": "New York, New York",
+          "coords": [
+            40.71,
+            -74.01
+          ],
+          "tag": "DEBATE",
+          "hint": "Thomas Edison championed direct current for the emerging electrical grid, while George Westinghouse and Nikola Tesla backed alternating current, which transformers could step up to high voltage for efficient long-distance transmission and back down for safe local use — a decisive practical advantage direct current, without an equivalent transformer technology, simply couldn't match at the time.",
+          "note": "The dispute peaked publicly around 1888, including a well-documented Edison-backed public relations campaign emphasising AC's electrocution dangers, notoriously including electrocuting animals to make the point. Westinghouse's AC system's selection to power the 1893 World's Columbian Exposition in Chicago, and Niagara Falls' hydroelectric AC generating station shortly after, effectively settled the commercial contest in AC's favour, though DC remains standard for many modern applications including battery-powered electronics and long-distance high-voltage transmission lines.",
+          "links": [
+            "th4",
+            "th5"
+          ]
+        },
+        {
+          "id": "db6",
+          "group": "The Electromagnetic Spectrum & Spectroscopy",
+          "label": "Can Radio Waves Follow Earth's Curvature?",
+          "date": "1901",
+          "loc": "Poldhu, Cornwall, England",
+          "coords": [
+            50.03,
+            -5.43
+          ],
+          "tag": "DEBATE",
+          "hint": "Radio waves, like light, should travel in straight lines — meaning a signal transmitted from one side of the Atlantic should be physically blocked by the curve of the Earth long before reaching the other side, according to the straightforward geometry involved. Marconi's transatlantic transmission succeeded anyway, leaving physicists to work out exactly why, a puzzle not fully resolved until the ionosphere's reflective properties were confirmed over two decades later.",
+          "note": "Marconi, G. (1901). Transatlantic radio transmission, Poldhu, Cornwall to St. John's, Newfoundland, widely reported at the time though some contemporaries doubted whether the signal had genuinely been received as claimed, given the lack of independent verification. Oliver Heaviside and Arthur Kennelly independently proposed a reflecting atmospheric layer the same year to explain the result theoretically; Appleton's 1924 experiments (see ef9) finally confirmed the layer directly.",
+          "links": [
+            "ef9",
+            "ap4"
+          ]
+        },
+        {
+          "id": "db7",
+          "group": "Electrostatics & Circuits",
+          "label": "Do Power Lines Pose a Health Risk?",
+          "date": "1979",
+          "loc": "Denver, Colorado",
+          "coords": [
+            39.74,
+            -104.99
+          ],
+          "tag": "DEBATE",
+          "hint": "A widely publicised epidemiological study suggested children living near high-voltage power lines had elevated rates of leukaemia, raising public alarm over the low-frequency electric and magnetic fields such lines produce — despite no known physical mechanism by which such weak, non-ionising fields could plausibly damage DNA the way higher-energy ionising radiation does.",
+          "note": "Wertheimer, N. & Leeper, E. (1979). 'Electrical Wiring Configurations and Childhood Cancer.' American Journal of Epidemiology, 109(3), 273–284, Denver, Colorado. Subsequent, much larger and more rigorous studies, along with reviews by major health bodies including the World Health Organization, have found no convincing established causal link, and the original study's exposure-classification methodology has been specifically criticised; public concern nonetheless persists, and some countries maintain precautionary exposure guidelines despite the absence of confirmed mechanism or robustly replicated effect.",
+          "links": [
+            "co1"
+          ]
+        },
+        {
+          "id": "db8",
+          "group": "The Electromagnetic Spectrum & Spectroscopy",
+          "label": "Who Really Invented Radio: Marconi or Tesla?",
+          "date": "1943",
+          "loc": "Washington, D.C.",
+          "coords": [
+            38.91,
+            -77.04
+          ],
+          "tag": "DEBATE",
+          "hint": "Guglielmo Marconi is popularly credited as radio's inventor and won the 1909 Nobel Prize in Physics for it, but Nikola Tesla had filed several of the foundational radio-related patents years earlier — a dispute that dragged through patent courts for decades and was only resolved, in Tesla's favour on some key points, by a Supreme Court ruling handed down after both men were already dead.",
+          "note": "US Supreme Court, Marconi Wireless Telegraph Co. of America v. United States (1943), invalidating several of Marconi's key patents by citing prior work by Tesla, Oliver Lodge, and John Stone Stone. The ruling was decided on narrow patent-law grounds relating to a wartime government dispute, not as any comprehensive historical judgment about scientific priority, and popular credit for radio's invention has remained genuinely contested and nationally inflected ever since — celebrated as Marconi in much of the English-speaking world and as Tesla in much of Eastern Europe and Serbia specifically.",
+          "links": [
+            "st5"
+          ]
+        }
+      ]
     },
     {
       "id": "application",
@@ -1157,7 +1306,112 @@
       "accent": "#2E86C1",
       "bg": "#EBF5FB",
       "subtitle": "Where the science leaves the lab",
-      "entries": []
+      "entries": [
+        {
+          "id": "ap1",
+          "group": "Magnetism & Electromagnetic Induction",
+          "label": "The Electric Motor & Generator",
+          "date": "1821",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "APPLICATION",
+          "hint": "Faraday demonstrated a wire carrying current continuously rotating around a fixed magnet — the first device ever to convert electrical energy directly into sustained mechanical motion, rather than a single brief jolt. The same basic principle, run in reverse, converts mechanical motion into electrical current, and together the two directions underlie virtually every electric motor and generator built since.",
+          "note": "Faraday, M. (1821). 'On Some New Electro-Magnetical Motions, and on the Theory of Magnetism.' Quarterly Journal of Science, 12, 74–96, at the Royal Institution, London — the earliest demonstration of continuous electromagnetic rotation, a full decade before Faraday's induction discovery (see st4, th4) put the underlying relationship on a rigorous theoretical footing. Practical, commercially viable electric motors and generators took several more decades of engineering refinement to develop into genuinely useful machines.",
+          "links": [
+            "st4",
+            "th4"
+          ]
+        },
+        {
+          "id": "ap2",
+          "group": "Electrostatics & Circuits",
+          "label": "The Electric Telegraph",
+          "date": "1837",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "APPLICATION",
+          "hint": "The electric telegraph sent messages by opening and closing a circuit in patterns that deflected needles or clicked a receiver at the far end of a wire, letting information travel at nearly the speed of electricity itself rather than at the speed of a horse, ship, or train — the first technology in history to fundamentally decouple long-distance communication speed from physical transportation speed.",
+          "note": "Cooke, W.F. & Wheatstone, C. (1837). British Patent No. 7390, 'Improvements in Giving Signals and Sounding Alarums in Distant Places by Means of Electric Currents,' London, developed by the same Wheatstone who later popularised the resistance-measuring bridge (see me1). Samuel Morse independently developed a competing telegraph system in the United States the same year; the telegraph network's rapid nineteenth-century expansion is often described by historians as the 'Victorian Internet' for its transformative effect on the speed of global communication and commerce.",
+          "links": [
+            "me1"
+          ]
+        },
+        {
+          "id": "ap3",
+          "group": "Geometric Optics",
+          "label": "Fiber Optics",
+          "date": "1966",
+          "loc": "Harlow, England",
+          "coords": [
+            51.77,
+            0.1
+          ],
+          "tag": "APPLICATION",
+          "hint": "A hair-thin strand of extremely pure glass can carry a light signal for many kilometres via continuous total internal reflection off its own inner surface, bouncing the light down the fibre's length with remarkably little loss — turning a phenomenon first demonstrated as a parlour trick with a curved stream of water into the physical infrastructure carrying the overwhelming majority of the world's long-distance internet and telephone traffic.",
+          "note": "Kao, C.K. & Hockham, G.A. (1966). 'Dielectric-Fibre Surface Waveguides for Optical Frequencies.' Proceedings of the IEE, 113(7), 1151–1158, at Standard Telecommunication Laboratories, Harlow, England, showing existing fibre losses were due to impurities rather than any fundamental physical limit, and that sufficiently pure glass could transmit light over genuinely useful distances. Kao shared the 2009 Nobel Prize in Physics for the work; modern undersea fibre-optic cables now carry the vast majority of intercontinental internet traffic.",
+          "links": [
+            "ef1"
+          ]
+        },
+        {
+          "id": "ap4",
+          "group": "Maxwell's Equations & Electromagnetic Waves",
+          "label": "Radio & Wireless Communication",
+          "date": "1901",
+          "loc": "Poldhu, Cornwall, England",
+          "coords": [
+            50.03,
+            -5.43
+          ],
+          "tag": "APPLICATION",
+          "hint": "Barely more than a decade after Hertz demonstrated electromagnetic waves in his laboratory as a purely scientific curiosity of no obvious practical use, Guglielmo Marconi had turned the same physics into a working transatlantic communication system, transmitting the letter 'S' in Morse code across the Atlantic Ocean with no wire connection at all — arguably the fastest translation from pure scientific discovery to world-changing technology in the whole history of physics up to that point.",
+          "note": "Marconi, G. (1901). Transatlantic radio transmission, Poldhu, Cornwall to St. John's, Newfoundland, whether radio waves could plausibly follow Earth's curve to make the transmission possible at all was a genuine, unresolved scientific puzzle at the time (see db6). Radio rapidly transformed maritime safety (ship-to-shore distress signalling, prominently including the 1912 Titanic disaster), news distribution, and, within a few more decades, mass entertainment broadcasting.",
+          "links": [
+            "st5",
+            "db6"
+          ]
+        },
+        {
+          "id": "ap5",
+          "group": "Wave Optics: Interference, Diffraction & Polarization",
+          "label": "The Laser",
+          "date": "1960",
+          "loc": "Malibu, California",
+          "coords": [
+            34.03,
+            -118.78
+          ],
+          "tag": "APPLICATION",
+          "hint": "A laser generates light that is coherent, monochromatic, and tightly directional to a degree no ordinary light source can match, by stimulating a large population of excited atoms to release photons of exactly matching wavelength and phase all at once — turning the abstract concept of coherence (see co6) into an engineered, controllable, everyday technology used in everything from barcode scanners and fibre-optic communication to surgery and industrial cutting.",
+          "note": "Maiman, T.H. (1960). 'Stimulated Optical Radiation in Ruby.' Nature, 187, 493–494, at Hughes Research Laboratories, Malibu, California — the first working laser, built using a ruby crystal, months after Maiman's own employer's public relations department had initially downplayed the result's significance. Charles Townes and Arthur Schawlow had laid the theoretical groundwork in a 1958 paper, and the underlying stimulated-emission physics traces back to Einstein's 1917 theoretical work, though Einstein could not have anticipated the eventual device.",
+          "links": [
+            "co6"
+          ]
+        },
+        {
+          "id": "ap6",
+          "group": "The Electromagnetic Spectrum & Spectroscopy",
+          "label": "Medical X-ray Imaging",
+          "date": "1914",
+          "loc": "Western Front, France",
+          "coords": [
+            49.5,
+            2.8
+          ],
+          "tag": "APPLICATION",
+          "hint": "Within weeks of Röntgen's discovery, doctors were already using X-rays to locate broken bones and embedded objects inside the body without surgery — a medical transformation Marie Curie personally accelerated during the First World War by designing mobile X-ray units, nicknamed 'petites Curies,' and training over a hundred women to operate them at field hospitals near the front lines, helping military surgeons locate bullets and shrapnel directly.",
+          "note": "Curie, M. (1914–18). Organised approximately 20 mobile radiography vehicles and roughly 200 additional fixed radiological installations across French military hospitals during the First World War, funded substantially through her own Nobel Prize money and public appeals. Modern medical X-ray imaging has since diversified into computed tomography (CT), mammography, and fluoroscopy, but the basic physical principle — differential absorption of X-rays by tissues of different density — remains exactly the one Röntgen first identified in 1895 (see st11).",
+          "links": [
+            "st11"
+          ]
+        }
+      ]
     }
   ],
   "timeline": [
