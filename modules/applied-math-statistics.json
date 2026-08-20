@@ -797,7 +797,115 @@
       "accent": "#8B5E00",
       "bg": "#FFF8F0",
       "subtitle": "The tools and paradigms that generate the field's evidence",
-      "entries": []
+      "entries": [
+        {
+          "id": "me1",
+          "group": "Numerical Analysis & Computational Mathematics",
+          "label": "The Finite Element Method",
+          "date": "1956",
+          "loc": "Seattle, Washington",
+          "coords": [
+            47.61,
+            -122.33
+          ],
+          "tag": "METHOD",
+          "hint": "A practical computational technique for approximating the solution to physical equilibrium and stress problems too complex to solve exactly, by breaking a structure into thousands of small, simply-shaped elements and solving a large but manageable system of equations linking them together. It turned Richard Courant's earlier abstract variational insight into an engineering workhorse, once digital computers made the underlying arithmetic feasible.",
+          "note": "Turner, M.J., Clough, R.W., Martin, H.C. & Topp, L.J. (1956). 'Stiffness and Deflection Analysis of Complex Structures.' Journal of the Aeronautical Sciences, 23(9), 805–823, developed at Boeing for aircraft structural analysis, independently of Courant's earlier mathematical treatment (see st10). The method is now standard across mechanical, civil, and aerospace engineering for stress analysis, heat transfer, and fluid dynamics simulation alike.",
+          "links": [
+            "st10"
+          ]
+        },
+        {
+          "id": "me2",
+          "group": "Optimization",
+          "label": "Gradient Descent",
+          "date": "1847",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "METHOD",
+          "hint": "To find a function's minimum, repeatedly step in the direction that decreases its value fastest at the current point — the negative of the gradient — adjusting the step size to balance speed against the risk of overshooting. Simple enough to predate computers by over a century, it remains, in more sophisticated modern forms, the core algorithm training essentially every large-scale machine learning model today.",
+          "note": "Cauchy, A.L. (1847). 'Méthode générale pour la résolution des systèmes d'équations simultanées.' Comptes Rendus de l'Académie des Sciences, 25, 536–538, Paris. Cauchy proposed it for solving astronomical calculation systems, with no notion of the technique's eventual role in computing; plain gradient descent converges slowly on many real problems, motivating later refinements like momentum and adaptive step sizes (stochastic gradient descent, Adam) covered in the computer-science folio's machine learning content.",
+          "links": [
+            "co6"
+          ],
+          "xlinks": [
+            "computer-science::co6"
+          ]
+        },
+        {
+          "id": "me3",
+          "group": "Statistical Inference",
+          "label": "Maximum Likelihood Estimation",
+          "date": "1922",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "METHOD",
+          "hint": "Given some observed data and a family of candidate probability models, maximum likelihood estimation picks whichever specific model within that family would have made the actually-observed data most probable. It gave statisticians a single, general-purpose principle for fitting almost any parametric model to data, replacing a previous grab-bag of ad hoc, problem-specific estimation techniques.",
+          "note": "Fisher, R.A. (1922). 'On the Mathematical Foundations of Theoretical Statistics.' Philosophical Transactions of the Royal Society A, 222, 309–368. Fisher had introduced an earlier, less polished version of the idea in a 1912 undergraduate-era paper; the method's estimates are provably efficient (achieving the lowest possible variance among unbiased estimators) under fairly general conditions, a result formalised later via the Cramér–Rao bound.",
+          "links": [
+            "th5",
+            "fg6"
+          ]
+        },
+        {
+          "id": "me4",
+          "group": "Statistical Inference",
+          "label": "The Randomized Controlled Trial in Medicine",
+          "date": "1948",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "METHOD",
+          "hint": "Patients were assigned to receive the antibiotic streptomycin or standard care using a randomisation method concealed even from the treating doctors — sealed, numbered envelopes — specifically to prevent unconscious bias in who received the promising new drug. It was the first modern clinical trial to combine randomisation with this kind of allocation concealment, adapting Fisher's agricultural experimental-design principles to human medicine for the first time.",
+          "note": "Medical Research Council (1948). 'Streptomycin Treatment of Pulmonary Tuberculosis.' British Medical Journal, 2(4582), 769–782, led by Austin Bradford Hill. Earlier trials had used alternation or haphazard assignment, which treating physicians could often predict and subtly manipulate; Bradford Hill's concealed randomisation became the methodological gold standard that essentially all subsequent drug-approval trials still follow.",
+          "links": [
+            "st1"
+          ]
+        },
+        {
+          "id": "me5",
+          "group": "Operations Research",
+          "label": "Dynamic Programming",
+          "date": "1957",
+          "loc": "Santa Monica, California",
+          "coords": [
+            34.02,
+            -118.49
+          ],
+          "tag": "METHOD",
+          "hint": "For problems that can be broken into a sequence of overlapping smaller subproblems — the shortest route through a network, the optimal way to cut a piece of material — dynamic programming solves each distinct subproblem exactly once, stores the result, and reuses it, avoiding the exponential blowup of recomputing the same subproblem repeatedly. Richard Bellman's 'principle of optimality,' that an optimal overall solution is built from optimal solutions to its subproblems, underlies the whole technique.",
+          "note": "Bellman, R. (1957). Dynamic Programming. Princeton: Princeton University Press, developed at the RAND Corporation, Santa Monica. Bellman later said he chose the deliberately vague, unthreatening name 'dynamic programming' partly to disguise the mathematical research from a research-averse Secretary of Defense who controlled RAND's funding; the technique is now standard in operations research, control theory, and computer science algorithm design alike.",
+          "links": [
+            "th9"
+          ]
+        },
+        {
+          "id": "me6",
+          "group": "Numerical Analysis & Computational Mathematics",
+          "label": "Markov Chain Monte Carlo",
+          "date": "1970",
+          "loc": "Toronto, Canada",
+          "coords": [
+            43.65,
+            -79.38
+          ],
+          "tag": "METHOD",
+          "hint": "To sample from a probability distribution too complicated to sample from directly, construct a Markov chain — a random process with no memory of its past beyond its current state — specifically engineered so that its long-run behaviour visits each region of the target distribution in exactly the right proportion. Running the chain long enough and then taking its later positions as samples turns an intractable distribution into one that can be explored computationally.",
+          "note": "Hastings, W.K. (1970). 'Monte Carlo Sampling Methods Using Markov Chains and Their Applications.' Biometrika, 57(1), 97–109, at the University of Toronto, generalising the narrower 1953 Metropolis algorithm (see st6) to a much broader class of target distributions. MCMC became the computational engine that made large-scale Bayesian statistics practically usable starting in the 1990s, once computing power caught up with the method's demands.",
+          "links": [
+            "st6",
+            "co8"
+          ]
+        }
+      ]
     },
     {
       "id": "figure",
@@ -807,7 +915,233 @@
       "accent": "#B7770D",
       "bg": "#FEFDE7",
       "subtitle": "The researchers who shaped the discipline",
-      "entries": []
+      "entries": [
+        {
+          "id": "fg1",
+          "group": "Pioneers & Theorists",
+          "label": "Blaise Pascal",
+          "date": "1654",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "FIGURE",
+          "hint": "A prodigy who had already invented a mechanical calculating machine by nineteen, Pascal's correspondence with Fermat solving the 'problem of points' effectively founded mathematical probability theory, though Pascal himself soon abandoned mathematics almost entirely for religious philosophy after a personal mystical experience in 1654. His triangle of binomial coefficients, though known earlier in China, Persia and India, still bears his name in the West.",
+          "note": "Pascal, B. Correspondence with Fermat (1654, see st9); Traité du triangle arithmétique (written 1654, published 1665). Pascal's later Pensées, an unfinished collection of philosophical and theological fragments including the famous 'Pascal's Wager' argument for believing in God under uncertainty, is itself an early application of expected-value reasoning to a decision problem.",
+          "links": [
+            "st9"
+          ]
+        },
+        {
+          "id": "fg2",
+          "group": "Pioneers & Theorists",
+          "label": "Abraham de Moivre",
+          "date": "1733",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "FIGURE",
+          "hint": "A French Huguenot refugee who fled religious persecution for London and never secured a permanent academic post, de Moivre supported himself for decades tutoring mathematics and consulting on gambling odds, while independently deriving the normal distribution as an approximation to the binomial — a special case of what became the Central Limit Theorem, eight decades before Laplace's general version.",
+          "note": "de Moivre, A. (1733). 'Approximatio ad Summam Terminorum Binomii (a+b)ⁿ in Seriem Expansi,' privately circulated supplement to his Doctrine of Chances (1718). De Moivre reportedly predicted the date of his own death by noticing he was sleeping fifteen minutes longer each night and extrapolating the arithmetic progression to zero — a story likely embellished but consistent with his lifelong habits of statistical reasoning.",
+          "links": [
+            "th2"
+          ]
+        },
+        {
+          "id": "fg3",
+          "group": "Pioneers & Theorists",
+          "label": "Thomas Bayes",
+          "date": "1763",
+          "loc": "Tunbridge Wells, England",
+          "coords": [
+            51.13,
+            0.26
+          ],
+          "tag": "FIGURE",
+          "hint": "A Presbyterian minister with no formal mathematical training beyond private study, Bayes never published the theorem now bearing his name — it was found among his papers after his death and brought to the Royal Society by his friend Richard Price, who wrote the accompanying introduction. Almost nothing else is known about how or why Bayes developed the result.",
+          "note": "Bayes, T. 'An Essay towards solving a Problem in the Doctrine of Chances' (1763, see th4). No portrait of Bayes reliably confirmed to be authentic survives, despite an image commonly circulated online and in textbooks under his name; Bayesian statistics as a broad philosophical and computational programme was not fully developed until Laplace's independent work and, much later, twentieth-century revivals by Harold Jeffreys and others.",
+          "links": [
+            "th4"
+          ]
+        },
+        {
+          "id": "fg4",
+          "group": "Pioneers & Theorists",
+          "label": "Pierre-Simon Laplace",
+          "date": "1810",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "FIGURE",
+          "hint": "Called the 'French Newton' by contemporaries, Laplace generalised nearly every foundational result in early probability theory — the Central Limit Theorem, Bayesian inference, and the mathematics of celestial mechanics — while also serving as a government minister under Napoleon, who reportedly dismissed him from the post for 'bringing the spirit of the infinitely small into public administration.'",
+          "note": "Laplace, P.S. Théorie analytique des probabilités (1812), incorporating his 1810 Central Limit Theorem proof (see th2). Laplace independently rediscovered and substantially extended Bayes's theorem, unaware of Bayes's earlier posthumous essay; famously, when Napoleon asked why his celestial mechanics work made no mention of God, Laplace reportedly replied that he 'had no need of that hypothesis.'",
+          "links": [
+            "th2"
+          ]
+        },
+        {
+          "id": "fg5",
+          "group": "Pioneers & Theorists",
+          "label": "Jacob Bernoulli",
+          "date": "1713",
+          "loc": "Basel, Switzerland",
+          "coords": [
+            47.56,
+            7.59
+          ],
+          "tag": "FIGURE",
+          "hint": "The eldest of a remarkable Swiss mathematical dynasty that produced eight notable mathematicians across three generations, Jacob Bernoulli spent the last two decades of his life obsessively working to rigorously prove what he called his 'golden theorem' — that repeated trials converge toward a true underlying probability — a result now called the Law of Large Numbers, published only after his death.",
+          "note": "Bernoulli, J. Ars Conjectandi (1713, see th3). Jacob's younger brother Johann Bernoulli was also a major mathematician and frequent bitter rival, publicly feuding over priority disputes; Jacob's nephew Nicolaus Bernoulli later posed the St. Petersburg Paradox that Jacob's own nephew Daniel Bernoulli resolved decades afterward (see ef3).",
+          "links": [
+            "th3"
+          ]
+        },
+        {
+          "id": "fg6",
+          "group": "Pioneers & Theorists",
+          "label": "Ronald Fisher",
+          "date": "1925",
+          "loc": "Harpenden, England",
+          "coords": [
+            51.82,
+            -0.36
+          ],
+          "tag": "FIGURE",
+          "hint": "Working essentially alone as the statistician at an agricultural research station, Fisher single-handedly created most of the modern toolkit of experimental statistics — randomisation, analysis of variance, maximum likelihood estimation, and the popularised p-value — while also being one of the twentieth century's most influential (and most scientifically discredited) advocates of eugenics, a fact modern statistics organisations have publicly grappled with in recent years.",
+          "note": "Fisher, R.A. Statistical Methods for Research Workers (1925, see st1); 'On the Mathematical Foundations of Theoretical Statistics' (1922, see me3). Fisher and Karl Pearson, and later Fisher and Jerzy Neyman, conducted some of statistics' most bitter and consequential public disputes over the correct foundations of the field, disputes whose unresolved tensions still shape how statistics is taught and used today.",
+          "links": [
+            "st1",
+            "me3",
+            "fg7"
+          ]
+        },
+        {
+          "id": "fg7",
+          "group": "Pioneers & Theorists",
+          "label": "Jerzy Neyman",
+          "date": "1933",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "FIGURE",
+          "hint": "Working with Egon Pearson (son of Karl Pearson) at University College London, Neyman built a rigorous decision-theoretic alternative to Fisher's significance-testing approach, explicitly naming and formalising the two distinct ways a hypothesis test can go wrong. Neyman and Fisher's disagreement over the philosophical foundations of hypothesis testing was intense and personal, and the hybrid method most textbooks now teach was fully endorsed by neither man.",
+          "note": "Neyman, J. & Pearson, E.S. 'On the Problem of the Most Efficient Tests of Statistical Hypotheses' (1933, see th5). Neyman emigrated to the United States in 1938, founding an influential statistics program at the University of California, Berkeley, where he later developed confidence intervals as a companion concept to hypothesis testing.",
+          "links": [
+            "th5"
+          ]
+        },
+        {
+          "id": "fg8",
+          "group": "Pioneers & Theorists",
+          "label": "Andrey Kolmogorov",
+          "date": "1933",
+          "loc": "Moscow, Russia",
+          "coords": [
+            55.76,
+            37.62
+          ],
+          "tag": "FIGURE",
+          "hint": "Beyond giving probability theory its modern axiomatic foundation, Kolmogorov made foundational contributions across an extraordinarily wide range of mathematics — turbulence, computational complexity, algorithmic information theory — while training a school of Soviet mathematicians at Moscow State University that dominated the field for decades under difficult political conditions.",
+          "note": "Kolmogorov, A.N. Grundbegriffe der Wahrscheinlichkeitsrechnung (1933, see th1). Kolmogorov's later work defining the complexity of a string as the length of its shortest possible describing program — now called Kolmogorov complexity — was developed independently around the same time by Ray Solomonoff and Gregory Chaitin, and is covered in the systems-and-complexity folio.",
+          "links": [
+            "th1"
+          ],
+          "xlinks": [
+            "systems-and-complexity::co6"
+          ]
+        },
+        {
+          "id": "fg9",
+          "group": "Pioneers & Theorists",
+          "label": "Agner Krarup Erlang",
+          "date": "1909",
+          "loc": "Copenhagen, Denmark",
+          "coords": [
+            55.68,
+            12.57
+          ],
+          "tag": "FIGURE",
+          "hint": "A largely self-taught mathematician working directly for the Copenhagen Telephone Company rather than any university, Erlang founded the entire field of queueing theory to solve a specific, urgent commercial problem — how many telephone circuits does a switchboard actually need — and his practical, industry-driven approach to mathematics became a model for what later grew into operational research.",
+          "note": "Erlang, A.K. 'The Theory of Probabilities and Telephone Conversations' (1909, see th9). The 'erlang,' a dimensionless unit measuring offered telecommunications traffic load, is named after him and remains in standard use in telecommunications engineering over a century later.",
+          "links": [
+            "th9"
+          ]
+        },
+        {
+          "id": "fg10",
+          "group": "Pioneers & Theorists",
+          "label": "Florence Nightingale",
+          "date": "1858",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "FIGURE",
+          "hint": "Better remembered as the founder of modern nursing, Nightingale was also a pioneering statistician who invented a striking circular chart — the 'polar area diagram,' now sometimes called a coxcomb chart — specifically to show British Parliament and army officials, who she believed wouldn't read tables, that vastly more Crimean War soldiers died from preventable disease and poor sanitation than from combat wounds.",
+          "note": "Nightingale, F. (1858). Notes on Matters Affecting the Health, Efficiency, and Hospital Administration of the British Army. London: Harrison and Sons. Elected the first female member of the Royal Statistical Society in 1858, the same year this report appeared; her statistical advocacy directly drove major British Army sanitary reforms in the years that followed.",
+          "links": []
+        },
+        {
+          "id": "fg11",
+          "group": "Pioneers & Theorists",
+          "label": "George Dantzig",
+          "date": "1947",
+          "loc": "Washington, D.C.",
+          "coords": [
+            38.91,
+            -77.04
+          ],
+          "tag": "FIGURE",
+          "hint": "Developed the simplex algorithm while working as a mathematical advisor to the US Air Force, tasked with mechanising the planning and scheduling problems the military had previously solved by slow, informal committee deliberation. Dantzig later moved to Stanford, where he continued developing linear and large-scale optimisation for decades, and repeatedly downplayed the (partly true, partly exaggerated) legend of solving 'unsolved homework problems' as a student.",
+          "note": "Dantzig, G.B. 'Maximization of a Linear Function of Variables Subject to Linear Inequalities' (1947/1951, see st2). Dantzig's simplex method is regularly ranked among the most influential algorithms of the twentieth century by computing historians, given its vast use across logistics, manufacturing, airline scheduling, and finance.",
+          "links": [
+            "st2",
+            "th6"
+          ]
+        },
+        {
+          "id": "fg12",
+          "group": "Pioneers & Theorists",
+          "label": "Harry Markowitz",
+          "date": "1952",
+          "loc": "Chicago, Illinois",
+          "coords": [
+            41.88,
+            -87.63
+          ],
+          "tag": "FIGURE",
+          "hint": "A doctoral student looking for a dissertation topic, Markowitz was struck by the realisation that finance had no rigorous mathematical theory connecting an individual investment's risk to its effect on an entire portfolio's overall risk — his solution, built almost entirely from geometry and calculus rather than economics, launched quantitative finance as an academic discipline.",
+          "note": "Markowitz, H. 'Portfolio Selection' (1952, see th10). Markowitz has said his own committee's economics faculty initially doubted whether the dissertation, being mathematics rather than economics, should even be approved; he shared the 1990 Nobel Memorial Prize in Economic Sciences with Merton Miller and William Sharpe.",
+          "links": [
+            "th10"
+          ]
+        },
+        {
+          "id": "fg13",
+          "group": "Pioneers & Theorists",
+          "label": "John Nash",
+          "date": "1950",
+          "loc": "Princeton, New Jersey",
+          "coords": [
+            40.35,
+            -74.66
+          ],
+          "tag": "FIGURE",
+          "hint": "Nash's twenty-seven-page doctoral dissertation, written at twenty-one, generalised game theory from von Neumann's narrow two-player zero-sum case to essentially any competitive situation with any number of players — then Nash spent three decades battling schizophrenia, largely absent from mathematics, before recovering enough to share the 1994 Nobel Memorial Prize for the work.",
+          "note": "Nash, J. 'Equilibrium Points in n-Person Games' (1950, see th8). Nash's later life and illness were the subject of Sylvia Nasar's 1998 biography A Beautiful Mind and the 2001 film of the same name, both of which took significant dramatic liberties with the underlying facts of his career and personal life.",
+          "links": [
+            "th8"
+          ]
+        }
+      ]
     },
     {
       "id": "debate",
