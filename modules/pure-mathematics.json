@@ -783,7 +783,115 @@
       "accent": "#8B5E00",
       "bg": "#FFF8F0",
       "subtitle": "The tools and paradigms that generate the field's evidence",
-      "entries": []
+      "entries": [
+        {
+          "id": "me1",
+          "group": "Number Theory",
+          "label": "Sieve Methods",
+          "date": "1915",
+          "loc": "Christiania (Oslo), Norway",
+          "coords": [
+            59.91,
+            10.75
+          ],
+          "tag": "METHOD",
+          "hint": "A systematic way to estimate how many numbers up to some limit survive after repeatedly filtering out multiples of small primes — a rigorous, quantitative descendant of the ancient Sieve of Eratosthenes. Viggo Brun's version was the first sieve precise enough to prove genuine theorems about the distribution of prime pairs, rather than merely providing a computational shortcut for finding primes.",
+          "note": "Brun, V. (1915). 'Über das Goldbachsche Gesetz und die Anzahl der Primzahlpaare.' Archiv for Mathematik og Naturvidenskab, 34(8). Brun's sieve proved that the sum of reciprocals of twin primes converges (Brun's constant), a partial result toward the still-unsolved Twin Prime Conjecture; refined sieve techniques descending from his method were essential to Zhang's 2013 bounded-gaps breakthrough (see ef9).",
+          "links": [
+            "ef9",
+            "th5"
+          ]
+        },
+        {
+          "id": "me2",
+          "group": "Real Analysis",
+          "label": "Compactness Arguments",
+          "date": "1895",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "METHOD",
+          "hint": "A technique for proving something must exist or behave well by showing that any infinite collection of candidates, however chosen, must contain a convergent or well-behaved sub-piece — turning an infinite search into a finite, manageable one. Émile Borel's original proof concerned covering an interval by smaller intervals; the underlying idea became one of the most repeatedly reused tools across all of analysis.",
+          "note": "Borel, É. (1895). 'Sur quelques points de la théorie des fonctions.' Annales Scientifiques de l'École Normale Supérieure, 3rd series, 12, 9–55 — the first proof of what is now called the Heine–Borel theorem for countable covers; Henri Lebesgue extended it to arbitrary covers in his own 1904 thesis. The compactness idea generalises far beyond real intervals, underlying results across functional analysis, topology, and mathematical logic alike.",
+          "links": [
+            "th6"
+          ]
+        },
+        {
+          "id": "me3",
+          "group": "Geometry: Euclidean, Non-Euclidean & Differential",
+          "label": "Sheaf-Theoretic Methods",
+          "date": "1945",
+          "loc": "Oflag XVII-A, Edelbach, Austria",
+          "coords": [
+            48.73,
+            15.33
+          ],
+          "tag": "METHOD",
+          "hint": "A sheaf tracks how local data — functions, sections, algebraic information — defined on small overlapping pieces of a space can be consistently glued into global data across the whole space, giving geometers a precise language for problems that are easy locally but subtle globally. The technique became indispensable to Grothendieck's later reconstruction of algebraic geometry.",
+          "note": "Leray, J. (1945). 'Sur la forme des espaces topologiques et sur les points fixes des représentations.' Journal de Mathématiques Pures et Appliquées, 24, 95–167. Leray invented sheaf theory and spectral sequences while a prisoner of war at Oflag XVII-A in Austria from 1940 to 1945, where he deliberately worked on pure topology rather than his prior specialty of fluid dynamics, reportedly to keep his applied expertise from being useful to his captors. Alexander Grothendieck's later scheme theory (see th11) depends fundamentally on sheaves.",
+          "links": [
+            "th11"
+          ]
+        },
+        {
+          "id": "me4",
+          "group": "Topology",
+          "label": "Computer-Assisted Exhaustive Proof",
+          "date": "1976",
+          "loc": "Urbana, Illinois",
+          "coords": [
+            40.11,
+            -88.21
+          ],
+          "tag": "METHOD",
+          "hint": "For results that reduce, after human-guided simplification, to checking an enormous but finite number of specific cases, a computer can complete the proof by brute-force exhaustive search where no human could — as long as the reduction step itself is trusted. The Four Color Theorem was the first major result proved this way, and its use of unverifiable machine computation as part of a mathematical proof was, at the time, itself controversial.",
+          "note": "Appel, K. & Haken, W. (1977). 'Every Planar Map Is Four Colorable.' Illinois Journal of Mathematics, 21(3), 429–567, at the University of Illinois at Urbana-Champaign; the reduction to 1,936 unavoidable configurations was completed in 1976 and checked by over 1,000 hours of computer time. Distinct from the formal proof-assistant verification used to check logical derivations step-by-step (see xlink) — here the computer performs an exhaustive case search that no human could complete by hand, not a formal re-derivation from axioms.",
+          "links": [
+            "th8"
+          ],
+          "xlinks": [
+            "logic-math-foundations::me4"
+          ]
+        },
+        {
+          "id": "me5",
+          "group": "Real Analysis",
+          "label": "Calculus of Variations",
+          "date": "1744",
+          "loc": "Berlin, Germany",
+          "coords": [
+            52.52,
+            13.41
+          ],
+          "tag": "METHOD",
+          "hint": "Ordinary calculus finds the input that minimises or maximises a function's output; the calculus of variations finds the entire function or curve that minimises or maximises an integral built from it — the shortest path, the fastest descent, the shape a soap film takes. Euler's method for deriving the governing equation for such problems, later generalised by Lagrange, remains the standard approach.",
+          "note": "Euler, L. (1744). Methodus inveniendi lineas curvas maximi minimive proprietate gaudentes. Lausanne: Marc-Michel Bousquet, written while Euler held his post at the Prussian Academy of Sciences, Berlin. Joseph-Louis Lagrange's later, more algebraic reformulation (1750s correspondence with Euler) gave the technique its modern name and its standard differential-equation form, the Euler–Lagrange equation, still central to physics as well as pure analysis.",
+          "links": [
+            "th6"
+          ]
+        },
+        {
+          "id": "me6",
+          "group": "Number Theory",
+          "label": "Elliptic-Curve Methods",
+          "date": "1922",
+          "loc": "Manchester, England",
+          "coords": [
+            53.48,
+            -2.24
+          ],
+          "tag": "METHOD",
+          "hint": "An elliptic curve's rational points — solutions in fractions, not just whole numbers — can be added together using a geometric rule (draw a line through two points, the third intersection is their 'sum'), turning the solution set into an algebraic group. Louis Mordell proved this group is always finitely generated, launching elliptic curves as a systematic tool rather than a case-by-case curiosity, one that decades later became indispensable to Wiles's proof of Fermat's Last Theorem.",
+          "note": "Mordell, L.J. (1922). 'On the Rational Solutions of the Indeterminate Equations of the Third and Fourth Degrees.' Proceedings of the Cambridge Philosophical Society, 21, 179–192, written at the University of Manchester. André Weil generalised the result to higher-dimensional analogues in 1929 (the Mordell–Weil theorem); elliptic-curve methods are also the basis of elliptic-curve cryptography, an efficient alternative to RSA-style public-key systems.",
+          "links": [
+            "st2",
+            "co4"
+          ]
+        }
+      ]
     },
     {
       "id": "figure",
@@ -793,7 +901,245 @@
       "accent": "#B7770D",
       "bg": "#FEFDE7",
       "subtitle": "The researchers who shaped the discipline",
-      "entries": []
+      "entries": [
+        {
+          "id": "fg1",
+          "group": "Pioneers & Theorists",
+          "label": "Euclid",
+          "date": "300 BCE",
+          "loc": "Alexandria, Egypt",
+          "coords": [
+            31.2,
+            29.92
+          ],
+          "tag": "FIGURE",
+          "hint": "Compiled and systematised several centuries of Greek geometric knowledge into the Elements, a single deductively organised work that starts from a small set of stated axioms and derives hundreds of results from them by pure logic alone. The axiomatic method itself — build everything explicitly from minimal starting assumptions — became the template every later branch of mathematics, including this folio's most modern entries, still follows.",
+          "note": "Euclid. Elements (c. 300 BCE), Alexandria — thirteen books covering plane and solid geometry, number theory, and the theory of proportion. Almost nothing is independently known about Euclid's life, and some historians have questioned whether 'Euclid' names a single author or a working group at the Library of Alexandria. The Elements remained a standard mathematics textbook, largely unchanged in structure, for over two thousand years.",
+          "links": [
+            "th4"
+          ]
+        },
+        {
+          "id": "fg2",
+          "group": "Pioneers & Theorists",
+          "label": "Carl Friedrich Gauss",
+          "date": "1801",
+          "loc": "Braunschweig, Germany",
+          "coords": [
+            52.27,
+            10.53
+          ],
+          "tag": "FIGURE",
+          "hint": "Called 'the prince of mathematicians' by contemporaries, Gauss produced foundational results across number theory, differential geometry, statistics, and astronomy, often working out major theorems privately and publishing only once he judged them fully polished. Number theorists still use his notation as a working default — modular arithmetic's '≡' symbol is his.",
+          "note": "Gauss, C.F. Disquisitiones Arithmeticae (1801, see th4) and 'Disquisitiones generales circa superficies curvas' (1827, see st11). Gauss kept a private mathematical diary, discovered only after his death, showing he had anticipated results — including some of Bolyai and Lobachevsky's non-Euclidean geometry (see th10) — years before their official discoverers, but had chosen not to publish, reportedly to avoid controversy with philosophers committed to Euclidean geometry as self-evident truth.",
+          "links": [
+            "th4",
+            "st11"
+          ]
+        },
+        {
+          "id": "fg3",
+          "group": "Pioneers & Theorists",
+          "label": "Leonhard Euler",
+          "date": "1748",
+          "loc": "Berlin, Germany",
+          "coords": [
+            52.52,
+            13.41
+          ],
+          "tag": "FIGURE",
+          "hint": "The most prolific mathematician in history, publishing an estimated 800-plus works across nearly every branch of mathematics and physics then known, several completed after he went completely blind, dictated from memory to assistants. His textbooks fixed notation still used today — f(x) for functions, e for the natural exponential base, i for the imaginary unit, Σ for summation.",
+          "note": "Euler, L. Introductio in analysin infinitorum (1748), Lausanne: Marc-Michel Bousquet, written during his 1741–1766 tenure at the Prussian Academy of Sciences, Berlin — generally regarded as the book that established analysis as a discipline distinct from geometry. His collected works, the Opera Omnia, span more than 80 volumes and are still not fully published.",
+          "links": [
+            "th5",
+            "me5"
+          ]
+        },
+        {
+          "id": "fg4",
+          "group": "Pioneers & Theorists",
+          "label": "Bernhard Riemann",
+          "date": "1854",
+          "loc": "Göttingen, Germany",
+          "coords": [
+            51.54,
+            9.92
+          ],
+          "tag": "FIGURE",
+          "hint": "In a single 1854 lecture and a single 1859 paper on prime numbers, Riemann effectively founded two major branches of mathematics — differential geometry in arbitrary dimensions, and analytic number theory — during a working career cut short by tuberculosis at age thirty-nine. A stray conjecture from a footnote in that 1859 paper, the Riemann Hypothesis, remains unsolved over 160 years later.",
+          "note": "Riemann, B. 'Über die Hypothesen, welche der Geometrie zu Grunde liegen' (delivered 1854, published 1868, see th9) and 'Über die Anzahl der Primzahlen unter einer gegebenen Grösse' (1859), Monatsberichte der Berliner Akademie. Riemann's Göttingen habilitation committee, which included Gauss, is reported to have been visibly moved by the 1854 lecture — Gauss rarely praised anyone's work so openly.",
+          "links": [
+            "th9",
+            "st7"
+          ]
+        },
+        {
+          "id": "fg5",
+          "group": "Pioneers & Theorists",
+          "label": "Évariste Galois",
+          "date": "1832",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "FIGURE",
+          "hint": "Died at twenty in a duel under still-disputed circumstances, having spent his short life submitting mathematics papers that leading academicians — including Cauchy and Poisson — rejected, lost, or dismissed as incomprehensible. The theory now bearing his name, determining which polynomial equations can be solved by a radical formula, was salvaged and properly understood only after his death.",
+          "note": "Galois, É. Manuscripts written 1829–1832, first properly published by Joseph Liouville in 1846 (see th2). Also a committed republican political activist, twice imprisoned in the years before his death; his surviving mathematical papers amount to barely sixty pages, an unusually small body of work for a field-founding mathematician.",
+          "links": [
+            "th2",
+            "st1"
+          ]
+        },
+        {
+          "id": "fg6",
+          "group": "Pioneers & Theorists",
+          "label": "Niels Henrik Abel",
+          "date": "1824",
+          "loc": "Christiania (Oslo), Norway",
+          "coords": [
+            59.91,
+            10.75
+          ],
+          "tag": "FIGURE",
+          "hint": "Proved the general quintic equation cannot be solved by a radical formula at twenty-one, then died of tuberculosis at twenty-six in poverty, two days before a letter arrived offering him a professorship in Berlin. His name is now attached to an entire adjective — 'abelian' — used across algebra for any structure where the order of combining elements doesn't matter.",
+          "note": "Abel, N.H. 'Mémoire sur les équations algébriques, où l'on démontre l'impossibilité de la résolution de l'équation générale du cinquième degré' (1824, see st1); also foundational work on elliptic functions and integrals, competing largely anonymously with the far more established Carl Gustav Jacobi. Abel's early death is often paired with Galois's as one of mathematics' great losses of unrealised potential — both dead before thirty, within eight years of each other.",
+          "links": [
+            "st1",
+            "th2"
+          ]
+        },
+        {
+          "id": "fg7",
+          "group": "Pioneers & Theorists",
+          "label": "Emmy Noether",
+          "date": "1921",
+          "loc": "Göttingen, Germany",
+          "coords": [
+            51.54,
+            9.92
+          ],
+          "tag": "FIGURE",
+          "hint": "Widely regarded as the most important woman mathematician in history, Noether transformed algebra from a collection of concrete techniques for solving equations into the study of abstract structures — rings, ideals, groups — defined purely by their axioms. On her death, Einstein wrote to the New York Times that she was 'the most significant creative mathematical genius thus far produced since the higher education of women began.'",
+          "note": "Noether, E. 'Idealtheorie in Ringbereichen' (1921, see th3); also Noether's theorem in theoretical physics (1918), proving every continuous symmetry of a physical system corresponds to a conserved quantity — independently one of the most important results in mathematical physics. Fled Germany in 1933 after Nazi race laws barred Jewish academics from university posts, and died just two years later in the United States following surgery complications.",
+          "links": [
+            "th3",
+            "st4"
+          ]
+        },
+        {
+          "id": "fg8",
+          "group": "Pioneers & Theorists",
+          "label": "David Hilbert",
+          "date": "1900",
+          "loc": "Göttingen, Germany",
+          "coords": [
+            51.54,
+            9.92
+          ],
+          "tag": "FIGURE",
+          "hint": "At the 1900 International Congress of Mathematicians in Paris, Hilbert proposed twenty-three unsolved problems he judged central to the field's future — a list so well-chosen that substantially advancing any one of them became, for decades afterward, a mark of a major mathematical career. He also championed a bold program to place all of mathematics on a fully mechanical, provably consistent logical foundation, one Gödel's incompleteness theorems later showed could never fully succeed.",
+          "note": "Hilbert, D. 'Mathematische Probleme,' address to the International Congress of Mathematicians, Paris, 8 August 1900; also 'Über die Theorie der algebraischen Formen' (1888/1890, see st4). Ten of the twenty-three problems were resolved within Hilbert's own lifetime; some, including the Riemann Hypothesis, remain open today, and his tenth problem was proved undecidable in 1970 — a result covered in full in the logic-math-foundations folio.",
+          "links": [
+            "st4",
+            "th11"
+          ],
+          "xlinks": [
+            "logic-math-foundations::ef5"
+          ]
+        },
+        {
+          "id": "fg9",
+          "group": "Pioneers & Theorists",
+          "label": "Henri Poincaré",
+          "date": "1895",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "FIGURE",
+          "hint": "Often called the last mathematical 'universalist' able to work at the frontier of nearly every branch of the field simultaneously, Poincaré essentially founded algebraic topology, made foundational contributions to celestial mechanics that anticipated chaos theory decades early, and wrote bestselling popular books on the philosophy of science. His famously flawed first attempt at what became the Poincaré Conjecture stood unresolved for a century after his death.",
+          "note": "Poincaré, H. 'Analysis Situs' (1895, see th8); also 'Sur le problème des trois corps et les équations de la dynamique' (1890), the prize-winning three-body-problem paper in which Poincaré discovered what is now recognised as an early instance of chaotic dynamical behaviour, decades before the term existed.",
+          "links": [
+            "th8",
+            "st9"
+          ]
+        },
+        {
+          "id": "fg10",
+          "group": "Pioneers & Theorists",
+          "label": "Karl Weierstrass",
+          "date": "1872",
+          "loc": "Berlin, Germany",
+          "coords": [
+            52.52,
+            13.41
+          ],
+          "tag": "FIGURE",
+          "hint": "Called the 'father of modern analysis,' Weierstrass spent over a decade as a secondary-school teacher before an obscure paper brought him academic recognition in his late thirties, after which he rebuilt calculus almost entirely around rigorous, quantifier-based definitions rather than geometric intuition. His 1872 continuous-but-nowhere-differentiable function shocked colleagues who had assumed such a thing couldn't exist.",
+          "note": "Weierstrass, K. Lecture course, University of Berlin, 1861 (see st5); presentation to the Royal Prussian Academy of Sciences, 1872 (see ef1). Mentored an unusually large number of influential students, including Sofia Kovalevskaya, whom he tutored privately for years since German universities of the time barred women from officially enrolling in lectures.",
+          "links": [
+            "st5",
+            "ef1",
+            "co9"
+          ]
+        },
+        {
+          "id": "fg11",
+          "group": "Pioneers & Theorists",
+          "label": "Alexander Grothendieck",
+          "date": "1960",
+          "loc": "Bures-sur-Yvette, France",
+          "coords": [
+            48.71,
+            2.16
+          ],
+          "tag": "FIGURE",
+          "hint": "Rebuilt the foundations of algebraic geometry so completely, and so abstractly, that colleagues joked he preferred proving general theorems about entire classes of objects to computing a single concrete example — yet the resulting machinery let previously intractable conjectures fall within a generation. He abruptly withdrew from mainstream mathematics in 1970 over the field's partial military funding, later disappearing into rural isolation for the rest of his life.",
+          "note": "Grothendieck, A. & Dieudonné, J. Éléments de géométrie algébrique (1960–67, see th11). Effectively stateless for much of his life — his father was a Russian-Jewish anarchist, his mother German, and Grothendieck was born in Berlin and spent part of his childhood in hiding in France during the German occupation — he refused a Soviet and a French passport alike well into adulthood, travelling for years on a UN refugee document.",
+          "links": [
+            "th11",
+            "me3"
+          ]
+        },
+        {
+          "id": "fg12",
+          "group": "Pioneers & Theorists",
+          "label": "Andrew Wiles",
+          "date": "1995",
+          "loc": "Princeton, New Jersey",
+          "coords": [
+            40.35,
+            -74.66
+          ],
+          "tag": "FIGURE",
+          "hint": "Became fixated on Fermat's Last Theorem at age ten reading a library book, and as an adult worked on the proof in near-total secrecy for seven years, telling almost no one, to avoid the intense public attention and competitive pressure the 350-year-old problem would otherwise attract. His first announcement, in 1993, briefly became international news before a gap was found in the argument.",
+          "note": "Wiles, A. 'Modular Elliptic Curves and Fermat's Last Theorem' (1995, see st2). Wiles has publicly credited a specific 1985 result by Ken Ribet — proving Fermat's Last Theorem would follow from the then-unproven Taniyama–Shimura conjecture — as the moment he realised the childhood problem might actually be attackable with modern tools. He received the 2016 Abel Prize for the proof, having been ineligible for the Fields Medal in 1998 by one year past its age-forty cutoff.",
+          "links": [
+            "st2",
+            "th2",
+            "th11"
+          ]
+        },
+        {
+          "id": "fg13",
+          "group": "Pioneers & Theorists",
+          "label": "Sofia Kovalevskaya",
+          "date": "1888",
+          "loc": "Stockholm, Sweden",
+          "coords": [
+            59.33,
+            18.07
+          ],
+          "tag": "FIGURE",
+          "hint": "The first woman in modern Europe to earn a doctorate in mathematics and the first to hold a full university professorship, Kovalevskaya did so despite Russian and German universities alike formally barring women from enrolling — she obtained her Göttingen doctorate only through private tutoring and special dispensation, and secured her Stockholm professorship only because Sweden had no equivalent restriction. Her prize-winning solution to the rotation of a rigid body around a fixed point solved a problem that had resisted attack for decades.",
+          "note": "Kovalevskaya, S. 'Sur le problème de la rotation d'un corps solide autour d'un point fixe' (1888), awarded the Prix Bordin by the French Academy of Sciences — the judging committee reportedly raised the prize money on recognising the strength of her entry. Also wrote novels and memoirs in Russian alongside her mathematics; died of influenza in 1891 at forty-one, at the height of her career.",
+          "links": [
+            "fg10"
+          ]
+        }
+      ]
     },
     {
       "id": "debate",
