@@ -39,7 +39,13 @@
           "note": "Mendeleev, D. (1869). 'Соотношение свойств с атомным весом элементов' ['The Dependence between the Properties of the Atomic Weights of the Elements']. Zhurnal Russkogo Fiziko-Khimicheskogo Obshchestva, at the University of St. Petersburg. Several other chemists, including Lothar Meyer and John Newlands, had independently proposed related periodic arrangements around the same time; Mendeleev's specific predictions for undiscovered elements, later confirmed almost exactly, are what secured his version's lasting priority (see st1).",
           "links": [
             "th2",
-            "st1"
+            "st1",
+            "st2",
+            "ef6",
+            "co1",
+            "fg2",
+            "db1",
+            "db4"
           ]
         },
         {
@@ -57,7 +63,8 @@
           "note": "Langmuir, I. (1919). 'The Arrangement of Electrons in Atoms and Molecules.' Journal of the American Chemical Society, 41(6), 868–934, at the General Electric Research Laboratory, Schenectady. Langmuir built directly on Niels Bohr's atomic model, applying it specifically to explain chemical valence and periodicity rather than atomic spectra, the question Bohr's own work primarily addressed; the fully rigorous quantum-mechanical justification for shell structure came only later, once the Pauli exclusion principle was established.",
           "links": [
             "th1",
-            "co1"
+            "co1",
+            "ef1"
           ],
           "xlinks": [
             "quantum-nuclear-relativity::st5"
@@ -78,7 +85,10 @@
           "note": "Lewis, G.N. (1916). 'The Atom and the Molecule.' Journal of the American Chemical Society, 38(4), 762–785, at the University of California, Berkeley. Lewis's simple dot-diagram notation for showing shared and unshared electron pairs remains standard in introductory chemistry education over a century later; Irving Langmuir, who coined the term 'covalent bond' itself shortly afterward, extended and popularised Lewis's original framework.",
           "links": [
             "th4",
-            "co2"
+            "co2",
+            "co9",
+            "db2",
+            "db7"
           ]
         },
         {
@@ -114,7 +124,9 @@
           "note": "Clapeyron, B.P.É. (1834). 'Mémoire sur la puissance motrice de la chaleur.' Journal de l'École Polytechnique, 23, 153–190, Paris, combining Boyle's law (see st3), Charles's law, and Avogadro's hypothesis (see th6) into a single unified equation. Real gases deviate from the ideal gas law at high pressure or low temperature, where molecular volume and intermolecular attraction can no longer be safely ignored, a gap later addressed by the van der Waals equation.",
           "links": [
             "st3",
-            "th6"
+            "th6",
+            "db8",
+            "ap2"
           ]
         },
         {
@@ -131,7 +143,10 @@
           "hint": "Equal volumes of any gas, at the same temperature and pressure, contain exactly the same number of particles, regardless of what gas it is or how heavy its individual molecules are — a genuinely surprising claim at the time, since it implied gas volume depends only on particle count, not on the particles' identity, size, or mass.",
           "note": "Avogadro, A. (1811). 'Essai d'une manière de déterminer les masses relatives des molécules élémentaires des corps.' Journal de Physique, de Chimie et d'Histoire Naturelle, 73, 58–76, at the University of Turin. Avogadro's hypothesis was largely ignored for nearly fifty years until Stanislao Cannizzaro forcefully championed it at the 1860 Karlsruhe Congress, finally resolving decades of confusion over atomic versus molecular weights that had made much of chemistry's quantitative foundations genuinely inconsistent between different chemists' competing conventions.",
           "links": [
-            "th5"
+            "th5",
+            "st4",
+            "co3",
+            "fg5"
           ]
         },
         {
@@ -149,7 +164,13 @@
           "note": "Arrhenius, S. (1887). 'Über die Dissociation der in Wasser gelösten Stoffe.' Zeitschrift für physikalische Chemie, 1, 631–648, based on Arrhenius's 1884 doctoral dissertation at Uppsala University. The dissertation was initially graded only narrowly sufficient for a degree by sceptical examiners; Arrhenius nonetheless won the 1903 Nobel Prize in Chemistry for the same ion-dissociation theory, one of the more dramatic academic reversals in the prize's history.",
           "links": [
             "th8",
-            "st5"
+            "st5",
+            "st6",
+            "co4",
+            "me1",
+            "fg7",
+            "db3",
+            "ap1"
           ]
         },
         {
@@ -167,7 +188,9 @@
           "note": "Brønsted, J.N. (1923). 'Einige Bemerkungen über den Begriff der Säuren und Basen.' Recueil des Travaux Chimiques des Pays-Bas, 42(8), 718–728, at the University of Copenhagen; Thomas Lowry independently published an equivalent proposal the same year in England. Every Brønsted-Lowry acid-base reaction can be described as an equilibrium between two competing conjugate acid-base pairs, a framework that generalises the earlier Arrhenius theory (see th7) as a special case restricted to water.",
           "links": [
             "th7",
-            "db3"
+            "db3",
+            "ef7",
+            "co4"
           ]
         },
         {
@@ -185,7 +208,9 @@
           "note": "Le Chatelier, H.L. (1884). 'Sur un énoncé général des lois des équilibres chimiques.' Comptes Rendus de l'Académie des Sciences, 99, 786–789, at the École des Mines, Paris. The principle became commercially indispensable a few decades later in optimising the industrial-scale Haber-Bosch ammonia synthesis process (see ap2), where choosing the right pressure and temperature conditions, guided directly by Le Chatelier's reasoning, made large-scale synthetic fertiliser production economically viable.",
           "links": [
             "co9",
-            "ap2"
+            "ap2",
+            "ef3",
+            "me1"
           ]
         },
         {
@@ -203,7 +228,11 @@
           "note": "Nernst, W. (1889). 'Die elektromotorische Wirksamkeit der Ionen.' Zeitschrift für physikalische Chemie, 4, 129–181, at the University of Göttingen. The equation underlies the operation of the pH electrode and countless other ion-selective electrodes used in modern analytical chemistry and clinical laboratory testing, translating a concentration difference directly into a measurable voltage.",
           "links": [
             "st8",
-            "co5"
+            "co5",
+            "st7",
+            "ef5",
+            "db6",
+            "ap3"
           ]
         },
         {
@@ -221,7 +250,12 @@
           "note": "Bethe, H. (1929). 'Termaufspaltung in Kristallen.' Annalen der Physik, 395(2), 133–208, written at the University of Frankfurt. Bethe originally developed the theory as a general problem in solid-state physics, with no particular chemistry application in mind; John Van Vleck applied it specifically to transition metal coordination chemistry in 1932, and the theory only became a standard part of inorganic chemistry's toolkit from the 1950s onward, once experimental spectroscopic evidence caught up with the underlying mathematics.",
           "links": [
             "co6",
-            "ef8"
+            "ef8",
+            "st9",
+            "ef9",
+            "db5",
+            "ap5",
+            "ap6"
           ]
         }
       ]
@@ -250,7 +284,8 @@
           "hint": "Mendeleev didn't just organise sixty-three known elements into a table — he deliberately left blank spaces where the pattern demanded an element that hadn't been discovered yet, and specified in advance what that missing element's atomic weight, density, and chemical behaviour should turn out to be. When gallium, scandium, and germanium were discovered over the following two decades, each matched Mendeleev's predictions astonishingly closely.",
           "note": "Mendeleev, D. (1869, see th1). Gallium was discovered in 1875 by Paul-Émile Lecoq de Boisbaudran, scandium in 1879 by Lars Fredrik Nilson, and germanium in 1886 by Clemens Winkler — all three matching Mendeleev's predicted properties for his hypothetical 'eka-aluminium,' 'eka-boron,' and 'eka-silicon' closely enough that Mendeleev's specific numerical predictions, not merely the table's general organising principle, are usually credited as the strongest evidence for the periodic law's genuine predictive power.",
           "links": [
-            "th1"
+            "th1",
+            "fg2"
           ]
         },
         {
@@ -268,7 +303,8 @@
           "hint": "Henry Moseley measured the characteristic X-ray frequencies emitted by a series of different elements and found a precise mathematical relationship to each element's atomic number — the number of protons in its nucleus — proving that atomic number, not atomic weight as Mendeleev had originally used, is the true underlying quantity the periodic table's order should be organised by.",
           "note": "Moseley, H.G.J. (1913). 'The High-Frequency Spectra of the Elements.' Philosophical Magazine, 26(156), 1024–1034, conducted in Ernest Rutherford's laboratory, University of Manchester. Moseley's reordering resolved several awkward inconsistencies where strict atomic-weight ordering had placed elements in chemically illogical positions (tellurium and iodine, for instance); Moseley was killed at Gallipoli in 1915 at just 27, a loss many historians consider one of the First World War's greatest scientific casualties.",
           "links": [
-            "th1"
+            "th1",
+            "fg3"
           ],
           "xlinks": [
             "em-optics::th11"
@@ -289,7 +325,8 @@
           "hint": "Using an air pump built by his assistant Robert Hooke, Robert Boyle systematically compressed and expanded trapped air and found its pressure and volume were precisely, inversely related — squeeze a gas into half its original volume and its pressure exactly doubles, provided temperature stays constant. It was among the first clearly quantitative laws discovered anywhere in chemistry.",
           "note": "Boyle, R. (1662). New Experiments Physico-Mechanicall, Touching the Spring of the Air, and its Effects (2nd ed.), Oxford. Boyle's law was independently discovered by French physicist Edme Mariotte around 1676, and is still called 'Mariotte's Law' in French-language sources; Boyle is often called the father of modern chemistry for insisting experiments, not authority or tradition, should settle chemical questions.",
           "links": [
-            "th5"
+            "th5",
+            "fg4"
           ]
         },
         {
@@ -307,7 +344,8 @@
           "hint": "Joseph Louis Gay-Lussac found that when gases react with each other, the volumes involved — of both reactants and gaseous products — always relate to each other in simple, small whole-number ratios, such as two volumes of hydrogen combining with exactly one volume of oxygen to produce two volumes of water vapour. The pattern was a crucial clue, still not fully understood at the time, pointing toward Avogadro's later hypothesis about equal volumes containing equal particle counts.",
           "note": "Gay-Lussac, J.L. (1808). 'Mémoire sur la combinaison des substances gazeuses, les unes avec les autres.' Mémoires de la Société d'Arcueil, 2, 207–234, Paris. John Dalton, committed to his own atomic theory, initially rejected Gay-Lussac's law because it seemed to conflict with Dalton's assumption about how many atoms combined to form common compounds; Avogadro's hypothesis three years later (see th6) is what finally reconciled the apparent contradiction.",
           "links": [
-            "th6"
+            "th6",
+            "fg6"
           ]
         },
         {
@@ -325,7 +363,8 @@
           "hint": "Svante Arrhenius proposed, against considerable scepticism from his own examining committee, that certain compounds ('electrolytes') separate into electrically charged ions when dissolved in water — even without any electric current being applied — and that a solution's ability to conduct electricity, and its acidic or basic behaviour, both depend directly on which ions are present and in what concentration.",
           "note": "Arrhenius, S. (1884). 'Recherches sur la conductibilité galvanique des électrolytes.' Doctoral dissertation, Uppsala University, passed only with the lowest acceptable grade after a sceptical faculty committee. The dissertation's ideas were later warmly championed by Wilhelm Ostwald and Jacobus van 't Hoff, and Arrhenius's essentially vindicated dissociation theory won him the 1903 Nobel Prize in Chemistry, less than two decades after nearly failing to earn him a passing doctoral grade.",
           "links": [
-            "th7"
+            "th7",
+            "fg7"
           ]
         },
         {
@@ -343,7 +382,8 @@
           "hint": "Working on quality control problems in beer brewing, Søren Sørensen needed a convenient way to express the extremely small hydrogen-ion concentrations typical of most aqueous solutions, and introduced the now-familiar pH scale — a logarithmic measure compressing an enormous range of concentrations into a simple, manageable number, typically running from 0 to 14 for everyday solutions.",
           "note": "Sørensen, S.P.L. (1909). 'Enzymstudien II: Mitteilung über die Messung und die Bedeutung der Wasserstoffionenkonzentration bei enzymatischen Prozessen.' Biochemische Zeitschrift, 21, 131–200, at the Carlsberg Laboratory, Copenhagen. Sørensen's original notation used a subscript ('p_H'), later simplified typographically to the modern 'pH'; the scale's logarithmic nature means each whole-number step represents a tenfold change in actual hydrogen-ion concentration, a detail commonly missed by students first learning it.",
           "links": [
-            "th7"
+            "th7",
+            "fg8"
           ]
         },
         {
@@ -361,7 +401,8 @@
           "hint": "Humphry Davy passed a strong electric current through molten potassium hydroxide and, for the first time, isolated metallic potassium — a substance so reactive it burst into lilac flame on contact with water — followed weeks later by sodium using the same electrolytic method. It was the first demonstration that electricity could tear apart chemical compounds too tightly bound for any previously known chemical method to isolate their elements.",
           "note": "Davy, H. (1808). 'On Some New Phenomena of Chemical Changes Produced by Electricity.' Philosophical Transactions of the Royal Society, 98, 1–44, at the Royal Institution, London, describing work conducted in 1807. Davy went on to isolate calcium, barium, strontium, and magnesium using the same electrolytic technique within roughly a year, discovering more chemical elements than almost any other individual scientist in history.",
           "links": [
-            "th10"
+            "th10",
+            "fg9"
           ]
         },
         {
@@ -379,7 +420,8 @@
           "hint": "Michael Faraday quantified exactly how much of a substance gets deposited or dissolved at an electrode during electrolysis, showing it depends precisely, and only, on the total electric charge passed through the solution and the substance's own chemical properties — turning electrolysis from a qualitative curiosity into a quantitatively predictable process, and along the way providing some of the earliest solid evidence that electricity itself comes in discrete, particle-like units.",
           "note": "Faraday, M. (1834). 'Experimental Researches in Electricity, Seventh Series.' Philosophical Transactions of the Royal Society, at the Royal Institution, London. Faraday coined much of electrochemistry's core vocabulary specifically for this work — 'electrode,' 'electrolyte,' 'anode,' 'cathode,' and 'ion' — working with classical scholar William Whewell to choose Greek-rooted terms; Faraday's electromagnetic induction work the same decade is covered in the em-optics folio.",
           "links": [
-            "th10"
+            "th10",
+            "ap3"
           ],
           "xlinks": [
             "em-optics::fg6"
@@ -400,7 +442,9 @@
           "hint": "Alfred Werner proposed that transition metal ions bond to a fixed number of surrounding molecules or ions (ligands) arranged in specific three-dimensional geometric patterns around the metal centre, correctly predicting that certain cobalt compounds should exist as non-superimposable mirror-image pairs — a bold structural claim later confirmed experimentally, resolving decades of confused, contradictory formulas for these compounds.",
           "note": "Werner, A. (1893). 'Beitrag zur Konstitution anorganischer Verbindungen.' Zeitschrift für anorganische Chemie, 3(1), 267–330, at the University of Zurich. Werner's specific prediction of optical isomerism in an entirely inorganic cobalt complex, confirmed experimentally in 1911, was considered a particularly striking vindication since chirality had previously been assumed a distinctly organic-chemistry phenomenon; Werner received the 1913 Nobel Prize in Chemistry, the first inorganic chemist to do so.",
           "links": [
-            "th11"
+            "th11",
+            "me6",
+            "fg10"
           ]
         },
         {
@@ -418,7 +462,9 @@
           "hint": "Carl Remigius Fresenius devised a systematic step-by-step procedure — adding specific reagents in a fixed sequence, sorting ions into groups by which ones precipitate together — that let a chemist reliably identify exactly which ions were present in an unknown mixture, without needing to already suspect what might be there. The scheme became the standard teaching method for qualitative chemical analysis for well over a century.",
           "note": "Fresenius, C.R. (1841). Anleitung zur qualitativen chemischen Analyse. Bonn: Verlag der Henry und Cohen, developed at the University of Giessen under Justus von Liebig before Fresenius founded his own influential private analytical chemistry laboratory. Fresenius's systematic 'group analysis' scheme, though largely superseded by modern instrumental methods (see me4, me5), is still taught in many introductory chemistry courses as a foundational way to build reasoning about ionic behaviour in solution.",
           "links": [
-            "me2"
+            "me2",
+            "ef7",
+            "fg13"
           ]
         },
         {
@@ -436,7 +482,9 @@
           "hint": "Robert Bunsen and Gustav Kirchhoff burned a sample of mineral water residue over Bunsen's newly perfected clean-burning gas burner and, examining the flame's light through Kirchhoff's spectroscope, found spectral lines that matched no previously known element — the first time a genuinely new chemical element had been discovered purely by its spectroscopic signature, without ever isolating a visible quantity of the pure substance first.",
           "note": "Bunsen, R. & Kirchhoff, G. (1860). 'Chemische Analyse durch Spectralbeobachtungen.' Annalen der Physik und Chemie, 110, 161–189, at the University of Heidelberg, discovering caesium; rubidium followed by the same method the next year. The underlying spectroscopic theory explaining why each element produces its own unique spectral fingerprint is covered in the em-optics folio; this discovery is what first demonstrated the theory's practical power as a genuine analytical chemistry tool for identifying unknown substances.",
           "links": [
-            "me4"
+            "me4",
+            "ef1",
+            "fg11"
           ],
           "xlinks": [
             "em-optics::th11"
@@ -469,7 +517,8 @@
           "note": "Talbot, W.H.F. (1826). 'Some Experiments on Coloured Flames.' Edinburgh Journal of Science, 5, 77–81, at Lacock Abbey, Wiltshire. Talbot, better known today for his later pioneering work in photography, was among the first to systematically document and attempt to explain flame coloration scientifically; the technique remained a standard qualitative analysis tool for identifying metal ions for well over a century, eventually supplemented rather than replaced by the more precise spectroscopic method Bunsen and Kirchhoff developed decades later (see st11).",
           "links": [
             "th2",
-            "st11"
+            "st11",
+            "me4"
           ]
         },
         {
@@ -506,7 +555,8 @@
           "note": "Ostwald, W. (1889). Systematically documented within Ostwald's broader work formalising solution and dissociation equilibria, Leipzig University, building directly on Arrhenius's dissociation theory (see th7). The effect is exploited deliberately in gravimetric analysis (see me2), where a slight excess of precipitating reagent is added specifically to push a target ion's solubility equilibrium as far as possible toward complete precipitation before the precipitate is filtered, dried, and weighed.",
           "links": [
             "th9",
-            "co9"
+            "co9",
+            "me2"
           ]
         },
         {
@@ -645,7 +695,9 @@
           "hint": "Atoms of the same element always have the same number of protons, but can have different numbers of neutrons — these variants, called isotopes, behave almost identically in ordinary chemical reactions, since chemistry is governed by electron behaviour, but can differ dramatically in mass and in nuclear stability, some being perfectly stable and others radioactive.",
           "note": "Soddy, F. (1913). 'Intra-atomic Charge.' Nature, 92, 399–400, at the University of Glasgow, coining the term 'isotope' (Greek for 'same place,' since isotopes occupy the same position in the periodic table). Soddy developed the concept specifically to make sense of radioactive decay chains producing chemically identical but physically distinct products, work covered in more depth in the quantum-nuclear-relativity folio; Soddy received the 1921 Nobel Prize in Chemistry for the concept.",
           "links": [
-            "th1"
+            "th1",
+            "th2",
+            "me5"
           ],
           "xlinks": [
             "quantum-nuclear-relativity::ef4"
@@ -666,7 +718,8 @@
           "note": "Pauling, L. (1932). 'The Nature of the Chemical Bond. IV. The Energy of Single Bonds and the Relative Electronegativity of Atoms.' Journal of the American Chemical Society, 54(9), 3570–3582, at the California Institute of Technology, giving electronegativity its first quantitative numerical scale, still in standard use with only minor refinement today. Pauling's broader 1939 book The Nature of the Chemical Bond, synthesising quantum mechanics with practical chemical bonding theory, remains one of the most-cited chemistry texts of the twentieth century.",
           "links": [
             "th3",
-            "fg12"
+            "fg12",
+            "db2"
           ]
         },
         {
@@ -736,7 +789,8 @@
           "note": "Van Vleck, J.H. (1932, see ef8), extended through subsequent experimental spectrochemical studies across the following decades. Strong-field ligands like cyanide produce a large energy gap, often forcing electrons to pair up in the lower orbitals rather than spread out ('low-spin' complexes), while weak-field ligands like fluoride produce a small gap and electrons spread out across all available orbitals first ('high-spin') — a distinction with direct, measurable consequences for a complex's magnetism.",
           "links": [
             "th11",
-            "ef8"
+            "ef8",
+            "db5"
           ]
         },
         {
@@ -789,7 +843,9 @@
           "hint": "In a metal, outer electrons aren't bound to any single atom or shared between just two atoms as in a covalent bond — they move relatively freely throughout the entire structure, forming a shared 'sea' of electrons surrounding a lattice of positively charged metal ions, an arrangement that directly explains metals' characteristic electrical conductivity, malleability, and lustre.",
           "note": "Drude, P. (1900). 'Zur Elektronentheorie der Metalle.' Annalen der Physik, 306(3), 566–613, at the University of Leipzig, proposing the free-electron model of metallic bonding and conduction. Drude's original classical model, treating electrons like a gas of tiny billiard balls, gave a surprisingly good qualitative account of metallic behaviour despite being founded on physics later shown to be incorrect at the quantum level; Arnold Sommerfeld's 1927 quantum-mechanical refinement corrected the model's underlying assumptions while preserving most of its practical predictive success.",
           "links": [
-            "th3"
+            "th3",
+            "th9",
+            "ef3"
           ]
         }
       ]
@@ -818,7 +874,9 @@
           "note": "Mohr, K.F. (1855). Lehrbuch der chemisch-analytischen Titrirmethode. Braunschweig: Vieweg, written while Mohr practised as an apothecary in Koblenz before later becoming a university chemistry professor. Mohr's systematic textbook standardised titration technique and equipment (including the burette) into the rigorous, reproducible quantitative method still taught essentially unchanged in introductory chemistry laboratories today.",
           "links": [
             "th7",
-            "th9"
+            "th9",
+            "co8",
+            "ap6"
           ]
         },
         {
@@ -836,7 +894,8 @@
           "note": "Berzelius, J.J. (1810s–1826). Systematic gravimetric determinations underlying Berzelius's remarkably accurate table of atomic weights, Stockholm. Berzelius's meticulous gravimetric technique, refined over decades, produced atomic weight values accurate enough that many remained the accepted standard for the rest of the nineteenth century; the common ion effect (see ef3) is routinely exploited to push gravimetric precipitation as close to completion as possible before weighing.",
           "links": [
             "st10",
-            "ef3"
+            "ef3",
+            "co8"
           ]
         },
         {
@@ -870,7 +929,9 @@
           "hint": "Vaporise a sample into a flame and shine light of a specific wavelength through it, one exactly matching a particular element's own characteristic absorption line — the amount of light absorbed is directly proportional to how much of that element is present in the sample, letting even trace concentrations of specific metals be measured with high precision and selectivity.",
           "note": "Walsh, A. (1955). 'The Application of Atomic Absorption Spectra to Chemical Analysis.' Spectrochimica Acta, 7, 108–117, at CSIRO, Melbourne. Unlike flame emission testing (see ef1), which reads light a sample emits, atomic absorption spectroscopy measures light a sample absorbs from an external source — a distinction that made trace-metal analysis dramatically more sensitive and quantitatively reliable, and the technique became a standard tool across environmental, clinical, and industrial testing laboratories within two decades.",
           "links": [
-            "ef1"
+            "ef1",
+            "st11",
+            "ap4"
           ]
         },
         {
@@ -1164,7 +1225,8 @@
           "hint": "The periodic table's underlying pattern — elements' properties repeating regularly with atomic number — is a genuine, mind-independent fact about how atoms are built. But exactly where to draw the table's boundaries, which elements belong in which group, and even how many groups it should have has been redrawn and disputed repeatedly since Mendeleev, raising a real philosophical question about how much of the table's familiar rectangular shape is nature's structure and how much is a specific, contestable human choice about how to display it.",
           "note": "Scerri, E. (2007). The Periodic Table: Its Story and Its Significance. Oxford: Oxford University Press, at the University of California, Los Angeles — the standard scholarly reference on the periodic table's philosophy and history. Live disputes include exactly where hydrogen and helium belong, whether the lanthanides and actinides should be inset or fully integrated into the main body, and how far the classification scheme should extend into the still poorly characterised superheavy elements (see db4).",
           "links": [
-            "th1"
+            "th1",
+            "db4"
           ]
         },
         {
@@ -1182,7 +1244,9 @@
           "note": "Mulliken, R.S. (1932). 'Electronic Structures of Polyatomic Molecules and Valence.' Physical Review, 41(1), 49–71, at the University of Chicago. Mulliken received the 1966 Nobel Prize in Chemistry for developing molecular orbital theory; despite MO theory's generally superior accuracy, valence bond concepts including hybridisation remain widely taught in introductory chemistry for their greater intuitive accessibility, a pedagogical trade-off that itself remains actively debated among chemistry educators.",
           "links": [
             "th3",
-            "co2"
+            "co2",
+            "th4",
+            "db7"
           ]
         },
         {
@@ -1416,42 +1480,303 @@
       "icon": "🧪",
       "accent": "#7D3C98",
       "label": "Landmark Studies",
-      "events": []
+      "events": [
+        {
+          "y": 1662,
+          "l": "Boyle's Air Pump Experiments",
+          "entryId": "st3"
+        },
+        {
+          "y": 1807,
+          "l": "Davy Isolates Potassium & Sodium",
+          "entryId": "st7"
+        },
+        {
+          "y": 1808,
+          "l": "Gay-Lussac's Combining Volumes",
+          "entryId": "st4"
+        },
+        {
+          "y": 1834,
+          "l": "Faraday's Laws of Electrolysis",
+          "entryId": "st8"
+        },
+        {
+          "y": 1841,
+          "l": "Fresenius's Qualitative Analysis",
+          "entryId": "st10"
+        },
+        {
+          "y": 1860,
+          "l": "Discovery of Caesium & Rubidium",
+          "entryId": "st11"
+        },
+        {
+          "y": 1869,
+          "l": "Mendeleev's 1869 Periodic Table",
+          "entryId": "st1"
+        },
+        {
+          "y": 1884,
+          "l": "Arrhenius's Dissociation Theory",
+          "entryId": "st5"
+        },
+        {
+          "y": 1893,
+          "l": "Werner's Coordination Theory",
+          "entryId": "st9"
+        },
+        {
+          "y": 1909,
+          "l": "Sørensen Invents the pH Scale",
+          "entryId": "st6"
+        },
+        {
+          "y": 1913,
+          "l": "Moseley's X-ray Spectra",
+          "entryId": "st2"
+        }
+      ]
     },
     {
       "id": "theory",
       "icon": "📐",
       "accent": "#2471A3",
       "label": "Theories & Models",
-      "events": []
+      "events": [
+        {
+          "y": 1811,
+          "l": "Avogadro's Law",
+          "entryId": "th6"
+        },
+        {
+          "y": 1834,
+          "l": "The Ideal Gas Law",
+          "entryId": "th5"
+        },
+        {
+          "y": 1869,
+          "l": "Mendeleev's Periodic Law",
+          "entryId": "th1"
+        },
+        {
+          "y": 1884,
+          "l": "Le Chatelier's Principle",
+          "entryId": "th9"
+        },
+        {
+          "y": 1887,
+          "l": "Arrhenius Acid-Base Theory",
+          "entryId": "th7"
+        },
+        {
+          "y": 1889,
+          "l": "The Nernst Equation",
+          "entryId": "th10"
+        },
+        {
+          "y": 1916,
+          "l": "Lewis's Covalent Bond Theory",
+          "entryId": "th3"
+        },
+        {
+          "y": 1919,
+          "l": "Electron Configuration & Periodicity",
+          "entryId": "th2"
+        },
+        {
+          "y": 1923,
+          "l": "Brønsted-Lowry Theory",
+          "entryId": "th8"
+        },
+        {
+          "y": 1929,
+          "l": "Crystal Field Theory",
+          "entryId": "th11"
+        },
+        {
+          "y": 1957,
+          "l": "VSEPR Theory",
+          "entryId": "th4"
+        }
+      ]
     },
     {
       "id": "effect",
       "icon": "📊",
       "accent": "#117A65",
       "label": "Effects & Phenomena",
-      "events": []
+      "events": [
+        {
+          "y": 1826,
+          "l": "Flame Test Colors",
+          "entryId": "ef1"
+        },
+        {
+          "y": 1836,
+          "l": "Passivation",
+          "entryId": "ef4"
+        },
+        {
+          "y": 1841,
+          "l": "Amphoterism",
+          "entryId": "ef7"
+        },
+        {
+          "y": 1869,
+          "l": "The Tyndall Effect",
+          "entryId": "ef2"
+        },
+        {
+          "y": 1875,
+          "l": "The Diagonal Relationship",
+          "entryId": "ef6"
+        },
+        {
+          "y": 1889,
+          "l": "The Common Ion Effect",
+          "entryId": "ef3"
+        },
+        {
+          "y": 1923,
+          "l": "Rust & Electrochemical Corrosion",
+          "entryId": "ef5"
+        },
+        {
+          "y": 1932,
+          "l": "Transition Metal Complex Colors",
+          "entryId": "ef8"
+        },
+        {
+          "y": 1937,
+          "l": "Chemiluminescence",
+          "entryId": "ef9"
+        }
+      ]
     },
     {
       "id": "method",
       "icon": "🔬",
       "accent": "#8B5E00",
       "label": "Methods",
-      "events": []
+      "events": [
+        {
+          "y": 1818,
+          "l": "Gravimetric Analysis",
+          "entryId": "me2"
+        },
+        {
+          "y": 1855,
+          "l": "Titration",
+          "entryId": "me1"
+        },
+        {
+          "y": 1906,
+          "l": "Column Chromatography",
+          "entryId": "me3"
+        },
+        {
+          "y": 1913,
+          "l": "X-ray Crystallography",
+          "entryId": "me6"
+        },
+        {
+          "y": 1919,
+          "l": "Mass Spectrometry",
+          "entryId": "me5"
+        },
+        {
+          "y": 1955,
+          "l": "Atomic Absorption Spectroscopy",
+          "entryId": "me4"
+        }
+      ]
     },
     {
       "id": "debate",
       "icon": "⚖️",
       "accent": "#B7770D",
       "label": "Debates & Revisions",
-      "events": []
+      "events": [
+        {
+          "y": 1923,
+          "l": "Which Acid-Base Definition Wins?",
+          "entryId": "db3"
+        },
+        {
+          "y": 1932,
+          "l": "Valence Bond vs. Molecular Orbital",
+          "entryId": "db2"
+        },
+        {
+          "y": 1952,
+          "l": "Crystal Field vs. Ligand Field",
+          "entryId": "db5"
+        },
+        {
+          "y": 1966,
+          "l": "The Polywater Controversy",
+          "entryId": "db8"
+        },
+        {
+          "y": 1981,
+          "l": "Is Chemistry Reducible to Physics?",
+          "entryId": "db7"
+        },
+        {
+          "y": 1989,
+          "l": "The Cold Fusion Controversy",
+          "entryId": "db6"
+        },
+        {
+          "y": 2007,
+          "l": "Periodic Table: Discovery or Construct?",
+          "entryId": "db1"
+        },
+        {
+          "y": 2007,
+          "l": "Do Superheavy Elements Count?",
+          "entryId": "db4"
+        }
+      ]
     },
     {
       "id": "application",
       "icon": "🔗",
       "accent": "#2E86C1",
       "label": "Applications",
-      "events": []
+      "events": [
+        {
+          "y": 1836,
+          "l": "Forensic Toxicology: Marsh Test",
+          "entryId": "ap4"
+        },
+        {
+          "y": 1859,
+          "l": "Rechargeable Batteries",
+          "entryId": "ap3"
+        },
+        {
+          "y": 1908,
+          "l": "Water Treatment & Purification",
+          "entryId": "ap1"
+        },
+        {
+          "y": 1909,
+          "l": "The Haber-Bosch Process",
+          "entryId": "ap2"
+        },
+        {
+          "y": 1945,
+          "l": "Complexometric (EDTA) Titration",
+          "entryId": "ap6"
+        },
+        {
+          "y": 1975,
+          "l": "Catalytic Converters",
+          "entryId": "ap5"
+        }
+      ]
     }
   ]
 }
