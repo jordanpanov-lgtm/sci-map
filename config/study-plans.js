@@ -4,6 +4,51 @@
 // are available as globals to the renderer.
 
 const STUDY_PLANS = {
+  'em-optics': {
+    meta: "Groups content thematically rather than by category: after the founders and the field's core measurement methods, each module works through one branch — static and circuit electricity, magnetism and induction, Maxwell's grand unification, geometric optics, wave optics, and the electromagnetic spectrum — carrying that branch's theorems, landmark experiments, named phenomena, and live debates together, ending where Maxwell's own equations point next: toward the quantum and relativistic physics of light itself.",
+    modules: [
+      {
+        title: '1 — Founders & the Field',
+        rationale: 'From Franklin\'s kite to Röntgen\'s accidental glow, a remarkably concentrated burst of nineteenth-century discovery connected phenomena that had looked completely unrelated for two thousand years. Knowing the people first turns every later module into a continuation of the specific questions they were chasing.',
+        groups: ['Pioneers & Theorists']
+      },
+      {
+        title: '2 — Research Methods',
+        rationale: 'The Wheatstone bridge, the Michelson interferometer, diffraction-grating spectroscopy, the method of images, polarimetry, and the galvanometer are the actual instruments and techniques that generated every result in the modules that follow.',
+        cats: ['method']
+      },
+      {
+        title: '3 — Electrostatics & Circuits',
+        rationale: 'Start with static charge and steady current — Coulomb\'s inverse-square law and Ohm\'s voltage-current-resistance relationship — the foundation every later module\'s electrical half quietly depends on.',
+        groups: ['Electrostatics & Circuits']
+      },
+      {
+        title: '4 — Magnetism & Electromagnetic Induction',
+        rationale: 'Ørsted\'s chance lecture-hall observation that a current deflects a compass needle set off a continent-wide race to work out exactly how electricity and magnetism connect — a connection that turns out to run in both directions.',
+        groups: ['Magnetism & Electromagnetic Induction']
+      },
+      {
+        title: '5 — Maxwell\'s Equations & Electromagnetic Waves',
+        rationale: 'Four compact equations unify electricity, magnetism, and light into one field theory, predicting a self-sustaining wave that Hertz then built in his own laboratory — arguably the fastest journey from pure theoretical unification to experimental confirmation in nineteenth-century physics.',
+        groups: ['Maxwell\'s Equations & Electromagnetic Waves']
+      },
+      {
+        title: '6 — Geometric Optics',
+        rationale: 'From Ibn al-Haytham\'s eleventh-century refutation of ancient vision theory to Snell\'s precise law of refraction, the straight-line, ray-tracing picture of light that still designs every lens and mirror in use today.',
+        groups: ['Geometric Optics']
+      },
+      {
+        title: '7 — Wave Optics: Interference, Diffraction & Polarization',
+        rationale: 'Where light stops behaving like a simple ray and starts revealing its wave nature directly — interference fringes, a bright spot inside a shadow, and a polarising crystal that splits one beam into two — overturning a century of Newtonian orthodoxy in the process.',
+        groups: ['Wave Optics: Interference, Diffraction & Polarization']
+      },
+      {
+        title: '8 — The Electromagnetic Spectrum & Spectroscopy',
+        rationale: 'Visible light turns out to be a narrow slice of a vastly wider spectrum — infrared, X-rays, radio — each discovered almost by accident, and each carrying its own chemical or communicative fingerprint once spectroscopy learned to read it.',
+        groups: ['The Electromagnetic Spectrum & Spectroscopy']
+      }
+    ]
+  },
   'classical-physics': {
     meta: "Groups content thematically rather than by category: after the founders and the field's core investigative methods, each module works through one branch of classical physics — Newtonian mechanics, energy, oscillations, fluids, thermodynamics, statistical mechanics, and analytical mechanics — carrying that branch's theorems, landmark experiments, named phenomena, and live debates together, ending with the most abstract reformulation of mechanics, which sets up the direct bridge into quantum theory.",
     modules: [
