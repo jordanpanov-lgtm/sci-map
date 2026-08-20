@@ -452,7 +452,175 @@
       "accent": "#117A65",
       "bg": "#F0FFF6",
       "subtitle": "Named, replicable patterns in chemical systems",
-      "entries": []
+      "entries": [
+        {
+          "id": "ef1",
+          "group": "Atomic Structure & the Periodic Table",
+          "label": "Flame Test Colors",
+          "date": "1826",
+          "loc": "Lacock, England",
+          "coords": [
+            51.42,
+            -2.12
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Hold a sample of a metal salt in a flame and it burns with a distinctive colour — sodium a bright yellow-orange, potassium a pale lilac, copper a vivid blue-green, strontium a deep red — because the flame's heat excites the metal's electrons to a higher energy level, and they release that exact same energy as a specific colour of light when they drop back down.",
+          "note": "Talbot, W.H.F. (1826). 'Some Experiments on Coloured Flames.' Edinburgh Journal of Science, 5, 77–81, at Lacock Abbey, Wiltshire. Talbot, better known today for his later pioneering work in photography, was among the first to systematically document and attempt to explain flame coloration scientifically; the technique remained a standard qualitative analysis tool for identifying metal ions for well over a century, eventually supplemented rather than replaced by the more precise spectroscopic method Bunsen and Kirchhoff developed decades later (see st11).",
+          "links": [
+            "th2",
+            "st11"
+          ]
+        },
+        {
+          "id": "ef2",
+          "group": "Analytical Methods & Instrumentation",
+          "label": "The Tyndall Effect",
+          "date": "1869",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Shine a beam of light through a solution containing microscopic suspended particles too small to see individually — a colloid — and the beam itself becomes visible as a glowing path, scattered sideways by the particles, the same way a car's headlight beam becomes visible in fog. A true solution, with no suspended particles at all, produces no such visible beam, making the effect a simple, reliable way to distinguish a colloid from a genuine solution.",
+          "note": "Tyndall, J. (1869). 'On the Blue Colour of the Sky, the Polarization of Skylight, and on the Polarization of Light by Cloudy Matter Generally.' Philosophical Magazine, 37(250), 384–394, at the Royal Institution, London. The same scattering principle explains the sky's blue colour, though Tyndall's own explanation was later refined by Lord Rayleigh's more complete mathematical treatment of the wavelength-dependence involved; in analytical chemistry, the effect remains a quick qualitative test for distinguishing colloidal suspensions from true solutions.",
+          "links": [
+            "co7"
+          ]
+        },
+        {
+          "id": "ef3",
+          "group": "Acids, Bases & Aqueous Chemistry",
+          "label": "The Common Ion Effect",
+          "date": "1889",
+          "loc": "Leipzig, Germany",
+          "coords": [
+            51.34,
+            12.37
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Adding a soluble salt that shares an ion with a slightly soluble compound already at equilibrium in solution pushes that equilibrium to produce even less of the dissolved compound than usual — a direct, predictable consequence of Le Chatelier's principle applied specifically to solubility equilibria, and a standard trick analytical chemists use to force a target ion out of solution as a precipitate for accurate measurement.",
+          "note": "Ostwald, W. (1889). Systematically documented within Ostwald's broader work formalising solution and dissociation equilibria, Leipzig University, building directly on Arrhenius's dissociation theory (see th7). The effect is exploited deliberately in gravimetric analysis (see me2), where a slight excess of precipitating reagent is added specifically to push a target ion's solubility equilibrium as far as possible toward complete precipitation before the precipitate is filtered, dried, and weighed.",
+          "links": [
+            "th9",
+            "co9"
+          ]
+        },
+        {
+          "id": "ef4",
+          "group": "Oxidation-Reduction & Electrochemistry",
+          "label": "Passivation",
+          "date": "1836",
+          "loc": "Basel, Switzerland",
+          "coords": [
+            47.56,
+            7.59
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Some metals, when exposed to an oxidising environment, form a thin, tightly adherent oxide layer on their surface that then blocks further oxidation from reaching the metal underneath — aluminium and stainless steel both owe their everyday corrosion resistance entirely to this self-limiting protective layer, rather than to any inherent unreactivity of the metal itself.",
+          "note": "Schönbein, C.F. (1836). Described iron's unexpectedly unreactive behaviour in concentrated nitric acid, University of Basel — a puzzling result at the time, since iron reacts readily with dilute nitric acid. Faraday independently investigated the same phenomenon shortly afterward; the passivating oxide layer on aluminium is typically only a few nanometres thick yet remains remarkably effective, and can be deliberately thickened through anodising for additional protection or decorative colouring.",
+          "links": [
+            "ef5"
+          ]
+        },
+        {
+          "id": "ef5",
+          "group": "Oxidation-Reduction & Electrochemistry",
+          "label": "Rust and Electrochemical Corrosion",
+          "date": "1923",
+          "loc": "Cambridge, England",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Iron rusting isn't a single simple reaction with oxygen but a genuine electrochemical process, with distinct anode and cathode regions forming on the same piece of metal — iron dissolving into solution as ions at one spot while oxygen is reduced at another, with electrons flowing between them through the metal itself, exactly like a tiny short-circuited battery slowly consuming its own electrode.",
+          "note": "Evans, U.R. (1923–1924). 'The Distribution and Velocity of the Corrosion of Metals.' Journal of the Society of Chemical Industry, established the electrochemical mechanism of aqueous corrosion at the University of Cambridge, work that founded corrosion science as a systematic discipline. Unlike passivation (see ef4), which stops further reaction, ordinary rust — hydrated iron oxide — is flaky and porous, and provides no protective barrier at all, letting corrosion continue unimpeded beneath it.",
+          "links": [
+            "ef4",
+            "th10"
+          ]
+        },
+        {
+          "id": "ef6",
+          "group": "Atomic Structure & the Periodic Table",
+          "label": "The Diagonal Relationship",
+          "date": "1875",
+          "loc": "St. Petersburg, Russia",
+          "coords": [
+            59.93,
+            30.34
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Certain pairs of elements diagonally adjacent to each other on the periodic table — lithium and magnesium, beryllium and aluminium, boron and silicon — behave chemically more like each other than like the other elements directly above or below them in their own column, a genuine exception to the periodic table's usual same-column-means-similar-properties rule.",
+          "note": "Noted and progressively refined by multiple chemists working with Mendeleev's periodic arrangement through the 1870s and 1880s as more elements' detailed properties became known, rather than traced to any single discovery paper. The pattern arises from a balance of competing size and charge-density trends that happen to roughly cancel out along the diagonal; it remains a standard teaching example of a periodic 'exception that proves the rule,' illustrating that the table's neat columnar logic is a strong general tendency rather than an absolute guarantee.",
+          "links": [
+            "th1"
+          ]
+        },
+        {
+          "id": "ef7",
+          "group": "Acids, Bases & Aqueous Chemistry",
+          "label": "Amphoterism",
+          "date": "1841",
+          "loc": "Giessen, Germany",
+          "coords": [
+            50.58,
+            8.68
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Some compounds, including aluminium and zinc hydroxide, can react as either an acid or a base depending on what they're reacting with — dissolving in strong acid by acting basic, and dissolving in strong base by acting acidic, while remaining stubbornly insoluble in between. The property became a practical tool for separating these metals from others during systematic qualitative analysis.",
+          "note": "Documented within Fresenius's systematic qualitative analysis scheme (1841, see st10), which deliberately exploited aluminium and zinc hydroxides' amphoteric solubility behaviour to separate them from other precipitating metal ions during group analysis. The word 'amphoteric' derives from the Greek for 'both,' reflecting the substance's genuinely dual acid-and-base character rather than some intermediate, weakly-either-one behaviour.",
+          "links": [
+            "th8",
+            "st10"
+          ]
+        },
+        {
+          "id": "ef8",
+          "group": "Coordination Chemistry & Transition Metals",
+          "label": "Transition Metal Complex Colors",
+          "date": "1932",
+          "loc": "Madison, Wisconsin",
+          "coords": [
+            43.07,
+            -89.4
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Transition metal compounds are often vividly, characteristically coloured — copper sulfate's blue, potassium permanganate's deep purple, the varying colours of different chromium and cobalt complexes — because crystal field splitting (see th11) creates an energy gap between d-orbitals small enough that ordinary visible light can bump an electron from the lower level to the higher one, absorbing specific wavelengths and leaving the complementary colour to reach the eye.",
+          "note": "Van Vleck, J.H. (1932). 'Theory of the Variations in Paramagnetic Anisotropy Among Different Salts of the Iron Group.' Physical Review, 41(2), 208–215, at the University of Wisconsin–Madison, applying Bethe's crystal field mathematics (see th11) directly to explain transition metal complexes' colour and magnetic behaviour. The exact colour observed depends sensitively on the specific ligands present and their arrangement, since different ligands split the d-orbitals by different amounts — the basis of the experimentally derived 'spectrochemical series' ranking ligands by splitting strength.",
+          "links": [
+            "th11",
+            "co6"
+          ]
+        },
+        {
+          "id": "ef9",
+          "group": "Coordination Chemistry & Transition Metals",
+          "label": "Chemiluminescence",
+          "date": "1937",
+          "loc": "Jena, Germany",
+          "coords": [
+            50.93,
+            11.59
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Certain chemical reactions release their energy directly as visible light rather than as heat, with no flame or external light source needed at all — luminol famously glows blue when it reacts with an oxidiser in the presence of even trace amounts of iron, which is present in haemoglobin, making it a standard forensic tool for detecting invisible trace blood at crime scenes.",
+          "note": "Specht, W. (1937). 'Die Chemiluminescenz des Hämins, ein Hilfsmittel zur Auffindung und Erkennung forensisch wichtiger Blutspuren.' Angewandte Chemie, 50(8), 155–157, University of Jena, establishing luminol's forensic blood-detection application. The iron in haemoglobin acts as a catalyst for the light-producing reaction rather than being consumed by it, meaning luminol can detect blood at concentrations far too dilute to see by eye, though it also produces false positives with certain other metal ions and bleaching agents.",
+          "links": [
+            "th11"
+          ]
+        }
+      ]
     },
     {
       "id": "concept",
@@ -462,7 +630,169 @@
       "accent": "#566573",
       "bg": "#F5F6FA",
       "subtitle": "The building blocks and vocabulary every student must command",
-      "entries": []
+      "entries": [
+        {
+          "id": "co1",
+          "group": "Atomic Structure & the Periodic Table",
+          "label": "Isotopes",
+          "date": "1913",
+          "loc": "Glasgow, Scotland",
+          "coords": [
+            55.86,
+            -4.25
+          ],
+          "tag": "CONCEPT",
+          "hint": "Atoms of the same element always have the same number of protons, but can have different numbers of neutrons — these variants, called isotopes, behave almost identically in ordinary chemical reactions, since chemistry is governed by electron behaviour, but can differ dramatically in mass and in nuclear stability, some being perfectly stable and others radioactive.",
+          "note": "Soddy, F. (1913). 'Intra-atomic Charge.' Nature, 92, 399–400, at the University of Glasgow, coining the term 'isotope' (Greek for 'same place,' since isotopes occupy the same position in the periodic table). Soddy developed the concept specifically to make sense of radioactive decay chains producing chemically identical but physically distinct products, work covered in more depth in the quantum-nuclear-relativity folio; Soddy received the 1921 Nobel Prize in Chemistry for the concept.",
+          "links": [
+            "th1"
+          ],
+          "xlinks": [
+            "quantum-nuclear-relativity::ef4"
+          ]
+        },
+        {
+          "id": "co2",
+          "group": "Chemical Bonding & Molecular Structure",
+          "label": "Electronegativity",
+          "date": "1932",
+          "loc": "Pasadena, California",
+          "coords": [
+            34.14,
+            -118.13
+          ],
+          "tag": "CONCEPT",
+          "hint": "Electronegativity measures how strongly an atom pulls shared bonding electrons toward itself within a covalent bond — a large electronegativity difference between two bonded atoms produces a polar bond with unevenly shared electrons, or a fully ionic bond at the extreme, while a small or zero difference produces a nonpolar, evenly shared covalent bond.",
+          "note": "Pauling, L. (1932). 'The Nature of the Chemical Bond. IV. The Energy of Single Bonds and the Relative Electronegativity of Atoms.' Journal of the American Chemical Society, 54(9), 3570–3582, at the California Institute of Technology, giving electronegativity its first quantitative numerical scale, still in standard use with only minor refinement today. Pauling's broader 1939 book The Nature of the Chemical Bond, synthesising quantum mechanics with practical chemical bonding theory, remains one of the most-cited chemistry texts of the twentieth century.",
+          "links": [
+            "th3",
+            "fg12"
+          ]
+        },
+        {
+          "id": "co3",
+          "group": "Gas Laws & States of Matter",
+          "label": "The Mole and Molar Mass",
+          "date": "1893",
+          "loc": "Leipzig, Germany",
+          "coords": [
+            51.34,
+            12.37
+          ],
+          "tag": "CONCEPT",
+          "hint": "A mole is simply a fixed, enormous number of particles — roughly 6.022 × 10²³, chosen so that one mole of any substance has a mass in grams numerically equal to that substance's atomic or molecular weight — letting chemists convert directly and easily between a measurable mass on a laboratory balance and an actual particle count, without which chemical formulas and reaction stoichiometry would be nearly impossible to work with practically.",
+          "note": "Ostwald, W. (1893). Introduced the term 'Mol' as a standard chemical unit of amount, University of Leipzig, building on Avogadro's hypothesis (see th6) once Cannizzaro's 1860 arguments had settled the atomic-versus-molecular-weight confusion that preceded it. The mole became one of the seven SI base units in 1971; the precise numerical value of Avogadro's number was not measured with real accuracy until decades after the unit itself was already in standard use.",
+          "links": [
+            "th6"
+          ]
+        },
+        {
+          "id": "co4",
+          "group": "Acids, Bases & Aqueous Chemistry",
+          "label": "Buffer Solutions",
+          "date": "1908",
+          "loc": "Boston, Massachusetts",
+          "coords": [
+            42.36,
+            -71.06
+          ],
+          "tag": "CONCEPT",
+          "hint": "A buffer solution resists changes to its own pH when small amounts of acid or base are added, by containing both a weak acid and its conjugate base together in solution — one component neutralises added acid, the other neutralises added base, keeping the overall pH remarkably stable across a moderate range of additions.",
+          "note": "Henderson, L.J. (1908). 'Concerning the Relationship between the Strength of Acids and Their Capacity to Preserve Neutrality.' American Journal of Physiology, 21(4), 173–179, at Harvard University, describing buffering in blood plasma; Karl Albert Hasselbalch put Henderson's relationship into its now-standard logarithmic form in 1916. Blood itself is buffered primarily by the carbonic acid–bicarbonate system, keeping its pH within an extremely narrow range despite continuous metabolic acid production, a stability essential to survival.",
+          "links": [
+            "th7",
+            "th8"
+          ]
+        },
+        {
+          "id": "co5",
+          "group": "Oxidation-Reduction & Electrochemistry",
+          "label": "Oxidation States",
+          "date": "1938",
+          "loc": "Berkeley, California",
+          "coords": [
+            37.87,
+            -122.27
+          ],
+          "tag": "CONCEPT",
+          "hint": "An oxidation state is a bookkeeping number assigned to an atom in a compound, tracking how many electrons it has effectively gained or lost relative to its neutral, uncombined state — a convenient fiction that doesn't always correspond to a literal, fully transferred electron, but that lets chemists identify at a glance exactly which atoms are being oxidised and which are being reduced in any given reaction.",
+          "note": "Latimer, W.M. (1938). The Oxidation States of the Elements and Their Potentials in Aqueous Solutions. New York: Prentice-Hall, written at the University of California, Berkeley, systematising oxidation-state diagrams and standard reduction potentials into the standard reference framework still used today. Latimer diagrams let chemists predict at a glance whether a given oxidation state of an element is likely to be stable or will spontaneously disproportionate into higher and lower states instead.",
+          "links": [
+            "th10"
+          ]
+        },
+        {
+          "id": "co6",
+          "group": "Coordination Chemistry & Transition Metals",
+          "label": "Ligand Field Splitting",
+          "date": "1932",
+          "loc": "Madison, Wisconsin",
+          "coords": [
+            43.07,
+            -89.4
+          ],
+          "tag": "CONCEPT",
+          "hint": "Different ligands split a transition metal's d-orbital energies by different amounts when they bond to it, and chemists have experimentally ranked common ligands into a 'spectrochemical series' from weakest to strongest splitters — a ranking that lets the colour, magnetic behaviour, and even reactivity of a new coordination complex be predicted in advance, just from knowing which ligands are attached.",
+          "note": "Van Vleck, J.H. (1932, see ef8), extended through subsequent experimental spectrochemical studies across the following decades. Strong-field ligands like cyanide produce a large energy gap, often forcing electrons to pair up in the lower orbitals rather than spread out ('low-spin' complexes), while weak-field ligands like fluoride produce a small gap and electrons spread out across all available orbitals first ('high-spin') — a distinction with direct, measurable consequences for a complex's magnetism.",
+          "links": [
+            "th11",
+            "ef8"
+          ]
+        },
+        {
+          "id": "co7",
+          "group": "Analytical Methods & Instrumentation",
+          "label": "Chromatography and the Rf Value",
+          "date": "1944",
+          "loc": "Cambridge, England",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "tag": "CONCEPT",
+          "hint": "As a mixture travels across a chromatography medium carried by a moving solvent, different substances travel at different characteristic speeds depending on how strongly each one is attracted to the stationary medium versus the moving solvent — the 'retardation factor' (Rf), the ratio of how far a substance travelled compared to the solvent front, giving each substance a reproducible, identifiable numerical fingerprint under fixed conditions.",
+          "note": "Consden, R., Gordon, A.H. & Martin, A.J.P. (1944). 'Qualitative Analysis of Proteins: A Partition Chromatographic Method Using Paper.' Biochemical Journal, 38(3), 224–232, at the Lister Institute and Cambridge, introducing paper chromatography and formalising the Rf value as a standard, reproducible quantity. Archer Martin shared the 1952 Nobel Prize in Chemistry for partition chromatography, a technique that traces back to Mikhail Tsvet's original 1906 column method (see me3) but that this paper made dramatically simpler and more widely accessible.",
+          "links": [
+            "me3",
+            "ef2"
+          ]
+        },
+        {
+          "id": "co8",
+          "group": "Analytical Methods & Instrumentation",
+          "label": "Significant Figures and Measurement Uncertainty",
+          "date": "1926",
+          "loc": "Washington, D.C.",
+          "coords": [
+            38.91,
+            -77.04
+          ],
+          "tag": "CONCEPT",
+          "hint": "Every physical measurement carries some inherent uncertainty, and the number of significant figures reported for a value is meant to honestly communicate how precisely that value is actually known — reporting more digits than the measuring instrument can genuinely support doesn't create false extra precision, it just misrepresents how reliable the number really is.",
+          "note": "Formalised as standard practice within American and European analytical chemistry pedagogy and quality-control literature through the 1920s, notably reflected in early US National Bureau of Standards measurement guidance, Washington, D.C. Consistent significant-figure and propagation-of-error conventions became essential once quantitative analytical chemistry — titration, gravimetric analysis (see me1, me2) — required results precise and honest enough to be meaningfully compared between different laboratories and instruments.",
+          "links": [
+            "me1",
+            "me2"
+          ]
+        },
+        {
+          "id": "co9",
+          "group": "Chemical Bonding & Molecular Structure",
+          "label": "Metallic Bonding",
+          "date": "1900",
+          "loc": "Leipzig, Germany",
+          "coords": [
+            51.34,
+            12.37
+          ],
+          "tag": "CONCEPT",
+          "hint": "In a metal, outer electrons aren't bound to any single atom or shared between just two atoms as in a covalent bond — they move relatively freely throughout the entire structure, forming a shared 'sea' of electrons surrounding a lattice of positively charged metal ions, an arrangement that directly explains metals' characteristic electrical conductivity, malleability, and lustre.",
+          "note": "Drude, P. (1900). 'Zur Elektronentheorie der Metalle.' Annalen der Physik, 306(3), 566–613, at the University of Leipzig, proposing the free-electron model of metallic bonding and conduction. Drude's original classical model, treating electrons like a gas of tiny billiard balls, gave a surprisingly good qualitative account of metallic behaviour despite being founded on physics later shown to be incorrect at the quantum level; Arnold Sommerfeld's 1927 quantum-mechanical refinement corrected the model's underlying assumptions while preserving most of its practical predictive success.",
+          "links": [
+            "th3"
+          ]
+        }
+      ]
     },
     {
       "id": "method",
