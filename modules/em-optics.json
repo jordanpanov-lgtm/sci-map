@@ -794,7 +794,115 @@
       "accent": "#8B5E00",
       "bg": "#FFF8F0",
       "subtitle": "The tools and paradigms that generate the field's evidence",
-      "entries": []
+      "entries": [
+        {
+          "id": "me1",
+          "group": "Electrostatics & Circuits",
+          "label": "The Wheatstone Bridge",
+          "date": "1843",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "METHOD",
+          "hint": "To measure an unknown electrical resistance with high precision, arrange it in a diamond-shaped circuit alongside three known resistances, and adjust one of the known values until a sensitive galvanometer bridging the circuit's middle reads exactly zero current — at that balance point, the unknown resistance can be calculated purely from the three known ones, with no need to precisely calibrate the measuring galvanometer itself at all.",
+          "note": "Wheatstone, C. (1843). 'An Account of Several New Instruments and Processes for Determining the Constants of a Voltaic Circuit.' Philosophical Transactions of the Royal Society, London, popularising a circuit first described by Samuel Hunter Christie in 1833. Wheatstone openly credited Christie's earlier work and never claimed to have invented the bridge himself, though his name became permanently attached to it through his effective promotion and refinement of the technique.",
+          "links": [
+            "th2"
+          ]
+        },
+        {
+          "id": "me2",
+          "group": "Wave Optics: Interference, Diffraction & Polarization",
+          "label": "The Michelson Interferometer",
+          "date": "1893",
+          "loc": "Sèvres, France",
+          "coords": [
+            48.82,
+            2.2
+          ],
+          "tag": "METHOD",
+          "hint": "An interferometer splits a single beam of light into two paths, sends them along different routes, then recombines them — any difference in the two paths' length, down to a small fraction of the light's own wavelength, shows up as a shift in the resulting interference pattern. Albert Michelson used the technique to redefine the metre itself in terms of a specific, exactly reproducible wavelength of light, rather than a single physical bar of metal that could be damaged, lost, or subtly change size over time.",
+          "note": "Michelson, A.A. (1893). Measurements conducted at the International Bureau of Weights and Measures, Sèvres, near Paris, redefining the metre as a specific number of wavelengths of cadmium red light. Michelson had built the same basic interferometer design over a decade earlier for a quite different purpose — attempting to detect Earth's motion through a hypothesised luminiferous ether — work covered in the quantum-nuclear-relativity folio; the instrument itself became one of the most widely used precision measurement tools in physics regardless of that experiment's outcome.",
+          "links": [
+            "co6"
+          ],
+          "xlinks": [
+            "quantum-nuclear-relativity::st1"
+          ]
+        },
+        {
+          "id": "me3",
+          "group": "The Electromagnetic Spectrum & Spectroscopy",
+          "label": "Diffraction Grating Spectroscopy",
+          "date": "1821",
+          "loc": "Munich, Germany",
+          "coords": [
+            48.14,
+            11.58
+          ],
+          "tag": "METHOD",
+          "hint": "A diffraction grating — a surface ruled with thousands of closely, precisely spaced parallel lines — splits light into its component wavelengths far more sharply and measurably than a simple prism, since each wavelength diffracts at its own distinct, calculable angle. The technique turned spectroscopy from a qualitative art of comparing colours by eye into a precise measurement science capable of pinning down wavelengths to fractions of a nanometre.",
+          "note": "Fraunhofer, J. von (1821). 'Neue Modifikation des Lichtes durch gegenseitige Einwirkung und Beugung der Strahlen.' Denkschriften der Königlichen Akademie der Wissenschaften zu München, at his optical workshop in Munich, where Fraunhofer ruled gratings using a precision dividing engine of his own design. Modern diffraction gratings, ruled or holographically produced with thousands of lines per millimetre, remain the core dispersive element in essentially every research-grade spectrometer built since.",
+          "links": [
+            "co7",
+            "fg12"
+          ]
+        },
+        {
+          "id": "me4",
+          "group": "Electrostatics & Circuits",
+          "label": "The Method of Images",
+          "date": "1848",
+          "loc": "Glasgow, Scotland",
+          "coords": [
+            55.86,
+            -4.25
+          ],
+          "tag": "METHOD",
+          "hint": "Some electrostatics problems involving charges near a conducting surface — a charge near a flat grounded plate, or near a grounded sphere — can be solved exactly by replacing the awkward conducting boundary with a cleverly placed fictitious 'image' charge on the far side, chosen so its field exactly reproduces the boundary's real effect, then simply calculating the field from the real and image charges together as if the boundary weren't there at all.",
+          "note": "Thomson, W. [Lord Kelvin] (1848). 'Extraits de deux lettres adressées à M. Liouville.' Journal de Mathématiques Pures et Appliquées, written at the University of Glasgow and communicated to the Paris mathematician Joseph Liouville. The technique reduces certain problems that would otherwise require solving a difficult partial differential equation (Laplace's equation) with awkward boundary conditions into simple, direct algebra, and remains a standard textbook tool in electromagnetism courses.",
+          "links": [
+            "th1"
+          ]
+        },
+        {
+          "id": "me5",
+          "group": "Wave Optics: Interference, Diffraction & Polarization",
+          "label": "Polarimetry",
+          "date": "1815",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "METHOD",
+          "hint": "Certain substances, including many sugars and other biologically important molecules, rotate the plane of polarised light passing through them by an amount proportional to the substance's concentration — letting a polarimeter measure a solution's concentration purely optically, by the angle of rotation, with no chemical reaction or destructive testing required.",
+          "note": "Biot, J.B. (1815). 'Phénomènes de polarisation successive, observés dans des fluides homogènes.' Bulletin des Sciences par la Société Philomathique de Paris, at the Collège de France. The technique became commercially indispensable to the nineteenth-century sugar industry for rapidly and non-destructively grading raw sugar purity, and the underlying molecular property it detects — chirality, a molecule's 'handedness' — is now recognised as fundamental to biochemistry and pharmacology, since a chiral drug's two mirror-image forms can have entirely different biological effects.",
+          "links": [
+            "th10",
+            "co9"
+          ]
+        },
+        {
+          "id": "me6",
+          "group": "Magnetism & Electromagnetic Induction",
+          "label": "The Galvanometer",
+          "date": "1820",
+          "loc": "Halle, Germany",
+          "coords": [
+            51.48,
+            11.97
+          ],
+          "tag": "METHOD",
+          "hint": "Ørsted had shown a compass needle deflects near a current-carrying wire, but the effect was faint; Johann Schweigger's insight was to wind the wire into a multi-turn coil around the compass needle, so each loop's magnetic field added to the others, multiplying the deflection many times over and turning a barely visible curiosity into a genuinely usable instrument for detecting and measuring small electric currents.",
+          "note": "Schweigger, J.S.C. (1820). 'Elektromagnetischer Multiplicator.' Journal für Chemie und Physik, at the University of Halle, built within months of Ørsted's discovery (see st3). Refined galvanometer designs remained the standard method for measuring electric current for over a century, directly enabling Ohm's precision resistance measurements (see th2) and countless subsequent experiments across electromagnetism.",
+          "links": [
+            "st3"
+          ]
+        }
+      ]
     },
     {
       "id": "figure",
@@ -804,7 +912,232 @@
       "accent": "#B7770D",
       "bg": "#FEFDE7",
       "subtitle": "The researchers who shaped the discipline",
-      "entries": []
+      "entries": [
+        {
+          "id": "fg1",
+          "group": "Pioneers & Theorists",
+          "label": "Benjamin Franklin",
+          "date": "1752",
+          "loc": "Philadelphia, Pennsylvania",
+          "coords": [
+            39.95,
+            -75.17
+          ],
+          "tag": "FIGURE",
+          "hint": "Beyond his political career, Franklin was one of the eighteenth century's most respected electrical researchers, coining the terms 'positive' and 'negative' charge, 'battery,' and 'conductor' still used today, and proposing the (as it turned out, arbitrary and now permanently backward) convention for which type of charge counts as 'positive' — a choice later revealed by electron discovery to have picked the direction opposite to how electrons actually flow.",
+          "note": "Franklin, B. Kite experiment (1752, see st1); also inventor of the lightning rod, a practical application of his electrical theories that spread across Europe and America within his own lifetime. Franklin's single-fluid theory of electricity — that electrical phenomena involve one substance moving between objects, rather than two opposing fluids as some contemporaries proposed — proved substantially correct in spirit, decades before anyone knew what that 'fluid' actually was at the atomic level.",
+          "links": [
+            "st1"
+          ]
+        },
+        {
+          "id": "fg2",
+          "group": "Pioneers & Theorists",
+          "label": "Charles-Augustin de Coulomb",
+          "date": "1785",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "FIGURE",
+          "hint": "A military engineer by training, Coulomb built an extraordinarily sensitive torsion balance capable of detecting forces thousands of times weaker than the instruments of his contemporaries could measure, and used it to establish the precise inverse-square law now bearing his name — the electrical counterpart to Newton's law of gravitation, discovered over a century after Newton's original.",
+          "note": "Coulomb, C.A. de. 'Premier mémoire sur l'électricité et le magnétisme' (1785, see th1). Coulomb also made major contributions to structural and soil mechanics engineering earlier in his career, including foundational work on friction and the strength of materials, before turning to electricity and magnetism relatively late in his working life; the SI unit of electric charge, the coulomb, is named in his honour.",
+          "links": [
+            "th1"
+          ]
+        },
+        {
+          "id": "fg3",
+          "group": "Pioneers & Theorists",
+          "label": "Alessandro Volta",
+          "date": "1800",
+          "loc": "Pavia, Italy",
+          "coords": [
+            45.18,
+            9.16
+          ],
+          "tag": "FIGURE",
+          "hint": "Volta's decade-long public dispute with fellow Italian scientist Luigi Galvani over the true source of 'animal electricity' — Galvani insisted it originated in living tissue itself, Volta argued it came from the contact between two different metals — drove Volta to build the voltaic pile specifically to prove his point, inadvertently inventing the world's first battery and settling the debate largely in his own favour along the way.",
+          "note": "Volta, A. Voltaic pile (1800, see st2). Napoleon Bonaparte, deeply impressed by a demonstration of the pile, made Volta a count and senator of the Kingdom of Italy; the volt, the SI unit of electric potential, is named in his honour, one of the relatively few electrical units named for someone who was unambiguously the sole inventor of the device that made the unit relevant.",
+          "links": [
+            "st2"
+          ]
+        },
+        {
+          "id": "fg4",
+          "group": "Pioneers & Theorists",
+          "label": "Hans Christian Ørsted",
+          "date": "1820",
+          "loc": "Copenhagen, Denmark",
+          "coords": [
+            55.68,
+            12.57
+          ],
+          "tag": "FIGURE",
+          "hint": "A Danish physicist and chemist steeped in the Romantic-era philosophical conviction that all of nature's forces must be fundamentally unified, Ørsted had been actively searching for a connection between electricity and magnetism for years before he finally observed one directly during a lecture demonstration — a discovery that instantly triggered a continent-wide race to work out the mathematical relationship.",
+          "note": "Ørsted, H.C. Discovery of electromagnetism (1820, see st3). Ørsted also isolated aluminium in a relatively impure form in 1825, predating Hans Christian Ørsted's better-known electromagnetic work in the popular imagination but generally considered less significant scientifically; the SI unit of magnetic field strength in the older CGS system, the oersted, is named in his honour.",
+          "links": [
+            "st3"
+          ]
+        },
+        {
+          "id": "fg5",
+          "group": "Pioneers & Theorists",
+          "label": "André-Marie Ampère",
+          "date": "1826",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "FIGURE",
+          "hint": "Largely self-taught after his father was guillotined during the French Revolution's Reign of Terror, Ampère moved with extraordinary speed once news of Ørsted's discovery reached him, developing a full mathematical theory of electrodynamics within weeks and coining the terms 'electric current' and 'electrodynamics' still in standard use today.",
+          "note": "Ampère, A.M. 'Mémoire sur la théorie mathématique des phénomènes électrodynamiques' (1826, see th3). Maxwell later called Ampère 'the Newton of electricity' in tribute to the mathematical rigour he brought to the field; the SI unit of electric current, the ampere, is named in his honour, and remains one of the seven SI base units.",
+          "links": [
+            "th3"
+          ]
+        },
+        {
+          "id": "fg6",
+          "group": "Pioneers & Theorists",
+          "label": "Michael Faraday",
+          "date": "1831",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "FIGURE",
+          "hint": "Born into poverty and apprenticed to a bookbinder with almost no formal education, Faraday became arguably the greatest experimental physicist in history through sheer relentless curiosity, discovering electromagnetic induction, the laws of electrolysis, and diamagnetism, and originating the physical field concept — all while remaining, by his own repeated choice, largely innocent of the advanced mathematics his own discoveries would eventually require.",
+          "note": "Faraday, M. Induction ring experiment (1831, see st4); field concept (1852, see co1). Faraday twice declined the presidency of the Royal Society and reportedly refused a knighthood, preferring, on religious grounds tied to his Sandemanian faith, to remain 'plain Michael Faraday to the last'; the SI unit of capacitance, the farad, is named in his honour.",
+          "links": [
+            "st4",
+            "co1"
+          ]
+        },
+        {
+          "id": "fg7",
+          "group": "Pioneers & Theorists",
+          "label": "Georg Simon Ohm",
+          "date": "1827",
+          "loc": "Cologne, Germany",
+          "coords": [
+            50.94,
+            6.96
+          ],
+          "tag": "FIGURE",
+          "hint": "Working in relative obscurity as a secondary-school teacher with limited laboratory resources, Ohm derived and experimentally confirmed the precise mathematical relationship between voltage, current, and resistance that now bears his name, only to see the work initially dismissed by Germany's physics establishment as unrigorous speculation rather than the rigorous quantitative achievement it actually was.",
+          "note": "Ohm, G.S. Die galvanische Kette (1827, see th2). Ohm was reportedly so discouraged by his work's poor early reception that he resigned his teaching post; recognition came slowly but eventually thoroughly, including the Royal Society's Copley Medal in 1841 and, finally, a professorship at the University of Munich in 1852, four years before his death. The SI unit of electrical resistance, the ohm, is named in his honour.",
+          "links": [
+            "th2"
+          ]
+        },
+        {
+          "id": "fg8",
+          "group": "Pioneers & Theorists",
+          "label": "Heinrich Hertz",
+          "date": "1887",
+          "loc": "Karlsruhe, Germany",
+          "coords": [
+            49.01,
+            8.4
+          ],
+          "tag": "FIGURE",
+          "hint": "Hertz's experimental confirmation of Maxwell's predicted electromagnetic waves settled, within a single research program, one of the biggest open theoretical questions in nineteenth-century physics — yet Hertz himself, dead of blood poisoning at just 36, never lived to see the explosion of practical radio technology his discovery directly enabled within barely a decade of his death.",
+          "note": "Hertz, H. 'Über sehr schnelle electrische Schwingungen' (1887–88, see st5). The SI unit of frequency, the hertz — cycles per second — is named in his honour, adopted internationally in 1960, replacing the earlier unit name 'cycles per second' directly; Hertz's early death from a chronic illness likely related to an untreated bone infection cut short what colleagues widely expected would have been an exceptionally distinguished career.",
+          "links": [
+            "st5"
+          ]
+        },
+        {
+          "id": "fg9",
+          "group": "Pioneers & Theorists",
+          "label": "Thomas Young",
+          "date": "1801",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "FIGURE",
+          "hint": "A physician by profession and one of the last people to plausibly claim expertise across virtually the entire scope of contemporary science, Young's double-slit interference experiment single-handedly revived the wave theory of light against a century of Newtonian orthodoxy, while he separately made major contributions to the study of vision, elasticity, and — completely outside physics — the decipherment of Egyptian hieroglyphics on the Rosetta Stone.",
+          "note": "Young, T. 'The Bakerian Lecture: Experiments and Calculations Relative to Physical Optics' (1804, see st9). Young faced sustained, sometimes personally vicious criticism for reviving a theory then considered thoroughly refuted by Newton's authority; his own scientific reputation was robust enough to survive the attacks relatively intact, and Fresnel's later independent confirmation (see st10) fully vindicated his position within his own lifetime.",
+          "links": [
+            "st9"
+          ]
+        },
+        {
+          "id": "fg10",
+          "group": "Pioneers & Theorists",
+          "label": "Augustin-Jean Fresnel",
+          "date": "1818",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "FIGURE",
+          "hint": "A civil engineer by day, building roads and bridges for the French government, Fresnel developed his rigorous mathematical wave theory of light largely in his spare time, without a university research position, and lived to see his theory's most startling and initially ridiculed prediction — a bright spot at the centre of a disc's shadow — experimentally confirmed exactly as his mathematics demanded.",
+          "note": "Fresnel, A.J. 'Mémoire sur la diffraction de la lumière' (1818, see st10). Fresnel died of tuberculosis at just 39, having also invented the Fresnel lens — a lightweight, thin, stepped lens design still used in lighthouses and, much later, stage lighting and vehicle headlights — which he developed specifically to make lighthouse beams far more powerful and visible from greater distances than traditional solid glass lenses allowed.",
+          "links": [
+            "st10"
+          ]
+        },
+        {
+          "id": "fg11",
+          "group": "Pioneers & Theorists",
+          "label": "Ibn al-Haytham",
+          "date": "1021",
+          "loc": "Cairo, Egypt",
+          "coords": [
+            30.04,
+            31.24
+          ],
+          "tag": "FIGURE",
+          "hint": "Reportedly held under house arrest in Cairo for roughly a decade after failing to deliver on a boastful promise to the Fatimid Caliph to regulate the flooding of the Nile, Ibn al-Haytham used the enforced isolation to write his monumental Book of Optics, refuting a thousand years of Greek assumptions about vision and establishing controlled, repeatable experiment as the proper foundation for physical theory.",
+          "note": "Ibn al-Haytham [Alhazen]. Kitāb al-Manāẓir (c. 1021, see st7). Some historical accounts suggest Ibn al-Haytham feigned madness during his house arrest as a survival strategy under the notoriously unpredictable Caliph al-Hakim, only resuming a normal public life after the Caliph's death in 1021; regardless of the exact biographical details, which vary somewhat between historical sources, his experimental methodology's influence on the later European scientific tradition, via Latin translation, is well documented.",
+          "links": [
+            "st7"
+          ]
+        },
+        {
+          "id": "fg12",
+          "group": "Pioneers & Theorists",
+          "label": "Joseph von Fraunhofer",
+          "date": "1814",
+          "loc": "Munich, Germany",
+          "coords": [
+            48.14,
+            11.58
+          ],
+          "tag": "FIGURE",
+          "hint": "Orphaned at eleven and apprenticed to a brutal glassmaker whose workshop collapsed and nearly killed him — a disaster that, in a stroke of fortune, brought him to the attention of the Bavarian royal family, who funded his education — Fraunhofer went on to become the finest optical instrument maker of his generation, discovering the dark spectral lines that now bear his name almost as a side effect of his real goal: making better glass.",
+          "note": "Fraunhofer, J. von. Discovery of solar absorption lines (1814–15, see co7); diffraction grating spectroscopy (1821, see me3). Fraunhofer's precise refractive index measurements and grating-ruling techniques made his Munich workshop's telescope and microscope lenses the best available anywhere in Europe, and his early death from tuberculosis-related illness at 39, likely worsened by heavy metal exposure during decades of glassmaking, cut short a career already recognised as exceptional.",
+          "links": [
+            "co5",
+            "co7",
+            "me3"
+          ]
+        },
+        {
+          "id": "fg13",
+          "group": "Pioneers & Theorists",
+          "label": "Wilhelm Röntgen",
+          "date": "1895",
+          "loc": "Würzburg, Germany",
+          "coords": [
+            49.79,
+            9.95
+          ],
+          "tag": "FIGURE",
+          "hint": "Röntgen's discovery of X-rays came from an unusually thorough, methodical follow-up on a faint, easily-dismissed observation that other researchers using similar cathode ray equipment had likely also noticed and overlooked; his careful week of follow-up experiments, conducted in near-total secrecy before publication, turned a fluorescent screen's faint unexplained glow into one of the most immediately consequential discoveries in the history of medicine.",
+          "note": "Röntgen, W.C. 'Über eine neue Art von Strahlen' (1895, see st11). Röntgen became the first ever recipient of the Nobel Prize in Physics in 1901 and, unusually for the era, donated the entire prize money to his university; he deliberately declined to patent the X-ray or profit financially from it in any way, a decision he maintained was simply the correct one for a discovery of this kind to belong to everyone.",
+          "links": [
+            "st11"
+          ]
+        }
+      ]
     },
     {
       "id": "debate",
