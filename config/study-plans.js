@@ -4,6 +4,56 @@
 // are available as globals to the renderer.
 
 const STUDY_PLANS = {
+  'classical-physics': {
+    meta: "Groups content thematically rather than by category: after the founders and the field's core investigative methods, each module works through one branch of classical physics — Newtonian mechanics, energy, oscillations, fluids, thermodynamics, statistical mechanics, and analytical mechanics — carrying that branch's theorems, landmark experiments, named phenomena, and live debates together, ending with the most abstract reformulation of mechanics, which sets up the direct bridge into quantum theory.",
+    modules: [
+      {
+        title: '1 — Founders & the Field',
+        rationale: 'From Newton\'s Principia to Gibbs\'s statistical mechanics, a relatively small set of figures repeatedly rebuilt physics from scratch — often starting from an immediate practical puzzle: a steam engine\'s efficiency, a pendulum clock\'s accuracy, a jittering pollen grain. Knowing them first turns every later module into a continuation of arguments they started.',
+        groups: ['Pioneers & Theorists']
+      },
+      {
+        title: '2 — Research Methods',
+        rationale: 'Dimensional analysis, the principle of virtual work, calorimetry, molecular dynamics simulation, perturbation theory, and wind tunnel testing are the actual tools that generated every result in the modules that follow.',
+        cats: ['method']
+      },
+      {
+        title: '3 — Newtonian Mechanics: Force & Motion',
+        rationale: 'Start with the three laws and the law of gravitation that, between them, explain a falling apple and an orbiting Moon as the same phenomenon — the foundation everything else in this folio, directly or indirectly, builds on top of.',
+        groups: ['Newtonian Mechanics: Force & Motion']
+      },
+      {
+        title: '4 — Energy, Work & Conservation',
+        rationale: 'The single principle — energy is conserved, only converted between forms — that took nineteenth-century physics decades of disputed priority and painstaking experiment to fully establish, and that now underlies nearly every other module in the folio.',
+        groups: ['Energy, Work & Conservation']
+      },
+      {
+        title: '5 — Oscillations, Waves & Resonance',
+        rationale: 'From the pendulum clock\'s isochronism to a modern footbridge closed within days of opening, the same mathematics of restoring forces and resonant amplification recurs at every scale.',
+        groups: ['Oscillations, Waves & Resonance']
+      },
+      {
+        title: '6 — Fluid Mechanics',
+        rationale: 'Bernoulli\'s idealised inviscid flow explains lift; d\'Alembert\'s paradox shows exactly where that idealisation breaks down; Reynolds\'s dye-stream experiments mark where smooth flow gives way to turbulence — a branch of physics still missing a complete theory of its own central phenomenon.',
+        groups: ['Fluid Mechanics']
+      },
+      {
+        title: '7 — Thermodynamics: Heat, Work & the Laws',
+        rationale: 'Four laws, established in reverse numerical order by different people for different reasons, that between them explain why heat engines have a hard efficiency ceiling, why processes run one way and not the other, and what the universe\'s ultimate fate might be.',
+        groups: ['Thermodynamics: Heat, Work & the Laws']
+      },
+      {
+        title: '8 — Statistical Mechanics & Kinetic Theory',
+        rationale: 'Where thermodynamics\'s macroscopic bookkeeping gets a microscopic explanation — heat as molecular motion, entropy as a probability count — a reframing so contested in Boltzmann\'s own lifetime that its eventual vindication came only after his death.',
+        groups: ['Statistical Mechanics & Kinetic Theory']
+      },
+      {
+        title: '9 — Analytical Mechanics: Lagrangian & Hamiltonian Reformulations',
+        rationale: 'Mechanics rebuilt twice more, first around a single scalar quantity and a stationary-action principle, then around a symmetric phase space of position and momentum — the second reformulation is also, unexpectedly, the exact mathematical scaffold quantum mechanics was later built on.',
+        groups: ['Analytical Mechanics: Lagrangian & Hamiltonian Reformulations']
+      }
+    ]
+  },
   'applied-math-statistics': {
     meta: "Groups content thematically rather than by category: after the founders and the field's core research methods, each module works through one branch of applied mathematics — probability, statistical inference, optimization, operations research, numerical computation, game theory, and finance — carrying that branch's theorems, landmark studies, named phenomena, and live controversies together, so the debates land with their technical context already in place rather than being encountered cold at the end.",
     modules: [
