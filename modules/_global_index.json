@@ -1,13 +1,18 @@
 {
   "_meta": {
-    "total_entries": 1306,
-    "folio_count": 17,
-    "xlink_pairs": 71,
-    "keyword_terms": 5101,
+    "total_entries": 1379,
+    "folio_count": 18,
+    "xlink_pairs": 78,
+    "keyword_terms": 5318,
     "folios": [
       {
         "id": "anatomy-histology",
         "title": "Human Anatomy & Histology",
+        "entries": 73
+      },
+      {
+        "id": "applied-math-statistics",
+        "title": "Applied Math & Statistics",
         "entries": 73
       },
       {
@@ -166,6 +171,79 @@
     "anatomy-histology::ap4": "application · Gross Anatomy · Radiological Anatomy & Medical Imaging (1972)",
     "anatomy-histology::ap5": "application · Gross Anatomy · Anatomical Education — Plastination & Virtual Anatomy (1977)",
     "anatomy-histology::ap6": "application · Histology & Cells · Tissue Engineering & Regenerative Medicine (2006)",
+    "applied-math-statistics::th1": "theory · Probability Theory · Kolmogorov's Axiomatization of Probability (1933)",
+    "applied-math-statistics::th2": "theory · Probability Theory · Central Limit Theorem (1810)",
+    "applied-math-statistics::th3": "theory · Probability Theory · Law of Large Numbers (1713)",
+    "applied-math-statistics::th4": "theory · Statistical Inference · Bayes' Theorem (1763)",
+    "applied-math-statistics::th5": "theory · Statistical Inference · Neyman–Pearson Hypothesis Testing Framework (1933)",
+    "applied-math-statistics::th6": "theory · Optimization · Linear Programming Duality (1951)",
+    "applied-math-statistics::th7": "theory · Game Theory & Decision Theory · The Minimax Theorem (1928)",
+    "applied-math-statistics::th8": "theory · Game Theory & Decision Theory · Nash Equilibrium (1950)",
+    "applied-math-statistics::th9": "theory · Operations Research · Queueing Theory (1909)",
+    "applied-math-statistics::th10": "theory · Actuarial & Financial Mathematics · Modern Portfolio Theory (1952)",
+    "applied-math-statistics::th11": "theory · Actuarial & Financial Mathematics · Black–Scholes Option Pricing Theory (1973)",
+    "applied-math-statistics::st1": "study · Statistical Inference · Fisher's Statistical Methods for Research Workers (1925)",
+    "applied-math-statistics::st2": "study · Optimization · Dantzig's Simplex Method (1947)",
+    "applied-math-statistics::st3": "study · Game Theory & Decision Theory · von Neumann & Morgenstern's Theory of Games and Economic Behavior (1944)",
+    "applied-math-statistics::st4": "study · Game Theory & Decision Theory · Flood and Dresher's Prisoner's Dilemma Experiment (1950)",
+    "applied-math-statistics::st5": "study · Actuarial & Financial Mathematics · Kelly's Criterion (1956)",
+    "applied-math-statistics::st6": "study · Numerical Analysis & Computational Mathematics · The Metropolis Monte Carlo Paper (1953)",
+    "applied-math-statistics::st7": "study · Statistical Inference · Ioannidis's \"Why Most Published Research Findings Are False\" (2005)",
+    "applied-math-statistics::st8": "study · Operations Research · Blackett's Circus: Operational Research in the Battle of the Atlantic (1941)",
+    "applied-math-statistics::st9": "study · Probability Theory · The Pascal–Fermat Correspondence (1654)",
+    "applied-math-statistics::st10": "study · Numerical Analysis & Computational Mathematics · Courant's Variational Origins of the Finite Element Method (1943)",
+    "applied-math-statistics::st11": "study · Actuarial & Financial Mathematics · Halley's Life Table (1693)",
+    "applied-math-statistics::ef1": "effect · Statistical Inference · Simpson's Paradox (1951)",
+    "applied-math-statistics::ef2": "effect · Probability Theory · The Birthday Paradox (1939)",
+    "applied-math-statistics::ef3": "effect · Game Theory & Decision Theory · The St. Petersburg Paradox (1738)",
+    "applied-math-statistics::ef4": "effect · Statistical Inference · Regression Toward the Mean (1886)",
+    "applied-math-statistics::ef5": "effect · Numerical Analysis & Computational Mathematics · Benford's Law (1938)",
+    "applied-math-statistics::ef6": "effect · Probability Theory · The Monty Hall Problem (1975)",
+    "applied-math-statistics::ef7": "effect · Numerical Analysis & Computational Mathematics · The Bias–Variance Tradeoff (1992)",
+    "applied-math-statistics::ef8": "effect · Statistical Inference · p-Hacking (2011)",
+    "applied-math-statistics::ef9": "effect · Operations Research · The Braess Paradox (1968)",
+    "applied-math-statistics::co1": "concept · Probability Theory · Expected Value (1657)",
+    "applied-math-statistics::co2": "concept · Statistical Inference · Variance & Standard Deviation (1893)",
+    "applied-math-statistics::co3": "concept · Statistical Inference · Correlation vs. Causation (1888)",
+    "applied-math-statistics::co4": "concept · Statistical Inference · Statistical Significance & the p-value (1900)",
+    "applied-math-statistics::co5": "concept · Game Theory & Decision Theory · Utility Function (1944)",
+    "applied-math-statistics::co6": "concept · Optimization · Convexity (1953)",
+    "applied-math-statistics::co7": "concept · Probability Theory · Chebyshev's Inequality (1867)",
+    "applied-math-statistics::co8": "concept · Numerical Analysis & Computational Mathematics · Markov Property (1906)",
+    "applied-math-statistics::co9": "concept · Optimization · The Traveling Salesman Problem (1930)",
+    "applied-math-statistics::me1": "method · Numerical Analysis & Computational Mathematics · The Finite Element Method (1956)",
+    "applied-math-statistics::me2": "method · Optimization · Gradient Descent (1847)",
+    "applied-math-statistics::me3": "method · Statistical Inference · Maximum Likelihood Estimation (1922)",
+    "applied-math-statistics::me4": "method · Statistical Inference · The Randomized Controlled Trial in Medicine (1948)",
+    "applied-math-statistics::me5": "method · Operations Research · Dynamic Programming (1957)",
+    "applied-math-statistics::me6": "method · Numerical Analysis & Computational Mathematics · Markov Chain Monte Carlo (1970)",
+    "applied-math-statistics::fg1": "figure · Pioneers & Theorists · Blaise Pascal (1654)",
+    "applied-math-statistics::fg2": "figure · Pioneers & Theorists · Abraham de Moivre (1733)",
+    "applied-math-statistics::fg3": "figure · Pioneers & Theorists · Thomas Bayes (1763)",
+    "applied-math-statistics::fg4": "figure · Pioneers & Theorists · Pierre-Simon Laplace (1810)",
+    "applied-math-statistics::fg5": "figure · Pioneers & Theorists · Jacob Bernoulli (1713)",
+    "applied-math-statistics::fg6": "figure · Pioneers & Theorists · Ronald Fisher (1925)",
+    "applied-math-statistics::fg7": "figure · Pioneers & Theorists · Jerzy Neyman (1933)",
+    "applied-math-statistics::fg8": "figure · Pioneers & Theorists · Andrey Kolmogorov (1933)",
+    "applied-math-statistics::fg9": "figure · Pioneers & Theorists · Agner Krarup Erlang (1909)",
+    "applied-math-statistics::fg10": "figure · Pioneers & Theorists · Florence Nightingale (1858)",
+    "applied-math-statistics::fg11": "figure · Pioneers & Theorists · George Dantzig (1947)",
+    "applied-math-statistics::fg12": "figure · Pioneers & Theorists · Harry Markowitz (1952)",
+    "applied-math-statistics::fg13": "figure · Pioneers & Theorists · John Nash (1950)",
+    "applied-math-statistics::db1": "debate · Statistical Inference · Should p<0.05 Be Abandoned? (2016)",
+    "applied-math-statistics::db2": "debate · Statistical Inference · Frequentist vs. Bayesian Statistics (1939)",
+    "applied-math-statistics::db3": "debate · Game Theory & Decision Theory · Does Nash Equilibrium Predict Real Behavior? (1979)",
+    "applied-math-statistics::db4": "debate · Actuarial & Financial Mathematics · Is the Efficient Market Hypothesis True? (1965)",
+    "applied-math-statistics::db5": "debate · Actuarial & Financial Mathematics · Did Quantitative Risk Models Cause the 2008 Financial Crisis? (2008)",
+    "applied-math-statistics::db6": "debate · Game Theory & Decision Theory · Ergodicity Economics: Should Expected Utility Theory Be Replaced? (2011)",
+    "applied-math-statistics::db7": "debate · Statistical Inference · The Replication Crisis (2015)",
+    "applied-math-statistics::db8": "debate · Optimization · Can NP-Hard Optimization Problems Be Solved Well Enough in Practice? (2006)",
+    "applied-math-statistics::ap1": "application · Actuarial & Financial Mathematics · The Equitable Life Assurance Society (1762)",
+    "applied-math-statistics::ap2": "application · Operations Research · Wald's Aircraft Survivorship Bias Correction (1943)",
+    "applied-math-statistics::ap3": "application · Numerical Analysis & Computational Mathematics · Epidemiological SIR Modeling (1927)",
+    "applied-math-statistics::ap4": "application · Probability Theory · Google's PageRank Algorithm (1998)",
+    "applied-math-statistics::ap5": "application · Actuarial & Financial Mathematics · Quantitative Trading and the First Statistical Arbitrage Funds (1969)",
+    "applied-math-statistics::ap6": "application · Statistical Inference · A/B Testing at Web Scale (2007)",
     "cell-molecular-bio::th1": "theory · DNA, RNA & the Central Dogma · The Central Dogma of Molecular Biology (1958)",
     "cell-molecular-bio::th2": "theory · Gene Expression & Regulation · The Operon Model (1961)",
     "cell-molecular-bio::th3": "theory · Molecular Machinery · Chemiosmotic Theory (1961)",
@@ -1443,6 +1521,47 @@
     "neuroscience::th1": [
       "anatomy-histology::db2"
     ],
+    "applied-math-statistics::th1": [
+      "pure-mathematics::th6"
+    ],
+    "pure-mathematics::th6": [
+      "applied-math-statistics::th1"
+    ],
+    "applied-math-statistics::th7": [
+      "computer-science::fg4"
+    ],
+    "computer-science::fg4": [
+      "applied-math-statistics::th7"
+    ],
+    "applied-math-statistics::th8": [
+      "pure-mathematics::st10"
+    ],
+    "pure-mathematics::st10": [
+      "applied-math-statistics::th8"
+    ],
+    "applied-math-statistics::co9": [
+      "computer-science::db1"
+    ],
+    "computer-science::db1": [
+      "applied-math-statistics::co9",
+      "applied-math-statistics::db8"
+    ],
+    "applied-math-statistics::me2": [
+      "computer-science::co6"
+    ],
+    "computer-science::co6": [
+      "applied-math-statistics::me2",
+      "neuroscience::th9"
+    ],
+    "applied-math-statistics::fg8": [
+      "systems-and-complexity::co6"
+    ],
+    "systems-and-complexity::co6": [
+      "applied-math-statistics::fg8"
+    ],
+    "applied-math-statistics::db8": [
+      "computer-science::db1"
+    ],
     "cell-molecular-bio::st8": [
       "pathology-immunology::me3"
     ],
@@ -1503,9 +1622,6 @@
     ],
     "neuroscience::ef8": [
       "computer-science::st10"
-    ],
-    "computer-science::co6": [
-      "neuroscience::th9"
     ],
     "neuroscience::th9": [
       "computer-science::co6"
@@ -2247,6 +2363,371 @@
       "bioengineered organ",
       "organ on chip",
       "stem cell tissue therapy"
+    ],
+    "applied-math-statistics::th1": [
+      "probability axioms",
+      "measure-theoretic probability",
+      "sample space"
+    ],
+    "applied-math-statistics::th2": [
+      "normal distribution convergence",
+      "sum of random variables",
+      "bell curve"
+    ],
+    "applied-math-statistics::th3": [
+      "sample average convergence",
+      "weak law",
+      "strong law"
+    ],
+    "applied-math-statistics::th4": [
+      "prior and posterior",
+      "conditional probability",
+      "bayesian updating"
+    ],
+    "applied-math-statistics::th5": [
+      "type i and ii error",
+      "hypothesis test power",
+      "significance level"
+    ],
+    "applied-math-statistics::th6": [
+      "dual problem",
+      "shadow price",
+      "linear programming"
+    ],
+    "applied-math-statistics::th7": [
+      "zero-sum game",
+      "minimax strategy",
+      "two-player game"
+    ],
+    "applied-math-statistics::th8": [
+      "n-person game",
+      "strategic stability",
+      "non-cooperative game"
+    ],
+    "applied-math-statistics::th9": [
+      "call blocking probability",
+      "waiting line model",
+      "erlang formula"
+    ],
+    "applied-math-statistics::th10": [
+      "portfolio diversification",
+      "risk-return tradeoff",
+      "efficient frontier"
+    ],
+    "applied-math-statistics::th11": [
+      "option pricing formula",
+      "dynamic hedging",
+      "derivatives pricing"
+    ],
+    "applied-math-statistics::st1": [
+      "randomized experiment design",
+      "analysis of variance",
+      "significance threshold"
+    ],
+    "applied-math-statistics::st2": [
+      "simplex algorithm",
+      "feasible region",
+      "linear programming solver"
+    ],
+    "applied-math-statistics::st3": [
+      "expected utility axioms",
+      "game theory founding text",
+      "rational decision-making"
+    ],
+    "applied-math-statistics::st4": [
+      "cooperate or defect",
+      "rand corporation experiment",
+      "behavioral game theory"
+    ],
+    "applied-math-statistics::st5": [
+      "optimal bet sizing",
+      "bankroll growth rate",
+      "information rate"
+    ],
+    "applied-math-statistics::st6": [
+      "random walk sampling",
+      "equation of state calculation",
+      "monte carlo method"
+    ],
+    "applied-math-statistics::st7": [
+      "false positive rate",
+      "publication bias",
+      "research methodology"
+    ],
+    "applied-math-statistics::st8": [
+      "convoy size analysis",
+      "wartime operational research",
+      "military decision analysis"
+    ],
+    "applied-math-statistics::st9": [
+      "problem of points",
+      "gambling probability",
+      "founding correspondence"
+    ],
+    "applied-math-statistics::st10": [
+      "variational method",
+      "mesh approximation",
+      "equilibrium and vibration"
+    ],
+    "applied-math-statistics::st11": [
+      "mortality table",
+      "annuity pricing",
+      "actuarial science origin"
+    ],
+    "applied-math-statistics::ef1": [
+      "contingency table reversal",
+      "aggregation bias",
+      "confounding variable"
+    ],
+    "applied-math-statistics::ef2": [
+      "pairwise coincidence",
+      "combinatorial probability",
+      "shared birthday"
+    ],
+    "applied-math-statistics::ef3": [
+      "infinite expected value",
+      "diminishing marginal utility",
+      "coin-flip wager"
+    ],
+    "applied-math-statistics::ef4": [
+      "extreme measurement reversion",
+      "hereditary stature",
+      "statistical artifact"
+    ],
+    "applied-math-statistics::ef5": [
+      "leading digit distribution",
+      "anomalous numbers",
+      "fraud detection"
+    ],
+    "applied-math-statistics::ef6": [
+      "door-switching strategy",
+      "conditional probability puzzle",
+      "game show probability"
+    ],
+    "applied-math-statistics::ef7": [
+      "model complexity tradeoff",
+      "overfitting and underfitting",
+      "prediction error decomposition"
+    ],
+    "applied-math-statistics::ef8": [
+      "undisclosed flexibility",
+      "false-positive psychology",
+      "researcher degrees of freedom"
+    ],
+    "applied-math-statistics::ef9": [
+      "network congestion paradox",
+      "traffic equilibrium",
+      "selfish routing"
+    ],
+    "applied-math-statistics::co1": [
+      "probability-weighted average",
+      "long-run average",
+      "games of chance"
+    ],
+    "applied-math-statistics::co2": [
+      "measure of dispersion",
+      "spread around mean",
+      "statistical notation"
+    ],
+    "applied-math-statistics::co3": [
+      "correlation coefficient",
+      "spurious relationship",
+      "confounding factor"
+    ],
+    "applied-math-statistics::co4": [
+      "null hypothesis probability",
+      "goodness-of-fit test",
+      "p-value misinterpretation"
+    ],
+    "applied-math-statistics::co5": [
+      "rationality axioms",
+      "risk preference",
+      "decision under uncertainty"
+    ],
+    "applied-math-statistics::co6": [
+      "convex set",
+      "global optimum guarantee",
+      "convex analysis"
+    ],
+    "applied-math-statistics::co7": [
+      "distribution-free bound",
+      "deviation from mean",
+      "finite variance bound"
+    ],
+    "applied-math-statistics::co8": [
+      "memoryless process",
+      "state-dependent transition",
+      "markov chain"
+    ],
+    "applied-math-statistics::co9": [
+      "combinatorial optimization",
+      "shortest route problem",
+      "computationally hard problem"
+    ],
+    "applied-math-statistics::me1": [
+      "mesh discretization",
+      "structural stiffness analysis",
+      "computational engineering"
+    ],
+    "applied-math-statistics::me2": [
+      "iterative minimization",
+      "steepest descent",
+      "step size adjustment"
+    ],
+    "applied-math-statistics::me3": [
+      "likelihood function",
+      "parameter estimation",
+      "efficient estimator"
+    ],
+    "applied-math-statistics::me4": [
+      "allocation concealment",
+      "sealed envelope randomization",
+      "clinical trial design"
+    ],
+    "applied-math-statistics::me5": [
+      "principle of optimality",
+      "overlapping subproblems",
+      "sequential decision problem"
+    ],
+    "applied-math-statistics::me6": [
+      "metropolis-hastings algorithm",
+      "posterior sampling",
+      "markov chain simulation"
+    ],
+    "applied-math-statistics::fg1": [
+      "problem of points",
+      "arithmetic triangle",
+      "pascal's wager"
+    ],
+    "applied-math-statistics::fg2": [
+      "normal approximation",
+      "doctrine of chances",
+      "huguenot mathematician"
+    ],
+    "applied-math-statistics::fg3": [
+      "posthumous essay",
+      "doctrine of chances",
+      "presbyterian minister"
+    ],
+    "applied-math-statistics::fg4": [
+      "celestial mechanics",
+      "analytical theory of probability",
+      "french newton"
+    ],
+    "applied-math-statistics::fg5": [
+      "golden theorem",
+      "ars conjectandi",
+      "bernoulli family"
+    ],
+    "applied-math-statistics::fg6": [
+      "experimental design pioneer",
+      "eugenics controversy",
+      "rothamsted statistician"
+    ],
+    "applied-math-statistics::fg7": [
+      "confidence interval inventor",
+      "decision-theoretic testing",
+      "berkeley statistics"
+    ],
+    "applied-math-statistics::fg8": [
+      "soviet mathematics school",
+      "turbulence theory",
+      "algorithmic information theory"
+    ],
+    "applied-math-statistics::fg9": [
+      "telephone traffic engineering",
+      "erlang unit",
+      "self-taught mathematician"
+    ],
+    "applied-math-statistics::fg10": [
+      "polar area diagram",
+      "coxcomb chart",
+      "crimean war sanitation"
+    ],
+    "applied-math-statistics::fg11": [
+      "simplex algorithm inventor",
+      "air force operations",
+      "stanford optimization"
+    ],
+    "applied-math-statistics::fg12": [
+      "portfolio selection dissertation",
+      "quantitative finance founder",
+      "nobel laureate economist"
+    ],
+    "applied-math-statistics::fg13": [
+      "game theory dissertation",
+      "schizophrenia recovery",
+      "beautiful mind"
+    ],
+    "applied-math-statistics::db1": [
+      "significance threshold controversy",
+      "asa statement",
+      "retire statistical significance"
+    ],
+    "applied-math-statistics::db2": [
+      "probability interpretation dispute",
+      "bayesian countermanifesto",
+      "statistical philosophy"
+    ],
+    "applied-math-statistics::db3": [
+      "prospect theory critique",
+      "loss aversion",
+      "rational-actor model"
+    ],
+    "applied-math-statistics::db4": [
+      "market anomalies",
+      "behavioral finance critique",
+      "random walk hypothesis"
+    ],
+    "applied-math-statistics::db5": [
+      "gaussian copula",
+      "default correlation model",
+      "financial crisis modeling"
+    ],
+    "applied-math-statistics::db6": [
+      "time average vs ensemble average",
+      "non-ergodic wager",
+      "optimal leverage"
+    ],
+    "applied-math-statistics::db7": [
+      "reproducibility rate",
+      "open science collaboration",
+      "pre-registration"
+    ],
+    "applied-math-statistics::db8": [
+      "branch-and-cut solver",
+      "worst-case vs practical hardness",
+      "concorde tsp solver"
+    ],
+    "applied-math-statistics::ap1": [
+      "age-based premium pricing",
+      "first actuarial insurer",
+      "compound interest premiums"
+    ],
+    "applied-math-statistics::ap2": [
+      "missing data reasoning",
+      "bomber armor placement",
+      "selection bias correction"
+    ],
+    "applied-math-statistics::ap3": [
+      "susceptible infected recovered",
+      "epidemic differential equations",
+      "outbreak forecasting"
+    ],
+    "applied-math-statistics::ap4": [
+      "random surfer model",
+      "stationary distribution",
+      "link-graph ranking"
+    ],
+    "applied-math-statistics::ap5": [
+      "statistical arbitrage",
+      "mathematical mispricing model",
+      "princeton-newport partners"
+    ],
+    "applied-math-statistics::ap6": [
+      "online controlled experiment",
+      "randomized product testing",
+      "conversion rate optimization"
     ],
     "cell-molecular-bio::th1": [
       "central dogma molecular biology",
@@ -10511,6 +10992,659 @@
     ],
     "stem cell tissue therapy": [
       "anatomy-histology::ap6"
+    ],
+    "probability axioms": [
+      "applied-math-statistics::th1"
+    ],
+    "measure-theoretic probability": [
+      "applied-math-statistics::th1"
+    ],
+    "sample space": [
+      "applied-math-statistics::th1"
+    ],
+    "normal distribution convergence": [
+      "applied-math-statistics::th2"
+    ],
+    "sum of random variables": [
+      "applied-math-statistics::th2"
+    ],
+    "bell curve": [
+      "applied-math-statistics::th2"
+    ],
+    "sample average convergence": [
+      "applied-math-statistics::th3"
+    ],
+    "weak law": [
+      "applied-math-statistics::th3"
+    ],
+    "strong law": [
+      "applied-math-statistics::th3"
+    ],
+    "prior and posterior": [
+      "applied-math-statistics::th4"
+    ],
+    "conditional probability": [
+      "applied-math-statistics::th4"
+    ],
+    "bayesian updating": [
+      "applied-math-statistics::th4"
+    ],
+    "type i and ii error": [
+      "applied-math-statistics::th5"
+    ],
+    "hypothesis test power": [
+      "applied-math-statistics::th5"
+    ],
+    "significance level": [
+      "applied-math-statistics::th5"
+    ],
+    "dual problem": [
+      "applied-math-statistics::th6"
+    ],
+    "shadow price": [
+      "applied-math-statistics::th6"
+    ],
+    "linear programming": [
+      "applied-math-statistics::th6"
+    ],
+    "zero-sum game": [
+      "applied-math-statistics::th7"
+    ],
+    "minimax strategy": [
+      "applied-math-statistics::th7"
+    ],
+    "two-player game": [
+      "applied-math-statistics::th7"
+    ],
+    "n-person game": [
+      "applied-math-statistics::th8"
+    ],
+    "strategic stability": [
+      "applied-math-statistics::th8"
+    ],
+    "non-cooperative game": [
+      "applied-math-statistics::th8"
+    ],
+    "call blocking probability": [
+      "applied-math-statistics::th9"
+    ],
+    "waiting line model": [
+      "applied-math-statistics::th9"
+    ],
+    "erlang formula": [
+      "applied-math-statistics::th9"
+    ],
+    "portfolio diversification": [
+      "applied-math-statistics::th10"
+    ],
+    "risk-return tradeoff": [
+      "applied-math-statistics::th10"
+    ],
+    "efficient frontier": [
+      "applied-math-statistics::th10"
+    ],
+    "option pricing formula": [
+      "applied-math-statistics::th11"
+    ],
+    "dynamic hedging": [
+      "applied-math-statistics::th11"
+    ],
+    "derivatives pricing": [
+      "applied-math-statistics::th11"
+    ],
+    "randomized experiment design": [
+      "applied-math-statistics::st1"
+    ],
+    "analysis of variance": [
+      "applied-math-statistics::st1"
+    ],
+    "significance threshold": [
+      "applied-math-statistics::st1"
+    ],
+    "simplex algorithm": [
+      "applied-math-statistics::st2"
+    ],
+    "feasible region": [
+      "applied-math-statistics::st2"
+    ],
+    "linear programming solver": [
+      "applied-math-statistics::st2"
+    ],
+    "expected utility axioms": [
+      "applied-math-statistics::st3"
+    ],
+    "game theory founding text": [
+      "applied-math-statistics::st3"
+    ],
+    "rational decision-making": [
+      "applied-math-statistics::st3"
+    ],
+    "cooperate or defect": [
+      "applied-math-statistics::st4"
+    ],
+    "rand corporation experiment": [
+      "applied-math-statistics::st4"
+    ],
+    "behavioral game theory": [
+      "applied-math-statistics::st4"
+    ],
+    "optimal bet sizing": [
+      "applied-math-statistics::st5"
+    ],
+    "bankroll growth rate": [
+      "applied-math-statistics::st5"
+    ],
+    "information rate": [
+      "applied-math-statistics::st5"
+    ],
+    "random walk sampling": [
+      "applied-math-statistics::st6"
+    ],
+    "equation of state calculation": [
+      "applied-math-statistics::st6"
+    ],
+    "monte carlo method": [
+      "applied-math-statistics::st6"
+    ],
+    "false positive rate": [
+      "applied-math-statistics::st7"
+    ],
+    "publication bias": [
+      "applied-math-statistics::st7"
+    ],
+    "research methodology": [
+      "applied-math-statistics::st7"
+    ],
+    "convoy size analysis": [
+      "applied-math-statistics::st8"
+    ],
+    "wartime operational research": [
+      "applied-math-statistics::st8"
+    ],
+    "military decision analysis": [
+      "applied-math-statistics::st8"
+    ],
+    "problem of points": [
+      "applied-math-statistics::st9",
+      "applied-math-statistics::fg1"
+    ],
+    "gambling probability": [
+      "applied-math-statistics::st9"
+    ],
+    "founding correspondence": [
+      "applied-math-statistics::st9"
+    ],
+    "variational method": [
+      "applied-math-statistics::st10"
+    ],
+    "mesh approximation": [
+      "applied-math-statistics::st10"
+    ],
+    "equilibrium and vibration": [
+      "applied-math-statistics::st10"
+    ],
+    "mortality table": [
+      "applied-math-statistics::st11"
+    ],
+    "annuity pricing": [
+      "applied-math-statistics::st11"
+    ],
+    "actuarial science origin": [
+      "applied-math-statistics::st11"
+    ],
+    "contingency table reversal": [
+      "applied-math-statistics::ef1"
+    ],
+    "aggregation bias": [
+      "applied-math-statistics::ef1"
+    ],
+    "confounding variable": [
+      "applied-math-statistics::ef1"
+    ],
+    "pairwise coincidence": [
+      "applied-math-statistics::ef2"
+    ],
+    "combinatorial probability": [
+      "applied-math-statistics::ef2"
+    ],
+    "shared birthday": [
+      "applied-math-statistics::ef2"
+    ],
+    "infinite expected value": [
+      "applied-math-statistics::ef3"
+    ],
+    "diminishing marginal utility": [
+      "applied-math-statistics::ef3"
+    ],
+    "coin-flip wager": [
+      "applied-math-statistics::ef3"
+    ],
+    "extreme measurement reversion": [
+      "applied-math-statistics::ef4"
+    ],
+    "hereditary stature": [
+      "applied-math-statistics::ef4"
+    ],
+    "statistical artifact": [
+      "applied-math-statistics::ef4"
+    ],
+    "leading digit distribution": [
+      "applied-math-statistics::ef5"
+    ],
+    "anomalous numbers": [
+      "applied-math-statistics::ef5"
+    ],
+    "fraud detection": [
+      "applied-math-statistics::ef5"
+    ],
+    "door-switching strategy": [
+      "applied-math-statistics::ef6"
+    ],
+    "conditional probability puzzle": [
+      "applied-math-statistics::ef6"
+    ],
+    "game show probability": [
+      "applied-math-statistics::ef6"
+    ],
+    "model complexity tradeoff": [
+      "applied-math-statistics::ef7"
+    ],
+    "overfitting and underfitting": [
+      "applied-math-statistics::ef7"
+    ],
+    "prediction error decomposition": [
+      "applied-math-statistics::ef7"
+    ],
+    "undisclosed flexibility": [
+      "applied-math-statistics::ef8"
+    ],
+    "false-positive psychology": [
+      "applied-math-statistics::ef8"
+    ],
+    "researcher degrees of freedom": [
+      "applied-math-statistics::ef8"
+    ],
+    "network congestion paradox": [
+      "applied-math-statistics::ef9"
+    ],
+    "traffic equilibrium": [
+      "applied-math-statistics::ef9"
+    ],
+    "selfish routing": [
+      "applied-math-statistics::ef9"
+    ],
+    "probability-weighted average": [
+      "applied-math-statistics::co1"
+    ],
+    "long-run average": [
+      "applied-math-statistics::co1"
+    ],
+    "games of chance": [
+      "applied-math-statistics::co1"
+    ],
+    "measure of dispersion": [
+      "applied-math-statistics::co2"
+    ],
+    "spread around mean": [
+      "applied-math-statistics::co2"
+    ],
+    "statistical notation": [
+      "applied-math-statistics::co2"
+    ],
+    "correlation coefficient": [
+      "applied-math-statistics::co3"
+    ],
+    "spurious relationship": [
+      "applied-math-statistics::co3"
+    ],
+    "confounding factor": [
+      "applied-math-statistics::co3"
+    ],
+    "null hypothesis probability": [
+      "applied-math-statistics::co4"
+    ],
+    "goodness-of-fit test": [
+      "applied-math-statistics::co4"
+    ],
+    "p-value misinterpretation": [
+      "applied-math-statistics::co4"
+    ],
+    "rationality axioms": [
+      "applied-math-statistics::co5"
+    ],
+    "risk preference": [
+      "applied-math-statistics::co5"
+    ],
+    "decision under uncertainty": [
+      "applied-math-statistics::co5"
+    ],
+    "convex set": [
+      "applied-math-statistics::co6"
+    ],
+    "global optimum guarantee": [
+      "applied-math-statistics::co6"
+    ],
+    "convex analysis": [
+      "applied-math-statistics::co6"
+    ],
+    "distribution-free bound": [
+      "applied-math-statistics::co7"
+    ],
+    "deviation from mean": [
+      "applied-math-statistics::co7"
+    ],
+    "finite variance bound": [
+      "applied-math-statistics::co7"
+    ],
+    "memoryless process": [
+      "applied-math-statistics::co8"
+    ],
+    "state-dependent transition": [
+      "applied-math-statistics::co8"
+    ],
+    "markov chain": [
+      "applied-math-statistics::co8"
+    ],
+    "combinatorial optimization": [
+      "applied-math-statistics::co9"
+    ],
+    "shortest route problem": [
+      "applied-math-statistics::co9"
+    ],
+    "computationally hard problem": [
+      "applied-math-statistics::co9"
+    ],
+    "mesh discretization": [
+      "applied-math-statistics::me1"
+    ],
+    "structural stiffness analysis": [
+      "applied-math-statistics::me1"
+    ],
+    "computational engineering": [
+      "applied-math-statistics::me1"
+    ],
+    "iterative minimization": [
+      "applied-math-statistics::me2"
+    ],
+    "steepest descent": [
+      "applied-math-statistics::me2"
+    ],
+    "step size adjustment": [
+      "applied-math-statistics::me2"
+    ],
+    "likelihood function": [
+      "applied-math-statistics::me3"
+    ],
+    "parameter estimation": [
+      "applied-math-statistics::me3"
+    ],
+    "efficient estimator": [
+      "applied-math-statistics::me3"
+    ],
+    "allocation concealment": [
+      "applied-math-statistics::me4"
+    ],
+    "sealed envelope randomization": [
+      "applied-math-statistics::me4"
+    ],
+    "clinical trial design": [
+      "applied-math-statistics::me4"
+    ],
+    "principle of optimality": [
+      "applied-math-statistics::me5"
+    ],
+    "overlapping subproblems": [
+      "applied-math-statistics::me5"
+    ],
+    "sequential decision problem": [
+      "applied-math-statistics::me5"
+    ],
+    "metropolis-hastings algorithm": [
+      "applied-math-statistics::me6"
+    ],
+    "posterior sampling": [
+      "applied-math-statistics::me6"
+    ],
+    "markov chain simulation": [
+      "applied-math-statistics::me6"
+    ],
+    "arithmetic triangle": [
+      "applied-math-statistics::fg1"
+    ],
+    "pascal's wager": [
+      "applied-math-statistics::fg1"
+    ],
+    "normal approximation": [
+      "applied-math-statistics::fg2"
+    ],
+    "doctrine of chances": [
+      "applied-math-statistics::fg2",
+      "applied-math-statistics::fg3"
+    ],
+    "huguenot mathematician": [
+      "applied-math-statistics::fg2"
+    ],
+    "posthumous essay": [
+      "applied-math-statistics::fg3"
+    ],
+    "presbyterian minister": [
+      "applied-math-statistics::fg3"
+    ],
+    "celestial mechanics": [
+      "applied-math-statistics::fg4"
+    ],
+    "analytical theory of probability": [
+      "applied-math-statistics::fg4"
+    ],
+    "french newton": [
+      "applied-math-statistics::fg4"
+    ],
+    "golden theorem": [
+      "applied-math-statistics::fg5"
+    ],
+    "ars conjectandi": [
+      "applied-math-statistics::fg5"
+    ],
+    "bernoulli family": [
+      "applied-math-statistics::fg5"
+    ],
+    "experimental design pioneer": [
+      "applied-math-statistics::fg6"
+    ],
+    "eugenics controversy": [
+      "applied-math-statistics::fg6"
+    ],
+    "rothamsted statistician": [
+      "applied-math-statistics::fg6"
+    ],
+    "confidence interval inventor": [
+      "applied-math-statistics::fg7"
+    ],
+    "decision-theoretic testing": [
+      "applied-math-statistics::fg7"
+    ],
+    "berkeley statistics": [
+      "applied-math-statistics::fg7"
+    ],
+    "soviet mathematics school": [
+      "applied-math-statistics::fg8"
+    ],
+    "turbulence theory": [
+      "applied-math-statistics::fg8"
+    ],
+    "algorithmic information theory": [
+      "applied-math-statistics::fg8"
+    ],
+    "telephone traffic engineering": [
+      "applied-math-statistics::fg9"
+    ],
+    "erlang unit": [
+      "applied-math-statistics::fg9"
+    ],
+    "self-taught mathematician": [
+      "applied-math-statistics::fg9"
+    ],
+    "polar area diagram": [
+      "applied-math-statistics::fg10"
+    ],
+    "coxcomb chart": [
+      "applied-math-statistics::fg10"
+    ],
+    "crimean war sanitation": [
+      "applied-math-statistics::fg10"
+    ],
+    "simplex algorithm inventor": [
+      "applied-math-statistics::fg11"
+    ],
+    "air force operations": [
+      "applied-math-statistics::fg11"
+    ],
+    "stanford optimization": [
+      "applied-math-statistics::fg11"
+    ],
+    "portfolio selection dissertation": [
+      "applied-math-statistics::fg12"
+    ],
+    "quantitative finance founder": [
+      "applied-math-statistics::fg12"
+    ],
+    "nobel laureate economist": [
+      "applied-math-statistics::fg12"
+    ],
+    "game theory dissertation": [
+      "applied-math-statistics::fg13"
+    ],
+    "schizophrenia recovery": [
+      "applied-math-statistics::fg13"
+    ],
+    "beautiful mind": [
+      "applied-math-statistics::fg13"
+    ],
+    "significance threshold controversy": [
+      "applied-math-statistics::db1"
+    ],
+    "asa statement": [
+      "applied-math-statistics::db1"
+    ],
+    "retire statistical significance": [
+      "applied-math-statistics::db1"
+    ],
+    "probability interpretation dispute": [
+      "applied-math-statistics::db2"
+    ],
+    "bayesian countermanifesto": [
+      "applied-math-statistics::db2"
+    ],
+    "statistical philosophy": [
+      "applied-math-statistics::db2"
+    ],
+    "prospect theory critique": [
+      "applied-math-statistics::db3"
+    ],
+    "loss aversion": [
+      "applied-math-statistics::db3"
+    ],
+    "rational-actor model": [
+      "applied-math-statistics::db3"
+    ],
+    "market anomalies": [
+      "applied-math-statistics::db4"
+    ],
+    "behavioral finance critique": [
+      "applied-math-statistics::db4"
+    ],
+    "random walk hypothesis": [
+      "applied-math-statistics::db4"
+    ],
+    "gaussian copula": [
+      "applied-math-statistics::db5"
+    ],
+    "default correlation model": [
+      "applied-math-statistics::db5"
+    ],
+    "financial crisis modeling": [
+      "applied-math-statistics::db5"
+    ],
+    "time average vs ensemble average": [
+      "applied-math-statistics::db6"
+    ],
+    "non-ergodic wager": [
+      "applied-math-statistics::db6"
+    ],
+    "optimal leverage": [
+      "applied-math-statistics::db6"
+    ],
+    "reproducibility rate": [
+      "applied-math-statistics::db7"
+    ],
+    "open science collaboration": [
+      "applied-math-statistics::db7"
+    ],
+    "pre-registration": [
+      "applied-math-statistics::db7"
+    ],
+    "branch-and-cut solver": [
+      "applied-math-statistics::db8"
+    ],
+    "worst-case vs practical hardness": [
+      "applied-math-statistics::db8"
+    ],
+    "concorde tsp solver": [
+      "applied-math-statistics::db8"
+    ],
+    "age-based premium pricing": [
+      "applied-math-statistics::ap1"
+    ],
+    "first actuarial insurer": [
+      "applied-math-statistics::ap1"
+    ],
+    "compound interest premiums": [
+      "applied-math-statistics::ap1"
+    ],
+    "missing data reasoning": [
+      "applied-math-statistics::ap2"
+    ],
+    "bomber armor placement": [
+      "applied-math-statistics::ap2"
+    ],
+    "selection bias correction": [
+      "applied-math-statistics::ap2"
+    ],
+    "susceptible infected recovered": [
+      "applied-math-statistics::ap3"
+    ],
+    "epidemic differential equations": [
+      "applied-math-statistics::ap3"
+    ],
+    "outbreak forecasting": [
+      "applied-math-statistics::ap3"
+    ],
+    "random surfer model": [
+      "applied-math-statistics::ap4"
+    ],
+    "stationary distribution": [
+      "applied-math-statistics::ap4"
+    ],
+    "link-graph ranking": [
+      "applied-math-statistics::ap4"
+    ],
+    "statistical arbitrage": [
+      "applied-math-statistics::ap5"
+    ],
+    "mathematical mispricing model": [
+      "applied-math-statistics::ap5"
+    ],
+    "princeton-newport partners": [
+      "applied-math-statistics::ap5"
+    ],
+    "online controlled experiment": [
+      "applied-math-statistics::ap6"
+    ],
+    "randomized product testing": [
+      "applied-math-statistics::ap6"
+    ],
+    "conversion rate optimization": [
+      "applied-math-statistics::ap6"
     ],
     "central dogma molecular biology": [
       "cell-molecular-bio::th1"
