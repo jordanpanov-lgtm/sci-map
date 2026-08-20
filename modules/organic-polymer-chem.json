@@ -23,7 +23,209 @@
       "accent": "#2471A3",
       "bg": "#F0F7FF",
       "subtitle": "The frameworks that organise carbon bonding, reactivity and macromolecular structure",
-      "entries": []
+      "entries": [
+        {
+          "id": "th1",
+          "group": "Carbon Bonding & Molecular Structure",
+          "label": "Kekulé's Structure Theory",
+          "date": "1858",
+          "loc": "Ghent, Belgium",
+          "coords": [
+            51.05,
+            3.72
+          ],
+          "tag": "THEORY",
+          "hint": "Carbon forms exactly four bonds, and those bonds can link carbon atoms to each other in long chains and rings as readily as to any other element — a deceptively simple structural rule that, once accepted, explained why organic chemistry could generate such an enormous diversity of distinct compounds from just a handful of common elements.",
+          "note": "Kekulé, A. (1858). 'Über die Constitution und die Metamorphosen der chemischen Verbindungen und über die chemische Natur des Kohlenstoffs.' Annalen der Chemie und Pharmacie, 106(2), 129–159, written shortly after Kekulé's appointment at the University of Ghent. Archibald Scott Couper published a closely related structural theory almost simultaneously in 1858, and priority between the two is still debated by historians; Kekulé's version, more widely read and promoted at the time, became the one generally credited.",
+          "links": [
+            "st1",
+            "th2"
+          ]
+        },
+        {
+          "id": "th2",
+          "group": "Carbon Bonding & Molecular Structure",
+          "label": "Hybridization Theory",
+          "date": "1931",
+          "loc": "Pasadena, California",
+          "coords": [
+            34.15,
+            -118.14
+          ],
+          "tag": "THEORY",
+          "hint": "A carbon atom's four bonds aren't built from four separate, differently-shaped atomic orbitals — instead, the orbitals mix ('hybridize') into new, identical hybrid orbitals whose number and geometry depend on how many bonds and lone pairs the atom has: four single bonds give tetrahedral sp³ hybrids, a double bond gives flat, trigonal sp² hybrids, and a triple bond gives linear sp hybrids, directly explaining organic molecules' characteristic three-dimensional shapes.",
+          "note": "Pauling, L. (1931). 'The Nature of the Chemical Bond. Application of Results Obtained from the Quantum Mechanics and from a Theory of Paramagnetic Susceptibility to the Structure of Molecules.' Journal of the American Chemical Society, 53(4), 1367–1400, at the California Institute of Technology. Pauling's broader bonding synthesis is covered as a figure in the inorganic-analytical-chem folio; hybridization theory gave the tetrahedral carbon geometry van't Hoff and Le Bel had proposed on purely empirical grounds six decades earlier (see th3) its underlying quantum-mechanical justification.",
+          "links": [
+            "th1",
+            "th3"
+          ],
+          "xlinks": [
+            "inorganic-analytical-chem::fg12"
+          ]
+        },
+        {
+          "id": "th3",
+          "group": "Stereochemistry",
+          "label": "Van't Hoff and Le Bel's Tetrahedral Carbon Theory",
+          "date": "1874",
+          "loc": "Utrecht, Netherlands",
+          "coords": [
+            52.09,
+            5.12
+          ],
+          "tag": "THEORY",
+          "hint": "A carbon atom bonded to four different groups arranges them at the corners of a tetrahedron, not flat in a plane — and because a tetrahedral arrangement can be built in two distinct, mirror-image ways, this single geometric fact explained why so many organic compounds exist as pairs of molecules identical in every measurable property except how they rotate polarised light.",
+          "note": "van 't Hoff, J.H. (1874). 'Voorstel tot Uitbreiding der Tegenwoordige Chemische Structuurformules in de Ruimte.' Utrecht, self-published pamphlet; Joseph Achille Le Bel independently published an equivalent proposal the same year in Paris. Hermann Kolbe, one of the era's most senior chemists, published a scathing public dismissal of the idea as unscientific speculation; van't Hoff nonetheless became the first ever recipient of the Nobel Prize in Chemistry in 1901, largely for this and related work.",
+          "links": [
+            "th2",
+            "st3"
+          ]
+        },
+        {
+          "id": "th4",
+          "group": "Hydrocarbons & Aromaticity",
+          "label": "Hückel's Rule",
+          "date": "1931",
+          "loc": "Stuttgart, Germany",
+          "coords": [
+            48.78,
+            9.18
+          ],
+          "tag": "THEORY",
+          "hint": "A flat, fully conjugated ring of atoms is aromatic — unusually stable, and chemically distinct from ordinary alkenes — specifically when it contains 4n+2 delocalised electrons for some whole number n: 2, 6, 10, 14, and so on. Benzene's famous stability, with exactly 6 delocalised electrons, is simply the smallest and most common case of a much more general counting rule.",
+          "note": "Hückel, E. (1931). 'Quantentheoretische Beiträge zum Benzolproblem.' Zeitschrift für Physik, 70(3–4), 204–286, at the Technical University of Stuttgart. Hückel's rule was largely ignored by working organic chemists for over two decades after publication, since it was framed in unfamiliar quantum-mechanical language; it only entered mainstream organic chemistry teaching in the 1950s, once simpler qualitative explanations of the same result became available.",
+          "links": [
+            "st2",
+            "co3"
+          ]
+        },
+        {
+          "id": "th5",
+          "group": "Reaction Mechanisms",
+          "label": "Markovnikov's Rule",
+          "date": "1870",
+          "loc": "Moscow, Russia",
+          "coords": [
+            55.76,
+            37.62
+          ],
+          "tag": "THEORY",
+          "hint": "When a molecule like hydrogen bromide adds across an unsymmetrical carbon-carbon double bond, the hydrogen atom preferentially attaches to the carbon that already has more hydrogens attached, while the other, larger group attaches to the carbon with fewer — a simple positional rule of thumb that turned out to reflect a deeper truth about which of two possible reaction intermediates forms more easily and stably.",
+          "note": "Markovnikov, V.V. (1870). 'Ueber die Abhängigkeit der verschiedenen Vertretbarkeit des Radicalwasserstoffs in den isomeren Buttersäuren.' Doctoral dissertation, Moscow University. The rule's underlying mechanistic explanation — that the reaction proceeds through whichever possible carbocation intermediate is more stable — was only properly understood decades later, once the electronic theory of organic reaction mechanisms was developed in the 1920s and 1930s (see th6).",
+          "links": [
+            "th6"
+          ]
+        },
+        {
+          "id": "th6",
+          "group": "Reaction Mechanisms",
+          "label": "SN1/SN2 Mechanism Theory",
+          "date": "1935",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "THEORY",
+          "hint": "A nucleophile replacing a leaving group on a carbon atom can happen in one of two fundamentally different ways: either in a single, concerted step where the incoming and outgoing groups pass each other simultaneously (SN2), or in two separate steps where the leaving group departs first, leaving a short-lived charged intermediate the nucleophile then attacks (SN1) — two mechanisms with sharply different rate behaviour, stereochemical outcomes, and sensitivity to the surrounding solvent.",
+          "note": "Hughes, E.D. & Ingold, C.K. (1935). 'Mechanism of Substitution at a Saturated Carbon Atom.' Journal of the Chemical Society, 244–255, at University College London. Ingold's research group systematically worked out reaction rates, stereochemical outcomes (see co4), and solvent effects across dozens of related reactions to build the case for two genuinely distinct mechanistic pathways, rather than a single mechanism with variable character — a research programme now considered a founding template for physical organic chemistry as a discipline.",
+          "links": [
+            "th5",
+            "co5",
+            "co6"
+          ]
+        },
+        {
+          "id": "th7",
+          "group": "Organic Synthesis & Named Reactions",
+          "label": "The Woodward-Hoffmann Rules",
+          "date": "1965",
+          "loc": "Cambridge, Massachusetts",
+          "coords": [
+            42.37,
+            -71.11
+          ],
+          "tag": "THEORY",
+          "hint": "Certain reactions that form or break rings through a single concerted, cyclic rearrangement of bonding electrons are either allowed to happen easily under normal heating, or forbidden and only accessible via light instead, depending purely on the symmetry of the molecular orbitals involved — a strikingly clean, purely theoretical prediction rule for an entire class of reactions previously understood only case by case through trial and error.",
+          "note": "Woodward, R.B. & Hoffmann, R. (1965). 'Stereochemistry of Electrocyclic Reactions.' Journal of the American Chemical Society, 87(2), 395–397, at Harvard University. Roald Hoffmann received the 1981 Nobel Prize in Chemistry for the theory (shared with Kenichi Fukui, who had reached related conclusions independently using a different theoretical approach); Woodward himself, already a Nobel laureate from 1965 for unrelated synthesis work, was ineligible for a second chemistry prize under the rules as they were then applied, since he had died in 1979 and the prize is not awarded posthumously.",
+          "links": [
+            "th8",
+            "fg11"
+          ]
+        },
+        {
+          "id": "th8",
+          "group": "Organic Synthesis & Named Reactions",
+          "label": "Retrosynthetic Analysis",
+          "date": "1967",
+          "loc": "Cambridge, Massachusetts",
+          "coords": [
+            42.37,
+            -71.11
+          ],
+          "tag": "THEORY",
+          "hint": "Rather than trying to guess a synthesis route forward from available starting materials, retrosynthetic analysis works backward from the target molecule, systematically breaking it down, one plausible bond disconnection at a time, into progressively simpler precursors until reaching starting materials that are cheap and commercially available — turning organic synthesis planning from an intuitive art into an explicit, teachable, logical procedure.",
+          "note": "Corey, E.J. (1967). 'General Methods for the Construction of Complex Molecules.' Pure and Applied Chemistry, 14(1), 19–38, at Harvard University. Corey later formalised the approach further with computer-assisted synthesis planning software (LHASA, from the 1970s onward); he received the 1990 Nobel Prize in Chemistry substantially for developing retrosynthetic analysis as a systematic methodology, rather than for any single specific synthesis.",
+          "links": [
+            "th7",
+            "co9"
+          ]
+        },
+        {
+          "id": "th9",
+          "group": "Polymer Chemistry",
+          "label": "Free-Radical Chain Polymerization Theory",
+          "date": "1937",
+          "loc": "Wilmington, Delaware",
+          "coords": [
+            39.74,
+            -75.55
+          ],
+          "tag": "THEORY",
+          "hint": "A polymer chain can grow explosively fast once a reactive free radical attacks a monomer, generating a new radical on the product that immediately attacks the next monomer in turn — a self-propagating chain reaction that keeps adding monomer units, one after another, until two radical chain-ends happen to collide and terminate the reaction, or a deliberately added inhibitor stops it early.",
+          "note": "Flory, P.J. (1937). 'The Mechanism of Vinyl Polymerizations.' Journal of the American Chemical Society, 59(2), 241–253, at the DuPont Experimental Station, Wilmington. Flory's kinetic treatment let chemists predict a polymer's average molecular weight and its statistical distribution directly from reaction conditions, rather than only measuring the result after the fact; he received the 1974 Nobel Prize in Chemistry substantially for this and related polymer statistics work.",
+          "links": [
+            "th10",
+            "st8"
+          ]
+        },
+        {
+          "id": "th10",
+          "group": "Polymer Chemistry",
+          "label": "Carothers' Condensation Polymerization Theory",
+          "date": "1929",
+          "loc": "Wilmington, Delaware",
+          "coords": [
+            39.74,
+            -75.55
+          ],
+          "tag": "THEORY",
+          "hint": "Some polymers form not by chaining identical monomers together directly, but by repeatedly joining two different reactive end-groups together, releasing a small molecule like water as a byproduct at each step — a fundamentally different, step-by-step growth mechanism from radical chain polymerization, one that builds molecular weight far more gradually and requires the reaction to run to very high, near-complete conversion before genuinely long polymer chains appear at all.",
+          "note": "Carothers, W.H. (1929). 'An Introduction to the General Theory of Condensation Polymers.' Journal of the American Chemical Society, 51(8), 2548–2559, at the DuPont Experimental Station, Wilmington. Carothers' theoretical framework, distinguishing condensation from addition polymerisation on rigorous mechanistic grounds, directly guided his own subsequent invention of nylon (see st8); Carothers suffered from severe depression throughout his career and died by suicide in 1937, only two years after nylon's discovery, never seeing its enormous commercial success.",
+          "links": [
+            "th9",
+            "st8"
+          ]
+        },
+        {
+          "id": "th11",
+          "group": "Spectroscopic Structure Determination",
+          "label": "The Theory of Chemical Shielding",
+          "date": "1950",
+          "loc": "Cambridge, Massachusetts",
+          "coords": [
+            42.37,
+            -71.11
+          ],
+          "tag": "THEORY",
+          "hint": "A nucleus's exact resonance frequency in a magnetic field depends slightly on the electron cloud immediately surrounding it, since those electrons partially shield the nucleus from the full external field — a small, entirely predictable shift in frequency for each distinct chemical environment a nucleus sits in, which is exactly what turns a magnetic resonance signal into a readable structural fingerprint of an organic molecule rather than a single undifferentiated blip.",
+          "note": "Ramsey, N.F. (1950). 'Magnetic Shielding of Nuclei in Molecules.' Physical Review, 78(6), 699–703, at Harvard University. Ramsey's theoretical treatment explained, in quantitative quantum-mechanical terms, why the empirically observed chemical shift phenomenon (see st11) occurs at all and how its size relates to a nucleus's specific chemical environment, turning nuclear magnetic resonance from a physics curiosity into chemistry's single most information-rich everyday structural tool.",
+          "links": [
+            "st10",
+            "st11"
+          ]
+        }
+      ]
     },
     {
       "id": "study",
@@ -33,7 +235,213 @@
       "accent": "#7D3C98",
       "bg": "#FAF5FF",
       "subtitle": "The defining experiments — and exactly what they found",
-      "entries": []
+      "entries": [
+        {
+          "id": "st1",
+          "group": "Carbon Bonding & Molecular Structure",
+          "label": "Wöhler's Synthesis of Urea",
+          "date": "1828",
+          "loc": "Berlin, Germany",
+          "coords": [
+            52.52,
+            13.41
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Friedrich Wöhler, attempting to make an entirely different inorganic compound, accidentally produced urea — a substance previously known only as a genuine biological waste product excreted by living organisms — from purely inorganic starting materials in a flask, with no living cell or 'vital force' involved anywhere in the process at all.",
+          "note": "Wöhler, F. (1828). 'Ueber künstliche Bildung des Harnstoffs.' Annalen der Physik und Chemie, 88(2), 253–256, conducted in Berlin. The synthesis is popularly, and somewhat too neatly, credited with single-handedly refuting vitalism — the belief that organic compounds required a special life force to form — though historians note the doctrine actually declined gradually over subsequent decades as further organic syntheses accumulated, rather than collapsing immediately after this one result (see db1).",
+          "links": [
+            "th1",
+            "db1"
+          ]
+        },
+        {
+          "id": "st2",
+          "group": "Hydrocarbons & Aromaticity",
+          "label": "Kekulé's Benzene Structure",
+          "date": "1865",
+          "loc": "Ghent, Belgium",
+          "coords": [
+            51.05,
+            3.72
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Benzene's chemical formula, C₆H₆, was well established, but no proposed structure could explain why it behaved so much more stably than its apparent number of double bonds should predict. Kekulé proposed a six-carbon ring with alternating single and double bonds — a structure that, once refined with the modern understanding that the electrons are actually shared equally around the whole ring, finally explained benzene's unusual chemical stability.",
+          "note": "Kekulé, A. (1865). 'Sur la constitution des substances aromatiques.' Bulletin de la Société Chimique de Paris, 3, 98–110, at the University of Ghent. Kekulé later described, in an 1890 speech, having conceived the ring structure after a daydream of a snake seizing its own tail — a vivid origin story historians now treat with considerable scepticism, since it appeared only decades after the fact and matches a common folkloric motif rather than any contemporaneous account (see db2).",
+          "links": [
+            "th4",
+            "db2"
+          ]
+        },
+        {
+          "id": "st3",
+          "group": "Stereochemistry",
+          "label": "Pasteur's Separation of Tartaric Acid Crystals",
+          "date": "1848",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Louis Pasteur, examining crystals of a tartaric acid salt under a microscope, noticed two distinct, mirror-image crystal shapes mixed together, and painstakingly sorted them apart by hand with tweezers — finding that each separated batch rotated polarised light in an opposite direction, direct physical proof that molecules can exist as non-superimposable mirror images of each other, decades before anyone understood the underlying tetrahedral-carbon explanation (see th3).",
+          "note": "Pasteur, L. (1848). 'Recherches sur les relations qui peuvent exister entre la forme cristalline, la composition chimique et le sens de la polarisation rotatoire.' Annales de Chimie et de Physique, 24, 442–459, at the École Normale Supérieure, Paris. Pasteur reportedly performed the tedious hand-sorting over several days in a cold, unheated laboratory during a Paris winter; the discovery, made when Pasteur was only 25 and years before his later, far more famous work in microbiology, is now considered the founding moment of stereochemistry as a discipline.",
+          "links": [
+            "th3",
+            "co4"
+          ]
+        },
+        {
+          "id": "st4",
+          "group": "Stereochemistry",
+          "label": "Fischer's Determination of Glucose's Structure",
+          "date": "1891",
+          "loc": "Würzburg, Germany",
+          "coords": [
+            49.79,
+            9.95
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Glucose has four distinct carbon stereocentres, meaning sixteen different three-dimensional arrangements are chemically possible for a molecule with its basic formula — and Emil Fischer worked out, through years of painstaking chemical degradation and comparison experiments with no structural technique available to check his answer directly, exactly which one of those sixteen possibilities glucose actually is.",
+          "note": "Fischer, E. (1891). 'Ueber die Configuration des Traubenzuckers und seiner Isomeren.' Berichte der Deutschen Chemischen Gesellschaft, 24(2), 2683–2687, at the University of Würzburg. Fischer's assignment, made purely from chemical logic with no way to directly verify it at the time, was confirmed correct decades later by X-ray crystallography; he introduced the 'Fischer projection' notation, still standard for drawing sugar stereochemistry, specifically to keep track of the problem's dizzying combinatorial complexity.",
+          "links": [
+            "th3",
+            "co4"
+          ]
+        },
+        {
+          "id": "st5",
+          "group": "Organic Synthesis & Named Reactions",
+          "label": "Grignard's Discovery of Organomagnesium Reagents",
+          "date": "1900",
+          "loc": "Lyon, France",
+          "coords": [
+            45.76,
+            4.84
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Victor Grignard found that magnesium metal reacts with organic halides in dry ether to form a new class of highly reactive organomagnesium compounds that readily add to carbonyl groups, forming a new carbon-carbon bond — giving organic chemists, for the first time, a simple, general, reliable way to build larger carbon skeletons from smaller pieces on demand.",
+          "note": "Grignard, V. (1900). 'Sur quelques nouvelles combinaisons organométalliques du magnésium et leur application à des synthèses d'alcools et d'hydrocarbures.' Comptes Rendus de l'Académie des Sciences, 130, 1322–1324, developed under Philippe Barbier at the University of Lyon. Grignard reagents remain, over a century later, one of the most widely taught and widely used carbon-carbon bond-forming tools in all of organic synthesis; Grignard shared the 1912 Nobel Prize in Chemistry with Paul Sabatier.",
+          "links": [
+            "th8"
+          ]
+        },
+        {
+          "id": "st6",
+          "group": "Organic Synthesis & Named Reactions",
+          "label": "The Diels-Alder Reaction",
+          "date": "1928",
+          "loc": "Kiel, Germany",
+          "coords": [
+            54.32,
+            10.12
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Otto Diels and Kurt Alder found that a diene (two connected double bonds) and a dienophile (a single reactive double bond) can combine in one clean step to form a new six-membered ring, with no byproducts and remarkably predictable stereochemistry — a single reaction so useful for rapidly building ring systems that it remains, nearly a century later, one of the most common ring-forming steps taught in organic synthesis.",
+          "note": "Diels, O. & Alder, K. (1928). 'Synthesen in der hydroaromatischen Reihe.' Justus Liebigs Annalen der Chemie, 460(1), 98–122, at the University of Kiel. Diels and Alder shared the 1950 Nobel Prize in Chemistry for the reaction; it proceeds through a single concerted transition state rather than a stepwise mechanism, a pericyclic behaviour later explained in full generality by the Woodward-Hoffmann rules (see th7) nearly four decades afterward.",
+          "links": [
+            "th7"
+          ]
+        },
+        {
+          "id": "st7",
+          "group": "Polymer Chemistry",
+          "label": "Staudinger's Macromolecule Hypothesis",
+          "date": "1920",
+          "loc": "Zurich, Switzerland",
+          "coords": [
+            47.38,
+            8.54
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Hermann Staudinger proposed, against near-universal contemporary opinion, that substances like rubber and cellulose are not loosely bound aggregates of small molecules clustered together, but genuine single molecules of extraordinary size, with thousands of atoms connected by ordinary covalent bonds into one continuous chain — a claim the chemistry establishment found close to absurd at the time.",
+          "note": "Staudinger, H. (1920). 'Über Polymerisation.' Berichte der Deutschen Chemischen Gesellschaft, 53(6), 1073–1085, at ETH Zurich. Staudinger reportedly faced such fierce opposition that a senior colleague advised him to abandon the 'macromolecule' idea entirely if he wanted to keep being taken seriously as a chemist; the hypothesis was thoroughly vindicated within about a decade once X-ray diffraction data on polymer fibres became available, and Staudinger received the 1953 Nobel Prize in Chemistry for founding polymer science as a discipline.",
+          "links": [
+            "co7"
+          ]
+        },
+        {
+          "id": "st8",
+          "group": "Polymer Chemistry",
+          "label": "Carothers' Synthesis of Nylon",
+          "date": "1935",
+          "loc": "Wilmington, Delaware",
+          "coords": [
+            39.74,
+            -75.55
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Wallace Carothers's research group at DuPont applied condensation polymerisation theory (see th10) deliberately, rather than by accident, to synthesise nylon — the first fully synthetic fibre strong and cheap enough to compete directly with natural silk, launching an entire industry built on designing polymers to order rather than discovering them by chance.",
+          "note": "Carothers, W.H. (1935). Internal DuPont research reports; first public unveiling at the 1939 New York World's Fair, three years after Carothers's own death. Nylon stockings, launched commercially in 1940, sold an estimated 64 million pairs within the first year alone, and wartime nylon shortages during the Second World War (the material was redirected to parachutes and other military uses) triggered visible public 'nylon riots' at stores in several American cities.",
+          "links": [
+            "th10",
+            "ap2"
+          ]
+        },
+        {
+          "id": "st9",
+          "group": "Polymer Chemistry",
+          "label": "Ziegler-Natta Catalysis",
+          "date": "1953",
+          "loc": "Mülheim, Germany",
+          "coords": [
+            51.43,
+            6.88
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Karl Ziegler discovered a class of catalysts that could polymerise ethylene at low pressure into a much stronger, more crystalline plastic than the high-pressure industrial process then in use — and Giulio Natta, working independently in Italy, quickly extended the same catalyst family to control not just how monomers link together but their precise three-dimensional spatial arrangement along the chain, opening an entirely new dimension of polymer design.",
+          "note": "Ziegler, K. (1953–55). 'Das Mülheimer Normaldruck-Polyäthylen-Verfahren.' Angewandte Chemie, 67(19–20), 541–547, at the Max Planck Institute for Coal Research, Mülheim. Ziegler and Natta shared the 1963 Nobel Prize in Chemistry; their catalysts made low-density and high-density polyethylene, as well as stereoregular ('isotactic') polypropylene, commercially practical, underlying a large fraction of everyday plastic production ever since.",
+          "links": [
+            "co7"
+          ]
+        },
+        {
+          "id": "st10",
+          "group": "Spectroscopic Structure Determination",
+          "label": "Bloch and Purcell's Discovery of Nuclear Magnetic Resonance",
+          "date": "1946",
+          "loc": "Stanford, California",
+          "coords": [
+            37.43,
+            -122.17
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Felix Bloch and Edward Purcell, working independently and using different apparatus, both found that atomic nuclei placed in a strong magnetic field and hit with radio waves at exactly the right frequency absorb and re-emit energy in a detectable, measurable way — a purely physics discovery about how nuclei behave that neither man could have anticipated would soon become organic chemistry's single most important structure-determination technique.",
+          "note": "Bloch, F. (1946). 'Nuclear Induction.' Physical Review, 70(7–8), 460–474, at Stanford University; Purcell, E.M., Torrey, H.C. & Pound, R.V. (1946). 'Resonance Absorption by Nuclear Magnetic Moments in a Solid.' Physical Review, 69(1–2), 37–38, at Harvard University, published within months of each other. Bloch and Purcell shared the 1952 Nobel Prize in Physics for the discovery; its transformation into a routine organic chemistry tool required the further discovery of chemical shift five years later (see st11).",
+          "links": [
+            "th11",
+            "st11"
+          ]
+        },
+        {
+          "id": "st11",
+          "group": "Spectroscopic Structure Determination",
+          "label": "The Discovery of Chemical Shift",
+          "date": "1951",
+          "loc": "Stanford, California",
+          "coords": [
+            37.43,
+            -122.17
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Following up on Bloch and Purcell's discovery, researchers found that a given nucleus's exact resonance frequency shifts slightly depending on its specific chemical environment within a molecule — the hydrogen atoms in an alcohol's -OH group resonate at a measurably different frequency than the hydrogens in its carbon chain, for instance — turning a single-frequency physics signal into a rich, multi-peaked chemical fingerprint.",
+          "note": "Arnold, J.T., Dharmatti, S.S. & Packard, M.E. (1951). 'Chemical Effects on Nuclear Induction Signals from Organic Compounds.' Journal of Chemical Physics, 19(4), 507, at Stanford University, observing distinct resonance peaks for the three chemically different hydrogen environments in ethanol. The observation, initially just a curious side effect physicists needed to correct for, is what actually made nuclear magnetic resonance into the routine organic-structure-determination workhorse it remains today.",
+          "links": [
+            "th11",
+            "st10"
+          ]
+        }
+      ]
     },
     {
       "id": "effect",
