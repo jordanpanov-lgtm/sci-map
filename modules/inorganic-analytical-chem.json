@@ -802,7 +802,112 @@
       "accent": "#8B5E00",
       "bg": "#FFF8F0",
       "subtitle": "The tools and paradigms that generate the field's evidence",
-      "entries": []
+      "entries": [
+        {
+          "id": "me1",
+          "group": "Acids, Bases & Aqueous Chemistry",
+          "label": "Titration",
+          "date": "1855",
+          "loc": "Koblenz, Germany",
+          "coords": [
+            50.36,
+            7.59
+          ],
+          "tag": "METHOD",
+          "hint": "To find exactly how much of an unknown acid or base is present in a solution, add a reagent of precisely known concentration drop by drop until an indicator changes colour at exactly the point the reaction is complete — the volume of reagent needed, combined with its known concentration, lets the unknown's original amount be calculated with high precision.",
+          "note": "Mohr, K.F. (1855). Lehrbuch der chemisch-analytischen Titrirmethode. Braunschweig: Vieweg, written while Mohr practised as an apothecary in Koblenz before later becoming a university chemistry professor. Mohr's systematic textbook standardised titration technique and equipment (including the burette) into the rigorous, reproducible quantitative method still taught essentially unchanged in introductory chemistry laboratories today.",
+          "links": [
+            "th7",
+            "th9"
+          ]
+        },
+        {
+          "id": "me2",
+          "group": "Analytical Methods & Instrumentation",
+          "label": "Gravimetric Analysis",
+          "date": "1818",
+          "loc": "Stockholm, Sweden",
+          "coords": [
+            59.33,
+            18.07
+          ],
+          "tag": "METHOD",
+          "hint": "To measure exactly how much of a substance is present in a sample, convert it entirely into an insoluble precipitate of precisely known chemical composition, then filter, thoroughly wash, dry, and weigh that precipitate — since the precipitate's exact chemical formula is known, its mass can be converted directly back into the original substance's mass with high accuracy, using nothing more sophisticated than a sensitive balance.",
+          "note": "Berzelius, J.J. (1810s–1826). Systematic gravimetric determinations underlying Berzelius's remarkably accurate table of atomic weights, Stockholm. Berzelius's meticulous gravimetric technique, refined over decades, produced atomic weight values accurate enough that many remained the accepted standard for the rest of the nineteenth century; the common ion effect (see ef3) is routinely exploited to push gravimetric precipitation as close to completion as possible before weighing.",
+          "links": [
+            "st10",
+            "ef3"
+          ]
+        },
+        {
+          "id": "me3",
+          "group": "Analytical Methods & Instrumentation",
+          "label": "Column Chromatography",
+          "date": "1906",
+          "loc": "Warsaw, Poland",
+          "coords": [
+            52.23,
+            21.01
+          ],
+          "tag": "METHOD",
+          "hint": "Pour a liquid mixture through a vertical glass column packed with an adsorbent solid, and the mixture's different components travel down the column at different speeds depending on how strongly each one clings to the packing material — separating a complex mixture into distinct, visible bands without needing to already know exactly what's in it.",
+          "note": "Tsvet, M.S. (1906). 'Adsorptionsanalyse und chromatographische Methode. Anwendung auf die Chemie des Chlorophylls.' Berichte der Deutschen Botanischen Gesellschaft, 24, 384–393, at the University of Warsaw, separating plant pigments into visibly distinct coloured bands — the origin of the technique's name, from the Greek for 'colour writing.' Tsvet's method was largely overlooked for over two decades before being rediscovered and extended into the far more convenient paper chromatography technique (see co7).",
+          "links": [
+            "co7"
+          ]
+        },
+        {
+          "id": "me4",
+          "group": "Analytical Methods & Instrumentation",
+          "label": "Atomic Absorption Spectroscopy",
+          "date": "1955",
+          "loc": "Melbourne, Australia",
+          "coords": [
+            -37.81,
+            144.96
+          ],
+          "tag": "METHOD",
+          "hint": "Vaporise a sample into a flame and shine light of a specific wavelength through it, one exactly matching a particular element's own characteristic absorption line — the amount of light absorbed is directly proportional to how much of that element is present in the sample, letting even trace concentrations of specific metals be measured with high precision and selectivity.",
+          "note": "Walsh, A. (1955). 'The Application of Atomic Absorption Spectra to Chemical Analysis.' Spectrochimica Acta, 7, 108–117, at CSIRO, Melbourne. Unlike flame emission testing (see ef1), which reads light a sample emits, atomic absorption spectroscopy measures light a sample absorbs from an external source — a distinction that made trace-metal analysis dramatically more sensitive and quantitatively reliable, and the technique became a standard tool across environmental, clinical, and industrial testing laboratories within two decades.",
+          "links": [
+            "ef1"
+          ]
+        },
+        {
+          "id": "me5",
+          "group": "Analytical Methods & Instrumentation",
+          "label": "Mass Spectrometry",
+          "date": "1919",
+          "loc": "Cambridge, England",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "tag": "METHOD",
+          "hint": "Ionise a sample, accelerate the resulting charged particles through electric and magnetic fields, and measure exactly how much each particle's path bends — the amount of deflection depends precisely on each particle's mass-to-charge ratio, letting a sample's exact molecular or atomic composition be read directly off the resulting pattern, down to individual isotopes of the same element.",
+          "note": "Aston, F.W. (1919). 'A Positive Ray Spectrograph.' Philosophical Magazine, 38(228), 707–714, at the Cavendish Laboratory, Cambridge, refining J.J. Thomson's earlier, cruder positive-ray apparatus into an instrument precise enough to directly separate and measure individual isotopes (see co1) for the first time. Aston identified isotopes for over 50 different elements using the technique, work that earned him the 1922 Nobel Prize in Chemistry.",
+          "links": [
+            "co1"
+          ]
+        },
+        {
+          "id": "me6",
+          "group": "Coordination Chemistry & Transition Metals",
+          "label": "X-ray Crystallography",
+          "date": "1913",
+          "loc": "Leeds, England",
+          "coords": [
+            53.8,
+            -1.55
+          ],
+          "tag": "METHOD",
+          "hint": "Shine X-rays at a crystal, and the regularly repeating pattern of atoms inside diffracts the rays into a distinctive pattern of bright spots — from the precise geometry of that diffraction pattern, the exact three-dimensional arrangement of atoms within the crystal, down to individual bond lengths and angles, can be calculated directly, turning an invisible molecular structure into a measurable, verifiable geometric map.",
+          "note": "Bragg, W.H. & Bragg, W.L. (1913). 'The Reflection of X-rays by Crystals.' Proceedings of the Royal Society A, 88(605), 428–438, a father-and-son collaboration between the University of Leeds and Cambridge University. The Braggs shared the 1915 Nobel Prize in Physics, with William Lawrence Bragg, at 25, remaining the youngest ever Nobel laureate; X-ray crystallography later provided the definitive structural confirmation of Werner's coordination geometry predictions (see st9), decades after Werner's original stereochemical arguments.",
+          "links": [
+            "st9"
+          ]
+        }
+      ]
     },
     {
       "id": "figure",
@@ -812,7 +917,229 @@
       "accent": "#B7770D",
       "bg": "#FEFDE7",
       "subtitle": "The researchers who shaped the discipline",
-      "entries": []
+      "entries": [
+        {
+          "id": "fg1",
+          "group": "Pioneers & Theorists",
+          "label": "Antoine Lavoisier",
+          "date": "1789",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "FIGURE",
+          "hint": "Often called the father of modern chemistry, Lavoisier established the law of conservation of mass through meticulously precise weighing experiments, disproved the long-dominant phlogiston theory of combustion, and co-created the systematic chemical naming conventions still recognisably in use today — before being guillotined during the French Revolution's Reign of Terror for his earlier work as a tax collector.",
+          "note": "Lavoisier, A. (1789). Traité élémentaire de chimie. Paris: Cuchet. The presiding judge at Lavoisier's 1794 trial reportedly declared 'the Republic has no need of scientists,' a line historians now consider likely apocryphal; a mathematician colleague remarked afterward that it had taken only a moment to cut off Lavoisier's head, but France might not produce another like it in a century.",
+          "links": []
+        },
+        {
+          "id": "fg2",
+          "group": "Pioneers & Theorists",
+          "label": "Dmitri Mendeleev",
+          "date": "1869",
+          "loc": "St. Petersburg, Russia",
+          "coords": [
+            59.93,
+            30.34
+          ],
+          "tag": "FIGURE",
+          "hint": "Mendeleev reportedly organised the periodic table's structure while playing a game of patience (solitaire) with cards, each labelled with an element's properties, arranging and rearranging them until the pattern clicked — then had the confidence to leave deliberate gaps for elements nobody had discovered yet, and to specify in advance exactly what those missing elements' properties should turn out to be.",
+          "note": "Mendeleev, D. Periodic table (1869, see th1, st1). Mendeleev was famously passed over for the Nobel Prize in Chemistry in 1906 by a single vote, controversially awarded instead to Henri Moissan; a lunar crater and, more recently, chemical element 101 (mendelevium) are named in his honour.",
+          "links": [
+            "th1",
+            "st1"
+          ]
+        },
+        {
+          "id": "fg3",
+          "group": "Pioneers & Theorists",
+          "label": "Henry Moseley",
+          "date": "1913",
+          "loc": "Manchester, England",
+          "coords": [
+            53.48,
+            -2.24
+          ],
+          "tag": "FIGURE",
+          "hint": "In barely two years of active research before enlisting and being killed at Gallipoli at 27, Moseley resolved one of chemistry's most fundamental open questions — what property actually determines an element's true place in the periodic table — using X-ray spectroscopy to show it was atomic number, not atomic weight, that mattered.",
+          "note": "Moseley, H.G.J. X-ray spectra and atomic number (1913, see st2). Many historians consider Moseley's death, while serving as a telecommunications officer rather than in a scientific role the British military had initially been reluctant to exempt him from, one of the clearest arguments for exempting scientists of exceptional promise from frontline combat duty; the practice was subsequently adopted more broadly for later conflicts.",
+          "links": [
+            "st2"
+          ]
+        },
+        {
+          "id": "fg4",
+          "group": "Pioneers & Theorists",
+          "label": "Robert Boyle",
+          "date": "1662",
+          "loc": "Oxford, England",
+          "coords": [
+            51.75,
+            -1.26
+          ],
+          "tag": "FIGURE",
+          "hint": "A founding member of the Royal Society and one of the wealthiest scientists of his era, Boyle insisted chemistry be practised as a rigorous experimental science rather than inherited from alchemical tradition or philosophical authority — a stance his own influential book, provocatively titled The Sceptical Chymist, argued at length, helping separate modern chemistry from its alchemical roots.",
+          "note": "Boyle, R. Air pump experiments (1662, see st3). Boyle also proposed one of the earliest operational definitions of a chemical element — a substance that cannot be broken down into anything simpler by chemical means — a definition that, with only minor refinement, remains essentially the modern one used today.",
+          "links": [
+            "st3"
+          ]
+        },
+        {
+          "id": "fg5",
+          "group": "Pioneers & Theorists",
+          "label": "Amedeo Avogadro",
+          "date": "1811",
+          "loc": "Turin, Italy",
+          "coords": [
+            45.07,
+            7.69
+          ],
+          "tag": "FIGURE",
+          "hint": "An Italian nobleman trained originally as a lawyer before turning to physics and chemistry, Avogadro proposed his famous hypothesis about equal gas volumes containing equal particle counts to essentially no notice from his contemporaries, and died in 1856, four years before Cannizzaro's forceful advocacy finally secured it the recognition it deserved.",
+          "note": "Avogadro, A. Avogadro's hypothesis (1811, see th6). Avogadro's number, the specific count of particles in a mole, was neither calculated nor named by Avogadro himself — it was named in his honour decades after his death, once Jean Perrin's early twentieth-century experimental work on Brownian motion finally gave physicists a reliable way to measure the actual value.",
+          "links": [
+            "th6"
+          ]
+        },
+        {
+          "id": "fg6",
+          "group": "Pioneers & Theorists",
+          "label": "Joseph Louis Gay-Lussac",
+          "date": "1808",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "FIGURE",
+          "hint": "An adventurous experimentalist who once ascended over 7,000 metres in a hydrogen balloon to study the atmosphere's composition at altitude, Gay-Lussac discovered boron, co-invented an early form of the Bunsen burner decades before Bunsen's own refinement, and established the law of combining gas volumes that became a crucial clue toward Avogadro's later hypothesis.",
+          "note": "Gay-Lussac, J.L. Law of combining gas volumes (1808, see st4). Gay-Lussac's high-altitude balloon ascents in 1804, partly intended to test whether Earth's magnetic field weakened with altitude, remained the highest recorded manned ascents for nearly fifty years afterward, an extraordinary feat given the era's rudimentary equipment and complete absence of any protection against oxygen deprivation.",
+          "links": [
+            "st4"
+          ]
+        },
+        {
+          "id": "fg7",
+          "group": "Pioneers & Theorists",
+          "label": "Svante Arrhenius",
+          "date": "1884",
+          "loc": "Uppsala, Sweden",
+          "coords": [
+            59.86,
+            17.64
+          ],
+          "tag": "FIGURE",
+          "hint": "Arrhenius's doctoral dissertation proposing that dissolved salts split into charged ions was received so sceptically by his own examining committee that it was awarded only the lowest passing grade — yet the same ion-dissociation theory won him the Nobel Prize in Chemistry less than twenty years later, one of the most dramatic academic reversals of fortune in the prize's history.",
+          "note": "Arrhenius, S. Dissociation theory (1884, see st5); acid-base theory (1887, see th7). Arrhenius also did pioneering early work estimating how atmospheric carbon dioxide levels might affect global surface temperature, publishing calculations in 1896 that anticipated the modern greenhouse-effect concept by roughly a century, though using far cruder data and methods than modern climate science.",
+          "links": [
+            "st5",
+            "th7"
+          ]
+        },
+        {
+          "id": "fg8",
+          "group": "Pioneers & Theorists",
+          "label": "Søren Sørensen",
+          "date": "1909",
+          "loc": "Copenhagen, Denmark",
+          "coords": [
+            55.68,
+            12.57
+          ],
+          "tag": "FIGURE",
+          "hint": "Working as director of the Carlsberg Laboratory — funded by the Danish brewing company specifically to support fundamental scientific research — Sørensen introduced the pH scale to solve a practical problem in monitoring beer fermentation, giving chemistry one of its most universally recognised and used measurements almost as a side effect of quality-controlling lager.",
+          "note": "Sørensen, S.P.L. pH scale (1909, see st6). The Carlsberg Laboratory's unusual, explicitly non-commercial research mandate — funded by beer profits but directed at open scientific publication rather than proprietary brewing secrets — also produced significant foundational work in protein chemistry and enzyme kinetics during Sørensen's long tenure there.",
+          "links": [
+            "st6"
+          ]
+        },
+        {
+          "id": "fg9",
+          "group": "Pioneers & Theorists",
+          "label": "Humphry Davy",
+          "date": "1807",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "FIGURE",
+          "hint": "A brilliant and famously charismatic public lecturer who packed the Royal Institution's theatre with fashionable London society, Davy isolated more chemical elements than almost any scientist before or since using large voltaic batteries, while also, less admirably, popularising nitrous oxide ('laughing gas') recreationally among his social circle before its anaesthetic medical value was recognised decades later.",
+          "note": "Davy, H. Isolation of potassium and sodium (1807, see st7). Davy's laboratory assistant, Michael Faraday, whom Davy hired in 1813 after Faraday attended his public lectures and sent him meticulous notes, went on to arguably surpass his mentor's own scientific achievements; Davy reportedly later, and somewhat ungenerously, considered Faraday his greatest discovery rather than any of his own isolated elements.",
+          "links": [
+            "st7"
+          ]
+        },
+        {
+          "id": "fg10",
+          "group": "Pioneers & Theorists",
+          "label": "Alfred Werner",
+          "date": "1893",
+          "loc": "Zurich, Switzerland",
+          "coords": [
+            47.38,
+            8.54
+          ],
+          "tag": "FIGURE",
+          "hint": "Werner reportedly conceived the core structural insight behind coordination theory in a single sudden flash of understanding at two in the morning, then spent the rest of that night writing it down, and the following decades systematically proving it experimentally against considerable scepticism from chemists who thought bonding rules already well-established for organic chemistry ought to apply equally to inorganic coordination compounds.",
+          "note": "Werner, A. Coordination theory (1893, see st9). Werner became the first inorganic chemist to win the Nobel Prize in Chemistry (1913), a field the prize committee had previously treated as comparatively less theoretically sophisticated than organic chemistry; his specific 1911 experimental confirmation of optical isomerism in a purely inorganic cobalt complex is often cited as decisively establishing inorganic chemistry's own theoretical depth.",
+          "links": [
+            "st9"
+          ]
+        },
+        {
+          "id": "fg11",
+          "group": "Pioneers & Theorists",
+          "label": "Robert Bunsen",
+          "date": "1860",
+          "loc": "Heidelberg, Germany",
+          "coords": [
+            49.4,
+            8.67
+          ],
+          "tag": "FIGURE",
+          "hint": "Beyond the clean, nearly colourless gas burner still bearing his name in every chemistry classroom, Bunsen lost sight in one eye from an early laboratory explosion, nearly died of arsenic poisoning during his research, and partnered with physicist Gustav Kirchhoff to found the entire field of spectroscopic chemical analysis, discovering two new elements in barely a year together.",
+          "note": "Bunsen, R. Discovery of caesium and rubidium with Kirchhoff (1860, see st11). Bunsen designed his improved burner specifically to produce a hot, clean, nearly colourless flame precisely because a coloured flame would have interfered with observing the faint spectral lines his and Kirchhoff's spectroscopic method depended on — the famous burner was, in effect, laboratory equipment built to serve the spectroscopy research, not an independent invention in its own right.",
+          "links": [
+            "st11"
+          ]
+        },
+        {
+          "id": "fg12",
+          "group": "Pioneers & Theorists",
+          "label": "Linus Pauling",
+          "date": "1932",
+          "loc": "Pasadena, California",
+          "coords": [
+            34.14,
+            -118.13
+          ],
+          "tag": "FIGURE",
+          "hint": "The only person ever to win two unshared Nobel Prizes, Pauling's electronegativity scale and broader synthesis of quantum mechanics with practical chemical bonding theory reshaped how chemistry itself is taught, while his later, far more controversial advocacy for massive doses of vitamin C as a treatment for cancer and the common cold has not held up nearly as well under subsequent clinical scrutiny.",
+          "note": "Pauling, L. Electronegativity scale (1932, see co2). Pauling won the 1954 Nobel Prize in Chemistry for his bonding work and the 1962 Nobel Peace Prize for his anti-nuclear-testing activism, the only individual in history to receive two unshared Nobel Prizes in different categories; his vitamin C claims, though popular with the public for decades, have not been supported by subsequent randomised controlled trials.",
+          "links": [
+            "co2"
+          ]
+        },
+        {
+          "id": "fg13",
+          "group": "Pioneers & Theorists",
+          "label": "Carl Remigius Fresenius",
+          "date": "1841",
+          "loc": "Giessen, Germany",
+          "coords": [
+            50.58,
+            8.68
+          ],
+          "tag": "FIGURE",
+          "hint": "Fresenius's systematic scheme for identifying unknown ions in a sample was so influential, and so widely adopted internationally, that he went on to found his own private analytical chemistry teaching laboratory and an accompanying scientific journal, both explicitly dedicated to the rigorous, practical training of professional analytical chemists rather than purely academic research.",
+          "note": "Fresenius, C.R. Systematic qualitative analysis (1841, see st10). The private laboratory and school Fresenius founded in Wiesbaden in 1848 trained analytical chemists from across Europe and beyond for decades, functioning as one of the first institutions explicitly organised around professional, applied chemical analysis training rather than general academic chemistry education.",
+          "links": [
+            "st10"
+          ]
+        }
+      ]
     },
     {
       "id": "debate",
