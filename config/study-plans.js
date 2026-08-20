@@ -4,6 +4,56 @@
 // are available as globals to the renderer.
 
 const STUDY_PLANS = {
+  'organic-polymer-chem': {
+    meta: "Groups content thematically rather than by category: after the founders and the field's core purification and structure-determination methods, each module works through one branch — carbon bonding, hydrocarbons and aromaticity, stereochemistry, reaction mechanisms, synthesis strategy, polymer chemistry, and spectroscopic structure determination — carrying that branch's theorems, landmark experiments, named phenomena, and live debates together, closing with the spectroscopic tools that let every earlier module's claims actually be verified.",
+    modules: [
+      {
+        title: '1 — Founders & the Field',
+        rationale: 'From Wöhler\'s accidental urea synthesis to Woodward\'s and Corey\'s systematic mastery of synthesis, a relatively small set of figures repeatedly turned organic chemistry from an unpredictable, case-by-case craft into a field with genuine explanatory theory underneath it.',
+        groups: ['Pioneers & Theorists']
+      },
+      {
+        title: '2 — Research Methods',
+        rationale: 'Catalytic cracking, thin-layer and flash chromatography, IR correlation charts, mass spectral fragmentation analysis, and palladium cross-coupling are the actual tools that generated and purified every result in the modules that follow.',
+        cats: ['method']
+      },
+      {
+        title: '3 — Carbon Bonding & Molecular Structure',
+        rationale: 'Start with the single structural fact — carbon\'s four bonds, freely chaining into rings and branches — that lets a handful of common elements generate organic chemistry\'s enormous compound diversity in the first place.',
+        groups: ['Carbon Bonding & Molecular Structure']
+      },
+      {
+        title: '4 — Hydrocarbons & Aromaticity',
+        rationale: 'From ordinary chain and ring hydrocarbons to benzene\'s unusual, electron-counting-rule-governed stability — the specific structural puzzle that took organic chemistry the better part of a century to fully resolve.',
+        groups: ['Hydrocarbons & Aromaticity']
+      },
+      {
+        title: '5 — Stereochemistry',
+        rationale: 'Pasteur\'s hand-sorted crystals and van\'t Hoff\'s ridiculed tetrahedral carbon proposal together founded the study of molecular handedness — a seemingly abstract geometric property whose real-world stakes, as thalidomide later proved, can be a matter of life and death.',
+        groups: ['Stereochemistry']
+      },
+      {
+        title: '6 — Reaction Mechanisms',
+        rationale: 'How and why a reaction actually happens, step by step — nucleophiles finding electrophiles, leaving groups departing, and the decades-long argument over whether some mechanisms are genuinely as sharply distinct as the textbook categories suggest.',
+        groups: ['Reaction Mechanisms']
+      },
+      {
+        title: '7 — Organic Synthesis & Named Reactions',
+        rationale: 'Grignard\'s reagents, the Diels-Alder reaction, and Corey\'s retrosynthetic logic turned building a complex target molecule from simple starting materials into a genuinely systematic — if still not fully automatable — discipline.',
+        groups: ['Organic Synthesis & Named Reactions']
+      },
+      {
+        title: '8 — Polymer Chemistry',
+        rationale: 'Staudinger\'s ridiculed insistence that rubber and cellulose are genuine giant molecules, not loose aggregates, founded an entire discipline that now produces nearly everything called plastic — along with the environmental and health questions that success has since raised.',
+        groups: ['Polymer Chemistry']
+      },
+      {
+        title: '9 — Spectroscopic Structure Determination',
+        rationale: 'Where the science becomes directly checkable — NMR, infrared, and mass spectrometry let a chemist confirm exactly what molecule is actually in the flask, the same instruments medicine later repurposed, largely unchanged, into MRI.',
+        groups: ['Spectroscopic Structure Determination']
+      }
+    ]
+  },
   'inorganic-analytical-chem': {
     meta: "Groups content thematically rather than by category: after the founders and the field's core measurement techniques, each module works through one branch — atomic structure, bonding, gas laws, acid-base chemistry, redox and electrochemistry, coordination chemistry, and analytical instrumentation — carrying that branch's theorems, landmark experiments, named phenomena, and live debates together, ending with the instrumentation that makes every other module's claims actually measurable and checkable.",
     modules: [
