@@ -23,7 +23,208 @@
       "accent": "#2471A3",
       "bg": "#F0F7FF",
       "subtitle": "The frameworks that organise probability, statistics, optimisation and decision-making",
-      "entries": []
+      "entries": [
+        {
+          "id": "th1",
+          "group": "Probability Theory",
+          "label": "Kolmogorov's Axiomatization of Probability",
+          "date": "1933",
+          "loc": "Moscow, Russia",
+          "coords": [
+            55.76,
+            37.62
+          ],
+          "tag": "THEORY",
+          "hint": "Before 1933, probability theory was a loose collection of calculating techniques with no agreed logical foundation — mathematicians even disagreed about what a 'probability' actually was. Andrey Kolmogorov showed the entire subject could be built from just three simple axioms borrowed from measure theory, instantly making probability a fully rigorous branch of mathematics rather than a set of intuitive rules of thumb.",
+          "note": "Kolmogorov, A.N. (1933). Grundbegriffe der Wahrscheinlichkeitsrechnung. Berlin: Julius Springer, written while Kolmogorov was at Moscow State University. Built directly on Henri Lebesgue's measure theory, developed three decades earlier for a completely different purpose; the axiomatization is now so completely taken for granted that most working statisticians never encounter the foundational debates it resolved.",
+          "links": [
+            "th3"
+          ],
+          "xlinks": [
+            "pure-mathematics::th6"
+          ]
+        },
+        {
+          "id": "th2",
+          "group": "Probability Theory",
+          "label": "Central Limit Theorem",
+          "date": "1810",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "THEORY",
+          "hint": "Add together enough independent random quantities — almost regardless of their individual distributions — and the sum's distribution converges toward the familiar bell-shaped normal curve. The theorem explains why so many unrelated real-world measurements, from human heights to measurement errors, cluster into approximately the same bell shape: each is itself the sum of many small, roughly independent contributing factors.",
+          "note": "Laplace, P.S. (1810). 'Mémoire sur les approximations des formules qui sont fonctions de très grands nombres.' Mémoires de l'Académie des Sciences de Paris. Abraham de Moivre had proved a narrower special case for coin-flip outcomes in 1733; Laplace generalised it substantially, and the fully general modern version, covering arbitrary distributions with finite variance, was not proved until Lyapunov's 1901 work using characteristic functions.",
+          "links": [
+            "fg2"
+          ]
+        },
+        {
+          "id": "th3",
+          "group": "Probability Theory",
+          "label": "Law of Large Numbers",
+          "date": "1713",
+          "loc": "Basel, Switzerland",
+          "coords": [
+            47.56,
+            7.59
+          ],
+          "tag": "THEORY",
+          "hint": "Repeat a random experiment often enough — flip a coin, roll a die — and the average of the outcomes converges toward the theoretical expected value, with the chance of a large deviation shrinking as the number of repetitions grows. Jacob Bernoulli called this his 'golden theorem' and spent over twenty years proving it rigorously, aware it was the first result to put mathematical teeth into the everyday intuition that more data means more certainty.",
+          "note": "Bernoulli, J. Ars Conjectandi (1713), Basel — published eight years after Bernoulli's death by his nephew Nicolaus Bernoulli. The result proved is what's now called the 'weak' law of large numbers; the stronger 'strong' law, guaranteeing convergence with probability 1 rather than merely high probability, was not proved until Émile Borel's 1909 work and later refined by Kolmogorov.",
+          "links": [
+            "th1"
+          ]
+        },
+        {
+          "id": "th4",
+          "group": "Statistical Inference",
+          "label": "Bayes' Theorem",
+          "date": "1763",
+          "loc": "Tunbridge Wells, England",
+          "coords": [
+            51.13,
+            0.26
+          ],
+          "tag": "THEORY",
+          "hint": "A formula for updating a belief's probability in light of new evidence — starting from a prior probability, then revising it using how likely the observed evidence would be under each competing hypothesis. It reframes probability as a measure of rational belief that can be systematically corrected, not only a property of physical randomness like dice or coins.",
+          "note": "Bayes, T. (1763). 'An Essay towards solving a Problem in the Doctrine of Chances.' Philosophical Transactions of the Royal Society, 53, 370–418 — published posthumously by his friend Richard Price, who found the manuscript among Bayes's papers. Pierre-Simon Laplace independently rediscovered and substantially generalised the same result a decade later, unaware of Bayes's earlier essay; the proper interpretation and use of Bayesian reasoning remains actively disputed within statistics to this day.",
+          "links": [
+            "db2"
+          ]
+        },
+        {
+          "id": "th5",
+          "group": "Statistical Inference",
+          "label": "Neyman–Pearson Hypothesis Testing Framework",
+          "date": "1933",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "THEORY",
+          "hint": "Jerzy Neyman and Egon Pearson formalised statistical hypothesis testing as a decision procedure with two clearly named failure modes — wrongly rejecting a true null hypothesis (Type I error) and wrongly failing to reject a false one (Type II error) — and showed how to design a test minimising one error rate for any fixed tolerance of the other. This decision-theoretic framing became the version taught in most introductory statistics courses.",
+          "note": "Neyman, J. & Pearson, E.S. (1933). 'On the Problem of the Most Efficient Tests of Statistical Hypotheses.' Philosophical Transactions of the Royal Society A, 231, 289–337, at University College London. Neyman and Pearson's decision-theoretic framework and Fisher's earlier significance-testing approach are subtly incompatible in their interpretation of what a p-value means; most textbooks today teach a hybrid of the two that neither man fully endorsed.",
+          "links": [
+            "co4",
+            "fg6"
+          ]
+        },
+        {
+          "id": "th6",
+          "group": "Optimization",
+          "label": "Linear Programming Duality",
+          "date": "1951",
+          "loc": "Santa Monica, California",
+          "coords": [
+            34.02,
+            -118.49
+          ],
+          "tag": "THEORY",
+          "hint": "Every linear optimisation problem — maximise this quantity subject to these constraints — has a paired 'dual' problem whose optimal solution gives the exact same value, viewed from the opposite direction. The duality theorem gives a practical way to certify that a proposed solution is truly optimal, without having to search the entire space of alternatives.",
+          "note": "Gale, D., Kuhn, H.W. & Tucker, A.W. (1951). 'Linear Programming and the Theory of Games,' in Activity Analysis of Production and Allocation, T.C. Koopmans (Ed.), Cowles Commission Monograph 13, RAND Corporation, Santa Monica. John von Neumann had communicated the core duality idea to George Dantzig in an informal 1947 conversation, connecting it directly to his own earlier minimax theorem for games, but never published it himself.",
+          "links": [
+            "th7",
+            "st2"
+          ]
+        },
+        {
+          "id": "th7",
+          "group": "Game Theory & Decision Theory",
+          "label": "The Minimax Theorem",
+          "date": "1928",
+          "loc": "Berlin, Germany",
+          "coords": [
+            52.52,
+            13.41
+          ],
+          "tag": "THEORY",
+          "hint": "In a two-player zero-sum game, where one player's gain is exactly the other's loss, John von Neumann proved a stable optimal strategy always exists for both sides — a way to play that minimises your maximum possible loss, which exactly matches the opponent's own optimal strategy from their side. It was the founding result that turned game theory from an informal way of talking about games into a genuine mathematical discipline.",
+          "note": "von Neumann, J. (1928). 'Zur Theorie der Gesellschaftsspiele.' Mathematische Annalen, 100, 295–320, written during von Neumann's time as Privatdozent at the University of Berlin. Von Neumann reportedly considered this paper, rather than any of his far more famous later work in computing, one of his personal favourites; his separate stored-program computer architecture work is covered as a figure in the computer-science folio.",
+          "links": [
+            "th8",
+            "th6"
+          ],
+          "xlinks": [
+            "computer-science::fg4"
+          ]
+        },
+        {
+          "id": "th8",
+          "group": "Game Theory & Decision Theory",
+          "label": "Nash Equilibrium",
+          "date": "1950",
+          "loc": "Princeton, New Jersey",
+          "coords": [
+            40.35,
+            -74.66
+          ],
+          "tag": "THEORY",
+          "hint": "John Nash extended von Neumann's minimax result far beyond two-player zero-sum games, proving that any game with any finite number of players has at least one stable outcome where no single player can improve their own result by unilaterally changing strategy, given everyone else's choices stay fixed. This far more general equilibrium concept became the central organising idea of modern game theory.",
+          "note": "Nash, J. (1950). 'Equilibrium Points in n-Person Games.' Proceedings of the National Academy of Sciences, 36(1), 48–49, based on Nash's Princeton doctoral dissertation the same year. The proof uses Kakutani's fixed-point theorem, a generalisation of Brouwer's fixed-point theorem covered in the pure-mathematics folio; Nash's later life with schizophrenia and 1994 Nobel Memorial Prize were the subject of the book and film A Beautiful Mind.",
+          "links": [
+            "th7"
+          ],
+          "xlinks": [
+            "pure-mathematics::st10"
+          ]
+        },
+        {
+          "id": "th9",
+          "group": "Operations Research",
+          "label": "Queueing Theory",
+          "date": "1909",
+          "loc": "Copenhagen, Denmark",
+          "coords": [
+            55.68,
+            12.57
+          ],
+          "tag": "THEORY",
+          "hint": "Agner Krarup Erlang modelled the seemingly chaotic problem of how many telephone lines a switchboard needs to keep customers from being blocked, treating call arrivals and durations as random processes with well-defined statistical properties. His formulas let phone companies calculate, in advance, exactly how much capacity to install for any target level of service — founding an entire discipline for managing waiting lines, from call centres to hospital emergency rooms.",
+          "note": "Erlang, A.K. (1909). 'The Theory of Probabilities and Telephone Conversations.' Nyt Tidsskrift for Matematik B, 20, 33–39, developed while working for the Copenhagen Telephone Company. Erlang's loss formula (1917) for calculating call-blocking probability is still standard in telecommunications capacity planning over a century later, essentially unchanged.",
+          "links": [
+            "st8"
+          ]
+        },
+        {
+          "id": "th10",
+          "group": "Actuarial & Financial Mathematics",
+          "label": "Modern Portfolio Theory",
+          "date": "1952",
+          "loc": "Chicago, Illinois",
+          "coords": [
+            41.88,
+            -87.63
+          ],
+          "tag": "THEORY",
+          "hint": "Harry Markowitz showed that an investor shouldn't judge an individual asset's risk in isolation, but should instead consider how it moves relative to everything else already in the portfolio — a volatile asset can actually reduce a portfolio's overall risk if its price swings tend to offset the others'. This reframed investing as a mathematical optimisation problem, trading expected return against portfolio-wide variance, rather than a matter of picking good individual stocks.",
+          "note": "Markowitz, H. (1952). 'Portfolio Selection.' The Journal of Finance, 7(1), 77–91, written at the University of Chicago. Markowitz shared the 1990 Nobel Memorial Prize in Economic Sciences for this work; the theory assumes investors can accurately estimate future returns, variances and correlations in advance, an assumption real markets frequently violate, which later motivated the Efficient Market Hypothesis debate.",
+          "links": [
+            "th11",
+            "fg12"
+          ]
+        },
+        {
+          "id": "th11",
+          "group": "Actuarial & Financial Mathematics",
+          "label": "Black–Scholes Option Pricing Theory",
+          "date": "1973",
+          "loc": "Chicago, Illinois",
+          "coords": [
+            41.88,
+            -87.63
+          ],
+          "tag": "THEORY",
+          "hint": "Fischer Black and Myron Scholes derived a formula for the fair price of a financial option — the right, but not the obligation, to buy or sell an asset at a fixed price later — based only on the current asset price, its volatility, and a few other observable quantities, with no need to predict whether the price will go up or down. The formula's core insight, dynamic hedging, remains the conceptual basis of modern derivatives pricing.",
+          "note": "Black, F. & Scholes, M. (1973). 'The Pricing of Options and Corporate Liabilities.' Journal of Political Economy, 81(3), 637–654, developed while Black was at the University of Chicago and Scholes at MIT; Robert Merton's companion paper the same year extended the mathematics further. Scholes and Merton received the 1997 Nobel Memorial Prize (Black had died in 1995 and was ineligible); the formula's constant-volatility assumption was directly implicated in the flawed risk models behind Long-Term Capital Management's 1998 collapse.",
+          "links": [
+            "th10"
+          ]
+        }
+      ]
     },
     {
       "id": "study",
@@ -33,7 +234,213 @@
       "accent": "#7D3C98",
       "bg": "#FAF5FF",
       "subtitle": "The defining experiments — and exactly what they found",
-      "entries": []
+      "entries": [
+        {
+          "id": "st1",
+          "group": "Statistical Inference",
+          "label": "Fisher's Statistical Methods for Research Workers",
+          "date": "1925",
+          "loc": "Harpenden, England",
+          "coords": [
+            51.82,
+            -0.36
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Ronald Fisher, working as the sole statistician at an agricultural research station, developed randomisation, blocking, and analysis of variance (ANOVA) as a unified toolkit for designing experiments that could isolate a genuine causal effect from background noise using the fewest possible test plots. The techniques he built to compare fertiliser treatments on wheat became, with only minor adaptation, the statistical backbone of clinical trials, psychology experiments, and manufacturing quality control decades later.",
+          "note": "Fisher, R.A. (1925). Statistical Methods for Research Workers. Edinburgh: Oliver & Boyd, and (1935) The Design of Experiments, same publisher — both written during Fisher's tenure at Rothamsted Experimental Station, Harpenden. Fisher's popularisation of the 0.05 significance threshold in these books, offered originally as a rough convention rather than a firm rule, became the rigid pass/fail line much of the discipline still argues about.",
+          "links": [
+            "th5",
+            "fg6",
+            "db1"
+          ]
+        },
+        {
+          "id": "st2",
+          "group": "Optimization",
+          "label": "Dantzig's Simplex Method",
+          "date": "1947",
+          "loc": "Washington, D.C.",
+          "coords": [
+            38.91,
+            -77.04
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "George Dantzig invented an algorithm that solves linear programming problems — optimise a linear objective subject to linear constraints — by systematically moving from one corner of the feasible region to an adjacent, better corner, until no further improvement is possible. Despite having no proven worst-case efficiency guarantee, it performs so reliably well in practice that it remained the dominant optimisation algorithm in industry for decades.",
+          "note": "Dantzig, G.B. (1947, first published account 1951). 'Maximization of a Linear Function of Variables Subject to Linear Inequalities,' in Activity Analysis of Production and Allocation, Cowles Commission Monograph 13. Developed while Dantzig worked as a mathematical advisor for the US Air Force in Washington, D.C. A well-known story holds that Dantzig, arriving late to a graduate class years earlier, mistook two unsolved statistics problems on the blackboard for homework and solved them both — a separate, often-conflated anecdote from well before the simplex method itself.",
+          "links": [
+            "th6"
+          ]
+        },
+        {
+          "id": "st3",
+          "group": "Game Theory & Decision Theory",
+          "label": "von Neumann & Morgenstern's Theory of Games and Economic Behavior",
+          "date": "1944",
+          "loc": "Princeton, New Jersey",
+          "coords": [
+            40.35,
+            -74.66
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "John von Neumann and economist Oskar Morgenstern's book extended game theory from von Neumann's earlier two-player results into a general mathematical framework for economic decision-making, and along the way rigorously derived expected utility theory — a formal justification for why rational decision-makers under uncertainty should act as if maximising an expected value at all. It is generally credited with founding game theory as a systematic field rather than a scattered set of individual results.",
+          "note": "von Neumann, J. & Morgenstern, O. (1944). Theory of Games and Economic Behavior. Princeton: Princeton University Press, written at Princeton University. The 641-page book was considered forbiddingly technical on release and sold modestly at first, but its influence over subsequent decades — in economics, evolutionary biology, and political science alike — is now considered one of the most consequential works of twentieth-century applied mathematics.",
+          "links": [
+            "th7",
+            "th8"
+          ]
+        },
+        {
+          "id": "st4",
+          "group": "Game Theory & Decision Theory",
+          "label": "Flood and Dresher's Prisoner's Dilemma Experiment",
+          "date": "1950",
+          "loc": "Santa Monica, California",
+          "coords": [
+            34.02,
+            -118.49
+          ],
+          "tag": "DISCOVERY",
+          "repl": "mixed",
+          "hint": "Merrill Flood and Melvin Dresher ran an experiment at RAND in which two players repeatedly chose to 'cooperate' or 'defect' for real money, discovering that participants often cooperated far more than the theoretically dominant strategy (always defect) would predict — an early, uncomfortable hint that real human behaviour and game-theoretic rational-actor predictions could diverge sharply. Albert Tucker later formalised and named the underlying game structure the 'Prisoner's Dilemma' while giving an informal talk to a psychology audience.",
+          "note": "Flood, M. & Dresher, M. (1950). Unpublished RAND Corporation working paper, Santa Monica, California; Tucker's naming and prisoner-framing followed shortly after in an informal 1950 seminar, first appearing in print via later expositions. The gap between the experiment's cooperative results and the theory's predicted defection became a founding case study for behavioural game theory.",
+          "links": [
+            "th8",
+            "db3"
+          ]
+        },
+        {
+          "id": "st5",
+          "group": "Actuarial & Financial Mathematics",
+          "label": "Kelly's Criterion",
+          "date": "1956",
+          "loc": "Murray Hill, New Jersey",
+          "coords": [
+            40.69,
+            -74.4
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "John Kelly, a physicist at Bell Labs working on noisy communication channels, derived a formula for the optimal fraction of a bankroll to wager on a favourable bet, showing it maximises the long-run exponential growth rate of wealth rather than merely the expected value of any single bet — betting too much, even on a genuinely good bet, provably destroys wealth over repeated plays through the mathematics of compounding losses. The result, originally framed around information theory, was later adopted directly by professional gamblers and some hedge funds.",
+          "note": "Kelly, J.L. (1956). 'A New Interpretation of Information Rate.' Bell System Technical Journal, 35(4), 917–926, at Bell Telephone Laboratories, Murray Hill, New Jersey. Kelly built directly on Claude Shannon's information theory, developed at the same institution less than a decade earlier; economist Paul Samuelson published pointed objections to using the criterion for real investment decisions in the 1970s, arguing it ignores an investor's actual utility for risk, a dispute that persists in quantitative finance today.",
+          "links": [
+            "th11"
+          ]
+        },
+        {
+          "id": "st6",
+          "group": "Numerical Analysis & Computational Mathematics",
+          "label": "The Metropolis Monte Carlo Paper",
+          "date": "1953",
+          "loc": "Los Alamos, New Mexico",
+          "coords": [
+            35.88,
+            -106.3
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Nicholas Metropolis and collaborators at Los Alamos devised a way to estimate the properties of a complicated probability distribution — one too difficult to compute directly — by generating a long random walk of sample points that visits each region in proportion to its actual probability, then simply averaging over the samples collected. The technique, developed originally for nuclear weapons physics calculations, became one of the most widely used computational tools across all of applied statistics and physics.",
+          "note": "Metropolis, N., Rosenbluth, A.W., Rosenbluth, M.N., Teller, A.H. & Teller, E. (1953). 'Equation of State Calculations by Fast Computing Machines.' Journal of Chemical Physics, 21(6), 1087–1092, run on the MANIAC computer at Los Alamos National Laboratory. W.K. Hastings generalised the algorithm in 1970, giving the now-standard 'Metropolis–Hastings' name; the method underlies Markov Chain Monte Carlo, Bayesian computation, and simulated annealing optimisation.",
+          "links": [
+            "me6"
+          ]
+        },
+        {
+          "id": "st7",
+          "group": "Statistical Inference",
+          "label": "Ioannidis's \"Why Most Published Research Findings Are False\"",
+          "date": "2005",
+          "loc": "Ioannina, Greece",
+          "coords": [
+            39.67,
+            20.85
+          ],
+          "tag": "DISCOVERY",
+          "repl": "mixed",
+          "hint": "John Ioannidis argued, using a mathematical model of how studies get run and published rather than any single new experiment, that in fields with small effect sizes, many tested hypotheses, flexible study designs, and strong pressure to publish positive results, a majority of published 'statistically significant' findings will actually turn out to be false positives. The paper became one of the most-cited and most-discussed methodology papers of the following two decades, directly fuelling the broader replication crisis debate.",
+          "note": "Ioannidis, J.P.A. (2005). 'Why Most Published Research Findings Are False.' PLOS Medicine, 2(8), e124, written while at the University of Ioannina School of Medicine, Greece. The paper is a theoretical/probabilistic argument, not an empirical survey of actual replication rates; large-scale empirical replication projects in psychology (2015) and elsewhere subsequently found failure rates broadly consistent with Ioannidis's warning, though the exact numbers remain debated by field.",
+          "links": [
+            "co4",
+            "db1"
+          ]
+        },
+        {
+          "id": "st8",
+          "group": "Operations Research",
+          "label": "Blackett's Circus: Operational Research in the Battle of the Atlantic",
+          "date": "1941",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Physicist Patrick Blackett assembled a mixed team of scientists — nicknamed 'Blackett's Circus' — to apply statistical analysis directly to live military decisions, discovering through data alone, not intuition or tradition, that larger merchant-ship convoys suffered proportionally fewer losses than smaller ones, and that patrol aircraft painted white rather than black were spotted later by U-boats and sank more of them. It was one of the first times mathematics was used this directly to make operational, not just engineering, decisions in real time.",
+          "note": "Blackett, P.M.S. Coastal Command and Anti-U-Boat Warfare Operational Research Section reports, 1941–42, London, later summarised in Blackett, P.M.S. (1962). Studies of War. New York: Hill & Wang. The convoy-size finding directly overturned British Admiralty intuition that smaller convoys were safer because they were less likely to be spotted; the group's methods, once validated by outcomes, were rapidly adopted across British and then American military planning, founding operational research as an organised discipline.",
+          "links": [
+            "th9"
+          ]
+        },
+        {
+          "id": "st9",
+          "group": "Probability Theory",
+          "label": "The Pascal–Fermat Correspondence",
+          "date": "1654",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Blaise Pascal and Pierre de Fermat exchanged a series of letters solving the 'problem of points' — how to fairly divide the stakes of an interrupted gambling game between two players, based on each player's chances of winning had play continued — by systematically enumerating and weighing future possible outcomes rather than relying on custom or guesswork. Their correspondence is conventionally treated as the founding moment of mathematical probability theory.",
+          "note": "Pascal, B. & Fermat, P. de. Correspondence, July–October 1654, Paris. Girolamo Cardano had worked on related gambling probability questions roughly a century earlier in an unpublished manuscript (Liber de ludo aleae, published only in 1663), but the Pascal–Fermat exchange is what actually circulated and directly shaped the field's subsequent development, via Christiaan Huygens's 1657 treatise summarising their results for a wider audience.",
+          "links": [
+            "th1",
+            "th3",
+            "fg1"
+          ]
+        },
+        {
+          "id": "st10",
+          "group": "Numerical Analysis & Computational Mathematics",
+          "label": "Courant's Variational Origins of the Finite Element Method",
+          "date": "1943",
+          "loc": "New York, New York",
+          "coords": [
+            40.71,
+            -74.01
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Richard Courant showed that certain physical equilibrium and vibration problems, normally solved with exact but intractable differential equations, could instead be approximated by breaking the problem's domain into a mesh of small simple pieces and solving a much easier variational, energy-minimisation problem over that mesh — the mathematical seed of what became the finite element method. The technique sat as a curiosity for over a decade before digital computers made mesh-based approximation genuinely practical.",
+          "note": "Courant, R. (1943). 'Variational Methods for the Solution of Problems of Equilibrium and Vibrations.' Bulletin of the American Mathematical Society, 49(1), 1–23, written at New York University. Engineers M.J. Turner, R.W. Clough, H.C. Martin and L.J. Topp independently rediscovered and named the practical 'finite element method' in 1956 for aircraft structural analysis at Boeing, unaware of Courant's earlier mathematical treatment; the two lines of work were only recognised as equivalent afterward.",
+          "links": [
+            "me1"
+          ]
+        },
+        {
+          "id": "st11",
+          "group": "Actuarial & Financial Mathematics",
+          "label": "Halley's Life Table",
+          "date": "1693",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Edmond Halley — better known for the comet — analysed detailed birth and death records from the city of Breslau to construct the first rigorous mortality table, calculating the probability that a person of any given age would survive to any later age. The table let, for the first time, insurance premiums and life annuities be priced according to an actual, data-derived risk rather than rough guesswork or flat, age-blind rates, founding actuarial science as a quantitative discipline.",
+          "note": "Halley, E. (1693). 'An Estimate of the Degrees of the Mortality of Mankind.' Philosophical Transactions of the Royal Society, 17, 596–610, based on records compiled by Caspar Neumann in Breslau (now Wrocław, Poland) and analysed by Halley in London. Earlier mortality work by John Graunt (1662) had estimated London death patterns from parish records, but without Halley's rigorous age-structured survival calculations; Halley's table remained the standard reference for annuity pricing in England for over a century.",
+          "links": [
+            "th10"
+          ]
+        }
+      ]
     },
     {
       "id": "effect",
