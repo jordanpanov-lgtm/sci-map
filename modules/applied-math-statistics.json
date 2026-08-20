@@ -38,7 +38,9 @@
           "hint": "Before 1933, probability theory was a loose collection of calculating techniques with no agreed logical foundation — mathematicians even disagreed about what a 'probability' actually was. Andrey Kolmogorov showed the entire subject could be built from just three simple axioms borrowed from measure theory, instantly making probability a fully rigorous branch of mathematics rather than a set of intuitive rules of thumb.",
           "note": "Kolmogorov, A.N. (1933). Grundbegriffe der Wahrscheinlichkeitsrechnung. Berlin: Julius Springer, written while Kolmogorov was at Moscow State University. Built directly on Henri Lebesgue's measure theory, developed three decades earlier for a completely different purpose; the axiomatization is now so completely taken for granted that most working statisticians never encounter the foundational debates it resolved.",
           "links": [
-            "th3"
+            "th3",
+            "st9",
+            "fg8"
           ],
           "xlinks": [
             "pure-mathematics::th6"
@@ -58,7 +60,8 @@
           "hint": "Add together enough independent random quantities — almost regardless of their individual distributions — and the sum's distribution converges toward the familiar bell-shaped normal curve. The theorem explains why so many unrelated real-world measurements, from human heights to measurement errors, cluster into approximately the same bell shape: each is itself the sum of many small, roughly independent contributing factors.",
           "note": "Laplace, P.S. (1810). 'Mémoire sur les approximations des formules qui sont fonctions de très grands nombres.' Mémoires de l'Académie des Sciences de Paris. Abraham de Moivre had proved a narrower special case for coin-flip outcomes in 1733; Laplace generalised it substantially, and the fully general modern version, covering arbitrary distributions with finite variance, was not proved until Lyapunov's 1901 work using characteristic functions.",
           "links": [
-            "fg2"
+            "fg2",
+            "fg4"
           ]
         },
         {
@@ -75,7 +78,10 @@
           "hint": "Repeat a random experiment often enough — flip a coin, roll a die — and the average of the outcomes converges toward the theoretical expected value, with the chance of a large deviation shrinking as the number of repetitions grows. Jacob Bernoulli called this his 'golden theorem' and spent over twenty years proving it rigorously, aware it was the first result to put mathematical teeth into the everyday intuition that more data means more certainty.",
           "note": "Bernoulli, J. Ars Conjectandi (1713), Basel — published eight years after Bernoulli's death by his nephew Nicolaus Bernoulli. The result proved is what's now called the 'weak' law of large numbers; the stronger 'strong' law, guaranteeing convergence with probability 1 rather than merely high probability, was not proved until Émile Borel's 1909 work and later refined by Kolmogorov.",
           "links": [
-            "th1"
+            "th1",
+            "st9",
+            "co7",
+            "fg5"
           ]
         },
         {
@@ -92,7 +98,8 @@
           "hint": "A formula for updating a belief's probability in light of new evidence — starting from a prior probability, then revising it using how likely the observed evidence would be under each competing hypothesis. It reframes probability as a measure of rational belief that can be systematically corrected, not only a property of physical randomness like dice or coins.",
           "note": "Bayes, T. (1763). 'An Essay towards solving a Problem in the Doctrine of Chances.' Philosophical Transactions of the Royal Society, 53, 370–418 — published posthumously by his friend Richard Price, who found the manuscript among Bayes's papers. Pierre-Simon Laplace independently rediscovered and substantially generalised the same result a decade later, unaware of Bayes's earlier essay; the proper interpretation and use of Bayesian reasoning remains actively disputed within statistics to this day.",
           "links": [
-            "db2"
+            "db2",
+            "fg3"
           ]
         },
         {
@@ -110,7 +117,11 @@
           "note": "Neyman, J. & Pearson, E.S. (1933). 'On the Problem of the Most Efficient Tests of Statistical Hypotheses.' Philosophical Transactions of the Royal Society A, 231, 289–337, at University College London. Neyman and Pearson's decision-theoretic framework and Fisher's earlier significance-testing approach are subtly incompatible in their interpretation of what a p-value means; most textbooks today teach a hybrid of the two that neither man fully endorsed.",
           "links": [
             "co4",
-            "fg6"
+            "fg6",
+            "st1",
+            "me3",
+            "fg7",
+            "db2"
           ]
         },
         {
@@ -128,7 +139,10 @@
           "note": "Gale, D., Kuhn, H.W. & Tucker, A.W. (1951). 'Linear Programming and the Theory of Games,' in Activity Analysis of Production and Allocation, T.C. Koopmans (Ed.), Cowles Commission Monograph 13, RAND Corporation, Santa Monica. John von Neumann had communicated the core duality idea to George Dantzig in an informal 1947 conversation, connecting it directly to his own earlier minimax theorem for games, but never published it himself.",
           "links": [
             "th7",
-            "st2"
+            "st2",
+            "co6",
+            "co9",
+            "fg11"
           ]
         },
         {
@@ -146,7 +160,8 @@
           "note": "von Neumann, J. (1928). 'Zur Theorie der Gesellschaftsspiele.' Mathematische Annalen, 100, 295–320, written during von Neumann's time as Privatdozent at the University of Berlin. Von Neumann reportedly considered this paper, rather than any of his far more famous later work in computing, one of his personal favourites; his separate stored-program computer architecture work is covered as a figure in the computer-science folio.",
           "links": [
             "th8",
-            "th6"
+            "th6",
+            "st3"
           ],
           "xlinks": [
             "computer-science::fg4"
@@ -166,7 +181,12 @@
           "hint": "John Nash extended von Neumann's minimax result far beyond two-player zero-sum games, proving that any game with any finite number of players has at least one stable outcome where no single player can improve their own result by unilaterally changing strategy, given everyone else's choices stay fixed. This far more general equilibrium concept became the central organising idea of modern game theory.",
           "note": "Nash, J. (1950). 'Equilibrium Points in n-Person Games.' Proceedings of the National Academy of Sciences, 36(1), 48–49, based on Nash's Princeton doctoral dissertation the same year. The proof uses Kakutani's fixed-point theorem, a generalisation of Brouwer's fixed-point theorem covered in the pure-mathematics folio; Nash's later life with schizophrenia and 1994 Nobel Memorial Prize were the subject of the book and film A Beautiful Mind.",
           "links": [
-            "th7"
+            "th7",
+            "st3",
+            "st4",
+            "ef9",
+            "fg13",
+            "db3"
           ],
           "xlinks": [
             "pure-mathematics::st10"
@@ -186,7 +206,10 @@
           "hint": "Agner Krarup Erlang modelled the seemingly chaotic problem of how many telephone lines a switchboard needs to keep customers from being blocked, treating call arrivals and durations as random processes with well-defined statistical properties. His formulas let phone companies calculate, in advance, exactly how much capacity to install for any target level of service — founding an entire discipline for managing waiting lines, from call centres to hospital emergency rooms.",
           "note": "Erlang, A.K. (1909). 'The Theory of Probabilities and Telephone Conversations.' Nyt Tidsskrift for Matematik B, 20, 33–39, developed while working for the Copenhagen Telephone Company. Erlang's loss formula (1917) for calculating call-blocking probability is still standard in telecommunications capacity planning over a century later, essentially unchanged.",
           "links": [
-            "st8"
+            "st8",
+            "me5",
+            "fg9",
+            "ap2"
           ]
         },
         {
@@ -204,7 +227,9 @@
           "note": "Markowitz, H. (1952). 'Portfolio Selection.' The Journal of Finance, 7(1), 77–91, written at the University of Chicago. Markowitz shared the 1990 Nobel Memorial Prize in Economic Sciences for this work; the theory assumes investors can accurately estimate future returns, variances and correlations in advance, an assumption real markets frequently violate, which later motivated the Efficient Market Hypothesis debate.",
           "links": [
             "th11",
-            "fg12"
+            "fg12",
+            "st11",
+            "db4"
           ]
         },
         {
@@ -221,7 +246,10 @@
           "hint": "Fischer Black and Myron Scholes derived a formula for the fair price of a financial option — the right, but not the obligation, to buy or sell an asset at a fixed price later — based only on the current asset price, its volatility, and a few other observable quantities, with no need to predict whether the price will go up or down. The formula's core insight, dynamic hedging, remains the conceptual basis of modern derivatives pricing.",
           "note": "Black, F. & Scholes, M. (1973). 'The Pricing of Options and Corporate Liabilities.' Journal of Political Economy, 81(3), 637–654, developed while Black was at the University of Chicago and Scholes at MIT; Robert Merton's companion paper the same year extended the mathematics further. Scholes and Merton received the 1997 Nobel Memorial Prize (Black had died in 1995 and was ineligible); the formula's constant-volatility assumption was directly implicated in the flawed risk models behind Long-Term Capital Management's 1998 collapse.",
           "links": [
-            "th10"
+            "th10",
+            "st5",
+            "db4",
+            "db5"
           ]
         }
       ]
@@ -252,7 +280,8 @@
           "links": [
             "th5",
             "fg6",
-            "db1"
+            "db1",
+            "me4"
           ]
         },
         {
@@ -270,7 +299,8 @@
           "hint": "George Dantzig invented an algorithm that solves linear programming problems — optimise a linear objective subject to linear constraints — by systematically moving from one corner of the feasible region to an adjacent, better corner, until no further improvement is possible. Despite having no proven worst-case efficiency guarantee, it performs so reliably well in practice that it remained the dominant optimisation algorithm in industry for decades.",
           "note": "Dantzig, G.B. (1947, first published account 1951). 'Maximization of a Linear Function of Variables Subject to Linear Inequalities,' in Activity Analysis of Production and Allocation, Cowles Commission Monograph 13. Developed while Dantzig worked as a mathematical advisor for the US Air Force in Washington, D.C. A well-known story holds that Dantzig, arriving late to a graduate class years earlier, mistook two unsolved statistics problems on the blackboard for homework and solved them both — a separate, often-conflated anecdote from well before the simplex method itself.",
           "links": [
-            "th6"
+            "th6",
+            "fg11"
           ]
         },
         {
@@ -289,7 +319,8 @@
           "note": "von Neumann, J. & Morgenstern, O. (1944). Theory of Games and Economic Behavior. Princeton: Princeton University Press, written at Princeton University. The 641-page book was considered forbiddingly technical on release and sold modestly at first, but its influence over subsequent decades — in economics, evolutionary biology, and political science alike — is now considered one of the most consequential works of twentieth-century applied mathematics.",
           "links": [
             "th7",
-            "th8"
+            "th8",
+            "co5"
           ]
         },
         {
@@ -326,7 +357,8 @@
           "hint": "John Kelly, a physicist at Bell Labs working on noisy communication channels, derived a formula for the optimal fraction of a bankroll to wager on a favourable bet, showing it maximises the long-run exponential growth rate of wealth rather than merely the expected value of any single bet — betting too much, even on a genuinely good bet, provably destroys wealth over repeated plays through the mathematics of compounding losses. The result, originally framed around information theory, was later adopted directly by professional gamblers and some hedge funds.",
           "note": "Kelly, J.L. (1956). 'A New Interpretation of Information Rate.' Bell System Technical Journal, 35(4), 917–926, at Bell Telephone Laboratories, Murray Hill, New Jersey. Kelly built directly on Claude Shannon's information theory, developed at the same institution less than a decade earlier; economist Paul Samuelson published pointed objections to using the criterion for real investment decisions in the 1970s, arguing it ignores an investor's actual utility for risk, a dispute that persists in quantitative finance today.",
           "links": [
-            "th11"
+            "th11",
+            "ap5"
           ]
         },
         {
@@ -363,7 +395,9 @@
           "note": "Ioannidis, J.P.A. (2005). 'Why Most Published Research Findings Are False.' PLOS Medicine, 2(8), e124, written while at the University of Ioannina School of Medicine, Greece. The paper is a theoretical/probabilistic argument, not an empirical survey of actual replication rates; large-scale empirical replication projects in psychology (2015) and elsewhere subsequently found failure rates broadly consistent with Ioannidis's warning, though the exact numbers remain debated by field.",
           "links": [
             "co4",
-            "db1"
+            "db1",
+            "ef8",
+            "db7"
           ]
         },
         {
@@ -401,7 +435,8 @@
           "links": [
             "th1",
             "th3",
-            "fg1"
+            "fg1",
+            "co1"
           ]
         },
         {
@@ -437,7 +472,8 @@
           "hint": "Edmond Halley — better known for the comet — analysed detailed birth and death records from the city of Breslau to construct the first rigorous mortality table, calculating the probability that a person of any given age would survive to any later age. The table let, for the first time, insurance premiums and life annuities be priced according to an actual, data-derived risk rather than rough guesswork or flat, age-blind rates, founding actuarial science as a quantitative discipline.",
           "note": "Halley, E. (1693). 'An Estimate of the Degrees of the Mortality of Mankind.' Philosophical Transactions of the Royal Society, 17, 596–610, based on records compiled by Caspar Neumann in Breslau (now Wrocław, Poland) and analysed by Halley in London. Earlier mortality work by John Graunt (1662) had estimated London death patterns from parish records, but without Halley's rigorous age-structured survival calculations; Halley's table remained the standard reference for annuity pricing in England for over a century.",
           "links": [
-            "th10"
+            "th10",
+            "ap1"
           ]
         }
       ]
@@ -502,7 +538,8 @@
           "hint": "A coin-flipping game keeps doubling its payout for every consecutive heads before the first tails appears, giving the game an infinite mathematical expected value — yet almost nobody would pay more than a modest, finite entry fee to play it. The mismatch between infinite expected value and obviously finite real-world willingness to pay exposed a fundamental flaw in judging decisions by expected monetary value alone.",
           "note": "Bernoulli, D. (1738). 'Specimen theoriae novae de mensura sortis.' Commentarii Academiae Scientiarum Imperialis Petropolitanae, 5, 175–192, resolving a problem posed twenty-five years earlier by his cousin Nicolas Bernoulli. Daniel Bernoulli's resolution — that people maximise expected *utility*, not expected monetary value, and that utility grows more slowly than money (diminishing marginal utility) — is the direct ancestor of the expected utility theory formalised two centuries later by von Neumann and Morgenstern.",
           "links": [
-            "co5"
+            "co5",
+            "db6"
           ]
         },
         {
@@ -593,7 +630,8 @@
           "note": "Simmons, J.P., Nelson, L.D. & Simonsohn, U. (2011). 'False-Positive Psychology: Undisclosed Flexibility in Data Collection and Analysis Allows Presenting Anything as Significant.' Psychological Science, 22(11), 1359–1366, at the University of Pennsylvania. The paper's own demonstration deliberately p-hacked a genuinely null result into apparent significance to make the point vividly; it became one of the direct catalysts for the pre-registration movement, requiring researchers to specify their analysis plan before seeing the data.",
           "links": [
             "co4",
-            "st7"
+            "st7",
+            "db7"
           ]
         },
         {
@@ -640,7 +678,8 @@
           "note": "Huygens, C. (1657). De ratiociniis in ludo aleae ['On Reasoning in Games of Chance']. Leiden: Elzevir, written while Huygens was working in The Hague — the first published textbook on probability, expanding on the unpublished Pascal–Fermat correspondence he had learned of during a visit to Paris.",
           "links": [
             "st9",
-            "ef2"
+            "ef2",
+            "ef6"
           ]
         },
         {
@@ -694,7 +733,9 @@
           "links": [
             "th5",
             "st7",
-            "ef8"
+            "ef8",
+            "co2",
+            "db1"
           ]
         },
         {
@@ -712,7 +753,9 @@
           "note": "von Neumann, J. & Morgenstern, O. (1944). Theory of Games and Economic Behavior, Appendix, Princeton University Press — the first derivation of a utility function from a small set of explicit rationality axioms (completeness, transitivity, continuity, and independence), rather than simply assumed to exist. Behavioural economists, notably Kahneman and Tversky's Prospect Theory (1979), later documented systematic ways real human choices violate these axioms.",
           "links": [
             "ef3",
-            "st3"
+            "st3",
+            "db3",
+            "db6"
           ]
         },
         {
@@ -729,7 +772,8 @@
           "hint": "A set is convex if the straight line between any two of its points stays entirely inside it, and a function is convex if the region above its graph has this same property — a deceptively simple geometric condition that, when it holds, guarantees any locally optimal solution to an optimisation problem is automatically the globally optimal one too. This single property is what separates optimisation problems that are reliably solvable from those that are, in the worst case, computationally intractable.",
           "note": "Fenchel, W. (1953). Convex Cones, Sets, and Functions. Lecture notes, Princeton University — the first systematic treatment of convex analysis as a unified subject. Convexity underlies why linear programming (see th6) is always efficiently solvable, while general non-convex optimisation, including training most large neural networks, offers no comparable global-optimum guarantee at all.",
           "links": [
-            "th6"
+            "th6",
+            "me2"
           ]
         },
         {
@@ -764,7 +808,9 @@
           "note": "Markov, A.A. (1906). 'Extension of the Law of Large Numbers to Dependent Events' (Russian), Bulletin of the Physico-Mathematical Society of Kazan University, 15, 135–156, written at St. Petersburg University. Markov reportedly developed the theory partly to win an argument with fellow mathematician Pavel Nekrasov, who had claimed independence was necessary for the law of large numbers to hold; Markov chains underpin the Metropolis Monte Carlo method (see st6) and Google's PageRank algorithm.",
           "links": [
             "ef5",
-            "ef7"
+            "ef7",
+            "me6",
+            "ap4"
           ]
         },
         {
@@ -781,7 +827,8 @@
           "hint": "Given a list of cities and the distances between them, find the shortest possible route that visits every city exactly once and returns to the start — a problem simple enough to state to a child, yet whose difficulty explodes so fast with the number of cities that no known algorithm can solve large instances by checking every possible route. It became one of the canonical examples used to define an entire class of computationally hard combinatorial optimisation problems.",
           "note": "Menger, K. (1930). Presented as 'Das Botenproblem' ['The Messenger Problem'] at his Vienna mathematical colloquium, published in Ergebnisse eines Mathematischen Kolloquiums (1932). Hassler Whitney independently popularised the problem under its now-standard name at Princeton in the 1930s; the problem's formal classification as NP-hard — among the hardest problems in its computational complexity class — is covered in the computer-science folio.",
           "links": [
-            "th6"
+            "th6",
+            "db8"
           ],
           "xlinks": [
             "computer-science::db1"
@@ -867,7 +914,8 @@
           "hint": "Patients were assigned to receive the antibiotic streptomycin or standard care using a randomisation method concealed even from the treating doctors — sealed, numbered envelopes — specifically to prevent unconscious bias in who received the promising new drug. It was the first modern clinical trial to combine randomisation with this kind of allocation concealment, adapting Fisher's agricultural experimental-design principles to human medicine for the first time.",
           "note": "Medical Research Council (1948). 'Streptomycin Treatment of Pulmonary Tuberculosis.' British Medical Journal, 2(4582), 769–782, led by Austin Bradford Hill. Earlier trials had used alternation or haphazard assignment, which treating physicians could often predict and subtly manipulate; Bradford Hill's concealed randomisation became the methodological gold standard that essentially all subsequent drug-approval trials still follow.",
           "links": [
-            "st1"
+            "st1",
+            "ap6"
           ]
         },
         {
@@ -902,7 +950,8 @@
           "note": "Hastings, W.K. (1970). 'Monte Carlo Sampling Methods Using Markov Chains and Their Applications.' Biometrika, 57(1), 97–109, at the University of Toronto, generalising the narrower 1953 Metropolis algorithm (see st6) to a much broader class of target distributions. MCMC became the computational engine that made large-scale Bayesian statistics practically usable starting in the 1990s, once computing power caught up with the method's demands.",
           "links": [
             "st6",
-            "co8"
+            "co8",
+            "ap3"
           ]
         }
       ]
@@ -1017,7 +1066,8 @@
           "links": [
             "st1",
             "me3",
-            "fg7"
+            "fg7",
+            "th5"
           ]
         },
         {
@@ -1034,7 +1084,8 @@
           "hint": "Working with Egon Pearson (son of Karl Pearson) at University College London, Neyman built a rigorous decision-theoretic alternative to Fisher's significance-testing approach, explicitly naming and formalising the two distinct ways a hypothesis test can go wrong. Neyman and Fisher's disagreement over the philosophical foundations of hypothesis testing was intense and personal, and the hybrid method most textbooks now teach was fully endorsed by neither man.",
           "note": "Neyman, J. & Pearson, E.S. 'On the Problem of the Most Efficient Tests of Statistical Hypotheses' (1933, see th5). Neyman emigrated to the United States in 1938, founding an influential statistics program at the University of California, Berkeley, where he later developed confidence intervals as a companion concept to hypothesis testing.",
           "links": [
-            "th5"
+            "th5",
+            "fg6"
           ]
         },
         {
@@ -1167,7 +1218,8 @@
           "note": "American Statistical Association (2016). 'Statement on Statistical Significance and P-Values.' The American Statistician, 70(2), 129–133, Alexandria, Virginia — the ASA's first-ever formal statement on a statistical practice question. A 2019 follow-up special issue and an open letter signed by over 800 scientists went further, calling to 'retire statistical significance' altogether; no consensus alternative (confidence intervals, Bayes factors, effect-size reporting) has been adopted as a full replacement.",
           "links": [
             "co4",
-            "st1"
+            "st1",
+            "st7"
           ]
         },
         {
@@ -1420,42 +1472,303 @@
       "icon": "🧪",
       "accent": "#7D3C98",
       "label": "Landmark Studies",
-      "events": []
+      "events": [
+        {
+          "y": 1654,
+          "l": "The Pascal–Fermat Correspondence",
+          "entryId": "st9"
+        },
+        {
+          "y": 1693,
+          "l": "Halley's Life Table",
+          "entryId": "st11"
+        },
+        {
+          "y": 1925,
+          "l": "Fisher's Statistical Methods",
+          "entryId": "st1"
+        },
+        {
+          "y": 1941,
+          "l": "Blackett's Circus",
+          "entryId": "st8"
+        },
+        {
+          "y": 1943,
+          "l": "Courant's Origins of FEM",
+          "entryId": "st10"
+        },
+        {
+          "y": 1944,
+          "l": "Theory of Games & Econ. Behavior",
+          "entryId": "st3"
+        },
+        {
+          "y": 1947,
+          "l": "Dantzig's Simplex Method",
+          "entryId": "st2"
+        },
+        {
+          "y": 1950,
+          "l": "Prisoner's Dilemma Experiment",
+          "entryId": "st4"
+        },
+        {
+          "y": 1953,
+          "l": "The Metropolis Monte Carlo Paper",
+          "entryId": "st6"
+        },
+        {
+          "y": 1956,
+          "l": "Kelly's Criterion",
+          "entryId": "st5"
+        },
+        {
+          "y": 2005,
+          "l": "Why Most Findings Are False",
+          "entryId": "st7"
+        }
+      ]
     },
     {
       "id": "theory",
       "icon": "📐",
       "accent": "#2471A3",
       "label": "Theories & Models",
-      "events": []
+      "events": [
+        {
+          "y": 1713,
+          "l": "Law of Large Numbers",
+          "entryId": "th3"
+        },
+        {
+          "y": 1763,
+          "l": "Bayes' Theorem",
+          "entryId": "th4"
+        },
+        {
+          "y": 1810,
+          "l": "Central Limit Theorem",
+          "entryId": "th2"
+        },
+        {
+          "y": 1909,
+          "l": "Queueing Theory",
+          "entryId": "th9"
+        },
+        {
+          "y": 1928,
+          "l": "The Minimax Theorem",
+          "entryId": "th7"
+        },
+        {
+          "y": 1933,
+          "l": "Kolmogorov's Axiomatization",
+          "entryId": "th1"
+        },
+        {
+          "y": 1933,
+          "l": "Neyman–Pearson Hypothesis Testing",
+          "entryId": "th5"
+        },
+        {
+          "y": 1950,
+          "l": "Nash Equilibrium",
+          "entryId": "th8"
+        },
+        {
+          "y": 1951,
+          "l": "Linear Programming Duality",
+          "entryId": "th6"
+        },
+        {
+          "y": 1952,
+          "l": "Modern Portfolio Theory",
+          "entryId": "th10"
+        },
+        {
+          "y": 1973,
+          "l": "Black–Scholes Option Pricing",
+          "entryId": "th11"
+        }
+      ]
     },
     {
       "id": "effect",
       "icon": "📊",
       "accent": "#117A65",
       "label": "Effects & Phenomena",
-      "events": []
+      "events": [
+        {
+          "y": 1738,
+          "l": "The St. Petersburg Paradox",
+          "entryId": "ef3"
+        },
+        {
+          "y": 1886,
+          "l": "Regression Toward the Mean",
+          "entryId": "ef4"
+        },
+        {
+          "y": 1938,
+          "l": "Benford's Law",
+          "entryId": "ef5"
+        },
+        {
+          "y": 1939,
+          "l": "The Birthday Paradox",
+          "entryId": "ef2"
+        },
+        {
+          "y": 1951,
+          "l": "Simpson's Paradox",
+          "entryId": "ef1"
+        },
+        {
+          "y": 1968,
+          "l": "The Braess Paradox",
+          "entryId": "ef9"
+        },
+        {
+          "y": 1975,
+          "l": "The Monty Hall Problem",
+          "entryId": "ef6"
+        },
+        {
+          "y": 1992,
+          "l": "The Bias–Variance Tradeoff",
+          "entryId": "ef7"
+        },
+        {
+          "y": 2011,
+          "l": "p-Hacking",
+          "entryId": "ef8"
+        }
+      ]
     },
     {
       "id": "method",
       "icon": "🔬",
       "accent": "#8B5E00",
       "label": "Methods",
-      "events": []
+      "events": [
+        {
+          "y": 1847,
+          "l": "Gradient Descent",
+          "entryId": "me2"
+        },
+        {
+          "y": 1922,
+          "l": "Maximum Likelihood Estimation",
+          "entryId": "me3"
+        },
+        {
+          "y": 1948,
+          "l": "RCTs in Medicine",
+          "entryId": "me4"
+        },
+        {
+          "y": 1956,
+          "l": "The Finite Element Method",
+          "entryId": "me1"
+        },
+        {
+          "y": 1957,
+          "l": "Dynamic Programming",
+          "entryId": "me5"
+        },
+        {
+          "y": 1970,
+          "l": "Markov Chain Monte Carlo",
+          "entryId": "me6"
+        }
+      ]
     },
     {
       "id": "debate",
       "icon": "⚖️",
       "accent": "#B7770D",
       "label": "Debates & Revisions",
-      "events": []
+      "events": [
+        {
+          "y": 1939,
+          "l": "Frequentist vs. Bayesian Stats",
+          "entryId": "db2"
+        },
+        {
+          "y": 1965,
+          "l": "Is the Efficient Market Hyp. True?",
+          "entryId": "db4"
+        },
+        {
+          "y": 1979,
+          "l": "Does Nash Equilibrium Predict Behavior?",
+          "entryId": "db3"
+        },
+        {
+          "y": 2006,
+          "l": "NP-Hard Optimization in Practice",
+          "entryId": "db8"
+        },
+        {
+          "y": 2008,
+          "l": "Did Risk Models Cause 2008 Crisis?",
+          "entryId": "db5"
+        },
+        {
+          "y": 2011,
+          "l": "Ergodicity Economics",
+          "entryId": "db6"
+        },
+        {
+          "y": 2015,
+          "l": "The Replication Crisis",
+          "entryId": "db7"
+        },
+        {
+          "y": 2016,
+          "l": "Should p<0.05 Be Abandoned?",
+          "entryId": "db1"
+        }
+      ]
     },
     {
       "id": "application",
       "icon": "🔗",
       "accent": "#2E86C1",
       "label": "Applications",
-      "events": []
+      "events": [
+        {
+          "y": 1762,
+          "l": "The Equitable Life Assurance Society",
+          "entryId": "ap1"
+        },
+        {
+          "y": 1927,
+          "l": "Epidemiological SIR Modeling",
+          "entryId": "ap3"
+        },
+        {
+          "y": 1943,
+          "l": "Wald's Survivorship Bias Correction",
+          "entryId": "ap2"
+        },
+        {
+          "y": 1969,
+          "l": "First Quantitative Hedge Funds",
+          "entryId": "ap5"
+        },
+        {
+          "y": 1998,
+          "l": "Google's PageRank Algorithm",
+          "entryId": "ap4"
+        },
+        {
+          "y": 2007,
+          "l": "A/B Testing at Web Scale",
+          "entryId": "ap6"
+        }
+      ]
     }
   ]
 }
