@@ -1149,7 +1149,149 @@
       "accent": "#CA6F1E",
       "bg": "#FDF5EC",
       "subtitle": "Live controversies — where the field is actively contesting the evidence",
-      "entries": []
+      "entries": [
+        {
+          "id": "db1",
+          "group": "Atomic Structure & the Periodic Table",
+          "label": "Is the Periodic Table a Discovery or a Human Construct?",
+          "date": "2007",
+          "loc": "Los Angeles, California",
+          "coords": [
+            34.05,
+            -118.24
+          ],
+          "tag": "DEBATE",
+          "hint": "The periodic table's underlying pattern — elements' properties repeating regularly with atomic number — is a genuine, mind-independent fact about how atoms are built. But exactly where to draw the table's boundaries, which elements belong in which group, and even how many groups it should have has been redrawn and disputed repeatedly since Mendeleev, raising a real philosophical question about how much of the table's familiar rectangular shape is nature's structure and how much is a specific, contestable human choice about how to display it.",
+          "note": "Scerri, E. (2007). The Periodic Table: Its Story and Its Significance. Oxford: Oxford University Press, at the University of California, Los Angeles — the standard scholarly reference on the periodic table's philosophy and history. Live disputes include exactly where hydrogen and helium belong, whether the lanthanides and actinides should be inset or fully integrated into the main body, and how far the classification scheme should extend into the still poorly characterised superheavy elements (see db4).",
+          "links": [
+            "th1"
+          ]
+        },
+        {
+          "id": "db2",
+          "group": "Chemical Bonding & Molecular Structure",
+          "label": "Valence Bond Theory vs. Molecular Orbital Theory",
+          "date": "1932",
+          "loc": "Chicago, Illinois",
+          "coords": [
+            41.88,
+            -87.63
+          ],
+          "tag": "DEBATE",
+          "hint": "Valence bond theory, championed by Pauling, pictures a bond as forming between two specific, localised atomic orbitals overlapping — an intuitive, easy-to-draw picture close to Lewis's original dot structures. Molecular orbital theory, developed independently by Mulliken and Hund, instead treats a molecule's electrons as occupying entirely new orbitals spread across the whole molecule at once — a less intuitive but often more accurate picture, especially for molecules valence bond theory struggles to describe correctly at all.",
+          "note": "Mulliken, R.S. (1932). 'Electronic Structures of Polyatomic Molecules and Valence.' Physical Review, 41(1), 49–71, at the University of Chicago. Mulliken received the 1966 Nobel Prize in Chemistry for developing molecular orbital theory; despite MO theory's generally superior accuracy, valence bond concepts including hybridisation remain widely taught in introductory chemistry for their greater intuitive accessibility, a pedagogical trade-off that itself remains actively debated among chemistry educators.",
+          "links": [
+            "th3",
+            "co2"
+          ]
+        },
+        {
+          "id": "db3",
+          "group": "Acids, Bases & Aqueous Chemistry",
+          "label": "Which Acid-Base Definition Is Most Fundamental?",
+          "date": "1923",
+          "loc": "Berkeley, California",
+          "coords": [
+            37.87,
+            -122.27
+          ],
+          "tag": "DEBATE",
+          "hint": "Arrhenius defines acids and bases by what they do in water specifically; Brønsted-Lowry broadens the definition to any proton transfer, in any solvent; Lewis broadens it further still, to any electron-pair donation or acceptance, covering reactions with no protons involved at all. Each successive definition is strictly more general than the last, correctly reducing to the earlier ones as special cases — leaving the real question not which definition is 'true,' but which one is most useful for a given problem.",
+          "note": "Lewis, G.N. (1923). Valence and the Structure of Atoms and Molecules. New York: Chemical Catalog Company, at the University of California, Berkeley, the same year Brønsted and Lowry independently published their own broadened definition (see th8). Lewis acid-base theory covers reactions, including many important in coordination chemistry (see th11), that involve no hydrogen ions being transferred at all, making it the most general of the three frameworks, though also the least immediately intuitive for typical introductory aqueous-solution chemistry.",
+          "links": [
+            "th7",
+            "th8"
+          ]
+        },
+        {
+          "id": "db4",
+          "group": "Atomic Structure & the Periodic Table",
+          "label": "Do Superheavy Elements Still Count as \"Chemistry\"?",
+          "date": "2007",
+          "loc": "Dubna, Russia",
+          "coords": [
+            56.75,
+            37.19
+          ],
+          "tag": "DEBATE",
+          "hint": "The heaviest artificially created elements exist for a fraction of a second, produced one atom at a time in a particle accelerator, and decay before any conventional chemical test could ever be run on them — pushing chemists to develop entirely new single-atom chemistry techniques just to determine whether these elements even obey the periodic table's own predicted trends, or whether relativistic effects on their innermost electrons, significant at such enormous atomic numbers, break the pattern entirely.",
+          "note": "Eichler, R. et al. (2007). 'Chemical Characterization of Element 112.' Nature, 447(7140), 72–75, at the Joint Institute for Nuclear Research, Dubna. Experiments on elements including copernicium and flerovium have found some genuinely surprising deviations from simple periodic-table extrapolation, attributed to relativistic effects on inner electrons moving at a significant fraction of the speed of light; whether 'chemistry' meaningfully applies to an element that might exist for only milliseconds, one atom at a time, remains a genuinely live methodological and philosophical question.",
+          "links": [
+            "th1",
+            "db1"
+          ]
+        },
+        {
+          "id": "db5",
+          "group": "Coordination Chemistry & Transition Metals",
+          "label": "Crystal Field Theory vs. Ligand Field Theory",
+          "date": "1952",
+          "loc": "Cambridge, England",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "tag": "DEBATE",
+          "hint": "Crystal field theory treats ligands as simple point charges creating an electric field that splits a metal's d-orbitals, ignoring any actual covalent sharing of electrons between metal and ligand entirely. Ligand field theory extends the same basic picture but incorporates genuine covalent bonding character between metal and ligand orbitals — more accurate, especially for ligands known to bond quite covalently, but considerably more mathematically involved to actually use.",
+          "note": "Orgel, L.E. (1952). 'The Effects of Crystal Fields on the Properties of Transition-Metal Ions.' Journal of Chemical Physics, 20, 1819, at Cambridge University, an early step toward the fuller ligand-field synthesis developed by Griffith and Orgel through the 1950s. Crystal field theory's simpler, purely electrostatic picture remains standard in introductory inorganic chemistry teaching specifically because it correctly predicts most qualitative trends — colour, magnetism, stability — without requiring the heavier computational machinery ligand field and full molecular orbital treatments demand.",
+          "links": [
+            "th11",
+            "co6"
+          ]
+        },
+        {
+          "id": "db6",
+          "group": "Oxidation-Reduction & Electrochemistry",
+          "label": "The Cold Fusion Controversy",
+          "date": "1989",
+          "loc": "Salt Lake City, Utah",
+          "coords": [
+            40.76,
+            -111.89
+          ],
+          "tag": "DEBATE",
+          "hint": "Two respected electrochemists announced they had achieved nuclear fusion at room temperature inside a simple electrolysis cell, using nothing more exotic than palladium electrodes and heavy water — a claim that, if true, would have solved the world's energy problems overnight, and that collapsed within months once other laboratories worldwide failed to reproduce the reported excess heat under proper controlled conditions.",
+          "note": "Fleischmann, M. & Pons, S. (1989). Announced via press conference rather than peer-reviewed publication, University of Utah, Salt Lake City, a departure from normal scientific practice that itself drew heavy criticism. The episode became a canonical case study in scientific pathology — premature announcement, inadequate initial peer review, and a stubborn, still-active fringe research community continuing cold fusion work decades later under the rebranded name 'low-energy nuclear reactions,' despite the mainstream physics and chemistry communities considering the original claim thoroughly discredited.",
+          "links": [
+            "th10"
+          ]
+        },
+        {
+          "id": "db7",
+          "group": "Chemical Bonding & Molecular Structure",
+          "label": "Is Chemistry Reducible to Physics?",
+          "date": "1981",
+          "loc": "Zurich, Switzerland",
+          "coords": [
+            47.38,
+            8.54
+          ],
+          "tag": "DEBATE",
+          "hint": "In principle, the Schrödinger equation fully determines every chemical bond, reaction, and molecular property from pure quantum mechanics alone — suggesting chemistry might be, at bottom, nothing more than applied physics. In practice, the equation cannot be solved exactly for anything beyond the simplest atoms, and working chemists rely on approximate models, chemical intuition, and empirical rules that arguably capture genuine chemical regularities the underlying physics alone doesn't make obvious or even computationally tractable to derive.",
+          "note": "Primas, H. (1981). Chemistry, Quantum Mechanics and Reductionism: Perspectives in Theoretical Chemistry. Berlin: Springer, at ETH Zurich, a foundational text in the philosophy of chemistry addressing exactly this question. Philosophers of science remain divided between strict reductionists, who treat chemistry's independence as merely a practical computational limitation, and those arguing chemistry exhibits genuine 'emergent' regularities not straightforwardly derivable from physics even in principle, a debate paralleled in the relationship between biology and chemistry.",
+          "links": [
+            "th3",
+            "db2"
+          ]
+        },
+        {
+          "id": "db8",
+          "group": "Gas Laws & States of Matter",
+          "label": "The Polywater Controversy",
+          "date": "1966",
+          "loc": "Moscow, Russia",
+          "coords": [
+            55.76,
+            37.62
+          ],
+          "tag": "DEBATE",
+          "hint": "Soviet scientists reported that water condensed inside extremely narrow glass capillary tubes formed a mysterious new polymerised form with a higher boiling point, lower freezing point, and greater viscosity than ordinary water — a claim taken seriously enough that laboratories worldwide raced to study 'polywater' for several years, before it was conclusively traced to contamination from dissolved silica and other impurities leached from the glass tubes themselves, not a genuine new state of water at all.",
+          "note": "Deryagin, B.V. (1966). Reported at the Institute of Physical Chemistry, USSR Academy of Sciences, Moscow, with Western replication attempts and eventual debunking, notably by Denis Rousseau's systematic contamination analysis, published through the early 1970s. The episode is now a standard cautionary case study in chemistry and physics methodology courses, illustrating how a genuinely reproducible but subtly contaminated experimental artifact can be mistaken, in good faith by multiple independent laboratories, for authentic new physical chemistry.",
+          "links": [
+            "th5"
+          ]
+        }
+      ]
     },
     {
       "id": "application",
@@ -1159,7 +1301,113 @@
       "accent": "#2E86C1",
       "bg": "#EBF5FB",
       "subtitle": "Where the science leaves the lab",
-      "entries": []
+      "entries": [
+        {
+          "id": "ap1",
+          "group": "Acids, Bases & Aqueous Chemistry",
+          "label": "Water Treatment & Purification",
+          "date": "1908",
+          "loc": "Jersey City, New Jersey",
+          "coords": [
+            40.72,
+            -74.08
+          ],
+          "tag": "APPLICATION",
+          "hint": "Adding a carefully controlled small dose of chlorine to a public water supply reliably kills disease-causing bacteria and viruses at concentrations far too low to be harmful to people drinking it — a single, comparatively inexpensive chemical intervention that is widely credited by public health historians as one of the most significant advances in reducing waterborne disease and increasing average human lifespan in the entire twentieth century.",
+          "note": "Leal, J.L. (1908). Introduced continuous drinking-water chlorination at the Boonton Reservoir, serving Jersey City, New Jersey — the first ongoing municipal chlorination system in the United States, following a legal dispute over the city's water supply's safety. Chlorination and related disinfection methods spread rapidly to cities worldwide over the following decades; modern water treatment also draws on acid-base and precipitation chemistry (see me2) for coagulation and pH adjustment steps upstream of disinfection.",
+          "links": [
+            "th7"
+          ]
+        },
+        {
+          "id": "ap2",
+          "group": "Gas Laws & States of Matter",
+          "label": "The Haber-Bosch Process",
+          "date": "1909",
+          "loc": "Karlsruhe, Germany",
+          "coords": [
+            49.01,
+            8.4
+          ],
+          "tag": "APPLICATION",
+          "hint": "Fritz Haber found a way to force nitrogen and hydrogen gas to combine directly into ammonia under extremely high pressure and temperature with an iron catalyst — a reaction earlier chemists had judged essentially impossible to run practically, and one that Carl Bosch then scaled from a tabletop laboratory apparatus into a full industrial process, finally freeing large-scale agricultural fertiliser production from complete dependence on limited natural nitrate deposits.",
+          "note": "Haber, F. (1909). Demonstrated laboratory-scale ammonia synthesis, Karlsruhe, Germany, industrialised by Carl Bosch at BASF's Ludwigshafen facility by 1913. Optimising the reaction's pressure and temperature conditions relied directly on Le Chatelier's principle (see th9); the process is estimated to sustain roughly half of current global food production through synthetic nitrogen fertiliser, making it, by some estimates, responsible for supporting a larger fraction of the world's population than any other single chemical invention.",
+          "links": [
+            "th9",
+            "th5"
+          ]
+        },
+        {
+          "id": "ap3",
+          "group": "Oxidation-Reduction & Electrochemistry",
+          "label": "Rechargeable Batteries & Electrochemical Cells",
+          "date": "1859",
+          "loc": "Paris, France",
+          "coords": [
+            48.86,
+            2.35
+          ],
+          "tag": "APPLICATION",
+          "hint": "Unlike Volta's original battery, which produced a one-time chemical reaction that couldn't be reversed once exhausted, Gaston Planté's lead-acid battery could be recharged by running an external current back through it in reverse, driving the electrochemical reaction backward and restoring the original reactive materials — the same basic rechargeable lead-acid design still starting the overwhelming majority of petrol and diesel cars today, over 160 years later.",
+          "note": "Planté, G. (1859). Invented the lead-acid rechargeable battery, Paris. The reaction, involving lead, lead dioxide, and sulfuric acid electrolyte, is directly described by the Nernst equation (see th10); modern lithium-ion batteries, developed over a century later, work on the same fundamental reversible-redox-reaction principle Planté first demonstrated, just with different, higher-energy-density electrode materials.",
+          "links": [
+            "th10",
+            "st8"
+          ]
+        },
+        {
+          "id": "ap4",
+          "group": "Analytical Methods & Instrumentation",
+          "label": "Forensic Toxicology: The Marsh Test",
+          "date": "1836",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "APPLICATION",
+          "hint": "James Marsh developed a chemical test sensitive enough to detect even minute traces of arsenic — a poison notoriously popular for murder specifically because it had previously been almost undetectable in a body after death — converting any arsenic present into arsine gas and depositing it as a visible, unmistakable metallic mirror on a cold surface, sensitive enough to detect a fraction of a milligram.",
+          "note": "Marsh, J. (1836). 'Account of a Method of Separating Small Quantities of Arsenic from Substances with Which It May Be Mixed.' Edinburgh New Philosophical Journal, 21, 229–236, developed at the Royal Arsenal, Woolwich, London, after Marsh's own less sensitive earlier test failed to convince a jury in a poisoning trial he had been called to testify at. The test's demonstrated sensitivity is credited with substantially deterring arsenic poisoning as a method of murder across Europe once it became widely known and used by prosecutors.",
+          "links": [
+            "me4"
+          ]
+        },
+        {
+          "id": "ap5",
+          "group": "Coordination Chemistry & Transition Metals",
+          "label": "Catalytic Converters",
+          "date": "1975",
+          "loc": "Detroit, Michigan",
+          "coords": [
+            42.33,
+            -83.05
+          ],
+          "tag": "APPLICATION",
+          "hint": "A car's exhaust gases pass over a honeycomb structure coated with a thin layer of platinum, palladium, and rhodium, which catalyse toxic carbon monoxide, unburned hydrocarbons, and nitrogen oxides into far less harmful carbon dioxide, water, and nitrogen — without the metal catalyst itself being consumed or permanently altered by the reactions it enables, exactly the defining property of a true catalyst.",
+          "note": "First mandated on new US automobiles from the 1975 model year, following the Clean Air Act's tightening emissions standards, Detroit, Michigan. The three catalytic metals' behaviour depends directly on transition-metal coordination chemistry — reactant gas molecules temporarily bond to the metal surface, weakening their own internal bonds enough to react far more readily before releasing the products and freeing the metal site for the next reaction cycle.",
+          "links": [
+            "th11"
+          ]
+        },
+        {
+          "id": "ap6",
+          "group": "Analytical Methods & Instrumentation",
+          "label": "Complexometric (EDTA) Titration",
+          "date": "1945",
+          "loc": "Zurich, Switzerland",
+          "coords": [
+            47.38,
+            8.54
+          ],
+          "tag": "APPLICATION",
+          "hint": "EDTA is a single molecule with six separate points able to grip a metal ion simultaneously from six directions at once, binding many different metal ions with such overwhelming strength and selectivity that titrating a water sample with EDTA gives an extremely precise, reliable measurement of exactly how much calcium and magnesium — 'water hardness' — the sample contains.",
+          "note": "Schwarzenbach, G. (1945). 'Der Chelateffekt.' Helvetica Chimica Acta, 28(1), 1414–1424, at the University of Zurich, developing complexometric titration using EDTA and related chelating agents. Beyond water-hardness testing, EDTA's strong, selective metal-binding ability is used medically to treat acute heavy-metal poisoning (chelation therapy), stripping toxic metals like lead directly out of the bloodstream for safe excretion.",
+          "links": [
+            "th11",
+            "me1"
+          ]
+        }
+      ]
     }
   ],
   "timeline": [
