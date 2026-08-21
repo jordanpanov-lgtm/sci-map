@@ -610,7 +610,224 @@
       "accent": "#117A65",
       "bg": "#F0FFF6",
       "subtitle": "Named, replicable patterns in human biological adaptation and variation",
-      "entries": []
+      "entries": [
+        {
+          "id": "ef1",
+          "group": "Human Variation & Adaptation",
+          "label": "Lactase Persistence",
+          "date": "2002",
+          "loc": "University of Helsinki, Helsinki, Finland",
+          "coords": [
+            60.17,
+            24.94
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Most mammals lose the ability to digest lactose after weaning, but a genetic mutation allowing continued lactase enzyme production into adulthood swept to high frequency (over 90%) in Northern European and some African and Middle Eastern pastoralist populations within the last 7,000-10,000 years — one of the fastest, strongest cases of natural selection ever measured directly in the human genome.",
+          "note": "Enattah, N.S. et al. (2002). 'Identification of a Variant Associated with Adult-Type Hypolactasia.' Nature Genetics, 30, 233–237, pinpointed the European -13910*T allele. Tishkoff, S.A. et al. (2007, Nature Genetics) found independent, different mutations conferring the same trait in East African pastoralist populations — a striking case of convergent evolution to the same cultural practice, dairying, arising from different genetic routes.",
+          "links": [
+            "th10",
+            "co8"
+          ],
+          "keywords": [
+            "lactase persistence allele",
+            "dairying gene culture",
+            "recent strong selection"
+          ]
+        },
+        {
+          "id": "ef2",
+          "group": "Human Variation & Adaptation",
+          "label": "Sickle-Cell Trait & Malaria Resistance",
+          "date": "1954",
+          "loc": "Kampala, Uganda",
+          "coords": [
+            0.32,
+            32.58
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "A single mutated haemoglobin gene, lethal in its homozygous form (causing sickle-cell disease), is carried at surprisingly high frequency in malaria-endemic regions because carrying just one copy confers substantial resistance to severe malaria — a textbook case of heterozygote advantage, where a genetically 'bad' trait persists in a population because it is beneficial in a specific dose in a specific environment.",
+          "note": "Allison, A.C. (1954). 'Protection Afforded by Sickle-Cell Trait Against Subtertian Malarial Infection.' British Medical Journal, 1(4857), 290–294, based on fieldwork in Uganda. The resistance mechanism was later shown (Cyrklaff, M. et al. 2011, Science) to work partly by impairing the malaria parasite's ability to export proteins to the surface of infected red blood cells, refining the original correlational finding into a demonstrated causal mechanism.",
+          "links": [
+            "co8"
+          ],
+          "keywords": [
+            "heterozygote advantage",
+            "malaria resistance gene",
+            "balanced polymorphism"
+          ]
+        },
+        {
+          "id": "ef3",
+          "group": "Human Variation & Adaptation",
+          "label": "Skin Pigmentation Gradient",
+          "date": "2000",
+          "loc": "California Academy of Sciences, San Francisco, California",
+          "coords": [
+            37.77,
+            -122.47
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Human skin colour varies gradually with latitude, correlating closely with the intensity of ultraviolet radiation: darker skin evolved near the equator to protect against UV-induced folate degradation and skin cancer, while lighter skin evolved at higher latitudes to allow enough UV penetration for the body to synthesise adequate vitamin D — a balance between two opposing selective pressures rather than one-directional selection.",
+          "note": "Jablonski, N.G. & Chaplin, G. (2000). 'The Evolution of Human Skin Coloration.' Journal of Human Evolution, 39(1), 57–106. Genetic work (Crawford, N.G. et al. 2017, Science) later showed that even within Africa, skin-colour genetic variation is far more complex than a simple light/dark gradient, with several independently evolved lightening and darkening alleles shared across otherwise distantly related populations.",
+          "links": [
+            "co8",
+            "th10"
+          ],
+          "keywords": [
+            "uv radiation adaptation",
+            "vitamin d synthesis tradeoff",
+            "folate photolysis"
+          ]
+        },
+        {
+          "id": "ef4",
+          "group": "Molecular & Genetic Anthropology",
+          "label": "Neanderthal Admixture in Non-African Genomes",
+          "date": "2014",
+          "loc": "Harvard Medical School, Boston, Massachusetts",
+          "coords": [
+            42.34,
+            -71.1
+          ],
+          "tag": "EFFECT",
+          "repl": "robust",
+          "hint": "Every present-day human population outside Africa carries measurable Neanderthal ancestry, typically 1–2% of the genome, concentrated in genes related to skin, hair, and immune function while conspicuously absent from genes related to male fertility and certain brain regions — a pattern suggesting some hybrid offspring were less biologically fit, a phenomenon called selection against introgression.",
+          "note": "Sankararaman, S. et al. (2014). 'The Genomic Landscape of Neanderthal Ancestry in Present-Day Humans.' Nature, 507, 354–357. East Asian populations were later found to carry slightly higher Neanderthal ancestry than European populations (Wall, J.D. et al. 2013; Vernot, B. & Akey, J.M. 2015), a difference still not fully explained, possibly reflecting a second, distinct interbreeding pulse.",
+          "links": [
+            "st7",
+            "th1"
+          ],
+          "keywords": [
+            "archaic introgression genome",
+            "hybrid fitness reduction",
+            "neanderthal ancestry fraction"
+          ]
+        },
+        {
+          "id": "ef5",
+          "group": "Brain, Tools & Cognitive Evolution",
+          "label": "Encephalization Trend in Homo",
+          "date": "1994",
+          "loc": "University of California, Davis, California",
+          "coords": [
+            38.54,
+            -121.75
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Average cranial capacity within the genus Homo roughly tripled over about 2 million years, from around 600 cubic centimetres in early Homo habilis to roughly 1,350 cubic centimetres in modern Homo sapiens — but the rate of increase was not steady, showing distinct accelerations rather than one smooth, continuous climb.",
+          "note": "McHenry, H.M. (1994). 'Tempo and Mode in Human Evolution.' Proceedings of the National Academy of Sciences, 91(15), 6780–6786, quantified the trend across the hominin fossil record. Brain size increase does not track tightly with behavioural sophistication at every step — Homo naledi (see st5) had a brain barely a third the size of a modern human's despite behaviourally complex, disputed cave use, and Homo floresiensis retained a small brain long after larger-brained Homo species existed elsewhere.",
+          "links": [
+            "th8",
+            "co2",
+            "st5"
+          ],
+          "keywords": [
+            "cranial capacity increase",
+            "brain size trend",
+            "homo lineage encephalization"
+          ]
+        },
+        {
+          "id": "ef6",
+          "group": "Bipedalism & Skeletal Adaptation",
+          "label": "Postcranial Robusticity Decline",
+          "date": "1993",
+          "loc": "Johns Hopkins University, Baltimore, Maryland",
+          "coords": [
+            39.33,
+            -76.62
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Human skeletons have become progressively less robust — thinner bone cortices, smaller joint surfaces, lighter overall build — over the last 30,000 to 10,000 years, most sharply coinciding with the shift from a highly physically demanding foraging lifestyle to sedentary farming, indicating that mechanical loading during life, not just genetics, substantially shapes adult skeletal robustness.",
+          "note": "Ruff, C.B., Trinkaus, E. & Holliday, T.W. (1993). 'Postcranial Robusticity in Homo I: Temporal Trends and Mechanical Interpretation.' American Journal of Physical Anthropology, 91(1), 21–53. Because bone responds plastically to mechanical loading during an individual's life (Wolff's Law), the gracilization trend reflects a mix of genuine genetic change and lifestyle-driven developmental plasticity, and disentangling the two contributions remains methodologically difficult.",
+          "links": [
+            "th4",
+            "co1"
+          ],
+          "keywords": [
+            "skeletal gracilization trend",
+            "bone cortical thickness",
+            "agricultural lifestyle shift"
+          ]
+        },
+        {
+          "id": "ef7",
+          "group": "Bipedalism & Skeletal Adaptation",
+          "label": "The Obstetric Dilemma",
+          "date": "1960",
+          "loc": "University of California, Berkeley, California",
+          "coords": [
+            37.87,
+            -122.26
+          ],
+          "tag": "PHENOMENON",
+          "repl": "mixed",
+          "hint": "Because a narrow, bipedal-adapted pelvis limits how wide the birth canal can be, while a large fetal brain requires a wide head to pass through it, human babies are born at an earlier, more neurologically immature developmental stage relative to other primates, and human childbirth is unusually difficult compared to other apes' — a proposed evolutionary trade-off between two conflicting selective pressures.",
+          "note": "Washburn, S.L. (1960). 'Tools and Human Evolution.' Scientific American, 203(3), 62–75, first framed the pelvis-brain trade-off. The 'dilemma' framing has been challenged (Dunsworth, H.M. et al. 2012, Proceedings of the National Academy of Sciences) by the competing 'energetics of gestation and growth' model, which argues maternal metabolic limits, not pelvic width alone, better explain the timing of human birth — the strict obstetric-dilemma version is now considered only a partial explanation.",
+          "links": [
+            "st2",
+            "co1"
+          ],
+          "keywords": [
+            "pelvis birth canal constraint",
+            "neonatal brain immaturity",
+            "childbirth difficulty tradeoff"
+          ]
+        },
+        {
+          "id": "ef8",
+          "group": "Comparative Primatology",
+          "label": "Chimpanzee Cultural Variation",
+          "date": "1999",
+          "loc": "University of St Andrews, St Andrews, Scotland",
+          "coords": [
+            56.34,
+            -2.8
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Different wild chimpanzee communities across Africa use different, socially learned tool techniques and behaviours — some crack nuts with stone hammers, others fish for termites with different tool designs, others use leaves as napkins — variation that cannot be explained by genetics or local ecology alone, meeting the criteria researchers use to define 'culture' in animals.",
+          "note": "Whiten, A. et al. (1999). 'Cultures in Chimpanzees.' Nature, 399, 682–685, synthesising decades of field data across seven long-term study sites. Some later critics (Boesch, C. 2003) argued particular behavioural differences could still partly reflect subtle undetected ecological variation rather than pure social transmission, though the cumulative case across dozens of behaviours is now widely accepted as genuine cultural variation.",
+          "links": [
+            "st10",
+            "fg6"
+          ],
+          "keywords": [
+            "chimpanzee tool traditions",
+            "social transmission behavior",
+            "nonhuman culture criteria"
+          ]
+        },
+        {
+          "id": "ef9",
+          "group": "Hominin Fossil Record",
+          "label": "Dental Reduction Trend in Homo",
+          "date": "1988",
+          "loc": "Loyola University Chicago, Chicago, Illinois",
+          "coords": [
+            41.88,
+            -87.66
+          ],
+          "tag": "PHENOMENON",
+          "repl": "mixed",
+          "hint": "Tooth size, particularly molars, has shrunk substantially across the genus Homo over the last two million years, and the trend accelerated sharply after the invention of cooking and food processing technology, roughly tracking a reduced need for heavy chewing to break down raw, fibrous food.",
+          "note": "Calcagno, J.M. & Gibson, K.R. (1988). 'Human Dental Reduction: Natural Selection or the Probable Mutation Effect.' American Journal of Physical Anthropology, 77(4), 505–517. Whether the reduction is primarily adaptive (driven by softer cooked diets reducing the need for large chewing surfaces) or a largely neutral, non-adaptive genetic drift effect remains an open, actively contested question in the dental anthropology literature.",
+          "links": [
+            "st4",
+            "th8"
+          ],
+          "keywords": [
+            "molar size reduction",
+            "diet processing technology",
+            "dental evolution trend"
+          ]
+        }
+      ]
     },
     {
       "id": "concept",
@@ -620,7 +837,204 @@
       "accent": "#566573",
       "bg": "#F5F6FA",
       "subtitle": "The building blocks and vocabulary every student must command",
-      "entries": []
+      "entries": [
+        {
+          "id": "co1",
+          "group": "Bipedalism & Skeletal Adaptation",
+          "label": "Bipedalism",
+          "date": "1871",
+          "loc": "Down House, Kent, England",
+          "coords": [
+            51.33,
+            0.05
+          ],
+          "tag": "CONCEPT",
+          "hint": "Walking habitually upright on two legs, rather than knuckle-walking or brachiating like other apes, is the single most defining anatomical trait separating hominins from all other primates — it preceded large brain size, tool use, and language by millions of years and reshaped nearly every part of the skeleton from the skull's attachment point to the feet.",
+          "note": "Darwin, C. (1871). The Descent of Man, and Selection in Relation to Sex. John Murray, first proposed that upright walking, tool use, and reduced canine teeth evolved together as an interconnected package — a claim since substantially revised, since fossil evidence (see st2, st11) shows bipedalism evolved millions of years before stone tools or significant brain expansion.",
+          "links": [
+            "st2",
+            "st3",
+            "st11",
+            "th3",
+            "th4",
+            "th5"
+          ],
+          "keywords": [
+            "obligate bipedal locomotion",
+            "upright walking anatomy",
+            "hominin defining trait"
+          ]
+        },
+        {
+          "id": "co2",
+          "group": "Brain, Tools & Cognitive Evolution",
+          "label": "Encephalization Quotient",
+          "date": "1973",
+          "loc": "University of California, Los Angeles, California",
+          "coords": [
+            34.07,
+            -118.44
+          ],
+          "tag": "CONCEPT",
+          "hint": "Because larger animals simply need larger brains to run a larger body, raw brain size alone is a poor measure of relative brain enlargement across species — the encephalization quotient instead compares a species' actual brain size to the brain size predicted for a typical mammal of its body mass, giving a standardised way to compare 'braininess' across very differently sized animals.",
+          "note": "Jerison, H.J. (1973). Evolution of the Brain and Intelligence. Academic Press, established the standard formula. Humans have an EQ of roughly 7 — about seven times what would be predicted for a typical mammal of our body size — the highest of any living species, though the metric has been criticised (Deaner, R.O. et al. 2007, Brain, Behavior and Evolution) for not accounting for how brain tissue is actually distributed across different functional regions.",
+          "links": [
+            "th6",
+            "th8",
+            "ef5"
+          ],
+          "keywords": [
+            "relative brain size",
+            "body mass scaling",
+            "comparative neuroanatomy metric"
+          ]
+        },
+        {
+          "id": "co3",
+          "group": "Hominin Fossil Record",
+          "label": "Morphospecies Concept in Paleoanthropology",
+          "date": "1950",
+          "loc": "American Museum of Natural History, New York, New York",
+          "coords": [
+            40.78,
+            -73.97
+          ],
+          "tag": "CONCEPT",
+          "hint": "Because fossil species cannot be tested for interbreeding the way living species can, paleoanthropologists must classify extinct hominins into species based on physical similarity alone — a method that is inherently more subjective than the biological species concept and is the direct root cause of the field's frequent, sometimes bitter, disagreements over how many hominin species actually existed.",
+          "note": "Mayr, E. (1950). 'Taxonomic Categories in Fossil Hominids.' Cold Spring Harbor Symposia on Quantitative Biology, 15, 109–118, argued forcefully for taxonomic lumping of early hominin fossils into few species. The tension Mayr identified directly underlies the ongoing lumper-versus-splitter debate (see db2) that still divides the field today.",
+          "links": [
+            "db2",
+            "st1",
+            "st5",
+            "st6"
+          ],
+          "keywords": [
+            "fossil species classification",
+            "morphological taxonomy dispute",
+            "lumper splitter debate"
+          ]
+        },
+        {
+          "id": "co4",
+          "group": "Comparative Primatology",
+          "label": "Sexual Dimorphism",
+          "date": "1997",
+          "loc": "University of Arkansas, Fayetteville, Arkansas",
+          "coords": [
+            36.07,
+            -94.17
+          ],
+          "tag": "CONCEPT",
+          "hint": "The degree of body-size or canine-size difference between males and females of a species correlates, across living primates, with mating system and the intensity of male-male competition — highly dimorphic species tend toward polygyny, while lightly dimorphic species tend toward more monogamous pair-bonding, giving paleoanthropologists an indirect tool for inferring extinct hominins' likely social structure from fossil bones alone.",
+          "note": "Plavcan, J.M. & van Schaik, C.P. (1997). 'Interpreting Hominid Behavior on the Basis of Sexual Dimorphism.' Journal of Human Evolution, 32(4), 345–374. Early Australopithecus shows relatively high body-size dimorphism, more like a modern gorilla than a modern human, suggesting a more polygynous social structure than Lovejoy's monogamy-driven provisioning model (see th5) would predict — a significant point of tension between the fossil dimorphism evidence and that theory.",
+          "links": [
+            "th5",
+            "st2"
+          ],
+          "keywords": [
+            "body size dimorphism",
+            "mating system inference",
+            "canine size difference"
+          ]
+        },
+        {
+          "id": "co5",
+          "group": "Brain, Tools & Cognitive Evolution",
+          "label": "Life History Theory",
+          "date": "2000",
+          "loc": "University of New Mexico, Albuquerque, New Mexico",
+          "coords": [
+            35.08,
+            -106.62
+          ],
+          "tag": "CONCEPT",
+          "hint": "Life history theory analyses how organisms allocate limited energy between competing priorities — growth, reproduction, and survival — across their lifespan; applied to human evolution, it explains humans' unusually slow, extended childhood, late age of first reproduction, and long post-reproductive lifespan as a coordinated package tied to reliance on complex, learned skills for foraging.",
+          "note": "Kaplan, H., Hill, K., Lancaster, J. & Hurtado, A.M. (2000). 'A Theory of Human Life History Evolution: Diet, Intelligence, and Longevity.' Evolutionary Anthropology, 9(4), 156–185, drawing on decades of fieldwork among the Ache and Hiwi foraging peoples of South America. The framework directly incorporates the grandmother hypothesis (see th7) as one part of the broader life-history package rather than a standalone explanation.",
+          "links": [
+            "th7",
+            "th6"
+          ],
+          "keywords": [
+            "energy allocation tradeoff",
+            "extended human childhood",
+            "delayed reproduction strategy"
+          ]
+        },
+        {
+          "id": "co6",
+          "group": "Molecular & Genetic Anthropology",
+          "label": "Founder Effect & Genetic Drift",
+          "date": "1942",
+          "loc": "American Museum of Natural History, New York, New York",
+          "coords": [
+            40.78,
+            -73.97
+          ],
+          "tag": "CONCEPT",
+          "hint": "When a small group splinters off from a larger population to found a new one — as happened repeatedly as modern humans dispersed out of Africa and across the globe — the new population carries only a random, reduced sample of the parent population's genetic variation, which is why genetic diversity decreases in a smooth gradient the further a population's ancestors travelled from East Africa.",
+          "note": "Mayr, E. (1942). Systematics and the Origin of Species. Columbia University Press, coined the term 'founder effect' within general evolutionary theory. The 'serial founder effect' model of human dispersal was quantitatively confirmed by genome-wide data (Ramachandran, S. et al. 2005, Proceedings of the National Academy of Sciences), which found genetic diversity decreases in a striking straight-line relationship with geographic distance from Ethiopia.",
+          "links": [
+            "th1",
+            "th9",
+            "st9"
+          ],
+          "keywords": [
+            "serial founder effect",
+            "genetic diversity gradient",
+            "population bottleneck dispersal"
+          ]
+        },
+        {
+          "id": "co7",
+          "group": "Dating & Field Methods",
+          "label": "Taphonomy",
+          "date": "1940",
+          "loc": "Paleontological Institute, Moscow, USSR",
+          "coords": [
+            55.76,
+            37.62
+          ],
+          "tag": "CONCEPT",
+          "hint": "Taphonomy is the study of everything that happens to an organism's remains between death and discovery as a fossil — scavenging, weathering, water transport, burial, and mineral replacement — all of which can distort or destroy evidence, so interpreting any fossil find requires first reconstructing its taphonomic history to know how much the assemblage has been altered from the original living population it represents.",
+          "note": "Efremov, I.A. (1940). 'Taphonomy: A New Branch of Paleontology.' Pan-American Geologist, 74, 81–93, coined the term from the Greek for 'burial laws.' Taphonomic analysis was central to resolving the Homo naledi deliberate-disposal debate (see db8, st5), since alternative, non-behavioural explanations had to be ruled out via careful study of the bone assemblage before the disposal hypothesis could even be considered.",
+          "links": [
+            "st5",
+            "db8",
+            "me2"
+          ],
+          "keywords": [
+            "post mortem bone alteration",
+            "fossil assemblage formation",
+            "burial law reconstruction"
+          ]
+        },
+        {
+          "id": "co8",
+          "group": "Human Variation & Adaptation",
+          "label": "Clinal Variation",
+          "date": "1962",
+          "loc": "University of Michigan, Ann Arbor, Michigan",
+          "coords": [
+            42.28,
+            -83.74
+          ],
+          "tag": "CONCEPT",
+          "hint": "Human biological traits like skin colour, body shape, and many genetic markers vary gradually and continuously across geography, tracking environmental gradients like latitude or altitude, rather than clustering into the sharply bounded, discrete categories that the folk concept of 'race' assumes — a single trait's cline rarely lines up neatly with another trait's cline, undermining any attempt to sort humanity into a small number of natural, biologically coherent groups.",
+          "note": "Livingstone, F.B. (1962). 'On the Non-Existence of Human Races.' Current Anthropology, 3(3), 279–281. Genome-wide studies (Rosenberg, N.A. et al. 2002, Science) later showed that while genetic clustering algorithms can be made to produce groupings that loosely track continental geography when forced to a small number of clusters, the vast majority of total human genetic variation (roughly 85–90%) exists within, not between, those clusters — directly informing the modern race debate (see db5).",
+          "links": [
+            "ef1",
+            "ef2",
+            "ef3",
+            "db5",
+            "st12"
+          ],
+          "keywords": [
+            "gradual trait variation",
+            "race biological validity",
+            "within group genetic diversity"
+          ]
+        }
+      ]
     },
     {
       "id": "method",
