@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 1769,
+    "total_entries": 1770,
     "folio_count": 23,
     "xlink_pairs": 109,
-    "keyword_terms": 6477,
+    "keyword_terms": 6480,
     "folios": [
       {
         "id": "anatomy-histology",
@@ -18,7 +18,7 @@
       {
         "id": "biological-anthropology",
         "title": "Biological & Evolutionary Anthropology",
-        "entries": 73
+        "entries": 74
       },
       {
         "id": "cell-molecular-bio",
@@ -339,6 +339,7 @@
     "biological-anthropology::db7": "debate · Bipedalism & Skeletal Adaptation · Aquatic Ape Hypothesis Controversy (1960)",
     "biological-anthropology::db8": "debate · Hominin Fossil Record · Homo naledi Deliberate Body Disposal Debate (2015)",
     "biological-anthropology::db9": "debate · Dating & Field Methods · Kennewick Man / Ancient One Repatriation Controversy (1996)",
+    "biological-anthropology::db10": "debate · Molecular & Genetic Anthropology · Ghost Archaic DNA: Introgression from Unknown Hominins (2020)",
     "biological-anthropology::ap1": "application · Dating & Field Methods · Forensic Anthropology: Skeletal Identification (1939)",
     "biological-anthropology::ap2": "application · Molecular & Genetic Anthropology · Forensic Genetic Genealogy (2018)",
     "biological-anthropology::ap3": "application · Human Variation & Adaptation · Paleo Diet Reconstruction Informing Modern Nutrition (1985)",
@@ -3661,6 +3662,11 @@
       "indigenous repatriation dispute",
       "ancient dna ancestry claim",
       "scientific study sovereignty conflict"
+    ],
+    "biological-anthropology::db10": [
+      "unsampled archaic lineage",
+      "statistical introgression inference",
+      "unknown hominin dna"
     ],
     "biological-anthropology::ap1": [
       "skeletal age estimation",
@@ -14811,6 +14817,15 @@
     ],
     "scientific study sovereignty conflict": [
       "biological-anthropology::db9"
+    ],
+    "unsampled archaic lineage": [
+      "biological-anthropology::db10"
+    ],
+    "statistical introgression inference": [
+      "biological-anthropology::db10"
+    ],
+    "unknown hominin dna": [
+      "biological-anthropology::db10"
     ],
     "skeletal age estimation": [
       "biological-anthropology::ap1"

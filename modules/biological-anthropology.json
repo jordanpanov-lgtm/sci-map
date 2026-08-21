@@ -15,7 +15,7 @@
   "mapZoom": 2,
   "methodology": "METHODOLOGY · Every entry anchors to a landmark fossil discovery, genetic study, field observation or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags replication status, revisions and known controversies. Studies and effects carry a replicability badge — 🟢 confirmed to high confidence · 🟡 nuanced, contested or partially revised · 🔴 failed or severely disputed. Map pins mark the fossil site, field location or institution where the work was carried out.",
   "_meta": {
-    "total_entries": 73,
+    "total_entries": 74,
     "entry_counts": {
       "theory": 10,
       "study": 13,
@@ -23,7 +23,7 @@
       "concept": 8,
       "method": 6,
       "figure": 12,
-      "debate": 9,
+      "debate": 10,
       "application": 6
     },
     "max_ids": {
@@ -33,7 +33,7 @@
       "co": 8,
       "me": 6,
       "fg": 12,
-      "db": 9,
+      "db": 10,
       "ap": 6
     },
     "groups": [
@@ -116,6 +116,7 @@
     "db7": "debate · Bipedalism & Skeletal Adaptation · Aquatic Ape Hypothesis Controversy (1960)",
     "db8": "debate · Hominin Fossil Record · Homo naledi Deliberate Body Disposal Debate (2015)",
     "db9": "debate · Dating & Field Methods · Kennewick Man / Ancient One Repatriation Controversy (1996)",
+    "db10": "debate · Molecular & Genetic Anthropology · Ghost Archaic DNA: Introgression from Unknown Hominins (2020)",
     "ap1": "application · Dating & Field Methods · Forensic Anthropology: Skeletal Identification (1939)",
     "ap2": "application · Molecular & Genetic Anthropology · Forensic Genetic Genealogy (2018)",
     "ap3": "application · Human Variation & Adaptation · Paleo Diet Reconstruction Informing Modern Nutrition (1985)",
@@ -582,7 +583,8 @@
             "th1",
             "ef4",
             "me3",
-            "db6"
+            "db6",
+            "db10"
           ],
           "keywords": [
             "neanderthal nuclear genome",
@@ -608,7 +610,8 @@
             "fg8",
             "th1",
             "st12",
-            "me3"
+            "me3",
+            "db10"
           ],
           "keywords": [
             "denisovan finger bone",
@@ -841,7 +844,8 @@
           "links": [
             "st7",
             "th1",
-            "db6"
+            "db6",
+            "db10"
           ],
           "keywords": [
             "archaic introgression genome",
@@ -1864,6 +1868,30 @@
             "ancient dna ancestry claim",
             "scientific study sovereignty conflict"
           ]
+        },
+        {
+          "id": "db10",
+          "group": "Molecular & Genetic Anthropology",
+          "label": "Ghost Archaic DNA: Introgression from Unknown Hominins",
+          "date": "2020",
+          "loc": "University of California, Los Angeles, California",
+          "coords": [
+            34.07,
+            -118.44
+          ],
+          "tag": "DEBATE",
+          "hint": "Beyond the well-documented Neanderthal and Denisovan admixture, statistical analysis of living genomes reveals additional 'ghost' signals — unusually divergent DNA segments — that imply interbreeding with archaic hominin populations that were never directly sampled and may never be, since no fossil or ancient genome from them has ever been recovered. West African genomes show one such signal with no known source population, and Denisovans themselves appear to carry DNA from an even older, still-unidentified 'super-archaic' lineage.",
+          "note": "Durvasula, A. & Sankararaman, S. (2020). 'Recovering Signals of Ghost Archaic Introgression in African Populations.' Science Advances, 6(7), eaax5097, building on earlier evidence from Hammer, M.F. et al. (2011, Proceedings of the National Academy of Sciences) of archaic admixture in Central African populations. Rogers, A.R., Harris, N.S. & Achenbach, A.A. (2020). 'Neanderthal-Denisovan Ancestors Interbred with a Distantly Related Hominin.' Science Advances, 6(8), eaay5483, proposed a separate 'super-archaic' contribution to Denisovan ancestry. Because no reference genome exists for any ghost population, these findings rest entirely on statistical inference from patterns of genetic divergence, not direct comparison — a methodological limitation that keeps the specific identity, timing, and even the certainty of these introgression events open to debate.",
+          "links": [
+            "ef4",
+            "st7",
+            "st8"
+          ],
+          "keywords": [
+            "unsampled archaic lineage",
+            "statistical introgression inference",
+            "unknown hominin dna"
+          ]
         }
       ]
     },
@@ -2288,6 +2316,11 @@
           "y": 2015,
           "l": "Homo naledi Body Disposal Debate",
           "entryId": "db8"
+        },
+        {
+          "y": 2020,
+          "l": "Ghost Archaic DNA Introgression",
+          "entryId": "db10"
         }
       ]
     },
