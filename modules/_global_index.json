@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 1773,
+    "total_entries": 1774,
     "folio_count": 23,
     "xlink_pairs": 109,
-    "keyword_terms": 6489,
+    "keyword_terms": 6492,
     "folios": [
       {
         "id": "anatomy-histology",
@@ -18,7 +18,7 @@
       {
         "id": "biological-anthropology",
         "title": "Biological & Evolutionary Anthropology",
-        "entries": 77
+        "entries": 78
       },
       {
         "id": "cell-molecular-bio",
@@ -321,6 +321,7 @@
     "biological-anthropology::me5": "method · Dating & Field Methods · Geometric Morphometrics (1991)",
     "biological-anthropology::me6": "method · Dating & Field Methods · Stable Isotope Analysis (1994)",
     "biological-anthropology::me7": "method · Dating & Field Methods · The Molecular Clock (1967)",
+    "biological-anthropology::me8": "method · Dating & Field Methods · Ancient Enamel Protein Sex Determination (2026)",
     "biological-anthropology::fg1": "figure · Pioneers & Theorists · Charles Darwin (1871)",
     "biological-anthropology::fg2": "figure · Pioneers & Theorists · Raymond Dart (1925)",
     "biological-anthropology::fg3": "figure · Pioneers & Theorists · Louis Leakey (1959)",
@@ -3575,6 +3576,11 @@
       "immunological distance clock",
       "divergence time calibration",
       "constant mutation rate assumption"
+    ],
+    "biological-anthropology::me8": [
+      "ancient enamel protein",
+      "amelogenin sex marker",
+      "paleoproteomic sex determination"
     ],
     "biological-anthropology::fg1": [
       "descent of man",
@@ -14673,6 +14679,15 @@
     ],
     "constant mutation rate assumption": [
       "biological-anthropology::me7"
+    ],
+    "ancient enamel protein": [
+      "biological-anthropology::me8"
+    ],
+    "amelogenin sex marker": [
+      "biological-anthropology::me8"
+    ],
+    "paleoproteomic sex determination": [
+      "biological-anthropology::me8"
     ],
     "descent of man": [
       "biological-anthropology::fg1"

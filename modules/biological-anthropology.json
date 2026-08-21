@@ -5,7 +5,7 @@
   "subtitle": "Human origins, fossil record & comparative primatology",
   "period": {
     "start": 1871,
-    "end": 2025
+    "end": 2026
   },
   "domain": "society",
   "mapCenter": [
@@ -15,13 +15,13 @@
   "mapZoom": 2,
   "methodology": "METHODOLOGY · Every entry anchors to a landmark fossil discovery, genetic study, field observation or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags replication status, revisions and known controversies. Studies and effects carry a replicability badge — 🟢 confirmed to high confidence · 🟡 nuanced, contested or partially revised · 🔴 failed or severely disputed. Map pins mark the fossil site, field location or institution where the work was carried out.",
   "_meta": {
-    "total_entries": 77,
+    "total_entries": 78,
     "entry_counts": {
       "theory": 10,
       "study": 14,
       "effect": 9,
       "concept": 9,
-      "method": 7,
+      "method": 8,
       "figure": 12,
       "debate": 10,
       "application": 6
@@ -31,7 +31,7 @@
       "st": 14,
       "ef": 9,
       "co": 9,
-      "me": 7,
+      "me": 8,
       "fg": 12,
       "db": 10,
       "ap": 6
@@ -98,6 +98,7 @@
     "me5": "method · Dating & Field Methods · Geometric Morphometrics (1991)",
     "me6": "method · Dating & Field Methods · Stable Isotope Analysis (1994)",
     "me7": "method · Dating & Field Methods · The Molecular Clock (1967)",
+    "me8": "method · Dating & Field Methods · Ancient Enamel Protein Sex Determination (2026)",
     "fg1": "figure · Pioneers & Theorists · Charles Darwin (1871)",
     "fg2": "figure · Pioneers & Theorists · Raymond Dart (1925)",
     "fg3": "figure · Pioneers & Theorists · Louis Leakey (1959)",
@@ -535,7 +536,8 @@
             "db8",
             "ef5",
             "co7",
-            "db2"
+            "db2",
+            "me8"
           ],
           "keywords": [
             "dinaledi chamber fossils",
@@ -1431,6 +1433,29 @@
             "divergence time calibration",
             "constant mutation rate assumption"
           ]
+        },
+        {
+          "id": "me8",
+          "group": "Dating & Field Methods",
+          "label": "Ancient Enamel Protein Sex Determination",
+          "date": "2026",
+          "loc": "University of Copenhagen, Copenhagen, Denmark",
+          "coords": [
+            55.68,
+            12.57
+          ],
+          "tag": "METHOD",
+          "hint": "Ancient DNA usually degrades beyond recovery within a few hundred thousand years, but tooth enamel proteins survive far longer and far more robustly — allowing researchers to determine a fossil individual's biological sex, hundreds of thousands of years after death, by checking dental enamel for the sex-linked amelogenin proteins AMELX and AMELY, present in males and absent, aside from rare exceptions, in females.",
+          "note": "Madupe, P.P. et al. (2026). 'Sex Determination of Homo naledi Individuals from the Rising Star Cave System Using Ancient Enamel Proteins.' Cell. Applied to 23 teeth representing 20 Homo naledi individuals from the Dinaledi Chamber (see st5), the method found the male-specific AMELY protein in precisely none of them — a result with under a 1-in-1,000,000 probability of occurring by chance if the sample were sex-balanced. Independently replicated at a second Max Planck Institute laboratory. Whether the all-female result reflects genuine sex-differentiated mortuary treatment (see db8), a founder-effect loss of the AMELY gene in a small, isolated population, or some other unexplained factor remains unresolved.",
+          "links": [
+            "st5",
+            "db8"
+          ],
+          "keywords": [
+            "ancient enamel protein",
+            "amelogenin sex marker",
+            "paleoproteomic sex determination"
+          ]
         }
       ]
     },
@@ -1917,11 +1942,12 @@
           ],
           "tag": "DEBATE",
           "hint": "Lee Berger's team argued that the only plausible way at least 15 Homo naledi individuals ended up deep inside a nearly inaccessible cave chamber was deliberate placement of bodies by other naledi — implying a small-brained hominin species held symbolic mortuary behaviour previously assumed to require a much larger brain. Critics argue natural processes like water transport, animal accumulation, or individuals dying while exploring the cave on their own remain more parsimonious explanations that the disposal hypothesis has not fully ruled out.",
-          "note": "Dirks, P.H.G.M. et al. (2015). 'Geological and Taphonomic Context for the New Hominin Species Homo naledi from the Dinaledi Chamber.' eLife, 4, e09561, presented the case for deliberate disposal based on the chamber's remoteness and the absence of carnivore damage or water-transport sedimentary signatures. Val, A. (2016, Journal of Human Evolution) and other critics argue the taphonomic case has not conclusively excluded all natural accumulation scenarios, and the deliberate-disposal interpretation remains a minority position pending further evidence.",
+          "note": "Dirks, P.H.G.M. et al. (2015). 'Geological and Taphonomic Context for the New Hominin Species Homo naledi from the Dinaledi Chamber.' eLife, 4, e09561, presented the case for deliberate disposal based on the chamber's remoteness and the absence of carnivore damage or water-transport sedimentary signatures. Val, A. (2016, Journal of Human Evolution) and other critics argue the taphonomic case has not conclusively excluded all natural accumulation scenarios, and the deliberate-disposal interpretation remains a minority position pending further evidence. A 2026 finding sharpened the stakes considerably: ancient-protein sex determination (see me8) found that all 20 tested individuals from the chamber were apparently female, which Berger and colleagues read as evidence of sex-differentiated mortuary treatment — though critics note this would predate the next-earliest accepted sex-differentiated burial practice by well over 100,000 years, and an unverified founder-effect genetic explanation remains equally plausible.",
           "links": [
             "st5",
             "fg10",
-            "co7"
+            "co7",
+            "me8"
           ],
           "keywords": [
             "deliberate body disposal",
@@ -2356,6 +2382,11 @@
           "y": 1999,
           "l": "Potassium-Argon / Argon-Argon Dating",
           "entryId": "me1"
+        },
+        {
+          "y": 2026,
+          "l": "Ancient Enamel Protein Sex ID",
+          "entryId": "me8"
         }
       ]
     },
