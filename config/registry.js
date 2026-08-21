@@ -40,7 +40,7 @@ const FIELDS = [
   { id:"social-psychology",          domain:"psychology",        label:"Social Psychology",                         sub:"How people think about, influence & relate to others",                  status:"ready", file:"modules/social-psychology.json" },
   { id:"clinical-psych",             domain:"psychology",        label:"Clinical & Abnormal Psychology",            sub:"Mental disorder, diagnosis, therapy & the limits of the normal",        status:"planned" },
   // ── SOCIETY & CULTURE ────────────────────────────────────────────────────────
-  { id:"biological-anthropology",    domain:"society",           label:"Biological & Evolutionary Anthropology",    sub:"Human origins, fossil record & comparative primatology",                status:"planned" },
+  { id:"biological-anthropology",    domain:"society",           label:"Biological & Evolutionary Anthropology",    sub:"Human origins, fossil record & comparative primatology",                status:"ready", file:"modules/biological-anthropology.json" },
   { id:"cultural-anthropology",      domain:"society",           label:"Cultural & Social Anthropology",            sub:"Kinship, ritual, meaning & the diversity of human cultures",            status:"ready",   file:"modules/cultural-anthropology.json" },
   { id:"sociology",                  domain:"society",           label:"Sociology & Social Structures",             sub:"Institutions, stratification & collective life",                        status:"ready",   file:"modules/sociology.json" },
   { id:"demography",                 domain:"society",           label:"Demography & Population Studies",           sub:"Birth, death, migration & the structure of human populations",          status:"planned" },
