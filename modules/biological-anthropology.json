@@ -15,23 +15,23 @@
   "mapZoom": 2,
   "methodology": "METHODOLOGY · Every entry anchors to a landmark fossil discovery, genetic study, field observation or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags replication status, revisions and known controversies. Studies and effects carry a replicability badge — 🟢 confirmed to high confidence · 🟡 nuanced, contested or partially revised · 🔴 failed or severely disputed. Map pins mark the fossil site, field location or institution where the work was carried out.",
   "_meta": {
-    "total_entries": 74,
+    "total_entries": 77,
     "entry_counts": {
       "theory": 10,
-      "study": 13,
+      "study": 14,
       "effect": 9,
-      "concept": 8,
-      "method": 6,
+      "concept": 9,
+      "method": 7,
       "figure": 12,
       "debate": 10,
       "application": 6
     },
     "max_ids": {
       "th": 10,
-      "st": 13,
+      "st": 14,
       "ef": 9,
-      "co": 8,
-      "me": 6,
+      "co": 9,
+      "me": 7,
       "fg": 12,
       "db": 10,
       "ap": 6
@@ -72,6 +72,7 @@
     "st11": "study · Hominin Fossil Record · Ardipithecus ramidus (\"Ardi\") (2009)",
     "st12": "study · Human Variation & Adaptation · EPAS1 Tibetan Altitude Adaptation (2010)",
     "st13": "study · Dating & Field Methods · Olduvai Gorge Potassium-Argon Dating (1961)",
+    "st14": "study · Hominin Fossil Record · Homo floresiensis (\"The Hobbit\") (2004)",
     "ef1": "effect · Human Variation & Adaptation · Lactase Persistence (2002)",
     "ef2": "effect · Human Variation & Adaptation · Sickle-Cell Trait & Malaria Resistance (1954)",
     "ef3": "effect · Human Variation & Adaptation · Skin Pigmentation Gradient (2000)",
@@ -89,12 +90,14 @@
     "co6": "concept · Molecular & Genetic Anthropology · Founder Effect & Genetic Drift (1942)",
     "co7": "concept · Dating & Field Methods · Taphonomy (1940)",
     "co8": "concept · Human Variation & Adaptation · Clinal Variation (1962)",
+    "co9": "concept · Brain, Tools & Cognitive Evolution · Lithic Industries & Stone Tool Typologies (1971)",
     "me1": "method · Dating & Field Methods · Potassium-Argon / Argon-Argon Dating (1999)",
     "me2": "method · Dating & Field Methods · Stratigraphy & Relative Dating (1979)",
     "me3": "method · Dating & Field Methods · Ancient DNA Extraction & Sequencing (1985)",
     "me4": "method · Dating & Field Methods · Radiocarbon (¹⁴C) Dating (1949)",
     "me5": "method · Dating & Field Methods · Geometric Morphometrics (1991)",
     "me6": "method · Dating & Field Methods · Stable Isotope Analysis (1994)",
+    "me7": "method · Dating & Field Methods · The Molecular Clock (1967)",
     "fg1": "figure · Pioneers & Theorists · Charles Darwin (1871)",
     "fg2": "figure · Pioneers & Theorists · Raymond Dart (1925)",
     "fg3": "figure · Pioneers & Theorists · Louis Leakey (1959)",
@@ -418,7 +421,7 @@
           "tag": "DISCOVERY",
           "repl": "robust",
           "hint": "A fossilised juvenile skull, found by lime-quarry workers and sent to anatomist Raymond Dart, combined an ape-sized brain with a forward-positioned foramen magnum — the hole where the spinal cord exits the skull — indicating the head balanced atop an upright spine rather than in front of it like a quadruped's. It was the first Australopithecus ever identified and the first strong fossil evidence that upright walking preceded large brain size in human evolution.",
-          "note": "Dart, R.A. (1925). 'Australopithecus africanus: The Man-Ape of South Africa.' Nature, 115, 195–199. Dart's claim was widely dismissed for two decades by a scientific establishment still committed to the fraudulent Piltdown Man's brain-first narrative (see db3); Robert Broom's subsequent adult Australopithecus finds at Sterkfontein in the 1930s–40s vindicated Dart's interpretation.",
+          "note": "Dart, R.A. (1925). 'Australopithecus africanus: The Man-Ape of South Africa.' Nature, 115, 195–199. Dart's claim was widely dismissed for two decades by a scientific establishment still committed to the fraudulent Piltdown Man's brain-first narrative (see db3); Robert Broom's subsequent adult Australopithecus finds at Sterkfontein in the 1930s–40s vindicated Dart's interpretation. Beyond the Piltdown-driven expectation of a large-brained ancestor, two further factors fuelled the rejection: critics dismissed the skull as simply a juvenile ape, since young apes' rounder skulls and smaller brow ridges look deceptively more human-like than adult apes' do; and prominent figures like Arthur Keith were personally and professionally invested in a European or Asian origin for humanity, making an African, small-brained ancestor doubly unwelcome.",
           "links": [
             "fg2",
             "th3",
@@ -444,7 +447,7 @@
           ],
           "tag": "DISCOVERY",
           "repl": "robust",
-          "hint": "Donald Johanson and Tom Gray found roughly 40% of a single Australopithecus afarensis skeleton eroding out of a gully — an extraordinary completeness for a 3.2-million-year-old hominin. The pelvis and knee joint showed unambiguous adaptations for habitual bipedal walking, even though the skull retained an ape-sized brain, definitively separating the evolution of upright walking from the evolution of a large brain.",
+          "hint": "Donald Johanson and Tom Gray found roughly 40% of a single Australopithecus afarensis skeleton eroding out of a gully — an extraordinary completeness for a 3.2-million-year-old hominin. Her pelvis and knee joint showed unambiguous adaptations for habitual bipedal walking — a shortened, broadened ilium that repositioned the gluteal muscles to act as hip abductors rather than extensors, stopping the torso from collapsing to one side with each stride — even though the skull retained an ape-sized brain, definitively separating the evolution of upright walking from the evolution of a large brain.",
           "note": "Johanson, D.C. & Taieb, M. (1976). 'Plio-Pleistocene Hominid Discoveries in Hadar, Ethiopia.' Nature, 260, 293–297. Named 'Lucy' after the Beatles song 'Lucy in the Sky with Diamonds' played at the celebration camp that evening. Later finds of the same species, including the 'First Family' site (AL 333) and the juvenile 'Selam,' confirmed A. afarensis as a well-established, bipedal, small-brained hominin lineage.",
           "links": [
             "fg5",
@@ -503,7 +506,8 @@
             "fg9",
             "th4",
             "co1",
-            "ef9"
+            "ef9",
+            "co9"
           ],
           "keywords": [
             "homo erectus skeleton",
@@ -556,7 +560,8 @@
           "links": [
             "th3",
             "co3",
-            "db2"
+            "db2",
+            "me7"
           ],
           "keywords": [
             "earliest hominin candidate",
@@ -631,7 +636,7 @@
           ],
           "tag": "DISCOVERY",
           "repl": "mixed",
-          "hint": "Comparing mitochondrial DNA, inherited only through the maternal line, across 147 people from five geographic populations, the study traced all living humans' mitochondrial lineages back to a single common ancestral woman who lived in Africa roughly 200,000 years ago — the first genetic evidence directly supporting a recent, single African origin for modern humans, independent of the fossil record.",
+          "hint": "Comparing mitochondrial DNA, inherited only through the maternal line, across 147 people from five geographic populations, the study traced all living humans' mitochondrial lineages back to their most recent common ancestor: a woman who lived in Africa roughly 200,000 years ago. She was not the only woman alive at the time, nor the first human, nor humanity's only ancestor — thousands of her contemporaries contributed to modern nuclear DNA — she is simply the one woman whose unbroken maternal line happens to survive in every living person today.",
           "note": "Cann, R.L., Stoneking, M. & Wilson, A.C. (1987). 'Mitochondrial DNA and Human Evolution.' Nature, 325, 31–36. The original phylogenetic tree-building method was shown to be statistically flawed (Templeton 1992, Science) and did not uniquely support an African root over thousands of other trees of similar length; the core African-origin conclusion has since been robustly confirmed by much larger, methodologically rigorous nuclear genome studies.",
           "links": [
             "th1",
@@ -659,7 +664,8 @@
           "note": "Goodall, J. (1964). 'Tool-Using and Aimed Throwing in a Community of Free-Living Chimpanzees.' Nature, 201, 1264–1266. Subsequent decades of field research across multiple chimpanzee populations documented dozens of distinct, socially transmitted tool traditions (see ef8), establishing that behavioural, not just genetic, variation is widespread among wild chimpanzees.",
           "links": [
             "fg6",
-            "ef8"
+            "ef8",
+            "co9"
           ],
           "keywords": [
             "chimpanzee tool making",
@@ -740,6 +746,31 @@
             "olduvai gorge chronology",
             "radiometric hominin dating"
           ]
+        },
+        {
+          "id": "st14",
+          "group": "Hominin Fossil Record",
+          "label": "Homo floresiensis (\"The Hobbit\")",
+          "date": "2004",
+          "loc": "Liang Bua Cave, Flores, Indonesia",
+          "coords": [
+            -8.28,
+            120.18
+          ],
+          "tag": "DISCOVERY",
+          "repl": "mixed",
+          "hint": "Excavators at Liang Bua Cave on the Indonesian island of Flores found a roughly one-metre-tall, small-brained adult hominin skeleton that survived until as recently as 50,000 years ago — far too late and far too small-bodied to fit any existing model of human evolution. The find introduced 'island dwarfism,' a well-documented process in other mammals whereby isolated island populations evolve dramatically reduced body size, as a genuine force in hominin evolution, and proved that small-brained, morphologically primitive hominin species survived long after Homo sapiens had already evolved elsewhere.",
+          "note": "Brown, P. et al. (2004). 'A New Small-Bodied Hominin from the Late Pleistocene of Flores, Indonesia.' Nature, 431, 1055–1061. The species' status was immediately and fiercely contested: Henneberg, M. & Thorne, A. (2004) and other critics argued the skeleton (LB1) was simply a modern human with a pathological growth disorder such as microcephaly, not a genuine distinct species. Most researchers now accept Homo floresiensis as a real, dwarfed descendant of an earlier, larger-bodied hominin, though the identity of that ancestor and the exact evolutionary route to its small body and brain size remain unresolved.",
+          "links": [
+            "ef5",
+            "co3",
+            "db2"
+          ],
+          "keywords": [
+            "island dwarfism hominin",
+            "small brained late survivor",
+            "flores skeleton controversy"
+          ]
         }
       ]
     },
@@ -764,7 +795,7 @@
           ],
           "tag": "PHENOMENON",
           "repl": "robust",
-          "hint": "Most mammals lose the ability to digest lactose after weaning, but a genetic mutation allowing continued lactase enzyme production into adulthood swept to high frequency (over 90%) in Northern European and some African and Middle Eastern pastoralist populations within the last 7,000-10,000 years — one of the fastest, strongest cases of natural selection ever measured directly in the human genome.",
+          "hint": "Most mammals lose the ability to digest lactose after weaning, but mutations allowing continued lactase enzyme production into adulthood independently swept to high frequency (over 90% in some populations) among Northern European, East African, and Middle Eastern pastoralist groups within the last 7,000-10,000 years — a textbook case of convergent evolution, since Europeans and East Africans carry entirely different mutations for the same trait, and one of the fastest, strongest cases of natural selection ever measured directly in the human genome.",
           "note": "Enattah, N.S. et al. (2002). 'Identification of a Variant Associated with Adult-Type Hypolactasia.' Nature Genetics, 30, 233–237, pinpointed the European -13910*T allele. Tishkoff, S.A. et al. (2007, Nature Genetics) found independent, different mutations conferring the same trait in East African pastoralist populations — a striking case of convergent evolution to the same cultural practice, dairying, arising from different genetic routes.",
           "links": [
             "th10",
@@ -870,7 +901,8 @@
           "links": [
             "th8",
             "co2",
-            "st5"
+            "st5",
+            "st14"
           ],
           "keywords": [
             "cranial capacity increase",
@@ -967,7 +999,8 @@
           "note": "Calcagno, J.M. & Gibson, K.R. (1988). 'Human Dental Reduction: Natural Selection or the Probable Mutation Effect.' American Journal of Physical Anthropology, 77(4), 505–517. Whether the reduction is primarily adaptive (driven by softer cooked diets reducing the need for large chewing surfaces) or a largely neutral, non-adaptive genetic drift effect remains an open, actively contested question in the dental anthropology literature.",
           "links": [
             "st4",
-            "th8"
+            "th8",
+            "co9"
           ],
           "keywords": [
             "molar size reduction",
@@ -1059,7 +1092,8 @@
             "st1",
             "st5",
             "st6",
-            "me5"
+            "me5",
+            "st14"
           ],
           "keywords": [
             "fossil species classification",
@@ -1131,7 +1165,8 @@
           "links": [
             "th1",
             "th9",
-            "st9"
+            "st9",
+            "me7"
           ],
           "keywords": [
             "serial founder effect",
@@ -1188,6 +1223,30 @@
             "gradual trait variation",
             "race biological validity",
             "within group genetic diversity"
+          ]
+        },
+        {
+          "id": "co9",
+          "group": "Brain, Tools & Cognitive Evolution",
+          "label": "Lithic Industries & Stone Tool Typologies",
+          "date": "1971",
+          "loc": "Olduvai Gorge, Tanzania",
+          "coords": [
+            -2.99,
+            35.35
+          ],
+          "tag": "CONCEPT",
+          "hint": "Stone tools survive far better than bones and are far more numerous in the archaeological record, so their changing forms over time — from simple Oldowan pebble choppers, to symmetrical bifacial Acheulean handaxes associated with Homo erectus, to the more sophisticated flake-based Mousterian tools associated with Neanderthals — provide anthropology's primary direct evidence of hominin cognitive and cultural evolution in places and periods where no fossil bones have been found at all.",
+          "note": "Leakey, M.D. (1971). Olduvai Gorge, Volume 3: Excavations in Beds I and II, 1960–1963. Cambridge University Press, established the rigorous typological framework for classifying Oldowan tools that anchors the whole comparative sequence; the Acheulean and Mousterian industries were named considerably earlier, after the French sites of Saint-Acheul and Le Moustier respectively, in the nineteenth century. The relationship between tool-type boundaries and species boundaries is looser than early researchers assumed — Acheulean-style tools persisted in some regions long after Homo erectus had been replaced by other Homo species, and the same species sometimes produced different tool traditions in different regions.",
+          "links": [
+            "st10",
+            "st4",
+            "ef9"
+          ],
+          "keywords": [
+            "oldowan acheulean mousterian",
+            "stone tool typology sequence",
+            "archaeological cognitive proxy"
           ]
         }
       ]
@@ -1348,6 +1407,29 @@
             "carbon nitrogen isotope",
             "fossil diet reconstruction",
             "tooth enamel signature"
+          ]
+        },
+        {
+          "id": "me7",
+          "group": "Dating & Field Methods",
+          "label": "The Molecular Clock",
+          "date": "1967",
+          "loc": "University of California, Berkeley, California",
+          "coords": [
+            37.87,
+            -122.26
+          ],
+          "tag": "METHOD",
+          "hint": "Assuming that certain proteins accumulate mutations at a roughly constant rate over time, researchers can measure the immunological or genetic distance between two living species' proteins and use it as a 'clock' to estimate how long ago those species shared a common ancestor — a method that let Vincent Sarich and Allan Wilson calibrate the human-chimpanzee split at roughly 5 million years, directly contradicting fossil-based estimates of 15 to 30 million years that had stood for decades.",
+          "note": "Sarich, V.M. & Wilson, A.C. (1967). 'Immunological Time Scale for Hominid Evolution.' Science, 158(3805), 1200–1202, measured immunological cross-reactivity of blood serum albumin between humans and other primates. The result was initially rejected by much of the paleoanthropological establishment, who trusted the fossil record over an unfamiliar biochemical technique, but subsequent DNA-based molecular clocks and the much younger hominin fossils discovered from the 1970s onward (see st2) confirmed the short chronology was correct and the old fossil-based estimates were wrong.",
+          "links": [
+            "st6",
+            "co6"
+          ],
+          "keywords": [
+            "immunological distance clock",
+            "divergence time calibration",
+            "constant mutation rate assumption"
           ]
         }
       ]
@@ -1695,7 +1777,8 @@
             "st1",
             "st5",
             "st6",
-            "me5"
+            "me5",
+            "st14"
           ],
           "keywords": [
             "taxonomic lumping splitting",
@@ -2091,6 +2174,11 @@
           "entryId": "st6"
         },
         {
+          "y": 2004,
+          "l": "Homo floresiensis (\"The Hobbit\")",
+          "entryId": "st14"
+        },
+        {
           "y": 2009,
           "l": "Ardipithecus ramidus (\"Ardi\")",
           "entryId": "st11"
@@ -2238,6 +2326,11 @@
           "y": 1949,
           "l": "Radiocarbon Dating",
           "entryId": "me4"
+        },
+        {
+          "y": 1967,
+          "l": "The Molecular Clock",
+          "entryId": "me7"
         },
         {
           "y": 1979,

@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 1770,
+    "total_entries": 1773,
     "folio_count": 23,
     "xlink_pairs": 109,
-    "keyword_terms": 6480,
+    "keyword_terms": 6489,
     "folios": [
       {
         "id": "anatomy-histology",
@@ -18,7 +18,7 @@
       {
         "id": "biological-anthropology",
         "title": "Biological & Evolutionary Anthropology",
-        "entries": 74
+        "entries": 77
       },
       {
         "id": "cell-molecular-bio",
@@ -295,6 +295,7 @@
     "biological-anthropology::st11": "study · Hominin Fossil Record · Ardipithecus ramidus (\"Ardi\") (2009)",
     "biological-anthropology::st12": "study · Human Variation & Adaptation · EPAS1 Tibetan Altitude Adaptation (2010)",
     "biological-anthropology::st13": "study · Dating & Field Methods · Olduvai Gorge Potassium-Argon Dating (1961)",
+    "biological-anthropology::st14": "study · Hominin Fossil Record · Homo floresiensis (\"The Hobbit\") (2004)",
     "biological-anthropology::ef1": "effect · Human Variation & Adaptation · Lactase Persistence (2002)",
     "biological-anthropology::ef2": "effect · Human Variation & Adaptation · Sickle-Cell Trait & Malaria Resistance (1954)",
     "biological-anthropology::ef3": "effect · Human Variation & Adaptation · Skin Pigmentation Gradient (2000)",
@@ -312,12 +313,14 @@
     "biological-anthropology::co6": "concept · Molecular & Genetic Anthropology · Founder Effect & Genetic Drift (1942)",
     "biological-anthropology::co7": "concept · Dating & Field Methods · Taphonomy (1940)",
     "biological-anthropology::co8": "concept · Human Variation & Adaptation · Clinal Variation (1962)",
+    "biological-anthropology::co9": "concept · Brain, Tools & Cognitive Evolution · Lithic Industries & Stone Tool Typologies (1971)",
     "biological-anthropology::me1": "method · Dating & Field Methods · Potassium-Argon / Argon-Argon Dating (1999)",
     "biological-anthropology::me2": "method · Dating & Field Methods · Stratigraphy & Relative Dating (1979)",
     "biological-anthropology::me3": "method · Dating & Field Methods · Ancient DNA Extraction & Sequencing (1985)",
     "biological-anthropology::me4": "method · Dating & Field Methods · Radiocarbon (¹⁴C) Dating (1949)",
     "biological-anthropology::me5": "method · Dating & Field Methods · Geometric Morphometrics (1991)",
     "biological-anthropology::me6": "method · Dating & Field Methods · Stable Isotope Analysis (1994)",
+    "biological-anthropology::me7": "method · Dating & Field Methods · The Molecular Clock (1967)",
     "biological-anthropology::fg1": "figure · Pioneers & Theorists · Charles Darwin (1871)",
     "biological-anthropology::fg2": "figure · Pioneers & Theorists · Raymond Dart (1925)",
     "biological-anthropology::fg3": "figure · Pioneers & Theorists · Louis Leakey (1959)",
@@ -3443,6 +3446,11 @@
       "olduvai gorge chronology",
       "radiometric hominin dating"
     ],
+    "biological-anthropology::st14": [
+      "island dwarfism hominin",
+      "small brained late survivor",
+      "flores skeleton controversy"
+    ],
     "biological-anthropology::ef1": [
       "lactase persistence allele",
       "dairying gene culture",
@@ -3528,6 +3536,11 @@
       "race biological validity",
       "within group genetic diversity"
     ],
+    "biological-anthropology::co9": [
+      "oldowan acheulean mousterian",
+      "stone tool typology sequence",
+      "archaeological cognitive proxy"
+    ],
     "biological-anthropology::me1": [
       "argon isotope dating",
       "volcanic ash chronology",
@@ -3557,6 +3570,11 @@
       "carbon nitrogen isotope",
       "fossil diet reconstruction",
       "tooth enamel signature"
+    ],
+    "biological-anthropology::me7": [
+      "immunological distance clock",
+      "divergence time calibration",
+      "constant mutation rate assumption"
     ],
     "biological-anthropology::fg1": [
       "descent of man",
@@ -14421,6 +14439,15 @@
     "radiometric hominin dating": [
       "biological-anthropology::st13"
     ],
+    "island dwarfism hominin": [
+      "biological-anthropology::st14"
+    ],
+    "small brained late survivor": [
+      "biological-anthropology::st14"
+    ],
+    "flores skeleton controversy": [
+      "biological-anthropology::st14"
+    ],
     "lactase persistence allele": [
       "biological-anthropology::ef1"
     ],
@@ -14574,6 +14601,15 @@
     "within group genetic diversity": [
       "biological-anthropology::co8"
     ],
+    "oldowan acheulean mousterian": [
+      "biological-anthropology::co9"
+    ],
+    "stone tool typology sequence": [
+      "biological-anthropology::co9"
+    ],
+    "archaeological cognitive proxy": [
+      "biological-anthropology::co9"
+    ],
     "argon isotope dating": [
       "biological-anthropology::me1"
     ],
@@ -14628,6 +14664,15 @@
     ],
     "tooth enamel signature": [
       "biological-anthropology::me6"
+    ],
+    "immunological distance clock": [
+      "biological-anthropology::me7"
+    ],
+    "divergence time calibration": [
+      "biological-anthropology::me7"
+    ],
+    "constant mutation rate assumption": [
+      "biological-anthropology::me7"
     ],
     "descent of man": [
       "biological-anthropology::fg1"
