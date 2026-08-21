@@ -2,7 +2,7 @@
   "_meta": {
     "total_entries": 1769,
     "folio_count": 23,
-    "xlink_pairs": 104,
+    "xlink_pairs": 109,
     "keyword_terms": 6477,
     "folios": [
       {
@@ -1978,6 +1978,36 @@
     "applied-math-statistics::db8": [
       "computer-science::db1"
     ],
+    "biological-anthropology::me3": [
+      "cell-molecular-bio::me2"
+    ],
+    "cell-molecular-bio::me2": [
+      "biological-anthropology::me3"
+    ],
+    "biological-anthropology::me4": [
+      "quantum-nuclear-relativity::me5"
+    ],
+    "quantum-nuclear-relativity::me5": [
+      "biological-anthropology::me4",
+      "oceanography::me6"
+    ],
+    "biological-anthropology::fg1": [
+      "zoology-animal-behavior::th1",
+      "oceanography::th5"
+    ],
+    "zoology-animal-behavior::th1": [
+      "biological-anthropology::fg1",
+      "systems-and-complexity::ap4"
+    ],
+    "oceanography::th5": [
+      "biological-anthropology::fg1"
+    ],
+    "biological-anthropology::db5": [
+      "cultural-anthropology::st12"
+    ],
+    "cultural-anthropology::st12": [
+      "biological-anthropology::db5"
+    ],
     "cell-molecular-bio::st8": [
       "pathology-immunology::me3"
     ],
@@ -2383,9 +2413,6 @@
     "oceanography::me6": [
       "quantum-nuclear-relativity::me5"
     ],
-    "quantum-nuclear-relativity::me5": [
-      "oceanography::me6"
-    ],
     "oceanography::db1": [
       "systems-and-complexity::ap3"
     ],
@@ -2478,9 +2505,6 @@
     ],
     "systems-and-complexity::ap4": [
       "zoology-animal-behavior::th1"
-    ],
-    "zoology-animal-behavior::th1": [
-      "systems-and-complexity::ap4"
     ]
   },
   "entry_keywords": {
