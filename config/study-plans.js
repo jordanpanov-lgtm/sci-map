@@ -4,6 +4,51 @@
 // are available as globals to the renderer.
 
 const STUDY_PLANS = {
+  'biological-anthropology': {
+    meta: "Groups content thematically rather than by category: after the founders, each module works through one branch of the field — living primates as a comparative baseline, the hominin fossil record, the specific evolution of bipedalism, brain and cognitive evolution, the genetic record, human biological variation, and finally the dating and field methods that actually generate the evidence — carrying each branch's theories, landmark discoveries, named phenomena, and live debates together as a single unit.",
+    modules: [
+      {
+        title: '1 — Founders & the Field',
+        rationale: "From Darwin's African-origin prediction to the fossil hunters and geneticists who confirmed and complicated it, a relatively small set of figures repeatedly reshaped what counts as evidence for how humans came to be.",
+        groups: ['Pioneers & Theorists']
+      },
+      {
+        title: '2 — Comparative Primatology',
+        rationale: "Living apes are the closest available model for reconstructing extinct hominin behaviour, so the field starts with what field studies of wild chimpanzees and gorillas actually revealed about tool use, culture, and social structure.",
+        groups: ['Comparative Primatology']
+      },
+      {
+        title: '3 — The Hominin Fossil Record',
+        rationale: "The landmark fossil finds — from the Taung Child to Homo naledi — are the field's primary evidence base, and each one rewrote some part of the family tree, often forcing a fight over how to classify it.",
+        groups: ['Hominin Fossil Record']
+      },
+      {
+        title: '4 — Bipedalism & Skeletal Adaptation',
+        rationale: "Upright walking is the single trait that most cleanly separates hominins from other apes, and the competing theories for why it evolved reveal how much is still inferred rather than directly observed.",
+        groups: ['Bipedalism & Skeletal Adaptation']
+      },
+      {
+        title: '5 — Brain, Tools & Cognitive Evolution',
+        rationale: "Encephalization, tool use, and the social and dietary theories proposed to explain them show how contested the link between brain size and behavioural sophistication actually is.",
+        groups: ['Brain, Tools & Cognitive Evolution']
+      },
+      {
+        title: '6 — Molecular & Genetic Anthropology',
+        rationale: "Ancient DNA overturned or refined nearly every fossil-based model of human origins within a single decade, from Mitochondrial Eve to the discovery of Denisovans from a single finger bone.",
+        groups: ['Molecular & Genetic Anthropology']
+      },
+      {
+        title: '7 — Human Variation & Adaptation',
+        rationale: "How human biology actually varies across geography — pigmentation, altitude tolerance, lactase persistence — and why that variation looks nothing like the discrete categories folk race concepts assume.",
+        groups: ['Human Variation & Adaptation']
+      },
+      {
+        title: '8 — Dating & Field Methods',
+        rationale: "Every claim in every earlier module rests on knowing how old a fossil actually is and how much its taphonomic history has distorted it — the methods, and the legal and ethical questions around who controls the remains, that make the rest of the field possible.",
+        groups: ['Dating & Field Methods']
+      }
+    ]
+  },
   'organic-polymer-chem': {
     meta: "Groups content thematically rather than by category: after the founders and the field's core purification and structure-determination methods, each module works through one branch — carbon bonding, hydrocarbons and aromaticity, stereochemistry, reaction mechanisms, synthesis strategy, polymer chemistry, and spectroscopic structure determination — carrying that branch's theorems, landmark experiments, named phenomena, and live debates together, closing with the spectroscopic tools that let every earlier module's claims actually be verified.",
     modules: [
