@@ -23,7 +23,250 @@
       "accent": "#2471A3",
       "bg": "#F0F7FF",
       "subtitle": "The frameworks that organise how humans evolved, spread, and became who we are",
-      "entries": []
+      "entries": [
+        {
+          "id": "th1",
+          "group": "Molecular & Genetic Anthropology",
+          "label": "Out-of-Africa Replacement Model",
+          "date": "1988",
+          "loc": "Natural History Museum, London, England",
+          "coords": [
+            51.496,
+            -0.176
+          ],
+          "tag": "THEORY",
+          "hint": "Modern humans evolved recently in Africa (roughly 200,000 years ago) and then dispersed worldwide, replacing existing archaic populations like Neanderthals with little or no interbreeding. The model was proposed in direct opposition to the idea that regional populations evolved in parallel from earlier hominins already living across Eurasia.",
+          "note": "Stringer, C.B. & Andrews, P. (1988). 'Genetic and Fossil Evidence for the Origin of Modern Humans.' Science, 239(4845), 1263–1268. The strict 'little or no interbreeding' clause was substantially revised after Neanderthal and Denisovan genome sequencing (2010) confirmed low-level admixture (see ef4); the African-origin timing and dispersal framework itself remains the dominant model.",
+          "links": [
+            "th2",
+            "st9",
+            "st7",
+            "fg12",
+            "co6"
+          ],
+          "keywords": [
+            "recent african origin",
+            "modern human dispersal",
+            "archaic population replacement"
+          ]
+        },
+        {
+          "id": "th2",
+          "group": "Molecular & Genetic Anthropology",
+          "label": "Multiregional Continuity Model",
+          "date": "1984",
+          "loc": "University of Michigan, Ann Arbor, Michigan",
+          "coords": [
+            42.28,
+            -83.74
+          ],
+          "tag": "THEORY",
+          "hint": "Rather than a single recent African replacement, modern humans arose through continuous evolution and gene flow between regional archaic populations across Africa, Europe, and Asia — meaning today's regional populations partly trace their ancestry to hominins that had lived in the same regions for over a million years.",
+          "note": "Wolpoff, M.H., Wu, X. & Thorne, A.G. (1984). 'Modern Homo sapiens Origins: A General Theory of Hominid Evolution Involving the Fossil Evidence.' In F.H. Smith & F. Spencer (eds.), The Origins of Modern Humans, Alan R. Liss. Genomic evidence has decisively favoured the Out-of-Africa model's core African-origin timing (see th1), though the small admixture fraction confirmed by ancient DNA gives the multiregional model's central claim of regional genetic continuity a modest degree of vindication.",
+          "links": [
+            "th1",
+            "fg11"
+          ],
+          "keywords": [
+            "regional continuity model",
+            "parallel human evolution",
+            "archaic gene flow"
+          ]
+        },
+        {
+          "id": "th3",
+          "group": "Bipedalism & Skeletal Adaptation",
+          "label": "Savanna Hypothesis",
+          "date": "1925",
+          "loc": "University of the Witwatersrand, Johannesburg, South Africa",
+          "coords": [
+            -26.19,
+            28.03
+          ],
+          "tag": "THEORY",
+          "hint": "Early hominins evolved upright walking as an adaptation to life on the open savanna after forests receded in East and southern Africa — freeing the hands, improving heat dissipation, and extending sightlines over tall grass. It was the dominant explanation for bipedal origins for most of the twentieth century.",
+          "note": "Dart, R.A. (1925). 'Australopithecus africanus: The Man-Ape of South Africa.' Nature, 115, 195–199, first framed the savanna setting as central to human origins. Palaeoenvironmental reconstruction of early Australopithecus and Ardipithecus sites (WoldeGabriel et al. 1994, Nature; White et al. 2009, Science) later showed several key hominin fossils come from wooded, not open grassland, habitats — badly undermining the hypothesis in its strict form (see st11).",
+          "links": [
+            "st1",
+            "st11",
+            "fg2",
+            "th4",
+            "th5"
+          ],
+          "keywords": [
+            "bipedal origins habitat",
+            "grassland adaptation hypothesis",
+            "hominin thermoregulation"
+          ]
+        },
+        {
+          "id": "th4",
+          "group": "Bipedalism & Skeletal Adaptation",
+          "label": "Endurance Running Hypothesis",
+          "date": "2004",
+          "loc": "Harvard University, Cambridge, Massachusetts",
+          "coords": [
+            42.37,
+            -71.12
+          ],
+          "tag": "THEORY",
+          "hint": "The genus Homo evolved a distinctive suite of anatomical features — long legs, short toes, an enlarged gluteus maximus, an elastic Achilles tendon and nuchal ligament, and an efficient sweating system — specifically to run long distances, most plausibly to persistence-hunt game by chasing it to exhaustion in the midday heat before projectile weapons existed.",
+          "note": "Bramble, D.M. & Lieberman, D.E. (2004). 'Endurance Running and the Evolution of Homo.' Nature, 432, 345–352. Ethnographic persistence-hunting has been directly documented among the San of the Kalahari (Liebenberg 2006, Current Anthropology) as a plausible modern analogue, though it is now rare and its prevalence in deep prehistory cannot be directly tested.",
+          "links": [
+            "th3",
+            "co1",
+            "ef6",
+            "st4"
+          ],
+          "keywords": [
+            "persistence hunting adaptation",
+            "human locomotor endurance",
+            "thermoregulatory running"
+          ]
+        },
+        {
+          "id": "th5",
+          "group": "Bipedalism & Skeletal Adaptation",
+          "label": "Provisioning Model of Bipedal Origins",
+          "date": "1981",
+          "loc": "Kent State University, Kent, Ohio",
+          "coords": [
+            41.15,
+            -81.34
+          ],
+          "tag": "THEORY",
+          "hint": "Bipedalism evolved because it freed males' hands to carry food back to a home base for a monogamous mate and offspring, reducing male-male competition and increasing reproductive success — a social and reproductive explanation for bipedal origins rather than a purely locomotor or thermoregulatory one.",
+          "note": "Lovejoy, C.O. (1981). 'The Origin of Man.' Science, 211(4480), 341–350. Reduced canine size and body-size sexual dimorphism, both predicted by the model, are present in Ardipithecus ramidus (see st11), offering some support, but the monogamy assumption is difficult to test directly from skeletal or fossil evidence alone and remains contested.",
+          "links": [
+            "th3",
+            "co4",
+            "st11"
+          ],
+          "keywords": [
+            "male provisioning hypothesis",
+            "monogamy bipedal origins",
+            "canine reduction hominin"
+          ]
+        },
+        {
+          "id": "th6",
+          "group": "Brain, Tools & Cognitive Evolution",
+          "label": "Social Brain Hypothesis",
+          "date": "1992",
+          "loc": "University of Liverpool, Liverpool, England",
+          "coords": [
+            53.41,
+            -2.97
+          ],
+          "tag": "THEORY",
+          "hint": "Primate brain size, and especially neocortex size relative to the rest of the brain, correlates with the typical size of a species' social group — proposed to reflect the cognitive demands of tracking relationships, alliances, and reputations within a complex social network, rather than the demands of tool use or foraging alone.",
+          "note": "Dunbar, R.I.M. (1992). 'Neocortex Size as a Constraint on Group Size in Primates.' Journal of Human Evolution, 22(6), 469–493. The extrapolated human figure — 'Dunbar's number' of roughly 150 stable social relationships — has drawn substantial criticism (Lindenfors et al. 2021, Biology Letters) for resting on a weak statistical relationship and inconsistent modern social-network data; the general brain-size/sociality correlation across primates is more robust than the specific human number.",
+          "links": [
+            "co2",
+            "co5",
+            "th7",
+            "th8"
+          ],
+          "keywords": [
+            "neocortex group size",
+            "primate social cognition",
+            "dunbar number"
+          ]
+        },
+        {
+          "id": "th7",
+          "group": "Brain, Tools & Cognitive Evolution",
+          "label": "Grandmother Hypothesis",
+          "date": "1998",
+          "loc": "University of Utah, Salt Lake City, Utah",
+          "coords": [
+            40.76,
+            -111.85
+          ],
+          "tag": "THEORY",
+          "hint": "Human females' unusually long post-reproductive lifespan evolved because grandmothers who stopped reproducing themselves and instead helped provision and care for grandchildren increased their own genetic legacy more than continuing to bear children directly would have.",
+          "note": "Hawkes, K., O'Connell, J.F., Blurton Jones, N.G., Alvarez, H. & Charnov, E.L. (1998). 'Grandmothering, Menopause, and the Evolution of Human Life Histories.' Proceedings of the National Academy of Sciences, 95(3), 1336–1339, based on Hadza foraging data from Tanzania. Comparative work on post-reproductive lifespans in orca and pilot whales (Croft et al. 2017, Current Biology) shows the same grandmother effect can evolve independently in non-primate, highly social mammals, strengthening the underlying logic.",
+          "links": [
+            "th6",
+            "co5"
+          ],
+          "keywords": [
+            "post-reproductive lifespan",
+            "menopause evolution",
+            "alloparental care"
+          ]
+        },
+        {
+          "id": "th8",
+          "group": "Brain, Tools & Cognitive Evolution",
+          "label": "Expensive Tissue Hypothesis",
+          "date": "1995",
+          "loc": "University College London, London, England",
+          "coords": [
+            51.52,
+            -0.13
+          ],
+          "tag": "THEORY",
+          "hint": "The human brain is metabolically very costly to run, but humans do not have an unusually high overall metabolic rate for a primate of their body size — the hypothesis proposes that a shrinking, less costly gut, enabled by a higher-quality, more digestible diet, freed the metabolic budget that supported brain expansion.",
+          "note": "Aiello, L.C. & Wheeler, P. (1995). 'The Expensive-Tissue Hypothesis: The Brain and the Digestive System in Human and Primate Evolution.' Current Anthropology, 36(2), 199–221. Subsequent comparative analyses (Navarrete, van Schaik & Isler 2011, Nature) found the predicted gut-brain trade-off does not hold cleanly across all mammals, suggesting increased total energy intake, not gut reduction specifically, may be the more general explanation.",
+          "links": [
+            "th6",
+            "co2",
+            "ef5"
+          ],
+          "keywords": [
+            "gut brain tradeoff",
+            "metabolic cost brain",
+            "dietary quality encephalization"
+          ]
+        },
+        {
+          "id": "th9",
+          "group": "Molecular & Genetic Anthropology",
+          "label": "Toba Catastrophe / Genetic Bottleneck Theory",
+          "date": "1998",
+          "loc": "University of Illinois at Urbana-Champaign, Urbana, Illinois",
+          "coords": [
+            40.11,
+            -88.21
+          ],
+          "tag": "THEORY",
+          "hint": "The eruption of the Toba supervolcano in Sumatra roughly 74,000 years ago is proposed to have triggered a severe, multi-year volcanic winter that crashed the human population to a few thousand breeding individuals, leaving a genetic bottleneck said to be visible in modern human DNA's relatively low diversity compared to other great apes.",
+          "note": "Ambrose, S.H. (1998). 'Late Pleistocene Human Population Bottlenecks, Volcanic Winter, and Differentiation of Modern Humans.' Journal of Human Evolution, 34(6), 623–651. The theory has been substantially undermined: archaeological sites in India (Petraglia et al. 2007, Science) show continuous human occupation across the Toba ash layer with no disruption, and genetic bottleneck estimates timed to 74,000 years ago have not held up under more recent, denser genomic sampling (Yost et al. 2018, Journal of Human Evolution). Widely cited as a cautionary example of an appealing but weakly supported catastrophist narrative.",
+          "links": [
+            "th1",
+            "co6"
+          ],
+          "keywords": [
+            "supervolcano bottleneck",
+            "human population crash",
+            "volcanic winter hypothesis"
+          ]
+        },
+        {
+          "id": "th10",
+          "group": "Brain, Tools & Cognitive Evolution",
+          "label": "Dual Inheritance Theory",
+          "date": "1985",
+          "loc": "University of California, Los Angeles, California",
+          "coords": [
+            34.07,
+            -118.44
+          ],
+          "tag": "THEORY",
+          "hint": "Human evolution has run on two intertwined inheritance systems at once — genes and culturally transmitted information such as skills, norms, and technology — each shaping the selective pressures on the other; culturally acquired traits like dairying or cooking can create genuine genetic selection pressure, and genetic predispositions can bias what cultural traits spread.",
+          "note": "Boyd, R. & Richerson, P.J. (1985). Culture and the Evolutionary Process. University of Chicago Press. The dairying-and-lactase-persistence case (see ef1) is the most frequently cited real-world confirmation of gene-culture coevolution; critics (e.g. Lewens 2015, Cultural Evolution) argue the framework's mathematical models are harder to test rigorously outside such clean, single-gene cases.",
+          "links": [
+            "ef1",
+            "th6"
+          ],
+          "keywords": [
+            "gene culture coevolution",
+            "cultural transmission selection",
+            "niche construction theory"
+          ]
+        }
+      ]
     },
     {
       "id": "study",
@@ -33,7 +276,331 @@
       "accent": "#7D3C98",
       "bg": "#FAF5FF",
       "subtitle": "The defining experiments — and exactly what they found",
-      "entries": []
+      "entries": [
+        {
+          "id": "st1",
+          "group": "Hominin Fossil Record",
+          "label": "The Taung Child",
+          "date": "1924",
+          "loc": "Taung, South Africa",
+          "coords": [
+            -27.55,
+            24.78
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "A fossilised juvenile skull, found by lime-quarry workers and sent to anatomist Raymond Dart, combined an ape-sized brain with a forward-positioned foramen magnum — the hole where the spinal cord exits the skull — indicating the head balanced atop an upright spine rather than in front of it like a quadruped's. It was the first Australopithecus ever identified and the first strong fossil evidence that upright walking preceded large brain size in human evolution.",
+          "note": "Dart, R.A. (1925). 'Australopithecus africanus: The Man-Ape of South Africa.' Nature, 115, 195–199. Dart's claim was widely dismissed for two decades by a scientific establishment still committed to the fraudulent Piltdown Man's brain-first narrative (see db3); Robert Broom's subsequent adult Australopithecus finds at Sterkfontein in the 1930s–40s vindicated Dart's interpretation.",
+          "links": [
+            "fg2",
+            "th3",
+            "co3",
+            "db3"
+          ],
+          "keywords": [
+            "australopithecus africanus type",
+            "foramen magnum position",
+            "brain size sequence"
+          ]
+        },
+        {
+          "id": "st2",
+          "group": "Hominin Fossil Record",
+          "label": "Lucy (Australopithecus afarensis)",
+          "date": "1974",
+          "loc": "Hadar, Ethiopia",
+          "coords": [
+            11.16,
+            40.6
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Donald Johanson and Tom Gray found roughly 40% of a single Australopithecus afarensis skeleton eroding out of a gully — an extraordinary completeness for a 3.2-million-year-old hominin. The pelvis and knee joint showed unambiguous adaptations for habitual bipedal walking, even though the skull retained an ape-sized brain, definitively separating the evolution of upright walking from the evolution of a large brain.",
+          "note": "Johanson, D.C. & Taieb, M. (1976). 'Plio-Pleistocene Hominid Discoveries in Hadar, Ethiopia.' Nature, 260, 293–297. Named 'Lucy' after the Beatles song 'Lucy in the Sky with Diamonds' played at the celebration camp that evening. Later finds of the same species, including the 'First Family' site (AL 333) and the juvenile 'Selam,' confirmed A. afarensis as a well-established, bipedal, small-brained hominin lineage.",
+          "links": [
+            "fg5",
+            "co1",
+            "th5",
+            "ef7"
+          ],
+          "keywords": [
+            "australopithecus afarensis skeleton",
+            "bipedal pelvis anatomy",
+            "hadar hominin find"
+          ]
+        },
+        {
+          "id": "st3",
+          "group": "Hominin Fossil Record",
+          "label": "Laetoli Footprints",
+          "date": "1978",
+          "loc": "Laetoli, Tanzania",
+          "coords": [
+            -3.23,
+            35.35
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "A trail of roughly 70 fossilised hominin footprints, preserved in volcanic ash and dated to 3.66 million years ago, shows a walking gait with a human-like heel-strike-to-toe-off pattern and a big toe aligned with the other toes rather than opposable like an ape's — direct physical evidence of habitual bipedal walking a full 1.5 million years before the genus Homo existed.",
+          "note": "Leakey, M.D. & Hay, R.L. (1979). 'Pliocene Footprints in the Laetolil Beds at Laetoli, Northern Tanzania.' Nature, 278, 317–323. Attributed most plausibly to Australopithecus afarensis, found nearby and dated to the same period (see st2). A long-running debate over whether the gait retained a more bent-hip, bent-knee ape-like component (Raichlen et al. 2010, PLOS ONE) rather than a fully modern one remains only partly resolved.",
+          "links": [
+            "fg4",
+            "co1",
+            "st2"
+          ],
+          "keywords": [
+            "fossilized footprint trail",
+            "volcanic ash preservation",
+            "bipedal gait evidence"
+          ]
+        },
+        {
+          "id": "st4",
+          "group": "Hominin Fossil Record",
+          "label": "Turkana Boy",
+          "date": "1984",
+          "loc": "Nariokotome, West Turkana, Kenya",
+          "coords": [
+            4,
+            35.87
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Kamoya Kimeu, working with Richard Leakey's team, found the most complete early hominin skeleton ever recovered — a roughly 8-to-10-year-old Homo erectus boy who died 1.5 million years ago. His tall, narrow, long-limbed body plan closely resembles modern equatorial human proportions, showing that essentially modern human body proportions had evolved well before modern brain size or modern behaviour.",
+          "note": "Brown, F., Harris, J., Leakey, R. & Walker, A. (1985). 'Early Homo erectus Skeleton from West Lake Turkana, Kenya.' Nature, 316, 788–792. Estimates of his projected adult height (approximately 1.85 m) were later revised slightly downward (Graves et al. 2010, Journal of Human Evolution) once growth-curve assumptions for his age at death were reconsidered, but the core body-proportion finding stands.",
+          "links": [
+            "fg9",
+            "th4",
+            "co1"
+          ],
+          "keywords": [
+            "homo erectus skeleton",
+            "equatorial body proportions",
+            "nariokotome fossil"
+          ]
+        },
+        {
+          "id": "st5",
+          "group": "Hominin Fossil Record",
+          "label": "Homo naledi / Rising Star Cave",
+          "date": "2013",
+          "loc": "Rising Star Cave, Cradle of Humankind, South Africa",
+          "coords": [
+            -25.87,
+            27.71
+          ],
+          "tag": "DISCOVERY",
+          "repl": "mixed",
+          "hint": "Cavers found a chamber accessible only through a near-vertical 12-metre chute containing the disarticulated remains of at least 15 individuals of a previously unknown small-brained hominin, Homo naledi, with a strange mosaic of primitive and modern anatomical traits. The remoteness and difficulty of the chamber's access led the discovery team to controversially propose deliberate body disposal by the naledi themselves.",
+          "note": "Berger, L.R. et al. (2015). 'Homo naledi, a New Species of the Genus Homo from the Dinaledi Chamber, South Africa.' eLife, 4, e09560. Uranium-thorium and other dating (Dirks et al. 2017, eLife) surprisingly placed the fossils at just 236,000–335,000 years old — far more recent than the primitive anatomy would suggest, meaning naledi overlapped in time with early Homo sapiens. The deliberate-disposal interpretation (see db8) remains actively disputed.",
+          "links": [
+            "fg10",
+            "co3",
+            "db8"
+          ],
+          "keywords": [
+            "dinaledi chamber fossils",
+            "small brained hominin",
+            "mosaic anatomy discovery"
+          ]
+        },
+        {
+          "id": "st6",
+          "group": "Hominin Fossil Record",
+          "label": "Sahelanthropus tchadensis",
+          "date": "2001",
+          "loc": "Djurab Desert, Chad",
+          "coords": [
+            16.25,
+            17.5
+          ],
+          "tag": "DISCOVERY",
+          "repl": "mixed",
+          "hint": "A nearly complete cranium nicknamed 'Toumaï,' dated to roughly 7 million years old, is among the very oldest fossils ever proposed as a hominin — right around the molecular-clock estimate for the human-chimpanzee split. Its forward-positioned foramen magnum was cited as evidence of bipedalism, but no complete limb bones have been found, so its locomotion and even its status as a true hominin remain genuinely contested.",
+          "note": "Brunet, M. et al. (2002). 'A New Hominid from the Upper Miocene of Chad, Central Africa.' Nature, 418, 145–151. A subsequently described femur fragment from the same site has been argued by some researchers to show quadrupedal, not bipedal, locomotion, reopening the question of whether Sahelanthropus belongs on the human lineage at all rather than being an early, unrelated ape.",
+          "links": [
+            "th3",
+            "co3"
+          ],
+          "keywords": [
+            "earliest hominin candidate",
+            "human chimpanzee split",
+            "miocene cranium"
+          ]
+        },
+        {
+          "id": "st7",
+          "group": "Molecular & Genetic Anthropology",
+          "label": "Neanderthal Genome Project",
+          "date": "2010",
+          "loc": "Max Planck Institute for Evolutionary Anthropology, Leipzig, Germany",
+          "coords": [
+            51.34,
+            12.37
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "A team led by Svante Pääbo sequenced a first draft of the Neanderthal nuclear genome from fossil bone fragments, overcoming severe DNA degradation and contamination challenges. Comparison with living humans revealed that non-African populations carry roughly 1–2% Neanderthal DNA, providing the first direct genetic proof of interbreeding between Neanderthals and the modern humans who left Africa.",
+          "note": "Green, R.E. et al. (2010). 'A Draft Sequence of the Neanderthal Genome.' Science, 328(5979), 710–722. Pääbo received the 2022 Nobel Prize in Physiology or Medicine for pioneering ancient-genome sequencing methods. The admixture finding (see ef4) has been repeatedly confirmed and refined with higher-coverage genomes and larger modern reference panels.",
+          "links": [
+            "fg8",
+            "th1",
+            "ef4"
+          ],
+          "keywords": [
+            "neanderthal nuclear genome",
+            "ancient dna sequencing",
+            "archaic human interbreeding"
+          ]
+        },
+        {
+          "id": "st8",
+          "group": "Molecular & Genetic Anthropology",
+          "label": "Denisovan Discovery",
+          "date": "2010",
+          "loc": "Denisova Cave, Altai Mountains, Siberia, Russia",
+          "coords": [
+            51.4,
+            84.68
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "DNA extracted from a single small finger bone fragment revealed an entirely new archaic human population, genetically distinct from both Neanderthals and modern humans, that had never been identified from anatomy alone — the first hominin group in history to be discovered purely through its genome rather than through recognisable skeletal remains.",
+          "note": "Reich, D. et al. (2010). 'Genetic History of an Archaic Hominin Group from Denisova Cave in Siberia.' Nature, 468, 1053–1060. Denisovan DNA is found at especially high levels (roughly 4–6%) in modern Melanesian and Aboriginal Australian populations, and a Denisovan-derived EPAS1 gene variant confers high-altitude adaptation in Tibetans (see st12) — a rare, well-documented case of adaptive introgression from an extinct human lineage.",
+          "links": [
+            "fg8",
+            "th1",
+            "st12"
+          ],
+          "keywords": [
+            "denisovan finger bone",
+            "genome only discovery",
+            "archaic hominin population"
+          ]
+        },
+        {
+          "id": "st9",
+          "group": "Molecular & Genetic Anthropology",
+          "label": "Mitochondrial Eve Study",
+          "date": "1987",
+          "loc": "University of California, Berkeley, California",
+          "coords": [
+            37.87,
+            -122.26
+          ],
+          "tag": "DISCOVERY",
+          "repl": "mixed",
+          "hint": "Comparing mitochondrial DNA, inherited only through the maternal line, across 147 people from five geographic populations, the study traced all living humans' mitochondrial lineages back to a single common ancestral woman who lived in Africa roughly 200,000 years ago — the first genetic evidence directly supporting a recent, single African origin for modern humans, independent of the fossil record.",
+          "note": "Cann, R.L., Stoneking, M. & Wilson, A.C. (1987). 'Mitochondrial DNA and Human Evolution.' Nature, 325, 31–36. The original phylogenetic tree-building method was shown to be statistically flawed (Templeton 1992, Science) and did not uniquely support an African root over thousands of other trees of similar length; the core African-origin conclusion has since been robustly confirmed by much larger, methodologically rigorous nuclear genome studies.",
+          "links": [
+            "th1",
+            "co6"
+          ],
+          "keywords": [
+            "maternal lineage tracing",
+            "african origin genetics",
+            "phylogenetic tree dispute"
+          ]
+        },
+        {
+          "id": "st10",
+          "group": "Comparative Primatology",
+          "label": "Gombe Chimpanzee Tool Use",
+          "date": "1960",
+          "loc": "Gombe Stream, Tanzania",
+          "coords": [
+            -4.68,
+            29.63
+          ],
+          "tag": "FIELD STUDY",
+          "repl": "robust",
+          "hint": "Jane Goodall observed a wild chimpanzee, David Greybeard, strip leaves from a twig and insert it into a termite mound to fish out termites to eat — the first documented case of tool making, not just tool use, by a non-human animal. The finding overturned the long-held assumption that toolmaking was a uniquely human behaviour separating people from the rest of the animal kingdom.",
+          "note": "Goodall, J. (1964). 'Tool-Using and Aimed Throwing in a Community of Free-Living Chimpanzees.' Nature, 201, 1264–1266. Subsequent decades of field research across multiple chimpanzee populations documented dozens of distinct, socially transmitted tool traditions (see ef8), establishing that behavioural, not just genetic, variation is widespread among wild chimpanzees.",
+          "links": [
+            "fg6",
+            "ef8"
+          ],
+          "keywords": [
+            "chimpanzee tool making",
+            "termite fishing behavior",
+            "nonhuman toolmaking"
+          ]
+        },
+        {
+          "id": "st11",
+          "group": "Hominin Fossil Record",
+          "label": "Ardipithecus ramidus (\"Ardi\")",
+          "date": "2009",
+          "loc": "Aramis, Middle Awash, Ethiopia",
+          "coords": [
+            10.47,
+            40.5
+          ],
+          "tag": "DISCOVERY",
+          "repl": "mixed",
+          "hint": "First found in 1994 but not fully described until 2009 due to the extreme fragility of the bones, this 4.4-million-year-old skeleton is far older than Lucy and shows a surprising mix: a grasping, opposable big toe suited for tree climbing, alongside pelvic features suggesting some capacity for upright walking on the ground — evidence that the earliest bipedalism may have evolved in a wooded, not savanna, habitat.",
+          "note": "White, T.D. et al. (2009). 'Ardipithecus ramidus and the Paleobiology of Early Hominids.' Science, 326(5949), 64–86. The claimed degree of habitual bipedalism remains disputed (Harcourt-Smith 2010, Nature); the wooded palaeoenvironmental context is well established and was central to challenging the savanna hypothesis (see th3).",
+          "links": [
+            "th3",
+            "th5",
+            "co1"
+          ],
+          "keywords": [
+            "opposable big toe",
+            "wooded habitat hominin",
+            "early bipedal evidence"
+          ]
+        },
+        {
+          "id": "st12",
+          "group": "Human Variation & Adaptation",
+          "label": "EPAS1 Tibetan Altitude Adaptation",
+          "date": "2010",
+          "loc": "University of California, Berkeley, California / BGI, Shenzhen, China",
+          "coords": [
+            37.87,
+            -122.26
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Genomic scans of Tibetan highlanders identified a variant of the EPAS1 gene, which regulates the body's response to low oxygen, at unusually high frequency — allowing Tibetans to avoid the excessive, harmful overproduction of red blood cells that lowlanders experience at high altitude. The adaptive variant was later shown to have entered the Tibetan gene pool through interbreeding with Denisovans.",
+          "note": "Yi, X. et al. (2010). 'Sequencing of 50 Human Exomes Reveals Adaptation to High Altitude.' Science, 329(5987), 75–78. The Denisovan origin of the adaptive EPAS1 variant was demonstrated by Huerta-Sánchez, E. et al. (2014). 'Altitude Adaptation in Tibetans Caused by Introgression of Denisovan-like DNA.' Nature, 512, 194–197 — one of the clearest documented cases of adaptive introgression from an archaic human lineage in the modern genome.",
+          "links": [
+            "st8",
+            "co8"
+          ],
+          "keywords": [
+            "high altitude adaptation",
+            "epas1 gene variant",
+            "adaptive introgression"
+          ]
+        },
+        {
+          "id": "st13",
+          "group": "Dating & Field Methods",
+          "label": "Olduvai Gorge Potassium-Argon Dating",
+          "date": "1961",
+          "loc": "Olduvai Gorge, Tanzania",
+          "coords": [
+            -2.99,
+            35.35
+          ],
+          "tag": "EXPERIMENT",
+          "repl": "robust",
+          "hint": "Applying the newly developed potassium-argon radiometric dating technique to volcanic ash layers at Olduvai Gorge, geochronologists dated the base of Bed I — and the Zinjanthropus (Paranthropus boisei) and early Homo habilis fossils Louis and Mary Leakey had found there — to roughly 1.75 million years old, nearly quadrupling the previously assumed age of the earliest stone-tool-making hominins.",
+          "note": "Leakey, L.S.B., Evernden, J.F. & Curtis, G.H. (1961). 'Age of Bed I, Olduvai Gorge, Tanganyika.' Nature, 191, 478–479. The result was independently cross-checked against fission-track dating of the same ash layers (Fleischer et al. 1965, Science) and confirmed, establishing potassium-argon dating as a reliable method for East African hominin sites and anchoring the whole subsequent chronology of human origins research.",
+          "links": [
+            "fg3",
+            "me1",
+            "co7"
+          ],
+          "keywords": [
+            "potassium argon dating",
+            "olduvai gorge chronology",
+            "radiometric hominin dating"
+          ]
+        }
+      ]
     },
     {
       "id": "effect",
