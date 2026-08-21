@@ -1044,7 +1044,145 @@
       "accent": "#8B5E00",
       "bg": "#FFF8F0",
       "subtitle": "The tools and paradigms that generate the field's evidence",
-      "entries": []
+      "entries": [
+        {
+          "id": "me1",
+          "group": "Dating & Field Methods",
+          "label": "Potassium-Argon / Argon-Argon Dating",
+          "date": "1999",
+          "loc": "Australian National University, Canberra, Australia",
+          "coords": [
+            -35.28,
+            149.13
+          ],
+          "tag": "METHOD",
+          "hint": "Volcanic ash and lava layers that sandwich a fossil-bearing sediment can be dated directly by measuring the ratio of radioactive potassium-40 to its decay product argon-40, which accumulates in volcanic minerals at a known, constant rate from the moment the rock cools — giving paleoanthropology a way to date East African hominin sites, which are rich in volcanic ash layers, to within a few thousand years of accuracy even at ages of millions of years.",
+          "note": "McDougall, I. & Harrison, T.M. (1999). Geochronology and Thermochronology by the 40Ar/39Ar Method (2nd ed.). Oxford University Press, standardised the refined argon-argon variant, which dates a much smaller sample with greater precision than the original bulk potassium-argon method used at Olduvai in 1961 (see st13). The method only works on volcanic minerals, not on bone or sediment directly, so its accuracy depends entirely on a fossil's stratigraphic position between two dateable ash layers.",
+          "links": [
+            "st13",
+            "me2"
+          ],
+          "keywords": [
+            "argon isotope dating",
+            "volcanic ash chronology",
+            "radiometric hominin age"
+          ]
+        },
+        {
+          "id": "me2",
+          "group": "Dating & Field Methods",
+          "label": "Stratigraphy & Relative Dating",
+          "date": "1979",
+          "loc": "Winchester, England",
+          "coords": [
+            51.06,
+            -1.32
+          ],
+          "tag": "METHOD",
+          "hint": "The basic principle that undisturbed sediment layers are deposited in chronological sequence, with older layers at the bottom and younger layers at the top, lets excavators establish which fossils and artefacts are older or younger than others at a single site without needing any absolute date at all — the essential first step of any excavation, on top of which absolute dating methods like potassium-argon or radiocarbon are then applied.",
+          "note": "Formalised as the geological Law of Superposition by Nicolas Steno (1669), and systematised for controlled excavation recording by Harris, E.C. (1979). Principles of Archaeological Stratigraphy. Academic Press, whose 'Harris Matrix' diagramming method became the standard way to record complex, disturbed stratigraphic sequences. Stratigraphy alone gives only relative, not absolute, ages, and can be badly misled by later disturbances like burrowing animals or erosion.",
+          "links": [
+            "me1",
+            "co7"
+          ],
+          "keywords": [
+            "law of superposition",
+            "relative dating sequence",
+            "excavation layer recording"
+          ]
+        },
+        {
+          "id": "me3",
+          "group": "Dating & Field Methods",
+          "label": "Ancient DNA Extraction & Sequencing",
+          "date": "1985",
+          "loc": "Uppsala University, Uppsala, Sweden",
+          "coords": [
+            59.86,
+            17.64
+          ],
+          "tag": "METHOD",
+          "hint": "DNA degrades and fragments into short pieces after death, and ancient samples are typically overwhelmed by contaminating DNA from soil bacteria and modern human handlers — ancient DNA methods use ultra-clean laboratories, targeted enrichment for the tiny fraction of authentic ancient sequences, and statistical damage-pattern checks to distinguish genuine ancient DNA from contamination, making it possible to sequence entire genomes from fossils tens of thousands of years old.",
+          "note": "Pääbo, S. (1985). 'Molecular Cloning of Ancient Egyptian Mummy DNA.' Nature, 314, 644–645, an early proof-of-concept later shown to be substantially contaminated with modern DNA — an object lesson that shaped the rigorous contamination-control protocols the field now requires. Those refined protocols made possible the Neanderthal and Denisovan genome projects (see st7, st8) decades later.",
+          "links": [
+            "st7",
+            "st8",
+            "fg8"
+          ],
+          "keywords": [
+            "ancient dna contamination control",
+            "degraded genome sequencing",
+            "paleogenomics laboratory protocol"
+          ]
+        },
+        {
+          "id": "me4",
+          "group": "Dating & Field Methods",
+          "label": "Radiocarbon (¹⁴C) Dating",
+          "date": "1949",
+          "loc": "University of Chicago, Chicago, Illinois",
+          "coords": [
+            41.79,
+            -87.6
+          ],
+          "tag": "METHOD",
+          "hint": "Living organisms continuously exchange carbon with the atmosphere and so maintain the same ratio of radioactive carbon-14 to stable carbon-12 as the air around them; once an organism dies, that exchange stops and the carbon-14 decays away at a known rate, so measuring how much carbon-14 remains in bone collagen, charcoal, or shell reveals how long ago the organism died — but the method only works reliably back to about 50,000 years, well short of most of the hominin fossil record.",
+          "note": "Libby, W.F., Anderson, E.C. & Arnold, J.R. (1949). 'Age Determination by Radiocarbon Content: World-Wide Assay of Natural Radiocarbon.' Science, 109(2827), 227–228. Libby received the 1960 Nobel Prize in Chemistry for the method. Because radiocarbon decays too quickly to date anything older than roughly 50,000 years, it is essential for dating recent Homo sapiens and Neanderthal sites but useless for most of the earlier hominin fossil record, which instead relies on potassium-argon dating (see me1).",
+          "links": [
+            "me1"
+          ],
+          "keywords": [
+            "carbon-14 decay dating",
+            "bone collagen chronology",
+            "fifty thousand year limit"
+          ]
+        },
+        {
+          "id": "me5",
+          "group": "Dating & Field Methods",
+          "label": "Geometric Morphometrics",
+          "date": "1991",
+          "loc": "University of Michigan, Ann Arbor, Michigan",
+          "coords": [
+            42.28,
+            -83.74
+          ],
+          "tag": "METHOD",
+          "hint": "Rather than describing a fossil's shape with a handful of linear measurements like length and width, geometric morphometrics digitises the precise coordinates of dozens of standardised anatomical landmarks across a bone's surface, then uses statistical shape analysis to quantify and compare subtle differences in overall form between specimens — letting researchers detect shape differences too complex or subtle for traditional callipers to capture.",
+          "note": "Bookstein, F.L. (1991). Morphometric Tools for Landmark Data: Geometry and Biology. Cambridge University Press, established the statistical framework (Procrustes superimposition). The method has become central to resolving disputes over whether particular hominin fossils represent genuinely distinct species or simply normal shape variation within one species (see db2), by putting a quantitative number on how different two skulls actually are.",
+          "links": [
+            "co3",
+            "db2"
+          ],
+          "keywords": [
+            "landmark shape analysis",
+            "procrustes superimposition",
+            "quantitative skull comparison"
+          ]
+        },
+        {
+          "id": "me6",
+          "group": "Dating & Field Methods",
+          "label": "Stable Isotope Analysis",
+          "date": "1994",
+          "loc": "University of Cape Town, Cape Town, South Africa",
+          "coords": [
+            -33.96,
+            18.46
+          ],
+          "tag": "METHOD",
+          "hint": "The ratio of different stable carbon and nitrogen isotopes preserved in fossil tooth enamel and bone collagen directly reflects the isotopic signature of the specific foods an individual ate during life — distinguishing a diet based on grasses and sedges from one based on forest fruits and leaves, or a diet high in meat from one that was largely plant-based — reconstructing an extinct hominin's actual diet without any preserved food remains at all.",
+          "note": "Lee-Thorp, J.A., van der Merwe, N.J. & Brain, C.K. (1994). 'Diet of Australopithecus robustus at Swartkrans from Stable Carbon Isotopic Analysis.' Journal of Human Evolution, 27(4), 361–372, found surprisingly grass-and-sedge-inclusive diets in early hominins previously assumed to be forest specialists. Enamel isotope values reflect a time-averaged diet over the months the tooth was forming, so the method cannot detect single meals or short-term dietary shifts.",
+          "links": [
+            "th8"
+          ],
+          "keywords": [
+            "carbon nitrogen isotope",
+            "fossil diet reconstruction",
+            "tooth enamel signature"
+          ]
+        }
+      ]
     },
     {
       "id": "figure",
@@ -1054,7 +1192,279 @@
       "accent": "#B7770D",
       "bg": "#FEFDE7",
       "subtitle": "The researchers who shaped the discipline",
-      "entries": []
+      "entries": [
+        {
+          "id": "fg1",
+          "group": "Pioneers & Theorists",
+          "label": "Charles Darwin",
+          "date": "1871",
+          "loc": "Down House, Kent, England",
+          "coords": [
+            51.33,
+            0.05
+          ],
+          "tag": "FIGURE",
+          "hint": "Darwin's The Descent of Man extended his theory of evolution by natural selection to humans specifically for the first time, proposing — decades before any relevant fossil evidence existed — that humans evolved in Africa from an ape-like ancestor shared with chimpanzees and gorillas, and that upright walking, tool use, and brain expansion evolved together. The African-origin prediction was strikingly confirmed by fossil discoveries decades after his death.",
+          "note": "Darwin, C. (1871). The Descent of Man, and Selection in Relation to Sex. John Murray. Darwin's specific claim that bipedalism, tool use, and brain growth evolved as a single interconnected package was later overturned by fossil evidence (see st2, co1) showing bipedalism evolved millions of years before large brains or stone tools — his general African-origin and common-ancestor predictions held up far better than the mechanistic details.",
+          "links": [
+            "co1"
+          ],
+          "keywords": [
+            "descent of man",
+            "african origin prediction",
+            "common ancestor theory"
+          ]
+        },
+        {
+          "id": "fg2",
+          "group": "Pioneers & Theorists",
+          "label": "Raymond Dart",
+          "date": "1925",
+          "loc": "University of the Witwatersrand, Johannesburg, South Africa",
+          "coords": [
+            -26.19,
+            28.03
+          ],
+          "tag": "FIGURE",
+          "hint": "Dart identified the Taung Child fossil as a new, distinctly hominin genus, Australopithecus, based on its combination of an ape-sized brain with a forward-positioned foramen magnum indicating upright posture — a discovery the scientific establishment mostly dismissed for two decades because it contradicted the fraudulent Piltdown Man's implication that large brains evolved first.",
+          "note": "Dart, R.A. (1925). 'Australopithecus africanus: The Man-Ape of South Africa.' Nature, 115, 195–199. Dart's interpretation was vindicated by Robert Broom's subsequent adult Australopithecus discoveries at Sterkfontein in the 1930s–40s and by the exposure of Piltdown Man as a fraud in 1953 (see db3).",
+          "links": [
+            "st1",
+            "th3"
+          ],
+          "keywords": [
+            "taung child identification",
+            "australopithecus naming",
+            "south african hominin"
+          ]
+        },
+        {
+          "id": "fg3",
+          "group": "Pioneers & Theorists",
+          "label": "Louis Leakey",
+          "date": "1959",
+          "loc": "Olduvai Gorge, Tanzania",
+          "coords": [
+            -2.99,
+            35.35
+          ],
+          "tag": "FIGURE",
+          "hint": "Leakey, alongside his wife Mary, spent nearly three decades searching East Africa's Rift Valley for early hominin fossils before their 1959 discovery of 'Zinjanthropus' (Paranthropus boisei) at Olduvai Gorge, which, combined with the potassium-argon dating of the same site two years later, helped establish East Africa as the primary cradle of human evolution.",
+          "note": "Leakey, L.S.B. (1959). 'A New Fossil Skull from Olduvai.' Nature, 184, 491–493. Leakey went on to mentor and fund the field's most influential primatologists, sending Jane Goodall to Gombe, Dian Fossey to the Virunga Mountains, and Birutė Galdikas to Borneo to study wild great apes as living models for early hominin behaviour.",
+          "links": [
+            "st13",
+            "fg6"
+          ],
+          "keywords": [
+            "olduvai gorge excavation",
+            "zinjanthropus discovery",
+            "east african rift valley"
+          ]
+        },
+        {
+          "id": "fg4",
+          "group": "Pioneers & Theorists",
+          "label": "Mary Leakey",
+          "date": "1978",
+          "loc": "Laetoli, Tanzania",
+          "coords": [
+            -3.23,
+            35.35
+          ],
+          "tag": "FIGURE",
+          "hint": "An accomplished field archaeologist and illustrator in her own right, Mary Leakey directed the excavation that uncovered the Laetoli footprint trail — a 3.66-million-year-old direct physical record of habitual upright walking predating the genus Homo by over a million years, among the most unambiguous single pieces of evidence for early bipedalism ever found.",
+          "note": "Leakey, M.D. & Hay, R.L. (1979). 'Pliocene Footprints in the Laetolil Beds at Laetoli, Northern Tanzania.' Nature, 278, 317–323. Mary Leakey led or co-led many of the most significant East African hominin fossil finds of the twentieth century, including Zinjanthropus (1959) alongside Louis Leakey, though her meticulous excavation and recording standards are separately credited as foundational to the field's later methodological rigor.",
+          "links": [
+            "st3"
+          ],
+          "keywords": [
+            "laetoli footprint excavation",
+            "field recording standards",
+            "pliocene trackway"
+          ]
+        },
+        {
+          "id": "fg5",
+          "group": "Pioneers & Theorists",
+          "label": "Donald Johanson",
+          "date": "1974",
+          "loc": "Hadar, Ethiopia",
+          "coords": [
+            11.16,
+            40.6
+          ],
+          "tag": "FIGURE",
+          "hint": "Johanson's discovery of the 'Lucy' skeleton — roughly 40% complete and combining a small, ape-like brain with an unambiguously bipedal pelvis and knee — became the most famous single hominin fossil in the world and definitively proved that upright walking evolved long before large brains, resolving a question paleoanthropologists had debated since Darwin.",
+          "note": "Johanson, D.C. & Taieb, M. (1976). 'Plio-Pleistocene Hominid Discoveries in Hadar, Ethiopia.' Nature, 260, 293–297. Johanson and Tim White formally named the species Australopithecus afarensis in 1978, and Johanson's subsequent public advocacy, including the bestselling book Lucy: The Beginnings of Humankind (1981), made the fossil one of the most widely recognised scientific discoveries of the twentieth century.",
+          "links": [
+            "st2"
+          ],
+          "keywords": [
+            "lucy skeleton discovery",
+            "afarensis naming",
+            "hadar excavation"
+          ]
+        },
+        {
+          "id": "fg6",
+          "group": "Pioneers & Theorists",
+          "label": "Jane Goodall",
+          "date": "1960",
+          "loc": "Gombe Stream, Tanzania",
+          "coords": [
+            -4.68,
+            29.63
+          ],
+          "tag": "FIGURE",
+          "hint": "Goodall's decades-long field study of wild chimpanzees at Gombe overturned the assumption that toolmaking, complex social bonds, and even violent intergroup conflict were uniquely human — establishing that our closest living relatives share far more of our behavioural repertoire than science had previously accepted, and founding modern long-term primate field research as a discipline.",
+          "note": "Goodall, J. (1964). 'Tool-Using and Aimed Throwing in a Community of Free-Living Chimpanzees.' Nature, 201, 1264–1266. Goodall's early practice of naming rather than numbering her study subjects, and describing individual chimpanzee personalities, was initially criticised by the scientific establishment as unscientific anthropomorphism but is now standard practice in primatology.",
+          "links": [
+            "st10",
+            "ef8"
+          ],
+          "keywords": [
+            "gombe field study",
+            "long term primate research",
+            "chimpanzee individual personality"
+          ]
+        },
+        {
+          "id": "fg7",
+          "group": "Pioneers & Theorists",
+          "label": "Dian Fossey",
+          "date": "1967",
+          "loc": "Karisoke Research Center, Rwanda",
+          "coords": [
+            -1.47,
+            29.5
+          ],
+          "tag": "FIGURE",
+          "hint": "Fossey established the first long-term field study of wild mountain gorillas, documenting complex social structures, individual relationships, and gentle temperaments that directly contradicted the aggressive stereotype dominating public perception, while her anti-poaching activism made her a controversial and ultimately fatal figure in Rwandan gorilla conservation.",
+          "note": "Fossey, D. (1983). Gorillas in the Mist. Houghton Mifflin. Fossey was murdered at her research camp in 1985, a killing still officially unsolved and variously attributed to poachers she had confronted or to local political conflict; her research nonetheless established mountain gorilla behavioural data that remains foundational to modern conservation efforts for the species.",
+          "links": [
+            "co4"
+          ],
+          "keywords": [
+            "mountain gorilla field study",
+            "karisoke research center",
+            "primate conservation activism"
+          ]
+        },
+        {
+          "id": "fg8",
+          "group": "Pioneers & Theorists",
+          "label": "Svante Pääbo",
+          "date": "2010",
+          "loc": "Max Planck Institute for Evolutionary Anthropology, Leipzig, Germany",
+          "coords": [
+            51.34,
+            12.37
+          ],
+          "tag": "FIGURE",
+          "hint": "Pääbo pioneered the technical methods needed to extract and sequence usable genetic material from degraded, contaminated ancient bone, first from Egyptian mummies and eventually leading the team that sequenced the first Neanderthal and Denisovan genomes — founding the field of paleogenomics and providing the first direct genetic proof of interbreeding between modern humans and extinct archaic hominins.",
+          "note": "Green, R.E. et al. (2010). 'A Draft Sequence of the Neanderthal Genome.' Science, 328(5979), 710–722. Pääbo was awarded the 2022 Nobel Prize in Physiology or Medicine 'for his discoveries concerning the genomes of extinct hominins and human evolution' — the first Nobel Prize awarded specifically for paleoanthropological genetic work.",
+          "links": [
+            "st7",
+            "st8",
+            "me3"
+          ],
+          "keywords": [
+            "paleogenomics founding",
+            "neanderthal genome leader",
+            "nobel prize genetics"
+          ]
+        },
+        {
+          "id": "fg9",
+          "group": "Pioneers & Theorists",
+          "label": "Richard Leakey",
+          "date": "1984",
+          "loc": "Koobi Fora, Kenya",
+          "coords": [
+            3.95,
+            36.25
+          ],
+          "tag": "FIGURE",
+          "hint": "Son of Louis and Mary Leakey, Richard Leakey led the Kenya-based expeditions that recovered the Turkana Boy skeleton — the most complete early hominin skeleton ever found — while also becoming an influential public figure in Kenyan wildlife conservation and anti-poaching policy, extending the family's legacy from fossil hunting into national conservation politics.",
+          "note": "Brown, F., Harris, J., Leakey, R. & Walker, A. (1985). 'Early Homo erectus Skeleton from West Lake Turkana, Kenya.' Nature, 316, 788–792. Leakey later served as director of the Kenya Wildlife Service and briefly in the Kenyan government, using his scientific credibility to campaign against elephant poaching and for stronger East African conservation policy.",
+          "links": [
+            "st4"
+          ],
+          "keywords": [
+            "turkana boy discovery",
+            "kenya wildlife conservation",
+            "koobi fora expedition"
+          ]
+        },
+        {
+          "id": "fg10",
+          "group": "Pioneers & Theorists",
+          "label": "Lee Berger",
+          "date": "2015",
+          "loc": "University of the Witwatersrand, Johannesburg, South Africa",
+          "coords": [
+            -26.19,
+            28.03
+          ],
+          "tag": "FIGURE",
+          "hint": "Berger recruited a team of exceptionally small-bodied cavers through a public call on social media to access the nearly inaccessible Dinaledi Chamber, recovering the remains of at least 15 individuals of a new hominin species, Homo naledi — and controversially proposed, based on the chamber's remote and difficult access, that the bodies had been deliberately placed there by other naledi.",
+          "note": "Berger, L.R. et al. (2015). 'Homo naledi, a New Species of the Genus Homo from the Dinaledi Chamber, South Africa.' eLife, 4, e09560. Berger's use of open-access publishing, real-time social media recruitment, and rapid public data release broke sharply with paleoanthropology's traditionally slow, closed publication norms, drawing both praise for openness and criticism for moving faster than peer consensus could keep pace with (see db8).",
+          "links": [
+            "st5",
+            "db8"
+          ],
+          "keywords": [
+            "dinaledi chamber excavation",
+            "homo naledi naming",
+            "open access paleoanthropology"
+          ]
+        },
+        {
+          "id": "fg11",
+          "group": "Pioneers & Theorists",
+          "label": "Milford Wolpoff",
+          "date": "1984",
+          "loc": "University of Michigan, Ann Arbor, Michigan",
+          "coords": [
+            42.28,
+            -83.74
+          ],
+          "tag": "FIGURE",
+          "hint": "Wolpoff has been the leading and most persistent scientific advocate for the multiregional continuity model of human origins, arguing across four decades that regional fossil and skeletal continuity in Asia and Australia is best explained by parallel evolution linked by gene flow, rather than a single recent African replacement of all other populations.",
+          "note": "Wolpoff, M.H., Wu, X. & Thorne, A.G. (1984). 'Modern Homo sapiens Origins: A General Theory of Hominid Evolution Involving the Fossil Evidence.' In F.H. Smith & F. Spencer (eds.), The Origins of Modern Humans, Alan R. Liss. Wolpoff has since accepted that genomic evidence establishes Africa as the primary source of modern human ancestry, while maintaining that confirmed archaic admixture (see ef4) partially vindicates the regional-continuity element of his original model.",
+          "links": [
+            "th2",
+            "th1"
+          ],
+          "keywords": [
+            "multiregional model advocate",
+            "regional continuity argument",
+            "gene flow hypothesis"
+          ]
+        },
+        {
+          "id": "fg12",
+          "group": "Pioneers & Theorists",
+          "label": "Chris Stringer",
+          "date": "1988",
+          "loc": "Natural History Museum, London, England",
+          "coords": [
+            51.496,
+            -0.176
+          ],
+          "tag": "FIGURE",
+          "hint": "Stringer became the leading scientific advocate for the recent African origin (Out-of-Africa) model of human evolution, synthesising fossil and early genetic evidence in the late 1980s to argue for a single recent African source population for all modern humans — a position substantially, though not completely, confirmed by subsequent whole-genome sequencing.",
+          "note": "Stringer, C.B. & Andrews, P. (1988). 'Genetic and Fossil Evidence for the Origin of Modern Humans.' Science, 239(4845), 1263–1268. Stringer has since revised his own model's strictest 'no interbreeding' claim in light of confirmed Neanderthal and Denisovan admixture (see ef4, st7, st8), publicly describing the current picture as 'leaky replacement' rather than the original pure-replacement version.",
+          "links": [
+            "th1"
+          ],
+          "keywords": [
+            "out of africa advocate",
+            "leaky replacement model",
+            "recent african origin synthesis"
+          ]
+        }
+      ]
     },
     {
       "id": "debate",
