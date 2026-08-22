@@ -2,7 +2,7 @@
   "_meta": {
     "total_entries": 1927,
     "folio_count": 25,
-    "xlink_pairs": 116,
+    "xlink_pairs": 123,
     "keyword_terms": 6950,
     "folios": [
       {
@@ -2146,6 +2146,44 @@
     "applied-math-statistics::db8": [
       "computer-science::db1"
     ],
+    "astronomy-cosmology::th7": [
+      "quantum-nuclear-relativity::db6"
+    ],
+    "quantum-nuclear-relativity::db6": [
+      "astronomy-cosmology::th7",
+      "astronomy-cosmology::st13",
+      "astronomy-cosmology::db4",
+      "classical-physics::db6"
+    ],
+    "astronomy-cosmology::st8": [
+      "quantum-nuclear-relativity::th2"
+    ],
+    "quantum-nuclear-relativity::th2": [
+      "astronomy-cosmology::st8",
+      "pure-mathematics::ap2"
+    ],
+    "astronomy-cosmology::st13": [
+      "quantum-nuclear-relativity::fg13",
+      "quantum-nuclear-relativity::db6"
+    ],
+    "quantum-nuclear-relativity::fg13": [
+      "astronomy-cosmology::st13"
+    ],
+    "astronomy-cosmology::co3": [
+      "environmental-science::fg6"
+    ],
+    "environmental-science::fg6": [
+      "astronomy-cosmology::co3"
+    ],
+    "astronomy-cosmology::db4": [
+      "quantum-nuclear-relativity::db6"
+    ],
+    "astronomy-cosmology::db5": [
+      "environmental-science::fg2"
+    ],
+    "environmental-science::fg2": [
+      "astronomy-cosmology::db5"
+    ],
     "biological-anthropology::me3": [
       "cell-molecular-bio::me2"
     ],
@@ -2266,9 +2304,6 @@
     ],
     "classical-physics::db6": [
       "quantum-nuclear-relativity::db6"
-    ],
-    "quantum-nuclear-relativity::db6": [
-      "classical-physics::db6"
     ],
     "classical-physics::db8": [
       "pure-mathematics::db8"
@@ -2685,9 +2720,6 @@
     ],
     "pure-mathematics::ap2": [
       "quantum-nuclear-relativity::th2"
-    ],
-    "quantum-nuclear-relativity::th2": [
-      "pure-mathematics::ap2"
     ],
     "pure-mathematics::ap6": [
       "computer-science::st6"
