@@ -39,7 +39,9 @@
           "note": "Kepler, J. (1609). Astronomia Nova. Heidelberg (first two laws); the third law followed in Harmonices Mundi (1619). Kepler's laws were purely empirical, derived from fitting Brahe's observations rather than from any underlying physical theory; Newton later showed seven decades on that all three laws follow mathematically from his law of universal gravitation, retroactively explaining why Kepler's empirical fit worked.",
           "links": [
             "fg2",
-            "th4"
+            "th4",
+            "st1",
+            "ap1"
           ],
           "keywords": [
             "elliptical planetary orbit",
@@ -108,7 +110,9 @@
           "note": "Laplace, P.S. (1796). Exposition du système du monde. Paris, building on an earlier, less mathematically developed version proposed by Immanuel Kant (1755). The core idea has been substantially confirmed by direct telescopic observation of protoplanetary disks around young stars (see co8) and matches the near-coplanar, same-direction orbits of the Solar System's planets, though the detailed process of how dust grains within the disk actually clump into full planets remains an active area of research.",
           "links": [
             "th1",
-            "co8"
+            "co8",
+            "th9",
+            "co5"
           ],
           "keywords": [
             "protoplanetary disk formation",
@@ -178,7 +182,8 @@
           "note": "White, S.D.M. & Rees, M.J. (1978). 'Core Condensation in Heavy Halos: A Two-Stage Theory for Galaxy Formation and Clustering.' Monthly Notices of the Royal Astronomical Society, 183(3), 341–358, proposed dark matter halos as the gravitational scaffolding within which visible galaxies condense. The framework is now supported by direct observational evidence of galaxy mergers in progress and by cosmological simulations that reproduce the observed large-scale structure of the universe when dark matter is included (see st13).",
           "links": [
             "st13",
-            "co6"
+            "co6",
+            "db4"
           ],
           "keywords": [
             "hierarchical galaxy assembly",
@@ -224,7 +229,9 @@
           "note": "Pollack, J.B. et al. (1996). 'Formation of the Giant Planets by Concurrent Accretion of Solids and Gas.' Icarus, 124(1), 62–85. The core accretion model competes with a rival 'disk instability' model, in which gas giants form rapidly and directly from gravitational instabilities in the disk without needing a solid core first; observational evidence, including the compositions of giant exoplanets found by transit and radial-velocity surveys (see me1, me2), has favoured core accretion for most giant planets, though disk instability may explain some very massive planets found at large orbital distances.",
           "links": [
             "th4",
-            "co8"
+            "co8",
+            "st7",
+            "st9"
           ],
           "keywords": [
             "giant planet core accretion",
@@ -247,7 +254,8 @@
           "note": "Drake, F. (1961), presented at a National Radio Astronomy Observatory meeting organising the first SETI (Search for Extraterrestrial Intelligence) conference. Nearly every term in the equation remains essentially unconstrained by direct evidence beyond the first two, which modern exoplanet surveys have substantially pinned down; the equation's real, enduring value is less as a predictive calculation and more as an organising framework that identifies exactly which unknowns must be resolved to answer the underlying question (see db2).",
           "links": [
             "fg11",
-            "db2"
+            "db2",
+            "db7"
           ],
           "keywords": [
             "extraterrestrial civilization estimate",
@@ -282,7 +290,8 @@
           "note": "Galilei, G. (1610). Sidereus Nuncius (The Starry Messenger). Venice. Venus's full cycle of phases, observed the following year, provided especially strong evidence for a Sun-centred solar system, since the geocentric Ptolemaic model could not produce a full phase cycle. Galileo's 1633 trial and forced recantation by the Roman Inquisition, for advocating heliocentrism as physically true rather than a convenient mathematical fiction, remains one of the most famous episodes in the history of science's conflict with institutional authority.",
           "links": [
             "fg1",
-            "th1"
+            "th1",
+            "ef7"
           ],
           "keywords": [
             "telescopic lunar observation",
@@ -354,7 +363,8 @@
           "links": [
             "st3",
             "fg5",
-            "ef2"
+            "ef2",
+            "db6"
           ],
           "keywords": [
             "galaxy redshift velocity relation",
@@ -448,7 +458,9 @@
           "repl": "robust",
           "hint": "By linking radio telescopes across multiple continents into a single Earth-sized virtual instrument and combining years of collected data, an international collaboration produced the first direct image of a black hole's shadow — the dark silhouette cast against glowing surrounding gas by the supermassive black hole at the centre of the galaxy Messier 87 — turning an object long considered fundamentally unphotographable into an actual picture.",
           "note": "Event Horizon Telescope Collaboration (2019). 'First M87 Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole.' The Astrophysical Journal Letters, 875(1), L1. The image's ring size and shape matched general relativity's predictions for a black hole of the mass independently estimated from the motion of stars and gas near the galaxy's centre. A second image, of the supermassive black hole at the centre of the Milky Way itself (Sagittarius A*), followed in 2022.",
-          "links": [],
+          "links": [
+            "me4"
+          ],
           "keywords": [
             "black hole shadow image",
             "very long baseline interferometry",
@@ -541,7 +553,8 @@
           "note": "The European Space Agency's Gaia mission launched in 2013; its data releases have each substantially superseded the precision of the earlier Hipparcos mission (1989–1993), which itself had improved stellar distance measurements roughly tenfold over ground-based parallax. Gaia's astrometric precision (see me6) has been sufficient to detect the gravitational wobble of stars caused by orbiting exoplanets and to reconstruct the debris trails of smaller galaxies the Milky Way has absorbed over billions of years.",
           "links": [
             "me6",
-            "ef1"
+            "ef1",
+            "db6"
           ],
           "keywords": [
             "stellar position survey",
@@ -564,7 +577,8 @@
           "hint": "Measuring how fast stars orbit at different distances from the centre of spiral galaxies, Rubin found that stars far out at the galaxy's edge were moving just as fast as stars near the centre — flatly contradicting the expectation, based on the visible matter alone, that outer stars should orbit noticeably slower, and providing the most compelling observational evidence to date that galaxies are embedded in vast, invisible halos of unseen matter.",
           "note": "Rubin, V.C. & Ford, W.K. (1970). 'Rotation of the Andromeda Nebula from a Spectroscopic Survey of Emission Regions.' The Astrophysical Journal, 159, 379–403, with the pattern subsequently confirmed across dozens of other spiral galaxies through the 1970s and 1980s. The 'missing mass' Rubin's flat rotation curves revealed is now generally interpreted as evidence for dark matter (see th7), the same phenomenon debated in depth in the quantum-nuclear-relativity folio's Cosmological Frontiers group; Rubin was never awarded a Nobel Prize, an omission many astronomers consider a significant historical injustice.",
           "links": [
-            "th7"
+            "th7",
+            "db4"
           ],
           "keywords": [
             "flat galaxy rotation curve",
@@ -598,7 +612,9 @@
           "hint": "As Earth orbits the Sun, a nearby star appears to shift very slightly against the background of much more distant stars when viewed from opposite sides of Earth's orbit six months apart — the same apparent shift you see holding a finger at arm's length and closing one eye then the other — and measuring the size of that tiny angular shift gives a direct, purely geometric distance to the star, the most fundamental rung of the cosmic distance ladder.",
           "note": "Bessel, F.W. (1838) measured the first successful stellar parallax, for the star 61 Cygni, finding a distance of roughly 10.4 light-years — remarkably close to the modern value. Ground-based parallax measurements are limited to relatively nearby stars because the angular shift becomes too small to measure precisely at greater distances; space telescopes free from atmospheric blurring (see st12) have extended reliable parallax measurement out to tens of thousands of light-years.",
           "links": [
-            "st12"
+            "st12",
+            "co4",
+            "me6"
           ],
           "keywords": [
             "geometric distance measurement",
@@ -622,7 +638,8 @@
           "note": "Huggins, W. (1868). 'Further Observations on the Spectra of Some of the Stars and Nebulae.' Philosophical Transactions of the Royal Society, 158, 529–564, first measured a star's radial velocity (Sirius) via spectral Doppler shift. The technique became the essential tool behind Hubble's redshift-distance discovery (see st4) and, applied to individual stars rather than whole galaxies, behind the radial velocity method for exoplanet detection (see me1).",
           "links": [
             "st4",
-            "me1"
+            "me1",
+            "me5"
           ],
           "keywords": [
             "doppler wavelength shift",
@@ -666,7 +683,8 @@
           "hint": "A planet's gravity raises a slight tidal bulge on an orbiting moon, and friction between that flexing bulge and the moon's interior gradually drains the moon's rotational energy until its rotation period exactly matches its orbital period — locking one hemisphere to permanently face the planet, exactly as Earth's Moon shows only one face to Earth, a fate radial velocity and transit surveys show also awaits any exoplanet orbiting extremely close to its host star.",
           "note": "Darwin, G.H. (1880). 'On the Secular Changes in the Elements of the Orbit of a Satellite Revolving about a Tidally Distorted Planet.' Philosophical Transactions of the Royal Society, 171, 713–891, formalised the tidal-friction mechanism. Most large moons in the Solar System, including Earth's Moon, are tidally locked to their parent planet; many close-orbiting 'hot Jupiter' and habitable-zone exoplanets around small, dim red dwarf stars (see db3) are expected to be tidally locked as well, with major implications for their climate and habitability.",
           "links": [
-            "db3"
+            "db3",
+            "db9"
           ],
           "keywords": [
             "synchronous rotation lock",
@@ -759,7 +777,9 @@
           "hint": "Starlight travels in a straight line through the vacuum of space for thousands of years, then in its last fraction of a second passes through Earth's turbulent, constantly shifting atmosphere, where pockets of air at different temperatures and densities bend the light unpredictably — causing a star's apparent position and brightness to flicker rapidly, the everyday 'twinkling' visible to the naked eye and a major obstacle for ground-based telescopes trying to resolve fine detail.",
           "note": "Babcock, H.W. (1953). 'The Possibility of Compensating Astronomical Seeing.' Publications of the Astronomical Society of the Pacific, 65(386), 229–236, first proposed correcting for atmospheric scintillation with real-time optical adjustments — an idea only made technically practical decades later as adaptive optics (see me3). Planets do not visibly twinkle to the naked eye the way stars do, since their disks, though tiny, are wide enough that atmospheric distortion at different points averages out, unlike a true point-source star.",
           "links": [
-            "me3"
+            "me3",
+            "co7",
+            "ap2"
           ],
           "keywords": [
             "atmospheric turbulence distortion",
@@ -816,7 +836,9 @@
           "note": "Cannon, A.J. (1901, and subsequent Henry Draper Catalogue volumes through the 1920s) developed and standardised the OBAFGKM sequence at Harvard College Observatory, personally classifying the spectra of over 350,000 stars by eye over her career. Each spectral class is further subdivided numerically (e.g., G2 for the Sun), and the system remains the standard classification framework in use today, extended at the cool end with additional L, T and Y classes for brown dwarfs discovered since the 1990s.",
           "links": [
             "fg9",
-            "th5"
+            "th5",
+            "co2",
+            "me5"
           ],
           "keywords": [
             "harvard spectral sequence",
@@ -838,7 +860,8 @@
           "hint": "Apparent magnitude measures how bright a star looks from Earth, which depends heavily on distance, while absolute magnitude measures how bright a star would look from a fixed standard distance of exactly 32.6 light-years — a much closer, dimmer-looking star can have a brighter apparent magnitude than a genuinely far more luminous but distant one, so only absolute magnitude allows a fair, distance-independent comparison of stars' true intrinsic brightness.",
           "note": "Pogson, N.R. (1856). 'Magnitudes of Thirty-Six of the Minor Planets.' Monthly Notices of the Royal Astronomical Society, 17, 12–15, formalised the modern logarithmic magnitude scale, in which each step of 5 magnitudes corresponds to exactly a factor of 100 in brightness, and — confusingly for newcomers — lower or negative numbers indicate brighter objects. The scale's zero point and inverted, counterintuitive direction both descend directly from the ancient Greek astronomer Hipparchus's original naked-eye ranking of stars by brightness class.",
           "links": [
-            "co1"
+            "co1",
+            "th5"
           ],
           "keywords": [
             "logarithmic brightness scale",
@@ -860,7 +883,8 @@
           "hint": "A biosignature is any substance, pattern, or feature in a planet's atmosphere or on its surface that provides evidence of present or past life — an atmosphere with abundant oxygen and methane coexisting, for instance, is difficult to sustain by geology alone since the two gases react with each other, so their continued joint presence at high concentration would suggest something is actively replenishing them, a chemical disequilibrium plausibly explained by biological activity.",
           "note": "Lovelock, J.E. (1965). 'A Physical Basis for Life Detection Experiments.' Nature, 207, 568–570, proposed atmospheric chemical disequilibrium as a remotely detectable sign of life while consulting for NASA on Mars life-detection strategy — the same line of thinking that led Lovelock to the Gaia Hypothesis shortly afterward. No single biosignature gas is considered fully unambiguous on its own, since some can plausibly be produced by non-biological geological or photochemical processes, so modern searches look for combinations of multiple biosignatures together to build a stronger case.",
           "links": [
-            "th8"
+            "th8",
+            "db5"
           ],
           "keywords": [
             "atmospheric chemical disequilibrium",
@@ -1052,7 +1076,8 @@
           "note": "Building on Babcock's 1953 proposal (see ef8), the first operational astronomical adaptive optics system, COME-ON, was deployed at the Observatoire de Haute-Provence in 1989. Modern adaptive optics systems use an artificial 'guide star' created by shining a powerful laser into the upper atmosphere to provide a constant reference point for measuring distortion in parts of the sky with no sufficiently bright natural guide star nearby.",
           "links": [
             "ef8",
-            "co7"
+            "co7",
+            "ap6"
           ],
           "keywords": [
             "deformable mirror correction",
@@ -1074,7 +1099,8 @@
           "hint": "Linking two or more separated radio telescopes together and precisely combining their signals lets astronomers synthesise the resolving power of a single telescope as large as the physical distance between the dishes — a technique that, extended across intercontinental and even Earth-sized baselines using atomic clocks to synchronise the recordings, ultimately made it possible to resolve detail fine enough to directly image a black hole's shadow (see st8).",
           "note": "Ryle, M. & Vonberg, D.D. (1946). 'Solar Radiation on 175 Mc./s.' Nature, 158, 339–340, pioneered radio interferometry; Ryle received the 1974 Nobel Prize in Physics, shared with Antony Hewish, for developing the technique further into aperture synthesis. The Event Horizon Telescope (see st8) represents the technique's extreme extension, very-long-baseline interferometry, linking radio dishes on different continents into a single virtual telescope the size of the Earth itself.",
           "links": [
-            "st8"
+            "st8",
+            "co7"
           ],
           "keywords": [
             "synthesized telescope aperture",
@@ -1120,7 +1146,8 @@
           "note": "The European Space Agency's Hipparcos satellite, launched in 1989, was the first mission dedicated to space-based astrometry, measuring positions for over 100,000 stars to unprecedented precision; its successor Gaia (see st12) later improved on that precision by roughly two orders of magnitude for over a billion stars. High-precision astrometry can detect an exoplanet's gravitational influence on its star directly through positional wobble, a complementary technique to the radial-velocity method (see me1) that is sensitive to different orbital orientations.",
           "links": [
             "st12",
-            "ef1"
+            "ef1",
+            "ap5"
           ],
           "keywords": [
             "precise stellar position measurement",
@@ -1175,7 +1202,8 @@
           "hint": "Kepler inherited Tycho Brahe's exceptionally precise but unpublished planetary observations after Brahe's death and spent years painstakingly fitting mathematical curves to the data, eventually abandoning his own initial assumption that orbits must be circular once the numbers stubbornly refused to fit — arriving instead at the three empirical laws of planetary motion (see th1) that would later provide the essential testing ground for Newton's law of gravity.",
           "note": "Kepler, J. (1609). Astronomia Nova. Heidelberg. Kepler also worked as an imperial mathematician and astrologer, defended his own mother in a witchcraft trial, and wrote one of the earliest works of science fiction, Somnium, describing a journey to the Moon, published posthumously in 1634.",
           "links": [
-            "th1"
+            "th1",
+            "ef7"
           ],
           "keywords": [
             "tycho brahe data inheritance",
@@ -1285,7 +1313,8 @@
           "hint": "As a PhD student, Bell Burnell built much of the radio telescope herself and then personally identified the first pulsar (see st6) by carefully noticing an anomalous, extremely regular signal buried within a huge volume of chart-recorder data — a discovery whose 1974 Nobel Prize went solely to her male supervisor, an omission Bell Burnell herself has repeatedly and graciously downplayed, while much of the broader astronomical community considers it one of the field's clearest instances of a woman's foundational contribution going uncredited.",
           "note": "Hewish, A., Bell, S.J., Pilkington, J.D.H., Scott, P.F. & Collins, R.A. (1968). 'Observation of a Rapidly Pulsating Radio Source.' Nature, 217, 709–713. In 2018, Bell Burnell was awarded the $3 million Special Breakthrough Prize in Fundamental Physics for the discovery and donated the entire sum to fund PhD scholarships for students from underrepresented groups in physics.",
           "links": [
-            "st6"
+            "st6",
+            "th6"
           ],
           "keywords": [
             "first pulsar identification",
@@ -1470,7 +1499,8 @@
           "note": "Ward, P.D. & Brownlee, D. (2000). Rare Earth: Why Complex Life Is Uncommon in the Universe. Copernicus Books. Critics argue the hypothesis substantially overstates how many of Earth's specific historical circumstances were genuinely necessary preconditions for complex life rather than simply the particular path life happened to take on this one planet, and that the list of supposedly required factors has grown more speculative, not less, as each has come under closer empirical scrutiny in the exoplanet era (see th8).",
           "links": [
             "th8",
-            "db2"
+            "db2",
+            "ef4"
           ],
           "keywords": [
             "complex life rarity argument",
@@ -1636,7 +1666,8 @@
           "hint": "A GPS receiver calculates its position by precisely timing radio signals from at least four orbiting satellites and solving, in effect, a real-time version of the same orbital geometry problem Kepler first worked out for the planets (see th1) — each satellite's own position is continuously predicted from its known orbital elements, and the whole system depends on Kepler's centuries-old mathematics being applied millions of times per second across a global satellite constellation.",
           "note": "The United States Air Force launched the first GPS satellite in 1978; the full 24-satellite constellation was completed in 1993 and opened to unrestricted civilian use in 2000. Each satellite's clock must also be corrected for relativistic time dilation effects — both from its orbital speed and its distance from Earth's gravity — a separate application of relativity theory covered in the quantum-nuclear-relativity folio; without both the Keplerian orbital calculation and the relativistic clock correction working together, GPS position estimates would drift by kilometres within a single day.",
           "links": [
-            "th1"
+            "th1",
+            "ap5"
           ],
           "keywords": [
             "satellite orbital positioning",
@@ -1760,42 +1791,313 @@
       "icon": "🧪",
       "accent": "#7D3C98",
       "label": "Landmark Studies",
-      "events": []
+      "events": [
+        {
+          "y": 1610,
+          "l": "Galileo's Telescopic Observations",
+          "entryId": "st1"
+        },
+        {
+          "y": 1781,
+          "l": "Herschel's Discovery of Uranus",
+          "entryId": "st2"
+        },
+        {
+          "y": 1912,
+          "l": "Leavitt's Cepheid Period-Luminosity",
+          "entryId": "st3"
+        },
+        {
+          "y": 1929,
+          "l": "Hubble's Redshift-Distance Discovery",
+          "entryId": "st4"
+        },
+        {
+          "y": 1967,
+          "l": "Bell Burnell's Pulsar Discovery",
+          "entryId": "st6"
+        },
+        {
+          "y": 1970,
+          "l": "Vera Rubin's Rotation Curves",
+          "entryId": "st13"
+        },
+        {
+          "y": 1977,
+          "l": "Voyager's Grand Tour",
+          "entryId": "st11"
+        },
+        {
+          "y": 1987,
+          "l": "Supernova 1987A Observations",
+          "entryId": "st5"
+        },
+        {
+          "y": 1995,
+          "l": "First Exoplanet Discovery (51 Peg b)",
+          "entryId": "st7"
+        },
+        {
+          "y": 2004,
+          "l": "Cassini-Huygens Saturn Mission",
+          "entryId": "st10"
+        },
+        {
+          "y": 2009,
+          "l": "Kepler Telescope Exoplanet Census",
+          "entryId": "st9"
+        },
+        {
+          "y": 2013,
+          "l": "Gaia Astrometric Survey",
+          "entryId": "st12"
+        },
+        {
+          "y": 2019,
+          "l": "Event Horizon Telescope Imaging",
+          "entryId": "st8"
+        }
+      ]
     },
     {
       "id": "theory",
       "icon": "📐",
       "accent": "#2471A3",
       "label": "Theories & Models",
-      "events": []
+      "events": [
+        {
+          "y": 1609,
+          "l": "Kepler's Laws of Planetary Motion",
+          "entryId": "th1"
+        },
+        {
+          "y": 1796,
+          "l": "The Nebular Hypothesis",
+          "entryId": "th4"
+        },
+        {
+          "y": 1913,
+          "l": "H-R Diagram / Main Sequence",
+          "entryId": "th5"
+        },
+        {
+          "y": 1931,
+          "l": "Chandrasekhar Limit",
+          "entryId": "th3"
+        },
+        {
+          "y": 1957,
+          "l": "Stellar Nucleosynthesis Theory",
+          "entryId": "th2"
+        },
+        {
+          "y": 1959,
+          "l": "Habitable Zone Theory",
+          "entryId": "th8"
+        },
+        {
+          "y": 1961,
+          "l": "The Drake Equation",
+          "entryId": "th10"
+        },
+        {
+          "y": 1968,
+          "l": "Pulsar Theory (Neutron Star)",
+          "entryId": "th6"
+        },
+        {
+          "y": 1978,
+          "l": "Galaxy Formation Theory",
+          "entryId": "th7"
+        },
+        {
+          "y": 1996,
+          "l": "Exoplanet Formation (Core Accretion)",
+          "entryId": "th9"
+        }
+      ]
     },
     {
       "id": "effect",
       "icon": "📊",
       "accent": "#117A65",
       "label": "Effects & Phenomena",
-      "events": []
+      "events": [
+        {
+          "y": 1543,
+          "l": "Retrograde Motion",
+          "entryId": "ef7"
+        },
+        {
+          "y": 1838,
+          "l": "Stellar Parallax",
+          "entryId": "ef1"
+        },
+        {
+          "y": 1868,
+          "l": "Redshift / Doppler Shift",
+          "entryId": "ef2"
+        },
+        {
+          "y": 1880,
+          "l": "Tidal Locking",
+          "entryId": "ef4"
+        },
+        {
+          "y": 1951,
+          "l": "Comet Tail Orientation",
+          "entryId": "ef9"
+        },
+        {
+          "y": 1953,
+          "l": "Atmospheric Scintillation",
+          "entryId": "ef8"
+        },
+        {
+          "y": 1958,
+          "l": "Stellar Wind & Mass Loss",
+          "entryId": "ef5"
+        },
+        {
+          "y": 1998,
+          "l": "Type Ia Supernova Standard Candle",
+          "entryId": "ef6"
+        },
+        {
+          "y": 2004,
+          "l": "Gravitational Microlensing",
+          "entryId": "ef3"
+        }
+      ]
     },
     {
       "id": "method",
       "icon": "🔬",
       "accent": "#8B5E00",
       "label": "Methods",
-      "events": []
+      "events": [
+        {
+          "y": 1814,
+          "l": "Astronomical Spectroscopy",
+          "entryId": "me5"
+        },
+        {
+          "y": 1946,
+          "l": "Radio Interferometry",
+          "entryId": "me4"
+        },
+        {
+          "y": 1989,
+          "l": "Adaptive Optics",
+          "entryId": "me3"
+        },
+        {
+          "y": 1989,
+          "l": "Astrometry",
+          "entryId": "me6"
+        },
+        {
+          "y": 1995,
+          "l": "Radial Velocity Method",
+          "entryId": "me1"
+        },
+        {
+          "y": 1999,
+          "l": "Transit Photometry",
+          "entryId": "me2"
+        }
+      ]
     },
     {
       "id": "debate",
       "icon": "⚖️",
       "accent": "#B7770D",
       "label": "Debates & Revisions",
-      "events": []
+      "events": [
+        {
+          "y": 1908,
+          "l": "Panspermia",
+          "entryId": "db5"
+        },
+        {
+          "y": 1950,
+          "l": "The Fermi Paradox",
+          "entryId": "db2"
+        },
+        {
+          "y": 1977,
+          "l": "The Wow! Signal",
+          "entryId": "db7"
+        },
+        {
+          "y": 1983,
+          "l": "MOND vs. Particle Dark Matter",
+          "entryId": "db4"
+        },
+        {
+          "y": 2000,
+          "l": "Rare Earth vs. Mediocrity Principle",
+          "entryId": "db3"
+        },
+        {
+          "y": 2006,
+          "l": "Pluto's Planet Status",
+          "entryId": "db1"
+        },
+        {
+          "y": 2006,
+          "l": "Ocean Worlds & Habitability",
+          "entryId": "db9"
+        },
+        {
+          "y": 2016,
+          "l": "Planet Nine Hypothesis",
+          "entryId": "db8"
+        },
+        {
+          "y": 2019,
+          "l": "The Hubble Tension",
+          "entryId": "db6"
+        }
+      ]
     },
     {
       "id": "application",
       "icon": "🔗",
       "accent": "#2E86C1",
       "label": "Applications",
-      "events": []
+      "events": [
+        {
+          "y": 1730,
+          "l": "Celestial Navigation",
+          "entryId": "ap5"
+        },
+        {
+          "y": 1962,
+          "l": "Satellite Communications",
+          "entryId": "ap3"
+        },
+        {
+          "y": 1978,
+          "l": "GPS Satellite Orbital Mechanics",
+          "entryId": "ap1"
+        },
+        {
+          "y": 1990,
+          "l": "Space Telescope Engineering",
+          "entryId": "ap2"
+        },
+        {
+          "y": 1997,
+          "l": "Adaptive Optics Beyond Astronomy",
+          "entryId": "ap6"
+        },
+        {
+          "y": 2022,
+          "l": "Asteroid Deflection (Planetary Defense)",
+          "entryId": "ap4"
+        }
+      ]
     }
   ]
 }
