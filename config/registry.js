@@ -26,7 +26,7 @@ const FIELDS = [
   { id:"geology",                    domain:"earth-space",       label:"Geology & Solid Earth Systems",             sub:"Rocks, tectonics, deep time & Earth's interior",                        status:"planned" },
   { id:"meteorology",                domain:"earth-space",       label:"Meteorology & Atmospheric Sciences",        sub:"Weather, climate & the physics of the atmosphere",                      status:"planned" },
   { id:"oceanography",               domain:"earth-space",       label:"Oceanography & Marine Sciences",            sub:"Ocean circulation, marine ecosystems & the deep sea",                   status:"ready",   file:"modules/oceanography.json" },
-  { id:"environmental-science",      domain:"earth-space",       label:"Environmental Science & Sustainability",    sub:"Earth systems under human pressure — ecology & climate change",          status:"planned" },
+  { id:"environmental-science",      domain:"earth-space",       label:"Environmental Science & Sustainability",    sub:"Earth systems under human pressure — ecology & climate change",          status:"ready", file:"modules/environmental-science.json" },
   // ── FORMAL SCIENCES & COMPUTING ──────────────────────────────────────────────
   { id:"logic-math-foundations",     domain:"formal-computing",  label:"Logic & Foundations of Mathematics",        sub:"Proof, sets, model theory, computability & the philosophical roots of formal reasoning",  status:"ready", file:"modules/logic-math-foundations.json" },
   { id:"pure-mathematics",           domain:"formal-computing",  label:"Pure Math: Algebra, Analysis, Geometry & Topology", sub:"Algebra, number theory, topology, real & complex analysis",          status:"ready", file:"modules/pure-mathematics.json" },
