@@ -582,7 +582,215 @@
       "accent": "#117A65",
       "bg": "#F0FFF6",
       "subtitle": "Named, replicable patterns in stellar, planetary and galactic behaviour",
-      "entries": []
+      "entries": [
+        {
+          "id": "ef1",
+          "group": "The Cosmic Distance Ladder",
+          "label": "Stellar Parallax",
+          "date": "1838",
+          "loc": "Königsberg Observatory, Königsberg, Prussia",
+          "coords": [
+            54.71,
+            20.51
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "As Earth orbits the Sun, a nearby star appears to shift very slightly against the background of much more distant stars when viewed from opposite sides of Earth's orbit six months apart — the same apparent shift you see holding a finger at arm's length and closing one eye then the other — and measuring the size of that tiny angular shift gives a direct, purely geometric distance to the star, the most fundamental rung of the cosmic distance ladder.",
+          "note": "Bessel, F.W. (1838) measured the first successful stellar parallax, for the star 61 Cygni, finding a distance of roughly 10.4 light-years — remarkably close to the modern value. Ground-based parallax measurements are limited to relatively nearby stars because the angular shift becomes too small to measure precisely at greater distances; space telescopes free from atmospheric blurring (see st12) have extended reliable parallax measurement out to tens of thousands of light-years.",
+          "links": [
+            "st12"
+          ],
+          "keywords": [
+            "geometric distance measurement",
+            "annual stellar shift",
+            "nearest star distance"
+          ]
+        },
+        {
+          "id": "ef2",
+          "group": "The Cosmic Distance Ladder",
+          "label": "Redshift / Doppler Shift",
+          "date": "1868",
+          "loc": "Tulse Hill, London, England",
+          "coords": [
+            51.44,
+            -0.1
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Light from an object moving away from an observer is stretched to longer, redder wavelengths, while light from an object moving closer is compressed to shorter, bluer wavelengths — the same Doppler effect that lowers a siren's pitch as an ambulance drives away — and measuring exactly how much a star or galaxy's known spectral lines have shifted reveals its velocity directly along the line of sight, without needing to watch it move over any observable span of time.",
+          "note": "Huggins, W. (1868). 'Further Observations on the Spectra of Some of the Stars and Nebulae.' Philosophical Transactions of the Royal Society, 158, 529–564, first measured a star's radial velocity (Sirius) via spectral Doppler shift. The technique became the essential tool behind Hubble's redshift-distance discovery (see st4) and, applied to individual stars rather than whole galaxies, behind the radial velocity method for exoplanet detection (see me1).",
+          "links": [
+            "st4",
+            "me1"
+          ],
+          "keywords": [
+            "doppler wavelength shift",
+            "spectral line velocity",
+            "radial velocity measurement"
+          ]
+        },
+        {
+          "id": "ef3",
+          "group": "Exoplanets & Astrobiology",
+          "label": "Gravitational Microlensing (Exoplanet Detection)",
+          "date": "2004",
+          "loc": "Auckland, New Zealand",
+          "coords": [
+            -36.85,
+            174.76
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "When a foreground star happens to pass almost exactly in front of a much more distant background star, its gravity briefly acts as a natural lens, magnifying and brightening the background star's light in a smooth, predictable pattern — but if the foreground star has an orbiting planet, that planet adds a small, characteristic extra spike or dip to the brightening curve, revealing planets that would be far too faint to detect by any direct method, including some in orbits much wider than Earth's.",
+          "note": "Bond, I.A. et al. (2004). 'OGLE 2003-BLG-235/MOA 2003-BLG-53: A Planetary Microlensing Event.' The Astrophysical Journal Letters, 606(2), L155–L158, reported the first microlensing exoplanet detection. Because a microlensing event depends on a rare, one-time chance alignment that will never repeat, the method cannot be used to study a specific known star's planets on demand, but it is uniquely sensitive to planets at large orbital distances and around faint, distant stars that other methods struggle to probe.",
+          "links": [],
+          "keywords": [
+            "gravitational lens brightening",
+            "chance stellar alignment",
+            "wide orbit planet detection"
+          ]
+        },
+        {
+          "id": "ef4",
+          "group": "The Solar System",
+          "label": "Tidal Locking",
+          "date": "1880",
+          "loc": "University of Cambridge, Cambridge, England",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "A planet's gravity raises a slight tidal bulge on an orbiting moon, and friction between that flexing bulge and the moon's interior gradually drains the moon's rotational energy until its rotation period exactly matches its orbital period — locking one hemisphere to permanently face the planet, exactly as Earth's Moon shows only one face to Earth, a fate radial velocity and transit surveys show also awaits any exoplanet orbiting extremely close to its host star.",
+          "note": "Darwin, G.H. (1880). 'On the Secular Changes in the Elements of the Orbit of a Satellite Revolving about a Tidally Distorted Planet.' Philosophical Transactions of the Royal Society, 171, 713–891, formalised the tidal-friction mechanism. Most large moons in the Solar System, including Earth's Moon, are tidally locked to their parent planet; many close-orbiting 'hot Jupiter' and habitable-zone exoplanets around small, dim red dwarf stars (see db3) are expected to be tidally locked as well, with major implications for their climate and habitability.",
+          "links": [
+            "db3"
+          ],
+          "keywords": [
+            "synchronous rotation lock",
+            "tidal bulge friction",
+            "one hemisphere facing"
+          ]
+        },
+        {
+          "id": "ef5",
+          "group": "Stellar Physics & Evolution",
+          "label": "Stellar Wind & Mass Loss",
+          "date": "1958",
+          "loc": "University of Chicago, Chicago, Illinois",
+          "coords": [
+            41.79,
+            -87.6
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Stars continuously shed mass into space as a steady outflow of charged particles driven by their own heat and pressure, ranging from the Sun's relatively gentle 'solar wind' to the far more violent winds of massive, short-lived stars that can blow away a substantial fraction of the star's total mass over its lifetime, sculpting the surrounding interstellar gas into visible bubble- and shell-shaped nebulae in the process.",
+          "note": "Parker, E.N. (1958). 'Dynamics of the Interplanetary Gas and Magnetic Fields.' The Astrophysical Journal, 128, 664–676, theoretically predicted the solar wind's existence several years before spacecraft directly detected and confirmed it in 1962. Parker's prediction was initially met with scepticism from established solar physicists; the Parker Solar Probe, launched in 2018 and named in his honour while he was still living, has since flown closer to the Sun than any spacecraft in history to study the wind directly at its source.",
+          "links": [
+            "ef9"
+          ],
+          "keywords": [
+            "solar wind prediction",
+            "stellar mass loss rate",
+            "massive star wind sculpting"
+          ]
+        },
+        {
+          "id": "ef6",
+          "group": "The Cosmic Distance Ladder",
+          "label": "Type Ia Supernova Standard Candle",
+          "date": "1998",
+          "loc": "Baltimore, Maryland",
+          "coords": [
+            39.29,
+            -76.61
+          ],
+          "tag": "EFFECT",
+          "repl": "robust",
+          "hint": "A Type Ia supernova occurs when a white dwarf star is pushed over the Chandrasekhar mass limit (see th3) and detonates completely in a thermonuclear explosion of remarkably consistent peak brightness — because nearly every one reaches almost exactly the same true luminosity, comparing that known brightness to how bright the explosion actually appears gives astronomers a reliable 'standard candle' for measuring distances to galaxies far too remote for Cepheid variables to reach.",
+          "note": "Riess, A.G. et al. (1998). 'Observational Evidence from Supernovae for an Accelerating Universe and a Cosmological Constant.' The Astronomical Journal, 116(3), 1009–1038; Perlmutter, S. et al. (1999) independently reached the same conclusion. Using distant Type Ia supernovae as standard candles, both teams found the universe's expansion is accelerating, not slowing as gravity alone would predict — a discovery that won the 2011 Nobel Prize in Physics and is now attributed to dark energy, the subject of ongoing debate covered in the quantum-nuclear-relativity folio.",
+          "links": [
+            "th3"
+          ],
+          "keywords": [
+            "standard candle supernova",
+            "accelerating universe discovery",
+            "chandrasekhar mass detonation"
+          ]
+        },
+        {
+          "id": "ef7",
+          "group": "The Solar System",
+          "label": "Retrograde Motion",
+          "date": "1543",
+          "loc": "Frombork, Poland",
+          "coords": [
+            54.35,
+            19.67
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Watched over several months against the background stars, an outer planet like Mars occasionally appears to slow down, briefly reverse direction, loop backward, then resume its normal forward motion — a puzzling pattern that geocentric models required elaborate nested circles ('epicycles') to explain, but which falls out naturally and simply once you realise it is merely the visual effect of a faster-orbiting Earth overtaking a slower-orbiting outer planet from the inside track.",
+          "note": "Copernicus, N. (1543). De revolutionibus orbium coelestium. Nuremberg, published the heliocentric explanation, though the ancient geocentric Ptolemaic model, with enough epicycles added, could also reproduce the observed retrograde pattern numerically. The heliocentric explanation's real advantage was mathematical simplicity and elegance rather than superior predictive accuracy at the time, since sufficiently strong telescopic evidence to decisively distinguish the two models (see st1) was still decades away.",
+          "links": [
+            "st1",
+            "fg2"
+          ],
+          "keywords": [
+            "apparent backward planetary motion",
+            "heliocentric explanation",
+            "epicycle geocentric model"
+          ]
+        },
+        {
+          "id": "ef8",
+          "group": "Telescopes & Observational Techniques",
+          "label": "Atmospheric Scintillation (Twinkling)",
+          "date": "1953",
+          "loc": "Mount Wilson Observatory, California",
+          "coords": [
+            34.23,
+            -118.06
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Starlight travels in a straight line through the vacuum of space for thousands of years, then in its last fraction of a second passes through Earth's turbulent, constantly shifting atmosphere, where pockets of air at different temperatures and densities bend the light unpredictably — causing a star's apparent position and brightness to flicker rapidly, the everyday 'twinkling' visible to the naked eye and a major obstacle for ground-based telescopes trying to resolve fine detail.",
+          "note": "Babcock, H.W. (1953). 'The Possibility of Compensating Astronomical Seeing.' Publications of the Astronomical Society of the Pacific, 65(386), 229–236, first proposed correcting for atmospheric scintillation with real-time optical adjustments — an idea only made technically practical decades later as adaptive optics (see me3). Planets do not visibly twinkle to the naked eye the way stars do, since their disks, though tiny, are wide enough that atmospheric distortion at different points averages out, unlike a true point-source star.",
+          "links": [
+            "me3"
+          ],
+          "keywords": [
+            "atmospheric turbulence distortion",
+            "starlight flicker naked eye",
+            "ground telescope resolution obstacle"
+          ]
+        },
+        {
+          "id": "ef9",
+          "group": "The Solar System",
+          "label": "Comet Tail Orientation (Solar Wind Effect)",
+          "date": "1951",
+          "loc": "Max Planck Institute for Physics, Göttingen, Germany",
+          "coords": [
+            51.53,
+            9.93
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "A comet's glowing ion tail always points directly away from the Sun, regardless of which direction the comet itself is travelling — a pattern that cannot be explained by simple orbital motion alone and instead reveals that the Sun continuously blows a stream of charged particles outward through the Solar System, sweeping the comet's ionised gas tail back like a windsock, indirect evidence for the solar wind years before it was directly detected by spacecraft.",
+          "note": "Biermann, L. (1951). 'Kometenschweife und solare Korpuskularstrahlung.' Zeitschrift für Astrophysik, 29, 274–286, used the consistent anti-solar orientation of comet ion tails to argue for a continuous outward solar particle stream, directly motivating Parker's later theoretical solar wind model (see ef5). A comet's second, curved dust tail, distinct from the straight ion tail, is instead shaped by sunlight's gentle radiation pressure combined with the comet's own orbital motion.",
+          "links": [
+            "ef5"
+          ],
+          "keywords": [
+            "comet ion tail direction",
+            "solar particle stream evidence",
+            "pre spacecraft solar wind clue"
+          ]
+        }
+      ]
     },
     {
       "id": "concept",
@@ -592,7 +800,188 @@
       "accent": "#566573",
       "bg": "#F5F6FA",
       "subtitle": "The building blocks and vocabulary every student must command",
-      "entries": []
+      "entries": [
+        {
+          "id": "co1",
+          "group": "Stellar Physics & Evolution",
+          "label": "Spectral Classification (OBAFGKM)",
+          "date": "1901",
+          "loc": "Harvard College Observatory, Cambridge, Massachusetts",
+          "coords": [
+            42.38,
+            -71.13
+          ],
+          "tag": "CONCEPT",
+          "hint": "Stars are sorted into spectral classes — O, B, A, F, G, K, M, from hottest blue-white stars to coolest red ones — based on the specific pattern of absorption lines in their light, which reveals surface temperature and, indirectly, composition and stage of life; the seemingly random letter sequence survives from an earlier, since-abandoned alphabetical scheme, reordered by temperature but never renamed, giving generations of astronomy students the mnemonic 'Oh Be A Fine Girl/Guy, Kiss Me.'",
+          "note": "Cannon, A.J. (1901, and subsequent Henry Draper Catalogue volumes through the 1920s) developed and standardised the OBAFGKM sequence at Harvard College Observatory, personally classifying the spectra of over 350,000 stars by eye over her career. Each spectral class is further subdivided numerically (e.g., G2 for the Sun), and the system remains the standard classification framework in use today, extended at the cool end with additional L, T and Y classes for brown dwarfs discovered since the 1990s.",
+          "links": [
+            "fg9",
+            "th5"
+          ],
+          "keywords": [
+            "harvard spectral sequence",
+            "stellar temperature classification",
+            "absorption line pattern"
+          ]
+        },
+        {
+          "id": "co2",
+          "group": "Stellar Physics & Evolution",
+          "label": "Apparent vs. Absolute Magnitude",
+          "date": "1856",
+          "loc": "Radcliffe Observatory, Oxford, England",
+          "coords": [
+            51.76,
+            -1.26
+          ],
+          "tag": "CONCEPT",
+          "hint": "Apparent magnitude measures how bright a star looks from Earth, which depends heavily on distance, while absolute magnitude measures how bright a star would look from a fixed standard distance of exactly 32.6 light-years — a much closer, dimmer-looking star can have a brighter apparent magnitude than a genuinely far more luminous but distant one, so only absolute magnitude allows a fair, distance-independent comparison of stars' true intrinsic brightness.",
+          "note": "Pogson, N.R. (1856). 'Magnitudes of Thirty-Six of the Minor Planets.' Monthly Notices of the Royal Astronomical Society, 17, 12–15, formalised the modern logarithmic magnitude scale, in which each step of 5 magnitudes corresponds to exactly a factor of 100 in brightness, and — confusingly for newcomers — lower or negative numbers indicate brighter objects. The scale's zero point and inverted, counterintuitive direction both descend directly from the ancient Greek astronomer Hipparchus's original naked-eye ranking of stars by brightness class.",
+          "links": [
+            "co1"
+          ],
+          "keywords": [
+            "logarithmic brightness scale",
+            "distance independent luminosity",
+            "standard distance comparison"
+          ]
+        },
+        {
+          "id": "co3",
+          "group": "Exoplanets & Astrobiology",
+          "label": "Biosignature",
+          "date": "1965",
+          "loc": "Reading, England",
+          "coords": [
+            51.45,
+            -0.97
+          ],
+          "tag": "CONCEPT",
+          "hint": "A biosignature is any substance, pattern, or feature in a planet's atmosphere or on its surface that provides evidence of present or past life — an atmosphere with abundant oxygen and methane coexisting, for instance, is difficult to sustain by geology alone since the two gases react with each other, so their continued joint presence at high concentration would suggest something is actively replenishing them, a chemical disequilibrium plausibly explained by biological activity.",
+          "note": "Lovelock, J.E. (1965). 'A Physical Basis for Life Detection Experiments.' Nature, 207, 568–570, proposed atmospheric chemical disequilibrium as a remotely detectable sign of life while consulting for NASA on Mars life-detection strategy — the same line of thinking that led Lovelock to the Gaia Hypothesis shortly afterward. No single biosignature gas is considered fully unambiguous on its own, since some can plausibly be produced by non-biological geological or photochemical processes, so modern searches look for combinations of multiple biosignatures together to build a stronger case.",
+          "links": [
+            "th8"
+          ],
+          "keywords": [
+            "atmospheric chemical disequilibrium",
+            "remote life detection sign",
+            "oxygen methane coexistence"
+          ]
+        },
+        {
+          "id": "co4",
+          "group": "The Cosmic Distance Ladder",
+          "label": "Light-Year / Parsec",
+          "date": "1913",
+          "loc": "Oxford, England",
+          "coords": [
+            51.75,
+            -1.26
+          ],
+          "tag": "CONCEPT",
+          "hint": "Ordinary units like kilometres become unwieldy at astronomical scales, so astronomers instead use the light-year — the distance light travels in one year, about 9.5 trillion kilometres — for everyday description, and the more technical parsec — the distance at which a star would show exactly one arcsecond of parallax shift (see ef1), about 3.26 light-years — for actual calculation, since it connects directly and simply to the parallax measurement technique that produces it.",
+          "note": "The term 'parsec' (a contraction of 'parallax second') was coined by British astronomer Herbert Hall Turner in 1913 specifically to simplify the arithmetic of converting a measured parallax angle directly into a distance. The nearest star system to the Sun, Alpha Centauri, lies at a distance of about 1.3 parsecs, or roughly 4.24 light-years — illustrating just how vast even the nearest interstellar distances are compared to anything encountered in ordinary experience.",
+          "links": [
+            "ef1"
+          ],
+          "keywords": [
+            "parallax second unit",
+            "astronomical distance unit",
+            "light year definition"
+          ]
+        },
+        {
+          "id": "co5",
+          "group": "The Solar System",
+          "label": "Escape Velocity",
+          "date": "1784",
+          "loc": "Thornhill, England",
+          "coords": [
+            53.57,
+            -1.62
+          ],
+          "tag": "CONCEPT",
+          "hint": "Escape velocity is the minimum speed an object needs to permanently break free of a massive body's gravity without further propulsion — a small, dense enough object's escape velocity can in principle exceed the speed of light itself, meaning not even light could escape its surface, a purely Newtonian thought experiment that anticipated the core idea of a black hole more than a century before general relativity provided the correct physical framework for one.",
+          "note": "Michell, J. (1784). 'On the Means of Discovering the Distance, Magnitude, &c. of the Fixed Stars.' Philosophical Transactions of the Royal Society, 74, 35–57, proposed the concept of a 'dark star' using purely Newtonian escape-velocity reasoning; Laplace independently reached a similar conclusion in 1796 (see th4). The Newtonian 'dark star' concept, while a striking conceptual anticipation, differs importantly from the general-relativistic black hole later derived by Schwarzschild and others, since Newtonian mechanics does not correctly describe light's behaviour near such extreme gravity.",
+          "links": [
+            "th4"
+          ],
+          "keywords": [
+            "newtonian dark star concept",
+            "gravitational escape threshold",
+            "light speed exceeding gravity"
+          ]
+        },
+        {
+          "id": "co6",
+          "group": "Galaxies & Large-Scale Structure",
+          "label": "Galaxy Classification (Hubble Sequence)",
+          "date": "1926",
+          "loc": "Mount Wilson Observatory, California",
+          "coords": [
+            34.23,
+            -118.06
+          ],
+          "tag": "CONCEPT",
+          "hint": "Galaxies fall into a handful of broad visual categories — smooth, featureless elliptical galaxies; flat, rotating spiral galaxies with prominent arms; spirals with a straight bar of stars through the centre; and irregular galaxies with no organised structure at all — arranged by Hubble into a branching 'tuning fork' diagram that, despite superficially resembling an evolutionary sequence, does not actually represent galaxies evolving from one type into another over time.",
+          "note": "Hubble, E. (1926). 'Extragalactic Nebulae.' The Astrophysical Journal, 64, 321–369, introduced the tuning-fork classification scheme. Hubble himself referred to elliptical galaxies as 'early type' and spirals as 'late type,' terminology that misleadingly implies an evolutionary sequence along the diagram that modern astrophysics has not confirmed — galaxy type instead depends primarily on formation history and merger events (see th7), and the early/late labels persist in the literature purely as a historical naming convention.",
+          "links": [
+            "th7"
+          ],
+          "keywords": [
+            "tuning fork diagram",
+            "elliptical spiral classification",
+            "misleading evolutionary terminology"
+          ]
+        },
+        {
+          "id": "co7",
+          "group": "Telescopes & Observational Techniques",
+          "label": "Angular Resolution / Diffraction Limit",
+          "date": "1879",
+          "loc": "Terling Place, England",
+          "coords": [
+            51.79,
+            0.51
+          ],
+          "tag": "CONCEPT",
+          "hint": "No telescope, no matter how well built, can resolve detail finer than a fundamental limit set purely by the wavelength of light being observed and the diameter of the telescope's mirror or lens — because light waves passing through any aperture inevitably spread out and blur slightly through diffraction, meaning the only way to see finer detail is to build a bigger telescope, use shorter-wavelength light, or link multiple telescopes together as an interferometer (see me4) to synthesise a much larger effective aperture.",
+          "note": "Rayleigh, Lord (J.W. Strutt) (1879). 'Investigations in Optics, with Special Reference to the Spectroscope.' Philosophical Magazine, 8(49), 261–274, formalised the diffraction-limited resolving criterion still used today. Ground-based telescopes rarely reach their true diffraction limit in practice because atmospheric scintillation (see ef8) blurs the image well before diffraction becomes the limiting factor, which is precisely the problem adaptive optics (see me3) and space telescopes are built to solve.",
+          "links": [
+            "ef8",
+            "me3",
+            "me4"
+          ],
+          "keywords": [
+            "diffraction limited resolution",
+            "rayleigh criterion",
+            "telescope aperture size"
+          ]
+        },
+        {
+          "id": "co8",
+          "group": "Exoplanets & Astrobiology",
+          "label": "Protoplanetary Disk",
+          "date": "1984",
+          "loc": "Las Campanas Observatory, Chile",
+          "coords": [
+            -29.02,
+            -70.69
+          ],
+          "tag": "CONCEPT",
+          "hint": "A protoplanetary disk is the flattened, rotating disk of leftover gas and dust that surrounds a newly formed young star, out of which planets are believed to condense over a few million years (see th4, th9) — directly observing one gives astronomers a real-time snapshot of planet formation actually happening, rather than having to infer the process purely from theory or from the finished planets it eventually produces.",
+          "note": "Smith, B.A. & Terrile, R.J. (1984). 'A Circumstellar Disk around Beta Pictoris.' Science, 226(4681), 1421–1424, produced the first resolved image of a disk around another star. The Atacama Large Millimeter/submillimeter Array (ALMA) has since imaged protoplanetary disks with enough resolution to directly show gaps and rings within them, widely interpreted as the tracks cleared by newly forming planets still embedded in the disk, offering direct observational support for both the nebular hypothesis (see th4) and core accretion theory (see th9).",
+          "links": [
+            "th4",
+            "th9"
+          ],
+          "keywords": [
+            "circumstellar debris disk",
+            "planet formation snapshot",
+            "disk gap planet clearing"
+          ]
+        }
+      ]
     },
     {
       "id": "method",
