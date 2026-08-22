@@ -15,26 +15,26 @@
   "mapZoom": 2,
   "methodology": "METHODOLOGY · Every entry anchors to a landmark study, paper, dataset, policy milestone or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags replication status, revisions and known controversies. Studies and effects carry a replicability badge — 🟢 confirmed to high confidence · 🟡 nuanced, contested or partially revised · 🔴 failed or severely disputed. Map pins mark the site, field station or institution where the work was carried out.",
   "_meta": {
-    "total_entries": 74,
+    "total_entries": 78,
     "entry_counts": {
-      "theory": 10,
+      "theory": 11,
       "study": 13,
       "effect": 9,
       "concept": 9,
-      "method": 6,
-      "figure": 12,
+      "method": 7,
+      "figure": 13,
       "debate": 9,
-      "application": 6
+      "application": 7
     },
     "max_ids": {
-      "th": 10,
+      "th": 11,
       "st": 13,
       "ef": 9,
       "co": 9,
-      "me": 6,
-      "fg": 12,
+      "me": 7,
+      "fg": 13,
       "db": 9,
-      "ap": 6
+      "ap": 7
     },
     "groups": [
       "Biogeochemical Cycles & Planetary Systems",
@@ -59,6 +59,7 @@
     "th8": "theory · Resource Systems, Agriculture & Sustainability · The IPAT Equation (1971)",
     "th9": "theory · Biogeochemical Cycles & Planetary Systems · Gaia Hypothesis (1972)",
     "th10": "theory · Environmental Policy & Governance · Doughnut Economics (2012)",
+    "th11": "theory · Climate Science & Global Change · Milankovitch Cycles (1920)",
     "st1": "study · Climate Science & Global Change · The Keeling Curve (1958)",
     "st2": "study · Pollution, Toxicology & Environmental Health · Antarctic Ozone Hole Discovery (1985)",
     "st3": "study · Ecosystem Ecology & Biodiversity · Yellowstone Wolf Reintroduction (1995)",
@@ -96,6 +97,7 @@
     "me4": "method · Environmental Policy & Governance · Environmental Impact Assessment (1970)",
     "me5": "method · Pollution, Toxicology & Environmental Health · Biomonitoring / Bioindicator Species (1970)",
     "me6": "method · Ecosystem Ecology & Biodiversity · Mark-Recapture Population Census (1896)",
+    "me7": "method · Climate Science & Global Change · General Circulation Models (1967)",
     "fg1": "figure · Pioneers & Theorists · George Perkins Marsh (1864)",
     "fg2": "figure · Pioneers & Theorists · Svante Arrhenius (1896)",
     "fg3": "figure · Pioneers & Theorists · Aldo Leopold (1949)",
@@ -108,6 +110,7 @@
     "fg10": "figure · Pioneers & Theorists · Paul Ehrlich (1968)",
     "fg11": "figure · Pioneers & Theorists · Gro Harlem Brundtland (1987)",
     "fg12": "figure · Pioneers & Theorists · James Hansen (1988)",
+    "fg13": "figure · Pioneers & Theorists · Eunice Newton Foote (1856)",
     "db1": "debate · Environmental Policy & Governance · Tragedy of the Commons vs. Ostrom's Rebuttal (1990)",
     "db2": "debate · Climate Science & Global Change · Nuclear Power: Climate Solution or Environmental Risk? (2011)",
     "db3": "debate · Resource Systems, Agriculture & Sustainability · GMOs and Agricultural Sustainability (1996)",
@@ -122,7 +125,8 @@
     "ap3": "application · Conservation Biology & Restoration · Protected Area / National Park Networks (1872)",
     "ap4": "application · Resource Systems, Agriculture & Sustainability · Sustainable Agriculture Certification (1972)",
     "ap5": "application · Environmental Policy & Governance · Green Building / LEED Certification (1998)",
-    "ap6": "application · Resource Systems, Agriculture & Sustainability · Circular Economy in Manufacturing (2002)"
+    "ap6": "application · Resource Systems, Agriculture & Sustainability · Circular Economy in Manufacturing (2002)",
+    "ap7": "application · Environmental Policy & Governance · The IPCC (1988)"
   },
   "categories": [
     {
@@ -205,7 +209,11 @@
             "ef3",
             "me1",
             "db2",
-            "ap2"
+            "ap2",
+            "th11",
+            "me7",
+            "fg13",
+            "ap7"
           ],
           "keywords": [
             "carbon dioxide radiative forcing",
@@ -390,6 +398,29 @@
             "post growth economics",
             "safe and just space"
           ]
+        },
+        {
+          "id": "th11",
+          "group": "Climate Science & Global Change",
+          "label": "Milankovitch Cycles",
+          "date": "1920",
+          "loc": "University of Belgrade, Belgrade, Serbia",
+          "coords": [
+            44.79,
+            20.45
+          ],
+          "tag": "THEORY",
+          "hint": "Earth's orbit around the sun isn't perfectly fixed — its eccentricity (shape), axial tilt, and the wobble of its rotational axis (precession) all cycle on predictable timescales of tens of thousands of years, subtly redistributing how much solar radiation different latitudes receive across the seasons — and Milankovitch calculated that the combined pattern of these three cycles closely matches the timing of Earth's ice ages, providing the astronomical pacemaker driving the glacial-interglacial cycle.",
+          "note": "Milanković, M. (1920). Théorie mathématique des phénomènes thermiques produits par la radiation solaire. Gauthier-Villars, later refined through his 1941 Canon of Insolation. Ice core and marine sediment records (see me1) subsequently confirmed the predicted orbital periodicities appear in the actual paleoclimate record. Because Earth's current orbital configuration should be producing a slow, gradual cooling trend, the rapid warming actually observed over the past century is strong independent evidence that current climate change is driven by human activity rather than natural orbital forcing.",
+          "links": [
+            "me1",
+            "th3"
+          ],
+          "keywords": [
+            "orbital forcing glacial cycle",
+            "eccentricity tilt precession",
+            "astronomical pacemaker ice ages"
+          ]
         }
       ]
     },
@@ -464,7 +495,7 @@
           "tag": "FIELD STUDY",
           "repl": "mixed",
           "hint": "Grey wolves, eliminated from Yellowstone by 1926, were reintroduced seven decades later, and researchers documented a cascade of ecological changes that followed: elk herds became more vigilant and mobile, overbrowsed willow and aspen stands began recovering along streams, beaver populations rebounded as tree cover returned, and stream-bank erosion patterns shifted — a real-world test of trophic cascade theory (see th2) at ecosystem scale.",
-          "note": "Ripple, W.J. & Beschta, R.L. (2012). 'Trophic Cascades in Yellowstone: The First 15 Years After Wolf Reintroduction.' Biological Conservation, 145(1), 205–213, documented the cascade. Subsequent research (Kauffman, M.J. et al. 2010, Ecology) found the vegetation recovery was patchier and more strongly driven by changing climate and elk population size than by wolf-induced fear alone, tempering the more dramatic 'landscape of fear' narrative that became popular in science communication.",
+          "note": "Ripple, W.J. & Beschta, R.L. (2012). 'Trophic Cascades in Yellowstone: The First 15 Years After Wolf Reintroduction.' Biological Conservation, 145(1), 205–213, documented the cascade. Subsequent research (Kauffman, M.J. et al. 2010, Ecology) found the vegetation recovery was patchier and more strongly driven by changing climate and elk population size than by wolf-induced fear alone, tempering the more dramatic 'landscape of fear' narrative that became popular in science communication. The recovery also coincided with a multi-year regional drought that independently reduced willow and aspen browsing pressure, and with changes to elk hunting quotas on land bordering the park (Middleton, A.D. et al. 2013, Ecology Letters) that reduced the elk population through a mechanism unrelated to wolf predation inside Yellowstone itself — meaning the beaver recovery often credited to wolves may equally reflect these simultaneous, confounding factors rather than a clean, single-cause cascade.",
           "links": [
             "th2",
             "ef9",
@@ -563,8 +594,8 @@
           ],
           "tag": "FIELD STUDY",
           "repl": "mixed",
-          "hint": "Pollen preserved in ancient lake sediment cores on Rapa Nui (Easter Island) revealed the island had once been covered in dense palm forest that vanished almost entirely within a few centuries of Polynesian settlement, becoming a widely cited cautionary case study for how resource overexploitation and deforestation can precipitate a small, isolated society's ecological and social collapse.",
-          "note": "Flenley, J.R. & King, S.M. (1984). 'Late Quaternary Pollen Records from Easter Island.' Nature, 307, 47–50, established the deforestation timeline. The popular 'ecocide' narrative that Rapa Nui society then collapsed catastrophically has since been substantially revised: archaeological work (Hunt, T.L. & Lipo, C.P. 2011, The Statues That Walked) argues introduced Polynesian rats, not solely human overharvesting, drove much of the deforestation, and that the island's population may have declined gradually rather than catastrophically, mainly after European contact introduced disease.",
+          "hint": "Pollen preserved in ancient lake sediment cores on Rapa Nui (Easter Island) revealed the island had once been covered in dense palm forest that vanished almost entirely within a few centuries of Polynesian settlement — long popularised as a cautionary tale of self-inflicted societal collapse, though the archaeological evidence for that specific collapse narrative has since been substantially revised.",
+          "note": "Flenley, J.R. & King, S.M. (1984). 'Late Quaternary Pollen Records from Easter Island.' Nature, 307, 47–50, established the deforestation timeline. The popular 'ecocide' narrative that Rapa Nui society then collapsed catastrophically has since been substantially revised: archaeological work (Hunt, T.L. & Lipo, C.P. 2011, The Statues That Walked) argues introduced Polynesian rats, not solely human overharvesting, drove much of the deforestation, and that the island's population may have declined gradually rather than catastrophically, mainly after European contact introduced disease. Later archaeology (Ladefoged, T.N. et al. 2005, and others) documented the Rapa Nui adapting to the deforested landscape through extensive rock-mulch gardening, which retained soil moisture and nutrients on an island lacking rivers — evidence the society was adapting successfully, not starving. The population's actual catastrophic collapse came far later and from an entirely different cause: Peruvian slave raids in 1862–63 abducted roughly a third of the remaining population, and the smallpox and other diseases the few survivors brought back on their return devastated those left on the island.",
           "links": [
             "th6",
             "co1"
@@ -692,7 +723,8 @@
           "note": "Santer, B.D. et al. (1996). 'A Search for Human Influences on the Thermal Structure of the Atmosphere.' Nature, 382, 39–46. The detection-and-attribution methodology pioneered here became the standard evidentiary framework used by the Intergovernmental Panel on Climate Change in subsequent assessment reports, and has since been extended to attribute individual extreme weather events, not just long-term trends, to climate change with increasing statistical confidence.",
           "links": [
             "th3",
-            "fg12"
+            "fg12",
+            "ap7"
           ],
           "keywords": [
             "climate fingerprint detection",
@@ -774,7 +806,7 @@
           "tag": "PHENOMENON",
           "repl": "robust",
           "hint": "Certain persistent chemicals, particularly fat-soluble pollutants like DDT and mercury, don't break down or wash out of an organism's body — so each predator in a food chain accumulates the pollutant load of everything it has eaten, meaning concentrations can multiply millions of times over from the water or soil up through plankton, small fish, larger fish, and finally top predators like ospreys, seals, or humans.",
-          "note": "Woodwell, G.M., Wurster, C.F. & Isaacson, P.A. (1967). 'DDT Residues in an East Coast Estuary: A Case of Biological Concentration.' Science, 156(3776), 821–824, documented DDT concentrations rising from parts per trillion in estuary water to several parts per million in fish-eating birds — roughly a ten-million-fold magnification. The phenomenon underlies why apex predators and long-lived species, including humans consuming fish, face disproportionate exposure risk from pollutants present at seemingly trace levels in the wider environment.",
+          "note": "Woodwell, G.M., Wurster, C.F. & Isaacson, P.A. (1967). 'DDT Residues in an East Coast Estuary: A Case of Biological Concentration.' Science, 156(3776), 821–824, documented DDT concentrations rising from parts per trillion in estuary water to several parts per million in fish-eating birds — roughly a ten-million-fold magnification. The phenomenon underlies why apex predators and long-lived species, including humans consuming fish, face disproportionate exposure risk from pollutants present at seemingly trace levels in the wider environment. Biomagnification is distinct from, though related to, bioaccumulation — the buildup of a persistent toxin within a single organism's own body over its lifetime, regardless of trophic position. Biomagnification instead describes the amplification of that already-accumulated toxin load across successive trophic levels; the two processes compound each other, since each predator both accumulates toxins over its own lifespan and inherits an already-magnified starting dose from its prey.",
           "links": [
             "ef1",
             "st5"
@@ -919,7 +951,7 @@
           ],
           "tag": "EFFECT",
           "repl": "robust",
-          "hint": "As ocean water becomes more acidic, it holds less of the dissolved carbonate ions that shell- and skeleton-building marine organisms — corals, oysters, sea urchins, and free-swimming pteropod snails that form the base of many polar food webs — need to build and maintain their calcium carbonate structures, and below a critical threshold the water can even begin actively dissolving existing shells rather than merely making new growth harder.",
+          "hint": "As ocean water absorbs more atmospheric CO2, it forms carbonic acid, which releases hydrogen ions that aggressively bond with the seawater's free carbonate ions to form bicarbonate instead — effectively stealing the carbonate that shell- and skeleton-building marine organisms such as corals, oysters, sea urchins, and free-swimming pteropod snails need to build and maintain their calcium carbonate structures, and below a critical threshold the water can even begin actively dissolving existing shells rather than merely making new growth harder.",
           "note": "Orr, J.C. et al. (2005). 'Anthropogenic Ocean Acidification over the Twenty-First Century and Its Impact on Calcifying Organisms.' Nature, 437, 681–686, projected Southern Ocean waters could become corrosive to pteropod shells within decades under continued emissions — a projection since confirmed by direct field observations of shell dissolution in wild pteropods. Sensitivity to acidification varies substantially by species and life stage, with larval and juvenile stages generally the most vulnerable.",
           "links": [
             "th4",
@@ -1209,7 +1241,8 @@
           "note": "Lorius, C. et al. (1985). 'A 150,000-Year Climatic Record from Antarctic Ice.' Nature, 316, 591–596, from the Vostok ice core. Later cores (EPICA Dome C) extended the record past 800,000 years. Ice cores provide the direct evidence that current atmospheric CO2 concentrations exceed anything in at least the past 800,000 years, a period spanning multiple full glacial-interglacial cycles.",
           "links": [
             "th3",
-            "st1"
+            "st1",
+            "th11"
           ],
           "keywords": [
             "polar ice core drilling",
@@ -1327,6 +1360,29 @@
             "population size estimation",
             "capture mark recapture"
           ]
+        },
+        {
+          "id": "me7",
+          "group": "Climate Science & Global Change",
+          "label": "General Circulation Models",
+          "date": "1967",
+          "loc": "Geophysical Fluid Dynamics Laboratory, Princeton, New Jersey",
+          "coords": [
+            40.35,
+            -74.65
+          ],
+          "tag": "METHOD",
+          "hint": "Rather than relying on simplified, single-column energy-balance calculations, general circulation models divide the atmosphere and oceans into a three-dimensional grid of cells and numerically simulate the physical equations governing fluid motion, radiation, and moisture within and between each cell — letting researchers run controlled numerical experiments on an entire virtual planet, including directly testing how much warming results from doubling atmospheric carbon dioxide.",
+          "note": "Manabe, S. & Wetherald, R.T. (1967). 'Thermal Equilibrium of the Atmosphere with a Given Distribution of Relative Humidity.' Journal of the Atmospheric Sciences, 24(3), 241–259, built one of the first credible three-dimensional climate models and used it to estimate CO2-doubling sensitivity in a range remarkably close to modern estimates. Manabe shared the 2021 Nobel Prize in Physics with Klaus Hasselmann and Giorgio Parisi for this foundational work; general circulation models remain the primary tool behind the projections synthesised in IPCC assessment reports (see ap7).",
+          "links": [
+            "th3",
+            "ap7"
+          ],
+          "keywords": [
+            "three dimensional climate model",
+            "co2 doubling sensitivity",
+            "numerical atmosphere simulation"
+          ]
         }
       ]
     },
@@ -1376,7 +1432,8 @@
           "note": "Arrhenius, S. (1896). 'On the Influence of Carbonic Acid in the Air upon the Temperature of the Ground.' Philosophical Magazine and Journal of Science, 41(251), 237–276. Arrhenius won the 1903 Nobel Prize in Chemistry for unrelated work on electrolytic dissociation; his climate calculation was considered a minor scientific curiosity for most of his lifetime and was not widely revisited as a serious policy concern until the mid-twentieth century.",
           "links": [
             "th3",
-            "st8"
+            "st8",
+            "fg13"
           ],
           "keywords": [
             "hand calculated greenhouse effect",
@@ -1601,6 +1658,29 @@
             "congressional climate testimony",
             "climate mainstream attention",
             "nasa goddard climate scientist"
+          ]
+        },
+        {
+          "id": "fg13",
+          "group": "Pioneers & Theorists",
+          "label": "Eunice Newton Foote",
+          "date": "1856",
+          "loc": "Seneca Falls, New York",
+          "coords": [
+            42.91,
+            -76.81
+          ],
+          "tag": "FIGURE",
+          "hint": "Foote sealed thermometers inside glass cylinders filled with different gases and left them in direct sunlight, finding that a cylinder filled with carbon dioxide heated up the most and retained its heat the longest after removal from sunlight — the first documented experimental evidence that atmospheric composition affects a planet's temperature, and a direct suggestion that an atmosphere richer in carbon dioxide would produce a warmer Earth, made three years before John Tyndall's more widely credited infrared absorption experiments.",
+          "note": "Foote, E. (1856). 'Circumstances Affecting the Heat of the Sun's Rays.' American Journal of Science and Arts, 22, 382–383. As a woman, Foote was barred from presenting her own paper at the 1856 American Association for the Advancement of Science meeting; it was read aloud on her behalf by Joseph Henry of the Smithsonian Institution. Long overlooked in favour of Tyndall (1859) and Arrhenius (1896, see th3, fg2), Foote's work has been substantially rediscovered and recognised by historians of science since the 2010s as the first documented identification of the basic greenhouse mechanism.",
+          "links": [
+            "th3",
+            "fg2"
+          ],
+          "keywords": [
+            "first greenhouse experiment",
+            "carbon dioxide heat retention",
+            "overlooked woman scientist"
           ]
         }
       ]
@@ -1963,6 +2043,30 @@
             "material reuse manufacturing",
             "circularity gap trend"
           ]
+        },
+        {
+          "id": "ap7",
+          "group": "Environmental Policy & Governance",
+          "label": "The IPCC",
+          "date": "1988",
+          "loc": "Geneva, Switzerland",
+          "coords": [
+            46.2,
+            6.14
+          ],
+          "tag": "APPLICATION",
+          "hint": "Established jointly by the United Nations Environment Programme and the World Meteorological Organization, the IPCC does not conduct original research itself but instead synthesises thousands of existing peer-reviewed climate studies into periodic Assessment Reports that represent the closest thing to an official, government-endorsed scientific consensus on climate change — the direct scientific foundation underpinning international agreements including the Paris Agreement.",
+          "note": "The Intergovernmental Panel on Climate Change was established in 1988. Its Assessment Reports (the sixth completed in 2021–2023) are compiled by thousands of volunteer scientists and undergo a unique line-by-line government approval process for their Summary for Policymakers, a process critics argue can water down or politicise the underlying scientific language, while defenders argue it is precisely what gives the reports their unmatched international policy authority.",
+          "links": [
+            "st12",
+            "th3",
+            "me7"
+          ],
+          "keywords": [
+            "climate assessment synthesis",
+            "un scientific consensus body",
+            "paris agreement foundation"
+          ]
         }
       ]
     }
@@ -2056,6 +2160,11 @@
           "y": 1896,
           "l": "The Greenhouse Effect",
           "entryId": "th3"
+        },
+        {
+          "y": 1920,
+          "l": "Milankovitch Cycles",
+          "entryId": "th11"
         },
         {
           "y": 1960,
@@ -2164,6 +2273,11 @@
           "entryId": "me6"
         },
         {
+          "y": 1967,
+          "l": "General Circulation Models",
+          "entryId": "me7"
+        },
+        {
           "y": 1969,
           "l": "Life Cycle Assessment",
           "entryId": "me2"
@@ -2258,6 +2372,11 @@
           "y": 1972,
           "l": "Sustainable Agriculture Certification",
           "entryId": "ap4"
+        },
+        {
+          "y": 1988,
+          "l": "The IPCC",
+          "entryId": "ap7"
         },
         {
           "y": 1990,

@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 1850,
+    "total_entries": 1854,
     "folio_count": 24,
     "xlink_pairs": 116,
-    "keyword_terms": 6720,
+    "keyword_terms": 6732,
     "folios": [
       {
         "id": "anatomy-histology",
@@ -48,7 +48,7 @@
       {
         "id": "environmental-science",
         "title": "Environmental Science & Sustainability",
-        "entries": 74
+        "entries": 78
       },
       {
         "id": "epistemology",
@@ -755,6 +755,7 @@
     "environmental-science::th8": "theory · Resource Systems, Agriculture & Sustainability · The IPAT Equation (1971)",
     "environmental-science::th9": "theory · Biogeochemical Cycles & Planetary Systems · Gaia Hypothesis (1972)",
     "environmental-science::th10": "theory · Environmental Policy & Governance · Doughnut Economics (2012)",
+    "environmental-science::th11": "theory · Climate Science & Global Change · Milankovitch Cycles (1920)",
     "environmental-science::st1": "study · Climate Science & Global Change · The Keeling Curve (1958)",
     "environmental-science::st2": "study · Pollution, Toxicology & Environmental Health · Antarctic Ozone Hole Discovery (1985)",
     "environmental-science::st3": "study · Ecosystem Ecology & Biodiversity · Yellowstone Wolf Reintroduction (1995)",
@@ -792,6 +793,7 @@
     "environmental-science::me4": "method · Environmental Policy & Governance · Environmental Impact Assessment (1970)",
     "environmental-science::me5": "method · Pollution, Toxicology & Environmental Health · Biomonitoring / Bioindicator Species (1970)",
     "environmental-science::me6": "method · Ecosystem Ecology & Biodiversity · Mark-Recapture Population Census (1896)",
+    "environmental-science::me7": "method · Climate Science & Global Change · General Circulation Models (1967)",
     "environmental-science::fg1": "figure · Pioneers & Theorists · George Perkins Marsh (1864)",
     "environmental-science::fg2": "figure · Pioneers & Theorists · Svante Arrhenius (1896)",
     "environmental-science::fg3": "figure · Pioneers & Theorists · Aldo Leopold (1949)",
@@ -804,6 +806,7 @@
     "environmental-science::fg10": "figure · Pioneers & Theorists · Paul Ehrlich (1968)",
     "environmental-science::fg11": "figure · Pioneers & Theorists · Gro Harlem Brundtland (1987)",
     "environmental-science::fg12": "figure · Pioneers & Theorists · James Hansen (1988)",
+    "environmental-science::fg13": "figure · Pioneers & Theorists · Eunice Newton Foote (1856)",
     "environmental-science::db1": "debate · Environmental Policy & Governance · Tragedy of the Commons vs. Ostrom's Rebuttal (1990)",
     "environmental-science::db2": "debate · Climate Science & Global Change · Nuclear Power: Climate Solution or Environmental Risk? (2011)",
     "environmental-science::db3": "debate · Resource Systems, Agriculture & Sustainability · GMOs and Agricultural Sustainability (1996)",
@@ -819,6 +822,7 @@
     "environmental-science::ap4": "application · Resource Systems, Agriculture & Sustainability · Sustainable Agriculture Certification (1972)",
     "environmental-science::ap5": "application · Environmental Policy & Governance · Green Building / LEED Certification (1998)",
     "environmental-science::ap6": "application · Resource Systems, Agriculture & Sustainability · Circular Economy in Manufacturing (2002)",
+    "environmental-science::ap7": "application · Environmental Policy & Governance · The IPCC (1988)",
     "epistemology::th1": "theory · The Nature of Knowledge & Truth · Justified True Belief (JTB) (369 BCE)",
     "epistemology::th2": "theory · The Nature of Knowledge & Truth · Knowledge-First Epistemology (2000)",
     "epistemology::th3": "theory · The Nature of Knowledge & Truth · Correspondence Theory of Truth (1912)",
@@ -6024,6 +6028,11 @@
       "post growth economics",
       "safe and just space"
     ],
+    "environmental-science::th11": [
+      "orbital forcing glacial cycle",
+      "eccentricity tilt precession",
+      "astronomical pacemaker ice ages"
+    ],
     "environmental-science::st1": [
       "mauna loa co2 record",
       "atmospheric carbon monitoring",
@@ -6209,6 +6218,11 @@
       "population size estimation",
       "capture mark recapture"
     ],
+    "environmental-science::me7": [
+      "three dimensional climate model",
+      "co2 doubling sensitivity",
+      "numerical atmosphere simulation"
+    ],
     "environmental-science::fg1": [
       "first american conservationist",
       "physical geography degradation",
@@ -6268,6 +6282,11 @@
       "congressional climate testimony",
       "climate mainstream attention",
       "nasa goddard climate scientist"
+    ],
+    "environmental-science::fg13": [
+      "first greenhouse experiment",
+      "carbon dioxide heat retention",
+      "overlooked woman scientist"
     ],
     "environmental-science::db1": [
       "commons governance debate",
@@ -6343,6 +6362,11 @@
       "cradle to cradle design",
       "material reuse manufacturing",
       "circularity gap trend"
+    ],
+    "environmental-science::ap7": [
+      "climate assessment synthesis",
+      "un scientific consensus body",
+      "paris agreement foundation"
     ],
     "epistemology::th1": [
       "justified belief condition",
@@ -19582,6 +19606,15 @@
     "safe and just space": [
       "environmental-science::th10"
     ],
+    "orbital forcing glacial cycle": [
+      "environmental-science::th11"
+    ],
+    "eccentricity tilt precession": [
+      "environmental-science::th11"
+    ],
+    "astronomical pacemaker ice ages": [
+      "environmental-science::th11"
+    ],
     "mauna loa co2 record": [
       "environmental-science::st1"
     ],
@@ -19915,6 +19948,15 @@
     "capture mark recapture": [
       "environmental-science::me6"
     ],
+    "three dimensional climate model": [
+      "environmental-science::me7"
+    ],
+    "co2 doubling sensitivity": [
+      "environmental-science::me7"
+    ],
+    "numerical atmosphere simulation": [
+      "environmental-science::me7"
+    ],
     "first american conservationist": [
       "environmental-science::fg1"
     ],
@@ -20022,6 +20064,15 @@
     ],
     "nasa goddard climate scientist": [
       "environmental-science::fg12"
+    ],
+    "first greenhouse experiment": [
+      "environmental-science::fg13"
+    ],
+    "carbon dioxide heat retention": [
+      "environmental-science::fg13"
+    ],
+    "overlooked woman scientist": [
+      "environmental-science::fg13"
     ],
     "commons governance debate": [
       "environmental-science::db1"
@@ -20157,6 +20208,15 @@
     ],
     "circularity gap trend": [
       "environmental-science::ap6"
+    ],
+    "climate assessment synthesis": [
+      "environmental-science::ap7"
+    ],
+    "un scientific consensus body": [
+      "environmental-science::ap7"
+    ],
+    "paris agreement foundation": [
+      "environmental-science::ap7"
     ],
     "justified belief condition": [
       "epistemology::th1"
