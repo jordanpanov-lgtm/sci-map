@@ -15,7 +15,7 @@
   "mapZoom": 2,
   "methodology": "METHODOLOGY · Every entry anchors to a landmark fossil discovery, genetic study, field observation or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags replication status, revisions and known controversies. Studies and effects carry a replicability badge — 🟢 confirmed to high confidence · 🟡 nuanced, contested or partially revised · 🔴 failed or severely disputed. Map pins mark the fossil site, field location or institution where the work was carried out.",
   "_meta": {
-    "total_entries": 78,
+    "total_entries": 79,
     "entry_counts": {
       "theory": 10,
       "study": 14,
@@ -23,7 +23,7 @@
       "concept": 9,
       "method": 8,
       "figure": 12,
-      "debate": 10,
+      "debate": 11,
       "application": 6
     },
     "max_ids": {
@@ -33,7 +33,7 @@
       "co": 9,
       "me": 8,
       "fg": 12,
-      "db": 10,
+      "db": 11,
       "ap": 6
     },
     "groups": [
@@ -46,7 +46,7 @@
       "Molecular & Genetic Anthropology",
       "Pioneers & Theorists"
     ],
-    "last_updated": "2026-08-21"
+    "last_updated": "2026-08-22"
   },
   "_index": {
     "th1": "theory · Molecular & Genetic Anthropology · Out-of-Africa Replacement Model (1988)",
@@ -121,6 +121,7 @@
     "db8": "debate · Hominin Fossil Record · Homo naledi Deliberate Body Disposal Debate (2015)",
     "db9": "debate · Dating & Field Methods · Kennewick Man / Ancient One Repatriation Controversy (1996)",
     "db10": "debate · Molecular & Genetic Anthropology · Ghost Archaic DNA: Introgression from Unknown Hominins (2020)",
+    "db11": "debate · Molecular & Genetic Anthropology · The Early-to-Middle Pleistocene Human Bottleneck Debate (2023)",
     "ap1": "application · Dating & Field Methods · Forensic Anthropology: Skeletal Identification (1939)",
     "ap2": "application · Molecular & Genetic Anthropology · Forensic Genetic Genealogy (2018)",
     "ap3": "application · Human Variation & Adaptation · Paleo Diet Reconstruction Informing Modern Nutrition (1985)",
@@ -366,7 +367,8 @@
           "note": "Ambrose, S.H. (1998). 'Late Pleistocene Human Population Bottlenecks, Volcanic Winter, and Differentiation of Modern Humans.' Journal of Human Evolution, 34(6), 623–651. The theory has been substantially undermined: archaeological sites in India (Petraglia et al. 2007, Science) show continuous human occupation across the Toba ash layer with no disruption, and genetic bottleneck estimates timed to 74,000 years ago have not held up under more recent, denser genomic sampling (Yost et al. 2018, Journal of Human Evolution). Widely cited as a cautionary example of an appealing but weakly supported catastrophist narrative.",
           "links": [
             "th1",
-            "co6"
+            "co6",
+            "db11"
           ],
           "keywords": [
             "supervolcano bottleneck",
@@ -1168,7 +1170,8 @@
             "th1",
             "th9",
             "st9",
-            "me7"
+            "me7",
+            "db11"
           ],
           "keywords": [
             "serial founder effect",
@@ -2001,6 +2004,29 @@
             "statistical introgression inference",
             "unknown hominin dna"
           ]
+        },
+        {
+          "id": "db11",
+          "group": "Molecular & Genetic Anthropology",
+          "label": "The Early-to-Middle Pleistocene Human Bottleneck Debate",
+          "date": "2023",
+          "loc": "Partner Institute for Computational Biology, Shanghai, China",
+          "coords": [
+            31.23,
+            121.47
+          ],
+          "tag": "DEBATE",
+          "hint": "A 2023 genomic analysis using a new coalescent method claimed human ancestors nearly went extinct roughly 930,000 to 813,000 years ago, crashing to just around 1,280 breeding individuals for over 100,000 years — a bottleneck an order of magnitude more severe and hundreds of thousands of years earlier than any previously proposed. Critics using a different demographic-inference method found no statistical support for any bottleneck at all over a simple model with constant population size, and the original team has since published fossil and computational modeling evidence defending their claim, leaving the question genuinely unresolved.",
+          "note": "Hu, W. et al. (2023). 'Genomic Inference of a Severe Human Bottleneck During the Early to Middle Pleistocene Transition.' Science, 381(6661), 979–984, introduced the FitCoal (fast infinitesimal time coalescent) method. Cousins, T. & Durvasula, A. (2025). 'Insufficient Evidence for a Severe Bottleneck in Humans During the Early to Middle Pleistocene Transition.' Molecular Biology and Evolution, 42(2), msaf041, reanalysed the same data with an alternative method (mushi) and found a simple constant-population model fit the data better than the bottleneck model. Zhou, S. et al. (2026). 'Severe Bottleneck of Ancient Homo Populations: Insights from Computational Modeling and Relevant Fossil Evidence.' Molecular Biology and Evolution, 43(7), msag157, responded with additional computational modeling and fossil-record evidence supporting the original bottleneck claim. Distinct from both the largely discredited Toba catastrophe theory (see th9) and the founder-effect dispersal bottleneck (see co6), this proposed event would be over 700,000 years older than either.",
+          "links": [
+            "th9",
+            "co6"
+          ],
+          "keywords": [
+            "fitcoal coalescent method",
+            "pleistocene population crash",
+            "demographic inference dispute"
+          ]
         }
       ]
     },
@@ -2445,6 +2471,11 @@
           "y": 2020,
           "l": "Ghost Archaic DNA Introgression",
           "entryId": "db10"
+        },
+        {
+          "y": 2023,
+          "l": "Pleistocene Human Bottleneck Debate",
+          "entryId": "db11"
         }
       ]
     },

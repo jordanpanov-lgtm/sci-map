@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 1774,
+    "total_entries": 1775,
     "folio_count": 23,
     "xlink_pairs": 109,
-    "keyword_terms": 6492,
+    "keyword_terms": 6495,
     "folios": [
       {
         "id": "anatomy-histology",
@@ -18,7 +18,7 @@
       {
         "id": "biological-anthropology",
         "title": "Biological & Evolutionary Anthropology",
-        "entries": 78
+        "entries": 79
       },
       {
         "id": "cell-molecular-bio",
@@ -344,6 +344,7 @@
     "biological-anthropology::db8": "debate · Hominin Fossil Record · Homo naledi Deliberate Body Disposal Debate (2015)",
     "biological-anthropology::db9": "debate · Dating & Field Methods · Kennewick Man / Ancient One Repatriation Controversy (1996)",
     "biological-anthropology::db10": "debate · Molecular & Genetic Anthropology · Ghost Archaic DNA: Introgression from Unknown Hominins (2020)",
+    "biological-anthropology::db11": "debate · Molecular & Genetic Anthropology · The Early-to-Middle Pleistocene Human Bottleneck Debate (2023)",
     "biological-anthropology::ap1": "application · Dating & Field Methods · Forensic Anthropology: Skeletal Identification (1939)",
     "biological-anthropology::ap2": "application · Molecular & Genetic Anthropology · Forensic Genetic Genealogy (2018)",
     "biological-anthropology::ap3": "application · Human Variation & Adaptation · Paleo Diet Reconstruction Informing Modern Nutrition (1985)",
@@ -3691,6 +3692,11 @@
       "unsampled archaic lineage",
       "statistical introgression inference",
       "unknown hominin dna"
+    ],
+    "biological-anthropology::db11": [
+      "fitcoal coalescent method",
+      "pleistocene population crash",
+      "demographic inference dispute"
     ],
     "biological-anthropology::ap1": [
       "skeletal age estimation",
@@ -14886,6 +14892,15 @@
     ],
     "unknown hominin dna": [
       "biological-anthropology::db10"
+    ],
+    "fitcoal coalescent method": [
+      "biological-anthropology::db11"
+    ],
+    "pleistocene population crash": [
+      "biological-anthropology::db11"
+    ],
+    "demographic inference dispute": [
+      "biological-anthropology::db11"
     ],
     "skeletal age estimation": [
       "biological-anthropology::ap1"
