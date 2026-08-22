@@ -1423,7 +1423,214 @@
       "accent": "#CA6F1E",
       "bg": "#FDF5EC",
       "subtitle": "Live controversies — where the field is actively contesting the evidence",
-      "entries": []
+      "entries": [
+        {
+          "id": "db1",
+          "group": "Environmental Policy & Governance",
+          "label": "Tragedy of the Commons vs. Ostrom's Rebuttal",
+          "date": "1990",
+          "loc": "Indiana University Bloomington, Bloomington, Indiana",
+          "coords": [
+            39.17,
+            -86.53
+          ],
+          "tag": "DEBATE",
+          "hint": "Garrett Hardin argued shared resources are inevitably overexploited unless privatised or centrally regulated; Elinor Ostrom spent decades documenting real communities that sustainably self-governed commons for centuries without either solution, using locally developed rules, monitoring and graduated sanctions instead — a genuine, empirically grounded challenge to what had become an influential, almost unquestioned assumption in resource economics and policy.",
+          "note": "Hardin, G. (1968). 'The Tragedy of the Commons.' Science, 162(3859), 1243–1248, versus Ostrom, E. (1990). Governing the Commons: The Evolution of Institutions for Collective Action. Cambridge University Press. Ostrom's Nobel-winning fieldwork doesn't claim commons management always succeeds — many historical commons genuinely have collapsed — but establishes that Hardin's 'inevitable' framing was overstated, and that the specific institutional design of a commons's governance rules matters more than whether the resource is privatised, state-controlled, or communally managed.",
+          "links": [
+            "th7",
+            "fg8"
+          ],
+          "keywords": [
+            "commons governance debate",
+            "privatization versus self governance",
+            "institutional design success"
+          ]
+        },
+        {
+          "id": "db2",
+          "group": "Climate Science & Global Change",
+          "label": "Nuclear Power: Climate Solution or Environmental Risk?",
+          "date": "2011",
+          "loc": "Fukushima, Japan",
+          "coords": [
+            37.42,
+            141.03
+          ],
+          "tag": "DEBATE",
+          "hint": "Nuclear power generates electricity with among the lowest lifecycle carbon emissions of any energy source and provides reliable, always-available baseload power that intermittent renewables like solar and wind cannot fully replace on their own — but the risk of catastrophic accidents, unresolved long-term radioactive waste storage, high upfront construction costs, and weapons-proliferation concerns divide even committed climate scientists and environmentalists on whether it belongs in a sustainable energy future.",
+          "note": "Following the 2011 Fukushima Daiichi disaster, several countries including Germany accelerated nuclear phase-outs, while others, including France, have continued to lean on nuclear for the large majority of their electricity. Statistically, nuclear power's historical death rate per unit of energy produced is far lower than fossil fuels and comparable to or lower than most renewables (Markandya, A. & Wilkinson, P. 2007, The Lancet), a finding pro-nuclear advocates cite heavily; opponents counter that low-probability, high-consequence accidents and unresolved waste disposal timelines of tens of thousands of years are not fully captured by an average death-rate comparison.",
+          "links": [
+            "th3"
+          ],
+          "keywords": [
+            "low carbon baseload power",
+            "nuclear accident risk perception",
+            "radioactive waste timeline"
+          ]
+        },
+        {
+          "id": "db3",
+          "group": "Resource Systems, Agriculture & Sustainability",
+          "label": "GMOs and Agricultural Sustainability",
+          "date": "1996",
+          "loc": "St. Louis, Missouri",
+          "coords": [
+            38.65,
+            -90.31
+          ],
+          "tag": "DEBATE",
+          "hint": "Genetically modified crops engineered for pest resistance or herbicide tolerance can reduce pesticide use and increase yields on existing farmland, potentially easing pressure to convert more wild land to agriculture — but critics raise concerns about corporate control of the seed supply, herbicide-resistant 'superweed' evolution, reduced on-farm crop diversity, and, in some regions, persistent public distrust that has little to do with the actual scientific safety evidence, which broad scientific consensus considers well-established.",
+          "note": "The scientific consensus on GMO food safety is strong: a 2016 US National Academies of Sciences report reviewed over 900 studies and found no substantiated evidence of health risks from GM foods currently on the market. The genuinely contested questions are more agronomic and economic than safety-related: herbicide-tolerant crop adoption has driven measurable increases in glyphosate-resistant weed populations (Mortensen, D.A. et al. 2012, BioScience), and debates over seed-patent control and market concentration remain live policy concerns independent of the underlying biotechnology's safety.",
+          "links": [
+            "st11",
+            "db9"
+          ],
+          "keywords": [
+            "genetically modified crop safety",
+            "herbicide resistant weed evolution",
+            "seed patent concentration"
+          ]
+        },
+        {
+          "id": "db4",
+          "group": "Resource Systems, Agriculture & Sustainability",
+          "label": "Population Growth vs. Consumption as the Real Driver",
+          "date": "1971",
+          "loc": "Stanford University, Stanford, California",
+          "coords": [
+            37.43,
+            -122.17
+          ],
+          "tag": "DEBATE",
+          "hint": "Both population size and per-capita consumption multiply together to determine total environmental impact (see th8), but which factor should be the primary target of policy attention remains genuinely contested: wealthy nations with slow-growing populations account for a hugely disproportionate share of resource consumption and emissions per person, while some of the fastest population growth is occurring in low-consumption regions — making 'the population problem' and 'the consumption problem' overlapping but importantly distinct policy targets that get frequently conflated in public debate.",
+          "note": "Analyses (Chancel, L. & Piketty, T. 2015, World Inequality Lab) consistently find the wealthiest 10% of the global population accounts for roughly half of all consumption-based carbon emissions, while the poorest half of the global population, disproportionately in higher-population-growth regions, accounts for a small fraction. Critics of population-focused environmental messaging argue it has sometimes shaded into coercive or discriminatory policy targeting poorer, higher-fertility regions, while critics of consumption-only framing argue it can understate genuine long-term resource pressure from continued global population growth.",
+          "links": [
+            "th8",
+            "co1"
+          ],
+          "keywords": [
+            "consumption inequality emissions",
+            "population versus affluence",
+            "contested policy target"
+          ]
+        },
+        {
+          "id": "db5",
+          "group": "Environmental Policy & Governance",
+          "label": "Degrowth vs. Green Growth",
+          "date": "1972",
+          "loc": "Massachusetts Institute of Technology, Cambridge, Massachusetts",
+          "coords": [
+            42.36,
+            -71.09
+          ],
+          "tag": "DEBATE",
+          "hint": "Can economic growth be fully decoupled from rising resource use and emissions through efficiency gains and clean technology ('green growth'), or does growth's basic logic make genuine long-term sustainability impossible, requiring wealthy economies to instead deliberately shrink their total resource throughput ('degrowth')? Both camps agree current consumption patterns are unsustainable; they disagree sharply on whether continued economic expansion is part of the solution or the core of the problem.",
+          "note": "Meadows, D.H. et al. (1972). The Limits to Growth. Universe Books, first modelled the tension at global scale. Green-growth advocates point to some countries achieving 'absolute decoupling' — GDP growth alongside falling territorial emissions — as proof of concept (Le Quéré, C. et al. 2019, Nature Climate Change); degrowth advocates (Hickel, J. 2020, Less Is More) counter that decoupling has so far been too slow and geographically limited, and that consumption-based accounting, which includes imported emissions, shows a much weaker decoupling trend than territorial accounting alone suggests.",
+          "links": [
+            "th10",
+            "co7"
+          ],
+          "keywords": [
+            "absolute decoupling debate",
+            "growth critique economics",
+            "consumption based accounting"
+          ]
+        },
+        {
+          "id": "db6",
+          "group": "Climate Science & Global Change",
+          "label": "Geoengineering: Necessary Backstop or Dangerous Distraction?",
+          "date": "2006",
+          "loc": "Max Planck Institute for Chemistry, Mainz, Germany",
+          "coords": [
+            50,
+            8.24
+          ],
+          "tag": "DEBATE",
+          "hint": "Deliberately injecting reflective aerosol particles into the stratosphere, mimicking the cooling effect of a large volcanic eruption, could in principle offset a meaningful fraction of global warming relatively quickly and cheaply compared to emissions reductions — but critics warn it does nothing to address ocean acidification, could produce unpredictable regional side effects on rainfall patterns, creates a 'termination shock' risk of rapid rebound warming if stopped abruptly, and might reduce political urgency to cut emissions in the first place.",
+          "note": "Crutzen, P.J. (2006). 'Albedo Enhancement by Stratospheric Sulfur Injections: A Contribution to Resolve a Policy Dilemma?' Climatic Change, 77, 211–220, a Nobel laureate atmospheric chemist's essay that reopened serious scientific discussion of solar geoengineering after decades of taboo. Even most scientists who support continued geoengineering research explicitly frame it as a last-resort emergency backstop or a way to buy time for emissions cuts, not a substitute for decarbonisation — a framing critics argue is difficult to guarantee will hold once such a technology is deployed.",
+          "links": [
+            "th4",
+            "ef8"
+          ],
+          "keywords": [
+            "solar radiation management",
+            "termination shock risk",
+            "stratospheric aerosol injection"
+          ]
+        },
+        {
+          "id": "db7",
+          "group": "Environmental Policy & Governance",
+          "label": "Carbon Offsets: Genuine Mitigation or Greenwashing?",
+          "date": "2020",
+          "loc": "University of California, Santa Barbara, California",
+          "coords": [
+            34.41,
+            -119.85
+          ],
+          "tag": "DEBATE",
+          "hint": "Buying a carbon offset is meant to fund an emissions reduction elsewhere — planting trees, protecting existing forest, capturing methane — that compensates for emissions you can't yet eliminate directly, but rigorous audits of many forest-protection offset projects have found the emissions reductions they claim to represent were substantially overstated or would likely have happened anyway even without the offset payment, meaning the offset purchaser's underlying emissions were never actually compensated for.",
+          "note": "West, T.A.P. et al. (2020). 'Overstated Carbon Emission Reductions from Voluntary REDD+ Projects in the Brazilian Amazon.' Proceedings of the National Academy of Sciences, 117(39), 24188–24194, and subsequent investigations of major forest-carbon certification schemes found many projects' claimed deforestation-prevention baselines were inflated. Offset defenders argue the finding reflects poor implementation and inadequate verification standards in specific project types rather than an inherent flaw in the offsetting concept itself, and that direct emissions-reduction projects like methane capture are generally more verifiable than avoided-deforestation credits.",
+          "links": [
+            "ap1"
+          ],
+          "keywords": [
+            "offset baseline overstatement",
+            "voluntary carbon credit",
+            "redd plus verification failure"
+          ]
+        },
+        {
+          "id": "db8",
+          "group": "Conservation Biology & Restoration",
+          "label": "Rewilding vs. Traditional Conservation Management",
+          "date": "1998",
+          "loc": "University of California, Santa Cruz, California",
+          "coords": [
+            36.97,
+            -122.03
+          ],
+          "tag": "DEBATE",
+          "hint": "Traditional conservation management actively intervenes to maintain a landscape's existing state — controlled burns, invasive species removal, population culling — while rewilding argues for a more hands-off approach centred on restoring large predators and natural processes and then letting an ecosystem find its own dynamic equilibrium with minimal ongoing human management, a genuine disagreement over how much active human control conservation actually requires or should aspire to.",
+          "note": "Soulé, M.E. & Noss, R. (1998). 'Rewilding and Biodiversity: Complementary Goals for Continental Conservation.' Wild Earth, 8(3), 18–28, formalised rewilding around three principles: large core protected areas, connectivity between them, and keystone predators (see co3). Critics argue rewilding can be poorly suited to landscapes that have been shaped by centuries or millennia of human land management, where removing that management entirely may not restore a genuine historical baseline so much as create a novel, untested ecological state.",
+          "links": [
+            "co3",
+            "st3"
+          ],
+          "keywords": [
+            "hands off ecosystem management",
+            "apex predator restoration",
+            "historical baseline dispute"
+          ]
+        },
+        {
+          "id": "db9",
+          "group": "Resource Systems, Agriculture & Sustainability",
+          "label": "The Population Bomb's Failed Predictions",
+          "date": "1968",
+          "loc": "Stanford University, Stanford, California",
+          "coords": [
+            37.43,
+            -122.17
+          ],
+          "tag": "DEBATE",
+          "hint": "Ehrlich's book predicted hundreds of millions of people would starve to death in the 1970s and 1980s as population growth outpaced food production, and that India in particular was already beyond the point where it could feed its future population — predictions that failed to materialise, largely because the Green Revolution's yield gains (see st11) increased food production faster than population grew, a case frequently cited as a cautionary tale about the risks of confident, deterministic environmental forecasting.",
+          "note": "Ehrlich, P.R. (1968). The Population Bomb. Ballantine Books. Global famine deaths did not occur at anything close to the predicted scale, and global per-capita food availability has actually risen substantially since 1968 despite the world population more than doubling. Ehrlich has continued to argue the underlying concern about population-driven environmental pressure was directionally correct even if the specific famine timeline and mechanism were wrong, while critics (Simon, J. 1981, The Ultimate Resource) argue the episode demonstrates that human innovation and adaptation are systematically underweighted in resource-scarcity predictions.",
+          "links": [
+            "fg10",
+            "st11",
+            "th8"
+          ],
+          "keywords": [
+            "failed famine prediction",
+            "green revolution counterexample",
+            "resource forecasting caution"
+          ]
+        }
+      ]
     },
     {
       "id": "application",
@@ -1433,7 +1640,140 @@
       "accent": "#2E86C1",
       "bg": "#EBF5FB",
       "subtitle": "Where the science leaves the lab",
-      "entries": []
+      "entries": [
+        {
+          "id": "ap1",
+          "group": "Environmental Policy & Governance",
+          "label": "Cap-and-Trade Carbon Markets",
+          "date": "1990",
+          "loc": "Washington, D.C.",
+          "coords": [
+            38.9,
+            -77.04
+          ],
+          "tag": "APPLICATION",
+          "hint": "Regulators set a total, gradually shrinking limit on allowed emissions, issue or auction tradeable permits up to that limit, and let companies buy and sell permits among themselves — letting the market find the cheapest places to cut emissions first, since a company that can reduce pollution cheaply can sell its spare permits to one for whom reduction is more expensive, in principle achieving the same total emissions cut at lower overall economic cost than a uniform regulatory mandate.",
+          "note": "The US Acid Rain Program, established under the 1990 Clean Air Act Amendments, applied cap-and-trade to sulfur dioxide emissions and cut them by over 50% faster and more cheaply than initial regulatory estimates predicted, directly inspiring the design of later carbon markets including the EU Emissions Trading System (2005) and California's cap-and-trade program (2013). Carbon market effectiveness depends heavily on setting the initial cap tightly enough — early phases of the EU system suffered from an oversupply of permits that kept carbon prices too low to meaningfully drive emissions reductions.",
+          "links": [
+            "db7"
+          ],
+          "keywords": [
+            "tradeable emissions permit",
+            "acid rain program precedent",
+            "market based pollution control"
+          ]
+        },
+        {
+          "id": "ap2",
+          "group": "Resource Systems, Agriculture & Sustainability",
+          "label": "Renewable Energy Grid Integration",
+          "date": "1991",
+          "loc": "Vindeby, Denmark",
+          "coords": [
+            54.95,
+            11.15
+          ],
+          "tag": "APPLICATION",
+          "hint": "Solar and wind power generate electricity intermittently, depending on weather and time of day, unlike traditional power plants that can run continuously on demand — integrating large shares of renewables into an electrical grid reliably requires new solutions like grid-scale battery storage, long-distance transmission connecting geographically diverse weather patterns, demand-response programs, and backup generation, turning grid engineering itself into a central sustainability challenge alongside generating the clean power in the first place.",
+          "note": "Denmark's Vindeby offshore wind farm (1991) was the world's first, beginning offshore wind's development into a major grid-scale renewable source; Denmark itself now regularly generates over half its annual electricity from wind. Several regions, including South Australia and parts of California, have demonstrated grids running on renewables-plus-storage for extended periods, though critics note the most difficult and expensive final stretch of decarbonising a grid — covering the least favourable weather periods — remains substantially harder and more capital-intensive than the earlier, easier stages of renewable adoption.",
+          "links": [
+            "th3"
+          ],
+          "keywords": [
+            "intermittent renewable integration",
+            "grid scale battery storage",
+            "offshore wind development"
+          ]
+        },
+        {
+          "id": "ap3",
+          "group": "Conservation Biology & Restoration",
+          "label": "Protected Area / National Park Networks",
+          "date": "1872",
+          "loc": "Yellowstone National Park, Wyoming",
+          "coords": [
+            44.6,
+            -110.55
+          ],
+          "tag": "APPLICATION",
+          "hint": "Formally designating and legally protecting an area of land or ocean from development and resource extraction is conservation's oldest and most direct policy tool, and the specific design of a protected-area network — how large each reserve is, how connected they are to each other, and where they're placed relative to biodiversity hotspots — draws directly on island biogeography theory (see th1) to maximise how much species diversity the network can actually sustain long-term.",
+          "note": "Yellowstone National Park (1872) is generally credited as the world's first formally designated national park, though comparable protected hunting and forest reserves existed earlier in various forms in several countries. As of the mid-2020s, roughly 17% of the world's land area and 8% of the ocean carries some form of formal protection, short of the 30% land-and-ocean target ('30x30') that most countries formally committed to under the 2022 Kunming-Montreal Global Biodiversity Framework.",
+          "links": [
+            "th1"
+          ],
+          "keywords": [
+            "first national park",
+            "protected area network design",
+            "thirty by thirty target"
+          ]
+        },
+        {
+          "id": "ap4",
+          "group": "Resource Systems, Agriculture & Sustainability",
+          "label": "Sustainable Agriculture Certification",
+          "date": "1972",
+          "loc": "Versailles, France",
+          "coords": [
+            48.8,
+            2.13
+          ],
+          "tag": "APPLICATION",
+          "hint": "Voluntary certification labels like organic, fair trade, and regenerative agriculture let consumers pay a premium for food produced under specific environmental or social standards — reduced synthetic pesticide use, soil-building crop rotations, fair farmworker wages — creating a market-based incentive for more sustainable farming practices without requiring universal government regulation, though the actual environmental benefit delivered varies considerably across different certification schemes and how rigorously they're audited.",
+          "note": "The International Federation of Organic Agriculture Movements was founded in 1972 to coordinate organic certification standards internationally. Meta-analyses (Seufert, V. et al. 2012, Nature) find organic farming methods typically yield 19–25% less per unit area than conventional farming on average, meaning organic agriculture's environmental benefits per unit of land must be weighed against the additional land area required to produce an equivalent amount of food — a genuine trade-off that certification labels alone don't resolve.",
+          "links": [
+            "st11"
+          ],
+          "keywords": [
+            "organic certification standard",
+            "yield land tradeoff",
+            "market based sustainability incentive"
+          ]
+        },
+        {
+          "id": "ap5",
+          "group": "Environmental Policy & Governance",
+          "label": "Green Building / LEED Certification",
+          "date": "1998",
+          "loc": "Washington, D.C.",
+          "coords": [
+            38.9,
+            -77.04
+          ],
+          "tag": "APPLICATION",
+          "hint": "A points-based certification system scores new and renovated buildings on measurable sustainability criteria — energy efficiency, water use, materials sourcing, indoor air quality — giving developers, architects and tenants a standardised, third-party-verified way to signal and compare a building's environmental performance, and creating market and regulatory incentive for developers to design more efficiently than minimum building codes require.",
+          "note": "The US Green Building Council launched the LEED (Leadership in Energy and Environmental Design) certification system in 1998; comparable systems (BREEAM in the UK, Green Star in Australia) developed in parallel internationally. Studies of certified buildings' actual measured energy performance (Newsham, G.R. et al. 2009, Energy and Buildings) have found real-world energy savings are often smaller than the design-stage modelled savings predicted, a persistent 'performance gap' attributed partly to occupant behaviour and partly to systems not being calibrated as intended after construction.",
+          "links": [
+            "me4"
+          ],
+          "keywords": [
+            "building certification standard",
+            "energy performance gap",
+            "third party sustainability verification"
+          ]
+        },
+        {
+          "id": "ap6",
+          "group": "Resource Systems, Agriculture & Sustainability",
+          "label": "Circular Economy in Manufacturing",
+          "date": "2002",
+          "loc": "Charlottesville, Virginia",
+          "coords": [
+            38.03,
+            -78.48
+          ],
+          "tag": "APPLICATION",
+          "hint": "Rather than designing products for a one-way journey from raw material to landfill, circular economy manufacturing designs products and materials from the outset to be fully disassembled, reused, or biologically or technically recycled back into new products indefinitely — aiming to decouple continued manufacturing and consumption from continued virgin resource extraction and waste generation.",
+          "note": "McDonough, W. & Braungart, M. (2002). Cradle to Cradle: Remaking the Way We Make Things. North Point Press, popularised the design framework, drawing directly on life cycle assessment methodology (see me2). Despite substantial corporate adoption of circular-economy branding, global circularity — the share of material inputs to the economy that come from recycled or reused sources rather than virgin extraction — has actually declined slightly in recent years according to the Circularity Gap Report, as absolute material consumption growth has outpaced recycling capacity growth.",
+          "links": [
+            "me2"
+          ],
+          "keywords": [
+            "cradle to cradle design",
+            "material reuse manufacturing",
+            "circularity gap trend"
+          ]
+        }
+      ]
     }
   ],
   "timeline": [
