@@ -1006,7 +1006,141 @@
       "accent": "#8B5E00",
       "bg": "#FFF8F0",
       "subtitle": "The tools and paradigms that generate the field's evidence",
-      "entries": []
+      "entries": [
+        {
+          "id": "me1",
+          "group": "Climate Science & Global Change",
+          "label": "Ice Core Sampling",
+          "date": "1985",
+          "loc": "Laboratoire de Glaciologie, Grenoble, France",
+          "coords": [
+            45.19,
+            5.72
+          ],
+          "tag": "METHOD",
+          "hint": "Snow that falls in polar regions compacts into ice over millennia without melting, trapping tiny bubbles of the actual atmosphere present at the time of burial along with dust and chemical traces — drilling and extracting a continuous ice core lets scientists directly measure ancient atmospheric CO2 and methane concentrations and temperature, reconstructing climate history hundreds of thousands of years into the past with a precision no other method can match.",
+          "note": "Lorius, C. et al. (1985). 'A 150,000-Year Climatic Record from Antarctic Ice.' Nature, 316, 591–596, from the Vostok ice core. Later cores (EPICA Dome C) extended the record past 800,000 years. Ice cores provide the direct evidence that current atmospheric CO2 concentrations exceed anything in at least the past 800,000 years, a period spanning multiple full glacial-interglacial cycles.",
+          "links": [
+            "th3",
+            "st1"
+          ],
+          "keywords": [
+            "polar ice core drilling",
+            "trapped ancient atmosphere",
+            "paleoclimate reconstruction record"
+          ]
+        },
+        {
+          "id": "me2",
+          "group": "Resource Systems, Agriculture & Sustainability",
+          "label": "Life Cycle Assessment",
+          "date": "1969",
+          "loc": "Midwest Research Institute, Kansas City, Missouri",
+          "coords": [
+            39.1,
+            -94.58
+          ],
+          "tag": "METHOD",
+          "hint": "Rather than judging a product's environmental impact by a single visible stage like its use or disposal, life cycle assessment systematically tallies the resource use, energy consumption, and emissions at every stage from raw material extraction through manufacturing, transport, use, and final disposal — often revealing that a product's true environmental burden is concentrated in an unexpected stage, such as manufacturing rather than use.",
+          "note": "The Midwest Research Institute's 1969 comparison of beverage container types for The Coca-Cola Company is widely credited as the first documented life-cycle-style analysis; the methodology was formally standardised internationally by ISO 14040 (1997). LCA results can be highly sensitive to the specific system boundaries and assumptions chosen by the analyst, and competing LCAs of the same product comparison, such as paper versus plastic bags, have sometimes reached contradictory conclusions depending on which impact categories and geographic assumptions are weighted most heavily.",
+          "links": [
+            "ap6"
+          ],
+          "keywords": [
+            "cradle to grave analysis",
+            "product environmental accounting",
+            "system boundary sensitivity"
+          ]
+        },
+        {
+          "id": "me3",
+          "group": "Conservation Biology & Restoration",
+          "label": "Remote Sensing / Satellite Monitoring",
+          "date": "1972",
+          "loc": "NASA Goddard Space Flight Center, Greenbelt, Maryland",
+          "coords": [
+            39,
+            -76.85
+          ],
+          "tag": "METHOD",
+          "hint": "Satellites carrying sensors tuned to specific wavelengths of reflected light can map deforestation, crop health, urban expansion, wildfire extent, and ice sheet boundaries across the entire planet on a continuous, repeating schedule — turning environmental monitoring from a patchwork of localised ground surveys into a globally consistent, continuously updated record that can detect large-scale change as it happens.",
+          "note": "NASA launched Landsat 1 (originally the Earth Resources Technology Satellite) in 1972 from Goddard Space Flight Center, beginning the longest continuous satellite record of Earth's land surface. Global Forest Watch and similar platforms now use this kind of continuous satellite coverage to detect and report illegal deforestation within days, though cloud cover, sensor resolution limits, and the need for ground-truth verification mean satellite data alone cannot fully replace on-the-ground field surveys.",
+          "links": [
+            "st6"
+          ],
+          "keywords": [
+            "satellite land monitoring",
+            "continuous global coverage",
+            "deforestation detection"
+          ]
+        },
+        {
+          "id": "me4",
+          "group": "Environmental Policy & Governance",
+          "label": "Environmental Impact Assessment",
+          "date": "1970",
+          "loc": "Washington, D.C.",
+          "coords": [
+            38.9,
+            -77.04
+          ],
+          "tag": "METHOD",
+          "hint": "Before a major infrastructure or development project can proceed, an environmental impact assessment systematically evaluates and documents its likely effects on air and water quality, wildlife, and surrounding communities, and requires that alternatives and mitigation measures be formally considered — shifting environmental protection from reactive cleanup after damage occurs to a mandatory, upfront evaluation before it does.",
+          "note": "The US National Environmental Policy Act (1970) established the environmental impact statement requirement, later adopted in some form by well over 100 countries worldwide. Critics on one side argue the process is frequently used as a delay tactic to obstruct legitimate development, including renewable energy infrastructure, while critics on the other argue enforcement is often weak and assessments can be effectively ignored once completed, with genuine agreement on how to reconcile the two critiques still elusive.",
+          "links": [
+            "th7"
+          ],
+          "keywords": [
+            "environmental impact statement",
+            "pre development evaluation",
+            "mandatory mitigation review"
+          ]
+        },
+        {
+          "id": "me5",
+          "group": "Pollution, Toxicology & Environmental Health",
+          "label": "Biomonitoring / Bioindicator Species",
+          "date": "1970",
+          "loc": "Kew, England",
+          "coords": [
+            51.48,
+            -0.29
+          ],
+          "tag": "METHOD",
+          "hint": "Certain species are especially sensitive to specific pollutants and can be systematically surveyed as a living early-warning system — lichens, which absorb airborne sulphur dioxide directly and disappear from polluted areas in a predictable, mappable pattern, let researchers estimate local air quality just by cataloguing which lichen species are present, without needing a single chemical air sampler.",
+          "note": "Hawksworth, D.L. & Rose, F. (1970). 'Qualitative Scale for Estimating Sulphur Dioxide Air Pollution in England and Wales Using Epiphytic Lichens.' Nature, 227, 145–148, formalised a numerical lichen-based air quality scale. The general principle — using a sensitive organism as an early-warning indicator, popularly known from canaries carried into coal mines to detect toxic gas — now extends to using frog populations to monitor wetland health, mussels to monitor waterway contamination, and lichens still to monitor urban air quality.",
+          "links": [
+            "ef7"
+          ],
+          "keywords": [
+            "lichen air quality scale",
+            "pollution sensitive indicator",
+            "living early warning system"
+          ]
+        },
+        {
+          "id": "me6",
+          "group": "Ecosystem Ecology & Biodiversity",
+          "label": "Mark-Recapture Population Census",
+          "date": "1896",
+          "loc": "Danish Biological Station, Copenhagen, Denmark",
+          "coords": [
+            55.68,
+            12.57
+          ],
+          "tag": "METHOD",
+          "hint": "To estimate the size of a wild population without counting every individual, researchers capture and mark a sample, release them back into the population, then take a second sample later and record what fraction of the second sample carries a mark — since the proportion of marked individuals recaptured should mirror the proportion the original marked sample represented of the whole population, that ratio lets researchers calculate a statistically sound total population estimate.",
+          "note": "Petersen, C.G.J. (1896) applied the method to estimate plaice populations in Danish waters; Lincoln, F.C. (1930) formalised the statistical estimator using bird-banding data, giving rise to the standard 'Lincoln-Petersen index' still taught today. The method assumes marked individuals mix randomly back into the population and that marking doesn't affect survival or catchability — assumptions that can introduce significant bias if violated, motivating more sophisticated multi-recapture statistical models in modern wildlife census work.",
+          "links": [
+            "st6"
+          ],
+          "keywords": [
+            "lincoln petersen index",
+            "population size estimation",
+            "capture mark recapture"
+          ]
+        }
+      ]
     },
     {
       "id": "figure",
@@ -1016,7 +1150,270 @@
       "accent": "#B7770D",
       "bg": "#FEFDE7",
       "subtitle": "The researchers who shaped the discipline",
-      "entries": []
+      "entries": [
+        {
+          "id": "fg1",
+          "group": "Pioneers & Theorists",
+          "label": "George Perkins Marsh",
+          "date": "1864",
+          "loc": "Turin, Italy",
+          "coords": [
+            45.07,
+            7.69
+          ],
+          "tag": "FIGURE",
+          "hint": "Marsh's Man and Nature (see th6) was the first major American work to argue systematically that human activity could permanently damage the physical environment at a large scale, drawing on his own observations of Mediterranean deforestation and directly influencing the American conservation movement's founding figures and the establishment of forest reserves.",
+          "note": "Marsh, G.P. (1864). Man and Nature; or, Physical Geography as Modified by Human Action. Charles Scribner. Marsh served as a US congressman, diplomat, and polymath scholar before turning his attention to environmental degradation; he is now widely regarded as America's first conservationist thinker, predating the more famous Progressive-Era conservation movement of Theodore Roosevelt and Gifford Pinchot by several decades.",
+          "links": [
+            "th6"
+          ],
+          "keywords": [
+            "first american conservationist",
+            "physical geography degradation",
+            "forest reserve influence"
+          ]
+        },
+        {
+          "id": "fg2",
+          "group": "Pioneers & Theorists",
+          "label": "Svante Arrhenius",
+          "date": "1896",
+          "loc": "Royal Swedish Academy of Sciences, Stockholm, Sweden",
+          "coords": [
+            59.33,
+            18.06
+          ],
+          "tag": "FIGURE",
+          "hint": "Arrhenius performed the first quantitative calculation of how atmospheric carbon dioxide concentration affects global temperature (see th3), working entirely by hand with laborious manual calculations of infrared absorption across thousands of data points — a Nobel Prize-winning chemist whose greenhouse effect calculation, made as a side project, would only be recognised as urgently important nearly a century later.",
+          "note": "Arrhenius, S. (1896). 'On the Influence of Carbonic Acid in the Air upon the Temperature of the Ground.' Philosophical Magazine and Journal of Science, 41(251), 237–276. Arrhenius won the 1903 Nobel Prize in Chemistry for unrelated work on electrolytic dissociation; his climate calculation was considered a minor scientific curiosity for most of his lifetime and was not widely revisited as a serious policy concern until the mid-twentieth century.",
+          "links": [
+            "th3"
+          ],
+          "keywords": [
+            "hand calculated greenhouse effect",
+            "nobel laureate chemist",
+            "early climate prediction"
+          ]
+        },
+        {
+          "id": "fg3",
+          "group": "Pioneers & Theorists",
+          "label": "Aldo Leopold",
+          "date": "1949",
+          "loc": "University of Wisconsin-Madison, Madison, Wisconsin",
+          "coords": [
+            43.07,
+            -89.4
+          ],
+          "tag": "FIGURE",
+          "hint": "Leopold's posthumously published essays proposed a 'land ethic' extending human moral consideration beyond other people to soils, waters, plants, and animals collectively — arguing that an action is right when it tends to preserve the integrity, stability, and beauty of the biotic community, and wrong when it tends otherwise, reframing conservation as an ethical obligation rather than merely a resource-management strategy.",
+          "note": "Leopold, A. (1949). A Sand County Almanac, and Sketches Here and There. Oxford University Press, published a year after Leopold's death. The book was a commercial failure on first publication but has since sold over two million copies and become one of the most influential works in the history of environmental thought, foundational to the field now known as environmental ethics.",
+          "links": [],
+          "keywords": [
+            "land ethic philosophy",
+            "biotic community integrity",
+            "posthumous conservation classic"
+          ]
+        },
+        {
+          "id": "fg4",
+          "group": "Pioneers & Theorists",
+          "label": "Rachel Carson",
+          "date": "1962",
+          "loc": "Silver Spring, Maryland",
+          "coords": [
+            38.99,
+            -77.03
+          ],
+          "tag": "FIGURE",
+          "hint": "Carson's Silent Spring synthesised existing scientific research on pesticide harm, most centrally DDT (see st5), into a work of forceful popular science that directly triggered a US congressional review of pesticide policy and the eventual creation of the Environmental Protection Agency — despite a fierce, well-funded discrediting campaign from chemical industry groups that attacked her credentials rather than her evidence.",
+          "note": "Carson, R. (1962). Silent Spring. Houghton Mifflin. The chemical industry's response included an attempt to have the book suppressed before publication and public claims that Carson was a hysterical, unqualified alarmist; a subsequent government scientific advisory panel substantially vindicated her central claims. Silent Spring is widely credited as the single most influential book in launching the modern American environmental movement.",
+          "links": [
+            "st5"
+          ],
+          "keywords": [
+            "silent spring publication",
+            "pesticide industry backlash",
+            "environmental movement catalyst"
+          ]
+        },
+        {
+          "id": "fg5",
+          "group": "Pioneers & Theorists",
+          "label": "Charles David Keeling",
+          "date": "1958",
+          "loc": "Mauna Loa Observatory, Hawaii",
+          "coords": [
+            19.54,
+            -155.58
+          ],
+          "tag": "FIGURE",
+          "hint": "Keeling's insistence on extremely rigorous measurement precision and instrument calibration turned what could have been a rough approximation into the single most trusted long-term dataset in climate science (see st1), maintained continuously by his research group for over six decades and updated to this day.",
+          "note": "Keeling, C.D. (1960). 'The Concentration and Isotopic Abundances of Carbon Dioxide in the Atmosphere.' Tellus, 12(2), 200–203. Keeling nearly lost funding for the measurement program multiple times over its first decade, as funders questioned the ongoing value of what looked like a simple repeated measurement; the resulting Keeling Curve is now considered one of the most iconic single graphs in the history of science.",
+          "links": [
+            "st1"
+          ],
+          "keywords": [
+            "keeling curve precision",
+            "long term co2 record",
+            "mauna loa measurement"
+          ]
+        },
+        {
+          "id": "fg6",
+          "group": "Pioneers & Theorists",
+          "label": "James Lovelock",
+          "date": "1972",
+          "loc": "NASA Jet Propulsion Laboratory, Pasadena, California",
+          "coords": [
+            34.2,
+            -118.17
+          ],
+          "tag": "FIGURE",
+          "hint": "An independent scientist and inventor who worked outside conventional academic structures for most of his career, Lovelock proposed the Gaia Hypothesis (see th9) while consulting for NASA and continued developing and defending the idea, in increasingly moderated form, across more than five decades until his death at age 103.",
+          "note": "Lovelock, J.E. (1972). 'Gaia as Seen Through the Atmosphere.' Atmospheric Environment, 6(8), 579–580. Lovelock also invented the electron capture detector, a device sensitive enough to detect trace atmospheric CFCs — the same measurement technology that helped enable the later discovery of the ozone hole (see st2), making him an unusual figure who contributed both a foundational theoretical idea and a key instrument to environmental science.",
+          "links": [
+            "th9"
+          ],
+          "keywords": [
+            "gaia hypothesis originator",
+            "electron capture detector",
+            "independent scientist inventor"
+          ]
+        },
+        {
+          "id": "fg7",
+          "group": "Pioneers & Theorists",
+          "label": "E.O. Wilson",
+          "date": "1967",
+          "loc": "Harvard University, Cambridge, Massachusetts",
+          "coords": [
+            42.37,
+            -71.12
+          ],
+          "tag": "FIGURE",
+          "hint": "Beyond co-founding island biogeography theory (see th1) and popularising the term biodiversity (see co4), Wilson spent much of his later career as biodiversity conservation's most prominent public advocate, proposing the ambitious 'Half-Earth' goal of formally protecting half the planet's land and ocean to prevent a mass extinction he argued was already well underway.",
+          "note": "MacArthur, R.H. & Wilson, E.O. (1967). The Theory of Island Biogeography. Princeton University Press. Wilson also pioneered sociobiology and was twice awarded the Pulitzer Prize for general nonfiction; his 2016 book Half-Earth proposed setting aside 50% of the planet's surface for nature, a goal some conservation biologists argue is scientifically well-grounded but that others consider politically unrealistic at current land-use pressure levels.",
+          "links": [
+            "th1",
+            "co4"
+          ],
+          "keywords": [
+            "half earth proposal",
+            "island biogeography cofounder",
+            "biodiversity term popularizer"
+          ]
+        },
+        {
+          "id": "fg8",
+          "group": "Pioneers & Theorists",
+          "label": "Elinor Ostrom",
+          "date": "1990",
+          "loc": "Indiana University Bloomington, Bloomington, Indiana",
+          "coords": [
+            39.17,
+            -86.53
+          ],
+          "tag": "FIGURE",
+          "hint": "Ostrom spent decades documenting real-world cases of communities — Swiss alpine pastures, Japanese forests, Spanish irrigation systems — successfully and sustainably self-governing shared resources for centuries through locally developed rules and monitoring, directly refuting the assumption underlying the tragedy of the commons (see th7) that shared resources inevitably require either privatisation or centralised state control to avoid collapse.",
+          "note": "Ostrom, E. (1990). Governing the Commons: The Evolution of Institutions for Collective Action. Cambridge University Press. Ostrom became the first woman to win the Nobel Memorial Prize in Economic Sciences in 2009 for this work, identifying a set of design principles — clearly defined boundaries, graduated sanctions, low-cost conflict resolution — common to the durable, self-governing commons she studied.",
+          "links": [
+            "th7"
+          ],
+          "keywords": [
+            "commons self governance",
+            "nobel economics laureate",
+            "institutional design principles"
+          ]
+        },
+        {
+          "id": "fg9",
+          "group": "Pioneers & Theorists",
+          "label": "Wangari Maathai",
+          "date": "1977",
+          "loc": "Nairobi, Kenya",
+          "coords": [
+            -1.29,
+            36.82
+          ],
+          "tag": "FIGURE",
+          "hint": "Maathai founded the Green Belt Movement, which organised rural Kenyan women to plant trees in exchange for a small payment — simultaneously addressing deforestation, soil erosion, and fuelwood scarcity while creating income and political organising capacity for women in a period of significant government resistance to grassroots environmental activism.",
+          "note": "Maathai, W. founded the Green Belt Movement in 1977; the organisation has since coordinated the planting of over 50 million trees across Kenya. Maathai became the first African woman and first environmentalist to win the Nobel Peace Prize, in 2004, for what the Nobel Committee explicitly described as a contribution to peace through sustainable development, democracy and human rights — an unusually direct linkage of environmental and peace work by the prize committee.",
+          "links": [],
+          "keywords": [
+            "green belt movement",
+            "grassroots reforestation activism",
+            "nobel peace prize environmentalist"
+          ]
+        },
+        {
+          "id": "fg10",
+          "group": "Pioneers & Theorists",
+          "label": "Paul Ehrlich",
+          "date": "1968",
+          "loc": "Stanford University, Stanford, California",
+          "coords": [
+            37.43,
+            -122.17
+          ],
+          "tag": "FIGURE",
+          "hint": "Ehrlich's bestselling, alarmist book The Population Bomb predicted imminent global mass famine from unchecked population growth in the 1970s and 1980s, and while its most dire specific predictions failed to materialise thanks to the Green Revolution's yield gains (see st11), Ehrlich's broader collaboration on the IPAT framework (see th8) provided a more durable, less deterministic analytical tool for the population-consumption-technology relationship.",
+          "note": "Ehrlich, P.R. (1968). The Population Bomb. Ballantine Books. Ehrlich later co-developed the more nuanced IPAT framework with John Holdren (1971, see th8). His specific 1968 predictions of mass 1970s-80s famine are now widely regarded as substantially wrong (see db9), a fact Ehrlich has continued to defend as directionally correct even if the timeline was mistaken, making him a genuinely polarising figure in the population-environment debate.",
+          "links": [
+            "th8",
+            "db9"
+          ],
+          "keywords": [
+            "population bomb predictions",
+            "ipat coauthor",
+            "polarizing population debate figure"
+          ]
+        },
+        {
+          "id": "fg11",
+          "group": "Pioneers & Theorists",
+          "label": "Gro Harlem Brundtland",
+          "date": "1987",
+          "loc": "Geneva, Switzerland",
+          "coords": [
+            46.2,
+            6.14
+          ],
+          "tag": "FIGURE",
+          "hint": "As chair of the UN World Commission on Environment and Development, Brundtland — a physician and former Norwegian prime minister — oversaw the report that coined the now-canonical definition of sustainable development (see co7), successfully framing environmental protection and economic development as complementary goals rather than inherently opposed, a framing that shaped nearly every major international environmental agreement in the decades since.",
+          "note": "World Commission on Environment and Development (1987). Our Common Future. Oxford University Press. Brundtland served three terms as Prime Minister of Norway and later as Director-General of the World Health Organization; Our Common Future directly set the stage for the 1992 Rio Earth Summit and the broader international sustainable-development policy architecture that followed.",
+          "links": [
+            "co7"
+          ],
+          "keywords": [
+            "brundtland report chair",
+            "sustainable development framing",
+            "rio earth summit precursor"
+          ]
+        },
+        {
+          "id": "fg12",
+          "group": "Pioneers & Theorists",
+          "label": "James Hansen",
+          "date": "1988",
+          "loc": "NASA Goddard Institute for Space Studies, New York, New York",
+          "coords": [
+            40.8,
+            -73.96
+          ],
+          "tag": "FIGURE",
+          "hint": "Hansen's direct, unequivocal congressional testimony that human-caused global warming was already detectably underway — delivered during a Washington heatwave that lent the moment dramatic force — is widely credited as the single event that brought climate change from a specialist scientific concern into sustained mainstream American political and media attention.",
+          "note": "Hansen, J. (1988). Testimony before the US Senate Committee on Energy and Natural Resources, June 23, 1988. Hansen stated with '99% confidence' that a long-term warming trend was underway and could be attributed to the greenhouse effect, years before the detection-and-attribution statistical methods that later formalised such claims (see st12) were developed; he continued as a leading, often outspokenly activist voice in climate science for decades afterward, including subsequent arrests during climate protests.",
+          "links": [
+            "st12"
+          ],
+          "keywords": [
+            "congressional climate testimony",
+            "climate mainstream attention",
+            "nasa goddard climate scientist"
+          ]
+        }
+      ]
     },
     {
       "id": "debate",
