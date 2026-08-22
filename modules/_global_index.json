@@ -2,7 +2,7 @@
   "_meta": {
     "total_entries": 1849,
     "folio_count": 24,
-    "xlink_pairs": 109,
+    "xlink_pairs": 116,
     "keyword_terms": 6717,
     "folios": [
       {
@@ -2286,6 +2286,48 @@
     "em-optics::db3": [
       "quantum-nuclear-relativity::st1"
     ],
+    "environmental-science::th2": [
+      "oceanography::th8"
+    ],
+    "oceanography::th8": [
+      "environmental-science::th2"
+    ],
+    "environmental-science::th5": [
+      "systems-and-complexity::co8"
+    ],
+    "systems-and-complexity::co8": [
+      "environmental-science::th5"
+    ],
+    "environmental-science::st10": [
+      "oceanography::ef2"
+    ],
+    "oceanography::ef2": [
+      "environmental-science::st10"
+    ],
+    "environmental-science::st13": [
+      "oceanography::co4"
+    ],
+    "oceanography::co4": [
+      "environmental-science::st13"
+    ],
+    "environmental-science::ef7": [
+      "organic-polymer-chem::db6"
+    ],
+    "organic-polymer-chem::db6": [
+      "environmental-science::ef7"
+    ],
+    "environmental-science::co5": [
+      "systems-and-complexity::ef7",
+      "oceanography::db1"
+    ],
+    "systems-and-complexity::ef7": [
+      "environmental-science::co5",
+      "oceanography::db4"
+    ],
+    "oceanography::db1": [
+      "environmental-science::co5",
+      "systems-and-complexity::ap3"
+    ],
     "epistemology::ef9": [
       "social-psychology::ef5"
     ],
@@ -2498,17 +2540,11 @@
     "oceanography::me6": [
       "quantum-nuclear-relativity::me5"
     ],
-    "oceanography::db1": [
-      "systems-and-complexity::ap3"
-    ],
     "systems-and-complexity::ap3": [
       "oceanography::db1"
     ],
     "oceanography::db4": [
       "systems-and-complexity::ef7"
-    ],
-    "systems-and-complexity::ef7": [
-      "oceanography::db4"
     ],
     "organic-polymer-chem::th2": [
       "inorganic-analytical-chem::th4"
