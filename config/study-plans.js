@@ -4,6 +4,51 @@
 // are available as globals to the renderer.
 
 const STUDY_PLANS = {
+  'astronomy-cosmology': {
+    meta: "Groups content thematically rather than by category: after the founders, each module works through one branch of the field — the Solar System, stellar life cycles, the distance ladder that scales the universe, the instruments that generate the evidence, galaxies and the dark matter debate, the search for planets and life elsewhere, and finally the most extreme objects the field studies — carrying each branch's theories, landmark discoveries, named phenomena, and live debates together as a single unit.",
+    modules: [
+      {
+        title: '1 — Founders & the Field',
+        rationale: "From Galileo's first telescope to Michel Mayor's first exoplanet, a relatively small set of observers and theorists repeatedly turned astronomy from naked-eye pattern-watching into a field with genuine predictive theory and instrumentation underneath it.",
+        groups: ['Pioneers & Theorists']
+      },
+      {
+        title: '2 — The Solar System',
+        rationale: "Kepler's laws, the nebular hypothesis, and the landmark missions to the outer planets cover the one planetary system astronomers can actually visit directly, and the debates — Pluto, Planet Nine, ocean-world habitability — that still surround it.",
+        groups: ['The Solar System']
+      },
+      {
+        title: '3 — Stellar Physics & Evolution',
+        rationale: "Nucleosynthesis, the Chandrasekhar limit, and the Hertzsprung-Russell diagram explain how stars are born, live, and die, and why almost every element heavier than hydrogen owes its existence to a star that died before the Sun was born.",
+        groups: ['Stellar Physics & Evolution']
+      },
+      {
+        title: '4 — The Cosmic Distance Ladder',
+        rationale: "Parallax, Cepheid variables, and Type Ia supernovae form a chain of overlapping techniques that scales the universe from nearby stars to the most distant galaxies — and the Hubble Tension shows that chain still has an unresolved crack in it.",
+        groups: ['The Cosmic Distance Ladder']
+      },
+      {
+        title: '5 — Telescopes & Observational Techniques',
+        rationale: "From Galileo's first telescope to adaptive optics and radio interferometry, this module covers the instruments that generate every other module's evidence, and where that instrumentation has spun off into fields far beyond astronomy.",
+        groups: ['Telescopes & Observational Techniques']
+      },
+      {
+        title: '6 — Galaxies & Large-Scale Structure',
+        rationale: "Hubble's galaxy classification and the hierarchical formation framework set the stage for Vera Rubin's rotation-curve discovery — the observational anchor for the dark matter question examined in depth from the particle-physics side elsewhere in the atlas.",
+        groups: ['Galaxies & Large-Scale Structure']
+      },
+      {
+        title: '7 — Exoplanets & Astrobiology',
+        rationale: "From the Drake Equation to the first confirmed exoplanet to the Fermi Paradox, this module covers the youngest and fastest-growing branch of the field — and the genuinely unresolved question of whether we are alone.",
+        groups: ['Exoplanets & Astrobiology']
+      },
+      {
+        title: '8 — High-Energy & Extreme Astrophysics',
+        rationale: "Pulsars and the first-ever image of a black hole's shadow show the field at its most extreme, where matter is compressed and accelerated far beyond anything reproducible in an Earth-bound laboratory.",
+        groups: ['High-Energy & Extreme Astrophysics']
+      }
+    ]
+  },
   'environmental-science': {
     meta: "Groups content thematically rather than by category: after the founders, each module works through one branch of the field — ecosystem-level ecology, planetary biogeochemical systems, the climate itself, pollution and toxicology, conservation and restoration, resource and agricultural systems, and finally the policy tools meant to govern all of it — carrying each branch's theories, landmark studies, named phenomena, and live debates together as a single unit.",
     modules: [
