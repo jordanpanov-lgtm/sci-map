@@ -23,7 +23,241 @@
       "accent": "#2471A3",
       "bg": "#F0F7FF",
       "subtitle": "The frameworks that organise how ecosystems, climate and human pressure interact",
-      "entries": []
+      "entries": [
+        {
+          "id": "th1",
+          "group": "Ecosystem Ecology & Biodiversity",
+          "label": "Island Biogeography Theory",
+          "date": "1967",
+          "loc": "Princeton University, Princeton, New Jersey",
+          "coords": [
+            40.34,
+            -74.65
+          ],
+          "tag": "THEORY",
+          "hint": "The number of species an island can support in equilibrium is set by a balance between two opposing rates: new species arriving from the mainland, and species already present going extinct — both rates depend predictably on the island's size and its distance from the mainland, so smaller, more remote islands support fewer species than larger, closer ones, and much later, more isolated 'habitat islands' like forest fragments surrounded by farmland.",
+          "note": "MacArthur, R.H. & Wilson, E.O. (1967). The Theory of Island Biogeography. Princeton University Press. Directly informed the design of protected-area networks decades later (see ap3), since a fragmented forest reserve behaves ecologically like an island; the theory's core equilibrium prediction has held up well across hundreds of subsequent island studies, though colonization and extinction rates for any specific taxon can deviate substantially from the simple model.",
+          "links": [
+            "fg7",
+            "ap3"
+          ],
+          "keywords": [
+            "species area relationship",
+            "island equilibrium theory",
+            "habitat fragmentation ecology"
+          ]
+        },
+        {
+          "id": "th2",
+          "group": "Ecosystem Ecology & Biodiversity",
+          "label": "Trophic Cascade Theory (Green World Hypothesis)",
+          "date": "1960",
+          "loc": "University of Michigan, Ann Arbor, Michigan",
+          "coords": [
+            42.28,
+            -83.74
+          ],
+          "tag": "THEORY",
+          "hint": "If predators controlled herbivore populations, the theory argued, the world should stay green because plants would rarely be eaten down to the ground — and since the world mostly is green, predators must be exerting a powerful indirect, cascading control over plant abundance by keeping herbivore numbers in check, an effect that ripples down through an entire food web from a single trophic level at the top.",
+          "note": "Hairston, N.G., Smith, F.E. & Slobodkin, L.B. (1960). 'Community Structure, Population Control, and Competition.' The American Naturalist, 94(879), 421–425. The 'green world hypothesis' was directly and dramatically illustrated decades later by the Yellowstone wolf reintroduction (see st3), though ecologists now recognise cascades vary enormously in strength depending on ecosystem productivity and are far from universal or equally strong in every food web.",
+          "links": [
+            "st3",
+            "ef9"
+          ],
+          "keywords": [
+            "green world hypothesis",
+            "top-down predator control",
+            "cascading food web effect"
+          ]
+        },
+        {
+          "id": "th3",
+          "group": "Climate Science & Global Change",
+          "label": "The Greenhouse Effect",
+          "date": "1896",
+          "loc": "Royal Swedish Academy of Sciences, Stockholm, Sweden",
+          "coords": [
+            59.33,
+            18.06
+          ],
+          "tag": "THEORY",
+          "hint": "Certain gases in the atmosphere, particularly carbon dioxide, let sunlight through but absorb and re-radiate the infrared heat the Earth's surface emits back outward, trapping warmth near the surface — Arrhenius calculated by hand that doubling atmospheric CO2 would warm the planet by several degrees, correctly identifying industrial coal-burning as a force capable of measurably altering global climate over a century before that warming became clearly detectable.",
+          "note": "Arrhenius, S. (1896). 'On the Influence of Carbonic Acid in the Air upon the Temperature of the Ground.' Philosophical Magazine and Journal of Science, 41(251), 237–276. Arrhenius actually welcomed the prospect of gradual warming as beneficial for agriculture in cold climates and expected it to unfold over millennia; he had no way to anticipate the twentieth century's exponential rise in fossil fuel consumption, which compressed his projected timescale enormously (see st1, st12).",
+          "links": [
+            "st1",
+            "st12",
+            "fg2"
+          ],
+          "keywords": [
+            "carbon dioxide radiative forcing",
+            "industrial warming prediction",
+            "infrared heat trapping"
+          ]
+        },
+        {
+          "id": "th4",
+          "group": "Biogeochemical Cycles & Planetary Systems",
+          "label": "Planetary Boundaries Framework",
+          "date": "2009",
+          "loc": "Stockholm Resilience Centre, Stockholm, Sweden",
+          "coords": [
+            59.33,
+            18.06
+          ],
+          "tag": "FRAMEWORK",
+          "hint": "Nine interconnected Earth-system processes — including climate change, biodiversity loss, ocean acidification, and nitrogen and phosphorus cycles — each have a proposed safe operating boundary that, once crossed, risks pushing the planet out of the relatively stable environmental conditions that have prevailed since the last ice age and that all of human civilisation has developed within.",
+          "note": "Rockström, J. et al. (2009). 'A Safe Operating Space for Humanity.' Nature, 461, 472–475. Updated assessments suggest six of the nine boundaries have already been transgressed, including climate change, biodiversity integrity, and novel entities such as plastics and synthetic chemicals; critics note the specific numerical thresholds carry substantial scientific uncertainty and some boundaries interact in ways the original framework did not fully model.",
+          "links": [
+            "th9",
+            "ef8",
+            "co5"
+          ],
+          "keywords": [
+            "safe operating space",
+            "earth system boundary",
+            "planetary threshold transgression"
+          ]
+        },
+        {
+          "id": "th5",
+          "group": "Ecosystem Ecology & Biodiversity",
+          "label": "Ecological Resilience Theory",
+          "date": "1973",
+          "loc": "University of British Columbia, Vancouver, Canada",
+          "coords": [
+            49.26,
+            -123.25
+          ],
+          "tag": "THEORY",
+          "hint": "Holling distinguished two very different kinds of stability: 'engineering resilience,' how quickly a system returns to its single equilibrium after a disturbance, and 'ecological resilience,' how much disturbance a system can absorb before it flips into an entirely different, often less desirable stable state — a distinction that reframed conservation's goal from preventing all change to preserving a system's capacity to absorb change without collapsing.",
+          "note": "Holling, C.S. (1973). 'Resilience and Stability of Ecological Systems.' Annual Review of Ecology and Systematics, 4, 1–23. The ecological-resilience concept underlies modern regime-shift and tipping-point research (see co5) and reframed environmental management away from single-equilibrium thinking, though critics note 'resilience' is sometimes used so broadly in policy contexts that it loses clear, testable meaning.",
+          "links": [
+            "co5",
+            "th4"
+          ],
+          "keywords": [
+            "engineering vs ecological resilience",
+            "alternative stable states",
+            "disturbance absorption capacity"
+          ]
+        },
+        {
+          "id": "th6",
+          "group": "Resource Systems, Agriculture & Sustainability",
+          "label": "Man and Nature (Marsh)",
+          "date": "1864",
+          "loc": "Turin, Italy",
+          "coords": [
+            45.07,
+            7.69
+          ],
+          "tag": "THEORY",
+          "hint": "Marsh argued, decades before ecology existed as a formal science, that human activity — deforestation, drainage, overgrazing — was not a minor local inconvenience but a force capable of permanently degrading a region's physical geography and climate, using the deforested, eroded hillsides of the ancient Mediterranean world as a cautionary tale for what unchecked resource extraction would do to the still-forested United States.",
+          "note": "Marsh, G.P. (1864). Man and Nature; or, Physical Geography as Modified by Human Action. Charles Scribner. Written while Marsh served as U.S. Minister to the Kingdom of Italy, drawing directly on the deforested Italian and Mediterranean landscapes he observed. The book is widely credited with directly inspiring the American forest conservation movement and the creation of forest reserves in the following decades.",
+          "links": [
+            "fg1",
+            "ef6"
+          ],
+          "keywords": [
+            "anthropogenic landscape degradation",
+            "deforestation historical warning",
+            "conservation movement origin"
+          ]
+        },
+        {
+          "id": "th7",
+          "group": "Environmental Policy & Governance",
+          "label": "The Tragedy of the Commons",
+          "date": "1968",
+          "loc": "University of California, Santa Barbara, California",
+          "coords": [
+            34.41,
+            -119.85
+          ],
+          "tag": "THEORY",
+          "hint": "When a resource is shared and open to all — a common pasture, an ocean fishery, the atmosphere's capacity to absorb carbon — each individual user benefits fully from taking more while the cost of depletion is spread across everyone, creating a structural incentive for every rational user to over-exploit the resource until it collapses, even though everyone would be better off with restraint.",
+          "note": "Hardin, G. (1968). 'The Tragedy of the Commons.' Science, 162(3859), 1243–1248. Hardin's own proposed solutions — privatisation or centralised state regulation — were later shown to be incomplete: Elinor Ostrom's fieldwork (see fg8, db1) documented numerous real-world commons that communities have sustainably self-governed for centuries through neither pure privatisation nor top-down control.",
+          "links": [
+            "fg8",
+            "db1"
+          ],
+          "keywords": [
+            "shared resource overexploitation",
+            "common pool resource",
+            "open access depletion"
+          ]
+        },
+        {
+          "id": "th8",
+          "group": "Resource Systems, Agriculture & Sustainability",
+          "label": "The IPAT Equation",
+          "date": "1971",
+          "loc": "Stanford University, Stanford, California",
+          "coords": [
+            37.43,
+            -122.17
+          ],
+          "tag": "FRAMEWORK",
+          "hint": "Environmental impact is not caused by any single factor alone but by the multiplied product of three: how many people there are, how much each person consumes, and how much environmental damage each unit of consumption causes given the current technology — a simple identity that lets researchers decompose an environmental trend into how much came from population growth, rising affluence, or technological change.",
+          "note": "Ehrlich, P.R. & Holdren, J.P. (1971). 'Impact of Population Growth.' Science, 171(3977), 1212–1217, formalised as I = PAT. The equation's simplicity has drawn criticism for treating population, affluence and technology as independent multipliers when in reality they interact, and how much weight to assign each factor in explaining any given environmental problem remains genuinely contested (see db4).",
+          "links": [
+            "fg10",
+            "db4",
+            "db9"
+          ],
+          "keywords": [
+            "population affluence technology",
+            "environmental impact decomposition",
+            "ipat identity"
+          ]
+        },
+        {
+          "id": "th9",
+          "group": "Biogeochemical Cycles & Planetary Systems",
+          "label": "Gaia Hypothesis",
+          "date": "1972",
+          "loc": "NASA Jet Propulsion Laboratory, Pasadena, California",
+          "coords": [
+            34.2,
+            -118.17
+          ],
+          "tag": "THEORY",
+          "hint": "While consulting for NASA on how to detect life on Mars, Lovelock proposed that Earth's atmosphere, oceans and biosphere function together as a single, self-regulating system that actively maintains conditions — temperature, atmospheric composition, ocean chemistry — suitable for life, in a manner loosely analogous to a living organism's homeostasis, even though no single organism or committee is coordinating the regulation.",
+          "note": "Lovelock, J.E. (1972). 'Gaia as Seen Through the Atmosphere.' Atmospheric Environment, 6(8), 579–580. The strongest early version of the hypothesis, implying life actively regulates the planet for its own benefit, was widely criticised by evolutionary biologists including Richard Dawkins and W. Ford Doolittle as biologically implausible, since natural selection acts on individual organisms, not planets; a weaker, now more widely accepted version treats Gaia as an emergent property of coupled biogeochemical feedback loops rather than a purposeful regulatory system.",
+          "links": [
+            "th4",
+            "fg6"
+          ],
+          "keywords": [
+            "earth system self regulation",
+            "biosphere homeostasis",
+            "coupled feedback loops"
+          ]
+        },
+        {
+          "id": "th10",
+          "group": "Environmental Policy & Governance",
+          "label": "Doughnut Economics",
+          "date": "2012",
+          "loc": "Oxford University, Oxford, England",
+          "coords": [
+            51.75,
+            -1.26
+          ],
+          "tag": "FRAMEWORK",
+          "hint": "An economy should aim to keep human activity within a 'doughnut' bounded on the inside by a social foundation — the minimum resources everyone needs for a decent life, like food, water, and education — and on the outside by the planetary boundaries (see th4) that human activity must not overshoot, reframing economic success away from continuous growth and toward staying within both floors simultaneously.",
+          "note": "Raworth, K. (2012). 'A Safe and Just Space for Humanity: Can We Live Within the Doughnut?' Oxfam Discussion Paper, later expanded into Doughnut Economics (2017, Chelsea Green Publishing). The framework has been formally adopted by several city governments, including Amsterdam, as a planning tool; critics argue it is more a compelling normative vision than an operational economic model with clear mechanisms for how to actually achieve the transition it describes.",
+          "links": [
+            "th4",
+            "co7"
+          ],
+          "keywords": [
+            "social planetary boundaries",
+            "post growth economics",
+            "safe and just space"
+          ]
+        }
+      ]
     },
     {
       "id": "study",
@@ -33,7 +267,319 @@
       "accent": "#7D3C98",
       "bg": "#FAF5FF",
       "subtitle": "The defining experiments — and exactly what they found",
-      "entries": []
+      "entries": [
+        {
+          "id": "st1",
+          "group": "Climate Science & Global Change",
+          "label": "The Keeling Curve",
+          "date": "1958",
+          "loc": "Mauna Loa Observatory, Hawaii",
+          "coords": [
+            19.54,
+            -155.58
+          ],
+          "tag": "EXPERIMENT",
+          "repl": "robust",
+          "hint": "Charles David Keeling began continuously measuring atmospheric carbon dioxide concentration at a remote, high-altitude observatory far from local pollution sources, revealing both a small seasonal wiggle caused by the Northern Hemisphere's growing season and a steady, unmistakable year-on-year rise — turning an abstract theoretical prediction about greenhouse gases into a concrete, continuously updated global measurement.",
+          "note": "Keeling, C.D. (1960). 'The Concentration and Isotopic Abundances of Carbon Dioxide in the Atmosphere.' Tellus, 12(2), 200–203, began the continuous record still maintained today. CO2 has risen from about 315 parts per million when recording began to over 420 ppm by the mid-2020s; the record is widely regarded as one of the most important and unambiguous datasets in the history of environmental science, directly underpinning Arrhenius's theoretical prediction (see th3).",
+          "links": [
+            "th3",
+            "fg5"
+          ],
+          "keywords": [
+            "mauna loa co2 record",
+            "atmospheric carbon monitoring",
+            "continuous greenhouse gas measurement"
+          ]
+        },
+        {
+          "id": "st2",
+          "group": "Pollution, Toxicology & Environmental Health",
+          "label": "Antarctic Ozone Hole Discovery",
+          "date": "1985",
+          "loc": "British Antarctic Survey, Cambridge, England",
+          "coords": [
+            52.21,
+            0.09
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Ground-based measurements at a remote Antarctic research station found springtime ozone concentrations had collapsed by over 60% compared to historical levels — a discovery so extreme the researchers initially suspected an instrument fault, before confirming it was a real, severe depletion caused by chlorine and bromine compounds released from human-made chlorofluorocarbon (CFC) refrigerants and aerosol propellants reacting with polar stratospheric clouds.",
+          "note": "Farman, J.C., Gardiner, B.G. & Shanklin, J.D. (1985). 'Large Losses of Total Ozone in Antarctica Reveal Seasonal ClOx/NOx Interaction.' Nature, 315, 207–210. The discovery directly led to the 1987 Montreal Protocol banning CFCs, whose effectiveness was later confirmed by direct observation of ozone layer recovery (see st8) — widely considered the most successful international environmental treaty in history.",
+          "links": [
+            "st8",
+            "ef7"
+          ],
+          "keywords": [
+            "chlorofluorocarbon ozone depletion",
+            "polar stratospheric cloud chemistry",
+            "montreal protocol origin"
+          ]
+        },
+        {
+          "id": "st3",
+          "group": "Ecosystem Ecology & Biodiversity",
+          "label": "Yellowstone Wolf Reintroduction",
+          "date": "1995",
+          "loc": "Yellowstone National Park, Wyoming",
+          "coords": [
+            44.6,
+            -110.55
+          ],
+          "tag": "FIELD STUDY",
+          "repl": "mixed",
+          "hint": "Grey wolves, eliminated from Yellowstone by 1926, were reintroduced seven decades later, and researchers documented a cascade of ecological changes that followed: elk herds became more vigilant and mobile, overbrowsed willow and aspen stands began recovering along streams, beaver populations rebounded as tree cover returned, and stream-bank erosion patterns shifted — a real-world test of trophic cascade theory (see th2) at ecosystem scale.",
+          "note": "Ripple, W.J. & Beschta, R.L. (2012). 'Trophic Cascades in Yellowstone: The First 15 Years After Wolf Reintroduction.' Biological Conservation, 145(1), 205–213, documented the cascade. Subsequent research (Kauffman, M.J. et al. 2010, Ecology) found the vegetation recovery was patchier and more strongly driven by changing climate and elk population size than by wolf-induced fear alone, tempering the more dramatic 'landscape of fear' narrative that became popular in science communication.",
+          "links": [
+            "th2",
+            "ef9"
+          ],
+          "keywords": [
+            "wolf reintroduction cascade",
+            "landscape of fear debate",
+            "riparian vegetation recovery"
+          ]
+        },
+        {
+          "id": "st4",
+          "group": "Conservation Biology & Restoration",
+          "label": "The Millennium Ecosystem Assessment",
+          "date": "2005",
+          "loc": "Washington, D.C.",
+          "coords": [
+            38.9,
+            -77.04
+          ],
+          "tag": "FIELD STUDY",
+          "repl": "robust",
+          "hint": "Over 1,300 scientists from 95 countries assessed the condition and trends of the world's ecosystems and the services they provide to humanity — food, clean water, climate regulation, disease control — and concluded that roughly 60% of the ecosystem services examined were being degraded or used unsustainably, providing the first comprehensive, globally coordinated scientific baseline for the ecosystem services concept.",
+          "note": "Millennium Ecosystem Assessment (2005). Ecosystems and Human Well-Being: Synthesis. Island Press, coordinated through the United Nations. The assessment's ecosystem-services framing (see co2) became the standard vocabulary for conservation policy and economics in the following two decades, though critics argue that putting a monetary value on nature's services risks reducing ecological arguments to purely economic ones.",
+          "links": [
+            "co2",
+            "st6"
+          ],
+          "keywords": [
+            "ecosystem service degradation",
+            "global environmental assessment",
+            "un synthesis report"
+          ]
+        },
+        {
+          "id": "st5",
+          "group": "Pollution, Toxicology & Environmental Health",
+          "label": "DDT Eggshell Thinning Studies",
+          "date": "1967",
+          "loc": "British Trust for Ornithology, Thetford, England",
+          "coords": [
+            52.41,
+            0.75
+          ],
+          "tag": "FIELD STUDY",
+          "repl": "robust",
+          "hint": "Comparing museum egg collections from before and after DDT's widespread agricultural use, researchers found peregrine falcon, sparrowhawk and other raptor eggshells had become measurably thinner and more likely to break under the parent's own weight during incubation — a mechanistic explanation for the sharp population crashes in birds of prey that Rachel Carson had warned about (see fg4) but that critics at the time dismissed as unproven.",
+          "note": "Ratcliffe, D.A. (1967). 'Decrease in Eggshell Weight in Certain Birds of Prey.' Nature, 215, 208–210. DDT and its breakdown product DDE were shown to interfere with calcium metabolism during eggshell formation. The finding was decisive evidence in the case for banning DDT in the United States (1972) and several other countries, and raptor populations, including peregrine falcons and bald eagles, have substantially recovered in the decades since (see ef2).",
+          "links": [
+            "fg4",
+            "ef2"
+          ],
+          "keywords": [
+            "ddt eggshell thinning",
+            "raptor population crash",
+            "calcium metabolism disruption"
+          ]
+        },
+        {
+          "id": "st6",
+          "group": "Conservation Biology & Restoration",
+          "label": "The Living Planet Index",
+          "date": "1998",
+          "loc": "Zoological Society of London, London, England",
+          "coords": [
+            51.53,
+            -0.15
+          ],
+          "tag": "FIELD STUDY",
+          "repl": "mixed",
+          "hint": "Tracking population trends across thousands of vertebrate species worldwide since 1970, the index found average monitored wildlife populations had declined by more than two-thirds, becoming one of the most widely cited — and most widely misunderstood — statistics in conservation, since it measures the average population trend, not the number or proportion of species that have gone extinct.",
+          "note": "WWF & Zoological Society of London (1998, updated biennially). Living Planet Report. Statisticians (Leung, B. et al. 2020, Nature) have flagged that the index's headline average is disproportionately influenced by a small number of populations with extreme declines, and can overstate the typical trend across all monitored species; the underlying data nonetheless documents genuine, widespread vertebrate population decline even after this methodological caveat is accounted for.",
+          "links": [
+            "st4",
+            "co4"
+          ],
+          "keywords": [
+            "vertebrate population trend",
+            "wildlife decline statistic",
+            "conservation index methodology"
+          ]
+        },
+        {
+          "id": "st7",
+          "group": "Resource Systems, Agriculture & Sustainability",
+          "label": "Easter Island Deforestation",
+          "date": "1984",
+          "loc": "University of Hull, Hull, England",
+          "coords": [
+            53.77,
+            -0.36
+          ],
+          "tag": "FIELD STUDY",
+          "repl": "mixed",
+          "hint": "Pollen preserved in ancient lake sediment cores on Rapa Nui (Easter Island) revealed the island had once been covered in dense palm forest that vanished almost entirely within a few centuries of Polynesian settlement, becoming a widely cited cautionary case study for how resource overexploitation and deforestation can precipitate a small, isolated society's ecological and social collapse.",
+          "note": "Flenley, J.R. & King, S.M. (1984). 'Late Quaternary Pollen Records from Easter Island.' Nature, 307, 47–50, established the deforestation timeline. The popular 'ecocide' narrative that Rapa Nui society then collapsed catastrophically has since been substantially revised: archaeological work (Hunt, T.L. & Lipo, C.P. 2011, The Statues That Walked) argues introduced Polynesian rats, not solely human overharvesting, drove much of the deforestation, and that the island's population may have declined gradually rather than catastrophically, mainly after European contact introduced disease.",
+          "links": [
+            "th6",
+            "co1"
+          ],
+          "keywords": [
+            "pollen core deforestation",
+            "island ecological collapse",
+            "resource overexploitation case study"
+          ]
+        },
+        {
+          "id": "st8",
+          "group": "Pollution, Toxicology & Environmental Health",
+          "label": "Montreal Protocol Ozone Recovery Confirmation",
+          "date": "2016",
+          "loc": "National Oceanic and Atmospheric Administration, Boulder, Colorado",
+          "coords": [
+            40.02,
+            -105.27
+          ],
+          "tag": "EXPERIMENT",
+          "repl": "robust",
+          "hint": "Nearly three decades after the Montreal Protocol banned ozone-depleting chemicals, researchers used direct atmospheric measurements to confirm the Antarctic ozone hole was measurably shrinking and healing, providing rare, unambiguous proof that a coordinated global policy response to an environmental crisis can produce a directly observable physical recovery.",
+          "note": "Solomon, S. et al. (2016). 'Emergence of Healing in the Antarctic Ozone Layer.' Science, 353(6296), 269–274. The ozone layer is projected to recover to 1980 levels by around 2066 over Antarctica; a 2018 UN assessment confirmed the recovery trend was continuing, though occasional large ozone holes still recur in years with unusually cold Antarctic stratospheric conditions, and illegal CFC-11 emissions detected in 2018 briefly slowed the recovery rate.",
+          "links": [
+            "st2",
+            "fg2"
+          ],
+          "keywords": [
+            "ozone layer healing",
+            "montreal protocol success",
+            "atmospheric policy verification"
+          ]
+        },
+        {
+          "id": "st9",
+          "group": "Pollution, Toxicology & Environmental Health",
+          "label": "Chernobyl Exclusion Zone Ecological Study",
+          "date": "2007",
+          "loc": "University of Paris-Sud, Orsay, France",
+          "coords": [
+            48.7,
+            2.17
+          ],
+          "tag": "FIELD STUDY",
+          "repl": "mixed",
+          "hint": "Surveying bird populations across the radioactive contamination gradient surrounding the Chernobyl disaster site, researchers found species richness and abundance were significantly reduced in the most heavily contaminated areas — evidence against the popular narrative that the exclusion zone, empty of permanent human residents for decades, has become an unambiguous wildlife 'paradise' simply because humans left.",
+          "note": "Møller, A.P. & Mousseau, T.A. (2007). 'Species Richness and Abundance of Forest Birds in Relation to Radiation at Chernobyl.' Biology Letters, 3(5), 483–486. Other researchers (Deryabina, T.G. et al. 2015, Current Biology) using camera-trap and aerial survey methods found large mammal populations, including wolves and elk, have substantially increased within the zone, suggesting the absence of human land use may outweigh radiation's negative effects for some taxa even as it harms others — the two findings are not necessarily contradictory but reflect genuinely different sensitivities across species.",
+          "links": [
+            "ef7"
+          ],
+          "keywords": [
+            "radioactive contamination gradient",
+            "wildlife exclusion zone",
+            "chernobyl bird decline"
+          ]
+        },
+        {
+          "id": "st10",
+          "group": "Climate Science & Global Change",
+          "label": "1998 Global Coral Bleaching Event",
+          "date": "1999",
+          "loc": "University of Queensland, Brisbane, Australia",
+          "coords": [
+            -27.5,
+            153.01
+          ],
+          "tag": "FIELD STUDY",
+          "repl": "robust",
+          "hint": "An unusually intense El Niño-driven ocean warming event in 1997–98 triggered the first globally synchronised mass coral bleaching on record, killing an estimated 16% of the world's coral reefs within a single year and establishing that rising ocean temperatures, not just localised pollution or overfishing, had become a first-order threat to reef ecosystems worldwide.",
+          "note": "Hoegh-Guldberg, O. (1999). 'Climate Change, Coral Bleaching and the Future of the World's Coral Reefs.' Marine and Freshwater Research, 50(8), 839–866, synthesised the 1998 event's global scope. Mass bleaching events have recurred with increasing frequency and severity since, including severe back-to-back bleaching of the Great Barrier Reef in 2016 and 2017, shortening the recovery time reefs have between events.",
+          "links": [
+            "th3",
+            "co5"
+          ],
+          "keywords": [
+            "mass coral bleaching event",
+            "ocean warming threshold",
+            "reef ecosystem climate threat"
+          ]
+        },
+        {
+          "id": "st11",
+          "group": "Resource Systems, Agriculture & Sustainability",
+          "label": "The Green Revolution Wheat Yield Studies",
+          "date": "1968",
+          "loc": "International Maize and Wheat Improvement Center (CIMMYT), Texcoco, Mexico",
+          "coords": [
+            19.51,
+            -98.88
+          ],
+          "tag": "FIELD STUDY",
+          "repl": "robust",
+          "hint": "Breeding short-stemmed, disease-resistant, high-yield wheat varieties that responded well to fertiliser without collapsing under their own grain weight, Borlaug's program more than doubled wheat yields across Mexico, India and Pakistan within a decade — widely credited with averting predicted mass famine in South Asia, while also locking in a dependence on fertiliser, irrigation and monoculture that raised new sustainability concerns.",
+          "note": "Borlaug, N.E. and colleagues at CIMMYT developed the semi-dwarf wheat varieties through the 1950s and 1960s; their large-scale adoption in South Asia from 1968 onward is generally dated as the start of the Green Revolution. Borlaug received the 1970 Nobel Peace Prize. Critics (Shiva, V. 1991, The Violence of the Green Revolution) argue the shift to fertiliser- and irrigation-dependent monocultures reduced agricultural biodiversity and increased vulnerability to pests and drought, a tension directly echoed in later debates over agricultural resilience (see db3).",
+          "links": [
+            "th8",
+            "db3"
+          ],
+          "keywords": [
+            "green revolution wheat breeding",
+            "semi-dwarf crop variety",
+            "agricultural yield intensification"
+          ]
+        },
+        {
+          "id": "st12",
+          "group": "Climate Science & Global Change",
+          "label": "Detection and Attribution of Human-Caused Warming",
+          "date": "1996",
+          "loc": "Lawrence Livermore National Laboratory, Livermore, California",
+          "coords": [
+            37.68,
+            -121.77
+          ],
+          "tag": "EXPERIMENT",
+          "repl": "robust",
+          "hint": "Comparing the specific vertical pattern of atmospheric warming and cooling predicted by climate models driven by human greenhouse gas emissions against the actual observed pattern, researchers found a statistically significant match that could not be explained by natural climate variability alone — the first rigorous statistical 'fingerprint' evidence formally attributing recent global warming to human activity rather than solar or volcanic causes.",
+          "note": "Santer, B.D. et al. (1996). 'A Search for Human Influences on the Thermal Structure of the Atmosphere.' Nature, 382, 39–46. The detection-and-attribution methodology pioneered here became the standard evidentiary framework used by the Intergovernmental Panel on Climate Change in subsequent assessment reports, and has since been extended to attribute individual extreme weather events, not just long-term trends, to climate change with increasing statistical confidence.",
+          "links": [
+            "th3",
+            "fg12"
+          ],
+          "keywords": [
+            "climate fingerprint detection",
+            "human attribution statistics",
+            "atmospheric warming pattern"
+          ]
+        },
+        {
+          "id": "st13",
+          "group": "Biogeochemical Cycles & Planetary Systems",
+          "label": "Ocean Acidification Quantification",
+          "date": "2003",
+          "loc": "Lawrence Livermore National Laboratory, Livermore, California",
+          "coords": [
+            37.68,
+            -121.77
+          ],
+          "tag": "EXPERIMENT",
+          "repl": "robust",
+          "hint": "The ocean absorbs roughly a quarter of the carbon dioxide humans emit, and that dissolved CO2 reacts with seawater to form carbonic acid, lowering ocean pH — researchers modelled this process forward under future emissions scenarios and found ocean pH is on track to drop faster than at any point in at least the last 300 million years, a rate of change many marine calcifying organisms may not be able to adapt to.",
+          "note": "Caldeira, K. & Wickett, M.E. (2003). 'Anthropogenic Carbon and Ocean pH.' Nature, 425, 365, which coined the term 'ocean acidification.' Surface ocean pH has already fallen by about 0.1 units since pre-industrial times, representing roughly a 30% increase in acidity; the biological consequences for shell- and skeleton-building marine organisms are substantial (see ef8) and among the most confidently projected impacts of continued fossil fuel emissions.",
+          "links": [
+            "ef8",
+            "th4"
+          ],
+          "keywords": [
+            "ocean ph decline",
+            "carbonic acid seawater chemistry",
+            "acidification rate unprecedented"
+          ]
+        }
+      ]
     },
     {
       "id": "effect",
