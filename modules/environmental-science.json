@@ -589,7 +589,222 @@
       "accent": "#117A65",
       "bg": "#F0FFF6",
       "subtitle": "Named, replicable patterns in ecological and climate systems",
-      "entries": []
+      "entries": [
+        {
+          "id": "ef1",
+          "group": "Pollution, Toxicology & Environmental Health",
+          "label": "Eutrophication",
+          "date": "1974",
+          "loc": "Experimental Lakes Area, Ontario, Canada",
+          "coords": [
+            49.67,
+            -93.72
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Excess nutrients, especially phosphorus and nitrogen from agricultural runoff and sewage, trigger explosive algae growth in lakes and coastal waters; when the algae die and decompose, bacteria consume the oxygen dissolved in the water, creating oxygen-starved 'dead zones' that suffocate fish and other aquatic life — a process visible in everything from small lakes to the enormous seasonal dead zone in the Gulf of Mexico.",
+          "note": "Schindler, D.W. (1974). 'Eutrophication and Recovery in Experimental Lakes: Implications for Lake Management.' Science, 184(4139), 897–899, used whole-lake experiments at Canada's Experimental Lakes Area to prove phosphorus, not carbon or nitrogen, was the key limiting nutrient driving algal blooms — directly informing subsequent phosphate detergent bans. Reducing phosphorus inputs reliably reverses eutrophication in lakes within years to decades, but large marine dead zones like the Gulf of Mexico's have proven far slower and more difficult to recover from with a comparable intervention.",
+          "links": [
+            "ef2"
+          ],
+          "keywords": [
+            "nutrient runoff algal bloom",
+            "dead zone hypoxia",
+            "whole lake experiment"
+          ]
+        },
+        {
+          "id": "ef2",
+          "group": "Pollution, Toxicology & Environmental Health",
+          "label": "Biomagnification",
+          "date": "1967",
+          "loc": "Brookhaven National Laboratory, Upton, New York",
+          "coords": [
+            40.87,
+            -72.89
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Certain persistent chemicals, particularly fat-soluble pollutants like DDT and mercury, don't break down or wash out of an organism's body — so each predator in a food chain accumulates the pollutant load of everything it has eaten, meaning concentrations can multiply millions of times over from the water or soil up through plankton, small fish, larger fish, and finally top predators like ospreys, seals, or humans.",
+          "note": "Woodwell, G.M., Wurster, C.F. & Isaacson, P.A. (1967). 'DDT Residues in an East Coast Estuary: A Case of Biological Concentration.' Science, 156(3776), 821–824, documented DDT concentrations rising from parts per trillion in estuary water to several parts per million in fish-eating birds — roughly a ten-million-fold magnification. The phenomenon underlies why apex predators and long-lived species, including humans consuming fish, face disproportionate exposure risk from pollutants present at seemingly trace levels in the wider environment.",
+          "links": [
+            "ef1",
+            "st5"
+          ],
+          "keywords": [
+            "food chain concentration",
+            "persistent pollutant accumulation",
+            "apex predator exposure"
+          ]
+        },
+        {
+          "id": "ef3",
+          "group": "Climate Science & Global Change",
+          "label": "Urban Heat Island Effect",
+          "date": "1833",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Cities are measurably warmer than their surrounding rural areas, sometimes by several degrees Celsius, because dark paved surfaces and buildings absorb and re-radiate more solar heat than vegetation does, waste heat from vehicles, air conditioning and industry adds directly to the local air, and the loss of vegetation reduces evaporative cooling — an effect strongest at night, when rural areas cool quickly and urban concrete continues releasing stored heat.",
+          "note": "Howard, L. (1833). The Climate of London, Deduced from Meteorological Observations. Harvey and Darton, is widely credited as the first systematic scientific documentation of the effect, based on decades of his own temperature records. Urban heat islands compound the health risks of climate-driven heatwaves for city residents and can be substantially mitigated through increased tree cover, reflective 'cool roof' materials, and reduced paved surface area.",
+          "links": [
+            "th3"
+          ],
+          "keywords": [
+            "urban rural temperature difference",
+            "impervious surface heat absorption",
+            "nighttime heat retention"
+          ]
+        },
+        {
+          "id": "ef4",
+          "group": "Biogeochemical Cycles & Planetary Systems",
+          "label": "Ice-Albedo Feedback",
+          "date": "1969",
+          "loc": "Main Geophysical Observatory, Leningrad, USSR",
+          "coords": [
+            59.94,
+            30.31
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Ice and snow reflect most sunlight back to space, but the darker ocean or land surface exposed when ice melts absorbs much more solar energy instead — so a small initial warming that melts some ice causes more heat absorption, which melts more ice, in a self-reinforcing loop that makes polar regions warm several times faster than the global average, a pattern now clearly observed in the Arctic.",
+          "note": "Budyko, M.I. (1969). 'The Effect of Solar Radiation Variations on the Climate of the Earth.' Tellus, 21(5), 611–619, formalised the feedback in an early energy-balance climate model; Sellers, W.D. (1969) independently derived a similar result the same year. The Arctic has warmed roughly three to four times faster than the global average since the 1970s, a pattern climate scientists term 'Arctic amplification' and attribute substantially to this feedback.",
+          "links": [
+            "ef5",
+            "th4"
+          ],
+          "keywords": [
+            "arctic amplification warming",
+            "sea ice albedo loop",
+            "self-reinforcing feedback"
+          ]
+        },
+        {
+          "id": "ef5",
+          "group": "Biogeochemical Cycles & Planetary Systems",
+          "label": "Permafrost Thaw Methane Release",
+          "date": "2006",
+          "loc": "University of Alaska Fairbanks, Fairbanks, Alaska",
+          "coords": [
+            64.86,
+            -147.85
+          ],
+          "tag": "PHENOMENON",
+          "repl": "mixed",
+          "hint": "Vast stores of ancient organic carbon, frozen in Arctic permafrost soil for thousands of years, begin decomposing once the ground thaws, releasing carbon dioxide and, in oxygen-poor wet areas, methane — a much more potent greenhouse gas over short timescales — creating a feedback loop where warming causes thaw, which releases greenhouse gases, which causes more warming, potentially releasing carbon that current climate models don't fully account for.",
+          "note": "Walter, K.M. et al. (2006). 'Methane Bubbling from Siberian Thaw Lakes as a Positive Feedback to Climate Warming.' Nature, 443, 71–75. Arctic permafrost is estimated to hold roughly twice as much carbon as is currently in the atmosphere; how much of it will actually be released, on what timescale, and in what proportion as methane versus the less potent carbon dioxide remains one of the largest sources of uncertainty in long-term climate projections, making this a genuine known risk rather than a fully quantified one.",
+          "links": [
+            "ef4",
+            "th4"
+          ],
+          "keywords": [
+            "frozen carbon decomposition",
+            "arctic methane feedback",
+            "thaw lake emissions"
+          ]
+        },
+        {
+          "id": "ef6",
+          "group": "Resource Systems, Agriculture & Sustainability",
+          "label": "Desertification",
+          "date": "1975",
+          "loc": "Massachusetts Institute of Technology, Cambridge, Massachusetts",
+          "coords": [
+            42.36,
+            -71.09
+          ],
+          "tag": "PHENOMENON",
+          "repl": "mixed",
+          "hint": "Once vegetation is lost from a semi-arid region — through overgrazing, drought, or deforestation — the exposed, lighter-coloured soil reflects more sunlight, altering local heat and moisture patterns in ways that suppress rainfall further, discouraging vegetation from regrowing even after the original triggering drought ends, turning a temporary dry spell into potentially long-term or permanent land degradation.",
+          "note": "Charney, J.G. (1975). 'Dynamics of Deserts and Drought in the Sahel.' Quarterly Journal of the Royal Meteorological Society, 101(428), 193–202, proposed the vegetation-albedo self-reinforcing mechanism. Later research has shown desertification's causes and reversibility vary considerably by region: some Sahel areas have shown surprising vegetation recovery ('re-greening') since the severe droughts of the 1970s-80s, complicating simple narratives of irreversible, one-directional land degradation.",
+          "links": [
+            "th6"
+          ],
+          "keywords": [
+            "vegetation albedo feedback",
+            "sahel drought mechanism",
+            "land degradation reversibility"
+          ]
+        },
+        {
+          "id": "ef7",
+          "group": "Pollution, Toxicology & Environmental Health",
+          "label": "Endocrine Disruption in Wildlife",
+          "date": "1994",
+          "loc": "University of Florida, Gainesville, Florida",
+          "coords": [
+            29.65,
+            -82.32
+          ],
+          "tag": "PHENOMENON",
+          "repl": "mixed",
+          "hint": "Certain synthetic chemicals can mimic, block, or otherwise interfere with an organism's natural hormones even at extremely low concentrations, disrupting sexual development and reproduction — most dramatically documented in alligators from a Florida lake contaminated by a pesticide spill, whose juveniles showed abnormal sex organs and sex hormone levels years after the contamination occurred, and in intersex fish found downstream of wastewater treatment plants worldwide.",
+          "note": "Guillette, L.J. et al. (1994). 'Developmental Abnormalities of the Gonad and Abnormal Sex Hormone Concentrations in Juvenile Alligators from Contaminated and Control Lakes in Florida.' Environmental Health Perspectives, 102(8), 680–688, documented the Lake Apopka alligator findings following a 1980 pesticide spill. The broader field of endocrine disruption research has faced genuine scientific difficulty establishing clear dose-response relationships for many suspected disruptors, since some hormone-mimicking effects appear strongest at very low doses and weaker at higher ones, defying the toxicological assumption that 'the dose makes the poison.'",
+          "links": [
+            "st2",
+            "st9"
+          ],
+          "keywords": [
+            "hormone mimicking chemical",
+            "reproductive abnormality wildlife",
+            "low dose response anomaly"
+          ]
+        },
+        {
+          "id": "ef8",
+          "group": "Biogeochemical Cycles & Planetary Systems",
+          "label": "Ocean Acidification's Effect on Calcifying Organisms",
+          "date": "2005",
+          "loc": "Laboratoire des Sciences du Climat et de l’Environnement, Gif-sur-Yvette, France",
+          "coords": [
+            48.71,
+            2.15
+          ],
+          "tag": "EFFECT",
+          "repl": "robust",
+          "hint": "As ocean water becomes more acidic, it holds less of the dissolved carbonate ions that shell- and skeleton-building marine organisms — corals, oysters, sea urchins, and free-swimming pteropod snails that form the base of many polar food webs — need to build and maintain their calcium carbonate structures, and below a critical threshold the water can even begin actively dissolving existing shells rather than merely making new growth harder.",
+          "note": "Orr, J.C. et al. (2005). 'Anthropogenic Ocean Acidification over the Twenty-First Century and Its Impact on Calcifying Organisms.' Nature, 437, 681–686, projected Southern Ocean waters could become corrosive to pteropod shells within decades under continued emissions — a projection since confirmed by direct field observations of shell dissolution in wild pteropods. Sensitivity to acidification varies substantially by species and life stage, with larval and juvenile stages generally the most vulnerable.",
+          "links": [
+            "th4",
+            "co5",
+            "st13"
+          ],
+          "keywords": [
+            "calcium carbonate dissolution",
+            "pteropod shell vulnerability",
+            "acidification threshold effect"
+          ]
+        },
+        {
+          "id": "ef9",
+          "group": "Ecosystem Ecology & Biodiversity",
+          "label": "Mesopredator Release",
+          "date": "1988",
+          "loc": "San Diego, California",
+          "coords": [
+            32.72,
+            -117.16
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Removing or reducing an apex predator doesn't just relieve pressure on herbivores — it also releases mid-sized 'mesopredators' that the apex predator used to suppress, whose populations then explode and increase predation pressure on smaller prey species, sometimes causing declines just as severe as removing the apex predator was originally meant to prevent, illustrating how food web effects can cut in genuinely unexpected directions.",
+          "note": "Soulé, M.E. et al. (1988). 'Reconstructed Dynamics of Rapid Extinctions of Chaparral-Requiring Birds in Urban Habitat Islands.' Conservation Biology, 2(1), 75–92, documented how coyote decline in fragmented San Diego chaparral patches released smaller predators (cats, foxes), which then drove local extinctions of ground-nesting birds. The phenomenon is now a standard consideration in predator reintroduction and management planning alongside classic top-down trophic cascade effects (see th2).",
+          "links": [
+            "th2",
+            "st3"
+          ],
+          "keywords": [
+            "apex predator removal",
+            "mid sized predator release",
+            "unexpected trophic effect"
+          ]
+        }
+      ]
     },
     {
       "id": "concept",
@@ -599,7 +814,189 @@
       "accent": "#566573",
       "bg": "#F5F6FA",
       "subtitle": "The building blocks and vocabulary every student must command",
-      "entries": []
+      "entries": [
+        {
+          "id": "co1",
+          "group": "Resource Systems, Agriculture & Sustainability",
+          "label": "Carrying Capacity",
+          "date": "1838",
+          "loc": "Brussels, Belgium",
+          "coords": [
+            50.85,
+            4.35
+          ],
+          "tag": "CONCEPT",
+          "hint": "Any environment can only sustainably support a finite population of a given species, set by the availability of food, water, space, and other resources — population growth that starts exponentially slows and eventually plateaus as it approaches this ceiling, a mathematical relationship (the logistic growth curve) that underlies everything from wildlife population management to debates about how many humans the Earth can ultimately support.",
+          "note": "Verhulst, P.F. (1838). 'Notice sur la loi que la population suit dans son accroissement.' Correspondance mathématique et physique, 10, 113–121, introduced the logistic growth equation and its carrying capacity parameter. Human carrying capacity is far more contested than carrying capacity for other species, since human resource use is heavily mediated by technology, trade, and consumption patterns that can shift dramatically, making any single fixed number for Earth's human carrying capacity scientifically far less well-defined than the concept is for a single wildlife population in a fixed habitat.",
+          "links": [
+            "st7",
+            "th8"
+          ],
+          "keywords": [
+            "logistic growth curve",
+            "resource limited population",
+            "sustainable population ceiling"
+          ]
+        },
+        {
+          "id": "co2",
+          "group": "Conservation Biology & Restoration",
+          "label": "Ecosystem Services",
+          "date": "1997",
+          "loc": "University of Maryland Center for Environmental Science, Solomons, Maryland",
+          "coords": [
+            38.32,
+            -76.45
+          ],
+          "tag": "CONCEPT",
+          "hint": "Natural ecosystems provide humanity with tangible economic value — pollinating crops, purifying water, regulating climate, buffering coastlines from storms — that markets typically don't price and that gets ignored in conventional economic accounting unless it's deliberately measured and factored into decisions, an idea meant to make nature's often-invisible contributions visible in policy and business terms.",
+          "note": "Costanza, R. et al. (1997). 'The Value of the World's Ecosystem Services and Natural Capital.' Nature, 387, 253–260, offered a controversial first global estimate of roughly $33 trillion per year, comparable to global GNP at the time. The paper's methodology drew sharp criticism (Toman, M. 1998, Ecological Economics, called it 'a serious underestimate of infinity') for aggregating fundamentally different, non-substitutable services into a single dollar figure, though the underlying goal of making ecosystem value visible to policy became mainstream via the Millennium Ecosystem Assessment (see st4).",
+          "links": [
+            "st4"
+          ],
+          "keywords": [
+            "natural capital valuation",
+            "ecosystem economic value",
+            "nature market externality"
+          ]
+        },
+        {
+          "id": "co3",
+          "group": "Ecosystem Ecology & Biodiversity",
+          "label": "Keystone Species",
+          "date": "1969",
+          "loc": "University of Washington, Seattle, Washington",
+          "coords": [
+            47.66,
+            -122.31
+          ],
+          "tag": "CONCEPT",
+          "hint": "Some species exert an influence on their ecosystem's structure and diversity vastly disproportionate to their own abundance or biomass — removing a keystone species, even one that makes up only a tiny fraction of the ecosystem's total living matter, can trigger a cascade of extinctions and structural collapse throughout the whole community, much as removing a literal keystone can collapse an entire stone arch.",
+          "note": "Paine, R.T. (1969). 'A Note on Trophic Complexity and Community Stability.' The American Naturalist, 103(929), 91–93, coined the term following his experimental removal of Pisaster starfish from a Pacific coast tide pool, which caused mussel populations to explode and out-compete over half the other species present. The concept directly overlaps with and reinforces trophic cascade theory (see th2), though not every top predator qualifies as a true keystone species — the designation depends on demonstrated, disproportionate community-wide impact, not simply position at the top of a food chain.",
+          "links": [
+            "th2",
+            "st3"
+          ],
+          "keywords": [
+            "disproportionate ecological influence",
+            "starfish removal experiment",
+            "community structuring species"
+          ]
+        },
+        {
+          "id": "co4",
+          "group": "Ecosystem Ecology & Biodiversity",
+          "label": "Biodiversity",
+          "date": "1988",
+          "loc": "Washington, D.C.",
+          "coords": [
+            38.9,
+            -77.04
+          ],
+          "tag": "CONCEPT",
+          "hint": "Biodiversity operates across three nested levels that all matter for ecosystem health and resilience: genetic diversity within a single species' population, species diversity across a community, and ecosystem diversity across a landscape — a species can go locally extinct without a global extinction, and a population can lose most of its genetic diversity long before its numbers collapse, so headline extinction counts alone understate the true scale of biodiversity loss.",
+          "note": "Wilson, E.O. (ed.) (1988). BioDiversity. National Academy Press, based on the contracted term 'biodiversity' coined by conservation biologist Walter G. Rosen while organizing the 1986 National Forum on BioDiversity. The three-level framework (genetic, species, ecosystem) is now standard in conservation science, and genetic-diversity loss within surviving populations — sometimes called 'cryptic' biodiversity loss since it doesn't show up in extinction counts — is increasingly recognised as a serious, under-measured dimension of the broader biodiversity crisis (see st6).",
+          "links": [
+            "fg7",
+            "st6"
+          ],
+          "keywords": [
+            "genetic species ecosystem diversity",
+            "biodiversity term coinage",
+            "cryptic diversity loss"
+          ]
+        },
+        {
+          "id": "co5",
+          "group": "Biogeochemical Cycles & Planetary Systems",
+          "label": "Tipping Point / Regime Shift",
+          "date": "2001",
+          "loc": "Wageningen University, Wageningen, Netherlands",
+          "coords": [
+            51.98,
+            5.66
+          ],
+          "tag": "CONCEPT",
+          "hint": "Some systems don't decline gradually and predictably as pressure on them increases — instead they can remain deceptively stable right up until a critical threshold is crossed, then flip abruptly into a completely different, often much less desirable stable state that can be extremely difficult or slow to reverse even if the original pressure is later removed, a dynamic seen in lake eutrophication, coral reef collapse, and proposed for large-scale climate subsystems.",
+          "note": "Scheffer, M. et al. (2001). 'Catastrophic Shifts in Ecosystems.' Nature, 413, 591–596, synthesised evidence for abrupt regime shifts across shallow lakes, coral reefs, and drylands. Whether specific large-scale Earth-system components — the Amazon rainforest, the West Antarctic ice sheet, the Atlantic Meridional Overturning Circulation — have genuine tipping points, and how close current warming trends are pushing them toward those thresholds, remains one of the most consequential and actively contested questions in climate science.",
+          "links": [
+            "th5",
+            "th4"
+          ],
+          "keywords": [
+            "catastrophic regime shift",
+            "critical threshold ecosystem",
+            "hysteresis reversal difficulty"
+          ]
+        },
+        {
+          "id": "co6",
+          "group": "Environmental Policy & Governance",
+          "label": "Environmental Justice",
+          "date": "1987",
+          "loc": "New York, New York",
+          "coords": [
+            40.71,
+            -74.01
+          ],
+          "tag": "CONCEPT",
+          "hint": "Environmental hazards — toxic waste sites, polluting industrial facilities, poor air quality — are not randomly distributed across a population but are disproportionately concentrated near low-income communities and communities of colour, meaning environmental degradation and the health burdens it causes function as another axis of social inequality rather than a uniformly shared risk.",
+          "note": "United Church of Christ Commission for Racial Justice (1987). Toxic Wastes and Race in the United States. Public Data Access, Inc., found race to be the single strongest predictor of a US community's proximity to hazardous waste facilities, more predictive than income. Subsequent studies across dozens of countries have found comparable patterns internationally, and the framework has since expanded to cover climate justice — the disproportionate exposure of poorer, historically lower-emitting nations and communities to climate change impacts they contributed least to causing.",
+          "links": [
+            "co7"
+          ],
+          "keywords": [
+            "hazardous facility proximity",
+            "disproportionate pollution exposure",
+            "climate justice extension"
+          ]
+        },
+        {
+          "id": "co7",
+          "group": "Environmental Policy & Governance",
+          "label": "Sustainability / Triple Bottom Line",
+          "date": "1987",
+          "loc": "Geneva, Switzerland",
+          "coords": [
+            46.2,
+            6.14
+          ],
+          "tag": "CONCEPT",
+          "hint": "Sustainability is usually framed as requiring balance across three interconnected dimensions at once — environmental integrity, economic viability, and social equity — rather than optimising for any single one alone, on the premise that a solution which is, say, economically profitable but environmentally destructive or socially unjust isn't genuinely sustainable even if it looks successful by its own narrow metric.",
+          "note": "World Commission on Environment and Development (1987). Our Common Future. Oxford University Press, chaired by Gro Harlem Brundtland (see fg11), provided the canonical definition of sustainable development as 'development that meets the needs of the present without compromising the ability of future generations to meet their own needs.' The later 'triple bottom line' framing (Elkington, J. 1994) operationalised the same balance for individual businesses, though critics argue the three pillars are often traded off against each other in practice rather than genuinely reconciled.",
+          "links": [
+            "fg11",
+            "th10"
+          ],
+          "keywords": [
+            "brundtland sustainable development",
+            "triple bottom line",
+            "intergenerational equity balance"
+          ]
+        },
+        {
+          "id": "co8",
+          "group": "Conservation Biology & Restoration",
+          "label": "Invasive Species",
+          "date": "1958",
+          "loc": "University of Oxford, Oxford, England",
+          "coords": [
+            51.75,
+            -1.26
+          ],
+          "tag": "CONCEPT",
+          "hint": "A species introduced, deliberately or accidentally, outside its native range can sometimes spread explosively and cause serious ecological or economic harm in its new environment — freed from the predators, parasites, and competitors that kept it in check at home — though the great majority of introduced species actually fail to establish or spread at all, making predicting which introductions will become genuinely invasive one of ecology's harder applied problems.",
+          "note": "Elton, C.S. (1958). The Ecology of Invasions by Animals and Plants. Methuen, founded invasion ecology as a distinct field. Notable cases include the cane toad in Australia, zebra mussels in North American waterways, and Burmese pythons in the Florida Everglades. The 'tens rule' rough heuristic (Williamson, M. & Fitter, A. 1996) suggests only about one in ten introduced species establishes a wild population, and only about one in ten of those goes on to become genuinely invasive and damaging — meaning most introductions are ecologically inconsequential even though the successful invaders draw most public and scientific attention.",
+          "links": [
+            "co4"
+          ],
+          "keywords": [
+            "non-native species establishment",
+            "invasion ecology founding",
+            "tens rule introduction"
+          ]
+        }
+      ]
     },
     {
       "id": "method",
