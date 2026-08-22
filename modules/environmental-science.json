@@ -15,12 +15,12 @@
   "mapZoom": 2,
   "methodology": "METHODOLOGY · Every entry anchors to a landmark study, paper, dataset, policy milestone or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags replication status, revisions and known controversies. Studies and effects carry a replicability badge — 🟢 confirmed to high confidence · 🟡 nuanced, contested or partially revised · 🔴 failed or severely disputed. Map pins mark the site, field station or institution where the work was carried out.",
   "_meta": {
-    "total_entries": 73,
+    "total_entries": 74,
     "entry_counts": {
       "theory": 10,
       "study": 13,
       "effect": 9,
-      "concept": 8,
+      "concept": 9,
       "method": 6,
       "figure": 12,
       "debate": 9,
@@ -30,7 +30,7 @@
       "th": 10,
       "st": 13,
       "ef": 9,
-      "co": 8,
+      "co": 9,
       "me": 6,
       "fg": 12,
       "db": 9,
@@ -89,6 +89,7 @@
     "co6": "concept · Environmental Policy & Governance · Environmental Justice (1987)",
     "co7": "concept · Environmental Policy & Governance · Sustainability / Triple Bottom Line (1987)",
     "co8": "concept · Conservation Biology & Restoration · Invasive Species (1958)",
+    "co9": "concept · Resource Systems, Agriculture & Sustainability · The Robustness-Performance Trade-off (2002)",
     "me1": "method · Climate Science & Global Change · Ice Core Sampling (1985)",
     "me2": "method · Resource Systems, Agriculture & Sustainability · Life Cycle Assessment (1969)",
     "me3": "method · Conservation Biology & Restoration · Remote Sensing / Satellite Monitoring (1972)",
@@ -334,7 +335,8 @@
             "db4",
             "db9",
             "st11",
-            "co1"
+            "co1",
+            "co9"
           ],
           "keywords": [
             "population affluence technology",
@@ -665,7 +667,8 @@
             "th8",
             "db3",
             "db9",
-            "ap4"
+            "ap4",
+            "co9"
           ],
           "keywords": [
             "green revolution wheat breeding",
@@ -1155,6 +1158,29 @@
             "non-native species establishment",
             "invasion ecology founding",
             "tens rule introduction"
+          ]
+        },
+        {
+          "id": "co9",
+          "group": "Resource Systems, Agriculture & Sustainability",
+          "label": "The Robustness-Performance Trade-off",
+          "date": "2002",
+          "loc": "California Institute of Technology, Pasadena, California",
+          "coords": [
+            34.14,
+            -118.13
+          ],
+          "tag": "CONCEPT",
+          "hint": "Biological and engineered systems alike face an inherent trade-off: optimizing a system for peak performance under one expected set of conditions — maximum crop yield, minimum energy waste, fastest growth — typically makes it more fragile to conditions outside that expected range, while systems built with redundancy, diversity and slack sacrifice some peak performance in exchange for surviving a much wider range of unpredictable shocks.",
+          "note": "Csete, M.E. & Doyle, J.C. (2002). 'Reverse Engineering of Biological Complexity.' Science, 295(5560), 1664–1669, formalised this 'highly optimized tolerance' trade-off across biological and engineered systems, building on Waddington's earlier concept of developmental canalization (1942) and bet-hedging theory in evolutionary ecology. Plant biologist Olivier Hamant has more recently popularised the same trade-off as an argument for agricultural and economic policy — that monocultures optimized for yield are fragile to drought and disease in ways that more robust, biodiverse systems are not — though that specific policy extension remains an essay-level argument rather than a peer-reviewed empirical claim.",
+          "links": [
+            "st11",
+            "th8"
+          ],
+          "keywords": [
+            "highly optimized tolerance",
+            "biological system fragility",
+            "redundancy versus efficiency"
           ]
         }
       ]

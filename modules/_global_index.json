@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 1849,
+    "total_entries": 1850,
     "folio_count": 24,
     "xlink_pairs": 116,
-    "keyword_terms": 6717,
+    "keyword_terms": 6720,
     "folios": [
       {
         "id": "anatomy-histology",
@@ -48,7 +48,7 @@
       {
         "id": "environmental-science",
         "title": "Environmental Science & Sustainability",
-        "entries": 73
+        "entries": 74
       },
       {
         "id": "epistemology",
@@ -785,6 +785,7 @@
     "environmental-science::co6": "concept · Environmental Policy & Governance · Environmental Justice (1987)",
     "environmental-science::co7": "concept · Environmental Policy & Governance · Sustainability / Triple Bottom Line (1987)",
     "environmental-science::co8": "concept · Conservation Biology & Restoration · Invasive Species (1958)",
+    "environmental-science::co9": "concept · Resource Systems, Agriculture & Sustainability · The Robustness-Performance Trade-off (2002)",
     "environmental-science::me1": "method · Climate Science & Global Change · Ice Core Sampling (1985)",
     "environmental-science::me2": "method · Resource Systems, Agriculture & Sustainability · Life Cycle Assessment (1969)",
     "environmental-science::me3": "method · Conservation Biology & Restoration · Remote Sensing / Satellite Monitoring (1972)",
@@ -6172,6 +6173,11 @@
       "non-native species establishment",
       "invasion ecology founding",
       "tens rule introduction"
+    ],
+    "environmental-science::co9": [
+      "highly optimized tolerance",
+      "biological system fragility",
+      "redundancy versus efficiency"
     ],
     "environmental-science::me1": [
       "polar ice core drilling",
@@ -19845,6 +19851,15 @@
     ],
     "tens rule introduction": [
       "environmental-science::co8"
+    ],
+    "highly optimized tolerance": [
+      "environmental-science::co9"
+    ],
+    "biological system fragility": [
+      "environmental-science::co9"
+    ],
+    "redundancy versus efficiency": [
+      "environmental-science::co9"
     ],
     "polar ice core drilling": [
       "environmental-science::me1"
