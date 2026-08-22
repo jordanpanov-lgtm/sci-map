@@ -991,7 +991,144 @@
       "accent": "#8B5E00",
       "bg": "#FFF8F0",
       "subtitle": "The tools and paradigms that generate the field's evidence",
-      "entries": []
+      "entries": [
+        {
+          "id": "me1",
+          "group": "Exoplanets & Astrobiology",
+          "label": "Radial Velocity Method",
+          "date": "1995",
+          "loc": "Observatoire de Haute-Provence, France",
+          "coords": [
+            43.93,
+            5.71
+          ],
+          "tag": "METHOD",
+          "hint": "As a planet orbits its star, the star itself wobbles slightly around their shared centre of mass, alternately moving very slightly toward and away from Earth — a motion far too small to see directly, but detectable as a tiny, periodic Doppler shift (see ef2) in the star's spectral lines, with the size of the wobble revealing the planet's minimum mass and the wobble's period revealing its orbital period.",
+          "note": "Mayor, M. & Queloz, D. (1995). 'A Jupiter-Mass Companion to a Solar-Type Star.' Nature, 378, 355–359, achieved the precision needed to detect a wobble of just a few metres per second — slower than walking pace — using an improved spectrograph design. The method is inherently biased toward detecting massive planets in close, fast orbits, since both traits produce a larger, easier-to-measure stellar wobble, which is why the earliest exoplanets found were almost all 'hot Jupiters' (see st7) rather than smaller, more distant, more Earth-like worlds.",
+          "links": [
+            "st7",
+            "ef2"
+          ],
+          "keywords": [
+            "stellar wobble detection",
+            "doppler spectroscopy planet",
+            "minimum mass measurement"
+          ]
+        },
+        {
+          "id": "me2",
+          "group": "Exoplanets & Astrobiology",
+          "label": "Transit Photometry",
+          "date": "1999",
+          "loc": "Harvard-Smithsonian Center for Astrophysics, Cambridge, Massachusetts",
+          "coords": [
+            42.38,
+            -71.13
+          ],
+          "tag": "METHOD",
+          "hint": "If an exoplanet's orbit happens to be aligned edge-on as seen from Earth, the planet passes directly in front of its star once per orbit, blocking a tiny, precisely measurable fraction of the star's light — continuously monitoring a star's brightness for these periodic, repeating dips reveals not just that a planet is there, but its exact size relative to the star, and, if the light passing through the planet's atmosphere during transit is analysed spectroscopically, even clues about its atmospheric composition.",
+          "note": "Charbonneau, D. et al. (1999). 'Detection of Planetary Transits Across a Sun-like Star.' The Astrophysical Journal Letters, 529(1), L45–L48, detected the first transiting exoplanet, HD 209458 b. Because a transit only occurs for the small fraction of planetary systems that happen to be oriented edge-on relative to Earth, the method requires monitoring huge numbers of stars simultaneously to catch a useful number of transits — precisely the strategy behind the Kepler space telescope's exoplanet census (see st9).",
+          "links": [
+            "st9"
+          ],
+          "keywords": [
+            "planetary transit dimming",
+            "edge on orbit requirement",
+            "atmospheric transmission spectroscopy"
+          ]
+        },
+        {
+          "id": "me3",
+          "group": "Telescopes & Observational Techniques",
+          "label": "Adaptive Optics",
+          "date": "1989",
+          "loc": "Observatoire de Haute-Provence, France",
+          "coords": [
+            43.93,
+            5.71
+          ],
+          "tag": "METHOD",
+          "hint": "A deformable mirror, reshaped many hundreds of times per second by tiny actuators responding to real-time measurements of atmospheric distortion, corrects for atmospheric scintillation (see ef8) as starlight arrives, cancelling out the turbulent blurring in real time and letting a ground-based telescope achieve image sharpness approaching the diffraction limit (see co7) that would otherwise only be possible from space.",
+          "note": "Building on Babcock's 1953 proposal (see ef8), the first operational astronomical adaptive optics system, COME-ON, was deployed at the Observatoire de Haute-Provence in 1989. Modern adaptive optics systems use an artificial 'guide star' created by shining a powerful laser into the upper atmosphere to provide a constant reference point for measuring distortion in parts of the sky with no sufficiently bright natural guide star nearby.",
+          "links": [
+            "ef8",
+            "co7"
+          ],
+          "keywords": [
+            "deformable mirror correction",
+            "laser guide star",
+            "real time atmosphere compensation"
+          ]
+        },
+        {
+          "id": "me4",
+          "group": "Telescopes & Observational Techniques",
+          "label": "Radio Interferometry",
+          "date": "1946",
+          "loc": "University of Cambridge, Cambridge, England",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "tag": "METHOD",
+          "hint": "Linking two or more separated radio telescopes together and precisely combining their signals lets astronomers synthesise the resolving power of a single telescope as large as the physical distance between the dishes — a technique that, extended across intercontinental and even Earth-sized baselines using atomic clocks to synchronise the recordings, ultimately made it possible to resolve detail fine enough to directly image a black hole's shadow (see st8).",
+          "note": "Ryle, M. & Vonberg, D.D. (1946). 'Solar Radiation on 175 Mc./s.' Nature, 158, 339–340, pioneered radio interferometry; Ryle received the 1974 Nobel Prize in Physics, shared with Antony Hewish, for developing the technique further into aperture synthesis. The Event Horizon Telescope (see st8) represents the technique's extreme extension, very-long-baseline interferometry, linking radio dishes on different continents into a single virtual telescope the size of the Earth itself.",
+          "links": [
+            "st8"
+          ],
+          "keywords": [
+            "synthesized telescope aperture",
+            "very long baseline interferometry",
+            "combined radio dish signal"
+          ]
+        },
+        {
+          "id": "me5",
+          "group": "Stellar Physics & Evolution",
+          "label": "Astronomical Spectroscopy",
+          "date": "1814",
+          "loc": "Munich, Bavaria",
+          "coords": [
+            48.14,
+            11.58
+          ],
+          "tag": "METHOD",
+          "hint": "Passing a star's light through a prism or diffraction grating spreads it into a detailed rainbow spectrum crossed by hundreds of thin dark lines, each corresponding to a specific wavelength absorbed by a particular chemical element in the star's outer atmosphere — reading the precise pattern and position of these lines reveals a star's chemical composition, temperature, and, via the Doppler effect (see ef2), its velocity, all without ever needing to travel there.",
+          "note": "Fraunhofer, J. (1814–1815) catalogued over 500 dark lines in the Sun's spectrum, now known as Fraunhofer lines, though their physical cause — absorption by specific chemical elements — was only correctly explained decades later by Kirchhoff and Bunsen (1859). Spectroscopy remains the single most information-rich technique in all of astronomy, underlying spectral classification (see co1), redshift measurement (see ef2), and the radial velocity exoplanet-detection method (see me1) alike.",
+          "links": [
+            "co1",
+            "ef2"
+          ],
+          "keywords": [
+            "dark absorption line spectrum",
+            "fraunhofer line cataloguing",
+            "stellar chemical fingerprint"
+          ]
+        },
+        {
+          "id": "me6",
+          "group": "The Cosmic Distance Ladder",
+          "label": "Astrometry",
+          "date": "1989",
+          "loc": "Paris, France",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "tag": "METHOD",
+          "hint": "Astrometry is the precise measurement of the positions, distances, and motions of celestial objects on the sky — the oldest branch of astronomy in principle, going back to ancient star catalogues, but transformed in the space age by satellites able to measure star positions with a precision utterly impossible through Earth's blurring atmosphere, directly enabling both parallax-based distance measurement (see ef1) and the detection of a star's gravitational wobble from an unseen orbiting companion.",
+          "note": "The European Space Agency's Hipparcos satellite, launched in 1989, was the first mission dedicated to space-based astrometry, measuring positions for over 100,000 stars to unprecedented precision; its successor Gaia (see st12) later improved on that precision by roughly two orders of magnitude for over a billion stars. High-precision astrometry can detect an exoplanet's gravitational influence on its star directly through positional wobble, a complementary technique to the radial-velocity method (see me1) that is sensitive to different orbital orientations.",
+          "links": [
+            "st12",
+            "ef1"
+          ],
+          "keywords": [
+            "precise stellar position measurement",
+            "space based astrometry satellite",
+            "star catalog foundation"
+          ]
+        }
+      ]
     },
     {
       "id": "figure",
@@ -1001,7 +1138,270 @@
       "accent": "#B7770D",
       "bg": "#FEFDE7",
       "subtitle": "The researchers who shaped the discipline",
-      "entries": []
+      "entries": [
+        {
+          "id": "fg1",
+          "group": "Pioneers & Theorists",
+          "label": "Galileo Galilei",
+          "date": "1610",
+          "loc": "Padua, Italy",
+          "coords": [
+            45.41,
+            11.88
+          ],
+          "tag": "FIGURE",
+          "hint": "Galileo was not the first to build a telescope, but he was the first to systematically point one at the sky and rigorously interpret what he saw, discovering four moons of Jupiter, the phases of Venus, and mountains on the Moon (see st1) — observations that made a Sun-centred solar system a matter of direct physical evidence rather than pure mathematical convenience, and that ultimately cost him a trial before the Roman Inquisition.",
+          "note": "Galilei, G. (1610). Sidereus Nuncius. Venice. Placed under house arrest for the remainder of his life following his 1633 trial, Galileo continued scientific work on mechanics until his death in 1642; the Catholic Church did not formally acknowledge that Galileo had been correct about heliocentrism until 1992, nearly 360 years later.",
+          "links": [
+            "st1"
+          ],
+          "keywords": [
+            "sidereus nuncius publication",
+            "inquisition trial",
+            "heliocentric observational evidence"
+          ]
+        },
+        {
+          "id": "fg2",
+          "group": "Pioneers & Theorists",
+          "label": "Johannes Kepler",
+          "date": "1609",
+          "loc": "Prague, Bohemia",
+          "coords": [
+            50.09,
+            14.42
+          ],
+          "tag": "FIGURE",
+          "hint": "Kepler inherited Tycho Brahe's exceptionally precise but unpublished planetary observations after Brahe's death and spent years painstakingly fitting mathematical curves to the data, eventually abandoning his own initial assumption that orbits must be circular once the numbers stubbornly refused to fit — arriving instead at the three empirical laws of planetary motion (see th1) that would later provide the essential testing ground for Newton's law of gravity.",
+          "note": "Kepler, J. (1609). Astronomia Nova. Heidelberg. Kepler also worked as an imperial mathematician and astrologer, defended his own mother in a witchcraft trial, and wrote one of the earliest works of science fiction, Somnium, describing a journey to the Moon, published posthumously in 1634.",
+          "links": [
+            "th1"
+          ],
+          "keywords": [
+            "tycho brahe data inheritance",
+            "elliptical orbit derivation",
+            "imperial mathematician"
+          ]
+        },
+        {
+          "id": "fg3",
+          "group": "Pioneers & Theorists",
+          "label": "William Herschel",
+          "date": "1781",
+          "loc": "Bath, England",
+          "coords": [
+            51.38,
+            -2.36
+          ],
+          "tag": "FIGURE",
+          "hint": "A professional musician turned self-taught astronomer, Herschel ground his own telescope mirrors to unprecedented quality and used them to discover Uranus (see st2), the first planet found in recorded history, along with two of its moons, two moons of Saturn, and infrared radiation itself — detected as invisible heat beyond the red end of the visible spectrum, a discovery made almost by accident while measuring the temperature of different colours of sunlight.",
+          "note": "Herschel, W. (1781). 'Account of a Comet.' Philosophical Transactions of the Royal Society, 71, 492–501. Herschel's sister, Caroline Herschel, worked alongside him for decades as an accomplished astronomer in her own right, discovering several comets and becoming the first woman to receive a salary as a scientist, paid by the British crown.",
+          "links": [
+            "st2"
+          ],
+          "keywords": [
+            "uranus planet discovery",
+            "infrared radiation discovery",
+            "self taught telescope maker"
+          ]
+        },
+        {
+          "id": "fg4",
+          "group": "Pioneers & Theorists",
+          "label": "Henrietta Leavitt",
+          "date": "1912",
+          "loc": "Harvard College Observatory, Cambridge, Massachusetts",
+          "coords": [
+            42.38,
+            -71.13
+          ],
+          "tag": "FIGURE",
+          "hint": "Working as one of Harvard's team of poorly paid female 'computers,' hired to process astronomical photographic plates rather than conduct independent research, Leavitt discovered the Cepheid period-luminosity relation (see st3) that became the essential distance-measuring tool underlying almost the entire twentieth century's understanding of the scale of the universe, despite being expressly forbidden by her supervisor from investigating its implications herself.",
+          "note": "Leavitt, H.S. (1912). 'Periods of 25 Variable Stars in the Small Magellanic Cloud.' Harvard College Observatory Circular, 173, 1–3. Leavitt died in 1921, four years before Edwin Hubble applied her relation to prove other galaxies exist beyond the Milky Way; a Swedish mathematician attempted to nominate her for the Nobel Prize in 1925, unaware she had already died, since the prize cannot be awarded posthumously.",
+          "links": [
+            "st3"
+          ],
+          "keywords": [
+            "harvard computer team",
+            "cepheid distance tool",
+            "posthumous nobel attempt"
+          ]
+        },
+        {
+          "id": "fg5",
+          "group": "Pioneers & Theorists",
+          "label": "Edwin Hubble",
+          "date": "1929",
+          "loc": "Mount Wilson Observatory, California",
+          "coords": [
+            34.23,
+            -118.06
+          ],
+          "tag": "FIGURE",
+          "hint": "A former lawyer and basketball player who abandoned legal practice for astronomy, Hubble used the largest telescope in the world at the time to prove first that the 'spiral nebulae' were entire galaxies far beyond the Milky Way, and then that those galaxies are receding from us at a rate proportional to their distance (see st4) — establishing both the true scale of the universe and its ongoing expansion within a few short years.",
+          "note": "Hubble, E. (1929). 'A Relation Between Distance and Radial Velocity Among Extra-Galactic Nebulae.' Proceedings of the National Academy of Sciences, 15(3), 168–173. The Hubble Space Telescope, launched in 1990, was named in his honour; Hubble's key observational assistant, Milton Humason, who lacked any formal scientific education and had started at Mount Wilson as a mule driver and janitor, obtained much of the redshift data underlying Hubble's results.",
+          "links": [
+            "st4"
+          ],
+          "keywords": [
+            "galaxy scale proof",
+            "expanding universe discovery",
+            "mount wilson telescope"
+          ]
+        },
+        {
+          "id": "fg6",
+          "group": "Pioneers & Theorists",
+          "label": "Subrahmanyan Chandrasekhar",
+          "date": "1931",
+          "loc": "University of Cambridge, Cambridge, England",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "tag": "FIGURE",
+          "hint": "Chandrasekhar derived the mass limit beyond which a white dwarf star cannot support itself against gravitational collapse (see th3) as a 19-year-old during his sea voyage from India to begin graduate study in England, only to have the result publicly dismissed by the much more senior and influential Arthur Eddington — a rejection that delayed the finding's acceptance for years but did not prevent Chandrasekhar's eventual vindication with the Nobel Prize over five decades later.",
+          "note": "Chandrasekhar, S. (1931). 'The Maximum Mass of Ideal White Dwarfs.' The Astrophysical Journal, 74, 81–82. Chandrasekhar went on to a five-decade career at the University of Chicago, publishing major, field-defining work in a remarkably wide range of astrophysical topics roughly once every decade; he received the 1983 Nobel Prize in Physics, sharing it with William Fowler (see th2).",
+          "links": [
+            "th3"
+          ],
+          "keywords": [
+            "white dwarf limit derivation",
+            "eddington public dismissal",
+            "sea voyage calculation"
+          ]
+        },
+        {
+          "id": "fg7",
+          "group": "Pioneers & Theorists",
+          "label": "Jocelyn Bell Burnell",
+          "date": "1967",
+          "loc": "Mullard Radio Astronomy Observatory, Cambridge, England",
+          "coords": [
+            52.17,
+            0.03
+          ],
+          "tag": "FIGURE",
+          "hint": "As a PhD student, Bell Burnell built much of the radio telescope herself and then personally identified the first pulsar (see st6) by carefully noticing an anomalous, extremely regular signal buried within a huge volume of chart-recorder data — a discovery whose 1974 Nobel Prize went solely to her male supervisor, an omission Bell Burnell herself has repeatedly and graciously downplayed, while much of the broader astronomical community considers it one of the field's clearest instances of a woman's foundational contribution going uncredited.",
+          "note": "Hewish, A., Bell, S.J., Pilkington, J.D.H., Scott, P.F. & Collins, R.A. (1968). 'Observation of a Rapidly Pulsating Radio Source.' Nature, 217, 709–713. In 2018, Bell Burnell was awarded the $3 million Special Breakthrough Prize in Fundamental Physics for the discovery and donated the entire sum to fund PhD scholarships for students from underrepresented groups in physics.",
+          "links": [
+            "st6"
+          ],
+          "keywords": [
+            "first pulsar identification",
+            "nobel prize exclusion",
+            "breakthrough prize donation"
+          ]
+        },
+        {
+          "id": "fg8",
+          "group": "Pioneers & Theorists",
+          "label": "Cecilia Payne-Gaposchkin",
+          "date": "1925",
+          "loc": "Harvard College Observatory, Cambridge, Massachusetts",
+          "coords": [
+            42.38,
+            -71.13
+          ],
+          "tag": "FIGURE",
+          "hint": "Payne-Gaposchkin's doctoral thesis demonstrated, against the settled consensus of the time, that the Sun and stars are composed overwhelmingly of hydrogen and helium rather than having roughly Earth-like compositions as almost every astronomer then believed — a conclusion so far outside contemporary expectations that a senior astronomer convinced her to describe her own correct result as merely 'spurious' in the published thesis, before independent evidence fully vindicated her within a few years.",
+          "note": "Payne-Gaposchkin, C.H. (1925). Stellar Atmospheres: A Contribution to the Observational Study of High Temperature in the Reversing Layers of Stars. Radcliffe College doctoral thesis, described by astronomer Otto Struve as 'the most brilliant PhD thesis ever written in astronomy.' Princeton University, where she had wanted to study, did not admit women to its graduate astronomy program at the time; she became Harvard's first female full professor and first woman to chair a department there, decades after completing this work.",
+          "links": [],
+          "keywords": [
+            "stellar hydrogen composition discovery",
+            "suppressed correct result",
+            "harvard first female professor"
+          ]
+        },
+        {
+          "id": "fg9",
+          "group": "Pioneers & Theorists",
+          "label": "Annie Jump Cannon",
+          "date": "1901",
+          "loc": "Harvard College Observatory, Cambridge, Massachusetts",
+          "coords": [
+            42.38,
+            -71.13
+          ],
+          "tag": "FIGURE",
+          "hint": "Cannon personally classified the spectra of more than 350,000 stars by eye over her career, working at a pace of roughly three stars per minute at her fastest, and in doing so developed and standardised the OBAFGKM spectral classification sequence (see co1) that remains the basis of stellar classification used by astronomers worldwide today.",
+          "note": "Cannon, A.J. (1901, and subsequent Henry Draper Catalogue volumes). Cannon was profoundly deaf for most of her adult life, a condition some biographers have suggested may have helped her maintain intense concentration during the repetitive work of spectral classification; she became the first woman awarded an honorary doctorate from Oxford University, in 1925.",
+          "links": [
+            "co1"
+          ],
+          "keywords": [
+            "spectral classification standardization",
+            "harvard computer astronomer",
+            "oxford honorary doctorate"
+          ]
+        },
+        {
+          "id": "fg10",
+          "group": "Pioneers & Theorists",
+          "label": "Carl Sagan",
+          "date": "1980",
+          "loc": "Cornell University, Ithaca, New York",
+          "coords": [
+            42.44,
+            -76.5
+          ],
+          "tag": "FIGURE",
+          "hint": "Beyond his own research on planetary atmospheres and his role in several NASA missions, Sagan became the single most influential popular communicator of astronomy in the twentieth century through his television series Cosmos, and personally championed the inclusion of the Golden Record aboard the Voyager probes (see st11) as a message to any civilisation that might one day encounter them.",
+          "note": "Sagan, C. Cosmos: A Personal Voyage (1980), a 13-part television series watched by an estimated 500 million people worldwide, among the most widely viewed series in the history of public television. Sagan also co-founded the Planetary Society in 1980, which remains one of the largest space-interest advocacy organisations in the world, and was a vocal advocate for SETI research (see fg11) throughout his career.",
+          "links": [
+            "st11"
+          ],
+          "keywords": [
+            "cosmos television series",
+            "voyager golden record advocate",
+            "public science communication"
+          ]
+        },
+        {
+          "id": "fg11",
+          "group": "Pioneers & Theorists",
+          "label": "Frank Drake",
+          "date": "1961",
+          "loc": "National Radio Astronomy Observatory, Green Bank, West Virginia",
+          "coords": [
+            38.43,
+            -79.84
+          ],
+          "tag": "FIGURE",
+          "hint": "Drake conducted the first modern radio search for extraterrestrial signals, Project Ozma, listening to two nearby Sun-like stars for artificial radio transmissions, and shortly afterward formulated the Drake Equation (see th10) as an organising framework for the 1961 conference he convened to discuss the search's prospects — founding what became the ongoing, still-unsuccessful scientific search for extraterrestrial intelligence.",
+          "note": "Drake, F. conducted Project Ozma in 1960 at Green Bank, West Virginia, and presented the Drake Equation the following year. Drake also helped design the Arecibo message, a symbolic radio broadcast sent toward a distant star cluster in 1974, and the Pioneer plaque, a physical message attached to the Pioneer 10 and 11 spacecraft depicting humans and Earth's location, both intended for any extraterrestrial recipient.",
+          "links": [
+            "th10"
+          ],
+          "keywords": [
+            "project ozma seti search",
+            "drake equation formulation",
+            "arecibo message design"
+          ]
+        },
+        {
+          "id": "fg12",
+          "group": "Pioneers & Theorists",
+          "label": "Michel Mayor",
+          "date": "1995",
+          "loc": "Observatoire de Haute-Provence, France",
+          "coords": [
+            43.93,
+            5.71
+          ],
+          "tag": "FIGURE",
+          "hint": "Mayor led the small team that used a newly refined spectrograph to detect the first confirmed exoplanet around an ordinary, Sun-like star (see st7), a discovery that launched exoplanet science as a major astronomical discipline and that, within a generation, expanded the known planetary census from the handful of worlds in our own Solar System to thousands scattered across the galaxy.",
+          "note": "Mayor, M. & Queloz, D. (1995). 'A Jupiter-Mass Companion to a Solar-Type Star.' Nature, 378, 355–359. Mayor and his then-graduate student Didier Queloz shared half of the 2019 Nobel Prize in Physics for the discovery, with the other half awarded separately to James Peebles for theoretical cosmology — a division that drew some comment for pairing observational exoplanet science with unrelated cosmological theory in a single prize.",
+          "links": [
+            "st7"
+          ],
+          "keywords": [
+            "first exoplanet detection",
+            "hot jupiter discovery team",
+            "nobel prize shared award"
+          ]
+        }
+      ]
     },
     {
       "id": "debate",
