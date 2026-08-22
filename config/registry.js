@@ -22,7 +22,7 @@ const FIELDS = [
   { id:"inorganic-analytical-chem",  domain:"physical-sciences", label:"Chemistry: Inorganic & Analytical",         sub:"Elements, compounds & the methods of chemical measurement",             status:"ready", file:"modules/inorganic-analytical-chem.json" },
   { id:"organic-polymer-chem",       domain:"physical-sciences", label:"Chemistry: Organic & Polymer",              sub:"Carbon chemistry, reactions & macromolecular structures",               status:"ready", file:"modules/organic-polymer-chem.json" },
   // ── EARTH, SPACE & ENVIRONMENTAL ─────────────────────────────────────────────
-  { id:"astronomy-cosmology",        domain:"earth-space",       label:"Astronomy & Astrophysics",                  sub:"Stars, galaxies, stellar evolution & observational astronomy",          status:"planned" },
+  { id:"astronomy-cosmology",        domain:"earth-space",       label:"Astronomy & Astrophysics",                  sub:"Stars, galaxies, stellar evolution & observational astronomy",          status:"ready", file:"modules/astronomy-cosmology.json" },
   { id:"geology",                    domain:"earth-space",       label:"Geology & Solid Earth Systems",             sub:"Rocks, tectonics, deep time & Earth's interior",                        status:"planned" },
   { id:"meteorology",                domain:"earth-space",       label:"Meteorology & Atmospheric Sciences",        sub:"Weather, climate & the physics of the atmosphere",                      status:"planned" },
   { id:"oceanography",               domain:"earth-space",       label:"Oceanography & Marine Sciences",            sub:"Ocean circulation, marine ecosystems & the deep sea",                   status:"ready",   file:"modules/oceanography.json" },
