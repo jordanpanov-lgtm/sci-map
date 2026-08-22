@@ -23,7 +23,239 @@
       "accent": "#2471A3",
       "bg": "#F0F7FF",
       "subtitle": "The frameworks that organise how stars, planets and galaxies form and evolve",
-      "entries": []
+      "entries": [
+        {
+          "id": "th1",
+          "group": "The Solar System",
+          "label": "Kepler's Laws of Planetary Motion",
+          "date": "1609",
+          "loc": "Prague, Bohemia",
+          "coords": [
+            50.09,
+            14.42
+          ],
+          "tag": "THEORY",
+          "hint": "Analysing Tycho Brahe's exceptionally precise decades of planetary position data, Kepler discovered that planets orbit the Sun not in perfect circles but in ellipses with the Sun at one focus, that a planet sweeps out equal areas in equal times as it moves — meaning it travels faster when closer to the Sun — and, published a decade later, that the square of a planet's orbital period is proportional to the cube of its average distance from the Sun.",
+          "note": "Kepler, J. (1609). Astronomia Nova. Heidelberg (first two laws); the third law followed in Harmonices Mundi (1619). Kepler's laws were purely empirical, derived from fitting Brahe's observations rather than from any underlying physical theory; Newton later showed seven decades on that all three laws follow mathematically from his law of universal gravitation, retroactively explaining why Kepler's empirical fit worked.",
+          "links": [
+            "fg2",
+            "th4"
+          ],
+          "keywords": [
+            "elliptical planetary orbit",
+            "equal area sweep law",
+            "orbital period distance relation"
+          ]
+        },
+        {
+          "id": "th2",
+          "group": "Stellar Physics & Evolution",
+          "label": "Stellar Nucleosynthesis Theory",
+          "date": "1957",
+          "loc": "California Institute of Technology, Pasadena, California",
+          "coords": [
+            34.14,
+            -118.13
+          ],
+          "tag": "THEORY",
+          "hint": "Nearly all chemical elements heavier than hydrogen and helium were forged inside the nuclear furnaces of stars, through fusion reactions during a star's normal life and, for the heaviest elements, in the extreme conditions of a supernova explosion — meaning the calcium in bones, the iron in blood, and the oxygen breathed today were each cooked inside a star that died before the Sun was born.",
+          "note": "Burbidge, E.M., Burbidge, G.R., Fowler, W.A. & Hoyle, F. (1957). 'Synthesis of the Elements in Stars.' Reviews of Modern Physics, 29(4), 547–650, the landmark 'B2FH' paper. Fowler received the 1983 Nobel Prize in Physics for this work; Hoyle's exclusion from the prize, despite predicting the crucial carbon-12 resonance that makes stellar carbon production possible, is widely regarded as one of the more consequential Nobel omissions in twentieth-century physics.",
+          "links": [
+            "th5",
+            "st5"
+          ],
+          "keywords": [
+            "stellar element formation",
+            "supernova heavy element",
+            "b2fh paper"
+          ]
+        },
+        {
+          "id": "th3",
+          "group": "Stellar Physics & Evolution",
+          "label": "Chandrasekhar Limit",
+          "date": "1931",
+          "loc": "University of Cambridge, Cambridge, England",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "tag": "THEORY",
+          "hint": "A white dwarf star — the compact, burnt-out core left behind after a Sun-like star dies — is held up against its own gravity purely by the quantum-mechanical pressure of tightly packed electrons, and Chandrasekhar calculated there is a maximum mass, about 1.4 times the Sun's mass, beyond which even that quantum pressure cannot resist gravitational collapse, meaning any white dwarf pushed over this limit must collapse further into a neutron star or explode entirely.",
+          "note": "Chandrasekhar, S. (1931). 'The Maximum Mass of Ideal White Dwarfs.' The Astrophysical Journal, 74, 81–82, derived during his sea voyage from India to England as a 19-year-old graduate student. Senior astronomer Arthur Eddington publicly ridiculed the result at a 1935 Royal Astronomical Society meeting, delaying its acceptance for years; Chandrasekhar was ultimately vindicated with the 1983 Nobel Prize in Physics, and the limit is now central to understanding Type Ia supernovae (see ef6).",
+          "links": [
+            "fg6",
+            "ef6"
+          ],
+          "keywords": [
+            "white dwarf mass limit",
+            "electron degeneracy pressure",
+            "eddington scientific dispute"
+          ]
+        },
+        {
+          "id": "th4",
+          "group": "The Solar System",
+          "label": "The Nebular Hypothesis",
+          "date": "1796",
+          "loc": "Paris, France",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "tag": "THEORY",
+          "hint": "The Sun and all the planets condensed together from a single, slowly rotating cloud of gas and dust — as the cloud contracted under its own gravity, it flattened into a spinning disk, with most of the material collapsing into the central star and the remainder clumping together in the disk to form the planets, explaining why all the planets orbit in roughly the same plane and direction.",
+          "note": "Laplace, P.S. (1796). Exposition du système du monde. Paris, building on an earlier, less mathematically developed version proposed by Immanuel Kant (1755). The core idea has been substantially confirmed by direct telescopic observation of protoplanetary disks around young stars (see co8) and matches the near-coplanar, same-direction orbits of the Solar System's planets, though the detailed process of how dust grains within the disk actually clump into full planets remains an active area of research.",
+          "links": [
+            "th1",
+            "co8"
+          ],
+          "keywords": [
+            "protoplanetary disk formation",
+            "solar system origin",
+            "collapsing gas cloud"
+          ]
+        },
+        {
+          "id": "th5",
+          "group": "Stellar Physics & Evolution",
+          "label": "Hertzsprung-Russell Diagram / Main Sequence",
+          "date": "1913",
+          "loc": "Princeton University, Princeton, New Jersey",
+          "coords": [
+            40.34,
+            -74.65
+          ],
+          "tag": "THEORY",
+          "hint": "Plotting stars by their brightness against their surface temperature (or equivalently, their colour) reveals that most stars fall along a single diagonal band, the 'main sequence,' rather than being scattered randomly — a pattern that turned out to reflect a star's mass and its stage of life burning hydrogen in its core, transforming an essentially two-dimensional chart into a map of stellar structure and evolution.",
+          "note": "Hertzsprung, E. (1911) and Russell, H.N. (1913) independently developed the diagram; Russell's 1913 presentation to the Royal Astronomical Society is generally credited with popularising it. The diagram's diagonal main sequence band was only properly explained decades later by nuclear fusion theory (see th2); a star's precise position along the main sequence is now understood to be set almost entirely by its mass at formation.",
+          "links": [
+            "th2",
+            "co1",
+            "co2"
+          ],
+          "keywords": [
+            "stellar brightness temperature plot",
+            "main sequence band",
+            "stellar evolution map"
+          ]
+        },
+        {
+          "id": "th6",
+          "group": "High-Energy & Extreme Astrophysics",
+          "label": "Pulsar Theory (Rotating Neutron Star Model)",
+          "date": "1968",
+          "loc": "Cornell University, Ithaca, New York",
+          "coords": [
+            42.44,
+            -76.5
+          ],
+          "tag": "THEORY",
+          "hint": "A newly discovered class of astronomical objects emitted radio pulses with almost impossibly precise, clock-like regularity, and Gold proposed the explanation within months: a neutron star — the ultra-dense, city-sized collapsed core left behind by a massive star's supernova — spinning rapidly and sweeping a narrow beam of radio emission from its magnetic poles across the sky like a lighthouse, with each pulse marking one rotation.",
+          "note": "Gold, T. (1968). 'Rotating Neutron Stars as the Origin of the Pulsating Radio Sources.' Nature, 218, 731–732, proposed the lighthouse model shortly after pulsars were first observed (see st6). The model correctly predicted that pulsars should gradually slow their spin rate as they radiate away rotational energy, a prediction subsequently confirmed by precise, continuous timing of known pulsars over following decades.",
+          "links": [
+            "st6",
+            "fg7"
+          ],
+          "keywords": [
+            "lighthouse beam model",
+            "rotating neutron star",
+            "radio pulse regularity"
+          ]
+        },
+        {
+          "id": "th7",
+          "group": "Galaxies & Large-Scale Structure",
+          "label": "Galaxy Formation Theory",
+          "date": "1978",
+          "loc": "University of Cambridge, Cambridge, England",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "tag": "THEORY",
+          "hint": "Galaxies did not form all at once in their current shape but assembled hierarchically over billions of years, as small clumps of matter — pulled together first by the gravity of invisible dark matter — merged and accreted gas and smaller galaxies into progressively larger structures, meaning a large modern spiral or elliptical galaxy like the Milky Way is the end product of a long history of mergers and gradual growth rather than a single formation event.",
+          "note": "White, S.D.M. & Rees, M.J. (1978). 'Core Condensation in Heavy Halos: A Two-Stage Theory for Galaxy Formation and Clustering.' Monthly Notices of the Royal Astronomical Society, 183(3), 341–358, proposed dark matter halos as the gravitational scaffolding within which visible galaxies condense. The framework is now supported by direct observational evidence of galaxy mergers in progress and by cosmological simulations that reproduce the observed large-scale structure of the universe when dark matter is included (see st13).",
+          "links": [
+            "st13",
+            "co6"
+          ],
+          "keywords": [
+            "hierarchical galaxy assembly",
+            "dark matter halo scaffolding",
+            "galaxy merger history"
+          ]
+        },
+        {
+          "id": "th8",
+          "group": "Exoplanets & Astrobiology",
+          "label": "Habitable Zone Theory",
+          "date": "1959",
+          "loc": "Northwestern University, Evanston, Illinois",
+          "coords": [
+            42.06,
+            -87.68
+          ],
+          "tag": "THEORY",
+          "hint": "Around any star there exists a range of orbital distances — neither so close that a planet's water boils away nor so far that it permanently freezes — within which a rocky planet with the right atmosphere could maintain liquid water on its surface, providing a first-pass, easily calculable filter for identifying which of the thousands of known exoplanets might be worth prioritising in the search for life.",
+          "note": "Huang, S.S. (1959). 'The Problem of Life in the Universe and the Mode of Star Formation.' Publications of the Astronomical Society of the Pacific, 71(422), 421–424, proposed the first formal habitable-zone concept; Kasting, J.F., Whitmire, D.P. & Reynolds, R.T. (1993, Icarus) substantially refined the boundaries using detailed atmospheric modelling. The habitable zone is a necessary but explicitly not sufficient condition for habitability — a planet's atmosphere, magnetic field, and geological activity all matter enormously and are not captured by orbital distance alone (see db3).",
+          "links": [
+            "co3",
+            "db3"
+          ],
+          "keywords": [
+            "circumstellar habitable zone",
+            "liquid water orbital range",
+            "exoplanet habitability filter"
+          ]
+        },
+        {
+          "id": "th9",
+          "group": "Exoplanets & Astrobiology",
+          "label": "Exoplanet Formation Theory (Core Accretion)",
+          "date": "1996",
+          "loc": "NASA Ames Research Center, Mountain View, California",
+          "coords": [
+            37.42,
+            -122.06
+          ],
+          "tag": "THEORY",
+          "hint": "Giant planets like Jupiter are proposed to form in two stages: first, dust grains in a young star's protoplanetary disk gradually collide and stick together, building up a solid rocky core roughly ten times Earth's mass over a few million years, and then, once that core is large enough, its gravity rapidly pulls in a massive surrounding envelope of hydrogen and helium gas directly from the disk before the gas disperses.",
+          "note": "Pollack, J.B. et al. (1996). 'Formation of the Giant Planets by Concurrent Accretion of Solids and Gas.' Icarus, 124(1), 62–85. The core accretion model competes with a rival 'disk instability' model, in which gas giants form rapidly and directly from gravitational instabilities in the disk without needing a solid core first; observational evidence, including the compositions of giant exoplanets found by transit and radial-velocity surveys (see me1, me2), has favoured core accretion for most giant planets, though disk instability may explain some very massive planets found at large orbital distances.",
+          "links": [
+            "th4",
+            "co8"
+          ],
+          "keywords": [
+            "giant planet core accretion",
+            "protoplanetary disk gas capture",
+            "disk instability rival model"
+          ]
+        },
+        {
+          "id": "th10",
+          "group": "Exoplanets & Astrobiology",
+          "label": "The Drake Equation",
+          "date": "1961",
+          "loc": "National Radio Astronomy Observatory, Green Bank, West Virginia",
+          "coords": [
+            38.43,
+            -79.84
+          ],
+          "tag": "FRAMEWORK",
+          "hint": "The number of technologically communicative civilisations currently active in the galaxy can be estimated by multiplying together a chain of probabilities and rates — the rate of star formation, the fraction of stars with planets, the fraction of those planets suitable for life, the fraction where life actually arises, the fraction where it becomes intelligent and communicative, and how long such a civilisation typically broadcasts detectable signals — turning an overwhelming question into a structured, if still highly speculative, calculation.",
+          "note": "Drake, F. (1961), presented at a National Radio Astronomy Observatory meeting organising the first SETI (Search for Extraterrestrial Intelligence) conference. Nearly every term in the equation remains essentially unconstrained by direct evidence beyond the first two, which modern exoplanet surveys have substantially pinned down; the equation's real, enduring value is less as a predictive calculation and more as an organising framework that identifies exactly which unknowns must be resolved to answer the underlying question (see db2).",
+          "links": [
+            "fg11",
+            "db2"
+          ],
+          "keywords": [
+            "extraterrestrial civilization estimate",
+            "seti founding framework",
+            "probability chain equation"
+          ]
+        }
+      ]
     },
     {
       "id": "study",
@@ -33,7 +265,314 @@
       "accent": "#7D3C98",
       "bg": "#FAF5FF",
       "subtitle": "The defining experiments — and exactly what they found",
-      "entries": []
+      "entries": [
+        {
+          "id": "st1",
+          "group": "Telescopes & Observational Techniques",
+          "label": "Galileo's Telescopic Observations",
+          "date": "1610",
+          "loc": "Padua, Italy",
+          "coords": [
+            45.41,
+            11.88
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Pointing a home-built telescope at the night sky, Galileo saw mountains and craters on the Moon, four moons orbiting Jupiter, the phases of Venus, and countless stars invisible to the naked eye in the Milky Way — direct observational evidence that the heavens were not the perfect, unchanging, Earth-centred realm Aristotelian cosmology assumed, and specifically that Jupiter's moons proved not everything in the sky orbits the Earth.",
+          "note": "Galilei, G. (1610). Sidereus Nuncius (The Starry Messenger). Venice. Venus's full cycle of phases, observed the following year, provided especially strong evidence for a Sun-centred solar system, since the geocentric Ptolemaic model could not produce a full phase cycle. Galileo's 1633 trial and forced recantation by the Roman Inquisition, for advocating heliocentrism as physically true rather than a convenient mathematical fiction, remains one of the most famous episodes in the history of science's conflict with institutional authority.",
+          "links": [
+            "fg1",
+            "th1"
+          ],
+          "keywords": [
+            "telescopic lunar observation",
+            "jupiter moon discovery",
+            "venus phase evidence"
+          ]
+        },
+        {
+          "id": "st2",
+          "group": "The Solar System",
+          "label": "Herschel's Discovery of Uranus",
+          "date": "1781",
+          "loc": "Bath, England",
+          "coords": [
+            51.38,
+            -2.36
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "While systematically surveying faint stars with a home-built telescope, William Herschel noticed one object that appeared as a small disk rather than a point of light and shifted position over successive nights — initially assumed to be a comet, it was soon recognised as an entirely new planet, doubling the known size of the Solar System and the first planet discovered that was unknown to ancient astronomers.",
+          "note": "Herschel, W. (1781). 'Account of a Comet.' Philosophical Transactions of the Royal Society, 71, 492–501, originally reported the object as a comet before its planetary orbit was confirmed by subsequent observation. The discovery made Herschel, previously a professional musician and amateur astronomer, instantly famous and secured him a royal pension from King George III to pursue astronomy full-time.",
+          "links": [
+            "fg3"
+          ],
+          "keywords": [
+            "new planet discovery",
+            "systematic star survey",
+            "amateur astronomer breakthrough"
+          ]
+        },
+        {
+          "id": "st3",
+          "group": "The Cosmic Distance Ladder",
+          "label": "Leavitt's Cepheid Period-Luminosity Relation",
+          "date": "1912",
+          "loc": "Harvard College Observatory, Cambridge, Massachusetts",
+          "coords": [
+            42.38,
+            -71.13
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Studying thousands of variable stars photographed in the Magellanic Clouds, Leavitt found that a specific class of pulsating star, Cepheid variables, showed a precise mathematical relationship between how long their brightness cycle takes and how intrinsically luminous they are — meaning that simply timing a Cepheid's pulse reveals its true brightness, which can then be compared to its apparent brightness to calculate its distance with real precision.",
+          "note": "Leavitt, H.S. (1912). 'Periods of 25 Variable Stars in the Small Magellanic Cloud.' Harvard College Observatory Circular, 173, 1–3. Leavitt worked as a poorly paid 'computer,' one of a team of women hired by Harvard to process astronomical data, and was expressly forbidden by observatory director Edward Pickering from pursuing the relation's implications herself; Edwin Hubble later credited her period-luminosity relation as the essential tool that made his own redshift-distance discovery possible (see st4).",
+          "links": [
+            "st4",
+            "fg4"
+          ],
+          "keywords": [
+            "cepheid variable star",
+            "period luminosity relation",
+            "standard candle distance tool"
+          ]
+        },
+        {
+          "id": "st4",
+          "group": "The Cosmic Distance Ladder",
+          "label": "Hubble's Redshift-Distance Discovery",
+          "date": "1929",
+          "loc": "Mount Wilson Observatory, California",
+          "coords": [
+            34.23,
+            -118.06
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Using Leavitt's Cepheid technique (see st3) to measure distances to dozens of galaxies, and comparing those distances against how much each galaxy's light was redshifted, Hubble found a striking linear relationship: the farther away a galaxy is, the faster it appears to be receding — direct observational evidence that the universe itself is expanding, and the empirical discovery that anchors the entire modern Big Bang cosmological model.",
+          "note": "Hubble, E. (1929). 'A Relation Between Distance and Radial Velocity Among Extra-Galactic Nebulae.' Proceedings of the National Academy of Sciences, 15(3), 168–173, relied heavily on distance measurements and redshift data largely obtained by Hubble's assistant Milton Humason, whose contribution went comparatively uncredited for decades. The discovery's cosmological interpretation — as evidence for spacetime expansion within general relativity — was developed alongside the Big Bang cosmology theory covered in the quantum-nuclear-relativity folio.",
+          "links": [
+            "st3",
+            "fg5",
+            "ef2"
+          ],
+          "keywords": [
+            "galaxy redshift velocity relation",
+            "expanding universe evidence",
+            "extragalactic distance measurement"
+          ]
+        },
+        {
+          "id": "st5",
+          "group": "Stellar Physics & Evolution",
+          "label": "Supernova 1987A Observations",
+          "date": "1987",
+          "loc": "Las Campanas Observatory, Chile",
+          "coords": [
+            -29.02,
+            -70.69
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "The closest supernova observed in nearly 400 years, in a satellite galaxy of the Milky Way, was detected simultaneously in visible light and, a few hours before the light arrived, as a burst of neutrinos by underground detectors on the opposite side of the planet — providing the first direct observational confirmation that a massive star's core collapse produces an enormous, detectable flood of neutrinos, exactly as stellar collapse theory predicted.",
+          "note": "Supernova 1987A was first sighted on 23 February 1987; neutrino detections by the Kamiokande-II, IMB and Baksan observatories arrived roughly three hours before the visible light, consistent with photons being delayed by scattering through the star's outer layers while neutrinos passed through almost unimpeded. The neutrino burst's timing, energy, and total count matched core-collapse supernova theory (see th2) closely enough to be considered one of the most important direct confirmations of stellar death physics in the history of the field.",
+          "links": [
+            "th2"
+          ],
+          "keywords": [
+            "neutrino burst detection",
+            "core collapse confirmation",
+            "nearby supernova observation"
+          ]
+        },
+        {
+          "id": "st6",
+          "group": "High-Energy & Extreme Astrophysics",
+          "label": "Jocelyn Bell Burnell's Pulsar Discovery",
+          "date": "1967",
+          "loc": "Mullard Radio Astronomy Observatory, Cambridge, England",
+          "coords": [
+            52.17,
+            0.03
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Sifting through miles of chart-recorder paper from a new radio telescope built to study quasars, graduate student Jocelyn Bell Burnell noticed a strange, extremely regular pulsing signal that repeated every 1.337 seconds with almost mechanical precision — so unexpectedly clock-like that she and her supervisor briefly nicknamed the source 'LGM-1,' for 'Little Green Men,' before ruling out an artificial or terrestrial origin and confirming it was a natural astronomical object, the first pulsar.",
+          "note": "Hewish, A., Bell, S.J., Pilkington, J.D.H., Scott, P.F. & Collins, R.A. (1968). 'Observation of a Rapidly Pulsating Radio Source.' Nature, 217, 709–713. The 1974 Nobel Prize in Physics for the discovery was awarded solely to Hewish, Bell Burnell's supervisor, and radio astronomer Martin Ryle, excluding Bell Burnell herself — an omission now very widely regarded as one of the most significant instances of a female scientist's contribution being overlooked in Nobel history.",
+          "links": [
+            "th6",
+            "fg7"
+          ],
+          "keywords": [
+            "first pulsar discovery",
+            "regular radio pulse signal",
+            "nobel prize omission"
+          ]
+        },
+        {
+          "id": "st7",
+          "group": "Exoplanets & Astrobiology",
+          "label": "First Exoplanet Discovery (51 Pegasi b)",
+          "date": "1995",
+          "loc": "Observatoire de Haute-Provence, France",
+          "coords": [
+            43.93,
+            5.71
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Detecting a tiny, regular wobble in the velocity of a Sun-like star caused by the gravitational tug of an orbiting planet, Mayor and Queloz found the first planet ever confirmed around another ordinary star — but the planet itself was bizarre by Solar System standards, a gas giant roughly half Jupiter's mass orbiting its star in just four days, closer than Mercury orbits the Sun, a completely unanticipated type of planet that came to be called a 'hot Jupiter.'",
+          "note": "Mayor, M. & Queloz, D. (1995). 'A Jupiter-Mass Companion to a Solar-Type Star.' Nature, 378, 355–359, using the radial velocity method (see me1). Mayor and Queloz shared the 2019 Nobel Prize in Physics for the discovery. The existence of hot Jupiters, which no theoretical model had predicted before their detection, forced a substantial revision of planet formation theory to include planetary migration — the idea that giant planets can form farther out and then migrate inward through interactions with the protoplanetary disk.",
+          "links": [
+            "fg12",
+            "me1",
+            "th9"
+          ],
+          "keywords": [
+            "hot jupiter discovery",
+            "radial velocity wobble",
+            "planetary migration revision"
+          ]
+        },
+        {
+          "id": "st8",
+          "group": "High-Energy & Extreme Astrophysics",
+          "label": "Event Horizon Telescope Black Hole Imaging",
+          "date": "2019",
+          "loc": "MIT Haystack Observatory, Westford, Massachusetts",
+          "coords": [
+            42.62,
+            -71.49
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "By linking radio telescopes across multiple continents into a single Earth-sized virtual instrument and combining years of collected data, an international collaboration produced the first direct image of a black hole's shadow — the dark silhouette cast against glowing surrounding gas by the supermassive black hole at the centre of the galaxy Messier 87 — turning an object long considered fundamentally unphotographable into an actual picture.",
+          "note": "Event Horizon Telescope Collaboration (2019). 'First M87 Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole.' The Astrophysical Journal Letters, 875(1), L1. The image's ring size and shape matched general relativity's predictions for a black hole of the mass independently estimated from the motion of stars and gas near the galaxy's centre. A second image, of the supermassive black hole at the centre of the Milky Way itself (Sagittarius A*), followed in 2022.",
+          "links": [],
+          "keywords": [
+            "black hole shadow image",
+            "very long baseline interferometry",
+            "supermassive black hole confirmation"
+          ]
+        },
+        {
+          "id": "st9",
+          "group": "Exoplanets & Astrobiology",
+          "label": "Kepler Space Telescope Exoplanet Census",
+          "date": "2009",
+          "loc": "NASA Ames Research Center, Mountain View, California",
+          "coords": [
+            37.42,
+            -122.06
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Staring continuously at a single patch of roughly 150,000 stars for years and watching for the tiny, regular brightness dips caused by planets passing in front of their host stars, the Kepler space telescope transformed exoplanet science from a field with a handful of known worlds into one with thousands, revealing that small, rocky planets are far more common across the galaxy than gas giants, and that most stars host at least one planet.",
+          "note": "NASA's Kepler mission launched in 2009 and operated until 2018, confirming over 2,600 exoplanets directly and providing candidate data for thousands more subsequently confirmed by follow-up observation, using transit photometry (see me2). Kepler's single most surprising statistical finding was the abundance of 'super-Earths' and 'mini-Neptunes' — planets between Earth and Neptune in size with no direct analogue anywhere in the Solar System, now understood to be the most common type of planet in the galaxy.",
+          "links": [
+            "me2",
+            "th9"
+          ],
+          "keywords": [
+            "transit survey exoplanet census",
+            "super earth abundance",
+            "continuous star field monitoring"
+          ]
+        },
+        {
+          "id": "st10",
+          "group": "The Solar System",
+          "label": "Cassini-Huygens Saturn Mission",
+          "date": "2004",
+          "loc": "NASA Jet Propulsion Laboratory, Pasadena, California",
+          "coords": [
+            34.2,
+            -118.17
+          ],
+          "tag": "FIELD STUDY",
+          "repl": "robust",
+          "hint": "After a seven-year journey, the Cassini orbiter spent thirteen years circling Saturn, while its Huygens probe became the first spacecraft to land on a moon in the outer Solar System, touching down on Saturn's largest moon Titan and revealing a landscape of methane lakes and rivers — together the mission discovered geysers of water ice erupting from the small moon Enceladus, hinting at a subsurface ocean and making it one of the Solar System's most promising targets in the search for life.",
+          "note": "The Cassini-Huygens mission, a collaboration between NASA, the European Space Agency and the Italian Space Agency, entered Saturn orbit in 2004 and concluded in 2017 with a deliberate, controlled plunge into Saturn's atmosphere to avoid any risk of contaminating Enceladus or Titan with Earth microbes. The discovery of Enceladus's water-ice plumes (Porco, C.C. et al. 2006, Science) directly informed subsequent mission planning for dedicated ocean-world exploration (see db9).",
+          "links": [
+            "db9"
+          ],
+          "keywords": [
+            "saturn orbiter mission",
+            "titan moon landing",
+            "enceladus water plume"
+          ]
+        },
+        {
+          "id": "st11",
+          "group": "The Solar System",
+          "label": "Voyager's Grand Tour and Interstellar Crossing",
+          "date": "1977",
+          "loc": "NASA Jet Propulsion Laboratory, Pasadena, California",
+          "coords": [
+            34.2,
+            -118.17
+          ],
+          "tag": "FIELD STUDY",
+          "repl": "robust",
+          "hint": "Launched to take advantage of a rare planetary alignment that occurs only once every 176 years, the twin Voyager probes used each giant planet's gravity to slingshot onward to the next, returning the first close-up images of Jupiter, Saturn, Uranus and Neptune and their moons, before continuing outward past the Solar System's planets entirely — Voyager 1 became the first human-made object to cross into interstellar space in 2012, still transmitting data over 15 billion kilometres from Earth.",
+          "note": "NASA launched Voyager 2 in August 1977 and Voyager 1 the following month; both carry the Golden Record, a curated selection of sounds, images and music intended to represent Earth to any spacefaring civilisation that might one day encounter the probes. Voyager 1's crossing of the heliopause — the boundary where the Sun's solar wind gives way to interstellar plasma — was confirmed in 2012 by an abrupt, sustained jump in detected plasma density, exactly as models of the boundary predicted.",
+          "links": [
+            "fg10"
+          ],
+          "keywords": [
+            "planetary gravity assist",
+            "golden record message",
+            "heliopause interstellar crossing"
+          ]
+        },
+        {
+          "id": "st12",
+          "group": "The Cosmic Distance Ladder",
+          "label": "Gaia Astrometric Survey",
+          "date": "2013",
+          "loc": "European Space Operations Centre, Darmstadt, Germany",
+          "coords": [
+            49.87,
+            8.62
+          ],
+          "tag": "FIELD STUDY",
+          "repl": "robust",
+          "hint": "The Gaia space telescope has measured the precise position, distance, and motion of well over a billion stars across the Milky Way to accuracies as fine as a few millionths of an arcsecond — equivalent to measuring the width of a human hair from a thousand kilometres away — producing by far the most detailed three-dimensional map of the galaxy ever made and enabling astronomers to trace individual stars' orbits backward in time to reconstruct the Milky Way's merger history.",
+          "note": "The European Space Agency's Gaia mission launched in 2013; its data releases have each substantially superseded the precision of the earlier Hipparcos mission (1989–1993), which itself had improved stellar distance measurements roughly tenfold over ground-based parallax. Gaia's astrometric precision (see me6) has been sufficient to detect the gravitational wobble of stars caused by orbiting exoplanets and to reconstruct the debris trails of smaller galaxies the Milky Way has absorbed over billions of years.",
+          "links": [
+            "me6",
+            "ef1"
+          ],
+          "keywords": [
+            "stellar position survey",
+            "milky way three dimensional map",
+            "galactic merger history reconstruction"
+          ]
+        },
+        {
+          "id": "st13",
+          "group": "Galaxies & Large-Scale Structure",
+          "label": "Vera Rubin's Galaxy Rotation Curve Measurements",
+          "date": "1970",
+          "loc": "Carnegie Institution for Science, Washington, D.C.",
+          "coords": [
+            38.91,
+            -77.07
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Measuring how fast stars orbit at different distances from the centre of spiral galaxies, Rubin found that stars far out at the galaxy's edge were moving just as fast as stars near the centre — flatly contradicting the expectation, based on the visible matter alone, that outer stars should orbit noticeably slower, and providing the most compelling observational evidence to date that galaxies are embedded in vast, invisible halos of unseen matter.",
+          "note": "Rubin, V.C. & Ford, W.K. (1970). 'Rotation of the Andromeda Nebula from a Spectroscopic Survey of Emission Regions.' The Astrophysical Journal, 159, 379–403, with the pattern subsequently confirmed across dozens of other spiral galaxies through the 1970s and 1980s. The 'missing mass' Rubin's flat rotation curves revealed is now generally interpreted as evidence for dark matter (see th7), the same phenomenon debated in depth in the quantum-nuclear-relativity folio's Cosmological Frontiers group; Rubin was never awarded a Nobel Prize, an omission many astronomers consider a significant historical injustice.",
+          "links": [
+            "th7"
+          ],
+          "keywords": [
+            "flat galaxy rotation curve",
+            "missing mass evidence",
+            "spiral galaxy orbital speed"
+          ]
+        }
+      ]
     },
     {
       "id": "effect",
