@@ -15,10 +15,10 @@
   "mapZoom": 2,
   "methodology": "METHODOLOGY · Every entry anchors to a landmark fossil discovery, genetic study, field observation or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags replication status, revisions and known controversies. Studies and effects carry a replicability badge — 🟢 confirmed to high confidence · 🟡 nuanced, contested or partially revised · 🔴 failed or severely disputed. Map pins mark the fossil site, field location or institution where the work was carried out.",
   "_meta": {
-    "total_entries": 79,
+    "total_entries": 80,
     "entry_counts": {
       "theory": 10,
-      "study": 14,
+      "study": 15,
       "effect": 9,
       "concept": 9,
       "method": 8,
@@ -28,7 +28,7 @@
     },
     "max_ids": {
       "th": 10,
-      "st": 14,
+      "st": 15,
       "ef": 9,
       "co": 9,
       "me": 8,
@@ -73,6 +73,7 @@
     "st12": "study · Human Variation & Adaptation · EPAS1 Tibetan Altitude Adaptation (2010)",
     "st13": "study · Dating & Field Methods · Olduvai Gorge Potassium-Argon Dating (1961)",
     "st14": "study · Hominin Fossil Record · Homo floresiensis (\"The Hobbit\") (2004)",
+    "st15": "study · Hominin Fossil Record · Dragon Man / The Harbin Cranium (2021)",
     "ef1": "effect · Human Variation & Adaptation · Lactase Persistence (2002)",
     "ef2": "effect · Human Variation & Adaptation · Sickle-Cell Trait & Malaria Resistance (1954)",
     "ef3": "effect · Human Variation & Adaptation · Skin Pigmentation Gradient (2000)",
@@ -620,7 +621,8 @@
             "th1",
             "st12",
             "me3",
-            "db10"
+            "db10",
+            "st15"
           ],
           "keywords": [
             "denisovan finger bone",
@@ -774,6 +776,31 @@
             "island dwarfism hominin",
             "small brained late survivor",
             "flores skeleton controversy"
+          ]
+        },
+        {
+          "id": "st15",
+          "group": "Hominin Fossil Record",
+          "label": "Dragon Man / The Harbin Cranium",
+          "date": "2021",
+          "loc": "Hebei GEO University, Shijiazhuang, China",
+          "coords": [
+            38.04,
+            114.51
+          ],
+          "tag": "DISCOVERY",
+          "repl": "mixed",
+          "hint": "A massive, exceptionally well-preserved archaic human cranium — found by a labourer in Harbin, China in 1933 and hidden down a well for 85 years to keep it from Japanese occupying forces before finally being donated to a museum in 2018 — was formally described in 2021 as a new species, Homo longi ('Dragon Man'), dated to at least 146,000 years old. Ancient DNA and protein evidence recovered in 2025 instead identified it as a Denisovan, potentially giving a face for the first time to a lineage previously known only from a finger bone, a few teeth, and a jaw.",
+          "note": "Ji, Q., Wu, W., Ji, Y. et al. (2021). 'Late Middle Pleistocene Harbin Cranium Represents a New Homo Species.' The Innovation, 2(3), 100132, co-authored by Chris Stringer (see fg12), proposed the new species name. Fu, Q., Cao, P., Dai, Q. et al. (2025). 'Denisovan Mitochondrial DNA from Dental Calculus of the >146,000-Year-Old Harbin Cranium.' Cell, recovered ancient mtDNA from hardened dental plaque — since no DNA survived in the tooth or petrous bone itself — matching known Denisovan lineages from southern Siberia (see st8), with a companion paleoproteomic analysis of the skull's proteins reaching the same conclusion. The reclassification remains debated by some: original describer Xijun Ni has argued the genetic evidence does not fully settle the species question, exemplifying the same lumping-versus-splitting tension seen elsewhere in the field (see db2).",
+          "links": [
+            "st8",
+            "fg12",
+            "db2"
+          ],
+          "keywords": [
+            "harbin cranium reclassification",
+            "denisovan skull identification",
+            "hidden well fossil"
           ]
         }
       ]
@@ -1743,7 +1770,8 @@
           "note": "Stringer, C.B. & Andrews, P. (1988). 'Genetic and Fossil Evidence for the Origin of Modern Humans.' Science, 239(4845), 1263–1268. Stringer has since revised his own model's strictest 'no interbreeding' claim in light of confirmed Neanderthal and Denisovan admixture (see ef4, st7, st8), publicly describing the current picture as 'leaky replacement' rather than the original pure-replacement version.",
           "links": [
             "th1",
-            "db1"
+            "db1",
+            "st15"
           ],
           "keywords": [
             "out of africa advocate",
@@ -1806,7 +1834,8 @@
             "st5",
             "st6",
             "me5",
-            "st14"
+            "st14",
+            "st15"
           ],
           "keywords": [
             "taxonomic lumping splitting",
@@ -2254,6 +2283,11 @@
           "y": 2013,
           "l": "Homo naledi / Rising Star",
           "entryId": "st5"
+        },
+        {
+          "y": 2021,
+          "l": "Dragon Man / The Harbin Cranium",
+          "entryId": "st15"
         }
       ]
     },
