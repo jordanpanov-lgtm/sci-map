@@ -1411,7 +1411,207 @@
       "accent": "#CA6F1E",
       "bg": "#FDF5EC",
       "subtitle": "Live controversies — where the field is actively contesting the evidence",
-      "entries": []
+      "entries": [
+        {
+          "id": "db1",
+          "group": "The Solar System",
+          "label": "Pluto's Planet Status",
+          "date": "2006",
+          "loc": "Prague, Czech Republic",
+          "coords": [
+            50.09,
+            14.42
+          ],
+          "tag": "DEBATE",
+          "hint": "After the discovery of numerous similarly sized icy bodies in the outer Solar System, including one, Eris, initially thought to be larger than Pluto, the International Astronomical Union voted to adopt a formal definition of 'planet' requiring an object to have gravitationally cleared its orbital neighbourhood of other debris — a criterion Pluto fails, since it shares its orbital zone with countless other Kuiper Belt objects, reclassifying it as a 'dwarf planet' and triggering a public backlash that persists among some astronomers and much of the public to this day.",
+          "note": "International Astronomical Union Resolution B5 (2006), adopted at the IAU General Assembly in Prague by a vote of the roughly 400 members still present on the assembly's final day, a small fraction of the IAU's total membership, which critics have cited as undermining the vote's legitimacy. Some planetary scientists, including several involved in NASA's New Horizons mission to Pluto, continue to argue for a geophysical definition of 'planet' based on an object's own physical properties rather than its orbital neighbourhood, which would restore Pluto's planetary status.",
+          "links": [],
+          "keywords": [
+            "dwarf planet reclassification",
+            "iau orbital clearing criterion",
+            "kuiper belt object dispute"
+          ]
+        },
+        {
+          "id": "db2",
+          "group": "Exoplanets & Astrobiology",
+          "label": "The Fermi Paradox",
+          "date": "1950",
+          "loc": "Los Alamos National Laboratory, Los Alamos, New Mexico",
+          "coords": [
+            35.88,
+            -106.3
+          ],
+          "tag": "DEBATE",
+          "hint": "Given the sheer number of stars in the galaxy, the apparent commonness of planets, and the billions of years available for intelligent life to have evolved and spread, physicist Enrico Fermi is said to have asked over lunch why, then, has no evidence of extraterrestrial civilisation ever been detected — a deceptively simple question that has generated dozens of competing proposed explanations, from life being genuinely rare, to intelligence or technological civilisation being rare even where life exists, to advanced civilisations reliably self-destructing or deliberately avoiding contact.",
+          "note": "The exchange, reportedly at Los Alamos in the summer of 1950, was not published by Fermi himself but reconstructed later by colleagues including Eric Jones (1985, Los Alamos report LA-10311-MS). No proposed resolution to the paradox commands anything close to scientific consensus; the sheer diversity and mutual incompatibility of serious proposed explanations, ranging from the Great Filter hypothesis to the Rare Earth Hypothesis (see db3), is itself frequently cited as evidence of how little is genuinely known about the prevalence of life and intelligence in the universe.",
+          "links": [
+            "th10",
+            "db3"
+          ],
+          "keywords": [
+            "extraterrestrial silence puzzle",
+            "great filter hypothesis",
+            "civilization detection absence"
+          ]
+        },
+        {
+          "id": "db3",
+          "group": "Exoplanets & Astrobiology",
+          "label": "Rare Earth Hypothesis vs. Copernican Mediocrity",
+          "date": "2000",
+          "loc": "University of Washington, Seattle, Washington",
+          "coords": [
+            47.66,
+            -122.31
+          ],
+          "tag": "DEBATE",
+          "hint": "The long-standing default assumption in astronomy, the Copernican principle, holds that Earth occupies no special or privileged position in the universe, so life-supporting conditions should be unremarkable and common — but Ward and Brownlee argued that complex, multicellular life specifically may actually require an improbable conjunction of many separate rare factors (a large stabilising moon, a particular kind of plate tectonics, a well-placed giant planet neighbour sweeping up dangerous comets) that could make Earth-like worlds hosting complex life exceptionally rare, even if simple microbial life turns out to be common.",
+          "note": "Ward, P.D. & Brownlee, D. (2000). Rare Earth: Why Complex Life Is Uncommon in the Universe. Copernicus Books. Critics argue the hypothesis substantially overstates how many of Earth's specific historical circumstances were genuinely necessary preconditions for complex life rather than simply the particular path life happened to take on this one planet, and that the list of supposedly required factors has grown more speculative, not less, as each has come under closer empirical scrutiny in the exoplanet era (see th8).",
+          "links": [
+            "th8",
+            "db2"
+          ],
+          "keywords": [
+            "complex life rarity argument",
+            "copernican mediocrity principle",
+            "multiple rare factor requirement"
+          ]
+        },
+        {
+          "id": "db4",
+          "group": "Galaxies & Large-Scale Structure",
+          "label": "MOND vs. Particle Dark Matter",
+          "date": "1983",
+          "loc": "Weizmann Institute of Science, Rehovot, Israel",
+          "coords": [
+            31.91,
+            34.81
+          ],
+          "tag": "DEBATE",
+          "hint": "The flat galaxy rotation curves that Vera Rubin measured (see st13) are overwhelmingly interpreted by most astrophysicists as evidence for unseen dark matter particles providing the extra gravitational pull — but a minority position, Modified Newtonian Dynamics, proposes instead that Newton's law of gravity itself simply behaves differently at the extremely low accelerations found at a galaxy's outer edge, eliminating the need for any additional invisible matter at all.",
+          "note": "Milgrom, M. (1983). 'A Modification of the Newtonian Dynamics as a Possible Alternative to the Hidden Mass Hypothesis.' The Astrophysical Journal, 270, 365–370. MOND fits many individual spiral galaxies' rotation curves remarkably well with a single adjustable parameter, but struggles to explain galaxy cluster dynamics and gravitational lensing observations, including the Bullet Cluster, as convincingly as particle dark matter does — the same underlying dark matter question is examined from the particle-physics side in the quantum-nuclear-relativity folio's debate over dark matter and dark energy.",
+          "links": [
+            "st13",
+            "th7"
+          ],
+          "keywords": [
+            "modified newtonian dynamics",
+            "dark matter alternative theory",
+            "bullet cluster evidence"
+          ]
+        },
+        {
+          "id": "db5",
+          "group": "Exoplanets & Astrobiology",
+          "label": "Panspermia",
+          "date": "1908",
+          "loc": "Stockholm, Sweden",
+          "coords": [
+            59.33,
+            18.06
+          ],
+          "tag": "DEBATE",
+          "hint": "Rather than life originating independently on Earth, panspermia proposes that microbial life, or the basic organic building blocks needed for it, could have arrived from elsewhere in the Solar System or beyond, carried on meteorites, comets, or interstellar dust — a hypothesis that doesn't actually explain how life first arose anywhere, but relocates and potentially widens the search for where and when that origin event might have happened.",
+          "note": "Arrhenius, S. (1908). Worlds in the Making: The Evolution of the Universe. Harper & Row, proposed 'radiopanspermia,' microbial spores drifting between star systems propelled by starlight pressure — the same Svante Arrhenius credited with the earliest quantitative greenhouse-effect calculation. Modern 'lithopanspermia,' the more scientifically credible variant, proposes transfer of hardy microorganisms via meteorite impacts between planets within a single solar system; some extremophile bacteria have survived controlled exposure to the vacuum and radiation of space in low Earth orbit experiments, lending it modest empirical support, though transfer between different star systems remains considered far less plausible given interstellar travel times.",
+          "links": [
+            "co3"
+          ],
+          "keywords": [
+            "life transfer between worlds",
+            "meteorite microbial survival",
+            "radiopanspermia hypothesis"
+          ]
+        },
+        {
+          "id": "db6",
+          "group": "The Cosmic Distance Ladder",
+          "label": "The Hubble Tension",
+          "date": "2019",
+          "loc": "Space Telescope Science Institute, Baltimore, Maryland",
+          "coords": [
+            39.29,
+            -76.61
+          ],
+          "tag": "DEBATE",
+          "hint": "Two independent, individually very precise methods of measuring the universe's current expansion rate — one built up from the 'local' distance ladder of Cepheid variables and Type Ia supernovae, the other derived from the cosmic microwave background radiation left over from the Big Bang — disagree with each other by roughly 8 to 9%, a gap now far larger than either method's individually claimed margin of error, leaving cosmologists genuinely uncertain whether the discrepancy points to an unrecognised systematic measurement error or to missing new physics in the standard cosmological model.",
+          "note": "Riess, A.G. et al. (2019). 'Large Magellanic Cloud Cepheid Standards Provide a 1% Foundation for the Determination of the Hubble Constant.' The Astrophysical Journal, 876(1), 85, crystallised the tension as a serious problem rather than a measurement artefact likely to simply go away with more data. Despite years of intense scrutiny by multiple independent teams using different methods, no convincing systematic error has been identified on either side of the tension, keeping open the genuinely exciting possibility that resolving it will require new physics beyond the standard cosmological model.",
+          "links": [
+            "st4",
+            "st12"
+          ],
+          "keywords": [
+            "expansion rate discrepancy",
+            "distance ladder versus cmb",
+            "hubble constant disagreement"
+          ]
+        },
+        {
+          "id": "db7",
+          "group": "Exoplanets & Astrobiology",
+          "label": "The Wow! Signal",
+          "date": "1977",
+          "loc": "Ohio State University, Delaware, Ohio",
+          "coords": [
+            40.3,
+            -83.13
+          ],
+          "tag": "DEBATE",
+          "hint": "A radio telescope scanning the sky for SETI research detected an intensely strong, narrowband signal lasting 72 seconds, closely matching several key characteristics expected of an artificial extraterrestrial transmission — the astronomer reviewing the printout was startled enough to circle the data and write 'Wow!' in the margin — but the signal has never repeated in thousands of subsequent hours of observation aimed at the same patch of sky, leaving its origin formally unresolved to this day.",
+          "note": "The signal was detected on 15 August 1977 using Ohio State University's Big Ear radio telescope. Numerous proposed mundane explanations, including a passing comet's hydrogen cloud (Paris, A.A. 2017, a hypothesis subsequently challenged by other researchers who found the comet's expected signal strength too weak) and reflected terrestrial radio interference, have each been proposed and each disputed in turn; without a repeat detection, the signal remains neither confirmed as extraterrestrial nor conclusively explained by any mundane source.",
+          "links": [
+            "th10"
+          ],
+          "keywords": [
+            "unrepeated radio signal",
+            "seti candidate detection",
+            "unresolved signal origin"
+          ]
+        },
+        {
+          "id": "db8",
+          "group": "The Solar System",
+          "label": "Planet Nine Hypothesis",
+          "date": "2016",
+          "loc": "California Institute of Technology, Pasadena, California",
+          "coords": [
+            34.14,
+            -118.13
+          ],
+          "tag": "DEBATE",
+          "hint": "The unusually clustered, aligned orbits of a small number of extremely distant icy bodies beyond Neptune are difficult to explain by chance alone, leading two astronomers to propose an as-yet-undiscovered ninth planet, roughly five to ten times Earth's mass, orbiting far beyond Pluto and gravitationally shepherding these objects into their observed alignment — a hypothesis that would restore a ninth full planet to the Solar System, though direct searches across the region of sky where it should be visible have so far failed to find it.",
+          "note": "Batygin, K. & Brown, M.E. (2016). 'Evidence for a Distant Giant Planet in the Solar System.' The Astronomical Journal, 151(2), 22. Sceptics argue the clustered orbits could instead reflect observational selection bias, since the surveys that found these distant objects were not equally sensitive across the whole sky, or could be the residual signature of a since-ejected planet rather than one still present today; ongoing wide-field sky surveys, including the Vera C. Rubin Observatory's Legacy Survey of Space and Time, are expected to either directly detect or substantially rule out the hypothesised planet within the coming years.",
+          "links": [],
+          "keywords": [
+            "undiscovered distant planet",
+            "clustered kuiper belt orbits",
+            "observational selection bias critique"
+          ]
+        },
+        {
+          "id": "db9",
+          "group": "The Solar System",
+          "label": "Ocean Worlds & Habitability Beyond Earth",
+          "date": "2006",
+          "loc": "NASA Jet Propulsion Laboratory, Pasadena, California",
+          "coords": [
+            34.2,
+            -118.17
+          ],
+          "tag": "DEBATE",
+          "hint": "Several icy moons of Jupiter and Saturn — Europa, Enceladus, and to a lesser extent Titan and Ganymede — are now understood to harbour vast liquid water oceans beneath their frozen surfaces, kept liquid by tidal heating (see ef4) rather than sunlight, raising the genuinely contested question of whether a subsurface ocean sealed away from direct sunlight and any atmosphere could nonetheless support life, and whether current or planned spacecraft missions can plausibly detect it without physically drilling through kilometres of ice.",
+          "note": "Porco, C.C. et al. (2006). 'Cassini Observes the Active South Pole of Enceladus.' Science, 311(5766), 1393–1401, documented water-ice plumes erupting from Enceladus's south pole (see st10), providing a way to sample the subsurface ocean's chemistry without drilling. NASA's Europa Clipper mission, launched in 2024, is specifically designed to assess Europa's habitability through repeated close flybys rather than landing, reflecting genuine scientific disagreement over whether definitive biosignature detection is achievable without a far more technically difficult lander or drilling mission.",
+          "links": [
+            "st10",
+            "ef4"
+          ],
+          "keywords": [
+            "subsurface ocean moon",
+            "tidal heating liquid water",
+            "ice plume sampling strategy"
+          ]
+        }
+      ]
     },
     {
       "id": "application",
@@ -1421,7 +1621,137 @@
       "accent": "#2E86C1",
       "bg": "#EBF5FB",
       "subtitle": "Where the science leaves the lab",
-      "entries": []
+      "entries": [
+        {
+          "id": "ap1",
+          "group": "The Solar System",
+          "label": "GPS Satellite Orbital Mechanics",
+          "date": "1978",
+          "loc": "El Segundo, California",
+          "coords": [
+            33.92,
+            -118.41
+          ],
+          "tag": "APPLICATION",
+          "hint": "A GPS receiver calculates its position by precisely timing radio signals from at least four orbiting satellites and solving, in effect, a real-time version of the same orbital geometry problem Kepler first worked out for the planets (see th1) — each satellite's own position is continuously predicted from its known orbital elements, and the whole system depends on Kepler's centuries-old mathematics being applied millions of times per second across a global satellite constellation.",
+          "note": "The United States Air Force launched the first GPS satellite in 1978; the full 24-satellite constellation was completed in 1993 and opened to unrestricted civilian use in 2000. Each satellite's clock must also be corrected for relativistic time dilation effects — both from its orbital speed and its distance from Earth's gravity — a separate application of relativity theory covered in the quantum-nuclear-relativity folio; without both the Keplerian orbital calculation and the relativistic clock correction working together, GPS position estimates would drift by kilometres within a single day.",
+          "links": [
+            "th1"
+          ],
+          "keywords": [
+            "satellite orbital positioning",
+            "kepler navigation application",
+            "global positioning constellation"
+          ]
+        },
+        {
+          "id": "ap2",
+          "group": "Telescopes & Observational Techniques",
+          "label": "Space Telescope Engineering",
+          "date": "1990",
+          "loc": "Kennedy Space Center, Florida",
+          "coords": [
+            28.57,
+            -80.65
+          ],
+          "tag": "APPLICATION",
+          "hint": "Placing a telescope in orbit, entirely above the atmospheric distortion (see ef8) and light pollution that limit every ground-based observatory, requires solving an enormous engineering challenge — building an instrument precise and stable enough to hold a fixed point in the sky for hours at a time, powered entirely by solar panels, cooled to extremely low temperatures for infrared sensitivity, and, in the case of Hubble, later repaired in orbit by astronauts after its primary mirror was found to have been ground to the wrong shape.",
+          "note": "The Hubble Space Telescope launched in 1990; its primary mirror's flaw, an error of just 2.2 micrometres in curvature, was corrected by a 1993 spacewalk installing corrective optics, described at the time as giving the telescope 'glasses.' The James Webb Space Telescope, launched in 2021 and optimised for infrared observation, operates far beyond low Earth orbit at the Sun-Earth L2 Lagrange point specifically to keep its instruments shielded from the Sun's and Earth's heat and light.",
+          "links": [
+            "ef8"
+          ],
+          "keywords": [
+            "orbital telescope engineering",
+            "hubble mirror correction",
+            "space based observation advantage"
+          ]
+        },
+        {
+          "id": "ap3",
+          "group": "Telescopes & Observational Techniques",
+          "label": "Satellite Communications",
+          "date": "1962",
+          "loc": "Andover, Maine",
+          "coords": [
+            44.63,
+            -70.75
+          ],
+          "tag": "APPLICATION",
+          "hint": "Understanding a satellite's stable orbit well enough to place it precisely, and especially the geostationary orbit — the specific altitude at which a satellite's orbital period exactly matches Earth's rotation, letting it appear to hang motionless over one fixed point on the ground — made possible the entire modern infrastructure of satellite television, long-distance telephone relay, and global internet backbone links that depend on a satellite staying reliably fixed in the sky relative to ground antennas.",
+          "note": "Telstar 1, launched in 1962, relayed the first live transatlantic television broadcast. The concept of a geostationary communications satellite was proposed as a practical engineering possibility by science fiction author and satellite theorist Arthur C. Clarke in a 1945 Wireless World article, over a decade before the first satellite of any kind reached orbit; the geostationary orbital band is now sufficiently crowded with active satellites that international coordination is required to allocate specific orbital 'slots.'",
+          "links": [],
+          "keywords": [
+            "geostationary orbit communication",
+            "transatlantic satellite relay",
+            "arthur c clarke prediction"
+          ]
+        },
+        {
+          "id": "ap4",
+          "group": "The Solar System",
+          "label": "Asteroid Deflection / Planetary Defense",
+          "date": "2022",
+          "loc": "Laurel, Maryland",
+          "coords": [
+            39.1,
+            -76.85
+          ],
+          "tag": "APPLICATION",
+          "hint": "Deliberately crashing a spacecraft directly into a small asteroid at high speed, NASA's DART mission tested whether the resulting momentum transfer could measurably change the asteroid's orbital period around its larger companion asteroid — a real-world proof of concept for the 'kinetic impactor' strategy proposed for deflecting a genuinely hazardous asteroid away from a future collision course with Earth, given enough advance warning time.",
+          "note": "NASA's Double Asteroid Redirection Test spacecraft impacted the asteroid moonlet Dimorphos on 26 September 2022, successfully shortening its 11.9-hour orbital period around the larger asteroid Didymos by roughly 32 minutes — significantly more than the mission's minimum success threshold of 73 seconds. The mission was explicitly a proof-of-concept technology demonstration rather than a response to any actual impact threat, since no known near-Earth asteroid currently poses a significant collision risk within the next century.",
+          "links": [],
+          "keywords": [
+            "kinetic impactor deflection",
+            "dart mission test",
+            "asteroid orbital period change"
+          ]
+        },
+        {
+          "id": "ap5",
+          "group": "The Cosmic Distance Ladder",
+          "label": "Celestial Navigation",
+          "date": "1730",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "APPLICATION",
+          "hint": "For most of human history, sailors navigated the open ocean, far out of sight of any landmark, by precisely measuring the angle between a known star and the horizon and comparing it against published astronomical tables — turning astrometry (see me6) into a life-or-death practical skill, and remaining a standard backup navigation method taught to sailors and pilots even today, in case of electronic or satellite navigation system failure.",
+          "note": "Hadley, J. (1730) independently invented the reflecting octant, later refined into the sextant, providing mariners a stable, precise instrument for measuring a star's angle above the horizon even from a moving ship's deck. Celestial navigation was the primary method of open-ocean wayfinding for over two centuries until satellite-based GPS (see ap1) became widely available in the 1990s, and several national navies still maintain celestial navigation training specifically as a resilient backup in case satellite systems are jammed, spoofed, or disabled.",
+          "links": [
+            "me6",
+            "ap1"
+          ],
+          "keywords": [
+            "sextant star angle measurement",
+            "maritime wayfinding backup",
+            "pre satellite ocean navigation"
+          ]
+        },
+        {
+          "id": "ap6",
+          "group": "Telescopes & Observational Techniques",
+          "label": "Adaptive Optics Beyond Astronomy",
+          "date": "1997",
+          "loc": "University of Rochester, Rochester, New York",
+          "coords": [
+            43.13,
+            -77.63
+          ],
+          "tag": "APPLICATION",
+          "hint": "The same deformable-mirror technology developed to cancel out atmospheric blurring for ground-based telescopes (see me3) turned out to solve an analogous problem in a completely different field: the eye's own imperfect optics blur the view of individual light-sensing cells on the retina, and applying the identical real-time optical correction technique lets ophthalmologists image, and diagnose disease in, individual retinal cells directly in a living human eye.",
+          "note": "Liang, J., Williams, D.R. & Miller, D.T. (1997). 'Supernormal Vision and High-Resolution Retinal Imaging through Adaptive Optics.' Journal of the Optical Society of America A, 14(11), 2884–2892, adapted astronomical adaptive optics technology for ophthalmology. The technology transfer has since become commercialised in clinical retinal imaging devices used to detect early-stage eye disease, a direct practical spinoff of technology originally developed purely to sharpen images of distant stars.",
+          "links": [
+            "me3"
+          ],
+          "keywords": [
+            "retinal imaging technology transfer",
+            "deformable mirror ophthalmology",
+            "astronomy technology spinoff"
+          ]
+        }
+      ]
     }
   ],
   "timeline": [
