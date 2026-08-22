@@ -4,6 +4,51 @@
 // are available as globals to the renderer.
 
 const STUDY_PLANS = {
+  'environmental-science': {
+    meta: "Groups content thematically rather than by category: after the founders, each module works through one branch of the field — ecosystem-level ecology, planetary biogeochemical systems, the climate itself, pollution and toxicology, conservation and restoration, resource and agricultural systems, and finally the policy tools meant to govern all of it — carrying each branch's theories, landmark studies, named phenomena, and live debates together as a single unit.",
+    modules: [
+      {
+        title: '1 — Founders & the Field',
+        rationale: "From Marsh's nineteenth-century warning that humans could permanently damage physical geography to Hansen's 1988 congressional testimony, a relatively small set of scientists and advocates repeatedly turned environmental concern into a subject with genuine predictive theory and evidence underneath it.",
+        groups: ['Pioneers & Theorists']
+      },
+      {
+        title: '2 — Ecosystem Ecology & Biodiversity',
+        rationale: "Island biogeography, trophic cascades, and keystone species give the conceptual toolkit for understanding how ecosystems are structured and why removing or adding a single species can ripple through an entire community.",
+        groups: ['Ecosystem Ecology & Biodiversity']
+      },
+      {
+        title: '3 — Biogeochemical Cycles & Planetary Systems',
+        rationale: "Planetary boundaries, the Gaia hypothesis, feedback loops and tipping points frame the Earth as a single coupled system, where a change in one cycle — carbon, ice, ocean chemistry — can cascade into others in ways simple linear thinking misses.",
+        groups: ['Biogeochemical Cycles & Planetary Systems']
+      },
+      {
+        title: '4 — Climate Science & Global Change',
+        rationale: "From Arrhenius's hand calculation of the greenhouse effect to the Keeling Curve and formal detection-and-attribution statistics, this module traces how a century-old theoretical prediction became an observed, quantified, and confidently attributed reality.",
+        groups: ['Climate Science & Global Change']
+      },
+      {
+        title: '5 — Pollution, Toxicology & Environmental Health',
+        rationale: "DDT, the ozone hole, Chernobyl and endocrine disruptors show how contamination moves through ecosystems and bodies in ways that are frequently invisible until a landmark study makes the mechanism visible.",
+        groups: ['Pollution, Toxicology & Environmental Health']
+      },
+      {
+        title: '6 — Conservation Biology & Restoration',
+        rationale: "Ecosystem services, invasive species, and the rewilding-versus-management debate cover the practical and philosophical questions conservation actually has to resolve once the underlying ecology is understood.",
+        groups: ['Conservation Biology & Restoration']
+      },
+      {
+        title: '7 — Resource Systems, Agriculture & Sustainability',
+        rationale: "Carrying capacity, the Green Revolution, and the IPAT equation's population-versus-consumption tension cover how humanity actually extracts and allocates resources, and where those systems run up against ecological limits.",
+        groups: ['Resource Systems, Agriculture & Sustainability']
+      },
+      {
+        title: '8 — Environmental Policy & Governance',
+        rationale: "The tragedy of the commons, Ostrom's rebuttal, and the live disputes over degrowth, carbon offsets, and green building certification cover the institutional tools — and their real-world limits — for actually governing shared environmental problems.",
+        groups: ['Environmental Policy & Governance']
+      }
+    ]
+  },
   'biological-anthropology': {
     meta: "Groups content thematically rather than by category: after the founders, each module works through one branch of the field — living primates as a comparative baseline, the hominin fossil record, the specific evolution of bipedalism, brain and cognitive evolution, the genetic record, human biological variation, and finally the dating and field methods that actually generate the evidence — carrying each branch's theories, landmark discoveries, named phenomena, and live debates together as a single unit.",
     modules: [
