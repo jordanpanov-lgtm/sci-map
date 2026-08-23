@@ -23,7 +23,241 @@
       "accent": "#2471A3",
       "bg": "#F0F7FF",
       "subtitle": "The frameworks that organise how the solid Earth formed, moves and evolves",
-      "entries": []
+      "entries": [
+        {
+          "id": "th1",
+          "group": "Stratigraphy & Deep Time",
+          "label": "Uniformitarianism",
+          "date": "1785",
+          "loc": "Edinburgh, Scotland",
+          "coords": [
+            55.95,
+            -3.19
+          ],
+          "tag": "THEORY",
+          "hint": "Rather than assuming Earth's landscape was shaped mainly by sudden, catastrophic events like a global flood, Hutton proposed that the same slow, ordinary processes visible today — erosion, sedimentation, gradual uplift — have operated at roughly the same rate throughout Earth's entire history, and that given enough time, these gentle processes alone are sufficient to explain even the most dramatic geological features, implying Earth must be almost inconceivably older than the few thousand years then commonly assumed.",
+          "note": "Hutton, J. (1788). 'Theory of the Earth; or an Investigation of the Laws observable in the Composition, Dissolution, and Restoration of Land upon the Globe.' Transactions of the Royal Society of Edinburgh, 1(2), 209–304, first presented to the Society in 1785. Charles Lyell's Principles of Geology (1830–33) later popularised and extended the idea, coining it 'uniformitarianism' in contrast to 'catastrophism' (see db3). Modern geology accepts that catastrophic events do occur and matter (see db4), but treats them as occurring within, not replacing, the same physical laws operating gradually the rest of the time.",
+          "links": [
+            "fg1",
+            "fg2",
+            "db3"
+          ],
+          "keywords": [
+            "gradual geological process",
+            "deep time implication",
+            "catastrophism rejection"
+          ]
+        },
+        {
+          "id": "th2",
+          "group": "Plate Tectonics & Structural Geology",
+          "label": "Continental Drift Theory",
+          "date": "1912",
+          "loc": "Marburg, Germany",
+          "coords": [
+            50.81,
+            8.77
+          ],
+          "tag": "THEORY",
+          "hint": "Noticing that the coastlines of South America and Africa fit together like puzzle pieces, and that matching rock formations and fossils of the same extinct species appeared on both sides of the Atlantic, Wegener proposed that all the continents were once joined together in a single supercontinent that had since drifted apart — a bold explanation for a pattern earlier geologists had also noticed but never proposed anything so radical to explain.",
+          "note": "Wegener, A. (1912). 'Die Entstehung der Kontinente.' Geologische Rundschau, 3(4), 276–292, later expanded into Die Entstehung der Kontinente und Ozeane (1915). Wegener, a meteorologist rather than a geologist by training, could not identify a physically plausible mechanism for how continents might actually plough through solid ocean floor, a fatal weakness that led most geologists to reject the theory for decades (see db1) until seafloor spreading (see th3) finally supplied the missing mechanism.",
+          "links": [
+            "fg4",
+            "db1",
+            "th3"
+          ],
+          "keywords": [
+            "supercontinent fit evidence",
+            "matching fossil distribution",
+            "missing drift mechanism"
+          ]
+        },
+        {
+          "id": "th3",
+          "group": "Plate Tectonics & Structural Geology",
+          "label": "Seafloor Spreading Hypothesis",
+          "date": "1962",
+          "loc": "Princeton University, Princeton, New Jersey",
+          "coords": [
+            40.34,
+            -74.65
+          ],
+          "tag": "THEORY",
+          "hint": "New ocean floor is continuously created at mid-ocean ridges, where molten rock rises up and solidifies, then spreads slowly outward in both directions like a conveyor belt, eventually descending back into the mantle at deep ocean trenches — a mechanism that finally explained how continents could move without ploughing through solid rock, since it's the ocean floor itself doing the moving, carrying the continents along on top of it.",
+          "note": "Hess, H.H. (1962). 'History of Ocean Basins.' In A.E.J. Engel et al. (eds.), Petrologic Studies: A Volume in Honor of A.F. Buddington, Geological Society of America, 599–620. Hess himself described the idea as 'geopoetry,' acknowledging it was still largely speculative when first proposed; it was decisively confirmed within a few years by the discovery of symmetric magnetic striping on the ocean floor (see st5, me3).",
+          "links": [
+            "fg6",
+            "th2",
+            "st5"
+          ],
+          "keywords": [
+            "mid ocean ridge creation",
+            "ocean floor conveyor belt",
+            "continental drift mechanism"
+          ]
+        },
+        {
+          "id": "th4",
+          "group": "Plate Tectonics & Structural Geology",
+          "label": "Plate Tectonics Theory",
+          "date": "1968",
+          "loc": "University of Cambridge, Cambridge, England",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "tag": "THEORY",
+          "hint": "Earth's rigid outer shell is broken into a mosaic of large, rigid plates that float on the slowly deforming mantle beneath and move relative to one another, colliding, pulling apart, or sliding past each other along their boundaries — a single unifying framework that, once assembled from continental drift, seafloor spreading, and earthquake and volcano distribution data, explained mountain building, earthquakes, volcanoes, and ocean basin formation all as consequences of one underlying process.",
+          "note": "McKenzie, D.P. & Parker, R.L. (1967). 'The North Pacific: An Example of Tectonics on a Sphere.' Nature, 216, 1276–1280; Morgan, W.J. (1968). 'Rises, Trenches, Great Faults, and Crustal Blocks.' Journal of Geophysical Research, 73(6), 1959–1982, independently formalised the rigid-plate framework mathematically. The synthesis of continental drift and seafloor spreading into a single, quantitatively rigorous theory within just a few years during the mid-to-late 1960s is often cited as one of the fastest, most complete paradigm shifts in the history of science.",
+          "links": [
+            "th2",
+            "th3",
+            "co5"
+          ],
+          "keywords": [
+            "rigid plate mosaic",
+            "unifying geological framework",
+            "plate boundary interaction"
+          ]
+        },
+        {
+          "id": "th5",
+          "group": "Mineralogy & Petrology",
+          "label": "Bowen's Reaction Series",
+          "date": "1922",
+          "loc": "Geophysical Laboratory, Carnegie Institution, Washington, D.C.",
+          "coords": [
+            38.92,
+            -77.04
+          ],
+          "tag": "THEORY",
+          "hint": "As a body of molten rock (magma) cools, different minerals crystallise out of it in a predictable sequence, at specific temperatures, in an order determined by each mineral's melting point — early-forming, high-temperature minerals like olivine can even chemically react with the remaining liquid magma to transform into the next mineral in the sequence as cooling continues, explaining why certain minerals are reliably found together in the same rock while others almost never are.",
+          "note": "Bowen, N.L. (1922). 'The Reaction Principle in Petrogenesis.' The Journal of Geology, 30(3), 177–198, based on laboratory experiments melting and slowly cooling rock samples under controlled conditions. The series comes in two branches — a discontinuous series of increasingly complex dark, iron-and-magnesium-rich minerals, and a continuous series of increasingly sodium-rich feldspars — that converge to explain the mineral composition of the full range of igneous rocks from basalt to granite.",
+          "links": [
+            "fg12",
+            "co1",
+            "co4"
+          ],
+          "keywords": [
+            "magma crystallization sequence",
+            "mineral melting point order",
+            "igneous rock composition"
+          ]
+        },
+        {
+          "id": "th6",
+          "group": "Earth's Interior & Geophysics",
+          "label": "Isostasy Theory",
+          "date": "1855",
+          "loc": "Royal Observatory, Greenwich, England",
+          "coords": [
+            51.48,
+            0
+          ],
+          "tag": "THEORY",
+          "hint": "Earth's rigid outer crust effectively floats on the denser, more fluid mantle beneath it, in gravitational balance much like an iceberg floats in water — thicker, lighter crust (like continents and mountain ranges) rides higher, with a deep compensating 'root' extending down into the mantle, while thinner, denser crust (like ocean floor) sits lower, explaining puzzling small discrepancies in gravitational measurements taken near large mountain ranges.",
+          "note": "Airy, G.B. (1855). 'On the Computation of the Effect of the Attraction of Mountain-Masses.' Philosophical Transactions of the Royal Society, 145, 101–104, proposed the theory to explain anomalies found while surveying gravity near the Himalayas; Pratt, J.H. independently proposed a rival model the same year assuming uniform crustal density but variable thickness. Isostatic adjustment continues today as post-glacial rebound (see ef3), where land once depressed by the weight of ice-age glaciers is still slowly rising back upward thousands of years after the ice melted.",
+          "links": [
+            "ef3"
+          ],
+          "keywords": [
+            "crustal floating equilibrium",
+            "mountain root compensation",
+            "gravity anomaly explanation"
+          ]
+        },
+        {
+          "id": "th7",
+          "group": "Earth's Interior & Geophysics",
+          "label": "The Geodynamo Theory",
+          "date": "1946",
+          "loc": "University of Pennsylvania, Philadelphia, Pennsylvania",
+          "coords": [
+            39.95,
+            -75.19
+          ],
+          "tag": "THEORY",
+          "hint": "Earth's magnetic field is generated deep inside the planet by the churning motion of molten, electrically conductive iron in the liquid outer core, which — combined with Earth's rotation — sets up a self-sustaining electric current loop that produces a magnetic field, in much the same basic principle as a mechanical dynamo generator, rather than by any fixed, permanent magnetised material inside the planet, which would simply lose its magnetism at the core's extreme temperatures.",
+          "note": "Elsasser, W.M. (1946). 'Induction Effects in Terrestrial Magnetism.' Physical Review, 69(3–4), 106–116, first proposed the modern dynamo mechanism; Bullard, E.C. (1949) developed the theory further. The theory correctly predicts that the magnetic field should occasionally and unpredictably reverse polarity entirely (see ef9), a prediction subsequently confirmed by the magnetic striping pattern frozen into the ocean floor (see st5).",
+          "links": [
+            "ef9",
+            "st5"
+          ],
+          "keywords": [
+            "liquid iron core current",
+            "self sustaining magnetic field",
+            "dynamo generator mechanism"
+          ]
+        },
+        {
+          "id": "th8",
+          "group": "Seismology & Earthquake Science",
+          "label": "Elastic Rebound Theory",
+          "date": "1910",
+          "loc": "Johns Hopkins University, Baltimore, Maryland",
+          "coords": [
+            39.33,
+            -76.62
+          ],
+          "tag": "THEORY",
+          "hint": "Rock on either side of a fault line slowly bends and stores elastic strain energy over years or decades as tectonic forces push the two sides in opposite directions, until the accumulated stress finally exceeds the friction holding the fault locked together — at which point the rock suddenly snaps back to its unstrained shape in a violent, rapid rupture, releasing the stored energy as the shaking of an earthquake, rather than the fault simply grinding continuously.",
+          "note": "Reid, H.F. (1910). 'The Mechanics of the Earthquake.' The California Earthquake of April 18, 1906: Report of the State Earthquake Investigation Commission, Volume 2. Carnegie Institution of Washington, based on precise surveying data showing the ground on either side of the San Andreas Fault had been slowly deforming for years before suddenly snapping during the 1906 earthquake (see st11). The theory remains the foundational model for how most large, shallow earthquakes occur.",
+          "links": [
+            "st11",
+            "fg9"
+          ],
+          "keywords": [
+            "accumulated fault strain",
+            "sudden rupture release",
+            "san andreas survey evidence"
+          ]
+        },
+        {
+          "id": "th9",
+          "group": "Plate Tectonics & Structural Geology",
+          "label": "The Wilson Cycle",
+          "date": "1966",
+          "loc": "University of Toronto, Toronto, Canada",
+          "coords": [
+            43.66,
+            -79.4
+          ],
+          "tag": "THEORY",
+          "hint": "Ocean basins are not permanent features but are born, grow, and eventually close again over hundreds of millions of years, in a repeating cycle: a continent first rifts apart and a new ocean opens between the pieces, the ocean widens for a time via seafloor spreading, then subduction begins consuming the ocean floor faster than new floor forms, and the ocean progressively narrows and finally closes entirely as the continents collide once more, raising a new mountain range where the ocean used to be.",
+          "note": "Wilson, J.T. (1966). 'Did the Atlantic Close and then Re-Open?' Nature, 211, 676–681, proposed the cyclical framework after recognising that some mountain belts, including the Appalachians, showed geological evidence of an earlier ocean that had opened and then closed entirely before the modern Atlantic later opened again along a similar, though not identical, line. The full cycle typically takes several hundred million years to complete, meaning no single human observation can span an entire cycle directly.",
+          "links": [
+            "th4"
+          ],
+          "keywords": [
+            "ocean basin lifecycle",
+            "supercontinent rifting closing",
+            "appalachian evidence reconstruction"
+          ]
+        },
+        {
+          "id": "th10",
+          "group": "Stratigraphy & Deep Time",
+          "label": "Radiometric Age-of-Earth Framework",
+          "date": "1907",
+          "loc": "Yale University, New Haven, Connecticut",
+          "coords": [
+            41.31,
+            -72.93
+          ],
+          "tag": "THEORY",
+          "hint": "Certain radioactive elements decay into stable 'daughter' elements at a fixed, measurable rate regardless of temperature, pressure, or chemical environment — measuring the ratio of remaining radioactive parent element to accumulated daughter element within a rock sample therefore gives a reliable clock for how long ago that rock solidified, providing the first rigorous, quantitative method for dating rocks and, by extension, calculating Earth's true age directly from physical evidence rather than from scriptural or purely geological estimation.",
+          "note": "Boltwood, B.B. (1907). 'The Ultimate Disintegration Products of the Radio-active Elements.' American Journal of Science, 23(134), 78–88, used uranium-lead ratios to estimate rock ages up to 2.2 billion years — already far older than most contemporary estimates, though the decay rate constants used were still imprecise. Clair Patterson's later, far more precise meteorite-based measurement (see st8) established the modern accepted age of Earth at 4.54 billion years.",
+          "links": [
+            "st8",
+            "me1"
+          ],
+          "keywords": [
+            "radioactive decay clock",
+            "parent daughter ratio",
+            "quantitative rock dating"
+          ]
+        }
+      ]
     },
     {
       "id": "study",
@@ -33,7 +267,315 @@
       "accent": "#7D3C98",
       "bg": "#FAF5FF",
       "subtitle": "The defining experiments — and exactly what they found",
-      "entries": []
+      "entries": [
+        {
+          "id": "st1",
+          "group": "Stratigraphy & Deep Time",
+          "label": "Steno's Principles of Stratigraphy",
+          "date": "1669",
+          "loc": "Florence, Italy",
+          "coords": [
+            43.77,
+            11.26
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Dissecting the head of a captured shark and comparing its teeth to mysterious triangular stone objects called 'tongue stones' found embedded in rock, Steno recognised the stones were fossilised shark teeth — and from this reasoned out several foundational principles for reading rock layers: that sediments are originally deposited in horizontal layers, that a given layer is always older than the layers above it, and that a rock layer must have already existed before anything, like a fossil or fracture, could be embedded within or cut across it.",
+          "note": "Steno, N. (1669). De solido intra solidum naturaliter contento dissertationis prodromus. Florence. Steno's principles of superposition, original horizontality, and cross-cutting relationships remain the basic logical toolkit for reading the relative order of geological events over a century before radiometric dating (see th10) could supply absolute ages, and are still taught as the entry point to stratigraphy today.",
+          "links": [
+            "co3"
+          ],
+          "keywords": [
+            "fossil shark tooth recognition",
+            "superposition original horizontality",
+            "relative age foundation"
+          ]
+        },
+        {
+          "id": "st2",
+          "group": "Stratigraphy & Deep Time",
+          "label": "Hutton's Siccar Point Unconformity",
+          "date": "1788",
+          "loc": "Siccar Point, Berwickshire, Scotland",
+          "coords": [
+            55.93,
+            -2.32
+          ],
+          "tag": "FIELD STUDY",
+          "repl": "robust",
+          "hint": "Examining a rocky coastal outcrop, Hutton found nearly vertical layers of older rock abruptly overlain by younger, horizontal layers above them — a sharp boundary called an unconformity, representing a buried gap in the rock record where the older layers had first been tilted, then eroded flat over an immense span of time, before new sediment was laid down on top — physical proof, Hutton realised, that required far more time than a young Earth could possibly provide.",
+          "note": "Hutton, J. visited Siccar Point in 1788 with mathematician John Playfair and geologist James Hall; Playfair later wrote that 'the mind seemed to grow giddy by looking so far into the abyss of time.' The site remains a celebrated pilgrimage destination for geologists and is often cited as the moment deep time became a visible, physically graspable concept rather than an abstract philosophical argument.",
+          "links": [
+            "fg1",
+            "th1"
+          ],
+          "keywords": [
+            "angular unconformity outcrop",
+            "buried erosional gap",
+            "visible deep time evidence"
+          ]
+        },
+        {
+          "id": "st3",
+          "group": "Stratigraphy & Deep Time",
+          "label": "Smith's First Geological Map",
+          "date": "1815",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Working as a surveyor for canal and mining companies across England, Smith noticed that the same sequence of rock layers, each containing its own characteristic assemblage of fossils, appeared in the same order everywhere he dug, no matter how far apart the sites were — a principle he used to trace and colour-code individual rock layers across the entire country, producing the first geological map of a nation and demonstrating that fossils could be used to correlate rock layers between distant locations.",
+          "note": "Smith, W. (1815). A Delineation of the Strata of England and Wales, with part of Scotland. London. Smith's map was widely plagiarised without credit by wealthier geologists of the era, driving him into debtor's prison in 1819; he was only formally recognised for his achievement late in life, awarded the first Wollaston Medal by the Geological Society of London in 1831, and is now widely honoured as 'the father of English geology.'",
+          "links": [
+            "co3"
+          ],
+          "keywords": [
+            "fossil correlation principle",
+            "first national geological map",
+            "strata sequence recognition"
+          ]
+        },
+        {
+          "id": "st4",
+          "group": "Plate Tectonics & Structural Geology",
+          "label": "Wegener's Continental Fit & Fossil Evidence",
+          "date": "1912",
+          "loc": "Marburg, Germany",
+          "coords": [
+            50.81,
+            8.77
+          ],
+          "tag": "FIELD STUDY",
+          "repl": "robust",
+          "hint": "Compiling evidence from multiple scientific fields, Wegener catalogued matching rock formations, mountain ranges that lined up when the continents were rejoined, and identical fossil species of land-dwelling plants and reptiles — including one, Mesosaurus, a freshwater reptile physically incapable of crossing an ocean — found on both South America and Africa, building a systematic, cross-disciplinary case for prior continental connection far more rigorous than the coastline fit alone.",
+          "note": "Wegener, A. (1915). Die Entstehung der Kontinente und Ozeane. Friedrich Vieweg & Sohn. Wegener's synthesis drew on paleontology, structural geology, and paleoclimatology (matching glacial deposits and coal-swamp fossils across now widely separated continents) simultaneously, a breadth that made the pattern difficult to dismiss as coincidence even though his proposed drift mechanism (see th2, db1) remained unconvincing to most geologists of his generation.",
+          "links": [
+            "th2",
+            "fg4"
+          ],
+          "keywords": [
+            "mesosaurus fossil distribution",
+            "cross continental strata match",
+            "multi-discipline drift evidence"
+          ]
+        },
+        {
+          "id": "st5",
+          "group": "Plate Tectonics & Structural Geology",
+          "label": "Vine-Matthews-Morley Magnetic Stripe Confirmation",
+          "date": "1963",
+          "loc": "University of Cambridge, Cambridge, England",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Towing a magnetometer across the ocean floor near mid-ocean ridges revealed a striking, symmetric pattern of alternating magnetic stripes running parallel to each ridge, mirror-imaged on either side — direct physical proof of seafloor spreading, since each stripe recorded the direction of Earth's magnetic field at the moment that strip of ocean floor solidified, with the pattern showing new floor continuously forming at the ridge and spreading symmetrically outward while Earth's magnetic field itself flipped polarity again and again over millions of years.",
+          "note": "Vine, F.J. & Matthews, D.H. (1963). 'Magnetic Anomalies over Oceanic Ridges.' Nature, 199, 947–949; Morley, L.W. independently reached the same conclusion the same year but had his paper rejected by two journals before it was eventually published. The magnetic stripe pattern's near-perfect mirror symmetry across mid-ocean ridges was widely considered the single most convincing piece of direct physical evidence for seafloor spreading (see th3) and, by extension, plate tectonics (see th4).",
+          "links": [
+            "th3",
+            "th7",
+            "me3"
+          ],
+          "keywords": [
+            "symmetric magnetic stripe pattern",
+            "seafloor spreading proof",
+            "geomagnetic polarity record"
+          ]
+        },
+        {
+          "id": "st6",
+          "group": "Earth's Interior & Geophysics",
+          "label": "Mohorovičić Discontinuity Discovery",
+          "date": "1909",
+          "loc": "Zagreb, Croatia",
+          "coords": [
+            45.81,
+            15.98
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Analysing seismic wave arrival times from a moderate earthquake near Zagreb, Mohorovičić noticed the waves suddenly sped up at a certain depth, indicating an abrupt boundary where rock composition or density changes sharply — marking the boundary between Earth's crust and the denser mantle beneath it, a discovery made entirely indirectly through seismic wave behaviour, since the boundary itself lies far too deep for any direct drilling or sampling.",
+          "note": "Mohorovičić, A. (1910). 'Potres od 8. X. 1909.' Godišnje izvješće Zagrebačkog meteorološkog opservatorija za godinu 1909, Zagreb. The boundary, now universally called the Mohorovičić Discontinuity or 'Moho' for short, varies in depth from about 5 kilometres beneath ocean floor to over 70 kilometres beneath some continental mountain ranges; no drilling project has ever successfully reached it directly, despite several ambitious attempts, including the United States' cancelled 1960s Project Mohole.",
+          "links": [
+            "co3",
+            "me2"
+          ],
+          "keywords": [
+            "crust mantle boundary",
+            "seismic wave velocity jump",
+            "indirect deep earth discovery"
+          ]
+        },
+        {
+          "id": "st7",
+          "group": "Earth's Interior & Geophysics",
+          "label": "Inge Lehmann's Discovery of the Inner Core",
+          "date": "1936",
+          "loc": "Copenhagen, Denmark",
+          "coords": [
+            55.68,
+            12.57
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Certain seismic waves that should have been completely blocked by Earth's liquid outer core, according to the physics understood at the time, were instead faintly detected arriving in an unexpected 'shadow zone' where they shouldn't have reached at all — Lehmann realised the anomaly meant there had to be a second, solid inner core nested within the liquid outer core, its different density and rigidity refracting some of the seismic waves back into the supposedly blocked zone.",
+          "note": "Lehmann, I. (1936). 'P'.' Publications du Bureau Central Séismologique International, Série A, Travaux Scientifiques, 14, 87–115, published with a characteristically terse one-letter title. The solid inner core's existence was independently confirmed decades later through further seismic analysis; Lehmann worked for most of her career without a formal academic position and continued publishing seismology research into her nineties, living to 104 years old.",
+          "links": [
+            "co3"
+          ],
+          "keywords": [
+            "seismic shadow zone anomaly",
+            "solid inner core discovery",
+            "unexpected wave detection"
+          ]
+        },
+        {
+          "id": "st8",
+          "group": "Stratigraphy & Deep Time",
+          "label": "Patterson's Age of the Earth",
+          "date": "1956",
+          "loc": "California Institute of Technology, Pasadena, California",
+          "coords": [
+            34.14,
+            -118.13
+          ],
+          "tag": "EXPERIMENT",
+          "repl": "robust",
+          "hint": "Rather than dating Earth rocks directly, which have been geologically recycled and altered too many times to preserve a clean original age, Patterson instead measured the lead isotope ratios in meteorites — material assumed to have formed at the same time as the rest of the Solar System and never geologically reprocessed since — arriving at a precise age of 4.55 billion years, a figure that has needed only minor refinement in the seven decades since.",
+          "note": "Patterson, C.C. (1956). 'Age of Meteorites and the Earth.' Geochimica et Cosmochimica Acta, 10(4), 230–237. Achieving this precision required Patterson to develop ultra-clean laboratory techniques to avoid contaminating his samples with the pervasive environmental lead pollution of the era, work that directly led him to become a leading, effective public advocate for banning leaded gasoline (see ap6) after realising how contaminated the modern environment, and even his own blood, had become.",
+          "links": [
+            "th10"
+          ],
+          "keywords": [
+            "meteorite lead dating",
+            "precise earth age",
+            "contamination free laboratory technique"
+          ]
+        },
+        {
+          "id": "st9",
+          "group": "Volcanology",
+          "label": "1883 Krakatoa Eruption",
+          "date": "1883",
+          "loc": "Krakatoa, Sunda Strait, Indonesia",
+          "coords": [
+            -6.1,
+            105.42
+          ],
+          "tag": "FIELD STUDY",
+          "repl": "robust",
+          "hint": "A catastrophic volcanic eruption almost entirely destroyed the island of Krakatoa in a series of explosions so powerful the sound was heard nearly 5,000 kilometres away and was clearly recorded on barometers worldwide as a pressure wave that circled the globe several times, while the resulting tsunami killed over 36,000 people and volcanic ash injected into the stratosphere measurably lowered global temperatures and produced vivid red sunsets worldwide for years afterward.",
+          "note": "The eruption occurred over several days culminating on 26–27 August 1883; contemporary scientific reports were compiled by the Royal Society's Krakatoa Committee (1888). The event became a foundational case study in volcanology for understanding caldera-forming eruptions, tsunami generation, and the global atmospheric effects of major eruptions, directly informing hazard assessment for comparable volcanoes today.",
+          "links": [
+            "co8"
+          ],
+          "keywords": [
+            "catastrophic caldera eruption",
+            "global pressure wave recording",
+            "stratospheric ash cooling"
+          ]
+        },
+        {
+          "id": "st10",
+          "group": "Volcanology",
+          "label": "1980 Mount St. Helens Eruption",
+          "date": "1980",
+          "loc": "Mount St. Helens, Washington",
+          "coords": [
+            46.2,
+            -122.19
+          ],
+          "tag": "FIELD STUDY",
+          "repl": "robust",
+          "hint": "Weeks of small earthquakes and a growing bulge on the volcano's north flank preceded a massive landslide — the largest recorded in history — which suddenly removed the pressure holding back the volcano's magma, triggering a lateral, sideways-directed explosive blast rather than the vertical eruption most people expected, flattening forests for kilometres and providing the first thoroughly instrumented, scientifically observed record of an entire eruption sequence from precursor signals through to the explosion itself.",
+          "note": "The eruption occurred on 18 May 1980, killing 57 people, including volcanologist David A. Johnston, who radioed 'Vancouver! Vancouver! This is it!' moments before the blast reached his observation post. The event fundamentally reshaped volcanic hazard science, demonstrating that flank collapse and lateral blasts, not just vertical summit eruptions, must be planned for, and directly improved eruption-monitoring and evacuation protocols used at volcanoes worldwide since (see ap3).",
+          "links": [
+            "ap3"
+          ],
+          "keywords": [
+            "lateral blast eruption",
+            "instrumented eruption sequence",
+            "flank collapse hazard"
+          ]
+        },
+        {
+          "id": "st11",
+          "group": "Seismology & Earthquake Science",
+          "label": "1906 San Francisco Earthquake",
+          "date": "1906",
+          "loc": "San Francisco, California",
+          "coords": [
+            37.77,
+            -122.42
+          ],
+          "tag": "FIELD STUDY",
+          "repl": "robust",
+          "hint": "A major rupture along roughly 477 kilometres of the San Andreas Fault produced violent shaking that, combined with the resulting citywide fires that burned for days afterward, destroyed most of San Francisco and killed an estimated 3,000 people — the disaster prompted the first systematic scientific investigation of an earthquake's cause, directly leading to the elastic rebound theory (see th8) that remains the standard model for how large, shallow earthquakes occur.",
+          "note": "The earthquake struck on 18 April 1906; the State Earthquake Investigation Commission's subsequent report (1908), led by geologist Andrew Lawson, remains a landmark document in earthquake science. Precise pre-earthquake land-survey data, comparing measurements taken years apart, showed the ground on either side of the fault had been slowly and steadily deforming before the sudden rupture — the direct observational basis for Reid's elastic rebound theory.",
+          "links": [
+            "th8",
+            "fg9"
+          ],
+          "keywords": [
+            "san andreas fault rupture",
+            "earthquake commission investigation",
+            "pre rupture ground deformation"
+          ]
+        },
+        {
+          "id": "st12",
+          "group": "Geomorphology & Surface Processes",
+          "label": "Agassiz's Glacial Theory Fieldwork",
+          "date": "1837",
+          "loc": "Neuchâtel, Switzerland",
+          "coords": [
+            46.99,
+            6.93
+          ],
+          "tag": "FIELD STUDY",
+          "repl": "robust",
+          "hint": "Examining scratched and polished bedrock, oddly displaced boulders sitting far from any matching local rock type, and distinctive ridge-shaped debris deposits across the Swiss countryside, Agassiz concluded that a vast ice sheet must once have covered much of Europe and slowly carried and deposited this material as it advanced and retreated — proposing, against considerable initial resistance, that Earth had experienced an entire past 'Ice Age' rather than these features being relics of a single biblical flood, as most naturalists then assumed.",
+          "note": "Agassiz, L. (1840). Études sur les glaciers. Neuchâtel. Agassiz initially set out to study fish fossils and only turned to glacial evidence after a colleague, Jean de Charpentier, showed him similar evidence in the field; the ice age concept was fiercely resisted for years before accumulating field evidence across Europe and North America made it the accepted explanation for these landscape features (see ef3, co7).",
+          "links": [
+            "fg11",
+            "ef3"
+          ],
+          "keywords": [
+            "glacial erratic boulder",
+            "ice age landscape evidence",
+            "swiss field survey"
+          ]
+        },
+        {
+          "id": "st13",
+          "group": "Stratigraphy & Deep Time",
+          "label": "The Chicxulub Impact Crater Discovery",
+          "date": "1991",
+          "loc": "Yucatán Peninsula, Mexico",
+          "coords": [
+            21.4,
+            -89.52
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Geophysical surveys of a buried, roughly 180-kilometre-wide circular structure beneath the Yucatán Peninsula, first noticed in 1970s oil-exploration data but not properly identified for over a decade, confirmed it as a massive asteroid impact crater dated to almost exactly the same geological moment as the sudden, worldwide disappearance of non-avian dinosaurs from the fossil record — providing the specific physical impact site the iridium-anomaly evidence had predicted must exist somewhere on Earth.",
+          "note": "Hildebrand, A.R. et al. (1991). 'Chicxulub Crater: A Possible Cretaceous/Tertiary Boundary Impact Crater on the Yucatán Peninsula, Mexico.' Geology, 19(9), 867–871, confirmed the structure's impact origin and age, building on the iridium-anomaly hypothesis proposed a decade earlier by Alvarez, L.W. et al. (1980, Science). The crater's precisely matching age and scale supplied the decisive missing evidence in the long-running impact-versus-volcanism debate over the end-Cretaceous mass extinction (see db4).",
+          "links": [
+            "db4",
+            "co3"
+          ],
+          "keywords": [
+            "asteroid impact crater",
+            "cretaceous boundary dating",
+            "extinction event physical evidence"
+          ]
+        }
+      ]
     },
     {
       "id": "effect",
