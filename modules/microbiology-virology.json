@@ -63,7 +63,9 @@
           "links": [
             "fg9",
             "st10",
-            "co7"
+            "co7",
+            "co5",
+            "db7"
           ],
           "keywords": [
             "archaea discovery",
@@ -135,7 +137,8 @@
           "note": "Pasteur, L. (1862). 'Mémoire sur les corpuscules organisés qui existent dans l'atmosphère.' Annales des Sciences Naturelles, 16, 5–98, reporting the swan-neck flask experiments that won the French Academy of Sciences' Alhumbert Prize. The victory was not immediate — English physicist Henry Charlton Bastian continued defending spontaneous generation into the 1870s, and the debate was only fully settled after John Tyndall's independent demonstrations that even Pasteur's own broths could support 'spontaneous' growth if contaminated with heat-resistant bacterial spores (see ef2), a caveat that briefly reopened the question before being resolved.",
           "links": [
             "st2",
-            "fg2"
+            "fg2",
+            "ef2"
           ],
           "keywords": [
             "spontaneous generation refutation",
@@ -328,7 +331,8 @@
           "hint": "Diseased tobacco plant sap, passed through a Chamberland filter fine enough to trap every known bacterium, still caused disease when rubbed onto healthy plants — meaning whatever was causing tobacco mosaic disease was smaller than any bacterium yet observed, small enough to pass straight through a bacteria-proof filter, though Ivanovsky himself assumed the agent was simply an unusually small or filter-slipping bacterium rather than a fundamentally new category of infectious particle.",
           "note": "Ivanovsky, D. (1892). 'Concerning the Mosaic Disease of the Tobacco Plant.' Bulletin of the Imperial Academy of Sciences of St. Petersburg, 35, 67–70. Ivanovsky is now credited with the first documented observation of what would later be recognised as a virus, though he did not draw that conclusion himself; Martinus Beijerinck independently repeated and extended the filtration experiment six years later and was the one to argue the agent was something categorically new (see st4).",
           "links": [
-            "fg5"
+            "fg5",
+            "st4"
           ],
           "keywords": [
             "chamberland filter passage",
@@ -422,7 +426,8 @@
           "note": "Lederberg, J. & Tatum, E.L. (1946). 'Gene Recombination in Escherichia coli.' Nature, 158, 558. William Hayes later showed the gene transfer was one-directional, from a donor to a recipient cell, mediated by a transferable fertility factor (see co2) rather than the mutual exchange Lederberg initially envisioned; Lederberg shared the 1958 Nobel Prize in Physiology or Medicine, at 33 one of the youngest laureates in the prize's history.",
           "links": [
             "fg11",
-            "co2"
+            "co2",
+            "ef3"
           ],
           "keywords": [
             "bacterial conjugation discovery",
@@ -667,7 +672,9 @@
           "repl": "robust",
           "hint": "A bacteriophage does not trickle new virus particles out of an infected cell gradually the way many other viruses do — after a fixed latent period during which no free virus is detectable at all, an infected bacterium suddenly bursts open, releasing dozens to hundreds of fully assembled progeny virions all at once, a synchronized, all-or-nothing release pattern that gave the first quantitative measurements of how many new viruses a single infection actually produces.",
           "note": "Ellis, E.L. & Delbrück, M. (1939). 'The Growth of Bacteriophage.' Journal of General Physiology, 22(3), 365–384, the 'one-step growth' experiment that founded quantitative phage biology and the wider field of molecular biology built around it. The average number of progeny released per infected cell — the burst size — varies by phage and host conditions but is a reproducible, measurable quantity, later standardised into the routine plaque assay (see me3).",
-          "links": [],
+          "links": [
+            "me3"
+          ],
           "keywords": [
             "phage burst size measurement",
             "synchronized viral release",
@@ -792,7 +799,9 @@
           "tag": "CONCEPT",
           "hint": "Nearly all bacteria fall into one of two structurally distinct groups depending on their cell wall: Gram-positive bacteria have a thick, single-layer peptidoglycan wall that traps crystal violet dye and stains deep purple, while Gram-negative bacteria have a thin peptidoglycan layer sandwiched under an additional outer membrane that lets the purple dye wash out, revealing a red counterstain instead — a hundred-and-forty-year-old staining protocol that still sorts bacteria into two groups with genuinely different antibiotic vulnerabilities and immune-recognition properties.",
           "note": "Gram, H.C. (1884). 'Über die isolierte Färbung der Schizomyceten in Schnitt- und Trockenpräparaten.' Fortschritte der Medicin, 2, 185–189, developed the stain to distinguish bacteria within infected tissue sections rather than to classify bacteria generally, a use Gram himself considered secondary. The outer membrane that makes Gram-negative bacteria stain red also acts as a permeability barrier that blocks many antibiotics effective against Gram-positive species, making the distinction directly clinically relevant well beyond its original diagnostic purpose.",
-          "links": [],
+          "links": [
+            "me1"
+          ],
           "keywords": [
             "gram positive negative distinction",
             "peptidoglycan cell wall structure",
@@ -813,7 +822,8 @@
           "hint": "The gene transfer Lederberg and Tatum observed turned out to be driven by a small, separate circular piece of DNA called the F (fertility) plasmid, which builds a hollow protein tube — the sex pilus — connecting a donor cell to a recipient and pumping a single strand of DNA across; when the F plasmid happens to integrate into the donor's main chromosome, the resulting 'Hfr' (high-frequency recombination) strain can transfer large stretches of chromosomal DNA along with it, turning an occasional accident into an efficient, directional gene-mapping tool.",
           "note": "Hayes, W. (1953). 'The Mechanism of Genetic Recombination in Escherichia coli.' Cold Spring Harbor Symposia on Quantitative Biology, 18, 75–93, established that conjugation was directional — donor to recipient — rather than the mutual exchange originally proposed. Hfr strains, mapped by François Jacob and Elie Wollman by timing how long conjugation had to run before a given gene transferred, produced the first physical gene maps of the E. coli chromosome.",
           "links": [
-            "st7"
+            "st7",
+            "fg11"
           ],
           "keywords": [
             "f plasmid fertility factor",
@@ -1068,7 +1078,8 @@
           "hint": "Rather than trying to isolate an unknown bacterium by guessing what it needs, the enrichment culture technique instead builds an artificial environment — a specific combination of light, oxygen availability and chemical nutrients — deliberately designed to favour the growth of one particular metabolic type of organism over all others in a mixed environmental sample, letting whichever microbe is best suited to that narrow niche outcompete everything else and dominate the culture within days.",
           "note": "Winogradsky, S. (1890). 'Recherches sur les Organismes de la Nitrification.' Annales de l'Institut Pasteur, 4, 213–231, developed the enrichment approach specifically to isolate the chemolithotrophic nitrifying bacteria underlying his broader theoretical work (see th6). Martinus Beijerinck independently refined the same principle for isolating other specialised bacteria; the layered 'Winogradsky column,' a simple mud-and-water microcosm that generates a visible stack of different microbial communities by depth, remains a standard teaching demonstration in microbiology courses today.",
           "links": [
-            "th6"
+            "th6",
+            "fg8"
           ],
           "keywords": [
             "enrichment culture selection",
@@ -1698,42 +1709,303 @@
       "icon": "🧪",
       "accent": "#7D3C98",
       "label": "Landmark Studies",
-      "events": []
+      "events": [
+        {
+          "y": 1676,
+          "l": "Leeuwenhoek's Observation of Animalcules",
+          "entryId": "st1"
+        },
+        {
+          "y": 1862,
+          "l": "Pasteur's Swan-Neck Flask Experiments",
+          "entryId": "st2"
+        },
+        {
+          "y": 1892,
+          "l": "Ivanovsky's Filterable Agent Experiment",
+          "entryId": "st3"
+        },
+        {
+          "y": 1898,
+          "l": "Beijerinck's Contagium Vivum Fluidum",
+          "entryId": "st4"
+        },
+        {
+          "y": 1917,
+          "l": "Discovery of Bacteriophages",
+          "entryId": "st6"
+        },
+        {
+          "y": 1928,
+          "l": "Fleming's Discovery of Penicillin",
+          "entryId": "st9"
+        },
+        {
+          "y": 1935,
+          "l": "Stanley's Crystallization of Tobacco Mos",
+          "entryId": "st5"
+        },
+        {
+          "y": 1946,
+          "l": "Discovery of Bacterial Conjugation",
+          "entryId": "st7"
+        },
+        {
+          "y": 1952,
+          "l": "Discovery of Generalized Transduction",
+          "entryId": "st8"
+        },
+        {
+          "y": 1977,
+          "l": "Woese's 16S rRNA Survey Reveals Archaea",
+          "entryId": "st10"
+        },
+        {
+          "y": 1982,
+          "l": "Isolation of the Scrapie Prion Protein",
+          "entryId": "st11"
+        }
+      ]
     },
     {
       "id": "theory",
       "icon": "📐",
       "accent": "#2471A3",
       "label": "Theories & Models",
-      "events": []
+      "events": [
+        {
+          "y": 1862,
+          "l": "Theory of Biogenesis",
+          "entryId": "th5"
+        },
+        {
+          "y": 1887,
+          "l": "Chemolithotrophy Theory",
+          "entryId": "th6"
+        },
+        {
+          "y": 1909,
+          "l": "Selective Toxicity (\"Magic Bullet\")",
+          "entryId": "th10"
+        },
+        {
+          "y": 1950,
+          "l": "Lysogeny and the Prophage Concept",
+          "entryId": "th4"
+        },
+        {
+          "y": 1967,
+          "l": "Endosymbiotic Theory",
+          "entryId": "th1"
+        },
+        {
+          "y": 1971,
+          "l": "Baltimore Classification of Viruses",
+          "entryId": "th3"
+        },
+        {
+          "y": 1971,
+          "l": "Quasispecies Theory",
+          "entryId": "th9"
+        },
+        {
+          "y": 1977,
+          "l": "The Three-Domain System",
+          "entryId": "th2"
+        },
+        {
+          "y": 1982,
+          "l": "Protein-Only (Prion) Hypothesis",
+          "entryId": "th8"
+        },
+        {
+          "y": 1994,
+          "l": "Quorum Sensing Theory",
+          "entryId": "th7"
+        }
+      ]
     },
     {
       "id": "effect",
       "icon": "📊",
       "accent": "#117A65",
       "label": "Effects & Phenomena",
-      "events": []
+      "events": [
+        {
+          "y": 1876,
+          "l": "Endospore Formation",
+          "entryId": "ef2"
+        },
+        {
+          "y": 1888,
+          "l": "Rhizobium-Legume Nitrogen Fixation Symbi",
+          "entryId": "ef7"
+        },
+        {
+          "y": 1939,
+          "l": "Phage Lytic Burst Kinetics",
+          "entryId": "ef6"
+        },
+        {
+          "y": 1944,
+          "l": "Bacterial Persister Cells",
+          "entryId": "ef9"
+        },
+        {
+          "y": 1951,
+          "l": "Lysogenic Conversion",
+          "entryId": "ef4"
+        },
+        {
+          "y": 1957,
+          "l": "Interferon-Mediated Viral Interference",
+          "entryId": "ef5"
+        },
+        {
+          "y": 1969,
+          "l": "Extremophile Thermostability",
+          "entryId": "ef8"
+        },
+        {
+          "y": 1999,
+          "l": "Biofilm Formation",
+          "entryId": "ef1"
+        },
+        {
+          "y": 1999,
+          "l": "Natural Genetic Competence",
+          "entryId": "ef3"
+        },
+        {
+          "y": 2007,
+          "l": "CRISPR-Cas Bacterial Immunity",
+          "entryId": "ef10"
+        }
+      ]
     },
     {
       "id": "method",
       "icon": "🔬",
       "accent": "#8B5E00",
       "label": "Methods",
-      "events": []
+      "events": [
+        {
+          "y": 1887,
+          "l": "Petri Dish and Pure Culture Isolation",
+          "entryId": "me2"
+        },
+        {
+          "y": 1890,
+          "l": "Winogradsky Enrichment Culture Technique",
+          "entryId": "me6"
+        },
+        {
+          "y": 1921,
+          "l": "Gram Stain Technique",
+          "entryId": "me1"
+        },
+        {
+          "y": 1959,
+          "l": "Bacteriophage Plaque Assay",
+          "entryId": "me3"
+        },
+        {
+          "y": 1966,
+          "l": "Kirby-Bauer Disk Diffusion Test",
+          "entryId": "me5"
+        },
+        {
+          "y": 1998,
+          "l": "Metagenomics",
+          "entryId": "me4"
+        }
+      ]
     },
     {
       "id": "debate",
       "icon": "⚖️",
       "accent": "#B7770D",
       "label": "Debates & Revisions",
-      "events": []
+      "events": [
+        {
+          "y": 1957,
+          "l": "Are Viruses Alive?",
+          "entryId": "db2"
+        },
+        {
+          "y": 1979,
+          "l": "Protein-Only vs. Virino Hypothesis",
+          "entryId": "db4"
+        },
+        {
+          "y": 1999,
+          "l": "The Tree of Life vs. the Web of Life",
+          "entryId": "db3"
+        },
+        {
+          "y": 2004,
+          "l": "Giant Viruses & the \"Fourth Domain\"",
+          "entryId": "db7"
+        },
+        {
+          "y": 2006,
+          "l": "The Origin of Viruses",
+          "entryId": "db1"
+        },
+        {
+          "y": 2010,
+          "l": "Synthetic Genomes: Creating Life?",
+          "entryId": "db8"
+        },
+        {
+          "y": 2012,
+          "l": "Gain-of-Function Research Debate",
+          "entryId": "db6"
+        },
+        {
+          "y": 2019,
+          "l": "Persister Cells vs. Genetic Resistance: ",
+          "entryId": "db5"
+        }
+      ]
     },
     {
       "id": "application",
       "icon": "🔗",
       "accent": "#2E86C1",
       "label": "Applications",
-      "events": []
+      "events": [
+        {
+          "y": 1914,
+          "l": "Wastewater Treatment via Activated Sludg",
+          "entryId": "ap2"
+        },
+        {
+          "y": 1943,
+          "l": "Penicillin Mass Production",
+          "entryId": "ap1"
+        },
+        {
+          "y": 1963,
+          "l": "Industrial Enzyme Production",
+          "entryId": "ap6"
+        },
+        {
+          "y": 1995,
+          "l": "Bioremediation of Oil Spills",
+          "entryId": "ap4"
+        },
+        {
+          "y": 2013,
+          "l": "Fecal Microbiota Transplantation",
+          "entryId": "ap3"
+        },
+        {
+          "y": 2017,
+          "l": "Bacteriophage Therapy",
+          "entryId": "ap5"
+        }
+      ]
     }
   ]
 }
