@@ -2,7 +2,7 @@
   "_meta": {
     "total_entries": 2076,
     "folio_count": 27,
-    "xlink_pairs": 132,
+    "xlink_pairs": 139,
     "keyword_terms": 7395,
     "folios": [
       {
@@ -2461,7 +2461,8 @@
       "classical-physics::st10"
     ],
     "systems-and-complexity::th6": [
-      "classical-physics::st10"
+      "classical-physics::st10",
+      "meteorology::th3"
     ],
     "classical-physics::me7": [
       "quantum-nuclear-relativity::fg9"
@@ -2563,7 +2564,8 @@
       "em-optics::th6"
     ],
     "em-optics::ef10": [
-      "classical-physics::co7"
+      "classical-physics::co7",
+      "meteorology::th10"
     ],
     "classical-physics::co7": [
       "em-optics::ef10"
@@ -2795,10 +2797,42 @@
       "logic-math-foundations::db7"
     ],
     "meteorology::th3": [
-      "systems-and-complexity::ef1"
+      "systems-and-complexity::ef1",
+      "systems-and-complexity::th6"
     ],
     "systems-and-complexity::ef1": [
       "meteorology::th3"
+    ],
+    "meteorology::th6": [
+      "classical-physics::ef9"
+    ],
+    "classical-physics::ef9": [
+      "meteorology::th6"
+    ],
+    "meteorology::th10": [
+      "em-optics::ef10"
+    ],
+    "meteorology::st8": [
+      "oceanography::th4"
+    ],
+    "oceanography::th4": [
+      "meteorology::st8",
+      "meteorology::fg7"
+    ],
+    "meteorology::co8": [
+      "environmental-science::ef4"
+    ],
+    "environmental-science::ef4": [
+      "meteorology::co8"
+    ],
+    "meteorology::fg5": [
+      "systems-and-complexity::fg6"
+    ],
+    "systems-and-complexity::fg6": [
+      "meteorology::fg5"
+    ],
+    "meteorology::fg7": [
+      "oceanography::th4"
     ],
     "neuroscience::th8": [
       "physiology-organ-systems::th9",
