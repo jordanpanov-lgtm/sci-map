@@ -4,6 +4,51 @@
 // are available as globals to the renderer.
 
 const STUDY_PLANS = {
+  'geology': {
+    meta: "Groups content thematically rather than by category: after the founders, each module works through one branch of the field — the tectonic framework that unifies the whole discipline, the rocks and minerals that make up the crust, the deep-time record locked in stratigraphy, Earth's hidden interior, volcanoes, earthquakes, and the surface processes that shape the visible landscape — carrying each branch's theories, landmark discoveries, named phenomena, and live debates together as a single unit.",
+    modules: [
+      {
+        title: '1 — Founders & the Field',
+        rationale: "From Hutton's discovery of deep time to Wegener's rejected, then vindicated, continental drift, a relatively small set of observers and theorists repeatedly turned geology from descriptive rock-collecting into a field with genuine predictive theory underneath it.",
+        groups: ['Pioneers & Theorists']
+      },
+      {
+        title: '2 — Plate Tectonics & Structural Geology',
+        rationale: "Continental drift, seafloor spreading, and the unifying plate tectonics synthesis explain mountain building, earthquakes, and volcanism as consequences of one underlying process — arguably the fastest, most complete paradigm shift in the history of science.",
+        groups: ['Plate Tectonics & Structural Geology']
+      },
+      {
+        title: '3 — Mineralogy & Petrology',
+        rationale: "The rock cycle, Bowen's Reaction Series, and mineral identification cover how igneous, sedimentary and metamorphic rocks form, transform into one another, and can be told apart in the field or under a microscope.",
+        groups: ['Mineralogy & Petrology']
+      },
+      {
+        title: '4 — Stratigraphy & Deep Time',
+        rationale: "From Steno's principles of superposition to Patterson's precise radiometric age of the Earth, this module traces the two-century project of reading rock layers as a calendar and pinning that calendar to absolute dates.",
+        groups: ['Stratigraphy & Deep Time']
+      },
+      {
+        title: "5 — Earth's Interior & Geophysics",
+        rationale: "The Moho discontinuity, the discovery of the solid inner core, and the geodynamo theory reconstruct a planet's hidden internal structure almost entirely from indirect seismic and magnetic evidence.",
+        groups: ["Earth's Interior & Geophysics"]
+      },
+      {
+        title: '6 — Volcanology',
+        rationale: "Krakatoa and Mount St. Helens anchor a module on how magma composition and viscosity determine whether a volcano erupts gently or catastrophically, and how modern monitoring tries to forecast which is coming.",
+        groups: ['Volcanology']
+      },
+      {
+        title: '7 — Seismology & Earthquake Science',
+        rationale: "Elastic rebound theory and the 1906 San Francisco earthquake ground the module's coverage of how faults rupture, how earthquake size is measured, and the still-unresolved question of whether prediction is possible at all.",
+        groups: ['Seismology & Earthquake Science']
+      },
+      {
+        title: '8 — Geomorphology & Surface Processes',
+        rationale: "Glacial theory, chemical weathering, and drainage-basin dynamics cover how the visible landscape is continuously carved, dissolved and reshaped by processes operating right at Earth's surface.",
+        groups: ['Geomorphology & Surface Processes']
+      }
+    ]
+  },
   'astronomy-cosmology': {
     meta: "Groups content thematically rather than by category: after the founders, each module works through one branch of the field — the Solar System, stellar life cycles, the distance ladder that scales the universe, the instruments that generate the evidence, galaxies and the dark matter debate, the search for planets and life elsewhere, and finally the most extreme objects the field studies — carrying each branch's theories, landmark discoveries, named phenomena, and live debates together as a single unit.",
     modules: [
