@@ -4,6 +4,51 @@
 // are available as globals to the renderer.
 
 const STUDY_PLANS = {
+  'microbiology-virology': {
+    meta: "Groups content thematically rather than by category: after the founders, each module works through one branch of the field — how the microbial world was first discovered and shown not to arise from nothing, how bacteria are physically built and how they trade genes with each other, how viruses are structured and classified, the deep genetic diversity separating bacteria from archaea, how microbes power entire ecosystems through metabolism alone, and finally the applied science of turning microbial biology into medicine and industry — carrying each branch's theories, landmark discoveries, named phenomena, and live debates together as a single unit.",
+    modules: [
+      {
+        title: '1 — Founders & the Field',
+        rationale: "From Leeuwenhoek's hand-ground lenses to Woese's decade-long ribosomal RNA project, a small set of outsiders and patient specialists repeatedly reshaped what counts as a living thing and rewrote the map of life itself.",
+        groups: ['Pioneers & Theorists']
+      },
+      {
+        title: '2 — Discovery of the Microbial World',
+        rationale: "Leeuwenhoek's animalcules and Pasteur's refutation of spontaneous generation established that a world of microscopic life exists and that, like everything else alive, it only ever comes from prior life — the founding premise every other module depends on.",
+        groups: ['Discovery of the Microbial World']
+      },
+      {
+        title: '3 — Bacterial Cell Biology & Physiology',
+        rationale: "Gram staining, endospore formation, and biofilm behaviour cover how a bacterial cell is physically built, how it survives extremes, and how it coordinates with billions of neighbours despite having no nervous system at all.",
+        groups: ['Bacterial Cell Biology & Physiology']
+      },
+      {
+        title: '4 — Microbial Genetics & Horizontal Gene Transfer',
+        rationale: "Conjugation, transduction, natural competence, and CRISPR's original role as a bacterial immune system cover the several distinct ways bacteria trade genetic material outside of ordinary parent-to-offspring inheritance.",
+        groups: ['Microbial Genetics & Horizontal Gene Transfer']
+      },
+      {
+        title: '5 — Virus Structure, Classification & Replication',
+        rationale: "From the first filterable agents to the Baltimore classification and the still-open question of where viruses came from, this module covers what a virus actually is, how it is built, and how it takes over a host cell to replicate.",
+        groups: ['Virus Structure, Classification & Replication']
+      },
+      {
+        title: '6 — Microbial Diversity & the Tree of Life',
+        rationale: "Woese's discovery of Archaea as a third domain of life, alongside extremophile biology and the fuzzy problem of defining a bacterial species, cover just how much of life's total genetic diversity is invisible to the naked eye.",
+        groups: ['Microbial Diversity & the Tree of Life']
+      },
+      {
+        title: '7 — Microbial Ecology & Metabolism',
+        rationale: "Chemolithotrophy, nitrogen fixation, and wastewater treatment cover how microbes power entire ecosystems and industrial processes using metabolic strategies with no parallel in plants or animals.",
+        groups: ['Microbial Ecology & Metabolism']
+      },
+      {
+        title: '8 — Antibiotics, Antivirals & Biotechnology',
+        rationale: "Penicillin's discovery and industrial scale-up, the peptidoglycan target selective toxicity depends on, and the live debates over gain-of-function research and synthetic genomes cover where microbiology leaves the lab and enters medicine, industry and policy.",
+        groups: ['Antibiotics, Antivirals & Biotechnology']
+      }
+    ]
+  },
   'meteorology': {
     meta: "Groups content thematically rather than by category: after the founders, each module works through one branch of the field — the atmosphere's basic thermodynamics, how mid-latitude weather organizes into fronts, how clouds actually produce precipitation, severe and extreme weather, the century-long project of turning forecasting into a solvable physics problem, large-scale circulation, and the optical phenomena the atmosphere itself produces — carrying each branch's theories, landmark discoveries, named phenomena, and live debates together as a single unit.",
     modules: [
