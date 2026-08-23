@@ -39,7 +39,8 @@
           "note": "Ingenhousz, J. (1779). Experiments upon Vegetables, Discovering Their Great Power of Purifying the Common Air in the Sun-Shine, and of Injuring it in the Shade and at Night. London: P. Elmsly & H. Payne. Ingenhousz ran hundreds of experiments in a matter of months to establish the light-dependence and green-tissue-dependence of the effect, correcting the more general, less precise picture left by Priestley's earlier work (see st7).",
           "links": [
             "st1",
-            "fg1"
+            "fg1",
+            "st7"
           ],
           "keywords": [
             "light dependent air purification",
@@ -105,7 +106,9 @@
           "tag": "THEORY",
           "hint": "Sugar produced in a leaf is actively loaded into the phloem, raising the osmotic pressure there and drawing water in from neighbouring xylem — building up hydrostatic pressure that simply pushes the whole sugar-water solution through the phloem toward wherever sugar is being consumed or stored, where it is unloaded and the pressure drops, creating a source-to-sink flow driven entirely by a self-generated pressure gradient rather than any active pumping along the way.",
           "note": "Münch, E. (1930). Die Stoffbewegungen in der Pflanze. Jena: Gustav Fischer. The hypothesis was difficult to test directly for decades because inserting a probe into the phloem's thin-walled sieve tubes disrupts the very pressure it measures; modern aphid-stylet sampling and pressure-probe techniques have since confirmed pressure gradients of the magnitude and direction the model predicts.",
-          "links": [],
+          "links": [
+            "co2"
+          ],
           "keywords": [
             "source sink pressure gradient",
             "phloem sugar transport",
@@ -193,7 +196,8 @@
           "hint": "Leaves and roots were not part of the original blueprint of the earliest land plants — those first plants were simple, leafless, dichotomously branching stems called telomes, and every complex organ seen in later vascular plants, from broad leaves to branching root systems, evolved through repeated modification of that same basic branching unit: webbing, flattening, fusing, or overtopping different telome branches to produce structures that only look fundamentally distinct from one another.",
           "note": "Zimmermann, W. (1930). Die Phylogenie der Pflanzen. Jena: Gustav Fischer, drew heavily on the early vascular plant fossils then just beginning to be described, including Cooksonia (see st8). The theory remains the standard framework for interpreting land plant organ evolution, substantially refined but not overturned by the molecular developmental genetics of the past few decades, which has identified some of the specific regulatory gene shifts underlying telome modification.",
           "links": [
-            "st8"
+            "st8",
+            "db7"
           ],
           "keywords": [
             "telome branching unit",
@@ -215,7 +219,9 @@
           "hint": "The earliest plants could not have colonised bare, nutrient-poor rock and soil on their own — they lacked true roots and any efficient way to extract scarce minerals like phosphorus from a mineral substrate — so the theory proposes that a symbiotic partnership with fungi, which already had that mineral-extracting capability, was not a later refinement but the very mechanism that made the initial land invasion by plants possible at all, with fungal partners supplying minerals in exchange for photosynthetic sugars from the start.",
           "note": "Pirozynski, K.A. & Malloch, D.W. (1975). 'The Origin of Land Plants: A Matter of Mycotrophism.' BioSystems, 6(3), 153–164. Fossil evidence has since lent the theory substantial support: the roughly 407-million-year-old Rhynie chert deposits preserve early land plants with fungal structures inside their tissue closely resembling modern mycorrhizal associations (see th9, fg10), suggesting the partnership was already well established very early in land plant history.",
           "links": [
-            "fg10"
+            "fg10",
+            "st11",
+            "db2"
           ],
           "keywords": [
             "mycorrhizal land colonization theory",
@@ -274,7 +280,8 @@
           "note": "Calvin, M., Bassham, J.A. & Benson, A.A. (1950). 'The Path of Carbon in Photosynthesis.' Annual Review of Plant Physiology, 1, 25–42, using carbon-14, made available in useful quantities only a few years earlier (see cell-molecular-bio for reactor-produced isotopes generally). The 'lollipop' apparatus used to expose algae to a continuous CO2 stream while sampling at precise intervals became an iconic image in the history of biochemistry.",
           "links": [
             "th2",
-            "fg2"
+            "fg2",
+            "me2"
           ],
           "keywords": [
             "radioactive carbon-14 tracing",
@@ -438,7 +445,9 @@
           "hint": "Meticulously documenting hundreds of flower species over years of fieldwork, Sprengel showed that flower colour patterns, nectar guides, shape, and scent are not decorative accidents but precisely engineered adaptations for attracting specific pollinating insects and guiding them directly to the flower's reproductive organs — the first systematic demonstration that a flower's entire structure exists to serve pollination, a discovery so far ahead of its time that it was largely ignored for decades.",
           "note": "Sprengel, C.K. (1793). Das entdeckte Geheimnis der Natur im Bau und in der Befruchtung der Blumen. Berlin: Friedrich Vieweg. The book sold poorly and Sprengel died in obscurity; Charles Darwin rediscovered and championed the work over sixty years later, crediting it as a direct influence on his own studies of orchid pollination (see st10) and the broader theory of coevolution between flowering plants and their pollinators (see co7).",
           "links": [
-            "co7"
+            "co7",
+            "st10",
+            "fg7"
           ],
           "keywords": [
             "nectar guide flower adaptation",
@@ -462,7 +471,8 @@
           "note": "Darwin, C. (1862). On the Various Contrivances by which British and Foreign Orchids are Fertilised by Insects. London: John Murray. The moth Darwin predicted, Xanthopan morganii praedicta, was described in 1903, its subspecies name literally meaning 'predicted'; direct observation of the moth actually pollinating the orchid using its extreme proboscis was not filmed until 1997, over a century after Darwin's original inference.",
           "links": [
             "fg5",
-            "st9"
+            "st9",
+            "co7"
           ],
           "keywords": [
             "orchid pollinator coadaptation",
@@ -647,7 +657,9 @@
           "repl": "robust",
           "hint": "Touch a leaf of the sensitive plant Mimosa pudica and it folds shut within about a second — far too fast to be ordinary growth — because specialised motor cells at the base of each leaflet, called pulvini, rapidly and reversibly pump ions and water out of themselves, collapsing their own internal pressure on cue from an electrical signal that propagates through the plant much like a nerve impulse, even though the plant has no nerves at all.",
           "note": "Ricca, U. (1916). 'Soluzione d'un Problema di Fisiologia: La Propagazione di Stimulo nella Mimosa.' Nuovo Giornale Botanico Italiano, 23, 51–170, demonstrated the stimulus itself propagates along the plant, later shown to be an electrical action potential closely analogous in behaviour, though not in molecular mechanism, to the action potentials found in animal nerve cells. The rapid loss of turgor pressure in the pulvinus, rather than any actual muscle-like contraction, drives the visible collapse.",
-          "links": [],
+          "links": [
+            "db3"
+          ],
           "keywords": [
             "mimosa pudica leaf folding",
             "pulvinus turgor collapse",
@@ -744,7 +756,8 @@
           "note": "Malpighi, M. (1675). Anatome Plantarum. London: Royal Society, among the first systematic microscopic descriptions of plant internal vascular structure, alongside Nehemiah Grew's closely contemporaneous work. The mechanisms driving flow through each system were only worked out roughly two and a half centuries later — the cohesion-tension theory for xylem (see th3) and the pressure-flow hypothesis for phloem (see th4) — but the basic structural distinction between the two tissue types was already established by the late seventeenth century.",
           "links": [
             "th3",
-            "th4"
+            "th4",
+            "fg12"
           ],
           "keywords": [
             "xylem phloem dual transport",
@@ -765,7 +778,9 @@
           "tag": "CONCEPT",
           "hint": "Every plant life cycle alternates between two genuinely distinct multicellular body forms: a haploid gametophyte generation that produces sex cells directly, and a diploid sporophyte generation that produces spores through cell division that halves the chromosome number — with the balance between the two generations shifting dramatically across plant evolution, from mosses whose visible green form is almost entirely gametophyte, to flowering plants whose visible form is almost entirely sporophyte, with the gametophyte reduced to a few cells hidden inside the flower.",
           "note": "Hofmeister, W. (1851). Vergleichende Untersuchungen der Keimung, Entfaltung und Fruchtbildung höherer Kryptogamen. Leipzig: Friedrich Hofmeister, working without any knowledge of chromosomes, correctly deduced the alternating pattern purely from careful comparative microscopy of developmental stages across mosses, ferns, and conifers — a conceptual framework later fully explained once meiosis and fertilisation were understood at the chromosomal level.",
-          "links": [],
+          "links": [
+            "fg8"
+          ],
           "keywords": [
             "haploid diploid generation cycle",
             "gametophyte sporophyte alternation",
@@ -806,7 +821,8 @@
           "hint": "The tens of thousands of chemically diverse compounds plants produce beyond the basic sugars, proteins, and fats required for growth — alkaloids, terpenes, phenolics, and more — were long dismissed as metabolic waste products with no real function; reframing them instead as evolved chemical weapons against herbivores and pathogens explained both why plants invest so much energy producing them and why the specific compounds a plant makes so often closely track which enemies attack it.",
           "note": "Fraenkel, G.S. (1959). 'The Raison d'Être of Secondary Plant Substances.' Science, 129(3361), 1466–1470, argued explicitly against the prevailing 'metabolic waste' interpretation, framing chemical diversity as adaptive defence shaped by coevolution with herbivores (see co7) rather than physiological accident. Many of the same defensive compounds — caffeine, morphine, nicotine, quinine — have been independently exploited by humans as stimulants, medicines, and poisons, a direct legacy of their original defensive function against a much older set of animal antagonists.",
           "links": [
-            "co7"
+            "co7",
+            "ap3"
           ],
           "keywords": [
             "secondary metabolite defense function",
@@ -849,7 +865,8 @@
           "note": "Ehrlich, P.R. & Raven, P.H. (1964). 'Butterflies and Plants: A Study in Coevolution.' Evolution, 18(4), 586–608, coined the term 'coevolution' itself while analysing patterns of host-plant specialisation across butterfly families and the defensive chemistry of the plants they feed on. The framework has since been extended well beyond butterflies to explain patterns across nearly every category of plant-pollinator and plant-herbivore relationship, including the specialised orchid-moth relationship Darwin had described a century earlier (see st10).",
           "links": [
             "st10",
-            "co5"
+            "co5",
+            "st9"
           ],
           "keywords": [
             "coevolution term origin",
@@ -1599,42 +1616,293 @@
       "icon": "🧪",
       "accent": "#7D3C98",
       "label": "Landmark Studies",
-      "events": []
+      "events": [
+        {
+          "y": 1727,
+          "l": "Hales's Sap Pressure and Transpiration M",
+          "entryId": "st3"
+        },
+        {
+          "y": 1772,
+          "l": "Priestley's Discovery That Plants Restor",
+          "entryId": "st7"
+        },
+        {
+          "y": 1779,
+          "l": "Ingenhousz's Light-Dependent Oxygen Expe",
+          "entryId": "st1"
+        },
+        {
+          "y": 1793,
+          "l": "Sprengel's Pollination Discovery",
+          "entryId": "st9"
+        },
+        {
+          "y": 1862,
+          "l": "Darwin's Study of Orchid Pollination",
+          "entryId": "st10"
+        },
+        {
+          "y": 1866,
+          "l": "Mendel's Pea Plant Hybridization Experim",
+          "entryId": "st4"
+        },
+        {
+          "y": 1880,
+          "l": "Darwin's Phototropism Experiments",
+          "entryId": "st5"
+        },
+        {
+          "y": 1885,
+          "l": "Frank's Naming of Mycorrhizae",
+          "entryId": "st11"
+        },
+        {
+          "y": 1926,
+          "l": "Went's Coleoptile Agar Block Experiment",
+          "entryId": "st6"
+        },
+        {
+          "y": 1937,
+          "l": "Discovery of Cooksonia, the Earliest Lan",
+          "entryId": "st8"
+        },
+        {
+          "y": 1950,
+          "l": "Calvin's Radioactive Tracer Mapping of C",
+          "entryId": "st2"
+        }
+      ]
     },
     {
       "id": "theory",
       "icon": "📐",
       "accent": "#2471A3",
       "label": "Theories & Models",
-      "events": []
+      "events": [
+        {
+          "y": 1779,
+          "l": "Photosynthesis as a Light-Driven Process",
+          "entryId": "th1"
+        },
+        {
+          "y": 1866,
+          "l": "Mendelian Inheritance",
+          "entryId": "th6"
+        },
+        {
+          "y": 1894,
+          "l": "The Cohesion-Tension Theory",
+          "entryId": "th3"
+        },
+        {
+          "y": 1928,
+          "l": "The Cholodny-Went Auxin Theory",
+          "entryId": "th5"
+        },
+        {
+          "y": 1930,
+          "l": "The Münch Pressure-Flow Hypothesis",
+          "entryId": "th4"
+        },
+        {
+          "y": 1930,
+          "l": "The Telome Theory",
+          "entryId": "th8"
+        },
+        {
+          "y": 1950,
+          "l": "The Calvin Cycle",
+          "entryId": "th2"
+        },
+        {
+          "y": 1975,
+          "l": "Mycorrhizal Facilitation of Land",
+          "entryId": "th9"
+        },
+        {
+          "y": 1991,
+          "l": "The ABC Model of Flower Development",
+          "entryId": "th7"
+        }
+      ]
     },
     {
       "id": "effect",
       "icon": "📊",
       "accent": "#117A65",
       "label": "Effects & Phenomena",
-      "events": []
+      "events": [
+        {
+          "y": 1806,
+          "l": "Gravitropism",
+          "entryId": "ef1"
+        },
+        {
+          "y": 1916,
+          "l": "Rapid Nastic Movement",
+          "entryId": "ef7"
+        },
+        {
+          "y": 1918,
+          "l": "Vernalization",
+          "entryId": "ef8"
+        },
+        {
+          "y": 1925,
+          "l": "Allelopathy",
+          "entryId": "ef5"
+        },
+        {
+          "y": 1966,
+          "l": "C4 Photosynthesis",
+          "entryId": "ef2"
+        },
+        {
+          "y": 1978,
+          "l": "Crassulacean Acid Metabolism (CAM)",
+          "entryId": "ef3"
+        },
+        {
+          "y": 1994,
+          "l": "Mast Seeding",
+          "entryId": "ef9"
+        },
+        {
+          "y": 2004,
+          "l": "Smoke-Induced Seed Germination",
+          "entryId": "ef4"
+        },
+        {
+          "y": 2016,
+          "l": "Heliotropism",
+          "entryId": "ef6"
+        }
+      ]
     },
     {
       "id": "method",
       "icon": "🔬",
       "accent": "#8B5E00",
       "label": "Methods",
-      "events": []
+      "events": [
+        {
+          "y": 1551,
+          "l": "Herbarium Specimen Preservation",
+          "entryId": "me1"
+        },
+        {
+          "y": 1919,
+          "l": "Dendrochronology",
+          "entryId": "me6"
+        },
+        {
+          "y": 1931,
+          "l": "Chlorophyll Fluorescence Measurement",
+          "entryId": "me3"
+        },
+        {
+          "y": 1936,
+          "l": "Grafting as an Experimental Technique",
+          "entryId": "me4"
+        },
+        {
+          "y": 1941,
+          "l": "Radioactive Isotope Tracing",
+          "entryId": "me2"
+        },
+        {
+          "y": 1957,
+          "l": "Plant Tissue Culture",
+          "entryId": "me5"
+        }
+      ]
     },
     {
       "id": "debate",
       "icon": "⚖️",
       "accent": "#B7770D",
       "label": "Debates & Revisions",
-      "events": []
+      "events": [
+        {
+          "y": 1948,
+          "l": "Lysenkoism vs. Mendelian Genetics",
+          "entryId": "db4"
+        },
+        {
+          "y": 1983,
+          "l": "Plant-to-Plant Chemical Signaling",
+          "entryId": "db6"
+        },
+        {
+          "y": 1997,
+          "l": "Wood-Wide Web Overhyped?",
+          "entryId": "db2"
+        },
+        {
+          "y": 2001,
+          "l": "Single vs Multiple Land Origins",
+          "entryId": "db7"
+        },
+        {
+          "y": 2004,
+          "l": "How Many Times Did C4 Photosynthesis Evo",
+          "entryId": "db1"
+        },
+        {
+          "y": 2009,
+          "l": "Selection vs Self-Domestication",
+          "entryId": "db8"
+        },
+        {
+          "y": 2014,
+          "l": "Plant Neurobiology: Do Plants Learn?",
+          "entryId": "db3"
+        },
+        {
+          "y": 2019,
+          "l": "Engineering Photosynthesis Limits",
+          "entryId": "db5"
+        }
+      ]
     },
     {
       "id": "application",
       "icon": "🔗",
       "accent": "#2E86C1",
       "label": "Applications",
-      "events": []
+      "events": [
+        {
+          "y": 1880,
+          "l": "Grafting Rootstocks & Phylloxera",
+          "entryId": "ap6"
+        },
+        {
+          "y": 1971,
+          "l": "Taxol: Plant-Derived Cancer Chemotherapy",
+          "entryId": "ap3"
+        },
+        {
+          "y": 1980,
+          "l": "Glyphosate and Herbicide Mechanism of Ac",
+          "entryId": "ap2"
+        },
+        {
+          "y": 1998,
+          "l": "Phytoremediation",
+          "entryId": "ap5"
+        },
+        {
+          "y": 1999,
+          "l": "Vertical Farming & CEA",
+          "entryId": "ap1"
+        },
+        {
+          "y": 2008,
+          "l": "Global Seed Banking",
+          "entryId": "ap4"
+        }
+      ]
     }
   ]
 }
