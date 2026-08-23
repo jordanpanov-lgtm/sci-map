@@ -39,7 +39,9 @@
           "note": "Bjerknes, J. (1919). 'On the Structure of Moving Cyclones.' Monthly Weather Review, 47(2), 95–99, developed at the Bergen Geophysical Institute under his father Vilhelm Bjerknes. The frontal model, refined into the full Norwegian Cyclone Model (see th7) over the following years, transformed weather forecasting from a largely statistical, pattern-matching exercise into one grounded in an explicit physical model of how storms actually form and evolve.",
           "links": [
             "th7",
-            "fg1"
+            "fg1",
+            "co2",
+            "fg7"
           ],
           "keywords": [
             "air mass boundary",
@@ -62,7 +64,10 @@
           "note": "Espy, J.P. (1841). The Philosophy of Storms. Charles C. Little and James Brown, proposed that storms are driven by the latent heat released as rising, cooling, moist air condenses — an early, substantially correct convective theory of storm energy that was disputed for decades by rival theories favouring purely mechanical wave explanations for storm motion. The distinction between the dry adiabatic lapse rate and the slower moist adiabatic lapse rate remains fundamental to modern atmospheric stability analysis (see co1).",
           "links": [
             "co1",
-            "th8"
+            "th8",
+            "ef1",
+            "ef3",
+            "fg12"
           ],
           "keywords": [
             "rising air cooling rate",
@@ -84,7 +89,10 @@
           "hint": "Running a simplified computer weather simulation a second time from what he thought were the exact same starting conditions, but had actually rounded to fewer decimal places for convenience, Lorenz found the model's forecast diverged completely from the original run within a simulated few weeks — revealing that weather is a genuinely chaotic system, in which even immeasurably tiny differences in starting conditions inevitably grow to swamp any forecast, placing a fundamental, unavoidable limit on how far in advance weather can ever be accurately predicted.",
           "note": "Lorenz, E.N. (1963). 'Deterministic Nonperiodic Flow.' Journal of the Atmospheric Sciences, 20(2), 130–141, discovered the effect while running a simplified 12-equation weather model at MIT. The popularised 'butterfly effect' term and its broader mathematical framework as chaos theory are covered in depth in the systems-and-complexity folio; Lorenz's own specific finding was that this sensitivity imposes a practical predictability ceiling on weather forecasting of roughly two to three weeks, regardless of future advances in computing power or data collection.",
           "links": [
-            "fg5"
+            "fg5",
+            "me4",
+            "db3",
+            "db9"
           ],
           "xlinks": [
             "systems-and-complexity::ef1"
@@ -109,7 +117,9 @@
           "hint": "Inside a cold cloud containing both supercooled liquid water droplets and ice crystals, the ice crystals grow at the liquid droplets' direct expense, because ice requires a lower humidity to remain in equilibrium than liquid water does at the same sub-freezing temperature — meaning the air is simultaneously supersaturated with respect to ice while still undersaturated with respect to the liquid droplets, so water evaporates off the droplets and deposits directly onto the ice crystals, which grow rapidly enough to eventually fall as precipitation.",
           "note": "Bergeron, T. (1933). 'On the Physics of Cloud and Precipitation.' Proceedings of the 5th Assembly of the International Union of Geodesy and Geophysics, 156–178, proposed the mechanism; Findeisen, W. (1938) provided further supporting observational and laboratory evidence. The process explains why most precipitation in the mid-latitudes, even warm summer rain, actually begins as ice crystals higher in the cloud that melt on the way down, rather than forming through liquid-droplet collision alone (see co3).",
           "links": [
-            "co3"
+            "co3",
+            "db4",
+            "ap5"
           ],
           "keywords": [
             "ice crystal growth mechanism",
@@ -131,7 +141,10 @@
           "hint": "George Hadley proposed that the trade winds, and the broader pattern of global atmospheric circulation, arise from warm air rising at the equator and moving poleward at high altitude, cooling and sinking back down around 30 degrees latitude, then returning toward the equator near the surface — with the whole circulating loop deflected into the characteristic diagonal trade-wind pattern by Earth's rotation, the first physically grounded explanation for why global winds blow in consistent, predictable patterns rather than randomly.",
           "note": "Hadley, G. (1735). 'Concerning the Cause of the General Trade-Winds.' Philosophical Transactions of the Royal Society, 39, 58–62. Hadley's original explanation for the wind deflection itself was subtly incorrect, correctly identified only much later once the Coriolis effect (see th6) was properly formalised; the basic circulating-cell structure he proposed, now called the Hadley cell, remains a foundational, largely accurate feature of the modern three-cell model of global atmospheric circulation.",
           "links": [
-            "th6"
+            "th6",
+            "st8",
+            "st11",
+            "fg9"
           ],
           "keywords": [
             "trade wind explanation",
@@ -176,7 +189,8 @@
           "hint": "Extending frontal theory (see th1) into a complete life-cycle model, the Bergen School proposed that mid-latitude storms develop in a predictable sequence of stages — a wave first forms along a stationary front between cold and warm air, the wave deepens into a full cyclone with connected warm and cold fronts, the faster-moving cold front eventually catches up to and 'occludes' the warm front, lifting the warm air entirely off the ground, and the storm finally dissipates as its temperature contrast is exhausted — a stage-by-stage model still taught to every meteorology student today.",
           "note": "Bjerknes, J. & Solberg, H. (1922). 'Life Cycle of Cyclones and the Polar Front Theory of Atmospheric Circulation.' Geofysiske Publikasjoner, 3(1), 1–18. The model was developed using an unusually dense observational network of volunteer weather stations established across Norway specifically to track storms in fine spatial detail, a methodological innovation nearly as significant to the theory's success as the physical insight itself.",
           "links": [
-            "th1"
+            "th1",
+            "th9"
           ],
           "keywords": [
             "cyclone life cycle stages",
@@ -199,7 +213,8 @@
           "note": "Rossby, C.-G. (1932). 'Thermodynamics Applied to Air Mass Analysis.' MIT Professional Notes, No. 1, formalised parcel theory and atmospheric instability analysis. The modern quantitative metric, Convective Available Potential Energy (CAPE), built directly on this parcel-theory foundation and is now calculated automatically from every weather balloon sounding worldwide, providing forecasters a single number summarising a region's thunderstorm potential for the day.",
           "links": [
             "th2",
-            "ef5"
+            "ef5",
+            "co1"
           ],
           "keywords": [
             "parcel buoyancy instability",
@@ -221,7 +236,14 @@
           "hint": "Where a strong horizontal temperature gradient exists in the atmosphere — most prominently along the boundary between cold polar air and warm subtropical air — the atmosphere becomes inherently unstable in a specific way that spontaneously generates travelling waves and eventually full storm systems, converting the stored potential energy of the temperature contrast itself into the kinetic energy of circulating winds, explaining why mid-latitude storms reliably form along the jet stream rather than at random locations.",
           "note": "Charney, J.G. (1947). 'The Dynamics of Long Waves in a Baroclinic Westerly Current.' Journal of Meteorology, 4(5), 135–162, provided the first mathematically rigorous theory of how these waves grow; Eady, E.T. (1949) independently developed a related, more simplified model two years later. Baroclinic instability theory directly explains the jet stream's wavy, meandering path and remains foundational to modern numerical weather prediction models (see me3, me4) of mid-latitude storm development.",
           "links": [
-            "th7"
+            "th7",
+            "st2",
+            "st7",
+            "ef9",
+            "fg10",
+            "db6",
+            "db7",
+            "ap1"
           ],
           "keywords": [
             "temperature gradient instability",
@@ -242,7 +264,10 @@
           "tag": "THEORY",
           "hint": "Sunlight passing through the atmosphere is scattered by air molecules far more strongly at shorter wavelengths than longer ones, scattering blue light many times more effectively than red — explaining both why the daytime sky appears blue in every direction, since scattered blue light reaches the eye from all across the sky, and why sunsets appear red, since the much longer path sunlight travels through the atmosphere at a low sun angle scatters away nearly all the blue light before it reaches an observer, leaving mostly the less-scattered red and orange wavelengths.",
           "note": "Strutt, J.W. (Lord Rayleigh) (1871). 'On the Light from the Sky, its Polarization and Colour.' Philosophical Magazine, 41(271), 107–120, derived the wavelength-dependent scattering relationship mathematically. The same principle explains why the sky on Mars, with its thin, dust-laden atmosphere, appears a dusty butterscotch colour rather than blue during the day, while its sunsets can appear distinctly blue — essentially the reverse pattern from Earth's.",
-          "links": [],
+          "links": [
+            "ef7",
+            "co8"
+          ],
           "keywords": [
             "wavelength dependent scattering",
             "blue sky explanation",
@@ -275,7 +300,8 @@
           "hint": "Robert FitzRoy, the former captain of HMS Beagle turned first head of the newly created UK Meteorological Department, established the world's first operational storm-warning system, using telegraph reports from coastal stations to track approaching weather and issue advance warnings to ships and ports — the first systematic, government-run attempt to actually forecast the weather rather than merely record it after the fact.",
           "note": "FitzRoy, R. established the Met Office storm warning system in 1861, coining the term 'weather forecast' itself, and began publishing daily forecasts in The Times newspaper the same year. FitzRoy's forecasts drew sustained public ridicule from scientific peers sceptical that weather could be meaningfully predicted at all, and the psychological strain of this criticism, combined with prior struggles, contributed to his suicide in 1865; forecasting was briefly suspended afterward before resuming permanently.",
           "links": [
-            "fg2"
+            "fg2",
+            "me3"
           ],
           "keywords": [
             "first operational forecast",
@@ -299,7 +325,8 @@
           "note": "Richardson, L.F. (1922). Weather Prediction by Numerical Process. Cambridge University Press. The failure was later diagnosed as resulting from unfiltered high-frequency noise in his initial atmospheric pressure data, a problem only properly solved decades later once computers made it practical to apply mathematical filtering techniques Richardson himself lacked the computational power to implement. Richardson's famous, only half-joking vision of a 'forecast factory' — 64,000 human computers working in a giant hall to calculate weather forecasts faster than the weather itself unfolds — anticipated the basic parallel-computing structure of every modern weather model.",
           "links": [
             "th9",
-            "st3"
+            "st3",
+            "st13"
           ],
           "keywords": [
             "hand calculated weather forecast",
@@ -369,7 +396,8 @@
           "hint": "A powerful hurricane struck Galveston, Texas — then a major port city built on a low, flat barrier island with no seawall — with almost no advance public warning, killing an estimated 6,000 to 12,000 people in a single night, still the deadliest natural disaster in United States history by a wide margin, and the catastrophe directly drove the construction of a massive protective seawall and a fundamental overhaul of US hurricane forecasting and warning procedures in the decades that followed.",
           "note": "The hurricane struck on 8 September 1900; the US Weather Bureau's chief forecaster in Galveston, Isaac Cline, had earlier publicly argued a serious hurricane strike on the city was virtually impossible. The disaster's staggering death toll directly catalysed the construction of the 3-metre Galveston Seawall, completed in 1904, and prompted the Weather Bureau to substantially improve its hurricane tracking and warning communication, though a fully modern hurricane warning system would still take decades longer to develop.",
           "links": [
-            "fg2"
+            "fg2",
+            "ap3"
           ],
           "keywords": [
             "deadliest us natural disaster",
@@ -392,7 +420,8 @@
           "hint": "Investigating a mysterious pattern of wind damage from a 1975 airliner crash — trees and structures blown outward in a distinctive radiating starburst pattern rather than the rotational pattern a tornado leaves — Fujita identified an entirely new, previously unrecognised weather phenomenon: a sudden, powerful, localised downward burst of wind plunging out of a thunderstorm and slamming into the ground, spreading outward in every direction, a hazard aviation had been unknowingly flying into for years.",
           "note": "Fujita, T.T. (1976). 'Spearhead Echo and Downburst Near the Approach End of a John F. Kennedy Airport Runway, New York City.' Satellite and Mesometeorology Research Project, University of Chicago, Research Paper No. 137. Fujita's downburst concept was initially met with considerable scepticism from the meteorological community until confirmed by dedicated field research projects (NIMROD, 1978; JAWS, 1982); the discovery directly led to onboard and ground-based wind-shear detection systems now standard at major airports worldwide, substantially reducing microburst-related aviation accidents.",
           "links": [
-            "fg6"
+            "fg6",
+            "ef5"
           ],
           "keywords": [
             "downburst wind discovery",
@@ -441,7 +470,8 @@
           "links": [
             "th5",
             "fg4",
-            "fg7"
+            "fg7",
+            "db9"
           ],
           "keywords": [
             "pacific pressure seesaw",
@@ -510,7 +540,8 @@
           "hint": "Compiling data from ships' logbooks recording wind direction across the tropical Atlantic and Indian Oceans, Halley produced the first systematic map of the trade winds and monsoon patterns, demonstrating that these winds blow in remarkably consistent, predictable directions across enormous swaths of open ocean — a purely empirical, descriptive achievement published nearly fifty years before Hadley (see th5) would attempt to actually explain why the winds behaved this way.",
           "note": "Halley, E. (1686). 'An Historical Account of the Trade Winds, and Monsoons, Observable in the Seas Between and Near the Tropics.' Philosophical Transactions of the Royal Society, 16, 153–168. Halley correctly identified solar heating of the equatorial atmosphere as the trade winds' underlying energy source but did not attempt to explain the winds' characteristic diagonal, rather than straight north-south, direction, a gap Hadley's later theoretical framework would address.",
           "links": [
-            "th5"
+            "th5",
+            "ef8"
           ],
           "keywords": [
             "trade wind mapping",
@@ -589,7 +620,8 @@
           "hint": "As moist air is forced up and over a mountain range, it cools at the slower moist adiabatic rate while releasing its moisture as precipitation on the windward slope, but once it crests the peak and descends the leeward side, the now much drier air warms back up at the faster dry adiabatic rate — arriving at the base of the mountain's far side dramatically warmer and drier than it started, a warm, gusty downslope wind that can raise temperatures by 10-20°C within an hour and rapidly melt snow.",
           "note": "Hann, J. von (1866). 'Zur Frage über den Ursprung des Föhn.' Zeitschrift der Österreichischen Gesellschaft für Meteorologie, 1, 257–263, provided the first physically correct thermodynamic explanation, building on the differing dry and moist adiabatic lapse rates (see th2). The same phenomenon occurs worldwide under different regional names — the chinook in the Rocky Mountains, the zonda in Argentina, the Santa Ana in Southern California — and can trigger rapid, dangerous increases in wildfire risk due to the sudden drop in humidity and rise in wind speed.",
           "links": [
-            "th2"
+            "th2",
+            "ap2"
           ],
           "keywords": [
             "downslope warming wind",
@@ -658,7 +690,9 @@
           "hint": "A tropical cyclone can only form and intensify where several specific conditions coincide simultaneously: ocean surface water warmer than about 26.5°C to at least 50 metres depth, enough Coriolis deflection (see th6) to initiate rotation, meaning at least a few degrees away from the equator, low wind shear so the storm's vertical structure isn't torn apart as it grows, and sufficiently moist mid-level air — when even one of these conditions is absent, no amount of the others can compensate, which is why hurricanes reliably form only in specific ocean basins during specific seasons.",
           "note": "Palmén, E. (1948). 'On the Formation and Structure of Tropical Hurricanes.' Geophysica, 3, 26–38, identified the 26.5°C sea-surface temperature threshold now named after him. All these conditions being individually necessary but not sufficient means meteorologists can identify large regions and seasons of elevated hurricane risk well in advance, even though which specific weak disturbance among many will actually organise into a named storm remains considerably harder to predict.",
           "links": [
-            "th6"
+            "th6",
+            "me5",
+            "db2"
           ],
           "keywords": [
             "palmen sea temperature threshold",
@@ -681,7 +715,8 @@
           "hint": "A microburst is a highly localised, intensely concentrated downdraft, often less than 4 kilometres across, that slams into the ground and spreads outward at speeds sometimes exceeding 150 kilometres per hour — extremely dangerous specifically to aircraft during takeoff or landing, since a plane flying through one first experiences a sudden, deceptive headwind that increases lift, immediately followed by an equally sudden tailwind and downdraft that can cause a catastrophic, unrecoverable loss of altitude within seconds.",
           "note": "The 1982 Joint Airport Weather Studies (JAWS) project near Denver, Colorado, used dedicated Doppler radar networks to systematically document dozens of microbursts, confirming and quantifying Fujita's original hypothesis (see st6). Several major commercial airline crashes through the 1970s and 1980s were subsequently reattributed to microburst wind shear, directly driving the installation of dedicated wind-shear detection radar at major airports worldwide.",
           "links": [
-            "st6"
+            "st6",
+            "th8"
           ],
           "keywords": [
             "concentrated downdraft hazard",
@@ -806,7 +841,10 @@
           "note": "Petterssen, S. (1940). Weather Analysis and Forecasting. McGraw-Hill, systematised the stable/unstable/conditionally unstable classification framework still taught in every introductory meteorology course. Forecasters routinely compare the environmental temperature profile measured by a weather balloon sounding (see me2) against the dry and moist adiabatic lapse rates plotted on the same chart to directly read off a day's stability classification and thunderstorm potential.",
           "links": [
             "th2",
-            "th8"
+            "th8",
+            "ef2",
+            "co6",
+            "me2"
           ],
           "keywords": [
             "parcel versus environment comparison",
@@ -1037,7 +1075,8 @@
           "hint": "Plotting simultaneous weather observations — temperature, pressure, wind, cloud cover — from many separate stations onto a single map at the same moment in time reveals the large-scale pattern of fronts, high- and low-pressure systems, and air masses invisible from any single station's data alone, turning isolated point measurements into a coherent, analysable picture of the atmosphere's current state across an entire continent.",
           "note": "Le Verrier, U. (1863) established a real-time synoptic weather mapping network at the Paris Observatory using telegraph reports, directly motivated by a catastrophic 1854 storm during the Crimean War that destroyed a French naval fleet with no advance warning at all. Synoptic analysis by trained human forecasters remained the primary weather-prediction method for nearly a century until numerical weather prediction (see me4) gradually took over the core forecasting task from the mid-twentieth century onward.",
           "links": [
-            "st1"
+            "st1",
+            "co7"
           ],
           "keywords": [
             "simultaneous observation mapping",
@@ -1059,7 +1098,9 @@
           "hint": "Rather than running a weather model just once from a single best-estimate starting condition, ensemble forecasting runs the same model dozens of times simultaneously, each starting from a slightly different, equally plausible version of the current atmospheric state — since Lorenz's chaos theory (see th3) proved forecasts are inherently sensitive to tiny initial differences, running many slightly varied forecasts together gives forecasters a direct, quantitative measure of how confident to actually be in any specific prediction.",
           "note": "Toth, Z. & Kalnay, E. (1993). 'Ensemble Forecasting at NMC: The Generation of Perturbations.' Bulletin of the American Meteorological Society, 74(12), 2317–2330, implemented operational ensemble forecasting at the US National Meteorological Center; the European Centre for Medium-Range Weather Forecasts developed a parallel system around the same time. When ensemble members strongly agree, forecasters can issue a confident prediction; when they diverge sharply, the resulting 'spaghetti plot' of scattered possible storm tracks directly communicates genuine forecast uncertainty.",
           "links": [
-            "th3"
+            "th3",
+            "co7",
+            "ap6"
           ],
           "keywords": [
             "multiple perturbed forecast runs",
@@ -1081,7 +1122,8 @@
           "hint": "Specially equipped aircraft fly directly into the eye of a developing or mature hurricane, repeatedly, dropping instrument packages that measure wind speed, pressure, and temperature throughout the storm's structure from the inside — data that satellite imagery alone cannot fully substitute for, since a satellite sees only a storm's cloud-top structure from above and cannot directly measure its actual internal wind speed and central pressure.",
           "note": "Colonel Joseph Duckworth flew a single-engine trainer aircraft directly into a Texas hurricane in July 1943, reportedly after a bet with British pilots training nearby who doubted it could be done safely, demonstrating the flight was survivable and immediately useful. The US Air Force and NOAA's dedicated 'Hurricane Hunter' squadrons have flown routine reconnaissance and research missions into tropical cyclones ever since, providing the single most direct and reliable measurement of a hurricane's true central pressure and wind speed available to forecasters.",
           "links": [
-            "ef4"
+            "ef4",
+            "ap3"
           ],
           "keywords": [
             "hurricane eye penetration flight",
@@ -1102,7 +1144,9 @@
           "tag": "METHOD",
           "hint": "Reanalysis takes every historical weather observation ever recorded — ship logs, weather balloons, satellites, ground stations, spanning decades — and reprocesses the entire dataset using a single, fixed, modern numerical weather model, filling gaps and correcting inconsistencies in a physically consistent way, to produce a complete, uniform, gridded reconstruction of the atmosphere's past state far more internally consistent for studying long-term trends than the original patchwork of historical observations ever was.",
           "note": "Kalnay, E. et al. (1996). 'The NCEP/NCAR 40-Year Reanalysis Project.' Bulletin of the American Meteorological Society, 77(3), 437–472, produced the first comprehensive, publicly available global reanalysis dataset. Because reanalysis uses one fixed modern model throughout, it can occasionally still introduce its own subtle artificial trends whenever the underlying volume and quality of raw observational data going into it changes significantly over time, such as the introduction of new satellite instruments.",
-          "links": [],
+          "links": [
+            "ap4"
+          ],
           "keywords": [
             "historical data reprocessing",
             "gridded atmospheric reconstruction",
@@ -1134,7 +1178,8 @@
           "hint": "Bjerknes proposed that weather forecasting was, at least in principle, a solvable problem in physics and mathematics rather than an art of pattern recognition (see st13), and later founded the Bergen Geophysical Institute in Norway, where his son Jacob and a close-knit group of students developed frontal theory (see th1) and the Norwegian Cyclone Model (see th7) that transformed his theoretical vision into the practical foundation of modern weather forecasting.",
           "note": "Bjerknes, V. (1904). 'Das Problem der Wettervorhersage.' Meteorologische Zeitschrift, 21, 1–7. Bjerknes had earlier made significant contributions to fundamental fluid dynamics, including the Bjerknes circulation theorem, before turning his attention specifically to weather forecasting; the research group he assembled and mentored at Bergen, including his own son, is now remembered collectively as 'the Bergen School' of meteorology.",
           "links": [
-            "st13"
+            "st13",
+            "th1"
           ],
           "keywords": [
             "weather forecasting manifesto",
@@ -1156,7 +1201,8 @@
           "hint": "A former Royal Navy officer who commanded HMS Beagle during Charles Darwin's famous voyage, FitzRoy later became the first head of Britain's Meteorological Department and established the world's first operational, telegraph-based storm warning service (see st1) — an achievement met with public ridicule from scientific peers sceptical that weather could be meaningfully forecast at all, criticism that contributed to his death by suicide in 1865.",
           "note": "FitzRoy, R. established the Met Office storm warning system in 1861 and personally coined the term 'weather forecast.' FitzRoy also served as Governor of New Zealand earlier in his career and, following his death, was posthumously honoured by having a major sea area in the UK's shipping forecast renamed 'FitzRoy' in 2002, in recognition of his foundational contribution to marine weather warning.",
           "links": [
-            "st1"
+            "st1",
+            "st5"
           ],
           "keywords": [
             "first weather forecast coinage",
@@ -1358,7 +1404,8 @@
           "hint": "The first woman to earn a doctorate in meteorology, Simpson overcame direct, explicit discouragement from her own graduate advisers, who told her outright that a woman could not succeed in the field, to become a pioneering researcher on tropical cloud dynamics and hurricane behaviour, later serving as chief scientist for NASA's Tropical Rainfall Measuring Mission satellite and mentoring generations of women meteorologists who followed her into the field.",
           "note": "Simpson, J. (1949). 'The Distribution of Cumulus Clouds over the Ocean.' PhD dissertation, University of Chicago, the first meteorology doctorate awarded to a woman anywhere in the United States. Simpson later conducted pioneering cloud-seeding experiments as part of hurricane modification research (see db4) and developed foundational models of how individual cumulus clouds interact with and help drive much larger-scale tropical weather systems.",
           "links": [
-            "db4"
+            "db4",
+            "db1"
           ],
           "keywords": [
             "first female meteorology phd",
@@ -1480,7 +1527,8 @@
           "note": "The Wyoming Weather Modification Pilot Program (2005–2014), one of the most rigorously randomised and controlled cloud-seeding field trials ever conducted, found seeding increased snowfall in targeted mountain ranges by a modest and statistically significant, but relatively small, 5 to 15 percent (Rasmussen, R.M. et al. 2018, Journal of Applied Meteorology and Climatology). Many operational cloud-seeding programs worldwide continue to run without this level of rigorous statistical control, meaning the technique's real-world effectiveness in most actual deployments remains considerably less certain.",
           "links": [
             "th4",
-            "fg11"
+            "fg11",
+            "ap5"
           ],
           "keywords": [
             "silver iodide precipitation enhancement",
@@ -1752,42 +1800,313 @@
       "icon": "🧪",
       "accent": "#7D3C98",
       "label": "Landmark Studies",
-      "events": []
+      "events": [
+        {
+          "y": 1686,
+          "l": "Halley's Trade Wind Chart",
+          "entryId": "st11"
+        },
+        {
+          "y": 1861,
+          "l": "FitzRoy's Storm Warning Service",
+          "entryId": "st1"
+        },
+        {
+          "y": 1900,
+          "l": "The Galveston Hurricane",
+          "entryId": "st5"
+        },
+        {
+          "y": 1904,
+          "l": "Bjerknes's Weather-Physics Manifesto",
+          "entryId": "st13"
+        },
+        {
+          "y": 1922,
+          "l": "Richardson's Forecast Attempt",
+          "entryId": "st2"
+        },
+        {
+          "y": 1923,
+          "l": "Walker's Southern Oscillation",
+          "entryId": "st8"
+        },
+        {
+          "y": 1925,
+          "l": "The Tri-State Tornado",
+          "entryId": "st4"
+        },
+        {
+          "y": 1934,
+          "l": "Discovery of the Jet Stream",
+          "entryId": "st7"
+        },
+        {
+          "y": 1950,
+          "l": "ENIAC First Computer Forecast",
+          "entryId": "st3"
+        },
+        {
+          "y": 1953,
+          "l": "The 1953 North Sea Flood",
+          "entryId": "st12"
+        },
+        {
+          "y": 1960,
+          "l": "TIROS-1 First Weather Satellite",
+          "entryId": "st10"
+        },
+        {
+          "y": 1973,
+          "l": "Union City Doppler Radar",
+          "entryId": "st9"
+        },
+        {
+          "y": 1975,
+          "l": "Fujita's Downburst Discovery",
+          "entryId": "st6"
+        }
+      ]
     },
     {
       "id": "theory",
       "icon": "📐",
       "accent": "#2471A3",
       "label": "Theories & Models",
-      "events": []
+      "events": [
+        {
+          "y": 1735,
+          "l": "General Circulation Theory",
+          "entryId": "th5"
+        },
+        {
+          "y": 1835,
+          "l": "Coriolis Effect Theory",
+          "entryId": "th6"
+        },
+        {
+          "y": 1841,
+          "l": "Adiabatic Lapse Rate Theory",
+          "entryId": "th2"
+        },
+        {
+          "y": 1871,
+          "l": "Rayleigh Scattering (Atmospheric Optics)",
+          "entryId": "th10"
+        },
+        {
+          "y": 1919,
+          "l": "Frontal Theory (Bergen School)",
+          "entryId": "th1"
+        },
+        {
+          "y": 1922,
+          "l": "Norwegian Cyclone Model",
+          "entryId": "th7"
+        },
+        {
+          "y": 1932,
+          "l": "CAPE / Convective Instability",
+          "entryId": "th8"
+        },
+        {
+          "y": 1933,
+          "l": "Bergeron-Findeisen Process",
+          "entryId": "th4"
+        },
+        {
+          "y": 1947,
+          "l": "Baroclinic Instability Theory",
+          "entryId": "th9"
+        },
+        {
+          "y": 1963,
+          "l": "Lorenz's Deterministic Chaos",
+          "entryId": "th3"
+        }
+      ]
     },
     {
       "id": "effect",
       "icon": "📊",
       "accent": "#117A65",
       "label": "Effects & Phenomena",
-      "events": []
+      "events": [
+        {
+          "y": 1637,
+          "l": "Halo & Sundog Phenomena",
+          "entryId": "ef6"
+        },
+        {
+          "y": 1866,
+          "l": "Foehn Wind Effect",
+          "entryId": "ef1"
+        },
+        {
+          "y": 1930,
+          "l": "Temperature Inversion",
+          "entryId": "ef2"
+        },
+        {
+          "y": 1948,
+          "l": "Tropical Cyclone Formation Threshold",
+          "entryId": "ef4"
+        },
+        {
+          "y": 1952,
+          "l": "Sudden Stratospheric Warming",
+          "entryId": "ef9"
+        },
+        {
+          "y": 1958,
+          "l": "The Green Flash",
+          "entryId": "ef7"
+        },
+        {
+          "y": 1966,
+          "l": "Lake Effect Snow",
+          "entryId": "ef3"
+        },
+        {
+          "y": 1982,
+          "l": "Microburst Wind Shear",
+          "entryId": "ef5"
+        },
+        {
+          "y": 1994,
+          "l": "Sea Breeze / Land Breeze Cycle",
+          "entryId": "ef8"
+        }
+      ]
     },
     {
       "id": "method",
       "icon": "🔬",
       "accent": "#8B5E00",
       "label": "Methods",
-      "events": []
+      "events": [
+        {
+          "y": 1863,
+          "l": "Synoptic Weather Chart Analysis",
+          "entryId": "me3"
+        },
+        {
+          "y": 1930,
+          "l": "Radiosonde (Weather Balloon)",
+          "entryId": "me2"
+        },
+        {
+          "y": 1943,
+          "l": "Aircraft Reconnaissance (Hurricanes)",
+          "entryId": "me5"
+        },
+        {
+          "y": 1988,
+          "l": "Doppler Weather Radar",
+          "entryId": "me1"
+        },
+        {
+          "y": 1993,
+          "l": "Ensemble Forecasting",
+          "entryId": "me4"
+        },
+        {
+          "y": 1996,
+          "l": "Climate Reanalysis",
+          "entryId": "me6"
+        }
+      ]
     },
     {
       "id": "debate",
       "icon": "⚖️",
       "accent": "#B7770D",
       "label": "Debates & Revisions",
-      "events": []
+      "events": [
+        {
+          "y": 1962,
+          "l": "Can Hurricanes Be Weakened?",
+          "entryId": "db1"
+        },
+        {
+          "y": 1980,
+          "l": "\"Bomb Cyclone\" Terminology",
+          "entryId": "db6"
+        },
+        {
+          "y": 2001,
+          "l": "Polar Vortex & Cold Snaps Link",
+          "entryId": "db8"
+        },
+        {
+          "y": 2005,
+          "l": "Warming's Effect on Hurricanes",
+          "entryId": "db2"
+        },
+        {
+          "y": 2012,
+          "l": "Arctic Amplification & Jet Stream",
+          "entryId": "db7"
+        },
+        {
+          "y": 2014,
+          "l": "Cloud Seeding Effectiveness",
+          "entryId": "db4"
+        },
+        {
+          "y": 2014,
+          "l": "Tornado Formation: Top-Down vs Up",
+          "entryId": "db5"
+        },
+        {
+          "y": 2014,
+          "l": "Seasonal Forecast Reproducibility",
+          "entryId": "db9"
+        },
+        {
+          "y": 2018,
+          "l": "Chaos Predictability Ceiling",
+          "entryId": "db3"
+        }
+      ]
     },
     {
       "id": "application",
       "icon": "🔗",
       "accent": "#2E86C1",
       "label": "Applications",
-      "events": []
+      "events": [
+        {
+          "y": 1913,
+          "l": "Precision Agriculture Forecasting",
+          "entryId": "ap2"
+        },
+        {
+          "y": 1946,
+          "l": "Cloud Seeding for Drought",
+          "entryId": "ap5"
+        },
+        {
+          "y": 1965,
+          "l": "Aviation Turbulence Avoidance",
+          "entryId": "ap1"
+        },
+        {
+          "y": 1970,
+          "l": "Tropical Cyclone Public Warnings",
+          "entryId": "ap3"
+        },
+        {
+          "y": 1999,
+          "l": "Weather Derivatives & Insurance",
+          "entryId": "ap4"
+        },
+        {
+          "y": 2008,
+          "l": "Renewable Energy Wind Forecasting",
+          "entryId": "ap6"
+        }
+      ]
     }
   ]
 }
