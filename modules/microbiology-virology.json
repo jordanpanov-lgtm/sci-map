@@ -946,7 +946,137 @@
       "accent": "#8B5E00",
       "bg": "#FFF8F0",
       "subtitle": "The tools and paradigms that generate the field's evidence",
-      "entries": []
+      "entries": [
+        {
+          "id": "me1",
+          "group": "Bacterial Cell Biology & Physiology",
+          "label": "Gram Stain Technique",
+          "date": "1921",
+          "loc": "New York State Agricultural Experiment Station, Geneva, New York",
+          "coords": [
+            42.87,
+            -76.98
+          ],
+          "tag": "METHOD",
+          "hint": "A four-step staining sequence — crystal violet, an iodine mordant to fix the dye, a decolorising alcohol or acetone wash, and a red safranin counterstain — sorts almost any bacterial sample into Gram-positive or Gram-negative within minutes using nothing more than a microscope and basic reagents, making it the very first diagnostic test run on an unidentified bacterial sample in clinical and research labs alike, well over a century after its introduction.",
+          "note": "Hucker, G.J. (1921). 'A New Modification and Application of the Gram Stain.' Journal of Bacteriology, 6(4), 395–397, replacing Gram's original aniline-gentian-violet solution with a more stable ammonium oxalate-crystal violet formulation that keeps its potency on the shelf far longer. The Hucker modification, not Gram's 1884 original recipe (see co1), is the version of the protocol actually used in laboratories today.",
+          "links": [
+            "co1"
+          ],
+          "keywords": [
+            "gram stain protocol",
+            "crystal violet decolorization",
+            "bacterial identification staining"
+          ]
+        },
+        {
+          "id": "me2",
+          "group": "Bacterial Cell Biology & Physiology",
+          "label": "Petri Dish and Pure Culture Isolation",
+          "date": "1887",
+          "loc": "Berlin, German Empire",
+          "coords": [
+            52.52,
+            13.4
+          ],
+          "tag": "METHOD",
+          "hint": "Spreading a bacterial sample thinly across a flat, solid growth medium in a shallow, easily stacked, lidded glass dish lets each individual bacterial cell grow into its own physically separated, visible colony — a pure culture descended from one starting cell — solving the basic problem that had made rigorous bacteriology nearly impossible: liquid broths let every species in a mixed sample grow tangled together with no way to isolate just one.",
+          "note": "Petri, R.J. (1887). 'Eine kleine Modification des Koch'schen Plattenverfahrens.' Centralblatt für Bacteriologie und Parasitenkunde, 1, 279–280, improving on Robert Koch's earlier, more awkward glass-plate technique while working as Koch's assistant. The solidifying agent itself mattered as much as the dish — gelatin, tried first, melted at body temperature and could be digested by many bacteria, until Fanny Hesse, wife of a colleague in Koch's laboratory, suggested agar, a seaweed extract already used in her kitchen that neither melts near body temperature nor is degraded by most microbes.",
+          "links": [],
+          "keywords": [
+            "pure culture isolation",
+            "solid growth medium",
+            "agar plate technique"
+          ]
+        },
+        {
+          "id": "me3",
+          "group": "Virus Structure, Classification & Replication",
+          "label": "Bacteriophage Plaque Assay",
+          "date": "1959",
+          "loc": "New York University College of Medicine, New York, New York",
+          "coords": [
+            40.71,
+            -74.01
+          ],
+          "tag": "METHOD",
+          "hint": "Mixing a diluted phage sample with a lawn of susceptible bacteria spread across a solid growth plate lets each single infectious phage particle create its own expanding circular clearing — a plaque — as it destroys the bacteria immediately around it and its progeny spread outward, giving virologists a direct, visual way to count exactly how many infectious virus particles were in the original sample, one plaque per originally infectious particle.",
+          "note": "Adams, M.H. (1959). Bacteriophages. Interscience Publishers, New York, standardised the plaque assay's methodology and quantitative interpretation across the field; the monograph was compiled and published posthumously, completed by colleagues including Max Delbrück after Adams's death in 1956. The plaque assay remains the standard way to determine phage titre and, adapted for animal cell culture, was the technique Renato Dulbecco used to enable precise quantitative animal virology.",
+          "links": [
+            "ef6"
+          ],
+          "keywords": [
+            "plaque assay titration",
+            "phage lawn clearing",
+            "virus quantification method"
+          ]
+        },
+        {
+          "id": "me4",
+          "group": "Microbial Diversity & the Tree of Life",
+          "label": "Metagenomics",
+          "date": "1998",
+          "loc": "University of Wisconsin-Madison, Madison, Wisconsin",
+          "coords": [
+            43.07,
+            -89.4
+          ],
+          "tag": "METHOD",
+          "hint": "Since well over 99% of environmental microbial species have never been successfully grown in laboratory culture, metagenomics skips culturing entirely — extracting and sequencing all the DNA present in an environmental sample at once, whether soil, seawater or the human gut, then using computational methods to reconstruct individual genomes or gene functions from the resulting mixture, opening the vast majority of microbial diversity to study for the first time.",
+          "note": "Handelsman, J., Rondon, M.R., Brady, S.F., Clardy, J. & Goodman, R.M. (1998). 'Molecular Biological Access to the Chemistry of Unknown Soil Microbes: A New Frontier for Natural Products.' Chemistry & Biology, 5(10), R245–R249, coined the term. The technique directly enabled the Human Microbiome Project and similar large-scale surveys, revealing thousands of microbial species and metabolic genes with no cultured representative in any laboratory collection anywhere.",
+          "links": [],
+          "keywords": [
+            "culture independent sequencing",
+            "environmental dna survey",
+            "unculturable microbial diversity"
+          ]
+        },
+        {
+          "id": "me5",
+          "group": "Antibiotics, Antivirals & Biotechnology",
+          "label": "Kirby-Bauer Disk Diffusion Test",
+          "date": "1966",
+          "loc": "University of Washington, Seattle, Washington",
+          "coords": [
+            47.61,
+            -122.33
+          ],
+          "tag": "METHOD",
+          "hint": "Placing small paper disks, each pre-soaked with a standard dose of a different antibiotic, onto a plate freshly spread with a patient's bacterial isolate produces a clear zone of inhibited growth around each disk whose diameter directly indicates how susceptible that particular bacterial strain is to that particular drug — a simple, cheap, same-day test that tells a physician which antibiotics will actually work against a specific infection before committing to a treatment course.",
+          "note": "Bauer, A.W., Kirby, W.M.M., Sherris, J.C. & Turck, M. (1966). 'Antibiotic Susceptibility Testing by a Standardized Single Disk Method.' American Journal of Clinical Pathology, 45(4), 493–496, standardised disk potency, agar depth, and incubation conditions so results were reproducible between different laboratories. The test remains in routine clinical use worldwide, now supplemented in many labs by faster automated systems, and is a primary tool for tracking the spread of antibiotic resistance (see pathology-immunology::ef10).",
+          "links": [],
+          "xlinks": [
+            "pathology-immunology::ef10"
+          ],
+          "keywords": [
+            "disk diffusion susceptibility testing",
+            "antibiotic zone inhibition",
+            "clinical resistance screening"
+          ]
+        },
+        {
+          "id": "me6",
+          "group": "Microbial Ecology & Metabolism",
+          "label": "Winogradsky Enrichment Culture Technique",
+          "date": "1890",
+          "loc": "St. Petersburg, Russia",
+          "coords": [
+            59.93,
+            30.34
+          ],
+          "tag": "METHOD",
+          "hint": "Rather than trying to isolate an unknown bacterium by guessing what it needs, the enrichment culture technique instead builds an artificial environment — a specific combination of light, oxygen availability and chemical nutrients — deliberately designed to favour the growth of one particular metabolic type of organism over all others in a mixed environmental sample, letting whichever microbe is best suited to that narrow niche outcompete everything else and dominate the culture within days.",
+          "note": "Winogradsky, S. (1890). 'Recherches sur les Organismes de la Nitrification.' Annales de l'Institut Pasteur, 4, 213–231, developed the enrichment approach specifically to isolate the chemolithotrophic nitrifying bacteria underlying his broader theoretical work (see th6). Martinus Beijerinck independently refined the same principle for isolating other specialised bacteria; the layered 'Winogradsky column,' a simple mud-and-water microcosm that generates a visible stack of different microbial communities by depth, remains a standard teaching demonstration in microbiology courses today.",
+          "links": [
+            "th6"
+          ],
+          "keywords": [
+            "enrichment culture selection",
+            "selective growth condition",
+            "nitrifying bacteria isolation"
+          ]
+        }
+      ]
     },
     {
       "id": "figure",
@@ -956,7 +1086,285 @@
       "accent": "#B7770D",
       "bg": "#FEFDE7",
       "subtitle": "The researchers who shaped the discipline",
-      "entries": []
+      "entries": [
+        {
+          "id": "fg1",
+          "group": "Pioneers & Theorists",
+          "label": "Antonie van Leeuwenhoek",
+          "date": "1676",
+          "loc": "Delft, Dutch Republic",
+          "coords": [
+            52.01,
+            4.36
+          ],
+          "tag": "FIGURE",
+          "hint": "A cloth merchant with no university training and no access to any existing scientific instrument-maker's designs, Leeuwenhoek ground his own tiny, single-lens glass beads to a level of optical quality no professional lens-grinder matched for over a century, becoming the first human being to see bacteria, protozoa, sperm cells and blood cells, and reporting all of it faithfully in hundreds of letters to the Royal Society despite having no formal training in how to interpret what he was seeing.",
+          "note": "van Leeuwenhoek's letters to the Royal Society, published across Philosophical Transactions from 1673 onward, describe animalcules from 1676. He never published a scientific treatise and never revealed his exact lens-grinding technique to anyone, taking the precise method to his grave in 1723; it was not fully matched again until achromatic compound microscopes improved sufficiently in the early 19th century.",
+          "links": [
+            "st1"
+          ],
+          "keywords": [
+            "single lens microscope innovation",
+            "animalcule observation",
+            "self taught natural philosopher"
+          ]
+        },
+        {
+          "id": "fg2",
+          "group": "Pioneers & Theorists",
+          "label": "Louis Pasteur",
+          "date": "1862",
+          "loc": "École Normale Supérieure, Paris, France",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "tag": "FIGURE",
+          "hint": "A chemist rather than a physician or naturalist by training, Pasteur brought an experimentalist's insistence on tightly controlled comparisons to biology, decisively refuting spontaneous generation with the swan-neck flask design (see st2, th5) and going on to found the germ theory tradition that would reshape medicine, though his most famous specific medical contributions — rabies and anthrax vaccines — fall outside this folio's scope of pure microbiology and virology.",
+          "note": "Pasteur, L. (1862). 'Mémoire sur les corpuscules organisés qui existent dans l'atmosphère.' Annales des Sciences Naturelles, 16, 5–98. Pasteur was notoriously secretive and combative about priority disputes, and modern historical re-examination of his private notebooks (Geison, G. 1995, The Private Science of Louis Pasteur) has revealed some discrepancies between his public claims and actual experimental records, complicating the purely heroic version of his legacy long taught in textbooks.",
+          "links": [
+            "st2",
+            "th5"
+          ],
+          "keywords": [
+            "spontaneous generation refutation",
+            "experimental biology rigor",
+            "germ theory foundation"
+          ]
+        },
+        {
+          "id": "fg3",
+          "group": "Pioneers & Theorists",
+          "label": "Ferdinand Cohn",
+          "date": "1876",
+          "loc": "University of Breslau, Breslau, Prussia",
+          "coords": [
+            51.11,
+            17.04
+          ],
+          "tag": "FIGURE",
+          "hint": "A botanist who turned his attention to the smallest organisms he could find, Cohn built the first rigorous taxonomic classification of bacteria based on their shape and physiology, discovered the bacterial endospore and its extraordinary heat resistance (see ef2), and gave a young, then-unknown country doctor named Robert Koch his first serious scientific platform by publishing Koch's early anthrax work in his own journal.",
+          "note": "Cohn, F. (1875). 'Untersuchungen über Bacterien.' Beiträge zur Biologie der Pflanzen, series published 1872–1876. Cohn's journal, Beiträge zur Biologie der Pflanzen, gave Koch his first major publication venue in 1876, a professional favour widely credited with launching Koch's career toward the postulates that now anchor pathology-immunology's own founding theory (see pathology-immunology::th1).",
+          "links": [
+            "ef2"
+          ],
+          "xlinks": [
+            "pathology-immunology::th1"
+          ],
+          "keywords": [
+            "bacterial taxonomy pioneer",
+            "endospore discovery",
+            "botanist bacteriology founder"
+          ]
+        },
+        {
+          "id": "fg4",
+          "group": "Pioneers & Theorists",
+          "label": "Martinus Beijerinck",
+          "date": "1898",
+          "loc": "Delft Polytechnic, Delft, Netherlands",
+          "coords": [
+            52.01,
+            4.36
+          ],
+          "tag": "FIGURE",
+          "hint": "Repeating Ivanovsky's filtration experiment on tobacco mosaic disease, Beijerinck went further than simply confirming a filterable agent existed — he argued, correctly, that it was not a small bacterium at all but a fundamentally new category of infectious entity able to replicate only inside living cells, coining a term, 'contagium vivum fluidum,' that gave the still-unnamed field of virology its founding concept a full four decades before anyone would see a virus directly.",
+          "note": "Beijerinck, M.W. (1898). 'Über ein Contagium vivum fluidum als Ursache der Fleckenkrankheit der Tabaksblätter.' Verhandelingen der Koninklijke Akademie van Wetenschappen te Amsterdam, 65, 3–21. Beijerinck also isolated the nitrogen-fixing root-nodule bacterium Rhizobium the same decade (see ef7) and co-founded, with Winogradsky, the 'Delft School' comparative-biochemistry tradition in microbiology (see co6) — a remarkably broad legacy for a single career.",
+          "links": [
+            "st4",
+            "ef7"
+          ],
+          "keywords": [
+            "contagium vivum fluidum coinage",
+            "virus concept founder",
+            "delft school microbiology"
+          ]
+        },
+        {
+          "id": "fg5",
+          "group": "Pioneers & Theorists",
+          "label": "Dmitri Ivanovsky",
+          "date": "1892",
+          "loc": "St. Petersburg, Russia",
+          "coords": [
+            59.93,
+            30.34
+          ],
+          "tag": "FIGURE",
+          "hint": "A botany student investigating a tobacco plant disease sweeping through Crimean and Bessarabian plantations, Ivanovsky showed the infectious agent passed straight through a Chamberland filter fine enough to trap every known bacterium — the first documented observation of what would later be recognised as a virus — though Ivanovsky himself never drew that conclusion, assuming instead that the agent must simply be an unusually small, filter-slipping bacterium or a bacterial toxin.",
+          "note": "Ivanovsky, D. (1892). 'Concerning the Mosaic Disease of the Tobacco Plant.' Bulletin of the Imperial Academy of Sciences of St. Petersburg, 35, 67–70. Because he did not himself propose the conceptual leap that the agent was a wholly new category of pathogen, historians of science debate whether Ivanovsky or Beijerinck (see fg4), who made that leap explicitly six years later, more properly deserves the title 'founder of virology' — both are typically credited jointly today.",
+          "links": [
+            "st3"
+          ],
+          "keywords": [
+            "filterable agent observation",
+            "tobacco mosaic disease research",
+            "virology priority debate"
+          ]
+        },
+        {
+          "id": "fg6",
+          "group": "Pioneers & Theorists",
+          "label": "Wendell Stanley",
+          "date": "1935",
+          "loc": "Rockefeller Institute for Medical Research, Princeton, New Jersey",
+          "coords": [
+            40.35,
+            -74.66
+          ],
+          "tag": "FIGURE",
+          "hint": "A chemist rather than a biologist, Stanley applied protein-purification methods developed for enzyme chemistry directly to tobacco mosaic virus and produced something no one had achieved with any infectious agent before: needle-shaped crystals that remained fully infectious when redissolved, a result that seemed to collapse the boundary between chemistry and biology so completely it briefly convinced some scientists a virus was simply an unusually large, self-replicating chemical molecule rather than any kind of organism.",
+          "note": "Stanley, W.M. (1935). 'Isolation of a Crystalline Protein Possessing the Properties of Tobacco-Mosaic Virus.' Science, 81(2113), 644–645. Stanley shared the 1946 Nobel Prize in Chemistry for the work, though his initial interpretation that the crystals were pure protein was corrected within a year by Bawden and Pirie's finding of an RNA component (see st5) — a rare case of a Nobel-recognised finding needing a fairly significant correction almost immediately.",
+          "links": [
+            "st5"
+          ],
+          "keywords": [
+            "virus crystallization achievement",
+            "chemistry biology boundary",
+            "tobacco mosaic virus purification"
+          ]
+        },
+        {
+          "id": "fg7",
+          "group": "Pioneers & Theorists",
+          "label": "Alexander Fleming",
+          "date": "1928",
+          "loc": "St Mary's Hospital, London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "FIGURE",
+          "hint": "A bacteriologist with a documented habit of leaving culture plates around his notoriously untidy lab bench longer than most colleagues would, Fleming turned an accidental mould contamination into the observation that launched the antibiotic era, though he lacked the chemical expertise to purify or stabilise the active compound himself and largely set the finding aside for over a decade before Florey and Chain's team took it forward (see ap1).",
+          "note": "Fleming, A. (1929). 'On the Antibacterial Action of Cultures of a Penicillium.' British Journal of Experimental Pathology, 10(3), 226–236. Fleming shared the 1945 Nobel Prize in Physiology or Medicine with Florey and Chain and used his Nobel lecture to warn, with striking foresight, that careless use of penicillin could allow bacteria to evolve resistance to it — a caution that anticipated the antibiotic resistance crisis by decades (see pathology-immunology::ef10).",
+          "links": [
+            "st9",
+            "ap1"
+          ],
+          "xlinks": [
+            "pathology-immunology::ef10"
+          ],
+          "keywords": [
+            "penicillin discovery observation",
+            "accidental contamination finding",
+            "antibiotic era origin"
+          ]
+        },
+        {
+          "id": "fg8",
+          "group": "Pioneers & Theorists",
+          "label": "Sergei Winogradsky",
+          "date": "1887",
+          "loc": "Imperial Institute of Experimental Medicine, St. Petersburg, Russia",
+          "coords": [
+            59.93,
+            30.34
+          ],
+          "tag": "FIGURE",
+          "hint": "Trained as a botanist studying fungi before turning to bacteria, Winogradsky discovered that some microbes power themselves entirely by oxidising inorganic chemicals rather than consuming organic matter or sunlight (see th6), founding chemolithotrophy as a recognised metabolic category and developing the enrichment culture technique (see me6) that made isolating such highly specialised organisms from complex natural samples possible for the first time.",
+          "note": "Winogradsky, S. (1887). 'Über Schwefelbacterien.' Botanische Zeitung, 45, 489–610. Winogradsky is also credited, alongside Beijerinck, as a co-founder of the comparative-physiology 'Delft School' tradition in microbiology (see co6) and later pioneered soil microbiology as a discipline in its own right, arguing bacteria should be studied in their natural ecological context rather than only in artificial laboratory culture.",
+          "links": [
+            "th6",
+            "me6"
+          ],
+          "keywords": [
+            "chemolithotrophy discovery",
+            "soil microbiology founder",
+            "enrichment culture innovator"
+          ]
+        },
+        {
+          "id": "fg9",
+          "group": "Pioneers & Theorists",
+          "label": "Carl Woese",
+          "date": "1977",
+          "loc": "University of Illinois, Urbana, Illinois",
+          "coords": [
+            40.11,
+            -88.21
+          ],
+          "tag": "FIGURE",
+          "hint": "Working for over a decade on a painstaking, unglamorous project comparing ribosomal RNA fingerprints across hundreds of microorganisms, largely alone and without the institutional prestige more fashionable molecular biology carried at the time, Woese found a signal no one else had noticed — that methanogenic microbes belonged to an entirely separate domain of life — and defended the finding through years of open skepticism from senior figures in the field before it became one of biology's standard classifications.",
+          "note": "Woese, C.R. & Fox, G.E. (1977). 'Phylogenetic Structure of the Prokaryotic Domain: The Primary Kingdoms.' Proceedings of the National Academy of Sciences, 74(11), 5088–5090. Woese never received a Nobel Prize despite the magnitude of the reclassification, a frequently cited example of the prize's narrow scope for foundational taxonomic and evolutionary discoveries; he did receive the Crafoord Prize in 2003, an award specifically created by the Royal Swedish Academy to cover fields the Nobels omit.",
+          "links": [
+            "th2",
+            "st10"
+          ],
+          "keywords": [
+            "archaea domain discovery",
+            "molecular phylogeny pioneer",
+            "taxonomic paradigm resistance"
+          ]
+        },
+        {
+          "id": "fg10",
+          "group": "Pioneers & Theorists",
+          "label": "David Baltimore",
+          "date": "1970",
+          "loc": "Massachusetts Institute of Technology, Cambridge, Massachusetts",
+          "coords": [
+            42.36,
+            -71.09
+          ],
+          "tag": "FIGURE",
+          "hint": "At just 32, Baltimore discovered an enzyme, reverse transcriptase, that copies RNA back into DNA — a direction of genetic information flow the prevailing 'central dogma' had assumed was impossible — independently and simultaneously with Howard Temin, resolving a decade-long argument over how RNA tumour viruses could permanently alter a host cell's genome, and the following year used the same insight to organise the classification scheme that now bears his name (see th3).",
+          "note": "Baltimore, D. (1970). 'RNA-Dependent DNA Polymerase in Virions of RNA Tumour Viruses.' Nature, 226, 1209–1211; Temin, H.M. & Mizutani, S. (1970). 'RNA-Dependent DNA Polymerase in Virions of Rous Sarcoma Virus.' Nature, 226, 1211–1213, published back-to-back in the same issue. Baltimore, Temin and Renato Dulbecco shared the 1975 Nobel Prize in Physiology or Medicine; reverse transcriptase later became an indispensable laboratory tool for converting RNA into complementary DNA for cloning and sequencing.",
+          "links": [
+            "th3"
+          ],
+          "keywords": [
+            "reverse transcriptase discovery",
+            "central dogma exception",
+            "retrovirus replication mechanism"
+          ]
+        },
+        {
+          "id": "fg11",
+          "group": "Pioneers & Theorists",
+          "label": "Joshua Lederberg",
+          "date": "1946",
+          "loc": "Yale University, New Haven, Connecticut",
+          "coords": [
+            41.31,
+            -72.93
+          ],
+          "tag": "FIGURE",
+          "hint": "A 21-year-old graduate student working with Edward Tatum, Lederberg discovered bacterial conjugation almost by accident while testing whether two nutrient-deficient E. coli strains could somehow complement each other's deficiencies, overturning the assumption that bacteria reproduced only asexually, and went on six years later to co-discover generalized transduction (see st8) as well, making him central to establishing bacteria as genuinely tractable subjects for classical genetics.",
+          "note": "Lederberg, J. & Tatum, E.L. (1946). 'Gene Recombination in Escherichia coli.' Nature, 158, 558. Lederberg shared the 1958 Nobel Prize in Physiology or Medicine at age 33, among the youngest laureates in the prize's history; he later became a prominent advocate for exobiology and coined the term itself, and served as an influential adviser on biological warfare policy and the search for extraterrestrial life for the rest of his career.",
+          "links": [
+            "st7",
+            "st8",
+            "co2"
+          ],
+          "keywords": [
+            "bacterial conjugation co-discoverer",
+            "transduction co-discoverer",
+            "classical bacterial genetics founder"
+          ]
+        },
+        {
+          "id": "fg12",
+          "group": "Pioneers & Theorists",
+          "label": "Lynn Margulis",
+          "date": "1967",
+          "loc": "Boston University, Boston, Massachusetts",
+          "coords": [
+            42.35,
+            -71.06
+          ],
+          "tag": "FIGURE",
+          "hint": "Rejected by roughly fifteen scientific journals before finally being published, Margulis's endosymbiotic theory proposed that mitochondria and chloroplasts began as free-living bacteria engulfed by a host cell — a claim treated as fringe speculation by most cell biologists for over a decade until molecular sequencing data vindicated it, after which Margulis became one of the most forceful advocates in modern biology for symbiosis, rather than only competition, as a major driver of evolutionary innovation.",
+          "note": "Sagan, L. (1967). 'On the Origin of Mitosis and Meiosis.' Journal of Theoretical Biology, 14(3), 225–274, published under her first married name before she remarried and published under Margulis for the rest of her career. Margulis remained a genuinely controversial figure even after endosymbiotic theory's vindication, continuing to champion more speculative extensions of symbiosis-driven evolution — including a minority, largely unaccepted view questioning the strength of neo-Darwinian gradualism — that drew substantially more scientific pushback than her original, now-textbook contribution.",
+          "links": [
+            "th1"
+          ],
+          "keywords": [
+            "endosymbiotic theory proponent",
+            "repeated journal rejection",
+            "symbiosis evolutionary driver"
+          ]
+        }
+      ]
     },
     {
       "id": "debate",
