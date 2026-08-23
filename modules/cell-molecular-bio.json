@@ -15,10 +15,10 @@
   "mapZoom": 3,
   "methodology": "METHODOLOGY · Every entry anchors to a landmark study, paper, clinical case or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags replication status, effect-size revisions and known controversies. Studies and effects carry a replicability badge — 🟢 robust · 🟡 nuanced or reduced · 🔴 failed or severely contested. Map pins mark the institution where the work was carried out.",
   "_meta": {
-    "total_entries": 73,
+    "total_entries": 74,
     "entry_counts": {
       "theory": 10,
-      "study": 11,
+      "study": 12,
       "effect": 10,
       "concept": 8,
       "method": 7,
@@ -28,7 +28,7 @@
     },
     "max_ids": {
       "th": 10,
-      "st": 11,
+      "st": 12,
       "ef": 10,
       "co": 8,
       "me": 7,
@@ -46,7 +46,7 @@
       "Pioneers & Theorists",
       "Protein Structure, Folding & Enzymology"
     ],
-    "last_updated": "2026-07-10"
+    "last_updated": "2026-08-23"
   },
   "_index": {
     "th1": "theory · DNA, RNA & the Central Dogma · The Central Dogma of Molecular Biology (1958)",
@@ -70,6 +70,7 @@
     "st9": "study · Gene Expression & Regulation · The Discovery of RNA Interference (1998)",
     "st10": "study · Genetic Engineering & Molecular Techniques · CRISPR-Cas9 as a Programmable Editing Tool (2012)",
     "st11": "study · Cell Cycle & Molecular Control · The Discovery of Telomerase (1985)",
+    "st12": "study · Genetic Engineering & Molecular Techniques · Personalized In Vivo Base Editing for KJ Muldoon (2025)",
     "ef1": "effect · Gene Expression & Regulation · Alternative Splicing (1977)",
     "ef2": "effect · Gene Expression & Regulation · X-Inactivation (Lyonization) (1961)",
     "ef3": "effect · Gene Expression & Regulation · Genomic Imprinting (1984)",
@@ -620,7 +621,8 @@
             "me7",
             "fg9",
             "db3",
-            "ap1"
+            "ap1",
+            "st12"
           ],
           "keywords": [
             "doudna charpentier crispr",
@@ -656,6 +658,31 @@
             "telomere terminal transferase",
             "tetrahymena telomerase discovery",
             "chromosome end replication enzyme"
+          ]
+        },
+        {
+          "id": "st12",
+          "group": "Genetic Engineering & Molecular Techniques",
+          "label": "Personalized In Vivo Base Editing for KJ Muldoon",
+          "date": "2025",
+          "loc": "Children's Hospital of Philadelphia, Philadelphia, Pennsylvania",
+          "coords": [
+            39.95,
+            -75.16
+          ],
+          "tag": "CASE STUDY",
+          "repl": "mixed",
+          "hint": "An infant born with a life-threatening urea-cycle disorder, unable to safely digest protein, received a gene-editing therapy designed, manufactured and dosed specifically for his own unique mutation within about six months of diagnosis — not an approved, mass-manufactured drug like Casgevy (see ap1), but a single-patient, custom-built base editor delivered directly into his liver via lipid nanoparticles, correcting the faulty DNA letter in place rather than cutting and replacing the gene.",
+          "note": "Musunuru, K., Ahrens-Nicklas, R.C. et al. (2025). 'Patient-Specific In Vivo Gene Editing to Treat a Rare Genetic Disease.' New England Journal of Medicine. Published online 15 May 2025 (DOI: 10.1056/NEJMoa2504747). Two doses, given at six and seven months of age, measurably reduced the infant's ammonia-lowering medication needs and let him tolerate more dietary protein; as a single treated patient, the result is a genuine, well-documented clinical success but not yet evidence the same rapid bespoke-manufacturing pipeline will generalise efficiently to other ultra-rare mutations. The case is most significant for demonstrating that a custom therapy can be designed and deployed fast enough to treat a disease too individually rare to ever justify a conventional drug-approval pathway.",
+          "links": [
+            "ap1",
+            "st10"
+          ],
+          "keywords": [
+            "personalized base editing",
+            "n of 1 gene therapy",
+            "cps1 deficiency treatment",
+            "bespoke crispr manufacturing"
           ]
         }
       ]
@@ -1761,7 +1788,8 @@
           "hint": "Patients with sickle cell disease or beta-thalassaemia can have their own blood stem cells removed, CRISPR-edited to reactivate a fetal form of haemoglobin that compensates for their faulty adult haemoglobin, and reinfused — the first CRISPR-based therapy to reach approval, turning a debilitating inherited blood disorder into, for many patients, a functional cure rather than a lifelong condition to be managed.",
           "note": "Frangoul, H., Altshuler, D., Cappellini, M.D., et al. (2021). 'CRISPR-Cas9 Gene Editing for Sickle Cell Disease and β-Thalassemia.' New England Journal of Medicine, 384(3), 252–260 — the pivotal trial behind exagamglogene autotemcel (Casgevy), approved in 2023. This is somatic (non-heritable) editing of a patient's own cells, not the heritable germline editing at the centre of db3's controversy.",
           "links": [
-            "st10"
+            "st10",
+            "st12"
           ],
           "keywords": [
             "crispr gene therapy approval",
@@ -1965,6 +1993,11 @@
           "y": 2012,
           "l": "CRISPR-Cas9 programmable editing",
           "entryId": "st10"
+        },
+        {
+          "y": 2025,
+          "l": "Personalized In Vivo Base Editing",
+          "entryId": "st12"
         }
       ]
     },
