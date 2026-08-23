@@ -302,11 +302,14 @@
             8.68
           ],
           "tag": "THEORY",
-          "hint": "A chemical compound can be found, or deliberately designed, that binds tightly enough to a structure unique to a disease-causing microbe to kill it while leaving the patient's own cells almost entirely unharmed — the foundational assumption behind every antimicrobial drug developed since, and a genuinely new idea at the time, since most chemicals toxic enough to kill a pathogen were assumed to be similarly toxic to the patient carrying it.",
-          "note": "Ehrlich, P. & Hata, S. (1910). 'Die experimentelle Chemotherapie der Spirillosen.' Springer, Berlin, reporting compound 606 (arsphenamine, marketed as Salvarsan), the first systematically screened synthetic antimicrobial, effective against the syphilis spirochete. Ehrlich had coined the term 'Zauberkugel' (magic bullet) for the underlying concept as early as 1900 and shared the 1908 Nobel Prize in Physiology or Medicine for related immunological work; selective toxicity remains the organising principle behind rational antibiotic design, including the peptidoglycan-targeting mechanism of penicillin (see co3).",
+          "hint": "A chemical compound can be found, or deliberately designed, that binds tightly enough to a structure unique to a disease-causing microbe to kill it while leaving the patient's own cells almost entirely unharmed — a principle whose real payoff came a generation later, once microbiologists identified specific structural targets, such as the bacterial peptidoglycan wall, that have no human counterpart at all, letting a drug be selective by simple biochemical absence rather than by fine-tuned binding affinity alone.",
+          "note": "Ehrlich, P. & Hata, S. (1910). 'Die experimentelle Chemotherapie der Spirillosen.' Springer, Berlin, reporting compound 606 (arsphenamine, marketed as Salvarsan) — see pathology-immunology::fg3 for Ehrlich's founding 'magic bullet' work itself. The principle's clearest modern instance is the bacterial cell wall: because human cells have no peptidoglycan at all, a drug that jams peptidoglycan synthesis (see co3) achieves selective toxicity by targeting a structure absent from the host entirely, a cleaner solution than Ehrlich's own arsenic-based compound, which still carried meaningful toxicity risk to patients.",
           "links": [
-            "ap1",
-            "co3"
+            "co3",
+            "ap1"
+          ],
+          "xlinks": [
+            "pathology-immunology::fg3"
           ],
           "keywords": [
             "selective toxicity principle",
