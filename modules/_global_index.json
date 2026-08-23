@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 2078,
+    "total_entries": 2079,
     "folio_count": 27,
     "xlink_pairs": 141,
-    "keyword_terms": 7403,
+    "keyword_terms": 7407,
     "folios": [
       {
         "id": "anatomy-histology",
@@ -108,7 +108,7 @@
       {
         "id": "physiology-organ-systems",
         "title": "Physiology & Organ Systems",
-        "entries": 87
+        "entries": 88
       },
       {
         "id": "pure-mathematics",
@@ -1715,6 +1715,7 @@
     "physiology-organ-systems::ef9": "effect · Homeostasis & Integration · Cushing Reflex (1901)",
     "physiology-organ-systems::ef10": "effect · Cardiovascular & Blood Physiology · Valsalva Manoeuvre Phases (1704)",
     "physiology-organ-systems::ef11": "effect · Gastrointestinal Physiology · Gut Bacterial Vitamin Synthesis (1959)",
+    "physiology-organ-systems::ef12": "effect · Gastrointestinal Physiology · Vitamin D–Gut Microbiome Bidirectional Regulation (2008)",
     "physiology-organ-systems::co1": "concept · Cell & Membrane Physiology · Action Potential (1902)",
     "physiology-organ-systems::co2": "concept · Cell & Membrane Physiology · Resting Membrane Potential (1949)",
     "physiology-organ-systems::co3": "concept · Cardiovascular & Blood Physiology · Cardiac Output and Its Determinants (1628)",
@@ -11731,6 +11732,12 @@
       "vitamin b12 absorption paradox",
       "colonic vitamin k absorption",
       "microbial corrinoid cross feeding"
+    ],
+    "physiology-organ-systems::ef12": [
+      "vitamin d receptor gut barrier",
+      "short chain fatty acid signalling",
+      "microbiome dysbiosis colitis",
+      "butyrate vitamin d receptor upregulation"
     ],
     "physiology-organ-systems::co1": [
       "membrane depolarisation",
@@ -31342,6 +31349,18 @@
     ],
     "microbial corrinoid cross feeding": [
       "physiology-organ-systems::ef11"
+    ],
+    "vitamin d receptor gut barrier": [
+      "physiology-organ-systems::ef12"
+    ],
+    "short chain fatty acid signalling": [
+      "physiology-organ-systems::ef12"
+    ],
+    "microbiome dysbiosis colitis": [
+      "physiology-organ-systems::ef12"
+    ],
+    "butyrate vitamin d receptor upregulation": [
+      "physiology-organ-systems::ef12"
     ],
     "sodium influx": [
       "physiology-organ-systems::co1"

@@ -15,11 +15,11 @@
   "mapZoom": 3,
   "methodology": "METHODOLOGY · Every entry anchors to a landmark study, paper, clinical case or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags replication status, effect-size revisions and known controversies. Studies and effects carry a replicability badge — 🟢 robust · 🟡 nuanced or reduced · 🔴 failed or severely contested. Map pins mark the institution where the work was carried out.",
   "_meta": {
-    "total_entries": 87,
+    "total_entries": 88,
     "entry_counts": {
       "theory": 10,
       "study": 12,
-      "effect": 11,
+      "effect": 12,
       "concept": 17,
       "method": 6,
       "figure": 16,
@@ -29,7 +29,7 @@
     "max_ids": {
       "th": 10,
       "st": 12,
-      "ef": 11,
+      "ef": 12,
       "co": 17,
       "me": 6,
       "fg": 16,
@@ -82,6 +82,7 @@
     "ef9": "effect · Homeostasis & Integration · Cushing Reflex (1901)",
     "ef10": "effect · Cardiovascular & Blood Physiology · Valsalva Manoeuvre Phases (1704)",
     "ef11": "effect · Gastrointestinal Physiology · Gut Bacterial Vitamin Synthesis (1959)",
+    "ef12": "effect · Gastrointestinal Physiology · Vitamin D–Gut Microbiome Bidirectional Regulation (2008)",
     "co1": "concept · Cell & Membrane Physiology · Action Potential (1902)",
     "co2": "concept · Cell & Membrane Physiology · Resting Membrane Potential (1949)",
     "co3": "concept · Cardiovascular & Blood Physiology · Cardiac Output and Its Determinants (1628)",
@@ -1069,13 +1070,38 @@
           "hint": "Bacteria resident in the large intestine synthesise vitamin K2 (menaquinones) and most B-complex vitamins — biotin, folate, riboflavin, thiamine, pyridoxine, pantothenic acid, and cobalamin — as ordinary byproducts of their own metabolism, with specialised colon-lining cells absorbing several of these directly from the gut lumen; but the arrangement is imperfect, since absorbing B12 requires a specific receptor found only much further upstream in the small intestine, leaving most bacterially-made B12 unable to reach the bloodstream at all, and most of the bacteria doing the producing cannot even build the vitamin from scratch themselves, instead trading half-finished precursor molecules with neighbouring species in an interdependent microbial supply chain.",
           "note": "Gustafsson, B.E. (1959). 'Vitamin K Deficiency in Germfree Rats.' Annals of the New York Academy of Sciences, 78, 166–174, using the sustained germ-free (gnotobiotic) rat colonies he had established in Sweden in 1946, showed that rats raised entirely without gut microbes needed far more dietary vitamin K to avoid deficiency than conventionally-raised rats — direct proof the missing bacteria had normally been supplying it. LeBlanc, J.G., Milani, C., de Giori, G.S., Sesma, F., van Sinderen, D. & Ventura, M. (2013). 'Bacteria as vitamin suppliers to their host: a gut microbiota perspective.' Current Opinion in Biotechnology, 24(2), 160–168, catalogued the modern list of bacterially-synthesised B-vitamins and their colonic absorption routes. Most gut bacteria, however, cannot synthesise cobalamin (B12) from scratch and instead scavenge partial corrinoid building blocks traded between species — Akkermansia muciniphila and Eubacterium hallii, for instance, exchange a fermentation byproduct for a corrinoid precursor in a documented two-way cross-feeding partnership (Degnan, P.H., Taga, M.E. & Goodman, A.L. 2014, Cell Metabolism, 20(5), 769–778) — a microbial supply chain largely wasted on the host, since most colonic B12 is produced downstream of the ileal receptor required for its absorption.",
           "links": [
-            "co12"
+            "co12",
+            "ef12"
           ],
           "keywords": [
             "gut bacterial vitamin synthesis",
             "vitamin b12 absorption paradox",
             "colonic vitamin k absorption",
             "microbial corrinoid cross feeding"
+          ]
+        },
+        {
+          "id": "ef12",
+          "group": "Gastrointestinal Physiology",
+          "label": "Vitamin D–Gut Microbiome Bidirectional Regulation",
+          "date": "2008",
+          "loc": "University of Chicago, Chicago, Illinois",
+          "coords": [
+            41.79,
+            -87.6
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Vitamin D and the gut microbiome regulate each other in both directions, through a pathway unrelated to bacterial vitamin production: the vitamin D receptor (VDR), expressed on the gut's own epithelial and immune cells rather than by any bacterium, maintains the tight junctions holding the intestinal barrier together and helps keep the immune response to resident microbes in check, so that mice bred without a working VDR develop a leaky gut, an abnormal bacterial community, and severe colitis; running the other way, short-chain fatty acids such as butyrate, produced when gut bacteria ferment dietary fibre, in turn switch on higher VDR expression in colon cells, so the bacterial community partly controls its own regulator's abundance.",
+          "note": "Kong, J., Zhang, Z., Musch, M.W., Ning, G., Sun, J., Hart, J., Bissonnette, M. & Li, Y.C. (2008). 'Novel Role of the Vitamin D Receptor in Maintaining the Integrity of the Intestinal Mucosal Barrier.' American Journal of Physiology-Gastrointestinal and Liver Physiology, 294(1), G208–G216, showed VDR-knockout mice suffer disrupted epithelial junctions and severe, often fatal colitis under chemical challenge that wild-type mice largely resist. Ooi, J.H., Li, Y., Rogers, C.J. & Cantorna, M.T. (2013). 'Vitamin D Regulates the Gut Microbiome and Protects Mice from Dextran Sodium Sulfate-Induced Colitis.' The Journal of Nutrition, 143(10), 1679–1686, extended this to show VDR or active-vitamin-D deficiency itself measurably shifts gut bacterial community composition, not merely barrier integrity. The reverse regulatory link was demonstrated earlier by Gaschott, T. & Stein, J. (2003). 'Short-Chain Fatty Acids and Colon Cancer Cells: The Vitamin D Receptor-Butyrate Connection.' Recent Results in Cancer Research, 164, 247–257, who found butyrate upregulates VDR expression and nuclear activity in colon cells. Unlike bacterial vitamin K and B-vitamin synthesis (see ef11), gut bacteria neither make vitamin D nor express VDR themselves; the relationship is one of mutual regulation via host immune and epithelial signalling, not microbial biosynthesis.",
+          "links": [
+            "ef11"
+          ],
+          "keywords": [
+            "vitamin d receptor gut barrier",
+            "short chain fatty acid signalling",
+            "microbiome dysbiosis colitis",
+            "butyrate vitamin d receptor upregulation"
           ]
         }
       ]
@@ -2685,6 +2711,11 @@
           "y": 1959,
           "l": "Gut Bacterial Vitamin Synthesis",
           "entryId": "ef11"
+        },
+        {
+          "y": 2008,
+          "l": "Vitamin D–Gut Microbiome Regulation",
+          "entryId": "ef12"
         }
       ]
     },
