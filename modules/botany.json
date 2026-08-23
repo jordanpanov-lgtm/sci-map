@@ -504,7 +504,201 @@
       "accent": "#117A65",
       "bg": "#F0FFF6",
       "subtitle": "Named, replicable patterns in plant structure and behaviour",
-      "entries": []
+      "entries": [
+        {
+          "id": "ef1",
+          "group": "Plant Growth & Hormonal Signaling",
+          "label": "Gravitropism",
+          "date": "1806",
+          "loc": "Downton Castle, Herefordshire, England",
+          "coords": [
+            52.31,
+            -2.79
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Plant roots reliably grow toward the pull of gravity and shoots reliably grow against it, regardless of which way the seed itself happens to be oriented when it germinates — a directional response so robust that spinning germinating seeds on a rotating wheel, cancelling gravity's directional pull with continuous centrifugal force, causes roots and shoots to grow toward and away from the wheel's centre instead, proving the response tracks whatever net directional force is present, not gravity specifically as some innate compass sense.",
+          "note": "Knight, T.A. (1806). 'On the Direction of the Radicle and Germen during the Vegetation of Seeds.' Philosophical Transactions of the Royal Society of London, 96, 99–108, used a water-wheel spinning germinating seeds at 150 revolutions per minute to substitute centrifugal force for gravity. The cellular mechanism — dense starch-filled organelles called statoliths settling under gravity inside specialised root-cap cells — was not identified until nearly a century later, but Knight's experiment had already established the response was mechanical rather than mystical.",
+          "links": [],
+          "keywords": [
+            "gravity directional growth response",
+            "centrifuge seed experiment",
+            "statolith sedimentation mechanism"
+          ]
+        },
+        {
+          "id": "ef2",
+          "group": "Photosynthesis & Plant Biochemistry",
+          "label": "C4 Photosynthesis",
+          "date": "1966",
+          "loc": "Brisbane, Queensland, Australia",
+          "coords": [
+            -27.47,
+            153.03
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Some plants, especially those adapted to hot, bright, water-limited conditions, run an extra biochemical step before the Calvin cycle: they first fix carbon dioxide into a four-carbon compound in outer leaf cells, then shuttle that compound into specialised inner bundle-sheath cells where it releases a concentrated burst of CO2 right where the Calvin cycle needs it — a biochemical CO2 pump that lets these plants keep their stomata more closed, losing far less water, while still supplying enough carbon dioxide to photosynthesise efficiently.",
+          "note": "Hatch, M.D. & Slack, C.R. (1966). 'Photosynthesis by Sugar-Cane Leaves.' Biochemical Journal, 101(1), 103–116, worked out the pathway in sugarcane. C4 photosynthesis is now known to have evolved independently over sixty separate times across flowering plant lineages (see db1), and depends on a distinctive leaf anatomy, Kranz anatomy, in which bundle-sheath cells form a visible ring around each leaf vein.",
+          "links": [
+            "db1"
+          ],
+          "keywords": [
+            "c4 carbon concentration pump",
+            "kranz anatomy leaf structure",
+            "water efficient photosynthesis"
+          ]
+        },
+        {
+          "id": "ef3",
+          "group": "Photosynthesis & Plant Biochemistry",
+          "label": "Crassulacean Acid Metabolism (CAM)",
+          "date": "1978",
+          "loc": "Canberra, Australian Capital Territory, Australia",
+          "coords": [
+            -35.28,
+            149.13
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Many succulent, drought-adapted plants run photosynthesis's two halves at opposite times of day: stomata open only at night, when the air is cooler and more humid, to take in and store carbon dioxide as an acid, then close completely during the heat of the day while the stored acid is broken back down to release CO2 for the Calvin cycle to run behind sealed stomata — trading some efficiency for a dramatic reduction in daytime water loss.",
+          "note": "Osmond, C.B. (1978). 'Crassulacean Acid Metabolism: A Curiosity in Context.' Annual Review of Plant Physiology, 29, 379–414, established the now-standard four-phase model of CAM's daily cycle. Named for the stonecrop family Crassulaceae, in which the overnight acid buildup was first chemically documented in the early nineteenth century, CAM is now known across roughly 6% of vascular plant species, including cacti, agaves, orchids and pineapple.",
+          "links": [],
+          "keywords": [
+            "nocturnal stomatal opening",
+            "overnight acid storage",
+            "drought adapted photosynthesis"
+          ]
+        },
+        {
+          "id": "ef4",
+          "group": "Plant Reproduction & Pollination",
+          "label": "Smoke-Induced Seed Germination",
+          "date": "2004",
+          "loc": "University of Western Australia, Perth, Western Australia",
+          "coords": [
+            -31.98,
+            115.82
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Seeds of many fire-adapted plant species will not germinate at all under ordinary conditions, remaining dormant in the soil for years until direct exposure to wildfire smoke — or even just water that smoke has passed through — triggers germination, a chemical fire-detection system that ensures seedlings emerge only after a fire has cleared competing vegetation and released a pulse of nutrients into the ash-enriched soil.",
+          "note": "Flematti, G.R., Ghisalberti, E.L., Dixon, K.W. & Trengove, R.D. (2004). 'A Compound from Smoke that Promotes Seed Germination.' Science, 305(5686), 977, isolated and identified karrikinolide (KAR1), the active butenolide compound in smoke responsible for the effect, named from the Aboriginal Noongar word for smoke. Karrikin receptors have since been found to be evolutionarily related to the plant's own strigolactone hormone signalling pathway, suggesting fire-response germination co-opted an older internal signalling system.",
+          "links": [],
+          "keywords": [
+            "karrikin smoke compound",
+            "fire adapted seed dormancy",
+            "post fire germination trigger"
+          ]
+        },
+        {
+          "id": "ef5",
+          "group": "Plant Ecology & Symbiosis",
+          "label": "Allelopathy",
+          "date": "1925",
+          "loc": "Virginia Polytechnic Institute, Blacksburg, Virginia",
+          "coords": [
+            37.23,
+            -80.42
+          ],
+          "tag": "PHENOMENON",
+          "repl": "mixed",
+          "hint": "Some plants actively suppress the growth of nearby competing vegetation by releasing chemical compounds into the surrounding soil, water, or air — most famously black walnut trees, whose roots leak a compound toxic to many other plant species, creating a visible zone of bare or stunted ground beneath the canopy where tomatoes, apples, and many other plants simply fail to thrive.",
+          "note": "Massey, A.B. (1925). 'Antagonism of the Walnuts (Juglans nigra L. and J. cinerea L.) in Certain Plant Associations.' Phytopathology, 15, 773–784, documented the black walnut effect and traced it to a compound later identified as juglone. Allelopathy remains genuinely harder to demonstrate rigorously than it might first appear, since field observations of one species failing to grow near another can also be explained by competition for light, water, or nutrients rather than active chemical suppression — controlled studies isolating the chemical mechanism specifically are needed case by case.",
+          "links": [],
+          "keywords": [
+            "juglone chemical suppression",
+            "black walnut growth inhibition",
+            "plant chemical competition"
+          ]
+        },
+        {
+          "id": "ef6",
+          "group": "Plant Growth & Hormonal Signaling",
+          "label": "Heliotropism",
+          "date": "2016",
+          "loc": "University of California, Davis, California",
+          "coords": [
+            38.54,
+            -121.75
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Young sunflower heads track the sun's arc across the sky throughout the day, facing east at dawn and slowly swivelling to face west by evening, then reorienting back toward the east overnight ready for the next sunrise — a movement driven not by simple light-following alone but by an internal circadian clock that keeps the rhythm going for a day or two even if a plant is moved into constant light, and that stops entirely once the flower head matures and stops growing.",
+          "note": "Atamian, H.S. et al. (2016). 'Circadian Regulation of Sunflower Heliotropism, Floral Orientation, and Pollinator Visits.' Science, 353(6299), 587–590, showed the daily reorientation is driven by differential growth rates on the stem's east- and west-facing sides that reverse direction overnight, and that mature, sun-fixed east-facing flowers attract significantly more pollinator visits than experimentally reoriented ones, tying the movement directly to reproductive success.",
+          "links": [],
+          "keywords": [
+            "sunflower solar tracking",
+            "circadian growth reversal",
+            "pollinator visitation orientation"
+          ]
+        },
+        {
+          "id": "ef7",
+          "group": "Plant Growth & Hormonal Signaling",
+          "label": "Rapid Nastic Movement",
+          "date": "1916",
+          "loc": "Bologna, Italy",
+          "coords": [
+            44.49,
+            11.34
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Touch a leaf of the sensitive plant Mimosa pudica and it folds shut within about a second — far too fast to be ordinary growth — because specialised motor cells at the base of each leaflet, called pulvini, rapidly and reversibly pump ions and water out of themselves, collapsing their own internal pressure on cue from an electrical signal that propagates through the plant much like a nerve impulse, even though the plant has no nerves at all.",
+          "note": "Ricca, U. (1916). 'Soluzione d'un Problema di Fisiologia: La Propagazione di Stimulo nella Mimosa.' Nuovo Giornale Botanico Italiano, 23, 51–170, demonstrated the stimulus itself propagates along the plant, later shown to be an electrical action potential closely analogous in behaviour, though not in molecular mechanism, to the action potentials found in animal nerve cells. The rapid loss of turgor pressure in the pulvinus, rather than any actual muscle-like contraction, drives the visible collapse.",
+          "links": [],
+          "keywords": [
+            "mimosa pudica leaf folding",
+            "pulvinus turgor collapse",
+            "plant electrical signal propagation"
+          ]
+        },
+        {
+          "id": "ef8",
+          "group": "Plant Genetics & Classical Heredity",
+          "label": "Vernalization",
+          "date": "1918",
+          "loc": "Munich, Germany",
+          "coords": [
+            48.14,
+            11.58
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Many plant species, particularly winter cereals, will not flower no matter how favourable the growing conditions until they have first experienced an extended period of cold — weeks of near-freezing temperatures the plant effectively 'remembers' as evidence that winter has already passed, ensuring the plant flowers safely in spring rather than risking flower buds forming just before a hard frost destroys them.",
+          "note": "Gassner, G. (1918). 'Beiträge zur physiologischen Charakteristik sommer- und winterannueller Gewächse, insbesondere der Getreidepflanzen.' Zeitschrift für Botanik, 10, 417–480, rigorously distinguished winter- and summer-annual cereal varieties by their cold requirement. The molecular basis was not understood for nearly a century afterward: cold exposure epigenetically silences a floral repressor gene (FLC in Arabidopsis) through chromatin modification, a silencing that is then erased again each generation so every new plant must experience winter itself (see db4 for the phenomenon's politically fraught history).",
+          "links": [
+            "db4"
+          ],
+          "keywords": [
+            "cold requirement flowering",
+            "winter memory epigenetic silencing",
+            "flc gene repression"
+          ]
+        },
+        {
+          "id": "ef9",
+          "group": "Plant Ecology & Symbiosis",
+          "label": "Mast Seeding",
+          "date": "1994",
+          "loc": "University of Canterbury, Christchurch, New Zealand",
+          "coords": [
+            -43.52,
+            172.58
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Many long-lived tree species, including oaks and beeches, do not produce a steady seed crop year after year — instead, an entire population across a whole region will synchronise into occasional, spectacular 'mast years' of enormous seed production, separated by several years of little to no seed at all, a boom-and-bust pattern thought to work by periodically overwhelming seed-eating animals with more food than they can possibly consume, ensuring at least some seeds survive to germinate.",
+          "note": "Kelly, D. (1994). 'The Evolutionary Ecology of Mast Seeding.' Trends in Ecology & Evolution, 9(12), 465–470, reviewed the competing hypotheses for masting's evolutionary function, favouring predator satiation and pollination efficiency over simple resource accumulation as the primary drivers. Regional synchrony across mast events, sometimes spanning hundreds of kilometres, appears to be cued by shared weather signals such as an unusually warm summer, letting geographically separate trees coordinate without any direct communication between them.",
+          "links": [],
+          "keywords": [
+            "synchronized seed production",
+            "predator satiation strategy",
+            "masting weather cue synchrony"
+          ]
+        }
+      ]
     },
     {
       "id": "concept",
@@ -514,7 +708,156 @@
       "accent": "#566573",
       "bg": "#F5F6FA",
       "subtitle": "The building blocks and vocabulary every student must command",
-      "entries": []
+      "entries": [
+        {
+          "id": "co1",
+          "group": "Plant Anatomy & Vascular Structure",
+          "label": "Stomatal Gas Exchange and Guard Cells",
+          "date": "1968",
+          "loc": "University of California, Davis, California",
+          "coords": [
+            38.54,
+            -121.75
+          ],
+          "tag": "CONCEPT",
+          "hint": "A leaf's surface is dotted with thousands of tiny pores, each flanked by a pair of specialised guard cells that can actively swell or shrink to open or close the pore in response to light, humidity, and internal carbon dioxide levels — the plant's only real control valve for balancing two directly competing needs, letting in CO2 for photosynthesis while limiting the water vapour that inevitably escapes through the same open pore.",
+          "note": "Fischer, R.A. (1968). 'Stomatal Opening: Role of Potassium Uptake by Guard Cells.' Science, 160(3829), 784–785, identified active potassium ion transport into guard cells as the osmotic driver of stomatal opening, a finding that reframed stomatal movement from a passive mechanical response into an actively regulated ion-transport process. Guard cells integrate multiple simultaneous signals — blue light, CO2 concentration, and the stress hormone abscisic acid among them — making stomatal aperture one of the most tightly regulated single-cell decisions in the plant.",
+          "links": [],
+          "keywords": [
+            "guard cell potassium transport",
+            "stomatal pore regulation",
+            "gas exchange water loss tradeoff"
+          ]
+        },
+        {
+          "id": "co2",
+          "group": "Plant Anatomy & Vascular Structure",
+          "label": "Xylem and Phloem: The Plant Vascular System",
+          "date": "1675",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "CONCEPT",
+          "hint": "Vascular plants run two structurally and functionally distinct transport systems side by side: xylem, made of dead, hollow, lignified cells forming a continuous one-way pipeline that carries water and dissolved minerals upward from root to leaf under tension, and phloem, made of living cells that carry sugars in either direction depending on where they're needed, from source tissues that produce them to sink tissues that consume or store them.",
+          "note": "Malpighi, M. (1675). Anatome Plantarum. London: Royal Society, among the first systematic microscopic descriptions of plant internal vascular structure, alongside Nehemiah Grew's closely contemporaneous work. The mechanisms driving flow through each system were only worked out roughly two and a half centuries later — the cohesion-tension theory for xylem (see th3) and the pressure-flow hypothesis for phloem (see th4) — but the basic structural distinction between the two tissue types was already established by the late seventeenth century.",
+          "links": [
+            "th3",
+            "th4"
+          ],
+          "keywords": [
+            "xylem phloem dual transport",
+            "dead versus living conducting tissue",
+            "vascular tissue microscopy"
+          ]
+        },
+        {
+          "id": "co3",
+          "group": "Plant Diversity & Evolutionary History",
+          "label": "Alternation of Generations",
+          "date": "1851",
+          "loc": "Leipzig, Germany",
+          "coords": [
+            51.34,
+            12.37
+          ],
+          "tag": "CONCEPT",
+          "hint": "Every plant life cycle alternates between two genuinely distinct multicellular body forms: a haploid gametophyte generation that produces sex cells directly, and a diploid sporophyte generation that produces spores through cell division that halves the chromosome number — with the balance between the two generations shifting dramatically across plant evolution, from mosses whose visible green form is almost entirely gametophyte, to flowering plants whose visible form is almost entirely sporophyte, with the gametophyte reduced to a few cells hidden inside the flower.",
+          "note": "Hofmeister, W. (1851). Vergleichende Untersuchungen der Keimung, Entfaltung und Fruchtbildung höherer Kryptogamen. Leipzig: Friedrich Hofmeister, working without any knowledge of chromosomes, correctly deduced the alternating pattern purely from careful comparative microscopy of developmental stages across mosses, ferns, and conifers — a conceptual framework later fully explained once meiosis and fertilisation were understood at the chromosomal level.",
+          "links": [],
+          "keywords": [
+            "haploid diploid generation cycle",
+            "gametophyte sporophyte alternation",
+            "comparative plant development"
+          ]
+        },
+        {
+          "id": "co4",
+          "group": "Plant Anatomy & Vascular Structure",
+          "label": "Plant Cell Wall Composition",
+          "date": "1937",
+          "loc": "Geneva, Switzerland",
+          "coords": [
+            46.2,
+            6.15
+          ],
+          "tag": "CONCEPT",
+          "hint": "What gives a plant cell its rigid shape and lets a tree stand upright without a skeleton is a wall built almost entirely outside the cell membrane, dominated by cellulose — long, straight glucose-chain molecules bundled into crystalline microfibrils tough enough that they resist chemical breakdown by nearly everything except a small set of specialised digestive enzymes — reinforced in woody tissue by lignin, a separate, rigid, water-repelling polymer that fills the remaining gaps and makes wood possible at all.",
+          "note": "Meyer, K.H. & Misch, L. (1937). 'Positions des Atomes dans le Nouveau Modèle Spatial de la Cellulose.' Helvetica Chimica Acta, 20(1), 232–244, worked out cellulose's crystalline molecular structure using X-ray diffraction. Cellulose is now understood to be the most abundant organic polymer on Earth, and the specific, difficult-to-digest crystalline packing that makes plant cell walls structurally strong is the same property that makes cellulose largely indigestible to most animals without specialised gut microbes.",
+          "links": [],
+          "keywords": [
+            "cellulose crystalline microfibril",
+            "lignin structural reinforcement",
+            "cell wall rigidity mechanism"
+          ]
+        },
+        {
+          "id": "co5",
+          "group": "Plant Ecology & Symbiosis",
+          "label": "Plant Secondary Metabolites as Defense",
+          "date": "1959",
+          "loc": "University of Illinois, Urbana, Illinois",
+          "coords": [
+            40.11,
+            -88.21
+          ],
+          "tag": "CONCEPT",
+          "hint": "The tens of thousands of chemically diverse compounds plants produce beyond the basic sugars, proteins, and fats required for growth — alkaloids, terpenes, phenolics, and more — were long dismissed as metabolic waste products with no real function; reframing them instead as evolved chemical weapons against herbivores and pathogens explained both why plants invest so much energy producing them and why the specific compounds a plant makes so often closely track which enemies attack it.",
+          "note": "Fraenkel, G.S. (1959). 'The Raison d'Être of Secondary Plant Substances.' Science, 129(3361), 1466–1470, argued explicitly against the prevailing 'metabolic waste' interpretation, framing chemical diversity as adaptive defence shaped by coevolution with herbivores (see co7) rather than physiological accident. Many of the same defensive compounds — caffeine, morphine, nicotine, quinine — have been independently exploited by humans as stimulants, medicines, and poisons, a direct legacy of their original defensive function against a much older set of animal antagonists.",
+          "links": [
+            "co7"
+          ],
+          "keywords": [
+            "secondary metabolite defense function",
+            "chemical diversity herbivore deterrent",
+            "plant toxin coevolution"
+          ]
+        },
+        {
+          "id": "co6",
+          "group": "Plant Genetics & Classical Heredity",
+          "label": "Polyploidy in Plant Evolution",
+          "date": "1917",
+          "loc": "Carlsberg Laboratory, Copenhagen, Denmark",
+          "coords": [
+            55.68,
+            12.57
+          ],
+          "tag": "CONCEPT",
+          "hint": "Whole-genome duplication — ending up with three, four, or more complete copies of every chromosome instead of the usual two — is often lethal or sterilising in animals, but is remarkably common and frequently successful in plants, where it can instantly create a new species reproductively isolated from its parents, restore fertility to an otherwise-sterile hybrid between two different species, and is directly responsible for many of the largest, most productive crop varieties humans cultivate today.",
+          "note": "Winge, Ø. (1917). 'The Chromosomes, Their Number and General Importance.' Comptes Rendus des Travaux du Laboratoire Carlsberg, 13, 131–275, proposed that hybridisation between two species followed by spontaneous chromosome doubling could restore fertile chromosome pairing in an otherwise sterile hybrid, explaining how polyploidy could drive rapid new-species formation. Modern genome sequencing suggests a very large fraction of flowering plant lineages, including bread wheat and cultivated cotton, carry the genomic fingerprints of one or more ancient polyploidy events in their history.",
+          "links": [],
+          "keywords": [
+            "whole genome duplication",
+            "hybrid fertility restoration",
+            "polyploid speciation mechanism"
+          ]
+        },
+        {
+          "id": "co7",
+          "group": "Plant Reproduction & Pollination",
+          "label": "Coevolution of Flowering Plants and Pollinators",
+          "date": "1964",
+          "loc": "Stanford University, Stanford, California",
+          "coords": [
+            37.43,
+            -122.17
+          ],
+          "tag": "CONCEPT",
+          "hint": "Flowering plants and their animal pollinators did not evolve independently of one another — a plant lineage that evolves a chemical defence against most herbivorous insects opens up an evolutionary opportunity for the rare insect lineage that evolves tolerance to that specific chemical, which can then specialise on that plant free of competition, driving both plant and insect into an escalating, reciprocal cycle of adaptation and counter-adaptation that neither could easily reverse alone.",
+          "note": "Ehrlich, P.R. & Raven, P.H. (1964). 'Butterflies and Plants: A Study in Coevolution.' Evolution, 18(4), 586–608, coined the term 'coevolution' itself while analysing patterns of host-plant specialisation across butterfly families and the defensive chemistry of the plants they feed on. The framework has since been extended well beyond butterflies to explain patterns across nearly every category of plant-pollinator and plant-herbivore relationship, including the specialised orchid-moth relationship Darwin had described a century earlier (see st10).",
+          "links": [
+            "st10",
+            "co5"
+          ],
+          "keywords": [
+            "coevolution term origin",
+            "reciprocal adaptation escalation",
+            "host plant chemical specialization"
+          ]
+        }
+      ]
     },
     {
       "id": "method",
