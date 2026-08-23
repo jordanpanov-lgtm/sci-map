@@ -585,7 +585,220 @@
       "accent": "#117A65",
       "bg": "#F0FFF6",
       "subtitle": "Named, replicable patterns in rock, land and tectonic behaviour",
-      "entries": []
+      "entries": [
+        {
+          "id": "ef1",
+          "group": "Seismology & Earthquake Science",
+          "label": "Liquefaction",
+          "date": "1964",
+          "loc": "Niigata, Japan",
+          "coords": [
+            37.9,
+            139.02
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Loose, water-saturated sandy soil can temporarily lose almost all its strength during the violent shaking of an earthquake, as the shaking forces the sand grains to rearrange and the water between them takes on the pressure the grains normally bear — briefly turning solid ground into something closer to a dense liquid, capable of making buried pipes float upward, buildings sink or tip over intact, and level ground flow sideways even on very gentle slopes.",
+          "note": "The 1964 Niigata earthquake in Japan produced some of the most striking documented liquefaction, including apartment buildings that tipped over up to 80 degrees while remaining structurally intact, since the whole building simply rotated as the ground beneath it briefly behaved like a liquid. Liquefaction hazard mapping, based on soil type and groundwater depth, is now a standard part of earthquake risk assessment (see ap1) for construction on vulnerable ground.",
+          "links": [
+            "ap1"
+          ],
+          "keywords": [
+            "saturated soil liquefaction",
+            "earthquake ground failure",
+            "building tilt intact"
+          ]
+        },
+        {
+          "id": "ef2",
+          "group": "Mineralogy & Petrology",
+          "label": "Metamorphism",
+          "date": "1893",
+          "loc": "Scottish Highlands, Scotland",
+          "coords": [
+            57,
+            -4.5
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Existing rock can be transformed into an entirely different rock, without ever fully melting, when subjected to intense heat, pressure, or chemically active fluids deep within the crust — the original minerals recrystallise into new ones stable under the new conditions, arranging themselves into a predictable sequence of increasingly intense mineral zones as temperature and pressure increase, letting geologists map exactly how deeply buried and how intensely deformed a rock has been.",
+          "note": "Barrow, G. (1893). 'On an Intrusion of Muscovite-Biotite Gneiss in the South-Eastern Highlands of Scotland, and its Accompanying Metamorphism.' Quarterly Journal of the Geological Society, 49(1–4), 330–358, established the first systematic mapping of metamorphic zones ('Barrovian zones') based on index minerals. Metamorphism ranges from mild, low-grade alteration, such as shale transforming into slate, to intense, high-grade transformation, such as limestone transforming into marble or granite transforming into gneiss.",
+          "links": [
+            "th5",
+            "co1"
+          ],
+          "keywords": [
+            "mineral recrystallization zones",
+            "barrovian metamorphic sequence",
+            "heat pressure rock transformation"
+          ]
+        },
+        {
+          "id": "ef3",
+          "group": "Geomorphology & Surface Processes",
+          "label": "Isostatic Rebound",
+          "date": "1865",
+          "loc": "Aberdeen, Scotland",
+          "coords": [
+            57.15,
+            -2.09
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Land that was pressed down under the immense weight of kilometres-thick ice-age glaciers is still slowly rising back upward today, thousands of years after the ice melted away, as the underlying mantle rock — which flows only extremely slowly, like an extremely viscous fluid — continues gradually rebounding back toward its original, unloaded shape, a process still ongoing at a measurable few millimetres per year across parts of Scandinavia, Scotland, and Canada.",
+          "note": "Jamieson, T.F. (1865). 'On the History of the Last Geological Changes in Scotland.' Quarterly Journal of the Geological Society, 21(1–2), 161–203, first connected raised, ancient beach terraces well above current sea level to a land-uplift mechanism following deglaciation, directly applying isostasy theory (see th6) to a specific observed landscape. Parts of the Gulf of Bothnia between Sweden and Finland are rising at over 9 millimetres per year, among the fastest rates measured anywhere on Earth today.",
+          "links": [
+            "th6",
+            "st12"
+          ],
+          "keywords": [
+            "post glacial land uplift",
+            "raised beach terrace",
+            "mantle viscous rebound"
+          ]
+        },
+        {
+          "id": "ef4",
+          "group": "Geomorphology & Surface Processes",
+          "label": "Karst Topography",
+          "date": "1893",
+          "loc": "Belgrade, Serbia",
+          "coords": [
+            44.79,
+            20.45
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Soluble rock, especially limestone, slowly dissolves as slightly acidic rainwater and groundwater seep through cracks and fractures over thousands of years, gradually widening them into an interconnected underground network of caves, sinkholes, and disappearing streams — producing a distinctive landscape riddled with collapsed sinkholes, disappearing rivers, and elaborate cave systems, often with little or no surface drainage at all since most of the water has gone underground.",
+          "note": "Cvijić, J. (1893). Das Karstphänomen. Geographische Abhandlungen, based on fieldwork in the Balkan karst plateau region that gave the phenomenon its name. Karst landscapes cover roughly 10–20% of Earth's ice-free land surface and pose particular engineering and water-management challenges, since the underground drainage network can make groundwater contamination spread rapidly and unpredictably, and sinkhole collapse can occur with little surface warning.",
+          "links": [
+            "ef8"
+          ],
+          "keywords": [
+            "limestone dissolution landscape",
+            "sinkhole cave network",
+            "underground drainage system"
+          ]
+        },
+        {
+          "id": "ef5",
+          "group": "Volcanology",
+          "label": "Volcanic Lightning",
+          "date": "2000",
+          "loc": "Lancaster University, Lancaster, England",
+          "coords": [
+            54.01,
+            -2.79
+          ],
+          "tag": "PHENOMENON",
+          "repl": "mixed",
+          "hint": "Erupting volcanic plumes sometimes generate their own spectacular lightning storms, as ash particles, ice crystals, and rock fragments collide and rub against each other within the turbulent, rapidly rising ash column, building up separated electric charge in much the same basic way an ordinary thunderstorm does — except concentrated within a plume of ash and rock fragments instead of water droplets and ice.",
+          "note": "James, M.R., Lane, S.J. & Gilbert, J.S. (2000). 'Volcanic Plume Electrification: Experimental Investigation of a Fracture-Charging Mechanism.' Journal of Geophysical Research, 105(B7), 16641–16649, investigated fracturing rock fragments as one charge-generating mechanism, though multiple mechanisms — including ice formation high in the plume, similar to ordinary thunderstorms — likely contribute simultaneously and their relative importance for any given eruption remains only partially resolved.",
+          "links": [
+            "st9"
+          ],
+          "keywords": [
+            "ash plume electrification",
+            "volcanic ash lightning storm",
+            "charge separation mechanism"
+          ]
+        },
+        {
+          "id": "ef6",
+          "group": "Volcanology",
+          "label": "Subduction-Zone Volcanism",
+          "date": "1974",
+          "loc": "Australian National University, Canberra, Australia",
+          "coords": [
+            -35.28,
+            149.13
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Where one tectonic plate dives beneath another at a subduction zone, the descending plate carries water-bearing minerals down into the hot mantle, and the released water lowers the surrounding mantle rock's melting point enough to trigger partial melting — generating magma that rises to feed a curved chain of volcanoes, an 'arc,' running parallel to the trench a consistent distance inland, from the Andes to the Cascades to Japan.",
+          "note": "Ringwood, A.E. (1974). 'The Petrological Evolution of Island Arc Systems.' Journal of the Geological Society, 130(3), 183–204, established the water-flux dehydration-melting mechanism now standard for explaining arc magma generation. Because the released water makes arc magmas relatively viscous and gas-rich compared to magma from other tectonic settings, subduction-zone volcanoes tend to erupt more explosively than the comparatively gentle, fluid basaltic eruptions typical of hotspot or rift volcanism.",
+          "links": [
+            "th4",
+            "co8"
+          ],
+          "keywords": [
+            "water flux dehydration melting",
+            "volcanic arc chain",
+            "subduction magma generation"
+          ]
+        },
+        {
+          "id": "ef7",
+          "group": "Seismology & Earthquake Science",
+          "label": "Fault Creep",
+          "date": "1960",
+          "loc": "Hollister, California",
+          "coords": [
+            36.85,
+            -121.4
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Rather than remaining perfectly locked until it suddenly ruptures in an earthquake, some sections of some faults instead slip slowly, smoothly, and continuously, a few millimetres a year, gradually and harmlessly releasing accumulated strain without ever producing significant shaking — visibly offsetting curbs, building foundations, and fence lines built directly across the fault line over the course of years or decades, in a slow-motion, almost imperceptible version of the same rupture process that produces sudden earthquakes elsewhere.",
+          "note": "Steinbrugge, K.V. & Zacher, E.G. (1960). 'Creep on the San Andreas Fault.' Bulletin of the Seismological Society of America, 50(3), 389–396, documented ongoing creep visibly offsetting a winery building constructed directly across the fault in Hollister, California. Not every section of a fault creeps; the same fault can have creeping segments that release strain gradually and locked segments nearby that instead accumulate strain for decades before rupturing in a large earthquake (see th8).",
+          "links": [
+            "th8"
+          ],
+          "keywords": [
+            "aseismic slow fault slip",
+            "visible infrastructure offset",
+            "creeping versus locked segment"
+          ]
+        },
+        {
+          "id": "ef8",
+          "group": "Geomorphology & Surface Processes",
+          "label": "Chemical Weathering",
+          "date": "1938",
+          "loc": "University of Minnesota, Minneapolis, Minnesota",
+          "coords": [
+            44.97,
+            -93.24
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Rock minerals chemically react with water, dissolved carbon dioxide, and oxygen at Earth's surface, gradually breaking down into different, more chemically stable minerals and dissolved ions — and the minerals that crystallised first from cooling magma at the highest temperatures, deep underground, turn out to be the least chemically stable and weather away fastest once exposed at the surface, breaking down in almost exactly the reverse order of Bowen's Reaction Series (see th5).",
+          "note": "Goldich, S.S. (1938). 'A Study in Rock-Weathering.' The Journal of Geology, 46(1), 17–58, established the 'Goldich dissolution series' linking weathering rate to formation temperature. Chemical weathering also plays a major long-term role in Earth's carbon cycle, since the dissolution of silicate rock minerals consumes atmospheric carbon dioxide over geological timescales, acting as a slow natural thermostat that has helped regulate Earth's climate across hundreds of millions of years.",
+          "links": [
+            "th5",
+            "ef4"
+          ],
+          "keywords": [
+            "mineral dissolution stability order",
+            "goldich series weathering",
+            "silicate weathering carbon cycle"
+          ]
+        },
+        {
+          "id": "ef9",
+          "group": "Earth's Interior & Geophysics",
+          "label": "Magnetic Reversal",
+          "date": "1906",
+          "loc": "Clermont-Ferrand, France",
+          "coords": [
+            45.78,
+            3.09
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Earth's magnetic field has flipped its polarity — magnetic north and south swapping places — hundreds of times over Earth's history, at irregular intervals typically ranging from tens of thousands to millions of years, frozen permanently into the magnetic orientation of iron-bearing minerals within volcanic rock and ocean floor basalt at the moment each rock solidified, providing both a chronological record of past reversals and, via the seafloor's striped pattern (see st5), direct proof of seafloor spreading.",
+          "note": "Brunhes, B. (1906). 'Recherches sur la direction de l'aimantation des roches volcaniques.' Journal de Physique Théorique et Appliquée, 5, 705–724, first identified reversely magnetised lava flows in central France. The current normal-polarity period has lasted about 780,000 years since the last reversal; reversals themselves are not instantaneous, typically taking a few thousand years to complete, during which the field weakens substantially and becomes considerably more complex than the simple two-pole pattern of a stable period.",
+          "links": [
+            "th7",
+            "st5"
+          ],
+          "keywords": [
+            "geomagnetic polarity flip",
+            "reversed lava magnetization",
+            "irregular reversal interval"
+          ]
+        }
+      ]
     },
     {
       "id": "concept",
@@ -595,7 +808,187 @@
       "accent": "#566573",
       "bg": "#F5F6FA",
       "subtitle": "The building blocks and vocabulary every student must command",
-      "entries": []
+      "entries": [
+        {
+          "id": "co1",
+          "group": "Mineralogy & Petrology",
+          "label": "The Rock Cycle",
+          "date": "1882",
+          "loc": "Edinburgh, Scotland",
+          "coords": [
+            55.95,
+            -3.19
+          ],
+          "tag": "CONCEPT",
+          "hint": "Rock material is not fixed but continuously recycled through three fundamental rock types over geological time: molten magma cools into igneous rock, which weathers and erodes into sediment that compacts into sedimentary rock, which can be buried and transformed by heat and pressure into metamorphic rock, which can itself melt back into magma to begin the cycle again — with multiple possible shortcuts between any of the three types depending on what actually happens to a given piece of rock.",
+          "note": "Geikie, A. (1882). Textbook of Geology. Macmillan, among the first geology textbooks to systematically diagram the cyclical relationship between the three rock types as a unified framework. The cycle has no fixed starting point or required path — a sedimentary rock can be weathered directly into new sediment without ever being buried or melted, and the 'cycle' more accurately describes the full range of possible transformation pathways than any single, fixed sequence.",
+          "links": [
+            "th5",
+            "ef2"
+          ],
+          "keywords": [
+            "igneous sedimentary metamorphic transformation",
+            "geological material recycling",
+            "rock type interconversion pathway"
+          ]
+        },
+        {
+          "id": "co2",
+          "group": "Mineralogy & Petrology",
+          "label": "Mohs Hardness Scale",
+          "date": "1812",
+          "loc": "Vienna, Austria",
+          "coords": [
+            48.21,
+            16.37
+          ],
+          "tag": "CONCEPT",
+          "hint": "Ranking ten common reference minerals from softest (talc) to hardest (diamond) based purely on which mineral can scratch which, Mohs created a simple, practical field test that any geologist can perform with nothing more than the reference minerals themselves, or common household substitutes like a fingernail, a copper coin, or a steel knife blade, giving a quick, low-tech way to help identify an unknown mineral sample without needing any laboratory equipment.",
+          "note": "Mohs, F. (1812). Versuch einer Elementar-Methode zur naturhistorischen Bestimmung und Erkennung der Fossilien. Vienna. The scale is deliberately ordinal, not linear — diamond, at 10, is actually many times harder in absolute terms than corundum at 9, far more than the single-step difference the numbering suggests — so while extremely useful for quick field identification, it does not measure hardness proportionally the way an engineering hardness test does.",
+          "links": [
+            "co4"
+          ],
+          "keywords": [
+            "mineral scratch hardness test",
+            "ordinal reference scale",
+            "field identification tool"
+          ]
+        },
+        {
+          "id": "co3",
+          "group": "Stratigraphy & Deep Time",
+          "label": "The Geologic Time Scale",
+          "date": "1841",
+          "loc": "Oxford, England",
+          "coords": [
+            51.75,
+            -1.26
+          ],
+          "tag": "CONCEPT",
+          "hint": "Earth's 4.5-billion-year history is divided into a nested hierarchy of eons, eras, periods, and epochs, with boundaries generally marked by major, globally recognisable changes in the fossil record, such as a mass extinction — a systematic calendar built up piece by piece over two centuries, first purely from the relative ordering principles of stratigraphy (see st1), and only much later pinned to specific absolute dates once radiometric dating (see th10) became available.",
+          "note": "Phillips, J. (1841) coined the Paleozoic, Mesozoic, and Cenozoic era names, based on the proportion of still-living species found as fossils within each era's rocks. The scale remains a living document actively revised by the International Commission on Stratigraphy as new evidence refines boundary dates or, occasionally, as entirely new formal boundaries are proposed and debated, including the contested proposal to formally designate a new 'Anthropocene' epoch.",
+          "links": [
+            "st1",
+            "st3"
+          ],
+          "keywords": [
+            "nested time hierarchy",
+            "fossil boundary marker",
+            "eon era period epoch"
+          ]
+        },
+        {
+          "id": "co4",
+          "group": "Mineralogy & Petrology",
+          "label": "Mineral Cleavage & Crystal Structure",
+          "date": "1784",
+          "loc": "Paris, France",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "tag": "CONCEPT",
+          "hint": "A mineral's atoms are arranged in a repeating, orderly three-dimensional lattice, and that internal atomic arrangement determines exactly how the mineral will break when struck — some minerals cleave apart cleanly along flat, repeatable planes of structural weakness in the lattice, while others without such planes instead fracture along irregular, curved, or jagged surfaces, giving geologists a reliable, purely physical clue to a mineral's identity just from observing how a broken sample looks.",
+          "note": "Haüy, R.J. (1784). Essai d'une théorie sur la structure des crystaux. Paris, developed the theory after accidentally dropping a calcite crystal and noticing it always cleaved into smaller rhombohedra with the identical shape as the original. Mica's famous ability to be peeled into thin, flexible sheets and halite's tendency to break into perfect cubes are both direct visible consequences of their distinct underlying atomic lattice structures.",
+          "links": [
+            "co2"
+          ],
+          "keywords": [
+            "atomic lattice structure",
+            "cleavage plane weakness",
+            "crystal breakage pattern"
+          ]
+        },
+        {
+          "id": "co5",
+          "group": "Plate Tectonics & Structural Geology",
+          "label": "Types of Plate Boundaries",
+          "date": "1968",
+          "loc": "Lamont-Doherty Geological Observatory, Palisades, New York",
+          "coords": [
+            41,
+            -73.91
+          ],
+          "tag": "CONCEPT",
+          "hint": "Tectonic plates interact along their edges in exactly three fundamental ways: at divergent boundaries they pull apart and new crust forms between them, at convergent boundaries they collide and one plate typically subducts beneath the other or the two crumple upward into mountains, and at transform boundaries they simply slide horizontally past each other without creating or destroying crust — with the specific type of boundary directly determining what kind of earthquakes, volcanoes, and landforms occur along it.",
+          "note": "Isacks, B., Oliver, J. & Sykes, L.R. (1968). 'Seismology and the New Global Tectonics.' Journal of Geophysical Research, 73(18), 5855–5899, used the systematic global distribution of earthquake locations and depths to classify boundary types and confirm plate tectonics theory (see th4). The San Andreas Fault in California is the best-known transform boundary; the Mid-Atlantic Ridge is divergent; and the Andes' western coastal margin is convergent, actively subducting the Nazca Plate beneath South America.",
+          "links": [
+            "th4"
+          ],
+          "keywords": [
+            "divergent convergent transform",
+            "plate boundary classification",
+            "earthquake distribution evidence"
+          ]
+        },
+        {
+          "id": "co6",
+          "group": "Seismology & Earthquake Science",
+          "label": "The Moment Magnitude Scale",
+          "date": "1979",
+          "loc": "California Institute of Technology, Pasadena, California",
+          "coords": [
+            34.14,
+            -118.13
+          ],
+          "tag": "CONCEPT",
+          "hint": "An earthquake's size is now measured by its 'seismic moment' — a physically direct calculation based on the rigidity of the rock, the total area of fault that ruptured, and how far the two sides slipped past each other — converted into a familiar, Richter-like logarithmic number for public communication, but unlike the original Richter scale, the moment magnitude scale doesn't saturate or lose accuracy for the very largest earthquakes, which the older method systematically underestimated.",
+          "note": "Hanks, T.C. & Kanamori, H. (1979). 'A Moment Magnitude Scale.' Journal of Geophysical Research, 84(B5), 2348–2350. Charles Richter's original 1935 local magnitude scale, developed for small-to-moderate Southern California earthquakes using a specific instrument, became measurably inaccurate for the largest earthquakes on record; moment magnitude has since become the standard scale reported by seismological agencies worldwide, though the news media and public still often colloquially refer to any earthquake's size as 'the Richter scale.'",
+          "links": [
+            "fg10"
+          ],
+          "keywords": [
+            "seismic moment calculation",
+            "richter scale replacement",
+            "large earthquake magnitude accuracy"
+          ]
+        },
+        {
+          "id": "co7",
+          "group": "Geomorphology & Surface Processes",
+          "label": "Stream / Drainage Basin Dynamics",
+          "date": "1945",
+          "loc": "Voorheesville, New York",
+          "coords": [
+            42.65,
+            -73.98
+          ],
+          "tag": "CONCEPT",
+          "hint": "A river system organises itself into a predictable, branching, tree-like hierarchy — countless small tributary streams merge into progressively fewer, larger streams, which merge again into a single main channel — and the geometric and statistical relationships governing how many streams of each size exist, and how they're arranged across a landscape, follow such consistent, near-universal mathematical patterns that they can be used to help infer a region's underlying geology, climate, and erosional history.",
+          "note": "Horton, R.E. (1945). 'Erosional Development of Streams and Their Drainage Basins: Hydrophysical Approach to Quantitative Morphology.' Geological Society of America Bulletin, 56(3), 275–370, established stream-ordering and quantitative drainage-basin analysis as a rigorous, mathematical branch of geomorphology. Drainage basin shape and stream density respond measurably to the underlying rock's resistance to erosion, regional climate, and tectonic uplift rate, making basin analysis a useful indirect tool for reconstructing a landscape's geological history.",
+          "links": [
+            "ef8"
+          ],
+          "keywords": [
+            "stream network hierarchy",
+            "drainage basin geometry",
+            "quantitative erosion morphology"
+          ]
+        },
+        {
+          "id": "co8",
+          "group": "Volcanology",
+          "label": "Magma Viscosity & Eruption Style",
+          "date": "1917",
+          "loc": "Hawaiian Volcano Observatory, Kilauea, Hawaii",
+          "coords": [
+            19.42,
+            -155.29
+          ],
+          "tag": "CONCEPT",
+          "hint": "How explosively a volcano erupts depends heavily on its magma's silica content, which directly controls viscosity — low-silica basaltic magma flows relatively freely, letting dissolved gases escape gradually and producing gentle, flowing eruptions like Hawaii's, while high-silica rhyolitic magma is thick and sticky, trapping gas bubbles under enormous pressure until they violently rupture all at once, producing explosive, catastrophic eruptions like Mount St. Helens (see st10).",
+          "note": "Jaggar, T.A. (1917). 'Volcanologic Investigations at Kilauea.' American Journal of Science, 44(261), 161–220, documented Hawaiian basaltic volcanism's comparatively gentle, effusive character in detail, establishing a foundational contrast later formalised more broadly across the full range of magma compositions. The relationship is not perfectly absolute — dissolved gas content and the rate of magma ascent also significantly influence eruption style independent of silica content and viscosity alone.",
+          "links": [
+            "th5",
+            "ef6"
+          ],
+          "keywords": [
+            "silica content viscosity",
+            "effusive versus explosive eruption",
+            "gas trapping magma pressure"
+          ]
+        }
+      ]
     },
     {
       "id": "method",
