@@ -535,7 +535,240 @@
       "accent": "#117A65",
       "bg": "#F0FFF6",
       "subtitle": "Named, replicable patterns in microbial and viral behaviour",
-      "entries": []
+      "entries": [
+        {
+          "id": "ef1",
+          "group": "Bacterial Cell Biology & Physiology",
+          "label": "Biofilm Formation",
+          "date": "1999",
+          "loc": "University of Calgary, Calgary, Alberta",
+          "coords": [
+            51.05,
+            -114.07
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Rather than living as free-floating individual cells, most bacteria in nature spend most of their time embedded in a dense, surface-attached community encased in a self-secreted matrix of sugars, proteins and DNA — a biofilm — where cells are physically protected from antibiotics, immune cells and physical disturbance far more effectively than the same species would be as isolated free-floating cells, and where neighbouring cells often specialise into different physiological roles, similar to a primitive tissue.",
+          "note": "Costerton, J.W., Stewart, P.S. & Greenberg, E.P. (1999). 'Bacterial Biofilms: A Common Cause of Persistent Infections.' Science, 284(5418), 1318–1322. Biofilms can tolerate antibiotic concentrations 10 to 1,000 times higher than the same bacteria grown in free-floating culture, a major reason chronic infections on medical implants and catheters are so difficult to clear; biofilm formation is itself frequently coordinated through quorum sensing (see th7).",
+          "links": [
+            "th7"
+          ],
+          "keywords": [
+            "biofilm matrix formation",
+            "surface attached bacterial community",
+            "antibiotic tolerance biofilm"
+          ]
+        },
+        {
+          "id": "ef2",
+          "group": "Bacterial Cell Biology & Physiology",
+          "label": "Endospore Formation",
+          "date": "1876",
+          "loc": "Breslau, Prussia",
+          "coords": [
+            51.11,
+            17.04
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Facing starvation or other extreme stress, some bacteria package a copy of their DNA and a bare minimum of cellular machinery into a thick-walled, metabolically dormant structure — an endospore — capable of surviving boiling, extreme desiccation, radiation and decades or longer with no nutrients at all, then germinating back into a normal actively growing cell within minutes once conditions improve, an extreme survival strategy unmatched by any actively metabolising life form.",
+          "note": "Cohn, F. (1876). 'Untersuchungen über Bacterien IV: Beiträge zur Biologie der Bacillen.' Beiträge zur Biologie der Pflanzen, 2(2), 249–276, the first systematic description of bacterial endospore formation and germination, using Bacillus. Endospore heat-resistance directly complicated Pasteur's biogenesis experiments (see th5, st2), since broths sterilised by boiling alone could still 'spontaneously' regrow from surviving spores — a confounding factor Pasteur and contemporaries had to work around before John Tyndall's fractional sterilisation method resolved it.",
+          "links": [
+            "fg3",
+            "th5"
+          ],
+          "keywords": [
+            "bacterial endospore dormancy",
+            "extreme heat resistance",
+            "spore germination survival"
+          ]
+        },
+        {
+          "id": "ef3",
+          "group": "Microbial Genetics & Horizontal Gene Transfer",
+          "label": "Natural Genetic Competence",
+          "date": "1999",
+          "loc": "Public Health Research Institute, Newark, New Jersey",
+          "coords": [
+            40.74,
+            -74.17
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Certain bacterial species can actively switch into a distinct physiological state — competence — in which they build dedicated surface machinery to bind, cut, and pull fragments of free DNA from their environment directly into the cytoplasm, then integrate compatible sequences into their own chromosome, a genuine cellular programme with its own regulatory switch, not a passive leak, and the direct physiological basis for the transformation phenomenon Griffith first noticed in 1928.",
+          "note": "Dubnau, D. (1999). 'DNA Uptake in Bacteria.' Annual Review of Microbiology, 53, 217–244, reviewing the dedicated DNA-uptake machinery — a modified type IV pilus system — that competent cells such as Bacillus subtilis and Streptococcus pneumoniae assemble on their own surface. Competence is tightly regulated and often switches on only under specific stress conditions or at a particular point in the growth cycle, evidence it is an evolved adaptation rather than an accidental side effect of cell damage (see cell-molecular-bio::ef6 for transformation's role in horizontal gene transfer generally).",
+          "links": [
+            "st7"
+          ],
+          "xlinks": [
+            "cell-molecular-bio::ef6"
+          ],
+          "keywords": [
+            "bacterial dna uptake machinery",
+            "competence physiological state",
+            "natural transformation mechanism"
+          ]
+        },
+        {
+          "id": "ef4",
+          "group": "Virus Structure, Classification & Replication",
+          "label": "Lysogenic Conversion",
+          "date": "1951",
+          "loc": "University of Washington, Seattle, Washington",
+          "coords": [
+            47.61,
+            -122.33
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "A dormant prophage integrated into a bacterial chromosome is not simply inert cargo — the genes it carries can be actively expressed, sometimes conferring an entirely new, medically important trait on its bacterial host, most famously the toxin gene responsible for diphtheria's severe symptoms, meaning a harmless bacterial strain can become dangerously virulent literally overnight simply by being infected with the right lysogenic phage, with no other genetic change required.",
+          "note": "Freeman, V.J. (1951). 'Studies on the Virulence of Bacteriophage-Infected Strains of Corynebacterium diphtheriae.' Journal of Bacteriology, 61(6), 675–688, the first clear demonstration that a previously harmless, non-toxin-producing strain became toxigenic purely through phage infection. The same mechanism was later found responsible for cholera toxin in Vibrio cholerae and the Shiga-like toxin in some pathogenic E. coli strains, making lysogenic conversion a recurring theme in the evolution of bacterial virulence.",
+          "links": [
+            "th4"
+          ],
+          "keywords": [
+            "prophage toxin gene",
+            "diphtheria toxin acquisition",
+            "bacterial virulence conversion"
+          ]
+        },
+        {
+          "id": "ef5",
+          "group": "Virus Structure, Classification & Replication",
+          "label": "Interferon-Mediated Viral Interference",
+          "date": "1957",
+          "loc": "National Institute for Medical Research, Mill Hill, London, England",
+          "coords": [
+            51.61,
+            -0.24
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "A cell infected by one virus often becomes measurably more resistant to infection by a second, unrelated virus shortly afterward — not because the first virus physically blocks the second, but because the infected cell actively secretes a small signalling protein that warns neighbouring, still-healthy cells to switch on a battery of antiviral defences before the second virus ever arrives, an early-warning immune signal rather than a passive occupancy effect.",
+          "note": "Isaacs, A. & Lindenmann, J. (1957). 'Virus Interference. I. The Interferon.' Proceedings of the Royal Society of London B, 147(927), 258–267, identified the diffusible protein factor responsible for the interference phenomenon virologists had observed for decades without explanation. Interferon signalling is now understood as a core arm of the vertebrate innate antiviral immune response, and recombinant interferon has itself become a therapeutic drug for chronic viral infections and some cancers.",
+          "links": [],
+          "keywords": [
+            "interferon antiviral signalling",
+            "viral interference phenomenon",
+            "innate immune warning"
+          ]
+        },
+        {
+          "id": "ef6",
+          "group": "Virus Structure, Classification & Replication",
+          "label": "Phage Lytic Burst Kinetics",
+          "date": "1939",
+          "loc": "California Institute of Technology, Pasadena, California",
+          "coords": [
+            34.14,
+            -118.13
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "A bacteriophage does not trickle new virus particles out of an infected cell gradually the way many other viruses do — after a fixed latent period during which no free virus is detectable at all, an infected bacterium suddenly bursts open, releasing dozens to hundreds of fully assembled progeny virions all at once, a synchronized, all-or-nothing release pattern that gave the first quantitative measurements of how many new viruses a single infection actually produces.",
+          "note": "Ellis, E.L. & Delbrück, M. (1939). 'The Growth of Bacteriophage.' Journal of General Physiology, 22(3), 365–384, the 'one-step growth' experiment that founded quantitative phage biology and the wider field of molecular biology built around it. The average number of progeny released per infected cell — the burst size — varies by phage and host conditions but is a reproducible, measurable quantity, later standardised into the routine plaque assay (see me3).",
+          "links": [],
+          "keywords": [
+            "phage burst size measurement",
+            "synchronized viral release",
+            "one step growth kinetics"
+          ]
+        },
+        {
+          "id": "ef7",
+          "group": "Microbial Ecology & Metabolism",
+          "label": "Rhizobium-Legume Nitrogen Fixation Symbiosis",
+          "date": "1888",
+          "loc": "Delft Polytechnic, Delft, Netherlands",
+          "coords": [
+            52.01,
+            4.36
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Legume plants host specialised bacteria inside root nodules that convert atmospheric nitrogen gas — unusable by almost all plants directly — into ammonia the plant can absorb and build proteins from, in exchange for a steady supply of sugars from the plant's own photosynthesis, a mutualistic partnership responsible for a substantial share of all biologically available nitrogen entering ecosystems worldwide without any synthetic fertiliser at all.",
+          "note": "Beijerinck, M.W. (1888). 'Die Bacterien der Papilionaceenknöllchen.' Botanische Zeitung, 46, 725–735, 741–750, 757–771, 781–790, isolated and cultured the nodule bacterium, initially named Bacillus radicicola and renamed Rhizobium leguminosarum by Albert Bernhard Frank the following year. The symbiosis is remarkably specific — particular Rhizobium strains recognise and infect only particular legume species through a molecular chemical dialogue — and remains the basis for commercial rhizobial seed inoculants used in agriculture today (see ap4).",
+          "links": [
+            "fg4"
+          ],
+          "keywords": [
+            "nitrogen fixation symbiosis",
+            "root nodule bacteria",
+            "rhizobium legume specificity"
+          ]
+        },
+        {
+          "id": "ef8",
+          "group": "Microbial Diversity & the Tree of Life",
+          "label": "Extremophile Thermostability",
+          "date": "1969",
+          "loc": "Indiana University, Bloomington, Indiana",
+          "coords": [
+            39.17,
+            -86.53
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Isolated from the near-boiling water of a Yellowstone hot spring, a previously unknown bacterium was found not merely surviving but actively growing best at 70°C, a temperature that would instantly destroy the proteins of almost any other known organism — its enzymes are simply built with a more heat-stable three-dimensional structure than their mesophilic counterparts, a discovery initially treated as a biological curiosity that turned out to have enormous downstream practical value.",
+          "note": "Brock, T.D. & Freeze, H. (1969). 'Thermus aquaticus gen. n. and sp. n., a Nonsporulating Extreme Thermophile.' Journal of Bacteriology, 98(1), 289–297. The organism's heat-stable DNA polymerase, isolated over a decade later, turned out to be exactly what was needed to automate the polymerase chain reaction (see cell-molecular-bio::st8), since it survives the repeated near-boiling denaturation step every PCR cycle requires — a textbook case of basic taxonomic research yielding an unanticipated, field-transforming technology.",
+          "links": [],
+          "xlinks": [
+            "cell-molecular-bio::st8"
+          ],
+          "keywords": [
+            "thermophile enzyme stability",
+            "hot spring bacterium isolation",
+            "heat stable polymerase"
+          ]
+        },
+        {
+          "id": "ef9",
+          "group": "Antibiotics, Antivirals & Biotechnology",
+          "label": "Bacterial Persister Cells",
+          "date": "1944",
+          "loc": "Trinity College Dublin, Dublin, Ireland",
+          "coords": [
+            53.34,
+            -6.26
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Even in a bacterial population fully susceptible to an antibiotic, with no resistance genes of any kind, a small dormant subpopulation — typically fewer than one cell in a million — survives lethal antibiotic exposure simply by not actively growing, since most antibiotics only kill cells that are actively building new cell wall or replicating DNA; these 'persister' cells are not genetically resistant, and their surviving offspring remain just as susceptible as the original population, but the mechanism helps explain why some infections relapse after apparently successful treatment.",
+          "note": "Bigger, J.W. (1944). 'The Bactericidal Action of Penicillin on Staphylococcus Pyogenes.' Irish Journal of Medical Science, 19(10), 585–595, first described and named the persister phenomenon. Persistence remained a niche topic for over fifty years before renewed interest, driven by its likely role in chronic and relapsing infections such as tuberculosis; the field has since worked to sharply distinguish persistence (see db5) from heritable antibiotic resistance, since conflating the two invites the wrong clinical response.",
+          "links": [
+            "db5"
+          ],
+          "keywords": [
+            "antibiotic tolerant dormancy",
+            "persister subpopulation survival",
+            "non heritable phenotypic tolerance"
+          ]
+        },
+        {
+          "id": "ef10",
+          "group": "Microbial Genetics & Horizontal Gene Transfer",
+          "label": "CRISPR-Cas Bacterial Adaptive Immunity",
+          "date": "2007",
+          "loc": "Danisco USA, Madison, Wisconsin",
+          "coords": [
+            43.07,
+            -89.4
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Long before CRISPR became a gene-editing tool, it was already doing a job inside bacteria and archaea: cells that survive a bacteriophage infection clip a short fragment of the invading virus's DNA and file it away in their own genome as a permanent molecular mugshot, then use that stored sequence to recognise and destroy the same phage's DNA on any future infection — a genuine, heritable, sequence-specific adaptive immune system, the only one known outside vertebrates.",
+          "note": "Barrangou, R. et al. (2007). 'CRISPR Provides Acquired Resistance Against Viruses in Prokaryotes.' Science, 315(5819), 1709–1712, working with the yoghurt-fermentation bacterium Streptococcus thermophilus at the dairy-culture company Danisco, was the first direct experimental proof that CRISPR spacer sequences confer phage resistance, five years before Jennifer Doudna and Emmanuelle Charpentier repurposed the same bacterial system into a programmable gene-editing tool (see cell-molecular-bio::st10).",
+          "links": [],
+          "xlinks": [
+            "cell-molecular-bio::st10"
+          ],
+          "keywords": [
+            "crispr phage resistance",
+            "bacterial adaptive immunity",
+            "spacer sequence acquisition"
+          ]
+        }
+      ]
     },
     {
       "id": "concept",
@@ -545,7 +778,165 @@
       "accent": "#566573",
       "bg": "#F5F6FA",
       "subtitle": "The building blocks and vocabulary every student must command",
-      "entries": []
+      "entries": [
+        {
+          "id": "co1",
+          "group": "Bacterial Cell Biology & Physiology",
+          "label": "Gram Staining and the Cell Wall Dichotomy",
+          "date": "1884",
+          "loc": "Berlin, German Empire",
+          "coords": [
+            52.52,
+            13.4
+          ],
+          "tag": "CONCEPT",
+          "hint": "Nearly all bacteria fall into one of two structurally distinct groups depending on their cell wall: Gram-positive bacteria have a thick, single-layer peptidoglycan wall that traps crystal violet dye and stains deep purple, while Gram-negative bacteria have a thin peptidoglycan layer sandwiched under an additional outer membrane that lets the purple dye wash out, revealing a red counterstain instead — a hundred-and-forty-year-old staining protocol that still sorts bacteria into two groups with genuinely different antibiotic vulnerabilities and immune-recognition properties.",
+          "note": "Gram, H.C. (1884). 'Über die isolierte Färbung der Schizomyceten in Schnitt- und Trockenpräparaten.' Fortschritte der Medicin, 2, 185–189, developed the stain to distinguish bacteria within infected tissue sections rather than to classify bacteria generally, a use Gram himself considered secondary. The outer membrane that makes Gram-negative bacteria stain red also acts as a permeability barrier that blocks many antibiotics effective against Gram-positive species, making the distinction directly clinically relevant well beyond its original diagnostic purpose.",
+          "links": [],
+          "keywords": [
+            "gram positive negative distinction",
+            "peptidoglycan cell wall structure",
+            "bacterial staining classification"
+          ]
+        },
+        {
+          "id": "co2",
+          "group": "Microbial Genetics & Horizontal Gene Transfer",
+          "label": "Bacterial Conjugation, the F Plasmid and Hfr Strains",
+          "date": "1953",
+          "loc": "Hammersmith Hospital, London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "CONCEPT",
+          "hint": "The gene transfer Lederberg and Tatum observed turned out to be driven by a small, separate circular piece of DNA called the F (fertility) plasmid, which builds a hollow protein tube — the sex pilus — connecting a donor cell to a recipient and pumping a single strand of DNA across; when the F plasmid happens to integrate into the donor's main chromosome, the resulting 'Hfr' (high-frequency recombination) strain can transfer large stretches of chromosomal DNA along with it, turning an occasional accident into an efficient, directional gene-mapping tool.",
+          "note": "Hayes, W. (1953). 'The Mechanism of Genetic Recombination in Escherichia coli.' Cold Spring Harbor Symposia on Quantitative Biology, 18, 75–93, established that conjugation was directional — donor to recipient — rather than the mutual exchange originally proposed. Hfr strains, mapped by François Jacob and Elie Wollman by timing how long conjugation had to run before a given gene transferred, produced the first physical gene maps of the E. coli chromosome.",
+          "links": [
+            "st7"
+          ],
+          "keywords": [
+            "f plasmid fertility factor",
+            "conjugative sex pilus",
+            "hfr chromosome mapping"
+          ]
+        },
+        {
+          "id": "co3",
+          "group": "Antibiotics, Antivirals & Biotechnology",
+          "label": "Peptidoglycan and the Beta-Lactam Target",
+          "date": "1965",
+          "loc": "University of Wisconsin Medical School, Madison, Wisconsin",
+          "coords": [
+            43.07,
+            -89.4
+          ],
+          "tag": "CONCEPT",
+          "hint": "Penicillin and every other beta-lactam antibiotic works because its molecular shape closely mimics the natural D-alanyl-D-alanine building block bacteria use to cross-link the peptidoglycan mesh that gives their cell wall its rigidity — the antibiotic tricks the wall-building enzyme into binding it instead, permanently jamming the enzyme's active site and leaving the wall too weak to withstand internal pressure, causing the cell to rupture, a mechanism harmless to human cells since they have no peptidoglycan wall at all.",
+          "note": "Tipper, D.J. & Strominger, J.L. (1965). 'Mechanism of Action of Penicillins: A Proposal Based on Their Structural Similarity to Acyl-D-Alanyl-D-Alanine.' Proceedings of the National Academy of Sciences, 54(4), 1133–1141. The specific enzymes penicillin jams are now known collectively as penicillin-binding proteins; bacterial resistance frequently arises from mutations that alter these proteins' shape enough to reduce penicillin binding while still allowing normal wall synthesis (see pathology-immunology::ef10).",
+          "links": [
+            "th10"
+          ],
+          "xlinks": [
+            "pathology-immunology::ef10"
+          ],
+          "keywords": [
+            "beta lactam mechanism",
+            "peptidoglycan cross linking",
+            "penicillin binding protein"
+          ]
+        },
+        {
+          "id": "co4",
+          "group": "Virus Structure, Classification & Replication",
+          "label": "Viral Capsid Symmetry",
+          "date": "1962",
+          "loc": "MRC Laboratory of Molecular Biology, Cambridge, England",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "tag": "CONCEPT",
+          "hint": "A virus cannot afford a genome large enough to encode a unique instruction for every position on its protective protein shell, so nearly every viral capsid instead builds itself from many copies of just one or a few identical protein subunits, arranged with either helical symmetry, wrapping around the genome like a spring, or icosahedral symmetry, a twenty-sided near-spherical shape — the most efficient way geometrically to enclose the largest possible internal volume using the smallest amount of repeated genetic instruction.",
+          "note": "Caspar, D.L.D. & Klug, A. (1962). 'Physical Principles in the Construction of Regular Viruses.' Cold Spring Harbor Symposia on Quantitative Biology, 27, 1–24, derived the quasi-equivalence theory explaining how icosahedral capsids can be built from more than sixty identical subunits by allowing slightly non-identical local bonding environments. Aaron Klug's structural work on viruses, extending this framework, earned him the 1982 Nobel Prize in Chemistry.",
+          "links": [
+            "th3"
+          ],
+          "keywords": [
+            "icosahedral capsid symmetry",
+            "viral protein shell efficiency",
+            "quasi equivalence theory"
+          ]
+        },
+        {
+          "id": "co5",
+          "group": "Microbial Diversity & the Tree of Life",
+          "label": "Archaeal Membrane Chemistry",
+          "date": "1986",
+          "loc": "University of Naples, Naples, Italy",
+          "coords": [
+            40.85,
+            14.27
+          ],
+          "tag": "CONCEPT",
+          "hint": "Archaea build their cell membranes from a fundamentally different chemistry than every bacterium and eukaryote — branched isoprenoid chains linked to glycerol by stable ether bonds, rather than the straight fatty-acid chains linked by more chemically fragile ester bonds used everywhere else in life — a difference that turns out to explain much of archaea's famous tolerance for boiling temperatures, extreme acidity, and high salt, since ether linkages resist the heat- and acid-driven hydrolysis that would destroy an ordinary ester-linked membrane.",
+          "note": "De Rosa, M., Gambacorta, A. & Gliozzi, A. (1986). 'Structure, Biosynthesis, and Physicochemical Properties of Archaebacterial Lipids.' Microbiological Reviews, 50(1), 70–80. Some hyperthermophilic archaea take the adaptation further still, building a single lipid molecule that spans the entire membrane width, eliminating the weaker midpoint where two separate lipid tails would otherwise meet — a structural solution unique to the domain.",
+          "links": [
+            "th1",
+            "th2"
+          ],
+          "keywords": [
+            "archaeal ether lipid",
+            "isoprenoid membrane chemistry",
+            "extreme temperature membrane stability"
+          ]
+        },
+        {
+          "id": "co6",
+          "group": "Microbial Ecology & Metabolism",
+          "label": "Metabolic Strategy Classification",
+          "date": "1956",
+          "loc": "Delft Polytechnic, Delft, Netherlands",
+          "coords": [
+            52.01,
+            4.36
+          ],
+          "tag": "CONCEPT",
+          "hint": "Every organism can be classified along two independent axes: where it gets its energy (from light, phototrophy, or from chemical reactions, chemotrophy) and where it gets its carbon (from carbon dioxide, autotrophy, or from pre-made organic molecules, heterotrophy) — a simple two-by-two grid that captures a metabolic diversity among microbes unmatched by plants and animals, which occupy only one of the four resulting categories each, since microbes alone include organisms combining every possible pairing.",
+          "note": "Kluyver, A.J. & van Niel, C.B. (1956). The Microbe's Contribution to Biology. Harvard University Press, synthesising the 'unity of biochemistry' framework developed at the Delft School of Microbiology across the careers of Beijerinck, Kluyver and van Niel. Chemolithotrophic bacteria (see th6), which are simultaneously chemotrophic and autotrophic, occupy a metabolic category with no parallel anywhere among plants, animals or fungi.",
+          "links": [
+            "th6"
+          ],
+          "keywords": [
+            "autotroph heterotroph classification",
+            "phototroph chemotroph energy source",
+            "microbial metabolic diversity"
+          ]
+        },
+        {
+          "id": "co7",
+          "group": "Microbial Diversity & the Tree of Life",
+          "label": "The Bacterial Species Problem",
+          "date": "1987",
+          "loc": "Veterans Affairs Medical Center, Los Angeles, California",
+          "coords": [
+            34.05,
+            -118.24
+          ],
+          "tag": "CONCEPT",
+          "hint": "Bacteria reproduce asexually and exchange genes across species lines through horizontal transfer, so the biological species concept used for animals and plants — defined by the ability to interbreed — simply does not apply, forcing microbiologists to fall back on an arbitrary, practical threshold instead: two bacterial strains are conventionally called the same species if their whole-genome DNA sequences are at least 70% similar by hybridisation, a working definition explicitly acknowledged as a pragmatic convention rather than a description of any natural biological boundary.",
+          "note": "Wayne, L.G. et al. (1987). 'Report of the Ad Hoc Committee on Reconciliation of Approaches to Bacterial Systematics.' International Journal of Systematic Bacteriology, 37(4), 463–464, formalised the 70% DNA-DNA hybridisation threshold as the operational species standard. Modern whole-genome sequencing has largely replaced hybridisation with an equivalent average nucleotide identity (ANI) cutoff around 95–96%, but the underlying problem the committee wrestled with — that bacterial 'species' are a human bookkeeping convenience overlaid on a genuinely fuzzy, gene-sharing continuum — remains unresolved (see db3).",
+          "links": [
+            "th2",
+            "db3"
+          ],
+          "keywords": [
+            "bacterial species definition",
+            "dna hybridization threshold",
+            "prokaryote taxonomy convention"
+          ]
+        }
+      ]
     },
     {
       "id": "method",
