@@ -1398,7 +1398,206 @@
       "accent": "#CA6F1E",
       "bg": "#FDF5EC",
       "subtitle": "Live controversies — where the field is actively contesting the evidence",
-      "entries": []
+      "entries": [
+        {
+          "id": "db1",
+          "group": "Severe Weather & Storms",
+          "label": "Can Hurricanes Be Weakened or Steered?",
+          "date": "1962",
+          "loc": "Miami, Florida",
+          "coords": [
+            25.76,
+            -80.19
+          ],
+          "tag": "DEBATE",
+          "hint": "Project Stormfury attempted to weaken hurricanes by seeding the storm's eyewall with silver iodide, on the theory that triggering ice formation and releasing extra latent heat just outside the existing eyewall would encourage a new, wider eyewall to form, spreading the storm's peak winds over a larger area and reducing their maximum speed — several seeded storms did show reduced wind speeds afterward, but so did unseeded storms undergoing the same natural eyewall replacement cycle on their own, leaving genuinely unclear whether the seeding caused the change.",
+          "note": "Project Stormfury operated from 1962 to 1983, jointly run by NOAA and the US Navy. The program was ultimately abandoned largely because later research established that most mature hurricanes contain too little supercooled water and too much natural ice already for silver iodide seeding to meaningfully add anything beyond what the storm was already doing on its own — a scientific conclusion that effectively ended serious hurricane modification research, though speculative proposals for other intervention methods have occasionally resurfaced since.",
+          "links": [
+            "fg11"
+          ],
+          "keywords": [
+            "hurricane seeding experiment",
+            "eyewall replacement confound",
+            "storm modification abandonment"
+          ]
+        },
+        {
+          "id": "db2",
+          "group": "Global Circulation & Climate Dynamics",
+          "label": "Global Warming's Effect on Hurricane Frequency vs. Intensity",
+          "date": "2005",
+          "loc": "Massachusetts Institute of Technology, Cambridge, Massachusetts",
+          "coords": [
+            42.36,
+            -71.09
+          ],
+          "tag": "DEBATE",
+          "hint": "Climate scientists broadly agree that a warming ocean should make the strongest hurricanes that do form more intense, since warmer water provides more energy for a storm to draw on, but there is considerably less agreement on whether warming will actually increase the total number of storms forming each year — some models predict overall storm frequency may even decrease somewhat even as the storms that do form become more powerful on average, a nuance frequently lost in public discussion that treats 'more warming' and 'more hurricanes' as simply equivalent.",
+          "note": "Emanuel, K. (2005). 'Increasing Destructiveness of Tropical Cyclones over the Past 30 Years.' Nature, 436, 686–688, found a statistically significant increase in storm intensity and duration correlated with rising sea surface temperatures. Subsequent research (Knutson, T.R. et al. 2020, Bulletin of the American Meteorological Society, a comprehensive multi-author assessment) found consistent evidence for increasing storm intensity and rainfall rates but only low-to-medium confidence in any change to overall storm frequency, reflecting a genuine, still-unresolved scientific nuance.",
+          "links": [
+            "ef4"
+          ],
+          "keywords": [
+            "storm intensity frequency distinction",
+            "sea surface temperature correlation",
+            "climate model prediction nuance"
+          ]
+        },
+        {
+          "id": "db3",
+          "group": "Numerical Weather Prediction & Forecasting",
+          "label": "The Chaos Theory Predictability Ceiling Debate",
+          "date": "2018",
+          "loc": "National Center for Atmospheric Research, Boulder, Colorado",
+          "coords": [
+            40.02,
+            -105.27
+          ],
+          "tag": "DEBATE",
+          "hint": "Lorenz's original chaos theory work (see th3) suggested weather forecasts have a hard predictability ceiling around two to three weeks, beyond which no improvement in data or models could help — but some researchers argue this ceiling was estimated using deliberately simplified models and may in practice extend somewhat further with sufficiently high-resolution simulations and better initial data, while others counter that fundamental atmospheric chaos cannot be engineered around no matter how sophisticated the model.",
+          "note": "Judt, F. (2018). 'Insights into Atmospheric Predictability through Global Convection-Permitting Model Simulations.' Journal of the Atmospheric Sciences, 75(5), 1477–1497, used a high-resolution global model to argue potential predictability may extend to roughly three to four weeks under ideal conditions. The debate has intensified further with the emergence of machine-learning weather models in the 2020s, which some researchers argue may extract additional predictive skill from atmospheric patterns that traditional physics-based models miss, though whether this genuinely extends the theoretical Lorenz limit remains actively contested.",
+          "links": [
+            "th3"
+          ],
+          "keywords": [
+            "predictability limit extension debate",
+            "high resolution model argument",
+            "machine learning forecasting challenge"
+          ]
+        },
+        {
+          "id": "db4",
+          "group": "Cloud & Precipitation Physics",
+          "label": "Cloud Seeding Effectiveness",
+          "date": "2014",
+          "loc": "University of Wyoming, Laramie, Wyoming",
+          "coords": [
+            41.31,
+            -105.59
+          ],
+          "tag": "DEBATE",
+          "hint": "Seeding clouds with silver iodide particles, which mimic the structure of ice crystals and can trigger the Bergeron-Findeisen precipitation process (see th4) inside a supercooled cloud, has been operationally practiced since the 1940s to try to enhance rainfall or snowfall — but rigorously proving the technique actually works, and by how much, has proven surprisingly difficult, since there is no way to directly compare a seeded cloud's actual rainfall against what that exact same cloud would have produced unseeded.",
+          "note": "The Wyoming Weather Modification Pilot Program (2005–2014), one of the most rigorously randomised and controlled cloud-seeding field trials ever conducted, found seeding increased snowfall in targeted mountain ranges by a modest and statistically significant, but relatively small, 5 to 15 percent (Rasmussen, R.M. et al. 2018, Journal of Applied Meteorology and Climatology). Many operational cloud-seeding programs worldwide continue to run without this level of rigorous statistical control, meaning the technique's real-world effectiveness in most actual deployments remains considerably less certain.",
+          "links": [
+            "th4",
+            "fg11"
+          ],
+          "keywords": [
+            "silver iodide precipitation enhancement",
+            "randomized field trial difficulty",
+            "modest statistically significant increase"
+          ]
+        },
+        {
+          "id": "db5",
+          "group": "Severe Weather & Storms",
+          "label": "Tornado Formation: Top-Down vs. Bottom-Up Vorticity",
+          "date": "2014",
+          "loc": "Norman, Oklahoma",
+          "coords": [
+            35.22,
+            -97.44
+          ],
+          "tag": "DEBATE",
+          "hint": "The traditional model of tornado formation held that rotation first develops high in a thunderstorm's mesocyclone and then extends downward until it reaches the ground — but intensive, closely coordinated field campaigns using dozens of instrumented vehicles and radar trucks chasing storms in real time have found that in at least some tornadoes, strong rotation instead first appears at or very near the ground itself, seemingly independent of and before any clear connection to rotation aloft, suggesting more than one genuine pathway to tornado formation may exist.",
+          "note": "The VORTEX2 field campaign (2009–2010), the largest tornado field study ever conducted, gathered unprecedentedly dense observations inside and around dozens of storms (Markowski, P.M. & Richardson, Y.P. 2014, Journal of the Atmospheric Sciences, among many resulting papers). The findings suggest near-ground temperature contrasts and outflow boundaries from a storm's own rain-cooled downdraft may play a more direct, independent role in generating low-level rotation than the traditional top-down model assumed, though which specific storms follow which pathway remains an active area of ongoing research.",
+          "links": [],
+          "keywords": [
+            "vortex2 field campaign findings",
+            "low level rotation origin",
+            "storm outflow boundary role"
+          ]
+        },
+        {
+          "id": "db6",
+          "group": "Weather Systems & Fronts",
+          "label": "\"Bomb Cyclone\" Terminology Debate",
+          "date": "1980",
+          "loc": "Massachusetts Institute of Technology, Cambridge, Massachusetts",
+          "coords": [
+            42.36,
+            -71.09
+          ],
+          "tag": "DEBATE",
+          "hint": "Meteorologists have used the technical term 'bombogenesis' since 1980 to describe a specific, well-defined, genuinely unusual phenomenon — a mid-latitude storm's central pressure dropping by at least 24 millibars within 24 hours, a rate of intensification roughly comparable to a hurricane's — but the term's dramatic popularisation in mainstream media coverage since the 2010s has drawn criticism from some meteorologists who argue 'bomb cyclone' sensationalises an intense but not actually unprecedented type of winter storm.",
+          "note": "Sanders, F. & Gyakum, J.R. (1980). 'Synoptic-Dynamic Climatology of the \"Bomb\".' Monthly Weather Review, 108(10), 1589–1606, formally defined the rapid-intensification criterion and coined the term specifically for scientific use, drawing an intentional if imperfect military-explosion analogy. Critics of the term's media popularisation do not generally dispute that the underlying meteorological phenomenon is real and can produce dangerous winter weather, only that the sensationalised framing can distort public risk perception relative to comparably dangerous but more mundane-sounding ordinary winter storms.",
+          "links": [
+            "th9"
+          ],
+          "keywords": [
+            "bombogenesis pressure drop criterion",
+            "military analogy terminology",
+            "media sensationalism critique"
+          ]
+        },
+        {
+          "id": "db7",
+          "group": "Global Circulation & Climate Dynamics",
+          "label": "Arctic Amplification and Jet Stream Waviness",
+          "date": "2012",
+          "loc": "Rutgers University, New Brunswick, New Jersey",
+          "coords": [
+            40.5,
+            -74.45
+          ],
+          "tag": "DEBATE",
+          "hint": "As the Arctic warms roughly three to four times faster than the global average, reducing the temperature contrast between the Arctic and the mid-latitudes that partly drives the jet stream's strength (see th9), some researchers have proposed the jet stream should consequently become slower and more prone to large, meandering waves that stall in place for extended periods — but the statistical evidence for this connection in actual observed jet stream behaviour over recent decades remains genuinely contested.",
+          "note": "Francis, J.A. & Vavrus, S.J. (2012). 'Evidence Linking Arctic Amplification to Extreme Weather in Mid-Latitudes.' Geophysical Research Letters, 39(6), L06801, proposed the connection. Subsequent research (Screen, J.A. & Simmonds, I. 2013, and numerous later studies) has produced mixed, sometimes directly conflicting results when testing the hypothesis against the actual historical jet stream record, and the question remains one of the more actively contested open problems in current atmospheric circulation research.",
+          "links": [
+            "th9"
+          ],
+          "keywords": [
+            "arctic warming jet stream link",
+            "meandering wave persistence hypothesis",
+            "contested observational evidence"
+          ]
+        },
+        {
+          "id": "db8",
+          "group": "Global Circulation & Climate Dynamics",
+          "label": "Does Polar Vortex Disruption Reliably Cause Cold Snaps?",
+          "date": "2001",
+          "loc": "Bellevue, Washington",
+          "coords": [
+            47.61,
+            -122.2
+          ],
+          "tag": "DEBATE",
+          "hint": "A sudden stratospheric warming event (see ef9) statistically increases the odds of a severe surface cold-air outbreak occurring somewhere in the mid-latitudes over the following weeks — but the connection is a probabilistic tendency, not a reliable, guaranteed one-to-one cause and effect, since some major stratospheric warming events are followed by unremarkable surface weather, and some severe cold outbreaks occur with no preceding stratospheric warming event at all.",
+          "note": "Baldwin, M.P. & Dunkerton, T.J. (2001). 'Stratospheric Harbingers of Anomalous Weather Regimes.' Science, 294(5542), 581–584, established the statistical connection using several decades of reanalysis data (see me6). The relationship provides forecasters a genuine, useful probabilistic early warning signal two to six weeks in advance, but researchers continue actively investigating why the connection is reliable in some winters and largely absent in others, an open question directly relevant to how much confidence should be placed in any individual forecast.",
+          "links": [
+            "ef9"
+          ],
+          "keywords": [
+            "probabilistic not deterministic link",
+            "stratospheric surface connection strength",
+            "unreliable case exceptions"
+          ]
+        },
+        {
+          "id": "db9",
+          "group": "Numerical Weather Prediction & Forecasting",
+          "label": "The Reproducibility of Long-Range Seasonal Forecasts",
+          "date": "2014",
+          "loc": "College Park, Maryland",
+          "coords": [
+            38.98,
+            -76.94
+          ],
+          "tag": "DEBATE",
+          "hint": "Seasonal forecasts, predicting whether an upcoming season will likely be warmer, colder, wetter, or drier than average months in advance, rely on genuinely different physics than day-to-day weather forecasting — drawing mainly on slower-changing factors like ocean temperature patterns (see st8) rather than the fast-evolving atmospheric details Lorenz's chaos limit (see th3, db3) applies to — but independently verifying just how skilful these seasonal forecasts actually are remains a genuinely difficult and actively debated statistical problem.",
+          "note": "Kirtman, B.P. et al. (2014). 'The North American Multimodel Ensemble: Phase-1 Seasonal-to-Interannual Prediction; Phase-2 toward Developing Intraseasonal Prediction.' Bulletin of the American Meteorological Society, 95(4), 585–601, found combining multiple independent forecast models modestly but measurably improves seasonal forecast skill over any single model alone. Genuine seasonal predictive skill is heavily concentrated in years with a strong, well-established El Niño or La Niña signal, while forecasts during 'neutral' years remain only marginally better than simple historical climate averages.",
+          "links": [
+            "st8",
+            "th3"
+          ],
+          "keywords": [
+            "seasonal forecast skill verification",
+            "ocean pattern dependent accuracy",
+            "multi model ensemble improvement"
+          ]
+        }
+      ]
     },
     {
       "id": "application",
@@ -1408,7 +1607,143 @@
       "accent": "#2E86C1",
       "bg": "#EBF5FB",
       "subtitle": "Where the science leaves the lab",
-      "entries": []
+      "entries": [
+        {
+          "id": "ap1",
+          "group": "Global Circulation & Climate Dynamics",
+          "label": "Aviation Weather Routing & Turbulence Avoidance",
+          "date": "1965",
+          "loc": "Pennsylvania State University, University Park, Pennsylvania",
+          "coords": [
+            40.79,
+            -77.86
+          ],
+          "tag": "APPLICATION",
+          "hint": "Commercial airline dispatchers and pilots use forecasts of jet stream position, clear air turbulence probability, and thunderstorm location to plan flight routes that minimise a dangerous or merely uncomfortable rough ride, sometimes deliberately routing hundreds of kilometres out of the most direct path to avoid a forecast turbulence zone or to catch a favourable jet stream tailwind that can meaningfully cut fuel consumption and flight time on long transoceanic routes.",
+          "note": "Colson, D. & Panofsky, H.A. (1965). 'An Index of Clear Air Turbulence.' Quarterly Journal of the Royal Meteorological Society, 91(390), 507–513, developed following a series of serious 1960s jet-airliner turbulence incidents that highlighted the danger of invisible, radar-undetectable clear air turbulence near the jet stream. Modern flight planning software integrates real-time turbulence forecasts, jet stream position, and thunderstorm data automatically, continuously updating recommended routes throughout a long flight as conditions change.",
+          "links": [
+            "th9"
+          ],
+          "keywords": [
+            "clear air turbulence index",
+            "jet stream flight routing",
+            "fuel saving tailwind planning"
+          ]
+        },
+        {
+          "id": "ap2",
+          "group": "Atmospheric Structure & Thermodynamics",
+          "label": "Precision Agriculture Weather Forecasting",
+          "date": "1913",
+          "loc": "Los Angeles, California",
+          "coords": [
+            34.05,
+            -118.24
+          ],
+          "tag": "APPLICATION",
+          "hint": "Farmers rely on short-term, highly localised temperature and frost forecasts to decide when to activate protective measures — running wind machines or irrigation sprinklers overnight to prevent a citrus grove or vineyard from dropping below a crop-damaging freezing threshold — while longer-range seasonal outlooks inform larger decisions like which crop varieties to plant or when to schedule irrigation and fertiliser application across an entire growing season.",
+          "note": "California's citrus industry established a dedicated regional frost-warning forecasting service following catastrophic freeze losses in 1913, one of the earliest examples of meteorology directly organised around a specific agricultural industry's economic needs. Modern precision agriculture now combines hyperlocal weather forecasts with soil-moisture sensors and satellite crop-health imagery to optimise irrigation and frost-protection decisions field by field, rather than applying a single regional forecast uniformly across an entire farm.",
+          "links": [
+            "ef1"
+          ],
+          "keywords": [
+            "citrus frost protection forecasting",
+            "agricultural decision support",
+            "localized temperature threshold"
+          ]
+        },
+        {
+          "id": "ap3",
+          "group": "Severe Weather & Storms",
+          "label": "Tropical Cyclone Tracking & Public Warning Systems",
+          "date": "1970",
+          "loc": "Miami, Florida",
+          "coords": [
+            25.76,
+            -80.19
+          ],
+          "tag": "APPLICATION",
+          "hint": "Combining continuous satellite imagery (see st10) with aircraft reconnaissance data (see me5) and computer model forecasts, national warning centres track every tropical cyclone worldwide from formation to dissipation, issuing regularly updated public forecasts, including the widely recognised 'cone of uncertainty' graphic, that give coastal communities days of advance notice to prepare or evacuate rather than the mere hours or total surprise that characterised hurricane strikes before satellite-era tracking, like the Galveston Hurricane (see st5).",
+          "note": "The US National Hurricane Center, based in Miami, Florida, formalised its modern satellite-and-model-based tropical cyclone tracking and public warning operations through the 1960s and 1970s. US hurricane-related deaths per storm have fallen dramatically since the pre-satellite era, a decline attributed substantially to improved tracking, forecasting, and public warning communication, even as the total economic damage from hurricanes has actually risen due to greatly increased coastal development and population in vulnerable areas.",
+          "links": [
+            "st10",
+            "me5",
+            "st5"
+          ],
+          "keywords": [
+            "cone of uncertainty forecast",
+            "coastal evacuation lead time",
+            "satellite era casualty reduction"
+          ]
+        },
+        {
+          "id": "ap4",
+          "group": "Numerical Weather Prediction & Forecasting",
+          "label": "Weather Derivatives & Insurance Risk Modeling",
+          "date": "1999",
+          "loc": "Chicago, Illinois",
+          "coords": [
+            41.88,
+            -87.63
+          ],
+          "tag": "APPLICATION",
+          "hint": "Businesses whose revenue depends heavily on weather — energy utilities facing higher costs in an unusually cold winter, ski resorts needing snow, agricultural insurers covering drought risk — can buy specialised financial contracts, weather derivatives, that pay out automatically based on measured weather conditions like heating-degree-days or total rainfall at a specific location, letting a company hedge against an unfavourable season financially even when there is nothing it can do to control the weather itself.",
+          "note": "The Chicago Mercantile Exchange launched the first standardised, exchange-traded weather futures contracts in 1999, building on earlier customised over-the-counter deals beginning around 1997. Pricing these contracts fairly requires statistically rigorous historical climate data and increasingly sophisticated forecast-informed risk models, directly connecting meteorological science to quantitative finance; the broader insurance industry similarly relies on catastrophe risk models built on historical hurricane, flood, and severe-storm data to price property insurance premiums in weather-exposed regions.",
+          "links": [
+            "me6"
+          ],
+          "keywords": [
+            "weather futures financial contract",
+            "heating degree day hedge",
+            "catastrophe insurance risk model"
+          ]
+        },
+        {
+          "id": "ap5",
+          "group": "Cloud & Precipitation Physics",
+          "label": "Cloud Seeding for Drought Mitigation",
+          "date": "1946",
+          "loc": "Schenectady, New York",
+          "coords": [
+            42.81,
+            -73.94
+          ],
+          "tag": "APPLICATION",
+          "hint": "Aircraft or ground-based generators disperse silver iodide or dry ice particles into targeted clouds to try to trigger or enhance precipitation (see th4, db4), a technique now operationally deployed by dozens of countries and regional water authorities, particularly in drought-prone mountain and agricultural regions, to try to modestly boost winter snowpack or growing-season rainfall, even though rigorous scientific verification of the technique's real-world effectiveness remains considerably more limited than the scale of its actual operational deployment might suggest.",
+          "note": "Schaefer, V.J. (1946) achieved the first documented successful cloud seeding, dropping crushed dry ice into a supercooled cloud from an aircraft over Mount Greylock, Massachusetts, and observing it produce measurable snowfall, at the General Electric Research Laboratory. China, the United Arab Emirates, and several western US states currently operate some of the world's largest cloud-seeding programs, targeting winter mountain snowpack specifically to increase spring and summer water supply for both agriculture and urban use.",
+          "links": [
+            "th4",
+            "db4"
+          ],
+          "keywords": [
+            "dry ice snow trigger",
+            "operational drought program",
+            "mountain snowpack targeting"
+          ]
+        },
+        {
+          "id": "ap6",
+          "group": "Numerical Weather Prediction & Forecasting",
+          "label": "Renewable Energy Wind Forecasting",
+          "date": "2008",
+          "loc": "Roskilde, Denmark",
+          "coords": [
+            55.64,
+            12.09
+          ],
+          "tag": "APPLICATION",
+          "hint": "Because wind turbines only generate electricity when the wind is actually blowing within their specific operating range, grid operators need accurate, short-term wind-speed forecasts hours to days in advance to know how much wind power will actually be available and how much backup generation from other sources needs to be kept ready — turning wind forecasting into a specific, high-stakes, commercially essential meteorological service directly enabling the large-scale integration of wind power into modern electricity grids.",
+          "note": "Denmark's Risø National Laboratory was an early leader in developing dedicated short-term wind-power forecasting methodology, as the country's wind-power share of electricity generation grew to be among the highest in the world. Modern grid-scale wind forecasting typically combines numerical weather model output (see me4) with real-time turbine-level wind measurements and machine-learning correction techniques, since generic regional weather forecasts alone are not precise enough at an individual wind farm's specific location to support reliable grid-balancing decisions.",
+          "links": [
+            "me4"
+          ],
+          "keywords": [
+            "grid scale wind prediction",
+            "turbine generation forecasting",
+            "renewable integration necessity"
+          ]
+        }
+      ]
     }
   ],
   "timeline": [
