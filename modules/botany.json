@@ -1280,7 +1280,178 @@
       "accent": "#CA6F1E",
       "bg": "#FDF5EC",
       "subtitle": "Live controversies — where the field is actively contesting the evidence",
-      "entries": []
+      "entries": [
+        {
+          "id": "db1",
+          "group": "Photosynthesis & Plant Biochemistry",
+          "label": "How Many Times Did C4 Photosynthesis Evolve?",
+          "date": "2004",
+          "loc": "University of Toronto, Toronto, Canada",
+          "coords": [
+            43.66,
+            -79.4
+          ],
+          "tag": "DEBATE",
+          "hint": "C4 photosynthesis was long assumed to be a rare, difficult evolutionary innovation, given how many separate biochemical and anatomical changes it requires working together — but comparative genomic surveys across flowering plant lineages have instead found the pathway evolved independently dozens of separate times, an extraordinary degree of convergent evolution that raises its own puzzle: if C4 is this easy for evolution to stumble onto repeatedly, why haven't far more plant lineages, including most major crops, evolved it too?",
+          "note": "Sage, R.F. (2004). 'The Evolution of C4 Photosynthesis.' New Phytologist, 161(2), 341–370, catalogued over 45 independent origins across 19 plant families based on the phylogenetic distribution of C4 anatomy and biochemistry then known; more recent surveys incorporating additional lineages have pushed estimates higher still. The count keeps rising as more lineages are examined in detail, and no consensus yet exists on exactly what ecological or genetic precondition makes a given lineage 'C4-ready' versus permanently locked into C3.",
+          "links": [
+            "ef2"
+          ],
+          "keywords": [
+            "convergent evolution count",
+            "c4 lineage independent origin",
+            "evolutionary predisposition puzzle"
+          ]
+        },
+        {
+          "id": "db2",
+          "group": "Plant Ecology & Symbiosis",
+          "label": "The \"Wood-Wide Web\": Are Mycorrhizal Networks Overhyped?",
+          "date": "1997",
+          "loc": "University of British Columbia, Vancouver, British Columbia",
+          "coords": [
+            49.26,
+            -123.25
+          ],
+          "tag": "DEBATE",
+          "hint": "A field experiment showing radioactively-labelled carbon moving between two different tree species connected by shared mycorrhizal fungi was widely popularised as proof that forests are wired into a cooperative, information-sharing 'wood-wide web,' with mother trees deliberately nourishing their own seedlings through the network — but a rigorous 2023 literature review found the strongest, most viral claims (deliberate resource-sharing, kin recognition, warning signals) have little or no direct supporting evidence, and that the field's own citation patterns systematically favoured positive findings over null or contradicting results.",
+          "note": "Simard, S.W. et al. (1997). 'Net Transfer of Carbon Between Ectomycorrhizal Tree Species in the Field.' Nature, 388, 579–582, demonstrated genuine bidirectional carbon transfer between paper birch and Douglas fir under field conditions. Karst, J., Jones, M.D. & Hoeksema, J.D. (2023). 'Positive Citation Bias and Overinterpreted Results Lead to Misinformation on Common Mycorrhizal Networks in Forests.' Nature Ecology & Evolution, 7, 501–511, found no peer-reviewed evidence supporting the specific claim that mature trees preferentially direct resources to their own offspring through such networks, a claim that had nonetheless become widely repeated as established fact.",
+          "links": [
+            "th9"
+          ],
+          "keywords": [
+            "mycorrhizal network overinterpretation",
+            "citation bias forest ecology",
+            "mother tree claim scrutiny"
+          ]
+        },
+        {
+          "id": "db3",
+          "group": "Plant Growth & Hormonal Signaling",
+          "label": "Plant Neurobiology: Do Plants Learn?",
+          "date": "2014",
+          "loc": "University of Western Australia, Perth, Western Australia",
+          "coords": [
+            -31.98,
+            115.82
+          ],
+          "tag": "DEBATE",
+          "hint": "Repeatedly dropping potted Mimosa pudica plants a short distance, harmless but startling enough to trigger their rapid defensive leaf-folding response, researchers found the plants stopped folding after enough repeated drops and remembered not to fold weeks later — behaviour framed by its authors as a simple form of learning; critics reject this framing entirely, arguing habituation is a basic, near-universal property of excitable cells found even in single-celled organisms, and that calling it 'learning' or invoking 'plant neurobiology' imports misleading cognitive language into a process with no nervous system at all.",
+          "note": "Gagliano, M., Renton, M., Depczynski, M. & Mancuso, S. (2014). 'Experience Teaches Plants to Learn Faster and Forget Slower in Environments Where It Matters.' Oecologia, 175(1), 63–72. Alpi, A. et al. (2007). 'Plant Neurobiology: No Brain, No Gain?' Trends in Plant Science, 12(4), 135–136, an open letter signed by 36 plant scientists, argued the 'neurobiology' framing adds no explanatory power beyond existing plant signalling physiology and risks confusing rather than clarifying the field.",
+          "links": [
+            "ef7"
+          ],
+          "keywords": [
+            "habituation cognitive framing dispute",
+            "plant neurobiology terminology debate",
+            "mimosa learning claim"
+          ]
+        },
+        {
+          "id": "db4",
+          "group": "Plant Genetics & Classical Heredity",
+          "label": "Lysenkoism vs. Mendelian Genetics",
+          "date": "1948",
+          "loc": "Moscow, Soviet Union",
+          "coords": [
+            55.76,
+            37.62
+          ],
+          "tag": "DEBATE",
+          "hint": "Trofim Lysenko claimed that cold-treating (vernalizing) seeds could permanently 'train' a plant lineage to acquire heritable traits within a single generation, rejecting Mendelian genetics entirely as bourgeois pseudoscience — a claim with no valid experimental support that nonetheless became official Soviet state doctrine, leading to the dismissal, imprisonment, or execution of geneticists who disagreed and contributing directly to major Soviet crop failures, a stark historical case study in how political power can override, rather than settle, a genuinely resolved scientific question.",
+          "note": "The August 1948 session of the Lenin All-Union Academy of Agricultural Sciences formally banned the teaching of Mendelian genetics in the Soviet Union on Lysenko's recommendation, a policy that persisted in various forms into the mid-1960s. The genuine phenomenon of vernalization (see ef8) that Lysenko's claims were loosely built on is real and well understood today through the FLC gene-silencing mechanism, but confers no heritable change to the next generation — the specific epigenetic 'memory' resets each generation, directly contradicting Lysenko's central claim.",
+          "links": [
+            "ef8"
+          ],
+          "keywords": [
+            "lysenkoism soviet pseudoscience",
+            "mendelian genetics suppression",
+            "politicized science historical case"
+          ]
+        },
+        {
+          "id": "db5",
+          "group": "Photosynthesis & Plant Biochemistry",
+          "label": "Can Photosynthesis Be Engineered Beyond Its Natural Ceiling?",
+          "date": "2019",
+          "loc": "University of Illinois, Urbana, Illinois",
+          "coords": [
+            40.11,
+            -88.21
+          ],
+          "tag": "DEBATE",
+          "hint": "Natural C3 photosynthesis operates well below its underlying thermodynamic efficiency limit, partly because the carbon-fixing enzyme RuBisCO wastefully reacts with oxygen as well as CO2, triggering a costly cleanup process called photorespiration — engineering a more efficient synthetic bypass route for that cleanup step produced dramatic yield gains in field trials, but whether such gains will translate reliably across different crops, soils, and real-world growing conditions at commercial scale remains genuinely unresolved.",
+          "note": "South, P.F., Cavanagh, A.P., Liu, H.W. & Ort, D.R. (2019). 'Synthetic Glycolate Metabolism Pathways Stimulate Crop Growth and Productivity in the Field.' Science, 363(6422), eaat9077, reported a 20% improvement in photosynthetic quantum yield and over 40% increase in biomass in field-grown transgenic tobacco. Skeptics note that photorespiration bypass gains measured in tobacco field trials have not yet been fully replicated at commercial scale in major food crops such as rice, soybean, or wheat, where regulatory, agronomic, and genetic-background differences could substantially blunt the benefit.",
+          "links": [],
+          "keywords": [
+            "photorespiration bypass engineering",
+            "photosynthetic efficiency ceiling",
+            "field trial yield scalability"
+          ]
+        },
+        {
+          "id": "db6",
+          "group": "Plant Ecology & Symbiosis",
+          "label": "Plant-to-Plant Airborne Chemical Signaling",
+          "date": "1983",
+          "loc": "Dartmouth College, Hanover, New Hampshire",
+          "coords": [
+            43.7,
+            -72.29
+          ],
+          "tag": "DEBATE",
+          "hint": "Damaged willow and poplar leaves release airborne volatile compounds, and nearby undamaged trees exposed to that air were found to raise their own chemical defences shortly afterward — a claim initially met with deep skepticism, since it required believing plants could 'eavesdrop' on airborne signals from a neighbour they had no evolutionary reason to warn, and early replication attempts under more controlled conditions produced inconsistent results, though subsequent field studies using more sensitive chemical detection methods have substantiated the effect in several other plant-insect systems.",
+          "note": "Baldwin, I.T. & Schultz, J.C. (1983). 'Rapid Changes in Tree Leaf Chemistry Induced by Damage: Evidence for Communication Between Plants.' Science, 221(4607), 277–279, first proposed the effect based on poplar and sugar maple seedlings. The now-favoured interpretation treats the phenomenon less as deliberate interplant 'communication' evolved to warn relatives, and more as an inadvertent byproduct of a plant's own internal within-plant volatile signalling that a neighbouring plant simply happens to be positioned to detect and exploit for its own benefit.",
+          "links": [],
+          "keywords": [
+            "airborne volatile organic compound",
+            "interplant eavesdropping skepticism",
+            "induced defense priming"
+          ]
+        },
+        {
+          "id": "db7",
+          "group": "Plant Diversity & Evolutionary History",
+          "label": "Single vs. Multiple Origins of Land Plants",
+          "date": "2001",
+          "loc": "University of Maryland, College Park, Maryland",
+          "coords": [
+            38.99,
+            -76.94
+          ],
+          "tag": "DEBATE",
+          "hint": "Did every land plant alive today descend from one single ancestral algal lineage that made the transition from water to land just once, or did the move happen independently more than one time in different algal groups? Morphological comparisons alone had left the question genuinely open for decades, since superficially similar adaptations to terrestrial life could plausibly have evolved convergently rather than being inherited from one shared land-adapted ancestor.",
+          "note": "Karol, K.G., McCourt, R.M., Cimino, M.T. & Delwiche, C.F. (2001). 'The Closest Living Relatives of Land Plants.' Science, 294(5550), 2351–2353, used a four-gene molecular phylogeny to identify the stonewort algae (Charales) as land plants' single closest living algal relative, strongly supporting one shared terrestrial-adapted ancestor rather than independent origins. The molecular evidence is now considered close to decisive, though exactly which specific algal lineage the direct ancestor belonged to, and precisely how many genetic innovations that single lineage needed before land colonisation became viable, remain active research questions.",
+          "links": [
+            "th8"
+          ],
+          "keywords": [
+            "land plant monophyly evidence",
+            "charophyte algae relatives",
+            "molecular phylogeny resolution"
+          ]
+        },
+        {
+          "id": "db8",
+          "group": "Plant Genetics & Classical Heredity",
+          "label": "Deliberate Selection vs. Self-Domestication in Crop Origins",
+          "date": "2009",
+          "loc": "New York University, New York, New York",
+          "coords": [
+            40.73,
+            -73.996
+          ],
+          "tag": "DEBATE",
+          "hint": "The traditional picture of crop domestication imagines early farmers deliberately selecting and replanting seeds from the most desirable wild plants, generation after generation, until a fully domesticated crop emerged — but genetic and archaeological evidence increasingly suggests domestication traits such as non-shattering seed heads accumulated slowly and largely unconsciously over a thousand years or more, arising more from which wild plant variants simply survived repeated harvesting and replanting than from any deliberate breeding programme at all.",
+          "note": "Purugganan, M.D. & Fuller, D.Q. (2009). 'The Nature of Selection During Plant Domestication.' Nature, 457, 843–848, reviewed archaeobotanical evidence showing key domestication traits in wheat and barley took roughly 1,000–2,000 years to become fixed, far too slow and gradual to reflect intentional, targeted selection by early farmers who would have had every incentive to select faster. This gradualist, largely-unconscious model has become the dominant view, though the relative contribution of conscious human choice versus automatic harvesting-driven selection likely varied considerably between different crop species and regions.",
+          "links": [],
+          "keywords": [
+            "unconscious domestication selection",
+            "non-shattering seed trait timeline",
+            "archaeobotanical domestication evidence"
+          ]
+        }
+      ]
     },
     {
       "id": "application",
@@ -1290,7 +1461,136 @@
       "accent": "#2E86C1",
       "bg": "#EBF5FB",
       "subtitle": "Where the science leaves the lab",
-      "entries": []
+      "entries": [
+        {
+          "id": "ap1",
+          "group": "Photosynthesis & Plant Biochemistry",
+          "label": "Vertical Farming and Controlled-Environment Agriculture",
+          "date": "1999",
+          "loc": "Columbia University, New York, New York",
+          "coords": [
+            40.81,
+            -73.96
+          ],
+          "tag": "APPLICATION",
+          "hint": "Growing crops in stacked, climate-controlled indoor layers under tuned LED lighting lets growers precisely optimise light spectrum, temperature, humidity, and photoperiod for maximum growth regardless of outdoor season or climate, and eliminate agricultural runoff and most pesticide use entirely — a direct engineering application of basic plant photobiology, though the energy cost of artificial lighting remains the central economic constraint limiting which crops can be grown profitably this way.",
+          "note": "Despommier, D. developed the modern vertical farming concept with graduate students at Columbia University beginning in 1999, later popularised in The Vertical Farm: Feeding the World in the 21st Century (2010). Commercial vertical farms today mostly grow high-value, fast-cycling leafy greens and herbs, since staple grain crops remain economically impractical to grow this way given current lighting energy costs relative to their market value.",
+          "links": [],
+          "keywords": [
+            "led spectrum crop optimization",
+            "climate controlled indoor agriculture",
+            "stacked layer growing system"
+          ]
+        },
+        {
+          "id": "ap2",
+          "group": "Photosynthesis & Plant Biochemistry",
+          "label": "Glyphosate and Herbicide Mechanism of Action",
+          "date": "1980",
+          "loc": "ETH Zürich, Zurich, Switzerland",
+          "coords": [
+            47.38,
+            8.55
+          ],
+          "tag": "APPLICATION",
+          "hint": "The world's most widely used herbicide kills plants by blocking a single enzyme in a biochemical pathway plants use to build three essential amino acids — a pathway entirely absent in animals, which get those amino acids from diet instead, giving the herbicide a genuine mechanistic basis for selective toxicity toward plants specifically, the same underlying logic (a target structure or pathway absent from the organism you want to spare) behind selective antimicrobial drug design.",
+          "note": "Steinrücken, H.C. & Amrhein, N. (1980). 'The Herbicide Glyphosate is a Potent Inhibitor of 5-Enolpyruvylshikimic Acid-3-Phosphate Synthase.' Biochemical and Biophysical Research Communications, 94(4), 1207–1212, identified EPSP synthase, an enzyme in the shikimate pathway, as glyphosate's molecular target. Widespread commercial use since the 1990s of glyphosate-tolerant genetically engineered crops (see cell-molecular-bio::ap5) has since driven the evolution of glyphosate-resistant weeds in many agricultural regions, an evolutionary response directly analogous to antibiotic resistance in bacteria.",
+          "links": [],
+          "xlinks": [
+            "cell-molecular-bio::ap5"
+          ],
+          "keywords": [
+            "shikimate pathway inhibition",
+            "selective herbicide mechanism",
+            "glyphosate resistant weed evolution"
+          ]
+        },
+        {
+          "id": "ap3",
+          "group": "Plant Ecology & Symbiosis",
+          "label": "Taxol: Plant-Derived Cancer Chemotherapy",
+          "date": "1971",
+          "loc": "Research Triangle Park, North Carolina",
+          "coords": [
+            35.9,
+            -78.86
+          ],
+          "tag": "APPLICATION",
+          "hint": "A compound isolated from the bark of the slow-growing Pacific yew tree, originally investigated purely as part of a broad natural-products screening programme with no specific cancer target in mind, turned out to work by an entirely novel mechanism — stabilising a cancer cell's internal microtubule scaffolding so rigidly that the cell can no longer divide — becoming one of the most widely used chemotherapy drugs in oncology and demonstrating that a plant's own chemical defence arsenal (see co5) can double as a source of genuinely novel human medicine.",
+          "note": "Wani, M.C., Taylor, H.L., Wall, M.E., Coggon, P. & McPhail, A.T. (1971). 'Plant Antitumor Agents. VI. The Isolation and Structure of Taxol, a Novel Antileukemic and Antitumor Agent from Taxus brevifolia.' Journal of the American Chemical Society, 93(9), 2325–2327. Harvesting enough bark to treat patients initially required stripping and killing several mature, slow-growing yew trees per patient, an unsustainable supply problem eventually solved by semi-synthesising Taxol from a related, more abundant precursor compound found in yew needles rather than bark.",
+          "links": [
+            "co5"
+          ],
+          "keywords": [
+            "pacific yew bark compound",
+            "microtubule stabilization mechanism",
+            "natural product drug discovery"
+          ]
+        },
+        {
+          "id": "ap4",
+          "group": "Plant Reproduction & Pollination",
+          "label": "Global Seed Banking",
+          "date": "2008",
+          "loc": "Svalbard Global Seed Vault, Longyearbyen, Svalbard, Norway",
+          "coords": [
+            78.24,
+            15.49
+          ],
+          "tag": "APPLICATION",
+          "hint": "Storing dried seed samples at sub-zero temperatures deep inside a mountain on a remote Arctic island preserves crop genetic diversity as a backup against the loss of any single national or regional seed collection to war, natural disaster, equipment failure, or simple funding cuts — insurance against genetic diversity that, once lost when a locally-adapted crop variety goes extinct, can never be recreated, since it represents thousands of years of accumulated, irreplaceable local selection.",
+          "note": "The Svalbard Global Seed Vault opened on 26 February 2008, built into permafrost bedrock specifically chosen to keep samples frozen for centuries even without power. The vault has already proven its purpose: in 2015, researchers withdrew a backup sample to help re-establish Syria's national seed bank after its original collection near Aleppo became inaccessible amid civil war, exactly the kind of contingency the facility was built to cover.",
+          "links": [],
+          "keywords": [
+            "arctic permafrost seed storage",
+            "crop genetic diversity backup",
+            "withdrawal contingency validation"
+          ]
+        },
+        {
+          "id": "ap5",
+          "group": "Plant Ecology & Symbiosis",
+          "label": "Phytoremediation",
+          "date": "1998",
+          "loc": "Rutgers University, New Brunswick, New Jersey",
+          "coords": [
+            40.5,
+            -74.45
+          ],
+          "tag": "APPLICATION",
+          "hint": "Certain plant species can pull heavy metals or break down organic pollutants out of contaminated soil and water directly through their own roots, some accumulating toxic metals like lead or cadmium in their tissue at concentrations many times higher than the surrounding soil — a cheap, low-disturbance, solar-powered decontamination method compared to excavating and physically removing polluted soil, though it works far more slowly and only on land contaminated shallowly enough for roots to reach.",
+          "note": "Salt, D.E., Smith, R.D. & Raskin, I. (1998). 'Phytoremediation.' Annual Review of Plant Physiology and Plant Molecular Biology, 49, 643–668, formalised the field, distinguishing metal-accumulating phytoextraction from pollutant-degrading phytodegradation as distinct mechanisms. Plant-based phytoremediation targets a different, generally shallower and lower-concentration class of contamination than bacterial bioremediation (see microbiology-virology::ap4), and the two approaches are increasingly combined, since many effective phytoremediating plants host pollutant-degrading bacteria in their own root zone.",
+          "links": [],
+          "xlinks": [
+            "microbiology-virology::ap4"
+          ],
+          "keywords": [
+            "heavy metal phytoextraction",
+            "root zone pollutant degradation",
+            "solar powered decontamination method"
+          ]
+        },
+        {
+          "id": "ap6",
+          "group": "Plant Anatomy & Vascular Structure",
+          "label": "Grafting Rootstocks and the Phylloxera Epidemic",
+          "date": "1880",
+          "loc": "Bordeaux, France",
+          "coords": [
+            44.84,
+            -0.58
+          ],
+          "tag": "APPLICATION",
+          "hint": "An American aphid-like insect accidentally imported to Europe on nursery vines in the 1860s spent two decades quietly devastating French vineyards by feeding on grapevine roots, since European wine grapevines had no evolved resistance to a pest their American wild-grape relatives had lived alongside for millions of years — the industry-saving solution was to graft the traditional European fruiting varieties onto resistant American rootstock, a fix now so universal that nearly all wine grapevines worldwide grow on American roots today.",
+          "note": "French vineyard laws formally sanctioning rootstock grafting were passed in 1878 and 1879, following roughly fifteen years of failed alternative remedies including soil flooding and chemical treatments; the practice became near-universal across French viticulture by the 1890s. The episode remains the clearest large-scale historical demonstration that grafting compatibility can be exploited to combine a desired variety's fruit quality with an entirely different variety's pest or disease resistance, a principle since applied to citrus, apples, and many other grafted fruit crops.",
+          "links": [],
+          "keywords": [
+            "phylloxera root feeding pest",
+            "american rootstock resistance grafting",
+            "vineyard industry rescue"
+          ]
+        }
+      ]
     }
   ],
   "timeline": [
