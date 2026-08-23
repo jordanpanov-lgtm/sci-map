@@ -1423,7 +1423,211 @@
       "accent": "#CA6F1E",
       "bg": "#FDF5EC",
       "subtitle": "Live controversies — where the field is actively contesting the evidence",
-      "entries": []
+      "entries": [
+        {
+          "id": "db1",
+          "group": "Plate Tectonics & Structural Geology",
+          "label": "Continental Drift Rejection",
+          "date": "1926",
+          "loc": "New York, New York",
+          "coords": [
+            40.71,
+            -74.01
+          ],
+          "tag": "DEBATE",
+          "hint": "Despite compiling substantial cross-disciplinary supporting evidence (see st4), Wegener's continental drift theory (see th2) was rejected by most geologists, especially in America, for nearly fifty years — not primarily because the evidence for continental connection was weak, but because Wegener could offer no physically plausible mechanism for how solid continents could plough through equally solid ocean floor, a gap critics considered fatal regardless of how compelling the supporting pattern evidence looked.",
+          "note": "The 1926 American Association of Petroleum Geologists symposium in New York produced a published volume, Theory of Continental Drift (1928), in which most American contributors rejected the theory, often in sharply dismissive terms. The rejection is now frequently cited as a cautionary case study in the history and philosophy of science: correct conclusions can be rejected for genuinely sound methodological reasons — the missing mechanism — reasons that later evidence (see th3) simply happened to resolve rather than the original scepticism having been unreasonable at the time.",
+          "links": [
+            "th2",
+            "fg4"
+          ],
+          "keywords": [
+            "missing mechanism rejection",
+            "aapg symposium dismissal",
+            "fifty year theory delay"
+          ]
+        },
+        {
+          "id": "db2",
+          "group": "Mineralogy & Petrology",
+          "label": "Neptunism vs. Plutonism",
+          "date": "1785",
+          "loc": "Freiberg, Saxony, Germany",
+          "coords": [
+            50.91,
+            13.34
+          ],
+          "tag": "DEBATE",
+          "hint": "Werner argued that essentially all rock, including granite and basalt now known to be volcanic in origin, had precipitated out of a single, ancient, universal ocean that once covered the entire planet and has since receded — a theory that dominated European geology for decades through the influence of Werner's many devoted students, until field evidence, including basalt clearly cooling from observably molten lava, decisively vindicated Hutton's rival view that such rocks instead crystallised from internal, volcanic heat.",
+          "note": "Werner, A.G. taught Neptunism at the Freiberg Mining Academy in Saxony from the 1780s onward, training an influential generation of European geologists. The debate was substantially settled by the 1820s–1830s as field geologists, including Hutton's followers, documented basalt columns clearly associated with extinct volcanic vents and demonstrated that granite could be found intruding into and baking surrounding rock, both far more consistent with an igneous, molten origin than gradual precipitation from ocean water.",
+          "links": [
+            "th1",
+            "co1"
+          ],
+          "keywords": [
+            "primordial ocean rock origin",
+            "werner freiberg school",
+            "igneous versus sedimentary origin"
+          ]
+        },
+        {
+          "id": "db3",
+          "group": "Stratigraphy & Deep Time",
+          "label": "Catastrophism vs. Uniformitarianism",
+          "date": "1830",
+          "loc": "Paris, France",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "tag": "DEBATE",
+          "hint": "Cuvier and other catastrophists argued that Earth's geological and fossil record showed evidence of repeated, sudden, violent upheavals — floods, mass extinctions — punctuating otherwise stable periods, while uniformitarians like Lyell insisted the same slow, gradual, everyday processes observable today, given enough accumulated time, were fully sufficient to explain the entire geological record without needing to invoke any unobserved catastrophic events at all.",
+          "note": "Cuvier, G. (1812). Recherches sur les ossemens fossiles de quadrupèdes. Paris, argued for catastrophic extinction events based on abrupt faunal changes between rock layers; Lyell, C. (1830) explicitly positioned Principles of Geology against this view. Modern geology has substantially reconciled the two positions: mass extinctions and other genuine catastrophic events (see db4) are now well accepted as real, significant events, but understood as occurring within, rather than replacing, the same ordinary physical laws that govern gradual change the rest of the time.",
+          "links": [
+            "th1",
+            "db4"
+          ],
+          "keywords": [
+            "sudden versus gradual change",
+            "cuvier extinction evidence",
+            "geological philosophy reconciliation"
+          ]
+        },
+        {
+          "id": "db4",
+          "group": "Stratigraphy & Deep Time",
+          "label": "K-Pg Extinction: Impact vs. Volcanism",
+          "date": "1980",
+          "loc": "Berkeley, California",
+          "coords": [
+            37.87,
+            -122.26
+          ],
+          "tag": "DEBATE",
+          "hint": "The abrupt mass extinction that ended the age of dinosaurs 66 million years ago coincides suspiciously closely with both a massive asteroid impact (see st13) and an enormous, prolonged episode of volcanic eruption in what is now India, the Deccan Traps — leaving genuinely contested exactly how much extinction blame each event deserves individually, whether the impact alone was sufficient, or whether the two catastrophes acting together, or even the impact directly triggering or intensifying the volcanism, best explains the extinction's severity and abruptness.",
+          "note": "Alvarez, L.W., Alvarez, W., Asaro, F. & Michel, H.V. (1980). 'Extraterrestrial Cause for the Cretaceous-Tertiary Extinction.' Science, 208(4448), 1095–1108, proposed the impact hypothesis based on a worldwide layer of iridium-enriched clay; the Chicxulub crater (see st13) later supplied the specific impact site. Deccan Traps advocates (Keller, G. et al., ongoing research) argue precise dating shows major eruption pulses closely bracketing the extinction boundary, and that the impact itself may have triggered or accelerated the volcanism through seismic shockwaves — a 'one-two punch' hypothesis attempting to reconcile both camps rather than declaring a single sole cause.",
+          "links": [
+            "st13",
+            "db3"
+          ],
+          "keywords": [
+            "dinosaur extinction cause dispute",
+            "deccan traps volcanism",
+            "iridium impact layer evidence"
+          ]
+        },
+        {
+          "id": "db5",
+          "group": "Seismology & Earthquake Science",
+          "label": "Earthquake Prediction: Is It Possible?",
+          "date": "1975",
+          "loc": "Haicheng, China",
+          "coords": [
+            40.85,
+            122.75
+          ],
+          "tag": "DEBATE",
+          "hint": "Despite over a century of dedicated research effort, no scientific method has ever reliably predicted the specific time, location, and magnitude of a coming earthquake with the consistency and lead time genuinely useful for evacuation — most seismologists have concluded short-term earthquake prediction is likely fundamentally impossible given the chaotic, unpredictable nature of fault rupture, and current effort instead focuses on longer-term probabilistic hazard forecasting and, separately, early-warning systems that detect an earthquake already in progress seconds before its worst shaking arrives.",
+          "note": "Chinese officials evacuated Haicheng shortly before a damaging 1975 earthquake based on a combination of foreshock activity and anomalous animal behaviour reports, an apparent prediction success still debated over how much was genuine scientific forecasting versus fortunate timing; a similarly serious 1976 Tangshan earthquake, by contrast, struck with no successful warning at all and killed an estimated 240,000 people. The scientific consensus has since shifted decisively away from short-term deterministic prediction and toward probabilistic hazard mapping and rapid post-rupture early-warning alerts (see ap1).",
+          "links": [
+            "ap1"
+          ],
+          "keywords": [
+            "short term prediction failure",
+            "haicheng evacuation controversy",
+            "probabilistic hazard forecasting"
+          ]
+        },
+        {
+          "id": "db6",
+          "group": "Stratigraphy & Deep Time",
+          "label": "The Snowball Earth Hypothesis",
+          "date": "1992",
+          "loc": "California Institute of Technology, Pasadena, California",
+          "coords": [
+            34.14,
+            -118.13
+          ],
+          "tag": "DEBATE",
+          "hint": "Geological evidence — glacial deposits found in rock layers that were, according to independent paleomagnetic data, located near the equator at the time they formed — suggests that at least once, and possibly several times, in the deep Precambrian past, Earth's oceans may have frozen over entirely from pole to pole, an extreme global glaciation from which the planet could only have escaped through an enormous build-up of volcanic carbon dioxide eventually triggering a runaway greenhouse thaw, though some researchers argue the evidence instead points to a milder, only partially frozen 'slushball' state.",
+          "note": "Kirschvink, J.L. (1992). 'Late Proterozoic Low-Latitude Global Glaciation: The Snowball Earth.' In J.W. Schopf & C. Klein (eds.), The Proterozoic Biosphere, Cambridge University Press, 51–52, formalised the hypothesis, building on tropical glacial deposit evidence noted by earlier researchers. Critics (Hyde, W.T. et al. 2000, Nature, using climate models) argue a fully frozen ocean would have been extremely difficult to escape from and propose a 'slushball' alternative with a persistent equatorial belt of open or thin ice, a genuinely unresolved question given how sparse and ambiguous direct physical evidence from over 600 million years ago necessarily is.",
+          "links": [
+            "co3"
+          ],
+          "keywords": [
+            "global glaciation hypothesis",
+            "tropical glacial deposit evidence",
+            "slushball alternative model"
+          ]
+        },
+        {
+          "id": "db7",
+          "group": "Earth's Interior & Geophysics",
+          "label": "Mantle Plumes vs. Plate-Driven Volcanism",
+          "date": "1971",
+          "loc": "Princeton University, Princeton, New Jersey",
+          "coords": [
+            40.34,
+            -74.65
+          ],
+          "tag": "DEBATE",
+          "hint": "Volcanic hotspots far from any plate boundary, like Hawaii and Yellowstone, are conventionally explained as the surface expression of a narrow plume of unusually hot rock rising all the way from near the core-mantle boundary — but seismic tomography has struggled to consistently image the kind of clean, continuous, deep vertical plume the theory predicts beneath many proposed hotspots, leading some researchers to argue that shallower processes within the upper mantle and crust, unrelated to any deep plume at all, better explain at least some of these volcanic hotspots.",
+          "note": "Morgan, W.J. (1971). 'Convection Plumes in the Lower Mantle.' Nature, 230, 42–43, formalised the deep mantle plume theory, building on J. Tuzo Wilson's earlier hotspot concept (see fg8). Anderson, D.L. (2000, and subsequent papers) has been among the most prominent critics, arguing shallow, plate-tectonic-driven processes can explain much hotspot volcanism without requiring deep plumes at all; seismic tomography (see me2) has confirmed plume-like structures beneath some hotspots, including Hawaii, while remaining genuinely ambiguous or contradictory for others.",
+          "links": [
+            "fg8",
+            "me2"
+          ],
+          "keywords": [
+            "deep mantle plume theory",
+            "hotspot volcanism origin dispute",
+            "seismic tomography ambiguity"
+          ]
+        },
+        {
+          "id": "db8",
+          "group": "Stratigraphy & Deep Time",
+          "label": "The Great Oxidation Event's Trigger",
+          "date": "2001",
+          "loc": "Pennsylvania State University, University Park, Pennsylvania",
+          "coords": [
+            40.79,
+            -77.86
+          ],
+          "tag": "DEBATE",
+          "hint": "Photosynthetic cyanobacteria capable of producing oxygen appear to have existed for several hundred million years before atmospheric oxygen levels actually began rising sharply around 2.4 billion years ago — a substantial, genuinely puzzling delay that has prompted competing explanations, including changing volcanic gas chemistry that had been consuming the early oxygen, a decline in oxygen-absorbing dissolved minerals in the ocean, or evolutionary changes in the cyanobacteria themselves, none of which yet commands decisive, universal scientific agreement.",
+          "note": "Kasting, J.F. (2001). 'The Rise of Atmospheric Oxygen.' Science, 293(5531), 819–820, reviewed the competing hypotheses for the roughly 300–800 million year delay between the likely evolutionary origin of oxygen-producing photosynthesis and the Great Oxidation Event itself. The event, once it began, permanently transformed Earth's atmosphere and ocean chemistry and is thought to have caused a severe, extended die-off among the many contemporary microorganisms poisoned by the newly abundant oxygen, sometimes called the 'oxygen catastrophe.'",
+          "links": [
+            "co3"
+          ],
+          "keywords": [
+            "oxygen delay puzzle",
+            "cyanobacteria photosynthesis timing",
+            "atmospheric transformation event"
+          ]
+        },
+        {
+          "id": "db9",
+          "group": "Seismology & Earthquake Science",
+          "label": "Fracking and Induced Seismicity",
+          "date": "2014",
+          "loc": "University of Oklahoma, Norman, Oklahoma",
+          "coords": [
+            35.21,
+            -97.45
+          ],
+          "tag": "DEBATE",
+          "hint": "Oklahoma, historically one of the least seismically active US states, experienced a sudden, dramatic spike in earthquake frequency starting around 2009, closely tracking the disposal of enormous volumes of wastewater — a byproduct of oil and gas extraction, including hydraulic fracturing — injected deep underground, where the added fluid pressure can lubricate and reactivate ancient, previously dormant fault lines; the specific relative contribution of wastewater disposal versus the hydraulic fracturing process itself remains a genuinely contested distinction in both the scientific literature and public debate.",
+          "note": "Keranen, K.M. et al. (2014). 'Sharp Increase in Central Oklahoma Seismicity since 2008 Induced by Massive Wastewater Injection.' Science, 345(6195), 448–451, directly linked the seismicity spike to injection wells. Research broadly distinguishes wastewater disposal injection, now understood as the dominant induced-seismicity driver in Oklahoma specifically, from the hydraulic fracturing process itself, which has been more directly linked to smaller, generally less consequential induced earthquakes in some other regions, a distinction frequently lost in public and media discussion that treats 'fracking' as a single undifferentiated cause.",
+          "links": [
+            "th8"
+          ],
+          "keywords": [
+            "wastewater injection seismicity",
+            "oklahoma earthquake spike",
+            "induced fault reactivation"
+          ]
+        }
+      ]
     },
     {
       "id": "application",
@@ -1433,7 +1637,142 @@
       "accent": "#2E86C1",
       "bg": "#EBF5FB",
       "subtitle": "Where the science leaves the lab",
-      "entries": []
+      "entries": [
+        {
+          "id": "ap1",
+          "group": "Seismology & Earthquake Science",
+          "label": "Earthquake-Resistant Building Design",
+          "date": "1971",
+          "loc": "San Fernando, California",
+          "coords": [
+            34.28,
+            -118.44
+          ],
+          "tag": "APPLICATION",
+          "hint": "Modern earthquake-resistant construction uses flexible structural framing, base isolators that let a building's foundation slide somewhat independently of violent ground shaking, and reinforced connections designed to bend and absorb energy rather than shatter — building codes translating elastic rebound theory (see th8) and decades of accumulated damage-pattern data directly into specific, mandatory engineering requirements that measurably reduce casualties, even though they cannot prevent all structural damage in a truly severe earthquake.",
+          "note": "The 1971 San Fernando earthquake caused a partial hospital collapse and other significant structural failures that directly catalysed a major overhaul of California and, subsequently, US national seismic building codes through the 1976 Uniform Building Code. Comparing casualty counts between structurally similar earthquakes in regions with strict modern codes, such as Japan or California, and those without, such as the 2010 Haiti earthquake, provides some of the starkest, most direct evidence for building codes' life-saving real-world effectiveness.",
+          "links": [
+            "ef1",
+            "th8"
+          ],
+          "keywords": [
+            "seismic building code",
+            "base isolation engineering",
+            "structural earthquake damage reduction"
+          ]
+        },
+        {
+          "id": "ap2",
+          "group": "Stratigraphy & Deep Time",
+          "label": "Petroleum Geology & Reservoir Exploration",
+          "date": "1859",
+          "loc": "Titusville, Pennsylvania",
+          "coords": [
+            41.63,
+            -79.68
+          ],
+          "tag": "APPLICATION",
+          "hint": "Oil and natural gas accumulate only where a specific geological combination lines up: an organic-rich source rock buried and heated just enough to convert its contents into hydrocarbons, a porous and permeable reservoir rock for the oil or gas to migrate into, and an overlying impermeable seal rock trapping it in place — petroleum geologists use subsurface mapping, seismic surveys, and stratigraphic analysis to identify where all three conditions are likely to coincide before committing to the enormous expense of drilling an exploratory well.",
+          "note": "Drake, E.L. drilled the first commercial oil well in Titusville, Pennsylvania, in 1859, launching the modern petroleum industry, though it took several more decades for petroleum geology to develop into a rigorous predictive science rather than largely speculative drilling. Modern exploration relies heavily on seismic reflection surveys to map subsurface rock structure remotely before drilling, dramatically improving the historically low success rate of exploratory ('wildcat') wells.",
+          "links": [
+            "co5"
+          ],
+          "keywords": [
+            "source reservoir seal trap",
+            "seismic exploration survey",
+            "wildcat well drilling"
+          ]
+        },
+        {
+          "id": "ap3",
+          "group": "Volcanology",
+          "label": "Volcanic Hazard Monitoring & Eruption Forecasting",
+          "date": "1912",
+          "loc": "Hawaiian Volcano Observatory, Kilauea, Hawaii",
+          "coords": [
+            19.42,
+            -155.29
+          ],
+          "tag": "APPLICATION",
+          "hint": "Continuously monitoring an active volcano for small earthquake swarms, ground deformation (often measured by GPS and satellite radar), and changes in gas emissions lets volcanologists detect the physical signs of rising magma days to weeks before an eruption actually begins, providing crucial lead time for evacuation — the same precursor-monitoring approach that gave the US Geological Survey enough warning to correctly forecast the general timing and likely style of the 1980 Mount St. Helens eruption (see st10).",
+          "note": "Thomas Jaggar founded the Hawaiian Volcano Observatory in 1912, the first permanent, continuously staffed volcano monitoring station in the world, following his direct field experience investigating the catastrophic, poorly forecast 1902 eruption of Mount Pelée in Martinique that killed nearly 30,000 people. Modern volcanic hazard monitoring combines seismometers, GPS deformation networks, satellite-based gas and thermal sensing, and increasingly automated pattern-recognition systems, though eruption forecasting still cannot reliably predict the precise moment or ultimate scale of a coming eruption.",
+          "links": [
+            "st10",
+            "co8"
+          ],
+          "keywords": [
+            "precursor eruption monitoring",
+            "hawaiian volcano observatory founding",
+            "evacuation lead time forecasting"
+          ]
+        },
+        {
+          "id": "ap4",
+          "group": "Mineralogy & Petrology",
+          "label": "Ore Deposit Formation & Mining",
+          "date": "1933",
+          "loc": "Massachusetts Institute of Technology, Cambridge, Massachusetts",
+          "coords": [
+            42.36,
+            -71.09
+          ],
+          "tag": "APPLICATION",
+          "hint": "Economically valuable concentrations of metal ore form through specific, identifiable geological processes — hot, mineral-rich fluids circulating around a cooling magma body can precipitate copper or gold in surrounding rock, seawater evaporating in an enclosed basin can concentrate valuable salts, and dense metal grains eroded from a source rock can accumulate in a stream bed — understanding exactly which process formed a given deposit lets geologists predict where similar, still-undiscovered deposits are most likely to be found.",
+          "note": "Lindgren, W. (1933). Mineral Deposits. McGraw-Hill, established an influential systematic classification of ore deposits by their geological formation process and depth, still referenced in modern economic geology despite substantial subsequent revision. Modern mineral exploration combines geological mapping, geochemical sampling, and geophysical surveys, including magnetic and gravity anomaly detection, to identify promising deposits before committing to the expense of exploratory drilling, mirroring petroleum exploration's approach (see ap2).",
+          "links": [
+            "ap2"
+          ],
+          "keywords": [
+            "ore deposit classification",
+            "hydrothermal mineral precipitation",
+            "mineral exploration prediction"
+          ]
+        },
+        {
+          "id": "ap5",
+          "group": "Geomorphology & Surface Processes",
+          "label": "Groundwater Hydrogeology",
+          "date": "1856",
+          "loc": "Dijon, France",
+          "coords": [
+            47.32,
+            5.04
+          ],
+          "tag": "APPLICATION",
+          "hint": "Water moves through underground layers of porous, permeable rock and sediment at a rate that depends predictably on the material's permeability and the pressure difference driving the flow — a simple, quantitative relationship that lets hydrogeologists calculate how fast groundwater moves, how far a contamination plume from a leaking source will spread over time, and how much water a well can sustainably draw from an aquifer without depleting it faster than it naturally recharges.",
+          "note": "Darcy, H. (1856). Les fontaines publiques de la ville de Dijon. Victor Dalmont, derived the foundational flow equation now called Darcy's Law from experiments designing Dijon's public water fountain system. Groundwater supplies drinking water for roughly half the world's population, and Darcy's Law remains the basic quantitative foundation for both sustainable aquifer management and predicting the spread of underground contamination from sources like leaking storage tanks or agricultural runoff.",
+          "links": [
+            "ef4"
+          ],
+          "keywords": [
+            "darcy's law flow equation",
+            "aquifer sustainable yield",
+            "contamination plume prediction"
+          ]
+        },
+        {
+          "id": "ap6",
+          "group": "Stratigraphy & Deep Time",
+          "label": "Geochemistry & Public Health (Leaded Gasoline)",
+          "date": "1965",
+          "loc": "Washington, D.C.",
+          "coords": [
+            38.9,
+            -77.04
+          ],
+          "tag": "APPLICATION",
+          "hint": "The same ultra-clean laboratory techniques Patterson developed to avoid contaminating his rock samples with trace environmental lead (see st8) also let him directly measure just how much lead pollution industrial society had already added to the modern environment, ice cores, and human bodies compared to samples predating widespread leaded-gasoline use — turning a purely geochemical measurement technique into decisive evidence for a major public health policy campaign that eventually led the United States and most other countries to ban lead as a gasoline additive entirely.",
+          "note": "Patterson, C.C. (1965). 'Contaminated and Natural Lead Environments of Man.' Archives of Environmental Health, 11(3), 344–360, presented the environmental contamination case directly to public health authorities and Congress, facing sustained, well-funded opposition from the leaded-gasoline industry for over a decade. Leaded gasoline was fully phased out in the United States by 1996; blood lead levels in the general US population fell by roughly 80% between the 1970s and the 1990s, a decline widely attributed substantially to the phase-out Patterson's geochemical evidence helped drive.",
+          "links": [
+            "st8"
+          ],
+          "keywords": [
+            "environmental lead contamination",
+            "leaded gasoline phase out",
+            "geochemistry public health advocacy"
+          ]
+        }
+      ]
     }
   ],
   "timeline": [
