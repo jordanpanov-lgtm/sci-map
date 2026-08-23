@@ -978,7 +978,138 @@
       "accent": "#8B5E00",
       "bg": "#FFF8F0",
       "subtitle": "The tools and paradigms that generate the field's evidence",
-      "entries": []
+      "entries": [
+        {
+          "id": "me1",
+          "group": "Severe Weather & Storms",
+          "label": "Doppler Weather Radar",
+          "date": "1988",
+          "loc": "Norman, Oklahoma",
+          "coords": [
+            35.22,
+            -97.44
+          ],
+          "tag": "METHOD",
+          "hint": "Ordinary radar reveals where precipitation is falling by bouncing radio waves off raindrops and measuring how long the echo takes to return, but Doppler radar additionally measures the tiny shift in the returning wave's frequency caused by the raindrops' motion toward or away from the radar — directly revealing wind speed and direction within a storm, not just where rain is falling, letting forecasters see a tornado's rotating wind signature developing inside a thunderstorm minutes before the tornado itself actually touches the ground.",
+          "note": "The US National Weather Service's NEXRAD (WSR-88D) Doppler radar network was deployed nationwide between 1988 and 1997, building directly on the experimental Doppler radar validation at Union City (see st9) and the National Severe Storms Laboratory's decades of prior development work. Average tornado warning lead time in the United States improved from essentially zero before Doppler radar deployment to roughly 13 minutes afterward, a substantial, life-saving practical gain directly attributable to the technology.",
+          "links": [
+            "st9"
+          ],
+          "keywords": [
+            "frequency shift wind detection",
+            "nexrad network deployment",
+            "tornado warning lead time"
+          ]
+        },
+        {
+          "id": "me2",
+          "group": "Atmospheric Structure & Thermodynamics",
+          "label": "Radiosonde (Weather Balloon Sounding)",
+          "date": "1930",
+          "loc": "Pavlovsk, Russia",
+          "coords": [
+            59.69,
+            30.45
+          ],
+          "tag": "METHOD",
+          "hint": "A small, expendable instrument package carrying a thermometer, barometer, and hygrometer is lofted many kilometres into the atmosphere by a large helium or hydrogen balloon, continuously radioing its measurements back down to a ground receiving station as it rises — providing the single vertical profile of temperature, pressure, humidity, and wind through the entire depth of the atmosphere that stability analysis (see co1), forecasting, and numerical weather models all fundamentally depend on.",
+          "note": "Molchanov, P. (1930). 'Sur un radiotélémètre météorologique.' Comptes Rendus de l'Académie des Sciences, Paris, demonstrated the first practical radio-transmitting weather balloon instrument in 1927. Radiosondes are launched twice daily, simultaneously, from roughly 900 stations worldwide, providing the essential three-dimensional observational backbone that initialises every operational numerical weather prediction model (see me3, me4) run anywhere on Earth.",
+          "links": [
+            "co1"
+          ],
+          "keywords": [
+            "balloon borne instrument package",
+            "vertical atmospheric profile",
+            "twice daily global launch network"
+          ]
+        },
+        {
+          "id": "me3",
+          "group": "Numerical Weather Prediction & Forecasting",
+          "label": "Synoptic Weather Chart Analysis",
+          "date": "1863",
+          "loc": "Paris, France",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "tag": "METHOD",
+          "hint": "Plotting simultaneous weather observations — temperature, pressure, wind, cloud cover — from many separate stations onto a single map at the same moment in time reveals the large-scale pattern of fronts, high- and low-pressure systems, and air masses invisible from any single station's data alone, turning isolated point measurements into a coherent, analysable picture of the atmosphere's current state across an entire continent.",
+          "note": "Le Verrier, U. (1863) established a real-time synoptic weather mapping network at the Paris Observatory using telegraph reports, directly motivated by a catastrophic 1854 storm during the Crimean War that destroyed a French naval fleet with no advance warning at all. Synoptic analysis by trained human forecasters remained the primary weather-prediction method for nearly a century until numerical weather prediction (see me4) gradually took over the core forecasting task from the mid-twentieth century onward.",
+          "links": [
+            "st1"
+          ],
+          "keywords": [
+            "simultaneous observation mapping",
+            "telegraph weather network",
+            "pre computer forecasting method"
+          ]
+        },
+        {
+          "id": "me4",
+          "group": "Numerical Weather Prediction & Forecasting",
+          "label": "Ensemble Forecasting",
+          "date": "1993",
+          "loc": "Camp Springs, Maryland",
+          "coords": [
+            38.81,
+            -76.92
+          ],
+          "tag": "METHOD",
+          "hint": "Rather than running a weather model just once from a single best-estimate starting condition, ensemble forecasting runs the same model dozens of times simultaneously, each starting from a slightly different, equally plausible version of the current atmospheric state — since Lorenz's chaos theory (see th3) proved forecasts are inherently sensitive to tiny initial differences, running many slightly varied forecasts together gives forecasters a direct, quantitative measure of how confident to actually be in any specific prediction.",
+          "note": "Toth, Z. & Kalnay, E. (1993). 'Ensemble Forecasting at NMC: The Generation of Perturbations.' Bulletin of the American Meteorological Society, 74(12), 2317–2330, implemented operational ensemble forecasting at the US National Meteorological Center; the European Centre for Medium-Range Weather Forecasts developed a parallel system around the same time. When ensemble members strongly agree, forecasters can issue a confident prediction; when they diverge sharply, the resulting 'spaghetti plot' of scattered possible storm tracks directly communicates genuine forecast uncertainty.",
+          "links": [
+            "th3"
+          ],
+          "keywords": [
+            "multiple perturbed forecast runs",
+            "quantified forecast confidence",
+            "spaghetti plot uncertainty"
+          ]
+        },
+        {
+          "id": "me5",
+          "group": "Severe Weather & Storms",
+          "label": "Aircraft Reconnaissance (Hurricane Hunters)",
+          "date": "1943",
+          "loc": "Bryan, Texas",
+          "coords": [
+            30.67,
+            -96.37
+          ],
+          "tag": "METHOD",
+          "hint": "Specially equipped aircraft fly directly into the eye of a developing or mature hurricane, repeatedly, dropping instrument packages that measure wind speed, pressure, and temperature throughout the storm's structure from the inside — data that satellite imagery alone cannot fully substitute for, since a satellite sees only a storm's cloud-top structure from above and cannot directly measure its actual internal wind speed and central pressure.",
+          "note": "Colonel Joseph Duckworth flew a single-engine trainer aircraft directly into a Texas hurricane in July 1943, reportedly after a bet with British pilots training nearby who doubted it could be done safely, demonstrating the flight was survivable and immediately useful. The US Air Force and NOAA's dedicated 'Hurricane Hunter' squadrons have flown routine reconnaissance and research missions into tropical cyclones ever since, providing the single most direct and reliable measurement of a hurricane's true central pressure and wind speed available to forecasters.",
+          "links": [
+            "ef4"
+          ],
+          "keywords": [
+            "hurricane eye penetration flight",
+            "direct internal storm measurement",
+            "duckworth first flight bet"
+          ]
+        },
+        {
+          "id": "me6",
+          "group": "Global Circulation & Climate Dynamics",
+          "label": "Climate Reanalysis",
+          "date": "1996",
+          "loc": "Camp Springs, Maryland",
+          "coords": [
+            38.81,
+            -76.92
+          ],
+          "tag": "METHOD",
+          "hint": "Reanalysis takes every historical weather observation ever recorded — ship logs, weather balloons, satellites, ground stations, spanning decades — and reprocesses the entire dataset using a single, fixed, modern numerical weather model, filling gaps and correcting inconsistencies in a physically consistent way, to produce a complete, uniform, gridded reconstruction of the atmosphere's past state far more internally consistent for studying long-term trends than the original patchwork of historical observations ever was.",
+          "note": "Kalnay, E. et al. (1996). 'The NCEP/NCAR 40-Year Reanalysis Project.' Bulletin of the American Meteorological Society, 77(3), 437–472, produced the first comprehensive, publicly available global reanalysis dataset. Because reanalysis uses one fixed modern model throughout, it can occasionally still introduce its own subtle artificial trends whenever the underlying volume and quality of raw observational data going into it changes significantly over time, such as the introduction of new satellite instruments.",
+          "links": [],
+          "keywords": [
+            "historical data reprocessing",
+            "gridded atmospheric reconstruction",
+            "consistent long term dataset"
+          ]
+        }
+      ]
     },
     {
       "id": "figure",
@@ -988,7 +1119,276 @@
       "accent": "#B7770D",
       "bg": "#FEFDE7",
       "subtitle": "The researchers who shaped the discipline",
-      "entries": []
+      "entries": [
+        {
+          "id": "fg1",
+          "group": "Pioneers & Theorists",
+          "label": "Vilhelm Bjerknes",
+          "date": "1904",
+          "loc": "Stockholm, Sweden",
+          "coords": [
+            59.33,
+            18.06
+          ],
+          "tag": "FIGURE",
+          "hint": "Bjerknes proposed that weather forecasting was, at least in principle, a solvable problem in physics and mathematics rather than an art of pattern recognition (see st13), and later founded the Bergen Geophysical Institute in Norway, where his son Jacob and a close-knit group of students developed frontal theory (see th1) and the Norwegian Cyclone Model (see th7) that transformed his theoretical vision into the practical foundation of modern weather forecasting.",
+          "note": "Bjerknes, V. (1904). 'Das Problem der Wettervorhersage.' Meteorologische Zeitschrift, 21, 1–7. Bjerknes had earlier made significant contributions to fundamental fluid dynamics, including the Bjerknes circulation theorem, before turning his attention specifically to weather forecasting; the research group he assembled and mentored at Bergen, including his own son, is now remembered collectively as 'the Bergen School' of meteorology.",
+          "links": [
+            "st13"
+          ],
+          "keywords": [
+            "weather forecasting manifesto",
+            "bergen geophysical institute founder",
+            "bergen school mentor"
+          ]
+        },
+        {
+          "id": "fg2",
+          "group": "Pioneers & Theorists",
+          "label": "Robert FitzRoy",
+          "date": "1861",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "FIGURE",
+          "hint": "A former Royal Navy officer who commanded HMS Beagle during Charles Darwin's famous voyage, FitzRoy later became the first head of Britain's Meteorological Department and established the world's first operational, telegraph-based storm warning service (see st1) — an achievement met with public ridicule from scientific peers sceptical that weather could be meaningfully forecast at all, criticism that contributed to his death by suicide in 1865.",
+          "note": "FitzRoy, R. established the Met Office storm warning system in 1861 and personally coined the term 'weather forecast.' FitzRoy also served as Governor of New Zealand earlier in his career and, following his death, was posthumously honoured by having a major sea area in the UK's shipping forecast renamed 'FitzRoy' in 2002, in recognition of his foundational contribution to marine weather warning.",
+          "links": [
+            "st1"
+          ],
+          "keywords": [
+            "first weather forecast coinage",
+            "beagle voyage captain",
+            "shipping forecast tribute"
+          ]
+        },
+        {
+          "id": "fg3",
+          "group": "Pioneers & Theorists",
+          "label": "Luke Howard",
+          "date": "1803",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "FIGURE",
+          "hint": "A pharmaceutical chemist by profession and amateur meteorologist by passion, Howard developed the Latin-based cloud classification system (see co3) still used essentially unchanged today, presenting it initially not to a professional scientific society but to a small amateur philosophical discussion club — an outsider's contribution that nonetheless became one of the most enduringly influential classification systems in the entire history of science.",
+          "note": "Howard, L. (1803). 'On the Modification of Clouds.' Philosophical Magazine, 16, 97–107, first presented to the Askesian Society, an amateur London scientific discussion club. Howard's day job manufacturing pharmaceutical chemicals funded his meteorological observations as a serious hobby; he also kept one of the longest continuous personal weather records of his era, published as The Climate of London (1818–20), among the first systematic studies of the urban heat island effect.",
+          "links": [
+            "co3"
+          ],
+          "keywords": [
+            "amateur cloud classification",
+            "askesian society presentation",
+            "early urban climate record"
+          ]
+        },
+        {
+          "id": "fg4",
+          "group": "Pioneers & Theorists",
+          "label": "Gilbert Walker",
+          "date": "1923",
+          "loc": "Simla, India",
+          "coords": [
+            31.1,
+            77.17
+          ],
+          "tag": "FIGURE",
+          "hint": "As Director-General of Observatories in British India, Walker was tasked with the practically urgent problem of predicting the strength of the Indian monsoon after several catastrophic failures had caused mass famine, and while he never solved that specific practical problem during his own lifetime, his exhaustive statistical search for correlated global weather patterns uncovered the Southern Oscillation (see st8), a discovery whose true physical significance was only properly understood decades after Walker's own death.",
+          "note": "Walker, G.T. (1923). 'Correlation in Seasonal Variations of Weather, VIII: A Preliminary Study of World Weather.' Memoirs of the India Meteorological Department, 24, 75–131. Before turning to meteorology, Walker had already established himself as an accomplished mathematician and even an expert on the physics of boomerangs and kite flight; the Walker Circulation, a large-scale tropical Pacific atmospheric circulation pattern directly tied to the Southern Oscillation, is now named in his honour.",
+          "links": [
+            "st8"
+          ],
+          "keywords": [
+            "southern oscillation discovery",
+            "monsoon prediction mandate",
+            "walker circulation namesake"
+          ]
+        },
+        {
+          "id": "fg5",
+          "group": "Pioneers & Theorists",
+          "label": "Edward Lorenz",
+          "date": "1963",
+          "loc": "Massachusetts Institute of Technology, Cambridge, Massachusetts",
+          "coords": [
+            42.36,
+            -71.09
+          ],
+          "tag": "FIGURE",
+          "hint": "A meteorologist by training rather than a mathematician, Lorenz discovered deterministic chaos (see th3) essentially by accident, while trying to save time by restarting a computer weather simulation partway through using rounded-off numbers copied from a printout — a shortcut that inadvertently revealed one of the most important and far-reaching mathematical discoveries of the twentieth century, with implications extending far beyond meteorology into an enormous range of other scientific fields.",
+          "note": "Lorenz, E.N. (1963). 'Deterministic Nonperiodic Flow.' Journal of the Atmospheric Sciences, 20(2), 130–141. Lorenz's 1972 conference talk, titled 'Does the Flap of a Butterfly's Wings in Brazil Set Off a Tornado in Texas?', popularised the 'butterfly effect' term that has since become one of the most widely recognised phrases in all of popular science, far beyond meteorology's own specialist audience.",
+          "links": [
+            "th3"
+          ],
+          "keywords": [
+            "accidental chaos discovery",
+            "butterfly effect coinage",
+            "rounding error revelation"
+          ]
+        },
+        {
+          "id": "fg6",
+          "group": "Pioneers & Theorists",
+          "label": "Ted Fujita",
+          "date": "1971",
+          "loc": "University of Chicago, Chicago, Illinois",
+          "coords": [
+            41.79,
+            -87.6
+          ],
+          "tag": "FIGURE",
+          "hint": "Known within the meteorological community as 'Mr. Tornado' for his obsessive, pioneering dedication to studying severe storm damage, Fujita developed the original tornado intensity scale bearing his name (see co4) and, a few years later, discovered the previously unrecognised downburst phenomenon (see st6, ef5) that had been causing unexplained aviation accidents — achievements built on his distinctive personal method of meticulously mapping damage patterns from the air and ground to reconstruct a storm's exact wind field.",
+          "note": "Fujita, T.T. (1971). 'Proposed Characterization of Tornadoes and Hurricanes by Area and Intensity.' Satellite and Mesometeorology Research Project, University of Chicago, Research Paper No. 91, introduced the original Fujita Scale, later refined into the Enhanced Fujita Scale (see co4). Fujita personally surveyed damage from hundreds of tornadoes throughout his career, developing photogrammetric damage-mapping techniques still used by storm survey teams today.",
+          "links": [
+            "st4",
+            "st6",
+            "co4"
+          ],
+          "keywords": [
+            "mr tornado nickname",
+            "fujita scale creator",
+            "downburst hazard discovery"
+          ]
+        },
+        {
+          "id": "fg7",
+          "group": "Pioneers & Theorists",
+          "label": "Jacob Bjerknes",
+          "date": "1919",
+          "loc": "Bergen, Norway",
+          "coords": [
+            60.39,
+            5.32
+          ],
+          "tag": "FIGURE",
+          "hint": "The son of Vilhelm Bjerknes (see fg1), Jacob developed frontal theory (see th1) and the Norwegian Cyclone Model (see th7) as a young researcher at his father's Bergen institute, and decades later, working independently in California, connected Gilbert Walker's earlier statistical Southern Oscillation discovery (see st8) to actual ocean temperature changes in the tropical Pacific — formally establishing the El Niño-Southern Oscillation as a coupled ocean-atmosphere phenomenon.",
+          "note": "Bjerknes, J. (1919). 'On the Structure of Moving Cyclones.' Monthly Weather Review, 47(2), 95–99; Bjerknes, J. (1969). 'Atmospheric Teleconnections from the Equatorial Pacific.' Monthly Weather Review, 97(3), 163–172, made the ENSO connection five decades later while at the University of California, Los Angeles. Bjerknes's career thus spans, and directly links, two of meteorology's most consequential twentieth-century discoveries.",
+          "links": [
+            "th1",
+            "st8"
+          ],
+          "keywords": [
+            "frontal theory developer",
+            "enso ocean atmosphere link",
+            "two field defining discoveries"
+          ]
+        },
+        {
+          "id": "fg8",
+          "group": "Pioneers & Theorists",
+          "label": "Wasaburo Ōishi",
+          "date": "1934",
+          "loc": "Tateno, Japan",
+          "coords": [
+            36.06,
+            140.13
+          ],
+          "tag": "FIGURE",
+          "hint": "Director of the Tateno Aerological Observatory near Tokyo, Ōishi launched and tracked thousands of pilot balloons over nearly a decade to systematically document the jet stream (see st7), then deliberately published his findings in Esperanto rather than Japanese or a major European scientific language, hoping the constructed international language would help his discovery reach the broadest possible international scientific audience — a strategy that instead meant almost nobody outside Japan could read it.",
+          "note": "Ōishi, W. published his balloon observations from 1926 onward, culminating in a 1941 Esperanto-language summary. The jet stream's existence was independently rediscovered by American bomber crews during the Second World War, and only afterward did postwar meteorologists searching prior literature realise Ōishi's earlier Japanese balloon data had already documented the same phenomenon in detail years before.",
+          "links": [
+            "st7"
+          ],
+          "keywords": [
+            "jet stream balloon tracking",
+            "esperanto publication choice",
+            "overlooked prior discovery"
+          ]
+        },
+        {
+          "id": "fg9",
+          "group": "Pioneers & Theorists",
+          "label": "George Hadley",
+          "date": "1735",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "FIGURE",
+          "hint": "A lawyer by profession and only an amateur scientist, Hadley proposed the first physically grounded explanation for the trade winds and global atmospheric circulation (see th5), correctly identifying that solar heating drives a large-scale circulating loop of rising and sinking air — though his own explanation for why the resulting winds blow at a diagonal angle rather than straight toward the equator was subtly incorrect, missing the Coriolis effect (see th6) that would only be properly formalised a century later.",
+          "note": "Hadley, G. (1735). 'Concerning the Cause of the General Trade-Winds.' Philosophical Transactions of the Royal Society, 39, 58–62. Hadley's paper was largely overlooked for decades after publication and only became widely recognised as foundational once nineteenth-century meteorologists rediscovered and properly credited it; the tropical atmospheric circulation cell he described is now named the Hadley cell in his honour.",
+          "links": [
+            "th5"
+          ],
+          "keywords": [
+            "trade wind theory amateur",
+            "hadley cell namesake",
+            "overlooked then rediscovered paper"
+          ]
+        },
+        {
+          "id": "fg10",
+          "group": "Pioneers & Theorists",
+          "label": "Jule Charney",
+          "date": "1950",
+          "loc": "Princeton, New Jersey",
+          "coords": [
+            40.34,
+            -74.65
+          ],
+          "tag": "FIGURE",
+          "hint": "Charney led the small team that produced the first successful computer-generated weather forecast (see st3), then spent much of the rest of his career refining the mathematical foundations of numerical weather prediction and atmospheric dynamics, including formalising baroclinic instability theory (see th9) — establishing much of the theoretical and practical framework that every operational weather forecasting model in the world still builds on today.",
+          "note": "Charney, J.G., Fjørtoft, R. & von Neumann, J. (1950). 'Numerical Integration of the Barotropic Vorticity Equation.' Tellus, 2(4), 237–254. Charney worked closely with mathematician John von Neumann at Princeton's Institute for Advanced Study, part of the same broader research effort that helped launch both digital computing and modern numerical weather prediction as closely intertwined disciplines during the same postwar period.",
+          "links": [
+            "st3",
+            "th9"
+          ],
+          "keywords": [
+            "first computer forecast leader",
+            "baroclinic instability formalizer",
+            "von neumann collaboration"
+          ]
+        },
+        {
+          "id": "fg11",
+          "group": "Pioneers & Theorists",
+          "label": "Joanne Simpson",
+          "date": "1949",
+          "loc": "University of Chicago, Chicago, Illinois",
+          "coords": [
+            41.79,
+            -87.6
+          ],
+          "tag": "FIGURE",
+          "hint": "The first woman to earn a doctorate in meteorology, Simpson overcame direct, explicit discouragement from her own graduate advisers, who told her outright that a woman could not succeed in the field, to become a pioneering researcher on tropical cloud dynamics and hurricane behaviour, later serving as chief scientist for NASA's Tropical Rainfall Measuring Mission satellite and mentoring generations of women meteorologists who followed her into the field.",
+          "note": "Simpson, J. (1949). 'The Distribution of Cumulus Clouds over the Ocean.' PhD dissertation, University of Chicago, the first meteorology doctorate awarded to a woman anywhere in the United States. Simpson later conducted pioneering cloud-seeding experiments as part of hurricane modification research (see db4) and developed foundational models of how individual cumulus clouds interact with and help drive much larger-scale tropical weather systems.",
+          "links": [
+            "db4"
+          ],
+          "keywords": [
+            "first female meteorology phd",
+            "tropical cloud dynamics pioneer",
+            "nasa trmm chief scientist"
+          ]
+        },
+        {
+          "id": "fg12",
+          "group": "Pioneers & Theorists",
+          "label": "James Espy",
+          "date": "1841",
+          "loc": "Philadelphia, Pennsylvania",
+          "coords": [
+            39.95,
+            -75.16
+          ],
+          "tag": "FIGURE",
+          "hint": "Nicknamed 'the Storm King' for his passionate public advocacy of his convective theory of storms (see th2), Espy proposed that latent heat released by condensing water vapour, not purely mechanical wave motion, was the true energy source driving storm systems — a genuinely correct core insight defended through years of sometimes bitter public dispute with rival theorists, and Espy is now widely credited as one of the founding figures of the United States' national meteorological observation network.",
+          "note": "Espy, J.P. (1841). The Philosophy of Storms. Charles C. Little and James Brown. Espy served as the US government's first official meteorologist, and successfully lobbied Congress to fund a national network of volunteer weather observers reporting by telegraph, a direct institutional precursor to the modern US National Weather Service, even though his own storm theory took decades of additional evidence beyond his own advocacy to become fully scientifically accepted.",
+          "links": [
+            "th2"
+          ],
+          "keywords": [
+            "storm king nickname",
+            "convective storm theory advocate",
+            "us weather network founder"
+          ]
+        }
+      ]
     },
     {
       "id": "debate",
