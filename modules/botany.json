@@ -867,7 +867,130 @@
       "accent": "#8B5E00",
       "bg": "#FFF8F0",
       "subtitle": "The tools and paradigms that generate the field's evidence",
-      "entries": []
+      "entries": [
+        {
+          "id": "me1",
+          "group": "Plant Diversity & Evolutionary History",
+          "label": "Herbarium Specimen Preservation",
+          "date": "1551",
+          "loc": "University of Pisa, Pisa, Italy",
+          "coords": [
+            43.72,
+            10.4
+          ],
+          "tag": "METHOD",
+          "hint": "Pressing a plant flat and drying it between sheets of paper preserves its overall form, leaf shape, and reproductive structures in a stable, permanently referenceable state — a hortus siccus, or 'dry garden' — letting botanists build lasting, transportable, comparable reference collections rather than relying on memory, live specimens, or hand-drawn illustrations that could distort or omit diagnostic detail.",
+          "note": "Luca Ghini, teaching botany at Pisa and Bologna in the mid-sixteenth century, is credited as the first botanist to systematically press, dry, and mount plant specimens for reference and teaching, training a generation of influential students including Andrea Cesalpino. The technique spread across Europe within decades and remains, largely unchanged in principle, the standard method for documenting plant diversity — millions of herbarium sheets in collections worldwide still underpin modern taxonomic and genomic research.",
+          "links": [],
+          "keywords": [
+            "pressed dried plant specimen",
+            "permanent reference collection",
+            "hortus siccus technique"
+          ]
+        },
+        {
+          "id": "me2",
+          "group": "Photosynthesis & Plant Biochemistry",
+          "label": "Radioactive Isotope Tracing",
+          "date": "1941",
+          "loc": "University of California, Berkeley, California",
+          "coords": [
+            37.87,
+            -122.26
+          ],
+          "tag": "METHOD",
+          "hint": "Feeding a plant or alga carbon dioxide built from a radioactive carbon isotope lets researchers follow that exact carbon atom through every subsequent biochemical transformation, since a Geiger counter can detect the radioactive label in whichever molecule it ends up in — a technique only practical once a long-lived radioactive carbon isotope became available, since the short-lived isotope used in earlier attempts decayed away before slower metabolic pathways could be traced.",
+          "note": "Ruben, S. & Kamen, M.D. (1941). 'Long-Lived Radioactive Carbon: C14.' Physical Review, 59(4), 349–354, reported carbon-14's roughly 5,700-year half-life, replacing the previously available carbon-11 (twenty-minute half-life) that had made tracing anything slower than the fastest reactions essentially impossible. The technique directly enabled Calvin's later mapping of the carbon fixation pathway (see th2, st2).",
+          "links": [
+            "st2"
+          ],
+          "keywords": [
+            "carbon-14 metabolic tracer",
+            "radioactive isotope labeling",
+            "biochemical pathway tracing method"
+          ]
+        },
+        {
+          "id": "me3",
+          "group": "Photosynthesis & Plant Biochemistry",
+          "label": "Chlorophyll Fluorescence Measurement",
+          "date": "1931",
+          "loc": "Heidelberg, Germany",
+          "coords": [
+            49.4,
+            8.69
+          ],
+          "tag": "METHOD",
+          "hint": "Shine light on a dark-adapted leaf and measure the faint red glow it re-emits a fraction of a second later, and the way that glow's intensity rises and falls over the next few minutes reveals, non-destructively and in real time, how efficiently the leaf's photosynthetic machinery is actually processing the light energy it absorbs — energy not used for photochemistry has to go somewhere, and some of it is re-emitted as measurable fluorescence.",
+          "note": "Kautsky, H. & Hirsch, A. (1931). 'Neue Versuche zur Kohlensäureassimilation.' Naturwissenschaften, 19, 964, first described the characteristic rise-and-fall fluorescence curve now called the Kautsky effect. Modern portable chlorophyll fluorometers, built on the same principle, are standard field tools for rapidly assessing plant stress, herbicide damage, or photosynthetic health without harming the plant being measured.",
+          "links": [],
+          "keywords": [
+            "kautsky effect fluorescence curve",
+            "non destructive photosynthesis assay",
+            "chlorophyll light re-emission"
+          ]
+        },
+        {
+          "id": "me4",
+          "group": "Plant Growth & Hormonal Signaling",
+          "label": "Grafting as an Experimental Technique",
+          "date": "1936",
+          "loc": "Timiryazev Institute of Plant Physiology, Moscow, Soviet Union",
+          "coords": [
+            55.76,
+            37.62
+          ],
+          "tag": "METHOD",
+          "hint": "Joining a shoot or leaf from one plant onto the rootstock of another lets an experimenter ask whether a physiological signal — a flowering trigger, for instance — travels as a mobile chemical or electrical signal from one plant part to another, since if a leaf kept under flower-inducing short days can trigger flowering in a graft-joined plant kept under non-inducing long days, the signal itself must be moving physically across the graft union.",
+          "note": "Chailakhyan, M.K. (1936) used reciprocal grafting between photoperiodically induced and non-induced tobacco plants to demonstrate a graft-transmissible flowering signal, which he named florigen. The chemical identity of florigen remained unresolved for over seventy years until 2007, when the FT protein was identified as (or as a core component of) the long-sought mobile signal — a rare case of a named phenomenon preceding its molecular identification by nearly a lifetime.",
+          "links": [],
+          "keywords": [
+            "graft transmissible signal",
+            "florigen flowering hormone search",
+            "reciprocal grafting technique"
+          ]
+        },
+        {
+          "id": "me5",
+          "group": "Plant Genetics & Classical Heredity",
+          "label": "Plant Tissue Culture",
+          "date": "1957",
+          "loc": "University of Wisconsin, Madison, Wisconsin",
+          "coords": [
+            43.07,
+            -89.4
+          ],
+          "tag": "METHOD",
+          "hint": "A small piece of plant tissue, grown on a sterile nutrient medium containing carefully balanced ratios of two plant hormones, can be induced to regenerate an entire new plant from scratch — a high ratio of one hormone favours root formation, a high ratio of the other favours shoots, and intermediate ratios keep the tissue growing as a formless mass of unspecialised cells — direct proof that a single differentiated plant cell retains the full genetic potential to rebuild an entire organism.",
+          "note": "Skoog, F. & Miller, C.O. (1957). 'Chemical Regulation of Growth and Organ Formation in Plant Tissues Cultured In Vitro.' Symposia of the Society for Experimental Biology, 11, 118–131, established the auxin-to-cytokinin ratio as the key regulatory switch controlling organ formation in cultured tobacco tissue. Tissue culture is now the standard method behind large-scale clonal micropropagation of crops and ornamentals and an essential delivery step for most modern plant genetic engineering.",
+          "links": [],
+          "keywords": [
+            "auxin cytokinin ratio switch",
+            "totipotency regeneration proof",
+            "clonal micropropagation technique"
+          ]
+        },
+        {
+          "id": "me6",
+          "group": "Plant Diversity & Evolutionary History",
+          "label": "Dendrochronology",
+          "date": "1919",
+          "loc": "University of Arizona, Tucson, Arizona",
+          "coords": [
+            32.22,
+            -110.97
+          ],
+          "tag": "METHOD",
+          "hint": "A tree adds one new growth ring each year, wider in good growing years and narrower in poor ones, and because trees growing in the same region experience the same runs of good and bad years, the pattern of wide and narrow rings in one tree can be precisely matched against the pattern in another, even a long-dead one, letting overlapping ring sequences from living and archaeological wood be chained together into a continuous, absolutely-dated calendar stretching back thousands of years.",
+          "note": "Douglass, A.E. (1919). Climatic Cycles and Tree-Growth. Washington, D.C.: Carnegie Institution of Washington, founded the field while originally searching for a link between sunspot cycles and climate. Dendrochronology went on to directly enable radiocarbon dating's calibration curve, since tree rings of independently known calendar age reveal exactly how atmospheric radiocarbon levels have fluctuated over time, correcting raw radiocarbon dates to true calendar years.",
+          "links": [],
+          "keywords": [
+            "annual growth ring dating",
+            "tree ring cross matching",
+            "climate reconstruction chronology"
+          ]
+        }
+      ]
     },
     {
       "id": "figure",
@@ -877,7 +1000,277 @@
       "accent": "#B7770D",
       "bg": "#FEFDE7",
       "subtitle": "The researchers who shaped the discipline",
-      "entries": []
+      "entries": [
+        {
+          "id": "fg1",
+          "group": "Pioneers & Theorists",
+          "label": "Jan Ingenhousz",
+          "date": "1779",
+          "loc": "Vienna, Austria",
+          "coords": [
+            48.21,
+            16.37
+          ],
+          "tag": "FIGURE",
+          "hint": "A physician better known in his own lifetime for pioneering smallpox inoculation across the Habsburg court, Ingenhousz turned to plant experiments during a stay in England and, in a single extraordinarily productive summer, established that photosynthesis depends specifically on sunlight and green tissue — correcting and sharpening Priestley's more general, inconsistent earlier observations into a precise, reproducible experimental result.",
+          "note": "Ingenhousz, J. (1779). Experiments upon Vegetables. London: P. Elmsly & H. Payne. Ingenhousz also discovered plant respiration — that plants consume oxygen and release carbon dioxide at all times, not just in darkness — a more subtle finding that complicated the simple picture of plants as pure oxygen producers and took decades for the field to properly reconcile with net photosynthetic gas exchange.",
+          "links": [
+            "th1",
+            "st1"
+          ],
+          "keywords": [
+            "light dependent gas exchange discovery",
+            "smallpox physician turned botanist",
+            "plant respiration discovery"
+          ]
+        },
+        {
+          "id": "fg2",
+          "group": "Pioneers & Theorists",
+          "label": "Melvin Calvin",
+          "date": "1950",
+          "loc": "University of California, Berkeley, California",
+          "coords": [
+            37.87,
+            -122.26
+          ],
+          "tag": "FIGURE",
+          "hint": "Leading a large, tightly coordinated laboratory team through years of painstaking radioactive-tracer experiments, Calvin directed the full reconstruction of the biochemical pathway carbon takes from atmospheric CO2 to finished sugar — a feat of biochemical detective work built on rapid sampling, paper chromatography, and careful radioactive-spot identification rather than any single decisive experiment.",
+          "note": "Calvin, M., Bassham, J.A. & Benson, A.A. (1950). 'The Path of Carbon in Photosynthesis.' Annual Review of Plant Physiology, 1, 25–42. Calvin was awarded the 1961 Nobel Prize in Chemistry alone, a decision that drew some criticism given the substantial contributions of long-term collaborators Andrew Benson and James Bassham, whose names are now more often attached to the cycle informally as the Calvin-Benson-Bassham cycle.",
+          "links": [
+            "th2",
+            "st2"
+          ],
+          "keywords": [
+            "carbon fixation pathway leader",
+            "radioactive tracer team research",
+            "nobel prize credit dispute"
+          ]
+        },
+        {
+          "id": "fg3",
+          "group": "Pioneers & Theorists",
+          "label": "Stephen Hales",
+          "date": "1727",
+          "loc": "Teddington, England",
+          "coords": [
+            51.43,
+            -0.33
+          ],
+          "tag": "FIGURE",
+          "hint": "A country clergyman with a passion for precise measurement, Hales attached glass tubes directly to living plant stems and stumps to make the first quantitative measurements in the history of plant science — root pressure, sap flow rate, transpiration volume — treating plants as physical systems obeying measurable mechanical laws at a time when most botanical study was purely descriptive and classificatory.",
+          "note": "Hales, S. (1727). Vegetable Staticks. London: W. and J. Innys. Hales performed comparably pioneering quantitative work in animal physiology, making the first direct measurement of blood pressure in a horse using an identical glass-tube method; his dual legacy across both plant and animal physiology reflects a single, consistent scientific instinct for turning any living process into a number that could be measured and compared.",
+          "links": [
+            "st3"
+          ],
+          "keywords": [
+            "quantitative plant physiology founder",
+            "glass tube pressure measurement",
+            "cross disciplinary measurement instinct"
+          ]
+        },
+        {
+          "id": "fg4",
+          "group": "Pioneers & Theorists",
+          "label": "Gregor Mendel",
+          "date": "1866",
+          "loc": "Abbey of St. Thomas, Brno, Moravia",
+          "coords": [
+            49.2,
+            16.61
+          ],
+          "tag": "FIGURE",
+          "hint": "An Augustinian friar trained in physics and mathematics before entering the monastery, Mendel brought a statistician's discipline to eight years of careful pea-plant breeding, tracking thousands of individual crosses across seven distinct traits to uncover the numerical laws of inheritance — a result so far ahead of contemporary biological thinking that it was essentially ignored for over three decades until three independent researchers rediscovered it around 1900.",
+          "note": "Mendel, G. (1866). 'Versuche über Pflanzen-Hybriden.' Verhandlungen des naturforschenden Vereines in Brünn, 4, 3–47. Mendel became abbot of his monastery in 1868 and largely abandoned experimental research afterward, devoted to administrative duties; he died in 1884 without ever seeing his work recognised as the foundation of modern genetics.",
+          "links": [
+            "th6",
+            "st4"
+          ],
+          "keywords": [
+            "monk statistical breeding discipline",
+            "pea hybrid inheritance laws",
+            "posthumous scientific recognition"
+          ]
+        },
+        {
+          "id": "fg5",
+          "group": "Pioneers & Theorists",
+          "label": "Charles Darwin (Botanical Work)",
+          "date": "1880",
+          "loc": "Down House, Kent, England",
+          "coords": [
+            51.33,
+            0.05
+          ],
+          "tag": "FIGURE",
+          "hint": "Best known for the theory of evolution by natural selection (see biological-anthropology::fg1), Darwin spent much of his last two decades on a separate, equally rigorous body of botanical experimentation — orchid pollination mechanisms, climbing and insectivorous plant behaviour, and the movement responses that led directly to the discovery of plant tropism signalling — treating plant behaviour with the same careful, comparative, hypothesis-driven method he had applied to species and barnacles decades earlier.",
+          "note": "Darwin, C. & Darwin, F. (1880). The Power of Movement in Plants. London: John Murray; Darwin, C. (1862). On the Various Contrivances by which British and Foreign Orchids are Fertilised by Insects. London: John Murray. Darwin's plant research is sometimes treated as a minor footnote to his evolutionary work, but it directly established the experimental groundwork for both plant hormone signalling (see th5, st5) and plant-pollinator coevolution (see co7) as independent research programmes.",
+          "links": [
+            "st5",
+            "st10"
+          ],
+          "xlinks": [
+            "biological-anthropology::fg1"
+          ],
+          "keywords": [
+            "orchid pollination experiments",
+            "phototropism tip signal discovery",
+            "late career botanical research"
+          ]
+        },
+        {
+          "id": "fg6",
+          "group": "Pioneers & Theorists",
+          "label": "Frits Went",
+          "date": "1926",
+          "loc": "Utrecht University, Utrecht, Netherlands",
+          "coords": [
+            52.09,
+            5.12
+          ],
+          "tag": "FIGURE",
+          "hint": "As a graduate student, Went designed the simple, elegant agar-block experiment that isolated the diffusible plant growth substance the Darwins' earlier tip-signal experiments had implied must exist, giving the field its first physical handle on what would become known as auxin — a discovery made as part of his own doctoral research, not under an established senior investigator's direction.",
+          "note": "Went, F.W. (1926). 'On Growth-Accelerating Substances in the Coleoptile of Avena sativa.' Proceedings of the Section of Sciences, Koninklijke Akademie van Wetenschappen te Amsterdam, 30, 10–19. Went later emigrated to the United States, where he designed and directed the first fully climate-controlled plant growth chambers (phytotrons) at Caltech, extending his interest in precisely controlled experimental conditions from a single agar block to an entire building.",
+          "links": [
+            "th5",
+            "st6"
+          ],
+          "keywords": [
+            "auxin growth substance discovery",
+            "doctoral student breakthrough",
+            "phytotron controlled environment design"
+          ]
+        },
+        {
+          "id": "fg7",
+          "group": "Pioneers & Theorists",
+          "label": "Christian Konrad Sprengel",
+          "date": "1793",
+          "loc": "Berlin, Prussia",
+          "coords": [
+            52.52,
+            13.4
+          ],
+          "tag": "FIGURE",
+          "hint": "A schoolteacher and amateur botanist working entirely outside any university, Sprengel spent years in painstaking field observation establishing that flower structure exists specifically to serve pollination by insects — a genuinely original, foundational insight that was almost completely ignored in his own lifetime, leaving him to die in obscurity decades before Darwin rediscovered and championed the work.",
+          "note": "Sprengel, C.K. (1793). Das entdeckte Geheimnis der Natur im Bau und in der Befruchtung der Blumen. Berlin: Friedrich Vieweg. Sprengel lost his teaching position partly over his botanical preoccupations, and his book sold so poorly it was remaindered; Darwin's explicit acknowledgement of Sprengel as a direct influence on his own orchid pollination studies (see st10) is largely responsible for Sprengel's work receiving any recognition at all.",
+          "links": [
+            "st9"
+          ],
+          "keywords": [
+            "amateur pollination biology pioneer",
+            "flower structure function insight",
+            "posthumous darwin rediscovery"
+          ]
+        },
+        {
+          "id": "fg8",
+          "group": "Pioneers & Theorists",
+          "label": "Wilhelm Hofmeister",
+          "date": "1851",
+          "loc": "Leipzig, Germany",
+          "coords": [
+            51.34,
+            12.37
+          ],
+          "tag": "FIGURE",
+          "hint": "A largely self-taught bookseller's son with no formal university botanical training, Hofmeister used careful comparative microscopy across mosses, ferns, and conifers to correctly deduce the alternating haploid-diploid life-cycle pattern common to all land plants, decades before chromosomes or meiosis were understood — an achievement built entirely on patient observation and logical inference rather than any technique unavailable to earlier botanists.",
+          "note": "Hofmeister, W. (1851). Vergleichende Untersuchungen der Keimung, Entfaltung und Fruchtbildung höherer Kryptogamen. Leipzig: Friedrich Hofmeister. Hofmeister's self-taught background and lack of a doctoral degree initially limited his academic prospects, but his comparative developmental work was recognised as foundational enough that he was eventually appointed to a professorship at Heidelberg and later Tübingen despite the unconventional path.",
+          "links": [
+            "co3"
+          ],
+          "keywords": [
+            "self taught comparative botanist",
+            "haploid diploid cycle deduction",
+            "pre chromosome developmental insight"
+          ]
+        },
+        {
+          "id": "fg9",
+          "group": "Pioneers & Theorists",
+          "label": "Carl Linnaeus",
+          "date": "1753",
+          "loc": "Uppsala University, Uppsala, Sweden",
+          "coords": [
+            59.86,
+            17.64
+          ],
+          "tag": "FIGURE",
+          "hint": "Frustrated by the unwieldy, multi-word descriptive names botanists had used for centuries, Linnaeus introduced a simple two-part naming system — genus followed by species — for every known plant, alongside a systematic classification scheme organised primarily around flower structure, giving botany a stable, universal naming standard that made cataloguing and comparing plant diversity across the entire world practical for the first time.",
+          "note": "Linnaeus, C. (1753). Species Plantarum. Stockholm: Laurentius Salvius, cataloguing and formally naming roughly 6,000 plant species using the new binomial system. Linnaeus's original classification scheme, based heavily on the number and arrangement of a flower's reproductive parts, has since been entirely superseded by evolutionary and molecular classification, but binomial nomenclature itself remains the universal standard for naming species across all of biology, not botany alone.",
+          "links": [],
+          "keywords": [
+            "binomial nomenclature system",
+            "species plantarum catalog",
+            "universal naming standard origin"
+          ]
+        },
+        {
+          "id": "fg10",
+          "group": "Pioneers & Theorists",
+          "label": "Albert Bernhard Frank",
+          "date": "1885",
+          "loc": "Berlin, Prussia",
+          "coords": [
+            52.52,
+            13.4
+          ],
+          "tag": "FIGURE",
+          "hint": "A plant pathologist studying why certain forest trees thrived on nutrient-poor soil where isolated seedlings struggled, Frank identified and named the fungal-root symbiosis responsible, correctly arguing — against the prevailing assumption that all root-associated fungi were parasites — that the relationship was fundamentally mutualistic, a reframing that took decades to become fully accepted but now underpins the modern understanding of plant nutrient ecology.",
+          "note": "Frank, A.B. (1885). 'Über die auf Wurzelsymbiose beruhende Ernährung gewisser Bäume durch unterirdische Pilze.' Berichte der Deutschen Botanischen Gesellschaft, 3, 128–145. Frank coined 'mycorrhiza' specifically to capture the structural intimacy of the partnership; mycorrhizal associations are now estimated to involve the large majority of all land plant species, from forest trees to grassland herbs.",
+          "links": [
+            "th9",
+            "st11"
+          ],
+          "keywords": [
+            "mycorrhiza term coinage",
+            "mutualism reframing against parasitism",
+            "forest tree nutrient ecology"
+          ]
+        },
+        {
+          "id": "fg11",
+          "group": "Pioneers & Theorists",
+          "label": "Julius von Sachs",
+          "date": "1865",
+          "loc": "Agricultural Academy, Poppelsdorf, Bonn, Germany",
+          "coords": [
+            50.71,
+            7.09
+          ],
+          "tag": "FIGURE",
+          "hint": "Widely regarded as the founder of experimental plant physiology as a coherent discipline, Sachs demonstrated that starch accumulates specifically inside chloroplasts as a direct, visible product of photosynthesis, developed rigorous hydroponic nutrient-solution techniques for studying plant mineral requirements, and wrote the first comprehensive textbook systematically covering the whole of plant physiology as a unified experimental science rather than a loose collection of separate observations.",
+          "note": "Sachs, J. (1865). Handbuch der Experimental-Physiologie der Pflanzen. Leipzig: Wilhelm Engelmann. Sachs trained an entire generation of plant physiologists at Würzburg, where he held a chair from 1868 until his death in 1897, and his hydroponic solution recipes for identifying essential plant mineral nutrients remain recognisable in modern plant nutrient science.",
+          "links": [],
+          "keywords": [
+            "experimental plant physiology founder",
+            "chloroplast starch demonstration",
+            "hydroponic nutrient technique pioneer"
+          ]
+        },
+        {
+          "id": "fg12",
+          "group": "Pioneers & Theorists",
+          "label": "Katherine Esau",
+          "date": "1953",
+          "loc": "University of California, Davis, California",
+          "coords": [
+            38.54,
+            -121.75
+          ],
+          "tag": "FIGURE",
+          "hint": "Emigrating from Russia after the revolution and building her career at a time when few women held research botany positions in the United States, Esau produced the definitive twentieth-century account of plant vascular tissue structure and development, work meticulous and comprehensive enough that her textbooks remained the standard reference in plant anatomy for decades after publication, alongside foundational research on how plant viruses damage and move through phloem tissue.",
+          "note": "Esau, K. (1953). Plant Anatomy. New York: John Wiley & Sons. Esau spent 1932 to 1963 at UC Davis before moving to UC Santa Barbara, and was elected to the National Academy of Sciences in 1957, among the first women botanists to receive that honour; her phloem research also directly informed the modern understanding of how plant viruses spread systemically through vascular tissue (see pathology-immunology for the general concept of pathogen dissemination).",
+          "links": [
+            "co2"
+          ],
+          "keywords": [
+            "definitive plant anatomy textbook",
+            "phloem virus movement research",
+            "pioneering woman academy member"
+          ]
+        }
+      ]
     },
     {
       "id": "debate",
