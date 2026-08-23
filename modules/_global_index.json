@@ -2,7 +2,7 @@
   "_meta": {
     "total_entries": 2003,
     "folio_count": 26,
-    "xlink_pairs": 128,
+    "xlink_pairs": 131,
     "keyword_terms": 7176,
     "folios": [
       {
@@ -2641,6 +2641,24 @@
     ],
     "general-cognitive-psych::ap2": [
       "neuroscience::th10"
+    ],
+    "geology::th3": [
+      "oceanography::th7"
+    ],
+    "oceanography::th7": [
+      "geology::th3"
+    ],
+    "geology::st12": [
+      "oceanography::st8"
+    ],
+    "oceanography::st8": [
+      "geology::st12"
+    ],
+    "geology::fg6": [
+      "oceanography::fg8"
+    ],
+    "oceanography::fg8": [
+      "geology::fg6"
     ],
     "inorganic-analytical-chem::th2": [
       "quantum-nuclear-relativity::st5"
