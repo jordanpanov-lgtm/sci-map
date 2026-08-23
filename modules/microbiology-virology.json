@@ -15,15 +15,15 @@
   "mapZoom": 3,
   "methodology": "METHODOLOGY · Every entry anchors to a landmark study, paper, clinical case or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags replication status, effect-size revisions and known controversies. Studies and effects carry a replicability badge — 🟢 robust · 🟡 nuanced or reduced · 🔴 failed or severely contested. Map pins mark the institution where the work was carried out.",
   "_meta": {
-    "total_entries": 70,
+    "total_entries": 66,
     "entry_counts": {
-      "theory": 10,
+      "theory": 8,
       "study": 11,
       "effect": 10,
       "concept": 7,
       "method": 6,
-      "figure": 12,
-      "debate": 8,
+      "figure": 11,
+      "debate": 7,
       "application": 6
     },
     "max_ids": {
@@ -32,7 +32,7 @@
       "ef": 10,
       "co": 7,
       "me": 6,
-      "fg": 12,
+      "fg": 11,
       "db": 8,
       "ap": 6
     },
@@ -49,14 +49,12 @@
     "last_updated": "2026-08-23"
   },
   "_index": {
-    "th1": "theory · Microbial Diversity & the Tree of Life · Endosymbiotic Theory (1967)",
     "th2": "theory · Microbial Diversity & the Tree of Life · The Three-Domain System (1977)",
     "th3": "theory · Virus Structure, Classification & Replication · Baltimore Classification of Viruses (1971)",
     "th4": "theory · Virus Structure, Classification & Replication · Lysogeny and the Prophage Concept (1950)",
     "th5": "theory · Discovery of the Microbial World · Theory of Biogenesis (1862)",
     "th6": "theory · Microbial Ecology & Metabolism · Chemolithotrophy Theory (1887)",
     "th7": "theory · Bacterial Cell Biology & Physiology · Quorum Sensing Theory (1994)",
-    "th8": "theory · Virus Structure, Classification & Replication · Protein-Only (Prion) Hypothesis (1982)",
     "th9": "theory · Virus Structure, Classification & Replication · Quasispecies Theory (1971)",
     "th10": "theory · Antibiotics, Antivirals & Biotechnology · Selective Toxicity Theory (\"Magic Bullet\") (1909)",
     "st1": "study · Discovery of the Microbial World · Leeuwenhoek's Observation of Animalcules (1676)",
@@ -104,11 +102,9 @@
     "fg9": "figure · Pioneers & Theorists · Carl Woese (1977)",
     "fg10": "figure · Pioneers & Theorists · David Baltimore (1970)",
     "fg11": "figure · Pioneers & Theorists · Joshua Lederberg (1946)",
-    "fg12": "figure · Pioneers & Theorists · Lynn Margulis (1967)",
     "db1": "debate · Virus Structure, Classification & Replication · The Origin of Viruses (2006)",
     "db2": "debate · Virus Structure, Classification & Replication · Are Viruses Alive? (1957)",
     "db3": "debate · Microbial Genetics & Horizontal Gene Transfer · The Tree of Life vs. the Web of Life (1999)",
-    "db4": "debate · Virus Structure, Classification & Replication · Protein-Only vs. Virino Hypothesis (1979)",
     "db5": "debate · Antibiotics, Antivirals & Biotechnology · Persister Cells vs. Genetic Resistance: Is Tolerance Distinct? (2019)",
     "db6": "debate · Antibiotics, Antivirals & Biotechnology · Gain-of-Function Research: Necessary Science or Unacceptable Risk? (2012)",
     "db7": "debate · Microbial Diversity & the Tree of Life · Giant Viruses and the \"Fourth Domain\" Question (2004)",
@@ -130,29 +126,6 @@
       "bg": "#F0F7FF",
       "subtitle": "The frameworks that organise how microbes are structured, inherited and classified",
       "entries": [
-        {
-          "id": "th1",
-          "group": "Microbial Diversity & the Tree of Life",
-          "label": "Endosymbiotic Theory",
-          "date": "1967",
-          "loc": "Boston University, Boston, Massachusetts",
-          "coords": [
-            42.35,
-            -71.06
-          ],
-          "tag": "THEORY",
-          "hint": "Mitochondria and chloroplasts were not built from scratch by the eukaryotic cell — they began as free-living bacteria that were engulfed by a host cell and, rather than being digested, settled into a permanent partnership, eventually losing most of their own genome to the host nucleus while keeping a small remnant of their own DNA. It explains why both organelles still have their own circular chromosome, their own ribosomes, and a double membrane — the outer one from the host's engulfing membrane, the inner one from the original bacterium's own cell membrane.",
-          "note": "Sagan, L. (1967). 'On the Origin of Mitosis and Meiosis.' Journal of Theoretical Biology, 14(3), 225–274, published under Lynn Margulis's first married name; the paper was rejected by roughly fifteen journals before acceptance. Mitochondrial and chloroplast 16S-type ribosomal RNA sequences later confirmed a specifically bacterial ancestry — mitochondria trace to an alphaproteobacterium, chloroplasts to a cyanobacterium — vindicating a hypothesis first proposed by Konstantin Mereschkowski in 1905 and largely dismissed for six decades before Margulis's synthesis.",
-          "links": [
-            "fg12",
-            "co5"
-          ],
-          "keywords": [
-            "endosymbiotic theory origin",
-            "mitochondria bacterial ancestry",
-            "organelle genome retention"
-          ]
-        },
         {
           "id": "th2",
           "group": "Microbial Diversity & the Tree of Life",
@@ -296,29 +269,6 @@
             "bacterial cell density signalling",
             "collective behaviour coordination",
             "quorum quenching target"
-          ]
-        },
-        {
-          "id": "th8",
-          "group": "Virus Structure, Classification & Replication",
-          "label": "Protein-Only (Prion) Hypothesis",
-          "date": "1982",
-          "loc": "University of California, San Francisco, San Francisco, California",
-          "coords": [
-            37.76,
-            -122.46
-          ],
-          "tag": "THEORY",
-          "hint": "An infectious agent can, in at least one confirmed case, be pure protein with no genetic material of any kind — a misfolded form of a normal brain protein that converts healthy copies of the same protein into its own misfolded shape simply by contact, propagating like a chain reaction through neural tissue with no DNA or RNA involved at any step, a claim that directly violated the assumption that all infectious agents must carry genetic instructions to replicate.",
-          "note": "Prusiner, S.B. (1982). 'Novel Proteinaceous Infectious Particles Cause Scrapie.' Science, 216(4542), 136–144, coined the term 'prion' (proteinaceous infectious particle). The hypothesis faced sustained, well-argued skepticism for over a decade (see db4) before accumulating genetic and biochemical evidence — including transgenic mice expressing only the abnormal protein spontaneously developing disease — brought Prusiner the 1997 Nobel Prize in Physiology or Medicine, one of the few Nobels awarded for a hypothesis that remained actively contested at the time of the award.",
-          "links": [
-            "st11",
-            "db4"
-          ],
-          "keywords": [
-            "prion protein misfolding",
-            "proteinaceous infectious particle",
-            "protein templating propagation"
           ]
         },
         {
@@ -624,16 +574,17 @@
           ],
           "tag": "EXPERIMENT",
           "repl": "mixed",
-          "hint": "Purifying the infectious agent responsible for scrapie, a fatal brain disease in sheep, Prusiner's team found that treatments known to destroy nucleic acids left the agent's infectivity completely intact, while treatments that denature protein destroyed it — evidence, still contested at the time, that the infectious agent contained no genetic material at all and consisted purely of a misfolded protein capable of converting normal copies of itself into more of the same misfolded shape.",
-          "note": "Prusiner, S.B. (1982). 'Novel Proteinaceous Infectious Particles Cause Scrapie.' Science, 216(4542), 136–144. The nucleic-acid-resistance result was reproducible, but the stronger claim that no nucleic acid was involved at all took over a decade of further genetic and structural evidence to become widely accepted (see th8, db4); some researchers maintain minority reservations about whether a still-undetected nucleic acid cofactor might yet be involved.",
-          "links": [
-            "th8",
-            "db4"
-          ],
+          "hint": "Purifying the infectious agent responsible for scrapie down to its most stripped-back active fraction, Prusiner's team ran it through treatments that destroy nucleic acids — UV irradiation, nucleases, chemical modification — and found infectivity survived every one of them fully intact, while ordinary protein-denaturing treatments destroyed it completely; the clean, reproducible split between the two treatment classes was the direct experimental basis for proposing an entirely protein-based infectious agent.",
+          "note": "Prusiner, S.B. (1982). 'Novel Proteinaceous Infectious Particles Cause Scrapie.' Science, 216(4542), 136–144. The nuclease-resistance result itself was reproducible and largely uncontested; the much stronger interpretive claim — that no nucleic acid of any kind was involved — took over a decade of further genetic and structural evidence to become widely accepted (see cell-molecular-bio::th7 for the resulting theory and cell-molecular-bio::db7 for the contested history of its acceptance).",
+          "links": [],
           "keywords": [
             "prion infectivity purification",
             "nuclease resistant agent",
             "misfolded protein propagation"
+          ],
+          "xlinks": [
+            "cell-molecular-bio::th7",
+            "cell-molecular-bio::db7"
           ]
         }
       ]
@@ -998,7 +949,6 @@
           "hint": "Archaea build their cell membranes from a fundamentally different chemistry than every bacterium and eukaryote — branched isoprenoid chains linked to glycerol by stable ether bonds, rather than the straight fatty-acid chains linked by more chemically fragile ester bonds used everywhere else in life — a difference that turns out to explain much of archaea's famous tolerance for boiling temperatures, extreme acidity, and high salt, since ether linkages resist the heat- and acid-driven hydrolysis that would destroy an ordinary ester-linked membrane.",
           "note": "De Rosa, M., Gambacorta, A. & Gliozzi, A. (1986). 'Structure, Biosynthesis, and Physicochemical Properties of Archaebacterial Lipids.' Microbiological Reviews, 50(1), 70–80. Some hyperthermophilic archaea take the adaptation further still, building a single lipid molecule that spans the entire membrane width, eliminating the weaker midpoint where two separate lipid tails would otherwise meet — a structural solution unique to the domain.",
           "links": [
-            "th1",
             "th2"
           ],
           "keywords": [
@@ -1458,28 +1408,6 @@
             "transduction co-discoverer",
             "classical bacterial genetics founder"
           ]
-        },
-        {
-          "id": "fg12",
-          "group": "Pioneers & Theorists",
-          "label": "Lynn Margulis",
-          "date": "1967",
-          "loc": "Boston University, Boston, Massachusetts",
-          "coords": [
-            42.35,
-            -71.06
-          ],
-          "tag": "FIGURE",
-          "hint": "Rejected by roughly fifteen scientific journals before finally being published, Margulis's endosymbiotic theory proposed that mitochondria and chloroplasts began as free-living bacteria engulfed by a host cell — a claim treated as fringe speculation by most cell biologists for over a decade until molecular sequencing data vindicated it, after which Margulis became one of the most forceful advocates in modern biology for symbiosis, rather than only competition, as a major driver of evolutionary innovation.",
-          "note": "Sagan, L. (1967). 'On the Origin of Mitosis and Meiosis.' Journal of Theoretical Biology, 14(3), 225–274, published under her first married name before she remarried and published under Margulis for the rest of her career. Margulis remained a genuinely controversial figure even after endosymbiotic theory's vindication, continuing to champion more speculative extensions of symbiosis-driven evolution — including a minority, largely unaccepted view questioning the strength of neo-Darwinian gradualism — that drew substantially more scientific pushback than her original, now-textbook contribution.",
-          "links": [
-            "th1"
-          ],
-          "keywords": [
-            "endosymbiotic theory proponent",
-            "repeated journal rejection",
-            "symbiosis evolutionary driver"
-          ]
         }
       ]
     },
@@ -1559,29 +1487,6 @@
             "horizontal transfer phylogenetic noise",
             "tree versus web life",
             "core gene conservation argument"
-          ]
-        },
-        {
-          "id": "db4",
-          "group": "Virus Structure, Classification & Replication",
-          "label": "Protein-Only vs. Virino Hypothesis",
-          "date": "1979",
-          "loc": "Institute for Animal Health, Edinburgh, Scotland",
-          "coords": [
-            55.95,
-            -3.19
-          ],
-          "tag": "DEBATE",
-          "hint": "If prion disease is caused by pure misfolded protein with no genetic material at all, how can different scrapie 'strains' exist, each with a stable, heritable incubation period and distinct pattern of brain damage — traits that, in every other biological context, are the signature of an encoded genetic difference? Skeptics proposed prions must instead be a 'virino,' a small hidden nucleic acid wrapped in host-derived protein, until later genetic and structural evidence showed strain differences can arise purely from different stable misfolded protein conformations, with no nucleic acid required.",
-          "note": "Dickinson, A.G. & Outram, G.W. (1979). 'The Scrapie Replication-Site Hypothesis and Its Implications for Pathogenesis.' In Prusiner, S.B. & Hadlow, W.J. (eds.), Slow Transmissible Diseases of the Nervous System, Vol. 2, Academic Press, 13–31, coined 'virino' by analogy to the neutrino for a particle whose properties could only be inferred indirectly. Büeler, H. et al. (1993). 'Mice Devoid of PrP Are Resistant to Scrapie.' Cell, 73(7), 1339–1347, showed mice genetically engineered to lack the prion protein gene entirely cannot be infected by any scrapie strain — strong evidence against any separate infectious nucleic acid, since a virino would still need the host protein but not depend on it this absolutely.",
-          "links": [
-            "th8",
-            "st11"
-          ],
-          "keywords": [
-            "virino hypothesis skepticism",
-            "prion strain conformational diversity",
-            "prp knockout resistance evidence"
           ]
         },
         {
@@ -1900,11 +1805,6 @@
           "entryId": "th4"
         },
         {
-          "y": 1967,
-          "l": "Endosymbiotic Theory",
-          "entryId": "th1"
-        },
-        {
           "y": 1971,
           "l": "Baltimore Classification of Viruses",
           "entryId": "th3"
@@ -1918,11 +1818,6 @@
           "y": 1977,
           "l": "The Three-Domain System",
           "entryId": "th2"
-        },
-        {
-          "y": 1982,
-          "l": "Protein-Only (Prion) Hypothesis",
-          "entryId": "th8"
         },
         {
           "y": 1994,
@@ -2037,11 +1932,6 @@
           "y": 1957,
           "l": "Are Viruses Alive?",
           "entryId": "db2"
-        },
-        {
-          "y": 1979,
-          "l": "Protein-Only vs. Virino Hypothesis",
-          "entryId": "db4"
         },
         {
           "y": 1999,
