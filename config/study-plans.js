@@ -4,6 +4,51 @@
 // are available as globals to the renderer.
 
 const STUDY_PLANS = {
+  'meteorology': {
+    meta: "Groups content thematically rather than by category: after the founders, each module works through one branch of the field — the atmosphere's basic thermodynamics, how mid-latitude weather organizes into fronts, how clouds actually produce precipitation, severe and extreme weather, the century-long project of turning forecasting into a solvable physics problem, large-scale circulation, and the optical phenomena the atmosphere itself produces — carrying each branch's theories, landmark discoveries, named phenomena, and live debates together as a single unit.",
+    modules: [
+      {
+        title: '1 — Founders & the Field',
+        rationale: "From Hadley's amateur explanation of the trade winds to Lorenz's accidental discovery of chaos, a relatively small set of observers and theorists repeatedly turned meteorology from folk weather-lore into a field with genuine predictive physics underneath it.",
+        groups: ['Pioneers & Theorists']
+      },
+      {
+        title: '2 — Atmospheric Structure & Thermodynamics',
+        rationale: "The adiabatic lapse rate, atmospheric stability, and dew point cover the basic thermodynamic physics that determines almost everything else about a given day's weather character.",
+        groups: ['Atmospheric Structure & Thermodynamics']
+      },
+      {
+        title: '3 — Weather Systems & Fronts',
+        rationale: "The Bergen School's frontal theory and air mass classification explain how mid-latitude weather actually organizes itself into the fronts, cyclones, and daily wind patterns familiar from any weather forecast.",
+        groups: ['Weather Systems & Fronts']
+      },
+      {
+        title: '4 — Cloud & Precipitation Physics',
+        rationale: "Howard's cloud classification and the Bergeron-Findeisen ice-crystal process cover how a cloud actually forms and how it turns into rain, snow, or hail — plus the still-contested science of trying to engineer that process directly.",
+        groups: ['Cloud & Precipitation Physics']
+      },
+      {
+        title: '5 — Severe Weather & Storms',
+        rationale: "The Tri-State Tornado, the Galveston Hurricane, and Fujita's downburst discovery anchor a module on the field's most destructive phenomena and the still-open questions about exactly how they form.",
+        groups: ['Severe Weather & Storms']
+      },
+      {
+        title: '6 — Numerical Weather Prediction & Forecasting',
+        rationale: "From Vilhelm Bjerknes's manifesto that weather is a solvable physics problem to Lorenz's chaos-theory predictability ceiling, this module traces forecasting's transformation from human pattern-recognition into computational science.",
+        groups: ['Numerical Weather Prediction & Forecasting']
+      },
+      {
+        title: '7 — Global Circulation & Climate Dynamics',
+        rationale: "Hadley cells, the Coriolis effect, the jet stream, and the Southern Oscillation cover the large-scale circulation patterns that connect a single day's local weather to the whole planet's atmospheric engine.",
+        groups: ['Global Circulation & Climate Dynamics']
+      },
+      {
+        title: '8 — Atmospheric Optics & Radiation',
+        rationale: "Rayleigh scattering, halos, and the green flash cover the physics of how the atmosphere itself bends and scatters light, producing the everyday optical phenomena visible in the sky above every other module's weather.",
+        groups: ['Atmospheric Optics & Radiation']
+      }
+    ]
+  },
   'geology': {
     meta: "Groups content thematically rather than by category: after the founders, each module works through one branch of the field — the tectonic framework that unifies the whole discipline, the rocks and minerals that make up the crust, the deep-time record locked in stratigraphy, Earth's hidden interior, volcanoes, earthquakes, and the surface processes that shape the visible landscape — carrying each branch's theories, landmark discoveries, named phenomena, and live debates together as a single unit.",
     modules: [
