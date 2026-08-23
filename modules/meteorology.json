@@ -23,7 +23,233 @@
       "accent": "#2471A3",
       "bg": "#F0F7FF",
       "subtitle": "The frameworks that organise how the atmosphere moves, heats and produces weather",
-      "entries": []
+      "entries": [
+        {
+          "id": "th1",
+          "group": "Weather Systems & Fronts",
+          "label": "Frontal Theory (Bergen School)",
+          "date": "1919",
+          "loc": "Bergen, Norway",
+          "coords": [
+            60.39,
+            5.32
+          ],
+          "tag": "THEORY",
+          "hint": "Rather than treating weather as locally chaotic and essentially unpredictable, the Bergen School proposed that mid-latitude weather is organised around distinct boundaries, or 'fronts,' between air masses of different temperature and humidity — borrowing the wartime military term deliberately, since these boundaries were understood as genuine battle lines where colder and warmer air masses actively clash, and that a storm system's entire life cycle could be tracked and predicted by following how these fronts moved and interacted.",
+          "note": "Bjerknes, J. (1919). 'On the Structure of Moving Cyclones.' Monthly Weather Review, 47(2), 95–99, developed at the Bergen Geophysical Institute under his father Vilhelm Bjerknes. The frontal model, refined into the full Norwegian Cyclone Model (see th7) over the following years, transformed weather forecasting from a largely statistical, pattern-matching exercise into one grounded in an explicit physical model of how storms actually form and evolve.",
+          "links": [
+            "th7",
+            "fg1"
+          ],
+          "keywords": [
+            "air mass boundary",
+            "bergen school meteorology",
+            "storm structure model"
+          ]
+        },
+        {
+          "id": "th2",
+          "group": "Atmospheric Structure & Thermodynamics",
+          "label": "Adiabatic Lapse Rate Theory",
+          "date": "1841",
+          "loc": "Philadelphia, Pennsylvania",
+          "coords": [
+            39.95,
+            -75.16
+          ],
+          "tag": "THEORY",
+          "hint": "As a parcel of air rises through the atmosphere, it expands into the lower surrounding pressure and cools — not because it loses heat to its surroundings, but purely because the work it does expanding uses up its own internal thermal energy — and this predictable cooling rate, roughly 10°C per kilometre for dry air but slower once condensation begins releasing latent heat, is the single physical mechanism underlying cloud formation, thunderstorm development, and why mountain tops are colder than valleys below.",
+          "note": "Espy, J.P. (1841). The Philosophy of Storms. Charles C. Little and James Brown, proposed that storms are driven by the latent heat released as rising, cooling, moist air condenses — an early, substantially correct convective theory of storm energy that was disputed for decades by rival theories favouring purely mechanical wave explanations for storm motion. The distinction between the dry adiabatic lapse rate and the slower moist adiabatic lapse rate remains fundamental to modern atmospheric stability analysis (see co1).",
+          "links": [
+            "co1",
+            "th8"
+          ],
+          "keywords": [
+            "rising air cooling rate",
+            "expansion cooling mechanism",
+            "latent heat release storm"
+          ]
+        },
+        {
+          "id": "th3",
+          "group": "Numerical Weather Prediction & Forecasting",
+          "label": "Lorenz's Deterministic Chaos in Weather Prediction",
+          "date": "1963",
+          "loc": "Massachusetts Institute of Technology, Cambridge, Massachusetts",
+          "coords": [
+            42.36,
+            -71.09
+          ],
+          "tag": "THEORY",
+          "hint": "Running a simplified computer weather simulation a second time from what he thought were the exact same starting conditions, but had actually rounded to fewer decimal places for convenience, Lorenz found the model's forecast diverged completely from the original run within a simulated few weeks — revealing that weather is a genuinely chaotic system, in which even immeasurably tiny differences in starting conditions inevitably grow to swamp any forecast, placing a fundamental, unavoidable limit on how far in advance weather can ever be accurately predicted.",
+          "note": "Lorenz, E.N. (1963). 'Deterministic Nonperiodic Flow.' Journal of the Atmospheric Sciences, 20(2), 130–141, discovered the effect while running a simplified 12-equation weather model at MIT. The popularised 'butterfly effect' term and its broader mathematical framework as chaos theory are covered in depth in the systems-and-complexity folio; Lorenz's own specific finding was that this sensitivity imposes a practical predictability ceiling on weather forecasting of roughly two to three weeks, regardless of future advances in computing power or data collection.",
+          "links": [
+            "fg5"
+          ],
+          "xlinks": [
+            "systems-and-complexity::ef1"
+          ],
+          "keywords": [
+            "weather predictability limit",
+            "sensitive initial condition dependence",
+            "forecasting ceiling discovery"
+          ]
+        },
+        {
+          "id": "th4",
+          "group": "Cloud & Precipitation Physics",
+          "label": "Bergeron-Findeisen Process",
+          "date": "1933",
+          "loc": "Bergen, Norway",
+          "coords": [
+            60.39,
+            5.32
+          ],
+          "tag": "THEORY",
+          "hint": "Inside a cold cloud containing both supercooled liquid water droplets and ice crystals, the ice crystals grow at the liquid droplets' direct expense, because ice requires a lower humidity to remain in equilibrium than liquid water does at the same sub-freezing temperature — meaning the air is simultaneously supersaturated with respect to ice while still undersaturated with respect to the liquid droplets, so water evaporates off the droplets and deposits directly onto the ice crystals, which grow rapidly enough to eventually fall as precipitation.",
+          "note": "Bergeron, T. (1933). 'On the Physics of Cloud and Precipitation.' Proceedings of the 5th Assembly of the International Union of Geodesy and Geophysics, 156–178, proposed the mechanism; Findeisen, W. (1938) provided further supporting observational and laboratory evidence. The process explains why most precipitation in the mid-latitudes, even warm summer rain, actually begins as ice crystals higher in the cloud that melt on the way down, rather than forming through liquid-droplet collision alone (see co3).",
+          "links": [
+            "co3"
+          ],
+          "keywords": [
+            "ice crystal growth mechanism",
+            "supercooled droplet evaporation",
+            "mixed phase cloud precipitation"
+          ]
+        },
+        {
+          "id": "th5",
+          "group": "Global Circulation & Climate Dynamics",
+          "label": "General Circulation Theory",
+          "date": "1735",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "THEORY",
+          "hint": "George Hadley proposed that the trade winds, and the broader pattern of global atmospheric circulation, arise from warm air rising at the equator and moving poleward at high altitude, cooling and sinking back down around 30 degrees latitude, then returning toward the equator near the surface — with the whole circulating loop deflected into the characteristic diagonal trade-wind pattern by Earth's rotation, the first physically grounded explanation for why global winds blow in consistent, predictable patterns rather than randomly.",
+          "note": "Hadley, G. (1735). 'Concerning the Cause of the General Trade-Winds.' Philosophical Transactions of the Royal Society, 39, 58–62. Hadley's original explanation for the wind deflection itself was subtly incorrect, correctly identified only much later once the Coriolis effect (see th6) was properly formalised; the basic circulating-cell structure he proposed, now called the Hadley cell, remains a foundational, largely accurate feature of the modern three-cell model of global atmospheric circulation.",
+          "links": [
+            "th6"
+          ],
+          "keywords": [
+            "trade wind explanation",
+            "hadley cell circulation",
+            "equator to pole air movement"
+          ]
+        },
+        {
+          "id": "th6",
+          "group": "Global Circulation & Climate Dynamics",
+          "label": "Coriolis Effect Theory",
+          "date": "1835",
+          "loc": "École Polytechnique, Paris, France",
+          "coords": [
+            48.71,
+            2.22
+          ],
+          "tag": "THEORY",
+          "hint": "Any object moving across Earth's rotating surface appears, to an observer standing on that same rotating surface, to curve away from a straight-line path — deflecting to the right in the Northern Hemisphere and to the left in the Southern Hemisphere — not because any real sideways force is acting on it, but purely because the ground beneath it is itself rotating at a different speed depending on latitude, an apparent deflection that shapes the rotational direction of every hurricane, cyclone, and large-scale wind pattern on the planet.",
+          "note": "Coriolis, G.G. (1835). 'Sur les équations du mouvement relatif des systèmes de corps.' Journal de l'École Polytechnique, 15, 142–154, derived the effect mathematically in the context of rotating machinery, well before it was widely applied to atmospheric and oceanic circulation. The effect is exactly zero at the equator and strongest at the poles, which is why tropical cyclones (see ef4) essentially never form within about 5 degrees of the equator, regardless of how favourable the temperature and moisture conditions otherwise are.",
+          "links": [
+            "th5",
+            "ef4"
+          ],
+          "keywords": [
+            "apparent deflection force",
+            "rotating reference frame",
+            "hemisphere direction difference"
+          ]
+        },
+        {
+          "id": "th7",
+          "group": "Weather Systems & Fronts",
+          "label": "Norwegian Cyclone Model",
+          "date": "1922",
+          "loc": "Bergen, Norway",
+          "coords": [
+            60.39,
+            5.32
+          ],
+          "tag": "THEORY",
+          "hint": "Extending frontal theory (see th1) into a complete life-cycle model, the Bergen School proposed that mid-latitude storms develop in a predictable sequence of stages — a wave first forms along a stationary front between cold and warm air, the wave deepens into a full cyclone with connected warm and cold fronts, the faster-moving cold front eventually catches up to and 'occludes' the warm front, lifting the warm air entirely off the ground, and the storm finally dissipates as its temperature contrast is exhausted — a stage-by-stage model still taught to every meteorology student today.",
+          "note": "Bjerknes, J. & Solberg, H. (1922). 'Life Cycle of Cyclones and the Polar Front Theory of Atmospheric Circulation.' Geofysiske Publikasjoner, 3(1), 1–18. The model was developed using an unusually dense observational network of volunteer weather stations established across Norway specifically to track storms in fine spatial detail, a methodological innovation nearly as significant to the theory's success as the physical insight itself.",
+          "links": [
+            "th1"
+          ],
+          "keywords": [
+            "cyclone life cycle stages",
+            "occluded front formation",
+            "polar front theory"
+          ]
+        },
+        {
+          "id": "th8",
+          "group": "Severe Weather & Storms",
+          "label": "CAPE / Convective Instability Theory",
+          "date": "1932",
+          "loc": "Massachusetts Institute of Technology, Cambridge, Massachusetts",
+          "coords": [
+            42.36,
+            -71.09
+          ],
+          "tag": "THEORY",
+          "hint": "Whether the atmosphere on a given day will support explosive thunderstorm development depends on how much excess heat energy a rising parcel of air would have compared to its surrounding environment at each altitude — if a lifted parcel stays warmer, and therefore less dense, than the air around it all the way up, it keeps accelerating upward, and the total accumulated energy available for that acceleration, integrated through the whole atmospheric column, quantifies exactly how violent a thunderstorm the atmosphere is primed to produce.",
+          "note": "Rossby, C.-G. (1932). 'Thermodynamics Applied to Air Mass Analysis.' MIT Professional Notes, No. 1, formalised parcel theory and atmospheric instability analysis. The modern quantitative metric, Convective Available Potential Energy (CAPE), built directly on this parcel-theory foundation and is now calculated automatically from every weather balloon sounding worldwide, providing forecasters a single number summarising a region's thunderstorm potential for the day.",
+          "links": [
+            "th2",
+            "ef5"
+          ],
+          "keywords": [
+            "parcel buoyancy instability",
+            "convective available potential energy",
+            "thunderstorm energy quantification"
+          ]
+        },
+        {
+          "id": "th9",
+          "group": "Global Circulation & Climate Dynamics",
+          "label": "Baroclinic Instability Theory",
+          "date": "1947",
+          "loc": "University of Chicago, Chicago, Illinois",
+          "coords": [
+            41.79,
+            -87.6
+          ],
+          "tag": "THEORY",
+          "hint": "Where a strong horizontal temperature gradient exists in the atmosphere — most prominently along the boundary between cold polar air and warm subtropical air — the atmosphere becomes inherently unstable in a specific way that spontaneously generates travelling waves and eventually full storm systems, converting the stored potential energy of the temperature contrast itself into the kinetic energy of circulating winds, explaining why mid-latitude storms reliably form along the jet stream rather than at random locations.",
+          "note": "Charney, J.G. (1947). 'The Dynamics of Long Waves in a Baroclinic Westerly Current.' Journal of Meteorology, 4(5), 135–162, provided the first mathematically rigorous theory of how these waves grow; Eady, E.T. (1949) independently developed a related, more simplified model two years later. Baroclinic instability theory directly explains the jet stream's wavy, meandering path and remains foundational to modern numerical weather prediction models (see me3, me4) of mid-latitude storm development.",
+          "links": [
+            "th7"
+          ],
+          "keywords": [
+            "temperature gradient instability",
+            "storm energy conversion",
+            "jet stream wave formation"
+          ]
+        },
+        {
+          "id": "th10",
+          "group": "Atmospheric Optics & Radiation",
+          "label": "Rayleigh Scattering (Atmospheric Optics)",
+          "date": "1871",
+          "loc": "Terling Place, England",
+          "coords": [
+            51.79,
+            0.51
+          ],
+          "tag": "THEORY",
+          "hint": "Sunlight passing through the atmosphere is scattered by air molecules far more strongly at shorter wavelengths than longer ones, scattering blue light many times more effectively than red — explaining both why the daytime sky appears blue in every direction, since scattered blue light reaches the eye from all across the sky, and why sunsets appear red, since the much longer path sunlight travels through the atmosphere at a low sun angle scatters away nearly all the blue light before it reaches an observer, leaving mostly the less-scattered red and orange wavelengths.",
+          "note": "Strutt, J.W. (Lord Rayleigh) (1871). 'On the Light from the Sky, its Polarization and Colour.' Philosophical Magazine, 41(271), 107–120, derived the wavelength-dependent scattering relationship mathematically. The same principle explains why the sky on Mars, with its thin, dust-laden atmosphere, appears a dusty butterscotch colour rather than blue during the day, while its sunsets can appear distinctly blue — essentially the reverse pattern from Earth's.",
+          "links": [],
+          "keywords": [
+            "wavelength dependent scattering",
+            "blue sky explanation",
+            "red sunset mechanism"
+          ]
+        }
+      ]
     },
     {
       "id": "study",
@@ -33,7 +259,311 @@
       "accent": "#7D3C98",
       "bg": "#FAF5FF",
       "subtitle": "The defining experiments — and exactly what they found",
-      "entries": []
+      "entries": [
+        {
+          "id": "st1",
+          "group": "Numerical Weather Prediction & Forecasting",
+          "label": "FitzRoy's Storm Warning Service",
+          "date": "1861",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Robert FitzRoy, the former captain of HMS Beagle turned first head of the newly created UK Meteorological Department, established the world's first operational storm-warning system, using telegraph reports from coastal stations to track approaching weather and issue advance warnings to ships and ports — the first systematic, government-run attempt to actually forecast the weather rather than merely record it after the fact.",
+          "note": "FitzRoy, R. established the Met Office storm warning system in 1861, coining the term 'weather forecast' itself, and began publishing daily forecasts in The Times newspaper the same year. FitzRoy's forecasts drew sustained public ridicule from scientific peers sceptical that weather could be meaningfully predicted at all, and the psychological strain of this criticism, combined with prior struggles, contributed to his suicide in 1865; forecasting was briefly suspended afterward before resuming permanently.",
+          "links": [
+            "fg2"
+          ],
+          "keywords": [
+            "first operational forecast",
+            "telegraph storm warning",
+            "met office founding"
+          ]
+        },
+        {
+          "id": "st2",
+          "group": "Numerical Weather Prediction & Forecasting",
+          "label": "Richardson's Numerical Weather Prediction Attempt",
+          "date": "1922",
+          "loc": "Cambridge, England",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "tag": "EXPERIMENT",
+          "repl": "mixed",
+          "hint": "Attempting to forecast the weather purely by solving the physical equations governing atmospheric motion by hand, using six weeks of tedious arithmetic to calculate just a single six-hour forecast for one region, Richardson produced a wildly, absurdly inaccurate result — predicting an implausible surge in atmospheric pressure that never remotely happened — but his approach of treating weather prediction as a solvable system of physical equations, rather than pattern-matching against historical analogues, correctly anticipated the entire future of numerical weather forecasting.",
+          "note": "Richardson, L.F. (1922). Weather Prediction by Numerical Process. Cambridge University Press. The failure was later diagnosed as resulting from unfiltered high-frequency noise in his initial atmospheric pressure data, a problem only properly solved decades later once computers made it practical to apply mathematical filtering techniques Richardson himself lacked the computational power to implement. Richardson's famous, only half-joking vision of a 'forecast factory' — 64,000 human computers working in a giant hall to calculate weather forecasts faster than the weather itself unfolds — anticipated the basic parallel-computing structure of every modern weather model.",
+          "links": [
+            "th9",
+            "st3"
+          ],
+          "keywords": [
+            "hand calculated weather forecast",
+            "physical equation prediction attempt",
+            "forecast factory vision"
+          ]
+        },
+        {
+          "id": "st3",
+          "group": "Numerical Weather Prediction & Forecasting",
+          "label": "ENIAC First Computer Weather Forecast",
+          "date": "1950",
+          "loc": "Aberdeen Proving Ground, Maryland",
+          "coords": [
+            39.47,
+            -76.16
+          ],
+          "tag": "EXPERIMENT",
+          "repl": "robust",
+          "hint": "A team led by meteorologist Jule Charney used the world's first general-purpose electronic computer to calculate a 24-hour weather forecast — the calculation itself took about 24 hours to run, meaning the computer forecast the weather no faster than the weather actually happened, but it worked, successfully reproducing key features of an already-observed historical storm and proving numerical weather prediction (see st2) was genuinely computationally feasible, not merely theoretically sound.",
+          "note": "Charney, J.G., Fjørtoft, R. & von Neumann, J. (1950). 'Numerical Integration of the Barotropic Vorticity Equation.' Tellus, 2(4), 237–254, ran on the ENIAC computer at Aberdeen Proving Ground in Maryland. The team deliberately used a highly simplified single-layer atmospheric model to keep the calculation computationally tractable; the experiment's practical success directly launched the field of operational numerical weather prediction, which within a decade became standard practice at national weather services worldwide.",
+          "links": [
+            "st2",
+            "fg10"
+          ],
+          "keywords": [
+            "first computer forecast",
+            "eniac barotropic model",
+            "numerical prediction feasibility proof"
+          ]
+        },
+        {
+          "id": "st4",
+          "group": "Severe Weather & Storms",
+          "label": "The Tri-State Tornado",
+          "date": "1925",
+          "loc": "Murphysboro, Illinois",
+          "coords": [
+            37.77,
+            -89.34
+          ],
+          "tag": "FIELD STUDY",
+          "repl": "robust",
+          "hint": "A single tornado tracked continuously along the ground for roughly 350 kilometres across Missouri, Illinois, and Indiana — by far the longest confirmed continuous tornado path on record — killing 695 people, still the deadliest single tornado in United States history, and its extraordinary scale and destructiveness became a foundational case study driving the eventual development of organised tornado warning systems decades later.",
+          "note": "The tornado struck on 18 March 1925; contemporary analysis was limited by the era's sparse observation network and lack of any real-time warning capability, since the US Weather Bureau at the time actively discouraged the word 'tornado' in forecasts for fear of causing panic. Modern reanalysis (Johns, R.H. et al. 2013, and other studies) has debated whether the damage path represents one continuous tornado or a rapid succession of several distinct tornadoes from the same parent storm, a question the era's evidence cannot fully settle either way.",
+          "links": [
+            "fg6"
+          ],
+          "keywords": [
+            "deadliest single tornado",
+            "longest tornado track",
+            "pre warning system disaster"
+          ]
+        },
+        {
+          "id": "st5",
+          "group": "Severe Weather & Storms",
+          "label": "The Galveston Hurricane",
+          "date": "1900",
+          "loc": "Galveston, Texas",
+          "coords": [
+            29.3,
+            -94.8
+          ],
+          "tag": "FIELD STUDY",
+          "repl": "robust",
+          "hint": "A powerful hurricane struck Galveston, Texas — then a major port city built on a low, flat barrier island with no seawall — with almost no advance public warning, killing an estimated 6,000 to 12,000 people in a single night, still the deadliest natural disaster in United States history by a wide margin, and the catastrophe directly drove the construction of a massive protective seawall and a fundamental overhaul of US hurricane forecasting and warning procedures in the decades that followed.",
+          "note": "The hurricane struck on 8 September 1900; the US Weather Bureau's chief forecaster in Galveston, Isaac Cline, had earlier publicly argued a serious hurricane strike on the city was virtually impossible. The disaster's staggering death toll directly catalysed the construction of the 3-metre Galveston Seawall, completed in 1904, and prompted the Weather Bureau to substantially improve its hurricane tracking and warning communication, though a fully modern hurricane warning system would still take decades longer to develop.",
+          "links": [
+            "fg2"
+          ],
+          "keywords": [
+            "deadliest us natural disaster",
+            "unwarned hurricane strike",
+            "seawall construction response"
+          ]
+        },
+        {
+          "id": "st6",
+          "group": "Severe Weather & Storms",
+          "label": "Fujita's Downburst Discovery",
+          "date": "1975",
+          "loc": "University of Chicago, Chicago, Illinois",
+          "coords": [
+            41.79,
+            -87.6
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Investigating a mysterious pattern of wind damage from a 1975 airliner crash — trees and structures blown outward in a distinctive radiating starburst pattern rather than the rotational pattern a tornado leaves — Fujita identified an entirely new, previously unrecognised weather phenomenon: a sudden, powerful, localised downward burst of wind plunging out of a thunderstorm and slamming into the ground, spreading outward in every direction, a hazard aviation had been unknowingly flying into for years.",
+          "note": "Fujita, T.T. (1976). 'Spearhead Echo and Downburst Near the Approach End of a John F. Kennedy Airport Runway, New York City.' Satellite and Mesometeorology Research Project, University of Chicago, Research Paper No. 137. Fujita's downburst concept was initially met with considerable scepticism from the meteorological community until confirmed by dedicated field research projects (NIMROD, 1978; JAWS, 1982); the discovery directly led to onboard and ground-based wind-shear detection systems now standard at major airports worldwide, substantially reducing microburst-related aviation accidents.",
+          "links": [
+            "fg6"
+          ],
+          "keywords": [
+            "downburst wind discovery",
+            "starburst damage pattern",
+            "aviation wind shear hazard"
+          ]
+        },
+        {
+          "id": "st7",
+          "group": "Global Circulation & Climate Dynamics",
+          "label": "Discovery of the Jet Stream",
+          "date": "1934",
+          "loc": "Tateno, Japan",
+          "coords": [
+            36.06,
+            140.13
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Systematically tracking weather balloons launched from Japan, Ōishi documented a narrow, remarkably fast river of high-altitude wind, regularly exceeding 200 kilometres per hour, meandering across the upper atmosphere — a discovery published only in Esperanto and consequently overlooked for years outside Japan, until Allied bomber crews flying at high altitude over Japan during the Second World War rediscovered the same powerful winds firsthand, sometimes finding their aircraft blown backward relative to the ground despite flying at full forward airspeed.",
+          "note": "Ōishi, W. (1926 onward, published 1941 in Esperanto specifically to reach an international audience without language barriers). 'Pilot Balloon Observations at the Base of the JOO Sounding.' The jet stream's global significance was not widely appreciated until American bomber pilots targeting Japan in 1944 reported unexpectedly severe headwinds and tailwinds that dramatically affected bombing accuracy and fuel consumption, and postwar meteorologists connected the observations directly back to Ōishi's earlier, overlooked balloon data.",
+          "links": [
+            "th9",
+            "fg8"
+          ],
+          "keywords": [
+            "high altitude fast wind",
+            "pilot balloon tracking",
+            "wwii bomber rediscovery"
+          ]
+        },
+        {
+          "id": "st8",
+          "group": "Global Circulation & Climate Dynamics",
+          "label": "Walker's Discovery of the Southern Oscillation",
+          "date": "1923",
+          "loc": "Simla, India",
+          "coords": [
+            31.1,
+            77.17
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Tasked with finding a way to predict the Indian monsoon's notoriously variable strength after a series of devastating famine-causing failures, Walker instead discovered something different: a seesawing pattern of atmospheric pressure between the eastern and western tropical Pacific Ocean, where pressure rising on one side reliably coincided with pressure falling on the other — a large-scale atmospheric pattern he could not fully explain at the time, but that later research connected directly to the ocean-temperature cycle known as El Niño.",
+          "note": "Walker, G.T. (1923). 'Correlation in Seasonal Variations of Weather, VIII: A Preliminary Study of World Weather.' Memoirs of the India Meteorological Department, 24, 75–131. Walker's statistical correlation was widely dismissed as a curious numerical coincidence for decades, lacking any known physical mechanism, until Jacob Bjerknes (1969, Monthly Weather Review) connected it directly to ocean-atmosphere coupling and the El Niño sea-surface temperature cycle, formally establishing what is now called the El Niño-Southern Oscillation (ENSO).",
+          "links": [
+            "th5",
+            "fg4",
+            "fg7"
+          ],
+          "keywords": [
+            "pacific pressure seesaw",
+            "monsoon prediction search",
+            "el nino atmospheric link"
+          ]
+        },
+        {
+          "id": "st9",
+          "group": "Severe Weather & Storms",
+          "label": "Union City Doppler Radar Tornado Observation",
+          "date": "1973",
+          "loc": "Norman, Oklahoma",
+          "coords": [
+            35.22,
+            -97.44
+          ],
+          "tag": "FIELD STUDY",
+          "repl": "robust",
+          "hint": "Experimental Doppler radar, capable of directly measuring wind velocity rather than just precipitation intensity, tracked a tornado-producing thunderstorm near Union City, Oklahoma, from its earliest formative rotation through the tornado's full life cycle and eventual dissipation — the first time researchers had observed a tornadic storm's internal wind structure directly and continuously, revealing the signature rotating wind pattern, later called a 'mesocyclone,' that precedes tornado formation by many minutes.",
+          "note": "Researchers at the National Severe Storms Laboratory in Norman, Oklahoma, documented the 24 May 1973 Union City tornado using experimental Doppler radar (Brown, R.A., Lemon, L.R. & Burgess, D.W. 1978, Monthly Weather Review). The clear, reliable mesocyclone signature identified in this and subsequent storms directly justified the decades-long, multi-billion-dollar national investment in deploying the operational Doppler radar network (see me1) that now underlies every US tornado warning issued today.",
+          "links": [
+            "me1"
+          ],
+          "keywords": [
+            "mesocyclone rotation signature",
+            "doppler tornado tracking",
+            "severe storm radar milestone"
+          ]
+        },
+        {
+          "id": "st10",
+          "group": "Numerical Weather Prediction & Forecasting",
+          "label": "TIROS-1 First Weather Satellite",
+          "date": "1960",
+          "loc": "Cape Canaveral, Florida",
+          "coords": [
+            28.39,
+            -80.6
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "The first satellite purpose-built to observe Earth's weather from orbit transmitted the first-ever televised images of cloud cover from space, immediately proving that continuous, whole-planet observation of storm systems — including remote ocean regions with no ships or ground stations to report from at all — was not just possible but immediately, dramatically useful, spotting a previously unknown tropical storm in its very first days of operation.",
+          "note": "TIROS-1 (Television Infrared Observation Satellite) launched on 1 April 1960 and operated for just 78 days before a hardware failure ended its mission, but transmitted over 19,000 images of cloud cover during that short window. The satellite's demonstrated ability to track storm systems over data-sparse ocean regions, where hurricanes had previously often gone undetected until making landfall, directly launched the now-essential field of satellite meteorology that underlies virtually all modern tropical cyclone tracking (see ap3).",
+          "links": [
+            "ap3"
+          ],
+          "keywords": [
+            "first weather satellite",
+            "orbital cloud imagery",
+            "ocean storm detection"
+          ]
+        },
+        {
+          "id": "st11",
+          "group": "Global Circulation & Climate Dynamics",
+          "label": "Halley's Trade Wind Chart",
+          "date": "1686",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "FIELD STUDY",
+          "repl": "robust",
+          "hint": "Compiling data from ships' logbooks recording wind direction across the tropical Atlantic and Indian Oceans, Halley produced the first systematic map of the trade winds and monsoon patterns, demonstrating that these winds blow in remarkably consistent, predictable directions across enormous swaths of open ocean — a purely empirical, descriptive achievement published nearly fifty years before Hadley (see th5) would attempt to actually explain why the winds behaved this way.",
+          "note": "Halley, E. (1686). 'An Historical Account of the Trade Winds, and Monsoons, Observable in the Seas Between and Near the Tropics.' Philosophical Transactions of the Royal Society, 16, 153–168. Halley correctly identified solar heating of the equatorial atmosphere as the trade winds' underlying energy source but did not attempt to explain the winds' characteristic diagonal, rather than straight north-south, direction, a gap Hadley's later theoretical framework would address.",
+          "links": [
+            "th5"
+          ],
+          "keywords": [
+            "trade wind mapping",
+            "ship logbook data compilation",
+            "pre theory wind observation"
+          ]
+        },
+        {
+          "id": "st12",
+          "group": "Severe Weather & Storms",
+          "label": "The 1953 North Sea Flood",
+          "date": "1953",
+          "loc": "Netherlands",
+          "coords": [
+            52.13,
+            4.28
+          ],
+          "tag": "FIELD STUDY",
+          "repl": "robust",
+          "hint": "An unusually intense storm combined with an exceptionally high spring tide to push a devastating storm surge onto the low-lying coastlines of the Netherlands, England, and Belgium, breaching sea defences in hundreds of places and killing over 2,500 people — the disaster directly exposed how a specific, dangerous combination of meteorological and astronomical factors could compound into a catastrophe far worse than either factor alone, and drove the Netherlands to build the Delta Works, one of history's largest storm-surge protection engineering projects.",
+          "note": "The storm struck on the night of 31 January – 1 February 1953. The disaster directly catalysed the establishment of dedicated storm surge forecasting services across the North Sea region, combining meteorological wind and pressure forecasts with tidal and coastal bathymetry data to predict flood risk — a forecasting discipline distinct from ordinary weather prediction that remains essential to modern coastal flood warning systems in low-lying regions worldwide.",
+          "links": [],
+          "keywords": [
+            "storm surge disaster",
+            "delta works engineering response",
+            "compound tide storm flooding"
+          ]
+        },
+        {
+          "id": "st13",
+          "group": "Numerical Weather Prediction & Forecasting",
+          "label": "Vilhelm Bjerknes's Weather-as-Physics-Problem Manifesto",
+          "date": "1904",
+          "loc": "Stockholm, Sweden",
+          "coords": [
+            59.33,
+            18.06
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Bjerknes argued that if the atmosphere's exact current state could be measured precisely enough, and the physical laws governing fluid motion and thermodynamics were known precisely enough, then the future weather should in principle be exactly calculable, the same way an astronomer calculates a planet's future position — reframing weather forecasting from an art of pattern recognition and intuition into, at least in principle, a solvable problem in physics and mathematics.",
+          "note": "Bjerknes, V. (1904). 'Das Problem der Wettervorhersage, betrachtet vom Standpunkte der Mechanik und der Physik.' Meteorologische Zeitschrift, 21, 1–7. Bjerknes correctly identified the two practical obstacles blocking his vision — insufficiently precise real-time atmospheric observations, and the sheer volume of calculation required — decades before either problem could actually be solved; his son Jacob Bjerknes (see th1, th7) and the wider Bergen School he founded turned the elder Bjerknes's theoretical manifesto into practical, working forecasting methods.",
+          "links": [
+            "st2",
+            "fg1"
+          ],
+          "keywords": [
+            "weather as physics problem",
+            "deterministic forecasting vision",
+            "bergen school founding manifesto"
+          ]
+        }
+      ]
     },
     {
       "id": "effect",
