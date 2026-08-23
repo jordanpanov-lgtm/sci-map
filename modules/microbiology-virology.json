@@ -1374,7 +1374,185 @@
       "accent": "#CA6F1E",
       "bg": "#FDF5EC",
       "subtitle": "Live controversies — where the field is actively contesting the evidence",
-      "entries": []
+      "entries": [
+        {
+          "id": "db1",
+          "group": "Virus Structure, Classification & Replication",
+          "label": "The Origin of Viruses",
+          "date": "2006",
+          "loc": "Institut Pasteur, Paris, France",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "tag": "DEBATE",
+          "hint": "No one knows for certain where viruses came from, and three competing hypotheses remain live: viruses might be ancient, predating cells entirely and contributing genes to the earliest cellular life; they might be genetic elements that escaped from cellular genomes and became independently mobile; or they might be reduced descendants of once free-living cells that progressively lost genes until only a minimal parasitic genome remained — and different viral lineages may well have originated by different routes rather than sharing one single answer.",
+          "note": "Forterre, P. (2006). 'The Origin of Viruses and Their Possible Roles in Major Evolutionary Transitions.' Virus Research, 117(1), 5–16, argues for an ancient, pre-cellular origin based on viral proteins with no clear cellular homologue. Holmes, E.C. (2011). 'What Does Virus Evolution Tell Us about Virus Origins?' Journal of Virology, 85(11), 5247–5251, argues the evolutionary and genomic evidence more consistently favours the escape hypothesis for most modern viral lineages, and that an ancient origin remains unproven speculation.",
+          "links": [
+            "db7"
+          ],
+          "keywords": [
+            "viral origin hypothesis dispute",
+            "escape hypothesis genetic element",
+            "ancient pre-cellular virus"
+          ]
+        },
+        {
+          "id": "db2",
+          "group": "Virus Structure, Classification & Replication",
+          "label": "Are Viruses Alive?",
+          "date": "1957",
+          "loc": "Institut Pasteur, Paris, France",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "tag": "DEBATE",
+          "hint": "A virus has no metabolism of its own, cannot generate energy, and cannot reproduce without hijacking a host cell's machinery entirely — grounds Lwoff used to argue viruses are simply not alive, just complex self-assembling chemistry, a definitional line still defended by many virologists; others argue that since a virus does carry its own genetic programme and undergoes Darwinian evolution by natural selection, the alive/not-alive binary itself is the wrong question to ask of something that only ever exists as part of a host-virus system.",
+          "note": "Lwoff, A. (1957). 'The Concept of Virus.' Journal of General Microbiology, 17(2), 239–253, proposed strict criteria — nucleic acid type, absence of independent metabolism, absence of ATP generation — explicitly excluding viruses from 'living' status. Koonin, E.V. & Starokadomskyy, P. (2016). 'Are Viruses Alive? The Replicator Paradigm Sheds Decisive Light on an Old But Misguided Question.' Studies in History and Philosophy of Biological and Biomedical Sciences, 59, 125–134, argues the question itself rests on a false binary, and that viruses simply occupy one end of a continuum of biological replicators alongside plasmids, transposons, and cellular life.",
+          "links": [
+            "th4"
+          ],
+          "keywords": [
+            "virus life definition debate",
+            "metabolic independence criterion",
+            "replicator continuum concept"
+          ]
+        },
+        {
+          "id": "db3",
+          "group": "Microbial Genetics & Horizontal Gene Transfer",
+          "label": "The Tree of Life vs. the Web of Life",
+          "date": "1999",
+          "loc": "Dalhousie University, Halifax, Nova Scotia",
+          "coords": [
+            44.65,
+            -63.57
+          ],
+          "tag": "DEBATE",
+          "hint": "If bacteria routinely swap genes across species lines through horizontal transfer, then any single organism's genome is a patchwork stitched together from multiple ancestral lineages rather than a clean line of vertical descent from one ancestor — a pattern that, taken to its logical extreme, would mean the familiar single branching 'tree of life' is the wrong shape entirely for at least the microbial world, and should be replaced by a tangled, reticulated 'web' or 'net' of life instead.",
+          "note": "Doolittle, W.F. (1999). 'Phylogenetic Classification and the Universal Tree.' Science, 284(5423), 2124–2128, argued horizontal transfer is frequent and extensive enough to undermine any single tree-like reconstruction of early evolutionary history. Kurland, C.G., Canback, B. & Berg, O.G. (2003). 'Horizontal Gene Transfer: A Critical View.' Proceedings of the National Academy of Sciences, 100(17), 9658–9662, countered that transfer rates for the essential, universally conserved 'core' genes used to build phylogenetic trees are far lower than for accessory genes, meaning a genuine, recoverable tree signal survives even amid substantial horizontal noise elsewhere in the genome.",
+          "links": [
+            "co7"
+          ],
+          "xlinks": [
+            "cell-molecular-bio::ef6"
+          ],
+          "keywords": [
+            "horizontal transfer phylogenetic noise",
+            "tree versus web life",
+            "core gene conservation argument"
+          ]
+        },
+        {
+          "id": "db4",
+          "group": "Virus Structure, Classification & Replication",
+          "label": "Protein-Only vs. Virino Hypothesis",
+          "date": "1979",
+          "loc": "Institute for Animal Health, Edinburgh, Scotland",
+          "coords": [
+            55.95,
+            -3.19
+          ],
+          "tag": "DEBATE",
+          "hint": "If prion disease is caused by pure misfolded protein with no genetic material at all, how can different scrapie 'strains' exist, each with a stable, heritable incubation period and distinct pattern of brain damage — traits that, in every other biological context, are the signature of an encoded genetic difference? Skeptics proposed prions must instead be a 'virino,' a small hidden nucleic acid wrapped in host-derived protein, until later genetic and structural evidence showed strain differences can arise purely from different stable misfolded protein conformations, with no nucleic acid required.",
+          "note": "Dickinson, A.G. & Outram, G.W. (1979). 'The Scrapie Replication-Site Hypothesis and Its Implications for Pathogenesis.' In Prusiner, S.B. & Hadlow, W.J. (eds.), Slow Transmissible Diseases of the Nervous System, Vol. 2, Academic Press, 13–31, coined 'virino' by analogy to the neutrino for a particle whose properties could only be inferred indirectly. Büeler, H. et al. (1993). 'Mice Devoid of PrP Are Resistant to Scrapie.' Cell, 73(7), 1339–1347, showed mice genetically engineered to lack the prion protein gene entirely cannot be infected by any scrapie strain — strong evidence against any separate infectious nucleic acid, since a virino would still need the host protein but not depend on it this absolutely.",
+          "links": [
+            "th8",
+            "st11"
+          ],
+          "keywords": [
+            "virino hypothesis skepticism",
+            "prion strain conformational diversity",
+            "prp knockout resistance evidence"
+          ]
+        },
+        {
+          "id": "db5",
+          "group": "Antibiotics, Antivirals & Biotechnology",
+          "label": "Persister Cells vs. Genetic Resistance: Is Tolerance Distinct?",
+          "date": "2019",
+          "loc": "Hebrew University of Jerusalem, Jerusalem, Israel",
+          "coords": [
+            31.78,
+            35.2
+          ],
+          "tag": "DEBATE",
+          "hint": "For decades, clinical and even scientific literature routinely blurred bacterial 'resistance' — a heritable genetic change letting bacteria actively grow despite an antibiotic — together with 'persistence' and 'tolerance' — a temporary, non-heritable, dormancy-based survival strategy with no genetic change at all — even though the two demand entirely different clinical responses and drug-development strategies, prompting a field-wide push to formally standardise the terminology so that treatment failures get diagnosed, and addressed, correctly.",
+          "note": "Balaban, N.Q. et al. (2019). 'Definitions and Guidelines for Research on Antibiotic Persistence.' Nature Reviews Microbiology, 17(7), 441–448, a consensus statement signed by over twenty leading researchers in the field, explicitly created because inconsistent terminology across prior decades of literature had actively hindered clinical translation (see ef9). Whether persistence meaningfully contributes to clinically relevant, hard-to-treat infections such as tuberculosis relapse remains an active, only partially resolved research question even after the terminology itself was clarified.",
+          "links": [
+            "ef9"
+          ],
+          "keywords": [
+            "antibiotic terminology standardization",
+            "tolerance versus resistance distinction",
+            "persistence clinical relevance debate"
+          ]
+        },
+        {
+          "id": "db6",
+          "group": "Antibiotics, Antivirals & Biotechnology",
+          "label": "Gain-of-Function Research: Necessary Science or Unacceptable Risk?",
+          "date": "2012",
+          "loc": "Erasmus Medical Center, Rotterdam, Netherlands",
+          "coords": [
+            51.92,
+            4.48
+          ],
+          "tag": "DEBATE",
+          "hint": "Deliberately engineering a dangerous pathogen, such as H5N1 avian influenza, to become transmissible between mammals via the air — research its proponents argue is essential for anticipating and preparing against a future natural pandemic strain — creates a real, physical laboratory-grown organism with genuine pandemic potential, and critics argue the modest predictive benefit of any single such experiment is dramatically outweighed by the risk of an accidental release or deliberate misuse, a dispute serious enough to trigger an actual US federal research funding moratorium.",
+          "note": "Herfst, S. et al. (2012). 'Airborne Transmission of Influenza A/H5N1 Virus Between Ferrets.' Science, 336(6088), 1534–1541, from Ron Fouchier's laboratory, demonstrated H5N1 could acquire airborne mammalian transmissibility through as few as five mutations. Lipsitch, M. & Galvani, A.P. (2014). 'Ethical Alternatives to Experiments with Novel Potential Pandemic Pathogens.' PLOS Medicine, 11(5), e1001646, argued the same scientific insight could usually be obtained through lower-risk methods, and that the small probability of a catastrophic lab-acquired outbreak makes the expected cost of gain-of-function work unacceptably high; the debate directly shaped a 2014–2017 US federal funding pause on the highest-risk experiments.",
+          "links": [],
+          "keywords": [
+            "gain of function moratorium",
+            "pandemic pathogen engineering risk",
+            "biosafety cost benefit dispute"
+          ]
+        },
+        {
+          "id": "db7",
+          "group": "Microbial Diversity & the Tree of Life",
+          "label": "Giant Viruses and the \"Fourth Domain\" Question",
+          "date": "2004",
+          "loc": "IHU Méditerranée Infection, Marseille, France",
+          "coords": [
+            43.3,
+            5.37
+          ],
+          "tag": "DEBATE",
+          "hint": "Discovered growing inside amoebae and initially mistaken for a bacterium because it was visible under an ordinary light microscope, Mimivirus turned out to have a genome larger than some actual bacteria, encoding genes for translation machinery no other known virus possesses — complexity so unexpected that some researchers proposed giant viruses represent a fourth, previously unrecognised domain of life alongside Bacteria, Archaea and Eukarya, a claim other virologists reject as reading far too much significance into what remains, by every standard functional definition, an obligate cellular parasite incapable of independent protein synthesis.",
+          "note": "Raoult, D. et al. (2004). 'The 1.2-Megabase Genome Sequence of Mimivirus.' Science, 306(5700), 1344–1350, reported a genome exceeding that of several parasitic bacteria, reviving the fourth-domain proposal. Moreira, D. & López-García, P. (2009). 'Ten Reasons to Exclude Viruses from the Tree of Life.' Nature Reviews Microbiology, 7(4), 306–311, countered that gene count and genome size are the wrong criteria entirely — a virus's total dependence on host ribosomes for translation remains a categorical, not merely quantitative, difference from any cellular domain regardless of genome complexity.",
+          "links": [
+            "db1",
+            "th2"
+          ],
+          "keywords": [
+            "giant virus complexity",
+            "mimivirus genome discovery",
+            "fourth domain proposal rejection"
+          ]
+        },
+        {
+          "id": "db8",
+          "group": "Antibiotics, Antivirals & Biotechnology",
+          "label": "Synthetic Genomes: Does Booting Up a Chromosome Count as Creating Life?",
+          "date": "2010",
+          "loc": "J. Craig Venter Institute, Rockville, Maryland",
+          "coords": [
+            39.08,
+            -77.15
+          ],
+          "tag": "DEBATE",
+          "hint": "Chemically synthesising an entire bacterial genome from scratch, based on a digitally stored sequence, and transplanting it into an emptied host cell that then boots up and starts dividing under the synthetic genome's control was announced by its creators as making the 'first self-replicating species whose parent is a computer' — language critics immediately challenged, arguing the team had copied and slightly modified an existing, evolved genome and installed it into a pre-existing living cell rather than building life from non-living chemistry, a genuine feat of genome engineering but not, in any strong sense, the creation of new life.",
+          "note": "Gibson, D.G. et al. (2010). 'Creation of a Bacterial Cell Controlled by a Chemically Synthesized Genome.' Science, 329(5987), 52–56, transplanted a synthesised, near-copy of the Mycoplasma mycoides genome into an emptied Mycoplasma capricolum cell to create 'JCVI-syn1.0.' Deplazes, A. & Huppenbauer, M. (2009). 'Synthetic Organisms and Living Machines.' Systems and Synthetic Biology, 3(1–4), 55–63, argued the philosophically loaded 'creating life' framing obscures a more accurate and still remarkable description: booting a designed genome inside an already-living cellular chassis that supplied every piece of existing biological machinery the synthetic DNA depended on.",
+          "links": [],
+          "keywords": [
+            "synthetic genome transplantation",
+            "minimal genome engineering",
+            "creating life definitional dispute"
+          ]
+        }
+      ]
     },
     {
       "id": "application",
@@ -1384,7 +1562,134 @@
       "accent": "#2E86C1",
       "bg": "#EBF5FB",
       "subtitle": "Where the science leaves the lab",
-      "entries": []
+      "entries": [
+        {
+          "id": "ap1",
+          "group": "Antibiotics, Antivirals & Biotechnology",
+          "label": "Penicillin Mass Production",
+          "date": "1943",
+          "loc": "Sir William Dunn School of Pathology, University of Oxford, Oxford, England",
+          "coords": [
+            51.75,
+            -1.26
+          ],
+          "tag": "APPLICATION",
+          "hint": "Turning Fleming's laboratory curiosity into a usable drug required Florey and Chain's Oxford team to purify, stabilise, and test the compound in animals and patients, then solve an entirely separate industrial problem — growing enough Penicillium mould to produce useful quantities — by shifting from shallow surface culture to deep-tank fermentation, a scale-up that let penicillin production increase roughly two-hundred-fold within about two years and made the drug available in large quantities in time for the Allied invasion of Normandy.",
+          "note": "Chain, E., Florey, H.W., Gardner, A.D. et al. (1940). 'Penicillin as a Chemotherapeutic Agent.' The Lancet, 236(6104), 226–228, reported the first purified penicillin's therapeutic effect. The critical deep-tank fermentation breakthrough, developed largely at the US Department of Agriculture's Northern Regional Research Laboratory in Peoria, Illinois, combined a higher-yielding Penicillium strain found growing on a mouldy cantaloupe with corn steep liquor as a cheap growth medium — an unglamorous but decisive piece of applied microbiology that turned a hand-crafted laboratory extract into an industrial commodity.",
+          "links": [
+            "st9",
+            "fg7",
+            "th10"
+          ],
+          "keywords": [
+            "penicillin industrial scale up",
+            "deep tank fermentation",
+            "wartime antibiotic production"
+          ]
+        },
+        {
+          "id": "ap2",
+          "group": "Microbial Ecology & Metabolism",
+          "label": "Wastewater Treatment via Activated Sludge",
+          "date": "1914",
+          "loc": "Davyhulme Sewage Works, Manchester, England",
+          "coords": [
+            53.48,
+            -2.24
+          ],
+          "tag": "APPLICATION",
+          "hint": "Rather than simply filtering raw sewage, the activated sludge process aerates it in large tanks, encouraging a dense community of bacteria and protozoa to actively metabolise and break down the dissolved organic waste, then settles the resulting bacteria-rich sludge out of the now-cleaned water and recycles most of it back into the incoming tank to keep the microbial community continuously active — a biological treatment process now responsible for cleaning the wastewater of a large fraction of the world's urban population before it is released back into rivers and oceans.",
+          "note": "Ardern, E. & Lockett, W.T. (1914). 'Experiments on the Oxidation of Sewage Without the Aid of Filters.' Journal of the Society of Chemical Industry, 33(10), 523–539, presented at Manchester's Davyhulme sewage works, coining the term 'activated sludge' for the recycled bacterial floc. The process remains, over a century later, the dominant method of municipal wastewater treatment worldwide, refined considerably in energy efficiency and nutrient removal but fundamentally unchanged in its core biological principle.",
+          "links": [],
+          "keywords": [
+            "activated sludge process",
+            "biological sewage treatment",
+            "municipal wastewater microbiology"
+          ]
+        },
+        {
+          "id": "ap3",
+          "group": "Microbial Ecology & Metabolism",
+          "label": "Fecal Microbiota Transplantation for C. difficile",
+          "date": "2013",
+          "loc": "Academic Medical Center, University of Amsterdam, Amsterdam, Netherlands",
+          "coords": [
+            52.37,
+            4.9
+          ],
+          "tag": "APPLICATION",
+          "hint": "For patients with recurrent, antibiotic-resistant Clostridioides difficile infection — a severe intestinal illness that itself often follows earlier antibiotic treatment wiping out a patient's protective gut bacterial community — transferring filtered stool from a healthy donor directly into the patient's intestine restores a functioning bacterial ecosystem capable of outcompeting C. difficile, a treatment so dramatically more effective than further antibiotics that an ongoing clinical trial was stopped early on ethical grounds once the difference became undeniable.",
+          "note": "van Nood, E. et al. (2013). 'Duodenal Infusion of Donor Feces for Recurrent Clostridium difficile.' New England Journal of Medicine, 368(5), 407–415, a randomised controlled trial halted early after donor-faeces infusion resolved 81% of cases versus roughly 31% for standard antibiotic therapy alone. The trial helped move faecal microbiota transplantation from an occasionally reported historical curiosity into a standard, guideline-recommended treatment, and spurred ongoing research into which specific bacterial species in a healthy donor sample are actually doing the therapeutic work.",
+          "links": [],
+          "keywords": [
+            "fecal transplant treatment",
+            "c difficile recurrent infection",
+            "gut microbiome restoration therapy"
+          ]
+        },
+        {
+          "id": "ap4",
+          "group": "Microbial Ecology & Metabolism",
+          "label": "Bioremediation of Oil Spills",
+          "date": "1995",
+          "loc": "University of Louisville, Louisville, Kentucky",
+          "coords": [
+            38.25,
+            -85.76
+          ],
+          "tag": "APPLICATION",
+          "hint": "Naturally occurring oil-degrading bacteria, already present in most marine environments at low background levels, can be deliberately encouraged to multiply and break down spilled petroleum far faster than natural weathering alone by adding nitrogen and phosphorus fertiliser to the contaminated shoreline — the missing nutrients otherwise limiting the bacteria's growth rate — a technique tested at large scale for the first time after the 1989 Exxon Valdez spill in Alaska.",
+          "note": "Atlas, R.M. (1995). 'Bioremediation of Petroleum Pollutants.' International Biodeterioration & Biodegradation, 35(1–3), 317–327, reviewing the Exxon Valdez fertiliser-application trials, which showed measurably accelerated oil degradation on treated shoreline sections compared to untreated controls. Bioremediation is now a standard tool in the oil-spill response toolkit, though it works far better on shoreline and soil contamination than on open water, and cannot fully substitute for mechanical containment and recovery on a fresh, large spill.",
+          "links": [],
+          "keywords": [
+            "oil degrading bacteria",
+            "nutrient enhanced bioremediation",
+            "exxon valdez shoreline treatment"
+          ]
+        },
+        {
+          "id": "ap5",
+          "group": "Virus Structure, Classification & Replication",
+          "label": "Bacteriophage Therapy",
+          "date": "2017",
+          "loc": "University of California, San Diego, San Diego, California",
+          "coords": [
+            32.88,
+            -117.23
+          ],
+          "tag": "APPLICATION",
+          "hint": "With few remaining antibiotic options for some multidrug-resistant bacterial infections, physicians have revived a century-old idea largely abandoned in the West after antibiotics arrived: treating a bacterial infection with bacteriophages specifically matched to kill the infecting strain, screened from environmental phage libraries and sometimes engineered for improved potency, a personalised approach demonstrated dramatically in a critically ill patient whose infection had exhausted every standard antibiotic option.",
+          "note": "Schooley, R.T. et al. (2017). 'Development and Use of Personalized Bacteriophage-Based Therapeutic Cocktails to Treat a Patient with a Disseminated Resistant Acinetobacter baumannii Infection.' Antimicrobial Agents and Chemotherapy, 61(10), e00954-17, documented the recovery of Tom Patterson, a UC San Diego professor, after a custom intravenous phage cocktail cleared an infection unresponsive to every available antibiotic. Phage therapy had continued in routine clinical use throughout the twentieth century at the Eliava Institute in Tbilisi, Georgia — founded by Félix d'Herelle himself (see st6) — long after it fell out of favour elsewhere.",
+          "links": [
+            "st6"
+          ],
+          "keywords": [
+            "phage therapy compassionate use",
+            "multidrug resistant infection treatment",
+            "personalized phage cocktail"
+          ]
+        },
+        {
+          "id": "ap6",
+          "group": "Bacterial Cell Biology & Physiology",
+          "label": "Industrial Enzyme Production",
+          "date": "1963",
+          "loc": "Novo Industri, Bagsværd, Denmark",
+          "coords": [
+            55.77,
+            12.45
+          ],
+          "tag": "APPLICATION",
+          "hint": "Growing large fermentation tanks of Bacillus bacteria and harvesting the protein-digesting enzyme they naturally secrete gave detergent manufacturers a cheap, renewable source of a stain-removing additive that worked far better than any synthetic chemical alternative available at the time, launching the modern industrial enzyme industry and demonstrating that bacterial fermentation could mass-produce a specific, purified protein product for a completely non-medical consumer market.",
+          "note": "Novo Industri A/S launched Alcalase, a Bacillus licheniformis-derived alkaline protease, into commercial laundry detergents in 1963, the first detergent enzyme produced by industrial microbial fermentation rather than extraction from animal tissue. The commercial success of Alcalase established the template — screen environmental bacteria for a useful enzyme, then scale production through fermentation — that the industrial enzyme industry has followed ever since, now supplying enzymes for uses ranging from biofuel production to food processing.",
+          "links": [],
+          "keywords": [
+            "industrial enzyme fermentation",
+            "bacillus protease production",
+            "detergent enzyme commercialization"
+          ]
+        }
+      ]
     }
   ],
   "timeline": [
