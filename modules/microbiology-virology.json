@@ -23,7 +23,239 @@
       "accent": "#2471A3",
       "bg": "#F0F7FF",
       "subtitle": "The frameworks that organise how microbes are structured, inherited and classified",
-      "entries": []
+      "entries": [
+        {
+          "id": "th1",
+          "group": "Microbial Diversity & the Tree of Life",
+          "label": "Endosymbiotic Theory",
+          "date": "1967",
+          "loc": "Boston University, Boston, Massachusetts",
+          "coords": [
+            42.35,
+            -71.06
+          ],
+          "tag": "THEORY",
+          "hint": "Mitochondria and chloroplasts were not built from scratch by the eukaryotic cell — they began as free-living bacteria that were engulfed by a host cell and, rather than being digested, settled into a permanent partnership, eventually losing most of their own genome to the host nucleus while keeping a small remnant of their own DNA. It explains why both organelles still have their own circular chromosome, their own ribosomes, and a double membrane — the outer one from the host's engulfing membrane, the inner one from the original bacterium's own cell membrane.",
+          "note": "Sagan, L. (1967). 'On the Origin of Mitosis and Meiosis.' Journal of Theoretical Biology, 14(3), 225–274, published under Lynn Margulis's first married name; the paper was rejected by roughly fifteen journals before acceptance. Mitochondrial and chloroplast 16S-type ribosomal RNA sequences later confirmed a specifically bacterial ancestry — mitochondria trace to an alphaproteobacterium, chloroplasts to a cyanobacterium — vindicating a hypothesis first proposed by Konstantin Mereschkowski in 1905 and largely dismissed for six decades before Margulis's synthesis.",
+          "links": [
+            "fg12",
+            "co5"
+          ],
+          "keywords": [
+            "endosymbiotic theory origin",
+            "mitochondria bacterial ancestry",
+            "organelle genome retention"
+          ]
+        },
+        {
+          "id": "th2",
+          "group": "Microbial Diversity & the Tree of Life",
+          "label": "The Three-Domain System",
+          "date": "1977",
+          "loc": "University of Illinois, Urbana, Illinois",
+          "coords": [
+            40.11,
+            -88.21
+          ],
+          "tag": "THEORY",
+          "hint": "Comparing the sequence of a slowly-evolving ribosomal RNA gene across many organisms revealed that life divides not into the traditional two groups — simple prokaryotes and complex eukaryotes — but into three deeply separate lineages: Bacteria, Eukarya, and a previously unrecognised third group, Archaea, whose members look superficially bacterial under a microscope but are genetically and biochemically about as different from bacteria as bacteria are from humans.",
+          "note": "Woese, C.R. & Fox, G.E. (1977). 'Phylogenetic Structure of the Prokaryotic Domain: The Primary Kingdoms.' Proceedings of the National Academy of Sciences, 74(11), 5088–5090, based on comparative 16S/18S ribosomal RNA sequencing. The finding was initially met with open skepticism and even ridicule from a field accustomed to a two-empire view of life; it is now the standard classification taught in every introductory biology course, though the exact branching order and even the three-versus-two-domain framing remain subjects of ongoing debate (see db7).",
+          "links": [
+            "fg9",
+            "st10",
+            "co7"
+          ],
+          "keywords": [
+            "archaea discovery",
+            "ribosomal rna phylogeny",
+            "three domain classification"
+          ]
+        },
+        {
+          "id": "th3",
+          "group": "Virus Structure, Classification & Replication",
+          "label": "Baltimore Classification of Viruses",
+          "date": "1971",
+          "loc": "Massachusetts Institute of Technology, Cambridge, Massachusetts",
+          "coords": [
+            42.36,
+            -71.09
+          ],
+          "tag": "FRAMEWORK",
+          "hint": "Instead of classifying viruses by shape, host, or disease caused, David Baltimore proposed sorting them by the one thing that determines everything about how they replicate: the chemical nature of their genome and the specific molecular pathway it must take to produce messenger RNA — giving seven classes, from double-stranded DNA viruses through single-stranded RNA viruses to retroviruses that convert RNA back into DNA, each class sharing a common replication logic regardless of what disease the virus happens to cause.",
+          "note": "Baltimore, D. (1971). 'Expression of Animal Virus Genomes.' Bacteriological Reviews, 35(3), 235–241, formalised the classification the year after Baltimore's own discovery of reverse transcriptase (see fg10) forced virology to accept that genetic information could flow from RNA to DNA. The seven-class scheme remains the standard organising framework for virology, even as metagenomic surveys continue to turn up viruses that stretch its original categories, particularly among giant viruses (see db7).",
+          "links": [
+            "fg10",
+            "co4"
+          ],
+          "keywords": [
+            "viral genome classification",
+            "reverse transcription pathway",
+            "baltimore seven classes"
+          ]
+        },
+        {
+          "id": "th4",
+          "group": "Virus Structure, Classification & Replication",
+          "label": "Lysogeny and the Prophage Concept",
+          "date": "1950",
+          "loc": "Institut Pasteur, Paris, France",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "tag": "THEORY",
+          "hint": "A bacteriophage does not always kill its host cell immediately — some phages instead splice their own DNA into the bacterial chromosome, where it rides along silently as a 'prophage' through every subsequent cell division, sometimes for thousands of generations, until a stress signal such as UV damage triggers it to excise itself, switch to active replication, and burst out of the cell — meaning a seemingly ordinary bacterium can be a ticking time bomb carrying a dormant virus in its own genome.",
+          "note": "Lwoff, A. (1953). 'Lysogeny.' Bacteriological Reviews, 17(4), 269–337, synthesised over a decade of work at the Institut Pasteur showing lysogeny was a genuine, stable, inheritable state rather than a laboratory artefact; Lwoff shared the 1965 Nobel Prize in Physiology or Medicine with François Jacob and Jacques Monod (see cell-molecular-bio::th2, formalised the same year via the operon model). A dormant prophage is not inert — it can supply its host with entirely new traits, including toxin genes (see ef4).",
+          "links": [
+            "ef4",
+            "db2"
+          ],
+          "xlinks": [
+            "cell-molecular-bio::th2"
+          ],
+          "keywords": [
+            "prophage integration",
+            "lysogenic dormancy",
+            "phage induction stress"
+          ]
+        },
+        {
+          "id": "th5",
+          "group": "Discovery of the Microbial World",
+          "label": "Theory of Biogenesis",
+          "date": "1862",
+          "loc": "École Normale Supérieure, Paris, France",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "tag": "THEORY",
+          "hint": "Living organisms, even microscopically small ones, arise only from other living organisms — never spontaneously from non-living matter, however carefully that matter is nourished — a principle that sounds obvious today but directly contradicted the mainstream scientific belief of the time, that broths left standing would spontaneously generate microbial life out of nothing. Establishing biogenesis as fact meant that any microbe found growing in a sterilised broth had to have arrived from somewhere, an assumption germ theory itself would later depend on.",
+          "note": "Pasteur, L. (1862). 'Mémoire sur les corpuscules organisés qui existent dans l'atmosphère.' Annales des Sciences Naturelles, 16, 5–98, reporting the swan-neck flask experiments that won the French Academy of Sciences' Alhumbert Prize. The victory was not immediate — English physicist Henry Charlton Bastian continued defending spontaneous generation into the 1870s, and the debate was only fully settled after John Tyndall's independent demonstrations that even Pasteur's own broths could support 'spontaneous' growth if contaminated with heat-resistant bacterial spores (see ef2), a caveat that briefly reopened the question before being resolved.",
+          "links": [
+            "st2",
+            "fg2"
+          ],
+          "keywords": [
+            "spontaneous generation refutation",
+            "swan neck flask",
+            "biogenesis principle"
+          ]
+        },
+        {
+          "id": "th6",
+          "group": "Microbial Ecology & Metabolism",
+          "label": "Chemolithotrophy Theory",
+          "date": "1887",
+          "loc": "Imperial Institute of Experimental Medicine, St. Petersburg, Russia",
+          "coords": [
+            59.93,
+            30.34
+          ],
+          "tag": "THEORY",
+          "hint": "Not every organism needs sunlight or pre-made organic molecules to live — some bacteria instead power themselves entirely by oxidising inorganic chemicals such as hydrogen sulphide, ammonia, or iron, using the released energy to build their own organic matter from carbon dioxide alone, a metabolic strategy with no parallel anywhere in the plant or animal kingdoms and one that opened the possibility of life thriving in environments with no light at all.",
+          "note": "Winogradsky, S. (1887). 'Über Schwefelbacterien.' Botanische Zeitung, 45, 489–610, demonstrated that sulphur bacteria (Beggiatoa) derive energy purely from oxidising hydrogen sulphide, coining the term chemolithotrophy for this strategy. The discovery later proved essential for understanding deep-sea hydrothermal vent ecosystems, first explored in 1977, whose entire food web runs on chemolithotrophic bacteria rather than photosynthesis — an ecosystem type unimaginable under a purely sunlight-based view of life.",
+          "links": [
+            "fg8",
+            "me6",
+            "co6"
+          ],
+          "keywords": [
+            "chemolithotrophy energy metabolism",
+            "sulphur oxidising bacteria",
+            "hydrothermal vent ecosystem"
+          ]
+        },
+        {
+          "id": "th7",
+          "group": "Bacterial Cell Biology & Physiology",
+          "label": "Quorum Sensing Theory",
+          "date": "1994",
+          "loc": "University of Iowa, Iowa City, Iowa",
+          "coords": [
+            41.66,
+            -91.53
+          ],
+          "tag": "THEORY",
+          "hint": "Bacteria are not simply independent cells reacting to their own local environment — many species continuously release a small signalling molecule into their surroundings and measure its accumulating concentration, effectively counting their own numbers, and switch on collective behaviours such as bioluminescence, toxin release, or biofilm formation only once the population crosses a density threshold, coordinating group behaviour without any central control.",
+          "note": "Fuqua, W.C., Winans, S.C. & Greenberg, E.P. (1994). 'Quorum Sensing in Bacteria: The LuxR-LuxI Family of Cell Density-Responsive Transcriptional Regulators.' Journal of Bacteriology, 176(2), 269–275, generalised a mechanism first worked out in the bioluminescent marine bacterium Vibrio fischeri. Quorum sensing has since been found across a huge range of bacterial species controlling behaviours from virulence factor release to biofilm formation (see ef1), making its signalling molecules an active target for 'quorum quenching' anti-virulence drugs that disable coordination without killing the bacteria outright.",
+          "links": [
+            "ef1"
+          ],
+          "keywords": [
+            "bacterial cell density signalling",
+            "collective behaviour coordination",
+            "quorum quenching target"
+          ]
+        },
+        {
+          "id": "th8",
+          "group": "Virus Structure, Classification & Replication",
+          "label": "Protein-Only (Prion) Hypothesis",
+          "date": "1982",
+          "loc": "University of California, San Francisco, San Francisco, California",
+          "coords": [
+            37.76,
+            -122.46
+          ],
+          "tag": "THEORY",
+          "hint": "An infectious agent can, in at least one confirmed case, be pure protein with no genetic material of any kind — a misfolded form of a normal brain protein that converts healthy copies of the same protein into its own misfolded shape simply by contact, propagating like a chain reaction through neural tissue with no DNA or RNA involved at any step, a claim that directly violated the assumption that all infectious agents must carry genetic instructions to replicate.",
+          "note": "Prusiner, S.B. (1982). 'Novel Proteinaceous Infectious Particles Cause Scrapie.' Science, 216(4542), 136–144, coined the term 'prion' (proteinaceous infectious particle). The hypothesis faced sustained, well-argued skepticism for over a decade (see db4) before accumulating genetic and biochemical evidence — including transgenic mice expressing only the abnormal protein spontaneously developing disease — brought Prusiner the 1997 Nobel Prize in Physiology or Medicine, one of the few Nobels awarded for a hypothesis that remained actively contested at the time of the award.",
+          "links": [
+            "st11",
+            "db4"
+          ],
+          "keywords": [
+            "prion protein misfolding",
+            "proteinaceous infectious particle",
+            "protein templating propagation"
+          ]
+        },
+        {
+          "id": "th9",
+          "group": "Virus Structure, Classification & Replication",
+          "label": "Quasispecies Theory",
+          "date": "1971",
+          "loc": "Max Planck Institute for Biophysical Chemistry, Göttingen, Germany",
+          "coords": [
+            51.53,
+            9.93
+          ],
+          "tag": "THEORY",
+          "hint": "An RNA virus does not replicate as a single, fixed genetic sequence — its polymerase makes copying errors so frequently that any infected host actually carries a whole cloud of closely related genetic variants clustered around one dominant sequence, with natural selection acting on the cloud as a whole rather than on any single genome, which is part of why RNA viruses such as influenza and HIV evolve drug resistance and immune escape so much faster than DNA-based organisms.",
+          "note": "Eigen, M. (1971). 'Selforganization of Matter and the Evolution of Biological Macromolecules.' Die Naturwissenschaften, 58(10), 465–523, developed the mathematical framework originally to model the origin of life's earliest self-replicating molecules; Esteban Domingo and John Holland extended it directly to RNA viruses through the 1970s–80s. The theory implies that reducing an RNA virus's mutation rate even slightly below a critical threshold — deliberately, with mutagenic antiviral drugs — can collapse the whole quasispecies cloud in an 'error catastrophe,' an active antiviral strategy today.",
+          "links": [],
+          "keywords": [
+            "rna virus mutant cloud",
+            "error prone replication",
+            "error catastrophe antiviral strategy"
+          ]
+        },
+        {
+          "id": "th10",
+          "group": "Antibiotics, Antivirals & Biotechnology",
+          "label": "Selective Toxicity Theory (\"Magic Bullet\")",
+          "date": "1909",
+          "loc": "Georg-Speyer-Haus, Frankfurt, Germany",
+          "coords": [
+            50.11,
+            8.68
+          ],
+          "tag": "THEORY",
+          "hint": "A chemical compound can be found, or deliberately designed, that binds tightly enough to a structure unique to a disease-causing microbe to kill it while leaving the patient's own cells almost entirely unharmed — the foundational assumption behind every antimicrobial drug developed since, and a genuinely new idea at the time, since most chemicals toxic enough to kill a pathogen were assumed to be similarly toxic to the patient carrying it.",
+          "note": "Ehrlich, P. & Hata, S. (1910). 'Die experimentelle Chemotherapie der Spirillosen.' Springer, Berlin, reporting compound 606 (arsphenamine, marketed as Salvarsan), the first systematically screened synthetic antimicrobial, effective against the syphilis spirochete. Ehrlich had coined the term 'Zauberkugel' (magic bullet) for the underlying concept as early as 1900 and shared the 1908 Nobel Prize in Physiology or Medicine for related immunological work; selective toxicity remains the organising principle behind rational antibiotic design, including the peptidoglycan-targeting mechanism of penicillin (see co3).",
+          "links": [
+            "ap1",
+            "co3"
+          ],
+          "keywords": [
+            "selective toxicity principle",
+            "magic bullet chemotherapy",
+            "synthetic antimicrobial screening"
+          ]
+        }
+      ]
     },
     {
       "id": "study",
@@ -33,7 +265,267 @@
       "accent": "#7D3C98",
       "bg": "#FAF5FF",
       "subtitle": "The defining experiments — and exactly what they found",
-      "entries": []
+      "entries": [
+        {
+          "id": "st1",
+          "group": "Discovery of the Microbial World",
+          "label": "Leeuwenhoek's Observation of Animalcules",
+          "date": "1676",
+          "loc": "Delft, Dutch Republic",
+          "coords": [
+            52.01,
+            4.36
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Grinding his own single-lens glass beads into simple microscopes far more powerful than anything else available at the time, a Dutch cloth merchant with no scientific training became the first person in history to see and describe bacteria and protozoa, which he called 'animalcules' — tiny creatures he found in rainwater, pond water, and scrapings from his own teeth, decades before anyone had a framework for understanding what they were or where they came from.",
+          "note": "van Leeuwenhoek, A. (1677). Letter to the Royal Society, published in Philosophical Transactions, 12, 821–831, describing animalcules observed with hand-ground lenses capable of roughly 270x magnification, a level of resolution no other instrument-maker would match for over a century. The Royal Society initially doubted his reports until Robert Hooke independently replicated the observations in 1677; Leeuwenhoek never published a formal scientific paper, communicating his findings entirely through more than 190 letters to the Society over five decades.",
+          "links": [
+            "fg1"
+          ],
+          "keywords": [
+            "animalcule first observation",
+            "hand ground microscope lens",
+            "protozoa bacteria discovery"
+          ]
+        },
+        {
+          "id": "st2",
+          "group": "Discovery of the Microbial World",
+          "label": "Pasteur's Swan-Neck Flask Experiments",
+          "date": "1862",
+          "loc": "École Normale Supérieure, Paris, France",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "tag": "EXPERIMENT",
+          "repl": "robust",
+          "hint": "Pasteur boiled nutrient broth inside flasks with long, curved swan-neck tubes open to the air — air, and the oxygen it carried, could still reach the broth, but airborne dust and microbes settled harmlessly in the curve of the neck rather than reaching the liquid — and showed the broth stayed sterile indefinitely unless the neck was broken or tilted to let trapped particles reach the liquid, at which point microbial growth appeared within days, directly refuting spontaneous generation while leaving air itself untouched as an explanation.",
+          "note": "Pasteur, L. (1862). 'Mémoire sur les corpuscules organisés qui existent dans l'atmosphère.' Annales des Sciences Naturelles, 16, 5–98. Several of Pasteur's original swan-neck flasks, still sterile after more than 150 years, remain on display at the Pasteur Institute in Paris. The experiment's design specifically isolated the variable in dispute — whether air itself or particles carried in air caused microbial growth — a methodological clarity that made the result difficult for spontaneous-generation proponents to dismiss.",
+          "links": [
+            "th5",
+            "fg2"
+          ],
+          "keywords": [
+            "swan neck flask design",
+            "sterile broth demonstration",
+            "spontaneous generation refutation"
+          ]
+        },
+        {
+          "id": "st3",
+          "group": "Virus Structure, Classification & Replication",
+          "label": "Ivanovsky's Filterable Agent Experiment",
+          "date": "1892",
+          "loc": "St. Petersburg, Russia",
+          "coords": [
+            59.93,
+            30.34
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Diseased tobacco plant sap, passed through a Chamberland filter fine enough to trap every known bacterium, still caused disease when rubbed onto healthy plants — meaning whatever was causing tobacco mosaic disease was smaller than any bacterium yet observed, small enough to pass straight through a bacteria-proof filter, though Ivanovsky himself assumed the agent was simply an unusually small or filter-slipping bacterium rather than a fundamentally new category of infectious particle.",
+          "note": "Ivanovsky, D. (1892). 'Concerning the Mosaic Disease of the Tobacco Plant.' Bulletin of the Imperial Academy of Sciences of St. Petersburg, 35, 67–70. Ivanovsky is now credited with the first documented observation of what would later be recognised as a virus, though he did not draw that conclusion himself; Martinus Beijerinck independently repeated and extended the filtration experiment six years later and was the one to argue the agent was something categorically new (see st4).",
+          "links": [
+            "fg5"
+          ],
+          "keywords": [
+            "chamberland filter passage",
+            "tobacco mosaic disease",
+            "filterable infectious agent"
+          ]
+        },
+        {
+          "id": "st4",
+          "group": "Virus Structure, Classification & Replication",
+          "label": "Beijerinck's Contagium Vivum Fluidum",
+          "date": "1898",
+          "loc": "Delft Polytechnic, Delft, Netherlands",
+          "coords": [
+            52.01,
+            4.36
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Repeating and extending Ivanovsky's filtration experiment, Beijerinck showed the filterable tobacco mosaic agent could diffuse through agar gel like a dissolved substance, could not be cultured on any known bacterial growth medium, and multiplied only inside living plant tissue — evidence that convinced him this was not simply a very small bacterium but an entirely new category of infectious agent, which he named a 'contagium vivum fluidum,' a contagious living fluid.",
+          "note": "Beijerinck, M.W. (1898). 'Über ein Contagium vivum fluidum als Ursache der Fleckenkrankheit der Tabaksblätter.' Verhandelingen der Koninklijke Akademie van Wetenschappen te Amsterdam, 65, 3–21. Beijerinck's insistence that the agent could only replicate inside a living host cell — unlike any known bacterium, which could be grown on inert media — was the conceptual leap that first separated viruses from bacteria as a distinct category, decades before anyone could see one directly (see st5).",
+          "links": [
+            "fg4",
+            "st3"
+          ],
+          "keywords": [
+            "contagium vivum fluidum",
+            "obligate host replication",
+            "virus concept origin"
+          ]
+        },
+        {
+          "id": "st5",
+          "group": "Virus Structure, Classification & Replication",
+          "label": "Stanley's Crystallization of Tobacco Mosaic Virus",
+          "date": "1935",
+          "loc": "Princeton, New Jersey",
+          "coords": [
+            40.35,
+            -74.66
+          ],
+          "tag": "EXPERIMENT",
+          "repl": "robust",
+          "hint": "Purifying tobacco mosaic virus down to a fine, needle-shaped crystalline powder — behaving, by every chemical test available, like an ordinary protein rather than any living cell — and showing that redissolving the crystals in water and applying them to a healthy plant still caused disease, blurred the line between chemistry and biology in a way that shocked contemporary scientists, since nothing previously classified as 'alive' had ever been crystallised like a simple chemical compound.",
+          "note": "Stanley, W.M. (1935). 'Isolation of a Crystalline Protein Possessing the Properties of Tobacco-Mosaic Virus.' Science, 81(2113), 644–645, earning Stanley a share of the 1946 Nobel Prize in Chemistry. Later work by Frederick Bawden and Norman Pirie (1936) showed Stanley's crystals actually contained RNA as well as protein, correcting the initial 'pure protein' interpretation but not undermining the central, startling finding that a virus could be crystallised at all.",
+          "links": [
+            "fg6"
+          ],
+          "keywords": [
+            "virus crystallization",
+            "protein chemical purification",
+            "tobacco mosaic virus"
+          ]
+        },
+        {
+          "id": "st6",
+          "group": "Virus Structure, Classification & Replication",
+          "label": "Discovery of Bacteriophages",
+          "date": "1917",
+          "loc": "Institut Pasteur, Paris, France",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Filtering dysentery patients' stool samples through a bacteria-proof filter and mixing the filtrate with a bacterial culture produced clear, growing circular patches where the bacteria had been destroyed — direct visual proof of a self-replicating agent that specifically infects and kills bacteria, which d'Herelle named a 'bacteriophage,' a bacteria-eater, and immediately proposed using therapeutically against bacterial infection, decades before antibiotics existed.",
+          "note": "d'Herelle, F. (1917). 'Sur un microbe invisible antagoniste des bacilles dysentériques.' Comptes Rendus de l'Académie des Sciences, 165, 373–375. Frederick Twort had independently observed a similar 'glassy transformation' of bacterial colonies in 1915 without pursuing the finding further or naming the phenomenon; d'Herelle's independent, more thoroughly developed discovery two years later is usually credited as establishing bacteriophages as a defined class of virus, and he went on to found what became the Eliava Institute's phage therapy programme in Tbilisi, Georgia (see ap5).",
+          "links": [
+            "ap5"
+          ],
+          "keywords": [
+            "bacteriophage discovery",
+            "bacterial lysis plaque",
+            "bacteria eating virus"
+          ]
+        },
+        {
+          "id": "st7",
+          "group": "Microbial Genetics & Horizontal Gene Transfer",
+          "label": "Discovery of Bacterial Conjugation",
+          "date": "1946",
+          "loc": "Yale University, New Haven, Connecticut",
+          "coords": [
+            41.31,
+            -72.93
+          ],
+          "tag": "EXPERIMENT",
+          "repl": "robust",
+          "hint": "Mixing two different nutrient-deficient strains of E. coli that, separately, could never grow on a minimal medium missing the nutrients each needed, Lederberg and Tatum found that a small fraction of the mixed population grew perfectly well — meaning genetic material had somehow passed directly between the two bacterial strains, the first demonstration that bacteria, previously assumed to reproduce only asexually by simple division, could exchange genes through a form of direct cell-to-cell contact.",
+          "note": "Lederberg, J. & Tatum, E.L. (1946). 'Gene Recombination in Escherichia coli.' Nature, 158, 558. William Hayes later showed the gene transfer was one-directional, from a donor to a recipient cell, mediated by a transferable fertility factor (see co2) rather than the mutual exchange Lederberg initially envisioned; Lederberg shared the 1958 Nobel Prize in Physiology or Medicine, at 33 one of the youngest laureates in the prize's history.",
+          "links": [
+            "fg11",
+            "co2"
+          ],
+          "keywords": [
+            "bacterial conjugation discovery",
+            "gene recombination experiment",
+            "directional gene transfer"
+          ]
+        },
+        {
+          "id": "st8",
+          "group": "Microbial Genetics & Horizontal Gene Transfer",
+          "label": "Discovery of Generalized Transduction",
+          "date": "1952",
+          "loc": "University of Wisconsin, Madison, Wisconsin",
+          "coords": [
+            43.07,
+            -89.4
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Studying Salmonella strains separated by a filter fine enough to block bacterial cell contact but not bacteriophages, Zinder and Lederberg found that genetic traits still passed between the strains — a bacteriophage was accidentally packaging fragments of its host's own DNA, rather than its own genome, into new virus particles during replication, and then injecting that bacterial DNA into the next cell it infected, a third distinct mechanism of bacterial gene transfer alongside conjugation and transformation.",
+          "note": "Zinder, N.D. & Lederberg, J. (1952). 'Genetic Exchange in Salmonella.' Journal of Bacteriology, 64(5), 679–699. The mechanism, named transduction, was initially mistaken by the researchers for a form of conjugation until the filter-separation control ruled out direct cell contact; generalized transduction — packaging essentially random fragments of host DNA — was later distinguished from specialized transduction, in which a lysogenic phage (see th4) packages only DNA immediately adjacent to its own integration site.",
+          "links": [
+            "fg11"
+          ],
+          "keywords": [
+            "bacteriophage mediated gene transfer",
+            "generalized transduction discovery",
+            "salmonella genetic exchange"
+          ]
+        },
+        {
+          "id": "st9",
+          "group": "Antibiotics, Antivirals & Biotechnology",
+          "label": "Fleming's Discovery of Penicillin",
+          "date": "1928",
+          "loc": "St Mary's Hospital, London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Returning from a summer holiday to a stack of unwashed Petri dishes, Fleming noticed one culture plate of Staphylococcus had been accidentally contaminated by a mould, and that bacterial colonies near the mould had been destroyed while colonies further away grew normally — a chance contamination event revealing that the mould, Penicillium notatum, was secreting a substance actively lethal to bacteria, though Fleming's own attempts to purify and stabilise it went nowhere for over a decade.",
+          "note": "Fleming, A. (1929). 'On the Antibacterial Action of Cultures of a Penicillium, with Special Reference to their Use in the Isolation of B. influenzae.' British Journal of Experimental Pathology, 10(3), 226–236. Fleming's discovery remained a laboratory curiosity until Howard Florey and Ernst Chain's Oxford team purified and mass-produced the compound over a decade later (see ap1); Fleming, Florey and Chain shared the 1945 Nobel Prize in Physiology or Medicine.",
+          "links": [
+            "fg7",
+            "ap1"
+          ],
+          "keywords": [
+            "penicillin accidental discovery",
+            "mould bacterial inhibition",
+            "antibiotic contamination observation"
+          ]
+        },
+        {
+          "id": "st10",
+          "group": "Microbial Diversity & the Tree of Life",
+          "label": "Woese's 16S rRNA Survey Reveals Archaea",
+          "date": "1977",
+          "loc": "University of Illinois, Urbana, Illinois",
+          "coords": [
+            40.11,
+            -88.21
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Systematically comparing a slowly-mutating ribosomal RNA sequence across a wide range of microorganisms, Woese and Fox found that methane-producing microbes long assumed to be ordinary bacteria were genetically as distant from true bacteria as bacteria are from humans — an entirely separate branch of life that had gone unrecognised for a century simply because no one had a molecular tool sensitive enough to see the difference, since the two groups look nearly identical under a microscope.",
+          "note": "Woese, C.R. & Fox, G.E. (1977). 'Phylogenetic Structure of the Prokaryotic Domain: The Primary Kingdoms.' Proceedings of the National Academy of Sciences, 74(11), 5088–5090. The finding was met with public skepticism from senior microbiologists, including a widely reported dismissive New York Times op-ed; it was robustly confirmed by every subsequent genomic comparison and now underlies the three-domain system (see th2) taught as standard biology.",
+          "links": [
+            "th2",
+            "fg9"
+          ],
+          "keywords": [
+            "16s rrna comparison",
+            "archaea recognition",
+            "molecular phylogeny method"
+          ]
+        },
+        {
+          "id": "st11",
+          "group": "Virus Structure, Classification & Replication",
+          "label": "Isolation of the Scrapie Prion Protein",
+          "date": "1982",
+          "loc": "University of California, San Francisco, San Francisco, California",
+          "coords": [
+            37.76,
+            -122.46
+          ],
+          "tag": "EXPERIMENT",
+          "repl": "mixed",
+          "hint": "Purifying the infectious agent responsible for scrapie, a fatal brain disease in sheep, Prusiner's team found that treatments known to destroy nucleic acids left the agent's infectivity completely intact, while treatments that denature protein destroyed it — evidence, still contested at the time, that the infectious agent contained no genetic material at all and consisted purely of a misfolded protein capable of converting normal copies of itself into more of the same misfolded shape.",
+          "note": "Prusiner, S.B. (1982). 'Novel Proteinaceous Infectious Particles Cause Scrapie.' Science, 216(4542), 136–144. The nucleic-acid-resistance result was reproducible, but the stronger claim that no nucleic acid was involved at all took over a decade of further genetic and structural evidence to become widely accepted (see th8, db4); some researchers maintain minority reservations about whether a still-undetected nucleic acid cofactor might yet be involved.",
+          "links": [
+            "th8",
+            "db4"
+          ],
+          "keywords": [
+            "prion infectivity purification",
+            "nuclease resistant agent",
+            "misfolded protein propagation"
+          ]
+        }
+      ]
     },
     {
       "id": "effect",
