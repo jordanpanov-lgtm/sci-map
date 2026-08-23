@@ -4,6 +4,51 @@
 // are available as globals to the renderer.
 
 const STUDY_PLANS = {
+  'botany': {
+    meta: "Groups content thematically rather than by category: after the founders, each module works through one branch of the field — the biochemistry that turns light into sugar, the plumbing that moves water and sugar through the plant body, the hormonal signalling that steers growth toward or away from a stimulus, the classical genetics a humble pea plant first revealed, the elaborate coevolved relationship between flowers and their pollinators, the deep evolutionary history of how plants first colonised land, and the ecological partnerships and chemistry that let plants power entire ecosystems — carrying each branch's theories, landmark discoveries, named phenomena, and live debates together as a single unit.",
+    modules: [
+      {
+        title: '1 — Founders & the Field',
+        rationale: "From Ingenhousz's single productive summer establishing photosynthesis's light-dependence to Esau's definitive twentieth-century account of vascular tissue, a small set of patient observers repeatedly turned plant science from descriptive cataloguing into a field with genuine experimental and molecular rigour underneath it.",
+        groups: ['Pioneers & Theorists']
+      },
+      {
+        title: '2 — Photosynthesis & Plant Biochemistry',
+        rationale: "From Priestley's first hint that plants restore 'injured' air to the Calvin cycle's full biochemical mapping and the C4 and CAM variants adapted for heat and drought, this module covers how a plant actually converts light and carbon dioxide into the sugar nearly all other life depends on.",
+        groups: ['Photosynthesis & Plant Biochemistry']
+      },
+      {
+        title: '3 — Plant Anatomy & Vascular Structure',
+        rationale: "Xylem, phloem, stomata, and the cellulose-rich cell wall cover the physical plumbing and structural materials that let a plant stand upright, move water against gravity with no pump, and exchange gas with the air around it.",
+        groups: ['Plant Anatomy & Vascular Structure']
+      },
+      {
+        title: '4 — Plant Growth & Hormonal Signaling',
+        rationale: "Auxin-driven tropism, rapid touch-triggered movement, and the still-contested question of whether plants can 'learn' cover how a rooted, immobile organism nonetheless actively senses and responds to its environment.",
+        groups: ['Plant Growth & Hormonal Signaling']
+      },
+      {
+        title: '5 — Plant Genetics & Classical Heredity',
+        rationale: "Mendel's pea plants founded classical genetics itself, and this module carries that thread forward through polyploidy's outsized role in plant evolution, vernalization's cold-triggered flowering switch, and the politically fraught history of Lysenkoism's rejection of Mendelian genetics.",
+        groups: ['Plant Genetics & Classical Heredity']
+      },
+      {
+        title: '6 — Plant Reproduction & Pollination',
+        rationale: "Sprengel and Darwin's pollination studies, the genetic logic of flower development, and the deep coevolutionary relationship between flowering plants and their pollinators cover how plants, unable to move to find a mate, recruit animals to do it for them.",
+        groups: ['Plant Reproduction & Pollination']
+      },
+      {
+        title: '7 — Plant Diversity & Evolutionary History',
+        rationale: "From the earliest fossil land plants to the molecular evidence resolving whether land plants evolved once or many times, this module traces how plant life first left the water and diversified into the forms recognisable today.",
+        groups: ['Plant Diversity & Evolutionary History']
+      },
+      {
+        title: '8 — Plant Ecology & Symbiosis',
+        rationale: "Mycorrhizal partnerships, chemical defence compounds, allelopathy, and mast seeding cover how plants interact — cooperatively and competitively — with fungi, herbivores, and each other, plus the applied science of turning that chemistry into medicine and pollution cleanup.",
+        groups: ['Plant Ecology & Symbiosis']
+      }
+    ]
+  },
   'microbiology-virology': {
     meta: "Groups content thematically rather than by category: after the founders, each module works through one branch of the field — how the microbial world was first discovered and shown not to arise from nothing, how bacteria are physically built and how they trade genes with each other, how viruses are structured and classified, the deep genetic diversity separating bacteria from archaea, how microbes power entire ecosystems through metabolism alone, and finally the applied science of turning microbial biology into medicine and industry — carrying each branch's theories, landmark discoveries, named phenomena, and live debates together as a single unit.",
     modules: [
