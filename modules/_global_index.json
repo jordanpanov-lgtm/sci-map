@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 2003,
-    "folio_count": 26,
-    "xlink_pairs": 131,
-    "keyword_terms": 7176,
+    "total_entries": 2076,
+    "folio_count": 27,
+    "xlink_pairs": 132,
+    "keyword_terms": 7395,
     "folios": [
       {
         "id": "anatomy-histology",
@@ -79,6 +79,11 @@
         "id": "logic-math-foundations",
         "title": "Logic & Foundations of Mathematics",
         "entries": 81
+      },
+      {
+        "id": "meteorology",
+        "title": "Meteorology & Atmospheric Sciences",
+        "entries": 73
       },
       {
         "id": "neuroscience",
@@ -1292,6 +1297,79 @@
     "logic-math-foundations::ap5": "application · Non-Classical & Alternative Logics · Non-Monotonic Logic in AI (1980)",
     "logic-math-foundations::ap6": "application · Foundations of Number & Structure · Set-Theoretic Foundations of Modern Mathematics (1939)",
     "logic-math-foundations::ap7": "application · Gödel, Incompleteness & the Limits of Formalization · Gödel's Theorem in Popular Misapplication (1979)",
+    "meteorology::th1": "theory · Weather Systems & Fronts · Frontal Theory (Bergen School) (1919)",
+    "meteorology::th2": "theory · Atmospheric Structure & Thermodynamics · Adiabatic Lapse Rate Theory (1841)",
+    "meteorology::th3": "theory · Numerical Weather Prediction & Forecasting · Lorenz's Deterministic Chaos in Weather Prediction (1963)",
+    "meteorology::th4": "theory · Cloud & Precipitation Physics · Bergeron-Findeisen Process (1933)",
+    "meteorology::th5": "theory · Global Circulation & Climate Dynamics · General Circulation Theory (1735)",
+    "meteorology::th6": "theory · Global Circulation & Climate Dynamics · Coriolis Effect Theory (1835)",
+    "meteorology::th7": "theory · Weather Systems & Fronts · Norwegian Cyclone Model (1922)",
+    "meteorology::th8": "theory · Severe Weather & Storms · CAPE / Convective Instability Theory (1932)",
+    "meteorology::th9": "theory · Global Circulation & Climate Dynamics · Baroclinic Instability Theory (1947)",
+    "meteorology::th10": "theory · Atmospheric Optics & Radiation · Rayleigh Scattering (Atmospheric Optics) (1871)",
+    "meteorology::st1": "study · Numerical Weather Prediction & Forecasting · FitzRoy's Storm Warning Service (1861)",
+    "meteorology::st2": "study · Numerical Weather Prediction & Forecasting · Richardson's Numerical Weather Prediction Attempt (1922)",
+    "meteorology::st3": "study · Numerical Weather Prediction & Forecasting · ENIAC First Computer Weather Forecast (1950)",
+    "meteorology::st4": "study · Severe Weather & Storms · The Tri-State Tornado (1925)",
+    "meteorology::st5": "study · Severe Weather & Storms · The Galveston Hurricane (1900)",
+    "meteorology::st6": "study · Severe Weather & Storms · Fujita's Downburst Discovery (1975)",
+    "meteorology::st7": "study · Global Circulation & Climate Dynamics · Discovery of the Jet Stream (1934)",
+    "meteorology::st8": "study · Global Circulation & Climate Dynamics · Walker's Discovery of the Southern Oscillation (1923)",
+    "meteorology::st9": "study · Severe Weather & Storms · Union City Doppler Radar Tornado Observation (1973)",
+    "meteorology::st10": "study · Numerical Weather Prediction & Forecasting · TIROS-1 First Weather Satellite (1960)",
+    "meteorology::st11": "study · Global Circulation & Climate Dynamics · Halley's Trade Wind Chart (1686)",
+    "meteorology::st12": "study · Severe Weather & Storms · The 1953 North Sea Flood (1953)",
+    "meteorology::st13": "study · Numerical Weather Prediction & Forecasting · Vilhelm Bjerknes's Weather-as-Physics-Problem Manifesto (1904)",
+    "meteorology::ef1": "effect · Atmospheric Structure & Thermodynamics · Foehn Wind Effect (1866)",
+    "meteorology::ef2": "effect · Atmospheric Structure & Thermodynamics · Temperature Inversion (1930)",
+    "meteorology::ef3": "effect · Cloud & Precipitation Physics · Lake Effect Snow (1966)",
+    "meteorology::ef4": "effect · Severe Weather & Storms · Tropical Cyclone Formation Threshold (1948)",
+    "meteorology::ef5": "effect · Severe Weather & Storms · Microburst Wind Shear (1982)",
+    "meteorology::ef6": "effect · Atmospheric Optics & Radiation · Halo & Sundog Optical Phenomena (1637)",
+    "meteorology::ef7": "effect · Atmospheric Optics & Radiation · The Green Flash (1958)",
+    "meteorology::ef8": "effect · Weather Systems & Fronts · Sea Breeze / Land Breeze Cycle (1994)",
+    "meteorology::ef9": "effect · Global Circulation & Climate Dynamics · Sudden Stratospheric Warming (1952)",
+    "meteorology::co1": "concept · Atmospheric Structure & Thermodynamics · Atmospheric Stability (1940)",
+    "meteorology::co2": "concept · Weather Systems & Fronts · Air Mass Classification (1928)",
+    "meteorology::co3": "concept · Cloud & Precipitation Physics · Cloud Classification (1803)",
+    "meteorology::co4": "concept · Severe Weather & Storms · The Enhanced Fujita Scale (2006)",
+    "meteorology::co5": "concept · Severe Weather & Storms · The Saffir-Simpson Hurricane Wind Scale (1971)",
+    "meteorology::co6": "concept · Atmospheric Structure & Thermodynamics · Dew Point & Relative Humidity (1820)",
+    "meteorology::co7": "concept · Numerical Weather Prediction & Forecasting · Synoptic Scale vs. Mesoscale (1975)",
+    "meteorology::co8": "concept · Atmospheric Optics & Radiation · Albedo (1760)",
+    "meteorology::me1": "method · Severe Weather & Storms · Doppler Weather Radar (1988)",
+    "meteorology::me2": "method · Atmospheric Structure & Thermodynamics · Radiosonde (Weather Balloon Sounding) (1930)",
+    "meteorology::me3": "method · Numerical Weather Prediction & Forecasting · Synoptic Weather Chart Analysis (1863)",
+    "meteorology::me4": "method · Numerical Weather Prediction & Forecasting · Ensemble Forecasting (1993)",
+    "meteorology::me5": "method · Severe Weather & Storms · Aircraft Reconnaissance (Hurricane Hunters) (1943)",
+    "meteorology::me6": "method · Global Circulation & Climate Dynamics · Climate Reanalysis (1996)",
+    "meteorology::fg1": "figure · Pioneers & Theorists · Vilhelm Bjerknes (1904)",
+    "meteorology::fg2": "figure · Pioneers & Theorists · Robert FitzRoy (1861)",
+    "meteorology::fg3": "figure · Pioneers & Theorists · Luke Howard (1803)",
+    "meteorology::fg4": "figure · Pioneers & Theorists · Gilbert Walker (1923)",
+    "meteorology::fg5": "figure · Pioneers & Theorists · Edward Lorenz (1963)",
+    "meteorology::fg6": "figure · Pioneers & Theorists · Ted Fujita (1971)",
+    "meteorology::fg7": "figure · Pioneers & Theorists · Jacob Bjerknes (1919)",
+    "meteorology::fg8": "figure · Pioneers & Theorists · Wasaburo Ōishi (1934)",
+    "meteorology::fg9": "figure · Pioneers & Theorists · George Hadley (1735)",
+    "meteorology::fg10": "figure · Pioneers & Theorists · Jule Charney (1950)",
+    "meteorology::fg11": "figure · Pioneers & Theorists · Joanne Simpson (1949)",
+    "meteorology::fg12": "figure · Pioneers & Theorists · James Espy (1841)",
+    "meteorology::db1": "debate · Severe Weather & Storms · Can Hurricanes Be Weakened or Steered? (1962)",
+    "meteorology::db2": "debate · Global Circulation & Climate Dynamics · Global Warming's Effect on Hurricane Frequency vs. Intensity (2005)",
+    "meteorology::db3": "debate · Numerical Weather Prediction & Forecasting · The Chaos Theory Predictability Ceiling Debate (2018)",
+    "meteorology::db4": "debate · Cloud & Precipitation Physics · Cloud Seeding Effectiveness (2014)",
+    "meteorology::db5": "debate · Severe Weather & Storms · Tornado Formation: Top-Down vs. Bottom-Up Vorticity (2014)",
+    "meteorology::db6": "debate · Weather Systems & Fronts · \"Bomb Cyclone\" Terminology Debate (1980)",
+    "meteorology::db7": "debate · Global Circulation & Climate Dynamics · Arctic Amplification and Jet Stream Waviness (2012)",
+    "meteorology::db8": "debate · Global Circulation & Climate Dynamics · Does Polar Vortex Disruption Reliably Cause Cold Snaps? (2001)",
+    "meteorology::db9": "debate · Numerical Weather Prediction & Forecasting · The Reproducibility of Long-Range Seasonal Forecasts (2014)",
+    "meteorology::ap1": "application · Global Circulation & Climate Dynamics · Aviation Weather Routing & Turbulence Avoidance (1965)",
+    "meteorology::ap2": "application · Atmospheric Structure & Thermodynamics · Precision Agriculture Weather Forecasting (1913)",
+    "meteorology::ap3": "application · Severe Weather & Storms · Tropical Cyclone Tracking & Public Warning Systems (1970)",
+    "meteorology::ap4": "application · Numerical Weather Prediction & Forecasting · Weather Derivatives & Insurance Risk Modeling (1999)",
+    "meteorology::ap5": "application · Cloud & Precipitation Physics · Cloud Seeding for Drought Mitigation (1946)",
+    "meteorology::ap6": "application · Numerical Weather Prediction & Forecasting · Renewable Energy Wind Forecasting (2008)",
     "neuroscience::th1": "theory · Neurons & Synapses · Neuron Doctrine (1906)",
     "neuroscience::th2": "theory · Memory & Plasticity · Hebbian Learning ('Cells That Fire Together Wire Together') (1949)",
     "neuroscience::th3": "theory · Emotion & Motivation · Somatic Marker Hypothesis (1994)",
@@ -2715,6 +2793,12 @@
     ],
     "epistemology::th4": [
       "logic-math-foundations::db7"
+    ],
+    "meteorology::th3": [
+      "systems-and-complexity::ef1"
+    ],
+    "systems-and-complexity::ef1": [
+      "meteorology::th3"
     ],
     "neuroscience::th8": [
       "physiology-organ-systems::th9",
@@ -9158,6 +9242,371 @@
       "incompleteness popularization",
       "gödel theorem misapplication",
       "popular science logic overreach"
+    ],
+    "meteorology::th1": [
+      "air mass boundary",
+      "bergen school meteorology",
+      "storm structure model"
+    ],
+    "meteorology::th2": [
+      "rising air cooling rate",
+      "expansion cooling mechanism",
+      "latent heat release storm"
+    ],
+    "meteorology::th3": [
+      "weather predictability limit",
+      "sensitive initial condition dependence",
+      "forecasting ceiling discovery"
+    ],
+    "meteorology::th4": [
+      "ice crystal growth mechanism",
+      "supercooled droplet evaporation",
+      "mixed phase cloud precipitation"
+    ],
+    "meteorology::th5": [
+      "trade wind explanation",
+      "hadley cell circulation",
+      "equator to pole air movement"
+    ],
+    "meteorology::th6": [
+      "apparent deflection force",
+      "rotating reference frame",
+      "hemisphere direction difference"
+    ],
+    "meteorology::th7": [
+      "cyclone life cycle stages",
+      "occluded front formation",
+      "polar front theory"
+    ],
+    "meteorology::th8": [
+      "parcel buoyancy instability",
+      "convective available potential energy",
+      "thunderstorm energy quantification"
+    ],
+    "meteorology::th9": [
+      "temperature gradient instability",
+      "storm energy conversion",
+      "jet stream wave formation"
+    ],
+    "meteorology::th10": [
+      "wavelength dependent scattering",
+      "blue sky explanation",
+      "red sunset mechanism"
+    ],
+    "meteorology::st1": [
+      "first operational forecast",
+      "telegraph storm warning",
+      "met office founding"
+    ],
+    "meteorology::st2": [
+      "hand calculated weather forecast",
+      "physical equation prediction attempt",
+      "forecast factory vision"
+    ],
+    "meteorology::st3": [
+      "first computer forecast",
+      "eniac barotropic model",
+      "numerical prediction feasibility proof"
+    ],
+    "meteorology::st4": [
+      "deadliest single tornado",
+      "longest tornado track",
+      "pre warning system disaster"
+    ],
+    "meteorology::st5": [
+      "deadliest us natural disaster",
+      "unwarned hurricane strike",
+      "seawall construction response"
+    ],
+    "meteorology::st6": [
+      "downburst wind discovery",
+      "starburst damage pattern",
+      "aviation wind shear hazard"
+    ],
+    "meteorology::st7": [
+      "high altitude fast wind",
+      "pilot balloon tracking",
+      "wwii bomber rediscovery"
+    ],
+    "meteorology::st8": [
+      "pacific pressure seesaw",
+      "monsoon prediction search",
+      "el nino atmospheric link"
+    ],
+    "meteorology::st9": [
+      "mesocyclone rotation signature",
+      "doppler tornado tracking",
+      "severe storm radar milestone"
+    ],
+    "meteorology::st10": [
+      "first weather satellite",
+      "orbital cloud imagery",
+      "ocean storm detection"
+    ],
+    "meteorology::st11": [
+      "trade wind mapping",
+      "ship logbook data compilation",
+      "pre theory wind observation"
+    ],
+    "meteorology::st12": [
+      "storm surge disaster",
+      "delta works engineering response",
+      "compound tide storm flooding"
+    ],
+    "meteorology::st13": [
+      "weather as physics problem",
+      "deterministic forecasting vision",
+      "bergen school founding manifesto"
+    ],
+    "meteorology::ef1": [
+      "downslope warming wind",
+      "windward leeward asymmetry",
+      "chinook santa ana wind"
+    ],
+    "meteorology::ef2": [
+      "warm layer above cold",
+      "pollution trapping lid",
+      "nighttime radiative cooling"
+    ],
+    "meteorology::ef3": [
+      "cold air over warm water",
+      "narrow snowband structure",
+      "great lakes localized snowfall"
+    ],
+    "meteorology::ef4": [
+      "palmen sea temperature threshold",
+      "hurricane formation conditions",
+      "necessary not sufficient factors"
+    ],
+    "meteorology::ef5": [
+      "concentrated downdraft hazard",
+      "aircraft wind shear danger",
+      "jaws field confirmation project"
+    ],
+    "meteorology::ef6": [
+      "ice crystal light refraction",
+      "22 degree halo radius",
+      "hexagonal crystal geometry"
+    ],
+    "meteorology::ef7": [
+      "sunset color separation",
+      "atmospheric refraction prism",
+      "brief horizon flash"
+    ],
+    "meteorology::ef8": [
+      "differential land sea heating",
+      "daily wind reversal cycle",
+      "coastal thunderstorm trigger"
+    ],
+    "meteorology::ef9": [
+      "polar vortex disruption",
+      "rapid stratospheric temperature spike",
+      "delayed surface cold outbreak"
+    ],
+    "meteorology::co1": [
+      "parcel versus environment comparison",
+      "stable unstable classification",
+      "conditional instability threshold"
+    ],
+    "meteorology::co2": [
+      "source region characteristics",
+      "letter coded classification",
+      "front boundary definition"
+    ],
+    "meteorology::co3": [
+      "latin cloud naming system",
+      "cirrus cumulus stratus",
+      "cloud height family classification"
+    ],
+    "meteorology::co4": [
+      "damage based wind estimation",
+      "standardized damage indicator",
+      "fujita scale refinement"
+    ],
+    "meteorology::co5": [
+      "five category wind rating",
+      "wind speed only limitation",
+      "hurricane severity communication"
+    ],
+    "meteorology::co6": [
+      "saturation temperature measure",
+      "humidity perception accuracy",
+      "hygrometer instrument invention"
+    ],
+    "meteorology::co7": [
+      "atmospheric scale hierarchy",
+      "synoptic mesoscale distinction",
+      "forecast resolution requirement"
+    ],
+    "meteorology::co8": [
+      "surface reflectance fraction",
+      "snow ice high reflectivity",
+      "cloud energy balance role"
+    ],
+    "meteorology::me1": [
+      "frequency shift wind detection",
+      "nexrad network deployment",
+      "tornado warning lead time"
+    ],
+    "meteorology::me2": [
+      "balloon borne instrument package",
+      "vertical atmospheric profile",
+      "twice daily global launch network"
+    ],
+    "meteorology::me3": [
+      "simultaneous observation mapping",
+      "telegraph weather network",
+      "pre computer forecasting method"
+    ],
+    "meteorology::me4": [
+      "multiple perturbed forecast runs",
+      "quantified forecast confidence",
+      "spaghetti plot uncertainty"
+    ],
+    "meteorology::me5": [
+      "hurricane eye penetration flight",
+      "direct internal storm measurement",
+      "duckworth first flight bet"
+    ],
+    "meteorology::me6": [
+      "historical data reprocessing",
+      "gridded atmospheric reconstruction",
+      "consistent long term dataset"
+    ],
+    "meteorology::fg1": [
+      "weather forecasting manifesto",
+      "bergen geophysical institute founder",
+      "bergen school mentor"
+    ],
+    "meteorology::fg2": [
+      "first weather forecast coinage",
+      "beagle voyage captain",
+      "shipping forecast tribute"
+    ],
+    "meteorology::fg3": [
+      "amateur cloud classification",
+      "askesian society presentation",
+      "early urban climate record"
+    ],
+    "meteorology::fg4": [
+      "southern oscillation discovery",
+      "monsoon prediction mandate",
+      "walker circulation namesake"
+    ],
+    "meteorology::fg5": [
+      "accidental chaos discovery",
+      "butterfly effect coinage",
+      "rounding error revelation"
+    ],
+    "meteorology::fg6": [
+      "mr tornado nickname",
+      "fujita scale creator",
+      "downburst hazard discovery"
+    ],
+    "meteorology::fg7": [
+      "frontal theory developer",
+      "enso ocean atmosphere link",
+      "two field defining discoveries"
+    ],
+    "meteorology::fg8": [
+      "jet stream balloon tracking",
+      "esperanto publication choice",
+      "overlooked prior discovery"
+    ],
+    "meteorology::fg9": [
+      "trade wind theory amateur",
+      "hadley cell namesake",
+      "overlooked then rediscovered paper"
+    ],
+    "meteorology::fg10": [
+      "first computer forecast leader",
+      "baroclinic instability formalizer",
+      "von neumann collaboration"
+    ],
+    "meteorology::fg11": [
+      "first female meteorology phd",
+      "tropical cloud dynamics pioneer",
+      "nasa trmm chief scientist"
+    ],
+    "meteorology::fg12": [
+      "storm king nickname",
+      "convective storm theory advocate",
+      "us weather network founder"
+    ],
+    "meteorology::db1": [
+      "hurricane seeding experiment",
+      "eyewall replacement confound",
+      "storm modification abandonment"
+    ],
+    "meteorology::db2": [
+      "storm intensity frequency distinction",
+      "sea surface temperature correlation",
+      "climate model prediction nuance"
+    ],
+    "meteorology::db3": [
+      "predictability limit extension debate",
+      "high resolution model argument",
+      "machine learning forecasting challenge"
+    ],
+    "meteorology::db4": [
+      "silver iodide precipitation enhancement",
+      "randomized field trial difficulty",
+      "modest statistically significant increase"
+    ],
+    "meteorology::db5": [
+      "vortex2 field campaign findings",
+      "low level rotation origin",
+      "storm outflow boundary role"
+    ],
+    "meteorology::db6": [
+      "bombogenesis pressure drop criterion",
+      "military analogy terminology",
+      "media sensationalism critique"
+    ],
+    "meteorology::db7": [
+      "arctic warming jet stream link",
+      "meandering wave persistence hypothesis",
+      "contested observational evidence"
+    ],
+    "meteorology::db8": [
+      "probabilistic not deterministic link",
+      "stratospheric surface connection strength",
+      "unreliable case exceptions"
+    ],
+    "meteorology::db9": [
+      "seasonal forecast skill verification",
+      "ocean pattern dependent accuracy",
+      "multi model ensemble improvement"
+    ],
+    "meteorology::ap1": [
+      "clear air turbulence index",
+      "jet stream flight routing",
+      "fuel saving tailwind planning"
+    ],
+    "meteorology::ap2": [
+      "citrus frost protection forecasting",
+      "agricultural decision support",
+      "localized temperature threshold"
+    ],
+    "meteorology::ap3": [
+      "cone of uncertainty forecast",
+      "coastal evacuation lead time",
+      "satellite era casualty reduction"
+    ],
+    "meteorology::ap4": [
+      "weather futures financial contract",
+      "heating degree day hedge",
+      "catastrophe insurance risk model"
+    ],
+    "meteorology::ap5": [
+      "dry ice snow trigger",
+      "operational drought program",
+      "mountain snowpack targeting"
+    ],
+    "meteorology::ap6": [
+      "grid scale wind prediction",
+      "turbine generation forecasting",
+      "renewable integration necessity"
     ],
     "neuroscience::th1": [
       "neuron doctrine",
@@ -26064,6 +26513,663 @@
     ],
     "popular science logic overreach": [
       "logic-math-foundations::ap7"
+    ],
+    "air mass boundary": [
+      "meteorology::th1"
+    ],
+    "bergen school meteorology": [
+      "meteorology::th1"
+    ],
+    "storm structure model": [
+      "meteorology::th1"
+    ],
+    "rising air cooling rate": [
+      "meteorology::th2"
+    ],
+    "expansion cooling mechanism": [
+      "meteorology::th2"
+    ],
+    "latent heat release storm": [
+      "meteorology::th2"
+    ],
+    "weather predictability limit": [
+      "meteorology::th3"
+    ],
+    "sensitive initial condition dependence": [
+      "meteorology::th3"
+    ],
+    "forecasting ceiling discovery": [
+      "meteorology::th3"
+    ],
+    "ice crystal growth mechanism": [
+      "meteorology::th4"
+    ],
+    "supercooled droplet evaporation": [
+      "meteorology::th4"
+    ],
+    "mixed phase cloud precipitation": [
+      "meteorology::th4"
+    ],
+    "trade wind explanation": [
+      "meteorology::th5"
+    ],
+    "hadley cell circulation": [
+      "meteorology::th5"
+    ],
+    "equator to pole air movement": [
+      "meteorology::th5"
+    ],
+    "apparent deflection force": [
+      "meteorology::th6"
+    ],
+    "rotating reference frame": [
+      "meteorology::th6"
+    ],
+    "hemisphere direction difference": [
+      "meteorology::th6"
+    ],
+    "cyclone life cycle stages": [
+      "meteorology::th7"
+    ],
+    "occluded front formation": [
+      "meteorology::th7"
+    ],
+    "polar front theory": [
+      "meteorology::th7"
+    ],
+    "parcel buoyancy instability": [
+      "meteorology::th8"
+    ],
+    "convective available potential energy": [
+      "meteorology::th8"
+    ],
+    "thunderstorm energy quantification": [
+      "meteorology::th8"
+    ],
+    "temperature gradient instability": [
+      "meteorology::th9"
+    ],
+    "storm energy conversion": [
+      "meteorology::th9"
+    ],
+    "jet stream wave formation": [
+      "meteorology::th9"
+    ],
+    "wavelength dependent scattering": [
+      "meteorology::th10"
+    ],
+    "blue sky explanation": [
+      "meteorology::th10"
+    ],
+    "red sunset mechanism": [
+      "meteorology::th10"
+    ],
+    "first operational forecast": [
+      "meteorology::st1"
+    ],
+    "telegraph storm warning": [
+      "meteorology::st1"
+    ],
+    "met office founding": [
+      "meteorology::st1"
+    ],
+    "hand calculated weather forecast": [
+      "meteorology::st2"
+    ],
+    "physical equation prediction attempt": [
+      "meteorology::st2"
+    ],
+    "forecast factory vision": [
+      "meteorology::st2"
+    ],
+    "first computer forecast": [
+      "meteorology::st3"
+    ],
+    "eniac barotropic model": [
+      "meteorology::st3"
+    ],
+    "numerical prediction feasibility proof": [
+      "meteorology::st3"
+    ],
+    "deadliest single tornado": [
+      "meteorology::st4"
+    ],
+    "longest tornado track": [
+      "meteorology::st4"
+    ],
+    "pre warning system disaster": [
+      "meteorology::st4"
+    ],
+    "deadliest us natural disaster": [
+      "meteorology::st5"
+    ],
+    "unwarned hurricane strike": [
+      "meteorology::st5"
+    ],
+    "seawall construction response": [
+      "meteorology::st5"
+    ],
+    "downburst wind discovery": [
+      "meteorology::st6"
+    ],
+    "starburst damage pattern": [
+      "meteorology::st6"
+    ],
+    "aviation wind shear hazard": [
+      "meteorology::st6"
+    ],
+    "high altitude fast wind": [
+      "meteorology::st7"
+    ],
+    "pilot balloon tracking": [
+      "meteorology::st7"
+    ],
+    "wwii bomber rediscovery": [
+      "meteorology::st7"
+    ],
+    "pacific pressure seesaw": [
+      "meteorology::st8"
+    ],
+    "monsoon prediction search": [
+      "meteorology::st8"
+    ],
+    "el nino atmospheric link": [
+      "meteorology::st8"
+    ],
+    "mesocyclone rotation signature": [
+      "meteorology::st9"
+    ],
+    "doppler tornado tracking": [
+      "meteorology::st9"
+    ],
+    "severe storm radar milestone": [
+      "meteorology::st9"
+    ],
+    "first weather satellite": [
+      "meteorology::st10"
+    ],
+    "orbital cloud imagery": [
+      "meteorology::st10"
+    ],
+    "ocean storm detection": [
+      "meteorology::st10"
+    ],
+    "trade wind mapping": [
+      "meteorology::st11"
+    ],
+    "ship logbook data compilation": [
+      "meteorology::st11"
+    ],
+    "pre theory wind observation": [
+      "meteorology::st11"
+    ],
+    "storm surge disaster": [
+      "meteorology::st12"
+    ],
+    "delta works engineering response": [
+      "meteorology::st12"
+    ],
+    "compound tide storm flooding": [
+      "meteorology::st12"
+    ],
+    "weather as physics problem": [
+      "meteorology::st13"
+    ],
+    "deterministic forecasting vision": [
+      "meteorology::st13"
+    ],
+    "bergen school founding manifesto": [
+      "meteorology::st13"
+    ],
+    "downslope warming wind": [
+      "meteorology::ef1"
+    ],
+    "windward leeward asymmetry": [
+      "meteorology::ef1"
+    ],
+    "chinook santa ana wind": [
+      "meteorology::ef1"
+    ],
+    "warm layer above cold": [
+      "meteorology::ef2"
+    ],
+    "pollution trapping lid": [
+      "meteorology::ef2"
+    ],
+    "nighttime radiative cooling": [
+      "meteorology::ef2"
+    ],
+    "cold air over warm water": [
+      "meteorology::ef3"
+    ],
+    "narrow snowband structure": [
+      "meteorology::ef3"
+    ],
+    "great lakes localized snowfall": [
+      "meteorology::ef3"
+    ],
+    "palmen sea temperature threshold": [
+      "meteorology::ef4"
+    ],
+    "hurricane formation conditions": [
+      "meteorology::ef4"
+    ],
+    "necessary not sufficient factors": [
+      "meteorology::ef4"
+    ],
+    "concentrated downdraft hazard": [
+      "meteorology::ef5"
+    ],
+    "aircraft wind shear danger": [
+      "meteorology::ef5"
+    ],
+    "jaws field confirmation project": [
+      "meteorology::ef5"
+    ],
+    "ice crystal light refraction": [
+      "meteorology::ef6"
+    ],
+    "22 degree halo radius": [
+      "meteorology::ef6"
+    ],
+    "hexagonal crystal geometry": [
+      "meteorology::ef6"
+    ],
+    "sunset color separation": [
+      "meteorology::ef7"
+    ],
+    "atmospheric refraction prism": [
+      "meteorology::ef7"
+    ],
+    "brief horizon flash": [
+      "meteorology::ef7"
+    ],
+    "differential land sea heating": [
+      "meteorology::ef8"
+    ],
+    "daily wind reversal cycle": [
+      "meteorology::ef8"
+    ],
+    "coastal thunderstorm trigger": [
+      "meteorology::ef8"
+    ],
+    "polar vortex disruption": [
+      "meteorology::ef9"
+    ],
+    "rapid stratospheric temperature spike": [
+      "meteorology::ef9"
+    ],
+    "delayed surface cold outbreak": [
+      "meteorology::ef9"
+    ],
+    "parcel versus environment comparison": [
+      "meteorology::co1"
+    ],
+    "stable unstable classification": [
+      "meteorology::co1"
+    ],
+    "conditional instability threshold": [
+      "meteorology::co1"
+    ],
+    "source region characteristics": [
+      "meteorology::co2"
+    ],
+    "letter coded classification": [
+      "meteorology::co2"
+    ],
+    "front boundary definition": [
+      "meteorology::co2"
+    ],
+    "latin cloud naming system": [
+      "meteorology::co3"
+    ],
+    "cirrus cumulus stratus": [
+      "meteorology::co3"
+    ],
+    "cloud height family classification": [
+      "meteorology::co3"
+    ],
+    "damage based wind estimation": [
+      "meteorology::co4"
+    ],
+    "standardized damage indicator": [
+      "meteorology::co4"
+    ],
+    "fujita scale refinement": [
+      "meteorology::co4"
+    ],
+    "five category wind rating": [
+      "meteorology::co5"
+    ],
+    "wind speed only limitation": [
+      "meteorology::co5"
+    ],
+    "hurricane severity communication": [
+      "meteorology::co5"
+    ],
+    "saturation temperature measure": [
+      "meteorology::co6"
+    ],
+    "humidity perception accuracy": [
+      "meteorology::co6"
+    ],
+    "hygrometer instrument invention": [
+      "meteorology::co6"
+    ],
+    "atmospheric scale hierarchy": [
+      "meteorology::co7"
+    ],
+    "synoptic mesoscale distinction": [
+      "meteorology::co7"
+    ],
+    "forecast resolution requirement": [
+      "meteorology::co7"
+    ],
+    "surface reflectance fraction": [
+      "meteorology::co8"
+    ],
+    "snow ice high reflectivity": [
+      "meteorology::co8"
+    ],
+    "cloud energy balance role": [
+      "meteorology::co8"
+    ],
+    "frequency shift wind detection": [
+      "meteorology::me1"
+    ],
+    "nexrad network deployment": [
+      "meteorology::me1"
+    ],
+    "tornado warning lead time": [
+      "meteorology::me1"
+    ],
+    "balloon borne instrument package": [
+      "meteorology::me2"
+    ],
+    "vertical atmospheric profile": [
+      "meteorology::me2"
+    ],
+    "twice daily global launch network": [
+      "meteorology::me2"
+    ],
+    "simultaneous observation mapping": [
+      "meteorology::me3"
+    ],
+    "telegraph weather network": [
+      "meteorology::me3"
+    ],
+    "pre computer forecasting method": [
+      "meteorology::me3"
+    ],
+    "multiple perturbed forecast runs": [
+      "meteorology::me4"
+    ],
+    "quantified forecast confidence": [
+      "meteorology::me4"
+    ],
+    "spaghetti plot uncertainty": [
+      "meteorology::me4"
+    ],
+    "hurricane eye penetration flight": [
+      "meteorology::me5"
+    ],
+    "direct internal storm measurement": [
+      "meteorology::me5"
+    ],
+    "duckworth first flight bet": [
+      "meteorology::me5"
+    ],
+    "historical data reprocessing": [
+      "meteorology::me6"
+    ],
+    "gridded atmospheric reconstruction": [
+      "meteorology::me6"
+    ],
+    "consistent long term dataset": [
+      "meteorology::me6"
+    ],
+    "weather forecasting manifesto": [
+      "meteorology::fg1"
+    ],
+    "bergen geophysical institute founder": [
+      "meteorology::fg1"
+    ],
+    "bergen school mentor": [
+      "meteorology::fg1"
+    ],
+    "first weather forecast coinage": [
+      "meteorology::fg2"
+    ],
+    "beagle voyage captain": [
+      "meteorology::fg2"
+    ],
+    "shipping forecast tribute": [
+      "meteorology::fg2"
+    ],
+    "amateur cloud classification": [
+      "meteorology::fg3"
+    ],
+    "askesian society presentation": [
+      "meteorology::fg3"
+    ],
+    "early urban climate record": [
+      "meteorology::fg3"
+    ],
+    "southern oscillation discovery": [
+      "meteorology::fg4"
+    ],
+    "monsoon prediction mandate": [
+      "meteorology::fg4"
+    ],
+    "walker circulation namesake": [
+      "meteorology::fg4"
+    ],
+    "accidental chaos discovery": [
+      "meteorology::fg5"
+    ],
+    "butterfly effect coinage": [
+      "meteorology::fg5"
+    ],
+    "rounding error revelation": [
+      "meteorology::fg5"
+    ],
+    "mr tornado nickname": [
+      "meteorology::fg6"
+    ],
+    "fujita scale creator": [
+      "meteorology::fg6"
+    ],
+    "downburst hazard discovery": [
+      "meteorology::fg6"
+    ],
+    "frontal theory developer": [
+      "meteorology::fg7"
+    ],
+    "enso ocean atmosphere link": [
+      "meteorology::fg7"
+    ],
+    "two field defining discoveries": [
+      "meteorology::fg7"
+    ],
+    "jet stream balloon tracking": [
+      "meteorology::fg8"
+    ],
+    "esperanto publication choice": [
+      "meteorology::fg8"
+    ],
+    "overlooked prior discovery": [
+      "meteorology::fg8"
+    ],
+    "trade wind theory amateur": [
+      "meteorology::fg9"
+    ],
+    "hadley cell namesake": [
+      "meteorology::fg9"
+    ],
+    "overlooked then rediscovered paper": [
+      "meteorology::fg9"
+    ],
+    "first computer forecast leader": [
+      "meteorology::fg10"
+    ],
+    "baroclinic instability formalizer": [
+      "meteorology::fg10"
+    ],
+    "von neumann collaboration": [
+      "meteorology::fg10"
+    ],
+    "first female meteorology phd": [
+      "meteorology::fg11"
+    ],
+    "tropical cloud dynamics pioneer": [
+      "meteorology::fg11"
+    ],
+    "nasa trmm chief scientist": [
+      "meteorology::fg11"
+    ],
+    "storm king nickname": [
+      "meteorology::fg12"
+    ],
+    "convective storm theory advocate": [
+      "meteorology::fg12"
+    ],
+    "us weather network founder": [
+      "meteorology::fg12"
+    ],
+    "hurricane seeding experiment": [
+      "meteorology::db1"
+    ],
+    "eyewall replacement confound": [
+      "meteorology::db1"
+    ],
+    "storm modification abandonment": [
+      "meteorology::db1"
+    ],
+    "storm intensity frequency distinction": [
+      "meteorology::db2"
+    ],
+    "sea surface temperature correlation": [
+      "meteorology::db2"
+    ],
+    "climate model prediction nuance": [
+      "meteorology::db2"
+    ],
+    "predictability limit extension debate": [
+      "meteorology::db3"
+    ],
+    "high resolution model argument": [
+      "meteorology::db3"
+    ],
+    "machine learning forecasting challenge": [
+      "meteorology::db3"
+    ],
+    "silver iodide precipitation enhancement": [
+      "meteorology::db4"
+    ],
+    "randomized field trial difficulty": [
+      "meteorology::db4"
+    ],
+    "modest statistically significant increase": [
+      "meteorology::db4"
+    ],
+    "vortex2 field campaign findings": [
+      "meteorology::db5"
+    ],
+    "low level rotation origin": [
+      "meteorology::db5"
+    ],
+    "storm outflow boundary role": [
+      "meteorology::db5"
+    ],
+    "bombogenesis pressure drop criterion": [
+      "meteorology::db6"
+    ],
+    "military analogy terminology": [
+      "meteorology::db6"
+    ],
+    "media sensationalism critique": [
+      "meteorology::db6"
+    ],
+    "arctic warming jet stream link": [
+      "meteorology::db7"
+    ],
+    "meandering wave persistence hypothesis": [
+      "meteorology::db7"
+    ],
+    "contested observational evidence": [
+      "meteorology::db7"
+    ],
+    "probabilistic not deterministic link": [
+      "meteorology::db8"
+    ],
+    "stratospheric surface connection strength": [
+      "meteorology::db8"
+    ],
+    "unreliable case exceptions": [
+      "meteorology::db8"
+    ],
+    "seasonal forecast skill verification": [
+      "meteorology::db9"
+    ],
+    "ocean pattern dependent accuracy": [
+      "meteorology::db9"
+    ],
+    "multi model ensemble improvement": [
+      "meteorology::db9"
+    ],
+    "clear air turbulence index": [
+      "meteorology::ap1"
+    ],
+    "jet stream flight routing": [
+      "meteorology::ap1"
+    ],
+    "fuel saving tailwind planning": [
+      "meteorology::ap1"
+    ],
+    "citrus frost protection forecasting": [
+      "meteorology::ap2"
+    ],
+    "agricultural decision support": [
+      "meteorology::ap2"
+    ],
+    "localized temperature threshold": [
+      "meteorology::ap2"
+    ],
+    "cone of uncertainty forecast": [
+      "meteorology::ap3"
+    ],
+    "coastal evacuation lead time": [
+      "meteorology::ap3"
+    ],
+    "satellite era casualty reduction": [
+      "meteorology::ap3"
+    ],
+    "weather futures financial contract": [
+      "meteorology::ap4"
+    ],
+    "heating degree day hedge": [
+      "meteorology::ap4"
+    ],
+    "catastrophe insurance risk model": [
+      "meteorology::ap4"
+    ],
+    "dry ice snow trigger": [
+      "meteorology::ap5"
+    ],
+    "operational drought program": [
+      "meteorology::ap5"
+    ],
+    "mountain snowpack targeting": [
+      "meteorology::ap5"
+    ],
+    "grid scale wind prediction": [
+      "meteorology::ap6"
+    ],
+    "turbine generation forecasting": [
+      "meteorology::ap6"
+    ],
+    "renewable integration necessity": [
+      "meteorology::ap6"
     ],
     "neuron doctrine": [
       "neuroscience::th1"
