@@ -23,7 +23,7 @@ const FIELDS = [
   { id:"organic-polymer-chem",       domain:"physical-sciences", label:"Chemistry: Organic & Polymer",              sub:"Carbon chemistry, reactions & macromolecular structures",               status:"ready", file:"modules/organic-polymer-chem.json" },
   // ── EARTH, SPACE & ENVIRONMENTAL ─────────────────────────────────────────────
   { id:"astronomy-cosmology",        domain:"earth-space",       label:"Astronomy & Astrophysics",                  sub:"Stars, galaxies, stellar evolution & observational astronomy",          status:"ready", file:"modules/astronomy-cosmology.json" },
-  { id:"geology",                    domain:"earth-space",       label:"Geology & Solid Earth Systems",             sub:"Rocks, tectonics, deep time & Earth's interior",                        status:"planned" },
+  { id:"geology",                    domain:"earth-space",       label:"Geology & Solid Earth Systems",             sub:"Rocks, tectonics, deep time & Earth's interior",                        status:"ready", file:"modules/geology.json" },
   { id:"meteorology",                domain:"earth-space",       label:"Meteorology & Atmospheric Sciences",        sub:"Weather, climate & the physics of the atmosphere",                      status:"planned" },
   { id:"oceanography",               domain:"earth-space",       label:"Oceanography & Marine Sciences",            sub:"Ocean circulation, marine ecosystems & the deep sea",                   status:"ready",   file:"modules/oceanography.json" },
   { id:"environmental-science",      domain:"earth-space",       label:"Environmental Science & Sustainability",    sub:"Earth systems under human pressure — ecology & climate change",          status:"ready", file:"modules/environmental-science.json" },
