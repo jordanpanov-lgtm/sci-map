@@ -15,11 +15,11 @@
   "mapZoom": 3,
   "methodology": "METHODOLOGY · Every entry anchors to a landmark study, paper, clinical case or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags replication status, effect-size revisions and known controversies. Studies and effects carry a replicability badge — 🟢 robust · 🟡 nuanced or reduced · 🔴 failed or severely contested. Map pins mark the institution where the work was carried out.",
   "_meta": {
-    "total_entries": 86,
+    "total_entries": 87,
     "entry_counts": {
       "theory": 10,
       "study": 12,
-      "effect": 10,
+      "effect": 11,
       "concept": 17,
       "method": 6,
       "figure": 16,
@@ -29,7 +29,7 @@
     "max_ids": {
       "th": 10,
       "st": 12,
-      "ef": 10,
+      "ef": 11,
       "co": 17,
       "me": 6,
       "fg": 16,
@@ -46,7 +46,7 @@
       "Renal & Acid-Base Physiology",
       "Respiratory Physiology"
     ],
-    "last_updated": "2026-07-02"
+    "last_updated": "2026-08-23"
   },
   "_index": {
     "th1": "theory · Cell & Membrane Physiology · Hodgkin-Huxley Model (1952)",
@@ -81,6 +81,7 @@
     "ef8": "effect · Respiratory Physiology · Hering-Breuer Inflation Reflex (1868)",
     "ef9": "effect · Homeostasis & Integration · Cushing Reflex (1901)",
     "ef10": "effect · Cardiovascular & Blood Physiology · Valsalva Manoeuvre Phases (1704)",
+    "ef11": "effect · Gastrointestinal Physiology · Gut Bacterial Vitamin Synthesis (1959)",
     "co1": "concept · Cell & Membrane Physiology · Action Potential (1902)",
     "co2": "concept · Cell & Membrane Physiology · Resting Membrane Potential (1949)",
     "co3": "concept · Cardiovascular & Blood Physiology · Cardiac Output and Its Determinants (1628)",
@@ -1052,6 +1053,30 @@
             "autonomic assessment",
             "forced expiration phases"
           ]
+        },
+        {
+          "id": "ef11",
+          "group": "Gastrointestinal Physiology",
+          "label": "Gut Bacterial Vitamin Synthesis",
+          "date": "1959",
+          "loc": "Lund, Sweden",
+          "coords": [
+            55.7,
+            13.19
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Bacteria resident in the large intestine synthesise vitamin K2 (menaquinones) and most B-complex vitamins — biotin, folate, riboflavin, thiamine, pyridoxine, pantothenic acid, and cobalamin — as ordinary byproducts of their own metabolism, with specialised colon-lining cells absorbing several of these directly from the gut lumen; but the arrangement is imperfect, since absorbing B12 requires a specific receptor found only much further upstream in the small intestine, leaving most bacterially-made B12 unable to reach the bloodstream at all, and most of the bacteria doing the producing cannot even build the vitamin from scratch themselves, instead trading half-finished precursor molecules with neighbouring species in an interdependent microbial supply chain.",
+          "note": "Gustafsson, B.E. (1959). 'Vitamin K Deficiency in Germfree Rats.' Annals of the New York Academy of Sciences, 78, 166–174, using the sustained germ-free (gnotobiotic) rat colonies he had established in Sweden in 1946, showed that rats raised entirely without gut microbes needed far more dietary vitamin K to avoid deficiency than conventionally-raised rats — direct proof the missing bacteria had normally been supplying it. LeBlanc, J.G., Milani, C., de Giori, G.S., Sesma, F., van Sinderen, D. & Ventura, M. (2013). 'Bacteria as vitamin suppliers to their host: a gut microbiota perspective.' Current Opinion in Biotechnology, 24(2), 160–168, catalogued the modern list of bacterially-synthesised B-vitamins and their colonic absorption routes. Most gut bacteria, however, cannot synthesise cobalamin (B12) from scratch and instead scavenge partial corrinoid building blocks traded between species — Akkermansia muciniphila and Eubacterium hallii, for instance, exchange a fermentation byproduct for a corrinoid precursor in a documented two-way cross-feeding partnership (Degnan, P.H., Taga, M.E. & Goodman, A.L. 2014, Cell Metabolism, 20(5), 769–778) — a microbial supply chain largely wasted on the host, since most colonic B12 is produced downstream of the ileal receptor required for its absorption.",
+          "links": [
+            "co12"
+          ],
+          "keywords": [
+            "gut bacterial vitamin synthesis",
+            "vitamin b12 absorption paradox",
+            "colonic vitamin k absorption",
+            "microbial corrinoid cross feeding"
+          ]
         }
       ]
     },
@@ -1395,7 +1420,8 @@
           "links": [
             "fg16",
             "co3",
-            "ef1"
+            "ef1",
+            "ef11"
           ],
           "hint": "Hemostasis proceeds in three overlapping phases. Primary hemostasis: platelet adhesion to exposed subendothelial collagen (mediated by von Willebrand factor bridging to GPIb), platelet activation (shape change, degranulation releasing ADP/TXA₂), and aggregation (GPIIb/IIIa cross-linking fibrinogen). Secondary hemostasis (coagulation cascade): the extrinsic pathway (tissue factor + VIIa) and intrinsic pathway (XIIa → XIa → IXa) converge on factor X activation; Xa with Va generates thrombin from prothrombin; thrombin cleaves fibrinogen to fibrin and activates factor XIII to cross-link the clot. Fibrinolysis (tertiary): plasmin (from plasminogen activated by t-PA) dissolves the clot. Virchow's triad — endothelial injury, stasis, hypercoagulability — describes the three prerequisites for pathological thrombosis.",
           "tag": "CONCEPT",
@@ -2654,6 +2680,11 @@
           "y": 1931,
           "l": "Fåhraeus-Lindqvist effect",
           "entryId": "ef7"
+        },
+        {
+          "y": 1959,
+          "l": "Gut Bacterial Vitamin Synthesis",
+          "entryId": "ef11"
         }
       ]
     },

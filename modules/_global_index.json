@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 2077,
+    "total_entries": 2078,
     "folio_count": 27,
     "xlink_pairs": 141,
-    "keyword_terms": 7399,
+    "keyword_terms": 7403,
     "folios": [
       {
         "id": "anatomy-histology",
@@ -108,7 +108,7 @@
       {
         "id": "physiology-organ-systems",
         "title": "Physiology & Organ Systems",
-        "entries": 86
+        "entries": 87
       },
       {
         "id": "pure-mathematics",
@@ -1714,6 +1714,7 @@
     "physiology-organ-systems::ef8": "effect · Respiratory Physiology · Hering-Breuer Inflation Reflex (1868)",
     "physiology-organ-systems::ef9": "effect · Homeostasis & Integration · Cushing Reflex (1901)",
     "physiology-organ-systems::ef10": "effect · Cardiovascular & Blood Physiology · Valsalva Manoeuvre Phases (1704)",
+    "physiology-organ-systems::ef11": "effect · Gastrointestinal Physiology · Gut Bacterial Vitamin Synthesis (1959)",
     "physiology-organ-systems::co1": "concept · Cell & Membrane Physiology · Action Potential (1902)",
     "physiology-organ-systems::co2": "concept · Cell & Membrane Physiology · Resting Membrane Potential (1949)",
     "physiology-organ-systems::co3": "concept · Cardiovascular & Blood Physiology · Cardiac Output and Its Determinants (1628)",
@@ -11724,6 +11725,12 @@
       "baroreflex response",
       "autonomic assessment",
       "forced expiration phases"
+    ],
+    "physiology-organ-systems::ef11": [
+      "gut bacterial vitamin synthesis",
+      "vitamin b12 absorption paradox",
+      "colonic vitamin k absorption",
+      "microbial corrinoid cross feeding"
     ],
     "physiology-organ-systems::co1": [
       "membrane depolarisation",
@@ -31323,6 +31330,18 @@
     ],
     "forced expiration phases": [
       "physiology-organ-systems::ef10"
+    ],
+    "gut bacterial vitamin synthesis": [
+      "physiology-organ-systems::ef11"
+    ],
+    "vitamin b12 absorption paradox": [
+      "physiology-organ-systems::ef11"
+    ],
+    "colonic vitamin k absorption": [
+      "physiology-organ-systems::ef11"
+    ],
+    "microbial corrinoid cross feeding": [
+      "physiology-organ-systems::ef11"
     ],
     "sodium influx": [
       "physiology-organ-systems::co1"
