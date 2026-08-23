@@ -998,7 +998,144 @@
       "accent": "#8B5E00",
       "bg": "#FFF8F0",
       "subtitle": "The tools and paradigms that generate the field's evidence",
-      "entries": []
+      "entries": [
+        {
+          "id": "me1",
+          "group": "Stratigraphy & Deep Time",
+          "label": "Radiometric Dating (Geological Application)",
+          "date": "1913",
+          "loc": "University of Durham, Durham, England",
+          "coords": [
+            54.78,
+            -1.58
+          ],
+          "tag": "METHOD",
+          "hint": "Applying the physics of radioactive decay (see th10) to actual rock samples, geologists select minerals containing specific radioactive isotopes — uranium in zircon crystals, potassium in volcanic ash, carbon in organic remains younger than about 50,000 years — and measure the ratio of remaining parent isotope to accumulated daughter isotope to calculate an absolute age, finally pinning the relative sequence stratigraphy establishes (see st1) to specific numbers of years.",
+          "note": "Holmes, A. (1913). The Age of the Earth. Harper & Brothers, was the first systematic attempt to calibrate the entire geologic time scale (see co3) using radiometric dates rather than rough estimates of sedimentation rate. Different radioactive isotope pairs suit different age ranges and materials — uranium-lead dating on zircon crystals can reliably date rocks billions of years old, while radiocarbon dating only works on organic material younger than about 50,000 years, requiring geologists to select the right method for each specific sample and question.",
+          "links": [
+            "th10",
+            "co3"
+          ],
+          "keywords": [
+            "isotope parent daughter dating",
+            "geologic timescale calibration",
+            "zircon uranium lead method"
+          ]
+        },
+        {
+          "id": "me2",
+          "group": "Earth's Interior & Geophysics",
+          "label": "Seismic Tomography",
+          "date": "1977",
+          "loc": "Massachusetts Institute of Technology, Cambridge, Massachusetts",
+          "coords": [
+            42.36,
+            -71.09
+          ],
+          "tag": "METHOD",
+          "hint": "Just as a medical CT scan reconstructs a three-dimensional image of the body's interior from many X-ray passes taken at different angles, seismic tomography reconstructs a three-dimensional image of Earth's interior structure by analysing how seismic waves from thousands of earthquakes worldwide, recorded at thousands of seismometers, speed up or slow down as they pass through different regions of rock — revealing hidden temperature and composition variations, including the cold, dense remnants of subducted tectonic plates sinking deep into the mantle.",
+          "note": "Aki, K., Christoffersson, A. & Husebye, E.S. (1977). 'Determination of the Three-Dimensional Seismic Structure of the Lithosphere.' Journal of Geophysical Research, 82(2), 277–296, adapted medical tomographic reconstruction mathematics to seismic wave data. Modern global seismic tomography models have revealed distinct, persistent structures deep in the lower mantle, including two continent-sized regions of unusually slow seismic wave speed beneath Africa and the Pacific, whose exact composition and origin remain a genuinely open research question.",
+          "links": [
+            "st6"
+          ],
+          "keywords": [
+            "three dimensional wave imaging",
+            "mantle structure reconstruction",
+            "subducted slab detection"
+          ]
+        },
+        {
+          "id": "me3",
+          "group": "Plate Tectonics & Structural Geology",
+          "label": "Paleomagnetism",
+          "date": "1956",
+          "loc": "University of Newcastle, Newcastle, England",
+          "coords": [
+            54.98,
+            -1.61
+          ],
+          "tag": "METHOD",
+          "hint": "Certain iron-bearing minerals in rock lock in a tiny, permanent record of Earth's magnetic field direction and strength at the exact moment the rock solidified, preserving that record essentially unchanged for hundreds of millions of years — comparing this frozen-in magnetic direction against a rock's present-day geographic orientation reveals both how far the rock has travelled and how much it has rotated since it formed, letting geologists reconstruct the past positions and movements of entire continents.",
+          "note": "Runcorn, S.K. (1956). 'Paleomagnetic Comparisons between Europe and North America.' Proceedings of the Geological Association of Canada, 8, 77–85, used paleomagnetic data to demonstrate that Europe and North America's apparent past magnetic pole positions diverge increasingly further back in time — direct quantitative evidence the continents had moved relative to each other, supplied years before seafloor magnetic striping (see st5, ef9) offered independent confirmation.",
+          "links": [
+            "st5",
+            "ef9"
+          ],
+          "keywords": [
+            "frozen rock magnetization record",
+            "apparent polar wander path",
+            "continental motion reconstruction"
+          ]
+        },
+        {
+          "id": "me4",
+          "group": "Stratigraphy & Deep Time",
+          "label": "Core Drilling / Sampling",
+          "date": "1961",
+          "loc": "Guadalupe Island, Mexico",
+          "coords": [
+            29.02,
+            -118.28
+          ],
+          "tag": "METHOD",
+          "hint": "Drilling a long, continuous cylindrical core sample straight down through layers of rock or sediment preserves an intact, undisturbed vertical record of Earth's history in the exact order it was deposited, letting geologists directly examine, date, and chemically analyse material from far beneath the surface without needing a naturally exposed outcrop — a technique extended from land boreholes to specialised ships capable of drilling through kilometres of open ocean water and then still further into the seafloor beneath.",
+          "note": "The National Science Foundation's Project Mohole conducted a successful proof-of-concept deep-ocean drilling test off Guadalupe Island, Mexico, in 1961, before Congress cancelled the more ambitious full project in 1966 over cost overruns; the effort nonetheless directly inspired the far more successful Deep Sea Drilling Project (1968–1983) and its successors, whose recovered ocean-floor cores provided some of the most decisive confirming evidence for seafloor spreading (see th3) by directly dating the ocean floor's age at increasing distance from mid-ocean ridges.",
+          "links": [
+            "th3",
+            "st6"
+          ],
+          "keywords": [
+            "continuous core sample",
+            "deep ocean scientific drilling",
+            "undisturbed sediment record"
+          ]
+        },
+        {
+          "id": "me5",
+          "group": "Plate Tectonics & Structural Geology",
+          "label": "Geologic Mapping",
+          "date": "1942",
+          "loc": "Harvard University, Cambridge, Massachusetts",
+          "coords": [
+            42.37,
+            -71.12
+          ],
+          "tag": "METHOD",
+          "hint": "Systematically recording a rock outcrop's exact compass orientation — its strike, the compass direction a tilted layer's surface runs, and its dip, the angle and direction it tilts downward — at many locations across a region lets geologists reconstruct the three-dimensional underground shape of folded and faulted rock layers that can never be directly seen in full, extrapolating from scattered surface exposures to infer the hidden subsurface structure connecting them.",
+          "note": "Billings, M.P. (1942). Structural Geology. Prentice-Hall, systematised field mapping techniques for reconstructing folded and faulted rock structures from surface strike-and-dip measurements. Modern structural mapping increasingly combines traditional fieldwork with satellite radar interferometry and drone-based photogrammetry, though a geologist's direct, on-the-ground measurement of a rock layer's precise orientation remains the fundamental unit of data the entire reconstructed structure is built from.",
+          "links": [
+            "co5"
+          ],
+          "keywords": [
+            "strike dip measurement",
+            "subsurface structure reconstruction",
+            "field mapping technique"
+          ]
+        },
+        {
+          "id": "me6",
+          "group": "Mineralogy & Petrology",
+          "label": "Petrographic Thin-Section Microscopy",
+          "date": "1858",
+          "loc": "Sheffield, England",
+          "coords": [
+            53.38,
+            -1.47
+          ],
+          "tag": "METHOD",
+          "hint": "Grinding a rock sample down to a slice just 30 micrometres thick — thin enough for light to pass directly through most minerals — and examining it under a specialised polarising microscope reveals each mineral's distinctive optical properties, since different minerals bend and filter transmitted light in characteristic, identifiable ways, letting geologists precisely identify a rock's full mineral composition and internal texture invisible to the naked eye on a solid hand sample.",
+          "note": "Sorby, H.C. (1858). 'On the Microscopical Structure of Crystals, Indicating the Origin of Minerals and Rocks.' Quarterly Journal of the Geological Society, 14(1–2), 453–500, pioneered the thin-section technique, initially met with scepticism from geologists who doubted a microscope could reveal anything geologically meaningful. Thin-section analysis under polarised light remains a routine, essential first step in modern petrology, now often supplemented by electron microscopy and automated mineral-mapping software for more detailed chemical analysis.",
+          "links": [
+            "co1",
+            "co4"
+          ],
+          "keywords": [
+            "thin rock slice microscopy",
+            "polarized light mineral identification",
+            "petrographic optical analysis"
+          ]
+        }
+      ]
     },
     {
       "id": "figure",
@@ -1008,7 +1145,275 @@
       "accent": "#B7770D",
       "bg": "#FEFDE7",
       "subtitle": "The researchers who shaped the discipline",
-      "entries": []
+      "entries": [
+        {
+          "id": "fg1",
+          "group": "Pioneers & Theorists",
+          "label": "James Hutton",
+          "date": "1785",
+          "loc": "Edinburgh, Scotland",
+          "coords": [
+            55.95,
+            -3.19
+          ],
+          "tag": "FIGURE",
+          "hint": "A gentleman farmer turned naturalist, Hutton spent decades observing rock formations across Scotland before presenting his theory that Earth's landscape was shaped by the same slow, ordinary processes still operating today (see th1), given almost inconceivably vast amounts of time — a claim so radical for its era that his dense, difficult prose style meant the idea only became widely influential decades later, once Charles Lyell restated it more accessibly.",
+          "note": "Hutton, J. (1788). 'Theory of the Earth.' Transactions of the Royal Society of Edinburgh, 1(2), 209–304. Hutton's famous 1788 visit to Siccar Point (see st2) with his friend and popularising interpreter John Playfair produced the single most quoted passage in the history of geology, describing the mind growing 'giddy by looking so far into the abyss of time.' Hutton is now widely regarded as the founder of modern geology.",
+          "links": [
+            "th1",
+            "st2"
+          ],
+          "keywords": [
+            "founder of modern geology",
+            "gradual process advocate",
+            "siccar point visit"
+          ]
+        },
+        {
+          "id": "fg2",
+          "group": "Pioneers & Theorists",
+          "label": "Charles Lyell",
+          "date": "1830",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "FIGURE",
+          "hint": "A trained lawyer who turned to geology full-time, Lyell wrote Principles of Geology specifically to make Hutton's uniformitarian ideas (see th1) accessible, rigorous, and impossible to ignore, compiling an enormous body of supporting field evidence from across Europe — the book was carried by a young Charles Darwin aboard HMS Beagle and directly shaped Darwin's own thinking about the vast timescales gradual natural processes, including evolution, would require to produce their effects.",
+          "note": "Lyell, C. (1830–1833). Principles of Geology, Being an Attempt to Explain the Former Changes of the Earth's Surface, by Reference to Causes Now in Operation. John Murray, published in three volumes. Lyell coined the term 'uniformitarianism' and served for decades as one of geology's most influential public voices, though he initially resisted, and only reluctantly accepted late in his career, both an ancient age for humanity and Darwin's theory of evolution by natural selection.",
+          "links": [
+            "th1"
+          ],
+          "keywords": [
+            "principles of geology author",
+            "uniformitarianism term coinage",
+            "darwin beagle influence"
+          ]
+        },
+        {
+          "id": "fg3",
+          "group": "Pioneers & Theorists",
+          "label": "William Smith",
+          "date": "1815",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "FIGURE",
+          "hint": "A working-class surveyor with no formal university education, Smith spent over twenty years travelling England's canal and mining excavations, meticulously recording which fossils appeared in which rock layers, before single-handedly producing the first geological map of an entire country (see st3) — an achievement that went uncredited and unrewarded by the gentleman-scientists of the era for decades, driving him briefly into debtors' prison.",
+          "note": "Smith, W. (1815). A Delineation of the Strata of England and Wales, with part of Scotland. London. Smith's map remains recognisably similar in outline to modern geological maps of Britain, an extraordinary achievement given the era's primitive surveying tools; he is now honoured with the epithet 'the father of English geology' and his map itself is preserved and displayed at the Geological Society of London.",
+          "links": [
+            "st3"
+          ],
+          "keywords": [
+            "father of english geology",
+            "first national geological map",
+            "working class surveyor"
+          ]
+        },
+        {
+          "id": "fg4",
+          "group": "Pioneers & Theorists",
+          "label": "Alfred Wegener",
+          "date": "1912",
+          "loc": "Marburg, Germany",
+          "coords": [
+            50.81,
+            8.77
+          ],
+          "tag": "FIGURE",
+          "hint": "A meteorologist and Arctic explorer rather than a trained geologist, Wegener proposed continental drift (see th2) as essentially an outsider to the geological establishment, compiling cross-disciplinary evidence (see st4) that most professional geologists nonetheless dismissed for decades since he couldn't explain the physical mechanism — he died on a Greenland ice-sheet research expedition in 1930, sixteen years before the debate over his theory was finally resolved.",
+          "note": "Wegener, A. (1915). Die Entstehung der Kontinente und Ozeane. Friedrich Vieweg & Sohn. Wegener made four separate expeditions to Greenland studying polar air circulation and ice-cap meteorology, dying of exhaustion and heart failure during the fourth in November 1930, near the midpoint of the ice sheet, while attempting to resupply a remote research station; his body was found the following spring and buried in the ice where he fell.",
+          "links": [
+            "th2",
+            "st4"
+          ],
+          "keywords": [
+            "continental drift proposal",
+            "outsider scientist rejection",
+            "greenland expedition death"
+          ]
+        },
+        {
+          "id": "fg5",
+          "group": "Pioneers & Theorists",
+          "label": "Arthur Holmes",
+          "date": "1913",
+          "loc": "University of Durham, Durham, England",
+          "coords": [
+            54.78,
+            -1.58
+          ],
+          "tag": "FIGURE",
+          "hint": "Holmes pioneered the systematic use of radiometric dating (see me1, th10) to calibrate the geologic time scale while still in his twenties, and decades later, largely alone among geologists, proposed that slow convection currents churning within the solid but slowly flowing mantle could physically drag continents apart — correctly anticipating, purely from theoretical reasoning, the seafloor spreading mechanism that would not be confirmed by direct evidence for another three decades.",
+          "note": "Holmes, A. (1913). The Age of the Earth. Harper & Brothers; Holmes, A. (1931). 'Radioactivity and Earth Movements.' Transactions of the Geological Society of Glasgow, 18, 559–606, proposed mantle convection as a drift mechanism. Holmes explicitly presented the convection idea as speculative, and it remained a minority position largely ignored by the geological mainstream until Harry Hess's seafloor spreading hypothesis (see th3) vindicated the underlying convection mechanism decades later.",
+          "links": [
+            "me1",
+            "th10"
+          ],
+          "keywords": [
+            "radiometric age pioneer",
+            "mantle convection prediction",
+            "early drift mechanism theorist"
+          ]
+        },
+        {
+          "id": "fg6",
+          "group": "Pioneers & Theorists",
+          "label": "Harry Hess",
+          "date": "1962",
+          "loc": "Princeton University, Princeton, New Jersey",
+          "coords": [
+            40.34,
+            -74.65
+          ],
+          "tag": "FIGURE",
+          "hint": "A Princeton geology professor and US Navy ship captain during the Second World War, Hess used his ship's echo-sounding depth equipment to continuously survey the Pacific seafloor while crossing the ocean on wartime duty, accumulating an enormous, unusually detailed dataset on seafloor topography that directly informed his later proposal of seafloor spreading (see th3), an idea he modestly and cautiously offered as 'an essay in geopoetry.'",
+          "note": "Hess, H.H. (1962). 'History of Ocean Basins.' In Petrologic Studies: A Volume in Honor of A.F. Buddington, Geological Society of America, 599–620. Hess also served on the committee that selected NASA's Apollo lunar landing sites, applying the same geological reasoning skills used to reconstruct Earth's deep-ocean history to interpreting the Moon's surface from telescope and early orbital-probe imagery.",
+          "links": [
+            "th3"
+          ],
+          "keywords": [
+            "seafloor spreading proposal",
+            "wartime echo sounding survey",
+            "apollo landing site selection"
+          ]
+        },
+        {
+          "id": "fg7",
+          "group": "Pioneers & Theorists",
+          "label": "Inge Lehmann",
+          "date": "1936",
+          "loc": "Copenhagen, Denmark",
+          "coords": [
+            55.68,
+            12.57
+          ],
+          "tag": "FIGURE",
+          "hint": "Denmark's first female state seismologist, Lehmann built and personally ran the country's seismograph network for decades, and it was her own painstaking manual analysis of seismic wave arrival-time anomalies that revealed Earth's solid inner core (see st7) — a discovery she made using little more than pencil, paper, and an unusually careful eye for data that didn't fit the existing model, in an era with none of the computing power modern seismology relies on.",
+          "note": "Lehmann, I. (1936). 'P'.' Publications du Bureau Central Séismologique International, Série A, Travaux Scientifiques, 14, 87–115. Lehmann worked into her nineties and lived to 104, remaining scientifically active for most of her exceptionally long life; the American Geophysical Union's Inge Lehmann Medal, established in 1995, honours outstanding contributions to the understanding of Earth's mantle and core.",
+          "links": [
+            "st7"
+          ],
+          "keywords": [
+            "inner core discovery",
+            "manual seismic analysis",
+            "denmark state seismologist"
+          ]
+        },
+        {
+          "id": "fg8",
+          "group": "Pioneers & Theorists",
+          "label": "J. Tuzo Wilson",
+          "date": "1965",
+          "loc": "University of Toronto, Toronto, Canada",
+          "coords": [
+            43.66,
+            -79.4
+          ],
+          "tag": "FIGURE",
+          "hint": "Wilson recognised that the strange, jagged offsets visible along mid-ocean ridges, and the earthquakes that occurred only along the straight segments between the offsets rather than along the offsets themselves, made sense only if a new kind of fault existed — a 'transform fault,' where two plates slide horizontally past each other — the crucial missing link that let seafloor spreading (see th3) be reformulated as rigid plate tectonics (see th4), and he later proposed the cyclical opening and closing of ocean basins now called the Wilson Cycle (see th9).",
+          "note": "Wilson, J.T. (1965). 'A New Class of Faults and their Bearing on Continental Drift.' Nature, 207, 343–347, introduced transform faults. Wilson also proposed in 1963 that some volcanic island chains, including Hawaii, form as a tectonic plate moves steadily over a fixed, stationary 'hotspot' of rising mantle material, correctly predicting the linear age progression later confirmed along the Hawaiian-Emperor seamount chain.",
+          "links": [
+            "th9"
+          ],
+          "keywords": [
+            "transform fault discovery",
+            "wilson cycle proposal",
+            "mantle hotspot hypothesis"
+          ]
+        },
+        {
+          "id": "fg9",
+          "group": "Pioneers & Theorists",
+          "label": "Harry Fielding Reid",
+          "date": "1910",
+          "loc": "Johns Hopkins University, Baltimore, Maryland",
+          "coords": [
+            39.33,
+            -76.62
+          ],
+          "tag": "FIGURE",
+          "hint": "Reid analysed precise land-survey measurements taken years apart on either side of the San Andreas Fault before and after the 1906 San Francisco earthquake (see st11), and recognised that the ground had been slowly, steadily deforming for years before suddenly snapping back during the earthquake — the direct observational basis for his elastic rebound theory (see th8), which remains the standard explanation for how most large, shallow earthquakes occur over a century later.",
+          "note": "Reid, H.F. (1910). 'The Mechanics of the Earthquake.' The California Earthquake of April 18, 1906: Report of the State Earthquake Investigation Commission, Volume 2. Carnegie Institution of Washington. Reid served on the state commission investigating the 1906 earthquake alongside geologist Andrew Lawson, who chaired the commission; Reid's theoretical contribution proved the more enduring scientific legacy of the commission's work.",
+          "links": [
+            "th8"
+          ],
+          "keywords": [
+            "elastic rebound proposal",
+            "fault survey analysis",
+            "1906 earthquake commission"
+          ]
+        },
+        {
+          "id": "fg10",
+          "group": "Pioneers & Theorists",
+          "label": "Charles Richter",
+          "date": "1935",
+          "loc": "California Institute of Technology, Pasadena, California",
+          "coords": [
+            34.14,
+            -118.13
+          ],
+          "tag": "FIGURE",
+          "hint": "Working with seismologist Beno Gutenberg, Richter developed the first widely adopted numerical scale for comparing earthquake sizes directly, based on the maximum amplitude a standard seismograph recorded, adjusted for the distance between the earthquake and the instrument — a simple, practical innovation that made earthquake size instantly comparable and communicable to the public for the first time, even though the scale was originally designed only for the specific instruments and moderate earthquakes common in Southern California.",
+          "note": "Richter, C.F. (1935). 'An Instrumental Earthquake Magnitude Scale.' Bulletin of the Seismological Society of America, 25(1), 1–32, developed with substantial, sometimes under-credited input from Beno Gutenberg. The original local magnitude scale has since been superseded for large earthquakes by the moment magnitude scale (see co6), though 'the Richter scale' remains the term most commonly used in casual public conversation regardless of which scale is actually being reported.",
+          "links": [
+            "co6"
+          ],
+          "keywords": [
+            "earthquake magnitude scale",
+            "gutenberg collaboration",
+            "public earthquake communication"
+          ]
+        },
+        {
+          "id": "fg11",
+          "group": "Pioneers & Theorists",
+          "label": "Louis Agassiz",
+          "date": "1837",
+          "loc": "Neuchâtel, Switzerland",
+          "coords": [
+            46.99,
+            6.93
+          ],
+          "tag": "FIGURE",
+          "hint": "Originally trained as a fish paleontologist, Agassiz became convinced by field evidence of scratched bedrock and displaced boulders (see st12) that a past ice age had covered much of Europe, and proposed the idea to the Swiss Society of Natural Sciences in 1837 to considerable initial skepticism and even ridicule — a controversial position he then spent years defending with additional field evidence gathered across the Alps, before later emigrating to the United States and finding equally compelling glacial evidence there too.",
+          "note": "Agassiz, L. (1840). Études sur les glaciers. Neuchâtel. Agassiz later held a long career at Harvard University, though his scientific legacy is now considered deeply mixed: alongside his genuine glacial-theory achievement, he was also a vocal proponent of scientific racism and polygenism, views that directly informed his opposition to Darwin's theory of evolution and that modern institutions bearing his name have increasingly reckoned with and, in some cases, formally renamed.",
+          "links": [
+            "st12"
+          ],
+          "keywords": [
+            "ice age theory proposal",
+            "glacial evidence advocate",
+            "contested scientific legacy"
+          ]
+        },
+        {
+          "id": "fg12",
+          "group": "Pioneers & Theorists",
+          "label": "Norman L. Bowen",
+          "date": "1922",
+          "loc": "Geophysical Laboratory, Carnegie Institution, Washington, D.C.",
+          "coords": [
+            38.92,
+            -77.04
+          ],
+          "tag": "FIGURE",
+          "hint": "Bowen used careful laboratory experiments, melting rock samples and precisely controlling their cooling rate, to determine the exact sequence and temperatures at which different minerals crystallise from a cooling magma (see th5) — an unusually rigorous, quantitative, experimentally grounded approach for early twentieth-century petrology, which had previously relied mostly on simply describing and classifying already-formed rocks rather than reproducing their formation under controlled laboratory conditions.",
+          "note": "Bowen, N.L. (1922). 'The Reaction Principle in Petrogenesis.' The Journal of Geology, 30(3), 177–198, later expanded into The Evolution of the Igneous Rocks (1928), Princeton University Press. Bowen's experimental approach to petrology, treating rock formation as a problem in physical chemistry rather than pure field description, fundamentally reshaped how igneous petrology has been studied ever since.",
+          "links": [
+            "th5"
+          ],
+          "keywords": [
+            "experimental petrology pioneer",
+            "magma crystallization laboratory",
+            "physical chemistry rock formation"
+          ]
+        }
+      ]
     },
     {
       "id": "debate",
