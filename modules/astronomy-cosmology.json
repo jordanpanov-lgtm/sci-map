@@ -15,24 +15,24 @@
   "mapZoom": 2,
   "methodology": "METHODOLOGY · Every entry anchors to a landmark observation, mission, paper or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags replication status, revisions and known controversies. Studies and effects carry a replicability badge — 🟢 confirmed to high confidence · 🟡 nuanced, contested or partially revised · 🔴 failed or severely disputed. Map pins mark the observatory, institution or mission control centre where the work was carried out.",
   "_meta": {
-    "total_entries": 73,
+    "total_entries": 76,
     "entry_counts": {
       "theory": 10,
-      "study": 13,
+      "study": 15,
       "effect": 9,
       "concept": 8,
       "method": 6,
-      "figure": 12,
+      "figure": 13,
       "debate": 9,
       "application": 6
     },
     "max_ids": {
       "th": 10,
-      "st": 13,
+      "st": 15,
       "ef": 9,
       "co": 8,
       "me": 6,
-      "fg": 12,
+      "fg": 13,
       "db": 9,
       "ap": 6
     },
@@ -46,7 +46,7 @@
       "The Cosmic Distance Ladder",
       "The Solar System"
     ],
-    "last_updated": "2026-08-22"
+    "last_updated": "2026-08-23"
   },
   "_index": {
     "th1": "theory · The Solar System · Kepler's Laws of Planetary Motion (1609)",
@@ -62,7 +62,7 @@
     "st1": "study · Telescopes & Observational Techniques · Galileo's Telescopic Observations (1610)",
     "st2": "study · The Solar System · Herschel's Discovery of Uranus (1781)",
     "st3": "study · The Cosmic Distance Ladder · Leavitt's Cepheid Period-Luminosity Relation (1912)",
-    "st4": "study · The Cosmic Distance Ladder · Hubble's Redshift-Distance Discovery (1929)",
+    "st4": "study · The Cosmic Distance Ladder · The Hubble-Lemaître Law (1929)",
     "st5": "study · Stellar Physics & Evolution · Supernova 1987A Observations (1987)",
     "st6": "study · High-Energy & Extreme Astrophysics · Jocelyn Bell Burnell's Pulsar Discovery (1967)",
     "st7": "study · Exoplanets & Astrobiology · First Exoplanet Discovery (51 Pegasi b) (1995)",
@@ -72,6 +72,8 @@
     "st11": "study · The Solar System · Voyager's Grand Tour and Interstellar Crossing (1977)",
     "st12": "study · The Cosmic Distance Ladder · Gaia Astrometric Survey (2013)",
     "st13": "study · Galaxies & Large-Scale Structure · Vera Rubin's Galaxy Rotation Curve Measurements (1970)",
+    "st14": "study · Telescopes & Observational Techniques · Eddington's 1919 Solar Eclipse Expedition (1919)",
+    "st15": "study · High-Energy & Extreme Astrophysics · GW170817: The Birth of Multi-Messenger Astronomy (2017)",
     "ef1": "effect · The Cosmic Distance Ladder · Stellar Parallax (1838)",
     "ef2": "effect · The Cosmic Distance Ladder · Redshift / Doppler Shift (1868)",
     "ef3": "effect · Exoplanets & Astrobiology · Gravitational Microlensing (Exoplanet Detection) (2004)",
@@ -107,6 +109,7 @@
     "fg10": "figure · Pioneers & Theorists · Carl Sagan (1980)",
     "fg11": "figure · Pioneers & Theorists · Frank Drake (1961)",
     "fg12": "figure · Pioneers & Theorists · Michel Mayor (1995)",
+    "fg13": "figure · Pioneers & Theorists · Georges Lemaître (1927)",
     "db1": "debate · The Solar System · Pluto's Planet Status (2006)",
     "db2": "debate · Exoplanets & Astrobiology · The Fermi Paradox (1950)",
     "db3": "debate · Exoplanets & Astrobiology · Rare Earth Hypothesis vs. Copernican Mediocrity (2000)",
@@ -144,7 +147,7 @@
             14.42
           ],
           "tag": "THEORY",
-          "hint": "Analysing Tycho Brahe's exceptionally precise decades of planetary position data, Kepler discovered that planets orbit the Sun not in perfect circles but in ellipses with the Sun at one focus, that a planet sweeps out equal areas in equal times as it moves — meaning it travels faster when closer to the Sun — and, published a decade later, that the square of a planet's orbital period is proportional to the cube of its average distance from the Sun.",
+          "hint": "Analysing Tycho Brahe's exceptionally precise decades of planetary position data, Kepler discovered that planets orbit the Sun not in perfect circles but in ellipses with the Sun at one focus, that a planet sweeps out equal areas in equal times as it moves — meaning it travels faster when closer to the Sun — and, published a decade later, that the square of a planet's orbital period is proportional to the cube of its orbit's semi-major axis — essentially, though not quite exactly, its average distance from the Sun over a full orbit.",
           "note": "Kepler, J. (1609). Astronomia Nova. Heidelberg (first two laws); the third law followed in Harmonices Mundi (1619). Kepler's laws were purely empirical, derived from fitting Brahe's observations rather than from any underlying physical theory; Newton later showed seven decades on that all three laws follow mathematically from his law of universal gravitation, retroactively explaining why Kepler's empirical fit worked.",
           "links": [
             "fg2",
@@ -245,7 +248,8 @@
           "links": [
             "th2",
             "co1",
-            "co2"
+            "co2",
+            "fg8"
           ],
           "keywords": [
             "stellar brightness temperature plot",
@@ -461,7 +465,7 @@
         {
           "id": "st4",
           "group": "The Cosmic Distance Ladder",
-          "label": "Hubble's Redshift-Distance Discovery",
+          "label": "The Hubble-Lemaître Law",
           "date": "1929",
           "loc": "Mount Wilson Observatory, California",
           "coords": [
@@ -470,13 +474,14 @@
           ],
           "tag": "DISCOVERY",
           "repl": "robust",
-          "hint": "Using Leavitt's Cepheid technique (see st3) to measure distances to dozens of galaxies, and comparing those distances against how much each galaxy's light was redshifted, Hubble found a striking linear relationship: the farther away a galaxy is, the faster it appears to be receding — direct observational evidence that the universe itself is expanding, and the empirical discovery that anchors the entire modern Big Bang cosmological model.",
-          "note": "Hubble, E. (1929). 'A Relation Between Distance and Radial Velocity Among Extra-Galactic Nebulae.' Proceedings of the National Academy of Sciences, 15(3), 168–173, relied heavily on distance measurements and redshift data largely obtained by Hubble's assistant Milton Humason, whose contribution went comparatively uncredited for decades. The discovery's cosmological interpretation — as evidence for spacetime expansion within general relativity — was developed alongside the Big Bang cosmology theory covered in the quantum-nuclear-relativity folio.",
+          "hint": "Using Leavitt's Cepheid technique (see st3) to measure distances to dozens of galaxies, and comparing those distances against how much each galaxy's light was redshifted, Hubble found a striking linear relationship: the farther away a galaxy is, the faster it appears to be receding — direct observational evidence that the universe itself is expanding, and the empirical discovery that anchors the entire modern Big Bang cosmological model. Georges Lemaître (see fg13) had derived the same relationship mathematically and estimated its rate two years earlier, in 1927.",
+          "note": "Hubble, E. (1929). 'A Relation Between Distance and Radial Velocity Among Extra-Galactic Nebulae.' Proceedings of the National Academy of Sciences, 15(3), 168–173, relied heavily on distance measurements and redshift data largely obtained by Hubble's assistant Milton Humason, whose contribution went comparatively uncredited for decades. In recognition of Lemaître's 1927 priority in deriving the relationship and estimating its rate, the International Astronomical Union voted in 2018 to formally rename it the Hubble-Lemaître Law. The discovery's cosmological interpretation — as evidence for spacetime expansion within general relativity — was developed alongside the Big Bang cosmology theory covered in the quantum-nuclear-relativity folio.",
           "links": [
             "st3",
             "fg5",
             "ef2",
-            "db6"
+            "db6",
+            "fg13"
           ],
           "keywords": [
             "galaxy redshift velocity relation",
@@ -544,7 +549,7 @@
           "tag": "DISCOVERY",
           "repl": "robust",
           "hint": "Detecting a tiny, regular wobble in the velocity of a Sun-like star caused by the gravitational tug of an orbiting planet, Mayor and Queloz found the first planet ever confirmed around another ordinary star — but the planet itself was bizarre by Solar System standards, a gas giant roughly half Jupiter's mass orbiting its star in just four days, closer than Mercury orbits the Sun, a completely unanticipated type of planet that came to be called a 'hot Jupiter.'",
-          "note": "Mayor, M. & Queloz, D. (1995). 'A Jupiter-Mass Companion to a Solar-Type Star.' Nature, 378, 355–359, using the radial velocity method (see me1). Mayor and Queloz shared the 2019 Nobel Prize in Physics for the discovery. The existence of hot Jupiters, which no theoretical model had predicted before their detection, forced a substantial revision of planet formation theory to include planetary migration — the idea that giant planets can form farther out and then migrate inward through interactions with the protoplanetary disk.",
+          "note": "Mayor, M. & Queloz, D. (1995). 'A Jupiter-Mass Companion to a Solar-Type Star.' Nature, 378, 355–359, using the radial velocity method (see me1). Mayor and Queloz shared the 2019 Nobel Prize in Physics for the discovery. The existence of hot Jupiters directly contradicted the nebular hypothesis's core assumption (see th4) that gas giants could only condense far from a star's heat, where ices could form; no theoretical model had predicted planets like this, and the discovery forced a substantial revision of planet formation theory to include planetary migration — the idea that giant planets can form farther out and then migrate inward through interactions with the protoplanetary disk.",
           "links": [
             "fg12",
             "me1",
@@ -704,6 +709,57 @@
             "quantum-nuclear-relativity::fg13",
             "quantum-nuclear-relativity::db6"
           ]
+        },
+        {
+          "id": "st14",
+          "group": "Telescopes & Observational Techniques",
+          "label": "Eddington's 1919 Solar Eclipse Expedition",
+          "date": "1919",
+          "loc": "Príncipe, West Africa",
+          "coords": [
+            1.63,
+            7.42
+          ],
+          "tag": "FIELD STUDY",
+          "repl": "robust",
+          "hint": "Einstein's general theory of relativity predicted that light passing near a massive object like the Sun should be measurably bent by its gravity — a deflection only detectable during a total solar eclipse, when the Sun's own light is blocked and stars normally hidden behind its glare become visible close to its edge. Eddington travelled to the island of Príncipe off West Africa to photograph the stars around the eclipsed Sun and compare their positions against photographs of the same stars taken months earlier, when the Sun was nowhere near them.",
+          "note": "Dyson, F.W., Eddington, A.S. & Davidson, C. (1920). 'A Determination of the Deflection of Light by the Sun's Gravitational Field, from Observations Made at the Total Eclipse of May 29, 1919.' Philosophical Transactions of the Royal Society A, 220, 291–333. The measured deflection matched Einstein's general-relativistic prediction of 1.75 arcseconds far better than the smaller value predicted by Newtonian gravity alone, and the result's announcement made Einstein an international celebrity virtually overnight. The same light-bending principle underlies gravitational microlensing (see ef3), used today to detect distant exoplanets.",
+          "links": [
+            "ef3"
+          ],
+          "xlinks": [
+            "quantum-nuclear-relativity::th2",
+            "quantum-nuclear-relativity::fg2"
+          ],
+          "keywords": [
+            "light deflection confirmation",
+            "total eclipse expedition",
+            "general relativity observational proof"
+          ]
+        },
+        {
+          "id": "st15",
+          "group": "High-Energy & Extreme Astrophysics",
+          "label": "GW170817: The Birth of Multi-Messenger Astronomy",
+          "date": "2017",
+          "loc": "LIGO Livingston Observatory, Livingston, Louisiana",
+          "coords": [
+            30.56,
+            -90.77
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "When two neutron stars spiralled together and merged, observatories detected the collision not just as a gravitational-wave chirp but, within seconds, as a gamma-ray burst, and over the following days and weeks as a fading glow across optical, infrared, ultraviolet, X-ray and radio telescopes worldwide — the first time a single cosmic event was ever observed simultaneously through gravitational waves and the full electromagnetic spectrum, launching an entirely new, combined way of studying the universe.",
+          "note": "Abbott, B.P. et al. (LIGO Scientific Collaboration and Virgo Collaboration, and roughly 70 other observatories) (2017). 'Multi-Messenger Observations of a Binary Neutron Star Merger.' The Astrophysical Journal Letters, 848(2), L12. Distinct from LIGO's first gravitational-wave detection two years earlier (a black hole merger producing no detectable light, covered in the quantum-nuclear-relativity folio), GW170817's neutron-star collision produced abundant electromagnetic radiation, confirming that neutron star mergers are a major site where heavy elements like gold and platinum are forged and scattered into space.",
+          "links": [],
+          "xlinks": [
+            "quantum-nuclear-relativity::st12"
+          ],
+          "keywords": [
+            "neutron star merger detection",
+            "electromagnetic gravitational wave combo",
+            "heavy element forge event"
+          ]
         }
       ]
     },
@@ -780,7 +836,9 @@
           "repl": "robust",
           "hint": "When a foreground star happens to pass almost exactly in front of a much more distant background star, its gravity briefly acts as a natural lens, magnifying and brightening the background star's light in a smooth, predictable pattern — but if the foreground star has an orbiting planet, that planet adds a small, characteristic extra spike or dip to the brightening curve, revealing planets that would be far too faint to detect by any direct method, including some in orbits much wider than Earth's.",
           "note": "Bond, I.A. et al. (2004). 'OGLE 2003-BLG-235/MOA 2003-BLG-53: A Planetary Microlensing Event.' The Astrophysical Journal Letters, 606(2), L155–L158, reported the first microlensing exoplanet detection. Because a microlensing event depends on a rare, one-time chance alignment that will never repeat, the method cannot be used to study a specific known star's planets on demand, but it is uniquely sensitive to planets at large orbital distances and around faint, distant stars that other methods struggle to probe.",
-          "links": [],
+          "links": [
+            "st14"
+          ],
           "keywords": [
             "gravitational lens brightening",
             "chance stellar alignment",
@@ -1455,9 +1513,11 @@
             -71.13
           ],
           "tag": "FIGURE",
-          "hint": "Payne-Gaposchkin's doctoral thesis demonstrated, against the settled consensus of the time, that the Sun and stars are composed overwhelmingly of hydrogen and helium rather than having roughly Earth-like compositions as almost every astronomer then believed — a conclusion so far outside contemporary expectations that a senior astronomer convinced her to describe her own correct result as merely 'spurious' in the published thesis, before independent evidence fully vindicated her within a few years.",
-          "note": "Payne-Gaposchkin, C.H. (1925). Stellar Atmospheres: A Contribution to the Observational Study of High Temperature in the Reversing Layers of Stars. Radcliffe College doctoral thesis, described by astronomer Otto Struve as 'the most brilliant PhD thesis ever written in astronomy.' Princeton University, where she had wanted to study, did not admit women to its graduate astronomy program at the time; she became Harvard's first female full professor and first woman to chair a department there, decades after completing this work.",
-          "links": [],
+          "hint": "Payne-Gaposchkin's doctoral thesis demonstrated, against the settled consensus of the time, that the Sun and stars are composed overwhelmingly of hydrogen and helium rather than having roughly Earth-like compositions as almost every astronomer then believed — a conclusion so far outside contemporary expectations that Princeton astronomer Henry Norris Russell, the same Russell for whom the Hertzsprung-Russell diagram (see th5) is co-named, convinced her to describe her own correct result as merely 'spurious' in the published thesis, before independent evidence — including Russell's own — fully vindicated her within a few years.",
+          "note": "Payne-Gaposchkin, C.H. (1925). Stellar Atmospheres: A Contribution to the Observational Study of High Temperature in the Reversing Layers of Stars. Radcliffe College doctoral thesis, described by astronomer Otto Struve as 'the most brilliant PhD thesis ever written in astronomy.' Princeton University, where she had wanted to study, did not admit women to its graduate astronomy program at the time; she became Harvard's first female full professor and first woman to chair a department there, decades after completing this work. Russell published his own paper confirming the Sun's hydrogen-dominated composition in 1929, four years after privately steering Payne-Gaposchkin away from stating the same conclusion outright — an episode now frequently cited as a case study in how even the era's leading experts can be blinded by their own prior assumptions.",
+          "links": [
+            "th5"
+          ],
           "keywords": [
             "stellar hydrogen composition discovery",
             "suppressed correct result",
@@ -1550,6 +1610,31 @@
             "first exoplanet detection",
             "hot jupiter discovery team",
             "nobel prize shared award"
+          ]
+        },
+        {
+          "id": "fg13",
+          "group": "Pioneers & Theorists",
+          "label": "Georges Lemaître",
+          "date": "1927",
+          "loc": "Université catholique de Louvain, Louvain, Belgium",
+          "coords": [
+            50.66,
+            4.61
+          ],
+          "tag": "FIGURE",
+          "hint": "A Belgian Catholic priest and physicist, Lemaître mathematically derived an expanding universe directly from Einstein's general relativity equations and used it to calculate the first observational estimate of the universe's expansion rate — two years before Edwin Hubble's more widely publicised 1929 paper, though Lemaître's result, published in French in a relatively obscure Belgian journal, went largely unnoticed outside Belgium until translated into English in 1931.",
+          "note": "Lemaître, G. (1927). 'Un Univers homogène de masse constante et de rayon croissant rendant compte de la vitesse radiale des nébuleuses extra-galactiques.' Annales de la Société Scientifique de Bruxelles, 47, 49–59. In recognition of his priority, the International Astronomical Union voted in 2018 to formally rename Hubble's Law as the Hubble-Lemaître Law (see st4). Lemaître later proposed the 'primeval atom' hypothesis, a direct conceptual precursor to the modern Big Bang model covered in the quantum-nuclear-relativity folio.",
+          "links": [
+            "st4"
+          ],
+          "xlinks": [
+            "quantum-nuclear-relativity::th9"
+          ],
+          "keywords": [
+            "expanding universe derivation",
+            "priority recognition renaming",
+            "primeval atom precursor"
           ]
         }
       ]
@@ -1693,7 +1778,7 @@
           ],
           "tag": "DEBATE",
           "hint": "Two independent, individually very precise methods of measuring the universe's current expansion rate — one built up from the 'local' distance ladder of Cepheid variables and Type Ia supernovae, the other derived from the cosmic microwave background radiation left over from the Big Bang — disagree with each other by roughly 8 to 9%, a gap now far larger than either method's individually claimed margin of error, leaving cosmologists genuinely uncertain whether the discrepancy points to an unrecognised systematic measurement error or to missing new physics in the standard cosmological model.",
-          "note": "Riess, A.G. et al. (2019). 'Large Magellanic Cloud Cepheid Standards Provide a 1% Foundation for the Determination of the Hubble Constant.' The Astrophysical Journal, 876(1), 85, crystallised the tension as a serious problem rather than a measurement artefact likely to simply go away with more data. Despite years of intense scrutiny by multiple independent teams using different methods, no convincing systematic error has been identified on either side of the tension, keeping open the genuinely exciting possibility that resolving it will require new physics beyond the standard cosmological model.",
+          "note": "Riess, A.G. et al. (2019). 'Large Magellanic Cloud Cepheid Standards Provide a 1% Foundation for the Determination of the Hubble Constant.' The Astrophysical Journal, 876(1), 85, crystallised the tension as a serious problem rather than a measurement artefact likely to simply go away with more data. Despite years of intense scrutiny by multiple independent teams using different methods, no convincing systematic error has been identified on either side of the tension, keeping open the genuinely exciting possibility that resolving it will require new physics beyond the standard cosmological model. The cosmic microwave background itself, whose fine temperature variations anchor the early-universe side of this tension, was discovered by chance in 1965 by Arno Penzias and Robert Wilson, a finding covered in depth in the quantum-nuclear-relativity folio's Cosmological Frontiers group, which decisively confirmed the hot Big Bang model over the rival Steady State theory.",
           "links": [
             "st4",
             "st12"
@@ -1702,6 +1787,9 @@
             "expansion rate discrepancy",
             "distance ladder versus cmb",
             "hubble constant disagreement"
+          ],
+          "xlinks": [
+            "quantum-nuclear-relativity::st13"
           ]
         },
         {
@@ -1936,6 +2024,11 @@
           "entryId": "st3"
         },
         {
+          "y": 1919,
+          "l": "Eddington's 1919 Eclipse Expedition",
+          "entryId": "st14"
+        },
+        {
           "y": 1929,
           "l": "Hubble's Redshift-Distance Discovery",
           "entryId": "st4"
@@ -1979,6 +2072,11 @@
           "y": 2013,
           "l": "Gaia Astrometric Survey",
           "entryId": "st12"
+        },
+        {
+          "y": 2017,
+          "l": "GW170817 Multi-Messenger Event",
+          "entryId": "st15"
         },
         {
           "y": 2019,

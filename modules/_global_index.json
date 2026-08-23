@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 1927,
+    "total_entries": 1930,
     "folio_count": 25,
-    "xlink_pairs": 123,
-    "keyword_terms": 6950,
+    "xlink_pairs": 128,
+    "keyword_terms": 6959,
     "folios": [
       {
         "id": "anatomy-histology",
@@ -18,7 +18,7 @@
       {
         "id": "astronomy-cosmology",
         "title": "Astronomy & Astrophysics",
-        "entries": 73
+        "entries": 76
       },
       {
         "id": "biological-anthropology",
@@ -295,7 +295,7 @@
     "astronomy-cosmology::st1": "study · Telescopes & Observational Techniques · Galileo's Telescopic Observations (1610)",
     "astronomy-cosmology::st2": "study · The Solar System · Herschel's Discovery of Uranus (1781)",
     "astronomy-cosmology::st3": "study · The Cosmic Distance Ladder · Leavitt's Cepheid Period-Luminosity Relation (1912)",
-    "astronomy-cosmology::st4": "study · The Cosmic Distance Ladder · Hubble's Redshift-Distance Discovery (1929)",
+    "astronomy-cosmology::st4": "study · The Cosmic Distance Ladder · The Hubble-Lemaître Law (1929)",
     "astronomy-cosmology::st5": "study · Stellar Physics & Evolution · Supernova 1987A Observations (1987)",
     "astronomy-cosmology::st6": "study · High-Energy & Extreme Astrophysics · Jocelyn Bell Burnell's Pulsar Discovery (1967)",
     "astronomy-cosmology::st7": "study · Exoplanets & Astrobiology · First Exoplanet Discovery (51 Pegasi b) (1995)",
@@ -305,6 +305,8 @@
     "astronomy-cosmology::st11": "study · The Solar System · Voyager's Grand Tour and Interstellar Crossing (1977)",
     "astronomy-cosmology::st12": "study · The Cosmic Distance Ladder · Gaia Astrometric Survey (2013)",
     "astronomy-cosmology::st13": "study · Galaxies & Large-Scale Structure · Vera Rubin's Galaxy Rotation Curve Measurements (1970)",
+    "astronomy-cosmology::st14": "study · Telescopes & Observational Techniques · Eddington's 1919 Solar Eclipse Expedition (1919)",
+    "astronomy-cosmology::st15": "study · High-Energy & Extreme Astrophysics · GW170817: The Birth of Multi-Messenger Astronomy (2017)",
     "astronomy-cosmology::ef1": "effect · The Cosmic Distance Ladder · Stellar Parallax (1838)",
     "astronomy-cosmology::ef2": "effect · The Cosmic Distance Ladder · Redshift / Doppler Shift (1868)",
     "astronomy-cosmology::ef3": "effect · Exoplanets & Astrobiology · Gravitational Microlensing (Exoplanet Detection) (2004)",
@@ -340,6 +342,7 @@
     "astronomy-cosmology::fg10": "figure · Pioneers & Theorists · Carl Sagan (1980)",
     "astronomy-cosmology::fg11": "figure · Pioneers & Theorists · Frank Drake (1961)",
     "astronomy-cosmology::fg12": "figure · Pioneers & Theorists · Michel Mayor (1995)",
+    "astronomy-cosmology::fg13": "figure · Pioneers & Theorists · Georges Lemaître (1927)",
     "astronomy-cosmology::db1": "debate · The Solar System · Pluto's Planet Status (2006)",
     "astronomy-cosmology::db2": "debate · Exoplanets & Astrobiology · The Fermi Paradox (1950)",
     "astronomy-cosmology::db3": "debate · Exoplanets & Astrobiology · Rare Earth Hypothesis vs. Copernican Mediocrity (2000)",
@@ -2160,6 +2163,7 @@
     ],
     "quantum-nuclear-relativity::th2": [
       "astronomy-cosmology::st8",
+      "astronomy-cosmology::st14",
       "pure-mathematics::ap2"
     ],
     "astronomy-cosmology::st13": [
@@ -2169,11 +2173,30 @@
     "quantum-nuclear-relativity::fg13": [
       "astronomy-cosmology::st13"
     ],
+    "astronomy-cosmology::st14": [
+      "quantum-nuclear-relativity::th2",
+      "quantum-nuclear-relativity::fg2"
+    ],
+    "quantum-nuclear-relativity::fg2": [
+      "astronomy-cosmology::st14"
+    ],
+    "astronomy-cosmology::st15": [
+      "quantum-nuclear-relativity::st12"
+    ],
+    "quantum-nuclear-relativity::st12": [
+      "astronomy-cosmology::st15"
+    ],
     "astronomy-cosmology::co3": [
       "environmental-science::fg6"
     ],
     "environmental-science::fg6": [
       "astronomy-cosmology::co3"
+    ],
+    "astronomy-cosmology::fg13": [
+      "quantum-nuclear-relativity::th9"
+    ],
+    "quantum-nuclear-relativity::th9": [
+      "astronomy-cosmology::fg13"
     ],
     "astronomy-cosmology::db4": [
       "quantum-nuclear-relativity::db6"
@@ -2183,6 +2206,12 @@
     ],
     "environmental-science::fg2": [
       "astronomy-cosmology::db5"
+    ],
+    "astronomy-cosmology::db6": [
+      "quantum-nuclear-relativity::st13"
+    ],
+    "quantum-nuclear-relativity::st13": [
+      "astronomy-cosmology::db6"
     ],
     "biological-anthropology::me3": [
       "cell-molecular-bio::me2"
@@ -3678,6 +3707,16 @@
       "missing mass evidence",
       "spiral galaxy orbital speed"
     ],
+    "astronomy-cosmology::st14": [
+      "light deflection confirmation",
+      "total eclipse expedition",
+      "general relativity observational proof"
+    ],
+    "astronomy-cosmology::st15": [
+      "neutron star merger detection",
+      "electromagnetic gravitational wave combo",
+      "heavy element forge event"
+    ],
     "astronomy-cosmology::ef1": [
       "geometric distance measurement",
       "annual stellar shift",
@@ -3852,6 +3891,11 @@
       "first exoplanet detection",
       "hot jupiter discovery team",
       "nobel prize shared award"
+    ],
+    "astronomy-cosmology::fg13": [
+      "expanding universe derivation",
+      "priority recognition renaming",
+      "primeval atom precursor"
     ],
     "astronomy-cosmology::db1": [
       "dwarf planet reclassification",
@@ -15442,6 +15486,24 @@
     "spiral galaxy orbital speed": [
       "astronomy-cosmology::st13"
     ],
+    "light deflection confirmation": [
+      "astronomy-cosmology::st14"
+    ],
+    "total eclipse expedition": [
+      "astronomy-cosmology::st14"
+    ],
+    "general relativity observational proof": [
+      "astronomy-cosmology::st14"
+    ],
+    "neutron star merger detection": [
+      "astronomy-cosmology::st15"
+    ],
+    "electromagnetic gravitational wave combo": [
+      "astronomy-cosmology::st15"
+    ],
+    "heavy element forge event": [
+      "astronomy-cosmology::st15"
+    ],
     "geometric distance measurement": [
       "astronomy-cosmology::ef1"
     ],
@@ -15753,6 +15815,15 @@
     ],
     "nobel prize shared award": [
       "astronomy-cosmology::fg12"
+    ],
+    "expanding universe derivation": [
+      "astronomy-cosmology::fg13"
+    ],
+    "priority recognition renaming": [
+      "astronomy-cosmology::fg13"
+    ],
+    "primeval atom precursor": [
+      "astronomy-cosmology::fg13"
     ],
     "dwarf planet reclassification": [
       "astronomy-cosmology::db1"
