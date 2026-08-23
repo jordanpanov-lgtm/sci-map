@@ -23,7 +23,207 @@
       "accent": "#2471A3",
       "bg": "#F0F7FF",
       "subtitle": "The frameworks that organise how plants grow, respond and evolve",
-      "entries": []
+      "entries": [
+        {
+          "id": "th1",
+          "group": "Photosynthesis & Plant Biochemistry",
+          "label": "Photosynthesis as a Light-Driven Process",
+          "date": "1779",
+          "loc": "Vienna, Austria",
+          "coords": [
+            48.21,
+            16.37
+          ],
+          "tag": "THEORY",
+          "hint": "Plants do not simply 'purify' stale air at all times — they only produce breathable air from their green parts, and only when exposed to sunlight, releasing the exact gas that animal respiration and combustion consume; in darkness, plants instead behave like animals, consuming that same gas rather than producing it. This was the first framework correctly identifying light itself, not some general vital property of plants, as the essential ingredient driving the process now called photosynthesis.",
+          "note": "Ingenhousz, J. (1779). Experiments upon Vegetables, Discovering Their Great Power of Purifying the Common Air in the Sun-Shine, and of Injuring it in the Shade and at Night. London: P. Elmsly & H. Payne. Ingenhousz ran hundreds of experiments in a matter of months to establish the light-dependence and green-tissue-dependence of the effect, correcting the more general, less precise picture left by Priestley's earlier work (see st7).",
+          "links": [
+            "st1",
+            "fg1"
+          ],
+          "keywords": [
+            "light dependent air purification",
+            "photosynthesis foundational theory",
+            "green tissue requirement"
+          ]
+        },
+        {
+          "id": "th2",
+          "group": "Photosynthesis & Plant Biochemistry",
+          "label": "The Calvin Cycle",
+          "date": "1950",
+          "loc": "University of California, Berkeley, California",
+          "coords": [
+            37.87,
+            -122.26
+          ],
+          "tag": "THEORY",
+          "hint": "After light-capturing reactions generate chemical energy, a separate, light-independent cycle of enzyme reactions uses that energy to grab carbon dioxide molecules one at a time and stitch them into sugar, regenerating its own starting molecule with each full turn of the cycle so it can run continuously — the biochemical pathway, traced step by step using a radioactive carbon tracer, that converts atmospheric CO2 into the sugars nearly all life on Earth ultimately depends on.",
+          "note": "Calvin, M., Bassham, J.A. & Benson, A.A. (1950). 'The Path of Carbon in Photosynthesis.' Annual Review of Plant Physiology, 1, 25–42, synthesised several years of pulse-labelling experiments in the alga Chlorella. Calvin was awarded the 1961 Nobel Prize in Chemistry for the work; the cycle is now more precisely termed the Calvin-Benson-Bassham cycle in recognition of his close collaborators, though 'Calvin cycle' remains the common shorthand.",
+          "links": [
+            "st2",
+            "fg2"
+          ],
+          "keywords": [
+            "carbon fixation pathway",
+            "radioactive tracer mapping",
+            "dark reaction biochemistry"
+          ]
+        },
+        {
+          "id": "th3",
+          "group": "Plant Anatomy & Vascular Structure",
+          "label": "The Cohesion-Tension Theory",
+          "date": "1894",
+          "loc": "Trinity College Dublin, Dublin, Ireland",
+          "coords": [
+            53.34,
+            -6.26
+          ],
+          "tag": "THEORY",
+          "hint": "Water rises to the top of even the tallest trees with no pump at all — instead, water evaporating from microscopic pores in the leaves pulls an unbroken column of water upward through the plant's narrow vascular tubes under genuine physical tension, held together against gravity purely by the mutual attraction between water molecules, the same cohesive force that lets a water strider stand on a pond's surface, scaled up across an entire tree's height.",
+          "note": "Dixon, H.H. & Joly, J. (1894). 'On the Ascent of Sap.' Philosophical Transactions of the Royal Society B, 186, 563–576. The theory implies water inside a functioning xylem vessel is under genuine negative pressure, a claim that seemed physically implausible for decades until direct pressure-probe measurements in the twentieth century confirmed tensions of several atmospheres below vacuum inside actively transpiring trees, vindicating the original proposal.",
+          "links": [
+            "co2"
+          ],
+          "keywords": [
+            "water column tension",
+            "transpiration pull mechanism",
+            "xylem sap ascent"
+          ]
+        },
+        {
+          "id": "th4",
+          "group": "Plant Anatomy & Vascular Structure",
+          "label": "The Münch Pressure-Flow Hypothesis",
+          "date": "1930",
+          "loc": "University of Jena, Jena, Germany",
+          "coords": [
+            50.93,
+            11.59
+          ],
+          "tag": "THEORY",
+          "hint": "Sugar produced in a leaf is actively loaded into the phloem, raising the osmotic pressure there and drawing water in from neighbouring xylem — building up hydrostatic pressure that simply pushes the whole sugar-water solution through the phloem toward wherever sugar is being consumed or stored, where it is unloaded and the pressure drops, creating a source-to-sink flow driven entirely by a self-generated pressure gradient rather than any active pumping along the way.",
+          "note": "Münch, E. (1930). Die Stoffbewegungen in der Pflanze. Jena: Gustav Fischer. The hypothesis was difficult to test directly for decades because inserting a probe into the phloem's thin-walled sieve tubes disrupts the very pressure it measures; modern aphid-stylet sampling and pressure-probe techniques have since confirmed pressure gradients of the magnitude and direction the model predicts.",
+          "links": [],
+          "keywords": [
+            "source sink pressure gradient",
+            "phloem sugar transport",
+            "osmotic loading mechanism"
+          ]
+        },
+        {
+          "id": "th5",
+          "group": "Plant Growth & Hormonal Signaling",
+          "label": "The Cholodny-Went Auxin Theory",
+          "date": "1928",
+          "loc": "California Institute of Technology, Pasadena, California",
+          "coords": [
+            34.14,
+            -118.13
+          ],
+          "tag": "THEORY",
+          "hint": "A plant bends toward light or against gravity not because one side simply grows slower under stress, but because a growth-promoting hormone is actively redistributed to accumulate more heavily on one side of the stem than the other, making that side's cells elongate faster and physically bending the whole organ toward — or away from — the original stimulus, converting a directional environmental signal into an asymmetric hormone gradient and then into asymmetric growth.",
+          "note": "Went, F.W. (1928). 'Wuchsstoff und Wachstum.' Recueil des Travaux Botaniques Néerlandais, 25, 1–116, building on his own coleoptile agar-block experiments (see st6); Nikolai Cholodny independently proposed a closely similar hormone-redistribution model the same year, giving the theory its combined name. The active hormone, later identified as auxin (indole-3-acetic acid), remains the central signal in this model, though modern work has shown additional hormones and signalling pathways contribute to tropic responses alongside it.",
+          "links": [
+            "st5",
+            "st6",
+            "fg6"
+          ],
+          "keywords": [
+            "auxin redistribution gradient",
+            "asymmetric growth bending",
+            "tropism hormone mechanism"
+          ]
+        },
+        {
+          "id": "th6",
+          "group": "Plant Genetics & Classical Heredity",
+          "label": "Mendelian Inheritance",
+          "date": "1866",
+          "loc": "Abbey of St. Thomas, Brno, Moravia",
+          "coords": [
+            49.2,
+            16.61
+          ],
+          "tag": "THEORY",
+          "hint": "Traits are passed from parent to offspring as discrete, particulate units — later called genes — rather than blending together like mixed paint, with each parent contributing one copy per trait and some versions of a gene consistently masking others in the next generation; from this, precise, predictable numerical ratios of offspring traits emerge across generations, ratios Mendel worked out by patiently tracking seven distinct pea plant traits across thousands of carefully hand-pollinated crosses.",
+          "note": "Mendel, G. (1866). 'Versuche über Pflanzen-Hybriden.' Verhandlungen des naturforschenden Vereines in Brünn, 4, 3–47. The paper was almost completely ignored for 34 years until independently rediscovered in 1900 by Hugo de Vries, Carl Correns, and Erich von Tschermak, after which it became recognised as the founding document of modern genetics; Mendel's original data have been statistically scrutinised ever since, with some historians arguing the fit to expected ratios is suspiciously close, though no convincing evidence of deliberate fabrication has been established.",
+          "links": [
+            "st4",
+            "fg4"
+          ],
+          "keywords": [
+            "particulate inheritance units",
+            "dominant recessive trait ratio",
+            "pea plant hybridization"
+          ]
+        },
+        {
+          "id": "th7",
+          "group": "Plant Reproduction & Pollination",
+          "label": "The ABC Model of Flower Development",
+          "date": "1991",
+          "loc": "John Innes Centre, Norwich, England",
+          "coords": [
+            52.62,
+            1.22
+          ],
+          "tag": "FRAMEWORK",
+          "hint": "A flower's four concentric whorls — sepals, petals, stamens, and carpels — are not each controlled by their own dedicated gene, but instead emerge from just three overlapping classes of regulatory genes (A, B, and C) switched on in different combinations across the developing floral bud: A alone specifies sepals, A plus B specifies petals, B plus C specifies stamens, and C alone specifies carpels, a combinatorial code elegant enough that disabling any single class predictably converts one flower organ into another.",
+          "note": "Coen, E.S. & Meyerowitz, E.M. (1991). 'The War of the Whorls: Genetic Interactions Controlling Flower Development.' Nature, 353, 31–37, synthesised mutant studies in snapdragon and Arabidopsis into the unified model. Later work added a fourth gene class (E, for the SEPALLATA genes required for all four organ identities to be specified at all), refining the scheme into the modern 'ABCE' model without overturning its original combinatorial logic.",
+          "links": [],
+          "keywords": [
+            "floral organ identity genes",
+            "combinatorial homeotic code",
+            "flower whorl specification"
+          ]
+        },
+        {
+          "id": "th8",
+          "group": "Plant Diversity & Evolutionary History",
+          "label": "The Telome Theory",
+          "date": "1930",
+          "loc": "University of Tübingen, Tübingen, Germany",
+          "coords": [
+            48.52,
+            9.06
+          ],
+          "tag": "THEORY",
+          "hint": "Leaves and roots were not part of the original blueprint of the earliest land plants — those first plants were simple, leafless, dichotomously branching stems called telomes, and every complex organ seen in later vascular plants, from broad leaves to branching root systems, evolved through repeated modification of that same basic branching unit: webbing, flattening, fusing, or overtopping different telome branches to produce structures that only look fundamentally distinct from one another.",
+          "note": "Zimmermann, W. (1930). Die Phylogenie der Pflanzen. Jena: Gustav Fischer, drew heavily on the early vascular plant fossils then just beginning to be described, including Cooksonia (see st8). The theory remains the standard framework for interpreting land plant organ evolution, substantially refined but not overturned by the molecular developmental genetics of the past few decades, which has identified some of the specific regulatory gene shifts underlying telome modification.",
+          "links": [
+            "st8"
+          ],
+          "keywords": [
+            "telome branching unit",
+            "leaf root organ evolution",
+            "early vascular plant architecture"
+          ]
+        },
+        {
+          "id": "th9",
+          "group": "Plant Ecology & Symbiosis",
+          "label": "Mycorrhizal Facilitation of Land Colonization",
+          "date": "1975",
+          "loc": "Ottawa, Ontario, Canada",
+          "coords": [
+            45.42,
+            -75.7
+          ],
+          "tag": "THEORY",
+          "hint": "The earliest plants could not have colonised bare, nutrient-poor rock and soil on their own — they lacked true roots and any efficient way to extract scarce minerals like phosphorus from a mineral substrate — so the theory proposes that a symbiotic partnership with fungi, which already had that mineral-extracting capability, was not a later refinement but the very mechanism that made the initial land invasion by plants possible at all, with fungal partners supplying minerals in exchange for photosynthetic sugars from the start.",
+          "note": "Pirozynski, K.A. & Malloch, D.W. (1975). 'The Origin of Land Plants: A Matter of Mycotrophism.' BioSystems, 6(3), 153–164. Fossil evidence has since lent the theory substantial support: the roughly 407-million-year-old Rhynie chert deposits preserve early land plants with fungal structures inside their tissue closely resembling modern mycorrhizal associations (see th9, fg10), suggesting the partnership was already well established very early in land plant history.",
+          "links": [
+            "fg10"
+          ],
+          "keywords": [
+            "mycorrhizal land colonization theory",
+            "fungal mineral exchange symbiosis",
+            "early plant fossil partnership"
+          ]
+        }
+      ]
     },
     {
       "id": "study",
@@ -33,7 +233,268 @@
       "accent": "#7D3C98",
       "bg": "#FAF5FF",
       "subtitle": "The defining experiments — and exactly what they found",
-      "entries": []
+      "entries": [
+        {
+          "id": "st1",
+          "group": "Photosynthesis & Plant Biochemistry",
+          "label": "Ingenhousz's Light-Dependent Oxygen Experiments",
+          "date": "1779",
+          "loc": "Vienna, Austria",
+          "coords": [
+            48.21,
+            16.37
+          ],
+          "tag": "EXPERIMENT",
+          "repl": "robust",
+          "hint": "Submerging plant leaves in water under sunlight and collecting the resulting stream of gas bubbles, Ingenhousz showed the gas supported combustion and animal respiration — pure evidence of oxygen production — but only occurred in sunlight and only from green tissue; leaves kept in darkness, and non-green plant parts even in full sun, produced no such gas and instead behaved like animals, consuming rather than releasing it.",
+          "note": "Ingenhousz, J. (1779). Experiments upon Vegetables. London: P. Elmsly & H. Payne, reporting several hundred experiments conducted over roughly four months at a punishing pace. The light- and colour-dependence Ingenhousz established directly corrected and extended Priestley's earlier, less precise observation that plants could 'restore' air (see st7), pinning down the specific conditions under which the effect actually occurs.",
+          "links": [
+            "th1",
+            "fg1"
+          ],
+          "keywords": [
+            "oxygen bubble collection experiment",
+            "sunlight dependent gas production",
+            "green tissue requirement demonstration"
+          ]
+        },
+        {
+          "id": "st2",
+          "group": "Photosynthesis & Plant Biochemistry",
+          "label": "Calvin's Radioactive Tracer Mapping of Carbon Fixation",
+          "date": "1950",
+          "loc": "University of California, Berkeley, California",
+          "coords": [
+            37.87,
+            -122.26
+          ],
+          "tag": "EXPERIMENT",
+          "repl": "robust",
+          "hint": "Exposing algae to radioactively-labelled carbon dioxide for shorter and shorter pulses of time — down to just a few seconds — then instantly killing the cells and using paper chromatography to see which molecules the radioactive carbon had reached first, Calvin's team traced the complete sequence of intermediate compounds carbon passes through on its way from CO2 to sugar, reconstructing an entire biochemical pathway one radioactive snapshot at a time.",
+          "note": "Calvin, M., Bassham, J.A. & Benson, A.A. (1950). 'The Path of Carbon in Photosynthesis.' Annual Review of Plant Physiology, 1, 25–42, using carbon-14, made available in useful quantities only a few years earlier (see cell-molecular-bio for reactor-produced isotopes generally). The 'lollipop' apparatus used to expose algae to a continuous CO2 stream while sampling at precise intervals became an iconic image in the history of biochemistry.",
+          "links": [
+            "th2",
+            "fg2"
+          ],
+          "keywords": [
+            "radioactive carbon-14 tracing",
+            "paper chromatography intermediate",
+            "photosynthesis pathway reconstruction"
+          ]
+        },
+        {
+          "id": "st3",
+          "group": "Plant Anatomy & Vascular Structure",
+          "label": "Hales's Sap Pressure and Transpiration Measurements",
+          "date": "1727",
+          "loc": "Teddington, England",
+          "coords": [
+            51.43,
+            -0.33
+          ],
+          "tag": "EXPERIMENT",
+          "repl": "robust",
+          "hint": "Attaching glass tubes directly to cut plant stems and stumps, Hales made the first quantitative measurements of root pressure, sap flow rate, and — by carefully weighing potted plants before and after set time periods — the sheer volume of water a plant loses to the air through transpiration, establishing plant physiology as a genuinely measurable, quantitative science rather than a purely descriptive one for the first time.",
+          "note": "Hales, S. (1727). Vegetable Staticks. London: W. and J. Innys. Hales calculated that a single sunflower could lose roughly seventeen times its own weight in water over a growing season purely through transpiration, an early demonstration of just how much water actively moves through a plant that mere visual observation could never have revealed.",
+          "links": [
+            "fg3"
+          ],
+          "keywords": [
+            "quantitative sap pressure measurement",
+            "transpiration water loss quantification",
+            "early plant physiology method"
+          ]
+        },
+        {
+          "id": "st4",
+          "group": "Plant Genetics & Classical Heredity",
+          "label": "Mendel's Pea Plant Hybridization Experiments",
+          "date": "1866",
+          "loc": "Abbey of St. Thomas, Brno, Moravia",
+          "coords": [
+            49.2,
+            16.61
+          ],
+          "tag": "EXPERIMENT",
+          "repl": "robust",
+          "hint": "Over eight years, hand-pollinating and tracking thousands of pea plants across seven cleanly distinguishable traits — seed shape, pod colour, flower position and more — Mendel found that traits reappeared across generations in remarkably consistent, predictable numerical ratios (roughly 3:1 in the second generation of a single-trait cross), evidence that inheritance follows discrete mathematical rules rather than simply blending parental characteristics together.",
+          "note": "Mendel, G. (1866). 'Versuche über Pflanzen-Hybriden.' Verhandlungen des naturforschenden Vereines in Brünn, 4, 3–47. Mendel deliberately chose garden pea (Pisum sativum) for its easily controlled self- and cross-pollination and its clearly binary trait variants; the work went essentially uncited for over three decades until its independent rediscovery around 1900 launched the modern science of genetics.",
+          "links": [
+            "th6",
+            "fg4"
+          ],
+          "keywords": [
+            "pea plant hybrid cross",
+            "predictable trait ratio",
+            "controlled hand pollination"
+          ]
+        },
+        {
+          "id": "st5",
+          "group": "Plant Growth & Hormonal Signaling",
+          "label": "Darwin's Phototropism Experiments",
+          "date": "1880",
+          "loc": "Down House, Kent, England",
+          "coords": [
+            51.33,
+            0.05
+          ],
+          "tag": "EXPERIMENT",
+          "repl": "robust",
+          "hint": "Covering only the very tip of a growing grass seedling with an opaque cap while leaving the rest of the stem exposed to light from one side, Charles and Francis Darwin found the plant no longer bent toward the light at all — proof that light detection happens specifically at the tip, and that some signal must then travel down from the tip to the lower stem to cause the actual bending, decades before that signal was chemically identified as a hormone.",
+          "note": "Darwin, C. & Darwin, F. (1880). The Power of Movement in Plants. London: John Murray. The Darwins' simple capping experiments directly set up the search that would identify the diffusible growth substance later named auxin (see th5, st6); the book was one of Charles Darwin's last major works, extending his lifelong interest in plants into the mechanics of plant movement.",
+          "links": [
+            "fg5",
+            "th5"
+          ],
+          "keywords": [
+            "coleoptile tip light detection",
+            "opaque cap experiment",
+            "downward growth signal"
+          ]
+        },
+        {
+          "id": "st6",
+          "group": "Plant Growth & Hormonal Signaling",
+          "label": "Went's Coleoptile Agar Block Experiment",
+          "date": "1926",
+          "loc": "Utrecht University, Utrecht, Netherlands",
+          "coords": [
+            52.09,
+            5.12
+          ],
+          "tag": "EXPERIMENT",
+          "repl": "robust",
+          "hint": "Cutting off the light-sensing tip of a grass seedling, letting it sit on a small block of agar gel, then placing that agar block off-centre on the decapitated, otherwise tipless stem below, Went found the stem bent away from the side carrying the agar block even with no direct light stimulus at all — direct proof the tip released a diffusible chemical growth substance into the agar, and that the substance alone, asymmetrically applied, was sufficient to cause bending.",
+          "note": "Went, F.W. (1926). 'On Growth-Accelerating Substances in the Coleoptile of Avena sativa.' Proceedings of the Section of Sciences, Koninklijke Akademie van Wetenschappen te Amsterdam, 30, 10–19. The growth substance Went detected was later chemically identified as indole-3-acetic acid, the primary natural auxin, directly confirming the hormone-based model his and Cholodny's theory (see th5) had proposed.",
+          "links": [
+            "th5",
+            "fg6"
+          ],
+          "keywords": [
+            "agar block diffusion assay",
+            "growth substance isolation",
+            "asymmetric bending induction"
+          ]
+        },
+        {
+          "id": "st7",
+          "group": "Photosynthesis & Plant Biochemistry",
+          "label": "Priestley's Discovery That Plants Restore \"Injured\" Air",
+          "date": "1772",
+          "loc": "Leeds, England",
+          "coords": [
+            53.8,
+            -1.55
+          ],
+          "tag": "EXPERIMENT",
+          "repl": "mixed",
+          "hint": "Sealing a burning candle inside a glass container until the flame went out and the trapped air could no longer support combustion, Priestley then placed a living sprig of mint inside the same sealed container and found that, after some days, the air could support a flame again — the first experimental hint that living plants actively do something to the surrounding air that reverses what burning, and by extension animal breathing, does to it.",
+          "note": "Priestley, J. (1772). 'Observations on Different Kinds of Air.' Philosophical Transactions of the Royal Society, 62, 147–264. Priestley's own attempts to replicate the effect were inconsistent — plants sometimes seemed to fail to restore the air at all — a puzzle only resolved seven years later when Ingenhousz established that the effect depends specifically on sunlight exposure (see th1, st1), a variable Priestley had not controlled for.",
+          "links": [
+            "th1"
+          ],
+          "keywords": [
+            "injured air restoration",
+            "candle flame combustion test",
+            "pre photosynthesis observation"
+          ]
+        },
+        {
+          "id": "st8",
+          "group": "Plant Diversity & Evolutionary History",
+          "label": "Discovery of Cooksonia, the Earliest Land Plant Fossils",
+          "date": "1937",
+          "loc": "Manchester, England",
+          "coords": [
+            53.48,
+            -2.24
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Examining fossil-bearing rock collected from Perton Quarry in Wales, Lang described a simple, leafless, dichotomously branching plant no more than a few centimetres tall, bearing spore-producing capsules at its branch tips and, crucially, true water-conducting vascular tissue — among the very earliest fossil evidence that vascular plants had colonised dry land at all, dating to the middle Silurian, tens of millions of years before any forest existed.",
+          "note": "Lang, W.H. (1937). 'On the Plant-Remains from the Downtonian of England and Wales.' Philosophical Transactions of the Royal Society B, 227, 245–291, named the genus Cooksonia in honour of Isabel Cookson, the botanist who collected the original Welsh specimens in 1934. Cooksonia is now understood as a transitional form bridging non-vascular bryophyte-like ancestors and the fully vascular land plants that followed, directly informing the telome theory of organ evolution (see th8).",
+          "links": [
+            "th8"
+          ],
+          "keywords": [
+            "earliest vascular plant fossil",
+            "silurian land colonization",
+            "cooksonia dichotomous branching"
+          ]
+        },
+        {
+          "id": "st9",
+          "group": "Plant Reproduction & Pollination",
+          "label": "Sprengel's Discovery of Flower Pollination Mechanisms",
+          "date": "1793",
+          "loc": "Berlin, Prussia",
+          "coords": [
+            52.52,
+            13.4
+          ],
+          "tag": "FIELD STUDY",
+          "repl": "robust",
+          "hint": "Meticulously documenting hundreds of flower species over years of fieldwork, Sprengel showed that flower colour patterns, nectar guides, shape, and scent are not decorative accidents but precisely engineered adaptations for attracting specific pollinating insects and guiding them directly to the flower's reproductive organs — the first systematic demonstration that a flower's entire structure exists to serve pollination, a discovery so far ahead of its time that it was largely ignored for decades.",
+          "note": "Sprengel, C.K. (1793). Das entdeckte Geheimnis der Natur im Bau und in der Befruchtung der Blumen. Berlin: Friedrich Vieweg. The book sold poorly and Sprengel died in obscurity; Charles Darwin rediscovered and championed the work over sixty years later, crediting it as a direct influence on his own studies of orchid pollination (see st10) and the broader theory of coevolution between flowering plants and their pollinators (see co7).",
+          "links": [
+            "co7"
+          ],
+          "keywords": [
+            "nectar guide flower adaptation",
+            "insect pollination mechanism",
+            "flower structure function demonstration"
+          ]
+        },
+        {
+          "id": "st10",
+          "group": "Plant Reproduction & Pollination",
+          "label": "Darwin's Study of Orchid Pollination",
+          "date": "1862",
+          "loc": "Down House, Kent, England",
+          "coords": [
+            51.33,
+            0.05
+          ],
+          "tag": "FIELD STUDY",
+          "repl": "robust",
+          "hint": "Dissecting and comparing the elaborate floral structures of dozens of orchid species, Darwin showed each was a precisely engineered mechanism for ensuring cross-pollination by a specific insect visitor — and, examining a Madagascar orchid with an extraordinarily long nectar spur, predicted a still-undiscovered moth must exist with a proboscis long enough to reach its nectar, a prediction confirmed by the discovery of exactly such a moth over forty years later.",
+          "note": "Darwin, C. (1862). On the Various Contrivances by which British and Foreign Orchids are Fertilised by Insects. London: John Murray. The moth Darwin predicted, Xanthopan morganii praedicta, was described in 1903, its subspecies name literally meaning 'predicted'; direct observation of the moth actually pollinating the orchid using its extreme proboscis was not filmed until 1997, over a century after Darwin's original inference.",
+          "links": [
+            "fg5",
+            "st9"
+          ],
+          "keywords": [
+            "orchid pollinator coadaptation",
+            "predicted moth confirmation",
+            "specialized flower mechanism"
+          ]
+        },
+        {
+          "id": "st11",
+          "group": "Plant Ecology & Symbiosis",
+          "label": "Frank's Discovery and Naming of Mycorrhizae",
+          "date": "1885",
+          "loc": "Berlin, Prussia",
+          "coords": [
+            52.52,
+            13.4
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Examining the fine roots of forest trees under the microscope, Frank found that fungal threads did not simply infect or parasitise the roots but formed an intimate, mutually beneficial structural partnership with them — a symbiosis he named 'mycorrhiza,' fungus-root — and argued, correctly, that trees in nutrient-poor forest soil depend on this fungal partnership for adequate mineral nutrition rather than absorbing minerals through their own roots alone.",
+          "note": "Frank, A.B. (1885). 'Über die auf Wurzelsymbiose beruhende Ernährung gewisser Bäume durch unterirdische Pilze.' Berichte der Deutschen Botanischen Gesellschaft, 3, 128–145. Frank's mutualistic interpretation was initially controversial, since fungal root associations had previously been assumed parasitic by default; mycorrhizal partnerships are now understood to involve the vast majority of land plant species and to have likely been present since plants first colonised land (see th9).",
+          "links": [
+            "th9",
+            "fg10"
+          ],
+          "keywords": [
+            "mycorrhiza naming discovery",
+            "fungal root symbiosis",
+            "forest tree nutrient partnership"
+          ]
+        }
+      ]
     },
     {
       "id": "effect",
