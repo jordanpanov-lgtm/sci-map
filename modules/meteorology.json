@@ -573,7 +573,214 @@
       "accent": "#117A65",
       "bg": "#F0FFF6",
       "subtitle": "Named, replicable patterns in atmospheric and weather behaviour",
-      "entries": []
+      "entries": [
+        {
+          "id": "ef1",
+          "group": "Atmospheric Structure & Thermodynamics",
+          "label": "Foehn Wind Effect",
+          "date": "1866",
+          "loc": "Vienna, Austria",
+          "coords": [
+            48.21,
+            16.37
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "As moist air is forced up and over a mountain range, it cools at the slower moist adiabatic rate while releasing its moisture as precipitation on the windward slope, but once it crests the peak and descends the leeward side, the now much drier air warms back up at the faster dry adiabatic rate — arriving at the base of the mountain's far side dramatically warmer and drier than it started, a warm, gusty downslope wind that can raise temperatures by 10-20°C within an hour and rapidly melt snow.",
+          "note": "Hann, J. von (1866). 'Zur Frage über den Ursprung des Föhn.' Zeitschrift der Österreichischen Gesellschaft für Meteorologie, 1, 257–263, provided the first physically correct thermodynamic explanation, building on the differing dry and moist adiabatic lapse rates (see th2). The same phenomenon occurs worldwide under different regional names — the chinook in the Rocky Mountains, the zonda in Argentina, the Santa Ana in Southern California — and can trigger rapid, dangerous increases in wildfire risk due to the sudden drop in humidity and rise in wind speed.",
+          "links": [
+            "th2"
+          ],
+          "keywords": [
+            "downslope warming wind",
+            "windward leeward asymmetry",
+            "chinook santa ana wind"
+          ]
+        },
+        {
+          "id": "ef2",
+          "group": "Atmospheric Structure & Thermodynamics",
+          "label": "Temperature Inversion",
+          "date": "1930",
+          "loc": "Meuse Valley, Belgium",
+          "coords": [
+            50.53,
+            5.68
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Normally, air temperature decreases steadily with altitude, letting warm air near the ground rise freely and disperse; but under certain conditions — often a clear, calm night allowing the ground to radiate away its heat rapidly — a layer of unusually warm air can form above a colder layer near the surface, inverting the normal pattern and creating an invisible lid that traps cold air, fog, smoke, and pollution close to the ground, unable to rise and disperse until the inversion eventually breaks down.",
+          "note": "The 1930 Meuse Valley fog disaster in Belgium, in which an unusually persistent multi-day temperature inversion trapped industrial pollution in a narrow valley and killed at least 60 people, was among the first air-pollution disasters scientifically documented as directly attributable to inversion-trapped stagnant air (Firket, J. 1931, Bulletin de l'Académie Royale de Médecine de Belgique). Similar inversion-trapped pollution events, including the 1952 London smog, follow the same basic atmospheric mechanism.",
+          "links": [
+            "co1"
+          ],
+          "keywords": [
+            "warm layer above cold",
+            "pollution trapping lid",
+            "nighttime radiative cooling"
+          ]
+        },
+        {
+          "id": "ef3",
+          "group": "Cloud & Precipitation Physics",
+          "label": "Lake Effect Snow",
+          "date": "1966",
+          "loc": "Oswego, New York",
+          "coords": [
+            43.46,
+            -76.51
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "When a mass of cold, dry air moves across a relatively warm, unfrozen lake, it picks up substantial moisture and heat from the water surface below, becoming increasingly unstable as it travels, and dumps that moisture as intense, narrow bands of heavy snow once the destabilised air reaches the far shore and is forced to rise — producing localised snowfall totals that can be dramatically higher just a few kilometres inland from the lake than areas only slightly further away outside the narrow band's path.",
+          "note": "Peace, R.L. & Sykes, R.B. (1966). 'Mesoscale Study of a Lake Effect Snow Storm.' Monthly Weather Review, 94(8), 495–507, documented the narrow-band structure using radar data from the Great Lakes region. The effect requires the temperature difference between the lake surface and the air passing over it to exceed a threshold of roughly 13°C, which is why lake-effect snow is heaviest in early winter before the lake itself eventually freezes over and shuts off its own moisture and heat source.",
+          "links": [
+            "th2"
+          ],
+          "keywords": [
+            "cold air over warm water",
+            "narrow snowband structure",
+            "great lakes localized snowfall"
+          ]
+        },
+        {
+          "id": "ef4",
+          "group": "Severe Weather & Storms",
+          "label": "Tropical Cyclone Formation Threshold",
+          "date": "1948",
+          "loc": "Helsinki, Finland",
+          "coords": [
+            60.17,
+            24.94
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "A tropical cyclone can only form and intensify where several specific conditions coincide simultaneously: ocean surface water warmer than about 26.5°C to at least 50 metres depth, enough Coriolis deflection (see th6) to initiate rotation, meaning at least a few degrees away from the equator, low wind shear so the storm's vertical structure isn't torn apart as it grows, and sufficiently moist mid-level air — when even one of these conditions is absent, no amount of the others can compensate, which is why hurricanes reliably form only in specific ocean basins during specific seasons.",
+          "note": "Palmén, E. (1948). 'On the Formation and Structure of Tropical Hurricanes.' Geophysica, 3, 26–38, identified the 26.5°C sea-surface temperature threshold now named after him. All these conditions being individually necessary but not sufficient means meteorologists can identify large regions and seasons of elevated hurricane risk well in advance, even though which specific weak disturbance among many will actually organise into a named storm remains considerably harder to predict.",
+          "links": [
+            "th6"
+          ],
+          "keywords": [
+            "palmen sea temperature threshold",
+            "hurricane formation conditions",
+            "necessary not sufficient factors"
+          ]
+        },
+        {
+          "id": "ef5",
+          "group": "Severe Weather & Storms",
+          "label": "Microburst Wind Shear",
+          "date": "1982",
+          "loc": "Denver, Colorado",
+          "coords": [
+            39.74,
+            -104.99
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "A microburst is a highly localised, intensely concentrated downdraft, often less than 4 kilometres across, that slams into the ground and spreads outward at speeds sometimes exceeding 150 kilometres per hour — extremely dangerous specifically to aircraft during takeoff or landing, since a plane flying through one first experiences a sudden, deceptive headwind that increases lift, immediately followed by an equally sudden tailwind and downdraft that can cause a catastrophic, unrecoverable loss of altitude within seconds.",
+          "note": "The 1982 Joint Airport Weather Studies (JAWS) project near Denver, Colorado, used dedicated Doppler radar networks to systematically document dozens of microbursts, confirming and quantifying Fujita's original hypothesis (see st6). Several major commercial airline crashes through the 1970s and 1980s were subsequently reattributed to microburst wind shear, directly driving the installation of dedicated wind-shear detection radar at major airports worldwide.",
+          "links": [
+            "st6"
+          ],
+          "keywords": [
+            "concentrated downdraft hazard",
+            "aircraft wind shear danger",
+            "jaws field confirmation project"
+          ]
+        },
+        {
+          "id": "ef6",
+          "group": "Atmospheric Optics & Radiation",
+          "label": "Halo & Sundog Optical Phenomena",
+          "date": "1637",
+          "loc": "Paris, France",
+          "coords": [
+            48.85,
+            2.35
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "High, thin cirrus clouds are made of tiny, hexagonal ice crystals rather than liquid water droplets, and when sunlight or moonlight passes through these crystals it refracts at very specific, predictable angles determined by the hexagonal crystal geometry — producing a ring of light circling the sun or moon at almost exactly 22 degrees radius, and sometimes two especially bright spots, called sundogs, positioned exactly at that same 22-degree distance to either side of the sun itself.",
+          "note": "Descartes, R. (1637). Les Météores, an appendix to Discours de la méthode, provided an early mathematical treatment of halo geometry using ray-tracing through simplified ice-crystal shapes. The specific 22-degree radius is a direct, fixed geometric consequence of the hexagonal ice crystal's refractive index and prism angle, essentially identical to the mechanism producing a rainbow from spherical raindrops but with a different, more consistent characteristic angle since ice crystals have a far more regular geometric shape than water droplets.",
+          "links": [],
+          "keywords": [
+            "ice crystal light refraction",
+            "22 degree halo radius",
+            "hexagonal crystal geometry"
+          ]
+        },
+        {
+          "id": "ef7",
+          "group": "Atmospheric Optics & Radiation",
+          "label": "The Green Flash",
+          "date": "1958",
+          "loc": "Castel Gandolfo, Italy",
+          "coords": [
+            41.75,
+            12.65
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "In the last second or two before the sun fully disappears below a distant, unobstructed horizon, on a very clear day, a brief flash of green light can sometimes be seen right at the sun's upper edge — caused by the atmosphere acting like a weak prism, bending the sun's different colours by very slightly different amounts, so that by the moment the red and orange light has already dropped below the horizon, only the still-visible green (and, more rarely, blue) light remains briefly detectable at the sun's rim.",
+          "note": "O'Connell, D.J.K. (1958). The Green Flash and Other Low Sun Phenomena. Vatican Observatory Publications, provided the first rigorous photographic and spectroscopic study of the phenomenon, confirming it as a genuine atmospheric-refraction effect rather than a purely optical illusion or eye artefact, as some contemporaries had suspected. The flash requires an extremely clear, distant, unobstructed horizon, most commonly seen over open ocean, and typically lasts only one to two seconds, making it notoriously easy to miss.",
+          "links": [
+            "th10"
+          ],
+          "keywords": [
+            "sunset color separation",
+            "atmospheric refraction prism",
+            "brief horizon flash"
+          ]
+        },
+        {
+          "id": "ef8",
+          "group": "Weather Systems & Fronts",
+          "label": "Sea Breeze / Land Breeze Cycle",
+          "date": "1994",
+          "loc": "University of Cambridge, Cambridge, England",
+          "coords": [
+            52.21,
+            0.12
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Land heats up and cools down far faster than water does, so during a sunny day coastal land becomes warmer than the adjacent sea, and the warm air rising over land draws in cooler air from over the water to replace it — a daytime sea breeze blowing from water to land — while at night the pattern reverses entirely, as the now-relatively-warmer sea draws in cooler air flowing outward from the faster-cooling land in a nighttime land breeze, a reliable daily cycle familiar to anyone who has spent a full day at a beach.",
+          "note": "Simpson, J.E. (1994). Sea Breeze and Local Winds. Cambridge University Press, remains the definitive modern scientific synthesis of the phenomenon's dynamics, building on much earlier qualitative descriptions including Edmond Halley's own 1686 trade-wind paper (see st11). Sea breezes can penetrate over 100 kilometres inland in some regions and are strong enough to trigger their own localised thunderstorm development where the advancing breeze front lifts humid air, a mechanism forecasters in coastal regions, including Florida, watch for daily.",
+          "links": [
+            "st11"
+          ],
+          "keywords": [
+            "differential land sea heating",
+            "daily wind reversal cycle",
+            "coastal thunderstorm trigger"
+          ]
+        },
+        {
+          "id": "ef9",
+          "group": "Global Circulation & Climate Dynamics",
+          "label": "Sudden Stratospheric Warming",
+          "date": "1952",
+          "loc": "Berlin, Germany",
+          "coords": [
+            52.52,
+            13.41
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Occasionally, in the middle of winter, the normally frigid polar stratosphere can warm dramatically and rapidly — by as much as 30-50°C within just a few days — as a wave disturbance from the lower atmosphere disrupts and sometimes completely reverses the usual westerly polar vortex winds circling the pole, an event that, despite happening tens of kilometres above the ground, can subsequently disrupt the jet stream and drive severe cold-air outbreaks at the surface far to the south for weeks afterward.",
+          "note": "Scherhag, R. (1952). 'Die explosionsartigen Stratosphärenerwärmungen des Spätwinters 1951/52.' Berichte des Deutschen Wetterdienstes in der US-Zone, 6(38), 51–63, first documented the phenomenon over Berlin. The connection between a stratospheric warming event and subsequent severe surface cold snaps typically takes two to six weeks to fully manifest, giving forecasters a genuine, if imperfect, extended early-warning signal for major cold-air outbreaks well beyond the normal weather forecasting horizon (see db8).",
+          "links": [
+            "th9",
+            "db8"
+          ],
+          "keywords": [
+            "polar vortex disruption",
+            "rapid stratospheric temperature spike",
+            "delayed surface cold outbreak"
+          ]
+        }
+      ]
     },
     {
       "id": "concept",
@@ -583,7 +790,185 @@
       "accent": "#566573",
       "bg": "#F5F6FA",
       "subtitle": "The building blocks and vocabulary every student must command",
-      "entries": []
+      "entries": [
+        {
+          "id": "co1",
+          "group": "Atmospheric Structure & Thermodynamics",
+          "label": "Atmospheric Stability",
+          "date": "1940",
+          "loc": "Chicago, Illinois",
+          "coords": [
+            41.79,
+            -87.6
+          ],
+          "tag": "CONCEPT",
+          "hint": "Comparing how fast a lifted air parcel cools (see th2) against how fast the surrounding environmental air actually changes temperature with height reveals whether the atmosphere on a given day is stable, actively resisting vertical air movement and keeping the sky calm and layered, unstable, readily allowing air to keep rising and building towering storm clouds, or conditionally unstable, stable for dry air but unstable once condensation begins releasing extra latent heat — a single comparison that determines almost everything about a day's weather character.",
+          "note": "Petterssen, S. (1940). Weather Analysis and Forecasting. McGraw-Hill, systematised the stable/unstable/conditionally unstable classification framework still taught in every introductory meteorology course. Forecasters routinely compare the environmental temperature profile measured by a weather balloon sounding (see me2) against the dry and moist adiabatic lapse rates plotted on the same chart to directly read off a day's stability classification and thunderstorm potential.",
+          "links": [
+            "th2",
+            "th8"
+          ],
+          "keywords": [
+            "parcel versus environment comparison",
+            "stable unstable classification",
+            "conditional instability threshold"
+          ]
+        },
+        {
+          "id": "co2",
+          "group": "Weather Systems & Fronts",
+          "label": "Air Mass Classification",
+          "date": "1928",
+          "loc": "Bergen, Norway",
+          "coords": [
+            60.39,
+            5.32
+          ],
+          "tag": "CONCEPT",
+          "hint": "A large body of air sitting for days or weeks over a relatively uniform surface region — a frozen arctic ice sheet, a warm tropical ocean, a dry continental desert — gradually takes on that source region's characteristic temperature and humidity throughout its entire depth, and once it eventually moves away from its source region, it carries those acquired characteristics with it, so classifying an air mass by where it originated predicts much of what kind of weather it will bring wherever it travels next.",
+          "note": "Bergeron, T. (1928). 'Über die dreidimensional verknüpfende Wetteranalyse.' Geofysiske Publikasjoner, 5(6), developed the standard letter-coded air mass classification system (for example 'cP' for continental polar, 'mT' for maritime tropical) still used in weather analysis today. The boundary where two different air masses meet is precisely what defines a weather front (see th1), making air mass classification and frontal theory two directly complementary halves of the same analytical framework.",
+          "links": [
+            "th1"
+          ],
+          "keywords": [
+            "source region characteristics",
+            "letter coded classification",
+            "front boundary definition"
+          ]
+        },
+        {
+          "id": "co3",
+          "group": "Cloud & Precipitation Physics",
+          "label": "Cloud Classification",
+          "date": "1803",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "CONCEPT",
+          "hint": "Howard classified clouds into a small number of basic shape categories, named in Latin — cirrus for wispy, thread-like high clouds, cumulus for puffy, heaped clouds, stratus for flat, layered sheets, and nimbus for a rain-bearing cloud — that could be combined to describe the enormous variety of actual clouds observed, giving meteorologists worldwide a shared, precise, universally understood vocabulary in place of the vague, purely descriptive folk terms used previously.",
+          "note": "Howard, L. (1803). 'On the Modification of Clouds.' Philosophical Magazine, 16, 97–107, established the Latin naming system still used today, with only modest later refinement. The poet Johann Wolfgang von Goethe was reportedly so impressed by Howard's classification that he wrote a set of poems in tribute to it; Howard's system also directly organises cloud height into three families — high, middle, and low — that correspond closely to the different temperature and moisture regimes at each altitude (see th4).",
+          "links": [
+            "th4",
+            "fg3"
+          ],
+          "keywords": [
+            "latin cloud naming system",
+            "cirrus cumulus stratus",
+            "cloud height family classification"
+          ]
+        },
+        {
+          "id": "co4",
+          "group": "Severe Weather & Storms",
+          "label": "The Enhanced Fujita Scale",
+          "date": "2006",
+          "loc": "Texas Tech University, Lubbock, Texas",
+          "coords": [
+            33.58,
+            -101.87
+          ],
+          "tag": "CONCEPT",
+          "hint": "Since a tornado's actual wind speed can almost never be measured directly at the moment of peak intensity, tornado strength is instead estimated indirectly, after the fact, by carefully surveying the specific type and severity of structural damage left behind — comparing how badly different, standardised types of buildings and objects were damaged against a detailed reference guide that translates observed damage severity into an estimated wind speed range.",
+          "note": "McDonald, J.R. & Mehta, K.C. (2006). 'A Recommendation for an Enhanced Fujita Scale.' Texas Tech University, Wind Science and Engineering Center, refined Ted Fujita's original 1971 damage scale (see fg6) using 28 distinct damage indicators, from mobile homes to well-built brick structures, each with its own detailed severity table. The Enhanced Fujita Scale was formally adopted by the US National Weather Service in 2007 and provides substantially more consistent, defensible ratings than the original scale's broader, more subjective damage categories.",
+          "links": [
+            "fg6"
+          ],
+          "keywords": [
+            "damage based wind estimation",
+            "standardized damage indicator",
+            "fujita scale refinement"
+          ]
+        },
+        {
+          "id": "co5",
+          "group": "Severe Weather & Storms",
+          "label": "The Saffir-Simpson Hurricane Wind Scale",
+          "date": "1971",
+          "loc": "National Hurricane Center, Miami, Florida",
+          "coords": [
+            25.76,
+            -80.19
+          ],
+          "tag": "CONCEPT",
+          "hint": "Hurricanes are sorted into five categories purely by their maximum sustained wind speed, from a minimal Category 1 to a catastrophic Category 5, giving the public and emergency planners an immediately recognisable, single-number severity rating — though the scale deliberately says nothing directly about a specific storm's rainfall, storm surge height, or physical size, all factors that can make a lower-category storm considerably more dangerous and destructive than the wind-speed number alone might suggest.",
+          "note": "Saffir, H. (1971), a structural engineer, developed the original wind-speed-based category scale for a United Nations report on housing damage; Simpson, R.H., then director of the National Hurricane Center, added storm-surge and general impact descriptions. Hurricane Harvey (2017), a Category 4 storm at landfall, caused catastrophic flooding damage from rainfall alone that vastly exceeded many higher-category storms, a widely cited example of the scale's inherent limitation in only capturing wind speed.",
+          "links": [],
+          "keywords": [
+            "five category wind rating",
+            "wind speed only limitation",
+            "hurricane severity communication"
+          ]
+        },
+        {
+          "id": "co6",
+          "group": "Atmospheric Structure & Thermodynamics",
+          "label": "Dew Point & Relative Humidity",
+          "date": "1820",
+          "loc": "London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "CONCEPT",
+          "hint": "Relative humidity describes how close the air currently is to being fully saturated with water vapour, as a percentage of the maximum it could hold at that specific temperature — but because warmer air can hold far more moisture than cold air, the same relative humidity percentage represents very different actual moisture amounts at different temperatures, which is why meteorologists also track dew point, the specific temperature air would need to cool to in order to become fully saturated, a far more direct and temperature-independent measure of how much moisture is actually present.",
+          "note": "Daniell, J.F. (1820). 'On a New Hygrometer, which Measures the Dew Point.' Quarterly Journal of Science, Literature and the Arts, 8, 298–305, provided a practical instrument for direct dew-point measurement. Dew point is widely considered a more reliable indicator of how muggy or humid a day will actually feel than relative humidity alone, since a dew point above about 20°C generally feels noticeably uncomfortable regardless of the accompanying temperature or relative-humidity percentage reading.",
+          "links": [
+            "co1"
+          ],
+          "keywords": [
+            "saturation temperature measure",
+            "humidity perception accuracy",
+            "hygrometer instrument invention"
+          ]
+        },
+        {
+          "id": "co7",
+          "group": "Numerical Weather Prediction & Forecasting",
+          "label": "Synoptic Scale vs. Mesoscale",
+          "date": "1975",
+          "loc": "Princeton, New Jersey",
+          "coords": [
+            40.34,
+            -74.65
+          ],
+          "tag": "CONCEPT",
+          "hint": "Atmospheric phenomena naturally sort into a hierarchy of characteristic sizes and lifespans, and different observation and forecasting tools are needed at each scale — synoptic-scale systems like a mid-latitude cyclone span a thousand kilometres and last several days, readily visible on a standard weather map, while mesoscale phenomena like a single thunderstorm or a sea breeze front span just a few to a few hundred kilometres and last only hours, requiring denser, more specialised local monitoring to detect and forecast at all.",
+          "note": "Orlanski, I. (1975). 'A Rational Subdivision of Scales for Atmospheric Processes.' Bulletin of the American Meteorological Society, 56(5), 527–530, formalised the now-standard micro-, meso-, synoptic-, and planetary-scale classification framework. The distinction matters practically because a numerical weather model's grid resolution (see me3, me4) must be fine enough to actually capture a given phenomenon's characteristic scale — a coarse global model can miss a dangerous, fast-developing local thunderstorm entirely even while accurately forecasting the broader synoptic-scale pattern around it.",
+          "links": [
+            "me3",
+            "me4"
+          ],
+          "keywords": [
+            "atmospheric scale hierarchy",
+            "synoptic mesoscale distinction",
+            "forecast resolution requirement"
+          ]
+        },
+        {
+          "id": "co8",
+          "group": "Atmospheric Optics & Radiation",
+          "label": "Albedo",
+          "date": "1760",
+          "loc": "Augsburg, Germany",
+          "coords": [
+            48.37,
+            10.9
+          ],
+          "tag": "CONCEPT",
+          "hint": "Albedo measures what fraction of incoming sunlight a surface reflects straight back to space rather than absorbing as heat, expressed as a simple number between 0 (a perfectly absorbing black surface) and 1 (a perfectly reflecting white surface) — fresh snow reflects 80-90% of sunlight, giving it a very high albedo, while dark ocean water absorbs the great majority of the sunlight hitting it, giving it a very low albedo, a simple physical property that plays an outsized role in regional and global temperature patterns.",
+          "note": "Lambert, J.H. (1760). Photometria. Augsburg, established the foundational mathematics of surface reflectance later applied specifically to atmospheric and climate science. Clouds themselves have a substantial average albedo of roughly 0.3 to 0.6 depending on thickness and type, meaning cloud cover plays a major, still not perfectly quantified role in Earth's overall energy balance — an active area of ongoing atmospheric research given how difficult clouds remain to represent accurately in large-scale weather and climate models.",
+          "links": [
+            "th10"
+          ],
+          "keywords": [
+            "surface reflectance fraction",
+            "snow ice high reflectivity",
+            "cloud energy balance role"
+          ]
+        }
+      ]
     },
     {
       "id": "method",
