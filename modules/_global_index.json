@@ -2,7 +2,7 @@
   "_meta": {
     "total_entries": 2145,
     "folio_count": 28,
-    "xlink_pairs": 152,
+    "xlink_pairs": 153,
     "keyword_terms": 7603,
     "folios": [
       {
@@ -2929,6 +2929,12 @@
     ],
     "cell-molecular-bio::th2": [
       "microbiology-virology::th4"
+    ],
+    "microbiology-virology::th10": [
+      "pathology-immunology::fg3"
+    ],
+    "pathology-immunology::fg3": [
+      "microbiology-virology::th10"
     ],
     "microbiology-virology::st11": [
       "cell-molecular-bio::th7",
