@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 2076,
+    "total_entries": 2077,
     "folio_count": 27,
-    "xlink_pairs": 139,
-    "keyword_terms": 7395,
+    "xlink_pairs": 141,
+    "keyword_terms": 7399,
     "folios": [
       {
         "id": "anatomy-histology",
@@ -68,7 +68,7 @@
       {
         "id": "geology",
         "title": "Geology & Solid Earth Systems",
-        "entries": 73
+        "entries": 74
       },
       {
         "id": "inorganic-analytical-chem",
@@ -1096,6 +1096,7 @@
     "geology::ef7": "effect · Seismology & Earthquake Science · Fault Creep (1960)",
     "geology::ef8": "effect · Geomorphology & Surface Processes · Chemical Weathering (1938)",
     "geology::ef9": "effect · Earth's Interior & Geophysics · Magnetic Reversal (1906)",
+    "geology::ef10": "effect · Seismology & Earthquake Science · Megathrust Earthquakes & Tsunami Generation (1972)",
     "geology::co1": "concept · Mineralogy & Petrology · The Rock Cycle (1882)",
     "geology::co2": "concept · Mineralogy & Petrology · Mohs Hardness Scale (1812)",
     "geology::co3": "concept · Stratigraphy & Deep Time · The Geologic Time Scale (1841)",
@@ -2723,9 +2724,13 @@
       "neuroscience::th10"
     ],
     "geology::th3": [
-      "oceanography::th7"
+      "oceanography::th7",
+      "oceanography::st4"
     ],
     "oceanography::th7": [
+      "geology::th3"
+    ],
+    "oceanography::st4": [
       "geology::th3"
     ],
     "geology::st12": [
@@ -2733,6 +2738,12 @@
     ],
     "oceanography::st8": [
       "geology::st12"
+    ],
+    "geology::ef10": [
+      "oceanography::ap6"
+    ],
+    "oceanography::ap6": [
+      "geology::ef10"
     ],
     "geology::fg6": [
       "oceanography::fg8"
@@ -8190,6 +8201,12 @@
       "geomagnetic polarity flip",
       "reversed lava magnetization",
       "irregular reversal interval"
+    ],
+    "geology::ef10": [
+      "megathrust rupture mechanism",
+      "subduction zone tsunami generation",
+      "vertical seafloor displacement",
+      "ocean basin tsunami propagation"
     ],
     "geology::co1": [
       "igneous sedimentary metamorphic transformation",
@@ -24499,6 +24516,18 @@
     ],
     "irregular reversal interval": [
       "geology::ef9"
+    ],
+    "megathrust rupture mechanism": [
+      "geology::ef10"
+    ],
+    "subduction zone tsunami generation": [
+      "geology::ef10"
+    ],
+    "vertical seafloor displacement": [
+      "geology::ef10"
+    ],
+    "ocean basin tsunami propagation": [
+      "geology::ef10"
     ],
     "igneous sedimentary metamorphic transformation": [
       "geology::co1"

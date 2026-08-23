@@ -15,11 +15,11 @@
   "mapZoom": 2,
   "methodology": "METHODOLOGY · Every entry anchors to a landmark study, field observation, dataset or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags replication status, revisions and known controversies. Studies and effects carry a replicability badge — 🟢 confirmed to high confidence · 🟡 nuanced, contested or partially revised · 🔴 failed or severely disputed. Map pins mark the field site, institution or observatory where the work was carried out.",
   "_meta": {
-    "total_entries": 73,
+    "total_entries": 74,
     "entry_counts": {
       "theory": 10,
       "study": 13,
-      "effect": 9,
+      "effect": 10,
       "concept": 8,
       "method": 6,
       "figure": 12,
@@ -29,7 +29,7 @@
     "max_ids": {
       "th": 10,
       "st": 13,
-      "ef": 9,
+      "ef": 10,
       "co": 8,
       "me": 6,
       "fg": 12,
@@ -81,6 +81,7 @@
     "ef7": "effect · Seismology & Earthquake Science · Fault Creep (1960)",
     "ef8": "effect · Geomorphology & Surface Processes · Chemical Weathering (1938)",
     "ef9": "effect · Earth's Interior & Geophysics · Magnetic Reversal (1906)",
+    "ef10": "effect · Seismology & Earthquake Science · Megathrust Earthquakes & Tsunami Generation (1972)",
     "co1": "concept · Mineralogy & Petrology · The Rock Cycle (1882)",
     "co2": "concept · Mineralogy & Petrology · Mohs Hardness Scale (1812)",
     "co3": "concept · Stratigraphy & Deep Time · The Geologic Time Scale (1841)",
@@ -171,7 +172,7 @@
           ],
           "tag": "THEORY",
           "hint": "Noticing that the coastlines of South America and Africa fit together like puzzle pieces, and that matching rock formations and fossils of the same extinct species appeared on both sides of the Atlantic, Wegener proposed that all the continents were once joined together in a single supercontinent that had since drifted apart — a bold explanation for a pattern earlier geologists had also noticed but never proposed anything so radical to explain.",
-          "note": "Wegener, A. (1912). 'Die Entstehung der Kontinente.' Geologische Rundschau, 3(4), 276–292, later expanded into Die Entstehung der Kontinente und Ozeane (1915). Wegener, a meteorologist rather than a geologist by training, could not identify a physically plausible mechanism for how continents might actually plough through solid ocean floor, a fatal weakness that led most geologists to reject the theory for decades (see db1) until seafloor spreading (see th3) finally supplied the missing mechanism.",
+          "note": "Wegener, A. (1912). 'Die Entstehung der Kontinente.' Geologische Rundschau, 3(4), 276–292, later expanded into Die Entstehung der Kontinente und Ozeane (1915). Wegener, a meteorologist rather than a geologist by training, did propose mechanisms — Polflucht ('flight from the pole'), a centrifugal force from Earth's rotation pushing continents toward the equator, and tidal drag from the sun and moon — but Harold Jeffreys mathematically demonstrated both forces were many orders of magnitude too weak to move continents, a quantitative rebuttal that left the theory without a physically adequate mechanism and led most geologists to reject it for decades (see db1) until seafloor spreading (see th3) finally supplied one that worked.",
           "links": [
             "fg4",
             "db1",
@@ -197,7 +198,7 @@
           ],
           "tag": "THEORY",
           "hint": "New ocean floor is continuously created at mid-ocean ridges, where molten rock rises up and solidifies, then spreads slowly outward in both directions like a conveyor belt, eventually descending back into the mantle at deep ocean trenches — a mechanism that finally explained how continents could move without ploughing through solid rock, since it's the ocean floor itself doing the moving, carrying the continents along on top of it.",
-          "note": "Hess, H.H. (1962). 'History of Ocean Basins.' In A.E.J. Engel et al. (eds.), Petrologic Studies: A Volume in Honor of A.F. Buddington, Geological Society of America, 599–620. Hess himself described the idea as 'geopoetry,' acknowledging it was still largely speculative when first proposed; it was decisively confirmed within a few years by the discovery of symmetric magnetic striping on the ocean floor (see st5, me3).",
+          "note": "Hess, H.H. (1962). 'History of Ocean Basins.' In A.E.J. Engel et al. (eds.), Petrologic Studies: A Volume in Honor of A.F. Buddington, Geological Society of America, 599–620. Hess himself described the idea as 'geopoetry,' acknowledging it was still largely speculative when first proposed. The essential physical evidence predating and informing it came from Marie Tharp, who, mapping the ocean floor from echo-sounding data in the early 1950s, identified a continuous rift valley running down the centre of the Mid-Atlantic Ridge; her collaborator Bruce Heezen initially dismissed the rift as 'girl talk,' and Jacques Cousteau set out with a research vessel specifically to disprove her map, only to film the rift valley exactly where she had drawn it. The hypothesis was decisively confirmed within a few years by the discovery of symmetric magnetic striping on the ocean floor (see st5, me3).",
           "links": [
             "fg6",
             "th2",
@@ -211,7 +212,8 @@
             "continental drift mechanism"
           ],
           "xlinks": [
-            "oceanography::th7"
+            "oceanography::th7",
+            "oceanography::st4"
           ]
         },
         {
@@ -279,7 +281,7 @@
           ],
           "tag": "THEORY",
           "hint": "Earth's rigid outer crust effectively floats on the denser, more fluid mantle beneath it, in gravitational balance much like an iceberg floats in water — thicker, lighter crust (like continents and mountain ranges) rides higher, with a deep compensating 'root' extending down into the mantle, while thinner, denser crust (like ocean floor) sits lower, explaining puzzling small discrepancies in gravitational measurements taken near large mountain ranges.",
-          "note": "Airy, G.B. (1855). 'On the Computation of the Effect of the Attraction of Mountain-Masses.' Philosophical Transactions of the Royal Society, 145, 101–104, proposed the theory to explain anomalies found while surveying gravity near the Himalayas; Pratt, J.H. independently proposed a rival model the same year assuming uniform crustal density but variable thickness. Isostatic adjustment continues today as post-glacial rebound (see ef3), where land once depressed by the weight of ice-age glaciers is still slowly rising back upward thousands of years after the ice melted.",
+          "note": "Airy, G.B. (1855). 'On the Computation of the Effect of the Attraction of Mountain-Masses.' Philosophical Transactions of the Royal Society, 145, 101–104, proposed the theory to explain anomalies found while surveying gravity near the Himalayas, modelling crust of uniform density but variable thickness, with tall mountains riding on deep compensating roots. Pratt, J.H. independently proposed a rival model the same year with the opposite assumption — uniform crustal thickness (a constant depth of compensation) but variable density — so that lighter columns of crust simply stand higher than denser ones without needing a root at all; the two models jointly explain why mid-ocean ridges stand higher than the surrounding abyssal plain, since young, hot oceanic crust there is measurably less dense than the older, cooler crust further from the ridge. Isostatic adjustment continues today as post-glacial rebound (see ef3), where land once depressed by the weight of ice-age glaciers is still slowly rising back upward thousands of years after the ice melted.",
           "links": [
             "ef3"
           ],
@@ -330,7 +332,8 @@
             "fg9",
             "ef7",
             "db9",
-            "ap1"
+            "ap1",
+            "ef10"
           ],
           "keywords": [
             "accumulated fault strain",
@@ -937,6 +940,34 @@
             "reversed lava magnetization",
             "irregular reversal interval"
           ]
+        },
+        {
+          "id": "ef10",
+          "group": "Seismology & Earthquake Science",
+          "label": "Megathrust Earthquakes & Tsunami Generation",
+          "date": "1972",
+          "loc": "California Institute of Technology, Pasadena, California",
+          "coords": [
+            34.14,
+            -118.13
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "At a subduction zone, one plate can lock against the other for centuries as strain builds, then rupture across a fault plane tens of thousands of square kilometres in area — far larger than a typical crustal earthquake — suddenly thrusting a slab of seafloor upward by metres and displacing the entire water column above it, generating a tsunami that can cross an ocean basin largely undiminished, arriving hours later with catastrophic force at distant, otherwise unaffected coastlines.",
+          "note": "Kanamori, H. (1972). 'Mechanism of Tsunami Earthquakes.' Physics of the Earth and Planetary Interiors, 6(5), 346–359, identified that some subduction-zone earthquakes generate disproportionately large tsunamis relative to their shaking, because slow rupture along the shallow, weakly coupled part of the megathrust transfers more energy into seafloor displacement than into radiated seismic waves. The mechanism was seen at global scale in the 2004 Sumatra-Andaman earthquake (Lay, T. et al. 2005, Science) and the 2011 Tohoku earthquake (Simons, M. et al. 2011, Science), the latter rupturing a patch of the Japan Trench megathrust that instruments had not previously shown capable of slipping so far at once.",
+          "links": [
+            "th8",
+            "co6"
+          ],
+          "keywords": [
+            "megathrust rupture mechanism",
+            "subduction zone tsunami generation",
+            "vertical seafloor displacement",
+            "ocean basin tsunami propagation"
+          ],
+          "xlinks": [
+            "oceanography::ap6"
+          ]
         }
       ]
     },
@@ -1087,7 +1118,8 @@
           "hint": "An earthquake's size is now measured by its 'seismic moment' — a physically direct calculation based on the rigidity of the rock, the total area of fault that ruptured, and how far the two sides slipped past each other — converted into a familiar, Richter-like logarithmic number for public communication, but unlike the original Richter scale, the moment magnitude scale doesn't saturate or lose accuracy for the very largest earthquakes, which the older method systematically underestimated.",
           "note": "Hanks, T.C. & Kanamori, H. (1979). 'A Moment Magnitude Scale.' Journal of Geophysical Research, 84(B5), 2348–2350. Charles Richter's original 1935 local magnitude scale, developed for small-to-moderate Southern California earthquakes using a specific instrument, became measurably inaccurate for the largest earthquakes on record; moment magnitude has since become the standard scale reported by seismological agencies worldwide, though the news media and public still often colloquially refer to any earthquake's size as 'the Richter scale.'",
           "links": [
-            "fg10"
+            "fg10",
+            "ef10"
           ],
           "keywords": [
             "seismic moment calculation",
@@ -1597,8 +1629,8 @@
             -74.01
           ],
           "tag": "DEBATE",
-          "hint": "Despite compiling substantial cross-disciplinary supporting evidence (see st4), Wegener's continental drift theory (see th2) was rejected by most geologists, especially in America, for nearly fifty years — not primarily because the evidence for continental connection was weak, but because Wegener could offer no physically plausible mechanism for how solid continents could plough through equally solid ocean floor, a gap critics considered fatal regardless of how compelling the supporting pattern evidence looked.",
-          "note": "The 1926 American Association of Petroleum Geologists symposium in New York produced a published volume, Theory of Continental Drift (1928), in which most American contributors rejected the theory, often in sharply dismissive terms. The rejection is now frequently cited as a cautionary case study in the history and philosophy of science: correct conclusions can be rejected for genuinely sound methodological reasons — the missing mechanism — reasons that later evidence (see th3) simply happened to resolve rather than the original scepticism having been unreasonable at the time.",
+          "hint": "Despite compiling substantial cross-disciplinary supporting evidence (see st4), Wegener's continental drift theory (see th2) was rejected by most geologists, especially in America, for nearly fifty years — not primarily because the evidence for continental connection was weak, but because the mechanisms Wegener did propose, rotational and tidal forces, were mathematically shown to be far too weak to move continents, leaving the theory without any physically adequate driving mechanism, a gap critics considered fatal regardless of how compelling the supporting pattern evidence looked.",
+          "note": "The 1926 American Association of Petroleum Geologists symposium in New York produced a published volume, Theory of Continental Drift (1928), in which most American contributors rejected the theory, often in sharply dismissive terms; physicist Harold Jeffreys's quantitative refutation of Wegener's proposed forces (The Earth, 1924) carried particular weight. The rejection is now frequently cited as a cautionary case study in the history and philosophy of science: correct conclusions can be rejected for genuinely sound methodological reasons — a physically inadequate mechanism — reasons that later evidence (see th3) simply happened to resolve rather than the original scepticism having been unreasonable at the time.",
           "links": [
             "th2",
             "fg4"
@@ -1778,7 +1810,7 @@
             -97.45
           ],
           "tag": "DEBATE",
-          "hint": "Oklahoma, historically one of the least seismically active US states, experienced a sudden, dramatic spike in earthquake frequency starting around 2009, closely tracking the disposal of enormous volumes of wastewater — a byproduct of oil and gas extraction, including hydraulic fracturing — injected deep underground, where the added fluid pressure can lubricate and reactivate ancient, previously dormant fault lines; the specific relative contribution of wastewater disposal versus the hydraulic fracturing process itself remains a genuinely contested distinction in both the scientific literature and public debate.",
+          "hint": "Oklahoma, historically one of the least seismically active US states, experienced a sudden, dramatic spike in earthquake frequency starting around 2009, closely tracking the disposal of enormous volumes of wastewater — a byproduct of oil and gas extraction, including hydraulic fracturing — injected deep underground, where the added fluid pressure can lubricate and reactivate ancient, previously dormant fault lines; wastewater disposal, not the fracturing process itself, is the dominant driver, though public and media discussion still often conflates the two under the single label 'fracking.'",
           "note": "Keranen, K.M. et al. (2014). 'Sharp Increase in Central Oklahoma Seismicity since 2008 Induced by Massive Wastewater Injection.' Science, 345(6195), 448–451, directly linked the seismicity spike to injection wells. Research broadly distinguishes wastewater disposal injection, now understood as the dominant induced-seismicity driver in Oklahoma specifically, from the hydraulic fracturing process itself, which has been more directly linked to smaller, generally less consequential induced earthquakes in some other regions, a distinction frequently lost in public and media discussion that treats 'fracking' as a single undifferentiated cause.",
           "links": [
             "th8"
@@ -2111,6 +2143,11 @@
           "y": 1964,
           "l": "Liquefaction",
           "entryId": "ef1"
+        },
+        {
+          "y": 1972,
+          "l": "Megathrust Earthquakes & Tsunami Generation",
+          "entryId": "ef10"
         },
         {
           "y": 1974,
