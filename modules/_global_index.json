@@ -2,7 +2,7 @@
   "_meta": {
     "total_entries": 2219,
     "folio_count": 29,
-    "xlink_pairs": 158,
+    "xlink_pairs": 159,
     "keyword_terms": 7827,
     "folios": [
       {
@@ -3169,9 +3169,13 @@
       "organic-polymer-chem::me5"
     ],
     "pathology-immunology::th2": [
-      "anatomy-histology::st3"
+      "anatomy-histology::st3",
+      "anatomy-histology::th1"
     ],
     "anatomy-histology::st3": [
+      "pathology-immunology::th2"
+    ],
+    "anatomy-histology::th1": [
       "pathology-immunology::th2"
     ],
     "pathology-immunology::co9": [
