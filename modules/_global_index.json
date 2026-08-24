@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 2219,
-    "folio_count": 29,
-    "xlink_pairs": 159,
-    "keyword_terms": 7827,
+    "total_entries": 2285,
+    "folio_count": 30,
+    "xlink_pairs": 174,
+    "keyword_terms": 8018,
     "folios": [
       {
         "id": "anatomy-histology",
@@ -64,6 +64,11 @@
         "id": "epistemology",
         "title": "Epistemology & Theory of Knowledge",
         "entries": 74
+      },
+      {
+        "id": "evolutionary-biology",
+        "title": "Evolutionary Biology",
+        "entries": 68
       },
       {
         "id": "general-cognitive-psych",
@@ -148,7 +153,7 @@
       {
         "id": "zoology-animal-behavior",
         "title": "Zoology & Animal Behavior",
-        "entries": 76
+        "entries": 74
       }
     ]
   },
@@ -1067,6 +1072,74 @@
     "epistemology::ap5": "application · Science, Inference & Formal Epistemology · Evidence-Based Medicine and Clinical Epistemology (1992)",
     "epistemology::ap6": "application · Social Epistemology · Education as Epistemic Transmission (1916)",
     "epistemology::ap7": "application · Epistemic Justice & Situated Knowledge · Intellectual Property and Knowledge Ownership (1994)",
+    "evolutionary-biology::th1": "theory · Foundations & Common Descent · Common Descent (1859)",
+    "evolutionary-biology::th2": "theory · Foundations & Common Descent · The Modern Synthesis (1942)",
+    "evolutionary-biology::th3": "theory · Population Genetics · Hardy–Weinberg Equilibrium (1908)",
+    "evolutionary-biology::th4": "theory · Molecular Evolution & the Clock · Neutral Theory of Molecular Evolution (1968)",
+    "evolutionary-biology::th5": "theory · Macroevolution, Tempo & Radiation · Punctuated Equilibrium (1972)",
+    "evolutionary-biology::th6": "theory · Speciation · Reproductive Isolating Mechanisms (1937)",
+    "evolutionary-biology::th7": "theory · Molecular Evolution & the Clock · Molecular Clock Hypothesis (1965)",
+    "evolutionary-biology::th8": "theory · Macroevolution, Tempo & Radiation · Adaptive Radiation Theory (2000)",
+    "evolutionary-biology::th9": "theory · Coevolution & Evolution in Action · Red Queen Hypothesis (1973)",
+    "evolutionary-biology::st1": "study · Foundations & Common Descent · The Ternate Letter and the Joint 1858 Paper (1858)",
+    "evolutionary-biology::st2": "study · Coevolution & Evolution in Action · The Long-Term Evolution Experiment (1988)",
+    "evolutionary-biology::st3": "study · Speciation · Rhagoletis Apple Maggot Fly Sympatric Speciation (1969)",
+    "evolutionary-biology::st4": "study · Coevolution & Evolution in Action · Industrial Melanism in the Peppered Moth (1955)",
+    "evolutionary-biology::st5": "study · Macroevolution, Tempo & Radiation · Lake Victoria Cichlid Radiation (1994)",
+    "evolutionary-biology::st6": "study · Foundations & Common Descent · The Chimpanzee Genome Comparison (2005)",
+    "evolutionary-biology::st7": "study · Molecular Evolution & the Clock · Sarich & Wilson's Molecular Clock Dating of Hominid Divergence (1967)",
+    "evolutionary-biology::st8": "study · Coevolution & Evolution in Action · Avida and the Evolution of Complex Digital Traits (2003)",
+    "evolutionary-biology::st9": "study · Coevolution & Evolution in Action · Weismann's Tail-Cutting Experiment (1889)",
+    "evolutionary-biology::st10": "study · Speciation · Ensatina Salamander Ring Species (2001)",
+    "evolutionary-biology::st11": "study · Phylogenetics & Evo-Devo · The Eyeless Gene and Deep Homology (1995)",
+    "evolutionary-biology::ef1": "effect · Population Genetics · Balancing Selection (1954)",
+    "evolutionary-biology::ef2": "effect · Population Genetics · Genetic Hitchhiking (1974)",
+    "evolutionary-biology::ef3": "effect · Population Genetics · Muller's Ratchet (1964)",
+    "evolutionary-biology::ef4": "effect · Coevolution & Evolution in Action · The Baldwin Effect (1896)",
+    "evolutionary-biology::ef5": "effect · Macroevolution, Tempo & Radiation · Convergent Evolution (2018)",
+    "evolutionary-biology::ef6": "effect · Population Genetics · The Founder Effect (1985)",
+    "evolutionary-biology::ef7": "effect · Macroevolution, Tempo & Radiation · Character Displacement (1956)",
+    "evolutionary-biology::ef8": "effect · Population Genetics · Genetic Load (1950)",
+    "evolutionary-biology::co1": "concept · Population Genetics · Allele Frequency and the Gene Pool (1908)",
+    "evolutionary-biology::co2": "concept · Foundations & Common Descent · Fitness (Darwinian) (1930)",
+    "evolutionary-biology::co3": "concept · Phylogenetics & Evo-Devo · Homology versus Analogy (1950)",
+    "evolutionary-biology::co4": "concept · Speciation · Prezygotic and Postzygotic Isolating Barriers (1937)",
+    "evolutionary-biology::co5": "concept · Phylogenetics & Evo-Devo · Reading a Cladogram (1966)",
+    "evolutionary-biology::co6": "concept · Foundations & Common Descent · Vestigial Structures (1859)",
+    "evolutionary-biology::co7": "concept · Population Genetics · Coefficient of Relatedness (1922)",
+    "evolutionary-biology::co8": "concept · Speciation · Species Concepts Beyond the Biological (1995)",
+    "evolutionary-biology::me1": "method · Phylogenetics & Evo-Devo · Phylogenetic Tree Construction (1981)",
+    "evolutionary-biology::me2": "method · Phylogenetics & Evo-Devo · Ancestral State Reconstruction (1985)",
+    "evolutionary-biology::me3": "method · Molecular Evolution & the Clock · Comparative Genomics (2005)",
+    "evolutionary-biology::me4": "method · Population Genetics · Quantitative Trait Locus (QTL) Mapping (1988)",
+    "evolutionary-biology::me5": "method · Population Genetics · Coalescent Theory (1982)",
+    "evolutionary-biology::me6": "method · Macroevolution, Tempo & Radiation · Common Garden and Reciprocal Transplant Experiments (1940)",
+    "evolutionary-biology::fg1": "figure · Pioneers & Theorists · Charles Darwin (1859)",
+    "evolutionary-biology::fg2": "figure · Pioneers & Theorists · Alfred Russel Wallace (1858)",
+    "evolutionary-biology::fg3": "figure · Pioneers & Theorists · Ronald Fisher (1930)",
+    "evolutionary-biology::fg4": "figure · Pioneers & Theorists · J.B.S. Haldane (1932)",
+    "evolutionary-biology::fg5": "figure · Pioneers & Theorists · Sewall Wright (1931)",
+    "evolutionary-biology::fg6": "figure · Pioneers & Theorists · Theodosius Dobzhansky (1937)",
+    "evolutionary-biology::fg7": "figure · Pioneers & Theorists · Ernst Mayr (1942)",
+    "evolutionary-biology::fg8": "figure · Pioneers & Theorists · Richard Dawkins (1976)",
+    "evolutionary-biology::fg9": "figure · Pioneers & Theorists · Niles Eldredge and Stephen Jay Gould (1972)",
+    "evolutionary-biology::fg10": "figure · Pioneers & Theorists · Willi Hennig (1950)",
+    "evolutionary-biology::fg11": "figure · Pioneers & Theorists · Motoo Kimura (1968)",
+    "evolutionary-biology::fg12": "figure · Pioneers & Theorists · George Gaylord Simpson (1944)",
+    "evolutionary-biology::db1": "debate · Coevolution & Evolution in Action · Adaptationism: Are All Traits Adaptive? (1979)",
+    "evolutionary-biology::db2": "debate · Population Genetics · Multilevel Selection: Was Group Selection Wrongly Dismissed? (2007)",
+    "evolutionary-biology::db3": "debate · Speciation · Species Concept Pluralism (1995)",
+    "evolutionary-biology::db4": "debate · Population Genetics · Is the Shifting Balance Theory Real? (1931)",
+    "evolutionary-biology::db5": "debate · Macroevolution, Tempo & Radiation · Is Evolution Predictable? Convergence versus Contingency (1989)",
+    "evolutionary-biology::db6": "debate · Macroevolution, Tempo & Radiation · Punctuated Equilibrium versus Gradualism (1972)",
+    "evolutionary-biology::db7": "debate · Foundations & Common Descent · Does Evolutionary Theory Need Extending? (2010)",
+    "evolutionary-biology::db8": "debate · Molecular Evolution & the Clock · How Much Molecular Evolution Is Neutral? (1991)",
+    "evolutionary-biology::ap1": "application · Applications · Conservation Genetics and Genetic Rescue (1995)",
+    "evolutionary-biology::ap2": "application · Applications · Genomic Selection in Livestock Breeding (2001)",
+    "evolutionary-biology::ap3": "application · Applications · Phylogenetics in Public Health Outbreak Tracing (2020)",
+    "evolutionary-biology::ap4": "application · Applications · De-extinction and Ancient DNA-Based Species Revival (2021)",
+    "evolutionary-biology::ap5": "application · Applications · Evolutionary Medicine (1994)",
+    "evolutionary-biology::ap6": "application · Applications · Directed Evolution in Protein Engineering (1993)",
     "general-cognitive-psych::th1": "theory · Memory Systems · Multi-Store (Atkinson–Shiffrin) Model (1968)",
     "general-cognitive-psych::th2": "theory · Memory Systems · Working Memory Model (1974)",
     "general-cognitive-psych::th3": "theory · Memory Systems · Levels of Processing (1972)",
@@ -2352,8 +2425,6 @@
     "zoology-animal-behavior::fg6": "figure · Pioneers & Theorists · Robert Trivers (1971)",
     "zoology-animal-behavior::fg7": "figure · Pioneers & Theorists · John Maynard Smith (1973)",
     "zoology-animal-behavior::fg8": "figure · Pioneers & Theorists · Jane Goodall (1960)",
-    "zoology-animal-behavior::fg9": "figure · Pioneers & Theorists · Richard Dawkins (1976)",
-    "zoology-animal-behavior::fg10": "figure · Pioneers & Theorists · Ernst Mayr (1942)",
     "zoology-animal-behavior::fg11": "figure · Pioneers & Theorists · Donald Griffin (1944)",
     "zoology-animal-behavior::fg12": "figure · Pioneers & Theorists · Frans de Waal (1982)",
     "zoology-animal-behavior::fg13": "figure · Pioneers & Theorists · Dmitry Belyayev & Lyudmila Trut (1959)",
@@ -2538,10 +2609,14 @@
     "biological-anthropology::fg1": [
       "zoology-animal-behavior::th1",
       "oceanography::th5",
-      "botany::fg5"
+      "botany::fg5",
+      "evolutionary-biology::fg1"
     ],
     "zoology-animal-behavior::th1": [
       "biological-anthropology::fg1",
+      "evolutionary-biology::fg1",
+      "evolutionary-biology::fg7",
+      "evolutionary-biology::fg8",
       "systems-and-complexity::ap4"
     ],
     "oceanography::th5": [
@@ -2554,7 +2629,8 @@
       "biological-anthropology::db5"
     ],
     "botany::fg5": [
-      "biological-anthropology::fg1"
+      "biological-anthropology::fg1",
+      "evolutionary-biology::fg1"
     ],
     "botany::ap2": [
       "cell-molecular-bio::ap5"
@@ -2837,6 +2913,65 @@
     ],
     "general-cognitive-psych::ap1": [
       "epistemology::ap1"
+    ],
+    "evolutionary-biology::st6": [
+      "biological-anthropology::co4"
+    ],
+    "biological-anthropology::co4": [
+      "evolutionary-biology::st6"
+    ],
+    "evolutionary-biology::ef6": [
+      "biological-anthropology::co6"
+    ],
+    "biological-anthropology::co6": [
+      "evolutionary-biology::ef6"
+    ],
+    "evolutionary-biology::co7": [
+      "zoology-animal-behavior::th2"
+    ],
+    "zoology-animal-behavior::th2": [
+      "evolutionary-biology::co7",
+      "evolutionary-biology::fg8"
+    ],
+    "evolutionary-biology::fg1": [
+      "biological-anthropology::fg1",
+      "botany::fg5",
+      "zoology-animal-behavior::th1"
+    ],
+    "evolutionary-biology::fg3": [
+      "applied-math-statistics::fg6"
+    ],
+    "applied-math-statistics::fg6": [
+      "evolutionary-biology::fg3"
+    ],
+    "evolutionary-biology::fg7": [
+      "zoology-animal-behavior::th1",
+      "zoology-animal-behavior::st11",
+      "zoology-animal-behavior::ef4"
+    ],
+    "zoology-animal-behavior::st11": [
+      "evolutionary-biology::fg7"
+    ],
+    "zoology-animal-behavior::ef4": [
+      "evolutionary-biology::fg7"
+    ],
+    "evolutionary-biology::fg8": [
+      "zoology-animal-behavior::th1",
+      "zoology-animal-behavior::th2",
+      "zoology-animal-behavior::fg5",
+      "zoology-animal-behavior::db3"
+    ],
+    "zoology-animal-behavior::fg5": [
+      "evolutionary-biology::fg8"
+    ],
+    "zoology-animal-behavior::db3": [
+      "evolutionary-biology::fg8"
+    ],
+    "evolutionary-biology::db2": [
+      "zoology-animal-behavior::db1"
+    ],
+    "zoology-animal-behavior::db1": [
+      "evolutionary-biology::db2"
     ],
     "general-cognitive-psych::th4": [
       "neuroscience::st15"
@@ -8143,6 +8278,346 @@
       "open access epistemic",
       "indigenous knowledge rights",
       "intellectual property knowledge"
+    ],
+    "evolutionary-biology::th1": [
+      "universal common ancestor",
+      "tree of life branching",
+      "luca"
+    ],
+    "evolutionary-biology::th2": [
+      "modern synthesis consensus",
+      "mendelian darwinian fusion",
+      "population genetics mathematics"
+    ],
+    "evolutionary-biology::th3": [
+      "allele frequency equilibrium",
+      "null model population genetics",
+      "hardy weinberg law"
+    ],
+    "evolutionary-biology::th4": [
+      "neutral molecular evolution",
+      "selectively neutral substitution",
+      "genetic drift molecular level"
+    ],
+    "evolutionary-biology::th5": [
+      "evolutionary stasis fossil record",
+      "punctuated tempo change",
+      "peripheral isolate speciation"
+    ],
+    "evolutionary-biology::th6": [
+      "prezygotic postzygotic barriers",
+      "reproductive isolation species",
+      "hybrid sterility inviability"
+    ],
+    "evolutionary-biology::th7": [
+      "molecular clock dating",
+      "sequence divergence rate",
+      "protein evolution constancy"
+    ],
+    "evolutionary-biology::th8": [
+      "adaptive radiation ecology",
+      "ecological opportunity diversification",
+      "niche specialization speciation"
+    ],
+    "evolutionary-biology::th9": [
+      "red queen coevolution",
+      "constant extinction probability",
+      "evolutionary arms race"
+    ],
+    "evolutionary-biology::st1": [
+      "joint linnean paper",
+      "independent codiscovery",
+      "natural selection priority"
+    ],
+    "evolutionary-biology::st2": [
+      "long term evolution experiment",
+      "e coli experimental evolution",
+      "historical contingency evolution"
+    ],
+    "evolutionary-biology::st3": [
+      "sympatric speciation host race",
+      "rhagoletis apple maggot",
+      "incipient species divergence"
+    ],
+    "evolutionary-biology::st4": [
+      "industrial melanism moth",
+      "kettlewell selection experiment",
+      "bird predation camouflage"
+    ],
+    "evolutionary-biology::st5": [
+      "cichlid adaptive radiation",
+      "lake victoria speciation",
+      "rapid vertebrate diversification"
+    ],
+    "evolutionary-biology::st6": [
+      "chimpanzee genome comparison",
+      "molecular common ancestry evidence",
+      "human chimp divergence"
+    ],
+    "evolutionary-biology::st7": [
+      "molecular clock hominid dating",
+      "serum protein divergence",
+      "fossil molecular date conflict"
+    ],
+    "evolutionary-biology::st8": [
+      "digital evolution experiment",
+      "complex feature evolution",
+      "avida artificial life"
+    ],
+    "evolutionary-biology::st9": [
+      "weismann barrier germline",
+      "lamarckism refutation experiment",
+      "acquired characteristic inheritance"
+    ],
+    "evolutionary-biology::st10": [
+      "ring species speciation",
+      "ensatina salamander gradient",
+      "speciation continuum evidence"
+    ],
+    "evolutionary-biology::st11": [
+      "deep homology gene toolkit",
+      "evo devo founding study",
+      "eyeless gene conservation"
+    ],
+    "evolutionary-biology::ef1": [
+      "heterozygote advantage malaria",
+      "sickle cell balancing selection",
+      "allele frequency maintenance"
+    ],
+    "evolutionary-biology::ef2": [
+      "selective sweep signature",
+      "linked neutral variation",
+      "genome scan adaptation"
+    ],
+    "evolutionary-biology::ef3": [
+      "asexual mutation accumulation",
+      "recombination advantage sex",
+      "irreversible fitness decline"
+    ],
+    "evolutionary-biology::ef4": [
+      "learned behavior genetic assimilation",
+      "baldwin effect plasticity",
+      "phenotypic plasticity evolution"
+    ],
+    "evolutionary-biology::ef5": [
+      "convergent evolution marsupial placental",
+      "independent trait evolution",
+      "thylacine wolf convergence"
+    ],
+    "evolutionary-biology::ef6": [
+      "founder effect bottleneck",
+      "cheetah genetic uniformity",
+      "reduced genetic diversity"
+    ],
+    "evolutionary-biology::ef7": [
+      "character displacement competition",
+      "niche divergence coexistence",
+      "ecological trait divergence"
+    ],
+    "evolutionary-biology::ef8": [
+      "genetic load mutation burden",
+      "deleterious mutation accumulation",
+      "mutation selection balance"
+    ],
+    "evolutionary-biology::co1": [
+      "allele frequency vocabulary",
+      "gene pool population",
+      "population genetics unit"
+    ],
+    "evolutionary-biology::co2": [
+      "darwinian fitness definition",
+      "reproductive success measure",
+      "relative fitness concept"
+    ],
+    "evolutionary-biology::co3": [
+      "homology analogy distinction",
+      "shared derived character",
+      "homoplasy convergent trait"
+    ],
+    "evolutionary-biology::co4": [
+      "prezygotic postzygotic vocabulary",
+      "hybrid sterility inviability",
+      "reproductive barrier classification"
+    ],
+    "evolutionary-biology::co5": [
+      "cladogram interpretation rules",
+      "phylogenetic tree reading",
+      "branch order misconception"
+    ],
+    "evolutionary-biology::co6": [
+      "vestigial structure evidence",
+      "evolutionary leftover trait",
+      "reduced nonfunctional organ"
+    ],
+    "evolutionary-biology::co7": [
+      "relatedness coefficient inbreeding",
+      "kin selection mathematics",
+      "wright relationship formula"
+    ],
+    "evolutionary-biology::co8": [
+      "species concept alternatives",
+      "phylogenetic species definition",
+      "biological species concept limits"
+    ],
+    "evolutionary-biology::me1": [
+      "maximum likelihood phylogenetics",
+      "tree building method",
+      "bayesian phylogenetic inference"
+    ],
+    "evolutionary-biology::me2": [
+      "ancestral trait inference",
+      "internal node reconstruction",
+      "phylogenetic comparative method"
+    ],
+    "evolutionary-biology::me3": [
+      "whole genome alignment",
+      "synteny gene order",
+      "comparative genome analysis"
+    ],
+    "evolutionary-biology::me4": [
+      "qtl mapping quantitative trait",
+      "polygenic trait genetics",
+      "genetic marker linkage"
+    ],
+    "evolutionary-biology::me5": [
+      "coalescent genealogy simulation",
+      "backward population model",
+      "gene genealogy inference"
+    ],
+    "evolutionary-biology::me6": [
+      "common garden experiment",
+      "reciprocal transplant design",
+      "genetic environmental trait cause"
+    ],
+    "evolutionary-biology::fg1": [
+      "origin of species",
+      "natural selection founding theory",
+      "heritable variation differential survival"
+    ],
+    "evolutionary-biology::fg2": [
+      "independent codiscovery natural selection",
+      "ternate letter",
+      "linnean society joint paper"
+    ],
+    "evolutionary-biology::fg3": [
+      "fundamental theorem natural selection",
+      "mendelian selection reconciliation",
+      "population genetics mathematics"
+    ],
+    "evolutionary-biology::fg4": [
+      "selection coefficient mathematics",
+      "genetic load concept",
+      "population genetics founder"
+    ],
+    "evolutionary-biology::fg5": [
+      "genetic drift formalization",
+      "shifting balance theory",
+      "small population evolution"
+    ],
+    "evolutionary-biology::fg6": [
+      "modern synthesis launching text",
+      "drosophila population genetics",
+      "theory naturalist bridge"
+    ],
+    "evolutionary-biology::fg7": [
+      "Ernst Mayr speciation",
+      "biological species concept",
+      "allopatric speciation"
+    ],
+    "evolutionary-biology::fg8": [
+      "gene-centred evolution",
+      "selfish gene replicator",
+      "extended phenotype"
+    ],
+    "evolutionary-biology::fg9": [
+      "punctuated equilibria proposal",
+      "fossil record stasis",
+      "gradualism challenge"
+    ],
+    "evolutionary-biology::fg10": [
+      "cladistics founding method",
+      "shared derived character",
+      "phylogenetic systematics"
+    ],
+    "evolutionary-biology::fg11": [
+      "neutral theory molecular evolution",
+      "selectively neutral mutation",
+      "molecular clock foundation"
+    ],
+    "evolutionary-biology::fg12": [
+      "tempo mode evolution",
+      "paleontology synthesis integration",
+      "quantum evolution concept"
+    ],
+    "evolutionary-biology::db1": [
+      "adaptationism critique",
+      "spandrels panglossian paradigm",
+      "just so story evolution"
+    ],
+    "evolutionary-biology::db2": [
+      "group selection debate",
+      "multilevel selection theory",
+      "kin selection alternative"
+    ],
+    "evolutionary-biology::db3": [
+      "species definition debate",
+      "biological species concept limits",
+      "taxonomic pluralism"
+    ],
+    "evolutionary-biology::db4": [
+      "shifting balance theory critique",
+      "fitness landscape valleys",
+      "wright three phase process"
+    ],
+    "evolutionary-biology::db5": [
+      "contingency versus convergence",
+      "replaying tape of life",
+      "evolutionary predictability debate"
+    ],
+    "evolutionary-biology::db6": [
+      "punctuated equilibrium gradualism dispute",
+      "fossil record tempo debate",
+      "creationist misquotation controversy"
+    ],
+    "evolutionary-biology::db7": [
+      "extended evolutionary synthesis",
+      "epigenetic inheritance debate",
+      "evolutionary theory revision"
+    ],
+    "evolutionary-biology::db8": [
+      "nearly neutral theory",
+      "molecular evolution selection debate",
+      "weakly selected substitution"
+    ],
+    "evolutionary-biology::ap1": [
+      "genetic rescue conservation",
+      "florida panther inbreeding",
+      "population recovery genetic diversity"
+    ],
+    "evolutionary-biology::ap2": [
+      "genomic selection breeding",
+      "livestock genetic prediction",
+      "breeding value estimation"
+    ],
+    "evolutionary-biology::ap3": [
+      "genomic epidemiology tracing",
+      "pathogen phylogenetics surveillance",
+      "outbreak transmission tree"
+    ],
+    "evolutionary-biology::ap4": [
+      "de-extinction ancient dna",
+      "mammoth genome revival",
+      "trait editing living relative"
+    ],
+    "evolutionary-biology::ap5": [
+      "darwinian medicine",
+      "evolutionary mismatch disease",
+      "adaptive symptom hypothesis"
+    ],
+    "evolutionary-biology::ap6": [
+      "directed evolution enzymes",
+      "frances arnold nobel prize",
+      "laboratory mutation selection cycle"
     ],
     "general-cognitive-psych::th1": [
       "multi-store memory model",
@@ -15515,18 +15990,6 @@
       "Gombe chimpanzee",
       "primate social learning",
       "chimp culture observation"
-    ],
-    "zoology-animal-behavior::fg9": [
-      "selfish gene Dawkins",
-      "gene-centred evolution",
-      "meme concept Dawkins",
-      "extended phenotype"
-    ],
-    "zoology-animal-behavior::fg10": [
-      "Ernst Mayr speciation",
-      "biological species concept",
-      "allopatric speciation",
-      "geographic speciation"
     ],
     "zoology-animal-behavior::fg11": [
       "cognitive ethology Griffin",
@@ -24847,6 +25310,611 @@
     ],
     "intellectual property knowledge": [
       "epistemology::ap7"
+    ],
+    "universal common ancestor": [
+      "evolutionary-biology::th1"
+    ],
+    "tree of life branching": [
+      "evolutionary-biology::th1"
+    ],
+    "luca": [
+      "evolutionary-biology::th1"
+    ],
+    "modern synthesis consensus": [
+      "evolutionary-biology::th2"
+    ],
+    "mendelian darwinian fusion": [
+      "evolutionary-biology::th2"
+    ],
+    "population genetics mathematics": [
+      "evolutionary-biology::th2",
+      "evolutionary-biology::fg3"
+    ],
+    "allele frequency equilibrium": [
+      "evolutionary-biology::th3"
+    ],
+    "null model population genetics": [
+      "evolutionary-biology::th3"
+    ],
+    "hardy weinberg law": [
+      "evolutionary-biology::th3"
+    ],
+    "neutral molecular evolution": [
+      "evolutionary-biology::th4"
+    ],
+    "selectively neutral substitution": [
+      "evolutionary-biology::th4"
+    ],
+    "genetic drift molecular level": [
+      "evolutionary-biology::th4"
+    ],
+    "evolutionary stasis fossil record": [
+      "evolutionary-biology::th5"
+    ],
+    "punctuated tempo change": [
+      "evolutionary-biology::th5"
+    ],
+    "peripheral isolate speciation": [
+      "evolutionary-biology::th5"
+    ],
+    "prezygotic postzygotic barriers": [
+      "evolutionary-biology::th6"
+    ],
+    "reproductive isolation species": [
+      "evolutionary-biology::th6"
+    ],
+    "hybrid sterility inviability": [
+      "evolutionary-biology::th6",
+      "evolutionary-biology::co4"
+    ],
+    "molecular clock dating": [
+      "evolutionary-biology::th7"
+    ],
+    "sequence divergence rate": [
+      "evolutionary-biology::th7"
+    ],
+    "protein evolution constancy": [
+      "evolutionary-biology::th7"
+    ],
+    "adaptive radiation ecology": [
+      "evolutionary-biology::th8"
+    ],
+    "ecological opportunity diversification": [
+      "evolutionary-biology::th8"
+    ],
+    "niche specialization speciation": [
+      "evolutionary-biology::th8"
+    ],
+    "red queen coevolution": [
+      "evolutionary-biology::th9"
+    ],
+    "constant extinction probability": [
+      "evolutionary-biology::th9"
+    ],
+    "evolutionary arms race": [
+      "evolutionary-biology::th9"
+    ],
+    "joint linnean paper": [
+      "evolutionary-biology::st1"
+    ],
+    "independent codiscovery": [
+      "evolutionary-biology::st1"
+    ],
+    "natural selection priority": [
+      "evolutionary-biology::st1"
+    ],
+    "long term evolution experiment": [
+      "evolutionary-biology::st2"
+    ],
+    "e coli experimental evolution": [
+      "evolutionary-biology::st2"
+    ],
+    "historical contingency evolution": [
+      "evolutionary-biology::st2"
+    ],
+    "sympatric speciation host race": [
+      "evolutionary-biology::st3"
+    ],
+    "rhagoletis apple maggot": [
+      "evolutionary-biology::st3"
+    ],
+    "incipient species divergence": [
+      "evolutionary-biology::st3"
+    ],
+    "industrial melanism moth": [
+      "evolutionary-biology::st4"
+    ],
+    "kettlewell selection experiment": [
+      "evolutionary-biology::st4"
+    ],
+    "bird predation camouflage": [
+      "evolutionary-biology::st4"
+    ],
+    "cichlid adaptive radiation": [
+      "evolutionary-biology::st5"
+    ],
+    "lake victoria speciation": [
+      "evolutionary-biology::st5"
+    ],
+    "rapid vertebrate diversification": [
+      "evolutionary-biology::st5"
+    ],
+    "chimpanzee genome comparison": [
+      "evolutionary-biology::st6"
+    ],
+    "molecular common ancestry evidence": [
+      "evolutionary-biology::st6"
+    ],
+    "human chimp divergence": [
+      "evolutionary-biology::st6"
+    ],
+    "molecular clock hominid dating": [
+      "evolutionary-biology::st7"
+    ],
+    "serum protein divergence": [
+      "evolutionary-biology::st7"
+    ],
+    "fossil molecular date conflict": [
+      "evolutionary-biology::st7"
+    ],
+    "digital evolution experiment": [
+      "evolutionary-biology::st8"
+    ],
+    "complex feature evolution": [
+      "evolutionary-biology::st8"
+    ],
+    "avida artificial life": [
+      "evolutionary-biology::st8"
+    ],
+    "weismann barrier germline": [
+      "evolutionary-biology::st9"
+    ],
+    "lamarckism refutation experiment": [
+      "evolutionary-biology::st9"
+    ],
+    "acquired characteristic inheritance": [
+      "evolutionary-biology::st9"
+    ],
+    "ring species speciation": [
+      "evolutionary-biology::st10"
+    ],
+    "ensatina salamander gradient": [
+      "evolutionary-biology::st10"
+    ],
+    "speciation continuum evidence": [
+      "evolutionary-biology::st10"
+    ],
+    "deep homology gene toolkit": [
+      "evolutionary-biology::st11"
+    ],
+    "evo devo founding study": [
+      "evolutionary-biology::st11"
+    ],
+    "eyeless gene conservation": [
+      "evolutionary-biology::st11"
+    ],
+    "heterozygote advantage malaria": [
+      "evolutionary-biology::ef1"
+    ],
+    "sickle cell balancing selection": [
+      "evolutionary-biology::ef1"
+    ],
+    "allele frequency maintenance": [
+      "evolutionary-biology::ef1"
+    ],
+    "selective sweep signature": [
+      "evolutionary-biology::ef2"
+    ],
+    "linked neutral variation": [
+      "evolutionary-biology::ef2"
+    ],
+    "genome scan adaptation": [
+      "evolutionary-biology::ef2"
+    ],
+    "asexual mutation accumulation": [
+      "evolutionary-biology::ef3"
+    ],
+    "recombination advantage sex": [
+      "evolutionary-biology::ef3"
+    ],
+    "irreversible fitness decline": [
+      "evolutionary-biology::ef3"
+    ],
+    "learned behavior genetic assimilation": [
+      "evolutionary-biology::ef4"
+    ],
+    "baldwin effect plasticity": [
+      "evolutionary-biology::ef4"
+    ],
+    "phenotypic plasticity evolution": [
+      "evolutionary-biology::ef4"
+    ],
+    "convergent evolution marsupial placental": [
+      "evolutionary-biology::ef5"
+    ],
+    "independent trait evolution": [
+      "evolutionary-biology::ef5"
+    ],
+    "thylacine wolf convergence": [
+      "evolutionary-biology::ef5"
+    ],
+    "founder effect bottleneck": [
+      "evolutionary-biology::ef6"
+    ],
+    "cheetah genetic uniformity": [
+      "evolutionary-biology::ef6"
+    ],
+    "reduced genetic diversity": [
+      "evolutionary-biology::ef6"
+    ],
+    "character displacement competition": [
+      "evolutionary-biology::ef7"
+    ],
+    "niche divergence coexistence": [
+      "evolutionary-biology::ef7"
+    ],
+    "ecological trait divergence": [
+      "evolutionary-biology::ef7"
+    ],
+    "genetic load mutation burden": [
+      "evolutionary-biology::ef8"
+    ],
+    "deleterious mutation accumulation": [
+      "evolutionary-biology::ef8"
+    ],
+    "mutation selection balance": [
+      "evolutionary-biology::ef8"
+    ],
+    "allele frequency vocabulary": [
+      "evolutionary-biology::co1"
+    ],
+    "gene pool population": [
+      "evolutionary-biology::co1"
+    ],
+    "population genetics unit": [
+      "evolutionary-biology::co1"
+    ],
+    "darwinian fitness definition": [
+      "evolutionary-biology::co2"
+    ],
+    "reproductive success measure": [
+      "evolutionary-biology::co2"
+    ],
+    "relative fitness concept": [
+      "evolutionary-biology::co2"
+    ],
+    "homology analogy distinction": [
+      "evolutionary-biology::co3"
+    ],
+    "shared derived character": [
+      "evolutionary-biology::co3",
+      "evolutionary-biology::fg10"
+    ],
+    "homoplasy convergent trait": [
+      "evolutionary-biology::co3"
+    ],
+    "prezygotic postzygotic vocabulary": [
+      "evolutionary-biology::co4"
+    ],
+    "reproductive barrier classification": [
+      "evolutionary-biology::co4"
+    ],
+    "cladogram interpretation rules": [
+      "evolutionary-biology::co5"
+    ],
+    "phylogenetic tree reading": [
+      "evolutionary-biology::co5"
+    ],
+    "branch order misconception": [
+      "evolutionary-biology::co5"
+    ],
+    "vestigial structure evidence": [
+      "evolutionary-biology::co6"
+    ],
+    "evolutionary leftover trait": [
+      "evolutionary-biology::co6"
+    ],
+    "reduced nonfunctional organ": [
+      "evolutionary-biology::co6"
+    ],
+    "relatedness coefficient inbreeding": [
+      "evolutionary-biology::co7"
+    ],
+    "kin selection mathematics": [
+      "evolutionary-biology::co7"
+    ],
+    "wright relationship formula": [
+      "evolutionary-biology::co7"
+    ],
+    "species concept alternatives": [
+      "evolutionary-biology::co8"
+    ],
+    "phylogenetic species definition": [
+      "evolutionary-biology::co8"
+    ],
+    "biological species concept limits": [
+      "evolutionary-biology::co8",
+      "evolutionary-biology::db3"
+    ],
+    "maximum likelihood phylogenetics": [
+      "evolutionary-biology::me1"
+    ],
+    "tree building method": [
+      "evolutionary-biology::me1"
+    ],
+    "bayesian phylogenetic inference": [
+      "evolutionary-biology::me1"
+    ],
+    "ancestral trait inference": [
+      "evolutionary-biology::me2"
+    ],
+    "internal node reconstruction": [
+      "evolutionary-biology::me2"
+    ],
+    "phylogenetic comparative method": [
+      "evolutionary-biology::me2",
+      "zoology-animal-behavior::me5"
+    ],
+    "whole genome alignment": [
+      "evolutionary-biology::me3"
+    ],
+    "synteny gene order": [
+      "evolutionary-biology::me3"
+    ],
+    "comparative genome analysis": [
+      "evolutionary-biology::me3"
+    ],
+    "qtl mapping quantitative trait": [
+      "evolutionary-biology::me4"
+    ],
+    "polygenic trait genetics": [
+      "evolutionary-biology::me4"
+    ],
+    "genetic marker linkage": [
+      "evolutionary-biology::me4"
+    ],
+    "coalescent genealogy simulation": [
+      "evolutionary-biology::me5"
+    ],
+    "backward population model": [
+      "evolutionary-biology::me5"
+    ],
+    "gene genealogy inference": [
+      "evolutionary-biology::me5"
+    ],
+    "common garden experiment": [
+      "evolutionary-biology::me6"
+    ],
+    "reciprocal transplant design": [
+      "evolutionary-biology::me6"
+    ],
+    "genetic environmental trait cause": [
+      "evolutionary-biology::me6"
+    ],
+    "origin of species": [
+      "evolutionary-biology::fg1"
+    ],
+    "natural selection founding theory": [
+      "evolutionary-biology::fg1"
+    ],
+    "heritable variation differential survival": [
+      "evolutionary-biology::fg1"
+    ],
+    "independent codiscovery natural selection": [
+      "evolutionary-biology::fg2"
+    ],
+    "ternate letter": [
+      "evolutionary-biology::fg2"
+    ],
+    "linnean society joint paper": [
+      "evolutionary-biology::fg2"
+    ],
+    "fundamental theorem natural selection": [
+      "evolutionary-biology::fg3"
+    ],
+    "mendelian selection reconciliation": [
+      "evolutionary-biology::fg3"
+    ],
+    "selection coefficient mathematics": [
+      "evolutionary-biology::fg4"
+    ],
+    "genetic load concept": [
+      "evolutionary-biology::fg4"
+    ],
+    "population genetics founder": [
+      "evolutionary-biology::fg4"
+    ],
+    "genetic drift formalization": [
+      "evolutionary-biology::fg5"
+    ],
+    "shifting balance theory": [
+      "evolutionary-biology::fg5"
+    ],
+    "small population evolution": [
+      "evolutionary-biology::fg5"
+    ],
+    "modern synthesis launching text": [
+      "evolutionary-biology::fg6"
+    ],
+    "drosophila population genetics": [
+      "evolutionary-biology::fg6"
+    ],
+    "theory naturalist bridge": [
+      "evolutionary-biology::fg6"
+    ],
+    "Ernst Mayr speciation": [
+      "evolutionary-biology::fg7"
+    ],
+    "biological species concept": [
+      "evolutionary-biology::fg7"
+    ],
+    "allopatric speciation": [
+      "evolutionary-biology::fg7"
+    ],
+    "gene-centred evolution": [
+      "evolutionary-biology::fg8"
+    ],
+    "selfish gene replicator": [
+      "evolutionary-biology::fg8"
+    ],
+    "extended phenotype": [
+      "evolutionary-biology::fg8"
+    ],
+    "punctuated equilibria proposal": [
+      "evolutionary-biology::fg9"
+    ],
+    "fossil record stasis": [
+      "evolutionary-biology::fg9"
+    ],
+    "gradualism challenge": [
+      "evolutionary-biology::fg9"
+    ],
+    "cladistics founding method": [
+      "evolutionary-biology::fg10"
+    ],
+    "phylogenetic systematics": [
+      "evolutionary-biology::fg10"
+    ],
+    "neutral theory molecular evolution": [
+      "evolutionary-biology::fg11"
+    ],
+    "selectively neutral mutation": [
+      "evolutionary-biology::fg11"
+    ],
+    "molecular clock foundation": [
+      "evolutionary-biology::fg11"
+    ],
+    "tempo mode evolution": [
+      "evolutionary-biology::fg12"
+    ],
+    "paleontology synthesis integration": [
+      "evolutionary-biology::fg12"
+    ],
+    "quantum evolution concept": [
+      "evolutionary-biology::fg12"
+    ],
+    "adaptationism critique": [
+      "evolutionary-biology::db1"
+    ],
+    "spandrels panglossian paradigm": [
+      "evolutionary-biology::db1"
+    ],
+    "just so story evolution": [
+      "evolutionary-biology::db1"
+    ],
+    "group selection debate": [
+      "evolutionary-biology::db2"
+    ],
+    "multilevel selection theory": [
+      "evolutionary-biology::db2"
+    ],
+    "kin selection alternative": [
+      "evolutionary-biology::db2"
+    ],
+    "species definition debate": [
+      "evolutionary-biology::db3"
+    ],
+    "taxonomic pluralism": [
+      "evolutionary-biology::db3"
+    ],
+    "shifting balance theory critique": [
+      "evolutionary-biology::db4"
+    ],
+    "fitness landscape valleys": [
+      "evolutionary-biology::db4"
+    ],
+    "wright three phase process": [
+      "evolutionary-biology::db4"
+    ],
+    "contingency versus convergence": [
+      "evolutionary-biology::db5"
+    ],
+    "replaying tape of life": [
+      "evolutionary-biology::db5"
+    ],
+    "evolutionary predictability debate": [
+      "evolutionary-biology::db5"
+    ],
+    "punctuated equilibrium gradualism dispute": [
+      "evolutionary-biology::db6"
+    ],
+    "fossil record tempo debate": [
+      "evolutionary-biology::db6"
+    ],
+    "creationist misquotation controversy": [
+      "evolutionary-biology::db6"
+    ],
+    "extended evolutionary synthesis": [
+      "evolutionary-biology::db7"
+    ],
+    "epigenetic inheritance debate": [
+      "evolutionary-biology::db7"
+    ],
+    "evolutionary theory revision": [
+      "evolutionary-biology::db7"
+    ],
+    "nearly neutral theory": [
+      "evolutionary-biology::db8"
+    ],
+    "molecular evolution selection debate": [
+      "evolutionary-biology::db8"
+    ],
+    "weakly selected substitution": [
+      "evolutionary-biology::db8"
+    ],
+    "genetic rescue conservation": [
+      "evolutionary-biology::ap1"
+    ],
+    "florida panther inbreeding": [
+      "evolutionary-biology::ap1"
+    ],
+    "population recovery genetic diversity": [
+      "evolutionary-biology::ap1"
+    ],
+    "genomic selection breeding": [
+      "evolutionary-biology::ap2"
+    ],
+    "livestock genetic prediction": [
+      "evolutionary-biology::ap2"
+    ],
+    "breeding value estimation": [
+      "evolutionary-biology::ap2"
+    ],
+    "genomic epidemiology tracing": [
+      "evolutionary-biology::ap3"
+    ],
+    "pathogen phylogenetics surveillance": [
+      "evolutionary-biology::ap3"
+    ],
+    "outbreak transmission tree": [
+      "evolutionary-biology::ap3"
+    ],
+    "de-extinction ancient dna": [
+      "evolutionary-biology::ap4"
+    ],
+    "mammoth genome revival": [
+      "evolutionary-biology::ap4"
+    ],
+    "trait editing living relative": [
+      "evolutionary-biology::ap4"
+    ],
+    "darwinian medicine": [
+      "evolutionary-biology::ap5"
+    ],
+    "evolutionary mismatch disease": [
+      "evolutionary-biology::ap5"
+    ],
+    "adaptive symptom hypothesis": [
+      "evolutionary-biology::ap5"
+    ],
+    "directed evolution enzymes": [
+      "evolutionary-biology::ap6"
+    ],
+    "frances arnold nobel prize": [
+      "evolutionary-biology::ap6"
+    ],
+    "laboratory mutation selection cycle": [
+      "evolutionary-biology::ap6"
     ],
     "multi-store memory model": [
       "general-cognitive-psych::th1"
@@ -38899,9 +39967,6 @@
     "wildlife census": [
       "zoology-animal-behavior::me4"
     ],
-    "phylogenetic comparative method": [
-      "zoology-animal-behavior::me5"
-    ],
     "independent contrasts": [
       "zoology-animal-behavior::me5"
     ],
@@ -39009,30 +40074,6 @@
     ],
     "chimp culture observation": [
       "zoology-animal-behavior::fg8"
-    ],
-    "selfish gene Dawkins": [
-      "zoology-animal-behavior::fg9"
-    ],
-    "gene-centred evolution": [
-      "zoology-animal-behavior::fg9"
-    ],
-    "meme concept Dawkins": [
-      "zoology-animal-behavior::fg9"
-    ],
-    "extended phenotype": [
-      "zoology-animal-behavior::fg9"
-    ],
-    "Ernst Mayr speciation": [
-      "zoology-animal-behavior::fg10"
-    ],
-    "biological species concept": [
-      "zoology-animal-behavior::fg10"
-    ],
-    "allopatric speciation": [
-      "zoology-animal-behavior::fg10"
-    ],
-    "geographic speciation": [
-      "zoology-animal-behavior::fg10"
     ],
     "cognitive ethology Griffin": [
       "zoology-animal-behavior::fg11"

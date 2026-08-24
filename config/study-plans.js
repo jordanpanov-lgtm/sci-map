@@ -1135,6 +1135,62 @@ const STUDY_PLANS = {
     ]
   },
 
+  'evolutionary-biology': {
+    meta: "From the joint 1858 Linnean Society reading to Frances Arnold's Nobel-winning directed evolution: how populations change and split into new species. Begins with the founders, then works through the mechanics — population genetics, molecular evolution, speciation, macroevolutionary tempo, and coevolution — before closing with phylogenetic method and the science's real-world applications, carrying each branch's theory, landmark studies, named effects and live debates together as a single module.",
+    modules: [
+      {
+        title: '1 — Pioneers & Theorists',
+        rationale: "From Darwin and Wallace's simultaneous 1858 discovery through Fisher, Haldane and Wright's mathematical synthesis to Hennig's cladistics and Kimura's neutral theory, a dozen figures built the field's entire theoretical scaffolding across a single century. Meeting them first frames every subsequent theory against the person and moment that produced it.",
+        groups: ['Pioneers & Theorists']
+      },
+      {
+        title: '2 — Methods',
+        rationale: "Phylogenetic tree construction, ancestral state reconstruction, comparative genomics, QTL mapping, coalescent theory and common garden experiments are the instruments through which every claim in this folio was actually established. Understanding the method clarifies what the subsequent modules' claims are actually built on.",
+        cats: ['method']
+      },
+      {
+        title: '3 — Foundations & Common Descent',
+        rationale: "Common descent, the Modern Synthesis, Darwinian fitness, and vestigial structures as physical evidence set out the field's basic claim — that all life shares ancestry and changes through heritable variation and differential survival — and the debate over whether that synthesis still needs formal extension.",
+        groups: ['Foundations & Common Descent']
+      },
+      {
+        title: '4 — Population Genetics',
+        rationale: "Hardy-Weinberg equilibrium, genetic drift, balancing selection, hitchhiking, Muller's ratchet, the founder effect and genetic load cover how allele frequencies actually move within a population — the mathematical substrate every higher-level evolutionary claim ultimately rests on, including the still-contested question of whether group selection deserves rehabilitation.",
+        groups: ['Population Genetics']
+      },
+      {
+        title: '5 — Molecular Evolution & the Clock',
+        rationale: "Kimura's neutral theory, the molecular clock hypothesis, and Sarich & Wilson's controversial hominid dating show how DNA and protein sequence comparison became a dating tool independent of the fossil record — and how much of that molecular change is genuinely invisible to selection remains an open, actively refined question.",
+        groups: ['Molecular Evolution & the Clock']
+      },
+      {
+        title: '6 — Speciation',
+        rationale: "Reproductive isolating barriers, the Rhagoletis fly and Ensatina salamander cases, and the unresolved pluralism over what 'species' even means cover how one lineage becomes two — the central unresolved definitional question sitting underneath the entire field's vocabulary.",
+        groups: ['Speciation']
+      },
+      {
+        title: '7 — Macroevolution, Tempo & Radiation',
+        rationale: "Adaptive radiation, convergent evolution, character displacement, and the public controversy over punctuated equilibrium versus gradualism cover change at the scale of lineages and geological time, closing with the still-open question of how predictable evolutionary outcomes really are.",
+        groups: ['Macroevolution, Tempo & Radiation']
+      },
+      {
+        title: '8 — Coevolution & Evolution in Action',
+        rationale: "The Red Queen hypothesis, the Baldwin effect, Lenski's Long-Term Evolution Experiment, Weismann's tail-cutting refutation of Lamarckism, and the peppered moth's industrial melanism show selection actually operating — observed directly, not just inferred after the fact — closing with the adaptationism debate over how readily such stories should be trusted.",
+        groups: ['Coevolution & Evolution in Action']
+      },
+      {
+        title: '9 — Phylogenetics & Evo-Devo',
+        rationale: "Homology versus analogy, reading a cladogram, and the eyeless-gene experiment that founded evolutionary developmental biology cover how relatedness is actually reconstructed from evidence, and how deeply conserved the genetic toolkit behind that evidence turns out to be.",
+        groups: ['Phylogenetics & Evo-Devo']
+      },
+      {
+        title: '10 — Applications',
+        rationale: "Genetic rescue, genomic livestock selection, outbreak-tracing phylogenetics, de-extinction, evolutionary medicine and Frances Arnold's Nobel-winning directed evolution show where population genetics and phylogenetic method leave the lab and reshape conservation, agriculture, medicine and biotechnology.",
+        groups: ['Applications']
+      }
+    ]
+  },
+
   'quantum-nuclear-relativity': {
     meta: 'From Planck\'s quantum hypothesis to LIGO\'s gravitational waves: the physics of the very small, the very fast, and the structure of spacetime. Begins with the founding figures and instruments, then works through quantum origins, wave mechanics, nuclear physics and relativity, before tackling particle physics, cosmological frontiers, and the live debates that define the field\'s open questions.',
     modules: [
