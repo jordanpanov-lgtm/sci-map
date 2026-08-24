@@ -1,0 +1,888 @@
+{
+  "id": "evolutionary-biology",
+  "schema_version": 1,
+  "title": "Evolutionary Biology",
+  "subtitle": "Population genetics, speciation, phylogenetics & the mechanisms of evolutionary change",
+  "period": {
+    "start": 1858,
+    "end": 2026
+  },
+  "domain": "life-sciences",
+  "mapCenter": [
+    35,
+    -20
+  ],
+  "mapZoom": 3,
+  "methodology": "METHODOLOGY · Every entry anchors to a landmark study, paper, dataset or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags replication status, revisions and known controversies. Studies and effects carry a replicability badge — 🟢 confirmed to high confidence · 🟡 nuanced, contested or partially revised · 🔴 failed or severely disputed. Map pins mark the institution or field site where the work was carried out.",
+  "categories": [
+    {
+      "id": "theory",
+      "label": "Theories & Models",
+      "icon": "📐",
+      "color": "#1A3A5C",
+      "accent": "#2471A3",
+      "bg": "#F0F7FF",
+      "subtitle": "The frameworks that organise how populations change over generations and diversify into new species",
+      "entries": [
+        {
+          "id": "th1",
+          "group": "Foundations of Descent",
+          "label": "Common Descent",
+          "date": "1859",
+          "loc": "Down House, Kent, England",
+          "coords": [
+            51.33,
+            0.05
+          ],
+          "tag": "THEORY",
+          "hint": "Every living thing on Earth, from bacteria to blue whales, traces back through an unbroken chain of ancestry to one or a small number of original populations — meaning the branching pattern of life is a single connected tree, not a set of separately-created lineages. Darwin argued for it from anatomical similarity across radically different animals; modern genomics confirms it directly, since every organism sequenced so far shares the same genetic code and core biochemistry.",
+          "note": "Darwin, C.R. (1859). On the Origin of Species. London: John Murray, ch. 13-14. Modern universal confirmation: the near-universality of the genetic code and core metabolic pathways (glycolysis, the ribosome) across all three domains of life is the strongest evidence, formalised as the universal common ancestor (LUCA) concept.",
+          "links": [
+            "fg1",
+            "co1"
+          ],
+          "keywords": [
+            "universal common ancestor",
+            "tree of life branching",
+            "luca"
+          ]
+        },
+        {
+          "id": "th2",
+          "group": "Foundations of Descent",
+          "label": "The Modern Synthesis",
+          "date": "1942",
+          "loc": "American Museum of Natural History, New York, New York",
+          "coords": [
+            40.78,
+            -73.97
+          ],
+          "tag": "THEORY",
+          "hint": "By the early 20th century, Mendelian geneticists and Darwinian naturalists were talking past each other — geneticists saw mutation producing discrete jumps, naturalists saw gradual continuous change, and neither camp thought the other's evidence fit. The Modern Synthesis fused them: mutation supplies the raw variation, natural selection acting on many small-effect genes produces the smooth gradual change naturalists observed, and population genetics provides the mathematics connecting the two.",
+          "note": "Huxley, J. (1942). Evolution: The Modern Synthesis. London: Allen & Unwin, coined the name for a consensus built across the 1930s by Fisher, Haldane, Wright, Dobzhansky, Mayr and Simpson. Whether the synthesis as originally formulated is still sufficient, given later discoveries in epigenetics and evo-devo, is itself now a live debate (see db7).",
+          "links": [
+            "fg4",
+            "fg6",
+            "fg7",
+            "fg12",
+            "db7"
+          ],
+          "keywords": [
+            "modern synthesis consensus",
+            "mendelian darwinian fusion",
+            "population genetics mathematics"
+          ]
+        },
+        {
+          "id": "th3",
+          "group": "Population Genetics",
+          "label": "Hardy–Weinberg Equilibrium",
+          "date": "1908",
+          "loc": "University of Cambridge, Cambridge, England",
+          "coords": [
+            52.2,
+            0.12
+          ],
+          "tag": "THEORY",
+          "hint": "If nothing is acting on a population — no selection, no mutation, no migration, no drift, and mating is random — allele and genotype frequencies stay exactly constant generation after generation. This isn't a claim about how real populations behave; it's a null model, a mathematical baseline, that lets biologists detect evolution by measuring how far a real population deviates from the equilibrium prediction.",
+          "note": "Hardy, G.H. (1908). 'Mendelian Proportions in a Mixed Population.' Science, 28(706), 49-50; independently derived the same year by Weinberg, W. (1908). 'Über den Nachweis der Vererbung beim Menschen.' Jahreshefte des Vereins für vaterländische Naturkunde in Württemberg, 64, 368-382. Hardy, a pure mathematician, considered the result trivial and published it almost as an aside in response to a colleague's question.",
+          "links": [
+            "co1"
+          ],
+          "keywords": [
+            "allele frequency equilibrium",
+            "null model population genetics",
+            "hardy weinberg law"
+          ]
+        },
+        {
+          "id": "th4",
+          "group": "Molecular Evolution",
+          "label": "Neutral Theory of Molecular Evolution",
+          "date": "1968",
+          "loc": "National Institute of Genetics, Mishima, Japan",
+          "coords": [
+            35.12,
+            138.91
+          ],
+          "tag": "THEORY",
+          "hint": "At the level of DNA and protein sequence, most mutations that actually spread through a population and become fixed are neither beneficial nor harmful — they're invisible to selection and drift to fixation by chance alone. This doesn't deny that selection shapes the visible traits of organisms; it claims that most of the molecular substitutions accumulating in genomes over time are a kind of evolutionary background noise, useful precisely because their steady rate can be used as a clock.",
+          "note": "Kimura, M. (1968). 'Evolutionary Rate at the Molecular Level.' Nature, 217, 624-626; extended in Kimura, M. (1983). The Neutral Theory of Molecular Evolution. Cambridge University Press. The theory directly underwrites the molecular clock method (see th7, me3) and remains contested regarding exactly what fraction of substitutions are truly neutral versus weakly selected (see db8).",
+          "links": [
+            "fg11",
+            "db8",
+            "th7"
+          ],
+          "keywords": [
+            "neutral molecular evolution",
+            "selectively neutral substitution",
+            "genetic drift molecular level"
+          ]
+        },
+        {
+          "id": "th5",
+          "group": "Tempo and Mode",
+          "label": "Punctuated Equilibrium",
+          "date": "1972",
+          "loc": "American Museum of Natural History, New York, New York",
+          "coords": [
+            40.78,
+            -73.97
+          ],
+          "tag": "THEORY",
+          "hint": "Species, this theory proposes, spend most of their existence in stasis — little to no morphological change — then undergo bursts of relatively rapid change concentrated around speciation events themselves, typically in small peripheral populations unlikely to leave many fossils. The pattern in the fossil record isn't a gap in the evidence, in other words; it may be a real reflection of how evolutionary change is actually distributed in time.",
+          "note": "Eldredge, N. & Gould, S.J. (1972). 'Punctuated Equilibria: An Alternative to Phyletic Gradualism.' In Models in Paleobiology, San Francisco: Freeman, Cooper & Co., 82-115. The theory does not challenge natural selection as the mechanism of change, only the tempo at which it typically operates — a distinction often lost in public debate (see db6).",
+          "links": [
+            "fg9",
+            "db6"
+          ],
+          "keywords": [
+            "evolutionary stasis fossil record",
+            "punctuated tempo change",
+            "peripheral isolate speciation"
+          ]
+        },
+        {
+          "id": "th6",
+          "group": "Speciation",
+          "label": "Reproductive Isolating Mechanisms",
+          "date": "1937",
+          "loc": "Columbia University, New York, New York",
+          "coords": [
+            40.81,
+            -73.96
+          ],
+          "tag": "THEORY",
+          "hint": "Two populations become separate species, under the biological species concept, once something reliably prevents them from successfully interbreeding — and that 'something' comes in two flavours. Prezygotic barriers stop mating or fertilisation from happening at all (different mating seasons, incompatible courtship signals, physical incompatibility); postzygotic barriers let mating happen but produce inviable or sterile offspring, like the mule.",
+          "note": "Dobzhansky, T. (1937). Genetics and the Origin of Species. New York: Columbia University Press, formalised the prezygotic/postzygotic distinction within the biological species concept framework Mayr later refined (see fg7). The classification remains the standard teaching framework for speciation genetics, though real barriers are often partial and accumulate gradually rather than appearing as a single discrete event.",
+          "links": [
+            "fg6",
+            "co4"
+          ],
+          "keywords": [
+            "prezygotic postzygotic barriers",
+            "reproductive isolation species",
+            "hybrid sterility inviability"
+          ]
+        },
+        {
+          "id": "th7",
+          "group": "Molecular Evolution",
+          "label": "Molecular Clock Hypothesis",
+          "date": "1965",
+          "loc": "University of California, Berkeley, Berkeley, California",
+          "coords": [
+            37.87,
+            -122.26
+          ],
+          "tag": "THEORY",
+          "hint": "If neutral molecular substitutions accumulate at a roughly constant rate over time — the way radioactive decay does — then the number of sequence differences between two species' proteins or DNA should scale directly with how long ago their lineages split, turning a sequence comparison into a dating tool independent of the fossil record entirely.",
+          "note": "Zuckerkandl, E. & Pauling, L. (1965). 'Evolutionary Divergence and Convergence in Proteins.' In Evolving Genes and Proteins, New York: Academic Press, 97-166. The 'clock' does not tick at a perfectly uniform rate across lineages — rate variation between species is well documented — but calibrated against fossil-dated splits it remains a core dating tool, applied directly in Sarich & Wilson's hominid dating (see st7).",
+          "links": [
+            "th4",
+            "st7"
+          ],
+          "keywords": [
+            "molecular clock dating",
+            "sequence divergence rate",
+            "protein evolution constancy"
+          ]
+        },
+        {
+          "id": "th8",
+          "group": "Macroevolution",
+          "label": "Adaptive Radiation Theory",
+          "date": "2000",
+          "loc": "University of British Columbia, Vancouver, Canada",
+          "coords": [
+            49.26,
+            -123.25
+          ],
+          "tag": "THEORY",
+          "hint": "When a lineage reaches a resource-rich environment with few competitors — a newly formed volcanic island, a lake that just filled, an emptied ecological landscape after a mass extinction — it can rapidly diversify into many descendant species, each specialising on a different available niche, all within a geologically brief window. The pattern recurs so reliably across unrelated groups (finches, cichlids, Hawaiian silverswords) that it's treated as a general evolutionary phenomenon, not a set of unrelated coincidences.",
+          "note": "Schluter, D. (2000). The Ecology of Adaptive Radiation. Oxford University Press, synthesised the ecological theory explaining why radiations happen where they do (ecological opportunity) and what limits them (niche saturation, competition). See the Lake Victoria cichlid case for the fastest documented example (st5).",
+          "links": [
+            "st5",
+            "fg1"
+          ],
+          "keywords": [
+            "adaptive radiation ecology",
+            "ecological opportunity diversification",
+            "niche specialization speciation"
+          ]
+        },
+        {
+          "id": "th9",
+          "group": "Coevolution",
+          "label": "Red Queen Hypothesis",
+          "date": "1973",
+          "loc": "University of Chicago, Chicago, Illinois",
+          "coords": [
+            41.79,
+            -87.6
+          ],
+          "tag": "THEORY",
+          "hint": "A species can go extinct not because its environment changed, but simply because everything around it — predators, prey, parasites, competitors — kept evolving too, so standing still is itself a form of falling behind. Named for the Red Queen in Through the Looking-Glass, who must run constantly just to stay in the same place, the hypothesis explains why sexual reproduction and continual adaptation persist even in environments that look physically stable.",
+          "note": "Van Valen, L. (1973). 'A New Evolutionary Law.' Evolutionary Theory, 1, 1-30, based on Van Valen's observation that extinction probability within many fossil groups stays roughly constant over time rather than declining as lineages supposedly 'improve' — implying species are locked in a permanent coevolutionary arms race rather than approaching some fixed optimum.",
+          "links": [
+            "co2"
+          ],
+          "keywords": [
+            "red queen coevolution",
+            "constant extinction probability",
+            "evolutionary arms race"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "study",
+      "label": "Landmark Studies",
+      "icon": "🧪",
+      "color": "#4A235A",
+      "accent": "#7D3C98",
+      "bg": "#FAF5FF",
+      "subtitle": "The defining experiments — and exactly what they found",
+      "entries": [
+        {
+          "id": "st1",
+          "group": "Foundations of Descent",
+          "label": "The Ternate Letter and the Joint 1858 Paper",
+          "date": "1858",
+          "loc": "Linnean Society of London, London, England",
+          "coords": [
+            51.51,
+            -0.12
+          ],
+          "tag": "STUDY",
+          "repl": "robust",
+          "hint": "Wallace's essay on natural selection, mailed to Darwin from Indonesia, arrived just as Darwin was still sitting on two decades of unpublished work — friends arranged a joint reading of extracts from both men's writings at the Linnean Society, with neither author present, so the discovery could be credited fairly without forcing a priority dispute.",
+          "note": "Darwin, C.R. & Wallace, A.R. (1858). 'On the Tendency of Species to form Varieties.' Journal of the Proceedings of the Linnean Society of London, Zoology, 3, 45-62. The joint paper attracted little notice at the time — the society's president later remarked the year had produced no 'striking discoveries' — until Origin of Species appeared the following year.",
+          "links": [
+            "fg1",
+            "fg2"
+          ],
+          "keywords": [
+            "joint linnean paper",
+            "independent codiscovery",
+            "natural selection priority"
+          ]
+        },
+        {
+          "id": "st2",
+          "group": "Experimental Evolution",
+          "label": "The Long-Term Evolution Experiment",
+          "date": "1988",
+          "loc": "Michigan State University, East Lansing, Michigan",
+          "coords": [
+            42.73,
+            -84.48
+          ],
+          "tag": "STUDY",
+          "repl": "robust",
+          "hint": "Twelve populations of E. coli, founded from a single ancestral strain and kept in identical flasks since 1988, have been evolving under continuous observation for over 75,000 generations — the longest-running controlled evolution experiment ever conducted, letting researchers watch mutation, selection and drift actually happen rather than inferring them after the fact.",
+          "note": "Lenski, R.E. et al. (1991). 'Long-Term Experimental Evolution in Escherichia coli.' American Naturalist, 138(6), 1315-1341, ongoing. Most famous single finding: one population evolved the ability to metabolise citrate — normally impossible for E. coli under aerobic conditions — after ~31,500 generations, a case of historical contingency directly informing db5 (see also Blount, Borland & Lenski 2008, PNAS, 105(23), 7899-7906).",
+          "links": [
+            "fg1",
+            "db5"
+          ],
+          "keywords": [
+            "long term evolution experiment",
+            "e coli experimental evolution",
+            "historical contingency evolution"
+          ]
+        },
+        {
+          "id": "st3",
+          "group": "Speciation",
+          "label": "Rhagoletis Apple Maggot Fly Sympatric Speciation",
+          "date": "1969",
+          "loc": "University of Texas, Austin, Texas",
+          "coords": [
+            30.28,
+            -97.74
+          ],
+          "tag": "STUDY",
+          "repl": "mixed",
+          "hint": "A fly that historically laid eggs only in hawthorn fruit began, within the last few hundred years, laying eggs in the introduced apple trees planted alongside them — and the two host-races are now measurably diverging genetically, evolving different emergence timing to match each fruit's ripening season, all without any geographic separation at all.",
+          "note": "Bush, G.L. (1969). 'Sympatric Host Race Formation and Speciation in Frugivorous Flies of the Genus Rhagoletis.' Evolution, 23(2), 237-251. One of the best-documented real-time examples of sympatric speciation in progress; classified 'mixed' replicability because whether the host races have crossed the threshold into full biological species, versus remaining an incipient stage, is still debated among specialists.",
+          "links": [
+            "th6"
+          ],
+          "keywords": [
+            "sympatric speciation host race",
+            "rhagoletis apple maggot",
+            "incipient species divergence"
+          ]
+        },
+        {
+          "id": "st4",
+          "group": "Natural Selection in Action",
+          "label": "Industrial Melanism in the Peppered Moth",
+          "date": "1955",
+          "loc": "University of Oxford, Oxford, England",
+          "coords": [
+            51.76,
+            -1.26
+          ],
+          "tag": "STUDY",
+          "repl": "mixed",
+          "hint": "As coal-soot pollution darkened tree bark across industrial England, a dark-coloured form of the peppered moth — previously rare — became the dominant form in polluted areas, while the pale speckled form remained common in clean countryside; mark-release-recapture experiments showed birds picked off whichever form stood out against the local bark, demonstrating selection acting in real time within a single human lifetime.",
+          "note": "Kettlewell, H.B.D. (1955). 'Selection Experiments on Industrial Melanism in the Lepidoptera.' Heredity, 9, 323-342; Kettlewell, H.B.D. (1956). 'Further Selection Experiments on Industrial Melanism in the Lepidoptera.' Heredity, 10, 287-301. Classified 'mixed': later critics (Majerus 1998) identified real methodological flaws in Kettlewell's release protocol, though independent replications since (Cook et al. 2012, Biology Letters) have confirmed the core bird-predation mechanism.",
+          "links": [
+            "ef1"
+          ],
+          "keywords": [
+            "industrial melanism moth",
+            "kettlewell selection experiment",
+            "bird predation camouflage"
+          ]
+        },
+        {
+          "id": "st5",
+          "group": "Adaptive Radiation",
+          "label": "Lake Victoria Cichlid Radiation",
+          "date": "1994",
+          "loc": "Lake Victoria, East Africa",
+          "coords": [
+            -1,
+            33
+          ],
+          "tag": "STUDY",
+          "repl": "robust",
+          "hint": "In roughly 15,000 years — a geological eyeblink — a single ancestral cichlid lineage in Lake Victoria diversified into several hundred distinct species, each specialised for a different diet, habitat depth or mating colouration, making it the fastest documented vertebrate adaptive radiation on record.",
+          "note": "Meyer, A. et al. (1990). 'Monophyletic Origin of Lake Victoria Cichlid Fishes Suggested by Mitochondrial DNA Sequences.' Nature, 347, 550-553; synthesis in Seehausen, O. (2006). 'African Cichlid Fish: A Model System in Adaptive Radiation Research.' Proc. Royal Society B, 273, 1987-1998. Sexual selection on male colour, combined with ecological niche differentiation, is now understood as the joint driver of the radiation's speed.",
+          "links": [
+            "th8"
+          ],
+          "keywords": [
+            "cichlid adaptive radiation",
+            "lake victoria speciation",
+            "rapid vertebrate diversification"
+          ]
+        },
+        {
+          "id": "st6",
+          "group": "Foundations of Descent",
+          "label": "The Chimpanzee Genome Comparison",
+          "date": "2005",
+          "loc": "Broad Institute, Cambridge, Massachusetts",
+          "coords": [
+            42.36,
+            -71.09
+          ],
+          "tag": "STUDY",
+          "repl": "robust",
+          "hint": "A full sequence-by-sequence comparison of the human and chimpanzee genomes found roughly 1.2% of aligned single-nucleotide sites differ — direct molecular confirmation, independent of any fossil, of the close common ancestry the two lineages share, and a dataset detailed enough to start identifying which specific genetic changes are associated with distinctly human traits.",
+          "note": "Chimpanzee Sequencing and Analysis Consortium (2005). 'Initial Sequence of the Chimpanzee Genome and Comparison with the Human Genome.' Nature, 437, 69-87. The human-specific fossil and behavioural record itself is covered in depth in biological-anthropology; this entry anchors to the general molecular-comparison method and its confirmation of common descent.",
+          "links": [
+            "th1"
+          ],
+          "xlinks": [
+            "biological-anthropology::co4"
+          ],
+          "keywords": [
+            "chimpanzee genome comparison",
+            "molecular common ancestry evidence",
+            "human chimp divergence"
+          ]
+        },
+        {
+          "id": "st7",
+          "group": "Molecular Evolution",
+          "label": "Sarich & Wilson's Molecular Clock Dating of Hominid Divergence",
+          "date": "1967",
+          "loc": "University of California, Berkeley, Berkeley, California",
+          "coords": [
+            37.87,
+            -122.26
+          ],
+          "tag": "STUDY",
+          "repl": "mixed",
+          "hint": "Comparing blood-serum protein similarity between humans and African apes, Sarich and Wilson calculated a much more recent human-chimp split than most paleoanthropologists of the day accepted from the fossil record — and subsequent fossil finds and DNA dating have since moved firmly in the molecular estimate's direction, an early, controversial demonstration that molecular data could out-perform fossil-based dating.",
+          "note": "Sarich, V.M. & Wilson, A.C. (1967). 'Immunological Time Scale for Hominid Evolution.' Science, 158, 1200-1203. Classified 'mixed': the original absolute date (~5 million years) required subsequent recalibration, but the method's core claim — that molecular divergence tracks time more reliably than then-available fossils suggested — proved directionally correct.",
+          "links": [
+            "th7"
+          ],
+          "keywords": [
+            "molecular clock hominid dating",
+            "serum protein divergence",
+            "fossil molecular date conflict"
+          ]
+        },
+        {
+          "id": "st8",
+          "group": "Experimental Evolution",
+          "label": "Avida and the Evolution of Complex Digital Traits",
+          "date": "2003",
+          "loc": "Michigan State University, East Lansing, Michigan",
+          "coords": [
+            42.73,
+            -84.48
+          ],
+          "tag": "STUDY",
+          "repl": "robust",
+          "hint": "Self-replicating computer programs, evolving under simple selection pressure inside a digital environment, spontaneously evolved a complex multi-step logic function that none of their ancestors could perform and that required several individually-neutral or even mildly deleterious intermediate steps to reach — a direct experimental test of whether gradual selection can build genuinely complex features, run inside a system where every mutation and intermediate step is fully recorded.",
+          "note": "Lenski, R.E., Ofria, C., Pennock, R.T. & Adami, C. (2003). 'The Evolutionary Origin of Complex Features.' Nature, 423, 139-144. Directly designed to test claims from the intelligent-design 'irreducible complexity' argument (see db1) by tracking a full, complete mutational history unavailable in any biological system.",
+          "links": [
+            "db1"
+          ],
+          "keywords": [
+            "digital evolution experiment",
+            "complex feature evolution",
+            "avida artificial life"
+          ]
+        },
+        {
+          "id": "st9",
+          "group": "Inheritance Mechanisms",
+          "label": "Weismann's Tail-Cutting Experiment",
+          "date": "1889",
+          "loc": "University of Freiburg, Freiburg, Germany",
+          "coords": [
+            47.99,
+            7.85
+          ],
+          "tag": "STUDY",
+          "repl": "robust",
+          "hint": "To directly test whether injuries or changes acquired during an animal's life could be passed to its offspring — as Lamarckian inheritance claimed — Weismann amputated the tails of mice for 22 consecutive generations. Offspring tail length never decreased even slightly, refuting acquired-characteristic inheritance and establishing that only changes to the germline, not the body, can be inherited.",
+          "note": "Weismann, A. (1889). Essays Upon Heredity and Kindred Biological Problems. Oxford: Clarendon Press, formalised as the 'Weismann barrier' — the principle that hereditary information flows one-way from germline to body, never back. The experiment is now considered somewhat crude by modern standards (mutilation was never a plausible Lamarckian test case), but it remains historically important for shifting the field decisively away from Lamarckism.",
+          "links": [
+            "co2"
+          ],
+          "keywords": [
+            "weismann barrier germline",
+            "lamarckism refutation experiment",
+            "acquired characteristic inheritance"
+          ]
+        },
+        {
+          "id": "st10",
+          "group": "Speciation",
+          "label": "Ensatina Salamander Ring Species",
+          "date": "2001",
+          "loc": "Central Valley, California",
+          "coords": [
+            37.5,
+            -119.5
+          ],
+          "tag": "STUDY",
+          "repl": "robust",
+          "hint": "A chain of salamander populations circling California's Central Valley shows gradually accumulating differences from one neighbouring population to the next — each pair along the ring can interbreed — until the two ends of the ring finally meet on the valley's northern edge, where the terminal populations no longer interbreed at all, capturing speciation as a continuous process rather than a single discrete event.",
+          "note": "Irwin, D.E., Irwin, J.H. & Price, T.D. (2001). 'Ring Species as Bridges between Microevolution and Speciation.' Genetica, 112-113, 223-243, synthesising decades of Ensatina fieldwork originating with Stebbins, R.C. (1949). Ring species are rare in nature precisely because they require an unusual, unbroken geographic ring of habitat — most incipient speciation cases lack this clean spatial structure.",
+          "links": [
+            "th6",
+            "co4"
+          ],
+          "keywords": [
+            "ring species speciation",
+            "ensatina salamander gradient",
+            "speciation continuum evidence"
+          ]
+        },
+        {
+          "id": "st11",
+          "group": "Evolutionary Developmental Biology",
+          "label": "The Eyeless Gene and Deep Homology",
+          "date": "1995",
+          "loc": "University of Basel, Basel, Switzerland",
+          "coords": [
+            47.56,
+            7.59
+          ],
+          "tag": "STUDY",
+          "repl": "robust",
+          "hint": "Inserting the fly gene eyeless into a fly's leg, antenna or wing triggered a fully-formed, functional fly eye growing in that location — and, remarkably, inserting the equivalent mouse gene into a fly produced the same result, a fly eye rather than a mouse eye, showing that the master genetic switch controlling eye development has been conserved since a common ancestor hundreds of millions of years before eyes as different as insect compound eyes and vertebrate camera eyes diverged.",
+          "note": "Halder, G., Callaerts, P. & Gehring, W.J. (1995). 'Induction of Ectopic Eyes by Targeted Expression of the eyeless Gene in Drosophila.' Science, 267, 1788-1792. The finding founded the field of evolutionary developmental biology ('evo-devo') as a distinct discipline, showing that radically different-looking structures can share a deeply conserved underlying genetic toolkit.",
+          "links": [
+            "ef5"
+          ],
+          "keywords": [
+            "deep homology gene toolkit",
+            "evo devo founding study",
+            "eyeless gene conservation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "effect",
+      "label": "Effects & Phenomena",
+      "icon": "📊",
+      "color": "#0B4F2E",
+      "accent": "#117A65",
+      "bg": "#F0FFF6",
+      "subtitle": "Named, replicable patterns in how populations and lineages evolve",
+      "entries": []
+    },
+    {
+      "id": "concept",
+      "label": "Key Concepts",
+      "icon": "🧩",
+      "color": "#2C3E50",
+      "accent": "#566573",
+      "bg": "#F5F6FA",
+      "subtitle": "The building blocks and vocabulary every student must command",
+      "entries": []
+    },
+    {
+      "id": "method",
+      "label": "Methods & Approaches",
+      "icon": "🔬",
+      "color": "#5D4037",
+      "accent": "#8B5E00",
+      "bg": "#FFF8F0",
+      "subtitle": "The tools and paradigms that generate the field's evidence",
+      "entries": []
+    },
+    {
+      "id": "figure",
+      "label": "Pioneers & Theorists",
+      "icon": "🥇",
+      "color": "#7D6608",
+      "accent": "#B7770D",
+      "bg": "#FEFDE7",
+      "subtitle": "The researchers who shaped the discipline",
+      "entries": [
+        {
+          "id": "fg1",
+          "group": "Pioneers & Theorists",
+          "label": "Charles Darwin",
+          "date": "1859",
+          "loc": "Down House, Kent, England",
+          "coords": [
+            51.33,
+            0.05
+          ],
+          "tag": "FIGURE",
+          "hint": "Two decades of accumulated evidence — barnacle anatomy, pigeon breeding, biogeographic patterns from the Beagle voyage — went into a single argument: that heritable variation, acted on by differential survival and reproduction, is sufficient on its own to transform species over time, with no designing intelligence required. Darwin held the finished theory back for years, fearing the reaction, until Alfred Russel Wallace independently arrived at the same idea forced his hand.",
+          "note": "Darwin, C.R. (1859). On the Origin of Species by Means of Natural Selection. London: John Murray. The book sold out its first printing on the day of publication and went through six editions in Darwin's lifetime, each revised in response to criticism. Darwin's own later work extended the theory into human evolution (see biological-anthropology::fg1) and into detailed botanical experimentation (see botany::fg5) — this entry anchors specifically to the general theory's founding text.",
+          "links": [],
+          "xlinks": [
+            "biological-anthropology::fg1",
+            "botany::fg5",
+            "zoology-animal-behavior::th1"
+          ],
+          "keywords": [
+            "origin of species",
+            "natural selection founding theory",
+            "heritable variation differential survival"
+          ]
+        },
+        {
+          "id": "fg2",
+          "group": "Pioneers & Theorists",
+          "label": "Alfred Russel Wallace",
+          "date": "1858",
+          "loc": "Ternate, Dutch East Indies",
+          "coords": [
+            0.79,
+            127.38
+          ],
+          "tag": "FIGURE",
+          "hint": "Independently, and without any knowledge of Darwin's twenty years of unpublished work, a field naturalist collecting specimens in the Malay Archipelago worked out essentially the same mechanism — natural selection — during a fever, and mailed the finished argument to Darwin for comment, unknowingly forcing the very disclosure Darwin had been delaying.",
+          "note": "Wallace, A.R. (1858). 'On the Tendency of Varieties to Depart Indefinitely from the Original Type.' Read jointly with extracts of Darwin's unpublished work at the Linnean Society of London, 1 July 1858, published in the Journal of the Proceedings of the Linnean Society: Zoology, 3, 45–62. Wallace is also independently credited with founding biogeography as a discipline through his later mapping of the faunal boundary between Asian and Australian species, now called the Wallace Line.",
+          "links": [],
+          "keywords": [
+            "independent codiscovery natural selection",
+            "ternate letter",
+            "linnean society joint paper"
+          ]
+        },
+        {
+          "id": "fg3",
+          "group": "Pioneers & Theorists",
+          "label": "Ronald Fisher",
+          "date": "1930",
+          "loc": "Rothamsted Experimental Station, Harpenden, England",
+          "coords": [
+            51.81,
+            -0.35
+          ],
+          "tag": "FIGURE",
+          "hint": "Working out the mathematics of how Mendelian inheritance and Darwinian selection could be reconciled — a problem many contemporaries considered them fundamentally incompatible on — Fisher proved that natural selection acting on many genes each of small effect could produce exactly the smooth, continuous variation biologists observed, laying much of the mathematical foundation for population genetics in the process.",
+          "note": "Fisher, R.A. (1930). The Genetical Theory of Natural Selection. Oxford: Clarendon Press, introducing the fundamental theorem of natural selection alongside a fully worked mathematical synthesis of genetics and selection. Fisher's separate, foundational contributions to experimental statistics (randomisation, analysis of variance) are covered in their own right (see applied-math-statistics::fg6); this entry anchors specifically to his population-genetics work.",
+          "links": [],
+          "xlinks": [
+            "applied-math-statistics::fg6"
+          ],
+          "keywords": [
+            "fundamental theorem natural selection",
+            "mendelian selection reconciliation",
+            "population genetics mathematics"
+          ]
+        },
+        {
+          "id": "fg4",
+          "group": "Pioneers & Theorists",
+          "label": "J.B.S. Haldane",
+          "date": "1932",
+          "loc": "University College London, London, England",
+          "coords": [
+            51.51,
+            -0.13
+          ],
+          "tag": "FIGURE",
+          "hint": "Working independently of Fisher and Wright but reaching compatible conclusions, Haldane calculated the mathematics of how quickly natural selection could actually change a population's gene frequencies under real-world conditions, and coined the term 'genetic load' for the accumulated burden of mildly harmful mutations any population carries.",
+          "note": "Haldane, J.B.S. (1932). The Causes of Evolution. London: Longmans, Green & Co., based on a 1931 lecture series originally titled 'A Re-examination of Darwinism.' Haldane, Fisher and Wright are jointly credited as the three founders of theoretical population genetics, the mathematical framework that let the Modern Synthesis (see th2) actually quantify how selection changes populations rather than simply asserting that it does.",
+          "links": [
+            "th2"
+          ],
+          "keywords": [
+            "selection coefficient mathematics",
+            "genetic load concept",
+            "population genetics founder"
+          ]
+        },
+        {
+          "id": "fg5",
+          "group": "Pioneers & Theorists",
+          "label": "Sewall Wright",
+          "date": "1931",
+          "loc": "University of Chicago, Chicago, Illinois",
+          "coords": [
+            41.79,
+            -87.6
+          ],
+          "tag": "FIGURE",
+          "hint": "Studying inbreeding in guinea pigs led Wright to formalise how random chance — not just selection — shapes a small population's genetic makeup over generations, and to propose that a species divided into many small, partially isolated subpopulations might actually evolve faster overall than one large freely-interbreeding population, since chance fluctuations in the small groups could stumble onto combinations selection alone would never reach.",
+          "note": "Wright, S. (1931). 'Evolution in Mendelian Populations.' Genetics, 16(2), 97–159, introduced both genetic drift as a formal quantitative concept and the shifting balance theory of evolution. The shifting balance theory itself remains genuinely contested — direct empirical evidence for it driving major evolutionary change in wild populations has proven difficult to establish decisively (see db4).",
+          "links": [
+            "db4"
+          ],
+          "keywords": [
+            "genetic drift formalization",
+            "shifting balance theory",
+            "small population evolution"
+          ]
+        },
+        {
+          "id": "fg6",
+          "group": "Pioneers & Theorists",
+          "label": "Theodosius Dobzhansky",
+          "date": "1937",
+          "loc": "Columbia University, New York, New York",
+          "coords": [
+            40.81,
+            -73.96
+          ],
+          "tag": "FIGURE",
+          "hint": "A field-trained fruit fly geneticist rather than a mathematician, Dobzhansky wrote the book that actually convinced working naturalists and geneticists to accept the same underlying theory — translating Fisher, Haldane and Wright's mathematics into terms grounded in real Drosophila populations he had studied himself, becoming the single most important bridge between population genetics theory and the biologists who needed to be persuaded it was real.",
+          "note": "Dobzhansky, T. (1937). Genetics and the Origin of Species. New York: Columbia University Press, the book most historians credit with actually launching the Modern Synthesis (see th2) as a working consensus rather than a set of separate mathematical papers. Dobzhansky's own later, widely quoted essay title — 'Nothing in Biology Makes Sense Except in the Light of Evolution' (1973) — became one of the most repeated summary statements of the field's unifying importance.",
+          "links": [
+            "th2"
+          ],
+          "keywords": [
+            "modern synthesis launching text",
+            "drosophila population genetics",
+            "theory naturalist bridge"
+          ]
+        },
+        {
+          "id": "fg7",
+          "group": "Pioneers & Theorists",
+          "label": "Ernst Mayr",
+          "date": "1942",
+          "loc": "American Museum of Natural History, New York, New York",
+          "coords": [
+            40.78,
+            -73.97
+          ],
+          "tag": "FIGURE",
+          "hint": "Mayr provided the biological species concept — species are groups of actually or potentially interbreeding natural populations reproductively isolated from other such groups — and the geographic theory of speciation: new species form primarily through allopatry (geographic isolation followed by divergence). These two contributions unified evolutionary biology and systematics, allowing the modern synthesis to incorporate natural history collections. He also formalised the proximate/ultimate distinction that later work extended.",
+          "note": "Key works: Mayr, E. (1942). Systematics and the Origin of Species. Columbia University Press; Mayr, E. (1963). Animal Species and Evolution. Belknap Press. Biological species concept: challenged by Mallet (1995) Trends in Ecology & Evolution — many species hybridise; phylogenetic and cohesion species concepts proposed as alternatives. The BSC remains the standard working definition despite these challenges (see db3).",
+          "links": [
+            "th2",
+            "db3"
+          ],
+          "xlinks": [
+            "zoology-animal-behavior::th1",
+            "zoology-animal-behavior::st11",
+            "zoology-animal-behavior::ef4"
+          ],
+          "keywords": [
+            "Ernst Mayr speciation",
+            "biological species concept",
+            "allopatric speciation"
+          ]
+        },
+        {
+          "id": "fg8",
+          "group": "Pioneers & Theorists",
+          "label": "Richard Dawkins",
+          "date": "1976",
+          "loc": "University of Oxford, Oxford, England",
+          "coords": [
+            51.76,
+            -1.26
+          ],
+          "tag": "FIGURE",
+          "hint": "Dawkins reframed evolutionary theory from the organism's perspective to the gene's: genes are the replicators that persist across generations, and bodies are their temporary vehicles. The Selfish Gene (1976) popularised Hamilton's inclusive fitness, Maynard Smith's ESS and Trivers' theories for a general audience and introduced the concept of the meme. Extended Phenotype (1982) argued that genes manipulate not just their own organism but also the environment and other organisms.",
+          "note": "Key works: Dawkins, R. (1976). The Selfish Gene. Oxford University Press; Dawkins, R. (1982). The Extended Phenotype. Oxford University Press. The gene-centred view synthesised Fisher, Hamilton and Williams rather than originating new biology. Controversy: Gould & Lewontin (1979) and Gould (2002) critiqued 'genocentrism' and adaptionism; the specific behavioural-ecology theories Dawkins popularised (inclusive fitness, ESS, reciprocal altruism) are covered in depth in zoology-animal-behavior.",
+          "links": [],
+          "xlinks": [
+            "zoology-animal-behavior::th1",
+            "zoology-animal-behavior::th2",
+            "zoology-animal-behavior::fg5",
+            "zoology-animal-behavior::db3"
+          ],
+          "keywords": [
+            "gene-centred evolution",
+            "selfish gene replicator",
+            "extended phenotype"
+          ]
+        },
+        {
+          "id": "fg9",
+          "group": "Pioneers & Theorists",
+          "label": "Niles Eldredge and Stephen Jay Gould",
+          "date": "1972",
+          "loc": "American Museum of Natural History, New York, New York",
+          "coords": [
+            40.78,
+            -73.97
+          ],
+          "tag": "FIGURE",
+          "hint": "Examining the fossil record honestly rather than assuming it must show what theory predicted, Eldredge and Gould noticed that most species appear abruptly, persist largely unchanged for long stretches, then are abruptly replaced — not the slow, continuous, gradual transformation Darwin himself had expected the fossil record to eventually reveal once collecting improved enough to fill the gaps.",
+          "note": "Eldredge, N. & Gould, S.J. (1972). 'Punctuated Equilibria: An Alternative to Phyletic Gradualism.' In Schopf, T.J.M. (ed.), Models in Paleobiology, San Francisco: Freeman, Cooper & Co., 82–115. The proposal was initially received as a radical challenge to Darwinian gradualism and became one of the most publicly contested ideas in evolutionary biology (see db6), though both authors later clarified it was intended as a claim about tempo, not a rejection of natural selection as the underlying mechanism.",
+          "links": [
+            "db6"
+          ],
+          "keywords": [
+            "punctuated equilibria proposal",
+            "fossil record stasis",
+            "gradualism challenge"
+          ]
+        },
+        {
+          "id": "fg10",
+          "group": "Pioneers & Theorists",
+          "label": "Willi Hennig",
+          "date": "1950",
+          "loc": "German Entomological Institute, Berlin, Germany",
+          "coords": [
+            52.52,
+            13.4
+          ],
+          "tag": "FIGURE",
+          "hint": "An entomologist working largely in isolation as a prisoner of war before formalising his ideas, Hennig proposed that evolutionary relationships should be reconstructed using only shared derived traits — features inherited from a common ancestor but absent in more distant relatives — rather than overall similarity, a rigorous logical framework that transformed taxonomy from a subjective art into a testable, repeatable science.",
+          "note": "Hennig, W. (1950). Grundzüge einer Theorie der phylogenetischen Systematik. Berlin: Deutscher Zentralverlag, substantially revised and translated as Hennig, W. (1966). Phylogenetic Systematics. Urbana: University of Illinois Press. Hennig's method, cladistics, initially met resistance from taxonomists trained in older, similarity-based classification schemes, but became the dominant standard once computational methods made large-scale cladistic analysis practical.",
+          "links": [],
+          "keywords": [
+            "cladistics founding method",
+            "shared derived character",
+            "phylogenetic systematics"
+          ]
+        },
+        {
+          "id": "fg11",
+          "group": "Pioneers & Theorists",
+          "label": "Motoo Kimura",
+          "date": "1968",
+          "loc": "National Institute of Genetics, Mishima, Japan",
+          "coords": [
+            35.12,
+            138.91
+          ],
+          "tag": "FIGURE",
+          "hint": "Comparing the rate of amino acid substitution across proteins with the mutation rate population genetics predicted, Kimura found the numbers only made sense if the overwhelming majority of molecular-level genetic changes were selectively neutral — neither helpful nor harmful — spreading through populations by pure chance rather than natural selection, a claim that directly challenged the assumption that selection drives essentially all evolutionary change.",
+          "note": "Kimura, M. (1968). 'Evolutionary Rate at the Molecular Level.' Nature, 217, 624–626, proposed the neutral theory of molecular evolution. The theory does not dispute that natural selection shapes visible morphology and behaviour — Kimura explicitly restricted the claim to the molecular level — but the relative proportion of neutral versus selected molecular change remains an active research question (see db8).",
+          "links": [
+            "db8"
+          ],
+          "keywords": [
+            "neutral theory molecular evolution",
+            "selectively neutral mutation",
+            "molecular clock foundation"
+          ]
+        },
+        {
+          "id": "fg12",
+          "group": "Pioneers & Theorists",
+          "label": "George Gaylord Simpson",
+          "date": "1944",
+          "loc": "American Museum of Natural History, New York, New York",
+          "coords": [
+            40.78,
+            -73.97
+          ],
+          "tag": "FIGURE",
+          "hint": "A vertebrate paleontologist trained before population genetics existed, Simpson demonstrated that the fossil record's large-scale patterns — the tempo and mode of evolutionary change over millions of years — were fully consistent with, and explicable by, the same population-genetic mechanisms Fisher, Haldane and Wright had worked out mathematically, bringing paleontology fully into the Modern Synthesis rather than leaving it as evolutionary biology's separate, largely descriptive branch.",
+          "note": "Simpson, G.G. (1944). Tempo and Mode in Evolution. New York: Columbia University Press, distinguished the rate of evolutionary change (tempo) from its overall pattern (mode), including rare episodes of unusually rapid change he termed 'quantum evolution.' Simpson's synthesis of paleontology with population genetics is now considered as essential to the Modern Synthesis as Dobzhansky's genetics-focused contribution.",
+          "links": [
+            "th2"
+          ],
+          "keywords": [
+            "tempo mode evolution",
+            "paleontology synthesis integration",
+            "quantum evolution concept"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "debate",
+      "label": "Debates & Open Questions",
+      "icon": "⚖️",
+      "color": "#6E2C00",
+      "accent": "#CA6F1E",
+      "bg": "#FDF5EC",
+      "subtitle": "Live controversies — where the field is actively contesting the evidence",
+      "entries": []
+    },
+    {
+      "id": "application",
+      "label": "Applications",
+      "icon": "🔗",
+      "color": "#1A5276",
+      "accent": "#2E86C1",
+      "bg": "#EBF5FB",
+      "subtitle": "Where the science leaves the lab",
+      "entries": []
+    }
+  ],
+  "timeline": [
+    {
+      "id": "study",
+      "icon": "🧪",
+      "accent": "#7D3C98",
+      "label": "Landmark Studies",
+      "events": []
+    },
+    {
+      "id": "theory",
+      "icon": "📐",
+      "accent": "#2471A3",
+      "label": "Theories & Models",
+      "events": []
+    },
+    {
+      "id": "effect",
+      "icon": "📊",
+      "accent": "#117A65",
+      "label": "Effects & Phenomena",
+      "events": []
+    },
+    {
+      "id": "method",
+      "icon": "🔬",
+      "accent": "#8B5E00",
+      "label": "Methods",
+      "events": []
+    },
+    {
+      "id": "debate",
+      "icon": "⚖️",
+      "accent": "#B7770D",
+      "label": "Debates & Revisions",
+      "events": []
+    },
+    {
+      "id": "application",
+      "icon": "🔗",
+      "accent": "#2E86C1",
+      "label": "Applications",
+      "events": []
+    }
+  ]
+}
