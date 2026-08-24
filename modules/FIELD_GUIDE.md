@@ -144,8 +144,24 @@ Justify the badge in the `note` with the replication citation.
 ### `links` — intra-folio cross-references
 
 `links` is an array of **entry ids in the same folio**. Each link renders as a clickable
-chip in the modal under "RELATED". Aim for 2–5 links per entry. Always add the reciprocal
-id on both entries so the connection works in both directions.
+chip in the modal under "RELATED", and every entry is also a node in the app's Graph view
+(`◈ Graph`), where `links` and `xlinks` are literally what draws the connecting lines. Aim
+for 2–5 links per entry. Always add the reciprocal id on both entries so the connection
+works in both directions.
+
+**Zero-link entries are not allowed.** An entry with an empty `links` array and no `xlinks`
+renders as a disconnected dot in the Graph view — a real, user-visible defect, not just a
+missed style guideline. `modules/validate.js` now warns on every such entry
+(`no links or xlinks — disconnected node in the Graph view`); treat that warning the same
+as any other before committing. This has bitten past folios: effect/concept/method/debate/
+application entries are the most common offenders, since they don't automatically inherit
+a link the way a study naturally links its figure. When drafting a batch, actively look for
+a genuine connection for every entry — don't leave `links: []` as a default. If a batch
+script's reciprocal-link pass runs and an entry still has neither `links` nor `xlinks`
+afterward, go back and add one before moving to the next batch; do not defer it to a
+separate cleanup pass. A forced or inaccurate link is worse than the warning — if truly
+nothing in the folio relates, that's a signal the entry may be miscategorised, not a reason
+to fabricate a connection.
 
 Good link patterns:
 - Study → its figure author: `st2` links `fg4`
@@ -153,6 +169,11 @@ Good link patterns:
 - Debate → the original study being contested: `db2` links `st8`
 - Theory → the study that tests it: `th2` links `st4`
 - Concept → entries that instantiate it: `co4` links `ef3`, `st4`, `th2`, `th10`
+- Sibling phenomena in the same group: two effect/concept entries that are always taught
+  together (e.g. X-inactivation ↔ genomic imprinting, C4 ↔ CAM photosynthesis) are a
+  legitimate, non-forced pairing when no theory/study/figure link is available.
+- Same person, different contribution: a figure or method tied to a different entry by the
+  same researcher (e.g. a method paper and a later application by its inventor).
 
 ### `xlinks` — cross-folio references
 
@@ -519,6 +540,9 @@ string values — most commonly in `note` fields that quote paper titles.
 - [ ] Every `group` name used in entries appears in at least one study plan module?
 - [ ] Every timeline `entryId` resolves to a real entry `id`?
 - [ ] `links` are reciprocated on both ends?
+- [ ] Every entry has at least one `links` or `xlinks` entry — zero disconnected nodes in
+      the Graph view? Run the check from Step 4's Batch F section, or just confirm
+      `node modules/validate.js` reports no `disconnected node in the Graph view` warnings.
 
 **config/registry.js & config/study-plans.js**
 - [ ] FIELDS entry flipped to `status:"ready"` with `file:` path added?

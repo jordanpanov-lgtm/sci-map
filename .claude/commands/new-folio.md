@@ -160,11 +160,23 @@ git commit -m "<id>: batch E — debate + application"
 
 #### Batch F — timeline + reciprocal links
 
+> **Known recurring issue — zero-link orphans.** Entries in the effect/concept/method/
+> debate/application categories are the most common culprits: unlike a study, which
+> naturally links its figure, these categories don't automatically inherit a connection,
+> so it's easy to leave `links: []` as a default while drafting a batch and never come
+> back to it. An entry with no `links` and no `xlinks` renders as a disconnected dot in
+> the app's Graph view — this has recurred across multiple folio builds. Batch F's
+> reciprocal-link pass only *propagates* links that already exist; it does not invent new
+> ones. Fix genuine zero-link orphans **before** running Batch F's script, not after —
+> read each orphan's `hint`, look at its `group`, and find a real conceptual connection
+> (see FIELD_GUIDE.md's `links` section for good patterns). Never add a forced or
+> inaccurate link just to silence the check.
+
 Script reads `modules/<id>.json` and:
 1. Fills in timeline events for all 6 lanes (`study`, `theory`, `effect`, `method`, `debate`, `application`) — every entry in those categories gets an event; sort each lane's events ascending by `y`
 2. Completes all reciprocal links: for every entry A that lists B in `links`, ensure B lists A
 
-Validate JSON syntax, then validate timeline refs and reciprocal links:
+Validate JSON syntax, then validate timeline refs, reciprocal links, and zero-link orphans:
 ```
 node -e "
 const d=require('./modules/<id>.json');
@@ -179,9 +191,16 @@ all.forEach(e=>(e.links||[]).forEach(t=>{
 d.timeline.forEach(l=>l.events.forEach(ev=>{
   if(!ids.has(ev.entryId)){console.log('BAD TIMELINE REF',l.id,ev.entryId);errs++;}
 }));
-console.log(errs?'ERRORS: '+errs:'All links and timeline refs OK');
+const orphans=all.filter(e=>(e.links||[]).length===0 && (e.xlinks||[]).length===0);
+if(orphans.length){console.log('ORPHANS (no links or xlinks):', orphans.map(e=>e.id).join(', '));errs++;}
+console.log(errs?'ERRORS: '+errs:'All links, timeline refs and orphan checks OK');
 "
 ```
+
+If orphans are reported, go back and add a genuine link for each one, then re-run this
+check — do not proceed to Step 5 with orphans outstanding. `node modules/validate.js`
+will also flag each one individually as a warning, so this is caught again at Step 5 even
+if missed here.
 
 Commit:
 ```
@@ -429,7 +448,7 @@ If no confident xlinks are found, skip this step. Xlinks can always be added lat
 | C | effect + concept | `effect.entries.length > 0 && concept.entries.length > 0` |
 | D | method + figure | `method.entries.length > 0 && figure.entries.length > 0` |
 | E | debate + application | `debate.entries.length > 0 && application.entries.length > 0` |
-| F | timeline + links | `timeline[0].events.length > 0` |
+| F | timeline + links | `timeline[0].events.length > 0`, zero entries with empty `links` AND empty `xlinks` |
 | Step 5 | Validation passed | No errors from validation script |
 | Step 6 | inject-meta run | `_meta` key present in JSON |
 | Step 7 | Keywords injected | Every entry has `keywords` array; `keyword_index` in `_global_index.json` updated |

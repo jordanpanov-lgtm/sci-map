@@ -159,13 +159,20 @@ for (const folioId of Object.keys(folios)) {
     }
   }
 
-  // links: resolve within folio (error) + reciprocity (warn)
+  // links: resolve within folio (error) + reciprocity (warn) + zero-link orphans (warn)
   for (const id of Object.keys(byId)) {
     const { e } = byId[id];
     for (const l of (e.links || [])) {
       if (!byId[l]) { err(file, `${id}: link "${l}" does not resolve within folio`); continue; }
       const back = byId[l].e.links || [];
       if (!back.includes(id)) warn(file, `${id} → ${l} link not reciprocated`);
+    }
+    // An entry with neither links nor xlinks renders as a disconnected node in the
+    // app's Graph view. Every entry needs at least one genuine connection — never a
+    // forced one just to silence this warning; if nothing genuinely relates, that's
+    // a sign the entry itself may be miscategorised or too isolated for this folio.
+    if ((e.links || []).length === 0 && (e.xlinks || []).length === 0) {
+      warn(file, `${id}: no links or xlinks — disconnected node in the Graph view`);
     }
   }
 
