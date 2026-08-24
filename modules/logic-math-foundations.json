@@ -248,7 +248,8 @@
             "db4",
             "db8",
             "ap7",
-            "me8"
+            "me8",
+            "ef5"
           ],
           "keywords": [
             "gödel incompleteness theorems",
@@ -377,7 +378,10 @@
           "links": [
             "st10",
             "fg11",
-            "db6"
+            "db6",
+            "me7",
+            "ap3",
+            "ap4"
           ],
           "keywords": [
             "modal logic kripke semantics",
@@ -649,7 +653,8 @@
             "th4",
             "st9",
             "me2",
-            "fg6"
+            "fg6",
+            "ef5"
           ],
           "xlinks": [
             "computer-science::th1"
@@ -916,7 +921,10 @@
           "repl": "robust",
           "hint": "Hilbert's tenth problem, posed in 1900, asked for a general algorithm to decide whether any given polynomial equation has a whole-number solution — a purely number-theoretic question with no obvious connection to logic. Yuri Matiyasevich proved no such algorithm can exist, completing work begun by Julia Robinson, Martin Davis, and Hilary Putnam, and in doing so showed that undecidability isn't a quirk specific to logic or computation — it shows up in ordinary, centuries-old mathematics too.",
           "note": "Matiyasevich, Y. (1970). 'Diofantovy mnozhestva' (Diophantine sets). Doklady Akademii Nauk SSSR, 191, 279–282. Similar undecidability results were later found for other classical problems entirely unrelated to logic on their surface — the word problem for finitely presented groups (Novikov 1955, Boone 1958) and certain tiling problems (Berger 1966) among them.",
-          "links": [],
+          "links": [
+            "th4",
+            "st7"
+          ],
           "keywords": [
             "hilbert's tenth problem",
             "diophantine equations undecidable",
@@ -1071,7 +1079,8 @@
           "hint": "An axiomatic system starts from a small set of statements accepted without proof — the axioms — and derives everything else using explicit, mechanically checkable rules of inference. David Hilbert's rigorous re-axiomatisation of Euclidean geometry, closing gaps Euclid himself had silently relied on intuition to fill, became the model for how every other branch of mathematics would later be made fully rigorous.",
           "note": "Hilbert, D. (1899). Grundlagen der Geometrie. Leipzig: B.G. Teubner. Hilbert's insistence that axioms should be treated as purely formal — that you could substitute \"tables, chairs, and beer mugs\" for \"points, lines, and planes\" without changing the logical structure of the proofs — was itself a significant conceptual shift from earlier, more intuitive treatments of geometry.",
           "links": [
-            "fg4"
+            "fg4",
+            "ap2"
           ],
           "keywords": [
             "axiomatic system",
@@ -1212,7 +1221,8 @@
           "hint": "Classical logic allows only two truth values, true and false — many-valued logics add a third (commonly \"unknown\" or \"indeterminate\"), or a whole continuous spectrum between fully true and fully false, to handle statements about the future, vagueness, or genuine uncertainty more naturally than a strict binary can. Jan Łukasiewicz introduced the first rigorously worked-out three-valued system while considering statements about future contingent events, like tomorrow's sea battle.",
           "note": "Łukasiewicz, J. (1920). 'O logice trójwartościowej' (On Three-Valued Logic). Ruch Filozoficzny, 5, 170–171. Later generalised into fuzzy logic (Lotfi Zadeh, 1965), which uses a full continuum of truth values between 0 and 1 and found substantial practical application in control systems engineering.",
           "links": [
-            "db6"
+            "db6",
+            "ap5"
           ],
           "keywords": [
             "many-valued logic",
@@ -1317,7 +1327,9 @@
           "tag": "METHOD",
           "hint": "A style of formal proof designed to mirror how mathematicians actually reason, step by step, rather than the more rigid axiom-and-substitution style of earlier formal systems — each logical connective gets an \"introduction\" rule for how to establish it and an \"elimination\" rule for how to use it once established. Gentzen designed it specifically so formal proofs would look and feel like ordinary mathematical arguments.",
           "note": "Gentzen, G. (1935). 'Untersuchungen über das logische Schließen I.' Mathematische Zeitschrift, 39, 176–210 — the first half of the same two-part paper that introduced the sequent calculus (see me6) and proved cut elimination (see ef8). Natural deduction remains the standard proof style taught in most introductory formal logic courses today.",
-          "links": [],
+          "links": [
+            "me6"
+          ],
           "keywords": [
             "natural deduction proof system",
             "introduction elimination rules",
@@ -1340,7 +1352,8 @@
           "note": "Ludwig Wittgenstein popularised and systematised the technique in Tractatus Logico-Philosophicus (1921), §4.31 onward; Emil Post independently published an equivalent treatment the same year in 'Introduction to a General Theory of Elementary Propositions,' American Journal of Mathematics, 43(3), 163–185. Truth tables only work for propositional logic — first-order logic, which quantifies over infinite domains, has no equivalent finite mechanical check (see st7).",
           "links": [
             "st7",
-            "co9"
+            "co9",
+            "me7"
           ],
           "keywords": [
             "truth tables method",
@@ -1388,7 +1401,8 @@
           "links": [
             "ef7",
             "db5",
-            "th11"
+            "th11",
+            "ap1"
           ],
           "keywords": [
             "computer-assisted proof verification",
@@ -1434,7 +1448,8 @@
           "hint": "An alternative to natural deduction that tracks entire sets of assumptions and entire sets of possible conclusions on either side of a single symbol, rather than building up one final conclusion step by step — a more symmetric, more machine-friendly bookkeeping style that makes certain structural properties of proofs, including cut elimination, far easier to prove outright.",
           "note": "Gentzen, G. (1935). 'Untersuchungen über das logische Schließen II.' Mathematische Zeitschrift, 39, 405–431 — the second half of the same paper as natural deduction (see me1), in which Gentzen also proved the cut-elimination theorem for this system (see ef8). Sequent calculus is now the standard framework for automated theorem provers, which favour its more mechanical structure over natural deduction's more human-readable one.",
           "links": [
-            "th3"
+            "th3",
+            "me1"
           ],
           "keywords": [
             "sequent calculus gentzen",
@@ -1456,7 +1471,10 @@
           "tag": "METHOD",
           "hint": "To check whether a statement is a logical truth, assume its negation instead and systematically try to build a consistent scenario where that negation holds — branching into every possible case as you go. If every branch collapses into an outright contradiction, the negation was impossible, so the original statement must have been valid after all; if any branch survives intact, it hands you a concrete counterexample.",
           "note": "Beth, E.W. (1955). 'Semantic entailment and formal derivability.' Mededelingen van de Koninklijke Nederlandse Akademie van Wetenschappen, Afd. Letterkunde, 18(13), 309–342, developed independently around the same time by Jaakko Hintikka and later popularised in textbook form by Raymond Smullyan. Tableaux extend naturally from classical propositional logic to modal and many-valued logics (see th9, co7), which is part of why they remain a standard teaching method across non-classical logic as well.",
-          "links": [],
+          "links": [
+            "me2",
+            "th9"
+          ],
           "keywords": [
             "semantic tableaux method",
             "tableau proof technique",
@@ -1970,7 +1988,8 @@
           "links": [
             "th9",
             "co6",
-            "co7"
+            "co7",
+            "ap5"
           ],
           "keywords": [
             "logical pluralism debate",
@@ -2054,7 +2073,11 @@
           "tag": "APPLICATION",
           "hint": "An operating system kernel or a microchip design can be mathematically proven, not just tested, to behave exactly as specified under every possible input — no gap between \"we ran a lot of tests and nothing broke\" and \"this is provably correct.\" The seL4 microkernel became the first operating-system kernel with a complete, machine-checked mathematical proof that its implementation correctly matches its formal specification.",
           "note": "Klein, G., Elphinstone, K., Heiser, G., et al. (2009). 'seL4: Formal Verification of an OS Kernel.' Proceedings of the 22nd ACM Symposium on Operating Systems Principles (SOSP '09), 207–220. Now used in safety- and security-critical systems (avionics, defence, autonomous vehicles) precisely where the cost of an undetected bug is unacceptably high and conventional testing alone cannot provide the same guarantee.",
-          "links": [],
+          "links": [
+            "me4",
+            "ap2",
+            "ap3"
+          ],
           "keywords": [
             "formal verification sel4",
             "verified operating system kernel",
@@ -2075,7 +2098,10 @@
           "tag": "APPLICATION",
           "hint": "Instead of telling a computer step-by-step how to solve a problem, logic programming lets a programmer state a set of logical facts and rules and simply ask a question — the language itself searches for a way to derive an answer using resolution, a mechanical proof-search technique. Robert Kowalski's theoretical framing of \"predicate logic as a programming language,\" combined with Alain Colmerauer's practical implementation, produced Prolog, still in active use today particularly in artificial intelligence and computational linguistics.",
           "note": "Kowalski, R.A. (1974). 'Predicate Logic as a Programming Language.' Information Processing 74 (IFIP Congress), 569–574. A genuinely different programming paradigm from the imperative and functional styles that dominate most software — the computer is doing automated theorem proving, in a quite literal sense, every time a Prolog program runs.",
-          "links": [],
+          "links": [
+            "ap1",
+            "co1"
+          ],
           "keywords": [
             "logic programming prolog",
             "kowalski predicate logic language",
@@ -2096,7 +2122,10 @@
           "tag": "APPLICATION",
           "hint": "Exhaustively and automatically checking every possible state a finite-state system (a communication protocol, a piece of hardware, concurrent software) could ever reach, verifying a temporal-logic specification holds in every single one, catches subtle timing and concurrency bugs that are notoriously easy for human reasoning and ordinary testing to miss entirely.",
           "note": "Clarke, E.M., Emerson, E.A. (1981). 'Design and Synthesis of Synchronization Skeletons Using Branching-Time Temporal Logic.' Logics of Programs, Springer LNCS 131, 52–71, developed independently around the same time by Joseph Sifakis. Clarke, Emerson, and Sifakis shared the 2008 Turing Award; model checking is now standard practice in hardware design, where a single undetected chip bug can be catastrophically expensive to fix after fabrication.",
-          "links": [],
+          "links": [
+            "ap1",
+            "th9"
+          ],
           "keywords": [
             "model checking verification",
             "temporal logic specification",
@@ -2117,7 +2146,9 @@
           "tag": "APPLICATION",
           "hint": "Ordinary logic has no native way to formally represent \"you must,\" \"you may,\" and \"you must not\" — obligation, permission, and prohibition don't behave like ordinary truth values, since \"it is obligatory that P\" being true doesn't mean P is actually true, just that it ought to be. Georg Henrik von Wright built a formal logic specifically for this normative vocabulary, later applied directly to formalising legal codes and contracts for automated consistency checking.",
           "note": "von Wright, G.H. (1951). 'Deontic Logic.' Mind, 60(237), 1–15. Modern applications include automated checking of legal and regulatory documents for internal contradictions (can a contract simultaneously require and forbid the same action under the same conditions?) and formalising the permission structures underlying access-control systems in computer security.",
-          "links": [],
+          "links": [
+            "th9"
+          ],
           "keywords": [
             "deontic logic von wright",
             "obligation permission logic",
@@ -2138,7 +2169,10 @@
           "tag": "APPLICATION",
           "hint": "Ordinary logical deduction only ever adds certainty — once you've proven something, no additional fact can make it stop being provable. Real-world reasoning doesn't work that way: \"birds fly\" is a reasonable default that a specific new fact (\"Tweety is a penguin\") can override, and an AI system reasoning about an incompletely known world needs a formal logic that can retract earlier conclusions gracefully as new information arrives, rather than either ignoring the new fact or breaking entirely.",
           "note": "McCarthy, J. (1980). 'Circumscription—A Form of Non-Monotonic Reasoning.' Artificial Intelligence, 13(1–2), 27–39. Became a core technique in classical symbolic AI knowledge representation for exactly this reason — real-world knowledge bases are never complete, and a reasoning system that can't revise conclusions gracefully in light of new information is of limited practical use.",
-          "links": [],
+          "links": [
+            "db6",
+            "co7"
+          ],
           "keywords": [
             "non-monotonic logic ai",
             "mccarthy circumscription",
