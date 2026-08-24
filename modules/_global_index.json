@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 2214,
+    "total_entries": 2215,
     "folio_count": 29,
     "xlink_pairs": 156,
-    "keyword_terms": 7811,
+    "keyword_terms": 7815,
     "folios": [
       {
         "id": "anatomy-histology",
@@ -128,7 +128,7 @@
       {
         "id": "quantum-nuclear-relativity",
         "title": "Physics: Quantum, Nuclear & Relativity",
-        "entries": 78
+        "entries": 79
       },
       {
         "id": "social-psychology",
@@ -2070,6 +2070,7 @@
     "quantum-nuclear-relativity::ap4": "application · Wave Mechanics & Uncertainty · Semiconductors & Transistors (1947)",
     "quantum-nuclear-relativity::ap5": "application · Nuclear Physics · Nuclear Medicine: PET, SPECT & Radiotherapy (1975)",
     "quantum-nuclear-relativity::ap6": "application · Relativity & Spacetime · GPS & Relativistic Corrections (1978)",
+    "quantum-nuclear-relativity::st18": "study · Particle Physics & QFT · The Truncated Photon Superposition (2026)",
     "social-psychology::th1": "theory · The Self & Cognition · Cognitive Dissonance Theory (1957)",
     "social-psychology::th2": "theory · The Self & Cognition · Social Comparison Theory (1954)",
     "social-psychology::th3": "theory · Intergroup Relations · Social Identity Theory (1979)",
@@ -13552,6 +13553,12 @@
       "Hafele Keating 1971",
       "gravitational kinematic dilation",
       "clock relativity test"
+    ],
+    "quantum-nuclear-relativity::st18": [
+      "truncated photon superposition",
+      "optical shutter wave packet",
+      "photon number fock state",
+      "quantum field theory idealization"
     ],
     "quantum-nuclear-relativity::ef1": [
       "quantum barrier penetration",
@@ -35180,6 +35187,18 @@
     ],
     "clock relativity test": [
       "quantum-nuclear-relativity::st17"
+    ],
+    "truncated photon superposition": [
+      "quantum-nuclear-relativity::st18"
+    ],
+    "optical shutter wave packet": [
+      "quantum-nuclear-relativity::st18"
+    ],
+    "photon number fock state": [
+      "quantum-nuclear-relativity::st18"
+    ],
+    "quantum field theory idealization": [
+      "quantum-nuclear-relativity::st18"
     ],
     "quantum barrier penetration": [
       "quantum-nuclear-relativity::ef1"

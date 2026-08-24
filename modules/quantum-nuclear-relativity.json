@@ -15,10 +15,10 @@
   "mapZoom": 3,
   "methodology": "METHODOLOGY · Every entry anchors to a landmark paper, experiment or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags replication status, theoretical revisions and known controversies. Studies and effects carry a replicability badge — 🟢 confirmed to high precision (multiple sigma) · 🟡 nuanced, reduced effect or ongoing debate · 🔴 failed or severely contested. Map pins mark the institution where the work was carried out.",
   "_meta": {
-    "total_entries": 78,
+    "total_entries": 79,
     "entry_counts": {
       "theory": 11,
-      "study": 17,
+      "study": 18,
       "effect": 10,
       "concept": 7,
       "method": 6,
@@ -28,7 +28,7 @@
     },
     "max_ids": {
       "th": 11,
-      "st": 17,
+      "st": 18,
       "ef": 10,
       "co": 7,
       "me": 6,
@@ -45,7 +45,7 @@
       "Relativity & Spacetime",
       "Wave Mechanics & Uncertainty"
     ],
-    "last_updated": "2026-07-05"
+    "last_updated": "2026-08-24"
   },
   "_index": {
     "th1": "theory · Relativity & Spacetime · Special Relativity (1905)",
@@ -125,7 +125,8 @@
     "ap3": "application · Quantum Origins · Lasers (1960)",
     "ap4": "application · Wave Mechanics & Uncertainty · Semiconductors & Transistors (1947)",
     "ap5": "application · Nuclear Physics · Nuclear Medicine: PET, SPECT & Radiotherapy (1975)",
-    "ap6": "application · Relativity & Spacetime · GPS & Relativistic Corrections (1978)"
+    "ap6": "application · Relativity & Spacetime · GPS & Relativistic Corrections (1978)",
+    "st18": "study · Particle Physics & QFT · The Truncated Photon Superposition (2026)"
   },
   "categories": [
     {
@@ -306,7 +307,8 @@
             "th8",
             "me6",
             "th10",
-            "co5"
+            "co5",
+            "st18"
           ],
           "hint": "The quantum field theory of the electromagnetic interaction — Feynman, Schwinger, and Tomonaga independently renormalised the infinities that had plagued quantum field theory, producing a framework whose prediction of the electron's anomalous magnetic moment agrees with experiment to 12 decimal places, the most precisely tested prediction in science.",
           "tag": "THEORY",
@@ -935,6 +937,31 @@
             "gravitational kinematic dilation",
             "clock relativity test"
           ]
+        },
+        {
+          "id": "st18",
+          "group": "Particle Physics & QFT",
+          "label": "The Truncated Photon Superposition",
+          "date": "2026",
+          "loc": "University of Oslo, Oslo, Norway",
+          "coords": [
+            59.91,
+            10.75
+          ],
+          "tag": "DISCOVERY",
+          "repl": "mixed",
+          "hint": "A photon cannot be physically split in two, but its wave packet can be abruptly cut off — model a single photon reflecting off a mirror, then make the mirror vanish mid-reflection via an ultrafast shutter, and the surviving truncated piece is not half a photon or a photon-vacuum mixture, but a genuine quantum superposition spread across every possible photon number at once, extending in principle to infinity; the abruptness of the cut itself, not the photon, is what conjures the extra photons out of the vacuum.",
+          "note": "Rukan, I.C.O., Gulla, J. & Skaar, J. (2026). 'A Truncated Photon.' Physical Review Letters, 137, 033601. A purely theoretical quantum-field-theory calculation, not a laboratory demonstration; the infinite-photon-number limit is reached only for an infinitely fast shutter closure, and the paper notes that even reaching a handful of extra photons would be extremely unlikely at any realistic shutter speed. The result nonetheless shows the truncated state settles back to being locally indistinguishable from an ordinary single photon or vacuum on either side of a narrow transition zone around the cut.",
+          "links": [
+            "th6",
+            "co3"
+          ],
+          "keywords": [
+            "truncated photon superposition",
+            "optical shutter wave packet",
+            "photon number fock state",
+            "quantum field theory idealization"
+          ]
         }
       ]
     },
@@ -1325,7 +1352,8 @@
             "fg5",
             "db1",
             "ap2",
-            "ef10"
+            "ef10",
+            "st18"
           ],
           "hint": "Quantum systems can exist in a superposition of multiple distinct states simultaneously; when two particles interact, their wavefunctions can become entangled — measuring one particle instantly determines the correlated outcome of measuring the other, regardless of the distance between them. These resources are now exploited in quantum computing, quantum cryptography, and quantum teleportation.",
           "tag": "CONCEPT",
@@ -2503,6 +2531,11 @@
           "y": 2015,
           "l": "LIGO: gravitational waves detected",
           "entryId": "st12"
+        },
+        {
+          "y": 2026,
+          "l": "The Truncated Photon Superposition",
+          "entryId": "st18"
         }
       ]
     },
