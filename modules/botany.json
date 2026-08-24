@@ -144,7 +144,11 @@
           "links": [
             "st1",
             "fg1",
-            "st7"
+            "st7",
+            "me3",
+            "ap1",
+            "co1",
+            "fg11"
           ],
           "keywords": [
             "light dependent air purification",
@@ -235,7 +239,10 @@
           "links": [
             "st5",
             "st6",
-            "fg6"
+            "fg6",
+            "ef1",
+            "ef6",
+            "me4"
           ],
           "keywords": [
             "auxin redistribution gradient",
@@ -258,7 +265,8 @@
           "note": "Mendel, G. (1866). 'Versuche über Pflanzen-Hybriden.' Verhandlungen des naturforschenden Vereines in Brünn, 4, 3–47. The paper was almost completely ignored for 34 years until independently rediscovered in 1900 by Hugo de Vries, Carl Correns, and Erich von Tschermak, after which it became recognised as the founding document of modern genetics; Mendel's original data have been statistically scrutinised ever since, with some historians arguing the fit to expected ratios is suspiciously close, though no convincing evidence of deliberate fabrication has been established.",
           "links": [
             "st4",
-            "fg4"
+            "fg4",
+            "co6"
           ],
           "keywords": [
             "particulate inheritance units",
@@ -279,7 +287,9 @@
           "tag": "FRAMEWORK",
           "hint": "A flower's four concentric whorls — sepals, petals, stamens, and carpels — are not each controlled by their own dedicated gene, but instead emerge from just three overlapping classes of regulatory genes (A, B, and C) switched on in different combinations across the developing floral bud: A alone specifies sepals, A plus B specifies petals, B plus C specifies stamens, and C alone specifies carpels, a combinatorial code elegant enough that disabling any single class predictably converts one flower organ into another.",
           "note": "Coen, E.S. & Meyerowitz, E.M. (1991). 'The War of the Whorls: Genetic Interactions Controlling Flower Development.' Nature, 353, 31–37, synthesised mutant studies in snapdragon and Arabidopsis into the unified model. Later work added a fourth gene class (E, for the SEPALLATA genes required for all four organ identities to be specified at all), refining the scheme into the modern 'ABCE' model without overturning its original combinatorial logic.",
-          "links": [],
+          "links": [
+            "co7"
+          ],
           "keywords": [
             "floral organ identity genes",
             "combinatorial homeotic code",
@@ -526,7 +536,8 @@
           "hint": "Examining fossil-bearing rock collected from Perton Quarry in Wales, Lang described a simple, leafless, dichotomously branching plant no more than a few centimetres tall, bearing spore-producing capsules at its branch tips and, crucially, true water-conducting vascular tissue — among the very earliest fossil evidence that vascular plants had colonised dry land at all, dating to the middle Silurian, tens of millions of years before any forest existed.",
           "note": "Lang, W.H. (1937). 'On the Plant-Remains from the Downtonian of England and Wales.' Philosophical Transactions of the Royal Society B, 227, 245–291, named the genus Cooksonia in honour of Isabel Cookson, the botanist who collected the original Welsh specimens in 1934. Cooksonia is now understood as a transitional form bridging non-vascular bryophyte-like ancestors and the fully vascular land plants that followed, directly informing the telome theory of organ evolution (see th8).",
           "links": [
-            "th8"
+            "th8",
+            "me6"
           ],
           "keywords": [
             "earliest vascular plant fossil",
@@ -633,7 +644,9 @@
           "repl": "robust",
           "hint": "Plant roots reliably grow toward the pull of gravity and shoots reliably grow against it, regardless of which way the seed itself happens to be oriented when it germinates — a directional response so robust that spinning germinating seeds on a rotating wheel, cancelling gravity's directional pull with continuous centrifugal force, causes roots and shoots to grow toward and away from the wheel's centre instead, proving the response tracks whatever net directional force is present, not gravity specifically as some innate compass sense.",
           "note": "Knight, T.A. (1806). 'On the Direction of the Radicle and Germen during the Vegetation of Seeds.' Philosophical Transactions of the Royal Society of London, 96, 99–108, used a water-wheel spinning germinating seeds at 150 revolutions per minute to substitute centrifugal force for gravity. The cellular mechanism — dense starch-filled organelles called statoliths settling under gravity inside specialised root-cap cells — was not identified until nearly a century later, but Knight's experiment had already established the response was mechanical rather than mystical.",
-          "links": [],
+          "links": [
+            "th5"
+          ],
           "keywords": [
             "gravity directional growth response",
             "centrifuge seed experiment",
@@ -655,7 +668,9 @@
           "hint": "Some plants, especially those adapted to hot, bright, water-limited conditions, run an extra biochemical step before the Calvin cycle: they first fix carbon dioxide into a four-carbon compound in outer leaf cells, then shuttle that compound into specialised inner bundle-sheath cells where it releases a concentrated burst of CO2 right where the Calvin cycle needs it — a biochemical CO2 pump that lets these plants keep their stomata more closed, losing far less water, while still supplying enough carbon dioxide to photosynthesise efficiently.",
           "note": "Hatch, M.D. & Slack, C.R. (1966). 'Photosynthesis by Sugar-Cane Leaves.' Biochemical Journal, 101(1), 103–116, worked out the pathway in sugarcane. C4 photosynthesis is now known to have evolved independently over sixty separate times across flowering plant lineages (see db1), and depends on a distinctive leaf anatomy, Kranz anatomy, in which bundle-sheath cells form a visible ring around each leaf vein.",
           "links": [
-            "db1"
+            "db1",
+            "ef3",
+            "db5"
           ],
           "keywords": [
             "c4 carbon concentration pump",
@@ -677,7 +692,11 @@
           "repl": "robust",
           "hint": "Many succulent, drought-adapted plants run photosynthesis's two halves at opposite times of day: stomata open only at night, when the air is cooler and more humid, to take in and store carbon dioxide as an acid, then close completely during the heat of the day while the stored acid is broken back down to release CO2 for the Calvin cycle to run behind sealed stomata — trading some efficiency for a dramatic reduction in daytime water loss.",
           "note": "Osmond, C.B. (1978). 'Crassulacean Acid Metabolism: A Curiosity in Context.' Annual Review of Plant Physiology, 29, 379–414, established the now-standard four-phase model of CAM's daily cycle. Named for the stonecrop family Crassulaceae, in which the overnight acid buildup was first chemically documented in the early nineteenth century, CAM is now known across roughly 6% of vascular plant species, including cacti, agaves, orchids and pineapple.",
-          "links": [],
+          "links": [
+            "ef2",
+            "db5",
+            "co1"
+          ],
           "keywords": [
             "nocturnal stomatal opening",
             "overnight acid storage",
@@ -698,7 +717,11 @@
           "repl": "robust",
           "hint": "Seeds of many fire-adapted plant species will not germinate at all under ordinary conditions, remaining dormant in the soil for years until direct exposure to wildfire smoke — or even just water that smoke has passed through — triggers germination, a chemical fire-detection system that ensures seedlings emerge only after a fire has cleared competing vegetation and released a pulse of nutrients into the ash-enriched soil.",
           "note": "Flematti, G.R., Ghisalberti, E.L., Dixon, K.W. & Trengove, R.D. (2004). 'A Compound from Smoke that Promotes Seed Germination.' Science, 305(5686), 977, isolated and identified karrikinolide (KAR1), the active butenolide compound in smoke responsible for the effect, named from the Aboriginal Noongar word for smoke. Karrikin receptors have since been found to be evolutionarily related to the plant's own strigolactone hormone signalling pathway, suggesting fire-response germination co-opted an older internal signalling system.",
-          "links": [],
+          "links": [
+            "db6",
+            "ap4",
+            "ef9"
+          ],
           "keywords": [
             "karrikin smoke compound",
             "fire adapted seed dormancy",
@@ -719,7 +742,9 @@
           "repl": "mixed",
           "hint": "Some plants actively suppress the growth of nearby competing vegetation by releasing chemical compounds into the surrounding soil, water, or air — most famously black walnut trees, whose roots leak a compound toxic to many other plant species, creating a visible zone of bare or stunted ground beneath the canopy where tomatoes, apples, and many other plants simply fail to thrive.",
           "note": "Massey, A.B. (1925). 'Antagonism of the Walnuts (Juglans nigra L. and J. cinerea L.) in Certain Plant Associations.' Phytopathology, 15, 773–784, documented the black walnut effect and traced it to a compound later identified as juglone. Allelopathy remains genuinely harder to demonstrate rigorously than it might first appear, since field observations of one species failing to grow near another can also be explained by competition for light, water, or nutrients rather than active chemical suppression — controlled studies isolating the chemical mechanism specifically are needed case by case.",
-          "links": [],
+          "links": [
+            "co5"
+          ],
           "keywords": [
             "juglone chemical suppression",
             "black walnut growth inhibition",
@@ -740,7 +765,9 @@
           "repl": "robust",
           "hint": "Young sunflower heads track the sun's arc across the sky throughout the day, facing east at dawn and slowly swivelling to face west by evening, then reorienting back toward the east overnight ready for the next sunrise — a movement driven not by simple light-following alone but by an internal circadian clock that keeps the rhythm going for a day or two even if a plant is moved into constant light, and that stops entirely once the flower head matures and stops growing.",
           "note": "Atamian, H.S. et al. (2016). 'Circadian Regulation of Sunflower Heliotropism, Floral Orientation, and Pollinator Visits.' Science, 353(6299), 587–590, showed the daily reorientation is driven by differential growth rates on the stem's east- and west-facing sides that reverse direction overnight, and that mature, sun-fixed east-facing flowers attract significantly more pollinator visits than experimentally reoriented ones, tying the movement directly to reproductive success.",
-          "links": [],
+          "links": [
+            "th5"
+          ],
           "keywords": [
             "sunflower solar tracking",
             "circadian growth reversal",
@@ -807,7 +834,9 @@
           "repl": "robust",
           "hint": "Many long-lived tree species, including oaks and beeches, do not produce a steady seed crop year after year — instead, an entire population across a whole region will synchronise into occasional, spectacular 'mast years' of enormous seed production, separated by several years of little to no seed at all, a boom-and-bust pattern thought to work by periodically overwhelming seed-eating animals with more food than they can possibly consume, ensuring at least some seeds survive to germinate.",
           "note": "Kelly, D. (1994). 'The Evolutionary Ecology of Mast Seeding.' Trends in Ecology & Evolution, 9(12), 465–470, reviewed the competing hypotheses for masting's evolutionary function, favouring predator satiation and pollination efficiency over simple resource accumulation as the primary drivers. Regional synchrony across mast events, sometimes spanning hundreds of kilometres, appears to be cued by shared weather signals such as an unusually warm summer, letting geographically separate trees coordinate without any direct communication between them.",
-          "links": [],
+          "links": [
+            "ef4"
+          ],
           "keywords": [
             "synchronized seed production",
             "predator satiation strategy",
@@ -838,7 +867,10 @@
           "tag": "CONCEPT",
           "hint": "A leaf's surface is dotted with thousands of tiny pores, each flanked by a pair of specialised guard cells that can actively swell or shrink to open or close the pore in response to light, humidity, and internal carbon dioxide levels — the plant's only real control valve for balancing two directly competing needs, letting in CO2 for photosynthesis while limiting the water vapour that inevitably escapes through the same open pore.",
           "note": "Fischer, R.A. (1968). 'Stomatal Opening: Role of Potassium Uptake by Guard Cells.' Science, 160(3829), 784–785, identified active potassium ion transport into guard cells as the osmotic driver of stomatal opening, a finding that reframed stomatal movement from a passive mechanical response into an actively regulated ion-transport process. Guard cells integrate multiple simultaneous signals — blue light, CO2 concentration, and the stress hormone abscisic acid among them — making stomatal aperture one of the most tightly regulated single-cell decisions in the plant.",
-          "links": [],
+          "links": [
+            "th1",
+            "ef3"
+          ],
           "keywords": [
             "guard cell potassium transport",
             "stomatal pore regulation",
@@ -861,7 +893,8 @@
           "links": [
             "th3",
             "th4",
-            "fg12"
+            "fg12",
+            "co4"
           ],
           "keywords": [
             "xylem phloem dual transport",
@@ -904,7 +937,9 @@
           "tag": "CONCEPT",
           "hint": "What gives a plant cell its rigid shape and lets a tree stand upright without a skeleton is a wall built almost entirely outside the cell membrane, dominated by cellulose — long, straight glucose-chain molecules bundled into crystalline microfibrils tough enough that they resist chemical breakdown by nearly everything except a small set of specialised digestive enzymes — reinforced in woody tissue by lignin, a separate, rigid, water-repelling polymer that fills the remaining gaps and makes wood possible at all.",
           "note": "Meyer, K.H. & Misch, L. (1937). 'Positions des Atomes dans le Nouveau Modèle Spatial de la Cellulose.' Helvetica Chimica Acta, 20(1), 232–244, worked out cellulose's crystalline molecular structure using X-ray diffraction. Cellulose is now understood to be the most abundant organic polymer on Earth, and the specific, difficult-to-digest crystalline packing that makes plant cell walls structurally strong is the same property that makes cellulose largely indigestible to most animals without specialised gut microbes.",
-          "links": [],
+          "links": [
+            "co2"
+          ],
           "keywords": [
             "cellulose crystalline microfibril",
             "lignin structural reinforcement",
@@ -926,7 +961,9 @@
           "note": "Fraenkel, G.S. (1959). 'The Raison d'Être of Secondary Plant Substances.' Science, 129(3361), 1466–1470, argued explicitly against the prevailing 'metabolic waste' interpretation, framing chemical diversity as adaptive defence shaped by coevolution with herbivores (see co7) rather than physiological accident. Many of the same defensive compounds — caffeine, morphine, nicotine, quinine — have been independently exploited by humans as stimulants, medicines, and poisons, a direct legacy of their original defensive function against a much older set of animal antagonists.",
           "links": [
             "co7",
-            "ap3"
+            "ap3",
+            "ef5",
+            "ap5"
           ],
           "keywords": [
             "secondary metabolite defense function",
@@ -947,7 +984,11 @@
           "tag": "CONCEPT",
           "hint": "Whole-genome duplication — ending up with three, four, or more complete copies of every chromosome instead of the usual two — is often lethal or sterilising in animals, but is remarkably common and frequently successful in plants, where it can instantly create a new species reproductively isolated from its parents, restore fertility to an otherwise-sterile hybrid between two different species, and is directly responsible for many of the largest, most productive crop varieties humans cultivate today.",
           "note": "Winge, Ø. (1917). 'The Chromosomes, Their Number and General Importance.' Comptes Rendus des Travaux du Laboratoire Carlsberg, 13, 131–275, proposed that hybridisation between two species followed by spontaneous chromosome doubling could restore fertile chromosome pairing in an otherwise sterile hybrid, explaining how polyploidy could drive rapid new-species formation. Modern genome sequencing suggests a very large fraction of flowering plant lineages, including bread wheat and cultivated cotton, carry the genomic fingerprints of one or more ancient polyploidy events in their history.",
-          "links": [],
+          "links": [
+            "th6",
+            "db8",
+            "me5"
+          ],
           "keywords": [
             "whole genome duplication",
             "hybrid fertility restoration",
@@ -970,7 +1011,8 @@
           "links": [
             "st10",
             "co5",
-            "st9"
+            "st9",
+            "th7"
           ],
           "keywords": [
             "coevolution term origin",
@@ -1002,7 +1044,9 @@
           "tag": "METHOD",
           "hint": "Pressing a plant flat and drying it between sheets of paper preserves its overall form, leaf shape, and reproductive structures in a stable, permanently referenceable state — a hortus siccus, or 'dry garden' — letting botanists build lasting, transportable, comparable reference collections rather than relying on memory, live specimens, or hand-drawn illustrations that could distort or omit diagnostic detail.",
           "note": "Ghini himself published nothing on the technique, but by around 1551 his own collection, sent as pressed specimens gummed onto paper to his correspondent Pietro Andrea Mattioli, was known to contain roughly three hundred different plants — the earliest well-documented record of the practice at scale. Ghini trained a generation of influential students, including Andrea Cesalpino, who carried the technique across Europe within decades; it remains, largely unchanged in principle, the standard method for documenting plant diversity, and millions of herbarium sheets in collections worldwide still underpin modern taxonomic and genomic research.",
-          "links": [],
+          "links": [
+            "fg9"
+          ],
           "keywords": [
             "pressed dried plant specimen",
             "permanent reference collection",
@@ -1044,7 +1088,9 @@
           "tag": "METHOD",
           "hint": "Shine light on a dark-adapted leaf and measure the faint red glow it re-emits a fraction of a second later, and the way that glow's intensity rises and falls over the next few minutes reveals, non-destructively and in real time, how efficiently the leaf's photosynthetic machinery is actually processing the light energy it absorbs — energy not used for photochemistry has to go somewhere, and some of it is re-emitted as measurable fluorescence.",
           "note": "Kautsky, H. & Hirsch, A. (1931). 'Neue Versuche zur Kohlensäureassimilation.' Naturwissenschaften, 19, 964, first described the characteristic rise-and-fall fluorescence curve now called the Kautsky effect. Modern portable chlorophyll fluorometers, built on the same principle, are standard field tools for rapidly assessing plant stress, herbicide damage, or photosynthetic health without harming the plant being measured.",
-          "links": [],
+          "links": [
+            "th1"
+          ],
           "keywords": [
             "kautsky effect fluorescence curve",
             "non destructive photosynthesis assay",
@@ -1064,7 +1110,10 @@
           "tag": "METHOD",
           "hint": "Joining a shoot or leaf from one plant onto the rootstock of another lets an experimenter ask whether a physiological signal — a flowering trigger, for instance — travels as a mobile chemical or electrical signal from one plant part to another, since if a leaf kept under flower-inducing short days can trigger flowering in a graft-joined plant kept under non-inducing long days, the signal itself must be moving physically across the graft union.",
           "note": "Chailakhyan, M.K. (1936) used reciprocal grafting between photoperiodically induced and non-induced tobacco plants to demonstrate a graft-transmissible flowering signal, which he named florigen. The chemical identity of florigen remained unresolved for over seventy years until 2007, when the FT protein was identified as (or as a core component of) the long-sought mobile signal — a rare case of a named phenomenon preceding its molecular identification by nearly a lifetime.",
-          "links": [],
+          "links": [
+            "ap6",
+            "th5"
+          ],
           "keywords": [
             "graft transmissible signal",
             "florigen flowering hormone search",
@@ -1084,7 +1133,9 @@
           "tag": "METHOD",
           "hint": "A small piece of plant tissue, grown on a sterile nutrient medium containing carefully balanced ratios of two plant hormones, can be induced to regenerate an entire new plant from scratch — a high ratio of one hormone favours root formation, a high ratio of the other favours shoots, and intermediate ratios keep the tissue growing as a formless mass of unspecialised cells — direct proof that a single differentiated plant cell retains the full genetic potential to rebuild an entire organism.",
           "note": "Skoog, F. & Miller, C.O. (1957). 'Chemical Regulation of Growth and Organ Formation in Plant Tissues Cultured In Vitro.' Symposia of the Society for Experimental Biology, 11, 118–131, established the auxin-to-cytokinin ratio as the key regulatory switch controlling organ formation in cultured tobacco tissue. Tissue culture is now the standard method behind large-scale clonal micropropagation of crops and ornamentals and an essential delivery step for most modern plant genetic engineering.",
-          "links": [],
+          "links": [
+            "co6"
+          ],
           "keywords": [
             "auxin cytokinin ratio switch",
             "totipotency regeneration proof",
@@ -1104,7 +1155,9 @@
           "tag": "METHOD",
           "hint": "A tree adds one new growth ring each year, wider in good growing years and narrower in poor ones, and because trees growing in the same region experience the same runs of good and bad years, the pattern of wide and narrow rings in one tree can be precisely matched against the pattern in another, even a long-dead one, letting overlapping ring sequences from living and archaeological wood be chained together into a continuous, absolutely-dated calendar stretching back thousands of years.",
           "note": "Douglass, A.E. (1919). Climatic Cycles and Tree-Growth. Washington, D.C.: Carnegie Institution of Washington, founded the field while originally searching for a link between sunspot cycles and climate. Dendrochronology went on to directly enable radiocarbon dating's calibration curve, since tree rings of independently known calendar age reveal exactly how atmospheric radiocarbon levels have fluctuated over time, correcting raw radiocarbon dates to true calendar years.",
-          "links": [],
+          "links": [
+            "st8"
+          ],
           "keywords": [
             "annual growth ring dating",
             "tree ring cross matching",
@@ -1319,7 +1372,9 @@
           "tag": "FIGURE",
           "hint": "Frustrated by the unwieldy, multi-word descriptive names botanists had used for centuries, Linnaeus introduced a simple two-part naming system — genus followed by species — for every known plant, alongside a systematic classification scheme organised primarily around flower structure, giving botany a stable, universal naming standard that made cataloguing and comparing plant diversity across the entire world practical for the first time.",
           "note": "Linnaeus, C. (1753). Species Plantarum. Stockholm: Laurentius Salvius, cataloguing and formally naming roughly 6,000 plant species using the new binomial system. Linnaeus's original classification scheme, based heavily on the number and arrangement of a flower's reproductive parts, has since been entirely superseded by evolutionary and molecular classification, but binomial nomenclature itself remains the universal standard for naming species across all of biology, not botany alone.",
-          "links": [],
+          "links": [
+            "me1"
+          ],
           "keywords": [
             "binomial nomenclature system",
             "species plantarum catalog",
@@ -1362,7 +1417,9 @@
           "tag": "FIGURE",
           "hint": "Widely regarded as the founder of experimental plant physiology as a coherent discipline, Sachs demonstrated that starch accumulates specifically inside chloroplasts as a direct, visible product of photosynthesis, developed rigorous hydroponic nutrient-solution techniques for studying plant mineral requirements, and wrote the first comprehensive textbook systematically covering the whole of plant physiology as a unified experimental science rather than a loose collection of separate observations.",
           "note": "Sachs, J. (1865). Handbuch der Experimental-Physiologie der Pflanzen. Leipzig: Wilhelm Engelmann. Sachs trained an entire generation of plant physiologists at Würzburg, where he held a chair from 1868 until his death in 1897, and his hydroponic solution recipes for identifying essential plant mineral nutrients remain recognisable in modern plant nutrient science.",
-          "links": [],
+          "links": [
+            "th1"
+          ],
           "keywords": [
             "experimental plant physiology founder",
             "chloroplast starch demonstration",
@@ -1503,7 +1560,10 @@
           "tag": "DEBATE",
           "hint": "Natural C3 photosynthesis operates well below its underlying thermodynamic efficiency limit, partly because the carbon-fixing enzyme RuBisCO wastefully reacts with oxygen as well as CO2, triggering a costly cleanup process called photorespiration — engineering a more efficient synthetic bypass route for that cleanup step produced dramatic yield gains in field trials, but whether such gains will translate reliably across different crops, soils, and real-world growing conditions at commercial scale remains genuinely unresolved.",
           "note": "South, P.F., Cavanagh, A.P., Liu, H.W. & Ort, D.R. (2019). 'Synthetic Glycolate Metabolism Pathways Stimulate Crop Growth and Productivity in the Field.' Science, 363(6422), eaat9077, reported a 20% improvement in photosynthetic quantum yield and over 40% increase in biomass in field-grown transgenic tobacco. Skeptics note that photorespiration bypass gains measured in tobacco field trials have not yet been fully replicated at commercial scale in major food crops such as rice, soybean, or wheat, where regulatory, agronomic, and genetic-background differences could substantially blunt the benefit.",
-          "links": [],
+          "links": [
+            "ef2",
+            "ef3"
+          ],
           "keywords": [
             "photorespiration bypass engineering",
             "photosynthetic efficiency ceiling",
@@ -1523,7 +1583,9 @@
           "tag": "DEBATE",
           "hint": "Damaged willow and poplar leaves release airborne volatile compounds, and nearby undamaged trees exposed to that air were found to raise their own chemical defences shortly afterward — a claim initially met with deep skepticism, since it required believing plants could 'eavesdrop' on airborne signals from a neighbour they had no evolutionary reason to warn, and early replication attempts under more controlled conditions produced inconsistent results, though subsequent field studies using more sensitive chemical detection methods have substantiated the effect in several other plant-insect systems.",
           "note": "Baldwin, I.T. & Schultz, J.C. (1983). 'Rapid Changes in Tree Leaf Chemistry Induced by Damage: Evidence for Communication Between Plants.' Science, 221(4607), 277–279, first proposed the effect based on poplar and sugar maple seedlings. The now-favoured interpretation treats the phenomenon less as deliberate interplant 'communication' evolved to warn relatives, and more as an inadvertent byproduct of a plant's own internal within-plant volatile signalling that a neighbouring plant simply happens to be positioned to detect and exploit for its own benefit.",
-          "links": [],
+          "links": [
+            "ef4"
+          ],
           "keywords": [
             "airborne volatile organic compound",
             "interplant eavesdropping skepticism",
@@ -1565,7 +1627,10 @@
           "tag": "DEBATE",
           "hint": "The traditional picture of crop domestication imagines early farmers deliberately selecting and replanting seeds from the most desirable wild plants, generation after generation, until a fully domesticated crop emerged — but genetic and archaeological evidence increasingly suggests domestication traits such as non-shattering seed heads accumulated slowly and largely unconsciously over a thousand years or more, arising more from which wild plant variants simply survived repeated harvesting and replanting than from any deliberate breeding programme at all.",
           "note": "Purugganan, M.D. & Fuller, D.Q. (2009). 'The Nature of Selection During Plant Domestication.' Nature, 457, 843–848, reviewed archaeobotanical evidence showing key domestication traits in wheat and barley took roughly 1,000–2,000 years to become fixed, far too slow and gradual to reflect intentional, targeted selection by early farmers who would have had every incentive to select faster. This gradualist, largely-unconscious model has become the dominant view, though the relative contribution of conscious human choice versus automatic harvesting-driven selection likely varied considerably between different crop species and regions.",
-          "links": [],
+          "links": [
+            "ap2",
+            "co6"
+          ],
           "keywords": [
             "unconscious domestication selection",
             "non-shattering seed trait timeline",
@@ -1596,7 +1661,9 @@
           "tag": "APPLICATION",
           "hint": "Growing crops in stacked, climate-controlled indoor layers under tuned LED lighting lets growers precisely optimise light spectrum, temperature, humidity, and photoperiod for maximum growth regardless of outdoor season or climate, and eliminate agricultural runoff and most pesticide use entirely — a direct engineering application of basic plant photobiology, though the energy cost of artificial lighting remains the central economic constraint limiting which crops can be grown profitably this way.",
           "note": "Despommier, D. developed the modern vertical farming concept with graduate students at Columbia University beginning in 1999, later popularised in The Vertical Farm: Feeding the World in the 21st Century (2010). Commercial vertical farms today mostly grow high-value, fast-cycling leafy greens and herbs, since staple grain crops remain economically impractical to grow this way given current lighting energy costs relative to their market value.",
-          "links": [],
+          "links": [
+            "th1"
+          ],
           "keywords": [
             "led spectrum crop optimization",
             "climate controlled indoor agriculture",
@@ -1616,7 +1683,9 @@
           "tag": "APPLICATION",
           "hint": "The world's most widely used herbicide kills plants by blocking a single enzyme in a biochemical pathway plants use to build three essential amino acids — a pathway entirely absent in animals, which get those amino acids from diet instead, giving the herbicide a genuine mechanistic basis for selective toxicity toward plants specifically, the same underlying logic (a target structure or pathway absent from the organism you want to spare) behind selective antimicrobial drug design.",
           "note": "Steinrücken, H.C. & Amrhein, N. (1980). 'The Herbicide Glyphosate is a Potent Inhibitor of 5-Enolpyruvylshikimic Acid-3-Phosphate Synthase.' Biochemical and Biophysical Research Communications, 94(4), 1207–1212, identified EPSP synthase, an enzyme in the shikimate pathway, as glyphosate's molecular target. Widespread commercial use since the 1990s of glyphosate-tolerant genetically engineered crops (see cell-molecular-bio::ap5) has since driven the evolution of glyphosate-resistant weeds in many agricultural regions, an evolutionary response directly analogous to antibiotic resistance in bacteria.",
-          "links": [],
+          "links": [
+            "db8"
+          ],
           "xlinks": [
             "cell-molecular-bio::ap5"
           ],
@@ -1661,7 +1730,9 @@
           "tag": "APPLICATION",
           "hint": "Storing dried seed samples at sub-zero temperatures deep inside a mountain on a remote Arctic island preserves crop genetic diversity as a backup against the loss of any single national or regional seed collection to war, natural disaster, equipment failure, or simple funding cuts — insurance against genetic diversity that, once lost when a locally-adapted crop variety goes extinct, can never be recreated, since it represents thousands of years of accumulated, irreplaceable local selection.",
           "note": "The Svalbard Global Seed Vault opened on 26 February 2008, built into permafrost bedrock specifically chosen to keep samples frozen for centuries even without power. The vault has already proven its purpose: in 2015, researchers withdrew a backup sample to help re-establish Syria's national seed bank after its original collection near Aleppo became inaccessible amid civil war, exactly the kind of contingency the facility was built to cover.",
-          "links": [],
+          "links": [
+            "ef4"
+          ],
           "keywords": [
             "arctic permafrost seed storage",
             "crop genetic diversity backup",
@@ -1681,7 +1752,9 @@
           "tag": "APPLICATION",
           "hint": "Certain plant species can pull heavy metals or break down organic pollutants out of contaminated soil and water directly through their own roots, some accumulating toxic metals like lead or cadmium in their tissue at concentrations many times higher than the surrounding soil — a cheap, low-disturbance, solar-powered decontamination method compared to excavating and physically removing polluted soil, though it works far more slowly and only on land contaminated shallowly enough for roots to reach.",
           "note": "Salt, D.E., Smith, R.D. & Raskin, I. (1998). 'Phytoremediation.' Annual Review of Plant Physiology and Plant Molecular Biology, 49, 643–668, formalised the field, distinguishing metal-accumulating phytoextraction from pollutant-degrading phytodegradation as distinct mechanisms. Plant-based phytoremediation targets a different, generally shallower and lower-concentration class of contamination than bacterial bioremediation (see microbiology-virology::ap4), and the two approaches are increasingly combined, since many effective phytoremediating plants host pollutant-degrading bacteria in their own root zone.",
-          "links": [],
+          "links": [
+            "co5"
+          ],
           "xlinks": [
             "microbiology-virology::ap4"
           ],
@@ -1704,7 +1777,9 @@
           "tag": "APPLICATION",
           "hint": "An American aphid-like insect accidentally imported to Europe on nursery vines in the 1860s spent two decades quietly devastating French vineyards by feeding on grapevine roots, since European wine grapevines had no evolved resistance to a pest their American wild-grape relatives had lived alongside for millions of years — the industry-saving solution was to graft the traditional European fruiting varieties onto resistant American rootstock, a fix now so universal that nearly all wine grapevines worldwide grow on American roots today.",
           "note": "French vineyard laws formally sanctioning rootstock grafting were passed in 1878 and 1879, following roughly fifteen years of failed alternative remedies including soil flooding and chemical treatments; the practice became near-universal across French viticulture by the 1890s. The episode remains the clearest large-scale historical demonstration that grafting compatibility can be exploited to combine a desired variety's fruit quality with an entirely different variety's pest or disease resistance, a principle since applied to citrus, apples, and many other grafted fruit crops.",
-          "links": [],
+          "links": [
+            "me4"
+          ],
           "keywords": [
             "phylloxera root feeding pest",
             "american rootstock resistance grafting",

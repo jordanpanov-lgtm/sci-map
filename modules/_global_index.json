@@ -2,7 +2,7 @@
   "_meta": {
     "total_entries": 2219,
     "folio_count": 29,
-    "xlink_pairs": 157,
+    "xlink_pairs": 158,
     "keyword_terms": 7827,
     "folios": [
       {
@@ -3070,6 +3070,12 @@
     ],
     "microbiology-virology::db3": [
       "cell-molecular-bio::ef6"
+    ],
+    "microbiology-virology::ap3": [
+      "physiology-organ-systems::ef11"
+    ],
+    "physiology-organ-systems::ef11": [
+      "microbiology-virology::ap3"
     ],
     "neuroscience::th8": [
       "physiology-organ-systems::th9",

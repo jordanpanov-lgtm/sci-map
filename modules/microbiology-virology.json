@@ -284,7 +284,10 @@
           "tag": "THEORY",
           "hint": "An RNA virus does not replicate as a single, fixed genetic sequence — its polymerase makes copying errors so frequently that any infected host actually carries a whole cloud of closely related genetic variants clustered around one dominant sequence, with natural selection acting on the cloud as a whole rather than on any single genome, which is part of why RNA viruses such as influenza and HIV evolve drug resistance and immune escape so much faster than DNA-based organisms.",
           "note": "Eigen, M. (1971). 'Selforganization of Matter and the Evolution of Biological Macromolecules.' Die Naturwissenschaften, 58(10), 465–523, developed the mathematical framework originally to model the origin of life's earliest self-replicating molecules; Esteban Domingo and John Holland extended it directly to RNA viruses through the 1970s–80s. The theory implies that reducing an RNA virus's mutation rate even slightly below a critical threshold — deliberately, with mutagenic antiviral drugs — can collapse the whole quasispecies cloud in an 'error catastrophe,' an active antiviral strategy today.",
-          "links": [],
+          "links": [
+            "db6",
+            "ef5"
+          ],
           "keywords": [
             "rna virus mutant cloud",
             "error prone replication",
@@ -557,7 +560,8 @@
           "note": "Woese, C.R. & Fox, G.E. (1977). 'Phylogenetic Structure of the Prokaryotic Domain: The Primary Kingdoms.' Proceedings of the National Academy of Sciences, 74(11), 5088–5090. The finding was met with public skepticism from senior microbiologists, including a widely reported dismissive New York Times op-ed; it was robustly confirmed by every subsequent genomic comparison and now underlies the three-domain system (see th2) taught as standard biology.",
           "links": [
             "th2",
-            "fg9"
+            "fg9",
+            "me4"
           ],
           "keywords": [
             "16s rrna comparison",
@@ -640,7 +644,8 @@
           "note": "Cohn, F. (1876). 'Untersuchungen über Bacterien IV: Beiträge zur Biologie der Bacillen.' Beiträge zur Biologie der Pflanzen, 2(2), 249–276, the first systematic description of bacterial endospore formation and germination, using Bacillus. Endospore heat-resistance directly complicated Pasteur's biogenesis experiments (see th5, st2), since broths sterilised by boiling alone could still 'spontaneously' regrow from surviving spores — a confounding factor Pasteur and contemporaries had to work around before John Tyndall's fractional sterilisation method resolved it.",
           "links": [
             "fg3",
-            "th5"
+            "th5",
+            "ap6"
           ],
           "keywords": [
             "bacterial endospore dormancy",
@@ -711,7 +716,9 @@
           "repl": "robust",
           "hint": "A cell infected by one virus often becomes measurably more resistant to infection by a second, unrelated virus shortly afterward — not because the first virus physically blocks the second, but because the infected cell actively secretes a small signalling protein that warns neighbouring, still-healthy cells to switch on a battery of antiviral defences before the second virus ever arrives, an early-warning immune signal rather than a passive occupancy effect.",
           "note": "Isaacs, A. & Lindenmann, J. (1957). 'Virus Interference. I. The Interferon.' Proceedings of the Royal Society of London B, 147(927), 258–267, identified the diffusible protein factor responsible for the interference phenomenon virologists had observed for decades without explanation. Interferon signalling is now understood as a core arm of the vertebrate innate antiviral immune response, and recombinant interferon has itself become a therapeutic drug for chronic viral infections and some cancers.",
-          "links": [],
+          "links": [
+            "th9"
+          ],
           "keywords": [
             "interferon antiviral signalling",
             "viral interference phenomenon",
@@ -825,7 +832,9 @@
           "repl": "robust",
           "hint": "Long before CRISPR became a gene-editing tool, it was already doing a job inside bacteria and archaea: cells that survive a bacteriophage infection clip a short fragment of the invading virus's DNA and file it away in their own genome as a permanent molecular mugshot, then use that stored sequence to recognise and destroy the same phage's DNA on any future infection — a genuine, heritable, sequence-specific adaptive immune system, the only one known outside vertebrates.",
           "note": "Barrangou, R. et al. (2007). 'CRISPR Provides Acquired Resistance Against Viruses in Prokaryotes.' Science, 315(5819), 1709–1712, working with the yoghurt-fermentation bacterium Streptococcus thermophilus at the dairy-culture company Danisco, was the first direct experimental proof that CRISPR spacer sequences confer phage resistance, five years before Jennifer Doudna and Emmanuelle Charpentier repurposed the same bacterial system into a programmable gene-editing tool (see cell-molecular-bio::st10).",
-          "links": [],
+          "links": [
+            "db8"
+          ],
           "xlinks": [
             "cell-molecular-bio::st10"
           ],
@@ -974,7 +983,8 @@
           "hint": "Every organism can be classified along two independent axes: where it gets its energy (from light, phototrophy, or from chemical reactions, chemotrophy) and where it gets its carbon (from carbon dioxide, autotrophy, or from pre-made organic molecules, heterotrophy) — a simple two-by-two grid that captures a metabolic diversity among microbes unmatched by plants and animals, which occupy only one of the four resulting categories each, since microbes alone include organisms combining every possible pairing.",
           "note": "Kluyver, A.J. & van Niel, C.B. (1956). The Microbe's Contribution to Biology. Harvard University Press, synthesising the 'unity of biochemistry' framework developed at the Delft School of Microbiology across the careers of Beijerinck, Kluyver and van Niel. Chemolithotrophic bacteria (see th6), which are simultaneously chemotrophic and autotrophic, occupy a metabolic category with no parallel anywhere among plants, animals or fungi.",
           "links": [
-            "th6"
+            "th6",
+            "ap2"
           ],
           "keywords": [
             "autotroph heterotroph classification",
@@ -1030,7 +1040,8 @@
           "hint": "A four-step staining sequence — crystal violet, an iodine mordant to fix the dye, a decolorising alcohol or acetone wash, and a red safranin counterstain — sorts almost any bacterial sample into Gram-positive or Gram-negative within minutes using nothing more than a microscope and basic reagents, making it the very first diagnostic test run on an unidentified bacterial sample in clinical and research labs alike, well over a century after its introduction.",
           "note": "Hucker, G.J. (1921). 'A New Modification and Application of the Gram Stain.' Journal of Bacteriology, 6(4), 395–397, replacing Gram's original aniline-gentian-violet solution with a more stable ammonium oxalate-crystal violet formulation that keeps its potency on the shelf far longer. The Hucker modification, not Gram's 1884 original recipe (see co1), is the version of the protocol actually used in laboratories today.",
           "links": [
-            "co1"
+            "co1",
+            "me2"
           ],
           "keywords": [
             "gram stain protocol",
@@ -1051,7 +1062,10 @@
           "tag": "METHOD",
           "hint": "Spreading a bacterial sample thinly across a flat, solid growth medium in a shallow, easily stacked, lidded glass dish lets each individual bacterial cell grow into its own physically separated, visible colony — a pure culture descended from one starting cell — solving the basic problem that had made rigorous bacteriology nearly impossible: liquid broths let every species in a mixed sample grow tangled together with no way to isolate just one.",
           "note": "Petri, R.J. (1887). 'Eine kleine Modification des Koch'schen Plattenverfahrens.' Centralblatt für Bacteriologie und Parasitenkunde, 1, 279–280, improving on Robert Koch's earlier, more awkward glass-plate technique while working as Koch's assistant. The solidifying agent itself mattered as much as the dish — gelatin, tried first, melted at body temperature and could be digested by many bacteria, until Fanny Hesse, wife of a colleague in Koch's laboratory, suggested agar, a seaweed extract already used in her kitchen that neither melts near body temperature nor is degraded by most microbes.",
-          "links": [],
+          "links": [
+            "me1",
+            "me4"
+          ],
           "keywords": [
             "pure culture isolation",
             "solid growth medium",
@@ -1093,7 +1107,10 @@
           "tag": "METHOD",
           "hint": "Since well over 99% of environmental microbial species have never been successfully grown in laboratory culture, metagenomics skips culturing entirely — extracting and sequencing all the DNA present in an environmental sample at once, whether soil, seawater or the human gut, then using computational methods to reconstruct individual genomes or gene functions from the resulting mixture, opening the vast majority of microbial diversity to study for the first time.",
           "note": "Handelsman, J., Rondon, M.R., Brady, S.F., Clardy, J. & Goodman, R.M. (1998). 'Molecular Biological Access to the Chemistry of Unknown Soil Microbes: A New Frontier for Natural Products.' Chemistry & Biology, 5(10), R245–R249, coined the term. The technique directly enabled the Human Microbiome Project and similar large-scale surveys, revealing thousands of microbial species and metabolic genes with no cultured representative in any laboratory collection anywhere.",
-          "links": [],
+          "links": [
+            "st10",
+            "me2"
+          ],
           "keywords": [
             "culture independent sequencing",
             "environmental dna survey",
@@ -1527,7 +1544,10 @@
           "tag": "DEBATE",
           "hint": "Deliberately engineering a dangerous pathogen, such as H5N1 avian influenza, to become transmissible between mammals via the air — research its proponents argue is essential for anticipating and preparing against a future natural pandemic strain — creates a real, physical laboratory-grown organism with genuine pandemic potential, and critics argue the modest predictive benefit of any single such experiment is dramatically outweighed by the risk of an accidental release or deliberate misuse, a dispute serious enough to trigger an actual US federal research funding moratorium.",
           "note": "Herfst, S. et al. (2012). 'Airborne Transmission of Influenza A/H5N1 Virus Between Ferrets.' Science, 336(6088), 1534–1541, from Ron Fouchier's laboratory, demonstrated H5N1 could acquire airborne mammalian transmissibility through as few as five mutations. Lipsitch, M. & Galvani, A.P. (2014). 'Ethical Alternatives to Experiments with Novel Potential Pandemic Pathogens.' PLOS Medicine, 11(5), e1001646, argued the same scientific insight could usually be obtained through lower-risk methods, and that the small probability of a catastrophic lab-acquired outbreak makes the expected cost of gain-of-function work unacceptably high; the debate directly shaped a 2014–2017 US federal funding pause on the highest-risk experiments.",
-          "links": [],
+          "links": [
+            "th9",
+            "db8"
+          ],
           "keywords": [
             "gain of function moratorium",
             "pandemic pathogen engineering risk",
@@ -1570,7 +1590,10 @@
           "tag": "DEBATE",
           "hint": "Chemically synthesising an entire bacterial genome from scratch, based on a digitally stored sequence, and transplanting it into an emptied host cell that then boots up and starts dividing under the synthetic genome's control was announced by its creators as making the 'first self-replicating species whose parent is a computer' — language critics immediately challenged, arguing the team had copied and slightly modified an existing, evolved genome and installed it into a pre-existing living cell rather than building life from non-living chemistry, a genuine feat of genome engineering but not, in any strong sense, the creation of new life.",
           "note": "Gibson, D.G. et al. (2010). 'Creation of a Bacterial Cell Controlled by a Chemically Synthesized Genome.' Science, 329(5987), 52–56, transplanted a synthesised, near-copy of the Mycoplasma mycoides genome into an emptied Mycoplasma capricolum cell to create 'JCVI-syn1.0.' Deplazes, A. & Huppenbauer, M. (2009). 'Synthetic Organisms and Living Machines.' Systems and Synthetic Biology, 3(1–4), 55–63, argued the philosophically loaded 'creating life' framing obscures a more accurate and still remarkable description: booting a designed genome inside an already-living cellular chassis that supplied every piece of existing biological machinery the synthetic DNA depended on.",
-          "links": [],
+          "links": [
+            "db6",
+            "ef10"
+          ],
           "keywords": [
             "synthetic genome transplantation",
             "minimal genome engineering",
@@ -1625,7 +1648,10 @@
           "tag": "APPLICATION",
           "hint": "Rather than simply filtering raw sewage, the activated sludge process aerates it in large tanks, encouraging a dense community of bacteria and protozoa to actively metabolise and break down the dissolved organic waste, then settles the resulting bacteria-rich sludge out of the now-cleaned water and recycles most of it back into the incoming tank to keep the microbial community continuously active — a biological treatment process now responsible for cleaning the wastewater of a large fraction of the world's urban population before it is released back into rivers and oceans.",
           "note": "Ardern, E. & Lockett, W.T. (1914). 'Experiments on the Oxidation of Sewage Without the Aid of Filters.' Journal of the Society of Chemical Industry, 33(10), 523–539, presented at Manchester's Davyhulme sewage works, coining the term 'activated sludge' for the recycled bacterial floc. The process remains, over a century later, the dominant method of municipal wastewater treatment worldwide, refined considerably in energy efficiency and nutrient removal but fundamentally unchanged in its core biological principle.",
-          "links": [],
+          "links": [
+            "co6",
+            "ap4"
+          ],
           "keywords": [
             "activated sludge process",
             "biological sewage treatment",
@@ -1645,11 +1671,16 @@
           "tag": "APPLICATION",
           "hint": "For patients with recurrent, antibiotic-resistant Clostridioides difficile infection — a severe intestinal illness that itself often follows earlier antibiotic treatment wiping out a patient's protective gut bacterial community — transferring filtered stool from a healthy donor directly into the patient's intestine restores a functioning bacterial ecosystem capable of outcompeting C. difficile, a treatment so dramatically more effective than further antibiotics that an ongoing clinical trial was stopped early on ethical grounds once the difference became undeniable.",
           "note": "van Nood, E. et al. (2013). 'Duodenal Infusion of Donor Feces for Recurrent Clostridium difficile.' New England Journal of Medicine, 368(5), 407–415, a randomised controlled trial halted early after donor-faeces infusion resolved 81% of cases versus roughly 31% for standard antibiotic therapy alone. The trial helped move faecal microbiota transplantation from an occasionally reported historical curiosity into a standard, guideline-recommended treatment, and spurred ongoing research into which specific bacterial species in a healthy donor sample are actually doing the therapeutic work.",
-          "links": [],
+          "links": [
+            "ap4"
+          ],
           "keywords": [
             "fecal transplant treatment",
             "c difficile recurrent infection",
             "gut microbiome restoration therapy"
+          ],
+          "xlinks": [
+            "physiology-organ-systems::ef11"
           ]
         },
         {
@@ -1665,7 +1696,10 @@
           "tag": "APPLICATION",
           "hint": "Naturally occurring oil-degrading bacteria, already present in most marine environments at low background levels, can be deliberately encouraged to multiply and break down spilled petroleum far faster than natural weathering alone by adding nitrogen and phosphorus fertiliser to the contaminated shoreline — the missing nutrients otherwise limiting the bacteria's growth rate — a technique tested at large scale for the first time after the 1989 Exxon Valdez spill in Alaska.",
           "note": "Atlas, R.M. (1995). 'Bioremediation of Petroleum Pollutants.' International Biodeterioration & Biodegradation, 35(1–3), 317–327, reviewing the Exxon Valdez fertiliser-application trials, which showed measurably accelerated oil degradation on treated shoreline sections compared to untreated controls. Bioremediation is now a standard tool in the oil-spill response toolkit, though it works far better on shoreline and soil contamination than on open water, and cannot fully substitute for mechanical containment and recovery on a fresh, large spill.",
-          "links": [],
+          "links": [
+            "ap2",
+            "ap3"
+          ],
           "keywords": [
             "oil degrading bacteria",
             "nutrient enhanced bioremediation",
@@ -1707,7 +1741,9 @@
           "tag": "APPLICATION",
           "hint": "Growing large fermentation tanks of Bacillus bacteria and harvesting the protein-digesting enzyme they naturally secrete gave detergent manufacturers a cheap, renewable source of a stain-removing additive that worked far better than any synthetic chemical alternative available at the time, launching the modern industrial enzyme industry and demonstrating that bacterial fermentation could mass-produce a specific, purified protein product for a completely non-medical consumer market.",
           "note": "Novo Industri A/S launched Alcalase, a Bacillus licheniformis-derived alkaline protease, into commercial laundry detergents in 1963, the first detergent enzyme produced by industrial microbial fermentation rather than extraction from animal tissue. The commercial success of Alcalase established the template — screen environmental bacteria for a useful enzyme, then scale production through fermentation — that the industrial enzyme industry has followed ever since, now supplying enzymes for uses ranging from biofuel production to food processing.",
-          "links": [],
+          "links": [
+            "ef2"
+          ],
           "keywords": [
             "industrial enzyme fermentation",
             "bacillus protease production",
