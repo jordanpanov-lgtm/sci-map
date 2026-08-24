@@ -168,9 +168,6 @@
             "neural reticulum",
             "golgi stain",
             "axon terminal"
-          ],
-          "xlinks": [
-            "anatomy-histology::db2"
           ]
         },
         {
@@ -249,9 +246,6 @@
             "bayesian brain",
             "free energy principle",
             "active inference"
-          ],
-          "xlinks": [
-            "epistemology::me4"
           ]
         },
         {
@@ -378,9 +372,6 @@
             "distributed representation",
             "gradient descent",
             "neural network model"
-          ],
-          "xlinks": [
-            "computer-science::co6"
           ]
         },
         {
@@ -408,10 +399,6 @@
             "protein synthesis",
             "synapse-specific plasticity",
             "spaced repetition"
-          ],
-          "xlinks": [
-            "general-cognitive-psych::ef3",
-            "general-cognitive-psych::ap2"
           ]
         },
         {
@@ -754,9 +741,6 @@
             "REM sleep",
             "memory reconsolidation",
             "offline replay"
-          ],
-          "xlinks": [
-            "general-cognitive-psych::ef9"
           ]
         },
         {
@@ -868,9 +852,6 @@
             "trolley problem",
             "amygdala activation",
             "utilitarian reasoning"
-          ],
-          "xlinks": [
-            "general-cognitive-psych::th4"
           ]
         },
         {
@@ -1138,9 +1119,6 @@
             "reinforcement learning",
             "mesolimbic pathway",
             "conditioned stimulus"
-          ],
-          "xlinks": [
-            "computer-science::st10"
           ]
         },
         {
@@ -1623,9 +1601,6 @@
             "double dissociation",
             "aphasia",
             "focal brain damage"
-          ],
-          "xlinks": [
-            "general-cognitive-psych::me6"
           ]
         },
         {
@@ -1696,9 +1671,6 @@
             "st9",
             "st14",
             "st15"
-          ],
-          "xlinks": [
-            "general-cognitive-psych::me4"
           ],
           "hint": "fMRI detects regional changes in blood oxygenation (BOLD — blood-oxygen-level-dependent) as a proxy for neural activity. Activated neurons increase local blood flow, raising the ratio of oxyhaemoglobin to deoxyhaemoglobin and producing a detectable MRI signal change. Allows whole-brain imaging at 2–3 mm resolution without ionising radiation; temporal resolution ~1–2 seconds.",
           "tag": "METHOD",
@@ -1826,9 +1798,6 @@
             "cajal drawings",
             "retinal anatomy",
             "cerebellar architecture"
-          ],
-          "xlinks": [
-            "anatomy-histology::fg6"
           ]
         },
         {
@@ -2052,9 +2021,6 @@
             "gamma oscillation consciousness",
             "claustrum",
             "NCC hypothesis"
-          ],
-          "xlinks": [
-            "general-cognitive-psych::th6"
           ]
         },
         {
@@ -2301,9 +2267,6 @@
           ],
           "links": [
             "me4"
-          ],
-          "xlinks": [
-            "general-cognitive-psych::db7"
           ],
           "hint": "Eklund et al. re-analysed 15 years of resting-state fMRI data and found that widely used cluster-inference algorithms (in FSL, SPM, AFNI) produced false-positive rates up to 70% rather than the nominal 5%. Inflated false-positive rates mean many published activation maps may reflect noise, calling into question a large fraction of the neuroimaging literature.",
           "tag": "DEBATE",
