@@ -153,7 +153,9 @@
             "fg2",
             "th4",
             "st1",
-            "ap1"
+            "ap1",
+            "db8",
+            "ap4"
           ],
           "keywords": [
             "elliptical planetary orbit",
@@ -1661,7 +1663,9 @@
           "tag": "DEBATE",
           "hint": "After the discovery of numerous similarly sized icy bodies in the outer Solar System, including one, Eris, initially thought to be larger than Pluto, the International Astronomical Union voted to adopt a formal definition of 'planet' requiring an object to have gravitationally cleared its orbital neighbourhood of other debris — a criterion Pluto fails, since it shares its orbital zone with countless other Kuiper Belt objects, reclassifying it as a 'dwarf planet' and triggering a public backlash that persists among some astronomers and much of the public to this day.",
           "note": "International Astronomical Union Resolution B5 (2006), adopted at the IAU General Assembly in Prague by a vote of the roughly 400 members still present on the assembly's final day, a small fraction of the IAU's total membership, which critics have cited as undermining the vote's legitimacy. Some planetary scientists, including several involved in NASA's New Horizons mission to Pluto, continue to argue for a geophysical definition of 'planet' based on an object's own physical properties rather than its orbital neighbourhood, which would restore Pluto's planetary status.",
-          "links": [],
+          "links": [
+            "db8"
+          ],
           "keywords": [
             "dwarf planet reclassification",
             "iau orbital clearing criterion",
@@ -1827,7 +1831,10 @@
           "tag": "DEBATE",
           "hint": "The unusually clustered, aligned orbits of a small number of extremely distant icy bodies beyond Neptune are difficult to explain by chance alone, leading two astronomers to propose an as-yet-undiscovered ninth planet, roughly five to ten times Earth's mass, orbiting far beyond Pluto and gravitationally shepherding these objects into their observed alignment — a hypothesis that would restore a ninth full planet to the Solar System, though direct searches across the region of sky where it should be visible have so far failed to find it.",
           "note": "Batygin, K. & Brown, M.E. (2016). 'Evidence for a Distant Giant Planet in the Solar System.' The Astronomical Journal, 151(2), 22. Sceptics argue the clustered orbits could instead reflect observational selection bias, since the surveys that found these distant objects were not equally sensitive across the whole sky, or could be the residual signature of a since-ejected planet rather than one still present today; ongoing wide-field sky surveys, including the Vera C. Rubin Observatory's Legacy Survey of Space and Time, are expected to either directly detect or substantially rule out the hypothesised planet within the coming years.",
-          "links": [],
+          "links": [
+            "db1",
+            "th1"
+          ],
           "keywords": [
             "undiscovered distant planet",
             "clustered kuiper belt orbits",
@@ -1883,7 +1890,8 @@
           "note": "The United States Air Force launched the first GPS satellite in 1978; the full 24-satellite constellation was completed in 1993 and opened to unrestricted civilian use in 2000. Each satellite's clock must also be corrected for relativistic time dilation effects — both from its orbital speed and its distance from Earth's gravity — a separate application of relativity theory covered in the quantum-nuclear-relativity folio; without both the Keplerian orbital calculation and the relativistic clock correction working together, GPS position estimates would drift by kilometres within a single day.",
           "links": [
             "th1",
-            "ap5"
+            "ap5",
+            "ap3"
           ],
           "keywords": [
             "satellite orbital positioning",
@@ -1926,7 +1934,9 @@
           "tag": "APPLICATION",
           "hint": "Understanding a satellite's stable orbit well enough to place it precisely, and especially the geostationary orbit — the specific altitude at which a satellite's orbital period exactly matches Earth's rotation, letting it appear to hang motionless over one fixed point on the ground — made possible the entire modern infrastructure of satellite television, long-distance telephone relay, and global internet backbone links that depend on a satellite staying reliably fixed in the sky relative to ground antennas.",
           "note": "Telstar 1, launched in 1962, relayed the first live transatlantic television broadcast. The concept of a geostationary communications satellite was proposed as a practical engineering possibility by science fiction author and satellite theorist Arthur C. Clarke in a 1945 Wireless World article, over a decade before the first satellite of any kind reached orbit; the geostationary orbital band is now sufficiently crowded with active satellites that international coordination is required to allocate specific orbital 'slots.'",
-          "links": [],
+          "links": [
+            "ap1"
+          ],
           "keywords": [
             "geostationary orbit communication",
             "transatlantic satellite relay",
@@ -1946,7 +1956,9 @@
           "tag": "APPLICATION",
           "hint": "Deliberately crashing a spacecraft directly into a small asteroid at high speed, NASA's DART mission tested whether the resulting momentum transfer could measurably change the asteroid's orbital period around its larger companion asteroid — a real-world proof of concept for the 'kinetic impactor' strategy proposed for deflecting a genuinely hazardous asteroid away from a future collision course with Earth, given enough advance warning time.",
           "note": "NASA's Double Asteroid Redirection Test spacecraft impacted the asteroid moonlet Dimorphos on 26 September 2022, successfully shortening its 11.9-hour orbital period around the larger asteroid Didymos by roughly 32 minutes — significantly more than the mission's minimum success threshold of 73 seconds. The mission was explicitly a proof-of-concept technology demonstration rather than a response to any actual impact threat, since no known near-Earth asteroid currently poses a significant collision risk within the next century.",
-          "links": [],
+          "links": [
+            "th1"
+          ],
           "keywords": [
             "kinetic impactor deflection",
             "dart mission test",
