@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 2285,
+    "total_entries": 2286,
     "folio_count": 30,
-    "xlink_pairs": 174,
-    "keyword_terms": 8018,
+    "xlink_pairs": 177,
+    "keyword_terms": 8021,
     "folios": [
       {
         "id": "anatomy-histology",
@@ -68,7 +68,7 @@
       {
         "id": "evolutionary-biology",
         "title": "Evolutionary Biology",
-        "entries": 68
+        "entries": 69
       },
       {
         "id": "general-cognitive-psych",
@@ -1126,6 +1126,7 @@
     "evolutionary-biology::fg10": "figure · Pioneers & Theorists · Willi Hennig (1950)",
     "evolutionary-biology::fg11": "figure · Pioneers & Theorists · Motoo Kimura (1968)",
     "evolutionary-biology::fg12": "figure · Pioneers & Theorists · George Gaylord Simpson (1944)",
+    "evolutionary-biology::fg13": "figure · Pioneers & Theorists · G. Ledyard Stebbins (1950)",
     "evolutionary-biology::db1": "debate · Coevolution & Evolution in Action · Adaptationism: Are All Traits Adaptive? (1979)",
     "evolutionary-biology::db2": "debate · Population Genetics · Multilevel Selection: Was Group Selection Wrongly Dismissed? (2007)",
     "evolutionary-biology::db3": "debate · Speciation · Species Concept Pluralism (1995)",
@@ -2917,6 +2918,16 @@
     "general-cognitive-psych::ap1": [
       "epistemology::ap1"
     ],
+    "evolutionary-biology::th1": [
+      "microbiology-virology::th2",
+      "cell-molecular-bio::th5"
+    ],
+    "microbiology-virology::th2": [
+      "evolutionary-biology::th1"
+    ],
+    "cell-molecular-bio::th5": [
+      "evolutionary-biology::th1"
+    ],
     "evolutionary-biology::st6": [
       "biological-anthropology::co4"
     ],
@@ -2970,6 +2981,12 @@
     ],
     "zoology-animal-behavior::db3": [
       "evolutionary-biology::fg8"
+    ],
+    "evolutionary-biology::fg13": [
+      "botany::co6"
+    ],
+    "botany::co6": [
+      "evolutionary-biology::fg13"
     ],
     "evolutionary-biology::db2": [
       "zoology-animal-behavior::db1"
@@ -8552,6 +8569,11 @@
       "tempo mode evolution",
       "paleontology synthesis integration",
       "quantum evolution concept"
+    ],
+    "evolutionary-biology::fg13": [
+      "polyploidy plant speciation",
+      "modern synthesis botany",
+      "chromosome doubling species formation"
     ],
     "evolutionary-biology::db1": [
       "adaptationism critique",
@@ -25796,6 +25818,15 @@
     ],
     "quantum evolution concept": [
       "evolutionary-biology::fg12"
+    ],
+    "polyploidy plant speciation": [
+      "evolutionary-biology::fg13"
+    ],
+    "modern synthesis botany": [
+      "evolutionary-biology::fg13"
+    ],
+    "chromosome doubling species formation": [
+      "evolutionary-biology::fg13"
     ],
     "adaptationism critique": [
       "evolutionary-biology::db1"

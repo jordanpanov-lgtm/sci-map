@@ -15,14 +15,14 @@
   "mapZoom": 3,
   "methodology": "METHODOLOGY · Every entry anchors to a landmark study, paper, dataset or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags replication status, revisions and known controversies. Studies and effects carry a replicability badge — 🟢 confirmed to high confidence · 🟡 nuanced, contested or partially revised · 🔴 failed or severely disputed. Map pins mark the institution or field site where the work was carried out.",
   "_meta": {
-    "total_entries": 68,
+    "total_entries": 69,
     "entry_counts": {
       "theory": 9,
       "study": 11,
       "effect": 8,
       "concept": 8,
       "method": 6,
-      "figure": 12,
+      "figure": 13,
       "debate": 8,
       "application": 6
     },
@@ -32,7 +32,7 @@
       "ef": 8,
       "co": 8,
       "me": 6,
-      "fg": 12,
+      "fg": 13,
       "db": 8,
       "ap": 6
     },
@@ -104,6 +104,7 @@
     "fg10": "figure · Pioneers & Theorists · Willi Hennig (1950)",
     "fg11": "figure · Pioneers & Theorists · Motoo Kimura (1968)",
     "fg12": "figure · Pioneers & Theorists · George Gaylord Simpson (1944)",
+    "fg13": "figure · Pioneers & Theorists · G. Ledyard Stebbins (1950)",
     "db1": "debate · Coevolution & Evolution in Action · Adaptationism: Are All Traits Adaptive? (1979)",
     "db2": "debate · Population Genetics · Multilevel Selection: Was Group Selection Wrongly Dismissed? (2007)",
     "db3": "debate · Speciation · Species Concept Pluralism (1995)",
@@ -148,6 +149,10 @@
             "co6",
             "st6"
           ],
+          "xlinks": [
+            "microbiology-virology::th2",
+            "cell-molecular-bio::th5"
+          ],
           "keywords": [
             "universal common ancestor",
             "tree of life branching",
@@ -166,12 +171,13 @@
           ],
           "tag": "THEORY",
           "hint": "By the early 20th century, Mendelian geneticists and Darwinian naturalists were talking past each other — geneticists saw mutation producing discrete jumps, naturalists saw gradual continuous change, and neither camp thought the other's evidence fit. The Modern Synthesis fused them: mutation supplies the raw variation, natural selection acting on many small-effect genes produces the smooth gradual change naturalists observed, and population genetics provides the mathematics connecting the two.",
-          "note": "Huxley, J. (1942). Evolution: The Modern Synthesis. London: Allen & Unwin, coined the name for a consensus built across the 1930s by Fisher, Haldane, Wright, Dobzhansky, Mayr and Simpson. Whether the synthesis as originally formulated is still sufficient, given later discoveries in epigenetics and evo-devo, is itself now a live debate (see db7).",
+          "note": "Huxley, J. (1942). Evolution: The Modern Synthesis. London: Allen & Unwin, coined the name for a consensus built across the 1930s and 1940s by Fisher, Haldane, Wright, Dobzhansky, Mayr, Simpson and, extending it to plants, Stebbins. Whether the synthesis as originally formulated is still sufficient, given later discoveries in epigenetics and evo-devo, is itself now a live debate (see db7).",
           "links": [
             "fg4",
             "fg6",
             "fg7",
             "fg12",
+            "fg13",
             "db7"
           ],
           "keywords": [
@@ -1473,6 +1479,31 @@
             "tempo mode evolution",
             "paleontology synthesis integration",
             "quantum evolution concept"
+          ]
+        },
+        {
+          "id": "fg13",
+          "group": "Pioneers & Theorists",
+          "label": "G. Ledyard Stebbins",
+          "date": "1950",
+          "loc": "University of California, Berkeley, Berkeley, California",
+          "coords": [
+            37.87,
+            -122.26
+          ],
+          "tag": "FIGURE",
+          "hint": "Fisher, Haldane, Wright, Dobzhansky, Mayr and Simpson built the Modern Synthesis almost entirely from animal genetics, systematics and paleontology — Stebbins supplied the missing botanical half, showing that plant evolution runs on mechanisms barely relevant to animals at all, above all polyploidy, the duplication of an entire chromosome set, which can create a new, reproductively isolated plant species in a single generation with no geographic separation required whatsoever.",
+          "note": "Stebbins, G.L. (1950). Variation and Evolution in Plants. New York: Columbia University Press, completed the Modern Synthesis's extension across the tree of life; Stebbins also co-founded the Society for the Study of Evolution and its journal Evolution in 1947. Polyploidy's outsized role in plant speciation, largely absent from the animal-focused synthesis literature, is covered in botanical depth in botany's own treatment of plant genetics.",
+          "links": [
+            "th2"
+          ],
+          "xlinks": [
+            "botany::co6"
+          ],
+          "keywords": [
+            "polyploidy plant speciation",
+            "modern synthesis botany",
+            "chromosome doubling species formation"
           ]
         }
       ]
