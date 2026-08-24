@@ -40,7 +40,8 @@
           "links": [
             "fg1",
             "co1",
-            "co6"
+            "co6",
+            "st6"
           ],
           "keywords": [
             "universal common ancestor",
@@ -162,7 +163,9 @@
           "note": "Dobzhansky, T. (1937). Genetics and the Origin of Species. New York: Columbia University Press, formalised the prezygotic/postzygotic distinction within the biological species concept framework Mayr later refined (see fg7). The classification remains the standard teaching framework for speciation genetics, though real barriers are often partial and accumulate gradually rather than appearing as a single discrete event.",
           "links": [
             "fg6",
-            "co4"
+            "co4",
+            "st3",
+            "st10"
           ],
           "keywords": [
             "prezygotic postzygotic barriers",
@@ -538,7 +541,8 @@
           "hint": "Sometimes selection actively maintains two or more versions of a gene in a population rather than driving one to fixation — the classic case being sickle-cell haemoglobin, where carriers of one copy of the sickle-cell allele resist malaria far better than either non-carriers or people with two copies (who develop sickle-cell disease), keeping both alleles at stable, non-zero frequencies indefinitely in malaria-endemic regions.",
           "note": "Allison, A.C. (1954). 'Protection Afforded by Sickle-cell Trait Against Subtertian Malarial Infection.' British Medical Journal, 1(4857), 290-294. The mechanism, heterozygote advantage, is the textbook example of balancing selection; other forms include frequency-dependent selection, where a trait's fitness depends on how common it already is.",
           "links": [
-            "th3"
+            "th3",
+            "st4"
           ],
           "keywords": [
             "heterozygote advantage malaria",
@@ -1086,7 +1090,12 @@
           "tag": "FIGURE",
           "hint": "Two decades of accumulated evidence — barnacle anatomy, pigeon breeding, biogeographic patterns from the Beagle voyage — went into a single argument: that heritable variation, acted on by differential survival and reproduction, is sufficient on its own to transform species over time, with no designing intelligence required. Darwin held the finished theory back for years, fearing the reaction, until Alfred Russel Wallace independently arrived at the same idea forced his hand.",
           "note": "Darwin, C.R. (1859). On the Origin of Species by Means of Natural Selection. London: John Murray. The book sold out its first printing on the day of publication and went through six editions in Darwin's lifetime, each revised in response to criticism. Darwin's own later work extended the theory into human evolution (see biological-anthropology::fg1) and into detailed botanical experimentation (see botany::fg5) — this entry anchors specifically to the general theory's founding text.",
-          "links": [],
+          "links": [
+            "th1",
+            "th8",
+            "st1",
+            "st2"
+          ],
           "xlinks": [
             "biological-anthropology::fg1",
             "botany::fg5",
@@ -1111,7 +1120,9 @@
           "tag": "FIGURE",
           "hint": "Independently, and without any knowledge of Darwin's twenty years of unpublished work, a field naturalist collecting specimens in the Malay Archipelago worked out essentially the same mechanism — natural selection — during a fever, and mailed the finished argument to Darwin for comment, unknowingly forcing the very disclosure Darwin had been delaying.",
           "note": "Wallace, A.R. (1858). 'On the Tendency of Varieties to Depart Indefinitely from the Original Type.' Read jointly with extracts of Darwin's unpublished work at the Linnean Society of London, 1 July 1858, published in the Journal of the Proceedings of the Linnean Society: Zoology, 3, 45–62. Wallace is also independently credited with founding biogeography as a discipline through his later mapping of the faunal boundary between Asian and Australian species, now called the Wallace Line.",
-          "links": [],
+          "links": [
+            "st1"
+          ],
           "keywords": [
             "independent codiscovery natural selection",
             "ternate letter",
@@ -1200,7 +1211,8 @@
           "hint": "A field-trained fruit fly geneticist rather than a mathematician, Dobzhansky wrote the book that actually convinced working naturalists and geneticists to accept the same underlying theory — translating Fisher, Haldane and Wright's mathematics into terms grounded in real Drosophila populations he had studied himself, becoming the single most important bridge between population genetics theory and the biologists who needed to be persuaded it was real.",
           "note": "Dobzhansky, T. (1937). Genetics and the Origin of Species. New York: Columbia University Press, the book most historians credit with actually launching the Modern Synthesis (see th2) as a working consensus rather than a set of separate mathematical papers. Dobzhansky's own later, widely quoted essay title — 'Nothing in Biology Makes Sense Except in the Light of Evolution' (1973) — became one of the most repeated summary statements of the field's unifying importance.",
           "links": [
-            "th2"
+            "th2",
+            "th6"
           ],
           "keywords": [
             "modern synthesis launching text",
@@ -1277,7 +1289,8 @@
           "hint": "Examining the fossil record honestly rather than assuming it must show what theory predicted, Eldredge and Gould noticed that most species appear abruptly, persist largely unchanged for long stretches, then are abruptly replaced — not the slow, continuous, gradual transformation Darwin himself had expected the fossil record to eventually reveal once collecting improved enough to fill the gaps.",
           "note": "Eldredge, N. & Gould, S.J. (1972). 'Punctuated Equilibria: An Alternative to Phyletic Gradualism.' In Schopf, T.J.M. (ed.), Models in Paleobiology, San Francisco: Freeman, Cooper & Co., 82–115. The proposal was initially received as a radical challenge to Darwinian gradualism and became one of the most publicly contested ideas in evolutionary biology (see db6), though both authors later clarified it was intended as a claim about tempo, not a rejection of natural selection as the underlying mechanism.",
           "links": [
-            "db6"
+            "db6",
+            "th5"
           ],
           "keywords": [
             "punctuated equilibria proposal",
@@ -1323,7 +1336,8 @@
           "hint": "Comparing the rate of amino acid substitution across proteins with the mutation rate population genetics predicted, Kimura found the numbers only made sense if the overwhelming majority of molecular-level genetic changes were selectively neutral — neither helpful nor harmful — spreading through populations by pure chance rather than natural selection, a claim that directly challenged the assumption that selection drives essentially all evolutionary change.",
           "note": "Kimura, M. (1968). 'Evolutionary Rate at the Molecular Level.' Nature, 217, 624–626, proposed the neutral theory of molecular evolution. The theory does not dispute that natural selection shapes visible morphology and behaviour — Kimura explicitly restricted the claim to the molecular level — but the relative proportion of neutral versus selected molecular change remains an active research question (see db8).",
           "links": [
-            "db8"
+            "db8",
+            "th4"
           ],
           "keywords": [
             "neutral theory molecular evolution",
@@ -1698,42 +1712,288 @@
       "icon": "🧪",
       "accent": "#7D3C98",
       "label": "Landmark Studies",
-      "events": []
+      "events": [
+        {
+          "entryId": "st1",
+          "y": 1858,
+          "label": "The Ternate Letter and the Joint 1858 Paper"
+        },
+        {
+          "entryId": "st9",
+          "y": 1889,
+          "label": "Weismann's Tail-Cutting Experiment"
+        },
+        {
+          "entryId": "st4",
+          "y": 1955,
+          "label": "Industrial Melanism in the Peppered Moth"
+        },
+        {
+          "entryId": "st7",
+          "y": 1967,
+          "label": "Sarich & Wilson's Molecular Clock Dating of Hominid Divergence"
+        },
+        {
+          "entryId": "st3",
+          "y": 1969,
+          "label": "Rhagoletis Apple Maggot Fly Sympatric Speciation"
+        },
+        {
+          "entryId": "st2",
+          "y": 1988,
+          "label": "The Long-Term Evolution Experiment"
+        },
+        {
+          "entryId": "st5",
+          "y": 1994,
+          "label": "Lake Victoria Cichlid Radiation"
+        },
+        {
+          "entryId": "st11",
+          "y": 1995,
+          "label": "The Eyeless Gene and Deep Homology"
+        },
+        {
+          "entryId": "st10",
+          "y": 2001,
+          "label": "Ensatina Salamander Ring Species"
+        },
+        {
+          "entryId": "st8",
+          "y": 2003,
+          "label": "Avida and the Evolution of Complex Digital Traits"
+        },
+        {
+          "entryId": "st6",
+          "y": 2005,
+          "label": "The Chimpanzee Genome Comparison"
+        }
+      ]
     },
     {
       "id": "theory",
       "icon": "📐",
       "accent": "#2471A3",
       "label": "Theories & Models",
-      "events": []
+      "events": [
+        {
+          "entryId": "th1",
+          "y": 1859,
+          "label": "Common Descent"
+        },
+        {
+          "entryId": "th3",
+          "y": 1908,
+          "label": "Hardy–Weinberg Equilibrium"
+        },
+        {
+          "entryId": "th6",
+          "y": 1937,
+          "label": "Reproductive Isolating Mechanisms"
+        },
+        {
+          "entryId": "th2",
+          "y": 1942,
+          "label": "The Modern Synthesis"
+        },
+        {
+          "entryId": "th7",
+          "y": 1965,
+          "label": "Molecular Clock Hypothesis"
+        },
+        {
+          "entryId": "th4",
+          "y": 1968,
+          "label": "Neutral Theory of Molecular Evolution"
+        },
+        {
+          "entryId": "th5",
+          "y": 1972,
+          "label": "Punctuated Equilibrium"
+        },
+        {
+          "entryId": "th9",
+          "y": 1973,
+          "label": "Red Queen Hypothesis"
+        },
+        {
+          "entryId": "th8",
+          "y": 2000,
+          "label": "Adaptive Radiation Theory"
+        }
+      ]
     },
     {
       "id": "effect",
       "icon": "📊",
       "accent": "#117A65",
       "label": "Effects & Phenomena",
-      "events": []
+      "events": [
+        {
+          "entryId": "ef4",
+          "y": 1896,
+          "label": "The Baldwin Effect"
+        },
+        {
+          "entryId": "ef8",
+          "y": 1950,
+          "label": "Genetic Load"
+        },
+        {
+          "entryId": "ef1",
+          "y": 1954,
+          "label": "Balancing Selection"
+        },
+        {
+          "entryId": "ef7",
+          "y": 1956,
+          "label": "Character Displacement"
+        },
+        {
+          "entryId": "ef3",
+          "y": 1964,
+          "label": "Muller's Ratchet"
+        },
+        {
+          "entryId": "ef2",
+          "y": 1974,
+          "label": "Genetic Hitchhiking"
+        },
+        {
+          "entryId": "ef6",
+          "y": 1985,
+          "label": "The Founder Effect"
+        },
+        {
+          "entryId": "ef5",
+          "y": 2018,
+          "label": "Convergent Evolution"
+        }
+      ]
     },
     {
       "id": "method",
       "icon": "🔬",
       "accent": "#8B5E00",
       "label": "Methods",
-      "events": []
+      "events": [
+        {
+          "entryId": "me6",
+          "y": 1940,
+          "label": "Common Garden and Reciprocal Transplant Experiments"
+        },
+        {
+          "entryId": "me1",
+          "y": 1981,
+          "label": "Phylogenetic Tree Construction"
+        },
+        {
+          "entryId": "me5",
+          "y": 1982,
+          "label": "Coalescent Theory"
+        },
+        {
+          "entryId": "me2",
+          "y": 1985,
+          "label": "Ancestral State Reconstruction"
+        },
+        {
+          "entryId": "me4",
+          "y": 1988,
+          "label": "Quantitative Trait Locus (QTL) Mapping"
+        },
+        {
+          "entryId": "me3",
+          "y": 2005,
+          "label": "Comparative Genomics"
+        }
+      ]
     },
     {
       "id": "debate",
       "icon": "⚖️",
       "accent": "#B7770D",
       "label": "Debates & Revisions",
-      "events": []
+      "events": [
+        {
+          "entryId": "db4",
+          "y": 1931,
+          "label": "Is the Shifting Balance Theory Real?"
+        },
+        {
+          "entryId": "db6",
+          "y": 1972,
+          "label": "Punctuated Equilibrium versus Gradualism"
+        },
+        {
+          "entryId": "db1",
+          "y": 1979,
+          "label": "Adaptationism: Are All Traits Adaptive?"
+        },
+        {
+          "entryId": "db5",
+          "y": 1989,
+          "label": "Is Evolution Predictable? Convergence versus Contingency"
+        },
+        {
+          "entryId": "db8",
+          "y": 1991,
+          "label": "How Much Molecular Evolution Is Neutral?"
+        },
+        {
+          "entryId": "db3",
+          "y": 1995,
+          "label": "Species Concept Pluralism"
+        },
+        {
+          "entryId": "db2",
+          "y": 2007,
+          "label": "Multilevel Selection: Was Group Selection Wrongly Dismissed?"
+        },
+        {
+          "entryId": "db7",
+          "y": 2010,
+          "label": "Does Evolutionary Theory Need Extending?"
+        }
+      ]
     },
     {
       "id": "application",
       "icon": "🔗",
       "accent": "#2E86C1",
       "label": "Applications",
-      "events": []
+      "events": [
+        {
+          "entryId": "ap6",
+          "y": 1993,
+          "label": "Directed Evolution in Protein Engineering"
+        },
+        {
+          "entryId": "ap5",
+          "y": 1994,
+          "label": "Evolutionary Medicine"
+        },
+        {
+          "entryId": "ap1",
+          "y": 1995,
+          "label": "Conservation Genetics and Genetic Rescue"
+        },
+        {
+          "entryId": "ap2",
+          "y": 2001,
+          "label": "Genomic Selection in Livestock Breeding"
+        },
+        {
+          "entryId": "ap3",
+          "y": 2020,
+          "label": "Phylogenetics in Public Health Outbreak Tracing"
+        },
+        {
+          "entryId": "ap4",
+          "y": 2021,
+          "label": "De-extinction and Ancient DNA-Based Species Revival"
+        }
+      ]
     }
   ]
 }
