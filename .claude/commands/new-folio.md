@@ -405,6 +405,16 @@ cross.forEach(([term,keys]) => {
 
 For each match, verify **manually** that both entries refer to the same concept, person, or study — not just a shared word. Add `"xlinks": ["folio::id"]` to the entry in the JSON file (one direction only; the global index derives the reverse automatically).
 
+**While you're looking at the candidate entry anyway, sanity-check its placement too.** You're
+already reading its `hint`/`note` and comparing it against your own folio's territory to decide
+whether the xlink is genuine — that's the same judgment call needed to spot a misplaced entry: does
+the candidate's content read as primarily belonging to *its own* folio (correct, proceed with the
+xlink), or does it actually read as more centrally *your* folio's territory, sitting where it does
+only because that folio was built first and needed the topic covered for completeness? This is rare.
+If it happens, the fix is not an xlink — migrating an entry between folios is real surgery (new id,
+`_meta`/`_index`/timeline/study-plan updates in both files) and needs the user's sign-off before you
+touch anything; just flag it and move on. Don't let it block wiring the xlinks you're confident in.
+
 Rules:
 - Only wire an xlink when you are confident it is a genuine cross-field connection
 - Do not xlink to a folio still at `status:"planned"`

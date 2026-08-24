@@ -199,6 +199,35 @@ Rules:
 To search for candidates, query `_global_index.json` directly, or run the standalone
 discovery script (`modules/build-xlink-candidates.js`) as a one-off research tool.
 
+**Placement audits — is the entry itself in the right folio?** Finding an xlink candidate and
+checking whether an entry is *misplaced* are the same underlying judgment call, just asked from
+two different starting points: Step 10 above asks it while building one folio ("does this match
+in another folio genuinely connect?"); a placement audit asks it in reverse, across the whole
+repo ("does this entry's own content actually belong in a folio other than the one it's sitting
+in?"). Both risks are real for the same reason — the entry that got wedged into folio A because A
+was built first and needed the topic for completeness is exactly the entry likely to correlate
+strongly with folio B's vocabulary, whether or not an xlink was ever added.
+
+Two passes catch different halves of the population, both keyed off `keyword_index`:
+- **Already-xlinked entries**: read each one's `hint` against its home folio's `title`/`subtitle`
+  vs. the xlinked folio's — does it read as primarily-here-with-an-interesting-connection-there
+  (fine), or fundamentally-there (candidate)?
+- **Un-xlinked entries**: for each entry, count how many of its `keywords` are shared with each
+  *other* folio (via `keyword_index`); a strong cluster toward one specific other folio, with zero
+  existing `xlinks` connection in *either* direction, is worth a manual look. In practice this
+  surfaces mostly false positives — entries whose sibling in the other folio already carries the
+  connecting xlink the other way (nothing to do, `xlinks` were never required to be reciprocal —
+  see above), or incidental biographical/label coincidences with no real content link (e.g. two
+  unrelated pioneers who both happened to be self-taught). Treat that as the expected, healthy
+  outcome, not a sign the scan failed — the one genuine finding in a repo-wide sweep of this kind
+  is more common than a large batch of them.
+
+If a genuine misplacement turns up, the fix is not automatically a move: adding a missing xlink
+is nearly always sufficient and far cheaper than migration. Only propose migrating an entry
+between folios — new id, `_meta`/`_index`/timeline/study-plan updates in both files, global index
+rebuild — when the entry's content is confidently, substantially better-homed elsewhere, and
+always confirm with the user before doing it; it is real surgery, not a routine edit.
+
 ### `keywords` — cross-folio discovery index
 
 `keywords` is an **optional** array of 3–5 lowercase compound phrases on every entry.
