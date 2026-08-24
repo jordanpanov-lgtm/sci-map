@@ -231,7 +231,8 @@
           "hint": "A species can go extinct not because its environment changed, but simply because everything around it — predators, prey, parasites, competitors — kept evolving too, so standing still is itself a form of falling behind. Named for the Red Queen in Through the Looking-Glass, who must run constantly just to stay in the same place, the hypothesis explains why sexual reproduction and continual adaptation persist even in environments that look physically stable.",
           "note": "Van Valen, L. (1973). 'A New Evolutionary Law.' Evolutionary Theory, 1, 1-30, based on Van Valen's observation that extinction probability within many fossil groups stays roughly constant over time rather than declining as lineages supposedly 'improve' — implying species are locked in a permanent coevolutionary arms race rather than approaching some fixed optimum.",
           "links": [
-            "co2"
+            "co2",
+            "ap5"
           ],
           "keywords": [
             "red queen coevolution",
@@ -290,7 +291,8 @@
           "note": "Lenski, R.E. et al. (1991). 'Long-Term Experimental Evolution in Escherichia coli.' American Naturalist, 138(6), 1315-1341, ongoing. Most famous single finding: one population evolved the ability to metabolise citrate — normally impossible for E. coli under aerobic conditions — after ~31,500 generations, a case of historical contingency directly informing db5 (see also Blount, Borland & Lenski 2008, PNAS, 105(23), 7899-7906).",
           "links": [
             "fg1",
-            "db5"
+            "db5",
+            "ap6"
           ],
           "keywords": [
             "long term evolution experiment",
@@ -652,7 +654,8 @@
           "hint": "When a new population is established by a small number of founding individuals, it carries only a random sample of the source population's genetic diversity — sometimes dramatically less. Cheetahs today are so genetically uniform, the result of a severe historical population bottleneck, that they can accept skin grafts from unrelated individuals almost as though they were identical twins.",
           "note": "O'Brien, S.J. et al. (1985). 'Genetic Basis for Species Vulnerability in the Cheetah.' Science, 227, 1428-1430. The same underlying principle, applied to human population history rather than a single bottlenecked species, is treated in depth in biological-anthropology; this entry anchors to the general population-genetics phenomenon and its most dramatic non-human example.",
           "links": [
-            "co1"
+            "co1",
+            "ap1"
           ],
           "xlinks": [
             "biological-anthropology::co6"
@@ -877,7 +880,8 @@
           "hint": "A precise numerical measure, ranging from 0 to 1, of the probability that two individuals share a given gene by common descent — full siblings share on average one half, first cousins one eighth. The same mathematics underlies both standard inbreeding calculations and the kin-selection logic explaining why animals sometimes sacrifice their own reproduction to help close relatives.",
           "note": "Formalised by Wright, S. (1922). 'Coefficients of Inbreeding and Relationship.' American Naturalist, 56(645), 330-338, predating his 1931 drift and shifting-balance work (see fg5). The kin-selection application of relatedness coefficients is developed in full in zoology-animal-behavior's treatment of Hamilton's rule.",
           "links": [
-            "th3"
+            "th3",
+            "db2"
           ],
           "xlinks": [
             "zoology-animal-behavior::th2"
@@ -937,7 +941,8 @@
           "note": "Felsenstein, J. (1981). 'Evolutionary Trees from DNA Sequences: A Maximum Likelihood Approach.' Journal of Molecular Evolution, 17(6), 368-376, established maximum likelihood as a rigorous statistical alternative to pure parsimony. The resulting trees are read using the conventions covered in co5.",
           "links": [
             "co5",
-            "fg10"
+            "fg10",
+            "ap3"
           ],
           "keywords": [
             "maximum likelihood phylogenetics",
@@ -981,7 +986,8 @@
           "hint": "Aligning whole genomes side by side, rather than single genes, reveals not just how many differences exist between species but where conserved regions cluster (suggesting functional importance), where gene order has been shuffled (rearrangement events), and where entire segments have been duplicated, lost or transferred — a far richer picture of evolutionary history than single-gene comparison allows.",
           "note": "Matured as a standard method with large-scale reference genome projects including the chimpanzee genome comparison (see st6). Synteny analysis — tracking conserved gene order across species — is one of comparative genomics' key sub-techniques for reconstructing ancestral chromosome arrangements.",
           "links": [
-            "st6"
+            "st6",
+            "ap4"
           ],
           "keywords": [
             "whole genome alignment",
@@ -1003,7 +1009,8 @@
           "hint": "Most evolutionarily interesting traits — height, beak size, flowering time — aren't controlled by a single gene but by many genes each contributing a small effect, plus environmental noise. QTL mapping statistically links variation in such a continuous trait to specific regions of the genome by tracking how trait values co-segregate with genetic markers across a pedigree or population, pinpointing which chromosomal regions actually matter.",
           "note": "Lander, E.S. & Botstein, D. (1989). 'Mapping Mendelian Factors Underlying Quantitative Traits Using RFLP Linkage Maps.' Genetics, 121(1), 185-199, building on earlier framework by Lander & Botstein (1988). QTL mapping bridges classical quantitative genetics with molecular genetics, letting researchers identify actual candidate genes underlying selection responses.",
           "links": [
-            "co1"
+            "co1",
+            "ap2"
           ],
           "keywords": [
             "qtl mapping quantitative trait",
@@ -1356,7 +1363,190 @@
       "accent": "#CA6F1E",
       "bg": "#FDF5EC",
       "subtitle": "Live controversies — where the field is actively contesting the evidence",
-      "entries": []
+      "entries": [
+        {
+          "id": "db1",
+          "group": "Debates in Evolutionary Theory",
+          "label": "Adaptationism: Are All Traits Adaptive?",
+          "date": "1979",
+          "loc": "Harvard University, Cambridge, Massachusetts",
+          "coords": [
+            42.37,
+            -71.12
+          ],
+          "tag": "DEBATE",
+          "hint": "Critics argue biologists too readily invent a plausible adaptive story for any trait they observe, without testing whether the trait is actually an adaptation at all rather than a developmental byproduct, a structural constraint, or simple chance — Gould and Lewontin compared the habit to explaining the spandrels of San Marco cathedral (an architectural byproduct of mounting a dome on rounded arches) as if they had been designed on purpose. Defenders reply that testable adaptive hypotheses, not storytelling, are exactly what evolutionary biology should be generating and checking.",
+          "note": "Gould, S.J. & Lewontin, R.C. (1979). 'The Spandrels of San Marco and the Panglossian Paradigm.' Proc. Royal Society B, 205, 581-598, versus Mayr, E. (1983). 'How to Carry Out the Adaptationist Program?' American Naturalist, 121(3), 324-334. Lenski's digital-organism experiments (see st8) were partly designed to test, under fully documented mutational history, whether complex features really do require the gradual adaptive pathway adaptationists claim.",
+          "links": [
+            "st8"
+          ],
+          "keywords": [
+            "adaptationism critique",
+            "spandrels panglossian paradigm",
+            "just so story evolution"
+          ]
+        },
+        {
+          "id": "db2",
+          "group": "Debates in Evolutionary Theory",
+          "label": "Multilevel Selection: Was Group Selection Wrongly Dismissed?",
+          "date": "2007",
+          "loc": "Binghamton University, Binghamton, New York",
+          "coords": [
+            42.1,
+            -75.91
+          ],
+          "tag": "DEBATE",
+          "hint": "Early group-selection proposals — that traits benefiting the group could evolve even at a cost to the individual — were largely discredited in the 1960s for lacking a rigorous mechanism and being too easily undermined by cheaters. Decades later, some theorists argue the rejection went too far, and that selection operating simultaneously at multiple levels (gene, individual, group) is mathematically equivalent to kin selection under specific conditions rather than a wholly separate, refuted idea.",
+          "note": "Wynne-Edwards, V.C. (1962). Animal Dispersion in Relation to Social Behaviour, Edinburgh: Oliver & Boyd (the original, later-discredited proposal), versus Wilson, D.S. & Wilson, E.O. (2007). 'Rethinking the Theoretical Foundation of Sociobiology.' Quarterly Review of Biology, 82(4), 327-348 (the multilevel-selection rehabilitation). The kin-selection alternative this debate is measured against is developed in full in zoology-animal-behavior.",
+          "links": [
+            "co7"
+          ],
+          "xlinks": [
+            "zoology-animal-behavior::db1"
+          ],
+          "keywords": [
+            "group selection debate",
+            "multilevel selection theory",
+            "kin selection alternative"
+          ]
+        },
+        {
+          "id": "db3",
+          "group": "Speciation",
+          "label": "Species Concept Pluralism",
+          "date": "1995",
+          "loc": "American Museum of Natural History, New York, New York",
+          "coords": [
+            40.78,
+            -73.97
+          ],
+          "tag": "DEBATE",
+          "hint": "Is there one correct definition of 'species,' or does the concept genuinely need to flex depending on what kind of organism and what question is being asked? The biological species concept handles sexually reproducing, non-hybridising animals well but breaks down for bacteria, asexual lineages, and extinct fossil taxa known only from bone — and no replacement concept has managed to handle every case the BSC fails on either.",
+          "note": "Mayr, E. (1942, 1963) versus later critiques synthesised in Mallet, J. (1995). 'A Species Definition for the Modern Synthesis.' Trends in Ecology & Evolution, 10(7), 294-299 (see co8 for the alternative concepts themselves). The debate has practical stakes beyond semantics — conservation law and biodiversity counts depend directly on which species concept is applied.",
+          "links": [
+            "fg7",
+            "co8"
+          ],
+          "keywords": [
+            "species definition debate",
+            "biological species concept limits",
+            "taxonomic pluralism"
+          ]
+        },
+        {
+          "id": "db4",
+          "group": "Population Genetics",
+          "label": "Is the Shifting Balance Theory Real?",
+          "date": "1931",
+          "loc": "University of Chicago, Chicago, Illinois",
+          "coords": [
+            41.79,
+            -87.6
+          ],
+          "tag": "DEBATE",
+          "hint": "Wright proposed that a species divided into many small, semi-isolated subpopulations could cross fitness valleys — combinations of genes that would be selected against individually but produce a fitness peak once combined — faster than one large population ever could, through a three-phase process of drift, selection and migration. Decades of attempts to demonstrate this actually happening in a wild population have produced, at best, ambiguous evidence.",
+          "note": "Wright, S. (1931). 'Evolution in Mendelian Populations.' Genetics, 16(2), 97-159, versus Coyne, J.A., Barton, N.H. & Turelli, M. (1997). 'Perspective: A Critique of Sewall Wright's Shifting Balance Theory of Evolution.' Evolution, 51(3), 643-671, which argues the theory's mathematical conditions are too restrictive to plausibly apply outside narrow special cases.",
+          "links": [
+            "fg5"
+          ],
+          "keywords": [
+            "shifting balance theory critique",
+            "fitness landscape valleys",
+            "wright three phase process"
+          ]
+        },
+        {
+          "id": "db5",
+          "group": "Macroevolution",
+          "label": "Is Evolution Predictable? Convergence versus Contingency",
+          "date": "1989",
+          "loc": "Michigan State University, East Lansing, Michigan",
+          "coords": [
+            42.73,
+            -84.48
+          ],
+          "tag": "DEBATE",
+          "hint": "Gould famously argued that if you could rewind the tape of life and let it play again, the outcome would look nothing like what actually happened — evolution is dominated by unpredictable historical accident. Widespread convergent evolution across unrelated lineages suggests the opposite: that similar environments reliably produce similar solutions regardless of starting point. Lenski's own Long-Term Evolution Experiment has produced evidence for both views within a single dataset.",
+          "note": "Gould, S.J. (1989). Wonderful Life: The Burgess Shale and the Nature of History. New York: W.W. Norton, versus Conway Morris, S. (2003). Life's Solution: Inevitable Humans in a Lonely Universe. Cambridge University Press. The E. coli citrate-metabolism innovation (st2) required a specific earlier, individually neutral mutation to have already occurred — a direct experimental demonstration of contingency shaping which outcomes are even reachable.",
+          "links": [
+            "st2"
+          ],
+          "keywords": [
+            "contingency versus convergence",
+            "replaying tape of life",
+            "evolutionary predictability debate"
+          ]
+        },
+        {
+          "id": "db6",
+          "group": "Tempo and Mode",
+          "label": "Punctuated Equilibrium versus Gradualism",
+          "date": "1972",
+          "loc": "American Museum of Natural History, New York, New York",
+          "coords": [
+            40.78,
+            -73.97
+          ],
+          "tag": "DEBATE",
+          "hint": "Does most evolutionary change accumulate slowly and continuously, as Darwin himself expected, or in short bursts concentrated around speciation events, with long stretches of near-stasis in between? The dispute became unusually public and heated for an academic debate, partly because creationist critics selectively quoted Eldredge and Gould's language about fossil gaps to suggest the fossil record didn't support evolution at all — a reading both authors explicitly rejected.",
+          "note": "Eldredge, N. & Gould, S.J. (1972) versus Charlesworth, B., Lande, R. & Slatkin, M. (1982). 'A Neo-Darwinian Commentary on Macroevolution.' Evolution, 36(3), 474-498, which argued the observed fossil patterns are fully compatible with standard gradualist population genetics once realistic timescales are considered. Most working paleontologists now treat the two tempos as complementary patterns rather than mutually exclusive alternatives.",
+          "links": [
+            "fg9",
+            "th5"
+          ],
+          "keywords": [
+            "punctuated equilibrium gradualism dispute",
+            "fossil record tempo debate",
+            "creationist misquotation controversy"
+          ]
+        },
+        {
+          "id": "db7",
+          "group": "Foundations of Descent",
+          "label": "Does Evolutionary Theory Need Extending?",
+          "date": "2010",
+          "loc": "University of Vienna, Vienna, Austria",
+          "coords": [
+            48.21,
+            16.37
+          ],
+          "tag": "DEBATE",
+          "hint": "Proponents of an 'extended evolutionary synthesis' argue that discoveries since the 1940s — epigenetic inheritance, developmental plasticity actively shaping which mutations matter, niche construction feeding back on selection pressure — are substantial enough to require formally revising the Modern Synthesis's core framework. Critics reply that standard evolutionary theory already accommodates these mechanisms without needing a conceptual overhaul, and that 'extended synthesis' proponents overstate how novel or destabilising the findings really are.",
+          "note": "Pigliucci, M. & Müller, G.B., eds. (2010). Evolution: The Extended Synthesis. Cambridge, MA: MIT Press, versus Wray, G.A. et al. (2014). 'Does Evolutionary Theory Need a Rethink?' Nature, 514, 161-164 (arguing no). The debate remains active and unresolved as of the mid-2020s, without a clear consensus resolution in either direction.",
+          "links": [
+            "th2"
+          ],
+          "keywords": [
+            "extended evolutionary synthesis",
+            "epigenetic inheritance debate",
+            "evolutionary theory revision"
+          ]
+        },
+        {
+          "id": "db8",
+          "group": "Molecular Evolution",
+          "label": "How Much Molecular Evolution Is Neutral?",
+          "date": "1991",
+          "loc": "National Institute of Genetics, Mishima, Japan",
+          "coords": [
+            35.12,
+            138.91
+          ],
+          "tag": "DEBATE",
+          "hint": "Kimura's neutral theory claimed most molecular substitutions are invisible to selection, drifting to fixation by chance. Decades of subsequent genome-wide data have shown the true picture is messier than either the strict neutral theory or a purely selectionist alternative predicts — a substantial fraction of substitutions do appear to be weakly, not strictly, selected, shifting the debate from 'neutral or selected' to 'what precise proportion of each.'",
+          "note": "Kimura, M. (1983) versus Ohta, T. (1992). 'The Nearly Neutral Theory of Molecular Evolution.' Annual Review of Ecology and Systematics, 23, 263-286, which proposed an intermediate 'nearly neutral' model where a substitution's fate depends on population size relative to the strength of weak selection acting on it. Modern genome-wide selection scans continue actively refining the estimated proportions.",
+          "links": [
+            "fg11",
+            "th4"
+          ],
+          "keywords": [
+            "nearly neutral theory",
+            "molecular evolution selection debate",
+            "weakly selected substitution"
+          ]
+        }
+      ]
     },
     {
       "id": "application",
@@ -1366,7 +1556,140 @@
       "accent": "#2E86C1",
       "bg": "#EBF5FB",
       "subtitle": "Where the science leaves the lab",
-      "entries": []
+      "entries": [
+        {
+          "id": "ap1",
+          "group": "Applications",
+          "label": "Conservation Genetics and Genetic Rescue",
+          "date": "1995",
+          "loc": "Everglades National Park, Florida",
+          "coords": [
+            25.29,
+            -80.9
+          ],
+          "tag": "APPLICATION",
+          "hint": "When a small, inbred population's genetic diversity has collapsed to dangerously low levels — reflected in physical defects, low fertility and poor disease resistance — deliberately introducing individuals from a related, genetically distinct population can restore enough diversity to reverse the decline. Eight Texas cougars introduced into Florida's critically inbred, disease-riddled panther population in 1995 produced a measurable, sustained recovery in litter size and survival within a decade.",
+          "note": "Pimm, S.L. et al. (2006). 'Sustainable Population Recovery through Genetic Rescue in the Florida Panther.' Animal Conservation, 9(2), 115-122. Genetic rescue has since become a standard, if still carefully debated, tool in conservation biology for managing critically small populations, informed directly by the population-genetics understanding of the founder effect and inbreeding depression (see ef6).",
+          "links": [
+            "ef6"
+          ],
+          "keywords": [
+            "genetic rescue conservation",
+            "florida panther inbreeding",
+            "population recovery genetic diversity"
+          ]
+        },
+        {
+          "id": "ap2",
+          "group": "Applications",
+          "label": "Genomic Selection in Livestock Breeding",
+          "date": "2001",
+          "loc": "USDA Agricultural Research Service, Beltsville, Maryland",
+          "coords": [
+            39.03,
+            -76.93
+          ],
+          "tag": "APPLICATION",
+          "hint": "Modern dairy and beef cattle breeding no longer waits to observe a bull's actual offspring performance before deciding whether to use it for further breeding — genome-wide marker data lets breeders predict an animal's likely breeding value directly from its DNA in infancy, compressing what used to be a five-year selection cycle into months and accelerating genetic gain across the whole industry.",
+          "note": "Meuwissen, T.H.E., Hayes, B.J. & Goddard, M.E. (2001). 'Prediction of Total Genetic Value Using Genome-Wide Dense Marker Maps.' Genetics, 157(4), 1819-1829, laid the statistical foundation now used industry-wide, extending the same quantitative-trait mapping logic used in evolutionary genetics research (see me4) to commercial breeding decisions.",
+          "links": [
+            "me4"
+          ],
+          "keywords": [
+            "genomic selection breeding",
+            "livestock genetic prediction",
+            "breeding value estimation"
+          ]
+        },
+        {
+          "id": "ap3",
+          "group": "Applications",
+          "label": "Phylogenetics in Public Health Outbreak Tracing",
+          "date": "2020",
+          "loc": "Nextstrain / University of Basel, Basel, Switzerland",
+          "coords": [
+            47.56,
+            7.59
+          ],
+          "tag": "APPLICATION",
+          "hint": "As SARS-CoV-2 spread globally, researchers sequenced hundreds of thousands of viral genomes and built continuously updated phylogenetic trees showing exactly how the virus was moving between countries and communities — turning the same tree-building mathematics used to study speciation and common descent into a real-time epidemiological surveillance tool that shaped quarantine and travel policy decisions during the pandemic.",
+          "note": "Hadfield, J. et al. (2018). 'Nextstrain: Real-Time Tracking of Pathogen Evolution.' Bioinformatics, 34(23), 4121-4123, describes the open-source platform that became central to global SARS-CoV-2 genomic surveillance from 2020 onward, applying the tree-construction methods covered in me1 to a live public-health dataset updated daily.",
+          "links": [
+            "me1"
+          ],
+          "keywords": [
+            "genomic epidemiology tracing",
+            "pathogen phylogenetics surveillance",
+            "outbreak transmission tree"
+          ]
+        },
+        {
+          "id": "ap4",
+          "group": "Applications",
+          "label": "De-extinction and Ancient DNA-Based Species Revival",
+          "date": "2021",
+          "loc": "Colossal Biosciences, Dallas, Texas",
+          "coords": [
+            32.78,
+            -96.8
+          ],
+          "tag": "APPLICATION",
+          "hint": "Sequencing degraded DNA recovered from frozen mammoth remains and comparing it against the genome of its closest living relative, the Asian elephant, lets researchers identify the specific genetic changes distinguishing the two — and attempt, controversially, to engineer some of those changes back into a living elephant genome, aiming to restore mammoth-like cold-adapted traits rather than reconstruct an exact clone.",
+          "note": "Shapiro, B. (2015). How to Clone a Mammoth: The Science of De-Extinction. Princeton University Press, lays out both the genomic method and its real limits — true whole-genome cloning of an extinct species from degraded ancient DNA remains impossible; current projects pursue trait-editing of a living relative's genome instead. The underlying comparative-genomics method is covered in me3.",
+          "links": [
+            "me3"
+          ],
+          "keywords": [
+            "de-extinction ancient dna",
+            "mammoth genome revival",
+            "trait editing living relative"
+          ]
+        },
+        {
+          "id": "ap5",
+          "group": "Applications",
+          "label": "Evolutionary Medicine",
+          "date": "1994",
+          "loc": "University of Michigan, Ann Arbor, Michigan",
+          "coords": [
+            42.28,
+            -83.74
+          ],
+          "tag": "APPLICATION",
+          "hint": "Why hasn't natural selection eliminated diseases like myopia, back pain or morning sickness? Evolutionary medicine reframes these questions by asking what selection actually optimises for — reproductive success in ancestral environments, not lifelong comfort in a modern one — treating fever, pain and even much of aging as evolved responses that were adaptive on average even though they still cause suffering, rather than simply as malfunctions to be suppressed.",
+          "note": "Nesse, R.M. & Williams, G.C. (1994). Why We Get Sick: The New Science of Darwinian Medicine. New York: Times Books, founded the field by applying the coevolutionary host-pathogen arms-race logic (see th9) directly to clinical questions about disease susceptibility and symptom design.",
+          "links": [
+            "th9"
+          ],
+          "keywords": [
+            "darwinian medicine",
+            "evolutionary mismatch disease",
+            "adaptive symptom hypothesis"
+          ]
+        },
+        {
+          "id": "ap6",
+          "group": "Applications",
+          "label": "Directed Evolution in Protein Engineering",
+          "date": "1993",
+          "loc": "California Institute of Technology, Pasadena, California",
+          "coords": [
+            34.14,
+            -118.13
+          ],
+          "tag": "APPLICATION",
+          "hint": "Rather than designing a better enzyme from first-principles chemistry, Frances Arnold generated thousands of random mutant variants of an existing enzyme, tested each for the desired improved activity, kept the best performers, mutated them again, and repeated the cycle — applying mutation and selection directly inside a test tube, compressing what would take a wild population many generations into a few weeks of laboratory work, and winning the 2018 Nobel Prize in Chemistry for the technique.",
+          "note": "Arnold, F.H. (1998). 'Design by Directed Evolution.' Accounts of Chemical Research, 31(3), 125-131, synthesising work beginning with her original 1993 subtilisin variant studies. Directed evolution is now used industrially to engineer enzymes for biofuels, pharmaceuticals and detergents, and shares its core mutate-select-repeat logic directly with Lenski's long-running wet-lab evolution experiment (see st2).",
+          "links": [
+            "st2"
+          ],
+          "keywords": [
+            "directed evolution enzymes",
+            "frances arnold nobel prize",
+            "laboratory mutation selection cycle"
+          ]
+        }
+      ]
     }
   ],
   "timeline": [
