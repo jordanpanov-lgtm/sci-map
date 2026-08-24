@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 2215,
+    "total_entries": 2219,
     "folio_count": 29,
-    "xlink_pairs": 156,
-    "keyword_terms": 7815,
+    "xlink_pairs": 157,
+    "keyword_terms": 7827,
     "folios": [
       {
         "id": "anatomy-histology",
@@ -128,7 +128,7 @@
       {
         "id": "quantum-nuclear-relativity",
         "title": "Physics: Quantum, Nuclear & Relativity",
-        "entries": 79
+        "entries": 83
       },
       {
         "id": "social-psychology",
@@ -2071,6 +2071,10 @@
     "quantum-nuclear-relativity::ap5": "application · Nuclear Physics · Nuclear Medicine: PET, SPECT & Radiotherapy (1975)",
     "quantum-nuclear-relativity::ap6": "application · Relativity & Spacetime · GPS & Relativistic Corrections (1978)",
     "quantum-nuclear-relativity::st18": "study · Particle Physics & QFT · The Truncated Photon Superposition (2026)",
+    "quantum-nuclear-relativity::ef11": "effect · Particle Physics & QFT · The Casimir Effect (1997)",
+    "quantum-nuclear-relativity::co8": "concept · Cosmological Frontiers · The FLRW Metric and Intrinsic Expansion (1922)",
+    "quantum-nuclear-relativity::th12": "theory · Particle Physics & QFT · Large Extra Dimensions (ADD Model) (1998)",
+    "quantum-nuclear-relativity::st19": "study · Cosmological Frontiers · GW170817: Multi-Messenger Neutron Star Merger (2017)",
     "social-psychology::th1": "theory · The Self & Cognition · Cognitive Dissonance Theory (1957)",
     "social-psychology::th2": "theory · The Self & Cognition · Social Comparison Theory (1954)",
     "social-psychology::th3": "theory · Intergroup Relations · Social Identity Theory (1979)",
@@ -3202,6 +3206,12 @@
     ],
     "computer-science::st6": [
       "pure-mathematics::ap6"
+    ],
+    "quantum-nuclear-relativity::co8": [
+      "astronomy-cosmology::st4"
+    ],
+    "astronomy-cosmology::st4": [
+      "quantum-nuclear-relativity::co8"
     ],
     "sociology::st2": [
       "systems-and-complexity::st2"
@@ -13452,6 +13462,11 @@
       "flatness horizon inflation",
       "inflationary cosmology"
     ],
+    "quantum-nuclear-relativity::th12": [
+      "large extra dimensions model",
+      "brane bulk graviton leakage",
+      "hierarchy problem evasion"
+    ],
     "quantum-nuclear-relativity::st1": [
       "aether null result",
       "Michelson Morley interferometer",
@@ -13560,6 +13575,11 @@
       "photon number fock state",
       "quantum field theory idealization"
     ],
+    "quantum-nuclear-relativity::st19": [
+      "multi-messenger astronomy launch",
+      "neutron star merger kilonova",
+      "gravitational wave electromagnetic counterpart"
+    ],
     "quantum-nuclear-relativity::ef1": [
       "quantum barrier penetration",
       "wavefunction tunnelling",
@@ -13620,6 +13640,11 @@
       "discrete time crystal",
       "non-equilibrium phase of matter"
     ],
+    "quantum-nuclear-relativity::ef11": [
+      "zero point vacuum energy",
+      "casimir force measurement",
+      "quantum vacuum fluctuation evidence"
+    ],
     "quantum-nuclear-relativity::co1": [
       "de Broglie matter wavelength",
       "double slit quantum",
@@ -13661,6 +13686,11 @@
       "Planck quantum action",
       "angular momentum quantised",
       "quantum number state"
+    ],
+    "quantum-nuclear-relativity::co8": [
+      "intrinsic geometry expansion",
+      "flrw metric cosmology",
+      "no center no edge universe"
     ],
     "quantum-nuclear-relativity::me1": [
       "cloud chamber track",
@@ -34984,6 +35014,15 @@
     "inflationary cosmology": [
       "quantum-nuclear-relativity::th11"
     ],
+    "large extra dimensions model": [
+      "quantum-nuclear-relativity::th12"
+    ],
+    "brane bulk graviton leakage": [
+      "quantum-nuclear-relativity::th12"
+    ],
+    "hierarchy problem evasion": [
+      "quantum-nuclear-relativity::th12"
+    ],
     "aether null result": [
       "quantum-nuclear-relativity::st1"
     ],
@@ -35200,6 +35239,15 @@
     "quantum field theory idealization": [
       "quantum-nuclear-relativity::st18"
     ],
+    "multi-messenger astronomy launch": [
+      "quantum-nuclear-relativity::st19"
+    ],
+    "neutron star merger kilonova": [
+      "quantum-nuclear-relativity::st19"
+    ],
+    "gravitational wave electromagnetic counterpart": [
+      "quantum-nuclear-relativity::st19"
+    ],
     "quantum barrier penetration": [
       "quantum-nuclear-relativity::ef1"
     ],
@@ -35320,6 +35368,15 @@
     "non-equilibrium phase of matter": [
       "quantum-nuclear-relativity::ef10"
     ],
+    "zero point vacuum energy": [
+      "quantum-nuclear-relativity::ef11"
+    ],
+    "casimir force measurement": [
+      "quantum-nuclear-relativity::ef11"
+    ],
+    "quantum vacuum fluctuation evidence": [
+      "quantum-nuclear-relativity::ef11"
+    ],
     "de Broglie matter wavelength": [
       "quantum-nuclear-relativity::co1"
     ],
@@ -35403,6 +35460,15 @@
     ],
     "quantum number state": [
       "quantum-nuclear-relativity::co7"
+    ],
+    "intrinsic geometry expansion": [
+      "quantum-nuclear-relativity::co8"
+    ],
+    "flrw metric cosmology": [
+      "quantum-nuclear-relativity::co8"
+    ],
+    "no center no edge universe": [
+      "quantum-nuclear-relativity::co8"
     ],
     "cloud chamber track": [
       "quantum-nuclear-relativity::me1"

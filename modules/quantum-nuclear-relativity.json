@@ -15,22 +15,22 @@
   "mapZoom": 3,
   "methodology": "METHODOLOGY · Every entry anchors to a landmark paper, experiment or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags replication status, theoretical revisions and known controversies. Studies and effects carry a replicability badge — 🟢 confirmed to high precision (multiple sigma) · 🟡 nuanced, reduced effect or ongoing debate · 🔴 failed or severely contested. Map pins mark the institution where the work was carried out.",
   "_meta": {
-    "total_entries": 79,
+    "total_entries": 83,
     "entry_counts": {
-      "theory": 11,
-      "study": 18,
-      "effect": 10,
-      "concept": 7,
+      "theory": 12,
+      "study": 19,
+      "effect": 11,
+      "concept": 8,
       "method": 6,
       "figure": 13,
       "debate": 8,
       "application": 6
     },
     "max_ids": {
-      "th": 11,
-      "st": 18,
-      "ef": 10,
-      "co": 7,
+      "th": 12,
+      "st": 19,
+      "ef": 11,
+      "co": 8,
       "me": 6,
       "fg": 13,
       "db": 8,
@@ -126,7 +126,11 @@
     "ap4": "application · Wave Mechanics & Uncertainty · Semiconductors & Transistors (1947)",
     "ap5": "application · Nuclear Physics · Nuclear Medicine: PET, SPECT & Radiotherapy (1975)",
     "ap6": "application · Relativity & Spacetime · GPS & Relativistic Corrections (1978)",
-    "st18": "study · Particle Physics & QFT · The Truncated Photon Superposition (2026)"
+    "st18": "study · Particle Physics & QFT · The Truncated Photon Superposition (2026)",
+    "ef11": "effect · Particle Physics & QFT · The Casimir Effect (1997)",
+    "co8": "concept · Cosmological Frontiers · The FLRW Metric and Intrinsic Expansion (1922)",
+    "th12": "theory · Particle Physics & QFT · Large Extra Dimensions (ADD Model) (1998)",
+    "st19": "study · Cosmological Frontiers · GW170817: Multi-Messenger Neutron Star Merger (2017)"
   },
   "categories": [
     {
@@ -189,7 +193,8 @@
             "db4",
             "st17",
             "th9",
-            "ap6"
+            "ap6",
+            "st19"
           ],
           "hint": "Gravity is not a force but the curvature of spacetime caused by mass and energy, described by the Einstein field equations. General Relativity predicted gravitational lensing, black holes, gravitational waves, and the expanding universe — all confirmed a century after publication.",
           "tag": "THEORY",
@@ -308,7 +313,8 @@
             "me6",
             "th10",
             "co5",
-            "st18"
+            "st18",
+            "ef11"
           ],
           "hint": "The quantum field theory of the electromagnetic interaction — Feynman, Schwinger, and Tomonaga independently renormalised the infinities that had plagued quantum field theory, producing a framework whose prediction of the electron's anomalous magnetic moment agrees with experiment to 12 decimal places, the most precisely tested prediction in science.",
           "tag": "THEORY",
@@ -397,7 +403,8 @@
             "th2",
             "db3",
             "st13",
-            "th11"
+            "th11",
+            "co8"
           ],
           "hint": "The universe began in an extremely hot, dense state and has expanded and cooled since — this model predicts the cosmic microwave background (the afterglow of the hot early universe), the abundance ratios of hydrogen and helium, and the large-scale structure of the cosmos, all subsequently confirmed.",
           "tag": "THEORY",
@@ -460,6 +467,29 @@
             "inflaton scalar field",
             "flatness horizon inflation",
             "inflationary cosmology"
+          ]
+        },
+        {
+          "id": "th12",
+          "group": "Particle Physics & QFT",
+          "label": "Large Extra Dimensions (ADD Model)",
+          "date": "1998",
+          "loc": "Stanford University, Stanford, California",
+          "coords": [
+            37.43,
+            -122.17
+          ],
+          "tag": "MODEL",
+          "hint": "Gravity might only look about 10^36 times weaker than the other fundamental forces because most of its strength has leaked away into extra spatial dimensions we can't directly perceive — the model proposes ordinary matter and the other forces are permanently anchored, like the open ends of a piece of string, to our familiar three-dimensional 'brane,' while the hypothetical graviton behaves like a closed loop with no fixed anchor point, free to spread out into additional large hidden dimensions and diluting its apparent strength within our own universe.",
+          "note": "Arkani-Hamed, N., Dimopoulos, S. & Dvali, G. (1998). 'The Hierarchy Problem and New Dimensions at a Millimeter.' Physics Letters B, 429(3–4), 263–272, proposed extra dimensions as large as roughly a millimetre, evading rather than solving the hierarchy problem outright (see db8). Direct searches at the Large Hadron Collider for the model's predicted signatures — missing transverse energy from gravitons escaping into the extra dimensions, Kaluza-Klein resonances (heavy 'echoes' of known particles), and microscopic evaporating black holes from concentrated collision energy — have found no evidence for any of them, pushing the minimum size of any such extra dimensions well below a millimetre and constraining but not eliminating the model.",
+          "links": [
+            "db8",
+            "db3"
+          ],
+          "keywords": [
+            "large extra dimensions model",
+            "brane bulk graviton leakage",
+            "hierarchy problem evasion"
           ]
         }
       ]
@@ -793,7 +823,8 @@
             "th2",
             "co6",
             "ef7",
-            "db4"
+            "db4",
+            "st19"
           ],
           "hint": "A chirp signal lasting 0.2 seconds was detected simultaneously at LIGO's Hanford and Livingston observatories — produced by two black holes of roughly 30 solar masses each spiralling together 1.3 billion light-years away. It was the first direct detection of gravitational waves, confirming the last major unverified prediction of General Relativity.",
           "tag": "DISCOVERY",
@@ -961,6 +992,30 @@
             "optical shutter wave packet",
             "photon number fock state",
             "quantum field theory idealization"
+          ]
+        },
+        {
+          "id": "st19",
+          "group": "Cosmological Frontiers",
+          "label": "GW170817: Multi-Messenger Neutron Star Merger",
+          "date": "2017",
+          "loc": "Las Campanas Observatory, Atacama Region, Chile",
+          "coords": [
+            -29.02,
+            -70.69
+          ],
+          "tag": "DISCOVERY",
+          "repl": "robust",
+          "hint": "Just 1.7 seconds after LIGO and Virgo detected gravitational waves from two neutron stars spiralling together and merging, NASA's Fermi satellite independently detected a burst of gamma rays from the same patch of sky — and within hours, the Swope Telescope in Chile located a new visible light source in the galaxy NGC 4993, triggering a worldwide follow-up campaign across radio, infrared, optical, ultraviolet, X-ray and gamma-ray telescopes, the first time a gravitational-wave event was ever confirmed and studied through independent electromagnetic observation as well.",
+          "note": "LIGO Scientific Collaboration, Virgo Collaboration et al. (2017). 'Multi-Messenger Observations of a Binary Neutron Star Merger.' The Astrophysical Journal Letters, 848(2), L12, coordinated over seventy observatories and collaborations worldwide. The event, designated GW170817 with electromagnetic counterpart GRB 170817A, confirmed that neutron star mergers produce at least some short gamma-ray bursts, provided an independent, geometry-based measurement of the Hubble constant, and launched multi-messenger astronomy as a distinct observational discipline combining gravitational and electromagnetic evidence for the same physical event (see st12).",
+          "links": [
+            "st12",
+            "th2"
+          ],
+          "keywords": [
+            "multi-messenger astronomy launch",
+            "neutron star merger kilonova",
+            "gravitational wave electromagnetic counterpart"
           ]
         }
       ]
@@ -1257,6 +1312,29 @@
             "discrete time crystal",
             "non-equilibrium phase of matter"
           ]
+        },
+        {
+          "id": "ef11",
+          "group": "Particle Physics & QFT",
+          "label": "The Casimir Effect",
+          "date": "1997",
+          "loc": "Los Alamos National Laboratory, Los Alamos, New Mexico",
+          "coords": [
+            35.88,
+            -106.3
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Two uncharged, perfectly conducting metal plates placed extremely close together in a vacuum are measurably pulled toward each other with no electric charge, gravity, or any conventional force acting between them — the plates restrict which wavelengths of the quantum vacuum's ever-present zero-point field fluctuations can exist in the gap versus the unrestricted space outside, and that mismatch creates a real, measurable net inward pressure, direct physical proof that 'empty space' is never actually empty.",
+          "note": "Casimir, H.B.G. (1948). 'On the Attraction Between Two Perfectly Conducting Plates.' Proceedings of the Koninklijke Nederlandse Akademie van Wetenschappen, 51, 793–795, predicted the effect theoretically nearly fifty years before it was measured with real precision. Lamoreaux, S.K. (1997). 'Demonstration of the Casimir Force in the 0.6 to 6 μm Range.' Physical Review Letters, 78(1), 5–8, achieved the first measurement matching theoretical prediction to within about 5%, using a torsion balance with a gold-coated sphere rather than two flat plates specifically to avoid the extreme alignment precision flat plates would have required.",
+          "links": [
+            "th6"
+          ],
+          "keywords": [
+            "zero point vacuum energy",
+            "casimir force measurement",
+            "quantum vacuum fluctuation evidence"
+          ]
         }
       ]
     },
@@ -1487,6 +1565,31 @@
             "Planck quantum action",
             "angular momentum quantised",
             "quantum number state"
+          ]
+        },
+        {
+          "id": "co8",
+          "group": "Cosmological Frontiers",
+          "label": "The FLRW Metric and Intrinsic Expansion",
+          "date": "1922",
+          "loc": "Petrograd, Russia",
+          "coords": [
+            59.93,
+            30.34
+          ],
+          "tag": "CONCEPT",
+          "hint": "The universe has no centre, no edge, and is not expanding into any surrounding empty space — instead, the mathematical function defining the distance between any two fixed coordinate points is itself scaling upward over time, a purely intrinsic description of geometry that needs no larger 'outside' space to make sense of, in the same way a two-dimensional ant living on the surface of an inflating balloon could measure its own world stretching without any concept of the three-dimensional space the balloon expands into.",
+          "note": "Friedmann, A. (1922). 'Über die Krümmung des Raumes.' Zeitschrift für Physik, 10(1), 377–386, first derived expanding-universe solutions to Einstein's field equations; Lemaître, G. (1927) independently proposed a physically expanding model connecting it to observed galaxy recession, and Robertson, H.P. (1935) and Walker, A.G. (1936) rigorously proved this metric is the unique form consistent with a universe that looks the same in every direction and from every location. The metric underlies modern cosmic expansion measurements (see astronomy-cosmology::st4) and directly resolves the common misconception of asking what the universe is expanding into.",
+          "links": [
+            "th9"
+          ],
+          "xlinks": [
+            "astronomy-cosmology::st4"
+          ],
+          "keywords": [
+            "intrinsic geometry expansion",
+            "flrw metric cosmology",
+            "no center no edge universe"
           ]
         }
       ]
@@ -2112,7 +2215,8 @@
             "th9",
             "db6",
             "th11",
-            "db8"
+            "db8",
+            "th12"
           ],
           "hint": "General Relativity and quantum mechanics are individually the most successful physical theories ever devised, but they are mutually incompatible at the Planck scale. String theory unifies all forces in extra dimensions; loop quantum gravity quantises spacetime itself into discrete chunks. Neither has produced an experimentally testable prediction accessible to current technology.",
           "tag": "DEBATE",
@@ -2252,7 +2356,8 @@
             "me3",
             "st9",
             "st14",
-            "st15"
+            "st15",
+            "th12"
           ],
           "hint": "The Standard Model cannot account for gravity, dark matter, the matter-antimatter asymmetry, or neutrino masses (now confirmed experimentally). Supersymmetry predicted superpartner particles accessible at LHC energies; none have been found. Direct dark matter searches have returned null results: LUX-ZEPLIN (2022) found no WIMP signal to unprecedented sensitivity. The Fermilab muon g-2 measurement (2021–2023) shows a ~5σ discrepancy from Standard Model predictions — the strongest current hint of new physics, though the theoretical value is disputed.",
           "tag": "DEBATE",
@@ -2533,6 +2638,11 @@
           "entryId": "st12"
         },
         {
+          "y": 2017,
+          "l": "GW170817 Multi-Messenger Merger",
+          "entryId": "st19"
+        },
+        {
           "y": 2026,
           "l": "The Truncated Photon Superposition",
           "entryId": "st18"
@@ -2599,6 +2709,11 @@
           "y": 1980,
           "l": "Guth: cosmic inflation theory",
           "entryId": "th11"
+        },
+        {
+          "y": 1998,
+          "l": "Large Extra Dimensions (ADD Model)",
+          "entryId": "th12"
         }
       ]
     },
@@ -2652,6 +2767,11 @@
           "y": 1982,
           "l": "Aspect: Bell inequality violation",
           "entryId": "ef8"
+        },
+        {
+          "y": 1997,
+          "l": "The Casimir Effect",
+          "entryId": "ef11"
         },
         {
           "y": 2017,
