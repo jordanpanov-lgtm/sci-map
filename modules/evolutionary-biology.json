@@ -39,7 +39,8 @@
           "note": "Darwin, C.R. (1859). On the Origin of Species. London: John Murray, ch. 13-14. Modern universal confirmation: the near-universality of the genetic code and core metabolic pathways (glycolysis, the ribosome) across all three domains of life is the strongest evidence, formalised as the universal common ancestor (LUCA) concept.",
           "links": [
             "fg1",
-            "co1"
+            "co1",
+            "co6"
           ],
           "keywords": [
             "universal common ancestor",
@@ -87,7 +88,9 @@
           "hint": "If nothing is acting on a population — no selection, no mutation, no migration, no drift, and mating is random — allele and genotype frequencies stay exactly constant generation after generation. This isn't a claim about how real populations behave; it's a null model, a mathematical baseline, that lets biologists detect evolution by measuring how far a real population deviates from the equilibrium prediction.",
           "note": "Hardy, G.H. (1908). 'Mendelian Proportions in a Mixed Population.' Science, 28(706), 49-50; independently derived the same year by Weinberg, W. (1908). 'Über den Nachweis der Vererbung beim Menschen.' Jahreshefte des Vereins für vaterländische Naturkunde in Württemberg, 64, 368-382. Hardy, a pure mathematician, considered the result trivial and published it almost as an aside in response to a colleague's question.",
           "links": [
-            "co1"
+            "co1",
+            "ef1",
+            "co7"
           ],
           "keywords": [
             "allele frequency equilibrium",
@@ -111,7 +114,8 @@
           "links": [
             "fg11",
             "db8",
-            "th7"
+            "th7",
+            "ef2"
           ],
           "keywords": [
             "neutral molecular evolution",
@@ -203,7 +207,8 @@
           "note": "Schluter, D. (2000). The Ecology of Adaptive Radiation. Oxford University Press, synthesised the ecological theory explaining why radiations happen where they do (ecological opportunity) and what limits them (niche saturation, competition). See the Lake Victoria cichlid case for the fastest documented example (st5).",
           "links": [
             "st5",
-            "fg1"
+            "fg1",
+            "ef7"
           ],
           "keywords": [
             "adaptive radiation ecology",
@@ -513,7 +518,196 @@
       "accent": "#117A65",
       "bg": "#F0FFF6",
       "subtitle": "Named, replicable patterns in how populations and lineages evolve",
-      "entries": []
+      "entries": [
+        {
+          "id": "ef1",
+          "group": "Population Genetics",
+          "label": "Balancing Selection",
+          "date": "1954",
+          "loc": "East African Institute of Malaria and Vector-Borne Diseases, Kenya",
+          "coords": [
+            -1.29,
+            36.82
+          ],
+          "tag": "EFFECT",
+          "repl": "robust",
+          "hint": "Sometimes selection actively maintains two or more versions of a gene in a population rather than driving one to fixation — the classic case being sickle-cell haemoglobin, where carriers of one copy of the sickle-cell allele resist malaria far better than either non-carriers or people with two copies (who develop sickle-cell disease), keeping both alleles at stable, non-zero frequencies indefinitely in malaria-endemic regions.",
+          "note": "Allison, A.C. (1954). 'Protection Afforded by Sickle-cell Trait Against Subtertian Malarial Infection.' British Medical Journal, 1(4857), 290-294. The mechanism, heterozygote advantage, is the textbook example of balancing selection; other forms include frequency-dependent selection, where a trait's fitness depends on how common it already is.",
+          "links": [
+            "th3"
+          ],
+          "keywords": [
+            "heterozygote advantage malaria",
+            "sickle cell balancing selection",
+            "allele frequency maintenance"
+          ]
+        },
+        {
+          "id": "ef2",
+          "group": "Population Genetics",
+          "label": "Genetic Hitchhiking",
+          "date": "1974",
+          "loc": "University of Sussex, Brighton, England",
+          "coords": [
+            50.87,
+            -0.09
+          ],
+          "tag": "EFFECT",
+          "repl": "robust",
+          "hint": "When a strongly beneficial mutation sweeps rapidly to fixation, any neutral variants sitting physically close to it on the same chromosome get dragged along for the ride, since they're inherited together — producing a signature dip in genetic diversity around the selected site that geneticists use to scan genomes for regions that have recently undergone strong selection.",
+          "note": "Maynard Smith, J. & Haigh, J. (1974). 'The Hitch-hiking Effect of a Favourable Gene.' Genetical Research, 23(1), 23-35. The resulting 'selective sweep' signature is now a standard tool for detecting recent adaptation directly from genome sequence data, without needing to observe the selection event itself.",
+          "links": [
+            "th4"
+          ],
+          "keywords": [
+            "selective sweep signature",
+            "linked neutral variation",
+            "genome scan adaptation"
+          ]
+        },
+        {
+          "id": "ef3",
+          "group": "Population Genetics",
+          "label": "Muller's Ratchet",
+          "date": "1964",
+          "loc": "Indiana University, Bloomington, Indiana",
+          "coords": [
+            39.17,
+            -86.53
+          ],
+          "tag": "EFFECT",
+          "repl": "robust",
+          "hint": "In an asexual population, once a deleterious mutation appears in every remaining copy of the least-mutated lineage, it can never be removed by recombination — there's no genetically 'clean' individual left to reproduce with. Generation after generation, the minimum mutational load ratchets irreversibly upward, a slow-motion genetic decline that recombination in sexual populations avoids entirely.",
+          "note": "Muller, H.J. (1964). 'The Relation of Recombination to Mutational Advance.' Mutation Research, 1(1), 2-9. Widely cited as one explanation for why sexual reproduction, despite its substantial costs, persists so broadly across eukaryotes — it lets a lineage reassemble mutation-free genomes that a purely asexual lineage cannot.",
+          "links": [
+            "co1"
+          ],
+          "keywords": [
+            "asexual mutation accumulation",
+            "recombination advantage sex",
+            "irreversible fitness decline"
+          ]
+        },
+        {
+          "id": "ef4",
+          "group": "Coevolution",
+          "label": "The Baldwin Effect",
+          "date": "1896",
+          "loc": "Princeton University, Princeton, New Jersey",
+          "coords": [
+            40.35,
+            -74.66
+          ],
+          "tag": "EFFECT",
+          "repl": "mixed",
+          "hint": "A behaviour an individual learns during its lifetime — say, exploiting a new food source — can indirectly steer the direction of genetic evolution, without itself being inherited: by keeping a population reliably present in a new niche long enough, learning creates sustained selection pressure favouring any genetic variants that make the same behaviour easier or more automatic, until it eventually becomes instinctive.",
+          "note": "Baldwin, J.M. (1896). 'A New Factor in Evolution.' American Naturalist, 30, 441-451. Classified 'mixed': the effect is theoretically sound and demonstrated in simulation models, but empirical evidence for it operating in real wild populations is sparse and often difficult to distinguish from ordinary genetic assimilation.",
+          "links": [
+            "co2"
+          ],
+          "keywords": [
+            "learned behavior genetic assimilation",
+            "baldwin effect plasticity",
+            "phenotypic plasticity evolution"
+          ]
+        },
+        {
+          "id": "ef5",
+          "group": "Macroevolution",
+          "label": "Convergent Evolution",
+          "date": "2018",
+          "loc": "American Museum of Natural History, New York, New York",
+          "coords": [
+            40.78,
+            -73.97
+          ],
+          "tag": "EFFECT",
+          "repl": "robust",
+          "hint": "Unrelated lineages, facing similar environmental pressures, can independently evolve strikingly similar solutions — the extinct marsupial thylacine and the placental wolf converged on nearly identical skull shape and body plan despite the two lineages having split over 160 million years earlier, having last shared a common ancestor long before either group existed as we recognise it.",
+          "note": "Feigin, C.Y. et al. (2018). 'Genome of the Tasmanian Tiger Provides Insights into the Evolution of Extreme Convergence in Marsupial and Placental Mammals.' Nature Ecology & Evolution, 2, 182-192, confirmed via genome sequencing that the resemblance is convergent rather than reflecting shared ancestry. Convergent evolution is distinguished from homology (shared ancestry) using the same comparative logic Hennig formalised for cladistics (see fg10, co3).",
+          "links": [
+            "st11",
+            "co3"
+          ],
+          "keywords": [
+            "convergent evolution marsupial placental",
+            "independent trait evolution",
+            "thylacine wolf convergence"
+          ]
+        },
+        {
+          "id": "ef6",
+          "group": "Population Genetics",
+          "label": "The Founder Effect",
+          "date": "1985",
+          "loc": "National Cancer Institute, Frederick, Maryland",
+          "coords": [
+            39.41,
+            -77.41
+          ],
+          "tag": "EFFECT",
+          "repl": "robust",
+          "hint": "When a new population is established by a small number of founding individuals, it carries only a random sample of the source population's genetic diversity — sometimes dramatically less. Cheetahs today are so genetically uniform, the result of a severe historical population bottleneck, that they can accept skin grafts from unrelated individuals almost as though they were identical twins.",
+          "note": "O'Brien, S.J. et al. (1985). 'Genetic Basis for Species Vulnerability in the Cheetah.' Science, 227, 1428-1430. The same underlying principle, applied to human population history rather than a single bottlenecked species, is treated in depth in biological-anthropology; this entry anchors to the general population-genetics phenomenon and its most dramatic non-human example.",
+          "links": [
+            "co1"
+          ],
+          "xlinks": [
+            "biological-anthropology::co6"
+          ],
+          "keywords": [
+            "founder effect bottleneck",
+            "cheetah genetic uniformity",
+            "reduced genetic diversity"
+          ]
+        },
+        {
+          "id": "ef7",
+          "group": "Macroevolution",
+          "label": "Character Displacement",
+          "date": "1956",
+          "loc": "American Museum of Natural History, New York, New York",
+          "coords": [
+            40.78,
+            -73.97
+          ],
+          "tag": "EFFECT",
+          "repl": "robust",
+          "hint": "When two similar species compete for the same limited resource in the same place, natural selection can push their traits — beak size, body size, feeding structures — further apart than they are where the species live separately, reducing the competition between them by carving out more distinct ecological niches.",
+          "note": "Brown, W.L. & Wilson, E.O. (1956). 'Character Displacement.' Systematic Zoology, 5(2), 49-64. Darwin's finches remain the textbook illustration, with beak-size divergence measurably sharper on islands where two finch species co-occur than where either lives alone; the detailed finch fieldwork itself is covered in zoology-animal-behavior.",
+          "links": [
+            "th8"
+          ],
+          "keywords": [
+            "character displacement competition",
+            "niche divergence coexistence",
+            "ecological trait divergence"
+          ]
+        },
+        {
+          "id": "ef8",
+          "group": "Population Genetics",
+          "label": "Genetic Load",
+          "date": "1950",
+          "loc": "University of Illinois, Urbana-Champaign, Illinois",
+          "coords": [
+            40.11,
+            -88.23
+          ],
+          "tag": "EFFECT",
+          "repl": "robust",
+          "hint": "Every population carries a standing burden of mildly deleterious mutations that selection hasn't yet had time to remove — a genetic load that reduces the population's average fitness below what it would be in a hypothetical mutation-free ideal, and that mutation constantly replenishes even as selection works to purge it.",
+          "note": "Muller, H.J. (1950). 'Our Load of Mutations.' American Journal of Human Genetics, 2(2), 111-176, formalised the concept Haldane had already begun exploring mathematically (see fg4). Muller used the concept to argue for caution around anything that might elevate the human mutation rate, radiation exposure chief among his contemporary concerns.",
+          "links": [
+            "fg4"
+          ],
+          "keywords": [
+            "genetic load mutation burden",
+            "deleterious mutation accumulation",
+            "mutation selection balance"
+          ]
+        }
+      ]
     },
     {
       "id": "concept",
@@ -523,7 +717,196 @@
       "accent": "#566573",
       "bg": "#F5F6FA",
       "subtitle": "The building blocks and vocabulary every student must command",
-      "entries": []
+      "entries": [
+        {
+          "id": "co1",
+          "group": "Population Genetics",
+          "label": "Allele Frequency and the Gene Pool",
+          "date": "1908",
+          "loc": "University of Cambridge, Cambridge, England",
+          "coords": [
+            52.2,
+            0.12
+          ],
+          "tag": "CONCEPT",
+          "hint": "The total collection of all genetic variants present across every individual in a population is its gene pool; the proportion of that pool made up by any one version of a gene is its allele frequency. Population genetics is, at its most basic level, the study of what makes these frequencies shift, stay put, or drift, generation over generation.",
+          "note": "Formal vocabulary built into Hardy-Weinberg's original 1908 framework (see th3). Allele frequency is the fundamental unit population genetics tracks — nearly every theory and effect in this folio ultimately describes some process that changes it.",
+          "links": [
+            "th1",
+            "th3",
+            "ef3",
+            "ef6"
+          ],
+          "keywords": [
+            "allele frequency vocabulary",
+            "gene pool population",
+            "population genetics unit"
+          ]
+        },
+        {
+          "id": "co2",
+          "group": "Foundations of Descent",
+          "label": "Fitness (Darwinian)",
+          "date": "1930",
+          "loc": "Rothamsted Experimental Station, Harpenden, England",
+          "coords": [
+            51.81,
+            -0.35
+          ],
+          "tag": "CONCEPT",
+          "hint": "In evolutionary biology, fitness has a narrow technical meaning that differs sharply from its everyday sense of health or strength: it measures an organism's actual reproductive success — how many surviving, fertile offspring it leaves relative to others in the population — regardless of how strong, fast or healthy it otherwise appears.",
+          "note": "Formalised mathematically within Fisher's fundamental theorem of natural selection (see fg3). A common error is treating 'fitness' as a fixed property of an organism rather than a relative, context-dependent measure that can only be assessed against a specific environment and population.",
+          "links": [
+            "th9",
+            "st9",
+            "ef4"
+          ],
+          "keywords": [
+            "darwinian fitness definition",
+            "reproductive success measure",
+            "relative fitness concept"
+          ]
+        },
+        {
+          "id": "co3",
+          "group": "Phylogenetics",
+          "label": "Homology versus Analogy",
+          "date": "1950",
+          "loc": "German Entomological Institute, Berlin, Germany",
+          "coords": [
+            52.52,
+            13.4
+          ],
+          "tag": "CONCEPT",
+          "hint": "Two structures are homologous if they derive from the same feature in a shared ancestor — a bat's wing and a human hand share a homologous bone layout despite radically different function. Two structures are analogous if they merely look or function alike due to independent adaptation to similar pressures, without shared ancestry — a bat's wing and an insect's wing are analogous, not homologous. Confusing the two produces badly wrong evolutionary trees.",
+          "note": "The homology/analogy distinction underlies Hennig's entire cladistic method (see fg10) — only shared derived homologous traits, not superficial similarity, are valid evidence for a phylogenetic grouping. Structures that are analogous rather than homologous are also called homoplasies.",
+          "links": [
+            "fg10",
+            "ef5"
+          ],
+          "keywords": [
+            "homology analogy distinction",
+            "shared derived character",
+            "homoplasy convergent trait"
+          ]
+        },
+        {
+          "id": "co4",
+          "group": "Speciation",
+          "label": "Prezygotic and Postzygotic Isolating Barriers",
+          "date": "1937",
+          "loc": "Columbia University, New York, New York",
+          "coords": [
+            40.81,
+            -73.96
+          ],
+          "tag": "CONCEPT",
+          "hint": "The vocabulary speciation biologists use to classify exactly how two diverging populations stop successfully interbreeding: prezygotic barriers act before fertilisation (different breeding seasons, incompatible courtship, mechanical incompatibility); postzygotic barriers act after (hybrid inviability, hybrid sterility, like the mule). A single speciation event can involve several barrier types stacking up simultaneously.",
+          "note": "Formalised alongside Dobzhansky's original reproductive isolation framework (see th6); the Ensatina ring species (st10) is a rare case where the barrier can be watched accumulating gradually across a geographic gradient rather than appearing at a single sharp boundary.",
+          "links": [
+            "th6",
+            "st10"
+          ],
+          "keywords": [
+            "prezygotic postzygotic vocabulary",
+            "hybrid sterility inviability",
+            "reproductive barrier classification"
+          ]
+        },
+        {
+          "id": "co5",
+          "group": "Phylogenetics",
+          "label": "Reading a Cladogram",
+          "date": "1966",
+          "loc": "University of Illinois, Urbana-Champaign, Illinois",
+          "coords": [
+            40.11,
+            -88.23
+          ],
+          "tag": "CONCEPT",
+          "hint": "A cladogram's branch points represent inferred common ancestors, not living organisms; the branching order shows relative relatedness, not time elapsed unless the tree is explicitly time-calibrated; and any two branches emerging from the same point are, by construction, exactly equally related to everything outside that point — there is no such thing as a 'more evolved' branch on a cladogram, only a more recently branching one.",
+          "note": "The now-standard graphical convention for representing Hennig's cladistic method (see fg10) — a frequent source of public misreading, since branch order is often mistaken for a ranking of evolutionary progress or complexity, an interpretation the method explicitly rejects.",
+          "links": [
+            "fg10",
+            "me1"
+          ],
+          "keywords": [
+            "cladogram interpretation rules",
+            "phylogenetic tree reading",
+            "branch order misconception"
+          ]
+        },
+        {
+          "id": "co6",
+          "group": "Foundations of Descent",
+          "label": "Vestigial Structures",
+          "date": "1859",
+          "loc": "Down House, Kent, England",
+          "coords": [
+            51.33,
+            0.05
+          ],
+          "tag": "CONCEPT",
+          "hint": "Structures that have lost most or all of their original function but persist, in reduced or non-functional form, as a trace of a lineage's evolutionary history — the human tailbone, whale pelvic bones unconnected to any hind limb, and flightless birds' small non-functional wings are all evolutionary leftovers rather than deliberately designed features.",
+          "note": "Darwin discussed vestigial structures directly in Origin of Species (1859) as evidence against special creation. Vestigiality is a matter of degree rather than an all-or-nothing property — many 'vestigial' structures retain some secondary function even after losing their original one, which critics have sometimes used to (incorrectly) challenge the concept's validity.",
+          "links": [
+            "th1"
+          ],
+          "keywords": [
+            "vestigial structure evidence",
+            "evolutionary leftover trait",
+            "reduced nonfunctional organ"
+          ]
+        },
+        {
+          "id": "co7",
+          "group": "Population Genetics",
+          "label": "Coefficient of Relatedness",
+          "date": "1922",
+          "loc": "University of Chicago, Chicago, Illinois",
+          "coords": [
+            41.79,
+            -87.6
+          ],
+          "tag": "CONCEPT",
+          "hint": "A precise numerical measure, ranging from 0 to 1, of the probability that two individuals share a given gene by common descent — full siblings share on average one half, first cousins one eighth. The same mathematics underlies both standard inbreeding calculations and the kin-selection logic explaining why animals sometimes sacrifice their own reproduction to help close relatives.",
+          "note": "Formalised by Wright, S. (1922). 'Coefficients of Inbreeding and Relationship.' American Naturalist, 56(645), 330-338, predating his 1931 drift and shifting-balance work (see fg5). The kin-selection application of relatedness coefficients is developed in full in zoology-animal-behavior's treatment of Hamilton's rule.",
+          "links": [
+            "th3"
+          ],
+          "xlinks": [
+            "zoology-animal-behavior::th2"
+          ],
+          "keywords": [
+            "relatedness coefficient inbreeding",
+            "kin selection mathematics",
+            "wright relationship formula"
+          ]
+        },
+        {
+          "id": "co8",
+          "group": "Speciation",
+          "label": "Species Concepts Beyond the Biological",
+          "date": "1995",
+          "loc": "American Museum of Natural History, New York, New York",
+          "coords": [
+            40.78,
+            -73.97
+          ],
+          "tag": "CONCEPT",
+          "hint": "Mayr's biological species concept — reproductive isolation between interbreeding groups — struggles with organisms that hybridise routinely, reproduce asexually, or are known only from fossils. Alternatives have been proposed: the phylogenetic species concept defines species by diagnosable descent, the morphological species concept by measurable physical traits, and the cohesion species concept by shared mechanisms holding a population together.",
+          "note": "Mallet, J. (1995). 'A Species Definition for the Modern Synthesis.' Trends in Ecology & Evolution, 10(7), 294-299, surveys the alternatives and their respective failure cases. No single species concept has displaced the biological species concept as the default teaching definition, despite each alternative solving cases the BSC handles poorly (see db3).",
+          "links": [
+            "fg7",
+            "db3"
+          ],
+          "keywords": [
+            "species concept alternatives",
+            "phylogenetic species definition",
+            "biological species concept limits"
+          ]
+        }
+      ]
     },
     {
       "id": "method",
@@ -626,7 +1009,8 @@
           "hint": "Working independently of Fisher and Wright but reaching compatible conclusions, Haldane calculated the mathematics of how quickly natural selection could actually change a population's gene frequencies under real-world conditions, and coined the term 'genetic load' for the accumulated burden of mildly harmful mutations any population carries.",
           "note": "Haldane, J.B.S. (1932). The Causes of Evolution. London: Longmans, Green & Co., based on a 1931 lecture series originally titled 'A Re-examination of Darwinism.' Haldane, Fisher and Wright are jointly credited as the three founders of theoretical population genetics, the mathematical framework that let the Modern Synthesis (see th2) actually quantify how selection changes populations rather than simply asserting that it does.",
           "links": [
-            "th2"
+            "th2",
+            "ef8"
           ],
           "keywords": [
             "selection coefficient mathematics",
@@ -693,7 +1077,8 @@
           "note": "Key works: Mayr, E. (1942). Systematics and the Origin of Species. Columbia University Press; Mayr, E. (1963). Animal Species and Evolution. Belknap Press. Biological species concept: challenged by Mallet (1995) Trends in Ecology & Evolution — many species hybridise; phylogenetic and cohesion species concepts proposed as alternatives. The BSC remains the standard working definition despite these challenges (see db3).",
           "links": [
             "th2",
-            "db3"
+            "db3",
+            "co8"
           ],
           "xlinks": [
             "zoology-animal-behavior::th1",
@@ -767,7 +1152,10 @@
           "tag": "FIGURE",
           "hint": "An entomologist working largely in isolation as a prisoner of war before formalising his ideas, Hennig proposed that evolutionary relationships should be reconstructed using only shared derived traits — features inherited from a common ancestor but absent in more distant relatives — rather than overall similarity, a rigorous logical framework that transformed taxonomy from a subjective art into a testable, repeatable science.",
           "note": "Hennig, W. (1950). Grundzüge einer Theorie der phylogenetischen Systematik. Berlin: Deutscher Zentralverlag, substantially revised and translated as Hennig, W. (1966). Phylogenetic Systematics. Urbana: University of Illinois Press. Hennig's method, cladistics, initially met resistance from taxonomists trained in older, similarity-based classification schemes, but became the dominant standard once computational methods made large-scale cladistic analysis practical.",
-          "links": [],
+          "links": [
+            "co3",
+            "co5"
+          ],
           "keywords": [
             "cladistics founding method",
             "shared derived character",
