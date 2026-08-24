@@ -176,7 +176,8 @@
           "hint": "Rudolf Virchow's claim that all disease originates in disturbances at the level of the individual cell — \"omnis cellula e cellula,\" every cell arises from a pre-existing cell — displacing the older humoral theory that disease came from imbalances in bodily fluids. It relocated the search for the cause of disease from the whole body down to the microscope, making cell injury the organizing unit of pathology.",
           "note": "Virchow, R. (1858). Die Cellularpathologie in ihrer Begründung auf physiologische und pathologische Gewebelehre. Berlin: August Hirschwald. The theory itself is not something modern pathology has \"failed to replicate\" — it is the field's founding axiom, still structurally correct — but Virchow's specific mechanistic claims (e.g. about the origin of certain tumors) have been superseded by molecular genetics.",
           "links": [
-            "fg1"
+            "fg1",
+            "me4"
           ],
           "keywords": [
             "omnis cellula e cellula",
@@ -204,7 +205,9 @@
           "links": [
             "st7",
             "co7",
-            "fg7"
+            "fg7",
+            "st8",
+            "ef8"
           ],
           "keywords": [
             "clonal selection theory",
@@ -256,7 +259,9 @@
             "st4",
             "ef1",
             "db1",
-            "co9"
+            "co9",
+            "th6",
+            "db8"
           ],
           "keywords": [
             "hallmarks of cancer",
@@ -278,7 +283,9 @@
           "tag": "MODEL",
           "hint": "Some cancers require two separate mutational \"hits\" to the same gene — one on each copy inherited from each parent — before a cell loses control of its growth. Alfred Knudson inferred this from the statistics of retinoblastoma, a childhood eye tumour: inherited cases appear earlier and more often bilaterally than sporadic cases, exactly as predicted if inherited patients are already born with one hit and need only one more. This defined the concept of a tumour suppressor gene years before one was cloned.",
           "note": "Knudson, A.G. (1971). 'Mutation and cancer: statistical study of retinoblastoma.' Proceedings of the National Academy of Sciences, 68(4), 820–823. Confirmed at the molecular level in 1986 when the RB1 gene was cloned and shown to fit the two-hit pattern exactly. The model generalises well to other classic tumour suppressors (e.g. TP53) but not to oncogenes, which typically require only a single activating hit.",
-          "links": [],
+          "links": [
+            "th5"
+          ],
           "keywords": [
             "two-hit hypothesis",
             "knudson tumor suppressor",
@@ -347,7 +354,8 @@
           "note": "Metchnikoff, E. (1883). 'Untersuchungen über die intracellulare Verdauung bei wirbellosen Thieren.' Arbeiten aus dem Zoologischen Institute der Universität Wien, 5, 141–168. Metchnikoff shared the 1908 Nobel Prize with Paul Ehrlich, whose rival humoral (antibody-based) theory of immunity turned out to be equally correct — the two mechanisms are now understood as complementary arms (innate cellular vs. adaptive humoral) of one immune system, not competitors.",
           "links": [
             "fg4",
-            "co10"
+            "co10",
+            "th10"
           ],
           "keywords": [
             "phagocytic theory immunity",
@@ -369,7 +377,11 @@
           "tag": "THEORY",
           "hint": "The innate immune system doesn't recognise specific pathogens the way antibodies do — it recognises broad, ancient molecular patterns shared by whole classes of microbes (like bacterial cell-wall components) using a small, fixed set of receptors. Charles Janeway proposed this to explain why the innate immune system reacts so fast without needing to \"learn\" anything, and predicted the existence of the receptors years before any were found.",
           "note": "Janeway, C.A. Jr. (1989). 'Approaching the asymptote? Evolution and revolution in immunology.' Cold Spring Harbor Symposia on Quantitative Biology, 54, 1–13. Vindicated when Toll-like receptors were identified as exactly this kind of pattern-recognition receptor — first in Drosophila (Lemaitre et al., 1996) and then in mammals (Medzhitov, Preston-Hurlburt & Janeway, 1997; Poltorak et al., 1998) — work that won Beutler and Hoffmann a share of the 2011 Nobel Prize.",
-          "links": [],
+          "links": [
+            "th9",
+            "co6",
+            "me6"
+          ],
           "keywords": [
             "pattern recognition receptors",
             "janeway innate immunity theory",
@@ -453,7 +465,9 @@
           "repl": "robust",
           "hint": "Richard Doll and Austin Bradford Hill first linked smoking to lung cancer in a 1950 case-control study of London hospital patients, then confirmed it by prospectively following the smoking habits and death rates of over 40,000 British doctors for decades. It became the template for how epidemiology proves that something causes cancer in humans, where you can't ethically run the equivalent lab experiment.",
           "note": "Doll, R., Hill, A.B. (1950). 'Smoking and carcinoma of the lung.' British Medical Journal, 2(4682), 739–748; later results in Doll, R., Peto, R., et al. (2004). 'Mortality in relation to smoking: 50 years' observations on male British doctors.' BMJ, 328(7455), 1519. Among the most robust causal findings in epidemiology — replicated across dozens of countries and populations, with a clear dose-response relationship and reversal of risk on cessation.",
-          "links": [],
+          "links": [
+            "ap5"
+          ],
           "keywords": [
             "british doctors study",
             "smoking lung cancer link",
@@ -575,7 +589,11 @@
           "repl": "robust",
           "hint": "Françoise Barré-Sinoussi and Luc Montagnier isolated a previously unknown retrovirus, initially named LAV, from the lymph node of a patient at risk of the newly described disease AIDS — the first hard evidence for what would soon be confirmed as the virus that causes it. Identifying the pathogen a mere two years after AIDS was first clinically recognised opened the door to a blood test, and eventually to antiretroviral treatment.",
           "note": "Barré-Sinoussi, F., Chermann, J.C., Rey, F., et al. (1983). 'Isolation of a T-lymphotropic retrovirus from a patient at risk for acquired immune deficiency syndrome (AIDS).' Science, 220(4599), 868–871. Robustly confirmed; Barré-Sinoussi and Montagnier received the 2008 Nobel Prize. A bitter, well-documented priority dispute with Robert Gallo's NIH laboratory over discovery credit and the HIV blood test patent ran through the 1980s and was only diplomatically resolved by a 1987 Reagan–Chirac agreement to share royalties.",
-          "links": [],
+          "links": [
+            "th3",
+            "ap3",
+            "me3"
+          ],
           "keywords": [
             "hiv discovery 1983",
             "barre-sinoussi montagnier",
@@ -735,7 +753,9 @@
           "repl": "robust",
           "hint": "Influenza evades immunity two different ways: slow, gradual mutation of its surface proteins (drift) erodes existing immunity year over year, which is why flu vaccines need reformulating annually, while an abrupt reassortment of entire gene segments between strains (shift) can create a virus nobody has any immunity to at all — the mechanism behind pandemic flu. The distinction explains both routine seasonal flu and rare pandemic flu with one underlying model.",
           "note": "Webster, R.G., Bean, W.J., Gorman, O.T., Chambers, T.M., Kawaoka, Y. (1992). 'Evolution and ecology of influenza A viruses.' Microbiological Reviews, 56(1), 152–179. Extensively validated across decades of global influenza surveillance; the model correctly predicted that pandemic strains (1957, 1968, 2009) arise from reassortment events, often involving animal reservoirs.",
-          "links": [],
+          "links": [
+            "ef7"
+          ],
           "keywords": [
             "antigenic drift shift",
             "influenza immune evasion",
@@ -757,7 +777,10 @@
           "repl": "mixed",
           "hint": "Sometimes a pathogen's proteins happen to resemble the body's own tissue closely enough that antibodies or T cells trained to attack the pathogen mistakenly attack the host too. The clearest confirmed case is rheumatic fever: antibodies against Group A Streptococcus cross-react with heart valve tissue, causing lasting cardiac damage weeks after a simple strep throat has cleared.",
           "note": "Cunningham, M.W. (2000). 'Pathogenesis of Group A Streptococcal Infections.' Clinical Microbiology Reviews, 13(3), 470–511. The rheumatic fever mechanism is robustly established. As a general explanation extended to other autoimmune diseases (e.g. some proposed viral triggers of type 1 diabetes or multiple sclerosis), the evidence is considerably more circumstantial — cross-reactivity in a test tube doesn't prove it drives disease in a patient, so treat mimicry outside rheumatic fever as a plausible but not fully proven mechanism.",
-          "links": [],
+          "links": [
+            "co3",
+            "co8"
+          ],
           "keywords": [
             "molecular mimicry autoimmune",
             "rheumatic fever cross-reactivity",
@@ -785,7 +808,8 @@
             "fg10",
             "fg11",
             "db6",
-            "ap2"
+            "ap2",
+            "me7"
           ],
           "keywords": [
             "tumor immune evasion",
@@ -834,7 +858,8 @@
           "note": "Fine, P.E.M. (1993). 'Herd Immunity: History, Theory, Practice.' Epidemiologic Reviews, 15(2), 265–302. Robustly validated across numerous vaccination campaigns (measles, smallpox eradication in 1980). The precise threshold is disease-specific and was a genuine point of public confusion and political contention during COVID-19, where waning immunity and viral evolution complicated simple threshold estimates.",
           "links": [
             "st1",
-            "db7"
+            "db7",
+            "ef3"
           ],
           "keywords": [
             "herd immunity threshold",
@@ -857,7 +882,9 @@
           "repl": "robust",
           "hint": "A second exposure to the same antigen produces a faster, larger, and higher-affinity immune response than the first ever did, because the initial exposure leaves behind long-lived memory B and T cells primed to respond immediately. This is the entire logic of vaccine booster doses, and it's why some infections (measles, chickenpox) confer lifelong protection after a single encounter while others don't.",
           "note": "Ahmed, R., Gray, D. (1996). 'Immunological Memory and Protective Immunity: Understanding Their Relation.' Science, 272(5258), 54–60. A foundational, well-replicated concept, though the durability of memory varies enormously by pathogen and vaccine type — some memory responses last decades, others (like influenza and some coronaviruses) wane within a year or two, a distinction with direct implications for booster scheduling.",
-          "links": [],
+          "links": [
+            "th3"
+          ],
           "keywords": [
             "immunological memory",
             "vaccine booster response",
@@ -987,7 +1014,9 @@
           "note": "Landsteiner, K. (1936). The Specificity of Serological Reactions. Springfield: Charles C. Thomas. Landsteiner's meticulous immunochemistry (he also discovered the ABO blood groups) established that antibody specificity is exquisitely fine-grained — down to single chemical substitutions — a finding that still anchors how antigen specificity is taught.",
           "links": [
             "co2",
-            "fg6"
+            "fg6",
+            "me1",
+            "fg3"
           ],
           "keywords": [
             "antigen epitope specificity",
@@ -1034,7 +1063,8 @@
           "hint": "The immune system polices itself in two stages: central tolerance deletes most self-reactive T and B cells during their development in the thymus and bone marrow, and peripheral tolerance — including a dedicated cell type, regulatory T cells — mops up whatever self-reactive cells slip through afterward. Autoimmune disease can arise from a failure at either stage, which is why the concept matters beyond pure theory.",
           "note": "Sakaguchi, S., Sakaguchi, N., Asano, M., Itoh, M., Toda, M. (1995). 'Immunologic Self-Tolerance Maintained by Activated T Cells Expressing IL-2 Receptor Alpha-Chains (CD25).' Journal of Immunology, 155(3), 1151–1164 — the paper that put regulatory T cells (Tregs) on firm experimental footing, decisively confirming the peripheral half of this framework. The central/peripheral distinction itself is now standard, textbook immunology.",
           "links": [
-            "th4"
+            "th4",
+            "ef4"
           ],
           "keywords": [
             "central peripheral tolerance",
@@ -1102,7 +1132,9 @@
           "tag": "CONCEPT",
           "hint": "Chemokines are a specific family of small signalling proteins whose job is to tell immune cells which direction to move in — laying down a chemical trail that draws phagocytes and lymphocytes toward an infection or, less helpfully, that tumours can hijack to attract cells that help them grow. They're a functionally distinct subset of the broader category of cytokines, immune cell-to-cell signals in general.",
           "note": "Zlotnik, A., Yoshie, O. (2000). 'Chemokines: A New Classification System and Their Role in Immunity.' Immunity, 12(2), 121–127 — established the modern CXC/CC/C/CX3C structural classification still used today. The system has needed only minor extension since, as new chemokines and their receptors continue to be characterised.",
-          "links": [],
+          "links": [
+            "th10"
+          ],
           "keywords": [
             "chemokine classification system",
             "cxc cc chemokine families",
@@ -1147,7 +1179,9 @@
           "tag": "CONCEPT",
           "hint": "Not all allergic or immune-mediated tissue damage works the same way — Philip Gell and Robin Coombs sorted hypersensitivity reactions into four mechanistic types: Type I is immediate IgE-mediated allergy (hay fever, anaphylaxis), Type II is antibody attacking a specific cell surface (some transfusion reactions), Type III is immune complexes depositing in tissue (some forms of lupus), and Type IV is delayed T-cell-mediated reaction (contact dermatitis, tuberculin skin tests). The scheme is still the standard way to teach why allergic and autoimmune reactions look so different from each other.",
           "note": "Gell, P.G.H., Coombs, R.R.A. (1963). Clinical Aspects of Immunology. Oxford: Blackwell Scientific Publications. A classification system, not a falsifiable hypothesis, so it isn't \"replicated\" in the usual sense — but it has proven durable enough that it's still the standard teaching framework six decades later, with only minor proposed extensions (e.g. a sometimes-cited Type V for stimulatory autoantibodies).",
-          "links": [],
+          "links": [
+            "ef4"
+          ],
           "keywords": [
             "gell-coombs classification",
             "type i-iv hypersensitivity",
@@ -1230,7 +1264,10 @@
           "tag": "METHOD",
           "hint": "A way to detect and measure a specific antibody or antigen in a fluid sample using an enzyme that produces a visible colour change when the target is present — the intensity of colour tells you roughly how much is there. It replaced slower, more hazardous radioactive-label assays and became the workhorse behind most diagnostic blood tests, from HIV screening to allergy panels to pregnancy tests.",
           "note": "Engvall, E., Perlmann, P. (1971). 'Enzyme-linked immunosorbent assay (ELISA). Quantitative assay of immunoglobulin G.' Immunochemistry, 8(9), 871–874. Still the diagnostic-immunology default fifty years on; countless clinical variants (sandwich ELISA, competitive ELISA) have been built on the same enzyme-label principle.",
-          "links": [],
+          "links": [
+            "me2",
+            "co1"
+          ],
           "keywords": [
             "elisa assay",
             "enzyme-linked immunosorbent assay",
@@ -1251,7 +1288,10 @@
           "tag": "METHOD",
           "hint": "A method for passing individual cells one at a time past a laser, reading which fluorescently-tagged antibodies each cell has bound on its surface, and sorting millions of cells per hour by exactly which combination of markers they carry. It's how a T-cell count is measured, how immune cell subtypes are distinguished from each other in the first place, and how a specific rare cell population can be physically isolated for further study.",
           "note": "Julius, M.H., Masuda, T., Herzenberg, L.A. (1972). 'Demonstration that antigen-binding cells are precursors of antibody-producing cells after purification with a fluorescence-activated cell sorter.' Proceedings of the National Academy of Sciences, 69(7), 1934–1938 — one of Leonard Herzenberg's foundational FACS papers. Modern instruments can now read 30+ markers on a single cell simultaneously, far beyond what the original method could resolve.",
-          "links": [],
+          "links": [
+            "me5",
+            "me1"
+          ],
           "keywords": [
             "flow cytometry",
             "fluorescence-activated cell sorting",
@@ -1272,7 +1312,9 @@
           "tag": "METHOD",
           "hint": "A way to take a trace amount of a pathogen's genetic material — sometimes just a handful of molecules — and repeatedly copy it until there's enough to reliably detect, using a heat-tolerant enzyme that survives the repeated heating and cooling cycles the copying process requires. It turned pathogen diagnosis from \"culture it and wait days\" into \"amplify and detect in hours,\" and became a household term during COVID-19 as the basis of the standard PCR test.",
           "note": "Saiki, R.K., Gelfand, D.H., Stoffel, S., et al. (1988). 'Primer-Directed Enzymatic Amplification of DNA with a Thermostable DNA Polymerase.' Science, 239(4839), 487–491 — introducing Taq polymerase, which made Kary Mullis's original 1985 PCR concept practical to automate. Mullis received the 1993 Nobel Prize in Chemistry for the underlying idea.",
-          "links": [],
+          "links": [
+            "st8"
+          ],
           "keywords": [
             "pcr pathogen detection",
             "taq polymerase amplification",
@@ -1290,7 +1332,9 @@
           "tag": "METHOD",
           "hint": "Cutting tissue into slices thin enough for light to pass through and staining them with dyes that colour different cell structures differently — classically haematoxylin (stains nuclei blue-purple) paired with eosin (stains cytoplasm and protein pink) — lets a pathologist read a tissue's story under a microscope. It remains the single most-performed diagnostic test in cancer medicine: nearly every cancer diagnosis still starts with a biopsy read this way.",
           "note": "The haematoxylin/eosin (H&E) combination developed incrementally through the 1860s–1870s via multiple European histologists rather than one landmark paper; see Titford, M. (2005). 'The Long History of Hematoxylin.' Biotechnic & Histochemistry, 80(2), 73–78 for the consolidated history. Despite over a century of alternative and molecular diagnostic techniques, H&E staining remains the irreplaceable first step in most cancer diagnoses.",
-          "links": [],
+          "links": [
+            "th2"
+          ],
           "keywords": [
             "hematoxylin eosin staining",
             "h&e tissue staining",
@@ -1312,7 +1356,8 @@
           "hint": "Fusing a single antibody-producing immune cell with an immortal cancer cell creates a hybrid cell — a hybridoma — that combines the immune cell's ability to make one specific, pure antibody with the cancer cell's ability to divide forever. This single trick made it possible to manufacture unlimited quantities of any desired antibody, and underlies most modern antibody-based drugs, from checkpoint inhibitors to countless diagnostic tests.",
           "note": "Köhler, G., Milstein, C. (1975). 'Continuous cultures of fused cells secreting antibody of predefined specificity.' Nature, 256(5517), 495–497. Köhler and Milstein shared the 1984 Nobel Prize; notably, they deliberately did not patent the technique, a decision later widely debated given the enormous commercial value monoclonal antibody drugs went on to generate.",
           "links": [
-            "ap4"
+            "ap4",
+            "me2"
           ],
           "keywords": [
             "hybridoma technique",
@@ -1334,7 +1379,9 @@
           "tag": "METHOD",
           "hint": "Precisely disabling a single gene in a living mouse — and breeding a strain that inherits the disabled version — lets researchers directly observe what that gene actually does by watching what goes wrong without it. For immunology specifically, it has been the primary tool for proving that a given receptor, cytokine, or signalling protein is genuinely necessary for a specific immune function, rather than just associated with it.",
           "note": "Thomas, K.R., Capecchi, M.R. (1987). 'Site-directed mutagenesis by gene targeting in mouse embryo-derived stem cells.' Cell, 51(3), 503–512. Capecchi shared the 2007 Nobel Prize with Martin Evans and Oliver Smithies for developing gene-targeting technology; newer CRISPR-based methods have since made knockout generation dramatically faster, though the underlying logic of the experiment is unchanged.",
-          "links": [],
+          "links": [
+            "th10"
+          ],
           "keywords": [
             "knockout mouse model",
             "gene targeting capecchi",
@@ -1355,7 +1402,9 @@
           "tag": "METHOD",
           "hint": "Implanting a piece of human tumour directly into a mouse that lacks the immune system components needed to reject it lets that human tumour keep growing in a living animal, where its response to a candidate drug can be tested before ever giving the drug to a person. It became possible only once genetically immunodeficient (\"nude\") mice were available to accept a human graft without rejecting it as foreign.",
           "note": "Rygaard, J., Povlsen, C.O. (1969). 'Heterotransplantation of a human malignant tumour to \"Nude\" mice.' Acta Pathologica et Microbiologica Scandinavica, 77(4), 758–760. Now a standard preclinical step in cancer drug development; a significant limitation is that these mice's compromised immune systems mean the models can't capture how a fully intact immune system would interact with the tumour or a candidate immunotherapy.",
-          "links": [],
+          "links": [
+            "ef5"
+          ],
           "keywords": [
             "tumor xenograft model",
             "nude mouse transplantation",
@@ -1437,7 +1486,9 @@
           "tag": "FIGURE",
           "hint": "Developed Salvarsan, the first drug designed and systematically screened to kill a specific pathogen (the bacterium causing syphilis) while sparing the patient — the founding demonstration of chemotherapy as a rational discipline, which he called the search for a \"magic bullet.\" He separately proposed an influential (and largely correct) side-chain theory explaining how antibodies bind antigens.",
           "note": "Salvarsan announced 1910; shared the 1908 Nobel Prize with Metchnikoff for immunity work. Founded and directed the Georg-Speyer-Haus research institute in Frankfurt, where the Salvarsan screening programme was carried out.",
-          "links": [],
+          "links": [
+            "co1"
+          ],
           "keywords": [
             "ehrlich magic bullet",
             "salvarsan chemotherapy founder",
@@ -1845,7 +1896,10 @@
           "tag": "DEBATE",
           "hint": "Matching a drug to a tumour's specific genomic mutations has produced some genuine triumphs — imatinib for BCR-ABL-driven leukaemia turned a fatal disease into a manageable chronic condition. Critics argue those wins are the exception: for most solid tumours, \"basket trials\" that match patients to targeted drugs by mutation alone, regardless of cancer type, have shown disappointingly low response rates, and the promise of genomic medicine has outpaced what tumour biology has actually delivered for the average patient.",
           "note": "Critical position: Prasad, V. (2016). 'Perspective: The precision-oncology illusion.' Nature, 537(7619), S63. The genuine successes (imatinib, EGFR-targeted lung cancer therapy, and others) are not in dispute; the argument is over how representative those successes are of precision oncology's overall track record, and whether the field's rhetoric has run ahead of its results for the majority of patients.",
-          "links": [],
+          "links": [
+            "th5",
+            "ap4"
+          ],
           "keywords": [
             "precision oncology illusion",
             "genomic-guided therapy critique",
@@ -1925,7 +1979,9 @@
           "tag": "CLINICAL APPLICATION",
           "hint": "Instead of injecting a weakened or inactivated pathogen, an mRNA vaccine delivers genetic instructions that make the body's own cells briefly manufacture a harmless viral protein, training the immune system to recognise the real thing. The platform existed for decades before COVID-19 but was blocked by the immune system destroying unmodified synthetic RNA before it could work — solving that one chemistry problem unlocked the fastest vaccine development and deployment in history.",
           "note": "Karikó, K., Weissman, D. (2005). 'Suppressing RNA Recognition by Toll-like Receptors: The Impact of Nucleoside Modification and the Evolutionary Origin of RNA.' Immunity, 23(2), 165–175 — the nucleoside-modification discovery that made mRNA vaccines clinically viable, for which Karikó and Weissman received the 2023 Nobel Prize. Deployed at unprecedented scale during the COVID-19 pandemic (Pfizer-BioNTech and Moderna vaccines); the platform's speed and flexibility are now being applied to other infectious diseases and cancer vaccines.",
-          "links": [],
+          "links": [
+            "st8"
+          ],
           "keywords": [
             "mrna vaccine platform",
             "nucleoside modification vaccine",
@@ -1947,7 +2003,8 @@
           "hint": "A monoclonal antibody manufactured to bind one specific target can be turned into a drug in its own right — blocking a growth receptor on cancer cells, neutralising an inflammatory cytokine in autoimmune disease, or marking a pathogen for destruction. Trastuzumab, targeting the HER2 growth receptor overexpressed in a subset of aggressive breast cancers, was one of the first demonstrations that this approach could meaningfully extend survival, not just work in theory.",
           "note": "Slamon, D.J., Leyland-Jones, B., Shak, S., et al. (2001). 'Use of Chemotherapy plus a Monoclonal Antibody against HER2 for Metastatic Breast Cancer That Overexpresses HER2.' New England Journal of Medicine, 344(11), 783–792. Built directly on the hybridoma technique (see me5); monoclonal antibody drugs now span oncology, autoimmune disease (e.g. adalimumab for rheumatoid arthritis), and infectious disease, and represent one of the largest drug categories by revenue in modern medicine.",
           "links": [
-            "me5"
+            "me5",
+            "db8"
           ],
           "keywords": [
             "monoclonal antibody drugs",
@@ -1970,7 +2027,8 @@
           "hint": "Systematically screening large, mostly healthy populations for early signs of cancer — mammography for breast cancer, colonoscopy for colorectal cancer, Pap smears for cervical cancer — catches some cancers early enough that treatment is far more likely to succeed. The Health Insurance Plan of New York trial was among the first to test this rigorously with a randomised design rather than simply assuming earlier detection must help.",
           "note": "Shapiro, S., Strax, P., Venet, L. (1971). 'Periodic Breast Cancer Screening in Reducing Mortality from Breast Cancer.' JAMA, 215(11), 1777–1785 — one of the earliest randomised mammography screening trials. Screening programmes are now standard public health infrastructure in most high-income countries, though the overdiagnosis and lead-time-bias questions raised in db4 mean screening guidelines (which ages, how often) remain genuinely contested and periodically revised.",
           "links": [
-            "db4"
+            "db4",
+            "st3"
           ],
           "keywords": [
             "population cancer screening",
