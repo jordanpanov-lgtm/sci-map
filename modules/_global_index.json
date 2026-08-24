@@ -2609,7 +2609,6 @@
     "biological-anthropology::fg1": [
       "zoology-animal-behavior::th1",
       "oceanography::th5",
-      "botany::fg5",
       "evolutionary-biology::fg1"
     ],
     "zoology-animal-behavior::th1": [
@@ -2622,6 +2621,11 @@
     "oceanography::th5": [
       "biological-anthropology::fg1"
     ],
+    "evolutionary-biology::fg1": [
+      "biological-anthropology::fg1",
+      "botany::fg5",
+      "zoology-animal-behavior::th1"
+    ],
     "biological-anthropology::db5": [
       "cultural-anthropology::st12"
     ],
@@ -2629,7 +2633,6 @@
       "biological-anthropology::db5"
     ],
     "botany::fg5": [
-      "biological-anthropology::fg1",
       "evolutionary-biology::fg1"
     ],
     "botany::ap2": [
@@ -2933,10 +2936,11 @@
       "evolutionary-biology::co7",
       "evolutionary-biology::fg8"
     ],
-    "evolutionary-biology::fg1": [
-      "biological-anthropology::fg1",
-      "botany::fg5",
-      "zoology-animal-behavior::th1"
+    "evolutionary-biology::me2": [
+      "zoology-animal-behavior::me5"
+    ],
+    "zoology-animal-behavior::me5": [
+      "evolutionary-biology::me2"
     ],
     "evolutionary-biology::fg3": [
       "applied-math-statistics::fg6"

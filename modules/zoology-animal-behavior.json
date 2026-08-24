@@ -15,14 +15,14 @@
   "mapZoom": 2,
   "methodology": "METHODOLOGY · Every entry anchors to a landmark study, field observation or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags replication status, effect-size revisions and known controversies. Studies and effects carry a replicability badge — 🟢 robust · 🟡 nuanced or reduced · 🔴 failed or severely contested. Map pins mark the institution where the work was carried out.",
   "_meta": {
-    "total_entries": 76,
+    "total_entries": 74,
     "entry_counts": {
       "theory": 11,
       "study": 13,
       "effect": 9,
       "concept": 9,
       "method": 6,
-      "figure": 13,
+      "figure": 11,
       "debate": 9,
       "application": 6
     },
@@ -46,7 +46,7 @@
       "Reproduction & Sexual Selection",
       "Social Behaviour & Cooperation"
     ],
-    "last_updated": "2026-07-02"
+    "last_updated": "2026-08-24"
   },
   "_index": {
     "th1": "theory · Evolutionary Foundations · Natural Selection & Adaptation (1859)",
@@ -105,8 +105,6 @@
     "fg6": "figure · Pioneers & Theorists · Robert Trivers (1971)",
     "fg7": "figure · Pioneers & Theorists · John Maynard Smith (1973)",
     "fg8": "figure · Pioneers & Theorists · Jane Goodall (1960)",
-    "fg9": "figure · Pioneers & Theorists · Richard Dawkins (1976)",
-    "fg10": "figure · Pioneers & Theorists · Ernst Mayr (1942)",
     "fg11": "figure · Pioneers & Theorists · Donald Griffin (1944)",
     "fg12": "figure · Pioneers & Theorists · Frans de Waal (1982)",
     "fg13": "figure · Pioneers & Theorists · Dmitry Belyayev & Lyudmila Trut (1959)",
@@ -161,8 +159,6 @@
             "ef5",
             "ef6",
             "co8",
-            "fg9",
-            "fg10",
             "fg13",
             "db3"
           ],
@@ -174,6 +170,10 @@
             "Darwinian fitness",
             "heritable variation selection",
             "adaptive evolution"
+          ],
+          "xlinks": [
+            "evolutionary-biology::fg8",
+            "evolutionary-biology::fg7"
           ]
         },
         {
@@ -198,7 +198,6 @@
             "th3",
             "co7",
             "fg4",
-            "fg9",
             "db2"
           ],
           "hint": "An individual maximises not just its own reproduction but the propagation of the genes it shares with relatives — its inclusive fitness. Hamilton's rule states that an altruistic act spreads when rB > C: the genetic relatedness (r) times the benefit to the recipient (B) exceeds the cost to the actor (C). This explains why worker bees sacrifice reproduction, why ground squirrels alarm-call at personal risk, and why sibling rivalry has predictable limits.",
@@ -209,6 +208,9 @@
             "kin selection coefficient",
             "altruism relatedness",
             "Hamilton rule rb > c"
+          ],
+          "xlinks": [
+            "evolutionary-biology::fg8"
           ]
         },
         {
@@ -756,8 +758,7 @@
           ],
           "links": [
             "th1",
-            "th4",
-            "fg10"
+            "th4"
           ],
           "hint": "A severe 1977 drought on Daphne Major eliminated small, soft seeds and left only large, hard seeds on the island. Medium ground finches with deeper, stronger beaks survived at significantly higher rates; mean beak depth in the post-drought cohort was 0.5 mm greater than before. The Grants measured selection coefficients equivalent to the strongest ever documented in a natural population, and demonstrated that natural selection operates on generational timescales — not just geological ones.",
           "tag": "FIELD STUDY",
@@ -768,6 +769,9 @@
             "Grant Galapagos selection",
             "beak morphology selection",
             "finch microevolution"
+          ],
+          "xlinks": [
+            "evolutionary-biology::fg7"
           ]
         },
         {
@@ -936,7 +940,6 @@
           "links": [
             "th1",
             "ap5",
-            "fg10",
             "co5",
             "me4",
             "me5",
@@ -953,6 +956,9 @@
             "MacArthur Wilson area",
             "area diversity curve",
             "fragmentation species loss"
+          ],
+          "xlinks": [
+            "evolutionary-biology::fg7"
           ]
         },
         {
@@ -1646,7 +1652,6 @@
             "st6",
             "db3",
             "st5",
-            "fg9",
             "db1"
           ],
           "hint": "Hamilton solved the central puzzle of evolutionary biology — why should an individual sacrifice its own reproduction for others — by extending natural selection to operate on shared genes rather than individuals. His 1964 papers on inclusive fitness and Hamilton's rule are among the most cited in biology. He also contributed the geometric sex ratio theory, the parasite theory of sex, and collaborated on the Axelrod tournament demonstrating the evolution of cooperation.",
@@ -1657,6 +1662,9 @@
             "altruism genetic basis",
             "kin selection theory",
             "Hamilton rule"
+          ],
+          "xlinks": [
+            "evolutionary-biology::fg8"
           ]
         },
         {
@@ -1736,57 +1744,6 @@
             "Gombe chimpanzee",
             "primate social learning",
             "chimp culture observation"
-          ]
-        },
-        {
-          "id": "fg9",
-          "group": "Pioneers & Theorists",
-          "label": "Richard Dawkins",
-          "date": "1976",
-          "loc": "University of Oxford, Oxford, England",
-          "coords": [
-            51.76,
-            -1.26
-          ],
-          "links": [
-            "th1",
-            "th2",
-            "fg5",
-            "db3"
-          ],
-          "hint": "Dawkins reframed evolutionary theory from the organism's perspective to the gene's: genes are the replicators that persist across generations, and bodies are their temporary vehicles. The Selfish Gene (1976) popularised Hamilton's inclusive fitness, Maynard Smith's ESS and Trivers' theories for a general audience and introduced the concept of the meme. Extended Phenotype (1982) argued that genes manipulate not just their own organism but also the environment and other organisms.",
-          "tag": "FIGURE",
-          "note": "Key works: Dawkins, R. (1976). The Selfish Gene. Oxford University Press; Dawkins, R. (1982). The Extended Phenotype. Oxford University Press. The gene-centred view synthesised Fisher, Hamilton and Williams rather than originating new biology. Controversy: Gould & Lewontin (1979) and Gould (2002) critiqued 'genocentrism' and adaptionism. Nowak et al. (2010) Nature disputed the exclusive sufficiency of inclusive fitness. Dawkins' later public profile (atheism advocacy) is separate from his scientific legacy.",
-          "keywords": [
-            "selfish gene Dawkins",
-            "gene-centred evolution",
-            "meme concept Dawkins",
-            "extended phenotype"
-          ]
-        },
-        {
-          "id": "fg10",
-          "group": "Pioneers & Theorists",
-          "label": "Ernst Mayr",
-          "date": "1942",
-          "loc": "American Museum of Natural History, New York, New York",
-          "coords": [
-            40.78,
-            -73.97
-          ],
-          "links": [
-            "ef4",
-            "st11",
-            "th1"
-          ],
-          "hint": "Mayr provided the biological species concept — species are groups of actually or potentially interbreeding natural populations reproductively isolated from other such groups — and the geographic theory of speciation: new species form primarily through allopatry (geographic isolation followed by divergence). These two contributions unified evolutionary biology and systematics, allowing the modern synthesis to incorporate natural history collections. He also formalised the proximate/ultimate distinction that Tinbergen later extended.",
-          "tag": "FIGURE",
-          "note": "Key works: Mayr, E. (1942). Systematics and the Origin of Species. Columbia University Press; Mayr, E. (1963). Animal Species and Evolution. Belknap Press. Biological species concept: challenged by Mallet (1995) Trends in Ecology & Evolution — many species hybridise; phylogenetic and cohesion species concepts proposed as alternatives. The BSC remains standard in zoology. Mayr contributed the proximate/ultimate distinction in Mayr (1961) Science, 134, 1501–1506, predating Tinbergen's four questions.",
-          "keywords": [
-            "Ernst Mayr speciation",
-            "biological species concept",
-            "allopatric speciation",
-            "geographic speciation"
           ]
         },
         {
@@ -1943,7 +1900,6 @@
             "th1",
             "th2",
             "fg5",
-            "fg9",
             "db1",
             "th3",
             "fg7",
@@ -1957,6 +1913,9 @@
             "replicator vehicle debate",
             "Dawkins gene unit",
             "unit of selection"
+          ],
+          "xlinks": [
+            "evolutionary-biology::fg8"
           ]
         },
         {
