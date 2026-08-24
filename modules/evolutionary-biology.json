@@ -115,7 +115,8 @@
             "fg11",
             "db8",
             "th7",
-            "ef2"
+            "ef2",
+            "me5"
           ],
           "keywords": [
             "neutral molecular evolution",
@@ -381,7 +382,8 @@
           "hint": "A full sequence-by-sequence comparison of the human and chimpanzee genomes found roughly 1.2% of aligned single-nucleotide sites differ — direct molecular confirmation, independent of any fossil, of the close common ancestry the two lineages share, and a dataset detailed enough to start identifying which specific genetic changes are associated with distinctly human traits.",
           "note": "Chimpanzee Sequencing and Analysis Consortium (2005). 'Initial Sequence of the Chimpanzee Genome and Comparison with the Human Genome.' Nature, 437, 69-87. The human-specific fossil and behavioural record itself is covered in depth in biological-anthropology; this entry anchors to the general molecular-comparison method and its confirmation of common descent.",
           "links": [
-            "th1"
+            "th1",
+            "me3"
           ],
           "xlinks": [
             "biological-anthropology::co4"
@@ -735,7 +737,8 @@
             "th1",
             "th3",
             "ef3",
-            "ef6"
+            "ef6",
+            "me4"
           ],
           "keywords": [
             "allele frequency vocabulary",
@@ -759,7 +762,8 @@
           "links": [
             "th9",
             "st9",
-            "ef4"
+            "ef4",
+            "me6"
           ],
           "keywords": [
             "darwinian fitness definition",
@@ -828,7 +832,8 @@
           "note": "The now-standard graphical convention for representing Hennig's cladistic method (see fg10) — a frequent source of public misreading, since branch order is often mistaken for a ranking of evolutionary progress or complexity, an interpretation the method explicitly rejects.",
           "links": [
             "fg10",
-            "me1"
+            "me1",
+            "me2"
           ],
           "keywords": [
             "cladogram interpretation rules",
@@ -916,7 +921,141 @@
       "accent": "#8B5E00",
       "bg": "#FFF8F0",
       "subtitle": "The tools and paradigms that generate the field's evidence",
-      "entries": []
+      "entries": [
+        {
+          "id": "me1",
+          "group": "Phylogenetics",
+          "label": "Phylogenetic Tree Construction",
+          "date": "1981",
+          "loc": "University of California, Berkeley, Berkeley, California",
+          "coords": [
+            37.87,
+            -122.26
+          ],
+          "tag": "METHOD",
+          "hint": "Modern phylogenetics builds evolutionary trees computationally from sequence data using one of three main statistical frameworks: maximum parsimony (find the tree needing the fewest evolutionary changes), maximum likelihood (find the tree most probable given a model of how sequences evolve), or Bayesian inference (weight many candidate trees by their posterior probability). Each can produce a different tree from the same data, and choosing between them is itself a methodological decision.",
+          "note": "Felsenstein, J. (1981). 'Evolutionary Trees from DNA Sequences: A Maximum Likelihood Approach.' Journal of Molecular Evolution, 17(6), 368-376, established maximum likelihood as a rigorous statistical alternative to pure parsimony. The resulting trees are read using the conventions covered in co5.",
+          "links": [
+            "co5",
+            "fg10"
+          ],
+          "keywords": [
+            "maximum likelihood phylogenetics",
+            "tree building method",
+            "bayesian phylogenetic inference"
+          ]
+        },
+        {
+          "id": "me2",
+          "group": "Phylogenetics",
+          "label": "Ancestral State Reconstruction",
+          "date": "1985",
+          "loc": "University of Chicago, Chicago, Illinois",
+          "coords": [
+            41.79,
+            -87.6
+          ],
+          "tag": "METHOD",
+          "hint": "Given a phylogenetic tree and trait data for its living tips, statistical models can infer the most probable trait values at the tree's internal nodes — its extinct, unobserved ancestors — letting researchers estimate whether an ancestral primate was likely nocturnal, whether an ancestral flower was likely red or white, without any direct fossil evidence of that specific trait.",
+          "note": "Formal statistical framework developed by Felsenstein, J. (1985). 'Phylogenies and the Comparative Method.' American Naturalist, 125(1), 1-15, which also established that species sharing recent common ancestry cannot be treated as statistically independent data points — a foundational correction for comparative biology broadly.",
+          "links": [
+            "co5"
+          ],
+          "keywords": [
+            "ancestral trait inference",
+            "internal node reconstruction",
+            "phylogenetic comparative method"
+          ]
+        },
+        {
+          "id": "me3",
+          "group": "Molecular Evolution",
+          "label": "Comparative Genomics",
+          "date": "2005",
+          "loc": "Broad Institute, Cambridge, Massachusetts",
+          "coords": [
+            42.36,
+            -71.09
+          ],
+          "tag": "METHOD",
+          "hint": "Aligning whole genomes side by side, rather than single genes, reveals not just how many differences exist between species but where conserved regions cluster (suggesting functional importance), where gene order has been shuffled (rearrangement events), and where entire segments have been duplicated, lost or transferred — a far richer picture of evolutionary history than single-gene comparison allows.",
+          "note": "Matured as a standard method with large-scale reference genome projects including the chimpanzee genome comparison (see st6). Synteny analysis — tracking conserved gene order across species — is one of comparative genomics' key sub-techniques for reconstructing ancestral chromosome arrangements.",
+          "links": [
+            "st6"
+          ],
+          "keywords": [
+            "whole genome alignment",
+            "synteny gene order",
+            "comparative genome analysis"
+          ]
+        },
+        {
+          "id": "me4",
+          "group": "Population Genetics",
+          "label": "Quantitative Trait Locus (QTL) Mapping",
+          "date": "1988",
+          "loc": "Cornell University, Ithaca, New York",
+          "coords": [
+            42.45,
+            -76.48
+          ],
+          "tag": "METHOD",
+          "hint": "Most evolutionarily interesting traits — height, beak size, flowering time — aren't controlled by a single gene but by many genes each contributing a small effect, plus environmental noise. QTL mapping statistically links variation in such a continuous trait to specific regions of the genome by tracking how trait values co-segregate with genetic markers across a pedigree or population, pinpointing which chromosomal regions actually matter.",
+          "note": "Lander, E.S. & Botstein, D. (1989). 'Mapping Mendelian Factors Underlying Quantitative Traits Using RFLP Linkage Maps.' Genetics, 121(1), 185-199, building on earlier framework by Lander & Botstein (1988). QTL mapping bridges classical quantitative genetics with molecular genetics, letting researchers identify actual candidate genes underlying selection responses.",
+          "links": [
+            "co1"
+          ],
+          "keywords": [
+            "qtl mapping quantitative trait",
+            "polygenic trait genetics",
+            "genetic marker linkage"
+          ]
+        },
+        {
+          "id": "me5",
+          "group": "Population Genetics",
+          "label": "Coalescent Theory",
+          "date": "1982",
+          "loc": "University of Sussex, Brighton, England",
+          "coords": [
+            50.87,
+            -0.09
+          ],
+          "tag": "METHOD",
+          "hint": "Rather than modelling a population forward through time as it evolves, coalescent theory works backward from a sample of present-day gene copies, tracing their genealogy back until all copies converge — 'coalesce' — into a single common ancestral copy. The mathematics of when and how fast lineages coalesce lets researchers infer past population size changes, migration and divergence times directly from a single snapshot of modern genetic diversity.",
+          "note": "Kingman, J.F.C. (1982). 'The Coalescent.' Stochastic Processes and their Applications, 13(3), 235-248. Coalescent simulations are now the standard framework for testing whether an observed pattern of genetic variation is consistent with neutral evolution (see th4) or requires invoking selection to explain.",
+          "links": [
+            "th4"
+          ],
+          "keywords": [
+            "coalescent genealogy simulation",
+            "backward population model",
+            "gene genealogy inference"
+          ]
+        },
+        {
+          "id": "me6",
+          "group": "Adaptive Radiation",
+          "label": "Common Garden and Reciprocal Transplant Experiments",
+          "date": "1940",
+          "loc": "Carnegie Institution, Stanford, California",
+          "coords": [
+            37.42,
+            -122.17
+          ],
+          "tag": "METHOD",
+          "hint": "To find out whether a trait difference between two populations is genetically inherited or simply a response to different environments, researchers grow or raise both populations together under identical conditions (a common garden) — or transplant each into the other's native habitat (reciprocal transplant) — and see whether the trait difference persists. If it does, the difference has a genetic basis; if it vanishes, the environment was the cause all along.",
+          "note": "Clausen, J., Keck, D.D. & Hiesey, W.M. (1940). Experimental Studies on the Nature of Species. I. Effect of Varied Environments on Western North American Plants. Washington, D.C.: Carnegie Institution of Washington, Publication 520 — the classic founding study, using Achillea and Potentilla plants grown at multiple elevations. Still the standard method for measuring local adaptation and estimating fitness under controlled conditions.",
+          "links": [
+            "co2"
+          ],
+          "keywords": [
+            "common garden experiment",
+            "reciprocal transplant design",
+            "genetic environmental trait cause"
+          ]
+        }
+      ]
     },
     {
       "id": "figure",
@@ -1154,7 +1293,8 @@
           "note": "Hennig, W. (1950). Grundzüge einer Theorie der phylogenetischen Systematik. Berlin: Deutscher Zentralverlag, substantially revised and translated as Hennig, W. (1966). Phylogenetic Systematics. Urbana: University of Illinois Press. Hennig's method, cladistics, initially met resistance from taxonomists trained in older, similarity-based classification schemes, but became the dominant standard once computational methods made large-scale cladistic analysis practical.",
           "links": [
             "co3",
-            "co5"
+            "co5",
+            "me1"
           ],
           "keywords": [
             "cladistics founding method",
