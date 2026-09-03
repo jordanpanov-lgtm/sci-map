@@ -15,10 +15,10 @@
   "mapZoom": 3,
   "methodology": "METHODOLOGY · Every entry anchors to a landmark study, paper, clinical case or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags replication status, effect-size revisions and known controversies. Studies and effects carry a replicability badge — 🟢 robust · 🟡 nuanced or reduced · 🔴 failed or severely contested. Map pins mark the institution where the work was carried out.",
   "_meta": {
-    "total_entries": 77,
+    "total_entries": 78,
     "entry_counts": {
       "theory": 10,
-      "study": 11,
+      "study": 12,
       "effect": 12,
       "concept": 10,
       "method": 7,
@@ -28,7 +28,7 @@
     },
     "max_ids": {
       "th": 10,
-      "st": 11,
+      "st": 12,
       "ef": 12,
       "co": 10,
       "me": 7,
@@ -46,7 +46,7 @@
       "Neoplasia & Cancer Biology",
       "Pioneers & Theorists"
     ],
-    "last_updated": "2026-07-10"
+    "last_updated": "2026-09-03"
   },
   "_index": {
     "th1": "theory · Infectious Disease & Host-Pathogen Interaction · Koch's Postulates (1884)",
@@ -70,6 +70,7 @@
     "st9": "study · Immunodeficiency & Immunotherapy · Rosenberg's IL-2 and Adoptive Cell Therapy Trials (1985)",
     "st10": "study · Immunodeficiency & Immunotherapy · First Pediatric CAR-T Trial for Leukemia (2013)",
     "st11": "study · Immunodeficiency & Immunotherapy · CTLA-4 Blockade Experiments (1996)",
+    "st12": "study · Neoplasia & Cancer Biology · Ewingella americana Frog-Gut Bacterium Eliminates Tumours (2025)",
     "ef1": "effect · Neoplasia & Cancer Biology · The Warburg Effect (1924)",
     "ef2": "effect · Innate Immunity · Cytokine Storm (2019)",
     "ef3": "effect · Infectious Disease & Host-Pathogen Interaction · Antigenic Drift and Shift (1992)",
@@ -308,7 +309,8 @@
           "hint": "The immune system doesn't just fight infection — it continuously patrols the body for cells that have turned cancerous and eliminates most of them before a tumour ever forms. On this view, the cancers we actually see are the rare ones that evolved ways to hide from or disable this surveillance. It reframed cancer as, in part, an immunological failure rather than a purely cellular one.",
           "note": "Burnet, F.M. (1970). 'The concept of immunological surveillance.' Progress in Experimental Tumor Research, 13, 1–27 — building on an earlier idea sketched by Lewis Thomas in 1959. The theory fell out of favour in the 1970s when early immunodeficient (nude) mice showed no major increase in spontaneous tumours, but was substantially rehabilitated from the 1990s onward with better mouse models and the discovery of tumour-infiltrating lymphocytes; it is now the theoretical basis for cancer immunotherapy.",
           "links": [
-            "fg7"
+            "fg7",
+            "st12"
           ],
           "keywords": [
             "cancer immunosurveillance",
@@ -675,6 +677,31 @@
             "allison checkpoint discovery",
             "antitumor immunity blockade",
             "immune checkpoint founding study"
+          ]
+        },
+        {
+          "id": "st12",
+          "group": "Neoplasia & Cancer Biology",
+          "label": "Ewingella americana Frog-Gut Bacterium Eliminates Tumours",
+          "date": "2025",
+          "loc": "Japan Advanced Institute of Science and Technology, Nomi, Japan",
+          "coords": [
+            36.45,
+            136.57
+          ],
+          "tag": "EXPERIMENT",
+          "repl": "mixed",
+          "hint": "Isolated from the gut of a Japanese tree frog, this facultative anaerobic bacterium seeks out and thrives in the low-oxygen core of solid tumours — the very microenvironment that shields tumours from most therapies — then attacks on two fronts at once: killing cancer cells directly on contact and triggering a strong T cell, neutrophil and B cell immune response against the tumour. A single intravenous dose produced complete tumour elimination in every treated mouse in a colorectal cancer model, outperforming both anti-PD-L1 checkpoint immunotherapy and the chemotherapy drug doxorubicin in the same experiment.",
+          "note": "Miyako, E. et al. (2025). 'Discovery and Characterization of Antitumor Gut Microbiota from Amphibians and Reptiles: Ewingella americana as a Novel Therapeutic Agent with Dual Cytotoxic and Immunomodulatory Properties.' Gut Microbes, published online 10 December 2025. Flagged 'mixed' pending replication: a single preclinical study in mice, one tumour type, one research group — no independent replication and no human trials as of this writing. E. americana is otherwise known chiefly as a rare opportunistic human pathogen, so a real safety case will need to precede any clinical translation.",
+          "links": [
+            "th7",
+            "ap2",
+            "db6"
+          ],
+          "keywords": [
+            "bacteriotherapy tumor elimination",
+            "hypoxic tumor microenvironment targeting",
+            "facultative anaerobe cancer therapy"
           ]
         }
       ]
@@ -1849,10 +1876,11 @@
           ],
           "tag": "DEBATE",
           "hint": "CAR-T therapy transformed treatment of blood cancers, where the target cells circulate freely and are easy for engineered T cells to reach. Solid tumours are a much harder problem: a dense, immunosuppressive tumour microenvironment blocks T-cell infiltration, exhausts the T cells that do get in, and the tumours themselves are more molecularly heterogeneous, so a single target antigen rarely covers the whole tumour. Whether these are solvable engineering problems or a fundamental ceiling on the approach is genuinely unresolved.",
-          "note": "Martinez, M., Moon, E.K. (2019). 'CAR T Cells for Solid Tumors: New Strategies for Finding, Infiltrating, and Surviving in the Tumor Microenvironment.' Frontiers in Immunology, 10, 128. Early solid-tumour trials (e.g. mesothelin- and GD2-targeted CAR-T) have shown encouraging but so far far more modest and less durable responses than the blood-cancer results (see st10); optimists point to rapid engineering progress, sceptics to the structural mismatch between the therapy and the target.",
+          "note": "Martinez, M., Moon, E.K. (2019). 'CAR T Cells for Solid Tumors: New Strategies for Finding, Infiltrating, and Surviving in the Tumor Microenvironment.' Frontiers in Immunology, 10, 128. Early solid-tumour trials (e.g. mesothelin- and GD2-targeted CAR-T) have shown encouraging but so far far more modest and less durable responses than the blood-cancer results (see st10); optimists point to rapid engineering progress, sceptics to the structural mismatch between the therapy and the target. A very different, much more preliminary approach sidesteps the mismatch entirely by exploiting the same hostile microenvironment rather than fighting through it (see st12).",
           "links": [
             "st10",
-            "ef5"
+            "ef5",
+            "st12"
           ],
           "keywords": [
             "car-t solid tumor challenge",
@@ -1958,7 +1986,8 @@
           "links": [
             "fg10",
             "fg11",
-            "ef5"
+            "ef5",
+            "st12"
           ],
           "keywords": [
             "checkpoint inhibitor drugs",
@@ -2148,6 +2177,11 @@
           "y": 2013,
           "l": "First Pediatric CAR-T Trial for Leukemia",
           "entryId": "st10"
+        },
+        {
+          "y": 2025,
+          "l": "Ewingella americana Frog-Gut Bacterium Eliminates Tumours",
+          "entryId": "st12"
         }
       ]
     },

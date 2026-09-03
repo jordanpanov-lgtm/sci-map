@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 2286,
+    "total_entries": 2287,
     "folio_count": 30,
     "xlink_pairs": 177,
-    "keyword_terms": 8021,
+    "keyword_terms": 8024,
     "folios": [
       {
         "id": "anatomy-histology",
@@ -118,7 +118,7 @@
       {
         "id": "pathology-immunology",
         "title": "Pathology, Immunology & Infectious Disease",
-        "entries": 77
+        "entries": 78
       },
       {
         "id": "physiology-organ-systems",
@@ -1845,6 +1845,7 @@
     "pathology-immunology::st9": "study · Immunodeficiency & Immunotherapy · Rosenberg's IL-2 and Adoptive Cell Therapy Trials (1985)",
     "pathology-immunology::st10": "study · Immunodeficiency & Immunotherapy · First Pediatric CAR-T Trial for Leukemia (2013)",
     "pathology-immunology::st11": "study · Immunodeficiency & Immunotherapy · CTLA-4 Blockade Experiments (1996)",
+    "pathology-immunology::st12": "study · Neoplasia & Cancer Biology · Ewingella americana Frog-Gut Bacterium Eliminates Tumours (2025)",
     "pathology-immunology::ef1": "effect · Neoplasia & Cancer Biology · The Warburg Effect (1924)",
     "pathology-immunology::ef2": "effect · Innate Immunity · Cytokine Storm (2019)",
     "pathology-immunology::ef3": "effect · Infectious Disease & Host-Pathogen Interaction · Antigenic Drift and Shift (1992)",
@@ -12584,6 +12585,11 @@
       "allison checkpoint discovery",
       "antitumor immunity blockade",
       "immune checkpoint founding study"
+    ],
+    "pathology-immunology::st12": [
+      "bacteriotherapy tumor elimination",
+      "hypoxic tumor microenvironment targeting",
+      "facultative anaerobe cancer therapy"
     ],
     "pathology-immunology::ef1": [
       "warburg effect",
@@ -33467,6 +33473,15 @@
     ],
     "immune checkpoint founding study": [
       "pathology-immunology::st11"
+    ],
+    "bacteriotherapy tumor elimination": [
+      "pathology-immunology::st12"
+    ],
+    "hypoxic tumor microenvironment targeting": [
+      "pathology-immunology::st12"
+    ],
+    "facultative anaerobe cancer therapy": [
+      "pathology-immunology::st12"
     ],
     "warburg effect": [
       "pathology-immunology::ef1"
