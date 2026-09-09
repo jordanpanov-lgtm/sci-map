@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 2287,
+    "total_entries": 2293,
     "folio_count": 30,
-    "xlink_pairs": 177,
-    "keyword_terms": 8024,
+    "xlink_pairs": 178,
+    "keyword_terms": 8046,
     "folios": [
       {
         "id": "anatomy-histology",
@@ -113,7 +113,7 @@
       {
         "id": "organic-polymer-chem",
         "title": "Chemistry: Organic & Polymer",
-        "entries": 77
+        "entries": 83
       },
       {
         "id": "pathology-immunology",
@@ -1771,6 +1771,7 @@
     "organic-polymer-chem::st10": "study · Spectroscopic Structure Determination · Bloch and Purcell's Discovery of Nuclear Magnetic Resonance (1946)",
     "organic-polymer-chem::st11": "study · Spectroscopic Structure Determination · The Discovery of Chemical Shift (1951)",
     "organic-polymer-chem::st12": "study · Reaction Mechanisms · Olah's Direct Observation of Carbocations (1962)",
+    "organic-polymer-chem::st13": "study · Carbon Bonding & Molecular Structure · The Ritonavir (Norvir) Polymorph Crisis (1998)",
     "organic-polymer-chem::ef1": "effect · Polymer Chemistry · Vulcanization of Rubber (1839)",
     "organic-polymer-chem::ef2": "effect · Stereochemistry · Mutarotation (1846)",
     "organic-polymer-chem::ef3": "effect · Reaction Mechanisms · Keto-Enol Tautomerism (1885)",
@@ -1780,6 +1781,7 @@
     "organic-polymer-chem::ef7": "effect · Spectroscopic Structure Determination · The Aromatic Ring Current (1956)",
     "organic-polymer-chem::ef8": "effect · Reaction Mechanisms · Neighboring Group Participation (1952)",
     "organic-polymer-chem::ef9": "effect · Stereochemistry · Atropisomer Racemization (1922)",
+    "organic-polymer-chem::ef10": "effect · Carbon Bonding & Molecular Structure · Disappearing Polymorphs (1995)",
     "organic-polymer-chem::co1": "concept · Carbon Bonding & Molecular Structure · Functional Groups (1892)",
     "organic-polymer-chem::co2": "concept · Carbon Bonding & Molecular Structure · Structural Isomerism (1830)",
     "organic-polymer-chem::co3": "concept · Hydrocarbons & Aromaticity · Resonance and Electron Delocalization (1928)",
@@ -1789,6 +1791,7 @@
     "organic-polymer-chem::co7": "concept · Polymer Chemistry · Degree of Polymerization and Molecular Weight Distribution (1940)",
     "organic-polymer-chem::co8": "concept · Spectroscopic Structure Determination · Chemical Shift and the Delta Scale (1958)",
     "organic-polymer-chem::co9": "concept · Organic Synthesis & Named Reactions · Protecting Groups (1957)",
+    "organic-polymer-chem::co10": "concept · Carbon Bonding & Molecular Structure · Crystal Polymorphism (1822)",
     "organic-polymer-chem::me1": "method · Hydrocarbons & Aromaticity · Catalytic Cracking (1937)",
     "organic-polymer-chem::me2": "method · Spectroscopic Structure Determination · Thin-Layer Chromatography (1938)",
     "organic-polymer-chem::me3": "method · Organic Synthesis & Named Reactions · Flash Chromatography (1978)",
@@ -1810,6 +1813,7 @@
     "organic-polymer-chem::fg11": "figure · Pioneers & Theorists · Robert Woodward (1965)",
     "organic-polymer-chem::fg12": "figure · Pioneers & Theorists · Charles Goodyear (1839)",
     "organic-polymer-chem::fg13": "figure · Pioneers & Theorists · Otto Diels (1928)",
+    "organic-polymer-chem::fg14": "figure · Pioneers & Theorists · Walter C. McCrone (1965)",
     "organic-polymer-chem::db1": "debate · Carbon Bonding & Molecular Structure · Did One Synthesis Really Kill Vitalism? (2000)",
     "organic-polymer-chem::db2": "debate · Hydrocarbons & Aromaticity · Did Kekulé Really Dream the Benzene Ring? (1890)",
     "organic-polymer-chem::db3": "debate · Organic Synthesis & Named Reactions · Is Retrosynthesis Truly Systematic, or Still an Art? (1969)",
@@ -1818,12 +1822,14 @@
     "organic-polymer-chem::db6": "debate · Polymer Chemistry · Bisphenol A and Endocrine Disruption (1936)",
     "organic-polymer-chem::db7": "debate · Reaction Mechanisms · How Sharp Is the SN1/SN2 Boundary? (1973)",
     "organic-polymer-chem::db8": "debate · Spectroscopic Structure Determination · Does a Solution NMR Structure Match the Solid Crystal Structure? (1980)",
+    "organic-polymer-chem::db9": "debate · Spectroscopic Structure Determination · Can a New Crystal Form Earn Its Own Patent? (1997)",
     "organic-polymer-chem::ap1": "application · Hydrocarbons & Aromaticity · Petrochemical Feedstocks (1920)",
     "organic-polymer-chem::ap2": "application · Polymer Chemistry · Synthetic Fibres Beyond Nylon (1953)",
     "organic-polymer-chem::ap3": "application · Organic Synthesis & Named Reactions · Aspirin's Industrial Synthesis (1897)",
     "organic-polymer-chem::ap4": "application · Polymer Chemistry · The PET Plastic Bottle (1973)",
     "organic-polymer-chem::ap5": "application · Stereochemistry · Asymmetric Synthesis in Drug Design (1968)",
     "organic-polymer-chem::ap6": "application · Spectroscopic Structure Determination · MRI: The Medical Application of NMR (1973)",
+    "organic-polymer-chem::ap7": "application · Spectroscopic Structure Determination · Polymorph Screening in Drug Development (1999)",
     "pathology-immunology::th1": "theory · Infectious Disease & Host-Pathogen Interaction · Koch's Postulates (1884)",
     "pathology-immunology::th2": "theory · Cell Injury & Inflammation · Cellular Pathology (1858)",
     "pathology-immunology::th3": "theory · Adaptive Immunity · Clonal Selection Theory (1957)",
@@ -3312,6 +3318,12 @@
     ],
     "inorganic-analytical-chem::th4": [
       "organic-polymer-chem::th2"
+    ],
+    "organic-polymer-chem::co10": [
+      "inorganic-analytical-chem::me6"
+    ],
+    "inorganic-analytical-chem::me6": [
+      "organic-polymer-chem::co10"
     ],
     "organic-polymer-chem::me2": [
       "inorganic-analytical-chem::me3"
@@ -12195,6 +12207,12 @@
       "direct nmr cation observation",
       "inferred intermediate confirmed"
     ],
+    "organic-polymer-chem::st13": [
+      "ritonavir Form II",
+      "dissolution specification failure",
+      "conformational polymorph",
+      "drug reformulation"
+    ],
     "organic-polymer-chem::ef1": [
       "sulfur cross-linking",
       "accidental stove discovery",
@@ -12240,6 +12258,11 @@
       "axial chirality",
       "biphenyl stereoisomer"
     ],
+    "organic-polymer-chem::ef10": [
+      "seeding contamination",
+      "metastable form loss",
+      "nucleation templating"
+    ],
     "organic-polymer-chem::co1": [
       "reactive atom cluster",
       "systematic nomenclature framework",
@@ -12284,6 +12307,12 @@
       "temporary functional disguise",
       "boc group masking",
       "selective reaction site control"
+    ],
+    "organic-polymer-chem::co10": [
+      "same compound different lattice",
+      "Ostwald rule of stages",
+      "crystal packing",
+      "solid-state form"
     ],
     "organic-polymer-chem::me1": [
       "heavy hydrocarbon breakdown",
@@ -12390,6 +12419,11 @@
       "wartime institute leadership",
       "most-used ring-forming reaction"
     ],
+    "organic-polymer-chem::fg14": [
+      "polarised light microscopy",
+      "every compound is polymorphic",
+      "solid-state identification"
+    ],
     "organic-polymer-chem::db1": [
       "retrospective founding myth",
       "gradual doctrine decline",
@@ -12430,6 +12464,12 @@
       "dissolved versus lattice conformation",
       "technique environment dependence"
     ],
+    "organic-polymer-chem::db9": [
+      "polymorph patent",
+      "evergreening",
+      "ranitidine litigation",
+      "aspirin Form II"
+    ],
     "organic-polymer-chem::ap1": [
       "coal-tar to petroleum shift",
       "refinery byproduct extraction",
@@ -12459,6 +12499,12 @@
       "spatial magnetic field gradient",
       "radiation-free body imaging",
       "chemistry tool medical adaptation"
+    ],
+    "organic-polymer-chem::ap7": [
+      "high-throughput crystallisation",
+      "ICH Q6A",
+      "powder X-ray diffraction",
+      "solid form selection"
     ],
     "pathology-immunology::th1": [
       "koch's postulates",
@@ -32748,6 +32794,18 @@
     "inferred intermediate confirmed": [
       "organic-polymer-chem::st12"
     ],
+    "ritonavir Form II": [
+      "organic-polymer-chem::st13"
+    ],
+    "dissolution specification failure": [
+      "organic-polymer-chem::st13"
+    ],
+    "conformational polymorph": [
+      "organic-polymer-chem::st13"
+    ],
+    "drug reformulation": [
+      "organic-polymer-chem::st13"
+    ],
     "sulfur cross-linking": [
       "organic-polymer-chem::ef1"
     ],
@@ -32829,6 +32887,15 @@
     "biphenyl stereoisomer": [
       "organic-polymer-chem::ef9"
     ],
+    "seeding contamination": [
+      "organic-polymer-chem::ef10"
+    ],
+    "metastable form loss": [
+      "organic-polymer-chem::ef10"
+    ],
+    "nucleation templating": [
+      "organic-polymer-chem::ef10"
+    ],
     "reactive atom cluster": [
       "organic-polymer-chem::co1"
     ],
@@ -32909,6 +32976,18 @@
     ],
     "selective reaction site control": [
       "organic-polymer-chem::co9"
+    ],
+    "same compound different lattice": [
+      "organic-polymer-chem::co10"
+    ],
+    "Ostwald rule of stages": [
+      "organic-polymer-chem::co10"
+    ],
+    "crystal packing": [
+      "organic-polymer-chem::co10"
+    ],
+    "solid-state form": [
+      "organic-polymer-chem::co10"
     ],
     "heavy hydrocarbon breakdown": [
       "organic-polymer-chem::me1"
@@ -33099,6 +33178,15 @@
     "most-used ring-forming reaction": [
       "organic-polymer-chem::fg13"
     ],
+    "polarised light microscopy": [
+      "organic-polymer-chem::fg14"
+    ],
+    "every compound is polymorphic": [
+      "organic-polymer-chem::fg14"
+    ],
+    "solid-state identification": [
+      "organic-polymer-chem::fg14"
+    ],
     "retrospective founding myth": [
       "organic-polymer-chem::db1"
     ],
@@ -33171,6 +33259,18 @@
     "technique environment dependence": [
       "organic-polymer-chem::db8"
     ],
+    "polymorph patent": [
+      "organic-polymer-chem::db9"
+    ],
+    "evergreening": [
+      "organic-polymer-chem::db9"
+    ],
+    "ranitidine litigation": [
+      "organic-polymer-chem::db9"
+    ],
+    "aspirin Form II": [
+      "organic-polymer-chem::db9"
+    ],
     "coal-tar to petroleum shift": [
       "organic-polymer-chem::ap1"
     ],
@@ -33224,6 +33324,18 @@
     ],
     "chemistry tool medical adaptation": [
       "organic-polymer-chem::ap6"
+    ],
+    "high-throughput crystallisation": [
+      "organic-polymer-chem::ap7"
+    ],
+    "ICH Q6A": [
+      "organic-polymer-chem::ap7"
+    ],
+    "powder X-ray diffraction": [
+      "organic-polymer-chem::ap7"
+    ],
+    "solid form selection": [
+      "organic-polymer-chem::ap7"
     ],
     "koch's postulates": [
       "pathology-immunology::th1"

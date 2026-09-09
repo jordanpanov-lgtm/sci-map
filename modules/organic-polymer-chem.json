@@ -15,26 +15,26 @@
   "mapZoom": 3,
   "methodology": "METHODOLOGY · Every entry anchors to a landmark study, paper, clinical case or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags replication status, effect-size revisions and known controversies. Studies and effects carry a replicability badge — 🟢 robust · 🟡 nuanced or reduced · 🔴 failed or severely contested. Map pins mark the institution where the work was carried out.",
   "_meta": {
-    "total_entries": 77,
+    "total_entries": 83,
     "entry_counts": {
       "theory": 12,
-      "study": 12,
-      "effect": 9,
-      "concept": 9,
+      "study": 13,
+      "effect": 10,
+      "concept": 10,
       "method": 8,
-      "figure": 13,
-      "debate": 8,
-      "application": 6
+      "figure": 14,
+      "debate": 9,
+      "application": 7
     },
     "max_ids": {
       "th": 12,
-      "st": 12,
-      "ef": 9,
-      "co": 9,
+      "st": 13,
+      "ef": 10,
+      "co": 10,
       "me": 8,
-      "fg": 13,
-      "db": 8,
-      "ap": 6
+      "fg": 14,
+      "db": 9,
+      "ap": 7
     },
     "groups": [
       "Carbon Bonding & Molecular Structure",
@@ -46,7 +46,7 @@
       "Spectroscopic Structure Determination",
       "Stereochemistry"
     ],
-    "last_updated": "2026-08-20"
+    "last_updated": "2026-09-09"
   },
   "_index": {
     "th1": "theory · Carbon Bonding & Molecular Structure · Kekulé's Structure Theory (1858)",
@@ -73,6 +73,7 @@
     "st10": "study · Spectroscopic Structure Determination · Bloch and Purcell's Discovery of Nuclear Magnetic Resonance (1946)",
     "st11": "study · Spectroscopic Structure Determination · The Discovery of Chemical Shift (1951)",
     "st12": "study · Reaction Mechanisms · Olah's Direct Observation of Carbocations (1962)",
+    "st13": "study · Carbon Bonding & Molecular Structure · The Ritonavir (Norvir) Polymorph Crisis (1998)",
     "ef1": "effect · Polymer Chemistry · Vulcanization of Rubber (1839)",
     "ef2": "effect · Stereochemistry · Mutarotation (1846)",
     "ef3": "effect · Reaction Mechanisms · Keto-Enol Tautomerism (1885)",
@@ -82,6 +83,7 @@
     "ef7": "effect · Spectroscopic Structure Determination · The Aromatic Ring Current (1956)",
     "ef8": "effect · Reaction Mechanisms · Neighboring Group Participation (1952)",
     "ef9": "effect · Stereochemistry · Atropisomer Racemization (1922)",
+    "ef10": "effect · Carbon Bonding & Molecular Structure · Disappearing Polymorphs (1995)",
     "co1": "concept · Carbon Bonding & Molecular Structure · Functional Groups (1892)",
     "co2": "concept · Carbon Bonding & Molecular Structure · Structural Isomerism (1830)",
     "co3": "concept · Hydrocarbons & Aromaticity · Resonance and Electron Delocalization (1928)",
@@ -91,6 +93,7 @@
     "co7": "concept · Polymer Chemistry · Degree of Polymerization and Molecular Weight Distribution (1940)",
     "co8": "concept · Spectroscopic Structure Determination · Chemical Shift and the Delta Scale (1958)",
     "co9": "concept · Organic Synthesis & Named Reactions · Protecting Groups (1957)",
+    "co10": "concept · Carbon Bonding & Molecular Structure · Crystal Polymorphism (1822)",
     "me1": "method · Hydrocarbons & Aromaticity · Catalytic Cracking (1937)",
     "me2": "method · Spectroscopic Structure Determination · Thin-Layer Chromatography (1938)",
     "me3": "method · Organic Synthesis & Named Reactions · Flash Chromatography (1978)",
@@ -112,6 +115,7 @@
     "fg11": "figure · Pioneers & Theorists · Robert Woodward (1965)",
     "fg12": "figure · Pioneers & Theorists · Charles Goodyear (1839)",
     "fg13": "figure · Pioneers & Theorists · Otto Diels (1928)",
+    "fg14": "figure · Pioneers & Theorists · Walter C. McCrone (1965)",
     "db1": "debate · Carbon Bonding & Molecular Structure · Did One Synthesis Really Kill Vitalism? (2000)",
     "db2": "debate · Hydrocarbons & Aromaticity · Did Kekulé Really Dream the Benzene Ring? (1890)",
     "db3": "debate · Organic Synthesis & Named Reactions · Is Retrosynthesis Truly Systematic, or Still an Art? (1969)",
@@ -120,12 +124,14 @@
     "db6": "debate · Polymer Chemistry · Bisphenol A and Endocrine Disruption (1936)",
     "db7": "debate · Reaction Mechanisms · How Sharp Is the SN1/SN2 Boundary? (1973)",
     "db8": "debate · Spectroscopic Structure Determination · Does a Solution NMR Structure Match the Solid Crystal Structure? (1980)",
+    "db9": "debate · Spectroscopic Structure Determination · Can a New Crystal Form Earn Its Own Patent? (1997)",
     "ap1": "application · Hydrocarbons & Aromaticity · Petrochemical Feedstocks (1920)",
     "ap2": "application · Polymer Chemistry · Synthetic Fibres Beyond Nylon (1953)",
     "ap3": "application · Organic Synthesis & Named Reactions · Aspirin's Industrial Synthesis (1897)",
     "ap4": "application · Polymer Chemistry · The PET Plastic Bottle (1973)",
     "ap5": "application · Stereochemistry · Asymmetric Synthesis in Drug Design (1968)",
-    "ap6": "application · Spectroscopic Structure Determination · MRI: The Medical Application of NMR (1973)"
+    "ap6": "application · Spectroscopic Structure Determination · MRI: The Medical Application of NMR (1973)",
+    "ap7": "application · Spectroscopic Structure Determination · Polymorph Screening in Drug Development (1999)"
   },
   "categories": [
     {
@@ -752,6 +758,33 @@
             "inferred intermediate confirmed"
           ],
           "repl": "robust"
+        },
+        {
+          "id": "st13",
+          "group": "Carbon Bonding & Molecular Structure",
+          "label": "The Ritonavir (Norvir) Polymorph Crisis",
+          "date": "1998",
+          "loc": "Abbott Laboratories, Abbott Park, Illinois",
+          "coords": [
+            42.31,
+            -87.86
+          ],
+          "tag": "CASE STUDY",
+          "repl": "robust",
+          "hint": "Abbott launched the HIV protease inhibitor ritonavir in 1996; in mid-1998 a second, more stable crystal form (Form II) — roughly half as soluble as the original — began appearing in production, the capsules failed their dissolution specification, and the product had to be pulled from the market and reformulated at a cost of hundreds of millions of dollars. Once Form II had nucleated in Abbott's facilities, seed crystals made the original Form I very difficult to manufacture again. It is the textbook demonstration that a late-appearing polymorph is a first-order commercial risk.",
+          "note": "Bauer, J., Spanton, S., Henry, R., Quick, J., Dziki, W., Porter, W. & Morris, J. (2001). 'Ritonavir: An Extraordinary Example of Conformational Polymorphism.' Pharmaceutical Research, 18(6), 859–866. The manufacturing and reformulation story is told in Chemburkar, S.R. et al. (2000), 'Dealing with the Impact of Ritonavir Polymorphs on the Late Stages of Bulk Drug Process Development,' Organic Process Research & Development, 4(5), 413–417. The two forms differ in both molecular conformation and lattice packing, and the episode is the reason systematic polymorph screening (see ap7) is now standard practice.",
+          "links": [
+            "co10",
+            "ef10",
+            "db9",
+            "ap7"
+          ],
+          "keywords": [
+            "ritonavir Form II",
+            "dissolution specification failure",
+            "conformational polymorph",
+            "drug reformulation"
+          ]
         }
       ]
     },
@@ -895,7 +928,8 @@
           "hint": "A single organic molecule can twist into many different three-dimensional shapes just by rotating around its own single bonds, with no bonds broken at all — cyclohexane, for instance, continuously flips between a low-energy 'chair' shape and higher-energy alternatives, and even simple molecules like butane have distinctly different-energy rotational arrangements that determine which shapes actually predominate at any given temperature.",
           "note": "Hassel, O. (1943). Established the chair conformation of cyclohexane using electron diffraction, University of Oslo, work largely unknown outside Norway until after the Second World War due to wartime isolation. Hassel shared the 1969 Nobel Prize in Chemistry with Derek Barton, who extended conformational analysis into a general predictive tool for organic reactivity; conformational preferences directly determine countless reaction rates and selectivities throughout organic chemistry.",
           "links": [
-            "th2"
+            "th2",
+            "co10"
           ],
           "keywords": [
             "chair boat cyclohexane",
@@ -973,6 +1007,31 @@
             "axial chirality",
             "biphenyl stereoisomer"
           ]
+        },
+        {
+          "id": "ef10",
+          "group": "Carbon Bonding & Molecular Structure",
+          "label": "Disappearing Polymorphs",
+          "date": "1995",
+          "loc": "ETH Zürich, Switzerland",
+          "coords": [
+            47.38,
+            8.55
+          ],
+          "tag": "PHENOMENON",
+          "repl": "mixed",
+          "hint": "Once a more stable polymorph of a compound has crystallised somewhere in a building, invisible seed crystals spread through the lab or plant and preferentially template that same stable form everywhere, so the previously routine metastable form can suddenly become hard or briefly impossible to reproduce anywhere on site. The effect is real and well documented, but it is practical rather than absolute — with enough effort the 'lost' form can almost always be recovered.",
+          "note": "Dunitz, J.D. & Bernstein, J. (1995). 'Disappearing Polymorphs.' Accounts of Chemical Research, 28(4), 193–200 — a catalogue of well-attested seeded-transition cases. Flagged 'mixed' because the 20-year follow-up, Bučar, D.-K., Lancaster, R.W. & Bernstein, J. (2015), 'Disappearing Polymorphs Revisited' (Angewandte Chemie International Edition, 54(24), 6972–6993), found that essentially every historically 'vanished' form was eventually re-made once researchers understood the crystallisation conditions.",
+          "links": [
+            "co10",
+            "st13",
+            "fg14"
+          ],
+          "keywords": [
+            "seeding contamination",
+            "metastable form loss",
+            "nucleation templating"
+          ]
         }
       ]
     },
@@ -1023,7 +1082,8 @@
           "hint": "Two compounds can share the exact same molecular formula — the same number of each type of atom — while having their atoms connected in genuinely different arrangements, giving them entirely different physical and chemical properties. The realisation that formula alone doesn't determine a substance's identity was itself a significant conceptual shift, since it meant a compound's structure, not just its composition, had to be independently determined.",
           "note": "Berzelius, J.J. (1830). Coined the term 'isomerism' (from Greek for 'equal parts') specifically to describe silver fulminate and silver cyanate, two substances sharing an identical formula but strikingly different properties, Stockholm. Structural isomerism is only one category among several distinct types of isomerism organic chemists now distinguish, alongside stereoisomerism (see co4) and later-recognised subtler variants.",
           "links": [
-            "th1"
+            "th1",
+            "co10"
           ],
           "keywords": [
             "same formula different connectivity",
@@ -1199,6 +1259,36 @@
             "temporary functional disguise",
             "boc group masking",
             "selective reaction site control"
+          ]
+        },
+        {
+          "id": "co10",
+          "group": "Carbon Bonding & Molecular Structure",
+          "label": "Crystal Polymorphism",
+          "date": "1822",
+          "loc": "Berzelius's laboratory, Stockholm, Sweden",
+          "coords": [
+            59.33,
+            18.07
+          ],
+          "tag": "CONCEPT",
+          "hint": "One compound with a single, fixed molecular structure can still crystallise into two or more genuinely different solids, because the molecules pack into different lattice arrangements (and sometimes freeze into different conformations as they do). Each polymorph has its own melting point, density, solubility, dissolution rate and shelf stability, so which crystal form a drug or pigment is manufactured as is a real decision with real consequences, not a formality. The special case where the compound is a pure element — diamond versus graphite — is called allotropy.",
+          "note": "First recognised by Eilhard Mitscherlich (1822), working in Berzelius's laboratory in Stockholm, who showed that salts of phosphoric and arsenic acid each crystallise in more than one distinct form ('dimorphism'), directly contradicting the assumption that composition fixes crystal shape. Wilhelm Ostwald's 'rule of stages' (1897) added the key practical warning: the first polymorph to crystallise from solution is often not the most stable one, so a more stable form can appear without warning months or years later (see ef10, st13).",
+          "links": [
+            "co2",
+            "ef6",
+            "ef10",
+            "st13",
+            "fg14"
+          ],
+          "xlinks": [
+            "inorganic-analytical-chem::me6"
+          ],
+          "keywords": [
+            "same compound different lattice",
+            "Ostwald rule of stages",
+            "crystal packing",
+            "solid-state form"
           ]
         }
       ]
@@ -1697,6 +1787,29 @@
             "wartime institute leadership",
             "most-used ring-forming reaction"
           ]
+        },
+        {
+          "id": "fg14",
+          "group": "Pioneers & Theorists",
+          "label": "Walter C. McCrone",
+          "date": "1965",
+          "loc": "McCrone Research Institute, Chicago, Illinois",
+          "coords": [
+            41.85,
+            -87.65
+          ],
+          "tag": "FIGURE",
+          "hint": "McCrone turned the polarised-light microscope into the primary bench tool for detecting, distinguishing and identifying crystal polymorphs, and founded the institute that trained much of the field in the technique. He argued that essentially every compound is polymorphic and that the number of forms found for any compound is proportional to the time and money spent looking — a working assumption that later, systematic screening campaigns broadly vindicated.",
+          "note": "McCrone, W.C. (1965). 'Polymorphism,' in Physics and Chemistry of the Organic Solid State, Vol. II (D. Fox, M.M. Labes & A. Weissberger, eds.), Interscience, New York, pp. 725–767. McCrone also founded The Microscope journal and the McCrone Research Institute (Chicago); he is separately known to the public for concluding that the Shroud of Turin's image was applied with pigment, a finding that remains contested.",
+          "links": [
+            "co10",
+            "ef10"
+          ],
+          "keywords": [
+            "polarised light microscopy",
+            "every compound is polymorphic",
+            "solid-state identification"
+          ]
         }
       ]
     },
@@ -1882,12 +1995,38 @@
           "note": "Jardetzky, O. (1980). 'On the Nature of Molecular Conformations Inferred from High-Resolution NMR.' Biochimica et Biophysica Acta, 621(2), 227–232, at Stanford University, directly raising the solution-versus-crystal structure question for flexible biomolecules. The disagreement is not a flaw in either technique but a genuine reflection of molecular flexibility itself; for rigid small molecules the two methods generally agree closely, while for larger, more flexible structures meaningful differences can and do appear.",
           "links": [
             "st10",
-            "st11"
+            "st11",
+            "ap7"
           ],
           "keywords": [
             "molecular flexibility disagreement",
             "dissolved versus lattice conformation",
             "technique environment dependence"
+          ]
+        },
+        {
+          "id": "db9",
+          "group": "Spectroscopic Structure Determination",
+          "label": "Can a New Crystal Form Earn Its Own Patent?",
+          "date": "1997",
+          "loc": "Glaxo / UK and US courts, London, United Kingdom",
+          "coords": [
+            51.51,
+            -0.12
+          ],
+          "tag": "DEBATE",
+          "hint": "As a drug's original patent nears expiry, its maker often characterises and patents a newly identified polymorph of the same molecule and argues the new solid form deserves its own term of exclusivity. Generic manufacturers counter that the 'new' form is the unavoidable product of an obvious process, or in borderline cases that it is not a genuinely distinct phase at all. Courts and patent offices have had to decide, case by case, what counts as a real and non-obvious crystal form.",
+          "note": "The defining litigation concerned ranitidine hydrochloride (Zantac): Glaxo's second patent on 'Form 2' was fought through the 1990s in the US and UK (e.g. Glaxo Inc. v. Novopharm Ltd.), with generics arguing Form 1 is inevitably co-produced when making Form 2. The 'is it even a distinct polymorph' question is sharpest for aspirin: a claimed 'Form II' (Vishweshwar, P. et al., 2005, Journal of the American Chemical Society, 127(48), 16802–16803) was reinterpreted by Bond, A.D., Boese, R. & Desiraju, G.R. (2007, Angewandte Chemie International Edition, 46(4), 618–622) as intergrown domains within Form I rather than a separate phase. Critics call polymorph patents 'evergreening'; defenders note that a form with materially better stability or bioavailability is a real advance.",
+          "links": [
+            "st13",
+            "ap3",
+            "ap7"
+          ],
+          "keywords": [
+            "polymorph patent",
+            "evergreening",
+            "ranitidine litigation",
+            "aspirin Form II"
           ]
         }
       ]
@@ -1960,7 +2099,8 @@
           "hint": "Willow bark's pain-relieving properties had been known since antiquity, and its active compound, salicylic acid, had been isolated decades earlier — but salicylic acid itself is harshly irritating to the stomach. A Bayer chemist synthesised a chemically modified version, acetylsalicylic acid, that retained the pain-relieving effect with substantially gentler side effects, and the resulting product, marketed as Aspirin, became one of history's most widely used drugs.",
           "note": "Hoffmann, F. (1897). Synthesised acetylsalicylic acid at Bayer's laboratories, Wuppertal (then Elberfeld). The compound had actually first been synthesised decades earlier by French chemist Charles Frédéric Gerhardt in 1853, in an impure and unstable form he never developed further; Bayer's contribution was producing a pure, stable, reliably reproducible version suitable for genuine pharmaceutical manufacturing and marketing at scale.",
           "links": [
-            "co1"
+            "co1",
+            "db9"
           ],
           "keywords": [
             "stomach-gentler modification",
@@ -2036,6 +2176,31 @@
             "radiation-free body imaging",
             "chemistry tool medical adaptation"
           ]
+        },
+        {
+          "id": "ap7",
+          "group": "Spectroscopic Structure Determination",
+          "label": "Polymorph Screening in Drug Development",
+          "date": "1999",
+          "loc": "ICH Secretariat, Geneva, Switzerland",
+          "coords": [
+            46.2,
+            6.14
+          ],
+          "tag": "APPLICATION",
+          "hint": "Before a drug candidate is filed, developers now run high-throughput crystallisation across dozens to hundreds of solvent, temperature, cooling-rate and additive conditions to find every accessible polymorph, hydrate and solvate. They then choose the most stable manufacturable form for the product and fingerprint the rest by powder X-ray diffraction, differential scanning calorimetry and solid-state NMR so a later unplanned form change can be caught immediately.",
+          "note": "Made a regulatory expectation by the ICH Q6A guideline (1999), whose decision tree requires an applicant to investigate polymorphism and justify the chosen solid form. The practice was driven directly by the ritonavir episode (see st13) and is surveyed in Bernstein, J., 'Polymorphism in Molecular Crystals' (Oxford University Press, 2002; 2nd edition 2020), the standard reference for the field.",
+          "links": [
+            "st13",
+            "db9",
+            "db8"
+          ],
+          "keywords": [
+            "high-throughput crystallisation",
+            "ICH Q6A",
+            "powder X-ray diffraction",
+            "solid form selection"
+          ]
         }
       ]
     }
@@ -2106,6 +2271,11 @@
           "y": 1962,
           "l": "Olah Observes Carbocations Directly",
           "entryId": "st12"
+        },
+        {
+          "y": 1998,
+          "l": "The Ritonavir (Norvir) Polymorph Crisis",
+          "entryId": "st13"
         }
       ]
     },
@@ -2227,6 +2397,11 @@
           "y": 1958,
           "l": "cis-trans Photoisomerization (Vision)",
           "entryId": "ef4"
+        },
+        {
+          "y": 1995,
+          "l": "Disappearing Polymorphs",
+          "entryId": "ef10"
         }
       ]
     },
@@ -2320,6 +2495,11 @@
           "entryId": "db4"
         },
         {
+          "y": 1997,
+          "l": "Can a New Crystal Form Be Patented?",
+          "entryId": "db9"
+        },
+        {
           "y": 2000,
           "l": "Did One Synthesis Kill Vitalism?",
           "entryId": "db1"
@@ -2361,6 +2541,11 @@
           "y": 1973,
           "l": "MRI: Medical Application of NMR",
           "entryId": "ap6"
+        },
+        {
+          "y": 1999,
+          "l": "Polymorph Screening in Drug Development",
+          "entryId": "ap7"
         }
       ]
     }
