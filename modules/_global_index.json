@@ -1,9 +1,9 @@
 {
   "_meta": {
-    "total_entries": 2293,
+    "total_entries": 2299,
     "folio_count": 30,
-    "xlink_pairs": 178,
-    "keyword_terms": 8046,
+    "xlink_pairs": 183,
+    "keyword_terms": 8070,
     "folios": [
       {
         "id": "anatomy-histology",
@@ -153,7 +153,7 @@
       {
         "id": "zoology-animal-behavior",
         "title": "Zoology & Animal Behavior",
-        "entries": 74
+        "entries": 80
       }
     ]
   },
@@ -2388,6 +2388,7 @@
     "zoology-animal-behavior::th9": "theory · Evolutionary Foundations · Tinbergen's Four Questions (1963)",
     "zoology-animal-behavior::th10": "theory · Evolutionary Foundations · Red Queen Hypothesis (1973)",
     "zoology-animal-behavior::th11": "theory · Evolutionary Foundations · Life History Theory (1977)",
+    "zoology-animal-behavior::th12": "theory · Locomotion & Biomechanics · Borelli's Law of Jumping (1680)",
     "zoology-animal-behavior::st1": "study · Migration & Cognition · Lorenz on Imprinting in Greylag Geese (1935)",
     "zoology-animal-behavior::st2": "study · Communication & Signalling · von Frisch Decodes the Honeybee Waggle Dance (1944)",
     "zoology-animal-behavior::st3": "study · Evolutionary Foundations · Tinbergen's Stickleback Experiments (1951)",
@@ -2410,6 +2411,8 @@
     "zoology-animal-behavior::ef7": "effect · Evolutionary Foundations · Brood Parasite Arms Race (1989)",
     "zoology-animal-behavior::ef8": "effect · Reproduction & Sexual Selection · Bruce Effect (1959)",
     "zoology-animal-behavior::ef9": "effect · Communication & Signalling · Dear Enemy Effect (1976)",
+    "zoology-animal-behavior::ef10": "effect · Locomotion & Biomechanics · Latch-Mediated Spring Actuation (Catapult Mechanisms) (1967)",
+    "zoology-animal-behavior::ef11": "effect · Locomotion & Biomechanics · Elastic Energy Storage in Locomotion (1975)",
     "zoology-animal-behavior::co1": "concept · Evolutionary Foundations · Fixed Action Pattern (1950)",
     "zoology-animal-behavior::co2": "concept · Migration & Cognition · Imprinting (1935)",
     "zoology-animal-behavior::co3": "concept · Social Behaviour & Cooperation · Eusociality (1966)",
@@ -2419,6 +2422,7 @@
     "zoology-animal-behavior::co7": "concept · Evolutionary Foundations · Coefficient of Relatedness (1964)",
     "zoology-animal-behavior::co8": "concept · Evolutionary Foundations · Behavioural Syndromes & Animal Personality (2004)",
     "zoology-animal-behavior::co9": "concept · Evolutionary Foundations · Domestication Syndrome (1979)",
+    "zoology-animal-behavior::co10": "concept · Locomotion & Biomechanics · The Square-Cube Law in Animal Design (1926)",
     "zoology-animal-behavior::me1": "method · Evolutionary Foundations · Ethogram & Focal Animal Sampling (1963)",
     "zoology-animal-behavior::me2": "method · Migration & Cognition · Radio Telemetry & Satellite Tracking (1964)",
     "zoology-animal-behavior::me3": "method · Communication & Signalling · Playback Experiments (1956)",
@@ -2436,6 +2440,7 @@
     "zoology-animal-behavior::fg11": "figure · Pioneers & Theorists · Donald Griffin (1944)",
     "zoology-animal-behavior::fg12": "figure · Pioneers & Theorists · Frans de Waal (1982)",
     "zoology-animal-behavior::fg13": "figure · Pioneers & Theorists · Dmitry Belyayev & Lyudmila Trut (1959)",
+    "zoology-animal-behavior::fg14": "figure · Pioneers & Theorists · Giovanni Alfonso Borelli (1680)",
     "zoology-animal-behavior::db1": "debate · Social Behaviour & Cooperation · Group Selection vs Kin Selection (1966)",
     "zoology-animal-behavior::db2": "debate · Social Behaviour & Cooperation · The Sociobiology Controversy (1975)",
     "zoology-animal-behavior::db3": "debate · Evolutionary Foundations · Units of Selection: Gene, Organism or Group? (1966)",
@@ -2445,6 +2450,7 @@
     "zoology-animal-behavior::db7": "debate · Evolutionary Foundations · Instinct vs Learning: The Blank Slate Debate (1953)",
     "zoology-animal-behavior::db8": "debate · Migration & Cognition · Culture in Non-Human Animals (1999)",
     "zoology-animal-behavior::db9": "debate · Reproduction & Sexual Selection · Sexual Conflict (1979)",
+    "zoology-animal-behavior::db10": "debate · Locomotion & Biomechanics · Do All Animals Jump to the Same Height? (2006)",
     "zoology-animal-behavior::ap1": "application · Animal Diversity & Phylogeny · Conservation Genetics & Population Management (1996)",
     "zoology-animal-behavior::ap2": "application · Foraging & Ecology · Biological Pest Control (1888)",
     "zoology-animal-behavior::ap3": "application · Communication & Signalling · Managed Pollinator Conservation (2006)",
@@ -3406,6 +3412,34 @@
     ],
     "systems-and-complexity::ap4": [
       "zoology-animal-behavior::th1"
+    ],
+    "zoology-animal-behavior::th12": [
+      "classical-physics::th3"
+    ],
+    "classical-physics::th3": [
+      "zoology-animal-behavior::th12"
+    ],
+    "zoology-animal-behavior::ef11": [
+      "biological-anthropology::th4"
+    ],
+    "biological-anthropology::th4": [
+      "zoology-animal-behavior::ef11"
+    ],
+    "zoology-animal-behavior::co10": [
+      "anatomy-histology::th3"
+    ],
+    "anatomy-histology::th3": [
+      "zoology-animal-behavior::co10"
+    ],
+    "zoology-animal-behavior::fg14": [
+      "anatomy-histology::fg9",
+      "classical-physics::th1"
+    ],
+    "anatomy-histology::fg9": [
+      "zoology-animal-behavior::fg14"
+    ],
+    "classical-physics::th1": [
+      "zoology-animal-behavior::fg14"
     ]
   },
   "entry_keywords": {
@@ -15799,6 +15833,12 @@
       "pace-of-life syndrome",
       "reproductive timing trade-off"
     ],
+    "zoology-animal-behavior::th12": [
+      "jump height scaling",
+      "take-off velocity",
+      "isometric scaling",
+      "comparative biomechanics"
+    ],
     "zoology-animal-behavior::st1": [
       "imprinting critical period",
       "Lorenz greylag imprint",
@@ -15931,6 +15971,18 @@
       "territory resident recognition",
       "reduced aggression neighbour"
     ],
+    "zoology-animal-behavior::ef10": [
+      "latch-mediated spring actuation",
+      "power amplification",
+      "resilin",
+      "flea jump"
+    ],
+    "zoology-animal-behavior::ef11": [
+      "elastic energy storage",
+      "tendon spring",
+      "spring-mass model",
+      "cost of transport"
+    ],
     "zoology-animal-behavior::co1": [
       "fixed action pattern innate",
       "modal action pattern",
@@ -15984,6 +16036,12 @@
       "tameness juvenile retention",
       "neoteny domestication",
       "domestication correlated traits"
+    ],
+    "zoology-animal-behavior::co10": [
+      "square-cube law",
+      "allometry",
+      "on being the right size",
+      "body size limit"
     ],
     "zoology-animal-behavior::me1": [
       "ethogram behaviour catalogue",
@@ -16087,6 +16145,12 @@
       "domestication genetics",
       "Trut fox tame"
     ],
+    "zoology-animal-behavior::fg14": [
+      "father of biomechanics",
+      "De Motu Animalium",
+      "iatrophysics",
+      "muscles as levers"
+    ],
     "zoology-animal-behavior::db1": [
       "group selection controversy",
       "multilevel selection debate",
@@ -16140,6 +16204,12 @@
       "chase-away selection",
       "sexually antagonistic coevolution",
       "male female conflict"
+    ],
+    "zoology-animal-behavior::db10": [
+      "two Borelli laws",
+      "force-velocity constraint",
+      "jump height definition",
+      "spring-actuated jumping"
     ],
     "zoology-animal-behavior::ap1": [
       "conservation genetics population",
@@ -39714,6 +39784,18 @@
     "reproductive timing trade-off": [
       "zoology-animal-behavior::th11"
     ],
+    "jump height scaling": [
+      "zoology-animal-behavior::th12"
+    ],
+    "take-off velocity": [
+      "zoology-animal-behavior::th12"
+    ],
+    "isometric scaling": [
+      "zoology-animal-behavior::th12"
+    ],
+    "comparative biomechanics": [
+      "zoology-animal-behavior::th12"
+    ],
     "imprinting critical period": [
       "zoology-animal-behavior::st1"
     ],
@@ -39972,6 +40054,30 @@
     "reduced aggression neighbour": [
       "zoology-animal-behavior::ef9"
     ],
+    "latch-mediated spring actuation": [
+      "zoology-animal-behavior::ef10"
+    ],
+    "power amplification": [
+      "zoology-animal-behavior::ef10"
+    ],
+    "resilin": [
+      "zoology-animal-behavior::ef10"
+    ],
+    "flea jump": [
+      "zoology-animal-behavior::ef10"
+    ],
+    "elastic energy storage": [
+      "zoology-animal-behavior::ef11"
+    ],
+    "tendon spring": [
+      "zoology-animal-behavior::ef11"
+    ],
+    "spring-mass model": [
+      "zoology-animal-behavior::ef11"
+    ],
+    "cost of transport": [
+      "zoology-animal-behavior::ef11"
+    ],
     "fixed action pattern innate": [
       "zoology-animal-behavior::co1"
     ],
@@ -40080,6 +40186,18 @@
     ],
     "domestication correlated traits": [
       "zoology-animal-behavior::co9"
+    ],
+    "square-cube law": [
+      "zoology-animal-behavior::co10"
+    ],
+    "allometry": [
+      "zoology-animal-behavior::co10"
+    ],
+    "on being the right size": [
+      "zoology-animal-behavior::co10"
+    ],
+    "body size limit": [
+      "zoology-animal-behavior::co10"
     ],
     "ethogram behaviour catalogue": [
       "zoology-animal-behavior::me1"
@@ -40273,6 +40391,18 @@
     "Trut fox tame": [
       "zoology-animal-behavior::fg13"
     ],
+    "father of biomechanics": [
+      "zoology-animal-behavior::fg14"
+    ],
+    "De Motu Animalium": [
+      "zoology-animal-behavior::fg14"
+    ],
+    "iatrophysics": [
+      "zoology-animal-behavior::fg14"
+    ],
+    "muscles as levers": [
+      "zoology-animal-behavior::fg14"
+    ],
     "group selection controversy": [
       "zoology-animal-behavior::db1"
     ],
@@ -40380,6 +40510,18 @@
     ],
     "male female conflict": [
       "zoology-animal-behavior::db9"
+    ],
+    "two Borelli laws": [
+      "zoology-animal-behavior::db10"
+    ],
+    "force-velocity constraint": [
+      "zoology-animal-behavior::db10"
+    ],
+    "jump height definition": [
+      "zoology-animal-behavior::db10"
+    ],
+    "spring-actuated jumping": [
+      "zoology-animal-behavior::db10"
     ],
     "conservation genetics population": [
       "zoology-animal-behavior::ap1"

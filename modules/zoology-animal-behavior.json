@@ -4,7 +4,7 @@
   "title": "Zoology & Animal Behavior",
   "subtitle": "Animal diversity, ecology & the evolution of behaviour",
   "period": {
-    "start": 1859,
+    "start": 1680,
     "end": 2025
   },
   "domain": "life-sciences",
@@ -15,25 +15,25 @@
   "mapZoom": 2,
   "methodology": "METHODOLOGY · Every entry anchors to a landmark study, field observation or theoretical text. The hint explains the idea in plain language; the note names the primary publication and flags replication status, effect-size revisions and known controversies. Studies and effects carry a replicability badge — 🟢 robust · 🟡 nuanced or reduced · 🔴 failed or severely contested. Map pins mark the institution where the work was carried out.",
   "_meta": {
-    "total_entries": 74,
+    "total_entries": 80,
     "entry_counts": {
-      "theory": 11,
+      "theory": 12,
       "study": 13,
-      "effect": 9,
-      "concept": 9,
+      "effect": 11,
+      "concept": 10,
       "method": 6,
-      "figure": 11,
-      "debate": 9,
+      "figure": 12,
+      "debate": 10,
       "application": 6
     },
     "max_ids": {
-      "th": 11,
+      "th": 12,
       "st": 13,
-      "ef": 9,
-      "co": 9,
+      "ef": 11,
+      "co": 10,
       "me": 6,
-      "fg": 13,
-      "db": 9,
+      "fg": 14,
+      "db": 10,
       "ap": 6
     },
     "groups": [
@@ -41,12 +41,13 @@
       "Communication & Signalling",
       "Evolutionary Foundations",
       "Foraging & Ecology",
+      "Locomotion & Biomechanics",
       "Migration & Cognition",
       "Pioneers & Theorists",
       "Reproduction & Sexual Selection",
       "Social Behaviour & Cooperation"
     ],
-    "last_updated": "2026-08-24"
+    "last_updated": "2026-09-09"
   },
   "_index": {
     "th1": "theory · Evolutionary Foundations · Natural Selection & Adaptation (1859)",
@@ -60,6 +61,7 @@
     "th9": "theory · Evolutionary Foundations · Tinbergen's Four Questions (1963)",
     "th10": "theory · Evolutionary Foundations · Red Queen Hypothesis (1973)",
     "th11": "theory · Evolutionary Foundations · Life History Theory (1977)",
+    "th12": "theory · Locomotion & Biomechanics · Borelli's Law of Jumping (1680)",
     "st1": "study · Migration & Cognition · Lorenz on Imprinting in Greylag Geese (1935)",
     "st2": "study · Communication & Signalling · von Frisch Decodes the Honeybee Waggle Dance (1944)",
     "st3": "study · Evolutionary Foundations · Tinbergen's Stickleback Experiments (1951)",
@@ -82,6 +84,8 @@
     "ef7": "effect · Evolutionary Foundations · Brood Parasite Arms Race (1989)",
     "ef8": "effect · Reproduction & Sexual Selection · Bruce Effect (1959)",
     "ef9": "effect · Communication & Signalling · Dear Enemy Effect (1976)",
+    "ef10": "effect · Locomotion & Biomechanics · Latch-Mediated Spring Actuation (Catapult Mechanisms) (1967)",
+    "ef11": "effect · Locomotion & Biomechanics · Elastic Energy Storage in Locomotion (1975)",
     "co1": "concept · Evolutionary Foundations · Fixed Action Pattern (1950)",
     "co2": "concept · Migration & Cognition · Imprinting (1935)",
     "co3": "concept · Social Behaviour & Cooperation · Eusociality (1966)",
@@ -91,6 +95,7 @@
     "co7": "concept · Evolutionary Foundations · Coefficient of Relatedness (1964)",
     "co8": "concept · Evolutionary Foundations · Behavioural Syndromes & Animal Personality (2004)",
     "co9": "concept · Evolutionary Foundations · Domestication Syndrome (1979)",
+    "co10": "concept · Locomotion & Biomechanics · The Square-Cube Law in Animal Design (1926)",
     "me1": "method · Evolutionary Foundations · Ethogram & Focal Animal Sampling (1963)",
     "me2": "method · Migration & Cognition · Radio Telemetry & Satellite Tracking (1964)",
     "me3": "method · Communication & Signalling · Playback Experiments (1956)",
@@ -108,6 +113,7 @@
     "fg11": "figure · Pioneers & Theorists · Donald Griffin (1944)",
     "fg12": "figure · Pioneers & Theorists · Frans de Waal (1982)",
     "fg13": "figure · Pioneers & Theorists · Dmitry Belyayev & Lyudmila Trut (1959)",
+    "fg14": "figure · Pioneers & Theorists · Giovanni Alfonso Borelli (1680)",
     "db1": "debate · Social Behaviour & Cooperation · Group Selection vs Kin Selection (1966)",
     "db2": "debate · Social Behaviour & Cooperation · The Sociobiology Controversy (1975)",
     "db3": "debate · Evolutionary Foundations · Units of Selection: Gene, Organism or Group? (1966)",
@@ -117,6 +123,7 @@
     "db7": "debate · Evolutionary Foundations · Instinct vs Learning: The Blank Slate Debate (1953)",
     "db8": "debate · Migration & Cognition · Culture in Non-Human Animals (1999)",
     "db9": "debate · Reproduction & Sexual Selection · Sexual Conflict (1979)",
+    "db10": "debate · Locomotion & Biomechanics · Do All Animals Jump to the Same Height? (2006)",
     "ap1": "application · Animal Diversity & Phylogeny · Conservation Genetics & Population Management (1996)",
     "ap2": "application · Foraging & Ecology · Biological Pest Control (1888)",
     "ap3": "application · Communication & Signalling · Managed Pollinator Conservation (2006)",
@@ -466,6 +473,36 @@
             "r K selection",
             "pace-of-life syndrome",
             "reproductive timing trade-off"
+          ]
+        },
+        {
+          "id": "th12",
+          "group": "Locomotion & Biomechanics",
+          "label": "Borelli's Law of Jumping",
+          "date": "1680",
+          "loc": "University of Pisa, Italy",
+          "coords": [
+            43.72,
+            10.4
+          ],
+          "tag": "LAW",
+          "hint": "Because a muscle's work output and an animal's body mass both scale roughly with volume, the energy available per kilogram to accelerate the body at take-off is about the same whatever the animal's size. So a flea, a bushbaby, a human and a horse should all leave the ground at similar speeds and clear similar absolute heights — on the order of tens of centimetres to a metre or two — even though that is a trivial fraction of a horse's body length and many times a flea's. It was the first quantitative, size-independent prediction in comparative physiology.",
+          "note": "Borelli, G.A. (1680-1681). De Motu Animalium, 2 vols., Rome (posthumous), Proposition CLXXVII and following. The modern compact statement — a vertical take-off velocity v gives a ballistic rise h = v²/2g that is independent of mass — is conventionally credited to Borelli although it postdates Newton's mechanics (1687). The law is now known to hold only loosely and only for muscle-powered jumpers; it has been substantially revised rather than overturned (see db10).",
+          "links": [
+            "co10",
+            "ef10",
+            "ef11",
+            "fg14",
+            "db10"
+          ],
+          "xlinks": [
+            "classical-physics::th3"
+          ],
+          "keywords": [
+            "jump height scaling",
+            "take-off velocity",
+            "isometric scaling",
+            "comparative biomechanics"
           ]
         }
       ]
@@ -1091,6 +1128,63 @@
             "territory resident recognition",
             "reduced aggression neighbour"
           ]
+        },
+        {
+          "id": "ef10",
+          "group": "Locomotion & Biomechanics",
+          "label": "Latch-Mediated Spring Actuation (Catapult Mechanisms)",
+          "date": "1967",
+          "loc": "University of Edinburgh, Scotland",
+          "coords": [
+            55.94,
+            -3.19
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "A muscle contracts far too slowly to deliver the power a flea or froghopper needs to jump, so small jumpers do not power the jump with muscle directly. Instead the muscle contracts slowly against a mechanical catch, storing energy in a spring — resilin pads, bent cuticle — and then a latch releases so the spring discharges in well under a millisecond, multiplying peak power output by a hundred to a thousand times over the muscle's own limit. The same latch-and-spring trick drives the mantis-shrimp strike and the trap-jaw ant's mandibles.",
+          "note": "First quantified for the flea by Bennet-Clark, H.C. & Lucey, E.C.A. (1967), 'The jump of the flea: a study of the energetics and a model of the mechanism,' Journal of Experimental Biology, 47, 59-76. The froghopper, the strongest jumper relative to size then known, was described by Burrows, M. (2003), 'Froghopper insects leap to new heights,' Nature, 424, 509. Ilton, M. et al. (2018), 'The principles of cascading power limits in small, fast biological and engineered systems,' Science, 360, eaao1082, treats the whole class as one physical problem.",
+          "links": [
+            "th12",
+            "co10",
+            "ef11",
+            "fg14",
+            "db10"
+          ],
+          "keywords": [
+            "latch-mediated spring actuation",
+            "power amplification",
+            "resilin",
+            "flea jump"
+          ]
+        },
+        {
+          "id": "ef11",
+          "group": "Locomotion & Biomechanics",
+          "label": "Elastic Energy Storage in Locomotion",
+          "date": "1975",
+          "loc": "University of Leeds, England",
+          "coords": [
+            53.8,
+            -1.55
+          ],
+          "tag": "PHENOMENON",
+          "repl": "robust",
+          "hint": "Tendons and other springy tissues stretch as a leg takes the body's weight and then recoil elastically as it pushes off, handing back energy that powered muscle would otherwise have had to supply and dissipate every stride. A hopping kangaroo recovers enough this way that its oxygen consumption barely rises as it speeds up; a running human's Achilles tendon and foot arch return roughly a third of the work of each step. The bouncing leg is well modelled as a single spring rather than a stack of powered levers.",
+          "note": "Alexander, R. McN. & Vernon, A. (1975), 'The mechanics of hopping by kangaroos (Macropodidae),' Journal of Zoology, 177(2), 265-303. The two-mechanism account of gait energetics (an inverted-pendulum walk and a bouncing run) is Cavagna, G.A., Heglund, N.C. & Taylor, C.R. (1977), 'Mechanical work in terrestrial locomotion,' American Journal of Physiology, 233(5), R243-R261; the human Achilles and arch springs were measured by Ker, R.F. et al. (1987), 'The spring in the arch of the human foot,' Nature, 325, 147-149.",
+          "links": [
+            "ef10",
+            "co10",
+            "th12"
+          ],
+          "xlinks": [
+            "biological-anthropology::th4"
+          ],
+          "keywords": [
+            "elastic energy storage",
+            "tendon spring",
+            "spring-mass model",
+            "cost of transport"
+          ]
         }
       ]
     },
@@ -1347,6 +1441,35 @@
             "tameness juvenile retention",
             "neoteny domestication",
             "domestication correlated traits"
+          ]
+        },
+        {
+          "id": "co10",
+          "group": "Locomotion & Biomechanics",
+          "label": "The Square-Cube Law in Animal Design",
+          "date": "1926",
+          "loc": "University College London, England",
+          "coords": [
+            51.52,
+            -0.13
+          ],
+          "tag": "PRINCIPLE",
+          "hint": "When an animal is scaled up in shape without changing its proportions, surface areas — and the load-bearing cross-sections of bones and muscles — grow with the square of length while weight grows with the cube. A doubled-size animal is therefore eight times heavier but its legs only four times stronger. This single mismatch explains why large animals need disproportionately thick limb bones, cannot jump or climb the way small ones do, shed heat more slowly, and why every body plan has an upper size limit.",
+          "note": "The geometric argument goes back to Galileo, Two New Sciences (1638); its canonical modern statement for biology is J.B.S. Haldane's essay 'On Being the Right Size' (1926, Harper's Magazine; reprinted in Possible Worlds, 1927). The muscle-dynamics version is A.V. Hill (1950), 'The dimensions of animals and their muscular dynamics,' Science Progress, 38, 209-230. Genuine departures from strict geometric similarity (limb bones scale closer to elastic similarity in large mammals) were quantified by McMahon (1973).",
+          "links": [
+            "th12",
+            "ef10",
+            "ef11",
+            "db10"
+          ],
+          "xlinks": [
+            "anatomy-histology::th3"
+          ],
+          "keywords": [
+            "square-cube law",
+            "allometry",
+            "on being the right size",
+            "body size limit"
           ]
         }
       ]
@@ -1821,6 +1944,34 @@
             "domestication genetics",
             "Trut fox tame"
           ]
+        },
+        {
+          "id": "fg14",
+          "group": "Pioneers & Theorists",
+          "label": "Giovanni Alfonso Borelli",
+          "date": "1680",
+          "loc": "University of Pisa, Italy",
+          "coords": [
+            43.72,
+            10.4
+          ],
+          "tag": "FIGURE",
+          "hint": "Borelli treated the animal body as a system of levers, struts and motors obeying ordinary mechanics — calculating the forces acting at joints during walking, running, flying, swimming and jumping, and insisting that muscles can only pull, never push. De Motu Animalium founded biomechanics and anchored the 'iatrophysical' school that tried to rebuild physiology on a physical and mathematical footing rather than on humours.",
+          "note": "Borelli, G.A. (1680-1681). De Motu Animalium, Rome (Latin, posthumous; English translation by P. Maquet, 1989). Borelli was also a mathematician and astronomer — he tracked the moons of Jupiter and argued for parabolic cometary paths — and a correspondent of Marcello Malpighi. His claim that a muscle's force is proportional to its cross-sectional area is essentially correct; his numerical estimates of joint forces ran high, but the method of resolving them was sound.",
+          "links": [
+            "th12",
+            "ef10"
+          ],
+          "xlinks": [
+            "anatomy-histology::fg9",
+            "classical-physics::th1"
+          ],
+          "keywords": [
+            "father of biomechanics",
+            "De Motu Animalium",
+            "iatrophysics",
+            "muscles as levers"
+          ]
         }
       ]
     },
@@ -2075,6 +2226,31 @@
             "sexually antagonistic coevolution",
             "male female conflict"
           ]
+        },
+        {
+          "id": "db10",
+          "group": "Locomotion & Biomechanics",
+          "label": "Do All Animals Jump to the Same Height?",
+          "date": "2006",
+          "loc": "Vrije Universiteit Amsterdam, Netherlands",
+          "coords": [
+            52.33,
+            4.87
+          ],
+          "tag": "DEBATE",
+          "hint": "Borelli's prediction of size-independent jump height (th12) turns out to hold only loosely, and only for muscle-powered jumpers. Animals that jump with catapult mechanisms hit a separate, lower energetic ceiling — very roughly a third of the muscle-powered maximum. And if two differently sized animals produced the identical joint motion, the smaller one should actually jump higher, because muscle's force-velocity property penalises the faster joint rotations a scaled-down body needs. Whether the law 'holds' at all also depends on whether jump height is measured as centre-of-mass rise during push-off or as the ballistic apex.",
+          "note": "Scholz, M.N., Bobbert, M.F. & van Soest, A.J. (2006), 'Scaling and jumping: gravity loses grip on small jumpers,' Journal of Theoretical Biology, 240(4), 554-561. The muscle-versus-spring ceiling is argued in Sutton, G.P. et al. (2019), 'Why do large animals never actuate their jumps with latch-mediated springs? Because they can jump higher without them,' Integrative and Comparative Biology, 59(6), 1609-1618. The measurement-definition problem is laid out in 'Effects of Isometric Scaling on Vertical Jumping Performance,' PLoS ONE (2013), 8(8), e71209.",
+          "links": [
+            "th12",
+            "ef10",
+            "co10"
+          ],
+          "keywords": [
+            "two Borelli laws",
+            "force-velocity constraint",
+            "jump height definition",
+            "spring-actuated jumping"
+          ]
         }
       ]
     },
@@ -2311,6 +2487,11 @@
       "label": "Theories & Models",
       "events": [
         {
+          "y": 1680,
+          "l": "Borelli's Law of Jumping",
+          "entryId": "th12"
+        },
+        {
           "y": 1859,
           "l": "Darwin: natural selection",
           "entryId": "th1"
@@ -2399,6 +2580,16 @@
           "entryId": "ef4"
         },
         {
+          "y": 1967,
+          "l": "Latch-Mediated Spring Actuation",
+          "entryId": "ef10"
+        },
+        {
+          "y": 1975,
+          "l": "Elastic Energy Storage in Locomotion",
+          "entryId": "ef11"
+        },
+        {
           "y": 1976,
           "l": "Charnov: marginal value theorem",
           "entryId": "ef3"
@@ -2485,6 +2676,11 @@
           "entryId": "db4"
         },
         {
+          "y": 1979,
+          "l": "Parker: sexual conflict theory",
+          "entryId": "db9"
+        },
+        {
           "y": 1990,
           "l": "Honest vs conventional signals",
           "entryId": "db6"
@@ -2495,6 +2691,11 @@
           "entryId": "db8"
         },
         {
+          "y": 2006,
+          "l": "Do All Animals Jump the Same Height?",
+          "entryId": "db10"
+        },
+        {
           "y": 2010,
           "l": "Units of selection revisited",
           "entryId": "db3"
@@ -2503,11 +2704,6 @@
           "y": 2012,
           "l": "Bateman's principle contested",
           "entryId": "db5"
-        },
-        {
-          "y": 1979,
-          "l": "Parker: sexual conflict theory",
-          "entryId": "db9"
         }
       ]
     },

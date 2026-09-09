@@ -1098,9 +1098,9 @@ const STUDY_PLANS = {
         groups: ['Evolutionary Foundations']
       },
       {
-        title: '4 — Animal Diversity & Phylogeny',
-        rationale: 'The species-area relationship, Müllerian and Batesian mimicry, and phylogenetic comparative methods reveal how diversity is generated, measured and structured. These entries provide the macroecological context for behavioural variation across taxa.',
-        groups: ['Animal Diversity & Phylogeny']
+        title: '4 — Animal Diversity, Form & Function',
+        rationale: 'The species-area relationship, Müllerian and Batesian mimicry, and phylogenetic comparative methods reveal how diversity is generated, measured and structured. Alongside them, the square-cube law, Borelli\'s law of jumping, catapult mechanisms and elastic energy storage show how body size and mechanics constrain what any animal can physically do. Together these entries provide the macroecological and functional-morphological context for behavioural variation across taxa.',
+        groups: ['Animal Diversity & Phylogeny', 'Locomotion & Biomechanics']
       },
       {
         title: '5 — Communication & Signalling',
